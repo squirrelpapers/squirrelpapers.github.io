@@ -6,6 +6,8 @@
 #   2026-10-06; correct by hand whenever a value is wrong.
 # `search`: optional search terms [venue, city] for places the label alone does
 #   not find; the next harvest searches again and proposes a QID.
+# `coordinates`: optional {lat, lon}, only where the Wikidata item has none;
+#   it takes precedence over Wikidata on the map (S10).
 
 places:
 - key: alte-universitat-heidelberg
@@ -13,7 +15,7 @@ places:
   search:
   - Alte Universität
   - Heidelberg
-  wikidata: null
+  wikidata: Q436344
   entries: 1
 - key: aula-convegni-cast-center-for-advanced-studies
   label: Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti Scalo,
@@ -41,7 +43,7 @@ places:
   search:
   - Deutsches Bergbau-Museum
   - Bochum
-  wikidata: null
+  wikidata: Q896952
   entries: 2
 - key: deutsches-bergbau-museum-bochum-germany
   label: Deutsches Bergbau-Museum, Bochum, Germany
@@ -152,7 +154,12 @@ places:
   search:
   - Römisch-Germanische Kommission
   - Frankfurt am Main
-  wikidata: null
+  # The RGK item has no coordinates on Wikidata (no P625). They are taken from
+  # its library, Q28739191, in the same building at the Palmengarten.
+  wikidata: Q1425831
+  coordinates:
+    lat: 50.12064
+    lon: 8.65729
   entries: 1
 - key: rwth-aachen-c-a-r-l-aachen-germany
   label: RWTH Aachen, C.A.R.L., Aachen, Germany

@@ -185,6 +185,7 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | QIDs der Orte | Veranstaltungsort, wenn Wikidata ihn kennt, sonst die Stadt; die S3-Vorschläge sind übernommen (52 von 55), nachjustiert wird von Hand | 2026-10-06 |
 | Suchhilfe für Orte | Optionales Feld `search: [Venue, Stadt]` in `content/places.yaml`; der Harvest sucht neu, sobald es sich ändert | 2026-10-06 |
 | Fehlgeschlagene Abrufe | Werden nie gecacht: Netzfehler landen nicht in `_status.json`, gescheiterte Suchen nicht in `wikidata-search/` (gefunden, als ein Lauf ohne Netz leere Suchergebnisse gespeichert hatte) | 2026-10-06 |
+| Koordinaten ohne P625 | Optionales Feld `coordinates: {lat, lon}` in `content/places.yaml`, nur wenn das Wikidata-Item keine hat; hat Vorrang vor Wikidata. Erster Fall: RGK (Q1425831), Koordinaten von ihrer Bibliothek Q28739191 im selben Haus am Palmengarten | 2026-10-07 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -602,5 +603,9 @@ auf die neuen IRIs (P856 / P953 o. ä.).
    Frankfurt am Main), DBM (Deutsches Bergbau-Museum Bochum) und Alte
    Universität (Heidelberger Innenstadt) stehen Suchhilfen in `places.yaml`;
    der nächste Harvest schlägt QIDs vor, die von Hand übernommen werden.
+   → 2026-10-07 übernommen: Alte Universität Q436344, Deutsches
+   Bergbau-Museum Q896952, RGK Q1425831 (mit `coordinates`, siehe A4). Alle
+   55 Orte haben eine QID. Nebenbei: Q1425831 auf Wikidata P625 zu geben, würde
+   die Ausnahme überflüssig machen.
 6. **DOI für Volumes/Issues** (Zenodo-Communities oder eigene Records)? Würde
    die Zitierfähigkeit der Issues verbessern.

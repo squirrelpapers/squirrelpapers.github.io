@@ -5,9 +5,7 @@
 places:
 - key: alte-universitat-heidelberg
   label: "Alte Universität Heidelberg"
-  wikidata: Q436344   # Alte Universität - building in Heidelberg, Karlsruhe Government Region, Bade-Württemberg, Germany (49.411, 8.706)
-  # alternative: Q2966   Heidelberg - large city in Baden-Württemberg, Germany (49.409, 8.695)
-  # alternative: Q20754305   Alte Universität (47.799, 13.042)
+  wikidata: Q436344
   entries: 1
 - key: aula-convegni-cast-center-for-advanced-studies
   label: "Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti Scalo, Chieti, Italy"
@@ -31,9 +29,7 @@ places:
   entries: 1
 - key: dbm-bochum-germany
   label: "DBM Bochum, Germany"
-  wikidata: Q896952   # German Mining Museum - museum (51.489, 7.217)
-  # alternative: Q2103   Bochum - city in North Rhine-Westphalia, Germany (51.483, 7.217)
-  # alternative: Q31916839   Bochum (51.480, 7.218)
+  wikidata: Q896952
   entries: 2
 - key: deutsches-bergbau-museum-bochum-germany
   label: "Deutsches Bergbau-Museum, Bochum, Germany"
@@ -141,9 +137,7 @@ places:
   entries: 1
 - key: rgk-frankfurt-am-mainz
   label: "RGK, Frankfurt am Mainz"
-  wikidata: Q1794   # Frankfurt - most populated city of Hesse, Germany (50.111, 8.682)
-  # alternative: Q28739191   Römisch-Germanische Kommission des Deutschen Archäologischen Instituts, Bibliothek - library in Germany (50.121, 8.657)
-  # alternative: Q881481   Frankfurt Main Cemetery - cemetery in Frankfurt am Main, Hesse, Germany (50.136, 8.685)
+  wikidata: Q1425831
   entries: 1
 - key: rwth-aachen-c-a-r-l-aachen-germany
   label: "RWTH Aachen, C.A.R.L., Aachen, Germany"

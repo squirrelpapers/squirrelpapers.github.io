@@ -465,8 +465,8 @@ def write_report() -> None:
     places = load_places()
     with_qid = [p for p in places if p.get("wikidata")]
     qid_missing = [p for p in with_qid if not entity(p["wikidata"])]
-    no_coords = [p for p in with_qid if entity(p["wikidata"]) and
-                 not entity(p["wikidata"]).get("coordinates")]
+    no_coords = [p for p in with_qid if entity(p["wikidata"]) and not p.get("coordinates")
+                 and not entity(p["wikidata"]).get("coordinates")]
 
     def cell(text) -> str:
         return str(text).replace("|", "\\|")

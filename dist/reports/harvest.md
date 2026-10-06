@@ -69,14 +69,7 @@ One DOI cited by several entries; at most one of them can be right. Similarity t
 
 ## Places
 
-- places in `content/places.yaml`: 55, with QID: 52
+- places in `content/places.yaml`: 55, with QID: 55
 - QID not found on Wikidata: 0
 - QID without coordinates: 0
 
-### Suggestions for places without a QID
-
-| Place | Proposed | Alternatives |
-|---|---|---|
-| Alte Universität Heidelberg | Q436344 Alte Universität - building in Heidelberg, Karlsruhe Government Region, Bade-Württemberg, Germany (49.411, 8.706) | Q2966 Heidelberg - large city in Baden-Württemberg, Germany (49.409, 8.695); Q20754305 Alte Universität (47.799, 13.042) |
-| DBM Bochum, Germany | Q896952 German Mining Museum - museum (51.489, 7.217) | Q2103 Bochum - city in North Rhine-Westphalia, Germany (51.483, 7.217); Q31916839 Bochum (51.480, 7.218) |
-| RGK, Frankfurt am Mainz | Q1794 Frankfurt - most populated city of Hesse, Germany (50.111, 8.682) | Q28739191 Römisch-Germanische Kommission des Deutschen Archäologischen Instituts, Bibliothek - library in Germany (50.121, 8.657); Q881481 Frankfurt Main Cemetery - cemetery in Frankfurt am Main, Hesse, Germany (50.136, 8.685) |
