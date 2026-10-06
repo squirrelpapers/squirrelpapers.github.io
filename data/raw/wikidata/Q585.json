@@ -1,0 +1,26 @@
+{
+  "coordinates": {
+    "lat": 59.913333,
+    "lon": 10.738889
+  },
+  "country": [
+    "Q20",
+    "Q2597352",
+    "Q62589",
+    "Q62651"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt von Norwegen",
+    "en": "capital city of Norway"
+  },
+  "id": "Q585",
+  "instance_of": [
+    "Q108178728",
+    "Q1306755",
+    "Q1549591",
+    "Q51929311"
+  ],
+  "labels": {
+    "en": "Oslo"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q20"
+  ],
+  "descriptions": {
+    "de": "Krankenhaus in Oslo",
+    "en": "hospital in Norway"
+  },
+  "id": "Q3111191",
+  "instance_of": [
+    "Q5691177"
+  ],
+  "labels": {
+    "de": "Universitätskrankenhaus Oslo",
+    "en": "Oslo University Hospital"
+  }
+}

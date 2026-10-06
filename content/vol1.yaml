@@ -442,6 +442,25 @@ issues:
   - n: 2
     types:
     - presentation
+    title: 'Linking periods: Modeling and utilizing spatio-temporal concepts in the chronOntology project'
+    creators:
+    - name: Wolfgang Schmidle
+    - name: Sebastian Cuy
+    - name: Nathalie Kallas
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.2540522
+    language: en
+    event:
+      name: Computer Applications and Quantitative Methods in Archaeology (CAA)
+      start: '2016-04-30'
+      end: '2016-04-30'
+      location: Oslo, Norway
+      place: oslo-norway
+      online: false
+    from: pub/talks.md#L97
+  - n: 3
+    types:
+    - presentation
     title: Linked Open Data in Space and Time - A geodetic insight into humanities research using LOD
     creators:
     - name: Florian Thiery
@@ -455,7 +474,7 @@ issues:
       place: munich-germany
       online: false
     from: pub/talks.md#L99
-  - n: 3
+  - n: 4
     types:
     - presentation
     title: Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen
@@ -503,7 +522,9 @@ issues:
     creators:
     - name: Florian Thiery
     - name: Rania Taani
-    doi: 10.5281/zenodo.817469
+    # S3: pub's link text 817469 is a project deliverable on Zenodo ('D2.1 - Semantics
+    # for IoT ...'); the link target 817496 is taken instead - confirmed by the next harvest.
+    doi: 10.5281/zenodo.817496
     language: en
     event:
       name: 30. International Geodetic Students Meeting

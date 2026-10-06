@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 59.91183,
+    "lon": 10.73367
+  },
+  "country": [
+    "Q20"
+  ],
+  "descriptions": {
+    "de": "Kommune in Norwegen",
+    "en": "municipality in Norway"
+  },
+  "id": "Q5245991",
+  "instance_of": [
+    "Q192299",
+    "Q755707"
+  ],
+  "labels": {
+    "de": "Stadtbezirk Oslo",
+    "en": "Oslo Municipality"
+  }
+}

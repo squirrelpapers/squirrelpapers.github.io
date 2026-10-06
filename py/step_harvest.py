@@ -58,6 +58,18 @@ ZENODO_STATUS = RAW_ZENODO / "_status.json"     # records that did not answer 20
 REPORT = REPORTS / "harvest.md"
 PROPOSAL = REPORTS / "places.proposed.yaml"
 
+# Country named in a place label -> its Wikidata item. Used to rank search
+# candidates: 'Sapienza University of Rome, Italy' must not become Rome,
+# Georgia (USA) - the first real run proposed exactly that (S3, 2026-10-06).
+COUNTRY_QIDS = {
+    "germany": "Q183", "deutschland": "Q183", "france": "Q142", "italy": "Q38",
+    "spain": "Q29", "spanien": "Q29", "austria": "Q40", "poland": "Q36",
+    "croatia": "Q224", "ireland": "Q27", "greece": "Q41", "usa": "Q30",
+    "uk": "Q145", "united kingdom": "Q145", "england": "Q145", "scotland": "Q145",
+    "netherlands": "Q55", "norway": "Q20",
+}
+DEFAULT_COUNTRY = "Q183"    # most events without a country in the label were in Germany
+
 COUNTRY_WORDS = {
     "germany", "deutschland", "france", "italy", "spain", "spanien", "austria",
     "poland", "croatia", "ireland", "greece", "usa", "uk", "united kingdom",
@@ -287,12 +299,28 @@ def entity(qid: str) -> dict | None:
     return read_json(path) if path.exists() else None
 
 
+def label_country(label: str) -> tuple[str | None, bool]:
+    """(country QID, stated?) - stated when the label names it, else the default."""
+    words = re.findall(r"[a-z]+(?: kingdom)?", label.lower())
+    for word in reversed(words):
+        if word in COUNTRY_QIDS:
+            return COUNTRY_QIDS[word], True
+    return DEFAULT_COUNTRY, False
+
+
 def rank_candidates(place: dict) -> list[dict]:
-    """Candidates for one place, best first: term order, coordinates, label match."""
+    """Candidates for one place, best first.
+
+    Score: order of the search term (venue before city), rank within the
+    answer, coordinates present, label similarity, and the country - a
+    candidate in another country than the label names is pushed far down; for
+    labels without a country, one in Germany gets a small bonus.
+    """
     path = RAW_SEARCH / f"{place['key']}.json"
     if not path.exists():
         return []
     answers = read_json(path)["answers"]
+    country, stated = label_country(place["label"])
     scored: dict[str, float] = {}
     for rank_term, (term, hits) in enumerate(answers.items()):
         for rank_hit, hit in enumerate(hits[:3]):
@@ -300,6 +328,11 @@ def rank_candidates(place: dict) -> list[dict]:
             score = 10 - rank_term - rank_hit * 0.5
             if item.get("coordinates"):
                 score += 5
+            if item.get("country"):
+                if country in item["country"]:
+                    score += 4 if stated else 2
+                elif stated:
+                    score -= 4
             label = item.get("labels", {}).get("en") or hit.get("label", "")
             score += 3 * difflib.SequenceMatcher(None, norm(label), norm(term.split(" [")[0])).ratio()
             scored[hit["id"]] = max(scored.get(hit["id"], -99), score)
@@ -382,10 +415,24 @@ def write_report() -> None:
                          f"{cell(mine)} | {cell(theirs)} |")
     else:
         lines.append("None.")
+    shared = {rid: uses for rid, uses in titles.items() if len(uses) > 1}
+    lines += ["", "### Shared DOIs", "",
+              "One DOI cited by several entries; at most one of them can be right. "
+              "Similarity to the Zenodo title is shown for each, whatever its value.", ""]
+    if shared:
+        lines += ["| Record | Zenodo title | Used in | Similarity | content/ |", "|---|---|---|---|---|"]
+        for rid, uses in sorted(shared.items(), key=lambda kv: int(kv[0])):
+            path = RAW_ZENODO / f"{rid}.json"
+            theirs = zenodo_title(read_json(path)) if path.exists() else "(not cached)"
+            for used_in, mine in uses:
+                ratio = difflib.SequenceMatcher(None, norm(mine), norm(theirs)).ratio()
+                lines.append(f"| {rid} | {cell(theirs)} | {used_in} | {ratio:.2f} | {cell(mine)} |")
+    else:
+        lines.append("None.")
     lines += ["", "### Other observations", "",
               f"- records without a PDF file (no preview possible): {len(no_pdf)}"
               + (f" — {', '.join(no_pdf)}" if no_pdf else ""),
-              f"- answered with a different record id (concept DOI -> latest version): "
+              f"- cited by concept DOI (Zenodo answers with the latest version): "
               f"{len(other_id)}" + (" — " + ", ".join(f"{a} -> {b}" for a, b in other_id)
                                     if other_id else ""),
               "", "## Places", "",

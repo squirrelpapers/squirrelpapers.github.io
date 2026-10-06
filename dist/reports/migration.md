@@ -6,7 +6,7 @@ Source: squirrelpapers-volumes @ `d00e0b7b5d76ba40eb5c335fffc99cc8d9de859c` (202
 
 | Volume | Issues | Entries | of which draft | distinct DOIs |
 |---|---|---|---|---|
-| 1 | 7 | 41 | 0 | 41 |
+| 1 | 7 | 42 | 0 | 41 |
 | 2 | 3 | 5 | 0 | 5 |
 | 3 | 4 | 18 | 0 | 17 |
 | 4 | 4 | 31 | 10 | 20 |
@@ -14,13 +14,13 @@ Source: squirrelpapers-volumes @ `d00e0b7b5d76ba40eb5c335fffc99cc8d9de859c` (202
 | 6 | 5 | 52 | 5 | 45 |
 | 7 | 5 | 47 | 0 | 45 |
 | 8 | 6 | 23 | 5 | 14 |
-| **all** | 40 | 243 | 20 | 212 |
+| **all** | 40 | 244 | 20 | 212 |
 
 ## Volume 1 from florianthiery/pub
 
 - items read (talks + posters, up to 2019): 37
-- added as new entries: 32
-- merged into an existing Vol 1 entry: 5
+- added as new entries: 33
+- merged into an existing Vol 1 entry: 4
 - already in a later volume, left there: 0
 
 ## DOI check
@@ -33,7 +33,7 @@ Source: squirrelpapers-volumes @ `d00e0b7b5d76ba40eb5c335fffc99cc8d9de859c` (202
 
 ## Places
 
-54 distinct non-online locations written to `content/places.yaml`; 0 with a QID.
+55 distinct non-online locations written to `content/places.yaml`; 0 with a QID.
 
 ## Review list
 
@@ -44,6 +44,7 @@ Source: squirrelpapers-volumes @ `d00e0b7b5d76ba40eb5c335fffc99cc8d9de859c` (202
 | `doi-mismatch` | 2 |
 | `doi-placeholder` | 12 |
 | `doi-repeated` | 3 |
+| `doi-shared-different-title` | 1 |
 | `doi-typo` | 1 |
 | `draft` | 20 |
 | `empty-issue` | 5 |
@@ -76,6 +77,7 @@ Source: squirrelpapers-volumes @ `d00e0b7b5d76ba40eb5c335fffc99cc8d9de859c` (202
 | `10.5281/zenodo.10260778` | `doi-repeated` | same DOI in 2 entries: 5(3) #6, 5(5) #4 |
 | `10.5281/zenodo.18441772` | `doi-repeated` | same DOI in 2 entries: 8(1) §1, 8(1) §4 |
 | `10.5281/zenodo.5642976` | `doi-repeated` | same DOI in 2 entries: 3(1) #4, 3(1) #12 |
+| `pub/talks.md#L97` | `doi-shared-different-title` | 10.5281/zenodo.2540522 is also used by 1(3) #4 'The Labeling System - A New Approach to Overcome t'; kept as a separate entry |
 | `volumes-md/vol3/index.md#L41` | `doi-typo` | double dot repaired in '[10.5281/zenodo..5647827](https://doi.org/10.5281/zenodo..5647827)' |
 | `volumes-md/vol4/index.md#L103` | `draft` | no DOI and no link: #10 Collaborative Writing: Using GitHub as a tool for collaborat |
 | `volumes-md/vol4/index.md#L110` | `draft` | no DOI and no link: #12 Little Minions: Our little minions IV: small tools with majo |

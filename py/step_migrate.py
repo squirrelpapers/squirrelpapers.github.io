@@ -69,6 +69,12 @@ def place_key(location: str, limit: int = 48) -> str:
     return key
 
 
+def similar(a: str, b: str, threshold: float = 0.6) -> bool:
+    import difflib
+
+    return difflib.SequenceMatcher(None, norm_title(a), norm_title(b)).ratio() >= threshold
+
+
 def norm_title(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
 
@@ -231,6 +237,16 @@ def main(strict: bool = False) -> None:
                     notes.add(item["where"], "pub-title-elsewhere",
                               f"same title as Vol {v}({issue['issue']}) {issue['sigil']}{e['n']} "
                               f"({e.get('doi')}), different DOI {item['doi']}; added to Vol 1 anyway")
+        # Same DOI but clearly another title: one of the two DOIs is a copy
+        # error (pub cites 2540522 for a 2014 and a 2016 talk; Zenodo says it
+        # is the 2016 one). Merging would swallow a work, so both stay as
+        # separate entries and the case goes to the report (S3 finding).
+        if hits and item["doi"] and not similar(item["title"], hits[0][2]["title"]):
+            v, issue, e = hits[0]
+            notes.add(item["where"], "doi-shared-different-title",
+                      f"{item['doi']} is also used by {v}({issue['issue']}) {issue['sigil']}{e['n']} "
+                      f"{e['title'][:50]!r}; kept as a separate entry")
+            hits = []
         if hits:
             v, issue, e = hits[0]
             how = "DOI" if item["doi"] and e.get("doi") == item["doi"] else "title"

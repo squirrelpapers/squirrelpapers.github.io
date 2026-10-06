@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Oslo [de]": [
+      {
+        "description": "capital city of Norway",
+        "id": "Q585",
+        "label": "Oslo"
+      },
+      {
+        "description": "municipality in Norway",
+        "id": "Q5245991",
+        "label": "Oslo Municipality"
+      },
+      {
+        "description": "hospital in Norway",
+        "id": "Q3111191",
+        "label": "Oslo University Hospital"
+      },
+      {
+        "description": "museum in Oslo",
+        "id": "Q6877320",
+        "label": "Oslo Museum"
+      },
+      {
+        "description": "6th edition of Winter Olympics, in Oslo, Norway",
+        "id": "Q9623",
+        "label": "1952 Winter Olympics"
+      }
+    ],
+    "Oslo [en]": [
+      {
+        "description": "capital city of Norway",
+        "id": "Q585",
+        "label": "Oslo"
+      },
+      {
+        "description": "municipality in Norway",
+        "id": "Q5245991",
+        "label": "Oslo Municipality"
+      },
+      {
+        "description": "hospital in Norway",
+        "id": "Q3111191",
+        "label": "Oslo University Hospital"
+      },
+      {
+        "description": "Norwegian public research university",
+        "id": "Q486156",
+        "label": "University of Oslo"
+      },
+      {
+        "description": "1999 studio album by Folk & Røvere",
+        "id": "Q11994196",
+        "label": "Oslo"
+      }
+    ]
+  },
+  "label": "Oslo, Norway"
+}

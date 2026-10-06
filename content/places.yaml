@@ -120,6 +120,10 @@ places:
   label: Munich, Germany
   wikidata: null
   entries: 2
+- key: oslo-norway
+  label: Oslo, Norway
+  wikidata: null
+  entries: 1
 - key: paris-france
   label: Paris, France
   wikidata: null

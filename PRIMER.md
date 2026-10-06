@@ -177,6 +177,10 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Wikidata-Cache | Je QID gekürzt auf Labels/Beschreibungen (en, de), P625, P17, P31; Abruf gebündelt über `wbgetentities` | 2026-10-06 |
 | QID-Vorschläge für Orte | Harvest sucht für Orte ohne QID per `wbsearchentities` (Venue zuerst, dann Stadt, Akronym; en und de), schreibt **nicht** in `content/`, sondern `dist/reports/places.proposed.yaml` mit bestem Kandidaten und Alternativen als Kommentar; Flo prüft und kopiert | 2026-10-06 |
 | Titelprüfung | Harvest vergleicht jeden Eintrag mit dem Zenodo-Titel seiner DOI (Ähnlichkeit < 0,6 → Bericht); damit lassen sich die doppelten DOIs aus S2 auflösen | 2026-10-06 |
+| Gleiche DOI, deutlich anderer Titel (in `pub`) | Kein Zusammenführen; beide Einträge bleiben, Fall kommt in den Bericht (`doi-shared-different-title`). Migration deshalb einmal mit `SQP_FORCE` neu gelaufen, solange `content/` noch unbearbeitet war | 2026-10-06 |
+| Link-Text ≠ Link-Ziel | Keine feste Regel mehr: „Text gewinnt" galt für 7(3) λ4, bei 1(6) #2 war das Ziel richtig. Entscheidet die Titelprüfung des Harvest; Korrektur von Hand in `content/` mit Kommentar | 2026-10-06 |
+| Ab jetzt | `content/` wird von Hand gepflegt (erste Handkorrektur: 1(6) #2). `migrate` nie wieder ohne Not, `SQP_FORCE` würde Handkorrekturen überschreiben | 2026-10-06 |
+| Ortsvorschläge: Land | Ranking berücksichtigt das Land aus dem Label (Treffer +4, anderes Land −4); ohne Land im Label leichter Bonus für Deutschland | 2026-10-06 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -223,7 +227,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S0 | Festlegungen: IRI, Sigel, Sprachen, Typen, Primer | — | — | erledigt 2026-10-06 |
 | S1 | Skelett: `main.py`, `sqp_utils.py`, Lizenz, Citation, Stil-Grundlage | dieses | S0 | erledigt 2026-10-06 |
 | S2 | Migration Markdown + `pub` → `content/*.yaml`, Prüfbericht | dieses | S1 | erledigt 2026-10-06 |
-| S3 | Harvest: Zenodo-Records, Wikidata-Orte/QIDs → `data/raw/` | dieses (läuft bei Flo) | S2 | Code erledigt 2026-10-06, Lauf bei Flo offen |
+| S3 | Harvest: Zenodo-Records, Wikidata-Orte/QIDs → `data/raw/` | dieses (läuft bei Flo) | S2 | erledigt 2026-10-06 |
 | S4 | Merge + Normalisierung → `data/derived/entries.json`, SKOS-Typen | dieses | S2, S3 | offen |
 | S5 | Seiten EN/DE: Journal, Volume, Issue, Entry, About, Impressum, Datenschutz; PDF-iframe | dieses | S4 | offen |
 | S6 | Zitation: CSL-JSON, citeproc-js + Stilwahl, BibTeX/RIS je Ebene | dieses | S4 | offen |
@@ -435,9 +439,31 @@ doppelten DOI 8(1) §1/§4 — alles landete richtig im Bericht. Zweiter Lauf:
 sind damit **nicht** geprüft: die Feldnamen des Zenodo-JSON (`metadata.title`,
 `files[].key`) sind aus der API-Doku, nicht aus einer echten Antwort.
 
-**Nach Flos Lauf zu prüfen (zu Beginn von S4):** ob `files` als Liste oder als
-`{"entries": …}` kommt (beides wird gelesen), wie viele Records ohne PDF sind,
-was die Titelprüfung zu den drei doppelten DOIs sagt.
+### Erster echter Lauf 2026-10-06 (bei Flo, 402 s)
+
+- **198 von 212 Records im Cache**, 14 nicht abrufbar: 13 × 404, 1 × 410
+  (6(3) #2 `10774878`, gelöscht). Die 404er kommen in Serien
+  (6(4) #9–#11, #15, #16; 7(3) λ11–λ15 = `15332813…927`; 8(3) §7/§8;
+  7(1) λ2) — Muster von **reservierten, nie veröffentlichten DOIs**.
+- **Echtes JSON wie angenommen**: `files` ist eine Liste mit `key`, `size`,
+  `checksum`, `links.self`; `metadata.title`, `metadata.resource_type`
+  (`type`/`subtype`), `conceptrecid`, `conceptdoi`.
+- **169 der 198 Records sind über die Concept-DOI zitiert** — Zenodo
+  antwortet mit der neuesten Version (`775019 → 292975`). Das ist gewollt und
+  erklärt auch 1(3) #1: `775019` (Vol 1) und `292975` (`pub`) sind dasselbe
+  Werk, Concept- und Versions-DOI.
+- **39 Records ohne PDF** (Software- und Daten-Releases) — dort keine Vorschau.
+- **Titelprüfung** fand die Kopierfehler: 1(6) #2 (`817469` ist ein
+  IoT-Projektbericht; korrigiert auf `817496`), 1(3) #4 Labeling System
+  (`2540522` gehört dem chronOntology-Vortrag 2016 — den hatte die Migration
+  deshalb in den 2014er-Eintrag **verschluckt**; Migration korrigiert, Eintrag
+  steht jetzt als 1(5) #2), 3(1) #12, 5(3) #6 / 5(5) #4, 8(1) §1. Übrige
+  Treffer der Titelprüfung sind Kurztitel oder GitHub-Release-Namen, kein Fehler.
+- **Ortsvorschläge**: von 54 Orten 51 mit Vorschlag; offensichtliche Fehlgriffe
+  (Rom → Rome, Georgia; Athen → Athens, Georgia; LEIZA → Leitza, Spanien)
+  hat die Länder-Gewichtung behoben. Weiter falsch bzw. leer: „RGK,
+  Frankfurt am Mainz" (→ Flughafen in Russland), „DBM Bochum", „Alte
+  Universität Heidelberg". Viele Vorschläge sind Städte statt Veranstaltungsorte.
 
 ## S4 — Merge und Normalisierung
 
@@ -548,9 +574,15 @@ auf die neuen IRIs (P856 / P953 o. ä.).
 3. ~~Vol 2–8 Jahreszuschnitt prüfen~~ → entschieden 2026-10-06: bleibt (A4).
 4. **Neue Entries ab jetzt**: nur YAML von Hand, oder zusätzlich
    `python main.py add <doi>` als Komfort?
-5. **Review-Liste aus S2** (`dist/reports/migration.md`): die drei doppelten
-   DOIs und die zwei Link-Text/Ziel-Fälle klären (S3 liefert die Zenodo-Titel
-   dazu); die 20 `draft`-Einträge behalten, ergänzen oder streichen;
-   54 Orte mit QIDs versehen (S3 kann Vorschläge per Wikidata-Suche machen).
+5. **Falsche DOIs (aus S3, `dist/reports/harvest.md` → „Shared DOIs")** — die
+   richtige DOI kennt nur Flo: 1(3) #4 Labeling System 2014; 3(1) #12 ARS3D
+   Comparison Videos; 5(3) #6 bzw. 5(5) #4 (beide „Semantic Modelling …",
+   die DOI gehört dem Vortrag „Sharing (Linked) Open Data …"); 8(1) §1 From
+   Tables to Gazetteers.
+5a. **14 nicht abrufbare DOIs** — auf Zenodo veröffentlichen, oder Einträge
+   als `draft: true` markieren. Tabelle in `dist/reports/harvest.md`.
+5b. **Orte** — `dist/reports/places.proposed.yaml` prüfen (RGK, DBM, Alte Uni
+   Heidelberg von Hand), Stadt oder Veranstaltungsort entscheiden, dann über
+   `content/places.yaml` kopieren. 20 `draft`-Einträge aus S2 sichten.
 6. **DOI für Volumes/Issues** (Zenodo-Communities oder eigene Records)? Würde
    die Zitierfähigkeit der Issues verbessern.
