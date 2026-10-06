@@ -1,0 +1,7 @@
+# Generated files are written with LF on every platform (sqp_utils.write_text);
+# keep git from converting them back, or a rebuild on Windows shows every file
+# as modified.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary

@@ -1,0 +1,16 @@
+Content licence
+===============
+
+The metadata and texts of the Squirrel Papers published from this repository
+(content/, data/derived/, dist/ and the generated pages in docs/) are licensed
+under the Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+
+    https://creativecommons.org/licenses/by/4.0/
+    Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Copyright (c) 2019-2026 Florian Thiery and the Research Squirrel Engineers Network.
+
+The papers, posters, slides, data and software listed in the journal are
+published on Zenodo and elsewhere under their own licences, as stated on each
+record. The source code of this repository is licensed under the MIT licence
+(see LICENSE).

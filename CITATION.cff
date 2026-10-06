@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "squirrelpapers.github.io: site generator for the Squirrel Papers journal"
+abstract: >-
+  Builds the website of the Squirrel Papers (ISSN 2750-560X), an Open Access
+  journal of the Research Squirrel Engineers Network, from YAML: one page per
+  volume, issue and entry in English and German, citations in several styles,
+  BibTeX, a DCAT 3 / DCAT-AP 3 graph with a CIDOC CRM bridge, SHACL
+  validation, a browser SPARQL page and a map of conference venues.
+type: software
+authors:
+  - family-names: Thiery
+    given-names: Florian
+    orcid: "https://orcid.org/0000-0002-3246-3531"
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-06"
+repository-code: "https://github.com/squirrelpapers/squirrelpapers.github.io"
+url: "https://squirrelpapers.github.io/"
+keywords:
+  - Squirrel Papers
+  - Open Access journal
+  - Linked Open Data
+  - DCAT
+  - CIDOC CRM
+  - Research Software Engineering

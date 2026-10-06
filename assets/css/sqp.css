@@ -1,0 +1,135 @@
+/* Squirrel Papers - design tokens and base styles.
+ *
+ * Colours are taken from the logo (assets/img/sqp-logo.png) and the old
+ * WordPress site (PRIMER A1, Befund 11):
+ *   plum     #892a69   logo body, "SQUIRREL"
+ *   magenta  #c94fa0   logo tail, "PAPERS"
+ *   berry    #b03686   anti-aliasing tone between the two
+ *   grey     #767676   page header of the old site
+ *   night    #2b1a29   dark purple of the network background
+ *
+ * No web fonts are loaded: the build runs offline and the site makes no
+ * third-party request that the privacy notice would have to explain. The
+ * stacks below fall back to what the reader's system has.
+ */
+
+:root {
+  --sqp-plum: #892a69;
+  --sqp-magenta: #c94fa0;
+  --sqp-berry: #b03686;
+  --sqp-grey: #767676;
+  --sqp-night: #2b1a29;
+  --sqp-night-2: #3d2639;
+
+  --bg: #ffffff;
+  --bg-soft: #f6f1f5;
+  --text: #1d141b;
+  --text-muted: #5c4f59;
+  --link: var(--sqp-plum);
+  --link-hover: var(--sqp-berry);
+  --accent: var(--sqp-magenta);      /* large text and decoration only: 4.1:1 on white */
+  --accent-text: var(--sqp-berry);   /* accent at body size: 5.6:1 on white */
+  --rule: #e4d9e1;
+  --header-bg: var(--sqp-grey);
+  --header-text: #ffffff;
+  --hero-bg: var(--sqp-night);
+  --hero-text: #ffffff;
+
+  --font-heading: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+
+  --measure: 42rem;
+  --wide: 72rem;
+  --radius: 4px;
+  --gutter: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1a1018;
+    --bg-soft: #251822;
+    --text: #f2e9ef;
+    --text-muted: #c4b3bf;
+    --link: #e283c1;
+    --link-hover: #f2a9d8;
+    --rule: #3d2639;
+    --header-bg: #2a2a2a;
+    --accent-text: var(--sqp-magenta);
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #1a1018;
+  --bg-soft: #251822;
+  --text: #f2e9ef;
+  --text-muted: #c4b3bf;
+  --link: #e283c1;
+  --link-hover: #f2a9d8;
+  --rule: #3d2639;
+  --header-bg: #2a2a2a;
+  --accent-text: var(--sqp-magenta);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+a { color: var(--link); text-underline-offset: 0.15em; }
+a:hover, a:focus-visible { color: var(--link-hover); }
+
+code, pre, kbd { font-family: var(--font-mono); font-size: 0.92em; }
+
+.wrap { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
+.measure { max-width: var(--measure); }
+
+/* Site header: grey bar, title left, navigation right - as on the old site. */
+.site-header { background: var(--header-bg); color: var(--header-text); }
+.site-header .wrap {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 1.5rem;
+  padding-top: 1rem; padding-bottom: 1rem;
+}
+.site-header a { color: inherit; text-decoration: none; }
+.site-title { font-family: var(--font-heading); font-weight: 800; font-size: 1.1rem; }
+.site-tagline { font-size: 0.85rem; opacity: 0.85; }
+.site-nav { margin-left: auto; display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; }
+.site-nav a { font-size: 0.9rem; font-weight: 600; }
+.site-nav a[aria-current="page"] { text-decoration: underline; }
+
+/* Dark purple band for hero, journal facts and footer. */
+.band { background: var(--hero-bg); color: var(--hero-text); }
+.band a { color: #f2a9d8; }
+
+/* Drop cap in magenta, as on the old landing text. */
+.dropcap::first-letter {
+  float: left; font-family: var(--font-heading); font-weight: 900;
+  font-size: 3.4em; line-height: 0.85; margin: 0.05em 0.1em 0 0; color: var(--accent);
+}
+
+/* Entry type labels, replacing the old [`Presentation`] backtick badges. */
+.badge {
+  display: inline-block; padding: 0.05em 0.5em; border-radius: var(--radius);
+  background: var(--bg-soft); border: 1px solid var(--rule);
+  font-size: 0.78em; font-weight: 600; color: var(--text-muted); vertical-align: 0.1em;
+}
+.sigil { font-weight: 800; color: var(--accent-text); }
+
+.site-footer { border-top: 1px solid var(--rule); color: var(--text-muted); font-size: 0.9rem; }
+.site-footer .wrap { padding-top: 1.5rem; padding-bottom: 2rem; }

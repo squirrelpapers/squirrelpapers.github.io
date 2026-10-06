@@ -1,0 +1,50 @@
+# The journal itself - the head of the catalogue (PRIMER A2, A6).
+#
+# This file and content/vol<N>.yaml are the source of truth. Edit them, never
+# the generated pages in docs/. Volumes are added by S2 (migration) and by hand.
+
+title: Squirrel Papers
+issn: 2750-560X
+wikidata: Q89658875
+iri: https://w3id.org/squirrelpapers/
+homepage: https://squirrelpapers.github.io/
+former_homepage: https://squirrelpapers.net/
+publisher: Research Squirrel Engineers Network
+editor:
+  name: Thiery, Florian
+  orcid: 0000-0002-3246-3531
+  role: {en: Editor / Head Squirrel, de: Herausgeber / Head Squirrel}
+contact: mail [at] squirrelpapers [dot] net
+licence:
+  content: https://creativecommons.org/licenses/by/4.0/
+  code: https://opensource.org/license/mit
+languages: [en, de]
+description:
+  en: >-
+    The Squirrel Papers by the Research Squirrel Engineers Network are a free
+    Open Access journal hosting publications on Zenodo and the Open Science
+    Framework (OSF), collecting Linked Open Data (LOD), Research Software
+    Engineering (RSE), Cultural Heritage and Geo-Sciences related research
+    papers, working papers, blog posts, posters, slides, research data and
+    research software.
+  de: >-
+    Die Squirrel Papers des Research Squirrel Engineers Network sind ein
+    kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open
+    Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers,
+    Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus
+    den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE),
+    Kulturerbe und Geowissenschaften.
+registration:
+  en: >-
+    The Squirrel Papers are an official journal accepted by the
+    "Nationales ISSN-Zentrum für Deutschland" with ISSN 2750-560X.
+  de: >-
+    Die Squirrel Papers sind ein offiziell vom Nationalen ISSN-Zentrum für
+    Deutschland anerkanntes Journal mit der ISSN 2750-560X.
+
+# Wikidata classes used for the journal's own items
+# (from squirrelpapers-volumes/docs/wikidata/wikidata.md).
+wikidata_classes:
+  entity: Q116235645
+  issue: Q116235717
+  special_issue: Q116235719

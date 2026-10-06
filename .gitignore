@@ -1,0 +1,34 @@
+# --- Python ---
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Local configuration (never committed) ---
+config.local.json
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Run log (not a product) ---
+# Carries per-step timings and differs on every run; tracking it would leave
+# git status permanently dirty.
+dist/pipeline_report.txt
+
+# --- Patch notes (travel with a patch ZIP, never into the repository) ---
+PATCH-README.md
+
+# --- Note ---
+# docs/ and dist/ are NOT ignored, unlike the usual Python template: docs/ is
+# what GitHub Pages serves, dist/ holds the citable products (graph, GeoJSON,
+# BibTeX). data/raw/ is not ignored either: the harvest cache is committed so
+# that every build after S3 runs offline (PRIMER A3).

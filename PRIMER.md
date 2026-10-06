@@ -162,6 +162,10 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Quellrepos | Werden von Claude geklont, Snapshot nach `data/raw/` | 2026-10-06 |
 | Modellierung Volume/Issue | Journal = `dcat:Catalog`; Volume und Issue = `dcat:DatasetSeries` (Issue `dcat:inSeries` Volume); Entry = `dcat:Dataset` + `fabio:`-Typ, `dcat:inSeries` Issue | Vorschlag |
 | Seitengenerator | Python + Jinja2, kein Jekyll, kein Node-Build | Vorschlag |
+| Schritte außerhalb des Standardlaufs | `migrate` (einmalig, überschreibt `content/`) und `harvest` (Netz) laufen nur mit `--only`; Standardreihenfolge `merge → cite → rdf → validate → map → site → sparql` | 2026-10-06 |
+| Schriften | Keine Webfonts, keine Drittanbieter-Anfrage für Typografie; Systemschrift-Stacks mit `Inter` an erster Stelle (greift, wo installiert) | Vorschlag |
+| Akzentfarbe im Fließtext | Magenta `#c94fa0` hat auf Weiß nur 4,1 : 1 → nur für große Schrift/Deko (`--accent`); Sigel und Akzent in Textgröße hell `#b03686` (5,6 : 1), dunkel Magenta (`--accent-text`) | 2026-10-06 |
+| Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
 
@@ -205,7 +209,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | ID | Schritt | Repo | hängt ab von | Status |
 |---|---|---|---|---|
 | S0 | Festlegungen: IRI, Sigel, Sprachen, Typen, Primer | — | — | erledigt 2026-10-06 |
-| S1 | Skelett: `main.py`, `sqp_utils.py`, Lizenz, Citation, Stil-Grundlage | dieses | S0 | offen |
+| S1 | Skelett: `main.py`, `sqp_utils.py`, Lizenz, Citation, Stil-Grundlage | dieses | S0 | erledigt 2026-10-06 |
 | S2 | Migration Markdown + `pub` → `content/*.yaml`, Prüfbericht | dieses | S1 | offen |
 | S3 | Harvest: Zenodo-Records, Wikidata-Orte/QIDs → `data/raw/` | dieses (läuft bei Flo) | S2 | offen |
 | S4 | Merge + Normalisierung → `data/derived/entries.json`, SKOS-Typen | dieses | S2, S3 | offen |
@@ -255,6 +259,40 @@ erreichbar (Befund 8) — daraus folgt, dass S3 ein lokaler Schritt ist.
 
 **Abnahme:** `python main.py --list` zeigt alle Schritte; `python main.py`
 läuft fehlerfrei; zweiter Lauf, `git status` sauber.
+
+### Erledigt 2026-10-06
+
+- `main.py` aus `fdo-squirrel-registry` übernommen und angepasst: Schritte als
+  `Step(name, module, description, default, why_not)`; statt eines
+  `network`-Flags ein `default`-Flag, weil auch `migrate` (einmalig, schreibt
+  `content/`) nie im Standardlauf laufen darf. `--list` nennt den Grund.
+  stdout/stderr werden auf UTF-8 umgestellt (λ, §, 𝒬 in Windows-Konsolen).
+- `py/sqp_utils.py`: `RELEASE`, Journal-Konstanten (ISSN, QID, Herausgeber),
+  `PREFIXES` für alle geplanten Vokabulare, IRI-Bauer (`entry_iri(7,4,5)` →
+  `…/v7/i4/e5`), `page_url()` (EN `/`, DE `/de/`), `citation_label()` →
+  `7(5), 𝒬1`, `normalise_doi()` (für die Dublettenerkennung in S2), die
+  kanonischen Schreiber aus der Registry (`write_text` mit LF,
+  `write_json`, `write_canonical_turtle`, `bind_remaining`, `script_json`,
+  `template_environment` mit `autoescape=True`) und neu `write_yaml`
+  (Schlüsselreihenfolge bleibt, weil `content/` von Hand gelesen wird).
+- Neun Schritt-Stubs `py/step_*.py`, je einzeln lauffähig; jeder prüft seine
+  Vorbedingung und meldet `skipped (no input): …` mit dem Schritt, der sie
+  liefert. Die Abnahme „nothing to do" aus dem Plan ist damit präziser
+  erfüllt: jeder Schritt sagt, *worauf* er wartet.
+- `content/journal.yaml` als Kopf des Katalogs, Texte von der alten
+  Startseite (EN geglättet: „a free", „posters"), DE neu; Wikidata-Klassen
+  aus `wikidata.md`.
+- `assets/css/sqp.css` mit Tokens aus Befund 11, hell/dunkel; Kontraste
+  geprüft (siehe A4). Logo als `assets/img/sqp-logo.png` (transparentes PNG,
+  768 × 455).
+- `LICENSE` (MIT), `LICENSE-CONTENT` (CC BY 4.0), `CITATION.cff`,
+  `README.md`, `requirements.txt`, `.gitignore` (ignoriert `PATCH-README.md`
+  und `dist/pipeline_report.txt`, **nicht** `docs/`/`dist/`),
+  `.gitattributes` (LF überall).
+- **Verschoben:** `.nojekyll` gehört nach `docs/` und wird in S5 vom
+  `site`-Schritt geschrieben, nicht ins Wurzelverzeichnis gelegt.
+- Geprüft: zwei Läufe, `git status` sauber; `--strict`, `--dry-run`,
+  `--only harvest`, `--only migrate`, unbekannter Schrittname.
 
 ## S2 — Migration
 
