@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz – Squirrel Papers</title>
+
+<link rel="canonical" href="https://squirrelpapers.github.io/de/privacy/">
+<link rel="alternate" hreflang="en" href="https://squirrelpapers.github.io/privacy/">
+<link rel="alternate" hreflang="de" href="https://squirrelpapers.github.io/de/privacy/">
+<link rel="icon" type="image/png" href="../../assets/img/sqp-logo.png">
+<link rel="stylesheet" href="../../assets/css/sqp.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="../../de/">Squirrel Papers</a>
+    <span class="site-tagline">vom Research Squirrel Engineers Network</span>
+    <nav class="site-nav" aria-label="Hauptmenü">
+      <a href="../../de/">Start</a>
+      <a href="../../de/volumes/">Bände &amp; Hefte</a>
+      <a href="../../de/impressum/">Impressum</a>
+      <a href="../../de/privacy/" aria-current="page">Datenschutz</a>
+      <a class="lang-switch" href="../../privacy/" hreflang="en" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap measure prose">
+  <h1>Datenschutz</h1>
+  <!-- ENTWURF (S5, 2026-10-07): neu gefasst für eine statische Seite auf GitHub
+     Pages. Mit jedem Schritt, der Drittinhalte einbindet (S9 Pyodide/CDN,
+     S10 Kartenkacheln), zu ergänzen. Vor dem Umschalten von Flo zu prüfen;
+     Claude ist kein Jurist. -->
+<h2>Verantwortlicher</h2>
+<p>Florian Thiery, Josef-Traxel-Weg 4, 55128 Mainz, Deutschland.
+E-Mail: mail [at] fthiery [dot] de</p>
+
+<h2>Hosting</h2>
+<p>Diese Seite wird über GitHub Pages ausgeliefert (GitHub, Inc.). Beim Aufruf
+verarbeitet GitHub technisch notwendige Daten, insbesondere die IP-Adresse,
+in Server-Logdateien. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; das
+berechtigte Interesse liegt in der sicheren und stabilen Bereitstellung der
+Seite. Näheres in der Datenschutzerklärung von GitHub.</p>
+
+<h2>Keine Cookies, kein Tracking</h2>
+<p>Diese Seite setzt keine Cookies, verwendet keine Analyse- oder
+Tracking-Werkzeuge und lädt keine Schriften oder Skripte von Dritten.</p>
+
+<h2>PDF-Vorschau von Zenodo</h2>
+<p>Auf den Seiten einzelner Beiträge kann eine PDF-Vorschau angezeigt werden.
+Sie wird erst geladen, wenn du auf „PDF-Vorschau anzeigen" klickst. Dann
+stellt dein Browser eine Verbindung zu zenodo.org (betrieben vom CERN) her und
+übermittelt dabei u. a. deine IP-Adresse. Rechtsgrundlage ist deine
+Einwilligung durch den Klick (Art. 6 Abs. 1 lit. a DSGVO).</p>
+
+<h2>Links</h2>
+<p>Links zu DOI, Zenodo, ORCID, Wikidata und anderen Seiten führen zu
+Angeboten Dritter, für deren Datenverarbeitung die jeweiligen Anbieter
+verantwortlich sind.</p>
+
+<h2>Deine Rechte</h2>
+<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der
+Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO) sowie
+das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
+
+</div>
+
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>Über die Squirrel Papers</h2>
+      <p>Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften.</p>
+      <p>Die Squirrel Papers sind ein offiziell vom Nationalen ISSN-Zentrum für Deutschland anerkanntes Journal mit der ISSN 2750-560X.</p>
+    </section>
+    <section>
+      <h2>Kontakt</h2>
+      <p><strong>E-Mail</strong><br>mail [at] squirrelpapers [dot] net</p>
+      <p><strong>Herausgeber / Head Squirrel</strong><br>
+        <a href="https://orcid.org/0000-0002-3246-3531">Florian Thiery</a></p>
+      <p>ISSN 2750-560X · <a href="https://www.wikidata.org/wiki/Q89658875">Wikidata: Q89658875</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>Die Metadaten dieser Seite stehen unter CC BY 4.0; jedes Paper, Poster, jeder Datensatz und jede Software trägt auf Zenodo eine eigene Lizenz.</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">Quellcode</a>
+      · <a href="../../de/impressum/">Impressum</a>
+      · <a href="../../de/privacy/">Datenschutz</a></p>
+  </div>
+</footer>
+<script>
+// Click-to-load PDF preview and copy buttons. Nothing else runs on this site.
+document.addEventListener("click", function (event) {
+  var load = event.target.closest("[data-preview-src]");
+  if (load) {
+    var frame = document.createElement("iframe");
+    frame.src = load.getAttribute("data-preview-src");
+    frame.title = load.getAttribute("data-preview-title");
+    frame.className = "preview-frame";
+    frame.setAttribute("loading", "lazy");
+    load.parentNode.replaceChild(frame, load);
+    return;
+  }
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+</body>
+</html>

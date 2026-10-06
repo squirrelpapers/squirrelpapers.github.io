@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research – Squirrel Papers 8(3), §4</title>
+
+<link rel="canonical" href="https://squirrelpapers.github.io/de/v8/i3/e4/">
+<link rel="alternate" hreflang="en" href="https://squirrelpapers.github.io/v8/i3/e4/">
+<link rel="alternate" hreflang="de" href="https://squirrelpapers.github.io/de/v8/i3/e4/">
+<link rel="icon" type="image/png" href="../../../../assets/img/sqp-logo.png">
+<link rel="stylesheet" href="../../../../assets/css/sqp.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v8/i3/e4", "@type": "CreativeWork", "abstract": "In geoscientific and geoarchaeological research, analytical workflows often remain locked in Excel-based environments. While such approaches are convenient, they limit reproducibility, transparency, and interoperability. This paper presents how Research Software Engineering (RSE) methodology can transform these “black box” workflows into reproducible, FAIR-compliant and semantically interoperable processes by reimplementing established analytical routines in open, script-based environments using Python and R.\nThe work builds on data from tephra and sediment analyses in the Eifel region, focusing on EPMA and LA-ICP-MS. Traditionally, these datasets were processed and visualised in Excel, making version control, reproducibility, and methodological transparency difficult.\nBuilding on methods from ELSAinteractive++ (PHd by B.W. Diensberg), a C++-based application for visualising sediment cores, the project replaces static, closed workflows with modular Python scripts based on pandas and matplotlib. Each processing step, from data import to statistical transformation and plotting, is now reproducible and extensible.\nFurther integration draws on an Eifel GDGT dataset and analytical workflow to demonstrate how existing R code for biomarker-based temperature reconstructions can be re-implemented in Python for enhanced cross-platform reproducibility. Together, these examples illustrate the practical implementation of the FAIR4RS principles, Findable, Accessible, Interoperable, and Reusable research software.\nBeyond reproducible computation, the project also explores semantic data publication. Laboratory results and analytical metadata are modelled as RDF triples to ensure machine-actionable interoperability with Cultural Heritage and Earth Science data. Python scripts assist in transforming tabular outputs into RDF using common vocabularies, while the SPARQLing Unicorn Toolkit enables the conversion of these RDF datasets into human-readable HTML pages automatically published", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}, {"@id": "https://orcid.org/0009-0008-2877-3204", "@type": "Person", "name": "Fiona Schenk"}, {"@id": "https://orcid.org/0000-0003-4889-9353", "@type": "Person", "name": "Lutz Krister Schubert"}], "datePublished": "2026-03-03", "genre": "Poster", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.18803727"}, "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v8/i3", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v8", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "8"}, "issueNumber": "3"}, "license": "https://creativecommons.org/licenses/by/4.0/", "name": "Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research", "recordedAt": {"@type": "Event", "endDate": "2026-03-05", "location": {"@type": "Place", "geo": {"@type": "GeoCoordinates", "latitude": 48.7817, "longitude": 9.1752}, "name": "University of Stuttgart", "sameAs": "http://www.wikidata.org/entity/Q122453"}, "name": "deRSE26", "startDate": "2026-03-03"}, "sameAs": ["https://doi.org/10.5281/zenodo.18803727"], "url": "https://squirrelpapers.github.io/v8/i3/e4/"}</script>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="../../../../de/">Squirrel Papers</a>
+    <span class="site-tagline">vom Research Squirrel Engineers Network</span>
+    <nav class="site-nav" aria-label="Hauptmenü">
+      <a href="../../../../de/">Start</a>
+      <a href="../../../../de/volumes/" aria-current="page">Bände &amp; Hefte</a>
+      <a href="../../../../de/impressum/">Impressum</a>
+      <a href="../../../../de/privacy/">Datenschutz</a>
+      <a class="lang-switch" href="../../../../v8/i3/e4/" hreflang="en" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<article class="wrap entry">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../../../../">Squirrel Papers</a> › <a href="../../../../v8/">Band 8</a> › <a href="../../../../v8/i3/">Heft 3</a> › <span class="sigil">§4</span></nav>
+  <p class="entry-kicker"><span class="sigil">8(3), §4</span> <span class="badge">Poster</span> <span class="badge">Konferenzbeitrag</span></p>
+  <h1 class="entry-title">Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research</h1>
+  <p class="entry-authors"><a class="person" href="https://orcid.org/0000-0002-3246-3531" title="ORCID 0000-0002-3246-3531">Florian Thiery<span class="orcid" aria-hidden="true"></span></a>, <a class="person" href="https://orcid.org/0009-0008-2877-3204" title="ORCID 0009-0008-2877-3204">Fiona Schenk<span class="orcid" aria-hidden="true"></span></a>, <a class="person" href="https://orcid.org/0000-0003-4889-9353" title="ORCID 0000-0003-4889-9353">Lutz Krister Schubert<span class="orcid" aria-hidden="true"></span></a></p>
+
+  <div class="entry-grid">
+    <div class="entry-main">
+      <section class="cite">
+        <h2>Zitiervorschlag</h2>
+        <div class="cite-box"><p id="cite-text">Thiery, F., Schenk, F., &amp; Schubert, L. K. (2026). Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research. <em>Squirrel Papers</em>, 8(3), §4. <a href="https://doi.org/10.5281/zenodo.18803727">https://doi.org/10.5281/zenodo.18803727</a></p>
+          <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
+        
+      </section>
+
+      
+      <section class="preview">
+        <h2>Vorschau</h2>
+        <button type="button" class="button" data-preview-src="https://zenodo.org/records/18803728/preview/deRSE26_Stuttgart_21313_GeoSciRSE.pdf" data-preview-title="Vorschau: deRSE26_Stuttgart_21313_GeoSciRSE.pdf">PDF-Vorschau anzeigen</button>
+        <p class="muted small">Die Vorschau wird erst auf deinen Klick von zenodo.org geladen. <a href="https://zenodo.org/records/18803728/files/deRSE26_Stuttgart_21313_GeoSciRSE.pdf?download=1">PDF herunterladen</a> (deRSE26_Stuttgart_21313_GeoSciRSE.pdf)</p>
+      </section>
+      
+
+      
+      <section>
+        <h2>Zusammenfassung</h2>
+        <div class="abstract"><p>In geoscientific and geoarchaeological research, analytical workflows often remain locked in Excel-based environments. While such approaches are convenient, they limit reproducibility, transparency, and interoperability. This paper presents how Research Software Engineering (RSE) methodology can transform these “black box” workflows into reproducible, FAIR-compliant and semantically interoperable processes by reimplementing established analytical routines in open, script-based environments using Python and R.</p>
+<p>The work builds on data from tephra and sediment analyses in the Eifel region, focusing on EPMA and LA-ICP-MS. Traditionally, these datasets were processed and visualised in Excel, making version control, reproducibility, and methodological transparency difficult.</p>
+<p>Building on methods from ELSAinteractive++ (PHd by B.W. Diensberg), a C++-based application for visualising sediment cores, the project replaces static, closed workflows with modular Python scripts based on pandas and matplotlib. Each processing step, from data import to statistical transformation and plotting, is now reproducible and extensible.</p>
+<p>Further integration draws on an Eifel GDGT dataset and analytical workflow to demonstrate how existing R code for biomarker-based temperature reconstructions can be re-implemented in Python for enhanced cross-platform reproducibility. Together, these examples illustrate the practical implementation of the FAIR4RS principles, Findable, Accessible, Interoperable, and Reusable research software.</p>
+<p>Beyond reproducible computation, the project also explores semantic data publication. Laboratory results and analytical metadata are modelled as RDF triples to ensure machine-actionable interoperability with Cultural Heritage and Earth Science data. Python scripts assist in transforming tabular outputs into RDF using common vocabularies, while the SPARQLing Unicorn Toolkit enables the conversion of these RDF datasets into human-readable HTML pages automatically published on GitHub Pages. This dual approach, semantic and computational FAIRification, bridges the gap between traditional analytical workflows and Linked Open Data infrastructures.</p>
+<p>In contrast to spreadsheet-based workflows, the RSE-driven approach offers:</p>
+<ul>
+<li>Versioned and transparent analysis pipelines via Git-based code;</li>
+<li>Parameter reproducibility through explicit scripting;</li>
+<li>Scalability and automation for high-volume datasets; and</li>
+<li>Semantic interoperability through FAIR metadata and RDF publication.</li>
+</ul>
+<p>By showcasing examples from the Campanian Ignimbrite and Eifel tephra research, the paper highlights how RSE methodology enhances both reproducibility and semantic interoperability across disciplinary borders. It demonstrates that adopting RSE principles in geoscientific and archaeological workflows is not just a technical improvement but a cultural shift, from isolated Excel sheets to open, machine-actionable, and verifiable research.</p></div>
+      </section>
+      
+
+    </div>
+
+    <aside class="entry-facts">
+      <dl>
+        <dt>Erschienen in</dt>
+        <dd>Squirrel Papers 8(3), §4<br><a href="../../../../v8/i3/">Band 8, Heft 3</a><br><span class="muted">Sonderheft Konferenzen und Vorträge</span></dd>
+        <dt>Datum</dt><dd>3. März 2026</dd>
+        
+          <dt>Veranstaltung</dt><dd>deRSE26<br><span class="muted">3.–5. März 2026</span></dd>
+          <dt>Session</dt><dd>Poster and Demo Session</dd>
+          <dt>Ort</dt><dd>University of Stuttgart, Stuttgart<br><a href="https://www.wikidata.org/wiki/Q122453">University of Stuttgart</a></dd>
+        
+        
+        
+        <dt>DOI</dt><dd><a href="https://doi.org/10.5281/zenodo.18803727">10.5281/zenodo.18803727</a></dd>
+        <dt>Zenodo-Datensatz</dt><dd><a href="https://zenodo.org/records/18803728">18803728</a></dd>
+        
+        
+        <dt>Lizenz</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/">cc-by-4.0</a></dd>
+        
+        
+        
+        <dt>Persistenter Identifikator</dt><dd><a class="iri" href="https://w3id.org/squirrelpapers/v8/i3/e4">https://w3id.org/squirrelpapers/v8/i3/e4</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>Über die Squirrel Papers</h2>
+      <p>Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften.</p>
+      <p>Die Squirrel Papers sind ein offiziell vom Nationalen ISSN-Zentrum für Deutschland anerkanntes Journal mit der ISSN 2750-560X.</p>
+    </section>
+    <section>
+      <h2>Kontakt</h2>
+      <p><strong>E-Mail</strong><br>mail [at] squirrelpapers [dot] net</p>
+      <p><strong>Herausgeber / Head Squirrel</strong><br>
+        <a href="https://orcid.org/0000-0002-3246-3531">Florian Thiery</a></p>
+      <p>ISSN 2750-560X · <a href="https://www.wikidata.org/wiki/Q89658875">Wikidata: Q89658875</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>Die Metadaten dieser Seite stehen unter CC BY 4.0; jedes Paper, Poster, jeder Datensatz und jede Software trägt auf Zenodo eine eigene Lizenz.</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">Quellcode</a>
+      · <a href="../../../../de/impressum/">Impressum</a>
+      · <a href="../../../../de/privacy/">Datenschutz</a></p>
+  </div>
+</footer>
+<script>
+// Click-to-load PDF preview and copy buttons. Nothing else runs on this site.
+document.addEventListener("click", function (event) {
+  var load = event.target.closest("[data-preview-src]");
+  if (load) {
+    var frame = document.createElement("iframe");
+    frame.src = load.getAttribute("data-preview-src");
+    frame.title = load.getAttribute("data-preview-title");
+    frame.className = "preview-frame";
+    frame.setAttribute("loading", "lazy");
+    load.parentNode.replaceChild(frame, load);
+    return;
+  }
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+</body>
+</html>

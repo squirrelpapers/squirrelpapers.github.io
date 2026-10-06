@@ -24711,7 +24711,7 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       "links": {
-        "release": "[TODO](https://github.com/leiza-scit/GrapHNR-2023-supplementary-material/tree/v1.0",
+        "release": "https://github.com/leiza-scit/GrapHNR-2023-supplementary-material/tree/v1.0",
         "repository": "https://github.com/leiza-scit/GrapHNR-2023-supplementary-material"
       },
       "n": 2,
@@ -32000,6 +32000,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen 2019",
             "en": "Special Issue on Conferences 2019"
           }
         },
@@ -32016,6 +32017,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen 2014",
             "en": "Special Issue on Conferences 2014"
           }
         },
@@ -32031,6 +32033,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen 2015",
             "en": "Special Issue on Conferences 2015"
           }
         },
@@ -32047,6 +32050,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen 2016",
             "en": "Special Issue on Conferences 2016"
           }
         },
@@ -32062,6 +32066,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen 2017",
             "en": "Special Issue on Conferences 2017"
           }
         },
@@ -32084,6 +32089,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen 2018",
             "en": "Special Issue on Conferences 2018"
           }
         }
@@ -32120,6 +32126,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Daten & Software",
             "en": "Special Issue on Data & Software"
           }
         },
@@ -32131,6 +32138,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen",
             "en": "Special Issue on Conferences"
           }
         }
@@ -32165,6 +32173,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft NFDI & ARS3D",
             "en": "Special Issue on NFDI & ARS3D"
           }
         },
@@ -32190,6 +32199,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Daten & Software",
             "en": "Special Issue on Data & Software"
           }
         },
@@ -32201,6 +32211,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen",
             "en": "Special Issue on Conferences"
           }
         }
@@ -32244,6 +32255,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Daten & Software",
             "en": "Special Issue on Data & Software"
           },
           "wikidata": "Q114568679"
@@ -32274,6 +32286,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen",
             "en": "Special Issue on Conferences"
           },
           "wikidata": "Q114568721"
@@ -32289,6 +32302,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Preprints",
             "en": "Special Issue on Preprints"
           }
         }
@@ -32331,6 +32345,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Daten und Software",
             "en": "Special Issue on data and software"
           },
           "wikidata": "Q116234584"
@@ -32350,6 +32365,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen und Vorträge",
             "en": "Special Issue on conferences and talks"
           },
           "wikidata": "Q116235599"
@@ -32367,6 +32383,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft zu Themen der GrapHNR 2023",
             "en": "Special Issue on GrapHNR 2023 related topics"
           }
         },
@@ -32383,6 +32400,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft zu NFDI-Themen",
             "en": "Special Issue on NFDI related topics"
           }
         },
@@ -32396,6 +32414,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft GitHub-Releases",
             "en": "Special Issue on GitHub Releases"
           }
         }
@@ -32434,6 +32453,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Daten und Software",
             "en": "Special Issue on data and software"
           }
         },
@@ -32458,6 +32478,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen und Vorträge",
             "en": "Special Issue on conferences and talks"
           }
         },
@@ -32496,6 +32517,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft zu NFDI-Themen",
             "en": "Special Issue on NFDI related topics"
           }
         },
@@ -32514,6 +32536,7 @@
           "sigil": "#",
           "special": true,
           "title": {
+            "de": "Sonderheft zum Annual Event 2024 der UK-Ireland DH Association am UCC",
             "en": "Special Issue on the UK-Ireland DH Association Annual Event 2024 at UCC"
           }
         }
@@ -32555,6 +32578,7 @@
           "sigil": "λ",
           "special": true,
           "title": {
+            "de": "Sonderheft Daten und Software",
             "en": "Special Issue on data and software"
           }
         },
@@ -32587,6 +32611,7 @@
           "sigil": "λ",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen und Vorträge",
             "en": "Special Issue on conferences and talks"
           }
         },
@@ -32604,6 +32629,7 @@
           "sigil": "λ",
           "special": true,
           "title": {
+            "de": "Sonderheft zu NFDI-Themen",
             "en": "Special Issue on NFDI related topics"
           }
         },
@@ -32626,6 +32652,7 @@
           "sigil": "𝒬",
           "special": true,
           "title": {
+            "de": "Sonderheft zur 2. Conference on Research Data Infrastructure (CoRDI)",
             "en": "Special Issue on 2nd Conference on Research Data Infrastructure (CoRDI)"
           }
         }
@@ -32664,6 +32691,7 @@
           "sigil": "§",
           "special": true,
           "title": {
+            "de": "Sonderheft Daten und Software",
             "en": "Special Issue on data and software"
           }
         },
@@ -32685,6 +32713,7 @@
           "sigil": "§",
           "special": true,
           "title": {
+            "de": "Sonderheft Konferenzen und Vorträge",
             "en": "Special Issue on conferences and talks"
           }
         },
@@ -32696,6 +32725,7 @@
           "sigil": "§",
           "special": true,
           "title": {
+            "de": "Sonderheft zu NFDI-Themen",
             "en": "Special Issue on NFDI related topics"
           }
         },
@@ -32713,6 +32743,7 @@
           "sigil": "§",
           "special": true,
           "title": {
+            "de": "Sonderheft FAIR Digital Objects",
             "en": "Special Issue on FAIR Digital Objects"
           }
         },
@@ -32724,6 +32755,7 @@
           "sigil": "§",
           "special": true,
           "title": {
+            "de": "Sonderheft Open Educational Resources",
             "en": "Special Issue on Open Educational Resources"
           }
         }

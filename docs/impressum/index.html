@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Legal notice – Squirrel Papers</title>
+
+<link rel="canonical" href="https://squirrelpapers.github.io/impressum/">
+<link rel="alternate" hreflang="en" href="https://squirrelpapers.github.io/impressum/">
+<link rel="alternate" hreflang="de" href="https://squirrelpapers.github.io/de/impressum/">
+<link rel="icon" type="image/png" href="../assets/img/sqp-logo.png">
+<link rel="stylesheet" href="../assets/css/sqp.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="../">Squirrel Papers</a>
+    <span class="site-tagline">by the Research Squirrel Engineers Network</span>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../">Home</a>
+      <a href="../volumes/">Volumes &amp; Issues</a>
+      <a href="../impressum/" aria-current="page">Legal notice</a>
+      <a href="../privacy/">Privacy</a>
+      <a class="lang-switch" href="../de/impressum/" hreflang="de" lang="de">Deutsch</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap measure prose">
+  <h1>Legal notice</h1>
+  <!-- DRAFT (S5, 2026-10-07): English rendering of the German legal notice; the
+     German version is authoritative. To be reviewed by Flo. -->
+<p><em>This is a translation; the German version of this page is authoritative.</em></p>
+<h2>Information according to § 5 DDG (German Digital Services Act)</h2>
+<p>Florian Thiery<br>Josef-Traxel-Weg 4<br>55128 Mainz<br>Germany</p>
+<p>Email: mail [at] fthiery [dot] de</p>
+
+<h2>Responsible for the content</h2>
+<p>Florian Thiery, address as above.</p>
+
+<h2>Liability for content</h2>
+<p>The content of these pages has been compiled with care. No guarantee can be
+given, however, for its accuracy, completeness or timeliness. As a service
+provider we are not obliged to monitor third-party information transmitted or
+stored. Unlawful content will be removed as soon as we become aware of it.</p>
+
+<h2>Liability for links</h2>
+<p>These pages link to external websites over whose content we have no
+influence; the respective provider is always responsible for it. No
+infringements were recognisable when the links were set; links will be removed
+as soon as an infringement becomes known.</p>
+
+<h2>Copyright</h2>
+<p>The metadata on this site are licensed under
+<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+The listed contributions on Zenodo and elsewhere each carry their own licence.</p>
+
+</div>
+
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>About Squirrel Papers</h2>
+      <p>The Squirrel Papers by the Research Squirrel Engineers Network are a free Open Access journal hosting publications on Zenodo and the Open Science Framework (OSF), collecting Linked Open Data (LOD), Research Software Engineering (RSE), Cultural Heritage and Geo-Sciences related research papers, working papers, blog posts, posters, slides, research data and research software.</p>
+      <p>The Squirrel Papers are an official journal accepted by the &#34;Nationales ISSN-Zentrum für Deutschland&#34; with ISSN 2750-560X.</p>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p><strong>Mail</strong><br>mail [at] squirrelpapers [dot] net</p>
+      <p><strong>Editor / Head Squirrel</strong><br>
+        <a href="https://orcid.org/0000-0002-3246-3531">Florian Thiery</a></p>
+      <p>ISSN 2750-560X · <a href="https://www.wikidata.org/wiki/Q89658875">Wikidata: Q89658875</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>Metadata on this site are licensed CC BY 4.0; each paper, poster, dataset and software carries its own licence on Zenodo.</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">Source code</a>
+      · <a href="../impressum/">Legal notice</a>
+      · <a href="../privacy/">Privacy</a></p>
+  </div>
+</footer>
+<script>
+// Click-to-load PDF preview and copy buttons. Nothing else runs on this site.
+document.addEventListener("click", function (event) {
+  var load = event.target.closest("[data-preview-src]");
+  if (load) {
+    var frame = document.createElement("iframe");
+    frame.src = load.getAttribute("data-preview-src");
+    frame.title = load.getAttribute("data-preview-title");
+    frame.className = "preview-frame";
+    frame.setAttribute("loading", "lazy");
+    load.parentNode.replaceChild(frame, load);
+    return;
+  }
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+</body>
+</html>

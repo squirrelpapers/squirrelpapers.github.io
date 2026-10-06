@@ -61,6 +61,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Conferences 2019
+    de: Sonderheft Konferenzen 2019
   special: true
   entries:
   - n: 1
@@ -285,6 +286,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Conferences 2014
+    de: Sonderheft Konferenzen 2014
   special: true
   entries:
   - n: 1
@@ -362,6 +364,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Conferences 2015
+    de: Sonderheft Konferenzen 2015
   special: true
   entries:
   - n: 1
@@ -419,6 +422,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Conferences 2016
+    de: Sonderheft Konferenzen 2016
   special: true
   entries:
   - n: 1
@@ -495,6 +499,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Conferences 2017
+    de: Sonderheft Konferenzen 2017
   special: true
   entries:
   - n: 1
@@ -556,6 +561,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Conferences 2018
+    de: Sonderheft Konferenzen 2018
   special: true
   entries:
   - n: 1

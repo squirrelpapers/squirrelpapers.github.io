@@ -1,0 +1,22 @@
+{% macro people(list) -%}
+{% for p in list %}{% if p.orcid %}<a class="person" href="https://orcid.org/{{ p.orcid }}" title="ORCID {{ p.orcid }}">{{ p.given }} {{ p.family }}<span class="orcid" aria-hidden="true"></span></a>{% else %}<span class="person">{{ p.given }} {{ p.family }}</span>{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}
+{%- endmacro %}
+
+{% macro short_people(list) -%}
+{% for p in list[:3] %}{{ p.family }}{% if not loop.last %}, {% endif %}{% endfor %}{% if list|length > 3 %} et al.{% endif %}
+{%- endmacro %}
+
+{% macro entry_item(e, root, types, t, lang) -%}
+<li class="entry-item">
+  <span class="sigil">{{ e.sigil }}{{ e.n }}</span>
+  <div class="entry-item-body">
+    <a class="entry-item-title" href="{{ root }}{{ e.path }}/">{{ e.title }}</a>
+    <div class="entry-item-meta">
+      {% for slug in e.types %}<span class="badge">{{ types[slug].label[lang] }}</span> {% endfor %}
+      <span>{{ short_people(e.creators) }}</span>
+      {% if e.year %}<span>· {{ e.year }}</span>{% endif %}
+      {% if e.event and e.event.name %}<span class="muted">· {{ e.event.name }}</span>{% endif %}
+    </div>
+  </div>
+</li>
+{%- endmacro %}

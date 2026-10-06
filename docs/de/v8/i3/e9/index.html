@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>![TYPE](https://img.shields.io/badge/TYPE-Talk-blue) ![TYPE](https://img.shields.io/badge/TYPE-Conference%20Paper-blue) ![Lang](https://img.shields.io/badge/LANGUAGE-German-red) Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem – Squirrel Papers 8(3), §9</title>
+
+<link rel="canonical" href="https://squirrelpapers.github.io/de/v8/i3/e9/">
+<link rel="alternate" hreflang="en" href="https://squirrelpapers.github.io/v8/i3/e9/">
+<link rel="alternate" hreflang="de" href="https://squirrelpapers.github.io/de/v8/i3/e9/">
+<link rel="icon" type="image/png" href="../../../../assets/img/sqp-logo.png">
+<link rel="stylesheet" href="../../../../assets/css/sqp.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v8/i3/e9", "@type": "ScholarlyArticle", "abstract": "Abstract\nCommunity-basierte Geodatenplattformen wie OpenStreetMap (OSM), Wikidata (Schmidt, Thiery, und Trognitz 2022) und weitere Wikibase-Instanzen stellen eine der wertvollsten frei verfügbaren Quellen raumbezogener Informationen dar. In der wissenschaftlichen Nutzung, insbesondere im Bereich des Cultural Heritage und der Geowissenschaften, besteht jedoch weiterhin die Herausforderung, diese heterogenen Daten strukturiert, semantisch konsistent und maschinenlesbar in Forschungsinfrastrukturen zu integrieren. Der Beitrag zeigt, wie Community-Geodaten automatisiert extrahiert, transformiert und in das Federated Knowledge Graph Ecosystem (Fischer u. a. 2025; Rossenova u. a. 2025; Thiery u. a. 2025) wie die Knowledge Graph Infrastructure (KGI4NFDI) und den Terminology Service (TS4NFDI) eingebunden werden können.\nDie Datenextraktion erfolgt über Overpass Turbo (für OSM-Daten) sowie über SPARQL-Endpoints der Wikibase-Systeme (z. B. Wikidata, fuzzy-sl Wikibase, FactGrid). Anschließend werden die Datensätze mithilfe von Python-Skripten und der Bibliothek rdflib in RDF transformiert und innerhalb von Jupyter Notebooks dokumentiert, um eine reproduzierbare, FAIR4RS-konforme Prozesskette sicherzustellen. Die resultierenden RDF-Graphen werden gemäß CIDOC CRM und GeoSPARQL 1.1 modelliert und über die Material Cultural Heritage Crosswalk Ontology (MaCHeCO) mit dem NFDI4Objects Knowledge Graph interoperabel gemacht. Ergänzend erzeugt das SPARQLing Unicorn Toolkit (Homburg und Thiery 2024b; 2024a) eine HTML-Dokumentation der RDF-Ergebnisse, während das zugehörige SPARQLing Unicorn QGIS-Plugin die Re-Integration der Linked Data in QGIS ermöglicht. Anhand konkreter Use Cases wird das Vorgehen illustriert:\n(1) Cultural Heritage Irish Sites – etwa der Ogham Stone Coumeenole North (Q126503090; node:5145413640), cgl. Thiery und Thiery (2023), via https://overpass-turbo.eu/s/2eM0 oder St. Lachtain’s Well (Q121840779; way:935503837), via https://overpass-turbo.eu/s/2eM2 – werden aus OSM", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}, {"@id": "https://orcid.org/0009-0008-2877-3204", "@type": "Person", "name": "Fiona Schenk"}, {"@id": "https://orcid.org/0000-0003-3270-2659", "@type": "Person", "name": "Peter Thiery"}], "datePublished": "2026-03-25", "genre": "Conference paper", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.19200628"}, "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v8/i3", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v8", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "8"}, "issueNumber": "3"}, "license": "https://creativecommons.org/licenses/by/4.0/", "name": "![TYPE](https://img.shields.io/badge/TYPE-Talk-blue) ![TYPE](https://img.shields.io/badge/TYPE-Conference%20Paper-blue) ![Lang](https://img.shields.io/badge/LANGUAGE-German-red) Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem", "recordedAt": {"@type": "Event", "endDate": "2026-03-28", "location": {"@type": "Place", "geo": {"@type": "GeoCoordinates", "latitude": 51.53398, "longitude": 9.93792}, "name": "University of Göttingen", "sameAs": "http://www.wikidata.org/entity/Q152838"}, "name": "FOSSGIS-Konferenz 2026", "startDate": "2026-03-25"}, "sameAs": ["https://doi.org/10.5281/zenodo.19200628"], "url": "https://squirrelpapers.github.io/v8/i3/e9/"}</script>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="../../../../de/">Squirrel Papers</a>
+    <span class="site-tagline">vom Research Squirrel Engineers Network</span>
+    <nav class="site-nav" aria-label="Hauptmenü">
+      <a href="../../../../de/">Start</a>
+      <a href="../../../../de/volumes/" aria-current="page">Bände &amp; Hefte</a>
+      <a href="../../../../de/impressum/">Impressum</a>
+      <a href="../../../../de/privacy/">Datenschutz</a>
+      <a class="lang-switch" href="../../../../v8/i3/e9/" hreflang="en" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<article class="wrap entry">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../../../../">Squirrel Papers</a> › <a href="../../../../v8/">Band 8</a> › <a href="../../../../v8/i3/">Heft 3</a> › <span class="sigil">§9</span></nav>
+  <p class="entry-kicker"><span class="sigil">8(3), §9</span> <span class="badge">Konferenzbeitrag</span></p>
+  <h1 class="entry-title">![TYPE](https://img.shields.io/badge/TYPE-Talk-blue) ![TYPE](https://img.shields.io/badge/TYPE-Conference%20Paper-blue) ![Lang](https://img.shields.io/badge/LANGUAGE-German-red) Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem</h1>
+  <p class="entry-authors"><a class="person" href="https://orcid.org/0000-0002-3246-3531" title="ORCID 0000-0002-3246-3531">Florian Thiery<span class="orcid" aria-hidden="true"></span></a>, <a class="person" href="https://orcid.org/0009-0008-2877-3204" title="ORCID 0009-0008-2877-3204">Fiona Schenk<span class="orcid" aria-hidden="true"></span></a>, <a class="person" href="https://orcid.org/0000-0003-3270-2659" title="ORCID 0000-0003-3270-2659">Peter Thiery<span class="orcid" aria-hidden="true"></span></a></p>
+
+  <div class="entry-grid">
+    <div class="entry-main">
+      <section class="cite">
+        <h2>Zitiervorschlag</h2>
+        <div class="cite-box"><p id="cite-text">Thiery, F., Schenk, F., &amp; Thiery, P. (2026). ![TYPE](https://img.shields.io/badge/TYPE-Talk-blue) ![TYPE](https://img.shields.io/badge/TYPE-Conference%20Paper-blue) ![Lang](https://img.shields.io/badge/LANGUAGE-German-red) Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem. <em>Squirrel Papers</em>, 8(3), §9. <a href="https://doi.org/10.5281/zenodo.19200628">https://doi.org/10.5281/zenodo.19200628</a></p>
+          <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
+        
+      </section>
+
+      
+      <section class="preview">
+        <h2>Vorschau</h2>
+        <button type="button" class="button" data-preview-src="https://zenodo.org/records/19200629/preview/Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_Göttingen_OSM2LOD.pdf" data-preview-title="Vorschau: Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_Göttingen_OSM2LOD.pdf">PDF-Vorschau anzeigen</button>
+        <p class="muted small">Die Vorschau wird erst auf deinen Klick von zenodo.org geladen. <a href="https://zenodo.org/records/19200629/files/Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_Göttingen_OSM2LOD.pdf?download=1">PDF herunterladen</a> (Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_Göttingen_OSM2LOD.pdf)</p>
+      </section>
+      
+
+      
+      <section>
+        <h2>Zusammenfassung</h2>
+        <div class="abstract"><p><strong>Abstract</strong></p>
+<p>Community-basierte Geodatenplattformen wie OpenStreetMap (OSM), Wikidata (Schmidt, Thiery, und Trognitz 2022) und weitere Wikibase-Instanzen stellen eine der wertvollsten frei verfügbaren Quellen raumbezogener Informationen dar. In der wissenschaftlichen Nutzung, insbesondere im Bereich des Cultural Heritage und der Geowissenschaften, besteht jedoch weiterhin die Herausforderung, diese heterogenen Daten strukturiert, semantisch konsistent und maschinenlesbar in Forschungsinfrastrukturen zu integrieren. Der Beitrag zeigt, wie Community-Geodaten automatisiert extrahiert, transformiert und in das Federated Knowledge Graph Ecosystem (Fischer u. a. 2025; Rossenova u. a. 2025; Thiery u. a. 2025) wie die Knowledge Graph Infrastructure (KGI4NFDI) und den Terminology Service (TS4NFDI) eingebunden werden können.</p>
+<p>Die Datenextraktion erfolgt über Overpass Turbo (für OSM-Daten) sowie über SPARQL-Endpoints der Wikibase-Systeme (z. B. Wikidata, fuzzy-sl Wikibase, FactGrid). Anschließend werden die Datensätze mithilfe von Python-Skripten und der Bibliothek rdflib in RDF transformiert und innerhalb von Jupyter Notebooks dokumentiert, um eine reproduzierbare, FAIR4RS-konforme Prozesskette sicherzustellen. Die resultierenden RDF-Graphen werden gemäß CIDOC CRM und GeoSPARQL 1.1 modelliert und über die Material Cultural Heritage Crosswalk Ontology (MaCHeCO) mit dem NFDI4Objects Knowledge Graph interoperabel gemacht. Ergänzend erzeugt das SPARQLing Unicorn Toolkit (Homburg und Thiery 2024b; 2024a) eine HTML-Dokumentation der RDF-Ergebnisse, während das zugehörige SPARQLing Unicorn QGIS-Plugin die Re-Integration der Linked Data in QGIS ermöglicht. Anhand konkreter Use Cases wird das Vorgehen illustriert:</p>
+<p>(1) Cultural Heritage Irish Sites – etwa der Ogham Stone Coumeenole North (Q126503090; node:5145413640), cgl. Thiery und Thiery (2023), via https://overpass-turbo.eu/s/2eM0 oder St. Lachtain’s Well (Q121840779; way:935503837), via https://overpass-turbo.eu/s/2eM2 – werden aus OSM und Wikidata abgerufen, semantisch harmonisiert und mit dem NFDI4Objects-Graph verknüpft.</p>
+<p>(2) Geoscience Sites – beispielsweise die Franchthi Cave (node:1221172611; Q1441331) oder Crvena Stiljena Cave (node:10879170567; Q121418883), vgl. Thiery und Schenk (2023), sowie die Bohrkerne AU3, AU4 und DE3 (Schenk u. a. 2024) – werden als (duale) geologische und archäologische Entitäten modelliert.</p>
+<p>(3) Zur Rekonstruktion georegionaler Kontexte (z. B. der Eifel-Region) werden Fluss- und Grenzrelationen wie der Rhein (123924), die Mosel (390416) oder der Parc naturel des Hautes-Fagnes – Eifel (10601027) integriert, um „fuzzy boundaries“ semantisch zu repräsentieren.</p>
+<p>Der Beitrag zeigt, wie durch die Nutzung offener Standards, freier Software (Python, QGIS) und offener Schnittstellen (Overpass, SPARQL) eine durchgängige Pipeline von Community-Daten zu semantisch vernetzten, FAIRen Forschungsdaten entsteht. Damit wird eine Brücke zwischen der FOSSGIS-Community und den NFDI-Forschungsinfrastrukturen geschlagen – ein Beitrag zur nachhaltigen Nutzung, Verknüpfung und Langzeitverfügbarkeit offener Geodaten in Wissenschaft und Kulturerbe.</p>
+<p><strong>Referenzen</strong></p>
+<p>Fischer, Kristina, Anja Gerber, Thomas Koprucki, Andreas Noback, Marco Reidelbach, Torsten Schrade, und Florian Thiery. 2025. „Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data“. In Proceedings of the Conference on Research Data Infrastructure 2025, herausgegeben von York Sure-Vetter und Paul Groth, 7(5), 𝒬3, 7(5), 𝒬3. Aachen: Squirrel Papers. https://doi.org/10.5281/zenodo.16736221.</p>
+<p>Homburg, Timo, und Florian Thiery. 2024a. „SPARQL Unicorn Ontology Documentation“. Squirrel Papers 6 (2): #2. https://doi.org/10.5281/zenodo.10780476.</p>
+<p>———. 2024b. „sparqlunicorn/sparqlunicornGoesGIS-ontdoc: Version 0.17“. Squirrel Papers 6 (2): #2. https://doi.org/10.5281/zenodo.8190763.</p>
+<p>Rossenova, Lozana, Fidan Limani, Carsten Fortmann-Grote, Angelika Kaplan, Florian Thiery, Atif Latif, Renat Shigapov, u. a. 2025. „How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”“. In Proceedings of the Conference on Research Data Infrastructure 2025, herausgegeben von York Sure-Vetter und Groth Paul, 7(5), 𝒬5, 7(5), 𝒬5. Aachen: Squirrel Papers. https://doi.org/10.5281/zenodo.16736077.</p>
+<p>Schenk, Fiona, Ulrich Hambach, Sarah Britzius, Daniel Veres, und Frank Sirocko. 2024. „A Cryptotephra Layer in Sediments of an Infilled Maar Lake from the Eifel (Germany): First Evidence of Campanian Ignimbrite Ash Airfall in Central Europe“. Quaternary 7 (2): 17. https://doi.org/10.3390/quat7020017.</p>
+<p>Schmidt, Sophie C., Florian Thiery, und Martina Trognitz. 2022. „Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata“. Digital 2 (3): 333–64. https://doi.org/10.3390/digital2030019.</p>
+<p>Thiery, Florian, Lozana Rossenova, Daniel Mietchen, Timo Homburg, und Peter Thiery. 2025. „Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem“. In Proceedings of the Conference on Research Data Infrastructure 2025, herausgegeben von York Sure-Vetter und Paul Groth, 7(5), 𝒬2, 7(5), 𝒬2. Aachen: Squirrel Papers. https://doi.org/10.5281/zenodo.16736047.</p>
+<p>Thiery, Florian, und Fiona Schenk. 2023. „Modelling of Uncertainty in Geo Sciences Sites“. Squirrel Papers 5 (1): #4. https://doi.org/10.5281/zenodo.10255259.</p>
+<p>Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish and interlink various Ogham Data?“ Archeologia e Calcolatori 34 (1): 105–14. https://doi.org/10.19282/ac.34.1.2023.12.</p></div>
+      </section>
+      
+
+    </div>
+
+    <aside class="entry-facts">
+      <dl>
+        <dt>Erschienen in</dt>
+        <dd>Squirrel Papers 8(3), §9<br><a href="../../../../v8/i3/">Band 8, Heft 3</a><br><span class="muted">Sonderheft Konferenzen und Vorträge</span></dd>
+        <dt>Datum</dt><dd>25. März 2026</dd>
+        
+          <dt>Veranstaltung</dt><dd>FOSSGIS-Konferenz 2026<br><span class="muted">25.–28. März 2026</span></dd>
+          <dt>Session</dt><dd>Daten, Datenbanken und Datenprozessierung</dd>
+          <dt>Ort</dt><dd>Georg-August-Universität Göttingen, Germany<br><a href="https://www.wikidata.org/wiki/Q152838">University of Göttingen</a></dd>
+        
+        
+        
+        <dt>DOI</dt><dd><a href="https://doi.org/10.5281/zenodo.19200628">10.5281/zenodo.19200628</a></dd>
+        <dt>Zenodo-Datensatz</dt><dd><a href="https://zenodo.org/records/19200629">19200629</a></dd>
+        
+        
+        <dt>Lizenz</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/">cc-by-4.0</a></dd>
+        
+        
+        
+        <dt>Persistenter Identifikator</dt><dd><a class="iri" href="https://w3id.org/squirrelpapers/v8/i3/e9">https://w3id.org/squirrelpapers/v8/i3/e9</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>Über die Squirrel Papers</h2>
+      <p>Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften.</p>
+      <p>Die Squirrel Papers sind ein offiziell vom Nationalen ISSN-Zentrum für Deutschland anerkanntes Journal mit der ISSN 2750-560X.</p>
+    </section>
+    <section>
+      <h2>Kontakt</h2>
+      <p><strong>E-Mail</strong><br>mail [at] squirrelpapers [dot] net</p>
+      <p><strong>Herausgeber / Head Squirrel</strong><br>
+        <a href="https://orcid.org/0000-0002-3246-3531">Florian Thiery</a></p>
+      <p>ISSN 2750-560X · <a href="https://www.wikidata.org/wiki/Q89658875">Wikidata: Q89658875</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>Die Metadaten dieser Seite stehen unter CC BY 4.0; jedes Paper, Poster, jeder Datensatz und jede Software trägt auf Zenodo eine eigene Lizenz.</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">Quellcode</a>
+      · <a href="../../../../de/impressum/">Impressum</a>
+      · <a href="../../../../de/privacy/">Datenschutz</a></p>
+  </div>
+</footer>
+<script>
+// Click-to-load PDF preview and copy buttons. Nothing else runs on this site.
+document.addEventListener("click", function (event) {
+  var load = event.target.closest("[data-preview-src]");
+  if (load) {
+    var frame = document.createElement("iframe");
+    frame.src = load.getAttribute("data-preview-src");
+    frame.title = load.getAttribute("data-preview-title");
+    frame.className = "preview-frame";
+    frame.setAttribute("loading", "lazy");
+    load.parentNode.replaceChild(frame, load);
+    return;
+  }
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+</body>
+</html>

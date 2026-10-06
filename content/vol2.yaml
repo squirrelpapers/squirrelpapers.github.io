@@ -43,6 +43,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Data & Software
+    de: Sonderheft Daten & Software
   special: true
   entries:
   - n: 1
@@ -76,5 +77,6 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Conferences
+    de: Sonderheft Konferenzen
   special: true
   entries: []

@@ -74,6 +74,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Data & Software
+    de: Sonderheft Daten & Software
   special: true
   wikidata: Q114568679
   entries:
@@ -138,6 +139,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Conferences
+    de: Sonderheft Konferenzen
   special: true
   wikidata: Q114568721
   entries:
@@ -306,6 +308,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on Preprints
+    de: Sonderheft Preprints
   special: true
   entries:
   - n: 1

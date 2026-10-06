@@ -90,6 +90,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on data and software
+    de: Sonderheft Daten und Software
   special: true
   wikidata: Q116234584
   entries:
@@ -149,6 +150,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on conferences and talks
+    de: Sonderheft Konferenzen und Vorträge
   special: true
   wikidata: Q116235599
   entries:
@@ -254,6 +256,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on GrapHNR 2023 related topics
+    de: Sonderheft zu Themen der GrapHNR 2023
   special: true
   entries:
   - n: 1
@@ -303,6 +306,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on NFDI related topics
+    de: Sonderheft zu NFDI-Themen
   special: true
   entries:
   - n: 1
@@ -387,6 +391,7 @@ issues:
   sigil: '#'
   title:
     en: Special Issue on GitHub Releases
+    de: Sonderheft GitHub-Releases
   special: true
   entries:
   - n: 1

@@ -1,0 +1,124 @@
+# Interface strings of the site, English and German (PRIMER A4: UI and frame
+# texts are translated, titles and abstracts stay in their original language).
+
+en:
+  lang_name: English
+  other_lang: Deutsch
+  tagline: by the Research Squirrel Engineers Network
+  nav_home: Home
+  nav_volumes: Volumes & Issues
+  nav_impressum: Legal notice
+  nav_privacy: Privacy
+  hero_title: Squirrel Papers
+  hero_claim: The Squirrel Papers, your Open Access Journal for LOD, RSE and Cultural Heritage!
+  issn: ISSN
+  wikidata: Wikidata
+  volume: Volume
+  issue: Issue
+  special_issue: Special issue
+  entries: entries
+  entry: entry
+  no_entries: No published entries yet.
+  latest_volume: Latest volume
+  all_volumes: All volumes
+  coverage: covering
+  authors: Authors
+  editors: Editors
+  contributors: Contributors
+  event: Event
+  session: Session
+  date: Date
+  location: Location
+  online: online
+  type: Type
+  doi: DOI
+  zenodo: Zenodo record
+  licence: Licence
+  language: Language
+  version: Version
+  repository: Repository
+  release: Release
+  video: Video
+  link: Link
+  keywords: Keywords
+  abstract: Abstract
+  identifier: Persistent identifier
+  preview: Preview
+  preview_note: The preview is loaded from zenodo.org only when you ask for it.
+  preview_button: Show PDF preview
+  download_pdf: Download PDF
+  how_to_cite: How to cite
+  copy_button: Copy
+  copied_button: Copied
+  published_in: Published in
+  about_title: About Squirrel Papers
+  contact_title: Contact
+  mail: Mail
+  editor_title: Editor / Head Squirrel
+  footer_licence: Metadata on this site are licensed CC BY 4.0; each paper, poster, dataset and software carries its own licence on Zenodo.
+  source_code: Source code
+  breadcrumb_home: Squirrel Papers
+  zenodo_title_differs: Title on Zenodo
+  months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  languages: {en: English, de: German}
+
+de:
+  lang_name: Deutsch
+  other_lang: English
+  tagline: vom Research Squirrel Engineers Network
+  nav_home: Start
+  nav_volumes: Bände & Hefte
+  nav_impressum: Impressum
+  nav_privacy: Datenschutz
+  hero_title: Squirrel Papers
+  hero_claim: Die Squirrel Papers, dein Open-Access-Journal für LOD, RSE und Kulturerbe!
+  issn: ISSN
+  wikidata: Wikidata
+  volume: Band
+  issue: Heft
+  special_issue: Sonderheft
+  entries: Beiträge
+  entry: Beitrag
+  no_entries: Noch keine veröffentlichten Beiträge.
+  latest_volume: Neuester Band
+  all_volumes: Alle Bände
+  coverage: umfasst
+  authors: Autor:innen
+  editors: Herausgeber:innen
+  contributors: Mitwirkende
+  event: Veranstaltung
+  session: Session
+  date: Datum
+  location: Ort
+  online: online
+  type: Typ
+  doi: DOI
+  zenodo: Zenodo-Datensatz
+  licence: Lizenz
+  language: Sprache
+  version: Version
+  repository: Repository
+  release: Release
+  video: Video
+  link: Link
+  keywords: Schlagwörter
+  abstract: Zusammenfassung
+  identifier: Persistenter Identifikator
+  preview: Vorschau
+  preview_note: Die Vorschau wird erst auf deinen Klick von zenodo.org geladen.
+  preview_button: PDF-Vorschau anzeigen
+  download_pdf: PDF herunterladen
+  how_to_cite: Zitiervorschlag
+  copy_button: Kopieren
+  copied_button: Kopiert
+  published_in: Erschienen in
+  about_title: Über die Squirrel Papers
+  contact_title: Kontakt
+  mail: E-Mail
+  editor_title: Herausgeber / Head Squirrel
+  footer_licence: Die Metadaten dieser Seite stehen unter CC BY 4.0; jedes Paper, Poster, jeder Datensatz und jede Software trägt auf Zenodo eine eigene Lizenz.
+  source_code: Quellcode
+  breadcrumb_home: Squirrel Papers
+  zenodo_title_differs: Titel auf Zenodo
+  months: [Jan., Feb., März, Apr., Mai, Juni, Juli, Aug., Sep., Okt., Nov., Dez.]
+  languages: {en: Englisch, de: Deutsch}

@@ -1,0 +1,41 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import entry_item %}
+{% block main %}
+<section class="hero band">
+  <div class="wrap hero-inner">
+    <img class="hero-logo" src="{{ root }}assets/img/sqp-logo.png" alt="Squirrel Papers logo" width="384" height="228">
+    <h1>{{ t.hero_claim }}</h1>
+    <p class="hero-facts">{{ t.issn }} {{ journal.issn }} · <a href="https://www.wikidata.org/wiki/{{ journal.wikidata }}">{{ t.wikidata }}: {{ journal.wikidata }}</a></p>
+  </div>
+</section>
+<div class="wrap">
+  <section class="intro measure">
+    <p class="dropcap">{{ journal.description[lang] }}</p>
+    <p>{{ journal.registration[lang] }}</p>
+  </section>
+  <section>
+    <h2>{{ t.all_volumes }}</h2>
+    <ul class="volume-grid">
+    {% for v in volumes %}
+      <li class="volume-card">
+        <a href="{{ root }}{{ v.path }}/">
+          <span class="volume-number">{{ t.volume }} {{ v.volume }}</span>
+          <span class="volume-year">{{ v.label_years }}</span>
+          <span class="volume-count">{{ v.count }} {{ t.entries }} · {{ v.issues|length }} {{ t.issue if v.issues|length == 1 else ('issues' if lang == 'en' else 'Hefte') }}</span>
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+  {% if latest %}
+  <section>
+    <h2>{{ t.latest_volume }}: {{ t.volume }} {{ latest.volume }}</h2>
+    {% for issue in latest.issues %}{% if issue.published %}
+    <h3><a href="{{ root }}{{ issue.path }}/">{{ t.issue }} {{ issue.issue }}</a>{% if issue.title %} <span class="muted">· {{ issue.title[lang] or issue.title.en }}</span>{% endif %}</h3>
+    <ul class="entry-list">{% for e in issue.published[:5] %}{{ entry_item(e, root, types, t, lang) }}{% endfor %}</ul>
+    {% if issue.published|length > 5 %}<p><a href="{{ root }}{{ issue.path }}/">… {{ issue.published|length }} {{ t.entries }}</a></p>{% endif %}
+    {% endif %}{% endfor %}
+  </section>
+  {% endif %}
+</div>
+{% endblock %}

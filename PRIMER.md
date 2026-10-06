@@ -161,7 +161,7 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Lizenzen | Code MIT, Inhalte/Metadaten CC BY 4.0 | 2026-10-06 |
 | Quellrepos | Werden von Claude geklont, Snapshot nach `data/raw/` | 2026-10-06 |
 | Modellierung Volume/Issue | Journal = `dcat:Catalog`; Volume und Issue = `dcat:DatasetSeries` (Issue `dcat:inSeries` Volume); Entry = `dcat:Dataset` + `fabio:`-Typ, `dcat:inSeries` Issue | Vorschlag |
-| Seitengenerator | Python + Jinja2, kein Jekyll, kein Node-Build | Vorschlag |
+| Seitengenerator | Python + Jinja2, kein Jekyll, kein Node-Build | 2026-10-07 |
 | Schritte außerhalb des Standardlaufs | `migrate` (einmalig, überschreibt `content/`) und `harvest` (Netz) laufen nur mit `--only`; Standardreihenfolge `merge → cite → rdf → validate → map → site → sparql` | 2026-10-06 |
 | Schriften | Keine Webfonts, keine Drittanbieter-Anfrage für Typografie; Systemschrift-Stacks mit `Inter` an erster Stelle (greift, wo installiert) | Vorschlag |
 | Akzentfarbe im Fließtext | Magenta `#c94fa0` hat auf Weiß nur 4,1 : 1 → nur für große Schrift/Deko (`--accent`); Sigel und Akzent in Textgröße hell `#b03686` (5,6 : 1), dunkel Magenta (`--accent-text`) | 2026-10-06 |
@@ -192,6 +192,11 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Personen | ORCID ist der Schlüssel; Name je ORCID = häufigste Nachnamensschreibung, davon der längste Vorname, der mindestens ein Viertel so oft vorkommt wie der häufigste. Ohne ORCID: Zuordnung über Nachname + verträgliche Initialen, nur wenn eindeutig. Personen ohne ORCID mit gleichem Nachnamen und verträglichen Initialen werden zusammengeführt. Titel (Dr., Prof.) und Suffixe (FSA, PhD) fallen weg. Person-IRI `…/person/<ORCID>` bzw. `…/person/<slug>` | 2026-10-07 |
 | Autorenliste | Die Liste aus `content/` gilt, auch wenn Zenodo mehr oder weniger Personen nennt (18 Fälle im Bericht); nur bei `et_al: true` wird aus Zenodo ergänzt | Vorschlag |
 | Typvokabular | `content/vocab/types.yaml`, 23 Konzepte mit Labels EN/DE, Aliassen (`talk` → `presentation`), `broader`, Mappings auf COAR, FaBiO und Zenodo-`resource_type`; erster Typ = Haupttyp | 2026-10-07 |
+| `docs/` | Gehört dem `site`-Schritt: wird bei jedem Lauf geleert und neu geschrieben. Produkte anderer Schritte für das Web (BibTeX, Turtle, Dumps …) schreiben diese nach `dist/web/` im Layout von `docs/`; `site` kopiert sie hinein und verlinkt, was da ist | 2026-10-07 |
+| Seitenlayout | Ein Ordner je Seite (`v7/i4/e5/index.html`), relative Links (funktioniert von der Platte und unter jedem Host), `canonical` und `hreflang` auf `squirrelpapers.github.io`, schema.org-JSON-LD je Entry | 2026-10-07 |
+| PDF-Vorschau | Erst nach Klick (`iframe` auf den Zenodo-Previewer der Versions-Record-ID); vorher kein Drittanbieter-Request — geprüft mit Playwright | 2026-10-07 |
+| Rechtliche Seiten | `content/pages/{impressum,privacy}.{de,en}.html`; Impressum auf § 5 DDG umgestellt, Datenschutz neu für GitHub Pages gefasst. **Entwurf**, von Flo vor dem Umschalten zu prüfen | 2026-10-07 |
+| UI-Texte | `content/ui.yaml` (EN/DE); Schlüssel dürfen nicht wie Dict-Methoden heißen (`copy`, `items` …), der Build bricht sonst ab | 2026-10-07 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -240,7 +245,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S2 | Migration Markdown + `pub` → `content/*.yaml`, Prüfbericht | dieses | S1 | erledigt 2026-10-06 |
 | S3 | Harvest: Zenodo-Records, Wikidata-Orte/QIDs → `data/raw/` | dieses (läuft bei Flo) | S2 | erledigt 2026-10-06 |
 | S4 | Merge + Normalisierung → `data/derived/entries.json`, SKOS-Typen | dieses | S2, S3 | erledigt 2026-10-07 |
-| S5 | Seiten EN/DE: Journal, Volume, Issue, Entry, About, Impressum, Datenschutz; PDF-iframe | dieses | S4 | offen |
+| S5 | Seiten EN/DE: Journal, Volume, Issue, Entry, About, Impressum, Datenschutz; PDF-iframe | dieses | S4 | erledigt 2026-10-07 |
 | S6 | Zitation: CSL-JSON, citeproc-js + Stilwahl, BibTeX/RIS je Ebene | dieses | S4 | offen |
 | S7 | RDF: Ontologie, DCAT 3/DCAT-AP 3, BIBO/FaBiO, CRM/CRMdig/LRMoo, JSON-LD | dieses | S4 | offen |
 | S8 | SHACL-Gate (eigene + DCAT-AP-3-Shapes), `--strict` | dieses | S7 | offen |
@@ -538,6 +543,33 @@ Website.
 **Abnahme:** Linkprüfung über `docs/` ohne tote interne Links; jede Entry aus
 `entries.json` hat genau eine Seite je Sprache.
 
+### Erledigt 2026-10-07
+
+`py/step_site.py`, Templates unter `py/templates/` (`base`, `_macros`,
+`home`, `volumes`, `volume`, `issue`, `entry`, `page`), `content/ui.yaml`,
+`content/pages/*.html`, `assets/img/network.svg` (Netzwerk-Hintergrund,
+einmal deterministisch erzeugt, Seed 2750560) und Seiten-CSS in
+`assets/css/sqp.css`.
+
+**Ergebnis:** 524 Seiten (210 Einträge × 2 Sprachen, dazu Bände, Hefte,
+Übersicht, Impressum, Datenschutz), ≈ 8,5 MB. Linkprüfung über alle Seiten im
+Build: keine toten internen Links. Zwei Läufe: `docs/` byte-gleich.
+Screenshots (Playwright, hell/dunkel, 1280 px und 390 px): kein horizontales
+Scrollen.
+
+**Befunde:**
+- Die Linkprüfung fand sofort einen Migrationsfehler: 7(2) λ2 hatte als
+  Release-Link `[TODO](https://…` — korrigiert in `content/vol7.yaml`.
+- Jinja liest `t.copy` als Dict-Methode, auf der Seite stand „<built-in
+  method copy …>" — Schlüssel umbenannt, Build-Wächter eingebaut (A4).
+- Heft-Titel gab es nur englisch; für die 32 Hefte mit Titel steht jetzt
+  zusätzlich `de:` in `content/vol*.yaml`.
+- Lange Abstracts drückten Zitierbox und Vorschau weit nach unten; Reihenfolge
+  auf der Entry-Seite jetzt: Zitation → Vorschau → Abstract.
+
+**Ansehen:** lokal mit `python main.py --serve`; online, sobald GitHub Pages
+auf „Deploy from a branch: main, /docs" steht (die Action kommt in S11).
+
 ## S6 — Zitation
 
 **Ziel:** Zitiervorschlag mit Stilwahl und Exporte je Entry, Issue, Volume.
@@ -638,6 +670,10 @@ auf die neuen IRIs (P856 / P953 o. ä.).
    Bergbau-Museum Q896952, RGK Q1425831 (mit `coordinates`, siehe A4). Alle
    55 Orte haben eine QID. Nebenbei: Q1425831 auf Wikidata P625 zu geben, würde
    die Ausnahme überflüssig machen.
+5d. **Impressum und Datenschutz prüfen** — Entwürfe in `content/pages/`
+   (S5). Vor allem: Ist die Anschrift richtig, braucht es eine
+   Verantwortlichen-Angabe nach § 18 MStV, und was muss für S9 (Pyodide von
+   einem CDN) und S10 (Kartenkacheln) noch hinein?
 5c. **Autorenlisten (aus S4)** — 18 Einträge, bei denen Zenodo eine andere
    Zahl Personen nennt als `content/` (`dist/reports/merge.md`,
    `creator-count`). Soll Zenodo dort gewinnen? Derzeit gilt `content/` (A4,

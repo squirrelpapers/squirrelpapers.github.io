@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins – Squirrel Papers 2(1), #2</title>
+
+<link rel="canonical" href="https://squirrelpapers.github.io/de/v2/i1/e2/">
+<link rel="alternate" hreflang="en" href="https://squirrelpapers.github.io/v2/i1/e2/">
+<link rel="alternate" hreflang="de" href="https://squirrelpapers.github.io/de/v2/i1/e2/">
+<link rel="icon" type="image/png" href="../../../../assets/img/sqp-logo.png">
+<link rel="stylesheet" href="../../../../assets/css/sqp.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v2/i1/e2", "@type": "Chapter", "abstract": "Die Linked Open Data Cloud bietet seit vielen Jahren große Datenrepositorien im WWW an, die für verschiedene Zwecke von unterschiedlichen Communities genutzt werden können. Die Stärke von Linked Open Data (LOD) ist hierbei die Verknüpfung von Informationen aus unterschiedlichsten dezentral gehosteten Wissensdomänen. Für die Geoinformatik haben sich beispielsweise community-basierende Datenrepositorien wie Wikidata, LinkedGeoData oder DBpedia gebildet. Zudem bieten Gazetteer-Repositorien wie Geonames oder Pleiades für den zeitgeschichtlichen Raum, aber auch administrative Provider wie der Ordnance Survey UK und Ordnance Survey Ireland, ihre Geodaten als LOD an. Leider haben all diese Ressourcen in der Geo-Community bisher leider nur niederrangige Bedeutung erlangt. Den Grund dafür sehen wir in einem nicht vorhandenen Support von GIS Applikationen für die Verarbeitung von LOD. Triplestores und SPARQL werden zur Zeit weder von GIS Software, GeoServer Implementierungen oder OGC-Services unterstützt. Die Linked Data Serialisierung GeoJSON-LD birgt zwar aufgrund einiger noch offener Issues Herausforderungen, wird allerdings nicht oft wie seine ‘unsemantische Schwester’ GeoJSON, in Applikationen genutzt. Genau hier setzt das SPARQLing Unicorn QGIS Plugin an, welches die Ausführung von Linked Data Anfragen in (Geo)SPARQL an ausgewählte Triplestores und geofähigen SPARQL Endpoints ermöglicht. Die Ergebnisse werden in GeoJSON Layer konvertiert, sodass sie direkt in QGIS nutzbar sind. Für die Zukunft soll das SPARQLing Unicorn Plugin mit extrahierten Konzepten ausgewählter Ontologien Benutzern die Möglichkeit bieten, einfache Abfragen wie “Gib mir alle Flughäfen in BOUNDINGBOX mit direkt verbundenen Relationen” oder “Gib mir alle Flughäfen in LAND_X” automatisch zu generieren und somit das Laden dynamischer Inhalte der Datenrepositorien erleichtern. Es ist erwünscht, dass die Geocommunity aktiv an der (Weiter-)Entwicklung des Plugins teilnimmt und so die Welt der LOD im Geokon", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}, {"@id": "https://orcid.org/0000-0002-9499-5840", "@type": "Person", "name": "Timo Homburg"}], "datePublished": "2020-03-20", "genre": "Book section", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.3719127"}, "inLanguage": "de", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v2/i1", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v2", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "2"}, "issueNumber": "1"}, "keywords": ["FOSSGIS", "Linked Data", "QGIS", "SPARQL Unicorn", "Wikidata"], "license": "https://creativecommons.org/licenses/by/4.0/", "name": "QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins", "sameAs": ["https://doi.org/10.5281/zenodo.3719127"], "url": "https://squirrelpapers.github.io/v2/i1/e2/"}</script>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="../../../../de/">Squirrel Papers</a>
+    <span class="site-tagline">vom Research Squirrel Engineers Network</span>
+    <nav class="site-nav" aria-label="Hauptmenü">
+      <a href="../../../../de/">Start</a>
+      <a href="../../../../de/volumes/" aria-current="page">Bände &amp; Hefte</a>
+      <a href="../../../../de/impressum/">Impressum</a>
+      <a href="../../../../de/privacy/">Datenschutz</a>
+      <a class="lang-switch" href="../../../../v2/i1/e2/" hreflang="en" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<article class="wrap entry">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../../../../">Squirrel Papers</a> › <a href="../../../../v2/">Band 2</a> › <a href="../../../../v2/i1/">Heft 1</a> › <span class="sigil">#2</span></nav>
+  <p class="entry-kicker"><span class="sigil">2(1), #2</span> <span class="badge">Buchkapitel</span></p>
+  <h1 class="entry-title">QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins</h1>
+  <p class="entry-authors"><a class="person" href="https://orcid.org/0000-0002-3246-3531" title="ORCID 0000-0002-3246-3531">Florian Thiery<span class="orcid" aria-hidden="true"></span></a>, <a class="person" href="https://orcid.org/0000-0002-9499-5840" title="ORCID 0000-0002-9499-5840">Timo Homburg<span class="orcid" aria-hidden="true"></span></a></p>
+
+  <div class="entry-grid">
+    <div class="entry-main">
+      <section class="cite">
+        <h2>Zitiervorschlag</h2>
+        <div class="cite-box"><p id="cite-text">Thiery, F., &amp; Homburg, T. (2020). QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins. <em>Squirrel Papers</em>, 2(1), #2. <a href="https://doi.org/10.5281/zenodo.3719127">https://doi.org/10.5281/zenodo.3719127</a></p>
+          <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
+        
+      </section>
+
+      
+      <section class="preview">
+        <h2>Vorschau</h2>
+        <button type="button" class="button" data-preview-src="https://zenodo.org/records/3719128/preview/FOSSGIS_Tagungsband_2020_pp_68_72.pdf" data-preview-title="Vorschau: FOSSGIS_Tagungsband_2020_pp_68_72.pdf">PDF-Vorschau anzeigen</button>
+        <p class="muted small">Die Vorschau wird erst auf deinen Klick von zenodo.org geladen. <a href="https://zenodo.org/records/3719128/files/FOSSGIS_Tagungsband_2020_pp_68_72.pdf?download=1">PDF herunterladen</a> (FOSSGIS_Tagungsband_2020_pp_68_72.pdf)</p>
+      </section>
+      
+
+      
+      <section>
+        <h2>Zusammenfassung</h2>
+        <div class="abstract"><p>Die Linked Open Data Cloud bietet seit vielen Jahren große Datenrepositorien im WWW an, die für verschiedene Zwecke von unterschiedlichen Communities genutzt werden können. Die Stärke von Linked Open Data (LOD) ist hierbei die Verknüpfung von Informationen aus unterschiedlichsten dezentral gehosteten Wissensdomänen. Für die Geoinformatik haben sich beispielsweise community-basierende Datenrepositorien wie <a href="http://wikidata.org/" rel="noopener">Wikidata</a>, <a href="http://linkedgeodata.org/" rel="noopener">LinkedGeoData</a> oder <a href="https://wiki.dbpedia.org/" rel="noopener">DBpedia</a> gebildet. Zudem bieten Gazetteer-Repositorien wie <a href="https://www.geonames.org/" rel="noopener">Geonames</a> oder <a href="https://pleiades.stoa.org/" rel="noopener">Pleiades</a> für den zeitgeschichtlichen Raum, aber auch administrative Provider wie der <a href="https://data.ordnancesurvey.co.uk/" rel="noopener">Ordnance Survey UK</a> und <a href="http://data.geohive.ie/" rel="noopener">Ordnance Survey Ireland</a>, ihre Geodaten als LOD an. Leider haben all diese Ressourcen in der Geo-Community bisher leider nur niederrangige Bedeutung erlangt. Den Grund dafür sehen wir in einem nicht vorhandenen Support von GIS Applikationen für die Verarbeitung von LOD. <em>Triplestores</em> und <em>SPARQL</em> werden zur Zeit weder von <em>GIS</em> Software, <em>GeoServer</em> Implementierungen oder <em>OGC</em>-Services unterstützt. Die Linked Data Serialisierung <a href="https://geojson.org/geojson-ld/" rel="noopener">GeoJSON-LD</a> birgt zwar aufgrund einiger noch offener Issues Herausforderungen, wird allerdings nicht oft wie seine ‘unsemantische Schwester’ <em>GeoJSON</em>, in Applikationen genutzt. Genau hier setzt das <a href="https://plugins.qgis.org/plugins/sparqlunicorn" rel="noopener">SPARQLing Unicorn QGIS Plugin</a> an, welches die Ausführung von Linked Data Anfragen in (Geo)SPARQL an ausgewählte Triplestores und geofähigen SPARQL Endpoints ermöglicht. Die Ergebnisse werden in GeoJSON Layer konvertiert, sodass sie direkt in QGIS nutzbar sind. Für die Zukunft soll das <em>SPARQLing Unicorn Plugin</em> mit extrahierten Konzepten ausgewählter Ontologien Benutzern die Möglichkeit bieten, einfache Abfragen wie “Gib mir alle Flughäfen in BOUNDINGBOX mit direkt verbundenen Relationen” oder “Gib mir alle Flughäfen in LAND_X” automatisch zu generieren und somit das Laden dynamischer Inhalte der Datenrepositorien erleichtern. Es ist erwünscht, dass die Geocommunity aktiv an der (Weiter-)Entwicklung des Plugins teilnimmt und so die Welt der LOD im Geokontext weiter bekannt macht. Dazu steht der Quellcode frei auf <a href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS" rel="noopener">Github</a> zur Erweiterung zur Verfügung. Der Vortrag gibt einen Einstieg in die Modellierung von Linked Open (Geo-)Data, in die Abfragesprache SPARQL, deren Erweiterung GeoSPARQL, bestehende (Geo-)Ressourcen in der Linked Open Data Cloud, sowie die Funktionsweise des <em>SPARQLing Unicorn QGIS Plugins</em>, dessen zukünftige Erweiterungen und aktuelle Entwicklungen in der Erweiterung der jeweiligen Standards. Das Unicorn freut sich auf Mithilfe aus der Geo-Community!</p></div>
+      </section>
+      
+
+    </div>
+
+    <aside class="entry-facts">
+      <dl>
+        <dt>Erschienen in</dt>
+        <dd>Squirrel Papers 2(1), #2<br><a href="../../../../v2/i1/">Band 2, Heft 1</a></dd>
+        <dt>Datum</dt><dd>20. März 2020</dd>
+        
+        
+        
+        <dt>DOI</dt><dd><a href="https://doi.org/10.5281/zenodo.3719127">10.5281/zenodo.3719127</a></dd>
+        <dt>Zenodo-Datensatz</dt><dd><a href="https://zenodo.org/records/3719128">3719128</a></dd>
+        
+        
+        <dt>Lizenz</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/">cc-by-4.0</a></dd>
+        <dt>Sprache</dt><dd>Deutsch</dd>
+        <dt>Schlagwörter</dt><dd>FOSSGIS, Linked Data, QGIS, SPARQL Unicorn, Wikidata</dd>
+        
+        <dt>Persistenter Identifikator</dt><dd><a class="iri" href="https://w3id.org/squirrelpapers/v2/i1/e2">https://w3id.org/squirrelpapers/v2/i1/e2</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>Über die Squirrel Papers</h2>
+      <p>Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften.</p>
+      <p>Die Squirrel Papers sind ein offiziell vom Nationalen ISSN-Zentrum für Deutschland anerkanntes Journal mit der ISSN 2750-560X.</p>
+    </section>
+    <section>
+      <h2>Kontakt</h2>
+      <p><strong>E-Mail</strong><br>mail [at] squirrelpapers [dot] net</p>
+      <p><strong>Herausgeber / Head Squirrel</strong><br>
+        <a href="https://orcid.org/0000-0002-3246-3531">Florian Thiery</a></p>
+      <p>ISSN 2750-560X · <a href="https://www.wikidata.org/wiki/Q89658875">Wikidata: Q89658875</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>Die Metadaten dieser Seite stehen unter CC BY 4.0; jedes Paper, Poster, jeder Datensatz und jede Software trägt auf Zenodo eine eigene Lizenz.</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">Quellcode</a>
+      · <a href="../../../../de/impressum/">Impressum</a>
+      · <a href="../../../../de/privacy/">Datenschutz</a></p>
+  </div>
+</footer>
+<script>
+// Click-to-load PDF preview and copy buttons. Nothing else runs on this site.
+document.addEventListener("click", function (event) {
+  var load = event.target.closest("[data-preview-src]");
+  if (load) {
+    var frame = document.createElement("iframe");
+    frame.src = load.getAttribute("data-preview-src");
+    frame.title = load.getAttribute("data-preview-title");
+    frame.className = "preview-frame";
+    frame.setAttribute("loading", "lazy");
+    load.parentNode.replaceChild(frame, load);
+    return;
+  }
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+</body>
+</html>

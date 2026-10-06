@@ -1,0 +1,67 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import people %}
+{% block main %}
+<article class="wrap entry">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{ root }}">{{ t.breadcrumb_home }}</a> › <a href="{{ root }}{{ v.path }}/">{{ t.volume }} {{ e.volume }}</a> › <a href="{{ root }}{{ issue.path }}/">{{ t.issue }} {{ e.issue }}</a> › <span class="sigil">{{ e.sigil }}{{ e.n }}</span></nav>
+  <p class="entry-kicker"><span class="sigil">{{ e.citation_label }}</span>{% for slug in e.types %} <span class="badge">{{ types[slug].label[lang] }}</span>{% endfor %}</p>
+  <h1 class="entry-title"{% if e.language and e.language != lang %} lang="{{ e.language }}"{% endif %}>{{ e.title }}</h1>
+  {% if e.creators %}<p class="entry-authors">{{ people(e.creators) }}</p>{% endif %}
+
+  <div class="entry-grid">
+    <div class="entry-main">
+      <section class="cite">
+        <h2>{{ t.how_to_cite }}</h2>
+        <div class="cite-box"><p id="cite-text">{{ citation | safe }}</p>
+          <button type="button" class="button button-small" data-copy="cite-text" data-copied="{{ t.copied_button }}">{{ t.copy_button }}</button></div>
+        {% if downloads %}<p class="downloads">{% for d in downloads %}<a href="{{ d.href }}" download>{{ d.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+      </section>
+
+      {% if e.pdf %}
+      <section class="preview">
+        <h2>{{ t.preview }}</h2>
+        <button type="button" class="button" data-preview-src="{{ e.pdf.preview }}" data-preview-title="{{ t.preview }}: {{ e.pdf.key }}">{{ t.preview_button }}</button>
+        <p class="muted small">{{ t.preview_note }} <a href="{{ e.pdf.download }}">{{ t.download_pdf }}</a> ({{ e.pdf.key }})</p>
+      </section>
+      {% endif %}
+
+      {% if e.abstract_html %}
+      <section>
+        <h2>{{ t.abstract }}</h2>
+        <div class="abstract"{% if e.language and e.language != lang %} lang="{{ e.language }}"{% endif %}>{{ e.abstract_html | safe }}</div>
+      </section>
+      {% endif %}
+
+    </div>
+
+    <aside class="entry-facts">
+      <dl>
+        <dt>{{ t.published_in }}</dt>
+        <dd>Squirrel Papers {{ e.citation_label }}<br><a href="{{ root }}{{ issue.path }}/">{{ t.volume }} {{ e.volume }}, {{ t.issue }} {{ e.issue }}</a>{% if issue.title %}<br><span class="muted">{{ issue.title[lang] or issue.title.en }}</span>{% endif %}</dd>
+        {% if e.date %}<dt>{{ t.date }}</dt><dd>{{ fmt_date(e.date) }}</dd>{% elif e.year %}<dt>{{ t.date }}</dt><dd>{{ e.year }}</dd>{% endif %}
+        {% if e.event %}
+          {% if e.event.name %}<dt>{{ t.event }}</dt><dd>{{ e.event.name }}{% if e.event.start %}<br><span class="muted">{{ fmt_range(e.event.start, e.event.end) }}</span>{% endif %}</dd>{% endif %}
+          {% if e.event.session %}<dt>{{ t.session }}</dt><dd>{{ e.event.session }}</dd>{% endif %}
+          {% if e.event.online %}<dt>{{ t.location }}</dt><dd>{{ t.online }}</dd>
+          {% elif e.event.location %}<dt>{{ t.location }}</dt><dd>{{ e.event.location }}{% if e.event.place and e.event.place.wikidata %}<br><a href="https://www.wikidata.org/wiki/{{ e.event.place.wikidata }}">{{ e.event.place.name }}</a>{% endif %}</dd>{% endif %}
+        {% endif %}
+        {% if e.editors %}<dt>{{ t.editors }}</dt><dd>{{ people(e.editors) }}</dd>{% endif %}
+        {% if e.contributors %}<dt>{{ t.contributors }}</dt><dd>{{ people(e.contributors) }}</dd>{% endif %}
+        {% if e.doi %}<dt>{{ t.doi }}</dt><dd><a href="{{ e.doi_url }}">{{ e.doi }}</a></dd>{% endif %}
+        {% if e.zenodo %}<dt>{{ t.zenodo }}</dt><dd><a href="{{ e.zenodo.url }}">{{ e.zenodo.record }}</a></dd>{% endif %}
+        {% if e.version %}<dt>{{ t.version }}</dt><dd>{{ e.version }}</dd>{% endif %}
+        {% if e.links %}
+          {% if e.links.repository %}<dt>{{ t.repository }}</dt><dd><a href="{{ e.links.repository }}">{{ e.links.repository | replace('https://github.com/', '') }}</a></dd>{% endif %}
+          {% if e.links.release %}<dt>{{ t.release }}</dt><dd><a href="{{ e.links.release }}">{{ e.release_label or e.links.release }}</a></dd>{% endif %}
+          {% if e.links.video %}<dt>{{ t.video }}</dt><dd><a href="{{ e.links.video }}">{{ e.links.video | replace('https://', '') | truncate(40) }}</a></dd>{% endif %}
+          {% if e.links.link %}<dt>{{ t.link }}</dt><dd><a href="{{ e.links.link }}">{{ e.links.link | replace('https://', '') | truncate(40) }}</a></dd>{% endif %}
+        {% endif %}
+        {% if e.licence %}<dt>{{ t.licence }}</dt><dd>{% if e.licence.url %}<a href="{{ e.licence.url }}">{{ e.licence.id }}</a>{% else %}{{ e.licence.id }}{% endif %}</dd>{% endif %}
+        {% if e.language %}<dt>{{ t.language }}</dt><dd>{{ t.languages[e.language] or e.language }}</dd>{% endif %}
+        {% if e.keywords %}<dt>{{ t.keywords }}</dt><dd>{{ e.keywords | join(', ') }}</dd>{% endif %}
+        {% if e.title_zenodo %}<dt>{{ t.zenodo_title_differs }}</dt><dd class="muted">{{ e.title_zenodo }}</dd>{% endif %}
+        <dt>{{ t.identifier }}</dt><dd><a class="iri" href="{{ e.iri }}">{{ e.iri }}</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+{% endblock %}

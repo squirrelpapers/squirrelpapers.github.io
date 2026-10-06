@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+{% if description %}<meta name="description" content="{{ description }}">{% endif %}
+<link rel="canonical" href="{{ canonical }}">
+{% for alt in alternates %}<link rel="alternate" hreflang="{{ alt.lang }}" href="{{ alt.url }}">
+{% endfor %}{% for link in data_links %}<link rel="alternate" type="{{ link.type }}" href="{{ link.href }}">
+{% endfor %}<link rel="icon" type="image/png" href="{{ root }}assets/img/sqp-logo.png">
+<link rel="stylesheet" href="{{ root }}assets/css/sqp.css">
+{% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif %}
+</head>
+<body>
+<a class="skip" href="#main">{{ "Skip to content" if lang == "en" else "Zum Inhalt" }}</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="{{ home }}">Squirrel Papers</a>
+    <span class="site-tagline">{{ t.tagline }}</span>
+    <nav class="site-nav" aria-label="{{ 'Main' if lang == 'en' else 'Hauptmenü' }}">
+      <a href="{{ home }}"{% if nav == 'home' %} aria-current="page"{% endif %}>{{ t.nav_home }}</a>
+      <a href="{{ home }}volumes/"{% if nav == 'volumes' %} aria-current="page"{% endif %}>{{ t.nav_volumes }}</a>
+      <a href="{{ home }}impressum/"{% if nav == 'impressum' %} aria-current="page"{% endif %}>{{ t.nav_impressum }}</a>
+      <a href="{{ home }}privacy/"{% if nav == 'privacy' %} aria-current="page"{% endif %}>{{ t.nav_privacy }}</a>
+      <a class="lang-switch" href="{{ other_lang_href }}" hreflang="{{ other_lang }}" lang="{{ other_lang }}">{{ t.other_lang }}</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>{{ t.about_title }}</h2>
+      <p>{{ journal.description[lang] }}</p>
+      <p>{{ journal.registration[lang] }}</p>
+    </section>
+    <section>
+      <h2>{{ t.contact_title }}</h2>
+      <p><strong>{{ t.mail }}</strong><br>{{ journal.contact }}</p>
+      <p><strong>{{ t.editor_title }}</strong><br>
+        <a href="https://orcid.org/{{ journal.editor.orcid }}">{{ editor_name }}</a></p>
+      <p>{{ t.issn }} {{ journal.issn }} · <a href="https://www.wikidata.org/wiki/{{ journal.wikidata }}">{{ t.wikidata }}: {{ journal.wikidata }}</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>{{ t.footer_licence }}</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">{{ t.source_code }}</a>
+      · <a href="{{ home }}impressum/">{{ t.nav_impressum }}</a>
+      · <a href="{{ home }}privacy/">{{ t.nav_privacy }}</a></p>
+  </div>
+</footer>
+<script>
+// Click-to-load PDF preview and copy buttons. Nothing else runs on this site.
+document.addEventListener("click", function (event) {
+  var load = event.target.closest("[data-preview-src]");
+  if (load) {
+    var frame = document.createElement("iframe");
+    frame.src = load.getAttribute("data-preview-src");
+    frame.title = load.getAttribute("data-preview-title");
+    frame.className = "preview-frame";
+    frame.setAttribute("loading", "lazy");
+    load.parentNode.replaceChild(frame, load);
+    return;
+  }
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+</body>
+</html>

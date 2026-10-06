@@ -1,0 +1,12 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import entry_item %}
+{% block main %}
+<div class="wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{ root }}">{{ t.breadcrumb_home }}</a> › <a href="{{ root }}{{ v.path }}/">{{ t.volume }} {{ v.volume }}</a> › {{ t.issue }} {{ issue.issue }}</nav>
+  <h1>{{ t.volume }} {{ v.volume }}, {{ t.issue }} {{ issue.issue }}</h1>
+  {% if issue.title %}<p class="lead">{{ issue.title[lang] or issue.title.en }}</p>{% endif %}
+  <p class="muted">{{ t.identifier }}: <a href="{{ issue.iri }}">{{ issue.iri }}</a>{% if issue.wikidata %} · <a href="https://www.wikidata.org/wiki/{{ issue.wikidata }}">{{ t.wikidata }}: {{ issue.wikidata }}</a>{% endif %}</p>
+  {% if issue.published %}<ul class="entry-list">{% for e in issue.published %}{{ entry_item(e, root, types, t, lang) }}{% endfor %}</ul>
+  {% else %}<p class="muted">{{ t.no_entries }}</p>{% endif %}
+</div>
+{% endblock %}
