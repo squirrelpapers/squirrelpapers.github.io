@@ -1,0 +1,142 @@
+# Entry types of the Squirrel Papers - a small SKOS concept scheme (PRIMER A4).
+#
+# Every `types:` slug in content/vol<N>.yaml must be a `slug` or an `alias`
+# here; S4 fails under --strict otherwise. The first type of an entry is its
+# primary type.
+#
+# Concept IRI:  https://w3id.org/squirrelpapers/type/<slug>
+# Mappings (S7 turns them into skos:exactMatch / skos:closeMatch):
+#   coar    COAR Resource Types 3.x, http://purl.org/coar/resource_type/<code>
+#   fabio   FaBiO class, http://purl.org/spar/fabio/<Class>
+#   zenodo  resource_type of a Zenodo record, "type" or "type/subtype";
+#           used by S4 to type entries that carry no type in content/.
+# `match: close` marks a mapping that is only approximate.
+#
+# The COAR codes were written from knowledge of the vocabulary, not checked
+# against a downloaded copy; S8 is the place to verify them (PRIMER Teil D).
+
+scheme:
+  title: {en: Squirrel Papers entry types, de: Eintragstypen der Squirrel Papers}
+
+concepts:
+- slug: presentation
+  label: {en: Presentation, de: Vortrag}
+  aliases: [talk]
+  coar: R60J-J5BD
+  fabio: Presentation
+  zenodo: [presentation]
+- slug: poster
+  label: {en: Poster, de: Poster}
+  coar: c_6670
+  fabio: ConferencePoster
+  zenodo: [poster]
+- slug: conference-paper
+  label: {en: Conference paper, de: Konferenzbeitrag}
+  coar: c_5794
+  fabio: ConferencePaper
+  zenodo: [publication/conferencepaper]
+- slug: conference-proceeding
+  label: {en: Proceedings paper, de: Beitrag in Tagungsband}
+  coar: c_5794
+  fabio: ProceedingsPaper
+  zenodo: [publication/conferenceproceeding]
+  match: close
+- slug: conference-session
+  label: {en: Conference session proposal, de: Session-Vorschlag}
+  coar: c_baaf
+  fabio: Expression
+  match: close
+- slug: workshop
+  label: {en: Workshop, de: Workshop}
+  coar: c_c94f
+  fabio: Expression
+  match: close
+- slug: abstract
+  label: {en: Abstract, de: Abstract}
+  coar: c_c94f
+  fabio: Abstract
+  match: close
+- slug: journal-article
+  label: {en: Journal article, de: Zeitschriftenartikel}
+  coar: c_6501
+  fabio: JournalArticle
+  zenodo: [publication/article]
+- slug: working-paper
+  label: {en: Working paper, de: Working Paper}
+  coar: c_8042
+  fabio: WorkingPaper
+  zenodo: [publication/workingpaper]
+- slug: methodological-working-paper
+  label: {en: Methodological working paper, de: Methodisches Working Paper}
+  broader: working-paper
+  coar: c_8042
+  fabio: WorkingPaper
+  match: close
+- slug: position-paper
+  label: {en: Position paper, de: Positionspapier}
+  broader: working-paper
+  coar: c_8042
+  fabio: WorkingPaper
+  match: close
+- slug: preprint
+  label: {en: Preprint, de: Preprint}
+  coar: c_816b
+  fabio: Preprint
+  zenodo: [publication/preprint]
+- slug: report
+  label: {en: Report, de: Bericht}
+  coar: c_93fc
+  fabio: ReportDocument
+  zenodo: [publication/report, publication/deliverable]
+- slug: proposal
+  label: {en: Proposal, de: Antrag}
+  coar: c_baaf
+  fabio: Expression
+  zenodo: [publication/proposal]
+  match: close
+- slug: book
+  label: {en: Book, de: Buch}
+  coar: c_2f33
+  fabio: Book
+  zenodo: [publication/book]
+- slug: book-section
+  label: {en: Book section, de: Buchkapitel}
+  coar: c_3248
+  fabio: BookChapter
+  zenodo: [publication/section]
+- slug: data
+  label: {en: Dataset, de: Datensatz}
+  coar: c_ddb1
+  fabio: Dataset
+  zenodo: [dataset]
+- slug: ontology
+  label: {en: Ontology, de: Ontologie}
+  broader: data
+  coar: c_ddb1
+  fabio: Dataset
+  match: close
+- slug: software
+  label: {en: Software, de: Software}
+  coar: c_5ce6
+  fabio: ComputerProgram
+  zenodo: [software]
+- slug: fdo
+  label: {en: FAIR Digital Object, de: FAIR Digital Object}
+  coar: c_1843
+  fabio: Expression
+  match: close
+- slug: image
+  label: {en: Image, de: Bild}
+  coar: c_c513
+  fabio: StillImage
+  zenodo: [image, image/diagram, image/figure, image/photo]
+- slug: video
+  label: {en: Video, de: Video}
+  coar: c_12ce
+  fabio: MovingImage
+  zenodo: [video]
+- slug: other
+  label: {en: Other, de: Sonstiges}
+  coar: c_1843
+  fabio: Expression
+  zenodo: [other, publication/other, publication]

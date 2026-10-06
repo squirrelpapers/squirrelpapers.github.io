@@ -186,6 +186,12 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Suchhilfe für Orte | Optionales Feld `search: [Venue, Stadt]` in `content/places.yaml`; der Harvest sucht neu, sobald es sich ändert | 2026-10-06 |
 | Fehlgeschlagene Abrufe | Werden nie gecacht: Netzfehler landen nicht in `_status.json`, gescheiterte Suchen nicht in `wikidata-search/` (gefunden, als ein Lauf ohne Netz leere Suchergebnisse gespeichert hatte) | 2026-10-06 |
 | Koordinaten ohne P625 | Optionales Feld `coordinates: {lat, lon}` in `content/places.yaml`, nur wenn das Wikidata-Item keine hat; hat Vorrang vor Wikidata. Erster Fall: RGK (Q1425831), Koordinaten von ihrer Bibliothek Q28739191 im selben Haus am Palmengarten | 2026-10-07 |
+| `entries.json` | Eine Datei für alle späteren Schritte: `journal`, `volumes` (mit Issues und Entry-IDs), `entries`, `people`, `places`, `types`. Entry-ID `v7-i4-e5`; Drafts bleiben drin (`draft: true`) | 2026-10-07 |
+| Vorrang beim Merge | `content/` gewinnt; Zenodo füllt Typ (nur wenn `types` leer), Lizenz, Abstract, Schlagwörter, Dateien, Version, Sprache, Datum. Weicht der Zenodo-Titel stark ab, steht er als `title_zenodo` daneben | 2026-10-07 |
+| Datum | `date` aus `content/`, sonst Event-Beginn, sonst Zenodo-`publication_date` — aber nur, wenn es ins Volume-Jahr fällt (Vol 1: 2014–2019). Sonst ist es das Datum der neuesten Version einer Concept-DOI und landet nur als `zenodo_date` im Eintrag | 2026-10-07 |
+| Personen | ORCID ist der Schlüssel; Name je ORCID = häufigste Nachnamensschreibung, davon der längste Vorname, der mindestens ein Viertel so oft vorkommt wie der häufigste. Ohne ORCID: Zuordnung über Nachname + verträgliche Initialen, nur wenn eindeutig. Personen ohne ORCID mit gleichem Nachnamen und verträglichen Initialen werden zusammengeführt. Titel (Dr., Prof.) und Suffixe (FSA, PhD) fallen weg. Person-IRI `…/person/<ORCID>` bzw. `…/person/<slug>` | 2026-10-07 |
+| Autorenliste | Die Liste aus `content/` gilt, auch wenn Zenodo mehr oder weniger Personen nennt (18 Fälle im Bericht); nur bei `et_al: true` wird aus Zenodo ergänzt | Vorschlag |
+| Typvokabular | `content/vocab/types.yaml`, 23 Konzepte mit Labels EN/DE, Aliassen (`talk` → `presentation`), `broader`, Mappings auf COAR, FaBiO und Zenodo-`resource_type`; erster Typ = Haupttyp | 2026-10-07 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -233,7 +239,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S1 | Skelett: `main.py`, `sqp_utils.py`, Lizenz, Citation, Stil-Grundlage | dieses | S0 | erledigt 2026-10-06 |
 | S2 | Migration Markdown + `pub` → `content/*.yaml`, Prüfbericht | dieses | S1 | erledigt 2026-10-06 |
 | S3 | Harvest: Zenodo-Records, Wikidata-Orte/QIDs → `data/raw/` | dieses (läuft bei Flo) | S2 | erledigt 2026-10-06 |
-| S4 | Merge + Normalisierung → `data/derived/entries.json`, SKOS-Typen | dieses | S2, S3 | offen |
+| S4 | Merge + Normalisierung → `data/derived/entries.json`, SKOS-Typen | dieses | S2, S3 | erledigt 2026-10-07 |
 | S5 | Seiten EN/DE: Journal, Volume, Issue, Entry, About, Impressum, Datenschutz; PDF-iframe | dieses | S4 | offen |
 | S6 | Zitation: CSL-JSON, citeproc-js + Stilwahl, BibTeX/RIS je Ebene | dieses | S4 | offen |
 | S7 | RDF: Ontologie, DCAT 3/DCAT-AP 3, BIBO/FaBiO, CRM/CRMdig/LRMoo, JSON-LD | dieses | S4 | offen |
@@ -494,6 +500,31 @@ Schritte lesen; YAML gewinnt vor Zenodo, Zenodo füllt Lücken.
 **Abnahme:** Jede Entry hat Typ, mind. einen Creator, Jahr, IRI; Konflikte
 YAML↔Zenodo stehen im Bericht.
 
+### Erledigt 2026-10-07
+
+`py/step_merge.py` und `content/vocab/types.yaml`. Ergebnis
+`data/derived/entries.json` (≈ 2 MB, vor allem Abstracts), Bericht
+`dist/reports/merge.md`. Zwei Läufe byte-gleich; `--strict` läuft durch.
+
+**Zahlen:** 244 Einträge (210 veröffentlicht, 34 Drafts), 112 Personen
+(76 mit ORCID), 55 Orte. 162 veröffentlichte Einträge haben eine
+PDF-Vorschau. Haupttypen: 91 Vorträge, 26 Daten, 22 Poster, 21 Software.
+
+**Befunde:**
+- 28 Einträge bekamen ihren Typ aus Zenodo (die typlosen aus Vol 1–4); einer
+  bleibt `other`.
+- **Concept-DOI-Datumsfalle:** 11 Einträge hätten das Datum der neuesten
+  Version bekommen (2(2) #1: 2024 statt 2020) — jetzt abgefangen (A4).
+- **Namen auf Zenodo sind nicht sauberer als im Markdown:** „Dr. Allard Mees,
+  FSA" als Name, „Dr. Kasten Tolle" (Tippfehler für Karsten), „Allard W.,
+  Mees" vertauscht. Deshalb die Häufigkeitsregel statt „Zenodo gewinnt".
+- 6 Schreibweisen ohne ORCID zusammengeführt (Distel, Kasten, Mennenga,
+  Visser, Alpino, …). Getrennt geblieben, weil verschiedene Personen:
+  Florian/Peter/Susanne Thiery, Agnes/Nico Schneider.
+- Offen im Bericht: „Bernhard Weisser" passt zu zwei ORCIDs; „Wolf, D.G."
+  (Vol 4(1) #2) ist vermutlich Wigg-Wolf; „Quintana, Miguel Angel Dilena"
+  hat einen Doppelnachnamen, den die Regel nicht erkennt.
+
 ## S5 — Seiten
 
 **Ziel:** `docs/` enthält alle HTML-Seiten in EN und DE, im Look der alten
@@ -607,5 +638,9 @@ auf die neuen IRIs (P856 / P953 o. ä.).
    Bergbau-Museum Q896952, RGK Q1425831 (mit `coordinates`, siehe A4). Alle
    55 Orte haben eine QID. Nebenbei: Q1425831 auf Wikidata P625 zu geben, würde
    die Ausnahme überflüssig machen.
+5c. **Autorenlisten (aus S4)** — 18 Einträge, bei denen Zenodo eine andere
+   Zahl Personen nennt als `content/` (`dist/reports/merge.md`,
+   `creator-count`). Soll Zenodo dort gewinnen? Derzeit gilt `content/` (A4,
+   Vorschlag).
 6. **DOI für Volumes/Issues** (Zenodo-Communities oder eigene Records)? Würde
    die Zitierfähigkeit der Issues verbessern.
