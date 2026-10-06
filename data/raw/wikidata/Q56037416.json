@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 51.479328,
+    "lon": 7.222368
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "U-Bahnhof unter dem Bahnhof Bochum Hbf",
+    "en": "metro station in Bochum"
+  },
+  "id": "Q56037416",
+  "instance_of": [
+    "Q2175765",
+    "Q22808403"
+  ],
+  "labels": {
+    "de": "U-Bahnhof Bochum Hbf",
+    "en": "Hauptbahnhof metro station"
+  }
+}

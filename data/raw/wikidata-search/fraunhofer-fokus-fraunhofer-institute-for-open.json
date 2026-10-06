@@ -1,0 +1,73 @@
+{
+  "answers": {
+    "Berlin [de]": [
+      {
+        "description": "federated state, capital and largest city of Germany",
+        "id": "Q64",
+        "label": "Berlin"
+      },
+      {
+        "description": "family name",
+        "id": "Q2660845",
+        "label": "Berlin"
+      },
+      {
+        "description": "town in Hartford County, Connecticut, United States",
+        "id": "Q821199",
+        "label": "Berlin"
+      },
+      {
+        "description": "American synthpop band",
+        "id": "Q821198",
+        "label": "Berlin"
+      },
+      {
+        "description": "borough in Camden County, New Jersey, United States",
+        "id": "Q1086827",
+        "label": "Berlin"
+      }
+    ],
+    "Berlin [en]": [
+      {
+        "description": "federated state, capital and largest city of Germany",
+        "id": "Q64",
+        "label": "Berlin"
+      },
+      {
+        "description": "family name",
+        "id": "Q2660845",
+        "label": "Berlin"
+      },
+      {
+        "description": "town in Hartford County, Connecticut, United States",
+        "id": "Q821199",
+        "label": "Berlin"
+      },
+      {
+        "description": "borough in Camden County, New Jersey, United States",
+        "id": "Q1086827",
+        "label": "Berlin"
+      },
+      {
+        "description": "American synthpop band",
+        "id": "Q821198",
+        "label": "Berlin"
+      }
+    ],
+    "Fraunhofer FOKUS [de]": [
+      {
+        "description": "research center",
+        "id": "Q1452018",
+        "label": "Fraunhofer Institute for Open Communication Systems"
+      }
+    ],
+    "Fraunhofer FOKUS [en]": [
+      {
+        "description": "research center",
+        "id": "Q1452018",
+        "label": "Fraunhofer Institute for Open Communication Systems"
+      }
+    ]
+  },
+  "label": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany"
+}

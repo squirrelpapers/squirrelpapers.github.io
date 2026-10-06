@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 41.2406,
+    "lon": -85.8469
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Stadt im US-Bundesstaat Indiana",
+    "en": "city in Indiana, United States"
+  },
+  "id": "Q992560",
+  "instance_of": [
+    "Q1093829"
+  ],
+  "labels": {
+    "de": "Warsaw",
+    "en": "Warsaw"
+  }
+}

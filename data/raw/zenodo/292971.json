@@ -1,0 +1,129 @@
+{
+  "conceptdoi": "",
+  "conceptrecid": "774528",
+  "created": "2017-02-17T08:38:43.311024+00:00",
+  "doi": "10.5281/zenodo.292971",
+  "doi_url": "https://doi.org/10.5281/zenodo.292971",
+  "files": [
+    {
+      "checksum": "md5:ad6c28c676c4790ce2500784ed2775e4",
+      "id": "56f811cc-18dd-4f6d-bcdb-a07b57b70b7e",
+      "key": "2014_05_02_AGCAA_Tuebingen_LOD.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/292971/files/2014_05_02_AGCAA_Tuebingen_LOD.pdf/content"
+      },
+      "size": 5806751
+    }
+  ],
+  "id": 292971,
+  "links": {
+    "access": "https://zenodo.org/api/records/292971/access",
+    "access_grants": "https://zenodo.org/api/records/292971/access/grants",
+    "access_links": "https://zenodo.org/api/records/292971/access/links",
+    "access_request": "https://zenodo.org/api/records/292971/access/request",
+    "access_users": "https://zenodo.org/api/records/292971/access/users",
+    "archive": "https://zenodo.org/api/records/292971/files-archive",
+    "archive_media": "https://zenodo.org/api/records/292971/media-files-archive",
+    "communities": "https://zenodo.org/api/records/292971/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/292971/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.292971",
+    "draft": "https://zenodo.org/api/records/292971/draft",
+    "file_modification": "https://zenodo.org/api/records/292971/file-modification",
+    "files": "https://zenodo.org/api/records/292971/files",
+    "latest": "https://zenodo.org/api/records/292971/versions/latest",
+    "latest_html": "https://zenodo.org/records/292971/latest",
+    "media_files": "https://zenodo.org/api/records/292971/media-files",
+    "parent": "https://zenodo.org/api/records/774528",
+    "parent_doi": "https://doi.org/",
+    "parent_doi_html": "https://zenodo.org/doi/",
+    "parent_html": "https://zenodo.org/records/774528",
+    "preview_html": "https://zenodo.org/records/292971?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/292971/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/292971/request-deletion",
+    "requests": "https://zenodo.org/api/records/292971/requests",
+    "reserve_doi": "https://zenodo.org/api/records/292971/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/292971",
+    "self_doi": "https://doi.org/10.5281/zenodo.292971",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.292971",
+    "self_html": "https://zenodo.org/records/292971",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:292971/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:292971/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:292971:2014_05_02_AGCAA_Tuebingen_LOD.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:292971:2014_05_02_AGCAA_Tuebingen_LOD.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:292971:2014_05_02_AGCAA_Tuebingen_LOD.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:292971:2014_05_02_AGCAA_Tuebingen_LOD.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:292971:2014_05_02_AGCAA_Tuebingen_LOD.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:292971:2014_05_02_AGCAA_Tuebingen_LOD.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/292971/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "linkedgeodesy"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "i3mainz - Institut für Raumbezogene Informations- und Messtechnik",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Die r&auml;umliche Verteilung und das zeitliche Muster, sowie die Identifizierung von Produktionszentren und die Rekonstruktion von Handelsnetzen der T&ouml;pfer, sind zentrale Fragen aktueller arch&auml;ologischer Forschungen zur &sbquo;Samian Ware&lsquo;. Die Studien basieren auf einem Datensatz einer internationalen Gruppe von Wissenschaftlern. Er umfasst detaillierte Daten zu T&ouml;pfern, Keramik-Fragmenten und deren Fundorten. Zudem sind Informationen zu Befunden, T&ouml;pfermatrizen, Gef&auml;&szlig;formen, Produktionsst&auml;tten, Formsch&uuml;sselherstellern und Angaben zur absoluten zeitlichen Datierung erfasst. Der Datensatz ist damit au&szlig;erordentlich gut geeignet, aktuelle Technologien interoperabler Datenhaltung, insbesondere das Konzept der Linked Open Data (LOD) und der semantischen Modellierung arch&auml;ologischer Informationen, exemplarisch zu verdeutlichen. &nbsp;Eines der Prinzipien der Linked Open Data ist die Bereitstellung der Daten als Ressource. Diese ist sowohl menschenlesbar, steht jedoch auch zur computertechnische Verarbeitung zur Verf&uuml;gung. Ein Gef&auml;&szlig;fragment und dessen Fundort w&auml;ren beispielsweise mit einem Browser im World Wide Web unter einer HTTP-Adresse frei abrufbar. Ein weiterer Informationsgewinn entsteht durch die Nutzung kontrollierter Vokabulare, nicht nur f&uuml;r die Beschreibung der Ressourcen, sondern auch f&uuml;r deren Beziehungen untereinander. In einer Reihe von Wissenschaftsfeldern werden diese Konzepte erfolgreich eingesetzt, so dass mit diesen Konzepten erstmals eine Technologie zur Verf&uuml;gung steht, welche eine direkte Verkn&uuml;pfung heterogener Informationen aus unterschiedlichen arch&auml;ologischen Datenbanken gew&auml;hrleistet. Der Vortrag f&uuml;hrt in die Migration der Daten sowie die M&ouml;glichkeiten und die Problematik der Modellierung der Attribute und Beziehungen mit Hilfe bestehender LOD-Konzepte und kontrollierter Vokabularien ein und zeigt eigene Ans&auml;tze zur L&ouml;sung auf. Insbesondere wird die Verlinkung zu anderen bereits bestehenden Projekten diskutiert. So bietet das Pleiades-Projekt eine Plattform, die geographische Elemente z.B. in Texten mit existierenden Ressourcen verbindet. Die Fund- und Produktionsst&auml;tten sind mit den Pleiades Places verkn&uuml;pft, wodurch eine Vielzahl weiterer arch&auml;ologischer und historischer Informationen &uuml;ber das Pelagios Projekt eingebunden sind. Zudem wird das Potential der Verlinkung und Abfrage von heterogenen Informationen zwischen T&ouml;pfern, Fragmenten und Orten und deren relativ-chronologische Beziehungen &uuml;ber LOD mit einer webbasierten Schnittstelle aufgezeigt. Die Komplexit&auml;t des Netzes sich bedingender Datierungen der Funde ist im Datenmodell direkt abgebildet. Entsprechend schnell reagiert das System auf Modifikationen und erlaubt so eine Echtzeitvisualisierung der Simulation von &Auml;nderungen in diesen Bez&uuml;gen. Die Ergebnisse zeigen, dass Forschung im Bereich der r&ouml;mischen Keramik vom Konzept der Linked Open Data profitiert. Vielversprechende Perspektiven entstehen durch die Verkn&uuml;pfung mit weiteren Ressourcen wie Matrizen, Formschl&uuml;sseln und M&uuml;nzen. Die technologische Basis ist eine PostgreSQL/PostGIS Datenbank als Kommunikationsplattform f&uuml;r JAVA Servlets und dem GeoServer, der OGC konforme Webdienste (WMS/WFS) anbietet. Die Daten werden in einer Schnittstelle maschinenlesbar und REST-konform zur Verf&uuml;gung gestellt, die mit Hilfe von JAVA und den Frameworks Jersey, JAX-B und Hibernate Spatial, sowie dem GeoServer verarbeitet werden. Die beschriebenen Strukturen erlauben somit eine webbasierte Kartenansicht auf dem Client mit der JavaScript Bibliothek Leaflet unter Einbeziehung der Abh&auml;ngigkeiten zwischen T&ouml;pfern, Fragmenten und Fundorten. Dar&uuml;ber hinaus ergibt eine ontologische Modellierung der semantischen Bez&uuml;ge Potentiale f&uuml;r die Extraktion des in den Daten implizit vorhandenen Wissens. Der Vortrag ist das Ergebnis einer Masterarbeit an der Fachhochschule Mainz und wird die Ergebnisse kritisch reflektieren und damit einen Einstieg in diese neue Technologie erleichtern.</p>",
+    "doi": "10.5281/zenodo.292971",
+    "keywords": [
+      "archaeology",
+      "samian ware",
+      "linked data",
+      "linked open data",
+      "roman"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "06.-.07.02.2014",
+      "place": "Tübungen, Germany",
+      "title": "5. Workshop der AG CAA",
+      "url": "http://ag-caa.de/archiv/workshop2014/"
+    },
+    "publication_date": "2014-02-15",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "774528"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Linked Samian Ware: Potentiale von Linked Data in der Archäologie"
+  },
+  "modified": "2024-08-03T13:05:52.708887+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "292971",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Linked Samian Ware: Potentiale von Linked Data in der Archäologie",
+  "updated": "2024-08-03T13:05:52.708887+00:00"
+}

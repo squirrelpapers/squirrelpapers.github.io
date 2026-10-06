@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 57,
+    "lon": -5
+  },
+  "country": [
+    "Q145"
+  ],
+  "descriptions": {
+    "de": "Land im Nordwesten Europas, Teil des Vereinigten Königreichs",
+    "en": "country in north-west Europe, part of the United Kingdom"
+  },
+  "id": "Q22",
+  "instance_of": [
+    "Q3336843",
+    "Q6256",
+    "Q6266"
+  ],
+  "labels": {
+    "de": "Schottland",
+    "en": "Scotland"
+  }
+}

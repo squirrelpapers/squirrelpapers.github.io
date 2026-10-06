@@ -1,0 +1,136 @@
+{
+  "conceptdoi": "10.5281/zenodo.18826868",
+  "conceptrecid": "18826868",
+  "created": "2026-03-06T06:47:44.351716+00:00",
+  "doi": "10.5281/zenodo.18885415",
+  "doi_url": "https://doi.org/10.5281/zenodo.18885415",
+  "files": [
+    {
+      "checksum": "md5:04ec800d0135ef01ba9820d81b12cd13",
+      "id": "401b14b9-43f5-417b-85af-e5e1f6e57021",
+      "key": "deRSE26_21145_chublets.software_v2.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/18885415/files/deRSE26_21145_chublets.software_v2.pdf/content"
+      },
+      "size": 17510080
+    }
+  ],
+  "id": 18885415,
+  "links": {
+    "access": "https://zenodo.org/api/records/18885415/access",
+    "access_grants": "https://zenodo.org/api/records/18885415/access/grants",
+    "access_links": "https://zenodo.org/api/records/18885415/access/links",
+    "access_request": "https://zenodo.org/api/records/18885415/access/request",
+    "access_users": "https://zenodo.org/api/records/18885415/access/users",
+    "archive": "https://zenodo.org/api/records/18885415/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18885415/media-files-archive",
+    "communities": "https://zenodo.org/api/records/18885415/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18885415/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.18885415",
+    "draft": "https://zenodo.org/api/records/18885415/draft",
+    "file_modification": "https://zenodo.org/api/records/18885415/file-modification",
+    "files": "https://zenodo.org/api/records/18885415/files",
+    "latest": "https://zenodo.org/api/records/18885415/versions/latest",
+    "latest_html": "https://zenodo.org/records/18885415/latest",
+    "media_files": "https://zenodo.org/api/records/18885415/media-files",
+    "parent": "https://zenodo.org/api/records/18826868",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18826868",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18826868",
+    "parent_html": "https://zenodo.org/records/18826868",
+    "preview_html": "https://zenodo.org/records/18885415?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/18885415/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/18885415/request-deletion",
+    "requests": "https://zenodo.org/api/records/18885415/requests",
+    "reserve_doi": "https://zenodo.org/api/records/18885415/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/18885415",
+    "self_doi": "https://doi.org/10.5281/zenodo.18885415",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18885415",
+    "self_html": "https://zenodo.org/records/18885415",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18885415/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18885415/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:18885415:deRSE26_21145_chublets.software_v2.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:18885415:deRSE26_21145_chublets.software_v2.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:18885415:deRSE26_21145_chublets.software_v2.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:18885415:deRSE26_21145_chublets.software_v2.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:18885415:deRSE26_21145_chublets.software_v2.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:18885415:deRSE26_21145_chublets.software_v2.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/18885415/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "derse26"
+      },
+      {
+        "id": "n4o-cc-rse"
+      },
+      {
+        "id": "squirrel-fdo"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "University of Cologne",
+        "name": "Schubert, Lutz Krister",
+        "orcid": "0000-0003-4889-9353"
+      }
+    ],
+    "description": "<blockquote>\n<p>Research software plays an increasingly important role in the Cultural Heritage domain, where digital tools and computational methods support data analysis, visualisation, and knowledge integration across archaeology, heritage conservation, and the humanities. However, the discoverability, sustainability, and FAIRness of such software are still limited, particularly due to missing metadata harmonisation and a lack of central catalogues tailored to this research area.</p>\n<p>To address this gap, chublets.software is currently being developed within the Community Cluster &ldquo;Research Software Engineering&rdquo; of NFDI4Objects as a prototype for a domain-specific FAIR software marketplace. The platform aims to enhance the findability and reusability of Cultural Heritage&ndash;related research software by connecting existing infrastructures, standards, and initiatives, including open-archaeo.info and the NFDI Basic Service nfdi.software provided by Base4NFDI.</p>\n<p>At its core, chublets.software relies on a Wikibase instance hosted on wikibase.cloud as a structured and community-editable knowledge base for research software metadata. The system is designed to ingest metadata both manually and automatically. Planned Python-based scripts will harvest metadata from software repositories (e.g., GitHub, GitLab) by parsing Citation File Format (CFF) and CodeMeta files, which are among the most common open standards for research software metadata. This process follows the crosswalks and mappings developed by the NFDI Working Group &ldquo;Research Software Metadata&rdquo; (Section Metadata, Terminology &amp; Provenance) to ensure interoperability between different metadata schemas.</p>\n<p>The marketplace is conceptually aligned with nfdi.software, which provides a central registry and harvesting infrastructure for research software across the NFDI consortia. While nfdi.software ensures a cross-domain backbone for the discovery of research software, chublets.software extends this approach by offering a domain-specific layer that captures disciplinary context and metadata elements relevant for Cultural Heritage research &ndash; for example, links to datasets, 3D repositories, terminologies, and digital excavation tools.</p>\n<p>By building upon open-archaeo.info as an existing community-driven catalogue of archaeological software, chublets.software adds a semantic and infrastructural dimension that connects research software metadata with the broader NFDI ecosystem. The resulting Linked Open Data approach allows Cultural Heritage researchers, Research Software Engineers (RSEs), and data stewards to collaboratively curate, search, and interlink tools in a sustainable and machine-actionable way.</p>\n<p>This paper will introduce the conceptual framework and technical design of chublets.software, discuss its alignment with FAIR4RS principles, and demonstrate how it contributes to improving the visibility, interoperability, and long-term accessibility of software artefacts in Cultural Heritage research. In doing so, it showcases how research software engineering practices and community-driven infrastructure development can effectively bridge the gap between disciplinary specificity and cross-domain interoperability within the NFDI.</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.18885415",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE26",
+      "dates": "03-05 March 2026",
+      "place": "University of Stuttgart, Germany",
+      "session": "Digital Humanities",
+      "session_part": "152",
+      "title": "deRSE26 - 6th conference for Research Software Engineering in Germany",
+      "url": "https://events.hifis.net/event/2945/"
+    },
+    "publication_date": "2026-03-05",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "18826868"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "chublets.software: Building a FAIR Software Marketplace for Cultural Heritage"
+  },
+  "modified": "2026-03-06T06:47:44.587659+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "18885415",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "chublets.software: Building a FAIR Software Marketplace for Cultural Heritage",
+  "updated": "2026-03-06T06:47:44.587659+00:00"
+}

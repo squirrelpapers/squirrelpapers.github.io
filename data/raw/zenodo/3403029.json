@@ -1,0 +1,173 @@
+{
+  "conceptdoi": "10.5281/zenodo.3403029",
+  "conceptrecid": "3403029",
+  "created": "2019-09-09T13:36:44.124644+00:00",
+  "doi": "10.5281/zenodo.3403030",
+  "doi_url": "https://doi.org/10.5281/zenodo.3403030",
+  "files": [
+    {
+      "checksum": "md5:1741d40b4fcfc534fc2ad4d6c6bed951",
+      "id": "08e57837-2871-49f3-bf3c-b938277fa7cd",
+      "key": "2019_09_17_Intergeo_Stuttgart_LDC_Skript.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/3403030/files/2019_09_17_Intergeo_Stuttgart_LDC_Skript.pdf/content"
+      },
+      "size": 35500
+    },
+    {
+      "checksum": "md5:65bfc3243fcd4005e9836b4081d2f15f",
+      "id": "46db5bcd-0b55-4c61-a817-a6d2f299ac18",
+      "key": "2019_09_17_Intergeo_Stuttgart_LDC.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/3403030/files/2019_09_17_Intergeo_Stuttgart_LDC.pdf/content"
+      },
+      "size": 2110764
+    },
+    {
+      "checksum": "md5:6269cf46e760dae57a2016a7e241b213",
+      "id": "34f9f7ed-e0a9-48aa-80ed-39bfe04af083",
+      "key": "2019_09_17_Intergeo_Stuttgart_LDC_Abstract.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/3403030/files/2019_09_17_Intergeo_Stuttgart_LDC_Abstract.pdf/content"
+      },
+      "size": 81162
+    },
+    {
+      "checksum": "md5:8222e0159c90f1a72b3dc127fda29d69",
+      "id": "d154430d-34a2-4d55-a213-eb85dde9d451",
+      "key": "2019_09_17_Intergeo_Stuttgart_LDC.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/3403030/files/2019_09_17_Intergeo_Stuttgart_LDC.pptx/content"
+      },
+      "size": 18485246
+    },
+    {
+      "checksum": "md5:bc4e0a1837f9350dd722f24da26047ee",
+      "id": "a034e131-ed17-4d92-b27d-7136c95f99f3",
+      "key": "2019_09_17_Intergeo_Stuttgart_LDC_Glossar.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/3403030/files/2019_09_17_Intergeo_Stuttgart_LDC_Glossar.pdf/content"
+      },
+      "size": 52119
+    }
+  ],
+  "id": 3403030,
+  "links": {
+    "access": "https://zenodo.org/api/records/3403030/access",
+    "access_grants": "https://zenodo.org/api/records/3403030/access/grants",
+    "access_links": "https://zenodo.org/api/records/3403030/access/links",
+    "access_request": "https://zenodo.org/api/records/3403030/access/request",
+    "access_users": "https://zenodo.org/api/records/3403030/access/users",
+    "archive": "https://zenodo.org/api/records/3403030/files-archive",
+    "archive_media": "https://zenodo.org/api/records/3403030/media-files-archive",
+    "communities": "https://zenodo.org/api/records/3403030/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/3403030/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.3403030",
+    "draft": "https://zenodo.org/api/records/3403030/draft",
+    "file_modification": "https://zenodo.org/api/records/3403030/file-modification",
+    "files": "https://zenodo.org/api/records/3403030/files",
+    "latest": "https://zenodo.org/api/records/3403030/versions/latest",
+    "latest_html": "https://zenodo.org/records/3403030/latest",
+    "media_files": "https://zenodo.org/api/records/3403030/media-files",
+    "parent": "https://zenodo.org/api/records/3403029",
+    "parent_doi": "https://doi.org/10.5281/zenodo.3403029",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3403029",
+    "parent_html": "https://zenodo.org/records/3403029",
+    "preview_html": "https://zenodo.org/records/3403030?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/3403030/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/3403030/request-deletion",
+    "requests": "https://zenodo.org/api/records/3403030/requests",
+    "reserve_doi": "https://zenodo.org/api/records/3403030/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/3403030",
+    "self_doi": "https://doi.org/10.5281/zenodo.3403030",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3403030",
+    "self_html": "https://zenodo.org/records/3403030",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3403030/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3403030/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:3403030:2019_09_17_Intergeo_Stuttgart_LDC_Skript.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:3403030:2019_09_17_Intergeo_Stuttgart_LDC_Skript.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:3403030:2019_09_17_Intergeo_Stuttgart_LDC_Skript.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:3403030:2019_09_17_Intergeo_Stuttgart_LDC_Skript.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:3403030:2019_09_17_Intergeo_Stuttgart_LDC_Skript.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:3403030:2019_09_17_Intergeo_Stuttgart_LDC_Skript.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/3403030/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (Germany)",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Geod&auml;ten leben bereits im Jahr 2019 in einer globalen, digitalen und vernetzten Welt: der Cloud. Wir erleben das Arbeiten 4.0 in einer Industrie 4.0 mit dem Einsatz von cyber-physischen Systemen und der Vernetzung von Maschinen, Ger&auml;ten, Sensoren, Menschen und Daten. 80% aller Daten besitzen einen Raumbezug, somit sind Geodaten der Treibstoff der digitalen Gesellschaft. Dar&uuml;ber hinaus werden Bestandteile des OOO-Modells immer wichtiger: Open Source Software, Open (Geo-) Data und Open Access. Zur Bereitstellung von offenen und freien (Geo-) Daten in interoperablen Formaten eigenen sich insbesondere Techniken des Web 3.0, sogenannte Linked Open Data (LOD), bzw. Linked Open Geodata. Durch die Bereitstellung von LO(Geo-)D entsteht eine riesige vernetzte Linked Data Cloud verschiedenster Disziplinen (Geod&auml;sie / Geisteswissenschaften / Naturwissenschaften), in der amtliche Geodaten als Bindeglied dienen, um neues Wissen f&uuml;r die Gesellschaft zu erzeugen.</p>",
+    "doi": "10.5281/zenodo.3403030",
+    "journal": {
+      "issue": "2",
+      "pages": "No. 1",
+      "title": "Squirrel Papers",
+      "volume": "1"
+    },
+    "keywords": [
+      "Linked Data",
+      "Linked Open Geodata",
+      "Arbeiten 4.0",
+      "Geodäsie 2030"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "17.09.-19.09.2019",
+      "place": "Stuttgart, Germany",
+      "session": "6.1 GEODÄSIE 2030 – ARBEITEN 4.0 (BEITRÄGE IM PECHA-KUCHA-FORMAT)",
+      "session_part": "4",
+      "title": "Intergeo Conference",
+      "url": "https://www.intergeo.de/intergeo/conference/conference-programm.php?day-filter__selection=0#/topic/1135630"
+    },
+    "publication_date": "2019-09-17",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "3403029"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Linked Data Cloud: Bindeglied zwischen Geodäsie und Gesellschaft"
+  },
+  "modified": "2024-07-22T18:51:56.497087+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "3403030",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Linked Data Cloud: Bindeglied zwischen Geodäsie und Gesellschaft",
+  "updated": "2024-07-22T18:51:56.497087+00:00"
+}

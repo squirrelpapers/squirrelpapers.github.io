@@ -1,0 +1,180 @@
+{
+  "conceptdoi": "10.5281/zenodo.16736221",
+  "conceptrecid": "16736221",
+  "created": "2025-08-04T10:24:27.405491+00:00",
+  "doi": "10.5281/zenodo.16736222",
+  "doi_url": "https://doi.org/10.5281/zenodo.16736222",
+  "files": [
+    {
+      "checksum": "md5:df92369743ef1dafae592e0e9f35a6e7",
+      "id": "92789c85-13b5-4e0e-b6dd-ce5afc4f186b",
+      "key": "CoRDI_2025_paper_283.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/16736222/files/CoRDI_2025_paper_283.pdf/content"
+      },
+      "size": 1139263
+    }
+  ],
+  "id": 16736222,
+  "links": {
+    "access": "https://zenodo.org/api/records/16736222/access",
+    "access_grants": "https://zenodo.org/api/records/16736222/access/grants",
+    "access_links": "https://zenodo.org/api/records/16736222/access/links",
+    "access_request": "https://zenodo.org/api/records/16736222/access/request",
+    "access_users": "https://zenodo.org/api/records/16736222/access/users",
+    "archive": "https://zenodo.org/api/records/16736222/files-archive",
+    "archive_media": "https://zenodo.org/api/records/16736222/media-files-archive",
+    "communities": "https://zenodo.org/api/records/16736222/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/16736222/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.16736222",
+    "draft": "https://zenodo.org/api/records/16736222/draft",
+    "file_modification": "https://zenodo.org/api/records/16736222/file-modification",
+    "files": "https://zenodo.org/api/records/16736222/files",
+    "latest": "https://zenodo.org/api/records/16736222/versions/latest",
+    "latest_html": "https://zenodo.org/records/16736222/latest",
+    "media_files": "https://zenodo.org/api/records/16736222/media-files",
+    "parent": "https://zenodo.org/api/records/16736221",
+    "parent_doi": "https://doi.org/10.5281/zenodo.16736221",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16736221",
+    "parent_html": "https://zenodo.org/records/16736221",
+    "preview_html": "https://zenodo.org/records/16736222?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/16736222/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/16736222/request-deletion",
+    "requests": "https://zenodo.org/api/records/16736222/requests",
+    "reserve_doi": "https://zenodo.org/api/records/16736222/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/16736222",
+    "self_doi": "https://doi.org/10.5281/zenodo.16736222",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16736222",
+    "self_html": "https://zenodo.org/records/16736222",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16736222/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16736222/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:16736222:CoRDI_2025_paper_283.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:16736222:CoRDI_2025_paper_283.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:16736222:CoRDI_2025_paper_283.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:16736222:CoRDI_2025_paper_283.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:16736222:CoRDI_2025_paper_283.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:16736222:CoRDI_2025_paper_283.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/16736222/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi"
+      },
+      {
+        "id": "cordi-2025"
+      }
+    ],
+    "contributors": [
+      {
+        "affiliation": "Nationale Forschungsdateninfrastruktur (NFDI) e.V.",
+        "name": "Sure-Vetter, York",
+        "orcid": "0000-0002-4522-1099",
+        "type": "Editor"
+      },
+      {
+        "affiliation": "University of Amsterdam",
+        "name": "Groth, Paul",
+        "orcid": "0000-0003-0183-6910",
+        "type": "Editor"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Leibniz-Zentrum für Archäologie (LEIZA)",
+        "name": "Fischer, Kristina",
+        "orcid": "0009-0005-3991-1025"
+      },
+      {
+        "affiliation": "Klassik Stiftung Weimar",
+        "name": "Gerber, Anja",
+        "orcid": "0000-0003-2576-1511"
+      },
+      {
+        "affiliation": "Weierstrass Institute for Applied Analysis and Stochastics",
+        "name": "Koprucki, Thomas",
+        "orcid": "0000-0001-6235-9412"
+      },
+      {
+        "affiliation": "Technische Universität Darmstadt",
+        "name": "Noback, Andreas",
+        "orcid": "0000-0001-8214-0952"
+      },
+      {
+        "affiliation": "Zuse Institute Berlin",
+        "name": "Reidelbach, Marco",
+        "orcid": "0000-0002-1919-1834"
+      },
+      {
+        "affiliation": "Academy of Sciences and Literature Mainz",
+        "name": "Schrade, Torsten",
+        "orcid": "0000-0002-0953-2818"
+      },
+      {
+        "affiliation": "Leibniz-Zentrum für Archäologie (LEIZA)",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "Against the background of the vision of 'One NFDI', consortia are increasingly faced with the question of overarching metadata models and common metadata standards. In material culture, built environment or cultural heritage, interdisciplinary collaboration between engineering and natural sciences, humanities and social sciences is essential for scientific success but involves multiple consortia. Making the best possible use of cross-NFDI cooperations, the consortia have set up a standing working group with the aim of finding concrete solutions in transdisciplinary research data management.  An exemplary use case is centered on medieval stained-glass windows from the Corpus Vitrearum Medii Aevi (CVMA) project, which allows the consortia DAPHNE4NFDI, MaRDI, NFDI4Culture, NFDI4Objects, NFDI4ING, and NFDIxCS to examine data types, processes and implementations for FAIR Digital Objects (FDO), Linked Open Data (LOD) or Knowledge Graphs. The research project CVMA catalogs Medieval stained glass in Germany based on high resolution photographic images enriched with information regarding history and conservation, bibliography, related actors, iconography and location. The project integrates methodologies and existing standards from art history, conservation, digital imaging, and information science. This use-case can be extended to include measurements and process data of various kinds, e.g., photogrammetry, x-ray scans, microscope analysis, and goniophotometric scatter analysis. These data generation processes fall within the domains of material, engineering, and natural sciences, so the tools and standards of the related consortia apply. Ideally, this data and other artefacts such as software, measurement, simulation setups or calibration data is stored in the form of a FDO containing technical metadata regarding its content and type and a Persistent Identifier (PID) to make it findable. A federated infrastructure for generating and storing FDO is currently under development.  At the same time, research data is provided within KGs, e.g., Culture Knowledge Graph or the N4O KG. These data may include rich semantic annotations, topographical and architectural contexts, 3D documentation and conservation history. Reference data models such as CIDOC CRM (including LIDO), schema.org, BFO, DCAT and NFDIcore can be applied for interoperability. Workflows based on RDM incl. proposed tools provided by DAPHNE4NFDI can be easily integrated and partially or completely reused.  In this context, MaRDI explores how mathematical and computational methods can support the transformation of FDOs into semantically integrated Knowledge Graphs. Techniques such as metadata enrichment, pattern detection, and clustering can be applied to structure, harmonise, and relate FDO contents across domains. This enables the alignment of heterogeneous metadata models and facilitates their translation into interoperable representations.  A key question for future work is how to interconnect paradigms like RDF, LPG and FDOs into existing knowledge graph infrastructures. Here, Basic Services such as TS4NFDI or KGI4NFDI offer solutions for aligning and federating metadata. Terminology services and the emerging NFDIcore Ontology will be central to supporting cross-consortia interoperability. These aspects will be further explored and discussed in the context of this paper and the joint efforts across NFDI consortia.",
+    "doi": "10.5281/zenodo.16736222",
+    "keywords": [
+      "Engineering",
+      "Humanities",
+      "Linked Open Data",
+      "FAIR Digital",
+      "Objects",
+      "Knowledge Graph",
+      "community-standards",
+      "NFDIcore Ontology",
+      "CIDOC-CRM"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CoRDI",
+      "dates": "26-28 August 2025",
+      "place": "Aachen, Germany",
+      "session": "5. Impact",
+      "title": "2nd Conference on Research Data Infrastructure",
+      "url": "https://www.nfdi.de/cordi-2025/"
+    },
+    "publication_date": "2025-08-04",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "16736221"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data"
+  },
+  "modified": "2025-08-04T10:24:27.650826+00:00",
+  "owners": [
+    {
+      "id": "112726"
+    }
+  ],
+  "recid": "16736222",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data",
+  "updated": "2025-08-04T10:24:27.650826+00:00"
+}

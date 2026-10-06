@@ -1,0 +1,39 @@
+{
+  "coordinates": {
+    "lat": 41.893056,
+    "lon": 12.482778
+  },
+  "country": [
+    "Q12544",
+    "Q170174",
+    "Q17167",
+    "Q172579",
+    "Q201038",
+    "Q2277",
+    "Q237",
+    "Q3755547",
+    "Q38",
+    "Q42834",
+    "Q583038"
+  ],
+  "descriptions": {
+    "de": "Haupt- und bevölkerungsreichste Stadt Italiens",
+    "en": "capital and largest city of Italy"
+  },
+  "id": "Q220",
+  "instance_of": [
+    "Q108178728",
+    "Q1187811",
+    "Q1200957",
+    "Q1549591",
+    "Q200250",
+    "Q3685476",
+    "Q51929311",
+    "Q747074",
+    "Q902814"
+  ],
+  "labels": {
+    "de": "Rom",
+    "en": "Rome"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 41.3825,
+    "lon": 2.176944
+  },
+  "country": [
+    "Q29"
+  ],
+  "descriptions": {
+    "de": "Stadt in Katalonien in Spanien",
+    "en": "city in Catalonia, Spain"
+  },
+  "id": "Q1492",
+  "instance_of": [
+    "Q33146843",
+    "Q515"
+  ],
+  "labels": {
+    "de": "Barcelona",
+    "en": "Barcelona"
+  }
+}

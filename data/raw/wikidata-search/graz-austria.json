@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Graz [de]": [
+      {
+        "description": "capital of Styria, Austria",
+        "id": "Q13298",
+        "label": "Graz"
+      },
+      {
+        "description": "family name",
+        "id": "Q107377751",
+        "label": "Graz"
+      },
+      {
+        "description": "female given name",
+        "id": "Q746517",
+        "label": "Grażyna"
+      },
+      {
+        "description": "female given name",
+        "id": "Q21191276",
+        "label": "Grazia"
+      },
+      {
+        "description": "philologist in the field of Hellenic languages",
+        "id": "Q18916625",
+        "label": "hellenist"
+      }
+    ],
+    "Graz [en]": [
+      {
+        "description": "capital of Styria, Austria",
+        "id": "Q13298",
+        "label": "Graz"
+      },
+      {
+        "description": "family name",
+        "id": "Q107377751",
+        "label": "Graz"
+      },
+      {
+        "description": "female given name",
+        "id": "Q746517",
+        "label": "Grażyna"
+      },
+      {
+        "description": "Italian novelist (1871-1936)",
+        "id": "Q7728",
+        "label": "Grazia Deledda"
+      },
+      {
+        "description": "female given name",
+        "id": "Q21191276",
+        "label": "Grazia"
+      }
+    ]
+  },
+  "label": "Graz, Austria"
+}

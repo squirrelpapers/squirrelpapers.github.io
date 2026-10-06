@@ -1,0 +1,131 @@
+{
+  "conceptdoi": "10.5281/zenodo.14524577",
+  "conceptrecid": "14524577",
+  "created": "2024-12-19T10:34:34.018438+00:00",
+  "doi": "10.5281/zenodo.14524578",
+  "doi_url": "https://doi.org/10.5281/zenodo.14524578",
+  "files": [
+    {
+      "checksum": "md5:5b44ef0b4ec03e744ff6e8fb618dc12a",
+      "id": "2259d827-17d1-4409-b611-ec99b4b281a7",
+      "key": "ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14524578/files/ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf/content"
+      },
+      "size": 22087577
+    }
+  ],
+  "id": 14524578,
+  "links": {
+    "access": "https://zenodo.org/api/records/14524578/access",
+    "access_grants": "https://zenodo.org/api/records/14524578/access/grants",
+    "access_links": "https://zenodo.org/api/records/14524578/access/links",
+    "access_request": "https://zenodo.org/api/records/14524578/access/request",
+    "access_users": "https://zenodo.org/api/records/14524578/access/users",
+    "archive": "https://zenodo.org/api/records/14524578/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14524578/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14524578/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14524578/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14524578",
+    "draft": "https://zenodo.org/api/records/14524578/draft",
+    "file_modification": "https://zenodo.org/api/records/14524578/file-modification",
+    "files": "https://zenodo.org/api/records/14524578/files",
+    "latest": "https://zenodo.org/api/records/14524578/versions/latest",
+    "latest_html": "https://zenodo.org/records/14524578/latest",
+    "media_files": "https://zenodo.org/api/records/14524578/media-files",
+    "parent": "https://zenodo.org/api/records/14524577",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14524577",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14524577",
+    "parent_html": "https://zenodo.org/records/14524577",
+    "preview_html": "https://zenodo.org/records/14524578?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14524578/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14524578/request-deletion",
+    "requests": "https://zenodo.org/api/records/14524578/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14524578/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14524578",
+    "self_doi": "https://doi.org/10.5281/zenodo.14524578",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14524578",
+    "self_html": "https://zenodo.org/records/14524578",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14524578/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14524578/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14524578:ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14524578:ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14524578:ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14524578:ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14524578:ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14524578:ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14524578/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p><em>Paper for Panel 1: Towards a Common Infrastructural Framework: Managing and Exploiting Big Data in Archaeological Research through Open Data Systems - Remote Talk</em></p>\n<p><strong>Title</strong>: Infrastructural Frameworks: Managing and publishing distributed Archaeological Research Data through the Wikibase Ecosystem</p>\n<p><strong>Author</strong>: Florian Thiery</p>\n<p><strong>Affiliation</strong>: Research Squrrel Engineers Network (Mainz, Germany)</p>\n<p><strong>Keywords</strong>: Wikibase, Wikidata, Linked Open Data, Research Data Management, Archaeological Infrastructure, distributed systems</p>\n<p><strong>Author Biography</strong>: Florian Thiery is a Research Software Engineer (RSE), Ontology Engineer and Data Scientist trained in geodesy and geoinformatics. He has been working for more than 10 years in LOD-related DH projects such as iDAI.chronontology and African Red Slip Ware digital (ARS3D). Currently, Florian is part of the staff at NFDI4Objects, which develops a Research Data Management Structure for (among other things) archaeological data together with German institutions and international partners. He is also founder of the Research Squirrel Engineers Network, wich codes the&nbsp;<a href=\"https://github.com/sparqlunicorn/sparqlunicornGoesGIS\">SPARQLing Unicorn QGIS Plugin</a>&nbsp;and is responsible for the&nbsp;<a href=\"https://github.com/LinkedOpenOgham/ogham-lod\">Linked Open Ogham Data</a>, as well as the&nbsp;<a href=\"https://fuzzy-sl.wikibase.cloud/\" rel=\"nofollow\">fuzzy-sl Wikibase</a>.</p>\n<p><strong>Author Bibliography</strong></p>\n<ul>\n<li>Schmidt, Sophie C., Florian Thiery, and Martina Trognitz. &lsquo;Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata&rsquo;.&nbsp;<em>Digital</em>&nbsp;2, no. 3 (22 June 2022): 333&ndash;64.&nbsp;<a href=\"https://doi.org/10.3390/digital2030019\" rel=\"nofollow\">https://doi.org/10.3390/digital2030019</a>.</li>\n<li>Thiery, Florian, Fiona Schenk, Stefanie Baars, Karsten Tolle, and Peter Thiery. &lsquo;Modellierung von Fuzzyness / Wobbliness in Geodaten - Am Beispiel Arch&auml;ologischer Und Geowissenschaftlicher Fundortreferenzen&rsquo;.&nbsp;<em>Tagungsband FOSSGIS-Konferenz 2024</em>&nbsp;2024 (18 March 2024): 64&ndash;73.&nbsp;<a href=\"https://doi.org/10.5281/zenodo.10571858\" rel=\"nofollow\">https://doi.org/10.5281/zenodo.10571858</a>.</li>\n<li>Thiery, Florian, and Peter Thiery. &lsquo;Linked Open Ogham. How to Publish and Interlink Various Ogham Data?&rsquo;&nbsp;<em>Archeologia e Calcolatori</em>&nbsp;34, no. 1 (2023): 105&ndash;14.&nbsp;<a href=\"https://doi.org/10.19282/ac.34.1.2023.12\" rel=\"nofollow\">https://doi.org/10.19282/ac.34.1.2023.12</a>.</li>\n</ul>\n<p><strong>Abstract</strong></p>\n<p>The creation of Linked Open Data (LOD) within frameworks like Wikibase has led to an increasing volume of \"archaeological big data\" stored in distributed systems across the LOD Cloud. This growth necessitates strategies to enable federated SPARQL queries, facilitating the realisation of Linked Open Usable Data. While the Arches Management System offers a robust platform for organising and visualising archaeological data, the Wikibase Ecosystem, with its integrated LOD Knowledge Graph infrastructures, presents an alternative.</p>\n<p>This paper explores the role of Wikibase within broader Knowledge Graph frameworks, such as the NFDI4Objects Knowledge Graph, in the context of archaeological big data. Case studies will highlight successful applications, challenges in integrating diverse open data sources, and the use of LOD technologies for data analysis and visualisation. Focusing on the Wikibase data model and its relation to the CIDOC CRM, the paper will examine strategies for interconnecting multiple Wikibase instances with distinct classes and properties. The example of Irish Ogham Stones will illustrate this approach, exploring instances such as&nbsp;<a href=\"https://database.factgrid.de/\" rel=\"nofollow\">FactGrid</a>,&nbsp;<a href=\"https://fuzzy-sl.wikibase.cloud/\" rel=\"nofollow\">fuzzy-sl</a>,&nbsp;<a href=\"https://semantic-kompakkt.de/\" rel=\"nofollow\">Semantic Kompakkt</a>, and Wikidata, alongside external resources like CISP and Ogham in 3D in the Linked Open Ogham resource. The paper will demonstrate how federated queries can be performed, addressing the ongoing challenges in this field.</p>",
+    "doi": "10.5281/zenodo.14524578",
+    "journal": {
+      "issue": "3",
+      "pages": "#11",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "19-20 Dec 2024",
+      "place": "Aula Convegni CAST, Chieti, Italy",
+      "session": "Towards a Common Infrastructural Framework",
+      "title": "ARCHEO.FOSS 18",
+      "url": "https://www.archeofoss.org/2024/"
+    },
+    "publication_date": "2024-12-19",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14524577"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Infrastructural Frameworks: Managing and Publishing distributed Archaeological Research Data through the Wikibase Ecosystem"
+  },
+  "modified": "2024-12-19T10:34:34.208269+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14524578",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Infrastructural Frameworks: Managing and Publishing distributed Archaeological Research Data through the Wikibase Ecosystem",
+  "updated": "2024-12-19T10:34:34.208269+00:00"
+}

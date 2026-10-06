@@ -1,0 +1,29 @@
+{
+  "coordinates": {
+    "lat": 45.813056,
+    "lon": 15.977222
+  },
+  "country": [
+    "Q153128",
+    "Q153136",
+    "Q191077",
+    "Q224",
+    "Q533558",
+    "Q718374",
+    "Q83286"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt und bevölkerungsreichste Stadt Kroatiens",
+    "en": "capital city of Croatia"
+  },
+  "id": "Q1435",
+  "instance_of": [
+    "Q15105893",
+    "Q1549591",
+    "Q57053"
+  ],
+  "labels": {
+    "de": "Zagreb",
+    "en": "Zagreb"
+  }
+}

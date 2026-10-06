@@ -1,0 +1,27 @@
+{
+  "coordinates": {
+    "lat": 55.861111,
+    "lon": -4.25
+  },
+  "country": [
+    "Q145",
+    "Q161885",
+    "Q174193",
+    "Q230791"
+  ],
+  "descriptions": {
+    "de": "Großstadt in Schottland",
+    "en": "city in Scotland, United Kingdom"
+  },
+  "id": "Q4093",
+  "instance_of": [
+    "Q1549591",
+    "Q202435",
+    "Q515",
+    "Q51929311"
+  ],
+  "labels": {
+    "de": "Glasgow",
+    "en": "Glasgow"
+  }
+}

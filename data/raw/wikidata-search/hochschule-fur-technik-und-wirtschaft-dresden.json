@@ -1,0 +1,113 @@
+{
+  "answers": {
+    "Dresden [de]": [
+      {
+        "description": "capital city of the Free State of Saxony in Germany",
+        "id": "Q1731",
+        "label": "Dresden"
+      },
+      {
+        "description": "town in Tennessee, United States",
+        "id": "Q206353",
+        "label": "Dresden"
+      },
+      {
+        "description": "complex of 15 world famous Museums in Dresden, Germany including the Gemäldegalerie Alte Meister, Galerie Neue Meister, and Dresden Castle",
+        "id": "Q653002",
+        "label": "Staatliche Kunstsammlungen Dresden"
+      },
+      {
+        "description": "railway station in Dresden, Germany",
+        "id": "Q704354",
+        "label": "Dresden Central Station"
+      },
+      {
+        "description": "community in Ontario, Canada",
+        "id": "Q1258446",
+        "label": "Dresden"
+      }
+    ],
+    "Dresden [en]": [
+      {
+        "description": "capital city of the Free State of Saxony in Germany",
+        "id": "Q1731",
+        "label": "Dresden"
+      },
+      {
+        "description": "town in Tennessee, United States",
+        "id": "Q206353",
+        "label": "Dresden"
+      },
+      {
+        "description": "railway station in Dresden, Germany",
+        "id": "Q704354",
+        "label": "Dresden Central Station"
+      },
+      {
+        "description": "complex of 15 world famous Museums in Dresden, Germany including the Gemäldegalerie Alte Meister, Galerie Neue Meister, and Dresden Castle",
+        "id": "Q653002",
+        "label": "Staatliche Kunstsammlungen Dresden"
+      },
+      {
+        "description": "institute of higher education in the city of Dresden, Saxony, Germany, founded in 1828",
+        "id": "Q158158",
+        "label": "TU Dresden"
+      }
+    ],
+    "Hochschule für Technik und Wirtschaft [de]": [
+      {
+        "description": "university of applied sciences in Germany",
+        "id": "Q875138",
+        "label": "HTW Berlin"
+      },
+      {
+        "description": "University in Dresden",
+        "id": "Q1622222",
+        "label": "University of Applied Sciences Dresden"
+      },
+      {
+        "description": "Saarland University of Applied Sciences",
+        "id": "Q884111",
+        "label": "htw saar | Saarland University of Applied Sciences"
+      },
+      {
+        "description": "building in Berlin, German",
+        "id": "Q105045243",
+        "label": "Hochschule für Technik und Wirtschaft Berlin"
+      },
+      {
+        "description": "",
+        "id": "Q35326297",
+        "label": "Hochschule für Technik und Wirtschaft Berlin - Campus Wilhelminenhof"
+      }
+    ],
+    "Hochschule für Technik und Wirtschaft [en]": [
+      {
+        "description": "university of applied sciences in Germany",
+        "id": "Q875138",
+        "label": "HTW Berlin"
+      },
+      {
+        "description": "building in Berlin, German",
+        "id": "Q105045243",
+        "label": "Hochschule für Technik und Wirtschaft Berlin"
+      },
+      {
+        "description": "",
+        "id": "Q35326297",
+        "label": "Hochschule für Technik und Wirtschaft Berlin - Campus Wilhelminenhof"
+      },
+      {
+        "description": "",
+        "id": "Q35326282",
+        "label": "Hochschule für Technik und Wirtschaft Berlin - Campus Treskowallee"
+      },
+      {
+        "description": "University in Dresden",
+        "id": "Q1622222",
+        "label": "University of Applied Sciences Dresden"
+      }
+    ]
+  },
+  "label": "Hochschule für Technik und Wirtschaft, Dresden"
+}

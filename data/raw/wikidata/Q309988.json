@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 49.0996,
+    "lon": 8.4319
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Technische Universität und Forschungszentrum in Karlsruhe, Deutschland",
+    "en": "technical university and research center in Karlsruhe, Germany"
+  },
+  "id": "Q309988",
+  "instance_of": [
+    "Q115427560",
+    "Q1371037",
+    "Q31855",
+    "Q43229",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Karlsruher Institut für Technologie",
+    "en": "Karlsruhe Institute of Technology"
+  }
+}

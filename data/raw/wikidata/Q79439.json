@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 34.791667,
+    "lon": -86.966667
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Stadt in Alabama",
+    "en": "county seat of Limestone County, Alabama, United States"
+  },
+  "id": "Q79439",
+  "instance_of": [
+    "Q1093829",
+    "Q62049"
+  ],
+  "labels": {
+    "de": "Athens",
+    "en": "Athens"
+  }
+}

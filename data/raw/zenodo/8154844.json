@@ -1,0 +1,146 @@
+{
+  "conceptdoi": "10.5281/zenodo.8154844",
+  "conceptrecid": "8154844",
+  "created": "2023-07-17T11:49:54.132906+00:00",
+  "doi": "10.5281/zenodo.8154845",
+  "doi_url": "https://doi.org/10.5281/zenodo.8154845",
+  "files": [
+    {
+      "checksum": "md5:4fcf2b9c76d2508315429e8bed02c113",
+      "id": "a1571944-10a2-4b70-9e26-f33954030b32",
+      "key": "GrapHNR2023_ Poster_Ogham.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/8154845/files/GrapHNR2023_%20Poster_Ogham.pdf/content"
+      },
+      "size": 3071706
+    }
+  ],
+  "id": 8154845,
+  "links": {
+    "access": "https://zenodo.org/api/records/8154845/access",
+    "access_grants": "https://zenodo.org/api/records/8154845/access/grants",
+    "access_links": "https://zenodo.org/api/records/8154845/access/links",
+    "access_request": "https://zenodo.org/api/records/8154845/access/request",
+    "access_users": "https://zenodo.org/api/records/8154845/access/users",
+    "archive": "https://zenodo.org/api/records/8154845/files-archive",
+    "archive_media": "https://zenodo.org/api/records/8154845/media-files-archive",
+    "communities": "https://zenodo.org/api/records/8154845/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/8154845/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.8154845",
+    "draft": "https://zenodo.org/api/records/8154845/draft",
+    "file_modification": "https://zenodo.org/api/records/8154845/file-modification",
+    "files": "https://zenodo.org/api/records/8154845/files",
+    "latest": "https://zenodo.org/api/records/8154845/versions/latest",
+    "latest_html": "https://zenodo.org/records/8154845/latest",
+    "media_files": "https://zenodo.org/api/records/8154845/media-files",
+    "parent": "https://zenodo.org/api/records/8154844",
+    "parent_doi": "https://doi.org/10.5281/zenodo.8154844",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8154844",
+    "parent_html": "https://zenodo.org/records/8154844",
+    "preview_html": "https://zenodo.org/records/8154845?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/8154845/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/8154845/request-deletion",
+    "requests": "https://zenodo.org/api/records/8154845/requests",
+    "reserve_doi": "https://zenodo.org/api/records/8154845/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/8154845",
+    "self_doi": "https://doi.org/10.5281/zenodo.8154845",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8154845",
+    "self_html": "https://zenodo.org/records/8154845",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:8154845/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:8154845/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:8154845:GrapHNR2023_%20Poster_Ogham.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:8154845:GrapHNR2023_%20Poster_Ogham.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:8154845:GrapHNR2023_%20Poster_Ogham.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:8154845:GrapHNR2023_%20Poster_Ogham.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:8154845:GrapHNR2023_%20Poster_Ogham.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:8154845:GrapHNR2023_%20Poster_Ogham.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/8154845/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "contributors": [
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Peter Thiery",
+        "orcid": "0000-0003-3270-2659",
+        "type": "ProjectMember"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p><strong>Background</strong></p>\n\n<p>ᚑᚌᚆᚐᚋ (Ogham) stones, e.g. the Ogham stone CIIC 178, are monoliths with the early medieval Primitive Irish Ogham script, mostly erected on the island of Ireland and in the western part of Britain between the 4th and 9th centuries. They are an important source for Archaic or Proto-Irish language and society. Names on the stones seem to be dedicated to a person. It remains unclear, however, whether the stones were grave markers, for example, or designated land ownership [1;2;3;4]. The inscriptions consist of names and relations (formula words) such as MAQI (ᚋᚐᚊᚔ; engl. son) to feature kinship or tribal relations [2].</p>\n\n<p>Ogham stones have been part of research for decades. Over time, several books, online databases and repositories comprising different numbering systems and readings of ogham inscriptions were produced. So the critical question is, &ldquo;How to model research on Ogham (e.g. the readings of inscriptions) over time and different media using different sources and platforms with the help of graphs and Semantic Web technologies?&rdquo;.</p>\n\n<p><strong>Methods and data</strong></p>\n\n<p>This paper describes a use case from the &ldquo;Linked Open Ogham Data Project&rdquo; [5;6], which was set up in 2019 by the Research Squirrel Engineers Network and supported by the Wikimedia Germany Open Science Fellows Program. It uses &ldquo;analogue&rdquo; publications/catalogues on Ogham [1;2;7;8;9], online databases/repositories such as &ldquo;Ogham in 3D&rdquo; or &ldquo;Celtic Inscribed Stones Project&rdquo; (CISP) to transform and model the data with the help of Semantic Web and graph technologies within a hybrid Ogham LOD workflow [10], based on the idea of Open Science and the FAIR Principles as Linked Open Data (LOD) [11], in Wikidata and Open Street Map (OSM). Semantic modelling and LOD techniques such as RDF and Wikidata are used to describe, e.g. the different readings of inscriptions over time [12].</p>\n\n<p><strong>Discussion</strong></p>\n\n<p>This paper shows that using semantic modelling and LOD techniques to create a network of stones, data and individual views, e.g. readings of inscriptions, helps to model temporalities in research. For this purpose, digitalisation and LODification of books, LODification of &ldquo;old fashioned&rdquo; 1990s databases such as &ldquo;CISP&rdquo; or &ldquo;TITUS ogam&rdquo; as well as import data in community hubs like Wikidata or OSM is needed. Volunteers and Citizen Scientits can also help improve the data within this system.</p>\n\n<p>As an example: other identifiers of CIIC 178 [1,p.170]: CISP~COUME/1, Cuppage 268 [7], Wikidata Q106680850, OSM node 5145413640 and as LOD <a href=\"http://lod.ogham.link/data/Y50000178\">http://lod.ogham.link/data/Y50000178</a>. Macalister [1] read &ldquo;ERC MAQI MAQI-ERCIAS MU DOVINIA&rdquo;, Cuppage et al. [7] &ldquo;ERC MAQI MAQI-ERCIAS [MU] DOVINI[A]&rdquo; and McManus [2] &ldquo;ERC MAQI MAQI-ERCIA[S MU] DOVI[N]IA&rdquo;. The readings are slightly similar but contain a lot of uncertainties over time. Still, nevertheless, the mentioned names (Goidelic/male) &ldquo;ERC&rdquo;, &ldquo;MAQI-ERCIAS&rdquo;, and &ldquo;DOVINIA&rdquo; and relations like &ldquo;MAQI&rdquo; (engl. son of) are still the same. LOD and Wikidata help to model and visualise these opinions and relations as temporalities in research.</p>\n\n<p><strong>References</strong></p>\n\n<p>[1] Macalister, RAS. 1945. Corpus inscriptionum insularum Celticarum. Vol. I. Dublin: Stationery Office.</p>\n\n<p>[2] MacManus, D. 1997. A guide to Ogam. Maynooth monographs 4. Maynooth: An Sagart.</p>\n\n<p>[3] Schmidt, SC and Thiery, F. 2022 SPARQLing Ogham Stones: New Options for Analyzing Analog Editions by Digitization in Wikidata. CEUR Workshop Proceedings 3110(Graph Technologies in the Humanities 2020): 211&ndash;244. DOI: 10.5281/zenodo.6380914.</p>\n\n<p>[4] Bogdani, J, Montalbano, R and Rosati, P. 2021. ArcheoFOSS XIV 2020: Open Software, Hardware, Processes, Data and Formats in Archaeological Research. Oxford: Archaeopress Publishing Ltd, pp.119-127.</p>\n\n<p>[5] <a href=\"https://t1p.de/wd-ogham\">https://t1p.de/wd-ogham</a>&nbsp;</p>\n\n<p>[6] <a href=\"https://t1p.de/wd-looi\">https://t1p.de/wd-looi</a>&nbsp;</p>\n\n<p>[7] Cuppage, J and Bennett, I. 1986. Archaeological survey of the Dingle Peninsula: a description of the field antiquities of the Barony of Corca Dhuibhne from the Mesolithic period to the 17th century A.D. = Suirbh&eacute; seand&aacute;la&iacute;ochta Chorca Dhuibhne. Ballyferriter: Oidhreacht Chorca Dhuibhne.</p>\n\n<p>[8] O&rsquo;Sullivan, A and Sheehan, J. 1996. The Iveragh Peninsula. An Archaeological Survey of South Kerry. Cork: Cork University Press.</p>\n\n<p>[9] Ziegler, S. 1994. Die Sprache der altirischen Ogam-Inschriften. G&ouml;ttingen: Vandenhoeck and Ruprecht.</p>\n\n<p>[10] Thiery, F, Homburg, T, Schmidt, SC, Vo&szlig;, J and Trognitz, M. 2021 SPARQLing Geodesy for Cultural Heritage &ndash; New Opportunities for Publishing and Analysing Volunteered Linked (geo-)data. In:. FIG Peer Review Journal. 21 June 2021. Kopenhagen: FIG. DOI: 10.5281/zenodo.5639381.</p>\n\n<p>[11] Thiery, F. 2022. SPARQLing ᚑᚌᚆᚐᚋ &ndash; Irische Ogham Steine als Linked Open Data. Zeitschrift f&uuml;r Digitale Geisteswissenschaften Fabrikation von Erkenntnis. Experimente in den Digital Humanities (5): 11. DOI: 10.17175/sb005_010</p>\n\n<p>[12] Schmidt, SC, Thiery, F and Trognitz, M. 2022 Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata. Digital 2(3): 333&ndash;364. DOI: 10.3390/digital2030019.</p>",
+    "doi": "10.5281/zenodo.8154845",
+    "journal": {
+      "issue": "4",
+      "pages": "#4",
+      "title": "Squirrel Papers",
+      "volume": "5"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "GrapHNR 2023",
+      "dates": "18.-21.07.2023",
+      "place": "Mainz; Germany",
+      "session": "Poster Session",
+      "title": "Graphs and Networks in the fourth dimension – time and temporality as categories of connectedness",
+      "url": "https://graphentechnologien.hypotheses.org/tagungen/graphentechnologien-2023/"
+    },
+    "publication_date": "2023-07-17",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.7915364",
+        "relation": "isDerivedFrom",
+        "resource_type": "publication-proposal",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "8154844"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+    },
+    "title": "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?"
+  },
+  "modified": "2024-07-11T17:16:07.925913+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "8154845",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?",
+  "updated": "2024-07-11T17:16:07.925913+00:00"
+}

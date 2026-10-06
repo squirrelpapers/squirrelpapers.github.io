@@ -1,0 +1,18 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Sportverein aus Hamburg",
+    "en": "German sports club based in Hamburg, with its largest branch being its football department"
+  },
+  "id": "Q51974",
+  "instance_of": [
+    "Q476028",
+    "Q847017"
+  ],
+  "labels": {
+    "de": "Hamburger SV",
+    "en": "Hamburger SV"
+  }
+}

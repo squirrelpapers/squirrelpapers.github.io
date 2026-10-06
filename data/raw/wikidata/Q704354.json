@@ -1,0 +1,26 @@
+{
+  "coordinates": {
+    "lat": 51.040278,
+    "lon": 13.731667
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "größter Personenbahnhof der sächsischen Landeshauptstadt Dresden",
+    "en": "railway station in Dresden, Germany"
+  },
+  "id": "Q704354",
+  "instance_of": [
+    "Q11670533",
+    "Q18543139",
+    "Q22808404",
+    "Q2451577",
+    "Q55488",
+    "Q55492"
+  ],
+  "labels": {
+    "de": "Dresden Hauptbahnhof",
+    "en": "Dresden Central Station"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 12.869444,
+    "lon": 124.141944
+  },
+  "country": [
+    "Q928"
+  ],
+  "descriptions": {
+    "de": "Gemeinde in der philippinischen Provinz Sorsogon",
+    "en": "municipality of the Philippines in the province of Sorsogon"
+  },
+  "id": "Q174114",
+  "instance_of": [
+    "Q24764"
+  ],
+  "labels": {
+    "de": "Barcelona",
+    "en": "Barcelona"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "conceptdoi": "10.5281/zenodo.1494175",
+  "conceptrecid": "1494175",
+  "created": "2018-11-22T15:40:18.155287+00:00",
+  "doi": "10.5281/zenodo.1494176",
+  "doi_url": "https://doi.org/10.5281/zenodo.1494176",
+  "files": [
+    {
+      "checksum": "md5:725b6e08c2c64a453ec0d5106f686c02",
+      "id": "e9d2cf24-3842-4945-88ea-9153d64e1371",
+      "key": "2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/1494176/files/2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pptx/content"
+      },
+      "size": 21861348
+    },
+    {
+      "checksum": "md5:8a1f44f313b9a45108c8f4224fbb6ae8",
+      "id": "0ff310ed-8a28-4508-8021-f269a4a50477",
+      "key": "2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/1494176/files/2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf/content"
+      },
+      "size": 12634890
+    }
+  ],
+  "id": 1494176,
+  "links": {
+    "access": "https://zenodo.org/api/records/1494176/access",
+    "access_grants": "https://zenodo.org/api/records/1494176/access/grants",
+    "access_links": "https://zenodo.org/api/records/1494176/access/links",
+    "access_request": "https://zenodo.org/api/records/1494176/access/request",
+    "access_users": "https://zenodo.org/api/records/1494176/access/users",
+    "archive": "https://zenodo.org/api/records/1494176/files-archive",
+    "archive_media": "https://zenodo.org/api/records/1494176/media-files-archive",
+    "communities": "https://zenodo.org/api/records/1494176/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/1494176/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.1494176",
+    "draft": "https://zenodo.org/api/records/1494176/draft",
+    "file_modification": "https://zenodo.org/api/records/1494176/file-modification",
+    "files": "https://zenodo.org/api/records/1494176/files",
+    "latest": "https://zenodo.org/api/records/1494176/versions/latest",
+    "latest_html": "https://zenodo.org/records/1494176/latest",
+    "media_files": "https://zenodo.org/api/records/1494176/media-files",
+    "parent": "https://zenodo.org/api/records/1494175",
+    "parent_doi": "https://doi.org/10.5281/zenodo.1494175",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1494175",
+    "parent_html": "https://zenodo.org/records/1494175",
+    "preview_html": "https://zenodo.org/records/1494176?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/1494176/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/1494176/request-deletion",
+    "requests": "https://zenodo.org/api/records/1494176/requests",
+    "reserve_doi": "https://zenodo.org/api/records/1494176/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/1494176",
+    "self_doi": "https://doi.org/10.5281/zenodo.1494176",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1494176",
+    "self_html": "https://zenodo.org/records/1494176",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:1494176/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:1494176/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:1494176:2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:1494176:2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:1494176:2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:1494176:2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:1494176:2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:1494176:2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/1494176/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "mainzed"
+      },
+      {
+        "id": "florianthiery"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Die Modellierung von Daten in relationalen Strukturen ist uns als Geod&auml;ten all gegenw&auml;rtig, z.B. nutzen wir PostGIS und Geoserver zum Teilen von Geodaten &uuml;ber das World Wide Web. In modernen Web Apps sind heute jedoch NoSQL Datenbanken weit verbreitet, welche zum Beispiel dokumentenorientiert (z.B. MongoDB) oder graphbasiert (z.B. Neo4j) sein k&ouml;nnen. Kantengewichtete Graphen sind in der Geoinformatik insbesondere im Bereich der Navigationssysteme durch den Dijkstra-Algorithmus bekannt. Zur interoperablen und semantischen Datenmodellierung sind aber auch gerichtete kantengef&auml;rbte Graphen nach den Prinzipien der Linked Data in RDF-Strukturen verbreitet (z.B. GeoSPARQL, Wikidata, LinkedGeoData). Eine besondere Herausforderung ist hierbei die Modellierung von Unsicherheit/Vagheit im Graphen und einem daraus resultierenden Reasoning. Der Vortrag gibt einen Einblick in das Academic Meta Tool, ein Web Tool zur Modellierung + Reasoning von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks.</p>",
+    "doi": "10.5281/zenodo.1494176",
+    "keywords": [
+      "KonGeoS",
+      "Zweifel",
+      "Linked Data",
+      "Vagheit",
+      "Netzwerk",
+      "RDF"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by"
+    },
+    "meeting": {
+      "acronym": "KonGeoS München",
+      "dates": "23.06.-29.06.2018",
+      "place": "Munich, Germany",
+      "title": "XII. Konferenz der GeodäsieStudierenden",
+      "url": "https://kongeos-muenchen.de/"
+    },
+    "publication_date": "2018-11-30",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "1494175"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "subjects": [
+      {
+        "identifier": "https://www.wikidata.org/wiki/Q515701",
+        "scheme": "url",
+        "term": "linked data"
+      },
+      {
+        "identifier": "https://www.wikidata.org/wiki/Q25377651",
+        "scheme": "url",
+        "term": "KonGeoS"
+      }
+    ],
+    "title": "Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks"
+  },
+  "modified": "2024-08-02T01:33:33.784731+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "1494176",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks",
+  "updated": "2024-08-02T01:33:33.784731+00:00"
+}

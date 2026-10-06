@@ -1,0 +1,136 @@
+{
+  "conceptdoi": "10.5281/zenodo.7558880",
+  "conceptrecid": "7558880",
+  "created": "2023-01-22T17:13:45.084525+00:00",
+  "doi": "10.5281/zenodo.7558881",
+  "doi_url": "https://doi.org/10.5281/zenodo.7558881",
+  "files": [
+    {
+      "checksum": "md5:88e5d74f3f525139928a15deb938d86d",
+      "id": "c01105cf-c583-4530-8b9d-7097f7bba4fb",
+      "key": "Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7558881/files/Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf/content"
+      },
+      "size": 16349144
+    }
+  ],
+  "id": 7558881,
+  "links": {
+    "access": "https://zenodo.org/api/records/7558881/access",
+    "access_grants": "https://zenodo.org/api/records/7558881/access/grants",
+    "access_links": "https://zenodo.org/api/records/7558881/access/links",
+    "access_request": "https://zenodo.org/api/records/7558881/access/request",
+    "access_users": "https://zenodo.org/api/records/7558881/access/users",
+    "archive": "https://zenodo.org/api/records/7558881/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7558881/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7558881/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7558881/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7558881",
+    "draft": "https://zenodo.org/api/records/7558881/draft",
+    "file_modification": "https://zenodo.org/api/records/7558881/file-modification",
+    "files": "https://zenodo.org/api/records/7558881/files",
+    "latest": "https://zenodo.org/api/records/7558881/versions/latest",
+    "latest_html": "https://zenodo.org/records/7558881/latest",
+    "media_files": "https://zenodo.org/api/records/7558881/media-files",
+    "parent": "https://zenodo.org/api/records/7558880",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7558880",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7558880",
+    "parent_html": "https://zenodo.org/records/7558880",
+    "preview_html": "https://zenodo.org/records/7558881?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7558881/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7558881/request-deletion",
+    "requests": "https://zenodo.org/api/records/7558881/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7558881/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7558881",
+    "self_doi": "https://doi.org/10.5281/zenodo.7558881",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7558881",
+    "self_html": "https://zenodo.org/records/7558881",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7558881/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7558881/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7558881:Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7558881:Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7558881:Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7558881:Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7558881:Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7558881:Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7558881/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Peter Thiery",
+        "orcid": "0000-0003-3270-2659"
+      }
+    ],
+    "description": "<p>Irish Ogham Stones in Wikidata and Open Street Map is an overview of the&nbsp;Linked Open Ogham in Ireland Project (<a href=\"http://wikidata.org/entity/Q116278105\">Q116278105</a>)</p>\n\n<blockquote>\n<p>this article is a work in progress</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.7558881",
+    "journal": {
+      "issue": "1",
+      "pages": "No. 1",
+      "title": "Squirrel Papers",
+      "volume": "5"
+    },
+    "keywords": [
+      "Ogham",
+      "Wikidata",
+      "Open Street Map",
+      "Linked Open Data"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2023-01-22",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7558880"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+    },
+    "title": "Irish Ogham Stones in Wikidata and Open Street Map",
+    "version": "20230122"
+  },
+  "modified": "2024-07-12T19:09:07.050530+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7558881",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Irish Ogham Stones in Wikidata and Open Street Map",
+  "updated": "2024-07-12T19:09:07.050530+00:00"
+}

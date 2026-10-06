@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Paris [de]": [
+      {
+        "description": "capital and most populous city in France",
+        "id": "Q90",
+        "label": "Paris"
+      },
+      {
+        "description": "family name",
+        "id": "Q18331346",
+        "label": "Paris"
+      },
+      {
+        "description": "city in and county seat of Lamar County, Texas, United States",
+        "id": "Q830149",
+        "label": "Paris"
+      },
+      {
+        "description": "unisex given name",
+        "id": "Q1158980",
+        "label": "Paris"
+      },
+      {
+        "description": "genus of plants",
+        "id": "Q162121",
+        "label": "Paris"
+      }
+    ],
+    "Paris [en]": [
+      {
+        "description": "capital and most populous city in France",
+        "id": "Q90",
+        "label": "Paris"
+      },
+      {
+        "description": "association football club in Paris, France having two UCL",
+        "id": "Q483020",
+        "label": "Paris Saint-Germain FC"
+      },
+      {
+        "description": "city in and county seat of Lamar County, Texas, United States",
+        "id": "Q830149",
+        "label": "Paris"
+      },
+      {
+        "description": "family name",
+        "id": "Q18331346",
+        "label": "Paris"
+      },
+      {
+        "description": "genus of plants",
+        "id": "Q162121",
+        "label": "Paris"
+      }
+    ]
+  },
+  "label": "Paris, France"
+}

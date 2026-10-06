@@ -1,0 +1,19 @@
+{
+  "coordinates": {
+    "lat": 55.871944,
+    "lon": -4.288056
+  },
+  "country": [
+    "Q145"
+  ],
+  "descriptions": {
+    "en": "medical school of the University of Glasgow, Scotland"
+  },
+  "id": "Q7895468",
+  "instance_of": [
+    "Q180958"
+  ],
+  "labels": {
+    "en": "University of Glasgow Medical School"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Forschungsdatenmanagement, Universität zu Köln",
+    "en": "research data management, University of Cologne"
+  },
+  "id": "Q113626301",
+  "instance_of": [
+    "Q679206"
+  ],
+  "labels": {
+    "de": "Cologne Competence Center for Research Data Management (C3RDM)",
+    "en": "Cologne Competence Center for Research Data Management (C3RDM)"
+  }
+}

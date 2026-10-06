@@ -1,0 +1,124 @@
+{
+  "conceptdoi": "10.5281/zenodo.18441544",
+  "conceptrecid": "18441544",
+  "created": "2026-06-29T10:01:23.871584+00:00",
+  "doi": "10.5281/zenodo.18441545",
+  "doi_url": "https://doi.org/10.5281/zenodo.18441545",
+  "files": [
+    {
+      "checksum": "md5:14ec118744e5ba7fc6f8d6b7ca594de7",
+      "id": "e91a10f6-28a6-454f-b549-55ed8a3a2a03",
+      "key": "SqP_8_1__3_FDO_PositionPaper.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/18441545/files/SqP_8_1__3_FDO_PositionPaper.pdf/content"
+      },
+      "size": 14295297
+    }
+  ],
+  "id": 18441545,
+  "links": {
+    "access": "https://zenodo.org/api/records/18441545/access",
+    "access_grants": "https://zenodo.org/api/records/18441545/access/grants",
+    "access_links": "https://zenodo.org/api/records/18441545/access/links",
+    "access_request": "https://zenodo.org/api/records/18441545/access/request",
+    "access_users": "https://zenodo.org/api/records/18441545/access/users",
+    "archive": "https://zenodo.org/api/records/18441545/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18441545/media-files-archive",
+    "communities": "https://zenodo.org/api/records/18441545/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18441545/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.18441545",
+    "draft": "https://zenodo.org/api/records/18441545/draft",
+    "file_modification": "https://zenodo.org/api/records/18441545/file-modification",
+    "files": "https://zenodo.org/api/records/18441545/files",
+    "latest": "https://zenodo.org/api/records/18441545/versions/latest",
+    "latest_html": "https://zenodo.org/records/18441545/latest",
+    "media_files": "https://zenodo.org/api/records/18441545/media-files",
+    "parent": "https://zenodo.org/api/records/18441544",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18441544",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18441544",
+    "parent_html": "https://zenodo.org/records/18441544",
+    "preview_html": "https://zenodo.org/records/18441545?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/18441545/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/18441545/request-deletion",
+    "requests": "https://zenodo.org/api/records/18441545/requests",
+    "reserve_doi": "https://zenodo.org/api/records/18441545/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/18441545",
+    "self_doi": "https://doi.org/10.5281/zenodo.18441545",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18441545",
+    "self_html": "https://zenodo.org/records/18441545",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18441545/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18441545/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:18441545:SqP_8_1__3_FDO_PositionPaper.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:18441545:SqP_8_1__3_FDO_PositionPaper.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:18441545:SqP_8_1__3_FDO_PositionPaper.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:18441545:SqP_8_1__3_FDO_PositionPaper.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:18441545:SqP_8_1__3_FDO_PositionPaper.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:18441545:SqP_8_1__3_FDO_PositionPaper.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/18441545/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian"
+      },
+      {
+        "affiliation": null,
+        "name": "Noback, Andreas"
+      },
+      {
+        "affiliation": null,
+        "name": "Schenk, Fiona"
+      },
+      {
+        "affiliation": null,
+        "name": "Kasten, Megan N."
+      }
+    ],
+    "doi": "10.5281/zenodo.18441545",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2026-01-31",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "18441544"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "workingpaper",
+      "title": "Working paper",
+      "type": "publication"
+    },
+    "title": "Bridging FDOs and Knowledge Graphs | Position Paper"
+  },
+  "modified": "2026-06-29T10:01:24.187290+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "18441545",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Bridging FDOs and Knowledge Graphs | Position Paper",
+  "updated": "2026-06-29T10:01:24.187290+00:00"
+}

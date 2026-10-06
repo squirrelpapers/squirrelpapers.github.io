@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 48.7817,
+    "lon": 9.1752
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "vom Bundesland Baden-Württemberg getragene Universität in Stuttgart",
+    "en": "German public university"
+  },
+  "id": "Q122453",
+  "instance_of": [
+    "Q43229",
+    "Q45400320",
+    "Q641347",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Universität Stuttgart",
+    "en": "University of Stuttgart"
+  }
+}

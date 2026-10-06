@@ -1,0 +1,150 @@
+{
+  "conceptdoi": "10.5281/zenodo.7337817",
+  "conceptrecid": "7337817",
+  "created": "2022-11-19T14:43:28.904068+00:00",
+  "doi": "10.5281/zenodo.7337818",
+  "doi_url": "https://doi.org/10.5281/zenodo.7337818",
+  "files": [
+    {
+      "checksum": "md5:b95d208adf6baed9a78f0bd6118ec795",
+      "id": "cf4eafe9-a82c-4419-8f00-b6d94ff008d5",
+      "key": "ArchInf-EV_Thiery-etal.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7337818/files/ArchInf-EV_Thiery-etal.pdf/content"
+      },
+      "size": 1224205
+    }
+  ],
+  "id": 7337818,
+  "links": {
+    "access": "https://zenodo.org/api/records/7337818/access",
+    "access_grants": "https://zenodo.org/api/records/7337818/access/grants",
+    "access_links": "https://zenodo.org/api/records/7337818/access/links",
+    "access_request": "https://zenodo.org/api/records/7337818/access/request",
+    "access_users": "https://zenodo.org/api/records/7337818/access/users",
+    "archive": "https://zenodo.org/api/records/7337818/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7337818/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7337818/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7337818/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7337818",
+    "draft": "https://zenodo.org/api/records/7337818/draft",
+    "file_modification": "https://zenodo.org/api/records/7337818/file-modification",
+    "files": "https://zenodo.org/api/records/7337818/files",
+    "latest": "https://zenodo.org/api/records/7337818/versions/latest",
+    "latest_html": "https://zenodo.org/records/7337818/latest",
+    "media_files": "https://zenodo.org/api/records/7337818/media-files",
+    "parent": "https://zenodo.org/api/records/7337817",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7337817",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7337817",
+    "parent_html": "https://zenodo.org/records/7337817",
+    "preview_html": "https://zenodo.org/records/7337818?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7337818/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7337818/request-deletion",
+    "requests": "https://zenodo.org/api/records/7337818/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7337818/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7337818",
+    "self_doi": "https://doi.org/10.5281/zenodo.7337818",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7337818",
+    "self_html": "https://zenodo.org/records/7337818",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7337818/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7337818/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7337818:ArchInf-EV_Thiery-etal.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7337818:ArchInf-EV_Thiery-etal.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7337818:ArchInf-EV_Thiery-etal.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7337818:ArchInf-EV_Thiery-etal.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7337818:ArchInf-EV_Thiery-etal.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7337818:ArchInf-EV_Thiery-etal.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7337818/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Hochschule Mainz",
+        "name": "Timo Homburg"
+      },
+      {
+        "affiliation": "Deutsches Forum für Kunstgeschichte Paris",
+        "name": "Anne Klammt"
+      },
+      {
+        "affiliation": "Free University of Berlin",
+        "name": "Sophie C. Schmidt"
+      }
+    ],
+    "description": "<p>Die Early Views der Arch&auml;ologischen Informationen:&nbsp;Rezensionen Arch&auml;oinformatik</p>\n\n<p>Thiery, F., Homburg, T., Klammt, A. &amp; Schmidt, S. C. (2022). Software Review for the Software PointSamplingTool.&nbsp;<em>Arch&auml;ologische Informationen 44, Early View</em>, published online 18 Nov 2022. [<a href=\"https://dguf.de/fileadmin/AI/archinf-ev_thiery-etal.pdf\"><strong>PDF</strong></a>]</p>",
+    "doi": "10.5281/zenodo.7337818",
+    "journal": {
+      "issue": "1",
+      "pages": "No.5",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "keywords": [
+      "Archäoinformatik",
+      "DGUF",
+      "QGIS",
+      "Softwarerezension"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2022-11-18",
+    "related_identifiers": [
+      {
+        "identifier": "https://dguf.de/fileadmin/AI/archinf-ev_thiery-etal.pdf",
+        "relation": "isIdenticalTo",
+        "resource_type": "publication-preprint",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7337817"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "preprint",
+      "title": "Preprint",
+      "type": "publication"
+    },
+    "title": "Software Review for the Software PointSamplingTool",
+    "version": "Early View"
+  },
+  "modified": "2024-07-15T17:34:47.566901+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7337818",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Software Review for the Software PointSamplingTool",
+  "updated": "2024-07-15T17:34:47.566901+00:00"
+}

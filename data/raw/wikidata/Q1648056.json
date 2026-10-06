@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 43.078889,
+    "lon": -1.914722
+  },
+  "country": [
+    "Q29"
+  ],
+  "descriptions": {
+    "de": "Gemeinde in Spanien",
+    "en": "municipality of Spain"
+  },
+  "id": "Q1648056",
+  "instance_of": [
+    "Q2074737",
+    "Q3957"
+  ],
+  "labels": {
+    "de": "Leitza",
+    "en": "Leitza"
+  }
+}

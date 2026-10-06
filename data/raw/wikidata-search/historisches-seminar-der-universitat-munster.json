@@ -1,0 +1,61 @@
+{
+  "answers": {
+    "Historisches Seminar der Universität Münster [de]": [],
+    "Historisches Seminar der Universität Münster [en]": [],
+    "Münster [de]": [
+      {
+        "description": "city in North Rhine-Westphalia, Germany",
+        "id": "Q2742",
+        "label": "Münster"
+      },
+      {
+        "description": "municipality of Germany",
+        "id": "Q256895",
+        "label": "Münster"
+      },
+      {
+        "description": "commune in Haut-Rhin, France",
+        "id": "Q149419",
+        "label": "Munster"
+      },
+      {
+        "description": "quarter of Stuttgart",
+        "id": "Q1959130",
+        "label": "Münster"
+      },
+      {
+        "description": "Ortsteil of Eußenheim",
+        "id": "Q32843476",
+        "label": "Münster"
+      }
+    ],
+    "Münster [en]": [
+      {
+        "description": "city in North Rhine-Westphalia, Germany",
+        "id": "Q2742",
+        "label": "Münster"
+      },
+      {
+        "description": "commune in Haut-Rhin, France",
+        "id": "Q149419",
+        "label": "Munster"
+      },
+      {
+        "description": "municipality of Germany",
+        "id": "Q256895",
+        "label": "Münster"
+      },
+      {
+        "description": "quarter of Stuttgart",
+        "id": "Q1959130",
+        "label": "Münster"
+      },
+      {
+        "description": "Ortsteil of Eußenheim",
+        "id": "Q32843476",
+        "label": "Münster"
+      }
+    ]
+  },
+  "label": "Historisches Seminar der Universität Münster, Münster, Germany"
+}

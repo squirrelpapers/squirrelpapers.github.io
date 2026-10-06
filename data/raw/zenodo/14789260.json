@@ -1,0 +1,126 @@
+{
+  "conceptdoi": "10.5281/zenodo.14789260",
+  "conceptrecid": "14789260",
+  "created": "2025-02-05T14:43:50.818513+00:00",
+  "doi": "10.5281/zenodo.14789261",
+  "doi_url": "https://doi.org/10.5281/zenodo.14789261",
+  "files": [
+    {
+      "checksum": "md5:194c107540865b87a75415dcd173a3b9",
+      "id": "4e405807-30b7-447c-affe-ba571012f42d",
+      "key": "SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14789261/files/SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf/content"
+      },
+      "size": 24789614
+    }
+  ],
+  "id": 14789261,
+  "links": {
+    "access": "https://zenodo.org/api/records/14789261/access",
+    "access_grants": "https://zenodo.org/api/records/14789261/access/grants",
+    "access_links": "https://zenodo.org/api/records/14789261/access/links",
+    "access_request": "https://zenodo.org/api/records/14789261/access/request",
+    "access_users": "https://zenodo.org/api/records/14789261/access/users",
+    "archive": "https://zenodo.org/api/records/14789261/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14789261/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14789261/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14789261/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14789261",
+    "draft": "https://zenodo.org/api/records/14789261/draft",
+    "file_modification": "https://zenodo.org/api/records/14789261/file-modification",
+    "files": "https://zenodo.org/api/records/14789261/files",
+    "latest": "https://zenodo.org/api/records/14789261/versions/latest",
+    "latest_html": "https://zenodo.org/records/14789261/latest",
+    "media_files": "https://zenodo.org/api/records/14789261/media-files",
+    "parent": "https://zenodo.org/api/records/14789260",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14789260",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14789260",
+    "parent_html": "https://zenodo.org/records/14789260",
+    "preview_html": "https://zenodo.org/records/14789261?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14789261/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14789261/request-deletion",
+    "requests": "https://zenodo.org/api/records/14789261/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14789261/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14789261",
+    "self_doi": "https://doi.org/10.5281/zenodo.14789261",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14789261",
+    "self_html": "https://zenodo.org/records/14789261",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14789261/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14789261/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14789261:SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14789261:SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14789261:SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14789261:SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14789261:SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14789261:SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14789261/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Distel, Anne-Karoline"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Peter"
+      }
+    ],
+    "doi": "10.5281/zenodo.14789261",
+    "journal": {
+      "issue": "3",
+      "pages": "λ1",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2025-02-04",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14789260"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "FAIRes Kulturerbe mit dem Smartphone und SfM? Wie man das durch Smartphone Apps, Open Source Tools und semantische Annotation im Wikiversum und OSM erreichen kann"
+  },
+  "modified": "2025-02-15T17:22:05.068433+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14789261",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "FAIRes Kulturerbe mit dem Smartphone und SfM? Wie man das durch Smartphone Apps, Open Source Tools und semantische Annotation im Wikiversum und OSM erreichen kann",
+  "updated": "2025-02-15T17:22:05.068433+00:00"
+}

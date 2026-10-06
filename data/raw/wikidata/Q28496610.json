@@ -1,0 +1,20 @@
+{
+  "coordinates": {
+    "lat": 41.45,
+    "lon": 2.083333
+  },
+  "country": [
+    "Q29"
+  ],
+  "descriptions": {
+    "en": "Parliament of Catalonia constituency"
+  },
+  "id": "Q28496610",
+  "instance_of": [
+    "Q45899305"
+  ],
+  "labels": {
+    "de": "Barcelona",
+    "en": "Barcelona"
+  }
+}

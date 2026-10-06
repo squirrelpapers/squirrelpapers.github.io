@@ -1,0 +1,15 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "dauerhaftes Wikimedia-Seitenduplikat",
+    "en": "Wikimedia permanent duplicate item"
+  },
+  "id": "Q32749678",
+  "instance_of": [
+    "Q21286738"
+  ],
+  "labels": {
+    "de": "Stuttgart",
+    "en": "Stuttgart"
+  }
+}

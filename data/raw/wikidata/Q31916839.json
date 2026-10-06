@@ -1,0 +1,20 @@
+{
+  "coordinates": {
+    "lat": 51.48033,
+    "lon": 7.21828
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Wikimedia-Dublette"
+  },
+  "id": "Q31916839",
+  "instance_of": [
+    "Q2221906"
+  ],
+  "labels": {
+    "de": "Bochum",
+    "en": "Bochum"
+  }
+}

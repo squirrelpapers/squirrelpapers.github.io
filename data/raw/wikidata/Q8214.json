@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 48.52,
+    "lon": 9.05
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Landkreis in Baden-Württemberg, Deutschland",
+    "en": "district of Baden-Württemberg, Germany"
+  },
+  "id": "Q8214",
+  "instance_of": [
+    "Q20738676"
+  ],
+  "labels": {
+    "de": "Landkreis Tübingen",
+    "en": "Tübingen District"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "conceptdoi": "",
+  "conceptrecid": "774901",
+  "created": "2017-02-17T08:10:21.415020+00:00",
+  "doi": "10.5281/zenodo.292967",
+  "doi_url": "https://doi.org/10.5281/zenodo.292967",
+  "files": [
+    {
+      "checksum": "md5:af17873a4ee0ec5c3785038b96a661e7",
+      "id": "2ed7dec2-2dcd-4275-8957-3c625a6a5008",
+      "key": "2016_02_05_AGCAA_Hamburg_Arches.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/292967/files/2016_02_05_AGCAA_Hamburg_Arches.pdf/content"
+      },
+      "size": 3620484
+    }
+  ],
+  "id": 292967,
+  "links": {
+    "access": "https://zenodo.org/api/records/292967/access",
+    "access_grants": "https://zenodo.org/api/records/292967/access/grants",
+    "access_links": "https://zenodo.org/api/records/292967/access/links",
+    "access_request": "https://zenodo.org/api/records/292967/access/request",
+    "access_users": "https://zenodo.org/api/records/292967/access/users",
+    "archive": "https://zenodo.org/api/records/292967/files-archive",
+    "archive_media": "https://zenodo.org/api/records/292967/media-files-archive",
+    "communities": "https://zenodo.org/api/records/292967/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/292967/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.292967",
+    "draft": "https://zenodo.org/api/records/292967/draft",
+    "file_modification": "https://zenodo.org/api/records/292967/file-modification",
+    "files": "https://zenodo.org/api/records/292967/files",
+    "latest": "https://zenodo.org/api/records/292967/versions/latest",
+    "latest_html": "https://zenodo.org/records/292967/latest",
+    "media_files": "https://zenodo.org/api/records/292967/media-files",
+    "parent": "https://zenodo.org/api/records/774901",
+    "parent_doi": "https://doi.org/",
+    "parent_doi_html": "https://zenodo.org/doi/",
+    "parent_html": "https://zenodo.org/records/774901",
+    "preview_html": "https://zenodo.org/records/292967?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/292967/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/292967/request-deletion",
+    "requests": "https://zenodo.org/api/records/292967/requests",
+    "reserve_doi": "https://zenodo.org/api/records/292967/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/292967",
+    "self_doi": "https://doi.org/10.5281/zenodo.292967",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.292967",
+    "self_html": "https://zenodo.org/records/292967",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:292967/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:292967/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:292967:2016_02_05_AGCAA_Hamburg_Arches.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:292967:2016_02_05_AGCAA_Hamburg_Arches.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:292967:2016_02_05_AGCAA_Hamburg_Arches.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:292967:2016_02_05_AGCAA_Hamburg_Arches.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:292967:2016_02_05_AGCAA_Hamburg_Arches.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:292967:2016_02_05_AGCAA_Hamburg_Arches.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/292967/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "linkedgeodesy"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "i3mainz - Institut für Raumbezogene Informations-und Messtechnik",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "i3mainz - Institut für Raumbezogene Informations-und Messtechnik",
+        "name": "Thomas Engel"
+      }
+    ],
+    "description": "<p>Die heterogene Natur arch&auml;ologischer Daten wird bis heute meist in relationalen Datenbanken abgebildet. Datenmodellierungen mit NoSQL-Datenbanken oder in Graphen, fristen auch im Jahr 2015 noch ein Nischendasein, obwohl die konzeptionellen wie auch die technischen Grundlagen seit langem zur Verf&uuml;gung stehen und einen Zugang in das Web 3.0 und in die Linked Data Cloud erm&ouml;glichen. Das i3mainz (Institut f&uuml;r Raumbezogene Informations- und Messtechnik) arbeitet in verschiedenen Projekten mit interdisziplin&auml;ren Kontexten an &nbsp;Graphenstrukturen, insbesondere auch an der Modellierung jener mit Hilfe des W3C-standardisierten Resource Description Framework (RDF). Ein besonderes Augenmerk liegt dabei &nbsp;bei der Evaluation von Methoden zur standardisierten und interoperablen Vorhaltung komplexer arch&auml;ologischer Fundstellendaten. Die technische Basis bildet dabei das auf dem CIDOC Conceptual Reference Model (CIDOC CRM) und Simple Knowledge Organization System (SKOS) basierende ARCHES Heritage &amp; Management System. Die von Kooperationspartnern innerhalb des Mainzer Zentrum f&uuml;r Digitalit&auml;t in den Geistes- und Kulturwissenschaften&raquo;mainzed&laquo; in unterschiedlicher Form zur Verf&uuml;gung gestellten arch&auml;ologischen Fachdatenk&ouml;nnen f&uuml;r eine Vielzahl von Szenarien als exemplarisch angesehen werden. Ziele der Initiative sind die standardisierte und interoperable Vorhaltung strukturiert modellierter arch&auml;ologischer Datens&auml;tze. Dabei steht die Abbildung m&ouml;glichst vieler Prozesse wie etwa Abfrage, Pflege, Erweiterung und Analyse im Mittelpunkt, welche auch von nicht direkt im Projekt involvierten Wissenschaftlern erbracht werden sollen. Das Paper pr&auml;sentiert technische Grundlagen semantischer Datenmodellierung unter Verwendung von CIDOC CRM. Weiterhin werden prototypische Fragestellungen behandelt: Welche Voraussetzungen sollten Daten hinsichtlich Aufbau und Struktur erf&uuml;llen? Welche Schritte sind zur Datenintegration in vorhandene Graphenstrukturen n&ouml;tig? Wie k&ouml;nnen diese Strukturen erweitert und auf individuelle Bed&uuml;rfnisse angepasst werden? Welche prototypischen Probleme wurden dabei identifiziert? Welchen Vorteil bieten interaktive Web-Tools zur Erstellung von Thesauri (Authority Files) als Linked Open Data wie z.B. der Reference Data Manager oder das Labeling Systemgegen&uuml;ber herk&ouml;mmlich verwendeter, nicht HTTP-adressierbarer und nicht zitierbarer kontrollierter Vokabulare? Abschlie&szlig;end wird diskutiert, inwiefern CIDOC CRM modellierte Daten &uuml;berhaupt geeignet sein k&ouml;nnen, eine Basis f&uuml;r interoperable Systeme darzustellen. Ist die CIDOC CRM inh&auml;rente Komplexit&auml;t &nbsp;nicht gerade deswegen als problematisch zu bezeichnen? K&ouml;nnen auf Triple basierende Modellierungen ein gleichwertiger Ersatz f&uuml;r auf Tupel (relationale Datenbanken) basierende Datenstrukturen darstellen oder sogar einen Mehrwert bez&uuml;glich bislang unbeantworteter Fragestellungen bilden? Welche Vorteile f&uuml;r den wissenschaftlichen Diskurs sind kurz- und langfristig zu erwarten?</p>",
+    "doi": "10.5281/zenodo.292967",
+    "keywords": [
+      "arches",
+      "archaeology",
+      "ontology",
+      "graph",
+      "CIDOC-CRM",
+      "archaeology",
+      "semantic web"
+    ],
+    "license": {
+      "id": "cc-by-sa-4.0"
+    },
+    "meeting": {
+      "dates": "05.-06.02.2016",
+      "place": "Hamburg, Germany",
+      "title": "7. Workshop der AG CAA",
+      "url": "http://ag-caa.de/workshop2016/"
+    },
+    "publication_date": "2016-02-05",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "774901"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "E1-P1-Arches! Aspekte interoperabler Modellierung und Bereitstellung archäologischer Fachdaten mit dem Arches Framework"
+  },
+  "modified": "2024-08-03T13:05:53.834444+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "292967",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "E1-P1-Arches! Aspekte interoperabler Modellierung und Bereitstellung archäologischer Fachdaten mit dem Arches Framework",
+  "updated": "2024-08-03T13:05:53.834444+00:00"
+}

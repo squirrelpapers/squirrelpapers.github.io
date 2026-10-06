@@ -1,0 +1,153 @@
+{
+  "conceptdoi": "10.5281/zenodo.5942833",
+  "conceptrecid": "5942833",
+  "created": "2022-02-02T10:08:47.272287+00:00",
+  "doi": "10.5281/zenodo.5942834",
+  "doi_url": "https://doi.org/10.5281/zenodo.5942834",
+  "files": [
+    {
+      "checksum": "md5:c6863d30b2cb48ba2e3e6f750257d4cf",
+      "id": "b24eb29d-d923-47af-81f5-3b5b9e72ffb5",
+      "key": "O3DT_2022_ARS3D.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/5942834/files/O3DT_2022_ARS3D.pdf/content"
+      },
+      "size": 7392017
+    }
+  ],
+  "id": 5942834,
+  "links": {
+    "access": "https://zenodo.org/api/records/5942834/access",
+    "access_grants": "https://zenodo.org/api/records/5942834/access/grants",
+    "access_links": "https://zenodo.org/api/records/5942834/access/links",
+    "access_request": "https://zenodo.org/api/records/5942834/access/request",
+    "access_users": "https://zenodo.org/api/records/5942834/access/users",
+    "archive": "https://zenodo.org/api/records/5942834/files-archive",
+    "archive_media": "https://zenodo.org/api/records/5942834/media-files-archive",
+    "communities": "https://zenodo.org/api/records/5942834/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/5942834/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.5942834",
+    "draft": "https://zenodo.org/api/records/5942834/draft",
+    "file_modification": "https://zenodo.org/api/records/5942834/file-modification",
+    "files": "https://zenodo.org/api/records/5942834/files",
+    "latest": "https://zenodo.org/api/records/5942834/versions/latest",
+    "latest_html": "https://zenodo.org/records/5942834/latest",
+    "media_files": "https://zenodo.org/api/records/5942834/media-files",
+    "parent": "https://zenodo.org/api/records/5942833",
+    "parent_doi": "https://doi.org/10.5281/zenodo.5942833",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5942833",
+    "parent_html": "https://zenodo.org/records/5942833",
+    "preview_html": "https://zenodo.org/records/5942834?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/5942834/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/5942834/request-deletion",
+    "requests": "https://zenodo.org/api/records/5942834/requests",
+    "reserve_doi": "https://zenodo.org/api/records/5942834/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/5942834",
+    "self_doi": "https://doi.org/10.5281/zenodo.5942834",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5942834",
+    "self_html": "https://zenodo.org/records/5942834",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:5942834/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:5942834/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:5942834:O3DT_2022_ARS3D.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:5942834:O3DT_2022_ARS3D.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:5942834:O3DT_2022_ARS3D.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:5942834:O3DT_2022_ARS3D.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:5942834:O3DT_2022_ARS3D.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:5942834:O3DT_2022_ARS3D.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/5942834/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Hochschule Mainz",
+        "name": "Laura Raddatz",
+        "orcid": "0000-0001-7640-1247"
+      },
+      {
+        "affiliation": "Hochschule Mainz",
+        "name": "Frank Boochs"
+      }
+    ],
+    "description": "<p>Das Potential und der Nutzen moderner 3D Messverfahren zur Digitalisierung arch&auml;ologischer Objekte sind unbestritten. Entsprechend werden sie inzwischen aktiv in vielf&auml;ltiger Weise zur Dokumentation eingesetzt. Infolge des breiten Merkmalsspektrums von Messverfahren gibt es dabei fallbezogen einen engen Zusammenhang zwischen Methodik und Eignung zur Bedienung bestimmter fachwissenschaftlicher Fragestellungen. Geht es um eine dem Original m&ouml;glichst nahe kommende Digitalisierung sind entsprechend hohe Anforderungen der Methodik zur Erfassung von Geometrie und Erscheinungsbild zu erf&uuml;llen. Derart hochwertig erfasste Objekte haben das Potential, das Original in der digitalen arch&auml;ologischen Forschung inhaltlich und geometrisch zu erg&auml;nzen und durch den digitalen Charakter in unbegrenzter und offenzug&auml;nglicher Form Fachanwendern im Web zur Verf&uuml;gung zu stellen. Hierzu werden webbasierte Werkzeuge zur Interaktion und Visualisierung ben&ouml;tigt, die Anwender*innen bei Interpretationsarbeit unterst&uuml;tzen. Arch&auml;ologische Forschung ben&ouml;tigt jedoch auch fachliche Informationen (z.B. Material, Fundort, Zeitperiode, Typologie- und Ikonografieverweise), die in den Interpretationsprozess einflie&szlig;en. Entsprechend sollten diese nach aktuellen Standards in den Cultural Heritage (z.B. CIDOC CRM, Thesauri und Normdaten wie Getty AAT, IconClass, Wikidata, ChronOntology) erfasst und m&ouml;glichst nach FAIR[1]- und Linked Open Data Prinzipien[2] verf&uuml;gbar gemacht werden. Somit beinhaltet eine offene, nachvollziehbare und transparente Bereitstellung der Daten semantische Strukturierung arch&auml;ologischer Fachinformationen, sowie die Verkn&uuml;pfung und Modellierung von Beobachtungen und Interpretationen. Im Sinne einer nachhaltigen und &uuml;bertragbaren Vorgehensweise sind dabei existierende Standards in der Cultural Heritage- und Semantic Web Domain, wie CIDOC-CRM[3] oder PROV-O[4], und neue community-driven Vorschl&auml;ge (z.B. Ontologie zu 3D Metadaten) zu ber&uuml;cksichtigen.</p>\n\n<p>All diese Aspekte waren Gegenstand des vom BMBF gef&ouml;rderten Forschungsprojektes &quot;African Red Slip Ware digital&quot;, das sich mit einer speziellen Gattung r&ouml;mischer Keramik - African Red Slip Ware - befasste. Dieses Paper zeigt Ergebnisse und Best-Practices aus dem ASR3D-Projekt bez&uuml;glich der 3D-Messverfahren und Metadatenmodellierung[5], sowie der semantischen Fachdatenmodellierung[6], fachlichen Analyse[7] und Datenvisualisierung[8] und Datenbereitstellung[9].</p>\n\n<p><strong>Referenzen</strong></p>\n\n<p>[1] https://doi.org/10.1038/sdata.2016.18</p>\n\n<p>[2] https://www.w3.org/DesignIssues/LinkedData.html</p>\n\n<p>[3] https://cidoc-crm.org</p>\n\n<p>[4] https://www.w3.org/TR/prov-o/</p>\n\n<p>[5] https://doi.org/10.1186/s40494-021-00561-w</p>\n\n<p>[6] https://doi.org/10.5281/zenodo.5642891</p>\n\n<p>[7] https://doi.org/10.5281/zenodo.5646897</p>\n\n<p>[8] http://ars3d.rgzm.de</p>\n\n<p>[9] https://doi.org/10.5281/zenodo.5722941</p>",
+    "doi": "10.5281/zenodo.5942834",
+    "journal": {
+      "issue": "3",
+      "pages": "No.4",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "keywords": [
+      "Kulturerbe",
+      "3D",
+      "Linked Open Data",
+      "African Red Slip Ware"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "2.-3.2.2022",
+      "place": "Oldenburg, Germany",
+      "session": "Kulturerbe",
+      "title": "Oldenburger 3D-Tage",
+      "url": "https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/geoinformation/veranstaltungen/oldenburger-3d-tage/"
+    },
+    "publication_date": "2022-02-02",
+    "related_identifiers": [
+      {
+        "identifier": "2750-560X",
+        "relation": "isPartOf",
+        "resource_type": "publication-other",
+        "scheme": "issn"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "5942833"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "ARS3D: Close to the Original-Erfassung archäologischer Objekte und ihre webbasierte semantisch modellierte Bereitstellung zur fachwissenschaftlichen Analyse"
+  },
+  "modified": "2024-07-17T10:37:05.846043+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "5942834",
+  "revision": 11,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "ARS3D: Close to the Original-Erfassung archäologischer Objekte und ihre webbasierte semantisch modellierte Bereitstellung zur fachwissenschaftlichen Analyse",
+  "updated": "2024-07-17T10:37:05.846043+00:00"
+}

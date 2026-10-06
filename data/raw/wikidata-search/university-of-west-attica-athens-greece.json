@@ -1,0 +1,83 @@
+{
+  "answers": {
+    "Athens [de]": [
+      {
+        "description": "consolidated city-county and county seat of Clarke County, Georgia, United States",
+        "id": "Q203263",
+        "label": "Athens"
+      },
+      {
+        "description": "county seat of Limestone County, Alabama, United States",
+        "id": "Q79439",
+        "label": "Athens"
+      },
+      {
+        "description": "capital and largest city of Greece",
+        "id": "Q1524",
+        "label": "Athens"
+      },
+      {
+        "description": "city in Athens County, Ohio, United States",
+        "id": "Q755420",
+        "label": "Athens"
+      },
+      {
+        "description": "township municipality in Ontario, Canada",
+        "id": "Q570807",
+        "label": "Athens"
+      }
+    ],
+    "Athens [en]": [
+      {
+        "description": "consolidated city-county and county seat of Clarke County, Georgia, United States",
+        "id": "Q203263",
+        "label": "Athens"
+      },
+      {
+        "description": "capital and largest city of Greece",
+        "id": "Q1524",
+        "label": "Athens"
+      },
+      {
+        "description": "county seat of Limestone County, Alabama, United States",
+        "id": "Q79439",
+        "label": "Athens"
+      },
+      {
+        "description": "university in Athens, Greece",
+        "id": "Q547867",
+        "label": "National and Kapodistrian University of Athens"
+      },
+      {
+        "description": "city-state in ancient Greece",
+        "id": "Q844930",
+        "label": "Classical Athens"
+      }
+    ],
+    "University of West Attica [de]": [
+      {
+        "description": "university in Egaleo (Athens), Greece",
+        "id": "Q50359480",
+        "label": "University of West Attica"
+      },
+      {
+        "description": "academic department",
+        "id": "Q106911375",
+        "label": "University of West Attica Department of Archival, Library and Information Studies"
+      }
+    ],
+    "University of West Attica [en]": [
+      {
+        "description": "university in Egaleo (Athens), Greece",
+        "id": "Q50359480",
+        "label": "University of West Attica"
+      },
+      {
+        "description": "academic department",
+        "id": "Q106911375",
+        "label": "University of West Attica Department of Archival, Library and Information Studies"
+      }
+    ]
+  },
+  "label": "University of West Attica, Athens, Greece"
+}

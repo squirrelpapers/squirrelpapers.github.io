@@ -1,0 +1,128 @@
+{
+  "conceptdoi": "10.5281/zenodo.7617764",
+  "conceptrecid": "7617764",
+  "created": "2023-02-07T18:54:55.036199+00:00",
+  "doi": "10.5281/zenodo.7617765",
+  "doi_url": "https://doi.org/10.5281/zenodo.7617765",
+  "files": [
+    {
+      "checksum": "md5:f06df4dec160165c665e5b2d601521cf",
+      "id": "6b6b7d1f-0e2e-41eb-83e9-e0fd2cbf9213",
+      "key": "DAB23_Wikidata_zenodo.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7617765/files/DAB23_Wikidata_zenodo.pdf/content"
+      },
+      "size": 5272485
+    }
+  ],
+  "id": 7617765,
+  "links": {
+    "access": "https://zenodo.org/api/records/7617765/access",
+    "access_grants": "https://zenodo.org/api/records/7617765/access/grants",
+    "access_links": "https://zenodo.org/api/records/7617765/access/links",
+    "access_request": "https://zenodo.org/api/records/7617765/access/request",
+    "access_users": "https://zenodo.org/api/records/7617765/access/users",
+    "archive": "https://zenodo.org/api/records/7617765/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7617765/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7617765/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7617765/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7617765",
+    "draft": "https://zenodo.org/api/records/7617765/draft",
+    "file_modification": "https://zenodo.org/api/records/7617765/file-modification",
+    "files": "https://zenodo.org/api/records/7617765/files",
+    "latest": "https://zenodo.org/api/records/7617765/versions/latest",
+    "latest_html": "https://zenodo.org/records/7617765/latest",
+    "media_files": "https://zenodo.org/api/records/7617765/media-files",
+    "parent": "https://zenodo.org/api/records/7617764",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7617764",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7617764",
+    "parent_html": "https://zenodo.org/records/7617764",
+    "preview_html": "https://zenodo.org/records/7617765?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7617765/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7617765/request-deletion",
+    "requests": "https://zenodo.org/api/records/7617765/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7617765/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7617765",
+    "self_doi": "https://doi.org/10.5281/zenodo.7617765",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7617765",
+    "self_html": "https://zenodo.org/records/7617765",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7617765/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7617765/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7617765:DAB23_Wikidata_zenodo.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7617765:DAB23_Wikidata_zenodo.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7617765:DAB23_Wikidata_zenodo.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7617765:DAB23_Wikidata_zenodo.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7617765:DAB23_Wikidata_zenodo.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7617765:DAB23_Wikidata_zenodo.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7617765/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "archaeology"
+      },
+      {
+        "id": "citizenscience"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Free University Berlin",
+        "name": "Schmidt, Sophie C.",
+        "orcid": "0000-0003-4696-2101"
+      },
+      {
+        "affiliation": "LEIZA",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p><strong>Abstract for the talk given at the Digital Archaeology Bern 2023 conference, 01st February 2023:</strong></p>\n\n<p>Wikidata (<a href=\"https://www.wikidata.org\">https://www.wikidata.org</a>) is an open knowledge base, which a growing number of volunteers and researchers use to add content to the Linked Open Data Cloud. Linked Open Data (LOD) aims at interlinking openly available datasets and thereby facilitating the combination and joint processing of existing data from various digital sources. Wikidata functions as the central storage for structured data of Wikimedia projects such as Wikipedia and Wikimedia Commons and does not only record statements, but also their sources, acting as a secondary database. It can be edited by anyone, the data is multilingual and available under the Public Domain (CC0). Archaeological data has already been integrated using i. a. subject specific classes, e.g. &lsquo;Bronze Age&rsquo; (Q11761) as an &ldquo;archaeological age&rdquo; (Q15401699) and properties, such as the &lsquo;Art &amp; Architecture Thesaurus ID&rsquo; (P1014) to link concepts with the Getty AAT. Examples include data on Greek Vase painters, Irish Ogham Stones, Samian Ware and African Red Slip Ware (Schmidt et al. 2022).</p>\n\n<p>In this talk I would like to showcase a project to create a reference collection of Neolithic ceramics for volunteer field walkers in Wikidata. This is part of a small ongoing project, which was originally funded by Wikimedia Deutschland e.V. within the Open Science Fellows Program in 2020/21. It employs a Cradle tool form for easy and coherent adding of information by field walkers, including an image uploaded to Wikimedia. The Wikidata Query Tool enables searching for data within Wikidata without any knowledge of the underlying query language SPARQL, thereby facilitating the use by non IT specialists. OpenRefine and QuickStatements enable batch uploads and edits to Wikidata, which will be used by the authors to contribute to the reference collection.</p>\n\n<p>By this example, we will discuss concepts of &ldquo;Open Data&rdquo; in the archaeological scientific context. Who decides, which data can or should be available and to whom? How are information flows mediated? The (currently) &lsquo;extremely&rsquo; open, community-based approach of Wikidata, where scientists, as any other member of the community, are not able to control information statements made, may discourage crowdsourced knowledge sceptics. Studies have shown that some vandalism occurs (0,004% cf Heindorf et al 2016). To mitigate the spread of misinformation, Wikidata encourages the use of source attribution as references into the statements, similarly to Wikipedia. Statements are also connected to a version control system and discussion pages where different views can be debated.</p>\n\n<p>A main problem the volunteer field walkers identified for their work was access to scientific publication and reference material. Wikidata can be used to improve data sharing practices between them and the scientific community and thus facilitate their contribution to archaeological knowledge production.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Heindorf et al 2016:&nbsp;Heindorf, S.; Potthast, M.; Stein, B.; Engels, G Towards Vandalism Detection in Knowledge Bases: Corpus Construction and Analysis, October 2016. Conference: 25th International Conference on Information and Knowledge Management (CIKM 2016), Indianapolis (USA), DOI: <a href=\"http://dx.doi.org/10.1145/2983323.2983740\">10.1145/2983323.2983740</a></li>\n\t<li>Schmidt et al 2022: Schmidt, S.C.; Thiery, F.; Trognitz, M. Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata. Digital 2022, 2, 333&ndash;364. <a href=\"https://doi.org/10.3390/digital2030019\">https://doi.org/10.3390/digital2030019</a></li>\n</ul>",
+    "doi": "10.5281/zenodo.7617765",
+    "keywords": [
+      "Linked Open Data",
+      "Citizen Science",
+      "Wikidata",
+      "Archaeology"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2023-02-01",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7617764"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Wikidata as a Knowledge Base and Research Tool for Open Science in Archaeology"
+  },
+  "modified": "2024-07-12T16:27:51.123873+00:00",
+  "owners": [
+    {
+      "id": "38627"
+    }
+  ],
+  "recid": "7617765",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Wikidata as a Knowledge Base and Research Tool for Open Science in Archaeology",
+  "updated": "2024-07-12T16:27:51.123873+00:00"
+}

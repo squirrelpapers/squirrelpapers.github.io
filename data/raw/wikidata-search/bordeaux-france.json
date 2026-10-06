@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Bordeaux [de]": [
+      {
+        "description": "city and commune in Gironde, New Aquitaine, France",
+        "id": "Q1479",
+        "label": "Bordeaux"
+      },
+      {
+        "description": "family name",
+        "id": "Q37492134",
+        "label": "Bordeaux"
+      },
+      {
+        "description": "brownish red colour associated with Bordeaux wine",
+        "id": "Q10859033",
+        "label": "bordeaux"
+      },
+      {
+        "description": "Bordeaux region of southwest France",
+        "id": "Q168461",
+        "label": "Bordeaux wine region"
+      },
+      {
+        "description": "commune in Seine-Maritime, France",
+        "id": "Q1113532",
+        "label": "Bordeaux-Saint-Clair"
+      }
+    ],
+    "Bordeaux [en]": [
+      {
+        "description": "city and commune in Gironde, New Aquitaine, France",
+        "id": "Q1479",
+        "label": "Bordeaux"
+      },
+      {
+        "description": "family name",
+        "id": "Q37492134",
+        "label": "Bordeaux"
+      },
+      {
+        "description": "commune in Seine-Maritime, France",
+        "id": "Q1113532",
+        "label": "Bordeaux-Saint-Clair"
+      },
+      {
+        "description": "commune in Loiret, France",
+        "id": "Q1167170",
+        "label": "Bordeaux-en-Gâtinais"
+      },
+      {
+        "description": "association football club in Bordeaux, France",
+        "id": "Q172476",
+        "label": "FC Girondins de Bordeaux"
+      }
+    ]
+  },
+  "label": "Bordeaux, France"
+}

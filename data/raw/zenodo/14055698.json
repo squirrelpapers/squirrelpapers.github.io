@@ -1,0 +1,162 @@
+{
+  "conceptdoi": "10.5281/zenodo.14055698",
+  "conceptrecid": "14055698",
+  "created": "2024-11-08T12:25:18.414525+00:00",
+  "doi": "10.5281/zenodo.14055699",
+  "doi_url": "https://doi.org/10.5281/zenodo.14055699",
+  "files": [
+    {
+      "checksum": "md5:229d9372f0730eebfdd8215c24a0d7a6",
+      "id": "5d392044-e33d-4532-b2bc-60b84fbc9f81",
+      "key": "20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14055699/files/20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf/content"
+      },
+      "size": 9119362
+    },
+    {
+      "checksum": "md5:e55498eccfb6e4b726521070eeb068fa",
+      "id": "036b8457-e310-4c0f-b15e-7ffb3093076f",
+      "key": "Wikidata-intro.mp4",
+      "links": {
+        "self": "https://zenodo.org/api/records/14055699/files/Wikidata-intro.mp4/content"
+      },
+      "size": 25762202
+    }
+  ],
+  "id": 14055699,
+  "links": {
+    "access": "https://zenodo.org/api/records/14055699/access",
+    "access_grants": "https://zenodo.org/api/records/14055699/access/grants",
+    "access_links": "https://zenodo.org/api/records/14055699/access/links",
+    "access_request": "https://zenodo.org/api/records/14055699/access/request",
+    "access_users": "https://zenodo.org/api/records/14055699/access/users",
+    "archive": "https://zenodo.org/api/records/14055699/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14055699/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14055699/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14055699/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14055699",
+    "draft": "https://zenodo.org/api/records/14055699/draft",
+    "file_modification": "https://zenodo.org/api/records/14055699/file-modification",
+    "files": "https://zenodo.org/api/records/14055699/files",
+    "latest": "https://zenodo.org/api/records/14055699/versions/latest",
+    "latest_html": "https://zenodo.org/records/14055699/latest",
+    "media_files": "https://zenodo.org/api/records/14055699/media-files",
+    "parent": "https://zenodo.org/api/records/14055698",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14055698",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14055698",
+    "parent_html": "https://zenodo.org/records/14055698",
+    "preview_html": "https://zenodo.org/records/14055699?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14055699/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14055699/request-deletion",
+    "requests": "https://zenodo.org/api/records/14055699/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14055699/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14055699",
+    "self_doi": "https://doi.org/10.5281/zenodo.14055699",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14055699",
+    "self_html": "https://zenodo.org/records/14055699",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14055699/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14055699/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14055699:20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14055699:20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14055699:20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14055699:20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14055699:20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14055699:20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14055699/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "nfdi"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4memory"
+      },
+      {
+        "id": "nfdi4culture"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": null,
+        "name": "Rossenova, Lozana",
+        "orcid": "0000-0002-5190-1867"
+      },
+      {
+        "affiliation": null,
+        "name": "Simons, Olaf",
+        "orcid": "0000-0001-9230-4666"
+      }
+    ],
+    "description": "<p><strong>Introduction</strong></p>\n<p>The current era of Archaeology 4.0 (Thiery, 2019), also known as the <em>Knowledge Era</em> or <em>Era of Computing</em>, comprises three paradigms: (I) traditional scripts, (II) Artificial Intelligence (AI) techniques, and (III) Knowledge Graphs using technologies of I and II. To reach this era, archaeology has to go through several steps: research data stored in books (Analogue Era), applying digitisation processes to publish research data online (Digital Era), applying semantic modelling and publishing Linked Open Data (LOD) (Berners-Lee, 2006) in cooperation with community hubs (Semantic Era), and applying AI technologies including semantic reasoning to generate new knowledge (Knowledge Era) (Thiery, Veller, et al., 2023). Similar paradigms are present in other fields concerning material and immaterial Cultural Heritage (CH), including art history, architecture, and performing arts, among others (Padilla et al., 2024; Gru&szlig;, 2023). To address these paradigms, the CH community requires open-source, accessible tools to manage data according to the FAIR<a title=\"\" href=\"#_ftn1\" name=\"_ftnref1\"><sup>[1]</sup></a> and CARE<a title=\"\" href=\"#_ftn2\" name=\"_ftnref2\"><sup>[2]</sup></a> principles.</p>\n<p>This paper examines the use cases for adopting one specific approach and software to model community-driven data within the LOD Cloud, namely <em>Wikibase</em>. <em>Wikibase </em>is the software behind <em>Wikidata</em> (Vrandecic, 2013), the knowledge database within the Wikiverse, developed and maintained by Wikimedia Germany. It is a free and open-source software that can be used for external databases and Linked Open Data projects to share semantically structured data that both humans and machines can further reuse. We look to <em>Wikibase</em> instances developed and supported across several humanities related NFDI (German National Research Data Infrastructure) consortia to show the potential for knowledge modelling using <em>Wikibase</em> in the CH domain.</p>\n<p><strong>Material &amp; Data</strong></p>\n<p>To create the foundation for the Semantic and Knowledge Era in the humanities, NFDI consortia (Br&uuml;nger-Weilandt et al., 2020; Altenh&ouml;ner et al., 2020) and Wikimedia work closely together to publish media and data as part of the Wikiverse (Fig. 1).</p>\n<p>NFDI4Objects (Thiery, Mees, et al., 2023) uses <em>Wikibase</em> instances to model a provenance gazetteer for persons and corporate bodies<a title=\"\" href=\"#_ftn3\" name=\"_ftnref3\"><sup>[3]</sup></a>, conservation science<a title=\"\" href=\"#_ftn4\" name=\"_ftnref4\"><sup>[4]</sup></a>, and fuzziness and wobbliness in archaeological and geological<a title=\"\" href=\"#_ftn5\" name=\"_ftnref5\">[5]</a> findspots. It also contributes to <em>Wikidata</em> with the Linked Open Samian Ware<a title=\"\" href=\"#_ftn6\" name=\"_ftnref6\"><sup>[6]</sup></a>, the Linked Open Ogham<a title=\"\" href=\"#_ftn7\" name=\"_ftnref7\"><sup>[7]</sup></a>, and African Red Slip Ware digital<a title=\"\" href=\"#_ftn8\" name=\"_ftnref8\"><sup>[8]</sup></a> datasets.</p>\n<p>NFDI4Culture provides <em>Wikibase</em> instances as a core service<a title=\"\" href=\"#_ftn9\" name=\"_ftnref9\"><sup>[9]</sup></a> for the community serving a variety of use cases, ranging from backend data solution for Semantic Kompakkt<a title=\"\" href=\"#_ftn10\" name=\"_ftnref10\"><sup>[10]</sup></a>, a 3D viewing and annotation environment with a strong grounding in the art history and architecture communities (Rossenova et al., 2023), to individual research projects focusing on specific cultural collections. An NFDI4Culture satellite project develops a private <em>Wikibase</em> instance focused on documenting and preserving endangered cultural heritage in Ukraine (TIB, 2023). Additionally, the NFDI4Culture Knowledge Graph service connects with <em>Wikidata</em> for federated querying and data enrichment (Sack et al., 2023).</p>\n<p>NFDI4Memory uses the famous <em>Wikibase</em> instance FactGrid, a database for historians, to store and provide their data.</p>\n<p><strong>Methodology</strong></p>\n<p>The above-mentioned projects adopt open science methods, including the FAIR (and CARE) data principles, through the LOD capabilities of <em>Wikibase</em>. The data model (Fig. 2) of <em>Wikibase</em> (and also <em>Wikidata</em>) structures data as semantic triples and makes these accessible to end users via a user-friendly graphical interface. It consists of entities that include items, labels or identifiers to describe them and semantic statements that attribute properties with specific values to the item. These values may be other items within the database or textual information (Bacchi and Bergamin, 2018). It is also possible to further define the primary triples with secondary statements about additional qualifications of the primary values and source references.</p>\n<p>This approach fits closely to the way humanities researchers are used to represent knowledge in their domains, too &ndash; as statements consisting of a subject, a predicate and an object, with the possibility to add additional argumentation to each statement (in the form of qualifiers) and to add relevant references, too &ndash;&nbsp;making <em>Wikibase</em> and <em>Wikidata</em> suitable environments to represent data from the CH domain (Schmidt, Thiery, and Trognitz, 2022; Rossenova, Duchesne, and Bl&uuml;mel, 2022).</p>\n<p><strong>Results &amp; Conclusions</strong></p>\n<p>Flexibility in how data can be structured, and accessible user interfaces provide excellent ground for wide <em>Wikibase</em> adoption in the CH domain. Still, issues around how best to harmonise and map data across this proliferating field to fully exploit the semantic capabilities for interconnection and federation remain. Theoretically, <em>Wikibase</em> instances can easily federate across each other and/or with <em>Wikidata</em> with the help of property mappings or Construct queries via the SPARQL endpoint (Rossenova, Duchesne, and Bl&uuml;mel, 2022). In practice, however, much of the <em>Wikibase</em> ecosystem remains relatively siloed due to the great need for more community coordination across the varied humanities disciplines and the need for ontology harmonisation through community agreements with the citizen science contributors to <em>Wikidata</em>. On the plus side, Working Groups within individual consortia<a title=\"\" href=\"#_ftn11\" name=\"_ftnref11\"><sup>[11]</sup></a>, the cross-cutting NFDI Sections<a title=\"\" href=\"#_ftn12\" name=\"_ftnref12\"><sup>[12]</sup></a>, and the open-source developer and user communities around <em>Wikidata</em> and <em>Wikibase</em> are well aware of these challenges. They are working towards concrete solutions (Anders et al., 2022).</p>\n<p><strong>Discussion</strong></p>\n<p>Using Open Science methods, LOD and <em>Wikibase</em> software, all the material and data described above provide a wealth of semantically structured and openly accessible data ready for further reuse. The applied <em>Wikibase</em> approach helps to publish data that can meet the requirements of the Semantic and Knowledge Era paradigms and enable further AI-technology applications. The next step in achieving the full potential of this wealth of openly available CH data remains closer collaboration across individual research communities and the open-source tool communities to agree upon common, harmonised ontological standards or supervise the application of AI-supported workflows towards broader harmonisation.</p>\n<p><strong>References</strong></p>\n<p>Altenh&ouml;ner, R., I. Bl&uuml;mel, F. Boehm, J. Bove, K. Bicher, C. Bracht, et al. (2020), &lsquo;NFDI4Culture - Consortium for research data on material and immaterial cultural heritage&rsquo;, <em>Research Ideas and Outcomes</em>, 6, e57036, https://doi.org/10.3897/rio.6.e57036</p>\n<p>Anders, I., T. Arera-R&uuml;tenik, S. Arndt, R. Baum, N. Betancort, I. Bl&uuml;mel, et al. (2022), &lsquo;Ontology Harmonization and Mapping - Working Group Charter (NFDI section-metadata)&rsquo;, https://doi.org/10.5281/ZENODO.6726519</p>\n<p>Bacchi, C., and G. Bergamin (2018), &lsquo;New ways of creating and sharing bibliographic information : an experiment of using the Wikibase Data Model for UNIMARC data&rsquo;, <em>JLIS</em>, 3, https://doi.org/10.4403/jlis.it-12458</p>\n<p>Berners-Lee, T. (2006), &lsquo;Linked Data&rsquo;, https://www.w3.org/DesignIssues/LinkedData.html [accessed 31 May 2024]</p>\n<p>Br&uuml;nger-Weilandt, S., K.-C. Bruhn, A. W. Busch, E. Hinrichs, G. Maier, J. Paulmann, et al. (2020), &lsquo;Memorandum of Understanding by NFDI Initiatives from the Humanities and Cultural Studies&rsquo;, https://doi.org/10.5281/ZENODO.3265762</p>\n<p>Gru&szlig;, M. (2023), &lsquo;Collection meets Research IV: Collection data as research data?&rsquo;, https://nfdi4culture.de/id/E5204 [accessed 31 May 2024]</p>\n<p>Padilla, T., L. Allen, S. Varner, S. Potvin, H. Frost, and E. Russey Roke (2024), &lsquo;Always Already Computational: Collections as Data&rsquo;, https://collectionsasdata.github.io/ [accessed 31 May 2024]</p>\n<p>Rossenova, L., P. Duchesne, and I. Bl&uuml;mel (2022), &lsquo;Wikidata and Wikibase as complementary research data management services for cultural heritage data&rsquo;, <em>Proceedings of the 3rd Wikidata Workshop 2022 Co-Located with the 21st International Semantic Web Conference (ISWC2022)</em>, https://ceur-ws.org/Vol-3262/paper15.pdf</p>\n<p>Rossenova, L., L. Sohmen, P. Duchesne, L. G&uuml;nther, Z. Schubert, and I. Bluemel (2023), &lsquo;Towards a common data model for semantic annotation of digital media: A new FOSS toolchain&rsquo;, https://doi.org/10.5281/ZENODO.8228588</p>\n<p>Sack, H., T. Schrade, O. Bruns, E. Posthumus, T. Tietz, E. Norouzi, et al. (2023), &lsquo;Knowledge Graph Based RDM Solutions: NFDI4Culture - NFDI-MatWerk - NFDI4DataScience&rsquo;, <em>Proceedings of the Conference on Research Data Infrastructure</em>, 1, https://doi.org/10.52825/cordi.v1i.371</p>\n<p>Schmidt, S. C., F. Thiery, and M. Trognitz (2022), &lsquo;Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata&rsquo;, <em>Digital</em>, 2:3, 333&ndash;64, https://doi.org/10.3390/digital2030019</p>\n<p>Thiery, F. (2019), &lsquo;Archaeology 4.0: Archaeology in the Third Era of Computing&rsquo;, <em>Squirrel Papers</em>, 1:1, #2, https://doi.org/10.5281/zenodo.2629595</p>\n<p>Thiery, F., A. W. Mees, B. Weisser, F. F. Sch&auml;fer, S. Baars, S. Nolte, et al. (2023), &lsquo;Object-Related Research Data Workflows Within NFDI4Objects and Beyond&rsquo;, <em>Proceedings of the Conference on Research Data Infrastructure</em>, 1, https://doi.org/10.52825/cordi.v1i.326</p>\n<p>Thiery, F., J. Veller, L. Raddatz, L. Rokohl, F. Boochs, and A. W. Mees (2023), &lsquo;A Semi-Automatic Semantic-Model-Based Comparison Workflow for Archaeological Features on Roman Ceramics&rsquo;, <em>ISPRS International Journal of Geo-Information</em>, 12:4, 167, https://doi.org/10.3390/ijgi12040167</p>\n<p>TIB (2023), &lsquo;In the media: How TIB and DDK are helping to save Ukraine&rsquo;s cultural heritage&rsquo;, https://www.tib.eu/en/tib/news-and-events/news/details/in-the-media-how-tib-and-ddk-are-helping-to-save-ukraines-cultural-heritage [accessed 31 May 2024]</p>\n<p>Vrandecic, D. (2013), &lsquo;The Rise of Wikidata&rsquo;, <em>IEEE Intelligent Systems</em>, 28:4, 90&ndash;95, https://doi.org/10.1109/MIS.2013.119</p>\n<div>\n<div>\n<p><a title=\"\" href=\"#_ftnref1\" name=\"_ftn1\"><sup>[1]</sup></a><sup> </sup>cf. <a href=\"https://www.go-fair.org/fair-principles/\">https://www.go-fair.org/fair-principles/</a> &nbsp;</p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref2\" name=\"_ftn2\"><sup>[2]</sup></a><sup> </sup>cf. <a href=\"https://www.gida-global.org/care\">https://www.gida-global.org/care</a> &nbsp;</p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref3\" name=\"_ftn3\"><sup>[3]</sup></a> cf. <a href=\"https://n4o-prov.wikibase.cloud/wiki/Item:Q20\">https://n4o-prov.wikibase.cloud/wiki/Item:Q20</a><u> </u>and <a href=\"https://n4o-prov.wikibase.cloud/wiki/Item:Q23\">https://n4o-prov.wikibase.cloud/wiki/Item:Q23</a><u> </u>&nbsp;</p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref4\" name=\"_ftn4\"><sup>[4]</sup></a> cf. <a href=\"https://n4o-ta4-dev.wikibase.cloud/wiki/Item:Q12\">https://n4o-ta4-dev.wikibase.cloud/wiki/Item:Q12</a><u> </u>&nbsp;</p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref5\" name=\"_ftn5\">[5]</a> cf. <a href=\"https://fuzzy-sl.wikibase.cloud/wiki/Item:Q70\">https://fuzzy-sl.wikibase.cloud/wiki/Item:Q70</a></p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref6\" name=\"_ftn6\"><sup>[6]</sup></a> cf. <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Linked_Open_Samian_Ware\">https://www.wikidata.org/wiki/Wikidata:WikiProject_Linked_Open_Samian_Ware</a><u> </u>&nbsp;</p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref7\" name=\"_ftn7\"><sup>[7]</sup></a> cf. <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Irish_Ogham_Stones\">https://www.wikidata.org/wiki/Wikidata:WikiProject_Irish_Ogham_Stones</a> &nbsp;</p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref8\" name=\"_ftn8\"><sup>[8]</sup></a> cf. <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_African_Red_Slip_Ware_Digital\">https://www.wikidata.org/wiki/Wikidata:WikiProject_African_Red_Slip_Ware_Digital</a></p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref9\" name=\"_ftn9\"><sup>[9]</sup></a> cf. <a href=\"https://nfdi4culture.de/services/details/wikibase4research.html\">https://nfdi4culture.de/services/details/wikibase4research.html</a></p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref10\" name=\"_ftn10\"><sup>[10]</sup></a> cf. <a href=\"https://nfdi4culture.de/services/details/semantic-kompakkt.html\">https://nfdi4culture.de/services/details/semantic-kompakkt.html</a></p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref11\" name=\"_ftn11\"><sup>[11]</sup></a> cf. <a href=\"https://nfdi4culture.de/services/details/linked-open-data-working-group.html\">https://nfdi4culture.de/services/details/linked-open-data-working-group.html</a></p>\n</div>\n<div>\n<p><a title=\"\" href=\"#_ftnref12\" name=\"_ftn12\"><sup>[12]</sup></a> cf. <a href=\"https://www.nfdi.de/section-metadata/\">https://www.nfdi.de/section-metadata/</a></p>\n</div>\n</div>",
+    "doi": "10.5281/zenodo.14055699",
+    "journal": {
+      "issue": "4",
+      "pages": "#22",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CHNT29",
+      "dates": "04-06 November 2024",
+      "place": "Vienna City Hall, Wappensaal, Vienna, Austria",
+      "session": "Cultural Heritage and the new future of new technologies",
+      "title": "Conference on Cultral Heritage and New Technologies",
+      "url": "https://chnt.at/"
+    },
+    "publication_date": "2024-11-04",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14055698"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Wikibase instances in the Cultural Heritage Domain: Examples from the German humanities NFDI consortia"
+  },
+  "modified": "2025-02-18T13:21:21.421314+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14055699",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Wikibase instances in the Cultural Heritage Domain: Examples from the German humanities NFDI consortia",
+  "updated": "2025-02-18T13:21:21.421314+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 53.57028,
+    "lon": 8.08417
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Verwaltungseinheit",
+    "en": "municipality seat"
+  },
+  "id": "Q32067994",
+  "instance_of": [
+    "Q15303838"
+  ],
+  "labels": {
+    "de": "Wilhelmshaven",
+    "en": "Wilhelmshaven"
+  }
+}

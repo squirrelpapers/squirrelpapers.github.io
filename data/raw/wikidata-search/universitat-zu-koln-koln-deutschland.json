@@ -1,0 +1,113 @@
+{
+  "answers": {
+    "Köln [de]": [
+      {
+        "description": "most populous city in North Rhine-Westphalia, Germany",
+        "id": "Q365",
+        "label": "Cologne"
+      },
+      {
+        "description": "family name",
+        "id": "Q105533759",
+        "label": "Köln"
+      },
+      {
+        "description": "1981 Bremen-class frigate",
+        "id": "Q937843",
+        "label": "Köln"
+      },
+      {
+        "description": "2020 Braunschweig-class corvette",
+        "id": "Q104791235",
+        "label": "Köln"
+      },
+      {
+        "description": "university in Germany",
+        "id": "Q54096",
+        "label": "University of Cologne"
+      }
+    ],
+    "Köln [en]": [
+      {
+        "description": "most populous city in North Rhine-Westphalia, Germany",
+        "id": "Q365",
+        "label": "Cologne"
+      },
+      {
+        "description": "1928 Königsberg-class cruiser",
+        "id": "Q690441",
+        "label": "Köln"
+      },
+      {
+        "description": "1981 Bremen-class frigate",
+        "id": "Q937843",
+        "label": "Köln"
+      },
+      {
+        "description": "family name",
+        "id": "Q105533759",
+        "label": "Köln"
+      },
+      {
+        "description": "2020 Braunschweig-class corvette",
+        "id": "Q104791235",
+        "label": "Köln"
+      }
+    ],
+    "Universität zu Köln [de]": [
+      {
+        "description": "university in Germany",
+        "id": "Q54096",
+        "label": "University of Cologne"
+      },
+      {
+        "description": "medical school",
+        "id": "Q101248554",
+        "label": "Universität zu Köln Medizinische Fakultät"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248383",
+        "label": "Universität zu Köln Fachgruppe Biologie"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248533",
+        "label": "Universität zu Köln Institut für Geophysik und Meteorologie"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248374",
+        "label": "Universität zu Köln Cologne Graduate School in Management Economics and Social Sciences"
+      }
+    ],
+    "Universität zu Köln [en]": [
+      {
+        "description": "university in Germany",
+        "id": "Q54096",
+        "label": "University of Cologne"
+      },
+      {
+        "description": "research data management, University of Cologne",
+        "id": "Q113626301",
+        "label": "Cologne Competence Center for Research Data Management (C3RDM)"
+      },
+      {
+        "description": "medical school",
+        "id": "Q101248554",
+        "label": "Universität zu Köln Medizinische Fakultät"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248383",
+        "label": "Universität zu Köln Fachgruppe Biologie"
+      },
+      {
+        "description": "research institute",
+        "id": "Q1341506",
+        "label": "Universität zu Köln. Energiewirtschaftliches Institut"
+      }
+    ]
+  },
+  "label": "Universität zu Köln, Köln, Deutschland"
+}

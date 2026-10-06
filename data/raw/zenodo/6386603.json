@@ -1,0 +1,131 @@
+{
+  "conceptdoi": "10.5281/zenodo.6386603",
+  "conceptrecid": "6386603",
+  "created": "2023-03-09T08:17:47.160448+00:00",
+  "doi": "10.5281/zenodo.7711130",
+  "doi_url": "https://doi.org/10.5281/zenodo.7711130",
+  "files": [
+    {
+      "checksum": "md5:68ca8ea66321e98cc5105b738c730455",
+      "id": "6f6896cf-d2cb-47ce-b235-2d87ab603990",
+      "key": "ARS3D_AddIconCat.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7711130/files/ARS3D_AddIconCat.pdf/content"
+      },
+      "size": 1805670
+    }
+  ],
+  "id": 7711130,
+  "links": {
+    "access": "https://zenodo.org/api/records/7711130/access",
+    "access_grants": "https://zenodo.org/api/records/7711130/access/grants",
+    "access_links": "https://zenodo.org/api/records/7711130/access/links",
+    "access_request": "https://zenodo.org/api/records/7711130/access/request",
+    "access_users": "https://zenodo.org/api/records/7711130/access/users",
+    "archive": "https://zenodo.org/api/records/7711130/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7711130/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7711130/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7711130/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7711130",
+    "draft": "https://zenodo.org/api/records/7711130/draft",
+    "file_modification": "https://zenodo.org/api/records/7711130/file-modification",
+    "files": "https://zenodo.org/api/records/7711130/files",
+    "latest": "https://zenodo.org/api/records/7711130/versions/latest",
+    "latest_html": "https://zenodo.org/records/7711130/latest",
+    "media_files": "https://zenodo.org/api/records/7711130/media-files",
+    "parent": "https://zenodo.org/api/records/6386603",
+    "parent_doi": "https://doi.org/10.5281/zenodo.6386603",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6386603",
+    "parent_html": "https://zenodo.org/records/6386603",
+    "preview_html": "https://zenodo.org/records/7711130?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7711130/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7711130/request-deletion",
+    "requests": "https://zenodo.org/api/records/7711130/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7711130/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7711130",
+    "self_doi": "https://doi.org/10.5281/zenodo.7711130",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7711130",
+    "self_html": "https://zenodo.org/records/7711130",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7711130/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7711130/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7711130:ARS3D_AddIconCat.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7711130:ARS3D_AddIconCat.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7711130:ARS3D_AddIconCat.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7711130:ARS3D_AddIconCat.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7711130:ARS3D_AddIconCat.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7711130:ARS3D_AddIconCat.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7711130/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "ars3d"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>African Red Slip Ware - Additional Iconography Catalogue</p>",
+    "doi": "10.5281/zenodo.7711130",
+    "journal": {
+      "issue": "1",
+      "pages": "No.1",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2023-03-09",
+    "related_identifiers": [
+      {
+        "identifier": "2750-560X",
+        "relation": "isPartOf",
+        "resource_type": "publication-other",
+        "scheme": "issn"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "6386603"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+    },
+    "title": "African Red Slip Ware - Additional Iconography Catalogue"
+  },
+  "modified": "2024-07-12T12:40:16.091122+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7711130",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "African Red Slip Ware - Additional Iconography Catalogue",
+  "updated": "2024-07-12T12:40:16.091122+00:00"
+}

@@ -1,0 +1,113 @@
+{
+  "answers": {
+    "Aachen [de]": [
+      {
+        "description": "city in North Rhine-Westphalia, Germany",
+        "id": "Q1017",
+        "label": "Aachen"
+      },
+      {
+        "description": "family name",
+        "id": "Q63991123",
+        "label": "Aachen"
+      },
+      {
+        "description": "university in Aachen, Germany",
+        "id": "Q273263",
+        "label": "RWTH Aachen University"
+      },
+      {
+        "description": "container ship built in 1997",
+        "id": "Q83487677",
+        "label": "IMO 9144720"
+      },
+      {
+        "description": "German painter (1552–1615)",
+        "id": "Q152835",
+        "label": "Hans von Aachen"
+      }
+    ],
+    "Aachen [en]": [
+      {
+        "description": "city in North Rhine-Westphalia, Germany",
+        "id": "Q1017",
+        "label": "Aachen"
+      },
+      {
+        "description": "family name",
+        "id": "Q63991123",
+        "label": "Aachen"
+      },
+      {
+        "description": "German painter (1552–1615)",
+        "id": "Q152835",
+        "label": "Hans von Aachen"
+      },
+      {
+        "description": "historic town hall in Aachen, Germany",
+        "id": "Q300747",
+        "label": "Aachen Town Hall"
+      },
+      {
+        "description": "former district in the west of North Rhine-Westphalia",
+        "id": "Q7379734",
+        "label": "Aachen"
+      }
+    ],
+    "RWTH Aachen [de]": [
+      {
+        "description": "university in Aachen, Germany",
+        "id": "Q273263",
+        "label": "RWTH Aachen University"
+      },
+      {
+        "description": "research data management, RWTH Aachen University",
+        "id": "Q113588522",
+        "label": "Team Forschungsdatenmanagement"
+      },
+      {
+        "description": "university hospital in Aachen, Germany",
+        "id": "Q560144",
+        "label": "Klinikum Aachen"
+      },
+      {
+        "description": "",
+        "id": "Q7278129",
+        "label": "RWTH Aachen Faculty of Mathematics, Computer science, and Natural sciences"
+      },
+      {
+        "description": "",
+        "id": "Q7278130",
+        "label": "RWTH Aachen Faculty of Mechanical Engineering"
+      }
+    ],
+    "RWTH Aachen [en]": [
+      {
+        "description": "university in Aachen, Germany",
+        "id": "Q273263",
+        "label": "RWTH Aachen University"
+      },
+      {
+        "description": "university hospital in Aachen, Germany",
+        "id": "Q560144",
+        "label": "Klinikum Aachen"
+      },
+      {
+        "description": "",
+        "id": "Q7278129",
+        "label": "RWTH Aachen Faculty of Mathematics, Computer science, and Natural sciences"
+      },
+      {
+        "description": "research data management, RWTH Aachen University",
+        "id": "Q113588522",
+        "label": "Team Forschungsdatenmanagement"
+      },
+      {
+        "description": "",
+        "id": "Q7278130",
+        "label": "RWTH Aachen Faculty of Mechanical Engineering"
+      }
+    ]
+  },
+  "label": "RWTH Aachen, C.A.R.L., Aachen, Germany"
+}

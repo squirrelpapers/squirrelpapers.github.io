@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Forschungsdatenmanagement, Julius-Maximilians-Universität Würzburg",
+    "en": "research data management, University of Würzburg"
+  },
+  "id": "Q113994111",
+  "instance_of": [
+    "Q679206"
+  ],
+  "labels": {
+    "de": "Servicestelle Forschungsdatenmanagement",
+    "en": "Servicestelle Forschungsdatenmanagement"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 52.526311,
+    "lon": 13.314111
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Forschungsinstitut in Berlin-Charlottenburg",
+    "en": "research center"
+  },
+  "id": "Q1452018",
+  "instance_of": [
+    "Q20168706",
+    "Q31855"
+  ],
+  "labels": {
+    "de": "Fraunhofer-Institut für Offene Kommunikationssysteme",
+    "en": "Fraunhofer Institute for Open Communication Systems"
+  }
+}

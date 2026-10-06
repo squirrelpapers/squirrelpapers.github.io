@@ -1,0 +1,142 @@
+{
+  "conceptdoi": "10.5281/zenodo.10790939",
+  "conceptrecid": "10790939",
+  "created": "2024-03-06T22:19:49.592373+00:00",
+  "doi": "10.5281/zenodo.10790940",
+  "doi_url": "https://doi.org/10.5281/zenodo.10790940",
+  "files": [
+    {
+      "checksum": "md5:de7d29eb86ba57de2caf36f493ead032",
+      "id": "2a4b9c69-6a5c-4c79-8d52-cc31e0175733",
+      "key": "deRSE2024_No40_HomburgThiery.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/10790940/files/deRSE2024_No40_HomburgThiery.pdf/content"
+      },
+      "size": 6147817
+    }
+  ],
+  "id": 10790940,
+  "links": {
+    "access": "https://zenodo.org/api/records/10790940/access",
+    "access_grants": "https://zenodo.org/api/records/10790940/access/grants",
+    "access_links": "https://zenodo.org/api/records/10790940/access/links",
+    "access_request": "https://zenodo.org/api/records/10790940/access/request",
+    "access_users": "https://zenodo.org/api/records/10790940/access/users",
+    "archive": "https://zenodo.org/api/records/10790940/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10790940/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10790940/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10790940/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10790940",
+    "draft": "https://zenodo.org/api/records/10790940/draft",
+    "file_modification": "https://zenodo.org/api/records/10790940/file-modification",
+    "files": "https://zenodo.org/api/records/10790940/files",
+    "latest": "https://zenodo.org/api/records/10790940/versions/latest",
+    "latest_html": "https://zenodo.org/records/10790940/latest",
+    "media_files": "https://zenodo.org/api/records/10790940/media-files",
+    "parent": "https://zenodo.org/api/records/10790939",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10790939",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10790939",
+    "parent_html": "https://zenodo.org/records/10790939",
+    "preview_html": "https://zenodo.org/records/10790940?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10790940/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10790940/request-deletion",
+    "requests": "https://zenodo.org/api/records/10790940/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10790940/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10790940",
+    "self_doi": "https://doi.org/10.5281/zenodo.10790940",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10790940",
+    "self_html": "https://zenodo.org/records/10790940",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10790940/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10790940/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:10790940:deRSE2024_No40_HomburgThiery.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:10790940:deRSE2024_No40_HomburgThiery.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:10790940:deRSE2024_No40_HomburgThiery.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:10790940:deRSE2024_No40_HomburgThiery.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:10790940:deRSE2024_No40_HomburgThiery.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:10790940:deRSE2024_No40_HomburgThiery.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/10790940/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "derse24"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Homburg, Timo",
+        "orcid": "0000-0002-9499-5840"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc"
+    },
+    "description": "<h1>Introduction</h1>\n<p>Publishing sustainable research data and providing appropriate access for many research communities challenges many players: Researchers, RSEs, standardisation organizations and data repositories. With&nbsp;<a href=\"https://www.dfg.de/en/research_funding/funding_initiative/nfdi/index.html\">national research data infrastructures (NFDI)</a>&nbsp;being set up in Germany, the latter could be solved in the mid- to long-term for specific datasets. In the meantime, researchers often produce datasets of data in research projects which are provided as services, e.g. from a web page, but may, due to a lack of funding, disappear in that form after the research project has ended. To circumvent this, open research data is hosted long-term on public platforms like university libraries,&nbsp;<a href=\"../\">Zenodo</a>&nbsp;or&nbsp;<a href=\"https://github.com/\">Github</a>. However, this hosted data is not necessarily easily discoverable by different research communities. On top of that, research data is rarely published in isolation, but with links to related datasets, leading to the creation of link-preserving,&nbsp;<a href=\"https://www.go-fair.org/fair-principles/\">FAIR</a>&nbsp;linked open data (LOD) as&nbsp;<a href=\"https://www.w3.org/TR/rdf11-concepts/\">RDF</a>&nbsp;dumps, modelling data interoperably in common vocabularies. LOD in RDF preserves links, but is not necessarily&nbsp;<a href=\"https://linked.art/loud/\">Linked Open Usable Data (LOUD)</a>, i.e. it does not provide data in ways different research communities expect. We would like to address this problem of missing LOUD data while removing requirements on the backend such as hardware and software to a minimum.</p>\n<h1>Documentation-Tool</h1>\n<p>We believe that a solution to this data provision problem is publishing research data as static webpages and using standardised static APIs to serve data in ways different research communities expect.</p>\n<p>We developed a documentation extension to our&nbsp;<a href=\"https://github.com/sparqlunicorn/sparqlunicornGoesGIS\">SPARQLing Unicorn QGIS Plugin</a>, allowing to publish RDF data dumps as&nbsp;<a href=\"https://html.spec.whatwg.org/\">HTML</a>&nbsp;page and RDF serialization per data instance, similar to what frontends to triple stores such as&nbsp;<a href=\"https://github.com/cygri/pubby\">Pubby</a>&nbsp;provide.<br>It is published as a&nbsp;<a href=\"https://events.hifis.net/event/994/contributions/7930/10.5281/zenodo.3786814\">QGIS Plugin</a>, a&nbsp;<a href=\"https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc\">standalone script</a>&nbsp;on Github and a&nbsp;<a href=\"https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc\">Github Action</a>.</p>\n<p>The resulting data dump is hostable on static webspaces e.g. Github pages and allows navigating the contents of the LOD data in HTML including a class tree. It may include:<br>* Further data formats: Graph Data (<a href=\"http://graphml.graphdrawing.org/\">GraphML</a>,&nbsp;<a href=\"https://gexf.net/\">GEXF</a>), General Purpose (<a href=\"https://www.ietf.org/rfc/rfc4180.txt\">CSV</a>)<br>* SPARQL querying in JavaScript using the data dump<br>* Generation of&nbsp;<a href=\"https://www.seancdavis.com/posts/lets-talk-about-static-apis/\">static APIs</a>, e.g. JSON documents mimicking standardized APIs, for<br>*&nbsp;<a href=\"https://ogcapi.ogc.org/features/\">OGC API Features</a>: Access to FeatureCollections from e.g.&nbsp;<a href=\"https://qgis.org/\">QGIS</a><br>*&nbsp;<a href=\"https://iiif.io/api/presentation/3.0/\">IIIF Presentation API 3.0</a>: IIIF Manifest Files for images/media in the knowledge graph including typed collections<br>*&nbsp;<a href=\"https://ckan.org/features/api\">CKAN API</a>: Datasets in the&nbsp;<a href=\"https://www.w3.org/TR/vocab-dcat-3/\">DCAT vocabulary</a>&nbsp;or data collections</p>\n<p>Static APIs further the accessibility of LOD data for different research communities and increase the chances of data reusage and exposure in different research fields, while at the same time not depending on additional infrastructures for data provision.</p>\n<h1>Limitations and Future Work</h1>\n<p>Our talk shows the feasibility of using publicly available examples for geodata and CKAN (<a href=\"https://github.com/archaeolink/SPP1630Harbours-RDF\">SPP Dataset</a>,&nbsp;<a href=\"https://github.com/archaeolink/AncientPorts_RDF\">AncientPorts Dataset</a>,&nbsp;<a href=\"https://github.com/archaeolink/CIGS_RDF\">CIGS Datatset</a>) and the&nbsp;<a href=\"https://github.com/RGZM/ars-lod/\">ARS-LOD</a>&nbsp;dataset for static IIIF-data.<br>We discuss requirements and limitations of this kind of publishing in a RDM publishing workflow, in relation to NFDI plans and how to extend this approach to only partially open data using a&nbsp;<a href=\"https://solidproject.org/specification\">Solid pod</a> publishing workflow.</p>",
+    "doi": "10.5281/zenodo.10790940",
+    "journal": {
+      "issue": "3",
+      "pages": "#5",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE24",
+      "dates": "5-7 March 2014",
+      "place": "Julius-Maximilians-Universität Würzburg",
+      "session": "Metadata for Research Software",
+      "title": "deRSE24 - Conference for Research Software Engineering in Germany",
+      "url": "https://events.hifis.net/event/994/"
+    },
+    "publication_date": "2024-03-07",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10790939"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "The SPARQLing Unicorn: A Research Tool for Linked Open Data in QGIS and git-action-based ontology documentation"
+  },
+  "modified": "2024-07-06T23:24:01.061668+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "10790940",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "The SPARQLing Unicorn: A Research Tool for Linked Open Data in QGIS and git-action-based ontology documentation",
+  "updated": "2024-07-06T23:24:01.061668+00:00"
+}

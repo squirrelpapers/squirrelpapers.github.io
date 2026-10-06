@@ -1,0 +1,18 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Sportverein aus München",
+    "en": "association football club in Munich, Germany"
+  },
+  "id": "Q15789",
+  "instance_of": [
+    "Q476028",
+    "Q847017"
+  ],
+  "labels": {
+    "de": "FC Bayern München",
+    "en": "FC Bayern Munich"
+  }
+}

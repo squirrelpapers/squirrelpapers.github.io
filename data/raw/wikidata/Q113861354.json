@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Forschungsdatenmanagement, Johannes Gutenberg-Universität Mainz",
+    "en": "research data management, Johannes Gutenberg University Mainz"
+  },
+  "id": "Q113861354",
+  "instance_of": [
+    "Q679206"
+  ],
+  "labels": {
+    "de": "Kompetenzteam Forschungsdaten",
+    "en": "Kompetenzteam Forschungsdaten"
+  }
+}

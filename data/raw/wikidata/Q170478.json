@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 50.72,
+    "lon": -1.88
+  },
+  "country": [
+    "Q145"
+  ],
+  "descriptions": {
+    "de": "Seebad in Südengland",
+    "en": "town and civil parish in Bournemouth, Christchurch and Poole, Dorset, England"
+  },
+  "id": "Q170478",
+  "instance_of": [
+    "Q100503226",
+    "Q1115575",
+    "Q7897276"
+  ],
+  "labels": {
+    "de": "Bournemouth",
+    "en": "Bournemouth"
+  }
+}

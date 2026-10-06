@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 51.4892,
+    "lon": 7.21722
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Museum in Bochum",
+    "en": "museum"
+  },
+  "id": "Q896952",
+  "instance_of": [
+    "Q33506"
+  ],
+  "labels": {
+    "de": "Deutsches Bergbau-Museum Bochum",
+    "en": "German Mining Museum"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": -0.6107,
+    "lon": 30.6588
+  },
+  "country": [
+    "Q1036"
+  ],
+  "descriptions": {
+    "de": "Regulierungsbehörde für Telekommunikation in Uganda",
+    "en": "Communications regulator of Uganda"
+  },
+  "id": "Q2473869",
+  "instance_of": [
+    "Q1639780",
+    "Q327333"
+  ],
+  "labels": {
+    "de": "Uganda Communications Commission",
+    "en": "Uganda Communications Commission"
+  }
+}

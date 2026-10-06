@@ -1,0 +1,138 @@
+{
+  "conceptdoi": "10.5281/zenodo.2648202",
+  "conceptrecid": "2648202",
+  "created": "2019-04-21T16:58:08.237074+00:00",
+  "doi": "10.5281/zenodo.2648216",
+  "doi_url": "https://doi.org/10.5281/zenodo.2648216",
+  "files": [
+    {
+      "checksum": "md5:d3620ee1b5c6d5bd94d7a9f63f0ad53a",
+      "id": "a9df73aa-9d30-42c4-96ba-d75151d7236f",
+      "key": "2019_04_24_CAA_Krakow_Minions.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/2648216/files/2019_04_24_CAA_Krakow_Minions.pptx/content"
+      },
+      "size": 10326510
+    },
+    {
+      "checksum": "md5:fff07bea061944306106892c6d0c2d25",
+      "id": "a75842ed-d2c9-4691-91bc-c068c538e42e",
+      "key": "2019_04_24_CAA_Krakow_Minions.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/2648216/files/2019_04_24_CAA_Krakow_Minions.pdf/content"
+      },
+      "size": 3016129
+    }
+  ],
+  "id": 2648216,
+  "links": {
+    "access": "https://zenodo.org/api/records/2648216/access",
+    "access_grants": "https://zenodo.org/api/records/2648216/access/grants",
+    "access_links": "https://zenodo.org/api/records/2648216/access/links",
+    "access_request": "https://zenodo.org/api/records/2648216/access/request",
+    "access_users": "https://zenodo.org/api/records/2648216/access/users",
+    "archive": "https://zenodo.org/api/records/2648216/files-archive",
+    "archive_media": "https://zenodo.org/api/records/2648216/media-files-archive",
+    "communities": "https://zenodo.org/api/records/2648216/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/2648216/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.2648216",
+    "draft": "https://zenodo.org/api/records/2648216/draft",
+    "file_modification": "https://zenodo.org/api/records/2648216/file-modification",
+    "files": "https://zenodo.org/api/records/2648216/files",
+    "latest": "https://zenodo.org/api/records/2648216/versions/latest",
+    "latest_html": "https://zenodo.org/records/2648216/latest",
+    "media_files": "https://zenodo.org/api/records/2648216/media-files",
+    "parent": "https://zenodo.org/api/records/2648202",
+    "parent_doi": "https://doi.org/10.5281/zenodo.2648202",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2648202",
+    "parent_html": "https://zenodo.org/records/2648202",
+    "preview_html": "https://zenodo.org/records/2648216?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/2648216/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/2648216/request-deletion",
+    "requests": "https://zenodo.org/api/records/2648216/requests",
+    "reserve_doi": "https://zenodo.org/api/records/2648216/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/2648216",
+    "self_doi": "https://doi.org/10.5281/zenodo.2648216",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2648216",
+    "self_html": "https://zenodo.org/records/2648216",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:2648216/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:2648216/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:2648216:2019_04_24_CAA_Krakow_Minions.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:2648216:2019_04_24_CAA_Krakow_Minions.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:2648216:2019_04_24_CAA_Krakow_Minions.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:2648216:2019_04_24_CAA_Krakow_Minions.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:2648216:2019_04_24_CAA_Krakow_Minions.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:2648216:2019_04_24_CAA_Krakow_Minions.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/2648216/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Allard Mees",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<p>Alligator and the Academic Meta Tool (AMT) are two prototypical little minions which in combination allow for establishing relative chronologies according to Allen&rsquo;s interval algebra as Linked Open Data. Starting with a correspondence analyse, this combination of tools achieves temporal reasoning with vague edge information in RDF graphs. The semantical structure of Alligator and AMT is described in ontologies to provide reproducible, interoperable and comprehensible research results. Alligator is developed at the R&ouml;misch-Germanisches Zentralmuseum Mainz (RGZM). It consists of an ontology and a web app for transforming correspondence analyses with fixed and floating time intervals into a relative chronology and Resource Description Framework (RDF) representation using Allen&#39;s interval algebra. The Academic Meta Tool is developed at the Mainz Centre for Digitality in the Humanities and Cultural Studies (mainzed), the RGZM and the i3mainz - Institute for Spatial Information and Surveying Technology at the Hochschule Mainz University of Applied Sciences. AMT allows for creating ontologies and provides a JavaScript framework for modelling vagueness in graphs, including reasoning, particularly modelled as RDF. This minion talk focuses on a short technical insight into the little minions Alligator and AMT. The tools are demonstrated with an example of Limes dating with Samian.</p>",
+    "doi": "10.5281/zenodo.2648216",
+    "keywords": [
+      "Linked Open Data",
+      "Chronology",
+      "Allen's interval algebra",
+      "reproducible research",
+      "Samian (Terra Sigillata)"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "KrakCAA",
+      "dates": "23.04.-27.04.2019",
+      "place": "Krakow, Poland",
+      "session": "S29",
+      "title": "Computer Applications and Quantitative Methods in Archaeology",
+      "url": "https://2019.caaconference.org/"
+    },
+    "publication_date": "2019-04-24",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "2648202"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Taming Time Tools: Alligator and Academic Meta Tool"
+  },
+  "modified": "2024-07-24T20:42:14.878368+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "2648216",
+  "revision": 7,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Taming Time Tools: Alligator and Academic Meta Tool",
+  "updated": "2024-07-24T20:42:14.878368+00:00"
+}

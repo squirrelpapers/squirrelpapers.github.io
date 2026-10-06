@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Universidad de Barcelona [de]": [
+      {
+        "description": "public research university located in Barcelona, Catalonia",
+        "id": "Q219615",
+        "label": "University of Barcelona"
+      },
+      {
+        "description": "(1558-1716)",
+        "id": "Q20102148",
+        "label": "Universitat de l'Estudi General"
+      },
+      {
+        "description": "",
+        "id": "Q28444916",
+        "label": "Universidad de Barcelona. Centro de Estudios Históricos Internacionales"
+      },
+      {
+        "description": "",
+        "id": "Q11919770",
+        "label": "Barcelona School of Fine Arts"
+      },
+      {
+        "description": "",
+        "id": "Q47675927",
+        "label": "Fine Arts School. University of Barcelona"
+      }
+    ],
+    "Universidad de Barcelona [en]": [
+      {
+        "description": "public research university located in Barcelona, Catalonia",
+        "id": "Q219615",
+        "label": "University of Barcelona"
+      },
+      {
+        "description": "",
+        "id": "Q28444916",
+        "label": "Universidad de Barcelona. Centro de Estudios Históricos Internacionales"
+      },
+      {
+        "description": "(1558-1716)",
+        "id": "Q20102148",
+        "label": "Universitat de l'Estudi General"
+      },
+      {
+        "description": "",
+        "id": "Q11919770",
+        "label": "Barcelona School of Fine Arts"
+      },
+      {
+        "description": "",
+        "id": "Q47675927",
+        "label": "Fine Arts School. University of Barcelona"
+      }
+    ]
+  },
+  "label": "Universidad de Barcelona, Spain"
+}

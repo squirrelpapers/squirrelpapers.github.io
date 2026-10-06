@@ -1,0 +1,153 @@
+{
+  "conceptdoi": "10.5281/zenodo.15074382",
+  "conceptrecid": "15074382",
+  "created": "2025-03-27T13:15:08.222824+00:00",
+  "doi": "10.5281/zenodo.15074383",
+  "doi_url": "https://doi.org/10.5281/zenodo.15074383",
+  "files": [
+    {
+      "checksum": "md5:bc7692f4f3d832ac1838877ac2054ceb",
+      "id": "d1ef2537-7d34-4068-b0da-f07b0aa0318a",
+      "key": "Text+ShowAndTell_2025_#6_JupyterPythonMinion_20250327.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/15074383/files/Text+ShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf/content"
+      },
+      "size": 13929072
+    }
+  ],
+  "id": 15074383,
+  "links": {
+    "access": "https://zenodo.org/api/records/15074383/access",
+    "access_grants": "https://zenodo.org/api/records/15074383/access/grants",
+    "access_links": "https://zenodo.org/api/records/15074383/access/links",
+    "access_request": "https://zenodo.org/api/records/15074383/access/request",
+    "access_users": "https://zenodo.org/api/records/15074383/access/users",
+    "archive": "https://zenodo.org/api/records/15074383/files-archive",
+    "archive_media": "https://zenodo.org/api/records/15074383/media-files-archive",
+    "communities": "https://zenodo.org/api/records/15074383/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/15074383/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.15074383",
+    "draft": "https://zenodo.org/api/records/15074383/draft",
+    "file_modification": "https://zenodo.org/api/records/15074383/file-modification",
+    "files": "https://zenodo.org/api/records/15074383/files",
+    "latest": "https://zenodo.org/api/records/15074383/versions/latest",
+    "latest_html": "https://zenodo.org/records/15074383/latest",
+    "media_files": "https://zenodo.org/api/records/15074383/media-files",
+    "parent": "https://zenodo.org/api/records/15074382",
+    "parent_doi": "https://doi.org/10.5281/zenodo.15074382",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15074382",
+    "parent_html": "https://zenodo.org/records/15074382",
+    "preview_html": "https://zenodo.org/records/15074383?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/15074383/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/15074383/request-deletion",
+    "requests": "https://zenodo.org/api/records/15074383/requests",
+    "reserve_doi": "https://zenodo.org/api/records/15074383/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/15074383",
+    "self_doi": "https://doi.org/10.5281/zenodo.15074383",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15074383",
+    "self_html": "https://zenodo.org/records/15074383",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15074383/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15074383/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:15074383:Text+ShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:15074383:Text+ShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:15074383:Text+ShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:15074383:Text+ShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:15074383:Text+ShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:15074383:Text+ShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/15074383/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "n4o-cc-rse"
+      },
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "textplus_nfdi"
+      },
+      {
+        "id": "infra-wg-rse"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Presentation in the format \"<strong>Text+ Show and Tell: Tools, Dienste, Projekte</strong>\"</p>\n<p><a href=\"https://events.gwdg.de/category/286/\" target=\"_blank\" rel=\"noopener\">https://events.gwdg.de/category/286/</a></p>",
+    "doi": "10.5281/zenodo.15074383",
+    "journal": {
+      "issue": "1",
+      "pages": "λ3",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "keywords": [
+      "Text+",
+      "NFDI",
+      "NFDI4Objects",
+      "Research Software Engineering",
+      "Python",
+      "Jupyter Notebook"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "27 Mar 2025",
+      "place": "online",
+      "session": "#6",
+      "title": "Text+ Show and Tell: Tools, Dienste, Projekte",
+      "url": "https://events.gwdg.de/event/1088/"
+    },
+    "publication_date": "2025-03-27",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "15074382"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries and visualisations for archaeological as well as geosciences data"
+  },
+  "modified": "2025-05-14T07:34:46.362269+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "15074383",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries and visualisations for archaeological as well as geosciences data",
+  "updated": "2025-05-14T07:34:46.362269+00:00"
+}

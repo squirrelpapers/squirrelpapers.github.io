@@ -1,0 +1,151 @@
+{
+  "conceptdoi": "10.5281/zenodo.13132293",
+  "conceptrecid": "13132293",
+  "created": "2024-09-02T09:10:28.942939+00:00",
+  "doi": "10.5281/zenodo.13132294",
+  "doi_url": "https://doi.org/10.5281/zenodo.13132294",
+  "files": [
+    {
+      "checksum": "md5:f1bdc8524fdad89838710417e10ef1bd",
+      "id": "d2411cf9-7c9b-49f7-aac4-6cd98ffe869e",
+      "key": "EAA_2024_ID_344_TamingTime_ThieryMees.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13132294/files/EAA_2024_ID_344_TamingTime_ThieryMees.pdf/content"
+      },
+      "size": 11192762
+    },
+    {
+      "checksum": "md5:eab0cca04827213d4b80e70f8b409833",
+      "id": "a761df79-a44d-474c-8cf0-e602c92333f8",
+      "key": "EAA_2024_ID_344_TamingTime_ThieryMees.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/13132294/files/EAA_2024_ID_344_TamingTime_ThieryMees.pptx/content"
+      },
+      "size": 33231293
+    }
+  ],
+  "id": 13132294,
+  "links": {
+    "access": "https://zenodo.org/api/records/13132294/access",
+    "access_grants": "https://zenodo.org/api/records/13132294/access/grants",
+    "access_links": "https://zenodo.org/api/records/13132294/access/links",
+    "access_request": "https://zenodo.org/api/records/13132294/access/request",
+    "access_users": "https://zenodo.org/api/records/13132294/access/users",
+    "archive": "https://zenodo.org/api/records/13132294/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13132294/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13132294/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13132294/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13132294",
+    "draft": "https://zenodo.org/api/records/13132294/draft",
+    "file_modification": "https://zenodo.org/api/records/13132294/file-modification",
+    "files": "https://zenodo.org/api/records/13132294/files",
+    "latest": "https://zenodo.org/api/records/13132294/versions/latest",
+    "latest_html": "https://zenodo.org/records/13132294/latest",
+    "media_files": "https://zenodo.org/api/records/13132294/media-files",
+    "parent": "https://zenodo.org/api/records/13132293",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13132293",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13132293",
+    "parent_html": "https://zenodo.org/records/13132293",
+    "preview_html": "https://zenodo.org/records/13132294?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13132294/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13132294/request-deletion",
+    "requests": "https://zenodo.org/api/records/13132294/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13132294/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13132294",
+    "self_doi": "https://doi.org/10.5281/zenodo.13132294",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13132294",
+    "self_html": "https://zenodo.org/records/13132294",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13132294/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13132294/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13132294:EAA_2024_ID_344_TamingTime_ThieryMees.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13132294:EAA_2024_ID_344_TamingTime_ThieryMees.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13132294:EAA_2024_ID_344_TamingTime_ThieryMees.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13132294:EAA_2024_ID_344_TamingTime_ThieryMees.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13132294:EAA_2024_ID_344_TamingTime_ThieryMees.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13132294:EAA_2024_ID_344_TamingTime_ThieryMees.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13132294/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "eaa2024-dob"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Mees, Allard W.",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<p>&ldquo;Dated sites&rdquo; in archaeology are usually not &ldquo;dated sites&rdquo;. Most of the temporality of &ldquo;dated sites&rdquo; is usually derived from historical assumptions. However, the chronology of these materials is often based on material coming from the manifold of other assumed &ldquo;dated sites&rdquo;, thus potentially resulting in a circulus vitiosus. A methodological way out of this dilemma is possible when we enhance the assumed external dating evidence and go back to the factual occurrences and overlaps in the data from the suspected &ldquo;dated sites&rdquo; since only these data are free of any temporal interpretations.<br><br>As a method, the chronological assumptions used in defining &ldquo;dated sites&rdquo; based on archaeological find materials must be deconstructed and restricted to the occurrences and overlaps within and between &ldquo;find materials&rdquo; from suspected &ldquo;dated sites&rdquo; only to arrive at a relative chronology. This can be achieved by using correspondence analysis and visualising the resulting dimension values on maps recalculated in Hue values. By applying Allen&rsquo;s interval algebra, including the Alligator and AMT tools, we can fix missing or enhance existing start- or endpoints by adding information about the vagueness/uncertainties.<br><br>To cover as many assumed &ldquo;dated sites&rdquo; as possible, the Samian Research database with its 250,000 potter&rsquo;s stamps from all over Europe is used.<br><br>It turns out that it is possible to visualise historical development on maps, timelines and graph structures without using historical-chronological assumptions about individual &ldquo;dated sites&rdquo;. Simultaneously, this paper demonstrates the application of a different concept of temporality. The development of the Samian consumption patterns in the progressing Southern German Limes and the enrollment of the occupation of Britain appears to be gradual only. Applying the methods above, based on Linked Open Data techniques, enables the FAIRification of these data related to temporality, especially by creating interoperability and reproducibility.</p>",
+    "doi": "10.5281/zenodo.13132294",
+    "journal": {
+      "issue": "4",
+      "pages": "#8",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "EAA 2024",
+      "dates": "28-31 August 2024",
+      "place": "Sapienza University of Rome",
+      "session": "514",
+      "session_part": "1",
+      "title": "30th EAA Annual Meeting in Rome | Persisting with Change"
+    },
+    "publication_date": "2024-08-31",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13132293"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Taming Time: Using Correspondence Analysis to handle relative chronologies as graphs"
+  },
+  "modified": "2024-09-02T09:10:29.183127+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13132294",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Taming Time: Using Correspondence Analysis to handle relative chronologies as graphs",
+  "updated": "2024-09-02T09:10:29.183127+00:00"
+}

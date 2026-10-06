@@ -1,0 +1,144 @@
+{
+  "conceptdoi": "10.5281/zenodo.13364680",
+  "conceptrecid": "13364680",
+  "created": "2024-09-09T15:12:16.766565+00:00",
+  "doi": "10.5281/zenodo.13364681",
+  "doi_url": "https://doi.org/10.5281/zenodo.13364681",
+  "files": [
+    {
+      "checksum": "md5:ea1325cc65e4a820abd457ead0da2551",
+      "id": "4edb6645-cf6b-4c0e-8d4a-455ba7805fc5",
+      "key": "CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13364681/files/CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf/content"
+      },
+      "size": 32929884
+    }
+  ],
+  "id": 13364681,
+  "links": {
+    "access": "https://zenodo.org/api/records/13364681/access",
+    "access_grants": "https://zenodo.org/api/records/13364681/access/grants",
+    "access_links": "https://zenodo.org/api/records/13364681/access/links",
+    "access_request": "https://zenodo.org/api/records/13364681/access/request",
+    "access_users": "https://zenodo.org/api/records/13364681/access/users",
+    "archive": "https://zenodo.org/api/records/13364681/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13364681/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13364681/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13364681/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13364681",
+    "draft": "https://zenodo.org/api/records/13364681/draft",
+    "file_modification": "https://zenodo.org/api/records/13364681/file-modification",
+    "files": "https://zenodo.org/api/records/13364681/files",
+    "latest": "https://zenodo.org/api/records/13364681/versions/latest",
+    "latest_html": "https://zenodo.org/records/13364681/latest",
+    "media_files": "https://zenodo.org/api/records/13364681/media-files",
+    "parent": "https://zenodo.org/api/records/13364680",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13364680",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13364680",
+    "parent_html": "https://zenodo.org/records/13364680",
+    "preview_html": "https://zenodo.org/records/13364681?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13364681/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13364681/request-deletion",
+    "requests": "https://zenodo.org/api/records/13364681/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13364681/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13364681",
+    "self_doi": "https://doi.org/10.5281/zenodo.13364681",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13364681",
+    "self_html": "https://zenodo.org/records/13364681",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13364681/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13364681/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13364681:CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13364681:CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13364681:CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13364681:CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13364681:CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13364681:CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13364681/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "caa-de"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Klassik Stiftung Weimar",
+        "name": "Gerber, Anja",
+        "orcid": "0000-0003-2576-1511"
+      },
+      {
+        "affiliation": "Deutsches Archäologisches Institut, Zentrale",
+        "name": "Fricke, Fabian",
+        "orcid": "0000-0003-3223-2079"
+      }
+    ],
+    "description": "<p>Forschungsdaten in der Arch&auml;ologie sind sehr heterogen und immer im dom&auml;nenbezogenen Kontext und interdisziplin&auml;r zu betrachten. Um diese Daten untereinander austauschbar, interoperabel und kompatibel zu machen, sind ein gemeinsames Verst&auml;ndnis und eine technische Implementierung n&ouml;tig. Nur so kann eine &uuml;bergreifende Abfrage des resultierenden interdisziplin&auml;ren Knowledge Graphen erfolgen.</p>\n<p>Um diese Herausforderung anzunehmen, m&ouml;chte die Nationale Forschungsdateninfrastruktur (NFDI) beitragen und hat sich in mehrere fachbezogene Konsortien strukturiert. Das der Arch&auml;ologie nahe Konsortium NFDI4Objects (N4O) ist eine Forschungsdateninfrastruktur f&uuml;r die materiellen Hinterlassenschaften der Menschheitsgeschichte und richtet sich an Forscher*innen und Praktiker*innen, deren Arbeitsschwerpunkte auf dem materiellen Erbe von rund drei Millionen Jahren Menschheits- und Umweltgeschichte liegen.</p>\n<p>Eine Strategie, um eine Datenhomogenisierung und inhaltliche Vernetzung innerhalb von NFDI4Objects zu implementieren und eine Anschlussf&auml;higkeit an die anderen konsortialen Knowledge Graphen zu gew&auml;hrleisten, ist die Erstellung eines gemeinsamen Minimal-Objekt-Metadatensets (N4O MMDS) und einer dazugeh&ouml;rigen Objekt-Ontologie (N4O OO). Diese wird in NFDI4Objects in einer Temporary Working Group (TWG) erfolgen. In den Bereichen der Sammlungen sind Austauschformate wie LIDO und die Minimaldatensatz-Empfehlung f&uuml;r Museen und Sammlungen der DDB bereits implementiert und m&uuml;ssen f&uuml;r die heterogenen Kontexte und Daten von NFDI4Objects noch angepasst werden. Die N4O OO ist eine RDF-Repr&auml;sentation (Basis f&uuml;r Linked Open Data) des Metadatensets und basiert u.A. auf CIDOC-CRM,&nbsp; schema.org, PROV-O. Hier kann die LADO-Ontologie des LEIZA eine Basis bieten. Der N4O MMDS und die N4O OO bilden den Objektzyklus, der sukzessive durch die NFDI4Objects Task Areas mit den Aufgaben documenting, collecting, analysing und protecting mit Informationen angereichert wird, ab. Diese Strukturen werden genutzt, da der Datenfluss in den Knowledge Graphen des Konsortiums LIDO/XML und RDF vorsieht (Abb. 1). Kleine FAIRification Tools wie das SPARQLing Unicorn Plugin, und das SPARQL Unicorn Ontology Documentation Tool k&ouml;nnen zudem dabei helfen, die f&uuml;r den Knowledge Graphen ben&ouml;tigten RDF-Daten zu visualisieren und f&uuml;r den Menschen lesbar bereitzustellen.</p>\n<p>Dieser Vortrag nimmt existierende Beispiele aus der Arch&auml;ologie (z.B. Irish Ogham Stones, Samian Research, ARS3D, NAVISone, Brandenburg 5000 BC, &hellip;), den Geowissenschaften (z.B. Campanian Ignimbrite), sowie aus dem Sammlungskontext (z.B. Teilbest&auml;nde aus Goethes heterogenen Sammlungen an der Klassik Stiftung Weimar).&nbsp; Anhand dieser soll aufgezeigt werden, wo die Gemeinsamkeiten und Unterschiede der Daten, aber auch wo die Herausforderungen bei der Erstellung einer &uuml;bergreifenden, generischen Struktur zum Datenaustausch und Aufbau eines Knowledge Graphen liegen.</p>\n<p>Die LOD der Irish Ogham Stones basieren auf der Ogham Ontology, die u.A. CIDOC-CRM, SKOS, FOAF, GeoSPARQL und PROV-O als Grundlage nimmt. Die RDF-Modellierungen von Samian Research, ARS3D, NAVISone und Brandenburg 5000 BC bilden eine Teilmenge der LADO Ontologie. Diese Ontologie entwickelte sich aus der &ldquo;Ogham Ontology&rdquo; und basiert daher auf den gleichen Grunds&auml;tzen und Basis-Ontologien. Die Campanian Ignimbrite Daten basieren auf der &ldquo;Fuzzy Spatial Locations Ontology&rdquo;, welche wiederum auf u.A. auf CIDOC-CRM und schema.org basiert. Die Daten der Klassik Stiftung Weimar werden hingegen in einer relationalen Museumsdatenbank erfasst, die beim Datenexport u. a. das Metadatenschema LIDO ausgibt.</p>\n<p>Zudem wird aufgezeigt, wie man sich aktiv an der TWG zur Entwicklung einer N4O Objects Ontology (N4O OO) und eines Minimal Metadaten-Set (N4O MMDS) beteiligen kann.</p>",
+    "doi": "10.5281/zenodo.13364681",
+    "journal": {
+      "issue": "4",
+      "pages": "#13",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CAA-DE",
+      "dates": "05-06 September 2024",
+      "place": "Historisches Seminar der Universität Münster",
+      "session": "Nachhaltige Forschung",
+      "title": "CAA Deutschland-Workshop 2024",
+      "url": "https://www.uni-muenster.de/UrFruehGeschichte/caa2024.html"
+    },
+    "publication_date": "2024-09-05",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13364680"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken"
+  },
+  "modified": "2024-09-09T15:12:17.087311+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13364681",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken",
+  "updated": "2024-09-09T15:12:17.087311+00:00"
+}

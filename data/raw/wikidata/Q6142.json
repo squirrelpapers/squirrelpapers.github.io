@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 52.2,
+    "lon": 12.75
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Landkreis in Brandenburg, Deutschland",
+    "en": "district in Brandenburg state, Germany"
+  },
+  "id": "Q6142",
+  "instance_of": [
+    "Q106517174",
+    "Q61793460"
+  ],
+  "labels": {
+    "de": "Landkreis Potsdam-Mittelmark",
+    "en": "Potsdam-Mittelmark District"
+  }
+}

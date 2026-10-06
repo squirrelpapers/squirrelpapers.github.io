@@ -1,0 +1,61 @@
+{
+  "answers": {
+    "Toscana-Saal der Residenz Würzburg [de]": [],
+    "Toscana-Saal der Residenz Würzburg [en]": [],
+    "Würzburg [de]": [
+      {
+        "description": "city in the region of Franconia, Northern Bavaria, Germany",
+        "id": "Q2999",
+        "label": "Würzburg"
+      },
+      {
+        "description": "family name",
+        "id": "Q105991855",
+        "label": "Würzburg"
+      },
+      {
+        "description": "university in Germany",
+        "id": "Q161976",
+        "label": "University of Würzburg"
+      },
+      {
+        "description": "rural district in Lower Franconia, Bavaria, Germany",
+        "id": "Q10458",
+        "label": "Würzburg"
+      },
+      {
+        "description": "journal",
+        "id": "Q27715435",
+        "label": "Wurzburger medizinhistorische Mitteilungen"
+      }
+    ],
+    "Würzburg [en]": [
+      {
+        "description": "city in the region of Franconia, Northern Bavaria, Germany",
+        "id": "Q2999",
+        "label": "Würzburg"
+      },
+      {
+        "description": "family name",
+        "id": "Q105991855",
+        "label": "Würzburg"
+      },
+      {
+        "description": "rural district in Lower Franconia, Bavaria, Germany",
+        "id": "Q10458",
+        "label": "Würzburg"
+      },
+      {
+        "description": "family name",
+        "id": "Q37167772",
+        "label": "Wurzburg"
+      },
+      {
+        "description": "university in Germany",
+        "id": "Q161976",
+        "label": "University of Würzburg"
+      }
+    ]
+  },
+  "label": "Toscana-Saal der Residenz Würzburg"
+}

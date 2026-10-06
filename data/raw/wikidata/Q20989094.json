@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 50.716667,
+    "lon": -1.883333
+  },
+  "country": [
+    "Q145"
+  ],
+  "descriptions": {
+    "en": "former district in Dorset, England"
+  },
+  "id": "Q20989094",
+  "instance_of": [
+    "Q1006876",
+    "Q1136601",
+    "Q1137272",
+    "Q1187580",
+    "Q19953632",
+    "Q518343"
+  ],
+  "labels": {
+    "en": "Bournemouth"
+  }
+}

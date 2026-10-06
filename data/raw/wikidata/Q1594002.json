@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": -37.752,
+    "lon": 145.07
+  },
+  "country": [
+    "Q408"
+  ],
+  "descriptions": {
+    "de": "Stadtteil von Melbourne",
+    "en": "suburb of Melbourne, Victoria, Australia"
+  },
+  "id": "Q1594002",
+  "instance_of": [
+    "Q188509",
+    "Q45242174"
+  ],
+  "labels": {
+    "de": "Melbourne-Heidelberg",
+    "en": "Heidelberg"
+  }
+}

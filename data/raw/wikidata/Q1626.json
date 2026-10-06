@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 53.550278,
+    "lon": 9.994167
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Bezirk in Hamburg",
+    "en": "district of Hamburg, Germany"
+  },
+  "id": "Q1626",
+  "instance_of": [
+    "Q278976"
+  ],
+  "labels": {
+    "de": "Hamburg-Mitte",
+    "en": "Hamburg-Mitte"
+  }
+}

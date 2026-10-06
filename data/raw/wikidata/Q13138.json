@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 42.351114,
+    "lon": 14.167428
+  },
+  "country": [
+    "Q38"
+  ],
+  "descriptions": {
+    "de": "italienische Gemeinde und Provinzhauptstadt in den Abruzzen",
+    "en": "Italian comune"
+  },
+  "id": "Q13138",
+  "instance_of": [
+    "Q747074"
+  ],
+  "labels": {
+    "de": "Chieti",
+    "en": "Chieti"
+  }
+}

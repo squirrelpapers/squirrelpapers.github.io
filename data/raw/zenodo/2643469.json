@@ -1,0 +1,128 @@
+{
+  "conceptdoi": "10.5281/zenodo.2643469",
+  "conceptrecid": "2643469",
+  "created": "2019-04-17T13:23:34.885287+00:00",
+  "doi": "10.5281/zenodo.2643470",
+  "doi_url": "https://doi.org/10.5281/zenodo.2643470",
+  "files": [
+    {
+      "checksum": "md5:5c609a8bf83b5d875ed1b775544ec694",
+      "id": "7cdce2d5-b10f-4155-ab65-c6e0bd061df1",
+      "key": "spheresevendata.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/2643470/files/spheresevendata.pdf/content"
+      },
+      "size": 5451167
+    }
+  ],
+  "id": 2643470,
+  "links": {
+    "access": "https://zenodo.org/api/records/2643470/access",
+    "access_grants": "https://zenodo.org/api/records/2643470/access/grants",
+    "access_links": "https://zenodo.org/api/records/2643470/access/links",
+    "access_request": "https://zenodo.org/api/records/2643470/access/request",
+    "access_users": "https://zenodo.org/api/records/2643470/access/users",
+    "archive": "https://zenodo.org/api/records/2643470/files-archive",
+    "archive_media": "https://zenodo.org/api/records/2643470/media-files-archive",
+    "communities": "https://zenodo.org/api/records/2643470/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/2643470/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.2643470",
+    "draft": "https://zenodo.org/api/records/2643470/draft",
+    "file_modification": "https://zenodo.org/api/records/2643470/file-modification",
+    "files": "https://zenodo.org/api/records/2643470/files",
+    "latest": "https://zenodo.org/api/records/2643470/versions/latest",
+    "latest_html": "https://zenodo.org/records/2643470/latest",
+    "media_files": "https://zenodo.org/api/records/2643470/media-files",
+    "parent": "https://zenodo.org/api/records/2643469",
+    "parent_doi": "https://doi.org/10.5281/zenodo.2643469",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2643469",
+    "parent_html": "https://zenodo.org/records/2643469",
+    "preview_html": "https://zenodo.org/records/2643470?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/2643470/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/2643470/request-deletion",
+    "requests": "https://zenodo.org/api/records/2643470/requests",
+    "reserve_doi": "https://zenodo.org/api/records/2643470/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/2643470",
+    "self_doi": "https://doi.org/10.5281/zenodo.2643470",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2643470",
+    "self_html": "https://zenodo.org/records/2643470",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:2643470/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:2643470/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:2643470:spheresevendata.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:2643470:spheresevendata.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:2643470:spheresevendata.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:2643470:spheresevendata.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:2643470:spheresevendata.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:2643470:spheresevendata.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/2643470/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>The world of data modelling, publishing and sharing has changed rapidly in the last years. Starting from the invention of<br>\nthe World Wide Web in 1989 by Sir Tim Berners-Lee this Web is on an evolution to the so called Web 4.0. Before we will<br>\nreach that we have to ll the Semantic Web as part of the Web 3.0 with resources and research content. Therefore the 5 star<br>\nopen data principles, the Linked Open Data principles, the 5 star LOUD principles and the FAIR principles are necessary. I<br>\nwill merge all of that principles in the so called Sphere 7 Data principles, described in this paper.</p>",
+    "doi": "10.5281/zenodo.2643470",
+    "imprint": {
+      "isbn": "10.5281/zenodo.2643727",
+      "place": "Mainz, Germany"
+    },
+    "keywords": [
+      "Linked Data",
+      "Linked Open Data",
+      "Five Star Data",
+      "FAIR Data",
+      "Semantic Web"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2019-04-17",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.2643727",
+        "relation": "isReferencedBy",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "2643469"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "workingpaper",
+      "title": "Working paper",
+      "type": "publication"
+    },
+    "title": "Sphere 7 Data: LOUD and FAIR Data for the Research Community"
+  },
+  "modified": "2024-07-24T20:57:42.559861+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "2643470",
+  "revision": 11,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Sphere 7 Data: LOUD and FAIR Data for the Research Community",
+  "updated": "2024-07-24T20:57:42.559861+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "coordinates": {
+    "lat": 51.483333,
+    "lon": 7.216667
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "kreisfreie Großstadt im Regierungsbezirk Arnsberg in Nordrhein-Westfalen, Deutschland",
+    "en": "city in North Rhine-Westphalia, Germany"
+  },
+  "id": "Q2103",
+  "instance_of": [
+    "Q1187811",
+    "Q1549591",
+    "Q253030",
+    "Q42744322",
+    "Q707813",
+    "Q85635630"
+  ],
+  "labels": {
+    "de": "Bochum",
+    "en": "Bochum"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 41.386667,
+    "lon": 2.163889
+  },
+  "country": [
+    "Q29"
+  ],
+  "descriptions": {
+    "de": "staatliche Forschungsuniversität in Spanien",
+    "en": "public research university located in Barcelona, Catalonia"
+  },
+  "id": "Q219615",
+  "instance_of": [
+    "Q2085381",
+    "Q45400320",
+    "Q5341295",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Universität Barcelona",
+    "en": "University of Barcelona"
+  }
+}

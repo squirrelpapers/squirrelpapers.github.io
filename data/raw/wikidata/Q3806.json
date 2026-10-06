@@ -1,0 +1,26 @@
+{
+  "coordinates": {
+    "lat": 48.52,
+    "lon": 9.055556
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Stadt in Baden-Württemberg, Deutschland",
+    "en": "town in central Baden-Württemberg, Germany"
+  },
+  "id": "Q3806",
+  "instance_of": [
+    "Q116621859",
+    "Q1187811",
+    "Q134626",
+    "Q19816359",
+    "Q253030",
+    "Q42744322"
+  ],
+  "labels": {
+    "de": "Tübingen",
+    "en": "Tübingen"
+  }
+}

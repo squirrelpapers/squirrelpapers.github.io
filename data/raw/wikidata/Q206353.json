@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 36.283889,
+    "lon": -88.698333
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Ort im US-Bundesstaat Tennessee",
+    "en": "town in Tennessee, United States"
+  },
+  "id": "Q206353",
+  "instance_of": [
+    "Q15127012"
+  ],
+  "labels": {
+    "de": "Dresden",
+    "en": "Dresden"
+  }
+}

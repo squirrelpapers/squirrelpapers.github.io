@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 51.488615,
+    "lon": 7.21387
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "U-Bahnhof in Bochum"
+  },
+  "id": "Q20170786",
+  "instance_of": [
+    "Q2175765",
+    "Q22808403"
+  ],
+  "labels": {
+    "de": "U-Bahnhof Deutsches Bergbau-Museum",
+    "en": "U-Bahnhof Deutsches Bergbau-Museum"
+  }
+}

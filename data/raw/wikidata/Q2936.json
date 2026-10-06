@@ -1,0 +1,27 @@
+{
+  "coordinates": {
+    "lat": 53.143889,
+    "lon": 8.213889
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "kreisfreie Großstadt in Niedersachsen, Deutschland",
+    "en": "independent city in Lower Saxony, Germany"
+  },
+  "id": "Q2936",
+  "instance_of": [
+    "Q1187811",
+    "Q133997300",
+    "Q1549591",
+    "Q22865",
+    "Q253030",
+    "Q42744322",
+    "Q85635929"
+  ],
+  "labels": {
+    "de": "Oldenburg",
+    "en": "Oldenburg"
+  }
+}

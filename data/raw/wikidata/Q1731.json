@@ -1,0 +1,32 @@
+{
+  "coordinates": {
+    "lat": 51.049329,
+    "lon": 13.738144
+  },
+  "country": [
+    "Q1206012",
+    "Q12548",
+    "Q150981",
+    "Q153015",
+    "Q156199",
+    "Q16957",
+    "Q170180",
+    "Q183",
+    "Q55300"
+  ],
+  "descriptions": {
+    "de": "Landeshauptstadt des Freistaates Sachsen, Deutschland",
+    "en": "capital city of the Free State of Saxony in Germany"
+  },
+  "id": "Q1731",
+  "instance_of": [
+    "Q1549591",
+    "Q253030",
+    "Q42744322",
+    "Q61708099"
+  ],
+  "labels": {
+    "de": "Dresden",
+    "en": "Dresden"
+  }
+}

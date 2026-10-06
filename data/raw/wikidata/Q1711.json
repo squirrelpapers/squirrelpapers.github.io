@@ -1,0 +1,33 @@
+{
+  "coordinates": {
+    "lat": 52.400931,
+    "lon": 13.05914
+  },
+  "country": [
+    "Q148499",
+    "Q157367",
+    "Q16957",
+    "Q183",
+    "Q27306",
+    "Q41304",
+    "Q43287",
+    "Q55300",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt des Landes Brandenburg, kreisfreie Stadt",
+    "en": "capital city of the German state of Brandenburg"
+  },
+  "id": "Q1711",
+  "instance_of": [
+    "Q1187811",
+    "Q14784328",
+    "Q1549591",
+    "Q42744322",
+    "Q61793478"
+  ],
+  "labels": {
+    "de": "Potsdam",
+    "en": "Potsdam"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 22.604167,
+    "lon": 88.378333
+  },
+  "country": [
+    "Q668"
+  ],
+  "descriptions": {
+    "de": "Krankenhaus",
+    "en": "Asia's first Private medical school in Kolkata, West Bengal (Now Public)"
+  },
+  "id": "Q7152833",
+  "instance_of": [
+    "Q17072837",
+    "Q7705274"
+  ],
+  "labels": {
+    "en": "R. G. Kar Medical College and Hospital"
+  }
+}

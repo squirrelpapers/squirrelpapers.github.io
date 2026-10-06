@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 38.0025,
+    "lon": 23.6749
+  },
+  "country": [
+    "Q41"
+  ],
+  "descriptions": {
+    "de": "Universität in Griechenland",
+    "en": "university in Egaleo (Athens), Greece"
+  },
+  "id": "Q50359480",
+  "instance_of": [
+    "Q3918"
+  ],
+  "labels": {
+    "de": "Universität West-Attika",
+    "en": "University of West Attica"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "conceptdoi": "10.5281/zenodo.5779053",
+  "conceptrecid": "5779053",
+  "created": "2022-06-01T20:38:33.366952+00:00",
+  "doi": "10.5281/zenodo.6604565",
+  "doi_url": "https://doi.org/10.5281/zenodo.6604565",
+  "files": [
+    {
+      "checksum": "md5:377c21e34b818bab7289d44e9a24a97d",
+      "id": "c59749da-0da2-4a82-ad05-1fe5c2c252a3",
+      "key": "linkedpipe_losw.svg",
+      "links": {
+        "self": "https://zenodo.org/api/records/6604565/files/linkedpipe_losw.svg/content"
+      },
+      "size": 31651
+    },
+    {
+      "checksum": "md5:6ea49014a84db8fd63ae8cd3b81f0448",
+      "id": "c7d6a0d1-7ac8-4185-941a-118c9d792831",
+      "key": "linkedpipe_losw.txt",
+      "links": {
+        "self": "https://zenodo.org/api/records/6604565/files/linkedpipe_losw.txt/content"
+      },
+      "size": 1279
+    },
+    {
+      "checksum": "md5:f77e92c92824ff4562742c38ee2be762",
+      "id": "232d9a62-d93f-48ad-a768-5346e847091d",
+      "key": "linkedpipe_losw2.png",
+      "links": {
+        "self": "https://zenodo.org/api/records/6604565/files/linkedpipe_losw2.png/content"
+      },
+      "size": 161939
+    },
+    {
+      "checksum": "md5:aa88af9c969cab6df59997d373dc9dd9",
+      "id": "90ce4526-50f3-4712-bfde-c0b175814277",
+      "key": "linkedpipe_losw.png",
+      "links": {
+        "self": "https://zenodo.org/api/records/6604565/files/linkedpipe_losw.png/content"
+      },
+      "size": 155541
+    }
+  ],
+  "id": 6604565,
+  "links": {
+    "access": "https://zenodo.org/api/records/6604565/access",
+    "access_grants": "https://zenodo.org/api/records/6604565/access/grants",
+    "access_links": "https://zenodo.org/api/records/6604565/access/links",
+    "access_request": "https://zenodo.org/api/records/6604565/access/request",
+    "access_users": "https://zenodo.org/api/records/6604565/access/users",
+    "archive": "https://zenodo.org/api/records/6604565/files-archive",
+    "archive_media": "https://zenodo.org/api/records/6604565/media-files-archive",
+    "communities": "https://zenodo.org/api/records/6604565/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/6604565/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.6604565",
+    "draft": "https://zenodo.org/api/records/6604565/draft",
+    "file_modification": "https://zenodo.org/api/records/6604565/file-modification",
+    "files": "https://zenodo.org/api/records/6604565/files",
+    "latest": "https://zenodo.org/api/records/6604565/versions/latest",
+    "latest_html": "https://zenodo.org/records/6604565/latest",
+    "media_files": "https://zenodo.org/api/records/6604565/media-files",
+    "parent": "https://zenodo.org/api/records/5779053",
+    "parent_doi": "https://doi.org/10.5281/zenodo.5779053",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5779053",
+    "parent_html": "https://zenodo.org/records/5779053",
+    "preview_html": "https://zenodo.org/records/6604565?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/6604565/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/6604565/request-deletion",
+    "requests": "https://zenodo.org/api/records/6604565/requests",
+    "reserve_doi": "https://zenodo.org/api/records/6604565/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/6604565",
+    "self_doi": "https://doi.org/10.5281/zenodo.6604565",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6604565",
+    "self_html": "https://zenodo.org/records/6604565",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:6604565/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:6604565/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:6604565:linkedpipe_losw2.png/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:6604565:linkedpipe_losw2.png/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:6604565:linkedpipe_losw2.png/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:6604565:linkedpipe_losw2.png/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:6604565:linkedpipe_losw2.png/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:6604565:linkedpipe_losw2.png/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/6604565/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "i3mainz",
+        "name": "Timo Homburg",
+        "orcid": "0000-0002-9499-5840"
+      },
+      {
+        "affiliation": "ÖAW",
+        "name": "Martina Trognitz",
+        "orcid": "0000-0003-0485-6861"
+      }
+    ],
+    "description": "<p>A Linked Pipe for Linked Open Samian Ware</p>\n\n<p>&nbsp;</p>",
+    "doi": "10.5281/zenodo.6604565",
+    "journal": {
+      "issue": "2",
+      "pages": "No. 3",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2021-12-14",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "5779053"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "title": "Linked Pipe: Linked Open Samian Ware"
+  },
+  "modified": "2024-07-16T16:25:19.403345+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "6604565",
+  "revision": 7,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Linked Pipe: Linked Open Samian Ware",
+  "updated": "2024-07-16T16:25:19.403345+00:00"
+}

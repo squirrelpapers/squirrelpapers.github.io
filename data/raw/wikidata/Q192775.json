@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 55.872222,
+    "lon": -4.288056
+  },
+  "country": [
+    "Q145"
+  ],
+  "descriptions": {
+    "de": "Universität im Schottland",
+    "en": "university in Glasgow, Scotland, United Kingdom, founded in 1451"
+  },
+  "id": "Q192775",
+  "instance_of": [
+    "Q163740",
+    "Q16519632",
+    "Q45400320",
+    "Q62078547"
+  ],
+  "labels": {
+    "de": "Universität Glasgow",
+    "en": "University of Glasgow"
+  }
+}

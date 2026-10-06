@@ -1,0 +1,120 @@
+{
+  "conceptdoi": "10.5281/zenodo.3688792",
+  "conceptrecid": "3688792",
+  "created": "2020-02-26T21:11:56.721057+00:00",
+  "doi": "10.5281/zenodo.3688793",
+  "doi_url": "https://doi.org/10.5281/zenodo.3688793",
+  "files": [
+    {
+      "checksum": "md5:bda4d927a3fa805295da11241ac3282e",
+      "id": "357a50e5-2589-4f14-8648-02ad2106fde8",
+      "key": "2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/3688793/files/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf/content"
+      },
+      "size": 1374159
+    }
+  ],
+  "id": 3688793,
+  "links": {
+    "access": "https://zenodo.org/api/records/3688793/access",
+    "access_grants": "https://zenodo.org/api/records/3688793/access/grants",
+    "access_links": "https://zenodo.org/api/records/3688793/access/links",
+    "access_request": "https://zenodo.org/api/records/3688793/access/request",
+    "access_users": "https://zenodo.org/api/records/3688793/access/users",
+    "archive": "https://zenodo.org/api/records/3688793/files-archive",
+    "archive_media": "https://zenodo.org/api/records/3688793/media-files-archive",
+    "communities": "https://zenodo.org/api/records/3688793/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/3688793/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.3688793",
+    "draft": "https://zenodo.org/api/records/3688793/draft",
+    "file_modification": "https://zenodo.org/api/records/3688793/file-modification",
+    "files": "https://zenodo.org/api/records/3688793/files",
+    "latest": "https://zenodo.org/api/records/3688793/versions/latest",
+    "latest_html": "https://zenodo.org/records/3688793/latest",
+    "media_files": "https://zenodo.org/api/records/3688793/media-files",
+    "parent": "https://zenodo.org/api/records/3688792",
+    "parent_doi": "https://doi.org/10.5281/zenodo.3688792",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3688792",
+    "parent_html": "https://zenodo.org/records/3688792",
+    "preview_html": "https://zenodo.org/records/3688793?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/3688793/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/3688793/request-deletion",
+    "requests": "https://zenodo.org/api/records/3688793/requests",
+    "reserve_doi": "https://zenodo.org/api/records/3688793/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/3688793",
+    "self_doi": "https://doi.org/10.5281/zenodo.3688793",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3688793",
+    "self_html": "https://zenodo.org/records/3688793",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3688793/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3688793/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:3688793:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:3688793:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:3688793:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:3688793:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:3688793:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:3688793:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/3688793/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers (RSE)",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Linked Pipes! Let us feed the hungry squirrels!</p>",
+    "doi": "10.5281/zenodo.3688793",
+    "keywords": [
+      "Linked Data",
+      "Linked Pipes"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "LPV",
+      "dates": "11.12.-13.12.2019",
+      "place": "Bordeaux, France",
+      "title": "Linked Pasts V",
+      "url": "https://linkedpasts5.sciencesconf.org/"
+    },
+    "publication_date": "2019-12-11",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "3688792"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "#LinkedPipes"
+  },
+  "modified": "2024-07-22T12:15:15.127235+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "3688793",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "#LinkedPipes",
+  "updated": "2024-07-22T12:15:15.127235+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Fregatte der Bremen-Klasse (F122)",
+    "en": "1981 Bremen-class frigate"
+  },
+  "id": "Q937843",
+  "instance_of": [
+    "Q161705",
+    "Q402092"
+  ],
+  "labels": {
+    "de": "Fregatte Köln",
+    "en": "Köln"
+  }
+}

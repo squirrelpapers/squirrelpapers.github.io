@@ -1,0 +1,154 @@
+{
+  "conceptdoi": "10.5281/zenodo.3786814",
+  "conceptrecid": "3786814",
+  "created": "2024-03-04T20:23:56.431435+00:00",
+  "doi": "10.5281/zenodo.10779466",
+  "doi_url": "https://doi.org/10.5281/zenodo.10779466",
+  "files": [
+    {
+      "checksum": "md5:33a93dd992939815fd40af7d32ba0cd5",
+      "id": "699d1850-0e92-4597-9836-89a186788681",
+      "key": "sparqlunicorn/sparqlunicornGoesGIS-v0.17.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/10779466/files/sparqlunicorn/sparqlunicornGoesGIS-v0.17.zip/content"
+      },
+      "size": 18758781
+    }
+  ],
+  "id": 10779466,
+  "links": {
+    "access": "https://zenodo.org/api/records/10779466/access",
+    "access_grants": "https://zenodo.org/api/records/10779466/access/grants",
+    "access_links": "https://zenodo.org/api/records/10779466/access/links",
+    "access_request": "https://zenodo.org/api/records/10779466/access/request",
+    "access_users": "https://zenodo.org/api/records/10779466/access/users",
+    "archive": "https://zenodo.org/api/records/10779466/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10779466/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10779466/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10779466/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10779466",
+    "draft": "https://zenodo.org/api/records/10779466/draft",
+    "file_modification": "https://zenodo.org/api/records/10779466/file-modification",
+    "files": "https://zenodo.org/api/records/10779466/files",
+    "latest": "https://zenodo.org/api/records/10779466/versions/latest",
+    "latest_html": "https://zenodo.org/records/10779466/latest",
+    "media_files": "https://zenodo.org/api/records/10779466/media-files",
+    "parent": "https://zenodo.org/api/records/3786814",
+    "parent_doi": "https://doi.org/10.5281/zenodo.3786814",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3786814",
+    "parent_html": "https://zenodo.org/records/3786814",
+    "preview_html": "https://zenodo.org/records/10779466?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10779466/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10779466/request-deletion",
+    "requests": "https://zenodo.org/api/records/10779466/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10779466/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10779466",
+    "self_doi": "https://doi.org/10.5281/zenodo.10779466",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10779466",
+    "self_html": "https://zenodo.org/records/10779466",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10779466/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10779466/sequence/default",
+    "versions": "https://zenodo.org/api/records/10779466/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Homburg, Timo",
+        "orcid": "0000-0002-9499-5840"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "SPARQLing Unicorn"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS",
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      },
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ]
+    },
+    "description": "This plugin adds a GeoJSON layer from SPARQL endpoint queries.",
+    "doi": "10.5281/zenodo.10779466",
+    "journal": {
+      "issue": "2",
+      "pages": "#1",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "keywords": [
+      "Linked Open Data",
+      "Wikidata",
+      "GeoSPARQL"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2024-03-04",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS/tree/v0.17",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 13,
+          "is_last": false,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "3786814"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "SPARQLing Unicorn QGIS Plugin",
+    "version": "v0.17"
+  },
+  "modified": "2024-03-04T20:32:51.221417+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "10779466",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "SPARQLing Unicorn QGIS Plugin",
+  "updated": "2024-03-04T20:32:51.221417+00:00"
+}

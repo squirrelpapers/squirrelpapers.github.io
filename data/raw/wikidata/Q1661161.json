@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 48.52492,
+    "lon": 9.06162
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "internationale Bibliographie für Theologie und Religionswissenschaft und Portal des Fachinformationsdienstes Theologie",
+    "en": "International Bibliography for Theology and Religious Studies and web portal of the Specialised Information Service Theology"
+  },
+  "id": "Q1661161",
+  "instance_of": [
+    "Q116485604",
+    "Q1789476",
+    "Q2527949"
+  ],
+  "labels": {
+    "de": "Index Theologicus",
+    "en": "Index Theologicus"
+  }
+}

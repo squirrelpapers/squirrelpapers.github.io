@@ -1,0 +1,147 @@
+{
+  "conceptdoi": "10.5281/zenodo.18726192",
+  "conceptrecid": "18726192",
+  "created": "2026-03-01T19:35:55.671313+00:00",
+  "doi": "10.5281/zenodo.18726193",
+  "doi_url": "https://doi.org/10.5281/zenodo.18726193",
+  "files": [
+    {
+      "checksum": "md5:bff6c54d87374db849016d6be7d0219b",
+      "id": "3a5c095d-c349-40d4-9163-41da2a540063",
+      "key": "Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/18726193/files/Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf/content"
+      },
+      "size": 27306214
+    }
+  ],
+  "id": 18726193,
+  "links": {
+    "access": "https://zenodo.org/api/records/18726193/access",
+    "access_grants": "https://zenodo.org/api/records/18726193/access/grants",
+    "access_links": "https://zenodo.org/api/records/18726193/access/links",
+    "access_request": "https://zenodo.org/api/records/18726193/access/request",
+    "access_users": "https://zenodo.org/api/records/18726193/access/users",
+    "archive": "https://zenodo.org/api/records/18726193/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18726193/media-files-archive",
+    "communities": "https://zenodo.org/api/records/18726193/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18726193/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.18726193",
+    "draft": "https://zenodo.org/api/records/18726193/draft",
+    "file_modification": "https://zenodo.org/api/records/18726193/file-modification",
+    "files": "https://zenodo.org/api/records/18726193/files",
+    "latest": "https://zenodo.org/api/records/18726193/versions/latest",
+    "latest_html": "https://zenodo.org/records/18726193/latest",
+    "media_files": "https://zenodo.org/api/records/18726193/media-files",
+    "parent": "https://zenodo.org/api/records/18726192",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18726192",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18726192",
+    "parent_html": "https://zenodo.org/records/18726192",
+    "preview_html": "https://zenodo.org/records/18726193?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/18726193/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/18726193/request-deletion",
+    "requests": "https://zenodo.org/api/records/18726193/requests",
+    "reserve_doi": "https://zenodo.org/api/records/18726193/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/18726193",
+    "self_doi": "https://doi.org/10.5281/zenodo.18726193",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18726193",
+    "self_html": "https://zenodo.org/records/18726193",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18726193/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18726193/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:18726193:Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:18726193:Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:18726193:Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:18726193:Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:18726193:Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:18726193:Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/18726193/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrel-fdo"
+      },
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian"
+      },
+      {
+        "affiliation": null,
+        "name": "Kasten, Megan Nichole"
+      },
+      {
+        "affiliation": null,
+        "name": "Distel, Anne-Karoline"
+      },
+      {
+        "affiliation": null,
+        "name": "Thiery, Peter"
+      }
+    ],
+    "description": "<blockquote>\n<p>Die dreidimensionale Erfassung und digitale Dokumentation fr&uuml;hmittelalterlicher Inschriften-, Skulptur- und Kulturobjekte er&ouml;ffnet neue Perspektiven f&uuml;r Forschung, Vermittlung und Erhaltung. Am Beispiel der irischen und schottischen Ogham-Steine, der Govan-Artefakte in Glasgow sowie der irischen Holy Wells werden unterschiedliche Aufnahmemethoden vorgestellt und verglichen &ndash; von citizen-science-basierten Structure-from-Motion-Erfassungen (z. B. mit der KIRI-Engine-App auf dem Smartphone) &uuml;ber klassische Photogrammetrie bis hin zu hochaufl&ouml;senden Streifenlichtprojektionsscans professioneller Projekte wie Ogham in 3D und OG(H)AM. Erg&auml;nzend werden 3D-Modelle aus &ouml;ffentlichen Plattformen (z. B. Sketchfab) sowie von Citizen Scientists systematisch dokumentierte Holy Wells einbezogen, die das Potenzial partizipativer Datenerhebung verdeutlichen.</p>\n<p>Im Zentrum steht die Frage, wie diese heterogenen 3D-Modelle &ndash; mit unterschiedlichen Sensoriken, Granularit&auml;ten und Repositorien &ndash; als FAIR Digital Objects (FDOs) beschrieben, identifiziert und in ein f&ouml;deriertes semantisches Wissens&ouml;kosystem eingebunden werden k&ouml;nnen. Vorgestellt werden Metadaten- und Provenienzmodelle auf Basis von RDF/PROV-O und des Object Core Metadata Profile (OCMDP), die technische Erfassungsparameter (Methode, Aufl&ouml;sung, Software), Qualit&auml;t und Bearbeitung, rechtliche Rahmenbedingungen (Lizenz, Rechte) sowie r&auml;umliche und kulturelle Kontextinformationen (Ort, Toponym, Denkmalkategorie, Identifikatoren) erfassen.</p>\n<p>Der Beitrag zeigt, wie sich aus verteilten Quellen &ndash; etwa Sketchfab, Wikidata/Wikibase, institutionellen Datenbanken und Triplestores &ndash; ein federated Knowledge Graph bilden l&auml;sst. Durch Ontologie-Alignment und persistente Identifikatoren werden 3D-Daten zu nachnutzbaren Forschungsobjekten, die interdisziplin&auml;r ausgewertet werden k&ouml;nnen, etwa f&uuml;r pal&auml;ographische Analysen (z. B. Groove Analysis an Ogham- und Govan-Steinen) oder r&auml;umliche Studien zu Holy-Wells-Netzwerken und Kulturlandschaften.</p>\n<p>Ein besonderer Fokus liegt auf Citizen Science: Freiwillige erweitern den 3D-Korpus durch smartphonebasierte SfM-Modelle erheblich. &Uuml;ber FAIR-konforme Metadaten, Provenienzketten und Qualit&auml;tssicherung k&ouml;nnen diese Beitr&auml;ge gleichwertig in wissenschaftliche Infrastrukturen integriert werden, ohne ihre Eigenst&auml;ndigkeit zu verlieren.</p>\n<p>Damit verbindet der Vortrag 3D-Erfassung, semantische Modellierung und partizipative Datenerhebung zu einem integrativen Ansatz f&uuml;r nachhaltiges digitales Kulturerbe &ndash; und zeigt, wie selbst heterogene 3D-Daten (Ogham, Govan, Holy Wells) interoperabel, offen und zukunftsf&auml;hig in Forschung und Vermittlung eingebunden werden k&ouml;nnen.</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.18726193",
+    "journal": {
+      "issue": "3",
+      "pages": "§1",
+      "title": "Squirrel Papers",
+      "volume": "8"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "25-26 Feb 2026",
+      "place": "HTW Dresden",
+      "session": "AG3D",
+      "title": "Oldenburger 3D Tage 2026 (zu Gast in Dresden)",
+      "url": "https://www.conftool.net/oldenburger-3d-tage-2026/sessions.php"
+    },
+    "publication_date": "2026-02-26",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "18726192"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Cultural Heritage als FAIR Digital Object? 3D-Erfassung und semantische Vernetzung von Kulturerbe in Irland und Schottland"
+  },
+  "modified": "2026-03-01T19:35:56.316790+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "18726193",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Cultural Heritage als FAIR Digital Object? 3D-Erfassung und semantische Vernetzung von Kulturerbe in Irland und Schottland",
+  "updated": "2026-03-01T19:35:56.316790+00:00"
+}

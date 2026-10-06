@@ -1,0 +1,37 @@
+{
+  "coordinates": {
+    "lat": 49.409358,
+    "lon": 8.694724
+  },
+  "country": [
+    "Q183",
+    "Q186320",
+    "Q22880",
+    "Q2415901",
+    "Q41304",
+    "Q43287",
+    "Q637238",
+    "Q690821",
+    "Q703265",
+    "Q713750",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Großstadt in Baden-Württemberg, Deutschland",
+    "en": "large city in Baden-Württemberg, Germany"
+  },
+  "id": "Q2966",
+  "instance_of": [
+    "Q1180262",
+    "Q134626",
+    "Q1547289",
+    "Q1549591",
+    "Q2327515",
+    "Q253030",
+    "Q42744322"
+  ],
+  "labels": {
+    "de": "Heidelberg",
+    "en": "Heidelberg"
+  }
+}

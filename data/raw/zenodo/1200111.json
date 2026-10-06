@@ -1,0 +1,139 @@
+{
+  "conceptdoi": "10.5281/zenodo.1200111",
+  "conceptrecid": "1200111",
+  "created": "2018-03-17T12:42:39.317672+00:00",
+  "doi": "10.5281/zenodo.1202168",
+  "doi_url": "https://doi.org/10.5281/zenodo.1202168",
+  "files": [
+    {
+      "checksum": "md5:c758e8518e7b5a0ce1a872cc2500328c",
+      "id": "aea07a63-0a35-418b-bb64-ff7a01c3a018",
+      "key": "2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/1202168/files/2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf/content"
+      },
+      "size": 4744499
+    }
+  ],
+  "id": 1202168,
+  "links": {
+    "access": "https://zenodo.org/api/records/1202168/access",
+    "access_grants": "https://zenodo.org/api/records/1202168/access/grants",
+    "access_links": "https://zenodo.org/api/records/1202168/access/links",
+    "access_request": "https://zenodo.org/api/records/1202168/access/request",
+    "access_users": "https://zenodo.org/api/records/1202168/access/users",
+    "archive": "https://zenodo.org/api/records/1202168/files-archive",
+    "archive_media": "https://zenodo.org/api/records/1202168/media-files-archive",
+    "communities": "https://zenodo.org/api/records/1202168/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/1202168/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.1202168",
+    "draft": "https://zenodo.org/api/records/1202168/draft",
+    "file_modification": "https://zenodo.org/api/records/1202168/file-modification",
+    "files": "https://zenodo.org/api/records/1202168/files",
+    "latest": "https://zenodo.org/api/records/1202168/versions/latest",
+    "latest_html": "https://zenodo.org/records/1202168/latest",
+    "media_files": "https://zenodo.org/api/records/1202168/media-files",
+    "parent": "https://zenodo.org/api/records/1200111",
+    "parent_doi": "https://doi.org/10.5281/zenodo.1200111",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1200111",
+    "parent_html": "https://zenodo.org/records/1200111",
+    "preview_html": "https://zenodo.org/records/1202168?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/1202168/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/1202168/request-deletion",
+    "requests": "https://zenodo.org/api/records/1202168/requests",
+    "reserve_doi": "https://zenodo.org/api/records/1202168/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/1202168",
+    "self_doi": "https://doi.org/10.5281/zenodo.1202168",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1202168",
+    "self_html": "https://zenodo.org/records/1202168",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:1202168/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:1202168/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:1202168:2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:1202168:2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:1202168:2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:1202168:2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:1202168:2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:1202168:2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/1202168/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "linkedgeodesy"
+      },
+      {
+        "id": "mainzed"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum Mainz",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum Mainz",
+        "name": "Allard Mees"
+      }
+    ],
+    "description": "<p>The Linked Data Cloud is full of controlled resources, which in fact quickly run out of control. Firstly, each resource collection, e.g. a thesaurus, is cooking its own soup related to its research context. Secondly, conceptualisation of LOD assumes standardised data, but in reality, only generic concepts or real instances exist. Thirdly, archaeological items are usually related to generic instances in the LOD cloud, based on their object orientated nature. Describing these relations by modelling archaeological assumptions causes ambiguities which have to be tamed to guarantee data quality for reuse, demonstrated in three examples:</p>\n\n<p>(1) Trying to link a triangular &ldquo;lateen sail&rdquo; into the LOD cloud, a problem known from the NAVIS II ancient ship depictions database, reveals that each repository has completely different &ldquo;hidden assumptions&rdquo; in its hierarchies with respect to their scientific domain. Are the usually SKOS based relations able to solve the challenge to model also the degree of doubt? Are different methods required?</p>\n\n<p>(2) Trying to map pot fragments of Gaulish Terra Sigillata to historically defined concepts of &ldquo;types&rdquo; and &ldquo;service families&rdquo;, or aligning these typologies, ends up in modelling doubtful assumptions. Can metrics be used to define &ldquo;type&rdquo; definitions? How can an already existing online research community help?</p>\n\n<p>(3) Setting up a meta-index for aligning various distributed databases at the RGZM by keywords and linking into the LOD Cloud is subject to uncertainties within the modelling of relations. As a result, this process includes dealing with the above mentioned ambiguity challenges.</p>",
+    "doi": "10.5281/zenodo.1202168",
+    "keywords": [
+      "Linked Open Data",
+      "data quality",
+      "controlled vocabulary",
+      "NAVIS ship database",
+      "Samian Research"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CAA",
+      "dates": "19.04.-23.04.2018",
+      "place": "Tübingen, Germany",
+      "session": "S22 Semantic, Guaranteeing data quality in archaeological Linked Open Data",
+      "title": "Computer Applications and Quantitative Methods in Archaeology",
+      "url": "http://2018.caaconference.org/"
+    },
+    "publication_date": "2018-03-22",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "1200111"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD"
+  },
+  "modified": "2024-08-02T18:20:57.941226+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "1202168",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD",
+  "updated": "2024-08-02T18:20:57.941226+00:00"
+}

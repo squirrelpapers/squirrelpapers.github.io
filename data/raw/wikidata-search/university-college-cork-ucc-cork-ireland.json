@@ -1,0 +1,167 @@
+{
+  "answers": {
+    "Cork [de]": [
+      {
+        "description": "city in County Cork, Munster Province, Ireland",
+        "id": "Q36647",
+        "label": "Cork"
+      },
+      {
+        "description": "county in Ireland",
+        "id": "Q162475",
+        "label": "County Cork"
+      },
+      {
+        "description": "family name",
+        "id": "Q16865761",
+        "label": "Cork"
+      },
+      {
+        "description": "material derived from the cork oak",
+        "id": "Q49444",
+        "label": "cork"
+      },
+      {
+        "description": "association football club",
+        "id": "Q932284",
+        "label": "Cork City F.C."
+      }
+    ],
+    "Cork [en]": [
+      {
+        "description": "city in County Cork, Munster Province, Ireland",
+        "id": "Q36647",
+        "label": "Cork"
+      },
+      {
+        "description": "county in Ireland",
+        "id": "Q162475",
+        "label": "County Cork"
+      },
+      {
+        "description": "family name",
+        "id": "Q16865761",
+        "label": "Cork"
+      },
+      {
+        "description": "material derived from the cork oak",
+        "id": "Q49444",
+        "label": "cork"
+      },
+      {
+        "description": "stopper used to seal wine bottles",
+        "id": "Q86511715",
+        "label": "wine cork"
+      }
+    ],
+    "UCC [de]": [
+      {
+        "description": "constituent university of the National University of Ireland",
+        "id": "Q1574185",
+        "label": "University College Cork"
+      },
+      {
+        "description": "municipality in the Brussels-Capital Region, Belgium",
+        "id": "Q203312",
+        "label": "Uccle"
+      },
+      {
+        "description": "public university in Ghana",
+        "id": "Q746079",
+        "label": "University of Cape Coast"
+      },
+      {
+        "description": "Congregational and Reformed Mainline Protestant denomination in the United States",
+        "id": "Q426316",
+        "label": "United Church of Christ"
+      },
+      {
+        "description": "Communications regulator of Uganda",
+        "id": "Q2473869",
+        "label": "Uganda Communications Commission"
+      }
+    ],
+    "UCC [en]": [
+      {
+        "description": "municipality in the Brussels-Capital Region, Belgium",
+        "id": "Q203312",
+        "label": "Uccle"
+      },
+      {
+        "description": "constituent university of the National University of Ireland",
+        "id": "Q1574185",
+        "label": "University College Cork"
+      },
+      {
+        "description": "Communications regulator of Uganda",
+        "id": "Q2473869",
+        "label": "Uganda Communications Commission"
+      },
+      {
+        "description": "public university in Ghana",
+        "id": "Q746079",
+        "label": "University of Cape Coast"
+      },
+      {
+        "description": "Congregational and Reformed Mainline Protestant denomination in the United States",
+        "id": "Q426316",
+        "label": "United Church of Christ"
+      }
+    ],
+    "University College Cork [de]": [
+      {
+        "description": "constituent university of the National University of Ireland",
+        "id": "Q1574185",
+        "label": "University College Cork"
+      },
+      {
+        "description": "faculty",
+        "id": "Q101071054",
+        "label": "University College Cork Faculty of Science"
+      },
+      {
+        "description": "former flour mill in Cork, County Cork, Ireland, now part of University College Cork campus",
+        "id": "Q55045410",
+        "label": "University College Cork, The Maltings Complex"
+      },
+      {
+        "description": "research institute",
+        "id": "Q101071033",
+        "label": "University College Cork BioSciences Institute"
+      },
+      {
+        "description": "Library of University College Cork, Ireland",
+        "id": "Q69656624",
+        "label": "UCC Library"
+      }
+    ],
+    "University College Cork [en]": [
+      {
+        "description": "constituent university of the National University of Ireland",
+        "id": "Q1574185",
+        "label": "University College Cork"
+      },
+      {
+        "description": "faculty",
+        "id": "Q101071054",
+        "label": "University College Cork Faculty of Science"
+      },
+      {
+        "description": "former flour mill in Cork, County Cork, Ireland, now part of University College Cork campus",
+        "id": "Q55045410",
+        "label": "University College Cork, The Maltings Complex"
+      },
+      {
+        "description": "research institute",
+        "id": "Q101071033",
+        "label": "University College Cork BioSciences Institute"
+      },
+      {
+        "description": "Library of University College Cork, Ireland",
+        "id": "Q69656624",
+        "label": "UCC Library"
+      }
+    ]
+  },
+  "label": "University College Cork (UCC), Cork, Ireland"
+}

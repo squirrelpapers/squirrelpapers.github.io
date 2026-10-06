@@ -1,0 +1,19 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Hochschule für angewandte Wissenschaften des Saarlandes",
+    "en": "Saarland University of Applied Sciences"
+  },
+  "id": "Q884111",
+  "instance_of": [
+    "Q1365560",
+    "Q23002037",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Hochschule für Technik und Wirtschaft des Saarlandes",
+    "en": "htw saar | Saarland University of Applied Sciences"
+  }
+}

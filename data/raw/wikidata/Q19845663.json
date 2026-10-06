@@ -1,0 +1,14 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Organisation",
+    "en": "organization"
+  },
+  "id": "Q19845663",
+  "instance_of": [
+    "Q43229"
+  ],
+  "labels": {
+    "en": "University of Vienna, Department of Pharmaceutical Chemistry, Althanstrasse 14, 1090 Vienna, Austria"
+  }
+}

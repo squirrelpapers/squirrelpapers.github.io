@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Wilhelmshaven [de]": [
+      {
+        "description": "city in Lower Saxony, Germany",
+        "id": "Q3857",
+        "label": "Wilhelmshaven"
+      },
+      {
+        "description": "Wikimedia permanent duplicate item",
+        "id": "Q32758817",
+        "label": "Wilhelmshaven"
+      },
+      {
+        "description": "municipality seat",
+        "id": "Q32067994",
+        "label": "Wilhelmshaven"
+      },
+      {
+        "description": "scrapped passenger ship",
+        "id": "Q2576230",
+        "label": "Wilhelmshaven"
+      },
+      {
+        "description": "German railway station",
+        "id": "Q15709139",
+        "label": "Wilhelmshaven railway station"
+      }
+    ],
+    "Wilhelmshaven [en]": [
+      {
+        "description": "city in Lower Saxony, Germany",
+        "id": "Q3857",
+        "label": "Wilhelmshaven"
+      },
+      {
+        "description": "German railway station",
+        "id": "Q15709139",
+        "label": "Wilhelmshaven railway station"
+      },
+      {
+        "description": "Wikimedia permanent duplicate item",
+        "id": "Q32758817",
+        "label": "Wilhelmshaven"
+      },
+      {
+        "description": "municipality seat",
+        "id": "Q32067994",
+        "label": "Wilhelmshaven"
+      },
+      {
+        "description": "scrapped passenger ship",
+        "id": "Q2576230",
+        "label": "Wilhelmshaven"
+      }
+    ]
+  },
+  "label": "Wilhelmshaven, Germany"
+}

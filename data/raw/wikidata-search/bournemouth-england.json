@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Bournemouth [de]": [
+      {
+        "description": "town and civil parish in Bournemouth, Christchurch and Poole, Dorset, England",
+        "id": "Q170478",
+        "label": "Bournemouth"
+      },
+      {
+        "description": "association football club in Bournemouth, England",
+        "id": "Q19568",
+        "label": "AFC Bournemouth"
+      },
+      {
+        "description": "former district in Dorset, England",
+        "id": "Q20989094",
+        "label": "Bournemouth"
+      },
+      {
+        "description": "unitary authority area in the ceremonial county of Dorset, South West England, United Kingdom",
+        "id": "Q54366459",
+        "label": "Bournemouth, Christchurch and Poole"
+      },
+      {
+        "description": "university in Bournemouth, Christchurch and Poole, UK",
+        "id": "Q3182943",
+        "label": "Bournemouth University"
+      }
+    ],
+    "Bournemouth [en]": [
+      {
+        "description": "town and civil parish in Bournemouth, Christchurch and Poole, Dorset, England",
+        "id": "Q170478",
+        "label": "Bournemouth"
+      },
+      {
+        "description": "association football club in Bournemouth, England",
+        "id": "Q19568",
+        "label": "AFC Bournemouth"
+      },
+      {
+        "description": "former district in Dorset, England",
+        "id": "Q20989094",
+        "label": "Bournemouth"
+      },
+      {
+        "description": "airport in the United Kingdom",
+        "id": "Q580409",
+        "label": "Bournemouth Airport"
+      },
+      {
+        "description": "unitary authority area in the ceremonial county of Dorset, South West England, United Kingdom",
+        "id": "Q54366459",
+        "label": "Bournemouth, Christchurch and Poole"
+      }
+    ]
+  },
+  "label": "Bournemouth, England"
+}

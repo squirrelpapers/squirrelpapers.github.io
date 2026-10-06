@@ -1,0 +1,131 @@
+{
+  "conceptdoi": "10.5281/zenodo.7353771",
+  "conceptrecid": "7353771",
+  "created": "2022-11-24T08:03:59.337748+00:00",
+  "doi": "10.5281/zenodo.7353772",
+  "doi_url": "https://doi.org/10.5281/zenodo.7353772",
+  "files": [
+    {
+      "checksum": "md5:c0a19423d34f3b944e60f3f5fb4b85cb",
+      "id": "73a92350-4fd2-4c0d-87de-2700800051c9",
+      "key": "archaeolink/navisone-maritime-thesaurus-v1.0.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/7353772/files/archaeolink/navisone-maritime-thesaurus-v1.0.zip/content"
+      },
+      "size": 4248308
+    }
+  ],
+  "id": 7353772,
+  "links": {
+    "access": "https://zenodo.org/api/records/7353772/access",
+    "access_grants": "https://zenodo.org/api/records/7353772/access/grants",
+    "access_links": "https://zenodo.org/api/records/7353772/access/links",
+    "access_request": "https://zenodo.org/api/records/7353772/access/request",
+    "access_users": "https://zenodo.org/api/records/7353772/access/users",
+    "archive": "https://zenodo.org/api/records/7353772/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7353772/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7353772/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7353772/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7353772",
+    "draft": "https://zenodo.org/api/records/7353772/draft",
+    "file_modification": "https://zenodo.org/api/records/7353772/file-modification",
+    "files": "https://zenodo.org/api/records/7353772/files",
+    "latest": "https://zenodo.org/api/records/7353772/versions/latest",
+    "latest_html": "https://zenodo.org/records/7353772/latest",
+    "media_files": "https://zenodo.org/api/records/7353772/media-files",
+    "parent": "https://zenodo.org/api/records/7353771",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7353771",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7353771",
+    "parent_html": "https://zenodo.org/records/7353771",
+    "preview_html": "https://zenodo.org/records/7353772?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7353772/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7353772/request-deletion",
+    "requests": "https://zenodo.org/api/records/7353772/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7353772/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7353772",
+    "self_doi": "https://doi.org/10.5281/zenodo.7353772",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7353772",
+    "self_html": "https://zenodo.org/records/7353772",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7353772/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7353772/sequence/default",
+    "versions": "https://zenodo.org/api/records/7353772/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "RGZM",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "RGZM",
+        "name": "Allard W., Mees",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<p>Maritime thesaurus based on the NAVIS I-III databases.</p>",
+    "doi": "10.5281/zenodo.7353772",
+    "journal": {
+      "issue": "2",
+      "pages": "No. 4",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "keywords": [
+      "Linked Open Data",
+      "Ships"
+    ],
+    "license": {
+      "id": "other-open"
+    },
+    "publication_date": "2022-11-18",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/archaeolink/navisone-maritime-thesaurus/tree/v1.0",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7353771"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "NAVIS.one Maritime Thesaurus",
+    "version": "v1.0"
+  },
+  "modified": "2023-01-21T09:58:06.023182+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7353772",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "NAVIS.one Maritime Thesaurus",
+  "updated": "2023-01-21T09:58:06.023182+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 39.47,
+    "lon": -0.376389
+  },
+  "country": [
+    "Q204920",
+    "Q29"
+  ],
+  "descriptions": {
+    "de": "Großstadt im östlichen Teil Spaniens",
+    "en": "capital city of the Valencian Community, Spain"
+  },
+  "id": "Q8818",
+  "instance_of": [
+    "Q123754112",
+    "Q2074737"
+  ],
+  "labels": {
+    "de": "Valencia",
+    "en": "Valencia"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 37.4161,
+    "lon": -88.8942
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Ort im US-Bundesstaat Illinois",
+    "en": "city in Johnson County, Illinois, United States"
+  },
+  "id": "Q577544",
+  "instance_of": [
+    "Q1093829",
+    "Q62049"
+  ],
+  "labels": {
+    "de": "Vienna",
+    "en": "Vienna"
+  }
+}

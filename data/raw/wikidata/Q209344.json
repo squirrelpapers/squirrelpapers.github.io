@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 41.903333,
+    "lon": 12.515833
+  },
+  "country": [
+    "Q38"
+  ],
+  "descriptions": {
+    "de": "Universität in Rom, Italien",
+    "en": "Italian university founded in Rome in 1303"
+  },
+  "id": "Q209344",
+  "instance_of": [
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Universität La Sapienza",
+    "en": "Sapienza University of Rome"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 48.2108,
+    "lon": 16.3574
+  },
+  "country": [
+    "Q40"
+  ],
+  "descriptions": {
+    "de": "Rathaus von Wien",
+    "en": "town hall of Vienna, Austria"
+  },
+  "id": "Q686468",
+  "instance_of": [
+    "Q543654"
+  ],
+  "labels": {
+    "de": "Wiener Rathaus",
+    "en": "Vienna City Hall"
+  }
+}

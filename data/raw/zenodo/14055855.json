@@ -1,0 +1,144 @@
+{
+  "conceptdoi": "10.5281/zenodo.14055855",
+  "conceptrecid": "14055855",
+  "created": "2024-11-08T12:52:05.601286+00:00",
+  "doi": "10.5281/zenodo.14055856",
+  "doi_url": "https://doi.org/10.5281/zenodo.14055856",
+  "files": [
+    {
+      "checksum": "md5:562e0fc445a0f88caf9b2a2caa6a8469",
+      "id": "8c270c11-980b-40f6-a2dd-6ddb0e109c2c",
+      "key": "20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14055856/files/20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf/content"
+      },
+      "size": 8790149
+    }
+  ],
+  "id": 14055856,
+  "links": {
+    "access": "https://zenodo.org/api/records/14055856/access",
+    "access_grants": "https://zenodo.org/api/records/14055856/access/grants",
+    "access_links": "https://zenodo.org/api/records/14055856/access/links",
+    "access_request": "https://zenodo.org/api/records/14055856/access/request",
+    "access_users": "https://zenodo.org/api/records/14055856/access/users",
+    "archive": "https://zenodo.org/api/records/14055856/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14055856/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14055856/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14055856/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14055856",
+    "draft": "https://zenodo.org/api/records/14055856/draft",
+    "file_modification": "https://zenodo.org/api/records/14055856/file-modification",
+    "files": "https://zenodo.org/api/records/14055856/files",
+    "latest": "https://zenodo.org/api/records/14055856/versions/latest",
+    "latest_html": "https://zenodo.org/records/14055856/latest",
+    "media_files": "https://zenodo.org/api/records/14055856/media-files",
+    "parent": "https://zenodo.org/api/records/14055855",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14055855",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14055855",
+    "parent_html": "https://zenodo.org/records/14055855",
+    "preview_html": "https://zenodo.org/records/14055856?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14055856/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14055856/request-deletion",
+    "requests": "https://zenodo.org/api/records/14055856/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14055856/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14055856",
+    "self_doi": "https://doi.org/10.5281/zenodo.14055856",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14055856",
+    "self_html": "https://zenodo.org/records/14055856",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14055856/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14055856/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14055856:20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14055856:20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14055856:20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14055856:20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14055856:20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14055856:20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14055856/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Mempel-Länger, Lasse",
+        "orcid": "0009-0001-5183-1635"
+      },
+      {
+        "affiliation": null,
+        "name": "Fella, Kristina",
+        "orcid": "0009-0005-3991-1025"
+      },
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p><span>Digital technology has significantly advanced the conservation of archaeological cultural heritage, underscoring the importance of structured data management. However, diverse innovations have led to various isolated solutions without uniform standards, creating challenges in interdisciplinary cooperation.</span></p>\n<p><span>The consortium NFDI4Objects (Thiery et al., 2023; Bibby et al., 2023) aims to harmonise this fragmented data landscape concerning human legacies from cultural history, opening new potential for knowledge generation and interdisciplinary linking. Within the consortium, Task Area 4 - \"Protecting\" (Himmelmann et al., 2024; Fella, Mempel-L&auml;nger, and Witt, 2024) focuses on managing and protecting cultural heritage, enhancing the accessibility and exchange of conservation data and facilitating interdisciplinary research using data-driven methodologies. To achieve this, it is necessary to overcome barriers, such as using different specialised terminology.</span></p>\n<p><span>Different terms can describe the same objects or conservation methods even within individual specialist communities, complicating clear communication and understanding of described entities. This challenge intensifies across disciplinary boundaries. Controlled vocabularies offer a solution by enabling uniform and precise communication, improving clarity and consistency in scientific collaboration. Semantic modelling and linking can connect disparate specialist vocabularies due to the impracticality of establishing a uniform vocabulary across all disciplines.</span></p>\n<p><span>This project utilises the terminology used at the archaeological conservation of the Leibniz-Zentrum f&uuml;r Arch&auml;ologie (LEIZA) to illustrate the process and demonstrate the potential for developing semantically networked, machine-readable specialist thesauri.</span></p>",
+    "doi": "10.5281/zenodo.14055856",
+    "journal": {
+      "issue": "4",
+      "pages": "#24",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CHNT29",
+      "dates": "04-06 November 2024",
+      "place": "Vienna City Hall, Wappensaal, Vienna, Austria",
+      "session": "Research Data Management in Cultural Heritage goes Digital",
+      "title": "Conference on Cultral Heritage and New Technologies",
+      "url": "https://chnt.at/"
+    },
+    "publication_date": "2024-11-06",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14055855"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Derivation of thesauri in archaeological conservation through synergistic collaboration between domain experts and the use of semantic and NLP technologies with a FAIR and open publication"
+  },
+  "modified": "2024-11-08T12:53:01.794753+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14055856",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Derivation of thesauri in archaeological conservation through synergistic collaboration between domain experts and the use of semantic and NLP technologies with a FAIR and open publication",
+  "updated": "2024-11-08T12:53:01.794753+00:00"
+}

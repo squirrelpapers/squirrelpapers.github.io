@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 50.928056,
+    "lon": 6.928611
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Hochschule in Köln (gegründet 1388)",
+    "en": "university in Germany"
+  },
+  "id": "Q54096",
+  "instance_of": [
+    "Q1767829",
+    "Q45400320",
+    "Q641347",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Universität zu Köln",
+    "en": "University of Cologne"
+  }
+}

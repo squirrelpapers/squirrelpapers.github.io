@@ -1,0 +1,207 @@
+{
+  "conceptdoi": "10.5281/zenodo.6976175",
+  "conceptrecid": "6976175",
+  "created": "2022-10-11T07:35:56.687907+00:00",
+  "doi": "10.5281/zenodo.6976176",
+  "doi_url": "https://doi.org/10.5281/zenodo.6976176",
+  "files": [
+    {
+      "checksum": "md5:bdc64f15271b548dac358f929ba348c2",
+      "id": "3298551e-7703-47de-9dae-0ca2e2693cc4",
+      "key": "CAA2022Oxford_LinkedOpenTime.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/6976176/files/CAA2022Oxford_LinkedOpenTime.pptx/content"
+      },
+      "size": 16550711
+    },
+    {
+      "checksum": "md5:7a27048a69b6f89628774e8934b46002",
+      "id": "6a26d5dd-8fb4-4fc7-b112-11c970c7c117",
+      "key": "CAA2022Oxford_LinkedOpenTime.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/6976176/files/CAA2022Oxford_LinkedOpenTime.pdf/content"
+      },
+      "size": 5493103
+    }
+  ],
+  "id": 6976176,
+  "links": {
+    "access": "https://zenodo.org/api/records/6976176/access",
+    "access_grants": "https://zenodo.org/api/records/6976176/access/grants",
+    "access_links": "https://zenodo.org/api/records/6976176/access/links",
+    "access_request": "https://zenodo.org/api/records/6976176/access/request",
+    "access_users": "https://zenodo.org/api/records/6976176/access/users",
+    "archive": "https://zenodo.org/api/records/6976176/files-archive",
+    "archive_media": "https://zenodo.org/api/records/6976176/media-files-archive",
+    "communities": "https://zenodo.org/api/records/6976176/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/6976176/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.6976176",
+    "draft": "https://zenodo.org/api/records/6976176/draft",
+    "file_modification": "https://zenodo.org/api/records/6976176/file-modification",
+    "files": "https://zenodo.org/api/records/6976176/files",
+    "latest": "https://zenodo.org/api/records/6976176/versions/latest",
+    "latest_html": "https://zenodo.org/records/6976176/latest",
+    "media_files": "https://zenodo.org/api/records/6976176/media-files",
+    "parent": "https://zenodo.org/api/records/6976175",
+    "parent_doi": "https://doi.org/10.5281/zenodo.6976175",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6976175",
+    "parent_html": "https://zenodo.org/records/6976175",
+    "preview_html": "https://zenodo.org/records/6976176?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/6976176/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/6976176/request-deletion",
+    "requests": "https://zenodo.org/api/records/6976176/requests",
+    "reserve_doi": "https://zenodo.org/api/records/6976176/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/6976176",
+    "self_doi": "https://doi.org/10.5281/zenodo.6976176",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6976176",
+    "self_html": "https://zenodo.org/records/6976176",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:6976176/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:6976176/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:6976176:CAA2022Oxford_LinkedOpenTime.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:6976176:CAA2022Oxford_LinkedOpenTime.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:6976176:CAA2022Oxford_LinkedOpenTime.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:6976176:CAA2022Oxford_LinkedOpenTime.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:6976176:CAA2022Oxford_LinkedOpenTime.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:6976176:CAA2022Oxford_LinkedOpenTime.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/6976176/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "caa-datadragon"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Allard W. Mees",
+        "orcid": "0000-0002-7634-5342"
+      },
+      {
+        "affiliation": "FU Berlin",
+        "name": "Sophie C. Schmidt",
+        "orcid": "0000-0003-4696-2101"
+      }
+    ],
+    "description": "<p><strong>Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman Limes and Hadrian&rsquo;s Wall relative time intervals based on Samian (Terra Sigillata)</strong></p>\n\n<p><em>Dr. Allard W. Mees, Florian Thiery, Sophie C. Schmidt</em></p>\n\n<p><strong>Introduction</strong></p>\n\n<p>The handling of relative time intervals, including vague and uncertain relations between them, is a major challenge in modelling chronologies in archaeology. Underlying dating mechanisms such as circular argumentations or dependencies on open end time intervals require tools for verification and visualisation of the underlying reasoning process. We are working with algorithms to combine relative time intervals with absolute dates by using quantitative parameters, resulting in a machine readable representation and a pipeline of tools using Semantic Web technologies to enable reproducible research. The consecutive phases of the Roman Limes have always been thought to be a corner-stone in establishing chronologies in archaeology. However, since there are only very few absolute dates attached to the Limes sections, many Limes parts are - if at all - only describable as relatively vague time intervals.&nbsp;</p>\n\n<p><strong>Methods and Materials</strong></p>\n\n<p>In order to tackle the issues mentioned above, we developed two methods which are built on one another: the Alligator, and the Academic Meta Tool (AMT) approaches. As their starting point, an *.agt file is used which includes the values name, xyz-coordinates, start / end dates (if available), as well as uncertainty information (e.g. a &ldquo;fixed&rdquo; absolute dates or floating endings). This file is generated from the correspondence analysis (ca) output (based on a CSV comprising Limes intervals, potters, number of occurrences) in which the quantitative relations of the euclidean distances between finds and proposed time intervals are calculated. Following the &ldquo;horseshoe paradigm&rdquo;, the ca result may provide a measure of (possible chronological) overlap between the Limes intervals. It is important to note that a ca does not start with any pre-known dating information. Therefore, the *.agt file contains dating metadata (e.g. start / end dates, uncertainty information) from a separate file. The Alligator approach starts with (i) a 3D distance calculation using the coordinates of the first 3 ca dimensions (xyz) in the *.agt file. Then the &ldquo;Alligator Algorithm&rdquo; will be applied by (ii) calculating undated wobbly floating periods (e.g. terminus post quem points, derived from a historical sources, or terminus ante quem points derived from dendrochronological dates) by finding the next 3D ca neighbour. Following this step (iii) the new virtual time intervals are calculated and the resulting &ldquo;virtual fuzzy years&rdquo; are generated based on Allen&rsquo;s interval algebra. Any resulting &ldquo;virtual fuzzy year&rdquo; is then (iiii) transformed into relative intervals and stored in RDF format [1]. The AMT approach is applied by using the AMT library. It uses a specific AMT ontology for relative time intervals [2], in which temporal reasoning can be applied.</p>\n\n<p>Each relation contains a degree of connection that is based on the rules of vagueness. In our use case, the estimated Allen intervals and the potters&rsquo; overlap of the Limes parts is (j) described with the (normalised) Pearson correlation coefficient. In the case of the AMT approach, we (jj) have to transform the intervals into the AMT format and include the degree of connection as a (normalised) Pearson correlation coefficient. This RDF file serves as input for the AMT. With AMT (jjj) temporal reasoning according to the specific-ontology can be calculated and afterwards (jjjj) exported and visualised. As a use case, this Linked Open Time workflow validates Roman Limes and Hadrian&rsquo;s Wall relative time intervals, based on the Samian (Terra Sigillata) found on these Limes sections. The data stems from the online database &ldquo;Samian Research&rdquo;. Several Limes time intervals can be defined convincingly (e.g. Elisabethenstra&szlig;e: AD 74-104, Wetteraulimes: AD 110-260), others are less certain. Although there is only a vague possible starting date known during Hadrian&rsquo;s reign (after AD 122), we neither know the precise starting date nor its end date. As for the North Sea foundations, we assume that Hadrian founded them AD 120 (emperor Hadrian gave his name to the newly founded town Forum Hadriani), but we do not know what their end date was.</p>\n\n<p><strong>Results and Discussion</strong></p>\n\n<p>The approaches are resulting in research tools: the *.agt file format, an AMT ontology for temporal reasoning, the R-based research tool &ldquo;Alligator CA&rdquo; (in cooperation with the CAA SIG SSLA), the JAVA-based &ldquo;Alligator&rdquo;, the Python-based &ldquo;Alligator-AMT-Transformator&rdquo;, and the JavaScript-based &ldquo;AMT time&rdquo; have been implemented. In combination as a Linked Pipe [3], they are able to base the mechanisms of Limes-dating on specific material find-categories more comprehensible. As an example, it is possible to analyse and visualise the dependencies within the dating arguments of individual Limes sections when using the Terra Sigillata found on their Limes sites. &ldquo;Virtual timelines&rdquo; show the position of the &ldquo;Elisabethenstra&szlig;e&rdquo; and the &ldquo;Wetterau Limes&rdquo; in &ldquo;virtual fuzzy years&rdquo; as a fundament for a relative Limes chronology. The results of this use case seem to confirm the widespread assumption that Hadrian&rsquo;s Wall, the North Sea Coast foundations and the Wetterau Limes were founded in the same decades. Based on very similar Samian consumption profiles, they are all located on the right (&ldquo;late&rdquo;) side. However, the process of nearest neighbour findings also suggests a somewhat earlier starting date of Hadrian&rsquo;s Wall, similar to Wetterau Limes. There may have been a number of reasons for this phenomenon: a) the quantities involved are causing volatility, b) the amount of Samian Ware available on the British/Scottish or German markets were different, causing supply differences c) although it is possible with Samian as a find category to establish relative chronologies (especially when there are no absolute dates available), it has no reliable capability for yielding absolute dates. This method of dealing with uncertain time intervals opens possibilities for comparisons with other timeline oriented methods used to date Limes sites, such as series of coin dates. When applying the workflow, there are some issues which still need to be discussed and implemented: a) including weights from dating metadata, e.g. dating method, b) refine the algorithm to add wobbliness to the calculated virtual fuzzy years, c) weighing of factor loads in different ca dimensions, d) taking quality values of individual ca units and types into account.</p>\n\n<p><strong>References</strong></p>\n\n<p>[1] DOI: 10.5281/zenodo.1436351</p>\n\n<p>[2] DOIs: 10.5281/zenodo.1157985 and 10.5281/zenodo.1160350 / <a href=\"https://github.com/mainzed/academicmetatool-viewer/blob/master/time/ontology_time.ttl\">https://github.com/mainzed/academicmetatool-viewer/blob/master/time/ontology_time.ttl</a>&nbsp;</p>\n\n<p>[3] DOI: 10.5281/zenodo.6412435</p>",
+    "doi": "10.5281/zenodo.6976176",
+    "journal": {
+      "issue": "3",
+      "pages": "No.8",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "keywords": [
+      "Linked Open Data",
+      "Allen Algebra",
+      "Relative Chronology",
+      "Samian Ware",
+      "Archaeology",
+      "Terra Sigillata"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CAA Oxford",
+      "dates": "08.08.2022 - 11.08.2022",
+      "place": "Oxford, United Kingdom",
+      "session": "S04",
+      "session_part": "1",
+      "title": "Computer Applications and Quantitative Methods in Archaeology",
+      "url": "https://2022.caaconference.org"
+    },
+    "publication_date": "2022-08-09",
+    "related_identifiers": [
+      {
+        "identifier": "2750-560X",
+        "relation": "isPartOf",
+        "resource_type": "publication-other",
+        "scheme": "issn"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "6976175"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "subjects": [
+      {
+        "identifier": "http://www.wikidata.org/entity/Q18692990",
+        "scheme": "url",
+        "term": "Linked Open Data"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q30299672",
+        "scheme": "url",
+        "term": "Computer Applications and Quantitative Methods in Archaeology"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q90412636",
+        "scheme": "url",
+        "term": "Samian Research"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q73901110",
+        "scheme": "url",
+        "term": "CAA SIG Data-Dragon"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q66606154",
+        "scheme": "url",
+        "term": "Florian Thiery"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q88865971",
+        "scheme": "url",
+        "term": "Allard W. Mees"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q71933512",
+        "scheme": "url",
+        "term": "Sophie C. Schmidt"
+      }
+    ],
+    "title": "Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman Limes and Hadrian's Wall relative time intervals based on Samian (Terra Sigillata)"
+  },
+  "modified": "2024-07-16T06:44:12.433176+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "6976176",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman Limes and Hadrian's Wall relative time intervals based on Samian (Terra Sigillata)",
+  "updated": "2024-07-16T06:44:12.433176+00:00"
+}

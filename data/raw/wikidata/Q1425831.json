@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Abteilung des Deutschen Archäologischen Instituts",
+    "en": "institution"
+  },
+  "id": "Q1425831",
+  "instance_of": [
+    "Q43229"
+  ],
+  "labels": {
+    "de": "Römisch-Germanische Kommission",
+    "en": "Deutsches Archäologisches Institut. Römisch-Germanische Kommission"
+  }
+}

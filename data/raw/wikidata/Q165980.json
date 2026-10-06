@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 48.213056,
+    "lon": 16.359722
+  },
+  "country": [
+    "Q40"
+  ],
+  "descriptions": {
+    "de": "größte Hochschule in Österreich",
+    "en": "public university in Vienna, Austria"
+  },
+  "id": "Q165980",
+  "instance_of": [
+    "Q3918",
+    "Q45400320"
+  ],
+  "labels": {
+    "de": "Universität Wien",
+    "en": "University of Vienna"
+  }
+}

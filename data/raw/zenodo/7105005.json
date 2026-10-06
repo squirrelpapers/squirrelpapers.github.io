@@ -1,0 +1,162 @@
+{
+  "conceptdoi": "10.5281/zenodo.7105005",
+  "conceptrecid": "7105005",
+  "created": "2022-09-23T13:33:42.340869+00:00",
+  "doi": "10.5281/zenodo.7105006",
+  "doi_url": "https://doi.org/10.5281/zenodo.7105006",
+  "files": [
+    {
+      "checksum": "md5:a667ca6b2fe9623ec623804ced2e6cf9",
+      "id": "0cf0a412-3318-4d7f-a1ba-aba0ea08730b",
+      "key": "ARCHEOFOSS_XVI_2022_WikidataSamian.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7105006/files/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf/content"
+      },
+      "size": 2813351
+    },
+    {
+      "checksum": "md5:d5242d8ebd15973c8f9fbbe36fccd542",
+      "id": "fb8efe45-2403-4570-9ba5-4b05419f2278",
+      "key": "ARCHEOFOSS_XVI_2022_WikidataSamian.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/7105006/files/ARCHEOFOSS_XVI_2022_WikidataSamian.pptx/content"
+      },
+      "size": 18750747
+    }
+  ],
+  "id": 7105006,
+  "links": {
+    "access": "https://zenodo.org/api/records/7105006/access",
+    "access_grants": "https://zenodo.org/api/records/7105006/access/grants",
+    "access_links": "https://zenodo.org/api/records/7105006/access/links",
+    "access_request": "https://zenodo.org/api/records/7105006/access/request",
+    "access_users": "https://zenodo.org/api/records/7105006/access/users",
+    "archive": "https://zenodo.org/api/records/7105006/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7105006/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7105006/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7105006/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7105006",
+    "draft": "https://zenodo.org/api/records/7105006/draft",
+    "file_modification": "https://zenodo.org/api/records/7105006/file-modification",
+    "files": "https://zenodo.org/api/records/7105006/files",
+    "latest": "https://zenodo.org/api/records/7105006/versions/latest",
+    "latest_html": "https://zenodo.org/records/7105006/latest",
+    "media_files": "https://zenodo.org/api/records/7105006/media-files",
+    "parent": "https://zenodo.org/api/records/7105005",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7105005",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7105005",
+    "parent_html": "https://zenodo.org/records/7105005",
+    "preview_html": "https://zenodo.org/records/7105006?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7105006/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7105006/request-deletion",
+    "requests": "https://zenodo.org/api/records/7105006/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7105006/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7105006",
+    "self_doi": "https://doi.org/10.5281/zenodo.7105006",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7105006",
+    "self_html": "https://zenodo.org/records/7105006",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7105006/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7105006/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7105006:ARCHEOFOSS_XVI_2022_WikidataSamian.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7105006:ARCHEOFOSS_XVI_2022_WikidataSamian.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7105006:ARCHEOFOSS_XVI_2022_WikidataSamian.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7105006:ARCHEOFOSS_XVI_2022_WikidataSamian.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7105006:ARCHEOFOSS_XVI_2022_WikidataSamian.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7105006:ARCHEOFOSS_XVI_2022_WikidataSamian.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7105006/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "RGZM",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "RGZM",
+        "name": "Allard Mees",
+        "orcid": "0000-0002-7634-5342"
+      },
+      {
+        "affiliation": "ToposText.org",
+        "name": "Brady Kiesling",
+        "orcid": "0000-0003-3281-5741"
+      }
+    ],
+    "description": "<p><strong>Panel: From wiki projects to OpenStreetMap, collaborative approaches to open data creation: problems, case studies, territorial and cultural impact.</strong></p>\n\n<p>The&nbsp;<a href=\"http://www.wikidata.org/entity/Q878029\">RGZM</a>&nbsp;curates the Samian Research database, a treasure-house of economic data on Roman trade and Terra Sigillata industry. Over six decades, a broad European user community of established research institutions, citizen scientists and domain-specific scientists has assembled a&nbsp;<a href=\"https://doi.org/10.5281/zenodo.4305708\">dataset</a>&nbsp;of ~250&rsquo;000 potter&rsquo;s stamps from the&nbsp;<a href=\"https://www.rgzm.de/samian\">Samian Research Database</a>, accessible with findspots and relevant bibliography as&nbsp;<a href=\"https://rgzm.github.io/samian-lod/\">Linked Open Samian Ware</a>&nbsp;(LOSW) via a collaborative LOD hub,&nbsp;<a href=\"https://archaeology.link/\">archaeology.link</a>.</p>\n\n<p>In 2020-2021, Samian Research began a process of integrating its data with Wikidata through the creation of a set of Samian Ware Wikidata items, including 3875&nbsp;<a href=\"https://w.wiki/5BRk\">Samian Ware Discovery Sites</a>, 103&nbsp;<a href=\"https://w.wiki/4pKz\">Samian Ware Kiln Sites</a>&nbsp;and 13&nbsp;<a href=\"https://w.wiki/4pL4\">Kiln Regions</a>, with accurate or approximate geospatial information and a backlink to archaeology.link.</p>\n\n<p>This approach, of creating special-purpose Wikidata items, is an efficient way to map the huge geographic reach of our subject, and to call attention to many European archaeological sites and excavations that hitherto lacked a Wikidata identifier. It fell short of truly Linked Data in not offering direct access to the database API or to the bibliographic data that would allow Samian Ware sites to be merged or associated with existing Wikidata items for archaeological sites and excavations.</p>\n\n<p>The site of Corinth illustrates one obvious issue to be solved. Was it correct to merge our Corinth as Samian Ware discovery site with&nbsp;<a href=\"http://www.wikidata.org/entity/Q60790987\">Archaeological Site of Ancient Corinth</a>? An&nbsp;<a href=\"https://www.rgzm.de/rest/samianresearch/stamprecords?site=Corinth\">API call</a>&nbsp;on the database reveals 690 potters&rsquo; stamps reported from Corinth and now in the&nbsp;<a href=\"http://www.wikidata.org/entity/Q4785384\">Ancient Corinth Museum</a>, most with no specific find spot, a number from the Sanctuary of Demeter and Kore or the&nbsp;<a href=\"http://www.wikidata.org/entity/Q23894509\">South Stoa</a>. To solve the issue, the broader Wikidata community must be enlisted.</p>\n\n<p>Wikidata properties and items suffice for almost the full range of Roman ceramics data, reflecting a diverse and active community of users but also diverse implementations of data models. We would like to discuss the benefits and challenges of integrating communities. Knowledge exchange must be enabled, e.g. by bidirectional links in and to LOSW / Wikidata, using properties in Wikidata (currently P2888, exact match, which causes problems with multiple assignments); a solution to this can be the creation of an archaeology.link property with the help of the Wikidata community.</p>\n\n<p>Samian Research is, compared to other domain-specific database projects, very open concerning data curating possibilities. But in a specialised domain, can community-validated data entries safely generate new knowledge? We note Wikidata Community projects such as&nbsp;<a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Archaeology\">Archaeology</a>&nbsp;as an umbrella for communities and initiatives, e.g.&nbsp;<a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Linked_Open_Samian_Ware\">Linked Open Samian Ware</a>,&nbsp;<a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_African_Red_Slip_Ware_Digital\">African Red Slip Ware Digital</a>&nbsp;and&nbsp;<a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_ArchaeologyLink\">archaeology.link</a>&nbsp;to address issues of sustainability and data consistency. A common understanding of data models and the data itself can be achieved via a WikiProject Page, where essential properties and vocabularies are described.</p>",
+    "doi": "10.5281/zenodo.7105006",
+    "journal": {
+      "issue": "3",
+      "pages": "No.14",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "keywords": [
+      "Wikidata",
+      "Archaeology"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "ARCHEO.FOSS XVI | 2022",
+      "dates": "22.-23.09.2022",
+      "place": "Sapienza Università di Roma",
+      "session": "Panel: From wiki projects to OpenStreetMap, collaborative approaches to open data creation: problems, case studies, territorial and cultural impact",
+      "title": "ARCHEO.FOSS XVI | 2022 - Open software, hardware, processes, data and formats in archaeological research",
+      "url": "https://www.archeofoss.org/2022/"
+    },
+    "publication_date": "2022-09-23",
+    "related_identifiers": [
+      {
+        "identifier": "2750-560X",
+        "relation": "isPartOf",
+        "resource_type": "publication-other",
+        "scheme": "issn"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7105005"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Challenges in research community building: integrating Terra Sigillata (Samian) Research into the Wikidata community"
+  },
+  "modified": "2024-07-16T02:09:30.065721+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7105006",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Challenges in research community building: integrating Terra Sigillata (Samian) Research into the Wikidata community",
+  "updated": "2024-07-16T02:09:30.065721+00:00"
+}

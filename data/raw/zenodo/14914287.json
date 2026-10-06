@@ -1,0 +1,149 @@
+{
+  "conceptdoi": "10.5281/zenodo.14914287",
+  "conceptrecid": "14914287",
+  "created": "2025-02-25T15:41:21.610737+00:00",
+  "doi": "10.5281/zenodo.14925718",
+  "doi_url": "https://doi.org/10.5281/zenodo.14925718",
+  "files": [
+    {
+      "checksum": "md5:21d3daca1e846ffb822210c2123dce72",
+      "id": "36be1444-2264-4fe8-9b19-f0cae92e4478",
+      "key": "deRSE25_9_ResearchSquirrelEngineers.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14925718/files/deRSE25_9_ResearchSquirrelEngineers.pdf/content"
+      },
+      "size": 16571287
+    }
+  ],
+  "id": 14925718,
+  "links": {
+    "access": "https://zenodo.org/api/records/14925718/access",
+    "access_grants": "https://zenodo.org/api/records/14925718/access/grants",
+    "access_links": "https://zenodo.org/api/records/14925718/access/links",
+    "access_request": "https://zenodo.org/api/records/14925718/access/request",
+    "access_users": "https://zenodo.org/api/records/14925718/access/users",
+    "archive": "https://zenodo.org/api/records/14925718/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14925718/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14925718/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14925718/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14925718",
+    "draft": "https://zenodo.org/api/records/14925718/draft",
+    "file_modification": "https://zenodo.org/api/records/14925718/file-modification",
+    "files": "https://zenodo.org/api/records/14925718/files",
+    "latest": "https://zenodo.org/api/records/14925718/versions/latest",
+    "latest_html": "https://zenodo.org/records/14925718/latest",
+    "media_files": "https://zenodo.org/api/records/14925718/media-files",
+    "parent": "https://zenodo.org/api/records/14914287",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14914287",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14914287",
+    "parent_html": "https://zenodo.org/records/14914287",
+    "preview_html": "https://zenodo.org/records/14925718?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14925718/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14925718/request-deletion",
+    "requests": "https://zenodo.org/api/records/14925718/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14925718/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14925718",
+    "self_doi": "https://doi.org/10.5281/zenodo.14925718",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14925718",
+    "self_html": "https://zenodo.org/records/14925718",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14925718/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14925718/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14925718:deRSE25_9_ResearchSquirrelEngineers.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14925718:deRSE25_9_ResearchSquirrelEngineers.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14925718:deRSE25_9_ResearchSquirrelEngineers.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14925718:deRSE25_9_ResearchSquirrelEngineers.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14925718:deRSE25_9_ResearchSquirrelEngineers.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14925718:deRSE25_9_ResearchSquirrelEngineers.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14925718/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "alternate_identifiers": [
+      {
+        "identifier": "https://events.hifis.net/event/1741/contributions/13334/"
+      }
+    ],
+    "communities": [
+      {
+        "id": "infra-wg-rse"
+      },
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "derse25"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "n4o-cc-rse"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<blockquote>\n<p><strong>This conferene paper was funded by the Forschungszentrum J&uuml;lich (FZJ) and JuRSE with a Travel Grant</strong></p>\n</blockquote>\n<p>The comprehensible/collaborative creation and FAIRification of research data is becoming increasingly important in the Citizen Science community to become part of an interdisciplinary knowledge graph and enrich the already interconnected data network with qualified data. Only in this way can this data be linked to other data and actively integrated into international initiatives (e.g. NFDI) and community hubs (e.g. Wikidata, FactGrid, Semantic Kompakkt, OpenStreetMap). Unfortunately, open-source (FOSS) research and FAIRification tools are often unavailable. However, these, in combination with Linked Open Data projects as demonstrators, can be created and curated by community and voluntary initiatives such as the Research Squirrel Engineers Network.</p>\n<p>This paper presents the Research Squirrel Engineers Network initiative, three research and FAIRification tools, and three Research Squirrels projects, as well as how Research Software Engineering may help make it even more helpful for the NFDI. These can serve as digital services for digital data management in archaeology and so be part of substantial interdisciplinary initiatives such as the NFDI. The paper, therefore, also presents the aims, benefits and implementation of the squirrel tools.</p>\n<p>The Research Squirrel Engineers Network (founded in 2019 to implement the SPARQL Unicorn) is a loose association of Linked Open Data/Wikidata enthusiasts, Research Software Engineers and Citizen Scientists focusing on computational archaeology, digital humanities and geoinformatics. The members develop and maintain research and FAIRification tools and implement them in concrete projects.</p>\n<p>A FAIRification tool for digital data management is the SPARQL Unicorn and its implementation for QGIS. The \"SPARQLing Unicorn QGIS Plugin\" allows sending linked data queries in (Geo)SPARQL to triple stores and prepares the results for the geo-community in QGIS. It currently offers three main functions: (A) Simplified querying of Semantic Web data sources, (B) Enrichment of geodata, and (C) Transformation of QGIS vector layers to RDF. In addition, the SPARQL Unicorn Ontology Documentation Tool enables the automated creation of HTML pages of Linked Open Data publications, e.g. via GitHub Action. One example are Irish Ogham sites on the Dingle Peninsula or data from Sophie C. Schmidt's dissertation project on \"Brandenburg 5,000 BC\" by converting a CIDOC CRM data model into Linked Open Data and visualising it as HTML with the help of SPARQL Unicorn.</p>\n<p>Another service is the \"Fuzzy Spatial Locations Ontology\", in which georeferencing's vagueness, uncertainties and ambiguities are made FAIR and comprehensible with the help of semantics and an ontology (based on PROV-O). An example of this is the modelling of sites of the eruption of the Campanian Ignimbrite in the Phlegraean Fields (39,940 yr b2k &plusmn; 150 years), which often correspond to archaeological sites, e.g. the Toplitsa Cave in Bulgaria. The \"Squirrel Papers\" complement the services to create a platform for publishing working papers, data, software, presentation slides and posters for citation.</p>\n<p>These services are accompanied by LOD / Wikidata / Open Street Map and Wikimedia Commons projects, such as Linked Open Ogham, Holy Wells in Ireland, or Linked Reindeers, where Scripts (primarily written in Python) help transform the tabular data into RDF or Quick Statements.</p>",
+    "doi": "10.5281/zenodo.14925718",
+    "journal": {
+      "issue": "3",
+      "pages": "λ6",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE25",
+      "dates": "25-27 Feb 2025",
+      "place": "KIT, Karlsruhe, Germany",
+      "session": "Nation-wide networks of RSEs",
+      "title": "Fifth German Conference on Research Software Engineering",
+      "url": "https://events.hifis.net/event/1741/"
+    },
+    "publication_date": "2025-02-25",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14914287"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Research Squirrel Engineers - How an independent RSE-driven network may help the NFDI"
+  },
+  "modified": "2025-03-08T14:28:16.451592+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14925718",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Research Squirrel Engineers - How an independent RSE-driven network may help the NFDI",
+  "updated": "2025-03-08T14:28:16.451592+00:00"
+}

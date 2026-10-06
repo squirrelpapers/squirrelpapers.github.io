@@ -1,0 +1,135 @@
+{
+  "conceptdoi": "10.5281/zenodo.1155726",
+  "conceptrecid": "1155726",
+  "created": "2018-01-19T16:03:30.928142+00:00",
+  "doi": "10.5281/zenodo.1155727",
+  "doi_url": "https://doi.org/10.5281/zenodo.1155727",
+  "files": [
+    {
+      "checksum": "md5:e9d264514c468ba7b38f2f3d51e04d19",
+      "id": "796e54dd-2246-49cb-b1a2-33dccf6e9811",
+      "key": "2018_01_19_Graphentechnologien2018_AMT.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/1155727/files/2018_01_19_Graphentechnologien2018_AMT.pdf/content"
+      },
+      "size": 2814992
+    }
+  ],
+  "id": 1155727,
+  "links": {
+    "access": "https://zenodo.org/api/records/1155727/access",
+    "access_grants": "https://zenodo.org/api/records/1155727/access/grants",
+    "access_links": "https://zenodo.org/api/records/1155727/access/links",
+    "access_request": "https://zenodo.org/api/records/1155727/access/request",
+    "access_users": "https://zenodo.org/api/records/1155727/access/users",
+    "archive": "https://zenodo.org/api/records/1155727/files-archive",
+    "archive_media": "https://zenodo.org/api/records/1155727/media-files-archive",
+    "communities": "https://zenodo.org/api/records/1155727/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/1155727/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.1155727",
+    "draft": "https://zenodo.org/api/records/1155727/draft",
+    "file_modification": "https://zenodo.org/api/records/1155727/file-modification",
+    "files": "https://zenodo.org/api/records/1155727/files",
+    "latest": "https://zenodo.org/api/records/1155727/versions/latest",
+    "latest_html": "https://zenodo.org/records/1155727/latest",
+    "media_files": "https://zenodo.org/api/records/1155727/media-files",
+    "parent": "https://zenodo.org/api/records/1155726",
+    "parent_doi": "https://doi.org/10.5281/zenodo.1155726",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1155726",
+    "parent_html": "https://zenodo.org/records/1155726",
+    "preview_html": "https://zenodo.org/records/1155727?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/1155727/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/1155727/request-deletion",
+    "requests": "https://zenodo.org/api/records/1155727/requests",
+    "reserve_doi": "https://zenodo.org/api/records/1155727/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/1155727",
+    "self_doi": "https://doi.org/10.5281/zenodo.1155727",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1155727",
+    "self_html": "https://zenodo.org/records/1155727",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:1155727/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:1155727/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:1155727:2018_01_19_Graphentechnologien2018_AMT.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:1155727:2018_01_19_Graphentechnologien2018_AMT.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:1155727:2018_01_19_Graphentechnologien2018_AMT.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:1155727:2018_01_19_Graphentechnologien2018_AMT.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:1155727:2018_01_19_Graphentechnologien2018_AMT.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:1155727:2018_01_19_Graphentechnologien2018_AMT.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/1155727/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "mainzed"
+      },
+      {
+        "id": "linkedgeodesy"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "i3mainz - Institut für Raumbezogene Informations-und Messtechnik",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "i3mainz - Institut für Raumbezogene Informations-und Messtechnik",
+        "name": "Martin Unold"
+      }
+    ],
+    "description": "<p>Graphdatenbanken und Triple Stores stellen bei der Modellierung von Forschungsdaten eine Alternative zu relationalen Datenbanken dar. Eine Modellierung der Daten in einem Netzwerk, anstatt in Tabellenstrukturen, eignet sie sich hervorragend um Daten interoperabel zur Verf&uuml;gung zu stellen, indem man zwei Knoten aus verschiedenen Datenbanken miteinander &uuml;ber eine Kante verbindet. Dieser Technik bedienen sich viele Forschungsprojekte durch die Verwendung von Linked Open Data (LOD).<br>\nSowohl g&auml;ngige Graphdatenbanken als auch gebr&auml;uchliche Triple Stores bieten jedoch keine M&ouml;glichkeit Unsicherheiten oder Vagheiten zu modellieren. Um dieser Unzul&auml;nglichkeit Rechnung zu tragen, haben wir das Academic Meta Tool (AMT) entwickelt. AMT bietet die M&ouml;glichkeit s&auml;mtlichen Kanten eine Gewichtung hinzuzuf&uuml;gen, um dadurch die Vagheit dieser Kante auszudr&uuml;cken. Eine Beziehung zwischen zwei Knoten besteht also nur zu einem gewissen Grad. Dieser Grad, d.h. das Kantengewicht, wird &uuml;blicherweise in Prozent angegeben. AMT beinhaltet zus&auml;tzlich ein Verfahren, mit dem - unter Zuhilfenahme einer vordefinierten Ontologie - aus vorhandenen graphbasierten Daten automatisch Schlussfolgerungen gezogen werden k&ouml;nnen (Reasoning).<br>\nEin Prototyp des AMTs steht als Web-Anwendung zur Verf&uuml;gung. In einer entwickelten Test-Ontologie k&ouml;nnen Personen und Interessen und deren Beziehungen in einem gewissen Grad zueinander modelliert werden. Diese Ontologie beinhaltet neben den genannten beiden Klassen f&uuml;nf weitere Relationen, so dass Personen und Interessen miteinander in Beziehung gesetzt werden k&ouml;nnen. Au&szlig;erdem enth&auml;lt die Ontologie 11 Axiome, um automatisiert aus bestehenden Beziehungen neue Beziehungen generieren zu k&ouml;nnen.<br>\nEin Testfall, basierend auf der zuvor beschriebenen Ontologie, bildet die Beziehungen innerhalb des mainzed (Mainzer Zentrum f&uuml;r Digitalit&auml;t in den Geistes- und Kulturwissenschaften) Netzwerks ab. Die Mitglieder des Netzwerks stehen in fachlichen bzw. hierarchischen Beziehungen zueinander. Zudem haben die Mitglieder des heterogenen Netzwerks viele unterschiedliche Interessen, die wiederum in einer SKOS-&auml;hnlichen Taxonomie modellierbar sind. In einer Community Aktion haben die Mitglieder jeweils ihre Sicht auf das Netzwerk dargestellt, das hei&szlig;t Beziehungen und Interessen, sowie deren Vagheitsgrad angegeben. AMT kann nun dieses Netz visualisieren und weitere Schlussfolgerungen ziehen, das hei&szlig;t neue Beziehungen aufzeigen, welche bei der Eingabe nicht erkennbar waren, so dass dies einen Mehrwert f&uuml;r das Netzwerk bildet.<br>\nDer beschriebene Testfall l&auml;sst sich auch auf andere Datengrundlagen, wie historische Personen-Netzwerke, etc. extrapolieren. Au&szlig;erdem lassen sich statt der Personen-Interessen-Ontologie auch beliebige andere Ontologien verwenden, die in das AMT-Schema passen. Mit AMT pr&auml;sentieren wir somit ein generisches Tool, das Unsicherheiten und Vagheiten in bestehenden Forschungsdaten darstellen und neue Folgerungen daraus schlie&szlig;en kann.</p>",
+    "doi": "10.5281/zenodo.1155727",
+    "keywords": [
+      "rdf",
+      "owl",
+      "graph",
+      "ontologie"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "#graph2018",
+      "dates": "19.-20.01.2018",
+      "place": "Akademie der Wissenschaften und der Literatur Mainz",
+      "session": "2",
+      "title": "Graphentechnologien 2018",
+      "url": "http://www.digitale-akademie.de/forschung/graphentechnologien/"
+    },
+    "publication_date": "2018-01-19",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "1155726"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels"
+  },
+  "modified": "2024-08-02T19:59:36.181323+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "1155727",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels",
+  "updated": "2024-08-02T19:59:36.181323+00:00"
+}

@@ -1,0 +1,162 @@
+{
+  "conceptdoi": "10.5281/zenodo.10906911",
+  "conceptrecid": "10906911",
+  "created": "2024-04-02T07:59:41.471345+00:00",
+  "doi": "10.5281/zenodo.10906912",
+  "doi_url": "https://doi.org/10.5281/zenodo.10906912",
+  "files": [
+    {
+      "checksum": "md5:a4d873186e79acaa66678e330b4421f8",
+      "id": "fb5897e5-fba7-43a5-9391-f7e50958e316",
+      "key": "Terminologien in NFDI4Objects.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/10906912/files/Terminologien%20in%20NFDI4Objects.pdf/content"
+      },
+      "size": 1317570
+    }
+  ],
+  "id": 10906912,
+  "links": {
+    "access": "https://zenodo.org/api/records/10906912/access",
+    "access_grants": "https://zenodo.org/api/records/10906912/access/grants",
+    "access_links": "https://zenodo.org/api/records/10906912/access/links",
+    "access_request": "https://zenodo.org/api/records/10906912/access/request",
+    "access_users": "https://zenodo.org/api/records/10906912/access/users",
+    "archive": "https://zenodo.org/api/records/10906912/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10906912/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10906912/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10906912/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10906912",
+    "draft": "https://zenodo.org/api/records/10906912/draft",
+    "file_modification": "https://zenodo.org/api/records/10906912/file-modification",
+    "files": "https://zenodo.org/api/records/10906912/files",
+    "latest": "https://zenodo.org/api/records/10906912/versions/latest",
+    "latest_html": "https://zenodo.org/records/10906912/latest",
+    "media_files": "https://zenodo.org/api/records/10906912/media-files",
+    "parent": "https://zenodo.org/api/records/10906911",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10906911",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10906911",
+    "parent_html": "https://zenodo.org/records/10906911",
+    "preview_html": "https://zenodo.org/records/10906912?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10906912/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10906912/request-deletion",
+    "requests": "https://zenodo.org/api/records/10906912/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10906912/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10906912",
+    "self_doi": "https://doi.org/10.5281/zenodo.10906912",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10906912",
+    "self_html": "https://zenodo.org/records/10906912",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10906912/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10906912/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:10906912:Terminologien%20in%20NFDI4Objects.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:10906912:Terminologien%20in%20NFDI4Objects.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:10906912:Terminologien%20in%20NFDI4Objects.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:10906912:Terminologien%20in%20NFDI4Objects.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:10906912:Terminologien%20in%20NFDI4Objects.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:10906912:Terminologien%20in%20NFDI4Objects.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/10906912/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "faucdi"
+      },
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "fau"
+      },
+      {
+        "id": "vzg"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Verbundzentrale des GBV",
+        "name": "Voß, Jakob",
+        "orcid": "0000-0002-7613-4123"
+      },
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Klassik Stiftung Weimar",
+        "name": "Gerber, Anja",
+        "orcid": "0000-0003-2576-1511"
+      },
+      {
+        "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "name": "Wagner, Sarah",
+        "orcid": "0000-0002-1352-129X"
+      },
+      {
+        "affiliation": "Institut für Museumsforschung",
+        "name": "von Hagel, Frank",
+        "orcid": "0000-0003-1349-2131"
+      }
+    ],
+    "dates": [
+      {
+        "type": "available"
+      }
+    ],
+    "description": "<p>Vortrag auf der Veranstaltung&nbsp;<em>Br&uuml;cken schlagen zwischen Terminologien: Herausforderungen und Perspektiven</em> am 20. M&auml;rz 2024</p>\n<p>&nbsp;</p>",
+    "doi": "10.5281/zenodo.10906912",
+    "journal": {
+      "issue": "3",
+      "pages": "#8",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "keywords": [
+      "nfdi"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "2024-03-20",
+      "title": "Brücken schlagen zwischen Terminologien: Herausforderungen und Perspektiven",
+      "url": "https://nfdi4culture.de/de/veranstaltungen/default-4deddd6fce0e546059ead155ef582182.html"
+    },
+    "publication_date": "2024-04-02",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10906911"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Terminologien in NFDI4Objects"
+  },
+  "modified": "2024-07-06T17:55:54.465084+00:00",
+  "owners": [
+    {
+      "id": "5515"
+    }
+  ],
+  "recid": "10906912",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Terminologien in NFDI4Objects",
+  "updated": "2024-07-06T17:55:54.465084+00:00"
+}

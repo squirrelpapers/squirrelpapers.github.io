@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q142"
+  ],
+  "descriptions": {
+    "de": "französischer Fußballverein",
+    "en": "association football club in Paris, France having two UCL"
+  },
+  "id": "Q483020",
+  "instance_of": [
+    "Q476028"
+  ],
+  "labels": {
+    "de": "Paris Saint-Germain",
+    "en": "Paris Saint-Germain FC"
+  }
+}

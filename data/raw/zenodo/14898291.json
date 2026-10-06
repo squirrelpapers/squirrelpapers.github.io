@@ -1,0 +1,154 @@
+{
+  "conceptdoi": "10.5281/zenodo.14898291",
+  "conceptrecid": "14898291",
+  "created": "2025-03-08T14:05:00.958120+00:00",
+  "doi": "10.5281/zenodo.14898292",
+  "doi_url": "https://doi.org/10.5281/zenodo.14898292",
+  "files": [
+    {
+      "checksum": "md5:29a1210116e898b326439ff3cbdeb35c",
+      "id": "e9f3ff12-4bd9-46a8-ab17-8970a33882ca",
+      "key": "deRSE25_Karlsruhe_137_KeepingREAL.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14898292/files/deRSE25_Karlsruhe_137_KeepingREAL.pdf/content"
+      },
+      "size": 874337
+    }
+  ],
+  "id": 14898292,
+  "links": {
+    "access": "https://zenodo.org/api/records/14898292/access",
+    "access_grants": "https://zenodo.org/api/records/14898292/access/grants",
+    "access_links": "https://zenodo.org/api/records/14898292/access/links",
+    "access_request": "https://zenodo.org/api/records/14898292/access/request",
+    "access_users": "https://zenodo.org/api/records/14898292/access/users",
+    "archive": "https://zenodo.org/api/records/14898292/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14898292/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14898292/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14898292/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14898292",
+    "draft": "https://zenodo.org/api/records/14898292/draft",
+    "file_modification": "https://zenodo.org/api/records/14898292/file-modification",
+    "files": "https://zenodo.org/api/records/14898292/files",
+    "latest": "https://zenodo.org/api/records/14898292/versions/latest",
+    "latest_html": "https://zenodo.org/records/14898292/latest",
+    "media_files": "https://zenodo.org/api/records/14898292/media-files",
+    "parent": "https://zenodo.org/api/records/14898291",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14898291",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14898291",
+    "parent_html": "https://zenodo.org/records/14898291",
+    "preview_html": "https://zenodo.org/records/14898292?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14898292/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14898292/request-deletion",
+    "requests": "https://zenodo.org/api/records/14898292/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14898292/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14898292",
+    "self_doi": "https://doi.org/10.5281/zenodo.14898292",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14898292",
+    "self_html": "https://zenodo.org/records/14898292",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14898292/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14898292/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14898292:deRSE25_Karlsruhe_137_KeepingREAL.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14898292:deRSE25_Karlsruhe_137_KeepingREAL.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14898292:deRSE25_Karlsruhe_137_KeepingREAL.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14898292:deRSE25_Karlsruhe_137_KeepingREAL.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14898292:deRSE25_Karlsruhe_137_KeepingREAL.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14898292:deRSE25_Karlsruhe_137_KeepingREAL.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14898292/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "alternate_identifiers": [
+      {
+        "identifier": "https://events.hifis.net/event/1741/contributions/13962/"
+      }
+    ],
+    "communities": [
+      {
+        "id": "infra-wg-rse"
+      },
+      {
+        "id": "caa-de"
+      },
+      {
+        "id": "derse25"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "n4o-cc-rse"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "University of Cologne",
+        "name": "Schubert, Lutz Krister",
+        "orcid": "0000-0003-4889-9353"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>The relevance of Open Science and Open Data is becoming increasingly obvious in modern day publications. Frequently, scientists write their own analysis code, as the complexity of analysis increases and the combination of methods become more relevant &ndash; from code conversion, to measuring and comparing. These functions and methods are not stable, are subject to change, are constrained to the use case and data used etc.</p>\n<p>Opening and maintaining data already poses a substantial number of issues, including versioning, provenance, format, and generator specific constraints, such as precision, resolution etc. These problems intensify as we regard code that generates such data. In this presentation we will talk about the problems associated with maintaining research code.</p>\n<p>As such, for example, code executability is even more difficult to maintain as data readability. This is mostly due to the strong dependencies of code to libraries, drivers, hardware and operating systems. All of these dependencies are subject to frequent changes, which may cause the code to not execute properly anymore or &ndash; in the worst case &ndash; still execute but deliver different results. Maintaining the code is effort-intensive and therefore basically impossible in the context of a research publication. Obviously, if the code is adapted, we need to maintain all previous versions and refer to the right versions used in the publication to ensure that in principle the same results can be reproduced should a divergence arise as a consequence of maintenance.</p>\n<p>Due to the specificity of the code, i.e. it being originally developed for a very specific use case and data format, it requires even more effort to adapt that given code to another context, if e.g. the data format or resolution changes, even if the type of analysis and the research question remains the same. Where possible, therefore, the algorithm behind the analysis code may be of more importance than the code itself, given that it is numerically correct. As an implication, implementations may diverge from the numerical results due to the platform accuracy &ndash; ideally only minimally, however. As noted, though, this is not appropriate for too complex code where the algorithm would be too difficult to represent and explain, or for AI based and related methods that depend additional data, aka learning context. Implicitly, such methods would have to be treated differently.</p>\n<p>With respect to ensuring that data is not only FAIR, but also reproducible under any circumstances, we follow the suggestion that code must be treated in the same fashion, by making sure that all algorithmic processes published are<br>- Reproducible in the sense that the results can be achieved again with the same process and context<br>- Executable at any point in time (though not necessarily on any machine)<br>- Attributable to the data and author at the stage of publication and<br>- Literal in so far as that the algorithm is a sound and correct representation of the mathematical methods to be applied.</p>",
+    "doi": "10.5281/zenodo.14898292",
+    "journal": {
+      "issue": "3",
+      "pages": "λ4",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE25",
+      "dates": "25-28 Feb 2025",
+      "place": "Karlsruher Institut für Technologie, Campus South, Karlsruhe",
+      "session": "Poster and Demo Session",
+      "title": "5th conference for Research Software Engineering in Germany and Fachtagung Software Engineering (SE)",
+      "url": "https://events.hifis.net/event/1741/"
+    },
+    "publication_date": "2025-02-26",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14898291"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Keeping it REAL: Sustainability Challenges for Research Software in Computational Archaeology"
+  },
+  "modified": "2025-03-08T14:16:03.545118+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14898292",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Keeping it REAL: Sustainability Challenges for Research Software in Computational Archaeology",
+  "updated": "2025-03-08T14:16:03.545118+00:00"
+}

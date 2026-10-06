@@ -1,0 +1,171 @@
+{
+  "conceptdoi": "10.5281/zenodo.14976365",
+  "conceptrecid": "14976365",
+  "created": "2025-03-08T13:50:26.488102+00:00",
+  "doi": "10.5281/zenodo.14976366",
+  "doi_url": "https://doi.org/10.5281/zenodo.14976366",
+  "files": [
+    {
+      "checksum": "md5:490afb580844ee27fb31ad5d16d65771",
+      "id": "e09b139b-d602-4881-92cf-59a28298da30",
+      "key": "deRSE25_94_INFRA-WG-RSE.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14976366/files/deRSE25_94_INFRA-WG-RSE.pdf/content"
+      },
+      "size": 6365577
+    }
+  ],
+  "id": 14976366,
+  "links": {
+    "access": "https://zenodo.org/api/records/14976366/access",
+    "access_grants": "https://zenodo.org/api/records/14976366/access/grants",
+    "access_links": "https://zenodo.org/api/records/14976366/access/links",
+    "access_request": "https://zenodo.org/api/records/14976366/access/request",
+    "access_users": "https://zenodo.org/api/records/14976366/access/users",
+    "archive": "https://zenodo.org/api/records/14976366/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14976366/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14976366/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14976366/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14976366",
+    "draft": "https://zenodo.org/api/records/14976366/draft",
+    "file_modification": "https://zenodo.org/api/records/14976366/file-modification",
+    "files": "https://zenodo.org/api/records/14976366/files",
+    "latest": "https://zenodo.org/api/records/14976366/versions/latest",
+    "latest_html": "https://zenodo.org/records/14976366/latest",
+    "media_files": "https://zenodo.org/api/records/14976366/media-files",
+    "parent": "https://zenodo.org/api/records/14976365",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14976365",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14976365",
+    "parent_html": "https://zenodo.org/records/14976365",
+    "preview_html": "https://zenodo.org/records/14976366?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14976366/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14976366/request-deletion",
+    "requests": "https://zenodo.org/api/records/14976366/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14976366/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14976366",
+    "self_doi": "https://doi.org/10.5281/zenodo.14976366",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14976366",
+    "self_html": "https://zenodo.org/records/14976366",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14976366/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14976366/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14976366:deRSE25_94_INFRA-WG-RSE.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14976366:deRSE25_94_INFRA-WG-RSE.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14976366:deRSE25_94_INFRA-WG-RSE.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14976366:deRSE25_94_INFRA-WG-RSE.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14976366:deRSE25_94_INFRA-WG-RSE.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14976366:deRSE25_94_INFRA-WG-RSE.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14976366/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "alternate_identifiers": [
+      {
+        "identifier": "https://events.hifis.net/event/1741/contributions/14032/"
+      }
+    ],
+    "communities": [
+      {
+        "id": "n4o-cc-rse"
+      },
+      {
+        "id": "derse25"
+      },
+      {
+        "id": "infra-wg-rse"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "CAA-DE e.V.",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "University of Stuttgart",
+        "name": "Flemisch, Bernd",
+        "orcid": "0000-0001-8188-620X"
+      },
+      {
+        "affiliation": "University of Potsdam",
+        "name": "Bernoth, Jan",
+        "orcid": "0000-0002-4127-0053"
+      },
+      {
+        "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "name": "Seiwerth, Corinna",
+        "orcid": "0009-0004-0779-3186"
+      },
+      {
+        "affiliation": "Technische Universität Braunschweig",
+        "name": "Linxweiler, Jan",
+        "orcid": "0000-0002-2755-5087"
+      },
+      {
+        "affiliation": "Academy of Sciences and Literature",
+        "name": "Söhn, Linnaea",
+        "orcid": "0000-0001-8341-1187"
+      }
+    ],
+    "description": "<p>Research Software Engineering is fundamental to the German National Research Data Infrastructure (NFDI). Following that, a \"deRSE Arbeitskreis NFDI\" serves as a connection point for RSEs in the NFDI inside deRSE e.V. Within the NFDI e.V., several \"sections\" are dealing with overarching topics, e.g., the \"Sektion Common Infrastructures\" with its working groups on Data Integration (DI), Electronic Lab Notebooks (ELN) or Research Software Engineering (RSE).</p>\n<p>Within this session, we as the WG RSE in the Section Common Infrastructures, will give an impulsive talk on research data and software management in domain-specific NFDI consortia, base4NFDI, and other sections.</p>\n<p>Following that, we invite NFDI-involved RSEs to join a &ldquo;Stand-Up-Science&rdquo; part to briefly present their RSE challenges and solutions in spontaneous or not-so-spontaneous lightning talks (max 7-10 minutes) or short insights into research software such as code, architecture, etc.</p>\n<p>Questions to answer could be:</p>\n<ol>\n<li>Name / last academic degree / Affiliation / current task</li>\n<li>What are your connections to the NFDI? (existing or possible)</li>\n<li>What was the last thing I coded/worked on</li>\n<li>Which research data did I last reuse?</li>\n<li>Which research software did I last reuse?</li>\n<li>Favourite git command</li>\n<li>Give a reason why you were told that the software/data could not be published</li>\n<li>What advice (best/good practice) would you give to a new RSE?</li>\n</ol>\n<p>If you want to present something, please use the survey at&nbsp;<a href=\"https://umfragenup.uni-potsdam.de/nfdi-rse/\">https://umfragenup.uni-potsdam.de/nfdi-rse/</a>.</p>\n<p>All the aspects mentioned will be part of a joint paper on the &ldquo;RSE in NFDI&rdquo; topic.</p>",
+    "doi": "10.5281/zenodo.14976366",
+    "journal": {
+      "issue": "3",
+      "pages": "λ8",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE25",
+      "dates": "25-27 Feb 2025",
+      "place": "KIT, Karlsruhe, Germany",
+      "session": "Meet Ups",
+      "title": "Fifth German Conference on Research Software Engineering",
+      "url": "https://events.hifis.net/event/1741/"
+    },
+    "publication_date": "2025-02-27",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14976365"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "How to improve the visibility and added value of RSE(s) in NFDI"
+  },
+  "modified": "2025-03-08T13:50:26.957483+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14976366",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "How to improve the visibility and added value of RSE(s) in NFDI",
+  "updated": "2025-03-08T13:50:26.957483+00:00"
+}

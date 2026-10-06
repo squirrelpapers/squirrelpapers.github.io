@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 44.669722,
+    "lon": -74.981111
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Ort im US-Bundesstaat New York",
+    "en": "town in St. Lawrence County, New York, United States"
+  },
+  "id": "Q1022943",
+  "instance_of": [
+    "Q106071004",
+    "Q15127012"
+  ],
+  "labels": {
+    "de": "Potsdam",
+    "en": "Potsdam"
+  }
+}

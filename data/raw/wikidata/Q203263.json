@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 33.955278,
+    "lon": -83.383056
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Stadt im US-Bundesstaat Georgia",
+    "en": "consolidated city-county and county seat of Clarke County, Georgia, United States"
+  },
+  "id": "Q203263",
+  "instance_of": [
+    "Q1093829",
+    "Q1549591",
+    "Q3301053",
+    "Q62049",
+    "Q76514543"
+  ],
+  "labels": {
+    "de": "Athens",
+    "en": "Athens"
+  }
+}

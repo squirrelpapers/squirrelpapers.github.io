@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Forschungsdatenmanagement, Technische Universität Hamburg",
+    "en": "research data management, Hamburg University of Technology"
+  },
+  "id": "Q113678997",
+  "instance_of": [
+    "Q679206"
+  ],
+  "labels": {
+    "de": "Forschungsdatenreferat der TUHH",
+    "en": "Forschungsdatenreferat"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "conceptdoi": "10.5281/zenodo.5788378",
+  "conceptrecid": "5788378",
+  "created": "2022-02-07T16:57:44.164938+00:00",
+  "doi": "10.5281/zenodo.5788379",
+  "doi_url": "https://doi.org/10.5281/zenodo.5788379",
+  "files": [
+    {
+      "checksum": "md5:1fdc8ee7800a30df10066c045b8c1852",
+      "id": "3350ec5d-e397-4b44-a90a-28a910a18c3e",
+      "key": "Fellow-Programm Freies Wissen  Revisited_EZ_08_DE.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/5788379/files/Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf/content"
+      },
+      "size": 4079480
+    }
+  ],
+  "id": 5788379,
+  "links": {
+    "access": "https://zenodo.org/api/records/5788379/access",
+    "access_grants": "https://zenodo.org/api/records/5788379/access/grants",
+    "access_links": "https://zenodo.org/api/records/5788379/access/links",
+    "access_request": "https://zenodo.org/api/records/5788379/access/request",
+    "access_users": "https://zenodo.org/api/records/5788379/access/users",
+    "archive": "https://zenodo.org/api/records/5788379/files-archive",
+    "archive_media": "https://zenodo.org/api/records/5788379/media-files-archive",
+    "communities": "https://zenodo.org/api/records/5788379/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/5788379/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.5788379",
+    "draft": "https://zenodo.org/api/records/5788379/draft",
+    "file_modification": "https://zenodo.org/api/records/5788379/file-modification",
+    "files": "https://zenodo.org/api/records/5788379/files",
+    "latest": "https://zenodo.org/api/records/5788379/versions/latest",
+    "latest_html": "https://zenodo.org/records/5788379/latest",
+    "media_files": "https://zenodo.org/api/records/5788379/media-files",
+    "parent": "https://zenodo.org/api/records/5788378",
+    "parent_doi": "https://doi.org/10.5281/zenodo.5788378",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5788378",
+    "parent_html": "https://zenodo.org/records/5788378",
+    "preview_html": "https://zenodo.org/records/5788379?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/5788379/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/5788379/request-deletion",
+    "requests": "https://zenodo.org/api/records/5788379/requests",
+    "reserve_doi": "https://zenodo.org/api/records/5788379/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/5788379",
+    "self_doi": "https://doi.org/10.5281/zenodo.5788379",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5788379",
+    "self_html": "https://zenodo.org/records/5788379",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:5788379/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:5788379/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:5788379:Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:5788379:Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:5788379:Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:5788379:Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:5788379:Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:5788379:Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/5788379/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Wikimedia Deutschland e. V.",
+        "name": "Sarah Behrens"
+      },
+      {
+        "affiliation": "Wikimedia Deutschland e. V.",
+        "name": "Christopher Schwarzkopf"
+      },
+      {
+        "affiliation": "Wikimedia Deutschland e. V.",
+        "name": "Anna-Katharina Gödeke"
+      },
+      {
+        "affiliation": "Wikimedia Deutschland e. V.",
+        "name": "Dr. Dominik Scholl",
+        "orcid": "0000-0001-5120-1548"
+      },
+      {
+        "affiliation": "Wikimedia Deutschland e. V.",
+        "name": "Nico Schneider"
+      }
+    ],
+    "description": "<p><strong>Mit dem Fellow-Programm Freies&nbsp; Wissen unterst&uuml;tzte Wikimedia Deutschland e.&nbsp; V. &ndash; gemeinsam mit verschiedenen Partner*innen &ndash; Wissenschaftler*innen aus Deutschland, &Ouml;sterreich und der Schweiz &uuml;ber f&uuml;nf Jahre dabei, ihre eigene Forschungsarbeit zu &ouml;ffnen und damit zu Freiem Wissen beizutragen. Durch Qualifizierungsangebote, Mentoring, finanzielle Unterst&uuml;tzung und Vernetzung mit anderen Aktiven im Bereich Offene Wissenschaft konnten insgesamt 90 Fellows zu Praktiker*innen und Botschafter*innen f&uuml;r Freies Wissen ausgebildet werden. Die Fellows konnten durch die Teilnahme am Programm ihre Kenntnisse &uuml;ber Theorie und Praxis Offener Wissenschaft ma&szlig;geblich erweitern, ihr wissenschaftliches Umfeld dahingehend sensibilisieren und ihr&nbsp; Wissen weitergeben. Aus der Praxis-Community, die sich aus und um das Programm herum gebildet hat, gingen zahlreiche Initiativen zur F&ouml;rderung Freien&nbsp; Wissens in der Wissenschaft hervor und es konnten einzelne Ver&auml;nderungen zu Gunsten von Offener&nbsp; Wissenschaft auf institutioneller Ebene erreicht werden. </strong></p>",
+    "doi": "10.5281/zenodo.5788379",
+    "keywords": [
+      "Open Science",
+      "Open Scholarship",
+      "Open Research"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2022-02-01",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "5788378"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "report",
+      "title": "Report",
+      "type": "publication"
+    },
+    "title": "Fellow-Programm Freies Wissen 2016 - 2021"
+  },
+  "modified": "2024-07-17T13:35:35.492047+00:00",
+  "owners": [
+    {
+      "id": "273907"
+    }
+  ],
+  "recid": "5788379",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Fellow-Programm Freies Wissen 2016 - 2021",
+  "updated": "2024-07-17T13:35:35.492047+00:00"
+}

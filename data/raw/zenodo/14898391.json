@@ -1,0 +1,148 @@
+{
+  "conceptdoi": "10.5281/zenodo.14898391",
+  "conceptrecid": "14898391",
+  "created": "2025-02-20T06:42:31.341458+00:00",
+  "doi": "10.5281/zenodo.14898392",
+  "doi_url": "https://doi.org/10.5281/zenodo.14898392",
+  "files": [
+    {
+      "checksum": "md5:182f7b39223656ab8e0e004f6c5003d5",
+      "id": "55414f19-9366-4f67-81f7-037cb3c30371",
+      "key": "deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14898392/files/deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf/content"
+      },
+      "size": 1872015
+    }
+  ],
+  "id": 14898392,
+  "links": {
+    "access": "https://zenodo.org/api/records/14898392/access",
+    "access_grants": "https://zenodo.org/api/records/14898392/access/grants",
+    "access_links": "https://zenodo.org/api/records/14898392/access/links",
+    "access_request": "https://zenodo.org/api/records/14898392/access/request",
+    "access_users": "https://zenodo.org/api/records/14898392/access/users",
+    "archive": "https://zenodo.org/api/records/14898392/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14898392/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14898392/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14898392/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14898392",
+    "draft": "https://zenodo.org/api/records/14898392/draft",
+    "file_modification": "https://zenodo.org/api/records/14898392/file-modification",
+    "files": "https://zenodo.org/api/records/14898392/files",
+    "latest": "https://zenodo.org/api/records/14898392/versions/latest",
+    "latest_html": "https://zenodo.org/records/14898392/latest",
+    "media_files": "https://zenodo.org/api/records/14898392/media-files",
+    "parent": "https://zenodo.org/api/records/14898391",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14898391",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14898391",
+    "parent_html": "https://zenodo.org/records/14898391",
+    "preview_html": "https://zenodo.org/records/14898392?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14898392/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14898392/request-deletion",
+    "requests": "https://zenodo.org/api/records/14898392/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14898392/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14898392",
+    "self_doi": "https://doi.org/10.5281/zenodo.14898392",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14898392",
+    "self_html": "https://zenodo.org/records/14898392",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14898392/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14898392/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14898392:deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14898392:deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14898392:deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14898392:deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14898392:deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14898392:deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14898392/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "alternate_identifiers": [
+      {
+        "identifier": "https://events.hifis.net/event/1741/contributions/14053/"
+      }
+    ],
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "n4o-cc-rse"
+      },
+      {
+        "id": "infra-wg-rse"
+      },
+      {
+        "id": "derse25"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "University of Stuttgart",
+        "name": "Flemisch, Bernd",
+        "orcid": "0000-0001-8188-620X"
+      }
+    ],
+    "description": "<p>Research Software Engineering is fundamental to the German National Research Data Infrastructure (NFDI). Following that, a \"deRSE Arbeitskreis NFDI\" serves as a connection point for RSEs in the NFDI inside deRSE e.V.</p>\n<p>Within the NFDI e.V., several \"sections\" are dealing with overarching topics, e.g., the \"Sektion Common Infrastructures\" with its working groups on \"Data Integration (DI)\", \"Data Management Planning (DMP)\", \"Data Science and Artificial Intelligence (DSAI)\", \"Electronic Lab Notebooks (ELN)\", \"Persistent Identifiers (PID)\" and \"Research Software Engineering (RSE)\".</p>\n<p>The RSE working group connects the NFDI consortia in software-related aspects. It focuses on three areas: Research software, software communities and software infrastructure at NFDI. The working group operates a central forum in an advisory and supportive capacity. It establishes the necessary software ecosystem within NFDI for the professional development of software infrastructure components, which represent an integral part of the NFDI. In addition, the working group serves as an interface for the NFDI to compare European and international initiatives to promote the connectivity of the NFDI with other infrastructures.</p>\n<p>This poster, as a meet-up place, would like to bring RSEs already working or interested in the NFDI together to create an active network and encourage them to join the RSE working group in the NFDI Section Infra.</p>",
+    "doi": "10.5281/zenodo.14898392",
+    "journal": {
+      "issue": "3",
+      "pages": "λ5",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE25",
+      "dates": "25-28 Feb 2025",
+      "place": "Karlsruher Institut für Technologie, Campus South, Karlsruhe",
+      "session": "Poster and Demo Session",
+      "title": "5th conference for Research Software Engineering in Germany and Fachtagung Software Engineering (SE)",
+      "url": "https://events.hifis.net/event/1741/"
+    },
+    "publication_date": "2025-02-26",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14898391"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Research Software Engineering in the NFDI (INFRA-WG-RSE)"
+  },
+  "modified": "2025-03-08T14:20:05.139718+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14898392",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Research Software Engineering in the NFDI (INFRA-WG-RSE)",
+  "updated": "2025-03-08T14:20:05.139718+00:00"
+}

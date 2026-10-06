@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Siena [de]": [
+      {
+        "description": "city in Tuscany, Italy and capital of the province of Siena",
+        "id": "Q2751",
+        "label": "Siena"
+      },
+      {
+        "description": "female given name",
+        "id": "Q20001017",
+        "label": "Siena"
+      },
+      {
+        "description": "Italian football club based in Siena, Tuscany",
+        "id": "Q2756",
+        "label": "Siena FC"
+      },
+      {
+        "description": "vertical structure, usually solid, that defines and sometimes protects an area",
+        "id": "Q42948",
+        "label": "wall"
+      },
+      {
+        "description": "family name",
+        "id": "Q37543776",
+        "label": "Siena"
+      }
+    ],
+    "Siena [en]": [
+      {
+        "description": "city in Tuscany, Italy and capital of the province of Siena",
+        "id": "Q2751",
+        "label": "Siena"
+      },
+      {
+        "description": "female given name",
+        "id": "Q20001017",
+        "label": "Siena"
+      },
+      {
+        "description": "Italian football club based in Siena, Tuscany",
+        "id": "Q2756",
+        "label": "Siena FC"
+      },
+      {
+        "description": "",
+        "id": "Q49280771",
+        "label": "Siena"
+      },
+      {
+        "description": "province of Italy",
+        "id": "Q16275",
+        "label": "Province of Siena"
+      }
+    ]
+  },
+  "label": "Siena, Italy"
+}

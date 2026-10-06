@@ -1,0 +1,26 @@
+{
+  "coordinates": {
+    "lat": 41.5,
+    "lon": 2
+  },
+  "country": [
+    "Q142",
+    "Q228",
+    "Q29",
+    "Q38"
+  ],
+  "descriptions": {
+    "de": "romanische Sprache, wird vor allem in Katalonien, Valencia und auf den Balearen gesprochen",
+    "en": "Western Romance language"
+  },
+  "id": "Q7026",
+  "instance_of": [
+    "Q1288568",
+    "Q1322198",
+    "Q34770"
+  ],
+  "labels": {
+    "de": "Katalanisch",
+    "en": "Catalan"
+  }
+}

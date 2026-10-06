@@ -1,0 +1,143 @@
+{
+  "conceptdoi": "10.5281/zenodo.13627274",
+  "conceptrecid": "13627274",
+  "created": "2024-09-02T09:28:15.027045+00:00",
+  "doi": "10.5281/zenodo.13627275",
+  "doi_url": "https://doi.org/10.5281/zenodo.13627275",
+  "files": [
+    {
+      "checksum": "md5:67e67222f4267c6c98e7ab00ff063c12",
+      "id": "739b2603-6b39-4ea7-8f9b-251fc3e72776",
+      "key": "42_ThieryetAl.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13627275/files/42_ThieryetAl.pdf/content"
+      },
+      "size": 547558
+    }
+  ],
+  "id": 13627275,
+  "links": {
+    "access": "https://zenodo.org/api/records/13627275/access",
+    "access_grants": "https://zenodo.org/api/records/13627275/access/grants",
+    "access_links": "https://zenodo.org/api/records/13627275/access/links",
+    "access_request": "https://zenodo.org/api/records/13627275/access/request",
+    "access_users": "https://zenodo.org/api/records/13627275/access/users",
+    "archive": "https://zenodo.org/api/records/13627275/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13627275/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13627275/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13627275/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13627275",
+    "draft": "https://zenodo.org/api/records/13627275/draft",
+    "file_modification": "https://zenodo.org/api/records/13627275/file-modification",
+    "files": "https://zenodo.org/api/records/13627275/files",
+    "latest": "https://zenodo.org/api/records/13627275/versions/latest",
+    "latest_html": "https://zenodo.org/records/13627275/latest",
+    "media_files": "https://zenodo.org/api/records/13627275/media-files",
+    "parent": "https://zenodo.org/api/records/13627274",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13627274",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13627274",
+    "parent_html": "https://zenodo.org/records/13627274",
+    "preview_html": "https://zenodo.org/records/13627275?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13627275/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13627275/request-deletion",
+    "requests": "https://zenodo.org/api/records/13627275/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13627275/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13627275",
+    "self_doi": "https://doi.org/10.5281/zenodo.13627275",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13627275",
+    "self_html": "https://zenodo.org/records/13627275",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13627275/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13627275/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13627275:42_ThieryetAl.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13627275:42_ThieryetAl.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13627275:42_ThieryetAl.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13627275:42_ThieryetAl.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13627275:42_ThieryetAl.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13627275:42_ThieryetAl.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13627275/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "eaa2024-dob"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Johannes Gutenberg University Mainz",
+        "name": "Schenk, Fiona"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Thiery, Peter",
+        "orcid": "0000-0003-3270-2659"
+      }
+    ],
+    "description": "<p>Data modelling in archaeological research must handle uncertainty and ambiguities, especially in georeferencing. This enables re-using research data using the FAIR principles (Findable, Accessible, Interoperable, Reusable) and Open Science while guaranteeing data quality. Furthermore, for linking data, modelling vagueness, georeferencing methods and events, and FAIRification, graph-based modelling as Linked Open Data (LOD) proposed by Berners-Lee is the method and technique of choice. However, due to the enormous variety of research domains, an interdisciplinary, commonly understandable modelling of uncertainties and vagueness in research data is highly challenging. We will present two data-driven interdisciplinary use cases for dealing with and modelling vague and uncertain georeferenced findspots as LOD from the archaeological and geosciences domains.<br><br>Graph-based data modelling uses three technologies: (I) Wikidata, (II) ontologies and Linked Open data using the Fuzzy Spatial Locations Ontology (FSLO), and (III) Wikibase. The main modelling idea is to publish and model the following georeferencing information as Linked Open Data: (1) describe where the geoinformation comes from, (2) describe the method of how the coordinate was created, (3) describe the uncertainty issue(s), and (4) use references into the Semantic Web. Methods I-III can be applied to at least use cases from the archaeological and geosciences domain: Ogham Stones in Ireland and the Eruption of the Campanian Ignimbrite.<br><br>This poster presents exemplary modelling approaches for archaeology and geosciences, demonstrating the importance of dealing with doubts in the georeferencing process.</p>",
+    "doi": "10.5281/zenodo.13627275",
+    "journal": {
+      "issue": "3",
+      "pages": "#9",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "EAA 2024",
+      "dates": "28-31 August 2024",
+      "place": "Sapienza University of Rome",
+      "session": "Poster",
+      "session_part": "42",
+      "title": "30th EAA Annual Meeting in Rome | Persisting with Change"
+    },
+    "publication_date": "2024-08-28",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13627274"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Taming Doubts - How to semantically model fuzzy and wobbly georeferences in archaeology and in the geosciences"
+  },
+  "modified": "2024-09-02T09:28:15.282977+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13627275",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Taming Doubts - How to semantically model fuzzy and wobbly georeferences in archaeology and in the geosciences",
+  "updated": "2024-09-02T09:28:15.282977+00:00"
+}

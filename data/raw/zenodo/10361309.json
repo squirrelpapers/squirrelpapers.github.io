@@ -1,0 +1,128 @@
+{
+  "conceptdoi": "10.5281/zenodo.10361309",
+  "conceptrecid": "10361309",
+  "created": "2023-12-12T11:40:33.887819+00:00",
+  "doi": "10.5281/zenodo.10362227",
+  "doi_url": "https://doi.org/10.5281/zenodo.10362227",
+  "files": [
+    {
+      "checksum": "md5:225313ad8106918c8d72fa6deff6a077",
+      "id": "cdf72938-2647-46ca-a82d-14e640348087",
+      "key": "Research-Squirrel-Engineers/campanian-ignimbrite-geo-v0.2.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/10362227/files/Research-Squirrel-Engineers/campanian-ignimbrite-geo-v0.2.zip/content"
+      },
+      "size": 84785
+    }
+  ],
+  "id": 10362227,
+  "links": {
+    "access": "https://zenodo.org/api/records/10362227/access",
+    "access_grants": "https://zenodo.org/api/records/10362227/access/grants",
+    "access_links": "https://zenodo.org/api/records/10362227/access/links",
+    "access_request": "https://zenodo.org/api/records/10362227/access/request",
+    "access_users": "https://zenodo.org/api/records/10362227/access/users",
+    "archive": "https://zenodo.org/api/records/10362227/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10362227/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10362227/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10362227/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10362227",
+    "draft": "https://zenodo.org/api/records/10362227/draft",
+    "file_modification": "https://zenodo.org/api/records/10362227/file-modification",
+    "files": "https://zenodo.org/api/records/10362227/files",
+    "latest": "https://zenodo.org/api/records/10362227/versions/latest",
+    "latest_html": "https://zenodo.org/records/10362227/latest",
+    "media_files": "https://zenodo.org/api/records/10362227/media-files",
+    "parent": "https://zenodo.org/api/records/10361309",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10361309",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10361309",
+    "parent_html": "https://zenodo.org/records/10361309",
+    "preview_html": "https://zenodo.org/records/10362227?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10362227/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10362227/request-deletion",
+    "requests": "https://zenodo.org/api/records/10362227/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10362227/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10362227",
+    "self_doi": "https://doi.org/10.5281/zenodo.10362227",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10362227",
+    "self_html": "https://zenodo.org/records/10362227",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10362227/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10362227/sequence/default",
+    "versions": "https://zenodo.org/api/records/10362227/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": null,
+        "name": "Schenk, Fiona",
+        "orcid": "0009-0008-2877-3204"
+      }
+    ],
+    "description": "No description provided.",
+    "doi": "10.5281/zenodo.10362227",
+    "keywords": [
+      "Campanian Ignimbrite",
+      "Linked Open Data",
+      "Geosciences"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "notes": "If you use this software, please cite it as below.",
+    "publication_date": "2023-12-12",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/Research-Squirrel-Engineers/campanian-ignimbrite-geo/tree/v0.2",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10361309"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "Campanian Ignimbrite Geo Locations",
+    "version": "v0.2"
+  },
+  "modified": "2023-12-12T11:40:35.663903+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "10362227",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Campanian Ignimbrite Geo Locations",
+  "updated": "2023-12-12T11:40:35.663903+00:00"
+}

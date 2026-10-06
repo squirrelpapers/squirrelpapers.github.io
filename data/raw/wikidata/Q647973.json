@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 52.3917,
+    "lon": 13.0667
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Hauptbahnhof der brandenburgischen Hauptstadt Potsdam",
+    "en": "central railway station in Potsdam, Germany"
+  },
+  "id": "Q647973",
+  "instance_of": [
+    "Q110977521",
+    "Q55488"
+  ],
+  "labels": {
+    "de": "Potsdam Hauptbahnhof",
+    "en": "Potsdam central station"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q38"
+  ],
+  "descriptions": {
+    "de": "Fußballverein aus Siena, Italien",
+    "en": "Italian football club based in Siena, Tuscany"
+  },
+  "id": "Q2756",
+  "instance_of": [
+    "Q476028"
+  ],
+  "labels": {
+    "de": "ACR Siena 1904",
+    "en": "Siena FC"
+  }
+}

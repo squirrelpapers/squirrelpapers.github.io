@@ -1,0 +1,19 @@
+{
+  "country": [
+    "Q29"
+  ],
+  "descriptions": {
+    "de": "Sportverein aus Barcelona, Spanien",
+    "en": "football club in Barcelona, Catalonia, Spain"
+  },
+  "id": "Q7156",
+  "instance_of": [
+    "Q103229495",
+    "Q10651067",
+    "Q20639856"
+  ],
+  "labels": {
+    "de": "FC Barcelona",
+    "en": "FC Barcelona"
+  }
+}

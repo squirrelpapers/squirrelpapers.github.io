@@ -1,0 +1,113 @@
+{
+  "answers": {
+    "KIT [de]": [
+      {
+        "description": "unisex given name",
+        "id": "Q16278009",
+        "label": "Kit"
+      },
+      {
+        "description": "preschool institution with an educational approach traditionally based on playing",
+        "id": "Q126807",
+        "label": "kindergarten"
+      },
+      {
+        "description": "family name",
+        "id": "Q22117028",
+        "label": "Kit"
+      },
+      {
+        "description": "constellation straddling the celestial equator",
+        "id": "Q8839",
+        "label": "Cetus"
+      },
+      {
+        "description": "protein-coding gene in the species Homo sapiens",
+        "id": "Q20969938",
+        "label": "KIT"
+      }
+    ],
+    "KIT [en]": [
+      {
+        "description": "unisex given name",
+        "id": "Q16278009",
+        "label": "Kit"
+      },
+      {
+        "description": "type of very small downloadable content for the 2014 video game The Sims 4",
+        "id": "Q113773777",
+        "label": "kit"
+      },
+      {
+        "description": "technical university and research center in Karlsruhe, Germany",
+        "id": "Q309988",
+        "label": "Karlsruhe Institute of Technology"
+      },
+      {
+        "description": "family name",
+        "id": "Q22117028",
+        "label": "Kit"
+      },
+      {
+        "description": "city in Fukuoka Prefecture, Japan",
+        "id": "Q188806",
+        "label": "Kitakyūshū"
+      }
+    ],
+    "Karlsruhe [de]": [
+      {
+        "description": "city in Baden-Württemberg, Germany",
+        "id": "Q1040",
+        "label": "Karlsruhe"
+      },
+      {
+        "description": "1927 Königsberg-class cruiser",
+        "id": "Q663558",
+        "label": "German cruiser Karlsruhe"
+      },
+      {
+        "description": "technical university and research center in Karlsruhe, Germany",
+        "id": "Q309988",
+        "label": "Karlsruhe Institute of Technology"
+      },
+      {
+        "description": "1982 Bremen-class frigate",
+        "id": "Q1381656",
+        "label": "Karlsruhe"
+      },
+      {
+        "description": "district of Baden-Württemberg, Germany",
+        "id": "Q8178",
+        "label": "Landkreis Karlsruhe"
+      }
+    ],
+    "Karlsruhe [en]": [
+      {
+        "description": "city in Baden-Württemberg, Germany",
+        "id": "Q1040",
+        "label": "Karlsruhe"
+      },
+      {
+        "description": "1927 Königsberg-class cruiser",
+        "id": "Q663558",
+        "label": "German cruiser Karlsruhe"
+      },
+      {
+        "description": "technical university and research center in Karlsruhe, Germany",
+        "id": "Q309988",
+        "label": "Karlsruhe Institute of Technology"
+      },
+      {
+        "description": "1982 Bremen-class frigate",
+        "id": "Q1381656",
+        "label": "Karlsruhe"
+      },
+      {
+        "description": "German Braunschweig-class corvette",
+        "id": "Q104880023",
+        "label": "German corvette Karlsruhe"
+      }
+    ]
+  },
+  "label": "KIT, Karlsruhe"
+}

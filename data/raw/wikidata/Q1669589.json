@@ -1,0 +1,15 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Fachgebiet der Archäologie sowie der (Klassischen) Altertumswissenschaft",
+    "en": "archaeological investigation of the Mediterranean civilizations of Ancient Greece and Ancient Rome"
+  },
+  "id": "Q1669589",
+  "instance_of": [
+    "Q4785472"
+  ],
+  "labels": {
+    "de": "Klassische Archäologie",
+    "en": "classical archaeology"
+  }
+}

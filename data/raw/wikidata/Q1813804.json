@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 52.371417,
+    "lon": 9.732194
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "rekonstruiertes Wohnhaus in Hannover",
+    "en": "reconstructed residential house in Hannover, Germany"
+  },
+  "id": "Q1813804",
+  "instance_of": [
+    "Q18760306"
+  ],
+  "labels": {
+    "de": "Leibnizhaus",
+    "en": "Leibnizhaus"
+  }
+}

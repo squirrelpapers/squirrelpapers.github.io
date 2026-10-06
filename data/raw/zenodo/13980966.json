@@ -1,0 +1,143 @@
+{
+  "conceptdoi": "10.5281/zenodo.13980966",
+  "conceptrecid": "13980966",
+  "created": "2024-10-23T07:17:30.973770+00:00",
+  "doi": "10.5281/zenodo.13980967",
+  "doi_url": "https://doi.org/10.5281/zenodo.13980967",
+  "files": [
+    {
+      "checksum": "md5:69464e89ec5cb6746a52fcfb1c2d507b",
+      "id": "5c27f03c-c828-457e-9d6b-24b32d8a8a7b",
+      "key": "N4O_OSF24_Workshop_LOD.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13980967/files/N4O_OSF24_Workshop_LOD.pdf/content"
+      },
+      "size": 34499136
+    }
+  ],
+  "id": 13980967,
+  "links": {
+    "access": "https://zenodo.org/api/records/13980967/access",
+    "access_grants": "https://zenodo.org/api/records/13980967/access/grants",
+    "access_links": "https://zenodo.org/api/records/13980967/access/links",
+    "access_request": "https://zenodo.org/api/records/13980967/access/request",
+    "access_users": "https://zenodo.org/api/records/13980967/access/users",
+    "archive": "https://zenodo.org/api/records/13980967/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13980967/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13980967/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13980967/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13980967",
+    "draft": "https://zenodo.org/api/records/13980967/draft",
+    "file_modification": "https://zenodo.org/api/records/13980967/file-modification",
+    "files": "https://zenodo.org/api/records/13980967/files",
+    "latest": "https://zenodo.org/api/records/13980967/versions/latest",
+    "latest_html": "https://zenodo.org/records/13980967/latest",
+    "media_files": "https://zenodo.org/api/records/13980967/media-files",
+    "parent": "https://zenodo.org/api/records/13980966",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13980966",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13980966",
+    "parent_html": "https://zenodo.org/records/13980966",
+    "preview_html": "https://zenodo.org/records/13980967?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13980967/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13980967/request-deletion",
+    "requests": "https://zenodo.org/api/records/13980967/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13980967/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13980967",
+    "self_doi": "https://doi.org/10.5281/zenodo.13980967",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13980967",
+    "self_html": "https://zenodo.org/records/13980967",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13980967/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13980967/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13980967:N4O_OSF24_Workshop_LOD.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13980967:N4O_OSF24_Workshop_LOD.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13980967:N4O_OSF24_Workshop_LOD.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13980967:N4O_OSF24_Workshop_LOD.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13980967:N4O_OSF24_Workshop_LOD.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13980967:N4O_OSF24_Workshop_LOD.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13980967/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "University of Applied Sciences Mainz",
+        "name": "Homburg, Timo",
+        "orcid": "0000-0002-9499-5840"
+      }
+    ],
+    "description": "<p>Linked Open Data (LOD) is an essential component of modern RDM initiatives for the FAIRification and comprehensible modelling of research data in the spirit of Open Science. Especially in the NFDI &ndash; and its various consortia &ndash; ontologies and the resulting LOD play a decisive role in linking heterogeneous and interdisciplinary research data. The W3C standard used for this purpose &ndash; the Resource Description Framework (RDF) &ndash; already offers a diverse toolkit to enable data to interact with each other in an interoperable manner. Geodata in particular is an entity that brings different data together.<br>In addition to its established standards from the OGC service family (WMS, WFS, OGC API features, ...), the Open Geospatial Consortium (OGC) has also implemented a standard for geodata in RDF: GeoSPARQL.</p>\n<p>However, the creation, publication and processing of (geo-)LOD in daily work, e.g., GIS, is not trivial and requires some expertise. In addition, community hubs such as Wikidata (Wikimedia) offer great opportunities for the participation of citizen scientists and the integration of data from Citizen Science. The SPARQL Unicorn was developed as a QGIS plugin [https://t1p.de/sparqlunicorn-qgis], which is capable of importing RDF data into the local GIS via SPARQL queries, to integrate this into daily working practice. It also offers options for transforming geodata into linked data and for generating HTML documentation of ontologies and research data [https://t1p.de/sparqlunicorn-ontdoc].</p>\n<p>This workshop provides basic knowledge of geodata as Linked Open Data, the SPARQL query language and Wikidata. In addition, FAIRification tools such as SPARQL Unicorn will be introduced to integrate geodata modelled as LOD in daily work, e.g. with GIS. The workshop relies on data from the humanities and cultural sciences, in particular from archaeology.</p>",
+    "doi": "10.5281/zenodo.13980967",
+    "journal": {
+      "issue": "4",
+      "pages": "#20",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "OSF",
+      "dates": "17-18 September 2024",
+      "place": "JGU, Mainz",
+      "session": "Workshops",
+      "session_part": "Day 1",
+      "title": "Open Science Festival",
+      "url": "https://converia.uni-mainz.de/frontend/index.php?folder_id=924&page_id="
+    },
+    "publication_date": "2024-09-17",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13980966"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferenceproceeding",
+      "title": "Conference proceeding",
+      "type": "publication"
+    },
+    "title": "Geodata in Linked Open Data and Wikidata in Practice"
+  },
+  "modified": "2024-10-23T07:17:31.494517+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13980967",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Geodata in Linked Open Data and Wikidata in Practice",
+  "updated": "2024-10-23T07:17:31.494517+00:00"
+}

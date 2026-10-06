@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 58.066667,
+    "lon": 8.066667
+  },
+  "country": [
+    "Q20"
+  ],
+  "descriptions": {
+    "de": "deutsches Kriegsschiff der Königsberg-Klasse",
+    "en": "1927 Königsberg-class cruiser"
+  },
+  "id": "Q663558",
+  "instance_of": [
+    "Q778129",
+    "Q852190"
+  ],
+  "labels": {
+    "de": "Leichter Kreuzer Karlsruhe",
+    "en": "German cruiser Karlsruhe"
+  }
+}

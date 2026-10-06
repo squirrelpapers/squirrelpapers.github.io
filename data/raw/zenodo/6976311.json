@@ -1,0 +1,156 @@
+{
+  "conceptdoi": "10.5281/zenodo.6976311",
+  "conceptrecid": "6976311",
+  "created": "2022-08-10T10:39:46.834409+00:00",
+  "doi": "10.5281/zenodo.6979739",
+  "doi_url": "https://doi.org/10.5281/zenodo.6979739",
+  "files": [
+    {
+      "checksum": "md5:db85028d801e4b4d2ddb04bc4a9a6c60",
+      "id": "ea6b2261-14d6-4e99-9e2b-f981e0e3064a",
+      "key": "CAA2022_Oxford_LinkedPipes_v2.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/6979739/files/CAA2022_Oxford_LinkedPipes_v2.pdf/content"
+      },
+      "size": 6004614
+    }
+  ],
+  "id": 6979739,
+  "links": {
+    "access": "https://zenodo.org/api/records/6979739/access",
+    "access_grants": "https://zenodo.org/api/records/6979739/access/grants",
+    "access_links": "https://zenodo.org/api/records/6979739/access/links",
+    "access_request": "https://zenodo.org/api/records/6979739/access/request",
+    "access_users": "https://zenodo.org/api/records/6979739/access/users",
+    "archive": "https://zenodo.org/api/records/6979739/files-archive",
+    "archive_media": "https://zenodo.org/api/records/6979739/media-files-archive",
+    "communities": "https://zenodo.org/api/records/6979739/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/6979739/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.6979739",
+    "draft": "https://zenodo.org/api/records/6979739/draft",
+    "file_modification": "https://zenodo.org/api/records/6979739/file-modification",
+    "files": "https://zenodo.org/api/records/6979739/files",
+    "latest": "https://zenodo.org/api/records/6979739/versions/latest",
+    "latest_html": "https://zenodo.org/records/6979739/latest",
+    "media_files": "https://zenodo.org/api/records/6979739/media-files",
+    "parent": "https://zenodo.org/api/records/6976311",
+    "parent_doi": "https://doi.org/10.5281/zenodo.6976311",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6976311",
+    "parent_html": "https://zenodo.org/records/6976311",
+    "preview_html": "https://zenodo.org/records/6979739?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/6979739/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/6979739/request-deletion",
+    "requests": "https://zenodo.org/api/records/6979739/requests",
+    "reserve_doi": "https://zenodo.org/api/records/6979739/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/6979739",
+    "self_doi": "https://doi.org/10.5281/zenodo.6979739",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6979739",
+    "self_html": "https://zenodo.org/records/6979739",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:6979739/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:6979739/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:6979739:CAA2022_Oxford_LinkedPipes_v2.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:6979739:CAA2022_Oxford_LinkedPipes_v2.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:6979739:CAA2022_Oxford_LinkedPipes_v2.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:6979739:CAA2022_Oxford_LinkedPipes_v2.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:6979739:CAA2022_Oxford_LinkedPipes_v2.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:6979739:CAA2022_Oxford_LinkedPipes_v2.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/6979739/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "caa-datadragon"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "HS Mainz",
+        "name": "Timo Homburg"
+      }
+    ],
+    "description": "<p><strong>Linked Pipes: A little minion for reproducible research</strong></p>\n\n<p><em>Florian Thiery, RGZM; Timo Homburg, University of Applied Sciences Mainz</em></p>\n\n<p>At Linked Pasts IV in Mainz 2018, the Linked Pasts Network had a session on &quot;Linked Data Tools and Pipelines&quot;: As a result, the Linked Pipes Working Group was born. The goal: creating so-called Linked Pipes as semantically modelled pipelines for (not only) LOD related workflows using the help of the WWW, and existing research software solutions such as JavaScript based little minions. Currently Linked Pipes are developed by the Research Squirrel Engineers Network (Timo Homburg and Florian Thiery), and is part of the Pelagios Network Annotation Activity as well as the Linked Pasts Network.</p>\n\n<p>Digital Workflows (as known as Linked Pipes) exist in mind, but researchers should visualise and semantically model them using well-known ontologies such as the Provenance Ontology (PROV-O) and the Dataflow Ontology (DFD) to create a part for reproducible research. Additionally, research workflows are usually not published in interoperable formats, such as RDF. It would be an improvement for archaeology if researchers could document Liked Pipes e.g. for a research publication and share the workflow with colleagues. Linked Pipes consists of tools, which can be easily part of the so-called Linked Open Data Cloud and therefore interlinked with other tools by using Wikidata [1] where you can create or edit existing items (research tools) with the property &ldquo;used by&rdquo; (P1535) &ldquo;Linked Pipes&rdquo; (Q73897190), e.g. SPARQLing Unicorn QGIS Plugin (Q74005133), Recogito (Q74692524), Annotoriuos (Q110585388). Linked Pipes should be reusable once defined in Linked Data. Creating a &ldquo;Linked Pipe Registry&rdquo; will help to share Linked Pipes in a central repository. But how? a) a registry file in a git repository which links to Pipe RDF files published elsewhere save, e.g. Zenodo -&gt; DOI or Solid Pod -&gt; access control, and b) visualisation of these pipes on demand in JavaScript in a Linked Pipe Viewer [2].</p>\n\n<p>This minion talk focuses on the Linked Pipe Viewer published on Github [3]. The viewer is based on JavScript and the flowchart.js library. Currently this framework does not support the &ldquo;Yourdon / DeMarco&rdquo; notation, as DFD visualising backbone. We currently adopted the syntax, to model digital data(-stores) (subroutine|data|blue), not digital resources (inputoutput|toolwd|purple), tool in Wikidata (subroutine|data|yellow) and local (maybe unpublished) tools (inputoutput|tool|yellow) and started to model use cases:</p>\n\n<p>&bull; Digital Text -&gt; Recogito Geo Annotation -&gt; QGIS Map<br>\n&bull; Book Text -&gt; Recogito Townland Annotation -&gt; QGIS Map<br>\n&bull; Ogham CIIC Book -&gt; R based Density Map<br>\n&bull; Samian Research Data -&gt; Samian Ware in Wikidata<br>\n&bull; 3D Scan of clay tablet -&gt; Machine Learning Data</p>\n\n<p><strong>References</strong><br>\n[1] https://www.wikidata.org/wiki/Wikidata:WikiProject_LinkedPipes<br>\n[2] http://viewer.linkedpipes.xyz<br>\n[3] https://github.com/Research-Squirrel-Engineers/LinkedPipes</p>",
+    "doi": "10.5281/zenodo.6979739",
+    "keywords": [
+      "Linked Open Data",
+      "Linked Pipes"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CAA Oxford",
+      "dates": "08.08.2022 - 11.08.2022",
+      "place": "Oxford, United Kingdom",
+      "session": "S05",
+      "session_part": "2",
+      "title": "Computer Applications and Quantitative Methods in Archaeology",
+      "url": "https://2022.caaconference.org"
+    },
+    "publication_date": "2022-08-10",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "6976311"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "subjects": [
+      {
+        "identifier": "http://www.wikidata.org/entity/Q18692990",
+        "scheme": "url",
+        "term": "Linked Open Data"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q30299672",
+        "scheme": "url",
+        "term": "Computer Applications and Quantitative Methods in Archaeology"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q73901110",
+        "scheme": "url",
+        "term": "CAA SIG Data-Dragon"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q73899080",
+        "scheme": "url",
+        "term": "Little Minions"
+      }
+    ],
+    "title": "Linked Pipes: A Little Minion for reproducible research"
+  },
+  "modified": "2024-07-16T06:40:32.799073+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "6979739",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Linked Pipes: A Little Minion for reproducible research",
+  "updated": "2024-07-16T06:40:32.799073+00:00"
+}

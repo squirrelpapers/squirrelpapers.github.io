@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 50.803611,
+    "lon": 4.333889
+  },
+  "country": [
+    "Q31"
+  ],
+  "descriptions": {
+    "de": "Gemeinde in Belgien",
+    "en": "municipality in the Brussels-Capital Region, Belgium"
+  },
+  "id": "Q203312",
+  "instance_of": [
+    "Q493522"
+  ],
+  "labels": {
+    "de": "Uccle/Ukkel",
+    "en": "Uccle"
+  }
+}

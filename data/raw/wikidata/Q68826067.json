@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 55.934777,
+    "lon": -3.216299
+  },
+  "country": [
+    "Q145"
+  ],
+  "descriptions": {
+    "de": "Civil Parish in Schottland",
+    "en": "Scottish parish"
+  },
+  "id": "Q68826067",
+  "instance_of": [
+    "Q5124673"
+  ],
+  "labels": {
+    "de": "Edinburgh",
+    "en": "Edinburgh"
+  }
+}

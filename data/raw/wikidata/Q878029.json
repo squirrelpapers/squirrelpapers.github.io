@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 50.0061,
+    "lon": 8.26972
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Archäologisches Forschungsinstitut und Museum in Mainz",
+    "en": "archaeological research institute and museum in Mainz"
+  },
+  "id": "Q878029",
+  "instance_of": [
+    "Q31855",
+    "Q33506"
+  ],
+  "labels": {
+    "de": "Römisch-Germanisches Zentralmuseum",
+    "en": "Römisch-Germanisches Zentralmuseum"
+  }
+}

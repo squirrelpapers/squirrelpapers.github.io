@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 53.460958,
+    "lon": 9.969506
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Universität in Deutschland",
+    "en": "university in Germany"
+  },
+  "id": "Q1060",
+  "instance_of": [
+    "Q1371037",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Technische Universität Hamburg",
+    "en": "Hamburg University of Technology"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "conceptdoi": "10.5281/zenodo.7142170",
+  "conceptrecid": "7142170",
+  "created": "2022-10-04T15:42:49.024675+00:00",
+  "doi": "10.5281/zenodo.7142171",
+  "doi_url": "https://doi.org/10.5281/zenodo.7142171",
+  "files": [
+    {
+      "checksum": "md5:7b71fa9247aeb8b8525cedd8fe14ed7c",
+      "id": "746b5251-f52b-4087-a6fa-6dd833620a1c",
+      "key": "JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/7142171/files/JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pptx/content"
+      },
+      "size": 37542444
+    },
+    {
+      "checksum": "md5:45f2e428a4e79755cd406f6ec30ec7ac",
+      "id": "dc13dcce-ffca-4423-939f-073e009ab76d",
+      "key": "JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7142171/files/JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf/content"
+      },
+      "size": 7991310
+    }
+  ],
+  "id": 7142171,
+  "links": {
+    "access": "https://zenodo.org/api/records/7142171/access",
+    "access_grants": "https://zenodo.org/api/records/7142171/access/grants",
+    "access_links": "https://zenodo.org/api/records/7142171/access/links",
+    "access_request": "https://zenodo.org/api/records/7142171/access/request",
+    "access_users": "https://zenodo.org/api/records/7142171/access/users",
+    "archive": "https://zenodo.org/api/records/7142171/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7142171/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7142171/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7142171/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7142171",
+    "draft": "https://zenodo.org/api/records/7142171/draft",
+    "file_modification": "https://zenodo.org/api/records/7142171/file-modification",
+    "files": "https://zenodo.org/api/records/7142171/files",
+    "latest": "https://zenodo.org/api/records/7142171/versions/latest",
+    "latest_html": "https://zenodo.org/records/7142171/latest",
+    "media_files": "https://zenodo.org/api/records/7142171/media-files",
+    "parent": "https://zenodo.org/api/records/7142170",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7142170",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7142170",
+    "parent_html": "https://zenodo.org/records/7142170",
+    "preview_html": "https://zenodo.org/records/7142171?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7142171/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7142171/request-deletion",
+    "requests": "https://zenodo.org/api/records/7142171/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7142171/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7142171",
+    "self_doi": "https://doi.org/10.5281/zenodo.7142171",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7142171",
+    "self_html": "https://zenodo.org/records/7142171",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7142171/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7142171/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7142171:JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7142171:JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7142171:JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7142171:JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7142171:JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7142171:JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7142171/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "RGZM",
+        "name": "Florian Thiery M.Sc.",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "RGZM",
+        "name": "Dr. Allard Mees FSA",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<p>Although the current situation in archaeology still shows a clear predominance of relational databases, the relevance of LOD and the Semantic Web in the Digital Humanities has increased substantially. Enhancing SQL databases by applying LOD technologies enables the application of the RDF standard, semantic modelling, interlinking of data, and Open Access by offering SPARQL endpoints to create FAIR Linked Open Usable Data. Creating a new infrastructure, an adapted data model, and the implementation of interactive web applications based on legacy systems causes challenges for Research Software Engineering (RSE) and Research Data Management (RDM) issues. This talk will demonstrate the example of NAVIS ONE.</p>\n\n<p>The NAVIS Ship Databases 1-3 at the RGZM cover ancient ships (&lt; AD 1200). The European Union funded the NAVIS projects, and its research community consisted of scientists from more than ten countries. NAVIS I (1996-1999) comprises shipwrecks, reconstructions and models, NAVIS II (1999-2001) focuses on ancient ship depictions on objects, and NAVIS III (2002) is related to ships on Roman coins. Moreover, the NAVIS ship databases enclose terms organised in controlled vocabularies, i.e. NAVIS I: thesauri of ship components and wreck-specific thesauri; NAVIS II: thesauri of ship components and their properties, objects keywords, dating, material as well as techniques; NAVIS III: thesauri of emperors, mints, coin types and ship features.</p>\n\n<p>Designing a common web app causes challenges in merging three different individual MS Access data models focussing on wrecks, models, reconstructions and depictions of archaeological objects and artefacts, especially coins, in a common data model based on PostgreSQL. Furthermore, transforming, cleaning, validating and normalising data is a highly elaborate task. These refined data enable opportunities in Semantic Web applications, LOD<br>\nand community work, e.g. NFDI4Objects TRAILs. Publishing data in the LOD hub archaeology.link connects them within the LOD Cloud, e.g. by interlinking ARS in NAVIS ONE and in ARS3D as well as iDAI.objects and entities of the Wikidata Knowledge Graph; thesauri can be published via a hub for authority files and community-driven vocabularies: DANTE; Nomisma can be used to share coins as a domain-specific hub.</p>",
+    "doi": "10.5281/zenodo.7142171",
+    "journal": {
+      "issue": "3",
+      "pages": "No.15",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "keywords": [
+      "Linked Open Data",
+      "Ships"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "JCM2022",
+      "dates": "05.10.-07.10.2022",
+      "place": "Cologne, Germany",
+      "session": "Managing and disseminating archaeological data",
+      "title": "Joint Chapter Meeting CAA DE/NL/FL Cologne 2022",
+      "url": "https://caa-de2022.uni-koeln.de"
+    },
+    "publication_date": "2022-10-06",
+    "related_identifiers": [
+      {
+        "identifier": "2750-560X",
+        "relation": "isPartOf",
+        "resource_type": "publication-other",
+        "scheme": "issn"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7142170"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "NAVIS.one: Challenges and Opportunities for RSE and RDM by designing a common web application from a 1990s online database"
+  },
+  "modified": "2024-07-16T00:31:41.707921+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7142171",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "NAVIS.one: Challenges and Opportunities for RSE and RDM by designing a common web application from a 1990s online database",
+  "updated": "2024-07-16T00:31:41.707921+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "coordinates": {
+    "lat": 44.697701,
+    "lon": 13.916245
+  },
+  "country": [],
+  "descriptions": {
+    "de": "deutsches Lazarettschiff im Zweiten Weltkrieg",
+    "en": "ship"
+  },
+  "id": "Q1536443",
+  "instance_of": [
+    "Q11446"
+  ],
+  "labels": {
+    "de": "Tübingen",
+    "en": "Tübingen"
+  }
+}

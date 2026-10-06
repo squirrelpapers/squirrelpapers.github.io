@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Fort Collins [de]": [
+      {
+        "description": "city and county seat of Larimer County, Colorado, United States",
+        "id": "Q490732",
+        "label": "Fort Collins"
+      },
+      {
+        "description": "6th episode of the twentieth season of South Park",
+        "id": "Q27554771",
+        "label": "Fort Collins"
+      },
+      {
+        "description": "single by Hopsin",
+        "id": "Q25205681",
+        "label": "Fort Collins"
+      },
+      {
+        "description": "newspaper in Fort Collins, Colorado",
+        "id": "Q5470953",
+        "label": "Coloradoan"
+      },
+      {
+        "description": "high school in Colorado, United States",
+        "id": "Q5470956",
+        "label": "Fort Collins High School"
+      }
+    ],
+    "Fort Collins [en]": [
+      {
+        "description": "city and county seat of Larimer County, Colorado, United States",
+        "id": "Q490732",
+        "label": "Fort Collins"
+      },
+      {
+        "description": "6th episode of the twentieth season of South Park",
+        "id": "Q27554771",
+        "label": "Fort Collins"
+      },
+      {
+        "description": "single by Hopsin",
+        "id": "Q25205681",
+        "label": "Fort Collins"
+      },
+      {
+        "description": "high school in Colorado, United States",
+        "id": "Q5470956",
+        "label": "Fort Collins High School"
+      },
+      {
+        "description": "archive organization in Fort Collins, United States",
+        "id": "Q5470960",
+        "label": "Fort Collins Museum and Discovery Science Center"
+      }
+    ]
+  },
+  "label": "Fort Collins, USA"
+}

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 40.566667,
+    "lon": -105.083333
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Stadt im US-Bundesstaat Colorado",
+    "en": "city and county seat of Larimer County, Colorado, United States"
+  },
+  "id": "Q490732",
+  "instance_of": [
+    "Q1093829",
+    "Q1549591"
+  ],
+  "labels": {
+    "de": "Fort Collins",
+    "en": "Fort Collins"
+  }
+}

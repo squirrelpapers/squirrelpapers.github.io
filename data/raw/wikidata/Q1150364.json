@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": -23.271,
+    "lon": 29.123
+  },
+  "country": [
+    "Q258"
+  ],
+  "descriptions": {
+    "de": "Kleinstadt in Südafrika",
+    "en": "town in the Limpopo province, South Africa"
+  },
+  "id": "Q1150364",
+  "instance_of": [
+    "Q3957"
+  ],
+  "labels": {
+    "de": "Bochum",
+    "en": "Senwabarwana"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 48.7818,
+    "lon": 9.17177
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Bibliothek der Universität Stuttgart",
+    "en": "university library"
+  },
+  "id": "Q1616201",
+  "instance_of": [
+    "Q856234"
+  ],
+  "labels": {
+    "de": "Universitätsbibliothek Stuttgart",
+    "en": "University of Stuttgart library"
+  }
+}

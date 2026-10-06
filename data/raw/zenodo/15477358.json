@@ -1,0 +1,129 @@
+{
+  "conceptdoi": "10.5281/zenodo.7377740",
+  "conceptrecid": "7377740",
+  "created": "2025-05-20T21:46:49.867126+00:00",
+  "doi": "10.5281/zenodo.15477358",
+  "doi_url": "https://doi.org/10.5281/zenodo.15477358",
+  "files": [
+    {
+      "checksum": "md5:16e69039f56dbd7bd5124546b414f9c8",
+      "id": "d0923e60-8d99-4cfa-8a74-a38bed940d09",
+      "key": "archaeolink/lado-v1.1.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/15477358/files/archaeolink/lado-v1.1.zip/content"
+      },
+      "size": 20424
+    }
+  ],
+  "id": 15477358,
+  "links": {
+    "access": "https://zenodo.org/api/records/15477358/access",
+    "access_grants": "https://zenodo.org/api/records/15477358/access/grants",
+    "access_links": "https://zenodo.org/api/records/15477358/access/links",
+    "access_request": "https://zenodo.org/api/records/15477358/access/request",
+    "access_users": "https://zenodo.org/api/records/15477358/access/users",
+    "archive": "https://zenodo.org/api/records/15477358/files-archive",
+    "archive_media": "https://zenodo.org/api/records/15477358/media-files-archive",
+    "communities": "https://zenodo.org/api/records/15477358/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/15477358/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.15477358",
+    "draft": "https://zenodo.org/api/records/15477358/draft",
+    "file_modification": "https://zenodo.org/api/records/15477358/file-modification",
+    "files": "https://zenodo.org/api/records/15477358/files",
+    "latest": "https://zenodo.org/api/records/15477358/versions/latest",
+    "latest_html": "https://zenodo.org/records/15477358/latest",
+    "media_files": "https://zenodo.org/api/records/15477358/media-files",
+    "parent": "https://zenodo.org/api/records/7377740",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7377740",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7377740",
+    "parent_html": "https://zenodo.org/records/7377740",
+    "preview_html": "https://zenodo.org/records/15477358?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/15477358/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/15477358/request-deletion",
+    "requests": "https://zenodo.org/api/records/15477358/requests",
+    "reserve_doi": "https://zenodo.org/api/records/15477358/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/15477358",
+    "self_doi": "https://doi.org/10.5281/zenodo.15477358",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15477358",
+    "self_html": "https://zenodo.org/records/15477358",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15477358/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15477358/sequence/default",
+    "versions": "https://zenodo.org/api/records/15477358/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "LEIZA",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "LEIZA",
+        "name": "Mees, Allard W.",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/archaeolink/lado"
+    },
+    "description": "The Linked Archaeological Data Ontology.",
+    "doi": "10.5281/zenodo.15477358",
+    "journal": {
+      "issue": "2",
+      "pages": "λ3",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "keywords": [
+      "Linked Open Data",
+      "Archaeology"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2025-05-20",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/archaeolink/lado/tree/v1.1",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7377740"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "Linked Archaeological Data Ontology (LADO)",
+    "version": "v1.1"
+  },
+  "modified": "2025-05-20T21:48:55.401169+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "15477358",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {
+    "swhid": "swh:1:dir:ab4870107648c4e0be2e461188468359b1c375da;origin=https://doi.org/10.5281/zenodo.7377740;visit=swh:1:snp:0de481db2b3cdc98cc1277c923d6446b081302d5;anchor=swh:1:rel:6a63c7b215fa36bda5578790a2c8d3b0316668f8;path=archaeolink-lado-046c8a0"
+  },
+  "title": "Linked Archaeological Data Ontology (LADO)",
+  "updated": "2025-05-20T21:48:55.401169+00:00"
+}

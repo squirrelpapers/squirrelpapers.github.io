@@ -1,0 +1,121 @@
+{
+  "conceptdoi": "10.5281/zenodo.4765603",
+  "conceptrecid": "4765603",
+  "created": "2021-05-29T21:54:35.945053+00:00",
+  "doi": "10.5281/zenodo.4849646",
+  "doi_url": "https://doi.org/10.5281/zenodo.4849646",
+  "files": [
+    {
+      "checksum": "md5:776db7fd75a984dd161aead8d5d99534",
+      "id": "61c46ea0-cc76-4918-a897-4dac4924d345",
+      "key": "ogi-ogham/ogham-datav1-v1.1.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/4849646/files/ogi-ogham/ogham-datav1-v1.1.zip/content"
+      },
+      "size": 152930986
+    }
+  ],
+  "id": 4849646,
+  "links": {
+    "access": "https://zenodo.org/api/records/4849646/access",
+    "access_grants": "https://zenodo.org/api/records/4849646/access/grants",
+    "access_links": "https://zenodo.org/api/records/4849646/access/links",
+    "access_request": "https://zenodo.org/api/records/4849646/access/request",
+    "access_users": "https://zenodo.org/api/records/4849646/access/users",
+    "archive": "https://zenodo.org/api/records/4849646/files-archive",
+    "archive_media": "https://zenodo.org/api/records/4849646/media-files-archive",
+    "communities": "https://zenodo.org/api/records/4849646/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/4849646/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.4849646",
+    "draft": "https://zenodo.org/api/records/4849646/draft",
+    "file_modification": "https://zenodo.org/api/records/4849646/file-modification",
+    "files": "https://zenodo.org/api/records/4849646/files",
+    "latest": "https://zenodo.org/api/records/4849646/versions/latest",
+    "latest_html": "https://zenodo.org/records/4849646/latest",
+    "media_files": "https://zenodo.org/api/records/4849646/media-files",
+    "parent": "https://zenodo.org/api/records/4765603",
+    "parent_doi": "https://doi.org/10.5281/zenodo.4765603",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4765603",
+    "parent_html": "https://zenodo.org/records/4765603",
+    "preview_html": "https://zenodo.org/records/4849646?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/4849646/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/4849646/request-deletion",
+    "requests": "https://zenodo.org/api/records/4849646/requests",
+    "reserve_doi": "https://zenodo.org/api/records/4849646/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/4849646",
+    "self_doi": "https://doi.org/10.5281/zenodo.4849646",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4849646",
+    "self_html": "https://zenodo.org/records/4849646",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:4849646/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:4849646/sequence/default",
+    "versions": "https://zenodo.org/api/records/4849646/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>This repository contains <code>Ogham Data</code> of several data sources such as</p>\n\n<ul>\n\t<li>Celtic Inscribed Stones Project (CISP)</li>\n\t<li>Ogham in 3D Project</li>\n\t<li>Corpus inscriptionum insularum Celticarum (1945)</li>\n</ul>\n\n<p>The data is divided into</p>\n\n<ul>\n\t<li>Geospatial Data</li>\n\t<li>Ogham Data</li>\n</ul>\n\n<p>The data belongs to the <a href=\"http://ogham.squirrel.link/\"><code>Irish ᚑᚌᚆᚐᚋ Stones in the Wikimedia Universe</code></a> project. This project is funded by <code>Wikimedia Deutschland</code> and the <code>Open Science Fellows Program</code>.</p>\n\n<p># Change Log</p>\n\n<ul>\n\t<li>fix turtle files</li>\n\t<li>split geospatial turtle files</li>\n</ul>",
+    "doi": "10.5281/zenodo.4849646",
+    "keywords": [
+      "Ogham",
+      "Wikidata",
+      "Linked Data",
+      "Semantic Web",
+      "Fellow-Programm Freies Wissen"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2021-05-28",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/ogi-ogham/ogham-datav1/tree/v1.1",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "4765603"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "Ogham Data - Version 1.1",
+    "version": "v1.1"
+  },
+  "modified": "2024-09-09T13:26:06.009433+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "4849646",
+  "revision": 9,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Ogham Data - Version 1.1",
+  "updated": "2024-09-09T13:26:06.009433+00:00"
+}

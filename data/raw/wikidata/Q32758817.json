@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 53.52344,
+    "lon": 8.10746
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Wikidata-Doublette",
+    "en": "Wikimedia permanent duplicate item"
+  },
+  "id": "Q32758817",
+  "instance_of": [
+    "Q21286738"
+  ],
+  "labels": {
+    "de": "Wilhelmshaven",
+    "en": "Wilhelmshaven"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "conceptdoi": "10.5281/zenodo.13897159",
+  "conceptrecid": "13897159",
+  "created": "2024-10-09T19:56:09.199350+00:00",
+  "doi": "10.5281/zenodo.13897160",
+  "doi_url": "https://doi.org/10.5281/zenodo.13897160",
+  "files": [
+    {
+      "checksum": "md5:8d4c2279d1f5a2e14816624d58eeb360",
+      "id": "e0e39216-fc1a-485c-abff-5dd312e9dd72",
+      "key": "AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13897160/files/AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf/content"
+      },
+      "size": 15517709
+    }
+  ],
+  "id": 13897160,
+  "links": {
+    "access": "https://zenodo.org/api/records/13897160/access",
+    "access_grants": "https://zenodo.org/api/records/13897160/access/grants",
+    "access_links": "https://zenodo.org/api/records/13897160/access/links",
+    "access_request": "https://zenodo.org/api/records/13897160/access/request",
+    "access_users": "https://zenodo.org/api/records/13897160/access/users",
+    "archive": "https://zenodo.org/api/records/13897160/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13897160/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13897160/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13897160/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13897160",
+    "draft": "https://zenodo.org/api/records/13897160/draft",
+    "file_modification": "https://zenodo.org/api/records/13897160/file-modification",
+    "files": "https://zenodo.org/api/records/13897160/files",
+    "latest": "https://zenodo.org/api/records/13897160/versions/latest",
+    "latest_html": "https://zenodo.org/records/13897160/latest",
+    "media_files": "https://zenodo.org/api/records/13897160/media-files",
+    "parent": "https://zenodo.org/api/records/13897159",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13897159",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13897159",
+    "parent_html": "https://zenodo.org/records/13897159",
+    "preview_html": "https://zenodo.org/records/13897160?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13897160/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13897160/request-deletion",
+    "requests": "https://zenodo.org/api/records/13897160/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13897160/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13897160",
+    "self_doi": "https://doi.org/10.5281/zenodo.13897160",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13897160",
+    "self_html": "https://zenodo.org/records/13897160",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13897160/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13897160/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13897160:AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13897160:AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13897160:AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13897160:AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13897160:AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13897160:AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13897160/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Mempel-Länger, Lasse",
+        "orcid": "0009-0001-5183-1635"
+      },
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Fella, Kristina",
+        "orcid": "0009-0005-3991-1025"
+      },
+      {
+        "affiliation": "Generaldirektion Kulturelles Erbe Rheinland-Pfalz",
+        "name": "Puhl, Andreas",
+        "orcid": "0000-0002-7387-7247"
+      },
+      {
+        "affiliation": null,
+        "name": "Baars, Stefanie"
+      },
+      {
+        "affiliation": null,
+        "name": "Berthold, Angela"
+      },
+      {
+        "affiliation": null,
+        "name": "Mees, Allard W."
+      }
+    ],
+    "description": "<p>Das Konsortium NFDI4Objects der Nationalen Forschungsdateninfrastruktur (NFDI) besch&auml;ftigt sich mit dem Forschungsdatenmanagement des materiellen Erbes von rund drei Millionen Jahren Menschheits- und Umweltgeschichte und entwickelt digitale Services f&uuml;r die interdisziplin&auml;re arch&auml;ologische Forschung. Die Arbeitsbereiche (Task Areas; TA) in NFDI4Objects hangeln sich entlang des Konzept der Objektbiografie, in dem ein Objekt dokumentiert (TA1: Documentation), gesammelt (TA2: Collecting), analysiert (TA3: Analysis &amp; Experiments), gesch&uuml;tzt (TA4: Protecting), gespeichert und geteilt (TA5: Storage, Access &amp; Dissemination) wird. Gleiches gilt f&uuml;r digitale (Meta-)Daten &uuml;ber das Objekt, die in einem Forschungsdatenlebenszyklus die Stationen &ldquo;plan &amp; design&rdquo;, &ldquo;collect &amp; capture&rdquo;, &ldquo;enrich &amp; interpret&rdquo;, &ldquo;archive &amp; preserve&rdquo;, &ldquo;share, publish and discover&rdquo;, sowie &ldquo;resuse &amp; cite&rdquo; durchlaufen. Begleitet wird dies durch FAIRification Services, welche zu data -management, -capturing, -enrichment, -preservation, -discovery und -connecting in NFDI4Objects entwickelt und bereitgestellt werden.</p>\n<p>Task Area 2 &ldquo;Collecting&rdquo; entwickelt eine vernetzte Forschungsdateninfrastruktur im Bereich der Sammlungen und Museen, begleitet mit qualit&auml;tsorientierten Datenmanagementprozessen, die die komplexen Anforderungen des wissenschaftlichen Sammelns von Objekten, der sammlungsbezogenen Forschung und Provenienzforschung unterst&uuml;tzen. Task Area 4 &ldquo;Protecting&rdquo; befasst sich mit Fragen des Datenmanagements und institutions&uuml;bergreifenden Datenaustauschs in den Bereichen Cultural Heritage, Denkmalschutz &ndash; insbesondere aus Sicht der f&ouml;deralen beh&ouml;rdlichen Struktur und deren gesetzlichen Vorgaben und Richtlinien &ndash; sowie Konservierung und Restaurierung von Sammlungsobjekten oder Denkm&auml;lern.</p>\n<p>Dieses Paper zeigt, welche digitalen Dienste &ndash; insbesondere in und aus den den Task Areas 2 &ldquo;Collecting&rdquo; und 4 &ldquo;Protecting&rdquo; &ndash; f&uuml;r die Arch&auml;ologien in Deutschland und dar&uuml;ber hinaus in und mit Hilfe von NFDI4Objects (weiter-)entwickelt werden, bzw. bereits vorhanden oder geplant sind. Es wird aufgezeigt, welcher Nutzen durch digitale Dienste f&uuml;r den Datenlebenszyklus in der Arch&auml;ologie entstehen um Anwendungen zwischen Grabungsalltag, musealer Arbeit und wissenschaftlicher Arbeit zu verkn&uuml;pfen. In diesem Prozess der FAIRification hin zu Open Science spielen Open Source Software (FOSS), Open Data &ndash; auch Linked Open Data &ndash; und Open Access unter Einhaltung internationaler Vorgaben (z.B. DSGVO) eine entscheidente Rolle.</p>\n<p>Wir stellen in diesem Paper in Zusammenarbeit mit den Institutionen und Partnern aus NFDI4Objects folgende FAIRification Services vor:</p>\n<p>bereits vorhanden</p>\n<ul>\n<li>\n<p>Academic Meta Tool &ndash; API for RDF modelling of vagueness in research data</p>\n</li>\n<li>\n<p>re3dragon &ndash; lookup and resolve tool for LOD resources</p>\n</li>\n<li>\n<p>Data and Research Tool Framework archaeology.link</p>\n</li>\n<li>\n<p>Alligator &ndash; An Allen Transformator</p>\n</li>\n<li>\n<p>LEIZA Conservation Thesaurus</p>\n</li>\n</ul>\n<p>in Entwicklung (in Zusammenarbeit mit der Community)</p>\n<ul>\n<li>\n<p>Provenienzgazetteers zur FAIRen Bereitstellung in einer Wikibase</p>\n</li>\n<li>\n<p>Knowledge Management Tool for Conservation and Restoration Processes</p>\n</li>\n<li>\n<p>Recommendations/Good Practices and Research Toolkits for Knowledge Modelling</p>\n</li>\n<li>\n<p>Standards and interfaces for interdisciplinary knowledge modelling and data exchange of heterogeneous systems</p>\n</li>\n<li>\n<p>Tools for managing knowledge modelling, including fuzzy and wobbly semantics</p>\n</li>\n<li>\n<p>Wikibase und Semantic Media Wiki Infrastructures</p>\n</li>\n<li>\n<p>Recommendations/Good Practices zur Integration in das Wikiversum</p>\n</li>\n</ul>",
+    "doi": "10.5281/zenodo.13897160",
+    "journal": {
+      "issue": "4",
+      "pages": "#17",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "keywords": [
+      "NFDI",
+      "NFDI4Objects"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "07-11 October 2024",
+      "place": "DBM Bochum",
+      "session": "Von der digital gestützten Ausgrabung zu digitalen Diensten in der Archäologie",
+      "session_part": "4",
+      "title": "Verbandstagung 2024 des NWVA e.V.",
+      "url": "https://va-bochum-2024.de/"
+    },
+    "publication_date": "2024-10-09",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13897159"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Digitale Services in der Archäologie Aktuelle Entwicklungen und Angebote aus den NFDI4Objects Arbeitsbereichen Collecting und Protecting"
+  },
+  "modified": "2024-10-09T19:56:09.459875+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13897160",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Digitale Services in der Archäologie Aktuelle Entwicklungen und Angebote aus den NFDI4Objects Arbeitsbereichen Collecting und Protecting",
+  "updated": "2024-10-09T19:56:09.459875+00:00"
+}

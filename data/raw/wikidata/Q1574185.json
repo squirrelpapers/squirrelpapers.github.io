@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 51.89291,
+    "lon": -8.49289
+  },
+  "country": [
+    "Q27"
+  ],
+  "descriptions": {
+    "de": "Universität in Irland",
+    "en": "constituent university of the National University of Ireland"
+  },
+  "id": "Q1574185",
+  "instance_of": [
+    "Q15407956",
+    "Q163740",
+    "Q45400320",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "University College Cork",
+    "en": "University College Cork"
+  }
+}

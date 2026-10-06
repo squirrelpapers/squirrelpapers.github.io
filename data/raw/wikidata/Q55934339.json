@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 55.85,
+    "lon": -4.25
+  },
+  "country": [
+    "Q145"
+  ],
+  "descriptions": {
+    "de": "Gemeinde in Schottland",
+    "en": "council area of Scotland, UK"
+  },
+  "id": "Q55934339",
+  "instance_of": [
+    "Q15060255",
+    "Q21503295"
+  ],
+  "labels": {
+    "en": "Glasgow City"
+  }
+}

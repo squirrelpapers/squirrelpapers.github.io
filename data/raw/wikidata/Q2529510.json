@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 51.966667,
+    "lon": 85.833333
+  },
+  "country": [
+    "Q159"
+  ],
+  "descriptions": {
+    "de": "Flughafen in Russland",
+    "en": "airport in Russia"
+  },
+  "id": "Q2529510",
+  "instance_of": [
+    "Q106643740",
+    "Q1248784",
+    "Q94993988"
+  ],
+  "labels": {
+    "de": "Flughafen Gorno-Altaisk",
+    "en": "Gorno-Altaysk Airport"
+  }
+}

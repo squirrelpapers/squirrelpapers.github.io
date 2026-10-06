@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Julius-Maximilians-Universität Würzburg [de]": [
+      {
+        "description": "university in Germany",
+        "id": "Q161976",
+        "label": "University of Würzburg"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101267538",
+        "label": "Julius-Maximilians-Universität Würzburg Biozentrum"
+      },
+      {
+        "description": "medical school",
+        "id": "Q101268750",
+        "label": "Julius-Maximilians-Universität Würzburg Medizinische Fakultät"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101267567",
+        "label": "Julius-Maximilians-Universitat Würzburg Fakultät für Physik und Astronomie"
+      },
+      {
+        "description": "academic department",
+        "id": "Q56292910",
+        "label": "Julius-Maximilians-Universität Würzburg Wirtschaftswissenschaftliche Fakultät"
+      }
+    ],
+    "Julius-Maximilians-Universität Würzburg [en]": [
+      {
+        "description": "university in Germany",
+        "id": "Q161976",
+        "label": "University of Würzburg"
+      },
+      {
+        "description": "research data management, University of Würzburg",
+        "id": "Q113994111",
+        "label": "Servicestelle Forschungsdatenmanagement"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101267538",
+        "label": "Julius-Maximilians-Universität Würzburg Biozentrum"
+      },
+      {
+        "description": "medical school",
+        "id": "Q101268750",
+        "label": "Julius-Maximilians-Universität Würzburg Medizinische Fakultät"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101267567",
+        "label": "Julius-Maximilians-Universitat Würzburg Fakultät für Physik und Astronomie"
+      }
+    ]
+  },
+  "label": "Julius-Maximilians-Universität Würzburg"
+}

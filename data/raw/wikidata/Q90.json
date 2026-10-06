@@ -1,0 +1,40 @@
+{
+  "coordinates": {
+    "lat": 48.856667,
+    "lon": 2.352222
+  },
+  "country": [
+    "Q142",
+    "Q146246",
+    "Q2748708",
+    "Q58296",
+    "Q70972",
+    "Q71084"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt und bevölkerungsreichste Stadt Frankreichs",
+    "en": "capital and most populous city in France"
+  },
+  "id": "Q90",
+  "instance_of": [
+    "Q1066984",
+    "Q108178728",
+    "Q11418818",
+    "Q1187811",
+    "Q1200957",
+    "Q134445478",
+    "Q1422929",
+    "Q1549591",
+    "Q174844",
+    "Q200250",
+    "Q208511",
+    "Q2240381",
+    "Q22923920",
+    "Q484170",
+    "Q51929311"
+  ],
+  "labels": {
+    "de": "Paris",
+    "en": "Paris"
+  }
+}

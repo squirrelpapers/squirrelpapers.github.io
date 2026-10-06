@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 51.037504,
+    "lon": 13.735215
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Fachhochschule in Dresden, Sachsen",
+    "en": "University in Dresden"
+  },
+  "id": "Q1622222",
+  "instance_of": [
+    "Q1365560",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Hochschule für Technik und Wirtschaft Dresden",
+    "en": "University of Applied Sciences Dresden"
+  }
+}

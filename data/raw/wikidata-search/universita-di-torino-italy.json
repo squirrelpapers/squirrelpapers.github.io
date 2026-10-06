@@ -1,0 +1,19 @@
+{
+  "answers": {
+    "Università di Torino [de]": [
+      {
+        "description": "university in Turin, Italy",
+        "id": "Q499911",
+        "label": "University of Turin"
+      }
+    ],
+    "Università di Torino [en]": [
+      {
+        "description": "university in Turin, Italy",
+        "id": "Q499911",
+        "label": "University of Turin"
+      }
+    ]
+  },
+  "label": "Università di Torino, Italy"
+}

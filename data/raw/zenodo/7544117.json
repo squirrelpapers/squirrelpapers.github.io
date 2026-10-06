@@ -1,0 +1,162 @@
+{
+  "conceptdoi": "10.5281/zenodo.7544117",
+  "conceptrecid": "7544117",
+  "created": "2023-01-17T12:05:09.835866+00:00",
+  "doi": "10.5281/zenodo.7544118",
+  "doi_url": "https://doi.org/10.5281/zenodo.7544118",
+  "files": [
+    {
+      "checksum": "md5:c6267046d5c56290f0ed6009bdbdfa61",
+      "id": "c3400bd1-0acb-49a3-b205-4884b7d207ee",
+      "key": "Ogham_Stones_Squirrel_Ireland_County.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7544118/files/Ogham_Stones_Squirrel_Ireland_County.pdf/content"
+      },
+      "size": 4587088
+    },
+    {
+      "checksum": "md5:be50d145170110c20968d022ee5eba69",
+      "id": "5d892c13-4ef5-4e17-a291-f5a796e3722e",
+      "key": "squirrel_barony_agg.geojson",
+      "links": {
+        "self": "https://zenodo.org/api/records/7544118/files/squirrel_barony_agg.geojson/content"
+      },
+      "size": 3013508
+    },
+    {
+      "checksum": "md5:39f3149fea991c7496fd5f9c7ad541f8",
+      "id": "96f142f6-5132-49b7-83ff-81c9b760b380",
+      "key": "squirrel_county_agg.geojson",
+      "links": {
+        "self": "https://zenodo.org/api/records/7544118/files/squirrel_county_agg.geojson/content"
+      },
+      "size": 16237381
+    },
+    {
+      "checksum": "md5:870275812867ca19395e80c6800b402d",
+      "id": "2f4d1c41-b478-453f-8891-9bd677132347",
+      "key": "squirrel_point.geojson",
+      "links": {
+        "self": "https://zenodo.org/api/records/7544118/files/squirrel_point.geojson/content"
+      },
+      "size": 101816
+    },
+    {
+      "checksum": "md5:c8aad7d28c32506c926055e64280f854",
+      "id": "1ab9f0e1-5e21-473f-b028-730f1adc1126",
+      "key": "Ogham_Stones_Squirrel_Ireland_Barony.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7544118/files/Ogham_Stones_Squirrel_Ireland_Barony.pdf/content"
+      },
+      "size": 1282204
+    }
+  ],
+  "id": 7544118,
+  "links": {
+    "access": "https://zenodo.org/api/records/7544118/access",
+    "access_grants": "https://zenodo.org/api/records/7544118/access/grants",
+    "access_links": "https://zenodo.org/api/records/7544118/access/links",
+    "access_request": "https://zenodo.org/api/records/7544118/access/request",
+    "access_users": "https://zenodo.org/api/records/7544118/access/users",
+    "archive": "https://zenodo.org/api/records/7544118/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7544118/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7544118/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7544118/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7544118",
+    "draft": "https://zenodo.org/api/records/7544118/draft",
+    "file_modification": "https://zenodo.org/api/records/7544118/file-modification",
+    "files": "https://zenodo.org/api/records/7544118/files",
+    "latest": "https://zenodo.org/api/records/7544118/versions/latest",
+    "latest_html": "https://zenodo.org/records/7544118/latest",
+    "media_files": "https://zenodo.org/api/records/7544118/media-files",
+    "parent": "https://zenodo.org/api/records/7544117",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7544117",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7544117",
+    "parent_html": "https://zenodo.org/records/7544117",
+    "preview_html": "https://zenodo.org/records/7544118?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7544118/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7544118/request-deletion",
+    "requests": "https://zenodo.org/api/records/7544118/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7544118/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7544118",
+    "self_doi": "https://doi.org/10.5281/zenodo.7544118",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7544118",
+    "self_html": "https://zenodo.org/records/7544118",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7544118/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7544118/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7544118:Ogham_Stones_Squirrel_Ireland_County.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7544118:Ogham_Stones_Squirrel_Ireland_County.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7544118:Ogham_Stones_Squirrel_Ireland_County.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7544118:Ogham_Stones_Squirrel_Ireland_County.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7544118:Ogham_Stones_Squirrel_Ireland_County.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7544118:Ogham_Stones_Squirrel_Ireland_County.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7544118/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Ogham Stone Maps: Squirrel Stones in Ireland</p>\n\n<blockquote>\n<p>Mapping of Squirrel Stones (Q106602643) aggregated to the administrative level of counties and baronies, created with QGIS from the attached GeoJSON files and the baselayer Esri.WorldShadedRelief (Tiles &copy; Esri - Source: Esri), EPSG:3857 (as of 01/17/2023).</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.7544118",
+    "journal": {
+      "issue": "2",
+      "pages": "No. 1",
+      "title": "Squirrel Papers",
+      "volume": "5"
+    },
+    "keywords": [
+      "Ogham",
+      "Ireland"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2023-01-17",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7544117"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "title": "Ogham Stone Maps: Squirrel Stones in Ireland"
+  },
+  "modified": "2024-07-12T19:49:44.326460+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7544118",
+  "revision": 7,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Ogham Stone Maps: Squirrel Stones in Ireland",
+  "updated": "2024-07-12T19:49:44.326460+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "answers": {
+    "Vienna City Hall [de]": [
+      {
+        "description": "town hall of Vienna, Austria",
+        "id": "Q686468",
+        "label": "Vienna City Hall"
+      }
+    ],
+    "Vienna City Hall [en]": [
+      {
+        "description": "town hall of Vienna, Austria",
+        "id": "Q686468",
+        "label": "Vienna City Hall"
+      }
+    ],
+    "Vienna [de]": [
+      {
+        "description": "capital of and state in Austria",
+        "id": "Q1741",
+        "label": "Vienna"
+      },
+      {
+        "description": "town in Fairfax County, Virginia, United States",
+        "id": "Q1002926",
+        "label": "Vienna"
+      },
+      {
+        "description": "female given name",
+        "id": "Q4011458",
+        "label": "Vienna"
+      },
+      {
+        "description": "city in Johnson County, Illinois, United States",
+        "id": "Q577544",
+        "label": "Vienna"
+      },
+      {
+        "description": "album by Ultravox",
+        "id": "Q2297508",
+        "label": "Vienna"
+      }
+    ],
+    "Vienna [en]": [
+      {
+        "description": "capital of and state in Austria",
+        "id": "Q1741",
+        "label": "Vienna"
+      },
+      {
+        "description": "town in Fairfax County, Virginia, United States",
+        "id": "Q1002926",
+        "label": "Vienna"
+      },
+      {
+        "description": "city in Johnson County, Illinois, United States",
+        "id": "Q577544",
+        "label": "Vienna"
+      },
+      {
+        "description": "female given name",
+        "id": "Q4011458",
+        "label": "Vienna"
+      },
+      {
+        "description": "album by Ultravox",
+        "id": "Q2297508",
+        "label": "Vienna"
+      }
+    ]
+  },
+  "label": "Vienna City Hall, Wappensaal, Vienna, Austria"
+}

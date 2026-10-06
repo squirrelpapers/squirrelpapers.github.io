@@ -1,0 +1,113 @@
+{
+  "answers": {
+    "JGU [de]": [
+      {
+        "description": "public university in Mainz, Germany",
+        "id": "Q161982",
+        "label": "Johannes Gutenberg University Mainz"
+      },
+      {
+        "description": "state private university in Sonipat, Haryana, India",
+        "id": "Q7072154",
+        "label": "O.P. Jindal Global (Institution of Eminence Deemed to be University)"
+      },
+      {
+        "description": "research data management, Johannes Gutenberg University Mainz",
+        "id": "Q113861354",
+        "label": "Kompetenzteam Forschungsdaten"
+      },
+      {
+        "description": "higher education institution in Depok, Indonesia",
+        "id": "Q109912989",
+        "label": "Universitas Global Jakarta"
+      },
+      {
+        "description": "",
+        "id": "Q11506435",
+        "label": "JAPAN GATEBALL UNION"
+      }
+    ],
+    "JGU [en]": [
+      {
+        "description": "state private university in Sonipat, Haryana, India",
+        "id": "Q7072154",
+        "label": "O.P. Jindal Global (Institution of Eminence Deemed to be University)"
+      },
+      {
+        "description": "public university in Mainz, Germany",
+        "id": "Q161982",
+        "label": "Johannes Gutenberg University Mainz"
+      },
+      {
+        "description": "higher education institution in Depok, Indonesia",
+        "id": "Q109912989",
+        "label": "Universitas Global Jakarta"
+      },
+      {
+        "description": "chemical compound",
+        "id": "Q105127727",
+        "label": "JGUGYKSJGFVHRB-XJDBAFCPSA-N"
+      },
+      {
+        "description": "group of stereoisomers with the chemical formula C₅₈H₉₀O₂₂",
+        "id": "Q105127724",
+        "label": "JGUGYKSJGFVHRB-UHFFFAOYSA-N"
+      }
+    ],
+    "Mainz [de]": [
+      {
+        "description": "capital of the federal state Rhineland-Palatinate, Germany",
+        "id": "Q1720",
+        "label": "Mainz"
+      },
+      {
+        "description": "Bundesliga football club in Germany",
+        "id": "Q105254",
+        "label": "1. FSV Mainz 05"
+      },
+      {
+        "description": "public university in Mainz, Germany",
+        "id": "Q161982",
+        "label": "Johannes Gutenberg University Mainz"
+      },
+      {
+        "description": "human settlement in Germany",
+        "id": "Q32067943",
+        "label": "Mainz"
+      },
+      {
+        "description": "German-language journal",
+        "id": "Q6736845",
+        "label": "Mainz"
+      }
+    ],
+    "Mainz [en]": [
+      {
+        "description": "capital of the federal state Rhineland-Palatinate, Germany",
+        "id": "Q1720",
+        "label": "Mainz"
+      },
+      {
+        "description": "Bundesliga football club in Germany",
+        "id": "Q105254",
+        "label": "1. FSV Mainz 05"
+      },
+      {
+        "description": "district of Rhineland-Palatinate, Germany",
+        "id": "Q8569",
+        "label": "Mainz-Bingen district"
+      },
+      {
+        "description": "territory in the Holy Roman Empire",
+        "id": "Q284667",
+        "label": "Electorate of Mainz"
+      },
+      {
+        "description": "municipal district of the city of Wiesbaden in Hesse, Germany",
+        "id": "Q567545",
+        "label": "Mainz-Kastel"
+      }
+    ]
+  },
+  "label": "JGU, Mainz Germany"
+}

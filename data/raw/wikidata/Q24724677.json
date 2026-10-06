@@ -1,0 +1,14 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Proteinfamilie",
+    "en": "InterPro Family"
+  },
+  "id": "Q24724677",
+  "instance_of": [
+    "Q417841"
+  ],
+  "labels": {
+    "en": "Ras-related small G protein, RGK family"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "conceptdoi": "10.5281/zenodo.14886032",
+  "conceptrecid": "14886032",
+  "created": "2025-03-08T14:14:05.842591+00:00",
+  "doi": "10.5281/zenodo.14886033",
+  "doi_url": "https://doi.org/10.5281/zenodo.14886033",
+  "files": [
+    {
+      "checksum": "md5:fce00caf18be5cf5eff0196be30d123f",
+      "id": "bf95941a-f2cf-499f-b83b-bf4a7146d5ce",
+      "key": "deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14886033/files/deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf/content"
+      },
+      "size": 2348825
+    }
+  ],
+  "id": 14886033,
+  "links": {
+    "access": "https://zenodo.org/api/records/14886033/access",
+    "access_grants": "https://zenodo.org/api/records/14886033/access/grants",
+    "access_links": "https://zenodo.org/api/records/14886033/access/links",
+    "access_request": "https://zenodo.org/api/records/14886033/access/request",
+    "access_users": "https://zenodo.org/api/records/14886033/access/users",
+    "archive": "https://zenodo.org/api/records/14886033/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14886033/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14886033/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14886033/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14886033",
+    "draft": "https://zenodo.org/api/records/14886033/draft",
+    "file_modification": "https://zenodo.org/api/records/14886033/file-modification",
+    "files": "https://zenodo.org/api/records/14886033/files",
+    "latest": "https://zenodo.org/api/records/14886033/versions/latest",
+    "latest_html": "https://zenodo.org/records/14886033/latest",
+    "media_files": "https://zenodo.org/api/records/14886033/media-files",
+    "parent": "https://zenodo.org/api/records/14886032",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14886032",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14886032",
+    "parent_html": "https://zenodo.org/records/14886032",
+    "preview_html": "https://zenodo.org/records/14886033?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14886033/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14886033/request-deletion",
+    "requests": "https://zenodo.org/api/records/14886033/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14886033/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14886033",
+    "self_doi": "https://doi.org/10.5281/zenodo.14886033",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14886033",
+    "self_html": "https://zenodo.org/records/14886033",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14886033/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14886033/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14886033:deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14886033:deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14886033:deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14886033:deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14886033:deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14886033:deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14886033/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "alternate_identifiers": [
+      {
+        "identifier": "https://events.hifis.net/event/1741/contributions/14034/"
+      }
+    ],
+    "communities": [
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "derse25"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "n4o-cc-rse"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "University of Applied Sciences Mainz",
+        "name": "Homburg, Timo",
+        "orcid": "0000-0002-9499-5840"
+      },
+      {
+        "affiliation": "Johannes Gutenberg University Mainz",
+        "name": "Schenk, Fiona",
+        "orcid": "0009-0008-2877-3204"
+      }
+    ],
+    "description": "<p><strong>Squirrels, LOD and RFAIRT</strong></p>\n<p>The comprehensible and collaborative collection and FAIRification of research data is becoming increasingly important in the Citizen Science community to become part of, for example, an archaeological or geoscientific Linked Open Data (LOD) Knowledge Graph and to enrich the already connected data network with qualified data (Schmidt et al. 2022). Only in this way can these data be linked with other data and actively integrated into international initiatives such as NFDI4Objects and community hubs (e.g., Wikidata, OpenStreetMap). Unfortunately, open-source (FOSS) research and Research FAIRification Tools (RFAIRT) are often not available. However, these can be created and curated by community and volunteer initiatives such as the Research Squirrel Engineers Network (Thiery et al. 2025), in collaboration with Linked Open Data projects as demonstrators. One example is the SPARQL Unicorn Research Toolkit (Thiery et al. 2025) which contains the SPARQLing Unicorn QGIS Plugin, the SPARQL Unicorn Ontology Documentation Tool and SPARQLing Jupyter Python Minions.</p>\n<p><strong>Research Squirrel Engineers</strong></p>\n<p>The Research Squirrel Engineers Network (founded in 2019 to implement the SPARQL Unicorn Research Toolkit) is an informal association of Linked Open Data/Wikidata enthusiasts, research software engineers, and citizen scientists with a focus on computational archaeology, digital humanities, and geoinformatics. The members collaboratively develop and maintain research and Research FAIRification Tools and implement them in interoperable data-driven projects.</p>\n<p><strong>SPARQL Unicorn Research Toolit</strong></p>\n<p>One FAIRification tool for digital data management is within the SPARQL Unicorn Research Toolkit is an implementation for the FLOSS GIS software QGIS. The SPARQLing Unicorn QGIS Plugin (Thiery &amp; Homburg 2020) allows sending Linked Data queries in (Geo)SPARQL to triple stores and prepares the results for the geocommunity in QGIS. It currently offers three main functions: (A) simplified querying of semantic web data sources, (B) transformation of QGIS vector layers to RDF, and (C) documentation of LOD as an HTML page. Additionally, the SPARQL Unicorn Ontology Documentation Tool (Homburg &amp; Thiery 2024) enables, for example, the automated creation of HTML pages from Linked Open Data publications in other applications via GitHub Action. The example (Fig. 1-4) shows findspots of the Campanian Ignimbrite eruption (Schenk et al. 2022) as LOD in QGIS and GitHub.</p>\n<p><strong>Jupyter Python Minions</strong></p>\n<p>Another key tool within the SPARQL Unicorn Research Toolkit are SPARQLing Python Minions, which enables users to send SPARQL queries from Jupyter Notebooks and Python Scripts to Wikidata, Wikibases, triple stores, and Solid Pods and visualise the results. This allows for direct integration of Semantic Web data into Python-based data analysis workflows. By leveraging Jupyter Notebooks, users can efficiently process, analyse, and visualise the retrieved data, further expanding the usability of SPARQL Unicorn tools for researchers across various domains. The example shows queries on Wikidata (Fig. 5-6).</p>",
+    "doi": "10.5281/zenodo.14886033",
+    "journal": {
+      "issue": "3",
+      "pages": "λ3",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE25",
+      "dates": "25-28 Feb 2025",
+      "place": "Karlsruher Institut für Technologie, Campus South, Karlsruhe",
+      "session": "Poster and Demo Session",
+      "title": "5th conference for Research Software Engineering in Germany and Fachtagung Software Engineering (SE)",
+      "url": "https://events.hifis.net/event/1741/"
+    },
+    "publication_date": "2025-02-26",
+    "references": [
+      "Homburg, T. & Thiery, F. (2024). The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs. Tagungsband FOSSGIS-Konferenz 2024, pp. 82-93. https://doi.org/10.5281/zenodo.10570985.",
+      "Schmidt, S.C., Thiery, F. & Trognitz, M. (2022). Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata. Digital, 2(3), 333-364. https://doi.org/10.3390/digital2030019.",
+      "Schenk, F., Hambach, U., Britzius, S., Veres, D. & Sirocko, F. (2024). A Cryptotephra Layer in Sediments of an Infilled Maar Lake from the Eifel (Germany): First Evidence of Campanian Ignimbrite Ash Airfall in Central Europe. Quaternary, 7(2), 17. https://doi.org/10.3390/quat7020017.",
+      "Thiery, F. & Homburg, T. (2020). QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins. Tagungsband FOSSGIS-Konferenz 2020, pp. 68-72. https://doi.org/10.5281/zenodo.3719128.",
+      "Thiery, F., Schenk, F. & Thiery, P. (2025). Das Research Squirrel Engineers Network: FAIRification Tools und LOD-Projekte aus der Archäoinformatik und den Geowissenschaften. Archäologische Informationen, 47, Early View. https://doi.org/10.5281/zenodo.14801070.",
+      "https://github.com/Research-Squirrel-Engineers/campanian-ignimbrite-geo",
+      "https://github.com/Research-Squirrel-Engineers/jupyter-nb-lod/"
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14886032"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences"
+  },
+  "modified": "2025-03-08T14:14:06.263073+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14886033",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences",
+  "updated": "2025-03-08T14:14:06.263073+00:00"
+}

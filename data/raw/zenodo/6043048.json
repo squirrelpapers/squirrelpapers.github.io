@@ -1,0 +1,167 @@
+{
+  "conceptdoi": "10.5281/zenodo.6043048",
+  "conceptrecid": "6043048",
+  "created": "2022-02-11T07:51:42.976712+00:00",
+  "doi": "10.5281/zenodo.6043049",
+  "doi_url": "https://doi.org/10.5281/zenodo.6043049",
+  "files": [
+    {
+      "checksum": "md5:4b6b8bdf43d603e6b27b2daaae411f67",
+      "id": "15385cd3-5f98-47af-8bf6-48bfb0fabe87",
+      "key": "HowToHandleVaguenessAndUncertainty_Graphum2022.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/6043049/files/HowToHandleVaguenessAndUncertainty_Graphum2022.pdf/content"
+      },
+      "size": 9858061
+    }
+  ],
+  "id": 6043049,
+  "links": {
+    "access": "https://zenodo.org/api/records/6043049/access",
+    "access_grants": "https://zenodo.org/api/records/6043049/access/grants",
+    "access_links": "https://zenodo.org/api/records/6043049/access/links",
+    "access_request": "https://zenodo.org/api/records/6043049/access/request",
+    "access_users": "https://zenodo.org/api/records/6043049/access/users",
+    "archive": "https://zenodo.org/api/records/6043049/files-archive",
+    "archive_media": "https://zenodo.org/api/records/6043049/media-files-archive",
+    "communities": "https://zenodo.org/api/records/6043049/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/6043049/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.6043049",
+    "draft": "https://zenodo.org/api/records/6043049/draft",
+    "file_modification": "https://zenodo.org/api/records/6043049/file-modification",
+    "files": "https://zenodo.org/api/records/6043049/files",
+    "latest": "https://zenodo.org/api/records/6043049/versions/latest",
+    "latest_html": "https://zenodo.org/records/6043049/latest",
+    "media_files": "https://zenodo.org/api/records/6043049/media-files",
+    "parent": "https://zenodo.org/api/records/6043048",
+    "parent_doi": "https://doi.org/10.5281/zenodo.6043048",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6043048",
+    "parent_html": "https://zenodo.org/records/6043048",
+    "preview_html": "https://zenodo.org/records/6043049?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/6043049/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/6043049/request-deletion",
+    "requests": "https://zenodo.org/api/records/6043049/requests",
+    "reserve_doi": "https://zenodo.org/api/records/6043049/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/6043049",
+    "self_doi": "https://doi.org/10.5281/zenodo.6043049",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6043049",
+    "self_html": "https://zenodo.org/records/6043049",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:6043049/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:6043049/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:6043049:HowToHandleVaguenessAndUncertainty_Graphum2022.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:6043049:HowToHandleVaguenessAndUncertainty_Graphum2022.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:6043049:HowToHandleVaguenessAndUncertainty_Graphum2022.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:6043049:HowToHandleVaguenessAndUncertainty_Graphum2022.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:6043049:HowToHandleVaguenessAndUncertainty_Graphum2022.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:6043049:HowToHandleVaguenessAndUncertainty_Graphum2022.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/6043049/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Dr. Allard W. Mees",
+        "orcid": "0000-0002-7634-5342"
+      },
+      {
+        "affiliation": "Uni Frankfurt",
+        "name": "Dr. Kasten Tolle",
+        "orcid": "0000-0002-9953-7638"
+      },
+      {
+        "affiliation": "RGK",
+        "name": "Dr. David G. Wigg-Wolf",
+        "orcid": "0000-0002-8604-544X"
+      }
+    ],
+    "description": "<p>Strategies for graph-based knowledge modelling as Linked Open Data (LOD) of real world archaeological data comprising vague and/or uncertain information are widely lacking. Semantically modelled information related to fuzziness and wobbliness in numismatics and ceramic studies will allow for analysis based on reasoning of archaeological research data, eventually revealing imperfect inferences. Uniform modelling of uncertainties and vagueness in research data is extremely challenging. In the context of archaeological data these aspects can appear in any phase starting from the discovery of an object through each further processing step. It also might depend on context- and meta-information, such as who performed the steps, and in the case of archaeological objects it also depends to a great extent on the preservation of the object itself and its archaeological context. It should be noted that context is a friendly notation for an endless beast!</p>\n\n<p>When focusing on modelling uncertainties and vagueness in RDF, we can find different approaches, for example special properties, refined statements, attribute assignments or blank scope nodes, which have been tested in best practices for numismatics (TWW15; SM14; TM18) and ceramics (TM21), recently by using the Academic Meta Tool (AMT) (UTM19;UT18; TU18). The jury is still out on which of these approaches would be the best, since each of them has different advantages and drawbacks. At least in the domain of archaeology there is no consensus, e.g. for CIDOC CRM this matter is still an open issue (CIDOC2019) and the same is true for Nomisma.org for example. This results in either non-homogeneous modelling even within the same domains, while transformation rules between modelling concepts for vagueness and uncertainty are missing. On top of this, uncertain and vague information may simply be removed from the publicly available data or even worse, is not even captured and stored at all.</p>\n\n<p>This paper discusses and evaluates modelling approaches, challenges, and limits to fuzziness and wobbliness (e.g. uncertainty, vagueness, accuracy, and precision) in research data in the exemplary contexts of numismatics and ceramic research. Both areas are similar, but both follow their own intrinsic research aspects and both underly different use wear conditions (corrosion, fragileness). By comparing the two domains, we hope to have a broader approach in the modelling possibilities and their effects. The results should serve as a basis for answering the question as to which of the modelling approaches should be preferred and how a mapping between them could be performed. Via the CAA Special Interest Group (SIG) on Semantics and LOUD in Archaeology (SIG-DataDragon) [<a href=\"http://datadragon.link/\">http://datadragon.link</a>] it then can be evaluated and scaled to other subject domains.</p>\n\n<p><strong>Bibliography</strong></p>\n\n<ul>\n\t<li>CIDOC (2019). Issue 349: Belief Values. URL: <a href=\"http://www.cidoc-crm.org/Issue/ID-349-belief-values\">http://www.cidoc-crm.org/Issue/ID-349-belief-values</a>.</li>\n\t<li>S. Metzger (2014). Modeling Uncertainty and Beliefs using Ontologies. Bachelor-Thesis, Goethe-University Frankfurt am Main, Department of Computer Science. URL: <a href=\"http://www.bigdata.uni-frankfurt.de/wp-content/uploads/2021/05/Modeling-Uncertainty-and-Beliefs-using-Ontologies_Melvin_S_Metzger.pdf\">http://www.bigdata.uni-frankfurt.de/wp-content/uploads/2021/05/Modeling-Uncertainty-and-Beliefs-using-Ontologies_Melvin_S_Metzger.pdf</a>.</li>\n\t<li>F. Thiery, A. Mees (2021). Linked Open Samian Ware - AMT Perspective. DOI: <a href=\"https://doi.org/10.5281/zenodo.5415571\">10.5281/zenodo.5415571</a>.</li>\n\t<li>F. Thiery, M. Unold (2018). Academic Meta Tool Ontology. URL: <a href=\"http://academic-meta-tool.xyz/ontology/\">http://academic-meta-tool.xyz/ontology</a>.</li>\n\t<li>F. Thiery, A. Mees (2018). Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD, Computer Applications and Quantitative Methods in Archaeology (CAA), T&uuml;bingen, Germany, 22nd March 2018. DOI: <a href=\"https://doi.org/10.5281/zenodo.1200111\">10.5281/zenodo.1200111</a>.</li>\n\t<li>K. Tolle, D. Wigg-Wolf. (2015).&nbsp; Uncertainty Handling for Ancient Coinage. In: F. Giligny, F. Djindjian, L. Costa, P. Moscati, and S. Robert, Eds., CAA2014. 21st Century Archaeology. Concepts, Methods and Tools. Proceedings of the 42nd Annual Conference on Computer Applications and Quantitative Methods in Archaeology., 171&ndash;78. Oxford: Archaeopress.</li>\n\t<li>M. Unold, F. Thiery, A. Mees (2019). Academic Meta Tool &ndash; Ein Web-Tool zur Modellierung von Vagheit. In: A. Kuczera, T. W&uuml;bbena, and T. Kollatz, Eds., Die Modellierung des Zweifels &ndash; Schl&uuml;sselideen und -konzepte zur graphbasierten Modellierung von Unsicherheiten, Zeitschrift f&uuml;r digitale Geisteswissenschaften / Sonderb&auml;nde, 4. DOI: <a href=\"https://zfdg.de/sb004_004\">10.17175/sb004_004</a>.</li>\n\t<li>M. Unold, F. Thiery (2018). Academic Meta Tool JavaScript Library. DOI: <a href=\"https://doi.org/10.5281/zenodo.3992520\">10.5281/zenodo.3992520</a>.</li>\n</ul>",
+    "doi": "10.5281/zenodo.6043049",
+    "journal": {
+      "issue": "3",
+      "pages": "No.6",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "keywords": [
+      "Graph",
+      "Linked Data",
+      "Vagueness",
+      "Uncertainty"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "Graphum2022",
+      "dates": "3.-4.2.2022",
+      "place": "Amsterdam, The Netherlands (virtual)",
+      "session": "Session 10: Archaeology",
+      "session_part": "10.3",
+      "title": "Graphs and Networks in the Humanities 2022",
+      "url": "https://graphentechnologien.hypotheses.org/tagungen/graphentechnologien-2022"
+    },
+    "publication_date": "2022-02-04",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.7184523",
+        "relation": "isSupplementedBy",
+        "resource_type": "publication-conferencepaper",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "2750-560X",
+        "relation": "isPartOf",
+        "resource_type": "publication-other",
+        "scheme": "issn"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "6043048"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Handling of vagueness and uncertainty in LOD: Dealing with numismatic and ceramological real world data."
+  },
+  "modified": "2024-07-17T10:17:45.890573+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "6043049",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Handling of vagueness and uncertainty in LOD: Dealing with numismatic and ceramological real world data.",
+  "updated": "2024-07-17T10:17:45.890573+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "coordinates": {
+    "lat": 47.070833,
+    "lon": 15.438611
+  },
+  "country": [
+    "Q131964",
+    "Q153136",
+    "Q176495",
+    "Q268970",
+    "Q28513",
+    "Q40",
+    "Q518101",
+    "Q596239",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Landeshauptstadt der Steiermark, Österreich",
+    "en": "capital of Styria, Austria"
+  },
+  "id": "Q13298",
+  "instance_of": [
+    "Q13539802",
+    "Q1549591",
+    "Q262882",
+    "Q667509",
+    "Q871419"
+  ],
+  "labels": {
+    "de": "Graz",
+    "en": "Graz"
+  }
+}

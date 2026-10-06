@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 52.493187,
+    "lon": 13.525931
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Bauwerk in Berlin",
+    "en": "building in Berlin, German"
+  },
+  "id": "Q105045243",
+  "instance_of": [
+    "Q811979"
+  ],
+  "labels": {
+    "de": "Hochschule für Technik und Wirtschaft Berlin",
+    "en": "Hochschule für Technik und Wirtschaft Berlin"
+  }
+}

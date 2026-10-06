@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 54.292222,
+    "lon": 10.886667
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Gemeinde in Schleswig-Holstein, Deutschland",
+    "en": "municipality of Schleswig-Holstein, Germany"
+  },
+  "id": "Q496435",
+  "instance_of": [
+    "Q42744322"
+  ],
+  "labels": {
+    "de": "Oldenburg in Holstein",
+    "en": "Oldenburg in Holstein"
+  }
+}

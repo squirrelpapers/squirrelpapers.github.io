@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 53.518795,
+    "lon": 8.114901
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Bahnhof in Niedersachsen",
+    "en": "German railway station"
+  },
+  "id": "Q15709139",
+  "instance_of": [
+    "Q55485"
+  ],
+  "labels": {
+    "de": "Bahnhof Wilhelmshaven",
+    "en": "Wilhelmshaven railway station"
+  }
+}

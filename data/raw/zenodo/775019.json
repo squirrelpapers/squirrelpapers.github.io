@@ -1,0 +1,140 @@
+{
+  "conceptdoi": "10.5281/zenodo.775019",
+  "conceptrecid": "775019",
+  "created": "2017-02-17T09:03:08.855371+00:00",
+  "doi": "10.5281/zenodo.292975",
+  "doi_url": "https://doi.org/10.5281/zenodo.292975",
+  "files": [
+    {
+      "checksum": "md5:a696ceed8be1bb02b101093a3b172222",
+      "id": "748570b8-6aae-4b4a-ac87-58942b6c78c0",
+      "key": "2014_CAA_Poster.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/292975/files/2014_CAA_Poster.pdf/content"
+      },
+      "size": 1138144
+    }
+  ],
+  "id": 292975,
+  "links": {
+    "access": "https://zenodo.org/api/records/292975/access",
+    "access_grants": "https://zenodo.org/api/records/292975/access/grants",
+    "access_links": "https://zenodo.org/api/records/292975/access/links",
+    "access_request": "https://zenodo.org/api/records/292975/access/request",
+    "access_users": "https://zenodo.org/api/records/292975/access/users",
+    "archive": "https://zenodo.org/api/records/292975/files-archive",
+    "archive_media": "https://zenodo.org/api/records/292975/media-files-archive",
+    "communities": "https://zenodo.org/api/records/292975/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/292975/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.292975",
+    "draft": "https://zenodo.org/api/records/292975/draft",
+    "file_modification": "https://zenodo.org/api/records/292975/file-modification",
+    "files": "https://zenodo.org/api/records/292975/files",
+    "latest": "https://zenodo.org/api/records/292975/versions/latest",
+    "latest_html": "https://zenodo.org/records/292975/latest",
+    "media_files": "https://zenodo.org/api/records/292975/media-files",
+    "parent": "https://zenodo.org/api/records/775019",
+    "parent_doi": "https://doi.org/10.5281/zenodo.775019",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.775019",
+    "parent_html": "https://zenodo.org/records/775019",
+    "preview_html": "https://zenodo.org/records/292975?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/292975/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/292975/request-deletion",
+    "requests": "https://zenodo.org/api/records/292975/requests",
+    "reserve_doi": "https://zenodo.org/api/records/292975/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/292975",
+    "self_doi": "https://doi.org/10.5281/zenodo.292975",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.292975",
+    "self_html": "https://zenodo.org/records/292975",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:292975/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:292975/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:292975:2014_CAA_Poster.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:292975:2014_CAA_Poster.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:292975:2014_CAA_Poster.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:292975:2014_CAA_Poster.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:292975:2014_CAA_Poster.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:292975:2014_CAA_Poster.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/292975/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "linkedgeodesy"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "i3mainz - Institut für Raumbezogene Informations- und Messtechnik",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>The Roman imperial period is known for the introduction of a red glossy pottery, the so called samian ware. It is crucial for archaeologists to date Roman sites in the Northern provinces. The research in samian ware pottery advanced in recent years. The spatial distribution and chronological pattern as well as the identification of kilnsites of individual potters are key research questions. Most recent studies are based on a dataset collected by several scholars in the past decades. It comprises detailed and reviewed data of potters, pots and related places. The character of the data makes it reasonable to approach it utilizing the concept of the Linked Open Data (LOD) in order to increase its potential for research. The goal of the study presented in this poster is to migrate a subset of these data into an appropriate structure and to make it accessible through URIs. Furthermore the place resources should be linked to existing LOD projects. Finally the query of the links between potters, pots and places was to render possible through a web based interface. The interoperability and possibility for data sharing is achieved by implementing suitable XML schemes (e.g. GML, MIDAS). Findspots and kilnsites are mapped to Pleiades places to benefit from the Pelagios project. Typically Pleiades places are designed to support geographical annotation of textual sources or archaeological objects. A major challenge of the study was to link the &lsquo;samian places&#39; to Pleiades places, because each follow their own spatial concept. &nbsp;Another aspect was the chronological information entailed in the dataset. Simulations of changes in the relative chronology of the material revealed the potential of the linked data approach by providing immediate access to all implications on related datasets. &nbsp;The results yield that research on samian ware can benefit from implementing the concept of LOD. Enhanced perspectives arise when extending the linked data to other resources like dies and coins. When the data is published it could contribute to the international crosslinking of archaeological information. Moreover, the data is ready for semantically modelling the relations in an ontology to foster the disclosure of knowledge hidden in the data. The poster presents the results of a M.Sc. Thesis delivered at the University of Applied Sciences Mainz.</p>",
+    "doi": "10.5281/zenodo.292975",
+    "journal": {
+      "issue": "3",
+      "pages": "#1",
+      "title": "Squirrel Papers",
+      "volume": "1"
+    },
+    "keywords": [
+      "archaeology",
+      "linked data",
+      "linked open data",
+      "semantic modelling",
+      "samian ware"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CAA",
+      "dates": "22.-25.04.2014",
+      "place": "Paris, France",
+      "session": "S07\tOntologies and standards for improving interoperability of archaeological data: from models towards practical experiences in various contexts",
+      "title": "Computer Applications and Quantitative Methods in Archaeology",
+      "url": "https://caa2014.sciencesconf.org/"
+    },
+    "publication_date": "2014-04-24",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "775019"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+    },
+    "title": "Linking potter, pots and places: a LOD approach to samian ware"
+  },
+  "modified": "2024-08-03T13:05:52.181054+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "292975",
+  "revision": 15,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Linking potter, pots and places: a LOD approach to samian ware",
+  "updated": "2024-08-03T13:05:52.181054+00:00"
+}

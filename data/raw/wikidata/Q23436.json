@@ -1,0 +1,28 @@
+{
+  "coordinates": {
+    "lat": 55.953333,
+    "lon": -3.189167
+  },
+  "country": [
+    "Q145",
+    "Q161885",
+    "Q174193",
+    "Q230791"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt von Schottland, Vereinigtes Königreich",
+    "en": "capital city of Scotland, UK"
+  },
+  "id": "Q23436",
+  "instance_of": [
+    "Q104630835",
+    "Q1187811",
+    "Q1549591",
+    "Q202435",
+    "Q515"
+  ],
+  "labels": {
+    "de": "Edinburgh",
+    "en": "Edinburgh"
+  }
+}

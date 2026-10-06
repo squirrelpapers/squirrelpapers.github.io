@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 52.366667,
+    "lon": 9.716667
+  },
+  "country": [],
+  "descriptions": {
+    "de": "deutsches Königreich (1814-1866)",
+    "en": "German kingdom established in 1814"
+  },
+  "id": "Q164079",
+  "instance_of": [
+    "Q113136497",
+    "Q3024240",
+    "Q3624078",
+    "Q417175"
+  ],
+  "labels": {
+    "de": "Königreich Hannover",
+    "en": "Kingdom of Hanover"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "answers": {
+    "Frankfurt am Mainz [de]": [],
+    "Frankfurt am Mainz [en]": [],
+    "RGK [de]": [
+      {
+        "description": "institution",
+        "id": "Q1425831",
+        "label": "Deutsches Archäologisches Institut. Römisch-Germanische Kommission"
+      },
+      {
+        "description": "InterPro Family",
+        "id": "Q24724677",
+        "label": "Ras-related small G protein, RGK family"
+      },
+      {
+        "description": "airport in Russia",
+        "id": "Q2529510",
+        "label": "Gorno-Altaysk Airport"
+      },
+      {
+        "description": "Asia's first Private medical school in Kolkata, West Bengal (Now Public)",
+        "id": "Q7152833",
+        "label": "R. G. Kar Medical College and Hospital"
+      },
+      {
+        "description": "airport in Wisconsin, United States of America",
+        "id": "Q7305240",
+        "label": "Red Wing Regional Airport"
+      }
+    ],
+    "RGK [en]": [
+      {
+        "description": "InterPro Family",
+        "id": "Q24724677",
+        "label": "Ras-related small G protein, RGK family"
+      },
+      {
+        "description": "airport in Russia",
+        "id": "Q2529510",
+        "label": "Gorno-Altaysk Airport"
+      },
+      {
+        "description": "Asia's first Private medical school in Kolkata, West Bengal (Now Public)",
+        "id": "Q7152833",
+        "label": "R. G. Kar Medical College and Hospital"
+      },
+      {
+        "description": "airport in Wisconsin, United States of America",
+        "id": "Q7305240",
+        "label": "Red Wing Regional Airport"
+      },
+      {
+        "description": "protein-coding gene in the species Rattus norvegicus",
+        "id": "Q24372732",
+        "label": "Dlgap1"
+      }
+    ]
+  },
+  "label": "RGK, Frankfurt am Mainz"
+}

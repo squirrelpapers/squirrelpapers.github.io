@@ -1,0 +1,154 @@
+{
+  "conceptdoi": "10.5281/zenodo.10580308",
+  "conceptrecid": "10580308",
+  "created": "2024-02-20T09:30:57.487998+00:00",
+  "doi": "10.5281/zenodo.10580309",
+  "doi_url": "https://doi.org/10.5281/zenodo.10580309",
+  "files": [
+    {
+      "checksum": "md5:72101e7dca3c7b8f3594ec85f14695b6",
+      "id": "907fb410-8979-460a-b3bd-0208d3f163d3",
+      "key": "OL3DT _Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/10580309/files/OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf/content"
+      },
+      "size": 14427001
+    }
+  ],
+  "id": 10580309,
+  "links": {
+    "access": "https://zenodo.org/api/records/10580309/access",
+    "access_grants": "https://zenodo.org/api/records/10580309/access/grants",
+    "access_links": "https://zenodo.org/api/records/10580309/access/links",
+    "access_request": "https://zenodo.org/api/records/10580309/access/request",
+    "access_users": "https://zenodo.org/api/records/10580309/access/users",
+    "archive": "https://zenodo.org/api/records/10580309/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10580309/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10580309/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10580309/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10580309",
+    "draft": "https://zenodo.org/api/records/10580309/draft",
+    "file_modification": "https://zenodo.org/api/records/10580309/file-modification",
+    "files": "https://zenodo.org/api/records/10580309/files",
+    "latest": "https://zenodo.org/api/records/10580309/versions/latest",
+    "latest_html": "https://zenodo.org/records/10580309/latest",
+    "media_files": "https://zenodo.org/api/records/10580309/media-files",
+    "parent": "https://zenodo.org/api/records/10580308",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10580308",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10580308",
+    "parent_html": "https://zenodo.org/records/10580308",
+    "preview_html": "https://zenodo.org/records/10580309?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10580309/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10580309/request-deletion",
+    "requests": "https://zenodo.org/api/records/10580309/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10580309/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10580309",
+    "self_doi": "https://doi.org/10.5281/zenodo.10580309",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10580309",
+    "self_html": "https://zenodo.org/records/10580309",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10580309/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10580309/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:10580309:OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:10580309:OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:10580309:OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:10580309:OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:10580309:OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:10580309:OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/10580309/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Technische Informationsbibliothek (TIB)",
+        "name": "Rossenova, Lozana",
+        "orcid": "0000-0002-5190-1867"
+      },
+      {
+        "affiliation": "Technische Informationsbibliothek (TIB)",
+        "name": "Schubert, Zoe",
+        "orcid": "0000-0001-9043-3632"
+      }
+    ],
+    "description": "<p>Forschungsdatenmanagement (FDM) nimmt insbesondere auch in den Geistes- und Kulturwissenschaften eine immer gr&ouml;&szlig;ere Wichtigkeit ein. Insbesondere in diesen oft interdisziplin&auml;ren Projekten spielen die Dokumentation, Verarbeitung und Annotation von 3D-Daten eine gro&szlig;e Rolle. Ob in der Arch&auml;ologie, Architektur und Bauforschung, Kunstgeschichte oder Denkmalpflege, &uuml;berall m&uuml;ssen (3D-)Daten mit Metadaten versorgt und verkn&uuml;pft werden, interoperable f&uuml;r Menschen sowie Maschinen verst&auml;ndliche community-basierte Standards geschaffen werden und Research Tools entwickelt werden um die FAIRifizierung dieser Daten gerecht zu werden. Innerhalb der deutschen Forschungslandschaft geschieht dieser Schritt &uuml;ber die von der DFG gef&ouml;rderte Nationale Forschungsdateninfrastruktur (NFDI). Innerhalb der NFDI haben sich einzelne Fachkonsortien gebildet die verschiedenste Themenfelder abdecken, so z.B. f&uuml;r das Ingenieurswesen und die Geod&auml;sie NFDI4Earth und NFDI4Ing, sowie f&uuml;r die Humanities insbesonder NFDI4Objects (N4O) und NFDI4Culture (N4C). Beide Konsortien besch&auml;ftigen sich mit Objekten (materielle Hinterlassenschaften) zu Kulturg&uuml;tern der Menschheitsgeschichte. In einzelnen Arbeitsbereichen (Task Areas) spielen insbesondere die 3D-Dokumentation (jeweils TA1), die qualifizierte Verarbeitung mit Hilfe von Standards (jeweils TA2) und die Bereitstellung von FAIRification Tools (N4C: TA3; N4O: TA5) eine entscheidende Rolle.</p>\n<p>In diesem Vortrag werden zwei unterschiedliche Tools zur Annotation von 3D-Daten mit Hilfe von Linked Open Data (LOD) und des Semantic Webs vorgestellt. Das aus N4O stammende Beispiel entstammt dem BMBF-gef&ouml;rdereten Africian Red Slip Ware digital Projekt, kurz ARS3D (DOI: 10.52825/cordi.v1i.326) das auf offenen Standards (CIDOC CRM) und Open Source Tools (z.B. RDF4J und 3DHOP) aufsetzt. Beispiele aus N4C werden mit Hilfe des Open Source Tools &ldquo;Semantic Kompakkt&rdquo; (<a href=\"https://semantic-kompakkt.de/home\">https://semantic-kompakkt.de</a>; z.B. <a href=\"https://semantic-kompakkt.de/entity/6548f15d004b905661dc013b\">https://semantic-kompakkt.de/entity/6548f15d004b905661dc013b</a>) vorgestellt, welches auf der Software &ldquo;Kompakkt&rdquo; (<a href=\"https://kompakkt.de\">https://kompakkt.de</a>; <a href=\"https://kompakkt.de/entity/5d6435522e8bee556eedf0c0\">https://kompakkt.de/entity/5d6435522e8bee556eedf0c0</a>) und einer Wikibase-Instanz (<a href=\"https://wikiba.se\">https://wikiba.se</a>) besteht, vgl. <a href=\"https://docs.google.com/presentation/d/1HPmP-B3Ib-UGmUrqhIeC9u9lU9T6by5GJ9SMhZihM9c/\"><span>SemanticKompakkt_CoRDI_slides2023</span></a>.</p>",
+    "doi": "10.5281/zenodo.10580309",
+    "journal": {
+      "issue": "3",
+      "pages": "#1",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "keywords": [
+      "Research Data Management",
+      "3D",
+      "NFDI",
+      "NFDI4Objects",
+      "NFDI4Culture",
+      "Semantics",
+      "Semantic Modelling",
+      "Wikibase"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "31.01.-01.02.2024",
+      "place": "Jade-Hoschschule, Oldenburg",
+      "session": "Kulturerbe",
+      "title": "Oldenburger 3D-Tage",
+      "url": "https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/geoinformation/veranstaltungen/oldenburger-3d-tage/"
+    },
+    "publication_date": "2024-01-31",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10580308"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "3D and Research Data Management (RDM)  Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)"
+  },
+  "modified": "2024-09-02T09:50:16.944778+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "10580309",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "3D and Research Data Management (RDM)  Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)",
+  "updated": "2024-09-02T09:50:16.944778+00:00"
+}

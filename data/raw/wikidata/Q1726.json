@@ -1,0 +1,37 @@
+{
+  "coordinates": {
+    "lat": 48.1375,
+    "lon": 11.575
+  },
+  "country": [
+    "Q154195",
+    "Q183",
+    "Q2415901",
+    "Q256961",
+    "Q41304",
+    "Q43287",
+    "Q47261",
+    "Q713750",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Landeshauptstadt des Freistaates Bayern, Deutschland",
+    "en": "capital and most populous city of Bavaria, Germany"
+  },
+  "id": "Q1726",
+  "instance_of": [
+    "Q1066984",
+    "Q1180262",
+    "Q1187811",
+    "Q134626",
+    "Q1418640",
+    "Q1549591",
+    "Q200250",
+    "Q42744322",
+    "Q85631896"
+  ],
+  "labels": {
+    "de": "München",
+    "en": "Munich"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 33.662508,
+    "lon": -95.547692
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Stadt im US-Bundesstaat Texas",
+    "en": "city in and county seat of Lamar County, Texas, United States"
+  },
+  "id": "Q830149",
+  "instance_of": [
+    "Q1093829",
+    "Q62049"
+  ],
+  "labels": {
+    "de": "Paris",
+    "en": "Paris"
+  }
+}

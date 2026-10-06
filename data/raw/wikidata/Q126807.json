@@ -1,0 +1,15 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Einrichtung der frühkindlichen Bildung und Erziehung",
+    "en": "preschool institution with an educational approach traditionally based on playing"
+  },
+  "id": "Q126807",
+  "instance_of": [
+    "Q112872396"
+  ],
+  "labels": {
+    "de": "Kindergarten",
+    "en": "kindergarten"
+  }
+}

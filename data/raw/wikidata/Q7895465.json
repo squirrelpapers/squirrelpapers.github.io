@@ -1,0 +1,19 @@
+{
+  "coordinates": {
+    "lat": 55.8717,
+    "lon": -4.29061
+  },
+  "country": [
+    "Q145"
+  ],
+  "descriptions": {
+    "en": "law school in Glasgow City, Scotland, UK"
+  },
+  "id": "Q7895465",
+  "instance_of": [
+    "Q1321960"
+  ],
+  "labels": {
+    "en": "University of Glasgow School of Law"
+  }
+}

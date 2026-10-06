@@ -1,0 +1,131 @@
+{
+  "conceptdoi": "10.5281/zenodo.10291889",
+  "conceptrecid": "10291889",
+  "created": "2023-12-07T22:47:28.401590+00:00",
+  "doi": "10.5281/zenodo.10291890",
+  "doi_url": "https://doi.org/10.5281/zenodo.10291890",
+  "files": [
+    {
+      "checksum": "md5:1aa31b07a4816fc70b6f30d3a112167c",
+      "id": "2a7f8792-cdbe-4f2a-b698-a50b20d160aa",
+      "key": "SqP_5_1__6_DealingWithDoubts.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/10291890/files/SqP_5_1__6_DealingWithDoubts.pdf/content"
+      },
+      "size": 13985038
+    }
+  ],
+  "id": 10291890,
+  "links": {
+    "access": "https://zenodo.org/api/records/10291890/access",
+    "access_grants": "https://zenodo.org/api/records/10291890/access/grants",
+    "access_links": "https://zenodo.org/api/records/10291890/access/links",
+    "access_request": "https://zenodo.org/api/records/10291890/access/request",
+    "access_users": "https://zenodo.org/api/records/10291890/access/users",
+    "archive": "https://zenodo.org/api/records/10291890/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10291890/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10291890/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10291890/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10291890",
+    "draft": "https://zenodo.org/api/records/10291890/draft",
+    "file_modification": "https://zenodo.org/api/records/10291890/file-modification",
+    "files": "https://zenodo.org/api/records/10291890/files",
+    "latest": "https://zenodo.org/api/records/10291890/versions/latest",
+    "latest_html": "https://zenodo.org/records/10291890/latest",
+    "media_files": "https://zenodo.org/api/records/10291890/media-files",
+    "parent": "https://zenodo.org/api/records/10291889",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10291889",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10291889",
+    "parent_html": "https://zenodo.org/records/10291889",
+    "preview_html": "https://zenodo.org/records/10291890?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10291890/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10291890/request-deletion",
+    "requests": "https://zenodo.org/api/records/10291890/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10291890/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10291890",
+    "self_doi": "https://doi.org/10.5281/zenodo.10291890",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10291890",
+    "self_html": "https://zenodo.org/records/10291890",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10291890/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10291890/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:10291890:SqP_5_1__6_DealingWithDoubts.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:10291890:SqP_5_1__6_DealingWithDoubts.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:10291890:SqP_5_1__6_DealingWithDoubts.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:10291890:SqP_5_1__6_DealingWithDoubts.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:10291890:SqP_5_1__6_DealingWithDoubts.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:10291890:SqP_5_1__6_DealingWithDoubts.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/10291890/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Johannes Gutenberg University Mainz",
+        "name": "Schenk, Fiona",
+        "orcid": "0009-0008-2877-3204"
+      },
+      {
+        "affiliation": "Prussian Cultural Heritage Foundation",
+        "name": "Baars, Stefanie",
+        "orcid": "0000-0003-1100-6494"
+      }
+    ],
+    "description": "<p>This paper discusses three data-driven interdisciplinary use cases of dealing with and modelling vague and uncertain geo-references (findspots) based on literature as LOD from the archaeological and geosciences domain.</p>",
+    "doi": "10.5281/zenodo.10291890",
+    "journal": {
+      "issue": "1",
+      "pages": "#6",
+      "title": "Squirrel Papers",
+      "volume": "5"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2023-12-07",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10291889"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+    },
+    "title": "Dealing with doubts: Site georeferencing in archaeology and in the geosciences"
+  },
+  "modified": "2024-07-09T17:14:35.327264+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "10291890",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Dealing with doubts: Site georeferencing in archaeology and in the geosciences",
+  "updated": "2024-07-09T17:14:35.327264+00:00"
+}

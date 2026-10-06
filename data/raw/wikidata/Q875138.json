@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 52.493056,
+    "lon": 13.525833
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Hochschule in Berlin",
+    "en": "university of applied sciences in Germany"
+  },
+  "id": "Q875138",
+  "instance_of": [
+    "Q1365560",
+    "Q23002037",
+    "Q346549",
+    "Q4671277",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Hochschule für Technik und Wirtschaft Berlin",
+    "en": "HTW Berlin"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "conceptdoi": "10.5281/zenodo.2540373",
+  "conceptrecid": "2540373",
+  "created": "2019-01-15T09:41:37.690065+00:00",
+  "doi": "10.5281/zenodo.2540374",
+  "doi_url": "https://doi.org/10.5281/zenodo.2540374",
+  "files": [
+    {
+      "checksum": "md5:3be2dddbb01347cdb57bcae0bfbe534b",
+      "id": "13e3ebab-ce9d-4387-a1ee-a5a521752996",
+      "key": "2019_01_18_Graphentechnologien2019_DatingMechanism.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/2540374/files/2019_01_18_Graphentechnologien2019_DatingMechanism.pptx/content"
+      },
+      "size": 28397012
+    },
+    {
+      "checksum": "md5:bc454a7746767e764f9c572a32cdff0a",
+      "id": "7a502b6f-bd54-4588-8156-613071d98b8e",
+      "key": "2019_01_18_Graphentechnologien2019_DatingMechanism.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/2540374/files/2019_01_18_Graphentechnologien2019_DatingMechanism.pdf/content"
+      },
+      "size": 13590533
+    }
+  ],
+  "id": 2540374,
+  "links": {
+    "access": "https://zenodo.org/api/records/2540374/access",
+    "access_grants": "https://zenodo.org/api/records/2540374/access/grants",
+    "access_links": "https://zenodo.org/api/records/2540374/access/links",
+    "access_request": "https://zenodo.org/api/records/2540374/access/request",
+    "access_users": "https://zenodo.org/api/records/2540374/access/users",
+    "archive": "https://zenodo.org/api/records/2540374/files-archive",
+    "archive_media": "https://zenodo.org/api/records/2540374/media-files-archive",
+    "communities": "https://zenodo.org/api/records/2540374/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/2540374/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.2540374",
+    "draft": "https://zenodo.org/api/records/2540374/draft",
+    "file_modification": "https://zenodo.org/api/records/2540374/file-modification",
+    "files": "https://zenodo.org/api/records/2540374/files",
+    "latest": "https://zenodo.org/api/records/2540374/versions/latest",
+    "latest_html": "https://zenodo.org/records/2540374/latest",
+    "media_files": "https://zenodo.org/api/records/2540374/media-files",
+    "parent": "https://zenodo.org/api/records/2540373",
+    "parent_doi": "https://doi.org/10.5281/zenodo.2540373",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2540373",
+    "parent_html": "https://zenodo.org/records/2540373",
+    "preview_html": "https://zenodo.org/records/2540374?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/2540374/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/2540374/request-deletion",
+    "requests": "https://zenodo.org/api/records/2540374/requests",
+    "reserve_doi": "https://zenodo.org/api/records/2540374/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/2540374",
+    "self_doi": "https://doi.org/10.5281/zenodo.2540374",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2540374",
+    "self_html": "https://zenodo.org/records/2540374",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:2540374/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:2540374/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:2540374:2019_01_18_Graphentechnologien2019_DatingMechanism.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:2540374:2019_01_18_Graphentechnologien2019_DatingMechanism.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:2540374:2019_01_18_Graphentechnologien2019_DatingMechanism.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:2540374:2019_01_18_Graphentechnologien2019_DatingMechanism.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:2540374:2019_01_18_Graphentechnologien2019_DatingMechanism.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:2540374:2019_01_18_Graphentechnologien2019_DatingMechanism.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/2540374/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Allard Mees",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<p>Seit Mitte der 1990er Jahre stellt das RGZM (R&ouml;misch-Germanisches Zentralmuseum in Mainz) webbasierte Datenbanken mit hunderttausenden von Datens&auml;tzen aus verschiedenen arch&auml;ologischen Disziplinen der Scientific Community zur Verf&uuml;gung. Diese historisch gewachsenen, zumeist relationalen Datenbanken wurden in interdisziplin&auml;ren, transnationalen Projekten erstellt und beinhalten oft &bdquo;hidden assumptions&rdquo; hinsichtlich Datierungen. Das Ziel des &nbsp;Projekts &bdquo;Dating Mechanism&ldquo; ist es, diese impliziten Informationen mittels semantischer Datenmodelle in Graphen sichtbar und verf&uuml;gbar zu machen und sie als Linked Open Data (LOD) zu teilen. Diese interoperablen Daten sollen im Sinne der &bdquo;reproducible research&ldquo; als Grundlage f&uuml;r Open Science der Forschungscommunity zur Verf&uuml;gung stehen.</p>\n\n<p>Insbesondere die Samian Research Datenbank[1] des RGZM beinhaltet fast 250&#39;000 identifizierte T&ouml;pferstempel, die in der Arch&auml;ologie auf traditioneller Art datiert werden. Dies wird gew&ouml;hnlich dadurch realisiert, dass &quot;absolute Daten&quot; in &quot;from-to tables &quot; erstellt werden, wobei die Realit&auml;t viel komplexer ist. In der Tat basieren Datierungen von Terra Sigillata oft auf so genannten &quot;dated sites&quot; oder gar ganzen Limes-Abschnitten, die selbst von Terra Sigillata datiert werden. Man trifft also regelm&auml;&szlig;ig auf Kreisargumentationen. Dazu werden als erster Schritt Zeitintervalle mit offenen Anfangs- oder fehlenden End-Datierungen in eine relative Chronologie transformiert. Dar&uuml;ber hinaus k&ouml;nnen Zusatzinformationen, wie der Anteil an T&ouml;pfern, welche die Limes-Abschnitte gemeinsam haben, als Informationen f&uuml;r den Grad einer Verbindung (hier =Vagheit) zwischen zwei Limes-Abschnitten genutzt werden. In einem Reasoning-Prozess werden diese vagen Informationen ebenfalls mit ausgewertet um neue interferierte Information zu erzeugen, die bei der Beantwortung von Forschungsfragen behilflich sein k&ouml;nnen.</p>\n\n<p>Zur Modellierung dieser Problematik, wird ein auf RDF (Resource Description Framework) basierendes semantisches Modell entwickelt, das zum Ziel hat, den Terra Sigillata -Datierprozess verifizierbar und transparent zu machen, um so neue Strategien f&uuml;r den maschinenlesbaren Zugriff &ndash; hier als LOD - auf arch&auml;ologische Daten und Informationen in Form von Graphen zu erm&ouml;glichen.</p>\n\n<p>Dieser Vortrag zeigt die Modellierung von Datierungsargumenten in einer relativen Chronologie, basierend auf Allens Intervall Algebra [2], in Kombination mit absoluten Datierungen. Dazu werden zwei prototypische Tools benutzt. Zum einen, das vom RGZM erstellte Tool &bdquo;Alligator&ldquo; [3] zur Transformation einer Korrespondenzanalyse in RDF-modellierte Allen -Intervalle und zum anderen das von mainzed in Kooperation mit dem RGZM und dem i3mainz entwickelte &bdquo;Academic Meta Tool&ldquo; (AMT) [4]. AMT erm&ouml;glicht die Modellierung von Vagheit in RDF-Graphen und ein &bdquo;temporal reasoning&ldquo; &nbsp;nach Allen, sowie eine Visualisierung des Graphen und Download der Daten zur Verwendung in anderen Tools wie Neo4J.</p>\n\n<p>Die Nutzung von Graphstrukturen erm&ouml;glicht es somit, Information und Interpretationen der hochgranulierten Daten zu modellieren, um so &bdquo;hidden assumptions&ldquo; sichtbar zu machen und transparent bereitzustellen. Dar&uuml;ber hinaus k&ouml;nnen durch die Anwendung der Tools &bdquo;Alligator&ldquo; und &bdquo;AMT&ldquo; heterogene Daten und komplexe digitale Forschungsfragen im Umgang mit relativen Chronologien in den Datenrepositorien des RGZM standardisiert und interoperabel zur Verf&uuml;gung gestellt werden. Somit k&ouml;nnen wir zeigen, dass Flexibilit&auml;t im Datierungsprozess und Interoperabilit&auml;t bei der Nachhaltigkeit und Wiederverwendung zwei Seiten eines Terra Sigillata&ndash;Datensatzes sind.</p>\n\n<p>[1] http://rgzm.de/samian</p>\n\n<p>[2] https://doi.org/10.1145/182.358434</p>\n\n<p>[3] https://rgzm.github.io/alligator/</p>\n\n<p>[4] http://academic-meta-tool.xyz</p>",
+    "doi": "10.5281/zenodo.2540374",
+    "keywords": [
+      "Linked Open Data",
+      "Chronologie",
+      "Südgallische Terra Sigillata",
+      "Allen's interval algebra"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "#graph2019",
+      "dates": "18.-19.01.2019",
+      "place": "Akademie der Wissenschaften und der Literatur Mainz",
+      "session": "Session 3: Tools",
+      "session_part": "2",
+      "title": "Graphentechnologien 2019",
+      "url": "https://graphentechnologien.hypotheses.org/tagungen/graphentechnologien-2019"
+    },
+    "publication_date": "2019-01-18",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "2540373"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Dating Mechanism: Eine Linked Data Strategie zur interoperablen und nachvollziehbaren Modellierung relativer Chronologien am Beispiel südgallischer Terra Sigillata in Limes-Abschnitten"
+  },
+  "modified": "2024-07-25T02:23:24.487052+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "2540374",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Dating Mechanism: Eine Linked Data Strategie zur interoperablen und nachvollziehbaren Modellierung relativer Chronologien am Beispiel südgallischer Terra Sigillata in Limes-Abschnitten",
+  "updated": "2024-07-25T02:23:24.487052+00:00"
+}

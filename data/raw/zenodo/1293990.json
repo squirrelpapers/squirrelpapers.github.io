@@ -1,0 +1,160 @@
+{
+  "conceptdoi": "10.5281/zenodo.1293990",
+  "conceptrecid": "1293990",
+  "created": "2018-06-20T15:17:55.322025+00:00",
+  "doi": "10.5281/zenodo.1293991",
+  "doi_url": "https://doi.org/10.5281/zenodo.1293991",
+  "files": [
+    {
+      "checksum": "md5:2aefafec85b0c043e1fa210e240f6c28",
+      "id": "14e0cc49-ed5f-4f03-beb6-426c2d555ba8",
+      "key": "2018_06_27_IGSM_Valencia_GreyValue.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/1293991/files/2018_06_27_IGSM_Valencia_GreyValue.pptx/content"
+      },
+      "size": 14791128
+    },
+    {
+      "checksum": "md5:21925e4b3a3029307cd12b948f18d94c",
+      "id": "28e65975-111a-4056-941a-c0bcece46d0b",
+      "key": "2018_06_27_IGSM_Valencia_GreyValue.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/1293991/files/2018_06_27_IGSM_Valencia_GreyValue.pdf/content"
+      },
+      "size": 35677109
+    }
+  ],
+  "id": 1293991,
+  "links": {
+    "access": "https://zenodo.org/api/records/1293991/access",
+    "access_grants": "https://zenodo.org/api/records/1293991/access/grants",
+    "access_links": "https://zenodo.org/api/records/1293991/access/links",
+    "access_request": "https://zenodo.org/api/records/1293991/access/request",
+    "access_users": "https://zenodo.org/api/records/1293991/access/users",
+    "archive": "https://zenodo.org/api/records/1293991/files-archive",
+    "archive_media": "https://zenodo.org/api/records/1293991/media-files-archive",
+    "communities": "https://zenodo.org/api/records/1293991/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/1293991/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.1293991",
+    "draft": "https://zenodo.org/api/records/1293991/draft",
+    "file_modification": "https://zenodo.org/api/records/1293991/file-modification",
+    "files": "https://zenodo.org/api/records/1293991/files",
+    "latest": "https://zenodo.org/api/records/1293991/versions/latest",
+    "latest_html": "https://zenodo.org/records/1293991/latest",
+    "media_files": "https://zenodo.org/api/records/1293991/media-files",
+    "parent": "https://zenodo.org/api/records/1293990",
+    "parent_doi": "https://doi.org/10.5281/zenodo.1293990",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1293990",
+    "parent_html": "https://zenodo.org/records/1293990",
+    "preview_html": "https://zenodo.org/records/1293991?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/1293991/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/1293991/request-deletion",
+    "requests": "https://zenodo.org/api/records/1293991/requests",
+    "reserve_doi": "https://zenodo.org/api/records/1293991/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/1293991",
+    "self_doi": "https://doi.org/10.5281/zenodo.1293991",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1293991",
+    "self_html": "https://zenodo.org/records/1293991",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:1293991/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:1293991/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:1293991:2018_06_27_IGSM_Valencia_GreyValue.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:1293991:2018_06_27_IGSM_Valencia_GreyValue.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:1293991:2018_06_27_IGSM_Valencia_GreyValue.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:1293991:2018_06_27_IGSM_Valencia_GreyValue.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:1293991:2018_06_27_IGSM_Valencia_GreyValue.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:1293991:2018_06_27_IGSM_Valencia_GreyValue.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/1293991/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "linkedgeodesy"
+      },
+      {
+        "id": "florianthiery"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Initiative for Statistical Analysis in Archaeology Kiel",
+        "name": "Schmid, Clemens",
+        "orcid": "0000-0003-3448-5715"
+      }
+    ],
+    "description": "<p>Working in research institutes as geodesist and working in geodesy companies produces always the same question: Is there the &ldquo;right&rdquo; decision? Do we have to choose always the way right or left or is there some kind of &ldquo;grey value&rdquo;, changing from right to left and from the left to the right? In geodesy there are a lot of examples where the &ldquo;right&rdquo; decision is not objectively given - it always depends on the usage. Examples in geodesy (research) like QGIS vs. ArcGIS or Open Street Map vs. Google Maps show how difficult decisions are and that we are always looking for the &ldquo;grey value&rdquo; to switch from the left to the right side. In geodesy research and research in general we have to consider that it is always political. The &ldquo;right&rdquo; objective decision of a developer is often not concordant with the &ldquo;right&rdquo; political statement. For example open software and source code is better than close blackboxes to allow reproducibility and transparency, but proprietary software might be faster or more convinient to use. This paper will focus on searching the &ldquo;grey value&rdquo; and &ldquo;right&rdquo; decision in version control software in software development, here especially Git, because between GitHub and GitLab you always have to make two main decisions: visibility vs. open source and community vs. ethics of science.</p>",
+    "doi": "10.5281/zenodo.1293991",
+    "keywords": [
+      "Git",
+      "Software Development",
+      "IGSM"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "IGSM Valencia",
+      "dates": "23.06.-29.06.2018",
+      "place": "Valencia, Spain",
+      "title": "XXXI. International Geodetic Student Meeting",
+      "url": "http://igsm2018.com/"
+    },
+    "publication_date": "2018-06-20",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "1293990"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "subjects": [
+      {
+        "identifier": "http://www.wikidata.org/entity/Q186055",
+        "scheme": "url",
+        "term": "git"
+      },
+      {
+        "identifier": "https://www.wikidata.org/wiki/Q638608",
+        "scheme": "url",
+        "term": "software development"
+      },
+      {
+        "identifier": "https://www.wikidata.org/wiki/Q1508185",
+        "scheme": "url",
+        "term": "igsm"
+      }
+    ],
+    "title": "Looking for the \"grey value\" in research and geodesy: Is there right or wrong in software framework decisions?"
+  },
+  "modified": "2024-08-02T05:51:12.360765+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "1293991",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Looking for the \"grey value\" in research and geodesy: Is there right or wrong in software framework decisions?",
+  "updated": "2024-08-02T05:51:12.360765+00:00"
+}

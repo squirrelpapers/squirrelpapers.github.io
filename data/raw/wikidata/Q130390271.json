@@ -1,0 +1,20 @@
+{
+  "coordinates": {
+    "lat": 48.521618,
+    "lon": 9.066623
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Selbstverwaltetes Wohnprojekt in Tübingen"
+  },
+  "id": "Q130390271",
+  "instance_of": [
+    "Q2311445"
+  ],
+  "labels": {
+    "de": "Leibnizhaus II Stauffenbergstraße 30",
+    "en": "Leibnizhaus II Stauffenbergstraße 30"
+  }
+}

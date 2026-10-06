@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Kraków [de]": [
+      {
+        "description": "capital city of Lesser Poland Voivodeship in southern Poland",
+        "id": "Q31487",
+        "label": "Kraków"
+      },
+      {
+        "description": "family name",
+        "id": "Q37441068",
+        "label": "Krakow"
+      },
+      {
+        "description": "town in Germany",
+        "id": "Q536858",
+        "label": "Krakow am See"
+      },
+      {
+        "description": "family name",
+        "id": "Q21492550",
+        "label": "Krakowski"
+      },
+      {
+        "description": "technical university in Kraków, Poland",
+        "id": "Q931642",
+        "label": "Kraków University of Technology"
+      }
+    ],
+    "Kraków [en]": [
+      {
+        "description": "capital city of Lesser Poland Voivodeship in southern Poland",
+        "id": "Q31487",
+        "label": "Kraków"
+      },
+      {
+        "description": "family name",
+        "id": "Q37441068",
+        "label": "Krakow"
+      },
+      {
+        "description": "powiat of Poland",
+        "id": "Q1164890",
+        "label": "Kraków County"
+      },
+      {
+        "description": "family name",
+        "id": "Q21492550",
+        "label": "Krakowski"
+      },
+      {
+        "description": "technical university in Kraków, Poland",
+        "id": "Q931642",
+        "label": "Kraków University of Technology"
+      }
+    ]
+  },
+  "label": "Kraków, Poland"
+}

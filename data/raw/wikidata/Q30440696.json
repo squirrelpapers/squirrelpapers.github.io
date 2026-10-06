@@ -1,0 +1,16 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Familienname",
+    "en": "family name"
+  },
+  "id": "Q30440696",
+  "instance_of": [
+    "Q101352",
+    "Q17143070"
+  ],
+  "labels": {
+    "de": "Valencia",
+    "en": "Valencia"
+  }
+}

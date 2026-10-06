@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Tübingen [de]": [
+      {
+        "description": "town in central Baden-Württemberg, Germany",
+        "id": "Q3806",
+        "label": "Tübingen"
+      },
+      {
+        "description": "International Bibliography for Theology and Religious Studies and web portal of the Specialised Information Service Theology",
+        "id": "Q1661161",
+        "label": "Index Theologicus"
+      },
+      {
+        "description": "ship",
+        "id": "Q1536443",
+        "label": "Tübingen"
+      },
+      {
+        "description": "district of Baden-Württemberg, Germany",
+        "id": "Q8214",
+        "label": "Tübingen District"
+      },
+      {
+        "description": "public research university in Tübingen, Germany",
+        "id": "Q153978",
+        "label": "University of Tübingen"
+      }
+    ],
+    "Tübingen [en]": [
+      {
+        "description": "town in central Baden-Württemberg, Germany",
+        "id": "Q3806",
+        "label": "Tübingen"
+      },
+      {
+        "description": "ship",
+        "id": "Q1536443",
+        "label": "Tübingen"
+      },
+      {
+        "description": "district of Baden-Württemberg, Germany",
+        "id": "Q8214",
+        "label": "Tübingen District"
+      },
+      {
+        "description": "public research university in Tübingen, Germany",
+        "id": "Q153978",
+        "label": "University of Tübingen"
+      },
+      {
+        "description": "federal electoral district of Germany",
+        "id": "Q1008665",
+        "label": "Tübingen"
+      }
+    ]
+  },
+  "label": "Tübingen, Germany"
+}

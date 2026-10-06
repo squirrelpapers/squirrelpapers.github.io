@@ -1,0 +1,155 @@
+{
+  "conceptdoi": "10.5281/zenodo.15401536",
+  "conceptrecid": "15401536",
+  "created": "2025-05-14T08:56:32.103912+00:00",
+  "doi": "10.5281/zenodo.15401537",
+  "doi_url": "https://doi.org/10.5281/zenodo.15401537",
+  "files": [
+    {
+      "checksum": "md5:1663c1e5a412c7f56c3c93ebdf5799cc",
+      "id": "ec290ddb-5c34-44dc-b524-0c7bf6a6ff0d",
+      "key": "Text+ShowAndTell_2025_#9_SPARQLingUnicorn_20250515.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/15401537/files/Text+ShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf/content"
+      },
+      "size": 19663126
+    }
+  ],
+  "id": 15401537,
+  "links": {
+    "access": "https://zenodo.org/api/records/15401537/access",
+    "access_grants": "https://zenodo.org/api/records/15401537/access/grants",
+    "access_links": "https://zenodo.org/api/records/15401537/access/links",
+    "access_request": "https://zenodo.org/api/records/15401537/access/request",
+    "access_users": "https://zenodo.org/api/records/15401537/access/users",
+    "archive": "https://zenodo.org/api/records/15401537/files-archive",
+    "archive_media": "https://zenodo.org/api/records/15401537/media-files-archive",
+    "communities": "https://zenodo.org/api/records/15401537/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/15401537/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.15401537",
+    "draft": "https://zenodo.org/api/records/15401537/draft",
+    "file_modification": "https://zenodo.org/api/records/15401537/file-modification",
+    "files": "https://zenodo.org/api/records/15401537/files",
+    "latest": "https://zenodo.org/api/records/15401537/versions/latest",
+    "latest_html": "https://zenodo.org/records/15401537/latest",
+    "media_files": "https://zenodo.org/api/records/15401537/media-files",
+    "parent": "https://zenodo.org/api/records/15401536",
+    "parent_doi": "https://doi.org/10.5281/zenodo.15401536",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15401536",
+    "parent_html": "https://zenodo.org/records/15401536",
+    "preview_html": "https://zenodo.org/records/15401537?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/15401537/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/15401537/request-deletion",
+    "requests": "https://zenodo.org/api/records/15401537/requests",
+    "reserve_doi": "https://zenodo.org/api/records/15401537/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/15401537",
+    "self_doi": "https://doi.org/10.5281/zenodo.15401537",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15401537",
+    "self_html": "https://zenodo.org/records/15401537",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15401537/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15401537/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:15401537:Text+ShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:15401537:Text+ShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:15401537:Text+ShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:15401537:Text+ShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:15401537:Text+ShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:15401537:Text+ShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/15401537/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "textplus_nfdi"
+      },
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "n4o-cc-rse"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "infra-wg-rse"
+      },
+      {
+        "id": "n4o-cc-lod"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Presentation in the format \"<strong>Text+ Show and Tell: Tools, Dienste, Projekte</strong>\"</p>\n<p><a href=\"https://events.gwdg.de/category/286/\" target=\"_blank\" rel=\"noopener\">https://events.gwdg.de/category/286/</a></p>",
+    "doi": "10.5281/zenodo.15401537",
+    "journal": {
+      "issue": "1",
+      "pages": "λ5",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "keywords": [
+      "Text+",
+      "NFDI",
+      "NFDI4Objects",
+      "Research Software Engineering",
+      "QGIS",
+      "SPARQL Unicorn",
+      "LOD",
+      "Linked Data"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "15 May 2025",
+      "place": "online",
+      "session": "#9",
+      "title": "Text+ Show and Tell: Tools, Dienste, Projekte",
+      "url": "https://events.gwdg.de/event/1088/"
+    },
+    "publication_date": "2025-05-15",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "15401536"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "LOD Objects in Action II: SPARQLing Unicorn Research Toolkit  Integrating geospatial LOD SPARQL queries for visualisations in QGIS"
+  },
+  "modified": "2025-05-14T08:56:32.891139+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "15401537",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "LOD Objects in Action II: SPARQLing Unicorn Research Toolkit  Integrating geospatial LOD SPARQL queries for visualisations in QGIS",
+  "updated": "2025-05-14T08:56:32.891139+00:00"
+}

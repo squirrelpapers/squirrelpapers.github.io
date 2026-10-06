@@ -1,0 +1,39 @@
+{
+  "coordinates": {
+    "lat": 52.23,
+    "lon": 21.011111
+  },
+  "country": [
+    "Q11750128",
+    "Q152115",
+    "Q156111",
+    "Q1649871",
+    "Q172107",
+    "Q207272",
+    "Q27306",
+    "Q34266",
+    "Q36",
+    "Q577867",
+    "Q696908"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt und bevölkerungsreichste Stadt Polens",
+    "en": "capital and largest city of Poland"
+  },
+  "id": "Q270",
+  "instance_of": [
+    "Q108178728",
+    "Q1200957",
+    "Q1549591",
+    "Q1901835",
+    "Q200250",
+    "Q515",
+    "Q51929311",
+    "Q56061",
+    "Q925381"
+  ],
+  "labels": {
+    "de": "Warschau",
+    "en": "Warsaw"
+  }
+}

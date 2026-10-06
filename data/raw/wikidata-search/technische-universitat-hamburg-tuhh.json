@@ -1,0 +1,113 @@
+{
+  "answers": {
+    "TUHH [de]": [
+      {
+        "description": "university in Germany",
+        "id": "Q1060",
+        "label": "Hamburg University of Technology"
+      },
+      {
+        "description": "company of the student body of the Technical University Hamburg (TUHH)",
+        "id": "Q55906115",
+        "label": "TUHH Campus-Shop GmbH"
+      },
+      {
+        "description": "research data management, Hamburg University of Technology",
+        "id": "Q113678997",
+        "label": "Forschungsdatenreferat"
+      },
+      {
+        "description": "academic library",
+        "id": "Q2496355",
+        "label": "University Library of the Hamburg University of Technology"
+      },
+      {
+        "description": "lake in Estonia",
+        "id": "Q61398085",
+        "label": "Tuhhino Pond"
+      }
+    ],
+    "TUHH [en]": [
+      {
+        "description": "university in Germany",
+        "id": "Q1060",
+        "label": "Hamburg University of Technology"
+      },
+      {
+        "description": "research data management, Hamburg University of Technology",
+        "id": "Q113678997",
+        "label": "Forschungsdatenreferat"
+      },
+      {
+        "description": "academic library",
+        "id": "Q2496355",
+        "label": "University Library of the Hamburg University of Technology"
+      },
+      {
+        "description": "company of the student body of the Technical University Hamburg (TUHH)",
+        "id": "Q55906115",
+        "label": "TUHH Campus-Shop GmbH"
+      },
+      {
+        "description": "lake in Estonia",
+        "id": "Q61398085",
+        "label": "Tuhhino Pond"
+      }
+    ],
+    "Technische Universität Hamburg [de]": [
+      {
+        "description": "university in Germany",
+        "id": "Q1060",
+        "label": "Hamburg University of Technology"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248165",
+        "label": "Technische Universität Hamburg-Harburg Institut für Nanoelektronik"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248166",
+        "label": "Technische Universität Hamburg-Harburg Studiendekanat E Elektrotechnik Informatik und Mathematik"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248168",
+        "label": "Technische Universität Hamburg-Harburg Studiendekanat W Management Wissenschaften und Technologie"
+      },
+      {
+        "description": "engineering school",
+        "id": "Q101248164",
+        "label": "Technische Universität Hamburg-Harburg Institut für Mechanik und Meerestechnik"
+      }
+    ],
+    "Technische Universität Hamburg [en]": [
+      {
+        "description": "university in Germany",
+        "id": "Q1060",
+        "label": "Hamburg University of Technology"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248165",
+        "label": "Technische Universität Hamburg-Harburg Institut für Nanoelektronik"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248166",
+        "label": "Technische Universität Hamburg-Harburg Studiendekanat E Elektrotechnik Informatik und Mathematik"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248168",
+        "label": "Technische Universität Hamburg-Harburg Studiendekanat W Management Wissenschaften und Technologie"
+      },
+      {
+        "description": "engineering school",
+        "id": "Q101248164",
+        "label": "Technische Universität Hamburg-Harburg Institut für Mechanik und Meerestechnik"
+      }
+    ]
+  },
+  "label": "Technische Universität Hamburg (TUHH)"
+}

@@ -1,0 +1,35 @@
+{
+  "coordinates": {
+    "lat": 49.794444,
+    "lon": 9.929444
+  },
+  "country": [
+    "Q13427044",
+    "Q154195",
+    "Q183",
+    "Q21041975",
+    "Q2415901",
+    "Q41304",
+    "Q43287",
+    "Q713750",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Großstadt in Bayern, Deutschland",
+    "en": "city in the region of Franconia, Northern Bavaria, Germany"
+  },
+  "id": "Q2999",
+  "instance_of": [
+    "Q1187811",
+    "Q134626",
+    "Q1549591",
+    "Q253030",
+    "Q42744322",
+    "Q515",
+    "Q85631896"
+  ],
+  "labels": {
+    "de": "Würzburg",
+    "en": "Würzburg"
+  }
+}

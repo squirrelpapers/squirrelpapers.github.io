@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 49.701111,
+    "lon": 0.252778
+  },
+  "country": [
+    "Q142"
+  ],
+  "descriptions": {
+    "de": "französische Gemeinde",
+    "en": "commune in Seine-Maritime, France"
+  },
+  "id": "Q1113532",
+  "instance_of": [
+    "Q484170"
+  ],
+  "labels": {
+    "de": "Bordeaux-Saint-Clair",
+    "en": "Bordeaux-Saint-Clair"
+  }
+}

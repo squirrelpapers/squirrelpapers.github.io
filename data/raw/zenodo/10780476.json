@@ -1,0 +1,113 @@
+{
+  "conceptdoi": "10.5281/zenodo.8190763",
+  "conceptrecid": "8190763",
+  "created": "2024-03-05T00:12:01.686031+00:00",
+  "doi": "10.5281/zenodo.10780476",
+  "doi_url": "https://doi.org/10.5281/zenodo.10780476",
+  "files": [
+    {
+      "checksum": "md5:122be8a22d4c87a0ac7100f438b96e3b",
+      "id": "396fa0a3-47a5-4c49-b014-0cc6fd18f58e",
+      "key": "sparqlunicorn/sparqlunicornGoesGIS-ontdoc-0.17.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/10780476/files/sparqlunicorn/sparqlunicornGoesGIS-ontdoc-0.17.zip/content"
+      },
+      "size": 2231807
+    }
+  ],
+  "id": 10780476,
+  "links": {
+    "access": "https://zenodo.org/api/records/10780476/access",
+    "access_grants": "https://zenodo.org/api/records/10780476/access/grants",
+    "access_links": "https://zenodo.org/api/records/10780476/access/links",
+    "access_request": "https://zenodo.org/api/records/10780476/access/request",
+    "access_users": "https://zenodo.org/api/records/10780476/access/users",
+    "archive": "https://zenodo.org/api/records/10780476/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10780476/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10780476/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10780476/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10780476",
+    "draft": "https://zenodo.org/api/records/10780476/draft",
+    "file_modification": "https://zenodo.org/api/records/10780476/file-modification",
+    "files": "https://zenodo.org/api/records/10780476/files",
+    "latest": "https://zenodo.org/api/records/10780476/versions/latest",
+    "latest_html": "https://zenodo.org/records/10780476/latest",
+    "media_files": "https://zenodo.org/api/records/10780476/media-files",
+    "parent": "https://zenodo.org/api/records/8190763",
+    "parent_doi": "https://doi.org/10.5281/zenodo.8190763",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8190763",
+    "parent_html": "https://zenodo.org/records/8190763",
+    "preview_html": "https://zenodo.org/records/10780476?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10780476/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10780476/request-deletion",
+    "requests": "https://zenodo.org/api/records/10780476/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10780476/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10780476",
+    "self_doi": "https://doi.org/10.5281/zenodo.10780476",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10780476",
+    "self_html": "https://zenodo.org/records/10780476",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10780476/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10780476/sequence/default",
+    "versions": "https://zenodo.org/api/records/10780476/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Mainz University Of Applied Sciences",
+        "name": "Homburg, Timo",
+        "orcid": "0000-0002-9499-5840"
+      },
+      {
+        "affiliation": "@leiza-rse",
+        "name": "Florian Thiery"
+      }
+    ],
+    "description": "<p>Release version 0.17 aligned with the SPARQLUnicorn QGIS Plugin Release 0.17</p>\n<ul>\n<li>New folder structure for pip package release</li>\n<li>Classtree vocabulary JSON-LD context</li>\n<li>HTML Template fixes: Better threejs 3D template, details tags for many values, lazy loading for images</li>\n<li>Static API Generation: CKAN and vCard</li>\n<li>Detection of Ontolex-Lemon vocabulary</li>\n<li>VOID File Generation</li>\n<li>Rewrite of export code</li>\n</ul>",
+    "doi": "10.5281/zenodo.10780476",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2024-03-05",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc/tree/0.17",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "8190763"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "sparqlunicorn/sparqlunicornGoesGIS-ontdoc: Version 0.17",
+    "version": "0.17"
+  },
+  "modified": "2026-06-20T12:50:34.428668+00:00",
+  "owners": [
+    {
+      "id": "61692"
+    }
+  ],
+  "recid": "10780476",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "sparqlunicorn/sparqlunicornGoesGIS-ontdoc: Version 0.17",
+  "updated": "2026-06-20T12:50:34.428668+00:00"
+}

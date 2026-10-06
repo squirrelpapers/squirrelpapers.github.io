@@ -1,0 +1,138 @@
+{
+  "conceptdoi": "10.5281/zenodo.14906708",
+  "conceptrecid": "14906708",
+  "created": "2025-02-21T14:47:54.782183+00:00",
+  "doi": "10.5281/zenodo.14906709",
+  "doi_url": "https://doi.org/10.5281/zenodo.14906709",
+  "files": [
+    {
+      "checksum": "md5:192f992cf6b5a9f315a1b3bfc5277030",
+      "id": "4ec3afe8-a2a7-433d-99ba-54477c0f487f",
+      "key": "leiza-scit/GrapHNR-2023-supplementary-material-v1.0.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/14906709/files/leiza-scit/GrapHNR-2023-supplementary-material-v1.0.zip/content"
+      },
+      "size": 79436619
+    }
+  ],
+  "id": 14906709,
+  "links": {
+    "access": "https://zenodo.org/api/records/14906709/access",
+    "access_grants": "https://zenodo.org/api/records/14906709/access/grants",
+    "access_links": "https://zenodo.org/api/records/14906709/access/links",
+    "access_request": "https://zenodo.org/api/records/14906709/access/request",
+    "access_users": "https://zenodo.org/api/records/14906709/access/users",
+    "archive": "https://zenodo.org/api/records/14906709/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14906709/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14906709/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14906709/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14906709",
+    "draft": "https://zenodo.org/api/records/14906709/draft",
+    "file_modification": "https://zenodo.org/api/records/14906709/file-modification",
+    "files": "https://zenodo.org/api/records/14906709/files",
+    "latest": "https://zenodo.org/api/records/14906709/versions/latest",
+    "latest_html": "https://zenodo.org/records/14906709/latest",
+    "media_files": "https://zenodo.org/api/records/14906709/media-files",
+    "parent": "https://zenodo.org/api/records/14906708",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14906708",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14906708",
+    "parent_html": "https://zenodo.org/records/14906708",
+    "preview_html": "https://zenodo.org/records/14906709?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14906709/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14906709/request-deletion",
+    "requests": "https://zenodo.org/api/records/14906709/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14906709/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14906709",
+    "self_doi": "https://doi.org/10.5281/zenodo.14906709",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14906709",
+    "self_html": "https://zenodo.org/records/14906709",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14906709/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14906709/sequence/default",
+    "versions": "https://zenodo.org/api/records/14906709/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "alternate_identifiers": [
+      {
+        "identifier": "https://leiza-scit.github.io/GrapHNR-2023-supplementary-material/"
+      }
+    ],
+    "communities": [
+      {
+        "id": "jhnr"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Mees, Allard W.",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/leiza-scit/GrapHNR-2023-supplementary-material"
+    },
+    "description": "<p>Supplementary material to the article \"Dating Dated Sites: Using Correspondence Analysis to handle Chronologies as Graphs\" presented at the GrapHNR 2023, published in the Journal of Historical Network Research xx (2025), yy&ndash;zz.&nbsp;</p>\n<p>This record contains a dynamic HTML website with figures that are mentioned in the paper.</p>\n<p><strong>Abstract</strong></p>\n<p>This article discusses digital methods to model and handle the ordering of so-called dated sites in archaeology. This findspot attribute is usually elaborated by indirect evidence based on the chronology of find materials, which are often based on material derived from other assumed dated sites, thus potentially resulting in a circulus vitiosus. To avoid self-fulfilling dating methods, comparative tools such as correspondence analysis or algorithms like Allen&rsquo;s interval algebra can be applied to stamped Roman terra sigillata (Samian) pottery vessels and their occurrences in Roman sites. The TiGeR method and the Alligator method demonstrate ways to establish and visualize the chronological order of dated sites. With the TiGeR method, a sequential order of chronologically sensitive material can be plotted on a map, where the coloring of the dots is realized by calculating hue color values from the normalized values of the first component of the correspondence analysis. The resulting maps and graphs chronologically display the historical conquering of the Roman provinces of Britannia and Germania. Based on Allen&rsquo;s interval algebra, the Alligator method is able to chronologically sort groups of dated sites, such as limes sections, when only a few chronological indications are known beforehand and other limes sections can only be judged by the overlap of material which they have in common. The Academic Meta Tool offers a decision procedure (reasoning) to calculate the chronological relative order of limes sections. This tool is also capable of visualizing the results as graph structures.</p>",
+    "doi": "10.5281/zenodo.14906709",
+    "journal": {
+      "issue": "2",
+      "pages": "λ2",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2025-02-21",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/leiza-scit/GrapHNR-2023-supplementary-material/tree/v1.0",
+        "relation": "isSupplementTo",
+        "resource_type": "other",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14906708"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Other",
+      "type": "other"
+    },
+    "title": "Supplementary Materials to \"Dating Dated Sites: Using Correspondence Analysis to handle Chronologies as Graphs\" (leiza-scit/GrapHNR-2023-supplementary-material: v1.0)",
+    "version": "v1.0"
+  },
+  "modified": "2025-05-16T11:25:57.179796+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14906709",
+  "revision": 14,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {
+    "swhid": "swh:1:dir:192cd5c32c27a0e921f81417d9aa480f15c5bafa;origin=https://doi.org/10.5281/zenodo.14906708;visit=swh:1:snp:233e3acd1fb6e58d4a4499a6128e7c63c39ba46e;anchor=swh:1:rel:85583bc101c92dde6c43275fce3ba3aaa212f823;path=leiza-scit-GrapHNR-2023-supplementary-material-c5e2c31"
+  },
+  "title": "Supplementary Materials to \"Dating Dated Sites: Using Correspondence Analysis to handle Chronologies as Graphs\" (leiza-scit/GrapHNR-2023-supplementary-material: v1.0)",
+  "updated": "2025-05-16T11:25:57.179796+00:00"
+}

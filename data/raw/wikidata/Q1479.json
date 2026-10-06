@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 44.837778,
+    "lon": -0.579444
+  },
+  "country": [
+    "Q142"
+  ],
+  "descriptions": {
+    "de": "südwestfranzösische Groß- und Universitätsstadt an der Garonne",
+    "en": "city and commune in Gironde, New Aquitaine, France"
+  },
+  "id": "Q1479",
+  "instance_of": [
+    "Q1549591",
+    "Q484170"
+  ],
+  "labels": {
+    "de": "Bordeaux",
+    "en": "Bordeaux"
+  }
+}

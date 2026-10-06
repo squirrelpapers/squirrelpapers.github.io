@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Stuttgart [de]": [
+      {
+        "description": "city on the Neckar river and capital of the federal state Baden-Württemberg, Germany",
+        "id": "Q1022",
+        "label": "Stuttgart"
+      },
+      {
+        "description": "Wikimedia permanent duplicate item",
+        "id": "Q32749678",
+        "label": "Stuttgart"
+      },
+      {
+        "description": "database of scientific illustrators active 1450–1950 and no longer alive",
+        "id": "Q21417186",
+        "label": "The Stuttgart Database of Scientific Illustrators 1450–1950"
+      },
+      {
+        "description": "city in Arkansas, United States",
+        "id": "Q79844",
+        "label": "Stuttgart"
+      },
+      {
+        "description": "football stadium in Stuttgart, Germany",
+        "id": "Q152349",
+        "label": "MHPArena"
+      }
+    ],
+    "Stuttgart [en]": [
+      {
+        "description": "city on the Neckar river and capital of the federal state Baden-Württemberg, Germany",
+        "id": "Q1022",
+        "label": "Stuttgart"
+      },
+      {
+        "description": "city in Arkansas, United States",
+        "id": "Q79844",
+        "label": "Stuttgart"
+      },
+      {
+        "description": "human settlement in Germany",
+        "id": "Q727750",
+        "label": "Stuttgart-Mitte"
+      },
+      {
+        "description": "database of scientific illustrators active 1450–1950 and no longer alive",
+        "id": "Q21417186",
+        "label": "The Stuttgart Database of Scientific Illustrators 1450–1950"
+      },
+      {
+        "description": "human settlement in Germany",
+        "id": "Q1398505",
+        "label": "Stuttgart-Nord"
+      }
+    ]
+  },
+  "label": "Stuttgart, Germany"
+}

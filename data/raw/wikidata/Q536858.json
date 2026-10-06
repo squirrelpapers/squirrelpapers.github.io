@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 53.65,
+    "lon": 12.266667
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Stadt im Landkreis Rostock in Deutschland",
+    "en": "town in Germany"
+  },
+  "id": "Q536858",
+  "instance_of": [
+    "Q42744322"
+  ],
+  "labels": {
+    "de": "Krakow am See",
+    "en": "Krakow am See"
+  }
+}

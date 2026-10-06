@@ -1,0 +1,124 @@
+{
+  "conceptdoi": "10.5281/zenodo.10262720",
+  "conceptrecid": "10262720",
+  "created": "2023-12-05T15:57:31.581463+00:00",
+  "doi": "10.5281/zenodo.10262721",
+  "doi_url": "https://doi.org/10.5281/zenodo.10262721",
+  "files": [
+    {
+      "checksum": "md5:dc9950a29e1cbe8cd7b29944e6ff03d9",
+      "id": "8ffccf87-1832-4983-8e2e-52eec59bd343",
+      "key": "SqP_5_1__5_Urluia_Findspot.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/10262721/files/SqP_5_1__5_Urluia_Findspot.pdf/content"
+      },
+      "size": 11398412
+    }
+  ],
+  "id": 10262721,
+  "links": {
+    "access": "https://zenodo.org/api/records/10262721/access",
+    "access_grants": "https://zenodo.org/api/records/10262721/access/grants",
+    "access_links": "https://zenodo.org/api/records/10262721/access/links",
+    "access_request": "https://zenodo.org/api/records/10262721/access/request",
+    "access_users": "https://zenodo.org/api/records/10262721/access/users",
+    "archive": "https://zenodo.org/api/records/10262721/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10262721/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10262721/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10262721/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10262721",
+    "draft": "https://zenodo.org/api/records/10262721/draft",
+    "file_modification": "https://zenodo.org/api/records/10262721/file-modification",
+    "files": "https://zenodo.org/api/records/10262721/files",
+    "latest": "https://zenodo.org/api/records/10262721/versions/latest",
+    "latest_html": "https://zenodo.org/records/10262721/latest",
+    "media_files": "https://zenodo.org/api/records/10262721/media-files",
+    "parent": "https://zenodo.org/api/records/10262720",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10262720",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10262720",
+    "parent_html": "https://zenodo.org/records/10262720",
+    "preview_html": "https://zenodo.org/records/10262721?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10262721/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10262721/request-deletion",
+    "requests": "https://zenodo.org/api/records/10262721/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10262721/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10262721",
+    "self_doi": "https://doi.org/10.5281/zenodo.10262721",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10262721",
+    "self_html": "https://zenodo.org/records/10262721",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10262721/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10262721/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:10262721:SqP_5_1__5_Urluia_Findspot.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:10262721:SqP_5_1__5_Urluia_Findspot.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:10262721:SqP_5_1__5_Urluia_Findspot.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:10262721:SqP_5_1__5_Urluia_Findspot.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:10262721:SqP_5_1__5_Urluia_Findspot.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:10262721:SqP_5_1__5_Urluia_Findspot.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/10262721/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Johannes Gutenberg University Mainz",
+        "name": "Schenk, Fiona",
+        "orcid": "0009-0008-2877-3204"
+      }
+    ],
+    "doi": "10.5281/zenodo.10262721",
+    "journal": {
+      "issue": "1",
+      "pages": "#5",
+      "title": "Squirrel Papers",
+      "volume": "5"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2023-12-05",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10262720"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+    },
+    "title": "How to locate the Campanian Ignimbrite site Urluia based on literature? How to provide and publish this data in a FAIR way?"
+  },
+  "modified": "2024-07-10T03:05:50.936177+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "10262721",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "How to locate the Campanian Ignimbrite site Urluia based on literature? How to provide and publish this data in a FAIR way?",
+  "updated": "2024-07-10T03:05:50.936177+00:00"
+}

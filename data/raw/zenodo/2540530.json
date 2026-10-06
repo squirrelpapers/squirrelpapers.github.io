@@ -1,0 +1,122 @@
+{
+  "conceptdoi": "10.5281/zenodo.2540530",
+  "conceptrecid": "2540530",
+  "created": "2019-01-15T10:56:35.704477+00:00",
+  "doi": "10.5281/zenodo.2540531",
+  "doi_url": "https://doi.org/10.5281/zenodo.2540531",
+  "files": [
+    {
+      "checksum": "md5:adde8f90fc1339fe06ed383d742f6192",
+      "id": "5dc77a7a-582e-40fc-aeb0-65dc5a750efc",
+      "key": "2015_DHd_Poster.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/2540531/files/2015_DHd_Poster.pdf/content"
+      },
+      "size": 106707
+    }
+  ],
+  "id": 2540531,
+  "links": {
+    "access": "https://zenodo.org/api/records/2540531/access",
+    "access_grants": "https://zenodo.org/api/records/2540531/access/grants",
+    "access_links": "https://zenodo.org/api/records/2540531/access/links",
+    "access_request": "https://zenodo.org/api/records/2540531/access/request",
+    "access_users": "https://zenodo.org/api/records/2540531/access/users",
+    "archive": "https://zenodo.org/api/records/2540531/files-archive",
+    "archive_media": "https://zenodo.org/api/records/2540531/media-files-archive",
+    "communities": "https://zenodo.org/api/records/2540531/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/2540531/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.2540531",
+    "draft": "https://zenodo.org/api/records/2540531/draft",
+    "file_modification": "https://zenodo.org/api/records/2540531/file-modification",
+    "files": "https://zenodo.org/api/records/2540531/files",
+    "latest": "https://zenodo.org/api/records/2540531/versions/latest",
+    "latest_html": "https://zenodo.org/records/2540531/latest",
+    "media_files": "https://zenodo.org/api/records/2540531/media-files",
+    "parent": "https://zenodo.org/api/records/2540530",
+    "parent_doi": "https://doi.org/10.5281/zenodo.2540530",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2540530",
+    "parent_html": "https://zenodo.org/records/2540530",
+    "preview_html": "https://zenodo.org/records/2540531?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/2540531/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/2540531/request-deletion",
+    "requests": "https://zenodo.org/api/records/2540531/requests",
+    "reserve_doi": "https://zenodo.org/api/records/2540531/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/2540531",
+    "self_doi": "https://doi.org/10.5281/zenodo.2540531",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2540531",
+    "self_html": "https://zenodo.org/records/2540531",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:2540531/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:2540531/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:2540531:2015_DHd_Poster.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:2540531:2015_DHd_Poster.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:2540531:2015_DHd_Poster.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:2540531:2015_DHd_Poster.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:2540531:2015_DHd_Poster.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:2540531:2015_DHd_Poster.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/2540531/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "IEG",
+        "name": "Piotrowski, Michael"
+      },
+      {
+        "affiliation": "i3mainz",
+        "name": "Thiery, Florian"
+      },
+      {
+        "affiliation": "i3mainz",
+        "name": "Bruhn, Kai-Christian"
+      }
+    ],
+    "description": "<p>Maschinenlesbare Annotationen sind die Voraussetzung f&uuml;r die semantische Verarbeitung von Daten. Diese Aussage gilt unabh&auml;ngig davon, ob es sich bei den Daten um nat&uuml;rlichsprachigen Text oder um strukturierte Datens&auml;tze in einer Datenbank handelt, und unabh&auml;ngig davon, ob es um einfaches Sortieren und Filtern geht oder um komplexes automatisches Schlie&szlig;en. Kontrollierte Vokabulare (ob in einer einfachen Terminolgieliste oder als Taxonomien, Thesauri oder Ontologien strukturiert) sind dabei unbedingt notwendig, um Annotationen maschinell verarbeitbar zu machen; ohne terminologische Kontrolle sind Annotationen f&uuml;r die maschinelle Verarbeitung kaum n&uuml;tzlicher als an den Rand eines Buches gekrizelte Notizen. Kontrollierte Vokabulare abstrahieren von nat&uuml;rlichsprachlichen Ambiguit&auml;ten und Konnotationen; sie sind daher entscheidend f&uuml;r die semantische Verarbeitung von Forschungsdaten. Um projekt&uuml;bergreifende Zusammenarbeit und den semantischen Austausch von Daten zu erm&ouml;glichen, m&uuml;ssen Vokabulare nicht nur kontrolliert, sondern auch formell oder informell standardisiert sein. Standardisierte kontrollierte Vokabulare erm&ouml;glichen den Austausch, die Kombination und die gemeinsame Analyse annotierter Daten aus verschiedenen Quellen sowie die Implementierung generischer Werkzeuge f&uuml;r die semantische Verarbeitung. Erstellung und Wartung standardisierter kontrollierter Vokabulare sind jedoch zeitaufw&auml;ndig und damit teuer. Zu den gr&ouml;&szlig;ten Herausforderungen z&auml;hlen, dass alle beteiligten Parteien zu einem gemeinsamen Verst&auml;ndnis der Begriffe kommen, und dass die richtige Balance zwischen m&ouml;glichst breiter Anwendbarkeit einerseits und m&ouml;glichst pr&auml;ziser Analyse andereseits gefunden werden. Diese Ziele sind insbesondere in den Geisteswissenschaften schwierig zu erreichen: nicht nur sind die Forschungsfragen, die potentiell an einen gegebenen Datensatz gerichtet werden k&ouml;nnen, extrem weit gef&auml;chert, sondern die Kategorisierung der Daten ist h&auml;ufig ein essenzieller Teil des Forschungsprozesses selbst. Es gibt daher einen eklatanten Mangel an standardisierten kontrollierten Vokabularen in den Geisteswissenschaften, der Digital-Humanities-Projekte letztlich dazu zwingt, eigene, projektspezifische Vokabulare zu definieren. Projektspezifische Vokabulare l&ouml;sen k&ouml;nnen den internen Bedarf zwar kurzfristig befriedigen, sind aber nicht interoperabel und verhindern den zuk&uuml;nftigen Austausch und die Nachnutzung der annotierten Daten. Unser Poster stellt einen neuen konzeptuellen Ansatz zur L&ouml;sung dieser Probleme vor und beschreibt die Implementierung dieses Ansatzes in einem Softwarewerkzeug, dem Labeling System. Da es in der geisteswissenschaftlichen Forschung praktisch unm&ouml;glich ist, kontrollierte Vokabulare zu definieren, die alle denkbaren Anwendungen abdecken und generell akzeptiert sind, schlagen wir ein anderes Vorgehen vor. Bei unserem Ansatz definieren Projekte ihre eigenen Vokabulare, aber anstelle nat&uuml;rlichsprachlicher Definitionen werden die Terme mit einem oder mehreren Konzepten in einem Referenzthesaurus verkn&uuml;pft. Der projektspezifische Term dient also quasi als &raquo;Label&laquo; f&uuml;r eine Menge gemeinsamer Konzepte. Dieser Ansatz erm&ouml;glicht es Projekten Vokabulare entsprechend ihrer Bed&uuml;rfnisse und unter Verwendung im jeweiligen Forschungsgebiet &uuml;blichen Bezeichnungen benutzen, w&auml;hrend gleichzeitig die Interoperabilit&auml;t mit anderen Projekten &uuml;ber den Referenzthesaurus gew&auml;hrleistet ist. Das Labeling System ist eine Webanwendung, die es Benutzern erm&ouml;glicht, SKOSVokabulare zu erstellen und auf einfache Weise deren Terme mit einem oder mehreren Konzepten in einem oder mehreren Referenzthesauri zu verkn&uuml;pfen. Die Benutzeroberfl&auml;che erm&ouml;glicht die Visualisierung der definierten Vokabulare in einer hierarchischen Baumstruktur und erm&ouml;glicht den Zugriff auf Vokabulare &uuml;ber eine SPARQL-Schnittstelle. Das Labeling System basiert auf ausgereiften Open-SourceKomponenten und ist selbst ebenfalls frei verf&uuml;gbar.</p>",
+    "doi": "10.5281/zenodo.2540531",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "Von Daten zu Erkenntnissen: Digitale Geisteswissenschaften als Mittler zwischen Information und Interpretation",
+      "dates": "23.-28.02.2015",
+      "place": "Graz, Österreich",
+      "title": "DHd-Tagung 2015",
+      "url": "https://dhd2015.uni-graz.at/de/konferenz/"
+    },
+    "publication_date": "2015-02-25",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "2540530"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+    },
+    "title": "Das Labeling System – ein freier Baukasten für kontrollierte Vokabulare"
+  },
+  "modified": "2024-07-25T02:22:53.924570+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "2540531",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Das Labeling System – ein freier Baukasten für kontrollierte Vokabulare",
+  "updated": "2024-07-25T02:22:53.924570+00:00"
+}

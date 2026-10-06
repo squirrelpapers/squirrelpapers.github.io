@@ -1,0 +1,149 @@
+{
+  "conceptdoi": "10.5281/zenodo.14055804",
+  "conceptrecid": "14055804",
+  "created": "2024-11-08T12:36:08.062025+00:00",
+  "doi": "10.5281/zenodo.14055805",
+  "doi_url": "https://doi.org/10.5281/zenodo.14055805",
+  "files": [
+    {
+      "checksum": "md5:c92ece4b4bdec02824f4a923df00c298",
+      "id": "c77279c2-57ec-4c8a-9f3f-9ca7e0ee78ce",
+      "key": "20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14055805/files/20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf/content"
+      },
+      "size": 27149304
+    }
+  ],
+  "id": 14055805,
+  "links": {
+    "access": "https://zenodo.org/api/records/14055805/access",
+    "access_grants": "https://zenodo.org/api/records/14055805/access/grants",
+    "access_links": "https://zenodo.org/api/records/14055805/access/links",
+    "access_request": "https://zenodo.org/api/records/14055805/access/request",
+    "access_users": "https://zenodo.org/api/records/14055805/access/users",
+    "archive": "https://zenodo.org/api/records/14055805/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14055805/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14055805/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14055805/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14055805",
+    "draft": "https://zenodo.org/api/records/14055805/draft",
+    "file_modification": "https://zenodo.org/api/records/14055805/file-modification",
+    "files": "https://zenodo.org/api/records/14055805/files",
+    "latest": "https://zenodo.org/api/records/14055805/versions/latest",
+    "latest_html": "https://zenodo.org/records/14055805/latest",
+    "media_files": "https://zenodo.org/api/records/14055805/media-files",
+    "parent": "https://zenodo.org/api/records/14055804",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14055804",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14055804",
+    "parent_html": "https://zenodo.org/records/14055804",
+    "preview_html": "https://zenodo.org/records/14055805?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14055805/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14055805/request-deletion",
+    "requests": "https://zenodo.org/api/records/14055805/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14055805/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14055805",
+    "self_doi": "https://doi.org/10.5281/zenodo.14055805",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14055805",
+    "self_html": "https://zenodo.org/records/14055805",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14055805/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14055805/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14055805:20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14055805:20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14055805:20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14055805:20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14055805:20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14055805:20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14055805/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "nfdi4objects"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": null,
+        "name": "Baars, Stefanie",
+        "orcid": "0000-0003-1100-6494"
+      },
+      {
+        "affiliation": null,
+        "name": "Berthold, Angela",
+        "orcid": "0009-0007-8926-5388"
+      },
+      {
+        "affiliation": null,
+        "name": "Schenk, Fiona",
+        "orcid": "0009-0008-2877-3204"
+      }
+    ],
+    "description": "<p><strong><span>Introduction</span></strong></p>\n<p><span>Within the digital transformation from an analogue world to the Knowledge Era in the Third Era of Computing (Thiery, 2019), computational archaeology and Research Software Engineering methods play a huge role (Thiery, Veller, et al., 2023). These methods are also crucial for data FAIRification (Wilkinson et al., 2016) &ndash; making data Findable, Accessible, Interoperable, and Reusable &ndash; addressed in the German National Research Data Infrastructure, called NFDI (Hartl, W&ouml;ssner, and Sure-Vetter, 2021) to apply Open Science and FAIRify research data. Within Cultural heritage data networks, so-called knowledge graphs must be interdisciplinary and interoperable. This causes challenges such as heterogeneity and islands of data. The digital transformation is how we build bridges via Semantic Web technologies and Citizen Science Hubs such as Wikidata and Open Street Map (OSM).</span></p>\n<p><span>The NFDI4Objects consortium (Bibby et al., 2023) represents a broad community dealing with material remains of human history from around 3 million years. It involves numerous disciplines, including the humanities, cultural studies, and natural sciences, with an archaeological and historical focus. The objects include potsherds of common ware, serially produced objects such as coins, organic remains such as wood, bones or pollen, inscribed clay tablets, papyri, and stones. The objects and relations constantly change, causing individual biographies: documenting, collecting, analysing, protecting, storing, and sharing. Therefore, the NFDI4Objects central tasks include (a) creating representations of physical objects as research data, (b) relating them to their contexts, (c) transforming them adequately into the digital space, and (d) curating them according to domain-specific requirements (Thiery, Mees, et al., 2023). Consequently, the NFDI4Objects Research Data Life Cycle goes along with the Object Biography.</span></p>\n<p><strong><span>Material &amp; Data</span></strong></p>\n<p><span>This paper uses research data from several domains and sources: from archaeology, such as Irish Ogham stones (Macalister, 1945; MacManus, 1997; Schmidt and Thiery, 2022) and the silver coinage of Croton (Rutter, 1997; 2001; Stazio, 1984; Garraffo, 1987), provenance research (Hopp, 2018; Hopp and von dem Bussche, 2023; 2022a; 2022b), and geosciences (Schenk et al., 2024; Thiery and Schenk, 2023a; 2023c).</span></p>\n<p><span>Ogham stones are monoliths bearing inscriptions in the early medieval Gaelic \"primitive Irish\" Ogham script, erected mainly on the island of Ireland and in the western part of Great Britain between the 4th and 9th century AD. Examples are CIIC 178 at Coumeenole North / Dunmore Head (Fig. 2; most west point of Ireland), OSM-Node 5145413640, coordinates: 52.1103&deg;N, -10.4732&deg;E) or CIIC 81 in front of the Visitor Centre at University College Cork (UCC), OSM-Node 11071361392, coordinates: 51.8938&deg;N, -8.4921&deg;E.</span></p>\n<p><span>Hoard analyses of the silver coinage of Croton (6th to 3rd century BC), an Achaean colony in southern Italy, include spatial uncertainties. The sites identified are mainly derived from the literature and have varying degrees of precision about their geographical location. </span></p>\n<p><span>About 40,000 yr b2k<a title=\"\" href=\"#_ftn1\" name=\"_ftnref1\"><sup><span><span>[1]</span></span></sup></a>, the largest eruption of the Campanian Ignimbrite (CI) took place in the Phlegraean Fields (Barberi et al., 1978; De Vivo et al., 2001; Schenk et al., 2024). Evidence of the ash fall from this Late Pleistocene volcanic event is found in Central Europe, often in isolated watersheds and valleys. These sites are recorded in publications, e.g. by precise coordinates or references to cities, regions, caves, and archaeological sites (Thiery and Schenk, 2023a).</span></p>\n<p><span>In a project by the Numismatic Collection (Berlin State Museums), all acquisitions from 1933 to 1945 were examined, and their previous owners and sellers, i.e. people or corporate bodies, were identified (Weisser, 2022a; 2022b). Identifiers were created in the coin cabinet's own authority file data portal (NDP) and stored with standard data from other portals such as GND or VIAF.</span></p>\n<p><strong><span>Methodology</span></strong></p>\n<p><span>To create interdisciplinary and interoperable Knowledge Graphs, </span><span>Semantic Web </span><span>technologies</span><span> such as the Resource Description Framework (RDF) </span><span>(Klyne, Carroll, and McBride, 2014) </span><span>and Linked Open Data </span><span>(Berners-Lee, 2006; Schmidt, Thiery, and Trognitz, 2022)</span><span> are </span><span>used</span><span>. Com</span><span>bined with handling doubts &ndash; in the context of NFDI4Objects project often named using the umbrella terms &ldquo;fuzziness and wobbliness&rdquo; (Thiery et al., 2021) &ndash; such as vagueness, uncertainty, and ambiguities in data modelling, this makes research data comprehensible; especially using the &ldquo;Fuzzy Spatial Locations Ontology&rdquo; (Thiery, 2023b), based on &ldquo;PROV-O&rdquo;, &ldquo;SKOS&rdquo; and &ldquo;GeoSPARQL&rdquo; (Thiery, 2023a: 3&ndash;5).</span><span> On top of th</span><span>at, the use of the FOSS software </span><span>Wikibase and its ins</span><span>tances, such as </span><span>Wikidata</span><span>,</span><span> leads this method to Open </span><span>Science.</span></p>\n<p><strong><span>Results &amp; Conclusions</span></strong></p>\n<p><span>The methodology used leads to modelling strategies to FAIRify data. The resulting LOD from the Campanian Ignimbrite project (Thiery and Schenk, 2023b) or the Croton project (Thiery and Baars, 2023) as RDF can be converted into human-readable HTML files using the &ldquo;SPARQL Unicorn Ontology Documentation Research Tool&rdquo; (Homburg and Thiery, 2024) based on the SPARQL Unicorn (Thiery et al., 2020; Thiery and Homburg, 2024). The SPARQL Unicorn also enables QGIS users to integrate these data into GIS analysis.</span></p>\n<p><span>One more challenging example is the hoard: &laquo;San Giorgio Ionico 1949, San Giorgio Ionico (near Taranto), on the property of E. De Finis&raquo; (Squirrel-ID no. 3001), which includes i. a. coinage of Croton and poses the question: &ldquo;<em>Where was the property of E. De Finis located?</em>&rdquo;. With the help of Lo Porto (1990), Siciliano (2002) and OSM Node 68530185, the coordinate POINT(17.3787 40.4579) can be determined as shown in <a href=\"http://fuzzy-sl.squirrel.link/data/crotonsite_3001\"><span>crotonsite_3001</span></a>.</span></p>\n<p><span>The Wikidata Workflow creates entries in Wikidata, e.g., <a href=\"https://www.wikidata.org/wiki/Q106680733\"><span>Q106680733</span></a>, CIIC 81 as &ldquo;Squirrel Stone&rdquo; as part of the Ogham stones collection (can be queried via <a href=\"https://w.wiki/9jQv\"><span>https://w.wiki/9jQv</span></a>).</span></p>\n<p><span>Semantically modelled entries in a Wikibase instance (here: <a href=\"https://n4o-prov.wikibase.cloud\"><span>https://n4o-prov.wikibase.cloud</span></a>) enable to open the knowledge about coin dealers (e.g., Zakaris Bezdikian; <a href=\"https://n4o-prov.wikibase.cloud/wiki/Item:Q20\"><span>Item:Q20</span></a>) or corporate bodies (e.g., Ignaz Storek steel foundry and machine factory in Br&uuml;nn; <a href=\"https://n4o-prov.wikibase.cloud/wiki/Item:Q23\"><span>Item:Q23</span></a>).</span></p>\n<p><strong><span>Discussion</span></strong></p>\n<p><span>This paper shows exemplary processes for creating interdisciplinary knowledge graphs using semantic modelling techniques like Linked Open Data, Wikibase, and Wikidata. These digital approaches and applied methods in computational archaeology create a shared understanding and the possibility of common standards using the NFDI4Objects community.</span><strong><span>&nbsp;</span></strong></p>\n<p><strong><span>References</span></strong></p>\n<p><span>Barberi, F., F. Innocenti, L. Lirer, R. Munno, T. Pescatore, and R. Santacroce (1978), &lsquo;The campanian ignimbrite: a major prehistoric eruption in the Neapolitan area (Italy)&rsquo;, <em>Bulletin Volcanologique</em>, 41:1, 10&ndash;31, <a href=\"https://doi.org/10.1007/BF02597680\">https://doi.org/10.1007/BF02597680</a>.</span></p>\n<p><span>Berners-Lee, T. (2006), &lsquo;Linked Data - Design Issues&rsquo;, <a href=\"https://www.w3.org/DesignIssues/LinkedData.html\">https://www.w3.org/DesignIssues/LinkedData.html</a> [accessed 17 April 2024].</span></p>\n<p><span>Bibby, D., K.-C. Bruhn, A. Busch, F. D&uuml;hrkohp, and et al. (2023), &lsquo;NFDI4Objects - Proposal&rsquo;, <em>NFDI4Objects Zenodo Community</em>, <a href=\"https://doi.org/10.5281/zenodo.10409227\">https://doi.org/10.5281/zenodo.10409227</a>.</span></p>\n<p><span>De Vivo, B., G. Rolandi, P. B. Gans, A. Calvert, W. A. Bohrson, F. J. Spera, et al. (2001), &lsquo;New constraints on the pyroclastic eruptive history of the Campanian volcanic Plain (Italy)&rsquo;, <em>Mineralogy and Petrology</em>, 73:1&ndash;3, 47&ndash;65, <a href=\"https://doi.org/10.1007/s007100170010\">https://doi.org/10.1007/s007100170010</a>.</span></p>\n<p><span>Garraffo, S. (1987), &lsquo;Crotoniensia: Dall&rsquo;incuso al doppio rilievo&rsquo;, in T. Caruso (ed.), <em>Studi per Laura Breglia</em> (Rom: Istituto poligrafico e Zecca dello Stato), pp. 105&ndash;17</span></p>\n<p><span>Hartl, N., E. W&ouml;ssner, and Y. Sure-Vetter (2021), &lsquo;Nationale Forschungsdateninfrastruktur (NFDI)&rsquo;, <em>Informatik Spektrum</em>, 44:5, 370&ndash;73, </span><span><a href=\"https://doi.org/10.1007/s00287-021-01392-6\"><span>https://doi.org/10.1007/s00287-021-01392-6</span></a></span><span>.</span></p>\n<p><span>Homburg, T., and F. Thiery (2024), &lsquo;SPARQL Unicorn Ontology Documentation&rsquo;, <em>Squirrel Papers</em>, 6:2, #2, <a href=\"https://doi.org/10.5281/zenodo.10780476\">https://doi.org/10.5281/zenodo.10780476</a>.</span></p>\n<p><span>Hopp, M. (2018), &lsquo;Provenienzrecherche und digitale Forschungsinfrastrukturen in Deutschland: Tendenzen, Desiderate, Bed&uuml;rfnisse&rsquo;, eds E. Blimlinger and H. Sch&ouml;dl, ... <em>... </em></span><em><span>(k)ein Ende in Sicht. </span></em><em><span>20 Jahre Kunstr&uuml;ckgabegesetz in &Ouml;sterreich.</span></em><span>, Schriftenreihe der Kommission f&uuml;r Provenienzforschung:8, 37&ndash;62, </span><span><a href=\"https://doi.org/10.7767/9783205201274.37\"><span>https://doi.org/10.7767/9783205201274.37</span></a></span><span>.</span></p>\n<p><span>Hopp, M., and R. von dem Bussche (2022a), &lsquo;Der &bdquo;Bestand B323&ldquo; als Knowledgegraph f&uuml;r die Provenienzforschung. </span><span>Methodische &Uuml;berlegungen zur Verarbeitung von Archivdaten als Linked Open Data&rsquo;, <em>Archivar 75</em>, 2022:1</span></p>\n<p><span>&mdash;&mdash;&mdash; (2022b), &lsquo;Data related the archival collection Bundesarchiv Koblenz B323&rsquo;, <em>GitHub</em>, art-provenance:b323, <a href=\"https://github.com/art-provenance/b323\">https://github.com/art-provenance/b323</a> [accessed 17 April 2024].</span></p>\n<p><span>&mdash;&mdash;&mdash; (2023), &lsquo;Provenienzforschung und ihre Quellenbest&auml;nde. </span><span>Aktuelle Nutzungsszenarien zwischen Open Access und Inaccessibility&rsquo;, <em>Proceedings of the Digital Humanities Im Deutschsprachigen Raum</em>, 2023, </span><span><a href=\"https://doi.org/10.5281/zenodo.7715360\"><span>https://doi.org/10.5281/zenodo.7715360</span></a></span><span>.</span></p>\n<p><span>Klyne, G., J. J. Carroll, and B. McBride (2014), &lsquo;RDF 1.1 Concepts and Abstract Syntax; W3C Recommendation 25 February 2014&rsquo;, <a href=\"https://www.w3.org/TR/rdf11-concepts/\">https://www.w3.org/TR/rdf11-concepts/</a> [accessed 17 April 2024].</span></p>\n<p><span>Lo Porto, F. G. (1990), &lsquo;Testimonianze archeologiche della espansione tarantina in et&agrave; arcaica&rsquo;, <em>Taras</em>, 10, 67&ndash;97.</span></p>\n<p><span>Macalister, R. A. S. (1945), <em>Corpus Inscriptionum Insularum Celticarum</em> (Dublin: Stationery Office).</span></p>\n<p><span>MacManus, D. (1997), <em>A Guide to Ogam</em> (Maynooth: An Sagart).</span></p>\n<p><span>Rutter, N. K. (1997), <em>The Greek Coinages of Southern Italy and Sicily</em> (London: Spink).</span></p>\n<p><span>&mdash;&mdash;&mdash; (ed.) (2001), <em>Historia Numorum: Italy</em> (London: British Museum Press).</span></p>\n<p><span>Schenk, F., U. Hambach, S. Britzius, D. Veres, and F. Sirocko (2024), &lsquo;A Cryptotephra Layer in Sediments of an Infilled Maar Lake from the Eifel (Germany): First Evidence of Campanian Ignimbrite Ash Airfall in Central Europe&rsquo;, <em>Quaternary</em>, 7:2, 17, <a href=\"https://doi.org/10.3390/quat7020017\">https://doi.org/10.3390/quat7020017</a>.</span></p>\n<p><span>Schmidt, S. C., and F. Thiery (2022), &lsquo;SPARQLing Ogham Stones: New Options for Analyzing Analog Editions by Digitization in Wikidata&rsquo;, <em>CEUR Workshop Proceedings</em>, 3110:Graph Technologies in the Humanities 2020, 211&ndash;44, <a href=\"https://doi.org/10.5281/zenodo.6380914\">https://doi.org/10.5281/zenodo.6380914</a>.</span></p>\n<p><span>Schmidt, S. C., F. Thiery, and M. Trognitz (2022), &lsquo;Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata&rsquo;, <em>Digital</em>, 2:3, 333&ndash;64, <a href=\"https://doi.org/10.3390/digital2030019\">https://doi.org/10.3390/digital2030019</a>.</span></p>\n<p><span>Siciliano, A. (2002), &lsquo;La circolazione monetale&rsquo;, in Convegno di Studi sulla Magna Grecia (ed.), <em>Taranto e Il Mediterraneo</em> (Tarent), pp. 483&ndash;517.</span></p>\n<p><span>Stazio, A. (1984), &lsquo;Problemi della monetazione di Crotone&rsquo;, in Istituto per la Storia e l&rsquo;Archeologia della Magna Grecia (ed.), <em>Crotone</em> (Tarent: Istituto per la storia e l&rsquo;archeologia della Magna Grecia), pp. 369&ndash;98.</span></p>\n<p><span>Thiery, F. (2019), &lsquo;Archaeology 4.0: Archaeology in the Third Era of Computing&rsquo;, <em>Squirrel Papers</em>, 1:1, #2, <a href=\"https://doi.org/10.5281/zenodo.2629595\">https://doi.org/10.5281/zenodo.2629595</a>.</span></p>\n<p><span>&mdash;&mdash;&mdash; (2023a), &lsquo;Dealing with Doubts: Modelling Approaches in site georeferencing&rsquo;, <em>Squirrel Papers</em>, 5(1):1, #7, <a href=\"https://doi.org/10.5281/zenodo.10403509\">https://doi.org/10.5281/zenodo.10403509</a>.</span></p>\n<p><span>&mdash;&mdash;&mdash; (2023b), &lsquo;Fuzzy Spatial Locations Ontology&rsquo;, <em>Squirrel Papers</em>, 5(2):2, #3, <a href=\"https://doi.org/10.5281/zenodo.10362777\">https://doi.org/10.5281/zenodo.10362777</a>.</span></p>\n<p><span>Thiery, F., and S. Baars (2023), &lsquo;Croton Site Instances Collection&rsquo;, <em>Squirrel Papers</em>, Research Squirrel Engineers, via @croton-geo, <a href=\"https://research-squirrel-engineers.github.io/croton-geo/Site_collection/index.html\">https://research-squirrel-engineers.github.io/croton-geo/Site_collection/index.html</a> [accessed 17 April 2024].</span></p>\n<p><span>Thiery, F., and T. Homburg (2024), &lsquo;SPARQLing Unicorn QGIS Plugin&rsquo;, <em>Squirrel Papers</em>, 6:2, #1, <a href=\"https://doi.org/10.5281/zenodo.10779466\">https://doi.org/10.5281/zenodo.10779466</a>.</span></p>\n<p><span>Thiery, F., A. Mees, K. Tolle, and D. Wigg-Wolf (2021), &lsquo;TRAIL 2.2: Evaluation of fuzziness and wobbliness in numismatics and ceramology&rsquo;, <em>NFDI4Objects TRAILS</em>, 2021, No. 2.2, <a href=\"https://doi.org/10.5281/zenodo.5654897\">https://doi.org/10.5281/zenodo.5654897</a>.</span></p>\n<p><span>Thiery, F., A. W. Mees, B. Weisser, F. F. Sch&auml;fer, S. Baars, S. Nolte, et al. </span><span>(2023), &lsquo;Object-Related Research Data Workflows Within NFDI4Objects and Beyond&rsquo;, <em>Proceedings of the Conference on Research Data Infrastructure</em>, 1, <a href=\"https://doi.org/10.52825/cordi.v1i.326\">https://doi.org/10.52825/cordi.v1i.326</a>.</span></p>\n<p><span>Thiery, F., and F. Schenk (2023a), &lsquo;Campanian Ignimbrite Geo Locations&rsquo;, <em>Squirrel Papers</em>, 5(2):2, #2, <a href=\"https://doi.org/10.5281/zenodo.10361309\">https://doi.org/10.5281/zenodo.10361309</a>.</span></p>\n<p><span>&mdash;&mdash;&mdash; (2023b), &lsquo;CI Site Instances Collection&rsquo;, <em>Squirrel Papers</em>, Research Squirrel Engineers, via @campanian-ignimbrite-geo, <a href=\"https://research-squirrel-engineers.github.io/campanian-ignimbrite-geo/Site_collection/index.html\">https://research-squirrel-engineers.github.io/campanian-ignimbrite-geo/Site_collection/index.html</a> [accessed 17 April 2024].</span></p>\n<p><span>&mdash;&mdash;&mdash; (2023c), &lsquo;How to locate the Campanian Ignimbrite site Urluia based on literature? How to provide and publish this data in a FAIR way?&rsquo;, <em>Squirrel Papers</em>, 5(1):1, #5, <a href=\"https://doi.org/10.5281/zenodo.10262720\">https://doi.org/10.5281/zenodo.10262720</a>.</span></p>\n<p><span>Thiery, F., S. C. Schmidt, T. Homburg, and M. Trognitz (2020), &lsquo;The SPARQL Unicorn: An introduction&rsquo;, <em>Squirrel Papers</em>, 2:1, #1, <a href=\"https://doi.org/10.5281/zenodo.3742185\">https://doi.org/10.5281/zenodo.3742185</a>.</span></p>\n<p><span>Thiery, F., J. Veller, L. Raddatz, L. Rokohl, F. Boochs, and A. W. Mees (2023), &lsquo;A Semi-Automatic Semantic-Model-Based Comparison Workflow for Archaeological Features on Roman Ceramics&rsquo;, <em>ISPRS International Journal of Geo-Information</em>, 12:4, 167, <a href=\"https://doi.org/10.3390/ijgi12040167\">https://doi.org/10.3390/ijgi12040167</a>.</span></p>\n<p><span>Weisser, B. (2022a), &lsquo;Digitale Provenienzforschung am M&uuml;nzkabinett der Staatlichen Museen zu Berlin. Erwerbungen zwischen 1933 und 1945&rsquo;, <em>Sonderheft Der Geldgeschichtlichen Nachrichten</em>, 57, 260&ndash;67.</span></p>\n<p><span>&mdash;&mdash;&mdash; (ed.) (2022b), &lsquo;M&uuml;nzsammlungen in Deutschland zwischen 1933 und 1945. Erwerbungen und Normdaten.&rsquo;, <em>Sonderheft Der Geldgeschichtlichen Nachrichten</em>, 57, 257&ndash;356.</span></p>\n<p><span>Wilkinson, M. D., M. Dumontier, Ij. J. Aalbersberg, G. Appleton, and et al. </span><span>(2016), &lsquo;The FAIR Guiding Principles for scientific data management and stewardship&rsquo;, <em>Scientific Data</em>, 3, 160018, <a href=\"https://doi.org/10.1038/sdata.2016.18\">https://doi.org/10.1038/sdata.2016.18</a>.</span></p>\n<div>\n<div>\n<p><a title=\"\" href=\"#_ftnref1\" name=\"_ftn1\"><sup><span><span><span>[1]</span></span></span></sup></a><span> yr b2k: The geosciences use their own systems to describe years. For example, &ldquo;<em>Before Present&rdquo;</em> (BP) is used, which means \"before 1950 AD\". The term \"<em>b2k</em>\" means \"before the year 2000 AD\", i.e. the year 2000 is used as a reference point. 40,000 yr b2k therefore means approx. 40,000 years before the year 2000 AD, i.e. approx. 38,000 BC.</span></p>\n</div>\n</div>",
+    "doi": "10.5281/zenodo.14055805",
+    "journal": {
+      "issue": "4",
+      "pages": "#23",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CHNT29",
+      "dates": "04-06 November 2024",
+      "place": "Vienna City Hall, Wappensaal, Vienna, Austria",
+      "session": "Research Data Management in Cultural Heritage goes Digital",
+      "title": "Conference on Cultral Heritage and New Technologies",
+      "url": "https://chnt.at/"
+    },
+    "publication_date": "2024-11-06",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14055804"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Interdisciplinary Knowledge Graphs: Semantic Modelling using Linked Open Data, Wikibase and the Wikiverse"
+  },
+  "modified": "2024-11-08T12:36:08.268900+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14055805",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Interdisciplinary Knowledge Graphs: Semantic Modelling using Linked Open Data, Wikibase and the Wikiverse",
+  "updated": "2024-11-08T12:36:08.268900+00:00"
+}

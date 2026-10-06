@@ -1,0 +1,136 @@
+{
+  "conceptdoi": "10.5281/zenodo.13364444",
+  "conceptrecid": "13364444",
+  "created": "2024-08-23T07:33:01.655118+00:00",
+  "doi": "10.5281/zenodo.13364445",
+  "doi_url": "https://doi.org/10.5281/zenodo.13364445",
+  "files": [
+    {
+      "checksum": "md5:80d47d4dfe734581cc6c57ad8e99faa9",
+      "id": "b9574e17-c6b0-4ee6-8cab-7549798bbbc5",
+      "key": "3A_IV_Ogham_Wikidata.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13364445/files/3A_IV_Ogham_Wikidata.pdf/content"
+      },
+      "size": 13764706
+    }
+  ],
+  "id": 13364445,
+  "links": {
+    "access": "https://zenodo.org/api/records/13364445/access",
+    "access_grants": "https://zenodo.org/api/records/13364445/access/grants",
+    "access_links": "https://zenodo.org/api/records/13364445/access/links",
+    "access_request": "https://zenodo.org/api/records/13364445/access/request",
+    "access_users": "https://zenodo.org/api/records/13364445/access/users",
+    "archive": "https://zenodo.org/api/records/13364445/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13364445/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13364445/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13364445/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13364445",
+    "draft": "https://zenodo.org/api/records/13364445/draft",
+    "file_modification": "https://zenodo.org/api/records/13364445/file-modification",
+    "files": "https://zenodo.org/api/records/13364445/files",
+    "latest": "https://zenodo.org/api/records/13364445/versions/latest",
+    "latest_html": "https://zenodo.org/records/13364445/latest",
+    "media_files": "https://zenodo.org/api/records/13364445/media-files",
+    "parent": "https://zenodo.org/api/records/13364444",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13364444",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13364444",
+    "parent_html": "https://zenodo.org/records/13364444",
+    "preview_html": "https://zenodo.org/records/13364445?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13364445/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13364445/request-deletion",
+    "requests": "https://zenodo.org/api/records/13364445/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13364445/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13364445",
+    "self_doi": "https://doi.org/10.5281/zenodo.13364445",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13364445",
+    "self_html": "https://zenodo.org/records/13364445",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13364445/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13364445/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13364445:3A_IV_Ogham_Wikidata.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13364445:3A_IV_Ogham_Wikidata.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13364445:3A_IV_Ogham_Wikidata.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13364445:3A_IV_Ogham_Wikidata.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13364445:3A_IV_Ogham_Wikidata.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13364445:3A_IV_Ogham_Wikidata.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13364445/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>This presentation demonstrates and introduces Og(h)am data used in Community Hubs and the Citizen Sciences, e.g. OpenStreetMap (OSM), the Wikiverse and 3D modelling created by photogrammetric methods via SfM. In OSM, the tag historic=ogham_stone shows a lot of machine-readable tags that Citizen Scientists can use to describe Og(h)am Data in OSM, such as inscription, material, height, access, as well as wikidata and wikimedia_commons. OSM also provides data about boundaries like townlands and baronies (especially via townlands.ie) which may help to geolocate the findspots from literature and excavation reports. The Wikiverse (e.g., Wikidata, Wikimedia Commons, Wikipedia) also provides a lot of opportunities to share Og(h)am data as a community hub within the volunteer community, such as structured entries in Wikidata, images and other media in Wikimedia Commons as well as text information in Wikidata. Easy-to-use smartphone applications enable Citizen Scientists to create 3D models using photogrammetric methods that can be linked to OSM and potentially Wikidata.</p>",
+    "doi": "10.5281/zenodo.13364445",
+    "journal": {
+      "issue": "5",
+      "pages": "#5",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "keywords": [
+      "Ogham",
+      "Wikidata"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "04-05 June 2024",
+      "place": "University College Cork (UCC)",
+      "session": "3A",
+      "session_part": "IV",
+      "title": "UK-Ireland DH Association Annual Event 2024",
+      "url": "https://digitalhumanities-uk-ie.org/2024-annual-event/"
+    },
+    "publication_date": "2024-06-05",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13364444"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata"
+  },
+  "modified": "2024-08-23T07:33:02.255771+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13364445",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata",
+  "updated": "2024-08-23T07:33:02.255771+00:00"
+}

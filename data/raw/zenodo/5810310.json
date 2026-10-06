@@ -1,0 +1,138 @@
+{
+  "conceptdoi": "10.5281/zenodo.5810310",
+  "conceptrecid": "5810310",
+  "created": "2022-06-21T15:06:25.992811+00:00",
+  "doi": "10.5281/zenodo.6676192",
+  "doi_url": "https://doi.org/10.5281/zenodo.6676192",
+  "files": [
+    {
+      "checksum": "md5:28bd6f5b93af1750958806cbd75f9560",
+      "id": "a20878ce-1d88-44f8-a6bb-e97fd9f42ddd",
+      "key": "_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/6676192/files/_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf/content"
+      },
+      "size": 3526344
+    }
+  ],
+  "id": 6676192,
+  "links": {
+    "access": "https://zenodo.org/api/records/6676192/access",
+    "access_grants": "https://zenodo.org/api/records/6676192/access/grants",
+    "access_links": "https://zenodo.org/api/records/6676192/access/links",
+    "access_request": "https://zenodo.org/api/records/6676192/access/request",
+    "access_users": "https://zenodo.org/api/records/6676192/access/users",
+    "archive": "https://zenodo.org/api/records/6676192/files-archive",
+    "archive_media": "https://zenodo.org/api/records/6676192/media-files-archive",
+    "communities": "https://zenodo.org/api/records/6676192/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/6676192/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.6676192",
+    "draft": "https://zenodo.org/api/records/6676192/draft",
+    "file_modification": "https://zenodo.org/api/records/6676192/file-modification",
+    "files": "https://zenodo.org/api/records/6676192/files",
+    "latest": "https://zenodo.org/api/records/6676192/versions/latest",
+    "latest_html": "https://zenodo.org/records/6676192/latest",
+    "media_files": "https://zenodo.org/api/records/6676192/media-files",
+    "parent": "https://zenodo.org/api/records/5810310",
+    "parent_doi": "https://doi.org/10.5281/zenodo.5810310",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5810310",
+    "parent_html": "https://zenodo.org/records/5810310",
+    "preview_html": "https://zenodo.org/records/6676192?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/6676192/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/6676192/request-deletion",
+    "requests": "https://zenodo.org/api/records/6676192/requests",
+    "reserve_doi": "https://zenodo.org/api/records/6676192/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/6676192",
+    "self_doi": "https://doi.org/10.5281/zenodo.6676192",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6676192",
+    "self_html": "https://zenodo.org/records/6676192",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:6676192/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:6676192/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:6676192:_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:6676192:_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:6676192:_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:6676192:_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:6676192:_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:6676192:_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/6676192/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Allard W. Mees",
+        "orcid": "0000-0002-7634-5342"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Staatliche Museen zu Berlin",
+        "name": "Bernhard Weisser",
+        "orcid": "0000-0001-5262-2731"
+      }
+    ],
+    "description": "<p>NFDI4Objects is an initiative to build a multidisciplinary consortium within the National Research Data Infrastructure (NFDI). The initiative is aimed at researchers and practitioners whose work focuses on the material heritage of around three million years of human and environmental history and is dedicated to the challenges of modern research data infrastructures. NFDI4Objects for Collecting (Task Area 2) will establish an integrated research data infrastructure and quality-oriented data management processes that optimally serve the complex requirements of scientific object collections and collection-related research.</p>",
+    "doi": "10.5281/zenodo.6676192",
+    "journal": {
+      "issue": "1",
+      "pages": "No.1",
+      "title": "Squirrel Papers",
+      "volume": "3"
+    },
+    "keywords": [
+      "NFDI",
+      "NFDI4Objects"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2021-03-31",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "5810310"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+    },
+    "title": "Digitale Vernetzung von Sammlungsdaten"
+  },
+  "modified": "2024-07-16T13:53:03.179918+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "6676192",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Digitale Vernetzung von Sammlungsdaten",
+  "updated": "2024-07-16T13:53:03.179918+00:00"
+}

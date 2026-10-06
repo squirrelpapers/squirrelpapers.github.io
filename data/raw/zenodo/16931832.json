@@ -1,0 +1,144 @@
+{
+  "conceptdoi": "10.5281/zenodo.16931832",
+  "conceptrecid": "16931832",
+  "created": "2025-09-11T14:10:56.312714+00:00",
+  "doi": "10.5281/zenodo.16931833",
+  "doi_url": "https://doi.org/10.5281/zenodo.16931833",
+  "files": [
+    {
+      "checksum": "md5:5112b0c91ddaa100c614cbe2e530b31f",
+      "id": "a47d63f9-f2f7-41ef-a397-e5b61c93501b",
+      "key": "CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/16931833/files/CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf/content"
+      },
+      "size": 15510094
+    }
+  ],
+  "id": 16931833,
+  "links": {
+    "access": "https://zenodo.org/api/records/16931833/access",
+    "access_grants": "https://zenodo.org/api/records/16931833/access/grants",
+    "access_links": "https://zenodo.org/api/records/16931833/access/links",
+    "access_request": "https://zenodo.org/api/records/16931833/access/request",
+    "access_users": "https://zenodo.org/api/records/16931833/access/users",
+    "archive": "https://zenodo.org/api/records/16931833/files-archive",
+    "archive_media": "https://zenodo.org/api/records/16931833/media-files-archive",
+    "communities": "https://zenodo.org/api/records/16931833/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/16931833/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.16931833",
+    "draft": "https://zenodo.org/api/records/16931833/draft",
+    "file_modification": "https://zenodo.org/api/records/16931833/file-modification",
+    "files": "https://zenodo.org/api/records/16931833/files",
+    "latest": "https://zenodo.org/api/records/16931833/versions/latest",
+    "latest_html": "https://zenodo.org/records/16931833/latest",
+    "media_files": "https://zenodo.org/api/records/16931833/media-files",
+    "parent": "https://zenodo.org/api/records/16931832",
+    "parent_doi": "https://doi.org/10.5281/zenodo.16931832",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16931832",
+    "parent_html": "https://zenodo.org/records/16931832",
+    "preview_html": "https://zenodo.org/records/16931833?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/16931833/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/16931833/request-deletion",
+    "requests": "https://zenodo.org/api/records/16931833/requests",
+    "reserve_doi": "https://zenodo.org/api/records/16931833/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/16931833",
+    "self_doi": "https://doi.org/10.5281/zenodo.16931833",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16931833",
+    "self_html": "https://zenodo.org/records/16931833",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16931833/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16931833/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:16931833:CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:16931833:CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:16931833:CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:16931833:CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:16931833:CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:16931833:CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/16931833/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "cordi-2025"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Computer Applications and Quantitative Methods in Archaeology",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Computer Applications and Quantitative Methods in Archaeology",
+        "name": "Schubert, Lutz K.",
+        "orcid": "0000-0003-4889-9353"
+      }
+    ],
+    "description": "<p>Computational Archaeology plays an increasingly strategic role in research data management (RDM) within archaeology and the (digital) humanities. At the heart of these developments lies a growing recognition of Research Software Engineering (RSE) as a key enabler for the FAIRification of data and code. This contribution explores the role of RSE and domain-specific research software in archaeological data workflows, illustrating how computational archaeology drives innovation in semantic modelling, data transformation, and the handling of uncertainty, which are core challenges for the NFDI. As a participant in the NFDI4Objects consortium, the German Chapter of the Computer Applications and Quantitative Methods in Archaeology (CAA-DE) contributes substantially to structuring RDM processes. Through its involvement in the NFDI4Objects Community Clusters \"Semantic Modelling &amp; Linked Open Data\" and \"Research Software Engineering\" connected to the Humanities@NFDI group, CAA-DE experts help align domain practices with national strategies, including initiatives of the Base4NFDI consortium. Semantic modelling and Linked Open Data (LOD) are widely acknowledged as foundational elements for cross-disciplinary interoperability, as reflected in Base4NFDI's technical services TS4NFDI and the knowledge graph infrastructure KGI4NFDI. Internationally, the SIG on Scientific Scripting Languages in Archaeology (SIG SSLA) and the SIG on Semantics and LOUD in Archaeology (SIG DataDragon) within CAA International are pioneering community-driven efforts that bridge theory and implementation. These initiatives promote semantic interoperability by creating reusable ontologies, developing transformation pipelines, and sharing research software openly. Their collaborative structure demonstrates how communities shape infrastructures and standards from the bottom up. Research software developed in this context must be understood as both code and data. Tools such as the SPARQLing Unicorn Research Toolkit, the modular Little Python Minions (used, e.g. in Jupyter4NFDI workflows), and the RDFier (a data-to-RDF transformation engine) serve as FAIRification services that encapsulate reusable logic and make RDM workflows transparent and repeatable. These tools embody FAIR4RS principles and reflect the needs of both domain researchers and infrastructure providers. Integrating Artificial Intelligence (AI) into archaeological workflows further highlights the need for explainable, reproducible, and FAIR data practices in addition to traditional statistical methods. Semantic modelling and RSE provide the conceptual and technical foundation to ensure these AI applications can be responsibly integrated into RDM ecosystems. Beyond disciplinary boundaries, the methods and tools developed in computational archaeology are already influencing infrastructure efforts across NFDI consortia. As a real-world laboratory for semantic data practices, including uncertainties and vagueness in data modelling and research software development, the field contributes reusable components to broader initiatives like Base4NFDI. Initial feedback from community use has shown the importance of modularity, documentation, and training to lower entry barriers. These lessons highlight the value of aligning community-driven innovation with national RDM strategies. This contribution advocates for a more substantial recognition of Computational Archaeology as a driver for sustainable, FAIR, and AI-ready research data infrastructures &mdash; grounded in community, enabled by research software, and built for reuse across domains.</p>",
+    "doi": "10.5281/zenodo.16931833",
+    "journal": {
+      "issue": "5",
+      "pages": "𝒬8",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CoRDI 2025",
+      "dates": "26-28 Aug 2025",
+      "place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+      "session": "Humanities and Social Sciences: Machine-actionable data and tools for the humanities",
+      "session_part": "Workflows and cross-domain tools",
+      "title": "2nd Conference on Research Data Infrastructure (CoRDI)",
+      "url": "https://www.nfdi.de/cordi-2025/"
+    },
+    "publication_date": "2025-08-26",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.16736089",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-conferenceproceeding",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "16931832"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "RDM within Computational Archaeology"
+  },
+  "modified": "2025-09-11T14:10:56.779670+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "16931833",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "RDM within Computational Archaeology",
+  "updated": "2025-09-11T14:10:56.779670+00:00"
+}

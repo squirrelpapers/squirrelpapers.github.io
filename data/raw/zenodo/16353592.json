@@ -1,0 +1,147 @@
+{
+  "conceptdoi": "10.5281/zenodo.16353592",
+  "conceptrecid": "16353592",
+  "created": "2025-07-23T06:55:19.534670+00:00",
+  "doi": "10.5281/zenodo.16353593",
+  "doi_url": "https://doi.org/10.5281/zenodo.16353593",
+  "files": [
+    {
+      "checksum": "md5:c1712dab8ff931f01d196b8d651e6119",
+      "id": "f8156095-6c74-45ed-8577-6e5d785106d1",
+      "key": "Text+ShowAndTell_2025_#12_TEIEpiDoc_OghamData_20250724.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/16353593/files/Text+ShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf/content"
+      },
+      "size": 16622022
+    }
+  ],
+  "id": 16353593,
+  "links": {
+    "access": "https://zenodo.org/api/records/16353593/access",
+    "access_grants": "https://zenodo.org/api/records/16353593/access/grants",
+    "access_links": "https://zenodo.org/api/records/16353593/access/links",
+    "access_request": "https://zenodo.org/api/records/16353593/access/request",
+    "access_users": "https://zenodo.org/api/records/16353593/access/users",
+    "archive": "https://zenodo.org/api/records/16353593/files-archive",
+    "archive_media": "https://zenodo.org/api/records/16353593/media-files-archive",
+    "communities": "https://zenodo.org/api/records/16353593/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/16353593/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.16353593",
+    "draft": "https://zenodo.org/api/records/16353593/draft",
+    "file_modification": "https://zenodo.org/api/records/16353593/file-modification",
+    "files": "https://zenodo.org/api/records/16353593/files",
+    "latest": "https://zenodo.org/api/records/16353593/versions/latest",
+    "latest_html": "https://zenodo.org/records/16353593/latest",
+    "media_files": "https://zenodo.org/api/records/16353593/media-files",
+    "parent": "https://zenodo.org/api/records/16353592",
+    "parent_doi": "https://doi.org/10.5281/zenodo.16353592",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16353592",
+    "parent_html": "https://zenodo.org/records/16353592",
+    "preview_html": "https://zenodo.org/records/16353593?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/16353593/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/16353593/request-deletion",
+    "requests": "https://zenodo.org/api/records/16353593/requests",
+    "reserve_doi": "https://zenodo.org/api/records/16353593/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/16353593",
+    "self_doi": "https://doi.org/10.5281/zenodo.16353593",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16353593",
+    "self_html": "https://zenodo.org/records/16353593",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16353593/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16353593/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:16353593:Text+ShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:16353593:Text+ShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:16353593:Text+ShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:16353593:Text+ShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:16353593:Text+ShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:16353593:Text+ShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/16353593/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "textplus_nfdi"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Presentation in the format \"<strong>Text+ Show and Tell: Tools, Dienste, Projekte</strong>\"</p>\n<p><a href=\"https://events.gwdg.de/event/1192/\" target=\"_blank\" rel=\"noopener\">https://events.gwdg.de/event/1192/</a></p>",
+    "doi": "10.5281/zenodo.16353593",
+    "journal": {
+      "issue": "1",
+      "pages": "λ6",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "keywords": [
+      "Text+",
+      "NFDI",
+      "NFDI4Objects",
+      "TEI/EpiDoc",
+      "LOD",
+      "Linked Data"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "24 Jul 2025",
+      "place": "online",
+      "session": "#12",
+      "title": "Text+ Show and Tell: Tools, Dienste, Projekte",
+      "url": "https://events.gwdg.de/event/1192/"
+    },
+    "publication_date": "2025-07-24",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "16353592"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "LOD Objects in Action III: TEI/EpiDoc Ogham Data - How to integrate TEI data into the NFDI Knowledge Graph Ecosystem"
+  },
+  "modified": "2025-07-23T06:55:19.781316+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "16353593",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "LOD Objects in Action III: TEI/EpiDoc Ogham Data - How to integrate TEI data into the NFDI Knowledge Graph Ecosystem",
+  "updated": "2025-07-23T06:55:19.781316+00:00"
+}

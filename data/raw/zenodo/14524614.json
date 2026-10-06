@@ -1,0 +1,154 @@
+{
+  "conceptdoi": "10.5281/zenodo.14524614",
+  "conceptrecid": "14524614",
+  "created": "2024-12-19T11:51:52.555535+00:00",
+  "doi": "10.5281/zenodo.14524615",
+  "doi_url": "https://doi.org/10.5281/zenodo.14524615",
+  "files": [
+    {
+      "checksum": "md5:e46b517157b51b76771c039d4fbd205b",
+      "id": "e6a4a370-0e26-4b0f-b090-fc3492882387",
+      "key": "ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14524615/files/ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf/content"
+      },
+      "size": 11114937
+    }
+  ],
+  "id": 14524615,
+  "links": {
+    "access": "https://zenodo.org/api/records/14524615/access",
+    "access_grants": "https://zenodo.org/api/records/14524615/access/grants",
+    "access_links": "https://zenodo.org/api/records/14524615/access/links",
+    "access_request": "https://zenodo.org/api/records/14524615/access/request",
+    "access_users": "https://zenodo.org/api/records/14524615/access/users",
+    "archive": "https://zenodo.org/api/records/14524615/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14524615/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14524615/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14524615/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14524615",
+    "draft": "https://zenodo.org/api/records/14524615/draft",
+    "file_modification": "https://zenodo.org/api/records/14524615/file-modification",
+    "files": "https://zenodo.org/api/records/14524615/files",
+    "latest": "https://zenodo.org/api/records/14524615/versions/latest",
+    "latest_html": "https://zenodo.org/records/14524615/latest",
+    "media_files": "https://zenodo.org/api/records/14524615/media-files",
+    "parent": "https://zenodo.org/api/records/14524614",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14524614",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14524614",
+    "parent_html": "https://zenodo.org/records/14524614",
+    "preview_html": "https://zenodo.org/records/14524615?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14524615/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14524615/request-deletion",
+    "requests": "https://zenodo.org/api/records/14524615/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14524615/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14524615",
+    "self_doi": "https://doi.org/10.5281/zenodo.14524615",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14524615",
+    "self_html": "https://zenodo.org/records/14524615",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14524615/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14524615/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14524615:ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14524615:ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14524615:ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14524615:ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14524615:ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14524615:ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14524615/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/Research-Squirrel-Engineers/jupyter-nb-lod",
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      },
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        },
+        {
+          "id": "jupyter_notebook",
+          "title": {
+            "en": "Jupyter Notebook"
+          }
+        }
+      ]
+    },
+    "description": "<p><em>Paper for Panel 6: Open Data for Urban Archaeological Potential Assessment</em></p>\n<p><strong>Title</strong>: Jupyter Python Minion: Empowering Open Data for Urban Archaeological Insights</p>\n<p><strong>Author</strong>: Florian Thiery</p>\n<p><strong>Affiliation</strong>: Research Squrrel Engineers Network (Mainz, Germany)</p>\n<p><strong>Keywords</strong>: Wikibase, Wikidata, Linked Open Data, Research Software Engineering, Archaeological Infrastructure, Open Data, Jupyter Notebooks, Python</p>\n<p><strong>Author Biography</strong>: Florian Thiery is a Research Software Engineer (RSE), Ontology Engineer and Data Scientist trained in geodesy and geoinformatics. He has been working for more than 10 years in LOD-related DH projects such as iDAI.chronontology and African Red Slip Ware digital (ARS3D). Currently, Florian is part of the staff at NFDI4Objects, which develops a Research Data Management Structure for (among other things) archaeological data together with German institutions and international partners. He is also founder of the Research Squirrel Engineers Network, wich codes the&nbsp;<a href=\"https://github.com/sparqlunicorn/sparqlunicornGoesGIS\">SPARQLing Unicorn QGIS Plugin</a>&nbsp;and is responsible for the&nbsp;<a href=\"https://github.com/LinkedOpenOgham/ogham-lod\">Linked Open Ogham Data</a>, as well as the&nbsp;<a href=\"https://fuzzy-sl.wikibase.cloud/\" rel=\"nofollow\">fuzzy-sl Wikibase</a>.</p>\n<p><strong>Author Bibliography</strong></p>\n<ul>\n<li>Schmidt, Sophie C., Florian Thiery, and Martina Trognitz. &lsquo;Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata&rsquo;.&nbsp;<em>Digital</em>&nbsp;2, no. 3 (22 June 2022): 333&ndash;64.&nbsp;<a href=\"https://doi.org/10.3390/digital2030019\" rel=\"nofollow\">https://doi.org/10.3390/digital2030019</a>.</li>\n<li>Thiery, Florian, Fiona Schenk, Stefanie Baars, Karsten Tolle, and Peter Thiery. &lsquo;Modellierung von Fuzzyness / Wobbliness in Geodaten - Am Beispiel Arch&auml;ologischer Und Geowissenschaftlicher Fundortreferenzen&rsquo;.&nbsp;<em>Tagungsband FOSSGIS-Konferenz 2024</em>&nbsp;2024 (18 March 2024): 64&ndash;73.&nbsp;<a href=\"https://doi.org/10.5281/zenodo.10571858\" rel=\"nofollow\">https://doi.org/10.5281/zenodo.10571858</a>.</li>\n<li>Thiery, Florian, and Peter Thiery. &lsquo;Linked Open Ogham. How to Publish and Interlink Various Ogham Data?&rsquo;&nbsp;<em>Archeologia e Calcolatori</em>&nbsp;34, no. 1 (2023): 105&ndash;14.&nbsp;<a href=\"https://doi.org/10.19282/ac.34.1.2023.12\" rel=\"nofollow\">https://doi.org/10.19282/ac.34.1.2023.12</a>.</li>\n</ul>\n<p><strong>Abstract</strong></p>\n<p>Publishing and analysing open archaeological data is crucial for sustainable urban planning and cultural heritage management. The&nbsp;<strong>Jupyter Python Minion</strong>&nbsp;offers an innovative, open-source approach to streamline Linked Open Data (LOD) workflows, enabling reproducible and accessible research. By combining Python's powerful libraries (<code>pyplot</code>,&nbsp;<code>geopandas</code>,&nbsp;<code>pandas</code>) with Jupyter Notebooks, this tool supports integrating archaeological data from sources like Wikidata, other Wikibase instances, and LOD knowledge graphs.</p>\n<p>This presentation highlights how the Minion simplifies complex tasks like SPARQL querying and data visualisation. Case studies include mapping Ogham stone distributions, analysing Irish holy wells, and exploring geoscientific findspots from the Campanian Ignimbrite eruption alongside archaeological cave sites. Additionally, the tool integrates data on Roman Samian ware (terra sigillata) production sites, showcasing the potential to visualise regional trends and spatial patterns.</p>\n<p>By making these workflows shareable and reproducible, the Minion aligns with open science principles and bridges the gap between computational methods and domain expertise. The tool&rsquo;s geospatial visualisations and linked data integration support urban archaeological potential assessments, offering urban planners, archaeologists, and researchers a transparent framework to assess and safeguard buried heritage in cities like Rome.</p>",
+    "doi": "10.5281/zenodo.14524615",
+    "journal": {
+      "issue": "3",
+      "pages": "#12",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "19-20 Dec 2024",
+      "place": "Aula Convegni CAST, Chieti, Italy",
+      "session": "Open Data for Urban Archaeological Potential Assessment",
+      "title": "ARCHEO.FOSS 18",
+      "url": "https://www.archeofoss.org/2024/"
+    },
+    "publication_date": "2024-12-19",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14524614"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Jupyter Python Minion: Empowering Open Data for Urban Archaeological Insights"
+  },
+  "modified": "2024-12-19T11:51:52.761422+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14524615",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Jupyter Python Minion: Empowering Open Data for Urban Archaeological Insights",
+  "updated": "2024-12-19T11:51:52.761422+00:00"
+}

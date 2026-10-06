@@ -1,0 +1,144 @@
+{
+  "conceptdoi": "10.5281/zenodo.16931909",
+  "conceptrecid": "16931909",
+  "created": "2025-09-11T14:12:45.621212+00:00",
+  "doi": "10.5281/zenodo.16931910",
+  "doi_url": "https://doi.org/10.5281/zenodo.16931910",
+  "files": [
+    {
+      "checksum": "md5:12aae139fa02ba6b82b67cb906b8ffd7",
+      "id": "7524b6e7-0581-4e05-b6bf-f1d928d7597b",
+      "key": "CoRDI_2025_Aachen_WGRSE.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/16931910/files/CoRDI_2025_Aachen_WGRSE.pdf/content"
+      },
+      "size": 6066001
+    }
+  ],
+  "id": 16931910,
+  "links": {
+    "access": "https://zenodo.org/api/records/16931910/access",
+    "access_grants": "https://zenodo.org/api/records/16931910/access/grants",
+    "access_links": "https://zenodo.org/api/records/16931910/access/links",
+    "access_request": "https://zenodo.org/api/records/16931910/access/request",
+    "access_users": "https://zenodo.org/api/records/16931910/access/users",
+    "archive": "https://zenodo.org/api/records/16931910/files-archive",
+    "archive_media": "https://zenodo.org/api/records/16931910/media-files-archive",
+    "communities": "https://zenodo.org/api/records/16931910/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/16931910/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.16931910",
+    "draft": "https://zenodo.org/api/records/16931910/draft",
+    "file_modification": "https://zenodo.org/api/records/16931910/file-modification",
+    "files": "https://zenodo.org/api/records/16931910/files",
+    "latest": "https://zenodo.org/api/records/16931910/versions/latest",
+    "latest_html": "https://zenodo.org/records/16931910/latest",
+    "media_files": "https://zenodo.org/api/records/16931910/media-files",
+    "parent": "https://zenodo.org/api/records/16931909",
+    "parent_doi": "https://doi.org/10.5281/zenodo.16931909",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16931909",
+    "parent_html": "https://zenodo.org/records/16931909",
+    "preview_html": "https://zenodo.org/records/16931910?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/16931910/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/16931910/request-deletion",
+    "requests": "https://zenodo.org/api/records/16931910/requests",
+    "reserve_doi": "https://zenodo.org/api/records/16931910/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/16931910",
+    "self_doi": "https://doi.org/10.5281/zenodo.16931910",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16931910",
+    "self_html": "https://zenodo.org/records/16931910",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16931910/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16931910/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:16931910:CoRDI_2025_Aachen_WGRSE.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:16931910:CoRDI_2025_Aachen_WGRSE.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:16931910:CoRDI_2025_Aachen_WGRSE.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:16931910:CoRDI_2025_Aachen_WGRSE.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:16931910:CoRDI_2025_Aachen_WGRSE.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:16931910:CoRDI_2025_Aachen_WGRSE.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/16931910/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "cordi-2025"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Computer Applications and Quantitative Methods in Archaeology",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "University of Stuttgart",
+        "name": "Flemisch, Bernd",
+        "orcid": "0000-0001-8188-620X"
+      }
+    ],
+    "description": "<div>In the context of the German National Research Data Infrastructure (NFDI), Research Software Engineers (RSEs) and research software play crucial and increasingly formalised roles in enabling the creation, management, and sustainable reuse of research artefacts such as data and software. This contribution introduces a layered model of roles and responsibilities developed by the Working Group Research Software Engineering of the NFDI section Common Infrastructures (INFRA-WG-RSE). The model reflects its implications for Research Data Management (RDM) and Research Data Infrastructures (RDI). It works with other sections and working groups, e.g. WG RSM within NFDI. The core of this model is the recognition that RSE in RDI consists of three foundational pillars: P-I) Research Software as Research Artifact P-II) Research Software as FAIRification Service P-III) Research Software as Infrastructure Service for FAIRification (e.g., Basic Services of Base4NFDI). These three pillars illustrate how research software acts as a tool and an integral and multifaceted component of digital research workflows. It may be a research output or contribute to generating it. In more mature cases, it can evolve into a reusable, community-maintained service within a portfolio of infrastructure services like NFDI. To support these roles, the RSE community engages in five cross-cutting tasks (CCT): A) Create Research Software Metadata to apply FAIR4RS B) Implement Research Software (Quality) Criteria C) Contribute to the Research Software Infrastructure and Archiving D) Make Tools FAIR within a Research Software Marketplace E) Create Guidelines and give Training This structured approach forms the conceptual and operational foundation of the INFRA-WG-RSE. The group serves as a hub for coordination and networking across NFDI consortia, contributing to Base4NFDI services and fostering the adoption of FAIR4RS principles through shared practices, policies, and tooling. Precisely, CCT-C aligns with the Basic Service Jupyter4NFDI, supporting federated infrastructures for computational workflows. Contributions like the Jupyter Python Minions from computational archaeology&mdash;as a use case from the humanities&mdash;offer reusable, modular FAIRification helpers in Jupyter-based environments. Similarly, CCT-D contributes to nfdi.software, a central Basic Service to interlink and sustain domain-specific software registries, such as those from NFDI4Objects, NFDI4Energy, and NFDI4ING (Betty's Research Engine), among others. The Basic Service TS4NFDI develops, e.g., widgets within the Terminology Service Suite (P-III). Tools from the NFDI4Objects domain, e.g., the SPARQLing Unicorn QGIS Plugin and the AMT, enable domain researchers to integrate data from the NFDI Knowledge Graph Ecosystem into established Open Source environments (P-II). Furthermore, the Alligator method illustrates \"Research Software as Research Artifact\" (P-1). The WG RSM within the NFDI section (Meta)data, Terminologies, Provenance complements these efforts by developing standardised metadata models to support interoperability and discoverability of research software also using nfdi.software, contributing directly to the realisation of FAIR4RS. We conclude with recommendations for more strongly integrating RSE roles into the strategic development of the NFDI, highlighting that software is more than a technical asset: it is a cultural, infrastructural, and epistemic cornerstone of modern research.</div>\n<h2>Files</h2>",
+    "doi": "10.5281/zenodo.16931910",
+    "journal": {
+      "issue": "5",
+      "pages": "𝒬10",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CoRDI 2025",
+      "dates": "26-28 Aug 2025",
+      "place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+      "session": "RDM Infrastructures: Assessment & People in RDM Infrastructures",
+      "session_part": "People in RDM Infrastructure",
+      "title": "2nd Conference on Research Data Infrastructure (CoRDI)",
+      "url": "https://www.nfdi.de/cordi-2025/"
+    },
+    "publication_date": "2025-08-28",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.16736041",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-conferenceproceeding",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "16931909"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "RSE 4 Research Data Infrastructures"
+  },
+  "modified": "2025-09-11T14:12:46.056095+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "16931910",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "RSE 4 Research Data Infrastructures",
+  "updated": "2025-09-11T14:12:46.056095+00:00"
+}

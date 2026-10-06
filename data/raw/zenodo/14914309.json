@@ -1,0 +1,153 @@
+{
+  "conceptdoi": "10.5281/zenodo.14914309",
+  "conceptrecid": "14914309",
+  "created": "2025-03-08T13:32:57.146894+00:00",
+  "doi": "10.5281/zenodo.14914310",
+  "doi_url": "https://doi.org/10.5281/zenodo.14914310",
+  "files": [
+    {
+      "checksum": "md5:eb3fc79a1e36a96abdd89531d823a355",
+      "id": "41fca90f-94db-4174-a59e-f6e251232455",
+      "key": "deRSE25_108_JupyterPythonMinion.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14914310/files/deRSE25_108_JupyterPythonMinion.pdf/content"
+      },
+      "size": 11011977
+    }
+  ],
+  "id": 14914310,
+  "links": {
+    "access": "https://zenodo.org/api/records/14914310/access",
+    "access_grants": "https://zenodo.org/api/records/14914310/access/grants",
+    "access_links": "https://zenodo.org/api/records/14914310/access/links",
+    "access_request": "https://zenodo.org/api/records/14914310/access/request",
+    "access_users": "https://zenodo.org/api/records/14914310/access/users",
+    "archive": "https://zenodo.org/api/records/14914310/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14914310/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14914310/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14914310/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14914310",
+    "draft": "https://zenodo.org/api/records/14914310/draft",
+    "file_modification": "https://zenodo.org/api/records/14914310/file-modification",
+    "files": "https://zenodo.org/api/records/14914310/files",
+    "latest": "https://zenodo.org/api/records/14914310/versions/latest",
+    "latest_html": "https://zenodo.org/records/14914310/latest",
+    "media_files": "https://zenodo.org/api/records/14914310/media-files",
+    "parent": "https://zenodo.org/api/records/14914309",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14914309",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14914309",
+    "parent_html": "https://zenodo.org/records/14914309",
+    "preview_html": "https://zenodo.org/records/14914310?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14914310/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14914310/request-deletion",
+    "requests": "https://zenodo.org/api/records/14914310/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14914310/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14914310",
+    "self_doi": "https://doi.org/10.5281/zenodo.14914310",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14914310",
+    "self_html": "https://zenodo.org/records/14914310",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14914310/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14914310/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14914310:deRSE25_108_JupyterPythonMinion.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14914310:deRSE25_108_JupyterPythonMinion.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14914310:deRSE25_108_JupyterPythonMinion.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14914310:deRSE25_108_JupyterPythonMinion.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14914310:deRSE25_108_JupyterPythonMinion.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14914310:deRSE25_108_JupyterPythonMinion.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14914310/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "alternate_identifiers": [
+      {
+        "identifier": "https://events.hifis.net/event/1741/contributions/13959/"
+      }
+    ],
+    "communities": [
+      {
+        "id": "derse25"
+      },
+      {
+        "id": "infra-wg-rse"
+      },
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "n4o-cc-rse"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "caa-de"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "CAA-DE e.V.",
+        "name": "Schubert, Lutz",
+        "orcid": "0000-0003-4889-9353"
+      }
+    ],
+    "description": "<blockquote>\n<p><strong>This conferene paper was funded by the Forschungszentrum J&uuml;lich (FZJ) and JuRSE with a Travel Grant</strong></p>\n</blockquote>\n<p>The Semantic Web is a treasure trove of interconnected knowledge graphs, providing access to datasets that are invaluable for research in cultural heritage and archaeology. Resources such as triplestores (e.g., the NFDI4Objects Knowledge Graph), Wikibase instances (e.g., Wikidata and FactGrid), and Solid Pods housing geoscientific data open new avenues for interdisciplinary exploration. However, researchers face significant challenges in utilising these resources effectively. Writing SPARQL queries requires a steep learning curve, and the data often returns in formats like sparql-results+xml or sparql-results+json, which are not user-friendly for immediate analysis or visualisation.</p>\n<p>Python has become a critical tool in addressing these challenges. As a versatile scripting language, Python enables researchers to automate workflows, ensure reproducibility, and integrate datasets seamlessly. However, many researchers lack the technical skills or frameworks needed to implement Python solutions in their work. This is where Jupyter Notebooks provide a critical advantage. Combining an intuitive, shareable environment with the computational power of Python, Jupyter Notebooks make it easy to share not just results but the entire workflow. This transparency enhances reproducibility, facilitates collaboration, and aligns with FAIR principles.</p>\n<p>The&nbsp;<strong>Jupyter Python Minion</strong>&nbsp;builds on this framework, offering an open-source solution to simplify SPARQL querying and data visualisation. By integrating widely used Python libraries such as&nbsp;<code>pyplot</code>,&nbsp;<code>wordcloud</code>,&nbsp;<code>geopandas</code>, and&nbsp;<code>contextily</code>, it transforms raw Linked Open Data (LOD) into actionable insights. Researchers can produce bar charts, pie charts, maps, and word clouds with minimal effort, bridging the gap between technical expertise and domain-specific knowledge. Importantly, the tool enables researchers to document their computational workflows within Jupyter Notebooks, creating reusable resources for the broader research community.</p>\n<p>The need for such tools in archaeological research software engineering is pressing. Computational archaeology increasingly relies on integrating diverse datasets&mdash;geospatial, semantic, and cultural&mdash;but the technical barriers often hinder broader adoption. By lowering these barriers, the Jupyter Python Minion empowers researchers to harness the power of Python scripts for reproducible and shareable analysis.</p>\n<p>In this talk, I will demonstrate the utility of the Jupyter Python Minion through five use cases:<br>1.&nbsp;<strong>Playful exploration of Pok&eacute;mon properties</strong>, demonstrating SPARQL queries and visualisation techniques like scatterplots and bar charts.<br>2.&nbsp;<strong>Mapping the distribution of Samian ware kiln sites</strong>, showcasing the regional breakdown of archaeological production centres.<br>3.&nbsp;<strong>Exploring Irish Holy Wells</strong>, revealing etymological patterns through word clouds and pie charts.<br>4.&nbsp;<strong>Geospatial analysis of Irish Ogham Stones</strong>, including density maps and OpenStreetMap-based visualisations to highlight regional clusters.<br>5.&nbsp;<strong>Integration of geoscientific findspots from Solid Pods</strong>, using SPARQL queries to categorise archaeological and geological locations affected by the Campanian Ignimbrite eruption.</p>\n<p>These examples highlight the transformative potential of integrating Python scripting with Jupyter Notebooks for reproducible research. The tool&rsquo;s shareability fosters collaboration across disciplines, from archaeology to geosciences, and promotes a culture of openness and accessibility in research software engineering.</p>\n<p>This talk will contribute to key themes in RSE, including computational workflows, open-source tools, and software usability, while providing attendees with actionable insights to adopt and adapt these methods in their own research.</p>",
+    "doi": "10.5281/zenodo.14914310",
+    "journal": {
+      "issue": "3",
+      "pages": "λ7",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE25",
+      "dates": "25-27 Feb 2025",
+      "place": "KIT, Karlsruhe, Germany",
+      "session": "Visualization with Research Software",
+      "title": "Fifth German Conference on Research Software Engineering",
+      "url": "https://events.hifis.net/event/1741/"
+    },
+    "publication_date": "2025-02-27",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14914309"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data"
+  },
+  "modified": "2025-03-08T13:35:07.129906+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14914310",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data",
+  "updated": "2025-03-08T13:35:07.129906+00:00"
+}

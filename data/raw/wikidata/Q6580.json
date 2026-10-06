@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 34.26,
+    "lon": -85.185
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Stadt in den Vereinigten Staaten",
+    "en": "county seat of Floyd County, Georgia, United States"
+  },
+  "id": "Q6580",
+  "instance_of": [
+    "Q1093829",
+    "Q62049",
+    "Q76514543"
+  ],
+  "labels": {
+    "de": "Rome",
+    "en": "Rome"
+  }
+}

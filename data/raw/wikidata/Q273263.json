@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 50.777778,
+    "lon": 6.078056
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Universität in Aachen",
+    "en": "university in Aachen, Germany"
+  },
+  "id": "Q273263",
+  "instance_of": [
+    "Q115427560",
+    "Q641347",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "RWTH Aachen",
+    "en": "RWTH Aachen University"
+  }
+}

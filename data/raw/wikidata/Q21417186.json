@@ -1,0 +1,15 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Datenbank der wissenschaftlichen Illustratoren",
+    "en": "database of scientific illustrators active 1450–1950 and no longer alive"
+  },
+  "id": "Q21417186",
+  "instance_of": [
+    "Q7094076"
+  ],
+  "labels": {
+    "de": "Stuttgart Database of Scientific Illustrators 1450–1950",
+    "en": "The Stuttgart Database of Scientific Illustrators 1450–1950"
+  }
+}

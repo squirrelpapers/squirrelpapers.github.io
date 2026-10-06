@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Munich [de]": [
+      {
+        "description": "capital and most populous city of Bavaria, Germany",
+        "id": "Q1726",
+        "label": "Munich"
+      },
+      {
+        "description": "depot used by the Monuments, Fine Arts, and Archives program after the end of the Second World War to process, photograph and redistribute artwork and cultural artefacts that had been confiscated by the Nazis and hidden throughout Germany and Austria",
+        "id": "Q1053735",
+        "label": "Munich Central Collecting Point"
+      },
+      {
+        "description": "association football club in Munich, Germany",
+        "id": "Q15789",
+        "label": "FC Bayern Munich"
+      },
+      {
+        "description": "2005 film directed by Steven Spielberg",
+        "id": "Q152456",
+        "label": "Munich"
+      },
+      {
+        "description": "2005 single by Editors",
+        "id": "Q1152602",
+        "label": "Munich"
+      }
+    ],
+    "Munich [en]": [
+      {
+        "description": "capital and most populous city of Bavaria, Germany",
+        "id": "Q1726",
+        "label": "Munich"
+      },
+      {
+        "description": "association football club in Munich, Germany",
+        "id": "Q15789",
+        "label": "FC Bayern Munich"
+      },
+      {
+        "description": "depot used by the Monuments, Fine Arts, and Archives program after the end of the Second World War to process, photograph and redistribute artwork and cultural artefacts that had been confiscated by the Nazis and hidden throughout Germany and Austria",
+        "id": "Q1053735",
+        "label": "Munich Central Collecting Point"
+      },
+      {
+        "description": "Games of the XX Olympiad, in Munich, West Germany",
+        "id": "Q8438",
+        "label": "1972 Summer Olympics"
+      },
+      {
+        "description": "art museum in Munich, Germany",
+        "id": "Q154568",
+        "label": "Alte Pinakothek"
+      }
+    ]
+  },
+  "label": "Munich, Germany"
+}

@@ -1,0 +1,143 @@
+{
+  "conceptdoi": "10.5281/zenodo.7629861",
+  "conceptrecid": "7629861",
+  "created": "2023-02-10T16:48:13.948257+00:00",
+  "doi": "10.5281/zenodo.7629862",
+  "doi_url": "https://doi.org/10.5281/zenodo.7629862",
+  "files": [
+    {
+      "checksum": "md5:a8a6b76d397d56838384f4aa786fa8f8",
+      "id": "7fdda4df-2b7f-4810-a70a-ae234c282e23",
+      "key": "2023_JGU_Kleinfunddokumentation_Thiery.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7629862/files/2023_JGU_Kleinfunddokumentation_Thiery.pdf/content"
+      },
+      "size": 31963286
+    },
+    {
+      "checksum": "md5:f7f55d328e9bbe4f1d1fb9b84e0389f0",
+      "id": "72917717-3f44-4ffa-ba86-cb69a81f5961",
+      "key": "2023_JGU_Kleinfunddokumentation_Thiery.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/7629862/files/2023_JGU_Kleinfunddokumentation_Thiery.pptx/content"
+      },
+      "size": 129569873
+    }
+  ],
+  "id": 7629862,
+  "links": {
+    "access": "https://zenodo.org/api/records/7629862/access",
+    "access_grants": "https://zenodo.org/api/records/7629862/access/grants",
+    "access_links": "https://zenodo.org/api/records/7629862/access/links",
+    "access_request": "https://zenodo.org/api/records/7629862/access/request",
+    "access_users": "https://zenodo.org/api/records/7629862/access/users",
+    "archive": "https://zenodo.org/api/records/7629862/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7629862/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7629862/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7629862/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7629862",
+    "draft": "https://zenodo.org/api/records/7629862/draft",
+    "file_modification": "https://zenodo.org/api/records/7629862/file-modification",
+    "files": "https://zenodo.org/api/records/7629862/files",
+    "latest": "https://zenodo.org/api/records/7629862/versions/latest",
+    "latest_html": "https://zenodo.org/records/7629862/latest",
+    "media_files": "https://zenodo.org/api/records/7629862/media-files",
+    "parent": "https://zenodo.org/api/records/7629861",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7629861",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7629861",
+    "parent_html": "https://zenodo.org/records/7629861",
+    "preview_html": "https://zenodo.org/records/7629862?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7629862/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7629862/request-deletion",
+    "requests": "https://zenodo.org/api/records/7629862/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7629862/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7629862",
+    "self_doi": "https://doi.org/10.5281/zenodo.7629862",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7629862",
+    "self_html": "https://zenodo.org/records/7629862",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7629862/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7629862/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7629862:2023_JGU_Kleinfunddokumentation_Thiery.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7629862:2023_JGU_Kleinfunddokumentation_Thiery.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7629862:2023_JGU_Kleinfunddokumentation_Thiery.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7629862:2023_JGU_Kleinfunddokumentation_Thiery.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7629862:2023_JGU_Kleinfunddokumentation_Thiery.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7629862:2023_JGU_Kleinfunddokumentation_Thiery.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7629862/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<blockquote>\n<p>Vorlesungsfolien im Zusammenhang mit einer Gastvorlesung in&nbsp;07.012.897 P Kleinfunddokumentation und computergest&uuml;tzte Fotografie am Beispiel r&ouml;mischer Tonlampen von&nbsp;PD Dr. Matthias Grawehr im Wintersemester 2022/2023, Johannes Gutenberg Universit&auml;t Mainz Fachbereich 07 | Klassische Arch&auml;ologie.</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.7629862",
+    "journal": {
+      "issue": "3",
+      "pages": "No. 3",
+      "title": "Squirrel Papers",
+      "volume": "5"
+    },
+    "keywords": [
+      "Archäologie",
+      "FAIR",
+      "Dokumentation"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "07.012.897 P",
+      "dates": "07.02.2023",
+      "place": "Johannes Gutenberg Universität Mainz Fachbereich 07 | Klassische Archäologie",
+      "title": "Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen"
+    },
+    "publication_date": "2023-02-07",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7629861"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Kleinfund-Dokumentation mit der Hilfe von Semantik"
+  },
+  "modified": "2024-07-12T16:00:18.979462+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7629862",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Kleinfund-Dokumentation mit der Hilfe von Semantik",
+  "updated": "2024-07-12T16:00:18.979462+00:00"
+}

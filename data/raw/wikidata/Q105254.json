@@ -1,0 +1,20 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Sportverein aus Mainz, Rheinland-Pfalz",
+    "en": "Bundesliga football club in Germany"
+  },
+  "id": "Q105254",
+  "instance_of": [
+    "Q163740",
+    "Q476028",
+    "Q641347",
+    "Q847017"
+  ],
+  "labels": {
+    "de": "1. FSV Mainz 05",
+    "en": "1. FSV Mainz 05"
+  }
+}

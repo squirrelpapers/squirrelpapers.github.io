@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Forschungsdatenmanagement, Rheinisch-Westfälische Technische Hochschule Aachen",
+    "en": "research data management, RWTH Aachen University"
+  },
+  "id": "Q113588522",
+  "instance_of": [
+    "Q679206"
+  ],
+  "labels": {
+    "de": "Team Forschungsdatenmanagement",
+    "en": "Team Forschungsdatenmanagement"
+  }
+}

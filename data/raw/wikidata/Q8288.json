@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 52.498418,
+    "lon": 13.381449
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "deutsche Sektion der Wikimedia Foundation",
+    "en": "Wikimedia chapter in Germany"
+  },
+  "id": "Q8288",
+  "instance_of": [
+    "Q113805953",
+    "Q15924535",
+    "Q163740",
+    "Q79913"
+  ],
+  "labels": {
+    "de": "Wikimedia Deutschland",
+    "en": "Wikimedia Germany"
+  }
+}

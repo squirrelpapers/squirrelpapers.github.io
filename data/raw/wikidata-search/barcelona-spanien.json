@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Barcelona [de]": [
+      {
+        "description": "city in Catalonia, Spain",
+        "id": "Q1492",
+        "label": "Barcelona"
+      },
+      {
+        "description": "Parliament of Catalonia constituency",
+        "id": "Q28496610",
+        "label": "Barcelona"
+      },
+      {
+        "description": "football club in Barcelona, Catalonia, Spain",
+        "id": "Q7156",
+        "label": "FC Barcelona"
+      },
+      {
+        "description": "municipality of the Philippines in the province of Sorsogon",
+        "id": "Q174114",
+        "label": "Barcelona"
+      },
+      {
+        "description": "Games of the XXV Olympiad in Barcelona, Catalonia, Spain",
+        "id": "Q8488",
+        "label": "1992 Summer Olympics"
+      }
+    ],
+    "Barcelona [en]": [
+      {
+        "description": "city in Catalonia, Spain",
+        "id": "Q1492",
+        "label": "Barcelona"
+      },
+      {
+        "description": "football club in Barcelona, Catalonia, Spain",
+        "id": "Q7156",
+        "label": "FC Barcelona"
+      },
+      {
+        "description": "municipality of the Philippines in the province of Sorsogon",
+        "id": "Q174114",
+        "label": "Barcelona"
+      },
+      {
+        "description": "album by Freddie Mercury",
+        "id": "Q279991",
+        "label": "Barcelona"
+      },
+      {
+        "description": "public university in Barcelona, Spain",
+        "id": "Q1640731",
+        "label": "Polytechnic University of Catalonia"
+      }
+    ]
+  },
+  "label": "Barcelona, Spanien"
+}

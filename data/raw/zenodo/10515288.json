@@ -1,0 +1,148 @@
+{
+  "conceptdoi": "10.5281/zenodo.10515288",
+  "conceptrecid": "10515288",
+  "created": "2024-01-15T19:54:56.763965+00:00",
+  "doi": "10.5281/zenodo.10515289",
+  "doi_url": "https://doi.org/10.5281/zenodo.10515289",
+  "files": [
+    {
+      "checksum": "md5:b4bc9e8f8878a2447b6119d274dac726",
+      "id": "fd602538-51e1-4875-bef4-c16a154e0aa8",
+      "key": "EAA_2024_Rome_Session_797.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/10515289/files/EAA_2024_Rome_Session_797.pdf/content"
+      },
+      "size": 115184
+    }
+  ],
+  "id": 10515289,
+  "links": {
+    "access": "https://zenodo.org/api/records/10515289/access",
+    "access_grants": "https://zenodo.org/api/records/10515289/access/grants",
+    "access_links": "https://zenodo.org/api/records/10515289/access/links",
+    "access_request": "https://zenodo.org/api/records/10515289/access/request",
+    "access_users": "https://zenodo.org/api/records/10515289/access/users",
+    "archive": "https://zenodo.org/api/records/10515289/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10515289/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10515289/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10515289/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10515289",
+    "draft": "https://zenodo.org/api/records/10515289/draft",
+    "file_modification": "https://zenodo.org/api/records/10515289/file-modification",
+    "files": "https://zenodo.org/api/records/10515289/files",
+    "latest": "https://zenodo.org/api/records/10515289/versions/latest",
+    "latest_html": "https://zenodo.org/records/10515289/latest",
+    "media_files": "https://zenodo.org/api/records/10515289/media-files",
+    "parent": "https://zenodo.org/api/records/10515288",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10515288",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10515288",
+    "parent_html": "https://zenodo.org/records/10515288",
+    "preview_html": "https://zenodo.org/records/10515289?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10515289/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10515289/request-deletion",
+    "requests": "https://zenodo.org/api/records/10515289/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10515289/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10515289",
+    "self_doi": "https://doi.org/10.5281/zenodo.10515289",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10515289",
+    "self_html": "https://zenodo.org/records/10515289",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10515289/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10515289/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:10515289:EAA_2024_Rome_Session_797.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:10515289:EAA_2024_Rome_Session_797.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:10515289:EAA_2024_Rome_Session_797.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:10515289:EAA_2024_Rome_Session_797.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:10515289:EAA_2024_Rome_Session_797.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:10515289:EAA_2024_Rome_Session_797.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/10515289/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "State Office for Heritage Management Baden-Württemberg",
+        "name": "Hollaender, Julian",
+        "orcid": "0000-0001-7933-3518"
+      },
+      {
+        "affiliation": "Universidad Complutense de Madrid",
+        "name": "Dilena Quintana, Miguel Angel"
+      },
+      {
+        "affiliation": "Arkeologerna",
+        "name": "Skole, John"
+      },
+      {
+        "affiliation": "Institute of Classics / University of Graz",
+        "name": "Papazoi, Elli"
+      },
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Over the last 15 years, digital methods have been well-established in all documentary stages of archaeological research. As is known, each excavation develops integrally in a three-dimensional setting, hence the relevance of digitally gathering each component of the whole volumetric information. This includes the 3D capturing and modelling of excavation sites and recovered artefacts or structures that emerge via different approaches like Light Detection and Ranging (LiDaR), 3D (laser), programmatically combined procedures, scanning or photogrammetrical techniques, e.g. Structure from Motion (SfM).</p>\n<p>However, much of that spatial data is lost through the misapplication of documentation practices, the informatic guidelines and a missing Research Data Management (RDM). Crucial discussions around consistency and reproducibility in diverse software environments regarding these 3D methodologies, or their respective capacity for long-term storage and findability, accessibility, interoperability, and reusability (FAIR) faculties are ignored or left aside. In addition, the metadata modelling for these processes is still in its very early stages. Therefore, these discrepancies can impede different teams from comparing and disseminating the computerised results.</p>\n<p>For this purpose, collaborative efforts, both in creating common documentation standards, free open source software (FOSS) and FAIRification tools and developing future-proof archiving instances have been made by various worldwide initiatives. However, they require a decidedly global perspective and acceptance.</p>\n<p>We aim to bring together archaeologists and researchers concerned with the above-stated issues and work with all archaeological periods and digital technologies. We encourage them to present their views on this matter to debate about standardised methodologies capable of capturing, generating, archiving and disseminating archaeological 3D digital information.</p>",
+    "doi": "10.5281/zenodo.10515289",
+    "journal": {
+      "issue": "4",
+      "pages": "#4",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "28 - 31 August 2024",
+      "place": "Rome, Italy",
+      "session": "797",
+      "title": "30th EAA Annual Meeting",
+      "url": "https://www.e-a-a.org/eaa2024"
+    },
+    "publication_date": "2024-01-01",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10515288"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferenceproceeding",
+      "title": "Conference proceeding",
+      "type": "publication"
+    },
+    "title": "Best Practices on Archaeological 3D Data Management: Methods and Approaches to Capture, Generate, and Disseminate 3D Information in Archaeology"
+  },
+  "modified": "2024-07-07T12:16:53.399643+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "10515289",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Best Practices on Archaeological 3D Data Management: Methods and Approaches to Capture, Generate, and Disseminate 3D Information in Archaeology",
+  "updated": "2024-07-07T12:16:53.399643+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "answers": {
+    "Johannes Gutenberg Universität Mainz [de]": [
+      {
+        "description": "public university in Mainz, Germany",
+        "id": "Q161982",
+        "label": "Johannes Gutenberg University Mainz"
+      },
+      {
+        "description": "research data management, Johannes Gutenberg University Mainz",
+        "id": "Q113861354",
+        "label": "Kompetenzteam Forschungsdaten"
+      },
+      {
+        "description": "research institute",
+        "id": "Q101266358",
+        "label": "Institute of Physics, Johannes Gutenberg-University Mainz"
+      },
+      {
+        "description": "research institute",
+        "id": "Q101266337",
+        "label": "Johannes-Gutenberg Universität Mainz Institut für Medizinische Biometrie Epidemiologie und Informatik"
+      },
+      {
+        "description": "research institute",
+        "id": "Q101266291",
+        "label": "Johannes Gutenberg-Universität Mainz Institut für Geowissenschaften"
+      }
+    ],
+    "Johannes Gutenberg Universität Mainz [en]": [
+      {
+        "description": "public university in Mainz, Germany",
+        "id": "Q161982",
+        "label": "Johannes Gutenberg University Mainz"
+      },
+      {
+        "description": "research data management, Johannes Gutenberg University Mainz",
+        "id": "Q113861354",
+        "label": "Kompetenzteam Forschungsdaten"
+      },
+      {
+        "description": "research institute",
+        "id": "Q101266358",
+        "label": "Institute of Physics, Johannes Gutenberg-University Mainz"
+      },
+      {
+        "description": "research institute",
+        "id": "Q101266337",
+        "label": "Johannes-Gutenberg Universität Mainz Institut für Medizinische Biometrie Epidemiologie und Informatik"
+      },
+      {
+        "description": "research institute",
+        "id": "Q101266291",
+        "label": "Johannes Gutenberg-Universität Mainz Institut für Geowissenschaften"
+      }
+    ],
+    "Klassische Archäologie [de]": [
+      {
+        "description": "archaeological investigation of the Mediterranean civilizations of Ancient Greece and Ancient Rome",
+        "id": "Q1669589",
+        "label": "classical archaeology"
+      }
+    ],
+    "Klassische Archäologie [en]": [
+      {
+        "description": "archaeological investigation of the Mediterranean civilizations of Ancient Greece and Ancient Rome",
+        "id": "Q1669589",
+        "label": "classical archaeology"
+      }
+    ]
+  },
+  "label": "Johannes Gutenberg Universität Mainz, Fachbereich 07, Klassische Archäologie"
+}

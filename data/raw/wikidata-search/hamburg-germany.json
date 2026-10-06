@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Hamburg [de]": [
+      {
+        "description": "city and state in the North of Germany",
+        "id": "Q1055",
+        "label": "Hamburg"
+      },
+      {
+        "description": "German sports club based in Hamburg, with its largest branch being its football department",
+        "id": "Q51974",
+        "label": "Hamburger SV"
+      },
+      {
+        "description": "district of Hamburg, Germany",
+        "id": "Q1626",
+        "label": "Hamburg-Mitte"
+      },
+      {
+        "description": "reference work with 8 volumes",
+        "id": "Q1573212",
+        "label": "Hamburg Biographies"
+      },
+      {
+        "description": "university in Hamburg, Germany",
+        "id": "Q156725",
+        "label": "University of Hamburg"
+      }
+    ],
+    "Hamburg [en]": [
+      {
+        "description": "German sports club based in Hamburg, with its largest branch being its football department",
+        "id": "Q51974",
+        "label": "Hamburger SV"
+      },
+      {
+        "description": "city and state in the North of Germany",
+        "id": "Q1055",
+        "label": "Hamburg"
+      },
+      {
+        "description": "family name",
+        "id": "Q16870461",
+        "label": "Hamburg"
+      },
+      {
+        "description": "district of Hamburg, Germany",
+        "id": "Q1626",
+        "label": "Hamburg-Mitte"
+      },
+      {
+        "description": "1960 Hamburg-class destroyer",
+        "id": "Q1572860",
+        "label": "Hamburg"
+      }
+    ]
+  },
+  "label": "Hamburg, Germany"
+}

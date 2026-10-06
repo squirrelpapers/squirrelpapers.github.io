@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 50.061389,
+    "lon": 19.938333
+  },
+  "country": [
+    "Q36"
+  ],
+  "descriptions": {
+    "de": "Powiat in der polnischen Woiwodschaft Kleinpolen mit der Kreisstadt Krakau",
+    "en": "powiat of Poland"
+  },
+  "id": "Q1164890",
+  "instance_of": [
+    "Q247073"
+  ],
+  "labels": {
+    "de": "Powiat Krakowski",
+    "en": "Kraków County"
+  }
+}

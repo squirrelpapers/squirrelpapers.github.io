@@ -1,0 +1,129 @@
+{
+  "conceptdoi": "10.5281/zenodo.2540709",
+  "conceptrecid": "2540709",
+  "created": "2024-04-25T07:18:33.831935+00:00",
+  "doi": "10.5281/zenodo.11064526",
+  "doi_url": "https://doi.org/10.5281/zenodo.11064526",
+  "files": [
+    {
+      "checksum": "md5:c28f891902281bf1001ee1e8f6e7dc41",
+      "id": "c2724962-8468-41ac-85c8-33fd56b4fd32",
+      "key": "leiza-rse/alligator-v1.1.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/11064526/files/leiza-rse/alligator-v1.1.zip/content"
+      },
+      "size": 1269675
+    }
+  ],
+  "id": 11064526,
+  "links": {
+    "access": "https://zenodo.org/api/records/11064526/access",
+    "access_grants": "https://zenodo.org/api/records/11064526/access/grants",
+    "access_links": "https://zenodo.org/api/records/11064526/access/links",
+    "access_request": "https://zenodo.org/api/records/11064526/access/request",
+    "access_users": "https://zenodo.org/api/records/11064526/access/users",
+    "archive": "https://zenodo.org/api/records/11064526/files-archive",
+    "archive_media": "https://zenodo.org/api/records/11064526/media-files-archive",
+    "communities": "https://zenodo.org/api/records/11064526/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/11064526/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.11064526",
+    "draft": "https://zenodo.org/api/records/11064526/draft",
+    "file_modification": "https://zenodo.org/api/records/11064526/file-modification",
+    "files": "https://zenodo.org/api/records/11064526/files",
+    "latest": "https://zenodo.org/api/records/11064526/versions/latest",
+    "latest_html": "https://zenodo.org/records/11064526/latest",
+    "media_files": "https://zenodo.org/api/records/11064526/media-files",
+    "parent": "https://zenodo.org/api/records/2540709",
+    "parent_doi": "https://doi.org/10.5281/zenodo.2540709",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2540709",
+    "parent_html": "https://zenodo.org/records/2540709",
+    "preview_html": "https://zenodo.org/records/11064526?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/11064526/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/11064526/request-deletion",
+    "requests": "https://zenodo.org/api/records/11064526/requests",
+    "reserve_doi": "https://zenodo.org/api/records/11064526/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/11064526",
+    "self_doi": "https://doi.org/10.5281/zenodo.11064526",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11064526",
+    "self_html": "https://zenodo.org/records/11064526",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:11064526/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:11064526/sequence/default",
+    "versions": "https://zenodo.org/api/records/11064526/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": null,
+        "name": "Allard W., Mees",
+        "orcid": "0000-0002-7634-5342"
+      },
+      {
+        "affiliation": null,
+        "name": "alligator - Allen Transformer"
+      }
+    ],
+    "description": "API of the Alligator Allen Transformer",
+    "doi": "10.5281/zenodo.11064526",
+    "keywords": [
+      "Linked Open Data",
+      "Allen Interval Algebra",
+      "Relative Chronology"
+    ],
+    "license": {
+      "id": "mit-license"
+    },
+    "notes": "If you use this software, please cite it using the metadata from this file.",
+    "publication_date": "2024-04-25",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/leiza-rse/alligator/tree/v1.1",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "2540709"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "alligator - Allen Transformer",
+    "version": "v1.1"
+  },
+  "modified": "2024-04-25T07:18:33.983633+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "11064526",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "alligator - Allen Transformer",
+  "updated": "2024-04-25T07:18:33.983633+00:00"
+}

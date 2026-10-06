@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 34.496944,
+    "lon": -91.550833
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Stadt im US-Bundesstaat Arkansas",
+    "en": "city in Arkansas, United States"
+  },
+  "id": "Q79844",
+  "instance_of": [
+    "Q1093829"
+  ],
+  "labels": {
+    "de": "Stuttgart",
+    "en": "Stuttgart"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "conceptdoi": "10.5281/zenodo.18441772",
+  "conceptrecid": "18441772",
+  "created": "2026-02-01T10:57:24.282008+00:00",
+  "doi": "10.5281/zenodo.18441773",
+  "doi_url": "https://doi.org/10.5281/zenodo.18441773",
+  "files": [
+    {
+      "checksum": "md5:4860fbe6ef0fec79c481066715709fa9",
+      "id": "ec0eabd1-6e10-45a4-84a1-4a078613d7be",
+      "key": "SqP_8_1__4_FDO_Reference_Implementation.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/18441773/files/SqP_8_1__4_FDO_Reference_Implementation.pdf/content"
+      },
+      "size": 1206591
+    }
+  ],
+  "id": 18441773,
+  "links": {
+    "access": "https://zenodo.org/api/records/18441773/access",
+    "access_grants": "https://zenodo.org/api/records/18441773/access/grants",
+    "access_links": "https://zenodo.org/api/records/18441773/access/links",
+    "access_request": "https://zenodo.org/api/records/18441773/access/request",
+    "access_users": "https://zenodo.org/api/records/18441773/access/users",
+    "archive": "https://zenodo.org/api/records/18441773/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18441773/media-files-archive",
+    "communities": "https://zenodo.org/api/records/18441773/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18441773/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.18441773",
+    "draft": "https://zenodo.org/api/records/18441773/draft",
+    "file_modification": "https://zenodo.org/api/records/18441773/file-modification",
+    "files": "https://zenodo.org/api/records/18441773/files",
+    "latest": "https://zenodo.org/api/records/18441773/versions/latest",
+    "latest_html": "https://zenodo.org/records/18441773/latest",
+    "media_files": "https://zenodo.org/api/records/18441773/media-files",
+    "parent": "https://zenodo.org/api/records/18441772",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18441772",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18441772",
+    "parent_html": "https://zenodo.org/records/18441772",
+    "preview_html": "https://zenodo.org/records/18441773?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/18441773/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/18441773/request-deletion",
+    "requests": "https://zenodo.org/api/records/18441773/requests",
+    "reserve_doi": "https://zenodo.org/api/records/18441773/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/18441773",
+    "self_doi": "https://doi.org/10.5281/zenodo.18441773",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18441773",
+    "self_html": "https://zenodo.org/records/18441773",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18441773/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18441773/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:18441773:SqP_8_1__4_FDO_Reference_Implementation.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:18441773:SqP_8_1__4_FDO_Reference_Implementation.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:18441773:SqP_8_1__4_FDO_Reference_Implementation.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:18441773:SqP_8_1__4_FDO_Reference_Implementation.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:18441773:SqP_8_1__4_FDO_Reference_Implementation.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:18441773:SqP_8_1__4_FDO_Reference_Implementation.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/18441773/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "n4o-cc-rse"
+      },
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrel-fdo"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/Research-Squirrel-Engineers/fdo-squirrel",
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      },
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ]
+    },
+    "description": "<blockquote>\n<p>The Federated Knowledge Graph Ecosystem enables interoperable, distributed access to research knowledge by connecting RDF triplestores, community-curated knowledge bases, and shared semantic standards. However, many research outputs of high practical relevance&mdash;such as software, analytical workflows, images, or 3D data&mdash;remain difficult to integrate into such ecosystems, as they are typically distributed as binary artefacts outside the RDF world.</p>\n<p>FAIR Digital Objects (FDOs) address this gap by encapsulating digital artefacts together with metadata and identifiers in a machine-actionable form, but concrete, executable reference implementations remain scarce. This paper presents a minimal, standards-based method and software reference implementation that operationalises core FDO concepts using lightweight metadata packaging and semantic crosswalks. Starting from a self-contained ZIP archive containing binary content together with&nbsp;<em>CITATION.cff </em>and <em>MD.cff</em> metadata, the approach generates an RDF representation that exposes object structure, file-level distributions, and provenance information.</p>\n<p>The resulting RDF output can be ingested into triplestores and queried via SPARQL, enabling binary research artefacts to participate as first-class entities in Federated Knowledge Graph Ecosystems. The implementation is intentionally scoped as a pragmatic entry point, demonstrating how FAIR Digital Objects can be made actionable using existing standards and tooling.</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.18441773",
+    "journal": {
+      "issue": "1",
+      "pages": "§4",
+      "title": "Squirrel Papers",
+      "volume": "8"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2026-01-31",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "18441772"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "workingpaper",
+      "title": "Working paper",
+      "type": "publication"
+    },
+    "title": "From Packaged Research Artefacts to RDF: A Reference Implementation for FAIR Digital Objects into the Federated Knowledge Graph Ecosystem"
+  },
+  "modified": "2026-02-01T11:02:32.828584+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "18441773",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "From Packaged Research Artefacts to RDF: A Reference Implementation for FAIR Digital Objects into the Federated Knowledge Graph Ecosystem",
+  "updated": "2026-02-01T11:02:32.828584+00:00"
+}

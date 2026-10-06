@@ -173,6 +173,10 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Leere Issues („TBD") | Bleiben im YAML mit `entries: []` | Vorschlag |
 | `creators` und `types` nach der Migration | Wie in der Quelle geschrieben (`F. Thiery`, `Florian Thiery`, Slugs der Handlabel); Vereinheitlichung erst in S4 über ORCID/Zenodo bzw. SKOS | 2026-10-06 |
 | Erneute Migration | `migrate` verweigert, sobald `content/vol*.yaml` existiert; bewusst neu nur mit `set SQP_FORCE=1`. Bereits eingetragene QIDs in `places.yaml` bleiben erhalten | 2026-10-06 |
+| Zenodo-Cache | Antwort von `/api/records/<id>` unverändert bis auf den Block `stats` (Views/Downloads), der bei jedem Abruf anders ist; Nicht-200-Antworten in `data/raw/zenodo/_status.json`; vorhandene Records werden nur mit `SQP_REFRESH=1` neu geholt | 2026-10-06 |
+| Wikidata-Cache | Je QID gekürzt auf Labels/Beschreibungen (en, de), P625, P17, P31; Abruf gebündelt über `wbgetentities` | 2026-10-06 |
+| QID-Vorschläge für Orte | Harvest sucht für Orte ohne QID per `wbsearchentities` (Venue zuerst, dann Stadt, Akronym; en und de), schreibt **nicht** in `content/`, sondern `dist/reports/places.proposed.yaml` mit bestem Kandidaten und Alternativen als Kommentar; Flo prüft und kopiert | 2026-10-06 |
+| Titelprüfung | Harvest vergleicht jeden Eintrag mit dem Zenodo-Titel seiner DOI (Ähnlichkeit < 0,6 → Bericht); damit lassen sich die doppelten DOIs aus S2 auflösen | 2026-10-06 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -219,7 +223,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S0 | Festlegungen: IRI, Sigel, Sprachen, Typen, Primer | — | — | erledigt 2026-10-06 |
 | S1 | Skelett: `main.py`, `sqp_utils.py`, Lizenz, Citation, Stil-Grundlage | dieses | S0 | erledigt 2026-10-06 |
 | S2 | Migration Markdown + `pub` → `content/*.yaml`, Prüfbericht | dieses | S1 | erledigt 2026-10-06 |
-| S3 | Harvest: Zenodo-Records, Wikidata-Orte/QIDs → `data/raw/` | dieses (läuft bei Flo) | S2 | offen |
+| S3 | Harvest: Zenodo-Records, Wikidata-Orte/QIDs → `data/raw/` | dieses (läuft bei Flo) | S2 | Code erledigt 2026-10-06, Lauf bei Flo offen |
 | S4 | Merge + Normalisierung → `data/derived/entries.json`, SKOS-Typen | dieses | S2, S3 | offen |
 | S5 | Seiten EN/DE: Journal, Volume, Issue, Entry, About, Impressum, Datenschutz; PDF-iframe | dieses | S4 | offen |
 | S6 | Zitation: CSL-JSON, citeproc-js + Stilwahl, BibTeX/RIS je Ebene | dieses | S4 | offen |
@@ -412,6 +416,28 @@ Label, Koordinaten, Land) unter `data/raw/wikidata/<QID>.json`.
 
 **Abnahme:** Bericht `dist/reports/harvest.md` mit Treffern, 404ern und
 Records ohne PDF.
+
+### Erledigt 2026-10-06 (Code; der Lauf steht bei Flo aus)
+
+`py/step_harvest.py`: Zenodo-Records, Wikidata-Entitäten für Orte mit QID
+und deren Länder, Wikidata-Suche für Orte ohne QID, Bericht aus dem Cache
+(`python py/step_harvest.py --report` baut ihn offline neu). Höflich:
+1 s zwischen Zenodo-Abrufen (Gastlimit 60/min), Wiederholung bei 429/5xx mit
+`Retry-After`, eigener User-Agent mit Repo-URL. Bei 212 Records dauert der
+erste Lauf etwa 4–5 Minuten.
+
+**Geprüft gegen nachgebaute APIs** (lokaler Testserver, nicht im Repo; Zenodo
+und Wikidata sind aus der Sandbox gesperrt, Befund 8): 212 Records, ein 404,
+ein 429 mit erfolgreicher Wiederholung, eine Concept-DOI-Weiterleitung, ein
+Record ohne PDF, eine fehlende QID, ein absichtlich falscher Titel bei der
+doppelten DOI 8(1) §1/§4 — alles landete richtig im Bericht. Zweiter Lauf:
+0 Zenodo-Abrufe, `data/raw/` und Berichte byte-gleich. Die echten Antworten
+sind damit **nicht** geprüft: die Feldnamen des Zenodo-JSON (`metadata.title`,
+`files[].key`) sind aus der API-Doku, nicht aus einer echten Antwort.
+
+**Nach Flos Lauf zu prüfen (zu Beginn von S4):** ob `files` als Liste oder als
+`{"entries": …}` kommt (beides wird gelesen), wie viele Records ohne PDF sind,
+was die Titelprüfung zu den drei doppelten DOIs sagt.
 
 ## S4 — Merge und Normalisierung
 

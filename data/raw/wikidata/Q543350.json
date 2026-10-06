@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 53.1436,
+    "lon": 8.2225
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Bahnhof in Niedersachsen",
+    "en": "railway station in Oldenburg, Germany"
+  },
+  "id": "Q543350",
+  "instance_of": [
+    "Q1147171",
+    "Q18543139",
+    "Q27996466",
+    "Q55490"
+  ],
+  "labels": {
+    "de": "Oldenburg (Oldenburg) Hauptbahnhof",
+    "en": "Oldenburg Central Station"
+  }
+}

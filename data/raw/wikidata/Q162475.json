@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 52,
+    "lon": -8.75
+  },
+  "country": [
+    "Q27"
+  ],
+  "descriptions": {
+    "de": "Grafschaft der Republik Irland",
+    "en": "county in Ireland"
+  },
+  "id": "Q162475",
+  "instance_of": [
+    "Q179872"
+  ],
+  "labels": {
+    "de": "County Cork",
+    "en": "County Cork"
+  }
+}

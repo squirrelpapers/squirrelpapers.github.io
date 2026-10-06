@@ -1,0 +1,151 @@
+{
+  "conceptdoi": "10.5281/zenodo.5642976",
+  "conceptrecid": "5642976",
+  "created": "2021-11-03T11:40:20.507282+00:00",
+  "doi": "10.5281/zenodo.5642977",
+  "doi_url": "https://doi.org/10.5281/zenodo.5642977",
+  "files": [
+    {
+      "checksum": "md5:0b893a69554b521a83e336b707b28f40",
+      "id": "0726d589-a1aa-4f3b-979b-68d1a702d5ac",
+      "key": "ARS3D - How to create a Feature.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/5642977/files/ARS3D%20-%20How%20to%20create%20a%20Feature.pdf/content"
+      },
+      "size": 15366827
+    }
+  ],
+  "id": 5642977,
+  "links": {
+    "access": "https://zenodo.org/api/records/5642977/access",
+    "access_grants": "https://zenodo.org/api/records/5642977/access/grants",
+    "access_links": "https://zenodo.org/api/records/5642977/access/links",
+    "access_request": "https://zenodo.org/api/records/5642977/access/request",
+    "access_users": "https://zenodo.org/api/records/5642977/access/users",
+    "archive": "https://zenodo.org/api/records/5642977/files-archive",
+    "archive_media": "https://zenodo.org/api/records/5642977/media-files-archive",
+    "communities": "https://zenodo.org/api/records/5642977/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/5642977/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.5642977",
+    "draft": "https://zenodo.org/api/records/5642977/draft",
+    "file_modification": "https://zenodo.org/api/records/5642977/file-modification",
+    "files": "https://zenodo.org/api/records/5642977/files",
+    "latest": "https://zenodo.org/api/records/5642977/versions/latest",
+    "latest_html": "https://zenodo.org/records/5642977/latest",
+    "media_files": "https://zenodo.org/api/records/5642977/media-files",
+    "parent": "https://zenodo.org/api/records/5642976",
+    "parent_doi": "https://doi.org/10.5281/zenodo.5642976",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5642976",
+    "parent_html": "https://zenodo.org/records/5642976",
+    "preview_html": "https://zenodo.org/records/5642977?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/5642977/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/5642977/request-deletion",
+    "requests": "https://zenodo.org/api/records/5642977/requests",
+    "reserve_doi": "https://zenodo.org/api/records/5642977/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/5642977",
+    "self_doi": "https://doi.org/10.5281/zenodo.5642977",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5642977",
+    "self_html": "https://zenodo.org/records/5642977",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:5642977/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:5642977/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:5642977:ARS3D%20-%20How%20to%20create%20a%20Feature.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:5642977:ARS3D%20-%20How%20to%20create%20a%20Feature.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:5642977:ARS3D%20-%20How%20to%20create%20a%20Feature.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:5642977:ARS3D%20-%20How%20to%20create%20a%20Feature.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:5642977:ARS3D%20-%20How%20to%20create%20a%20Feature.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:5642977:ARS3D%20-%20How%20to%20create%20a%20Feature.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/5642977/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "ars3d"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Louise Rokohl",
+        "orcid": "0000-0003-1631-9115"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Anke Dingler"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Samantha Beck"
+      }
+    ],
+    "description": "<p>Characteristic of the North African bowls, plates, and jugs are their pictorial decorations applied mainly by appliqu&eacute;s and stamps. As mass-produced image carriers and everyday objects, the ARS spread throughout the empire.</p>\n\n<p>The range of motifs includes mythological scenes as well as scenes from the Old and New Testament, circus, arena and hunting scenes as well as fish and plant motifs. The appliqu&eacute;s-decorated pottery thus provides insights into Late Antique imagination and its changes, as well as into the economic history of the period between the 3rd and 5th centuries AD in North Africa.</p>\n\n<p>Previous documentation methods were not able to capture the objects and their decoration in an adequate way. The digital recording of the RGZM&#39;s collections by 3D scans allows to compare potentially identical appliqu&eacute;s and to assign them to their negative forms and the corresponding stamps.</p>\n\n<p>Whereas vessel curvature previously falsified the assignment of appliqu&eacute;s and models, 3D analysis and visualisation tools now allow a comparison . Metadata created for each object increases the effectiveness and accuracy of determining image context and content. Issues related to the production of the ARS and the process flows within the workshops can be investigated through the analysis of the 3D data.</p>\n\n<p>The developed ontology uses CIDOC CRM and various extensions. The data mainly consists of objects (E24), on which e.g. applications (features, E25) can be found. These objects can be described semantically, e.g. by the shape or time epoch. Features are described with observations, e.g. a human type man standing and wearing a beard. These observations lead to interpretations whose arguments can be observations.</p>",
+    "doi": "10.5281/zenodo.5642977",
+    "journal": {
+      "issue": "1",
+      "pages": "No. 4",
+      "title": "Squirrel Papers",
+      "volume": "3"
+    },
+    "keywords": [
+      "African Red Slip Ware"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2021-11-01",
+    "related_identifiers": [
+      {
+        "identifier": "10.17605/OSF.IO/5JHA8",
+        "relation": "documents",
+        "resource_type": "publication-workingpaper",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "5642976"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "workingpaper",
+      "title": "Working paper",
+      "type": "publication"
+    },
+    "title": "African Red Slip Ware Digital (ARS3D) - How to create a Feature?"
+  },
+  "modified": "2024-07-17T16:24:17.241970+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "5642977",
+  "revision": 7,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "African Red Slip Ware Digital (ARS3D) - How to create a Feature?",
+  "updated": "2024-07-17T16:24:17.241970+00:00"
+}

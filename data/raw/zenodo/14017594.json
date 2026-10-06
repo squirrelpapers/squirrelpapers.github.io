@@ -1,0 +1,142 @@
+{
+  "conceptdoi": "10.5281/zenodo.14017594",
+  "conceptrecid": "14017594",
+  "created": "2024-11-14T18:04:35.118148+00:00",
+  "doi": "10.5281/zenodo.14017595",
+  "doi_url": "https://doi.org/10.5281/zenodo.14017595",
+  "files": [
+    {
+      "checksum": "md5:fad44f8a504a65938373a741cf872d45",
+      "id": "b0737650-2c91-4639-baef-d2f056fd8c4a",
+      "key": "12_UC4B2024_NFDI4Objects_Poster.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14017595/files/12_UC4B2024_NFDI4Objects_Poster.pdf/content"
+      },
+      "size": 2333188
+    }
+  ],
+  "id": 14017595,
+  "links": {
+    "access": "https://zenodo.org/api/records/14017595/access",
+    "access_grants": "https://zenodo.org/api/records/14017595/access/grants",
+    "access_links": "https://zenodo.org/api/records/14017595/access/links",
+    "access_request": "https://zenodo.org/api/records/14017595/access/request",
+    "access_users": "https://zenodo.org/api/records/14017595/access/users",
+    "archive": "https://zenodo.org/api/records/14017595/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14017595/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14017595/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14017595/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14017595",
+    "draft": "https://zenodo.org/api/records/14017595/draft",
+    "file_modification": "https://zenodo.org/api/records/14017595/file-modification",
+    "files": "https://zenodo.org/api/records/14017595/files",
+    "latest": "https://zenodo.org/api/records/14017595/versions/latest",
+    "latest_html": "https://zenodo.org/records/14017595/latest",
+    "media_files": "https://zenodo.org/api/records/14017595/media-files",
+    "parent": "https://zenodo.org/api/records/14017594",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14017594",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14017594",
+    "parent_html": "https://zenodo.org/records/14017594",
+    "preview_html": "https://zenodo.org/records/14017595?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14017595/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14017595/request-deletion",
+    "requests": "https://zenodo.org/api/records/14017595/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14017595/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14017595",
+    "self_doi": "https://doi.org/10.5281/zenodo.14017595",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14017595",
+    "self_html": "https://zenodo.org/records/14017595",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14017595/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14017595/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14017595:12_UC4B2024_NFDI4Objects_Poster.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14017595:12_UC4B2024_NFDI4Objects_Poster.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14017595:12_UC4B2024_NFDI4Objects_Poster.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14017595:12_UC4B2024_NFDI4Objects_Poster.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14017595:12_UC4B2024_NFDI4Objects_Poster.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14017595:12_UC4B2024_NFDI4Objects_Poster.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14017595/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "nfdi"
+      },
+      {
+        "id": "base4nfdi"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Deutsches Archäologisches Institut, Zentrale",
+        "name": "Fricke, Fabian",
+        "orcid": "0000-0003-3223-2079"
+      }
+    ],
+    "description": "<p>NFDI4Objects (N4O) represents a broad community dealing with material remains of human history from around 3 million years and involves numerous disciplines from the humanities, cultural studies and natural sciences with an archaeological and historical focus [1]. The objects examined include serially produced objects such as coins and organic remains such as wood, bones, or pollen. The objects and their relations are constantly changing, causing individual biographies. Therefore, the N4O central tasks include (a) comprehending representations of physical objects as research data, (b) relating them to individual contexts, (c) transforming them adequately into the digital space, and (d) curating them according to domain-specific requirements. Consequently, the NFDI4Objects Research Data Lifecycle goes along with the Object Biography. This leads to a paradigm derived from the FAIRification workflow: (i) capturing, (ii) semantic (meta) data modelling and qualifying, (iii) applying (scientific) analysis, (iv) sharing the data by visualisation and FAIRified publication, (v) interlinking and integrating data into knowledge graphs [2].</p>\n<p>Within the NFDI infrastructure and to apply the FAIR principles, research (meta)data must be shared, interlinked, and modelled in a common and community-accepted way. To implement this, N4O Fundamental Services (N4O FS) and N4O Community Services (N4O CS) will be provided. N4O FS are, e.g., DANTE, cocoda [3], BARTOC, the N4O Knowledge Graph [4], the FOSS N4O Management Hub [5], and the N4O Commons Inkubator [6]. N4O CS are FAIRification Tools and Services such as Alligator, Academic Meta Tool, re3dragon, SPARQLing Unicorn QGIS Plugin [7], archaeology.link, and Wikibase / Semantic Media Wiki / Triplestore infrastructures.</p>\n<p>N4O contains many terminologies [8], such as ontologies, authority files, and community-driven vocabularies, that must be published and indexed (via DANTE and BARTOC) and semantically aligned (via Cocoda [3]) to contribute to TS4NFDI. Building a Knowledge Graph Infrastructure within NFDI requires the establishment of consortia-driven Knowledge Graphs that make data interchangeable within the consortium itself. This is done in N4O by a N4O Minimal Metadata-Set (N4O MMDS) and its derived N4O Objects Ontology (N4O OO). The N4O MMDS comprises information that is absolutely necessary to describe object data on its way through the object life cycle (capture, qualify, analyse, share and interlink). Its content will be developed in close cooperation with the (humanities and cultural studies) MoU group in order to establish interoperability within these domains. The N4O minimal metadata set will be provided in a technical description (e.g. JSON). It will be transformed into various &lsquo;dialects&rsquo;, e.g. LIDO/XML, for the individual data exchange of heterogeneous systems. The N4O MMDS and the N4O OO as its RDF representation (based on CIDOC-CRM, schema.org, PROV-O, SKOS, BFO) map the object cycle, which is successively enriched with information through the task areas with the tasks of documenting, collecting, analysing and protecting. These structures are used because the data flow in the Knowledge Graph provides for LIDO/XML and RDF.</p>\n<p>This paper will showcase a selection of N4O Fundamental Services and N4O Community Services and explain how NFDI4Objects can contribute to TS4NFDI and KGI4NFDI.</p>\n<p><strong>References</strong></p>\n<p>[1] <a href=\"https://zenodo.org/doi/10.5281/zenodo.10409227\">https://zenodo.org/doi/10.5281/zenodo.10409227</a>&nbsp;</p>\n<p>[2] <a href=\"https://doi.org/10.52825/cordi.v1i.326\">https://doi.org/10.52825/cordi.v1i.326</a>&nbsp;</p>\n<p>[3] <a href=\"https://zenodo.org/doi/10.5281/zenodo.10820783\">https://zenodo.org/doi/10.5281/zenodo.10820783</a>&nbsp;</p>\n<p>[4] <a href=\"https://nfdi4objects.github.io/n4o-property-graph/\">https://nfdi4objects.github.io/n4o-property-graph/</a></p>\n<p>[5] <a href=\"https://zenodo.org/doi/10.5281/zenodo.10756823\">https://zenodo.org/doi/10.5281/zenodo.10756823</a></p>\n<p>[6] <a href=\"https://zenodo.org/doi/10.5281/zenodo.10973050\">https://zenodo.org/doi/10.5281/zenodo.10973050</a>&nbsp;</p>\n<p>[7] <a href=\"https://zenodo.org/doi/10.5281/zenodo.10774878\">https://zenodo.org/doi/10.5281/zenodo.10774878</a>&nbsp;</p>\n<p>[8] <a href=\"https://zenodo.org/doi/10.5281/zenodo.10906911\">https://zenodo.org/doi/10.5281/zenodo.10906911</a></p>",
+    "doi": "10.5281/zenodo.14017595",
+    "journal": {
+      "issue": "4",
+      "pages": "#21",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "UC4B2024",
+      "dates": "20-21 November 2024",
+      "place": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
+      "session": "Poster Minute Madness",
+      "title": "1st Base4NFDI User Conference (UC4B2024)",
+      "url": "https://events.gwdg.de/event/658/"
+    },
+    "publication_date": "2024-11-20",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14017594"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "NFDI4Objects and the Base4NFDI Services: An Overview"
+  },
+  "modified": "2024-11-14T18:04:35.368114+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14017595",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "NFDI4Objects and the Base4NFDI Services: An Overview",
+  "updated": "2024-11-14T18:04:35.368114+00:00"
+}

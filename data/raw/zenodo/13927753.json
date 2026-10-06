@@ -1,0 +1,145 @@
+{
+  "conceptdoi": "10.5281/zenodo.13927753",
+  "conceptrecid": "13927753",
+  "created": "2024-10-23T06:52:08.590919+00:00",
+  "doi": "10.5281/zenodo.13927754",
+  "doi_url": "https://doi.org/10.5281/zenodo.13927754",
+  "files": [
+    {
+      "checksum": "md5:9dfa743982279af002b6f0a34b274741",
+      "id": "c80c23c7-ea1c-4e1e-9f0f-5879c7dac4c4",
+      "key": "N4O_CM24_WorkshopIII_LOD.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13927754/files/N4O_CM24_WorkshopIII_LOD.pdf/content"
+      },
+      "size": 57654344
+    }
+  ],
+  "id": 13927754,
+  "links": {
+    "access": "https://zenodo.org/api/records/13927754/access",
+    "access_grants": "https://zenodo.org/api/records/13927754/access/grants",
+    "access_links": "https://zenodo.org/api/records/13927754/access/links",
+    "access_request": "https://zenodo.org/api/records/13927754/access/request",
+    "access_users": "https://zenodo.org/api/records/13927754/access/users",
+    "archive": "https://zenodo.org/api/records/13927754/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13927754/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13927754/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13927754/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13927754",
+    "draft": "https://zenodo.org/api/records/13927754/draft",
+    "file_modification": "https://zenodo.org/api/records/13927754/file-modification",
+    "files": "https://zenodo.org/api/records/13927754/files",
+    "latest": "https://zenodo.org/api/records/13927754/versions/latest",
+    "latest_html": "https://zenodo.org/records/13927754/latest",
+    "media_files": "https://zenodo.org/api/records/13927754/media-files",
+    "parent": "https://zenodo.org/api/records/13927753",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13927753",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13927753",
+    "parent_html": "https://zenodo.org/records/13927753",
+    "preview_html": "https://zenodo.org/records/13927754?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13927754/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13927754/request-deletion",
+    "requests": "https://zenodo.org/api/records/13927754/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13927754/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13927754",
+    "self_doi": "https://doi.org/10.5281/zenodo.13927754",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13927754",
+    "self_html": "https://zenodo.org/records/13927754",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13927754/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13927754/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13927754:N4O_CM24_WorkshopIII_LOD.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13927754:N4O_CM24_WorkshopIII_LOD.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13927754:N4O_CM24_WorkshopIII_LOD.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13927754:N4O_CM24_WorkshopIII_LOD.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13927754:N4O_CM24_WorkshopIII_LOD.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13927754:N4O_CM24_WorkshopIII_LOD.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13927754/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Goethe University Frankfurt",
+        "name": "Tolle, Karsten",
+        "orcid": "0000-0002-9953-7638"
+      },
+      {
+        "affiliation": "Kompetenzzentrum Denkmalwissenschaften und Denkmaltechnologien (KDWT)",
+        "name": "Arera-Rütenik, Tobias",
+        "orcid": "0000-0002-4703-9573"
+      }
+    ],
+    "description": "<p>Den Teilnehmenden soll die aktive Arbeit mit Linked Open Data n&auml;hergebracht werden. Ihnen werden digitale Werkzeuge (hier QGIS, Wikidata und Wikibase) vorgestellt und eine Einf&uuml;hrung darin gegeben. Im Mittelpunkt stehen die Modellierung von Daten in Wikibase-Instanzen und das dynamische Abfragen mit Hilfe von Open Source Tools, wie das SPARQLing Unicorn QGIS Plugin, bzw. online unter:&nbsp;<a href=\"http://nomisma.org/sparql/\" target=\"_blank\" rel=\"nofollow noopener\">http://nomisma.org/sparql/. </a>Einf&uuml;hrung in die einfache Erzeugung von RDF-Daten aus CSV-Dateien (z.B. durch die Nutzung von RDFier).</p>",
+    "doi": "10.5281/zenodo.13927754",
+    "journal": {
+      "issue": "4",
+      "pages": "#18",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CM2024",
+      "dates": "25-27 September 2024",
+      "place": "Leibniz-Zentrum für Archäologie Mainz",
+      "session": "Workshop",
+      "session_part": "Wednesday",
+      "title": "NFDI4Objects Community Meeting",
+      "url": "https://cfp.nfdi4objects.net/N4O-CM2024/schedule/"
+    },
+    "publication_date": "2024-09-25",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13927753"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferenceproceeding",
+      "title": "Conference proceeding",
+      "type": "publication"
+    },
+    "title": "Workshop III: Linked Open Data am Beispiel von RDF-Daten, Wikidata und Wikibase"
+  },
+  "modified": "2024-10-23T08:56:34.385527+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13927754",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Workshop III: Linked Open Data am Beispiel von RDF-Daten, Wikidata und Wikibase",
+  "updated": "2024-10-23T08:56:34.385527+00:00"
+}

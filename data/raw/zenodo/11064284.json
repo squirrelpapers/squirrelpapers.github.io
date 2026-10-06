@@ -1,0 +1,124 @@
+{
+  "conceptdoi": "10.5281/zenodo.11064282",
+  "conceptrecid": "11064282",
+  "created": "2024-04-25T07:09:51.778385+00:00",
+  "doi": "10.5281/zenodo.11064284",
+  "doi_url": "https://doi.org/10.5281/zenodo.11064284",
+  "files": [
+    {
+      "checksum": "md5:c1fbde619b94aa78ba8d654aa78df555",
+      "id": "34ecb2e2-f2aa-474f-9d3d-e595d06b0338",
+      "key": "leiza-rse/tiger-v1.0.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/11064284/files/leiza-rse/tiger-v1.0.zip/content"
+      },
+      "size": 1663574
+    }
+  ],
+  "id": 11064284,
+  "links": {
+    "access": "https://zenodo.org/api/records/11064284/access",
+    "access_grants": "https://zenodo.org/api/records/11064284/access/grants",
+    "access_links": "https://zenodo.org/api/records/11064284/access/links",
+    "access_request": "https://zenodo.org/api/records/11064284/access/request",
+    "access_users": "https://zenodo.org/api/records/11064284/access/users",
+    "archive": "https://zenodo.org/api/records/11064284/files-archive",
+    "archive_media": "https://zenodo.org/api/records/11064284/media-files-archive",
+    "communities": "https://zenodo.org/api/records/11064284/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/11064284/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.11064284",
+    "draft": "https://zenodo.org/api/records/11064284/draft",
+    "file_modification": "https://zenodo.org/api/records/11064284/file-modification",
+    "files": "https://zenodo.org/api/records/11064284/files",
+    "latest": "https://zenodo.org/api/records/11064284/versions/latest",
+    "latest_html": "https://zenodo.org/records/11064284/latest",
+    "media_files": "https://zenodo.org/api/records/11064284/media-files",
+    "parent": "https://zenodo.org/api/records/11064282",
+    "parent_doi": "https://doi.org/10.5281/zenodo.11064282",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11064282",
+    "parent_html": "https://zenodo.org/records/11064282",
+    "preview_html": "https://zenodo.org/records/11064284?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/11064284/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/11064284/request-deletion",
+    "requests": "https://zenodo.org/api/records/11064284/requests",
+    "reserve_doi": "https://zenodo.org/api/records/11064284/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/11064284",
+    "self_doi": "https://doi.org/10.5281/zenodo.11064284",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11064284",
+    "self_html": "https://zenodo.org/records/11064284",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:11064284/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:11064284/sequence/default",
+    "versions": "https://zenodo.org/api/records/11064284/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": null,
+        "name": "Allard W., Mees",
+        "orcid": "0000-0002-7634-5342"
+      },
+      {
+        "affiliation": null,
+        "name": "TiGeR - Time Geospatial RDF"
+      }
+    ],
+    "description": "TiGeR - Time Geospatial RDF",
+    "doi": "10.5281/zenodo.11064284",
+    "keywords": [
+      "Linked Open Data",
+      "Allen Interval Algebra",
+      "Relative Chronology"
+    ],
+    "license": {
+      "id": "mit-license"
+    },
+    "notes": "If you use this software, please cite it using the metadata from this file.",
+    "publication_date": "2024-04-25",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/leiza-rse/tiger/tree/v1.0",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "11064282"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "TiGeR - Time Geospatial RDF",
+    "version": "v1.0"
+  },
+  "modified": "2024-04-25T07:09:51.942933+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "11064284",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "TiGeR - Time Geospatial RDF",
+  "updated": "2024-04-25T07:09:51.942933+00:00"
+}

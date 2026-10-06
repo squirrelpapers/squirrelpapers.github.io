@@ -1,0 +1,153 @@
+{
+  "conceptdoi": "10.5281/zenodo.7361811",
+  "conceptrecid": "7361811",
+  "created": "2023-02-02T10:35:07.477988+00:00",
+  "doi": "10.5281/zenodo.7598649",
+  "doi_url": "https://doi.org/10.5281/zenodo.7598649",
+  "files": [
+    {
+      "checksum": "md5:9847d934fb3e1796dc3e613e9bfe9a07",
+      "id": "34c4e77f-6194-4312-bf7e-bd1ce5e810ff",
+      "key": "CAA2019_ARS3D_LOD.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7598649/files/CAA2019_ARS3D_LOD.pdf/content"
+      },
+      "size": 1660793
+    }
+  ],
+  "id": 7598649,
+  "links": {
+    "access": "https://zenodo.org/api/records/7598649/access",
+    "access_grants": "https://zenodo.org/api/records/7598649/access/grants",
+    "access_links": "https://zenodo.org/api/records/7598649/access/links",
+    "access_request": "https://zenodo.org/api/records/7598649/access/request",
+    "access_users": "https://zenodo.org/api/records/7598649/access/users",
+    "archive": "https://zenodo.org/api/records/7598649/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7598649/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7598649/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7598649/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7598649",
+    "draft": "https://zenodo.org/api/records/7598649/draft",
+    "file_modification": "https://zenodo.org/api/records/7598649/file-modification",
+    "files": "https://zenodo.org/api/records/7598649/files",
+    "latest": "https://zenodo.org/api/records/7598649/versions/latest",
+    "latest_html": "https://zenodo.org/records/7598649/latest",
+    "media_files": "https://zenodo.org/api/records/7598649/media-files",
+    "parent": "https://zenodo.org/api/records/7361811",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7361811",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7361811",
+    "parent_html": "https://zenodo.org/records/7361811",
+    "preview_html": "https://zenodo.org/records/7598649?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7598649/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7598649/request-deletion",
+    "requests": "https://zenodo.org/api/records/7598649/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7598649/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7598649",
+    "self_doi": "https://doi.org/10.5281/zenodo.7598649",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7598649",
+    "self_html": "https://zenodo.org/records/7598649",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7598649/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7598649/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7598649:CAA2019_ARS3D_LOD.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7598649:CAA2019_ARS3D_LOD.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7598649:CAA2019_ARS3D_LOD.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7598649:CAA2019_ARS3D_LOD.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7598649:CAA2019_ARS3D_LOD.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7598649:CAA2019_ARS3D_LOD.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7598649/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "ars3d"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "RGZM",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "i3mainz",
+        "name": "Ashish Karmacharya",
+        "orcid": "0000-0003-2822-7648"
+      },
+      {
+        "affiliation": "RGZM",
+        "name": "Louise Rokohl",
+        "orcid": "0000-0003-1631-9115"
+      }
+    ],
+    "description": "<blockquote>\n<p>This is a&nbsp;Preprint of an CAA 2019 Proceedings article which is still in review status.</p>\n</blockquote>\n\n<p>The African Red Slip Ware (ARS) is a central archaeological object type for the understanding of late antique world of ideas, their exchange and socio-economic history. The 3-year project ARS3D, funded by the German Federal Ministry of Education and Research (BMBF), started in February 2018 and aims to document, digitise and publish the relief-decorated ARS, located in the R&ouml;misch-Germanischen Zentralmuseum (RGZM). The ARS3D project will publish the facts and archaeological interpretations of these ARS objects. In this process the ARSs are 3D scanned and processed to create their 3D surrogates. These 3D models support archaeological interpretations which should be documented. Here we present our ontology that forms the structural fundament for the documentation and the underlying triplestore as data repository. The axioms are primarily based on CIDOC-CRM with few additions to fulfil our requirements. In addition, we included axioms to provide structure for storing meta- and para- information generated during the creation of 3D models. We have also included axioms from PROV-O, the W3C compliance ontology for structuring the provenance information of the 3D generation process. An interactive web application provides the graphical user interface of this ARS data repository. In this paper we consider data quality aspects for: 1) Provenance quality that affects the archaeological interpretations. 2) Archaeological factual quality on ARSs such as iconographical descriptions by bibliographic references and external resources, e.g. Icon Class to access the LOD cloud. 3) Identifying the provenance and storing chronological information.</p>",
+    "doi": "10.5281/zenodo.7598649",
+    "journal": {
+      "issue": "4",
+      "pages": "No. 1",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "KrakCAA",
+      "dates": "23.04.-27.04.2019",
+      "place": "Krakow, Poland",
+      "session": "S14",
+      "session_part": "3/4",
+      "title": "Computer Applications and Quantitative Methods in Archaeology",
+      "url": "https://2019.caaconference.org/"
+    },
+    "publication_date": "2022-11-25",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.2648210",
+        "relation": "isDerivedFrom",
+        "resource_type": "presentation",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7361811"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "preprint",
+      "title": "Preprint",
+      "type": "publication"
+    },
+    "title": "Semantic modelling and publishing African Red Slip Ware as Linked Data"
+  },
+  "modified": "2024-07-12T17:14:03.601499+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7598649",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Semantic modelling and publishing African Red Slip Ware as Linked Data",
+  "updated": "2024-07-12T17:14:03.601499+00:00"
+}

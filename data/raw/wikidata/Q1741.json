@@ -1,0 +1,42 @@
+{
+  "coordinates": {
+    "lat": 48.208333,
+    "lon": 16.3725
+  },
+  "country": [
+    "Q131964",
+    "Q153136",
+    "Q176495",
+    "Q268970",
+    "Q283627",
+    "Q28513",
+    "Q3624335",
+    "Q40",
+    "Q47261",
+    "Q518101",
+    "Q596239",
+    "Q699964",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Bundeshauptstadt und bevölkerungsreichste Stadt der Republik Österreich",
+    "en": "capital of and state in Austria"
+  },
+  "id": "Q1741",
+  "instance_of": [
+    "Q133442",
+    "Q13539802",
+    "Q171441",
+    "Q200250",
+    "Q257391",
+    "Q261543",
+    "Q262882",
+    "Q51929311",
+    "Q667509",
+    "Q871419"
+  ],
+  "labels": {
+    "de": "Wien",
+    "en": "Vienna"
+  }
+}

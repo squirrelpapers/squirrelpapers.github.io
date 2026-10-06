@@ -1,0 +1,61 @@
+{
+  "answers": {
+    "Jade-Hoschschule [de]": [],
+    "Jade-Hoschschule [en]": [],
+    "Oldenburg [de]": [
+      {
+        "description": "independent city in Lower Saxony, Germany",
+        "id": "Q2936",
+        "label": "Oldenburg"
+      },
+      {
+        "description": "family name",
+        "id": "Q16880703",
+        "label": "Oldenburg"
+      },
+      {
+        "description": "municipality of Schleswig-Holstein, Germany",
+        "id": "Q496435",
+        "label": "Oldenburg in Holstein"
+      },
+      {
+        "description": "historical federated state",
+        "id": "Q19831559",
+        "label": "Oldenburg"
+      },
+      {
+        "description": "railway station in Oldenburg, Germany",
+        "id": "Q543350",
+        "label": "Oldenburg Central Station"
+      }
+    ],
+    "Oldenburg [en]": [
+      {
+        "description": "family name",
+        "id": "Q16880703",
+        "label": "Oldenburg"
+      },
+      {
+        "description": "independent city in Lower Saxony, Germany",
+        "id": "Q2936",
+        "label": "Oldenburg"
+      },
+      {
+        "description": "railway station in Oldenburg, Germany",
+        "id": "Q543350",
+        "label": "Oldenburg Central Station"
+      },
+      {
+        "description": "German ship",
+        "id": "Q1494264",
+        "label": "Oldenburg"
+      },
+      {
+        "description": "dynasty",
+        "id": "Q155594",
+        "label": "House of Oldenburg"
+      }
+    ]
+  },
+  "label": "Jade-Hoschschule, Oldenburg"
+}

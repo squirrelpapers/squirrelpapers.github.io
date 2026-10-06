@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 55.94973,
+    "lon": -3.19333
+  },
+  "country": [
+    "Q145"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt von Schottland, Council area",
+    "en": "council area in Scotland"
+  },
+  "id": "Q2379199",
+  "instance_of": [
+    "Q104630835",
+    "Q15060255",
+    "Q21457810"
+  ],
+  "labels": {
+    "de": "City of Edinburgh",
+    "en": "City of Edinburgh"
+  }
+}

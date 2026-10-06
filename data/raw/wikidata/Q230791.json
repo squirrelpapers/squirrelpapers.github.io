@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 57,
+    "lon": -5
+  },
+  "country": [
+    "Q230791"
+  ],
+  "descriptions": {
+    "de": "historischer Staat (843-1707)",
+    "en": "historic sovereign kingdom on the British Isles from the 9th century and up to 1707"
+  },
+  "id": "Q230791",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078",
+    "Q417175"
+  ],
+  "labels": {
+    "de": "Königreich Schottland",
+    "en": "Kingdom of Scotland"
+  }
+}

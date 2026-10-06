@@ -1,0 +1,133 @@
+{
+  "conceptdoi": "",
+  "conceptrecid": "774906",
+  "created": "2017-02-17T07:56:36.035934+00:00",
+  "doi": "10.5281/zenodo.292957",
+  "doi_url": "https://doi.org/10.5281/zenodo.292957",
+  "files": [
+    {
+      "checksum": "md5:7476f78d5679e606c7066b999151b369",
+      "id": "070e7d42-362b-42dd-8939-c29cb5a64bc7",
+      "key": "2016_09_20_OEGM_Graz_Chronologie.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/292957/files/2016_09_20_OEGM_Graz_Chronologie.pdf/content"
+      },
+      "size": 2069913
+    }
+  ],
+  "id": 292957,
+  "links": {
+    "access": "https://zenodo.org/api/records/292957/access",
+    "access_grants": "https://zenodo.org/api/records/292957/access/grants",
+    "access_links": "https://zenodo.org/api/records/292957/access/links",
+    "access_request": "https://zenodo.org/api/records/292957/access/request",
+    "access_users": "https://zenodo.org/api/records/292957/access/users",
+    "archive": "https://zenodo.org/api/records/292957/files-archive",
+    "archive_media": "https://zenodo.org/api/records/292957/media-files-archive",
+    "communities": "https://zenodo.org/api/records/292957/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/292957/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.292957",
+    "draft": "https://zenodo.org/api/records/292957/draft",
+    "file_modification": "https://zenodo.org/api/records/292957/file-modification",
+    "files": "https://zenodo.org/api/records/292957/files",
+    "latest": "https://zenodo.org/api/records/292957/versions/latest",
+    "latest_html": "https://zenodo.org/records/292957/latest",
+    "media_files": "https://zenodo.org/api/records/292957/media-files",
+    "parent": "https://zenodo.org/api/records/774906",
+    "parent_doi": "https://doi.org/",
+    "parent_doi_html": "https://zenodo.org/doi/",
+    "parent_html": "https://zenodo.org/records/774906",
+    "preview_html": "https://zenodo.org/records/292957?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/292957/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/292957/request-deletion",
+    "requests": "https://zenodo.org/api/records/292957/requests",
+    "reserve_doi": "https://zenodo.org/api/records/292957/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/292957",
+    "self_doi": "https://doi.org/10.5281/zenodo.292957",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.292957",
+    "self_html": "https://zenodo.org/records/292957",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:292957/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:292957/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:292957:2016_09_20_OEGM_Graz_Chronologie.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:292957:2016_09_20_OEGM_Graz_Chronologie.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:292957:2016_09_20_OEGM_Graz_Chronologie.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:292957:2016_09_20_OEGM_Graz_Chronologie.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:292957:2016_09_20_OEGM_Graz_Chronologie.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:292957:2016_09_20_OEGM_Graz_Chronologie.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/292957/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "linkedgeodesy"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Allard Mees",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<p>Aktuelle Entwicklungen in den digitalen Methoden der Arch&auml;ologie suchen nach L&ouml;sungen f&uuml;r eine fachspezifisch ad&auml;quate Repr&auml;sentation chronologischer Konzepte, sowie deren persistente Adressierbarkeit. In diesem Paper wird ein konzeptioneller Vorschlag zur L&ouml;sung des arch&auml;ologisch-relativchronologischen Problems mittels digitaler Methoden vorgestellt. Einerseits werden Zeitkonzepte und ihr relativchronologisches Verh&auml;ltnis zueinander digital aufgearbeitet und im Semantic Web zur Verf&uuml;gung gestellt. Neben Geodia, ein online-Portal f&uuml;r die Visualisierung von zeitlichen, geographischen und materiellen Aspekten antiker Kulturen im Mittelmeerraum und PeriodO, das als online-Gazetteer Zeitbegriffe als Linked Open Data anbietet, entwickeln das i3mainz und das DAI im Rahmen des Projekts ChronOntology eine regelbasierte Software-Architektur, die auch komplexe Zeitbegriffe in ihren Abh&auml;ngigkeiten und r&auml;umlichem Kontext repr&auml;sentiert. Andererseits entstehen relativchronologische Materialzeitstufen aus einem bottom-up-Verfahren anhand datierter Fundkomplexe. Diese vom Fundmaterial heraus erarbeiteten Zeitkonzepte lassen sich in ihren relativen Bez&uuml;gen quantifizieren, adressieren und digital verarbeiten. Konkret k&ouml;nnen relativchronologische Zeitangaben als Intervalle verstanden werden, die in 13 unterschiedlichen Arten semantisch verarbeitet werden k&ouml;nnen (Allen 1983; Freksa 1992). Das herausfordernde ist, dass Beschreibungen von z.B. Gef&auml;&szlig;formen als Typologien zum Aufbau relativer Chronologien verwandt wurden, an denen wiederum Zeitkonzepte gekoppelt wurden. Dies kann mit der Keramik-Forschungsdatenbank &quot;Samian&quot; des RGZM sichtbar gemacht werden. Der digitale Umgang mit chronologischen Kreisargumentationen bildet ein methodisches Ger&uuml;st, das auch f&uuml;r die Mittelalterarch&auml;ologie weiterentwickelt werden kann, wenn feingranulierte digitale Datens&auml;tze mittelalterlicher Gro&szlig;manufakturen von z.B. Siegburger Schnellen oder Goudaer Tonpfeifen vorliegen.</p>",
+    "doi": "10.5281/zenodo.292957",
+    "keywords": [
+      "archaeology",
+      "linked data",
+      "linked open data",
+      "chronology"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "20.-23.09.2016",
+      "place": "Graz, Austria",
+      "title": "Internationale Tagung der Österreichischen Gesellschaft für Mittelalterarchäologie",
+      "url": "http://www.univie.ac.at/oegm/tagung-2016.html"
+    },
+    "publication_date": "2016-09-20",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "774906"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen"
+  },
+  "modified": "2024-08-03T13:05:56.400379+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "292957",
+  "revision": 12,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen",
+  "updated": "2024-08-03T13:05:56.400379+00:00"
+}

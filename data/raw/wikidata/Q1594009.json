@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": -26.500556,
+    "lon": 28.358333
+  },
+  "country": [
+    "Q258"
+  ],
+  "descriptions": {
+    "de": "Stadt in Südafrika",
+    "en": "town in Gauteng province, South Africa"
+  },
+  "id": "Q1594009",
+  "instance_of": [
+    "Q486972"
+  ],
+  "labels": {
+    "de": "Heidelberg",
+    "en": "Heidelberg"
+  }
+}

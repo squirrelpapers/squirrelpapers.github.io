@@ -1,0 +1,174 @@
+{
+  "conceptdoi": "10.5281/zenodo.16735847",
+  "conceptrecid": "16735847",
+  "created": "2025-08-04T09:11:43.949577+00:00",
+  "doi": "10.5281/zenodo.16735848",
+  "doi_url": "https://doi.org/10.5281/zenodo.16735848",
+  "files": [
+    {
+      "checksum": "md5:2dbd9f35ccc4750c36d2932d9630192e",
+      "id": "5a03f3ae-3543-49a4-a3c8-4a49ad1b6a76",
+      "key": "CoRDI_2025_paper_92.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/16735848/files/CoRDI_2025_paper_92.pdf/content"
+      },
+      "size": 104468
+    }
+  ],
+  "id": 16735848,
+  "links": {
+    "access": "https://zenodo.org/api/records/16735848/access",
+    "access_grants": "https://zenodo.org/api/records/16735848/access/grants",
+    "access_links": "https://zenodo.org/api/records/16735848/access/links",
+    "access_request": "https://zenodo.org/api/records/16735848/access/request",
+    "access_users": "https://zenodo.org/api/records/16735848/access/users",
+    "archive": "https://zenodo.org/api/records/16735848/files-archive",
+    "archive_media": "https://zenodo.org/api/records/16735848/media-files-archive",
+    "communities": "https://zenodo.org/api/records/16735848/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/16735848/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.16735848",
+    "draft": "https://zenodo.org/api/records/16735848/draft",
+    "file_modification": "https://zenodo.org/api/records/16735848/file-modification",
+    "files": "https://zenodo.org/api/records/16735848/files",
+    "latest": "https://zenodo.org/api/records/16735848/versions/latest",
+    "latest_html": "https://zenodo.org/records/16735848/latest",
+    "media_files": "https://zenodo.org/api/records/16735848/media-files",
+    "parent": "https://zenodo.org/api/records/16735847",
+    "parent_doi": "https://doi.org/10.5281/zenodo.16735847",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16735847",
+    "parent_html": "https://zenodo.org/records/16735847",
+    "preview_html": "https://zenodo.org/records/16735848?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/16735848/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/16735848/request-deletion",
+    "requests": "https://zenodo.org/api/records/16735848/requests",
+    "reserve_doi": "https://zenodo.org/api/records/16735848/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/16735848",
+    "self_doi": "https://doi.org/10.5281/zenodo.16735848",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16735848",
+    "self_html": "https://zenodo.org/records/16735848",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16735848/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16735848/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:16735848:CoRDI_2025_paper_92.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:16735848:CoRDI_2025_paper_92.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:16735848:CoRDI_2025_paper_92.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:16735848:CoRDI_2025_paper_92.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:16735848:CoRDI_2025_paper_92.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:16735848:CoRDI_2025_paper_92.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/16735848/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi"
+      },
+      {
+        "id": "cordi-2025"
+      }
+    ],
+    "contributors": [
+      {
+        "affiliation": "Nationale Forschungsdateninfrastruktur (NFDI) e.V.",
+        "name": "Sure-Vetter, York",
+        "orcid": "0000-0002-4522-1099",
+        "type": "Editor"
+      },
+      {
+        "affiliation": "University of Amsterdam",
+        "name": "Groth, Paul",
+        "orcid": "0000-0003-0183-6910",
+        "type": "Editor"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Department of Computer Science, Carl von Ossietzky Universität Oldenburg, Germany",
+        "name": "Ferenz, Stephan",
+        "orcid": "0000-0001-9523-7227"
+      },
+      {
+        "affiliation": "ZB MED Information Centre for Life Science, Cologne, Germany",
+        "name": "Castro, Leyla Jael",
+        "orcid": "0000-0003-3986-0510"
+      },
+      {
+        "affiliation": "Karlsruhe Institute of Technology (KIT), Germany",
+        "name": "Hajiabadi, Hamideh",
+        "orcid": "0000-0002-5793-4563"
+      },
+      {
+        "affiliation": "IMISE Universität Leipzig, Germany",
+        "name": "Löbe, Matthias",
+        "orcid": "0000-0002-2344-0426"
+      },
+      {
+        "affiliation": "Ruhr Universität Bochum, Germany",
+        "name": "Stervbo, Ulrik",
+        "orcid": "0000-0002-2831-8868"
+      },
+      {
+        "affiliation": "Heinrich Heine University Düsseldorf, Germany; GESIS – Leibniz Institute for the Social Sciences, Cologne, Germany",
+        "name": "Gan, Lu",
+        "orcid": "0000-0001-5844-3021"
+      },
+      {
+        "affiliation": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz, Germany; Research Squirrel Engineers Network & CAA-DE e.V., Germany",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "Most scientific disciplines use research software to address relevant research questions, and in many cases this research software is tailored to the specific research questions. Thus, research software is defined as software created during the research process or for a research purpose [1]. Within the German National Research Infrastructure (NFDI), research software plays two important roles. First, the services and tools developed by the consortia can be considered research software. These are mostly related to infrastructure software as defined by Hasselbring et al., but not exclusively [2]. Second, research software that supports a research project is considered an important research artifact itself. Several consortia of the NFDI are consequently working to provide infrastructure for these artifacts. Their significance is evident in their crucial function of research software, for example, in natural sciences for climate and meteorological modeling, in social sciences for network analysis and sentiment analysis, in digital humanities for text mining and computational linguistics, and in engineering sciences for simulating complex systems. Whether being a service/tool or a research artifact, provenance and rich descriptions of research software are essential to improve scientific transparency, findability, citability, reproducibility, software security, and reusability. Therefore, to improve the FAIRness of research software [3], software metadata plays an important role in the implementation of the FAIR4RS principles [4], [5].  To enable good software metadata, common metadata standards play an important role. Consequently, the working group \"Research Software Metadata\" of the Section Metadata, Terminology, and Provenance of the NFDI focuses on metadata for research software. The overall goal of this working group is to provide a common core metadata vocabulary for research software that can be used to describe research software created in the various research domains of the NFDI consortia. The work will create a unified framework that can be used across the different NFDI consortia generating research software artifacts. This effort also addresses key interoperability challenges, such as aligning different metadata schemas, ensuring consistency across disciplines, and integrating with existing standards such as CodeMeta [6], Citation File Format (CFF) [7] and schema.org.  To gain an overview of research software metadata schemas already in use in the different consortia, we have conducted a survey on the implementation of research software metadata in the NFDI consortia [8]. We found that only a few domain-specific metadata schemas for research software were in use by different consortia. In contrast, generic metadata schemas such as CodeMeta, Bioschemas, schema.org, and the CFF were most frequently used to describe research software. Relevant metadata elements for research software include algorithms, methods, software/hardware requirements, and tasks performed by the software. We subsequently performed an in depth analysis of the alignment of the generic metadata schemas by creating crosswalks, i.e. mapping the schemas onto each other.  This crosswalk analysis provides the basis for further discussions with the wider RDM community regarding strategies for provenance and rich descriptions of research software.  [1] https://doi.org/10.5281/zenodo.5504016. [2] https://doi.org/10.1109/MCSE.2025.3555023. [3] https://doi.org/10.5281/zenodo.10816032. [4] https://doi.org/10.15497/RDA00068. [5] https://doi.org/10.5281/zenodo.10246218. [6] https://codemeta.github.io/terms/ [7] https://doi.org/10.5281/zenodo.5171937. [8] https://doi.org/10.5281/zenodo.12704414.",
+    "doi": "10.5281/zenodo.16735848",
+    "keywords": [
+      "Research Software",
+      "Software Metadata",
+      "Research Software Metadata"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CoRDI",
+      "dates": "26-28 August 2025",
+      "place": "Aachen, Germany",
+      "session": "6. Context",
+      "title": "2nd Conference on Research Data Infrastructure",
+      "url": "https://www.nfdi.de/cordi-2025/"
+    },
+    "publication_date": "2025-08-04",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "16735847"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Towards Common Metadata For Research Software in the NFDI"
+  },
+  "modified": "2025-08-04T09:11:44.235755+00:00",
+  "owners": [
+    {
+      "id": "112726"
+    }
+  ],
+  "recid": "16735848",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Towards Common Metadata For Research Software in the NFDI",
+  "updated": "2025-08-04T09:11:44.235755+00:00"
+}

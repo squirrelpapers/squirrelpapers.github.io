@@ -1,0 +1,15 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Familienname",
+    "en": "family name"
+  },
+  "id": "Q105533759",
+  "instance_of": [
+    "Q101352"
+  ],
+  "labels": {
+    "de": "Köln",
+    "en": "Köln"
+  }
+}

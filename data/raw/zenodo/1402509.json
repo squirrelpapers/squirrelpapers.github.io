@@ -1,0 +1,151 @@
+{
+  "conceptdoi": "10.5281/zenodo.1402509",
+  "conceptrecid": "1402509",
+  "created": "2018-08-23T11:40:23.344937+00:00",
+  "doi": "10.5281/zenodo.1402510",
+  "doi_url": "https://doi.org/10.5281/zenodo.1402510",
+  "files": [
+    {
+      "checksum": "md5:fcad836c9a81ff1ea9d7f956def2ce1b",
+      "id": "831fcf6f-db16-412f-9db9-ced076249bd1",
+      "key": "2018_09_06_EAA_BarcelonaTamingTime.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/1402510/files/2018_09_06_EAA_BarcelonaTamingTime.pdf/content"
+      },
+      "size": 3961348
+    }
+  ],
+  "id": 1402510,
+  "links": {
+    "access": "https://zenodo.org/api/records/1402510/access",
+    "access_grants": "https://zenodo.org/api/records/1402510/access/grants",
+    "access_links": "https://zenodo.org/api/records/1402510/access/links",
+    "access_request": "https://zenodo.org/api/records/1402510/access/request",
+    "access_users": "https://zenodo.org/api/records/1402510/access/users",
+    "archive": "https://zenodo.org/api/records/1402510/files-archive",
+    "archive_media": "https://zenodo.org/api/records/1402510/media-files-archive",
+    "communities": "https://zenodo.org/api/records/1402510/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/1402510/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.1402510",
+    "draft": "https://zenodo.org/api/records/1402510/draft",
+    "file_modification": "https://zenodo.org/api/records/1402510/file-modification",
+    "files": "https://zenodo.org/api/records/1402510/files",
+    "latest": "https://zenodo.org/api/records/1402510/versions/latest",
+    "latest_html": "https://zenodo.org/records/1402510/latest",
+    "media_files": "https://zenodo.org/api/records/1402510/media-files",
+    "parent": "https://zenodo.org/api/records/1402509",
+    "parent_doi": "https://doi.org/10.5281/zenodo.1402509",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1402509",
+    "parent_html": "https://zenodo.org/records/1402509",
+    "preview_html": "https://zenodo.org/records/1402510?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/1402510/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/1402510/request-deletion",
+    "requests": "https://zenodo.org/api/records/1402510/requests",
+    "reserve_doi": "https://zenodo.org/api/records/1402510/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/1402510",
+    "self_doi": "https://doi.org/10.5281/zenodo.1402510",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1402510",
+    "self_html": "https://zenodo.org/records/1402510",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:1402510/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:1402510/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:1402510:2018_09_06_EAA_BarcelonaTamingTime.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:1402510:2018_09_06_EAA_BarcelonaTamingTime.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:1402510:2018_09_06_EAA_BarcelonaTamingTime.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:1402510:2018_09_06_EAA_BarcelonaTamingTime.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:1402510:2018_09_06_EAA_BarcelonaTamingTime.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:1402510:2018_09_06_EAA_BarcelonaTamingTime.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/1402510/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "mainzed"
+      },
+      {
+        "id": "linkedgeodesy"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum Mainz",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum Mainz",
+        "name": "Allard Mees"
+      }
+    ],
+    "description": "<p>It is a stroke of luck that the RGZM (R&ouml;misch-Germanisches Zentralmuseum Mainz) hosts already since the mid-1990s several online available databases containing millions of datasets, with content from many different archaeological disciplines. These databases where constructed in interdisciplinary transnational projects and include a lot of &ldquo;hidden archaeological assumptions&rdquo; in their relational data models. Especially short cutted relative chronological information and its dependencies are not modelled using transparent methods. The aim of our project is to make these hidden assumptions in archaeology visible and provide them as Linked Open Data to establish reproducible research as a fundament for Open Science.</p>\n\n<p>In particular the Samian Research database at the RGZM offers nearly 250&rsquo;000 identified potter stamps, which are traditionally dated in a short cutted way. In Roman archaeology this is usually expressed by establishing &ldquo;absolute dates&rdquo; in well known &ldquo;from-to&rdquo; tables, whereas in reality, the situation is much more diffuse. In fact, Limes fortress dating is often done based on circular arguments. Samian stamps, for example, are being dated by sites, which on their own are again being dated by Samian.</p>\n\n<p>This paper focuses on modelling these circular dating arguments using a relative chronology based on Allen&rsquo;s interval algebra for temporal reasoning in the Academic Meta Tool (AMT) to create Linked Open Data for reproducible and transparent research. AMT allows us to create a fitting ontology and visualise the reasoning results in a web app for detecting errors and circular reasoning. As an example, we will take a deeper look into the relative chronological relationships of the Limes fortresses.</p>",
+    "doi": "10.5281/zenodo.1402510",
+    "keywords": [
+      "Linked Open Data",
+      "Chronology",
+      "Samian",
+      "Sigillata",
+      "Allens's Alegebra"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "EAA2018",
+      "dates": "05.09.-08.09.2018",
+      "place": "Barcelona, Spain",
+      "session": "723: Creating reproducible research. New developments in computational and quantitave methods.",
+      "title": "24th Annual Meeting of  the European Association of Archaeologists",
+      "url": "https://www.e-a-a.org/eaa2018"
+    },
+    "publication_date": "2018-09-06",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "1402509"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "subjects": [
+      {
+        "identifier": "http://www.wikidata.org/entity/Q1305544",
+        "scheme": "url",
+        "term": "Allen's interval algebra"
+      },
+      {
+        "identifier": "https://orcid.org/0000-0002-3246-3531",
+        "scheme": "url",
+        "term": "0000-0002-3246-3531"
+      }
+    ],
+    "title": "Taming Time – Modelling uncertainty as reproducible Linked Open Data"
+  },
+  "modified": "2024-08-02T04:27:14.116320+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "1402510",
+  "revision": 11,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Taming Time – Modelling uncertainty as reproducible Linked Open Data",
+  "updated": "2024-08-02T04:27:14.116320+00:00"
+}

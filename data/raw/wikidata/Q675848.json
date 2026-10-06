@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 45.810672,
+    "lon": 15.970097
+  },
+  "country": [
+    "Q224"
+  ],
+  "descriptions": {
+    "de": "Universität in Kroatien",
+    "en": "Croatian university"
+  },
+  "id": "Q675848",
+  "instance_of": [
+    "Q45400320",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Universität Zagreb",
+    "en": "University of Zagreb"
+  }
+}

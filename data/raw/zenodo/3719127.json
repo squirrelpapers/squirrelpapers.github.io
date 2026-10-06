@@ -1,0 +1,168 @@
+{
+  "conceptdoi": "10.5281/zenodo.3719127",
+  "conceptrecid": "3719127",
+  "created": "2020-03-20T11:16:31.827045+00:00",
+  "doi": "10.5281/zenodo.3719128",
+  "doi_url": "https://doi.org/10.5281/zenodo.3719128",
+  "files": [
+    {
+      "checksum": "md5:c470f4be56409e1066742143c8c584c0",
+      "id": "13139051-0eea-475d-bed3-4a4d7f203e1c",
+      "key": "FOSSGIS_Tagungsband_2020_pp_68_72.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/3719128/files/FOSSGIS_Tagungsband_2020_pp_68_72.pdf/content"
+      },
+      "size": 29339299
+    }
+  ],
+  "id": 3719128,
+  "links": {
+    "access": "https://zenodo.org/api/records/3719128/access",
+    "access_grants": "https://zenodo.org/api/records/3719128/access/grants",
+    "access_links": "https://zenodo.org/api/records/3719128/access/links",
+    "access_request": "https://zenodo.org/api/records/3719128/access/request",
+    "access_users": "https://zenodo.org/api/records/3719128/access/users",
+    "archive": "https://zenodo.org/api/records/3719128/files-archive",
+    "archive_media": "https://zenodo.org/api/records/3719128/media-files-archive",
+    "communities": "https://zenodo.org/api/records/3719128/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/3719128/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.3719128",
+    "draft": "https://zenodo.org/api/records/3719128/draft",
+    "file_modification": "https://zenodo.org/api/records/3719128/file-modification",
+    "files": "https://zenodo.org/api/records/3719128/files",
+    "latest": "https://zenodo.org/api/records/3719128/versions/latest",
+    "latest_html": "https://zenodo.org/records/3719128/latest",
+    "media_files": "https://zenodo.org/api/records/3719128/media-files",
+    "parent": "https://zenodo.org/api/records/3719127",
+    "parent_doi": "https://doi.org/10.5281/zenodo.3719127",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3719127",
+    "parent_html": "https://zenodo.org/records/3719127",
+    "preview_html": "https://zenodo.org/records/3719128?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/3719128/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/3719128/request-deletion",
+    "requests": "https://zenodo.org/api/records/3719128/requests",
+    "reserve_doi": "https://zenodo.org/api/records/3719128/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/3719128",
+    "self_doi": "https://doi.org/10.5281/zenodo.3719128",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3719128",
+    "self_html": "https://zenodo.org/records/3719128",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3719128/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3719128/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:3719128:FOSSGIS_Tagungsband_2020_pp_68_72.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:3719128:FOSSGIS_Tagungsband_2020_pp_68_72.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:3719128:FOSSGIS_Tagungsband_2020_pp_68_72.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:3719128:FOSSGIS_Tagungsband_2020_pp_68_72.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:3719128:FOSSGIS_Tagungsband_2020_pp_68_72.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:3719128:FOSSGIS_Tagungsband_2020_pp_68_72.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/3719128/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "contributors": [
+      {
+        "affiliation": null,
+        "name": "FOSSGIS e.V.",
+        "type": "Editor"
+      },
+      {
+        "affiliation": null,
+        "name": "Jörg Thomsen",
+        "type": "Editor"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Timo Homburg",
+        "orcid": "0000-0002-9499-5840"
+      }
+    ],
+    "description": "<p>Die Linked Open Data Cloud bietet seit vielen Jahren gro&szlig;e Datenrepositorien im WWW an, die f&uuml;r verschiedene Zwecke von unterschiedlichen Communities genutzt werden k&ouml;nnen. Die St&auml;rke von Linked Open Data (LOD) ist hierbei die Verkn&uuml;pfung von Informationen aus unterschiedlichsten dezentral gehosteten Wissensdom&auml;nen. F&uuml;r die Geoinformatik haben sich beispielsweise community-basierende Datenrepositorien wie&nbsp;<a href=\"http://wikidata.org/\">Wikidata</a>,&nbsp;<a href=\"http://linkedgeodata.org/\">LinkedGeoData</a>&nbsp;oder&nbsp;<a href=\"https://wiki.dbpedia.org/\">DBpedia</a>&nbsp;gebildet. Zudem bieten Gazetteer-Repositorien wie&nbsp;<a href=\"https://www.geonames.org/\">Geonames</a>&nbsp;oder&nbsp;<a href=\"https://pleiades.stoa.org/\">Pleiades</a>&nbsp;f&uuml;r den zeitgeschichtlichen Raum, aber auch administrative Provider wie der&nbsp;<a href=\"https://data.ordnancesurvey.co.uk/\">Ordnance Survey UK</a>&nbsp;und&nbsp;<a href=\"http://data.geohive.ie/\">Ordnance Survey Ireland</a>, ihre Geodaten als LOD an. Leider haben all diese Ressourcen in der Geo-Community bisher leider nur niederrangige Bedeutung erlangt. Den Grund daf&uuml;r sehen wir in einem nicht vorhandenen Support von GIS Applikationen f&uuml;r die Verarbeitung von LOD.&nbsp;<em>Triplestores</em>&nbsp;und&nbsp;<em>SPARQL</em>&nbsp;werden zur Zeit weder von&nbsp;<em>GIS</em>&nbsp;Software,&nbsp;<em>GeoServer</em>&nbsp;Implementierungen oder&nbsp;<em>OGC</em>-Services unterst&uuml;tzt. Die Linked Data Serialisierung&nbsp;<a href=\"https://geojson.org/geojson-ld/\">GeoJSON-LD</a>&nbsp;birgt zwar aufgrund einiger noch offener Issues Herausforderungen, wird allerdings nicht oft wie seine &lsquo;unsemantische Schwester&rsquo;&nbsp;<em>GeoJSON</em>, in Applikationen genutzt. Genau hier setzt das&nbsp;<a href=\"https://plugins.qgis.org/plugins/sparqlunicorn\">SPARQLing Unicorn QGIS Plugin</a>&nbsp;an, welches die Ausf&uuml;hrung von Linked Data Anfragen in (Geo)SPARQL an ausgew&auml;hlte Triplestores und geof&auml;higen SPARQL Endpoints erm&ouml;glicht. Die Ergebnisse werden in GeoJSON Layer konvertiert, sodass sie direkt in QGIS nutzbar sind. F&uuml;r die Zukunft soll das&nbsp;<em>SPARQLing Unicorn Plugin</em>&nbsp;mit extrahierten Konzepten ausgew&auml;hlter Ontologien Benutzern die M&ouml;glichkeit bieten, einfache Abfragen wie &ldquo;Gib mir alle Flugh&auml;fen in BOUNDINGBOX mit direkt verbundenen Relationen&rdquo; oder &ldquo;Gib mir alle Flugh&auml;fen in LAND_X&rdquo; automatisch zu generieren und somit das Laden dynamischer Inhalte der Datenrepositorien erleichtern. Es ist erw&uuml;nscht, dass die Geocommunity aktiv an der (Weiter-)Entwicklung des Plugins teilnimmt und so die Welt der LOD im Geokontext weiter bekannt macht. Dazu steht der Quellcode frei auf&nbsp;<a href=\"https://github.com/sparqlunicorn/sparqlunicornGoesGIS\">Github</a>&nbsp;zur Erweiterung zur Verf&uuml;gung. Der Vortrag gibt einen Einstieg in die Modellierung von Linked Open (Geo-)Data, in die Abfragesprache SPARQL, deren Erweiterung GeoSPARQL, bestehende (Geo-)Ressourcen in der Linked Open Data Cloud, sowie die Funktionsweise des&nbsp;<em>SPARQLing Unicorn QGIS Plugins</em>, dessen zuk&uuml;nftige Erweiterungen und aktuelle Entwicklungen in der Erweiterung der jeweiligen Standards. Das Unicorn freut sich auf Mithilfe aus der Geo-Community!</p>",
+    "doi": "10.5281/zenodo.3719128",
+    "imprint": {
+      "isbn": "978-3-00-065006-2"
+    },
+    "journal": {
+      "issue": "1",
+      "pages": "No. 2",
+      "title": "Squirrel Papers",
+      "volume": "2"
+    },
+    "keywords": [
+      "Linked Data",
+      "Wikidata",
+      "QGIS",
+      "FOSSGIS",
+      "SPARQL Unicorn"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "FOSSGIS2020",
+      "dates": "11.-14-03.2020",
+      "place": "University of Freiburg, Germany",
+      "session": "Lightning Talks",
+      "session_part": "3",
+      "title": "Anwenderkonferenz für Freie und Open Source Software für Geoinformationssysteme (FOSSGIS)",
+      "url": "https://www.fossgis-konferenz.de/2020/"
+    },
+    "publication_date": "2020-03-20",
+    "related_identifiers": [
+      {
+        "identifier": "978-3-00-065006-2",
+        "relation": "isDerivedFrom",
+        "resource_type": "publication-book",
+        "scheme": "isbn"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "3719127"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "section",
+      "title": "Book chapter",
+      "type": "publication"
+    },
+    "title": "QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins"
+  },
+  "modified": "2024-07-22T11:30:40.343706+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "3719128",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins",
+  "updated": "2024-07-22T11:30:40.343706+00:00"
+}

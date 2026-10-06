@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 49.66,
+    "lon": 10
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Landkreis in Bayern",
+    "en": "rural district in Lower Franconia, Bavaria, Germany"
+  },
+  "id": "Q10458",
+  "instance_of": [
+    "Q106517174",
+    "Q85482556"
+  ],
+  "labels": {
+    "de": "Landkreis Würzburg",
+    "en": "Würzburg"
+  }
+}

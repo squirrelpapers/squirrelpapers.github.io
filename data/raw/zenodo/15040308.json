@@ -1,0 +1,155 @@
+{
+  "conceptdoi": "10.5281/zenodo.15040308",
+  "conceptrecid": "15040308",
+  "created": "2025-03-17T14:55:35.267022+00:00",
+  "doi": "10.5281/zenodo.15040309",
+  "doi_url": "https://doi.org/10.5281/zenodo.15040309",
+  "files": [
+    {
+      "checksum": "md5:f90c2efa987ac7abfe1d4a1e84d85395",
+      "id": "4c6b5a2d-4146-461f-a61f-fc234491cb4d",
+      "key": "250313 E-Science Tage 2025 Mattis thor Straten HIN.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/15040309/files/250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf/content"
+      },
+      "size": 5676828
+    }
+  ],
+  "id": 15040309,
+  "links": {
+    "access": "https://zenodo.org/api/records/15040309/access",
+    "access_grants": "https://zenodo.org/api/records/15040309/access/grants",
+    "access_links": "https://zenodo.org/api/records/15040309/access/links",
+    "access_request": "https://zenodo.org/api/records/15040309/access/request",
+    "access_users": "https://zenodo.org/api/records/15040309/access/users",
+    "archive": "https://zenodo.org/api/records/15040309/files-archive",
+    "archive_media": "https://zenodo.org/api/records/15040309/media-files-archive",
+    "communities": "https://zenodo.org/api/records/15040309/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/15040309/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.15040309",
+    "draft": "https://zenodo.org/api/records/15040309/draft",
+    "file_modification": "https://zenodo.org/api/records/15040309/file-modification",
+    "files": "https://zenodo.org/api/records/15040309/files",
+    "latest": "https://zenodo.org/api/records/15040309/versions/latest",
+    "latest_html": "https://zenodo.org/records/15040309/latest",
+    "media_files": "https://zenodo.org/api/records/15040309/media-files",
+    "parent": "https://zenodo.org/api/records/15040308",
+    "parent_doi": "https://doi.org/10.5281/zenodo.15040308",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15040308",
+    "parent_html": "https://zenodo.org/records/15040308",
+    "preview_html": "https://zenodo.org/records/15040309?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/15040309/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/15040309/request-deletion",
+    "requests": "https://zenodo.org/api/records/15040309/requests",
+    "reserve_doi": "https://zenodo.org/api/records/15040309/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/15040309",
+    "self_doi": "https://doi.org/10.5281/zenodo.15040309",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15040309",
+    "self_html": "https://zenodo.org/records/15040309",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15040309/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15040309/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:15040309:250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:15040309:250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:15040309:250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:15040309:250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:15040309:250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:15040309:250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/15040309/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "e-science-tage-2025"
+      },
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Christian-Albrechts-Universität zu Kiel",
+        "name": "thor Straten, Mattis",
+        "orcid": "0009-0005-1140-3352"
+      },
+      {
+        "affiliation": "Christian-Albrechts-Universität zu Kiel",
+        "name": "Strohm, Steffen",
+        "orcid": "0000-0002-5788-4041"
+      },
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Christian-Albrechts-Universität zu Kiel",
+        "name": "Renz, Matthias",
+        "orcid": "0000-0002-2024-7700"
+      }
+    ],
+    "description": "<p>Integrating diverse datasets into a unified, interoperable representation is a key challenge in interdisciplinary research. Heterogeneous information networks provide a graph-based framework for linking datasets while preserving their semantic structure. This work explores the use of ontologies to ensure semantic interoperability in cultural heritage knowledge graphs.</p>\n<p>Using the CIDOC Conceptual Reference Model (CIDOC-CRM) alongside other commonly used or domain-specific ontologies, this study develops a hybrid ontology for archaeo-natural research data (ArNO) based on the experience gained in NFDI4Objects Task Area 3. The integration follows Linked Open Data principles, ensuring schema-level consistency through ontology-based modelling and enforcing data-level consistency with terminologies. By establishing schema- and data-level standards, this work contributes to FAIR-compliant research infrastructures, enhancing data reuse across humanities and natural sciences.</p>\n<p>The approach is demonstrated through the integration of ancient DNA datasets from the Poseidon framework. This enables cross-dataset analysis by linking biological, archaeological, and contextual data. The study also addresses challenges in CIDOC-CRM-based modelling, e.g., its event-centric nature.</p>",
+    "doi": "10.5281/zenodo.15040309",
+    "journal": {
+      "issue": "3",
+      "pages": "λ10",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "language": "enc",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "12-14 March 2025",
+      "place": "Neue Universität Heidelberg, Germany",
+      "session": "B6: Information Networks",
+      "session_part": "2",
+      "title": "E-Science-Tage 2025",
+      "url": "https://e-science-tage.de"
+    },
+    "publication_date": "2025-03-13",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "15040308"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Data-Driven Community Standards for Interdisciplinary Heterogeneous Information Networks"
+  },
+  "modified": "2025-03-25T12:10:51.169076+00:00",
+  "owners": [
+    {
+      "id": "1179647"
+    }
+  ],
+  "recid": "15040309",
+  "revision": 12,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Data-Driven Community Standards for Interdisciplinary Heterogeneous Information Networks",
+  "updated": "2025-03-25T12:10:51.169076+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "coordinates": {
+    "lat": 52.374444,
+    "lon": 9.738611
+  },
+  "country": [
+    "Q1206012",
+    "Q153943",
+    "Q164079",
+    "Q183",
+    "Q2415901",
+    "Q27306",
+    "Q565812",
+    "Q706018",
+    "Q713750"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt von Niedersachsen, Deutschland",
+    "en": "capital city of the German federated state of Lower Saxony"
+  },
+  "id": "Q1715",
+  "instance_of": [
+    "Q133997300",
+    "Q134626",
+    "Q14784328",
+    "Q1549591",
+    "Q1780389",
+    "Q42744322",
+    "Q707813",
+    "Q85635929"
+  ],
+  "labels": {
+    "de": "Hannover",
+    "en": "Hanover"
+  }
+}

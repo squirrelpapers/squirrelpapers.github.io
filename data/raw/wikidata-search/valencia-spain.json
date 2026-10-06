@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Valencia [de]": [
+      {
+        "description": "capital city of the Valencian Community, Spain",
+        "id": "Q8818",
+        "label": "Valencia"
+      },
+      {
+        "description": "family name",
+        "id": "Q30440696",
+        "label": "Valencia"
+      },
+      {
+        "description": "Western Romance language",
+        "id": "Q7026",
+        "label": "Catalan"
+      },
+      {
+        "description": "province of the Valencian Country, Spain",
+        "id": "Q54939",
+        "label": "Province of Valencia"
+      },
+      {
+        "description": "municipality of the Philippines in the province of Bohol",
+        "id": "Q406046",
+        "label": "Valencia"
+      }
+    ],
+    "Valencia [en]": [
+      {
+        "description": "capital city of the Valencian Community, Spain",
+        "id": "Q8818",
+        "label": "Valencia"
+      },
+      {
+        "description": "family name",
+        "id": "Q30440696",
+        "label": "Valencia"
+      },
+      {
+        "description": "Western Romance language",
+        "id": "Q7026",
+        "label": "Catalan"
+      },
+      {
+        "description": "constituency of the Corts Valencianes",
+        "id": "Q30601109",
+        "label": "Valencia"
+      },
+      {
+        "description": "municipality of the Philippines in the province of Bohol",
+        "id": "Q406046",
+        "label": "Valencia"
+      }
+    ]
+  },
+  "label": "Valencia, Spain"
+}

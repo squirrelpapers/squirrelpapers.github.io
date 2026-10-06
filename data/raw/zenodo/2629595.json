@@ -1,0 +1,127 @@
+{
+  "conceptdoi": "10.5281/zenodo.2629595",
+  "conceptrecid": "2629595",
+  "created": "2019-04-10T14:04:43.503975+00:00",
+  "doi": "10.5281/zenodo.2635487",
+  "doi_url": "https://doi.org/10.5281/zenodo.2635487",
+  "files": [
+    {
+      "checksum": "md5:dd984ddf4b8e77ff048d882100ba101d",
+      "id": "51cf466d-6ae5-44d2-b044-d90a45229aec",
+      "key": "Archaeology40.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/2635487/files/Archaeology40.pdf/content"
+      },
+      "size": 3537296
+    }
+  ],
+  "id": 2635487,
+  "links": {
+    "access": "https://zenodo.org/api/records/2635487/access",
+    "access_grants": "https://zenodo.org/api/records/2635487/access/grants",
+    "access_links": "https://zenodo.org/api/records/2635487/access/links",
+    "access_request": "https://zenodo.org/api/records/2635487/access/request",
+    "access_users": "https://zenodo.org/api/records/2635487/access/users",
+    "archive": "https://zenodo.org/api/records/2635487/files-archive",
+    "archive_media": "https://zenodo.org/api/records/2635487/media-files-archive",
+    "communities": "https://zenodo.org/api/records/2635487/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/2635487/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.2635487",
+    "draft": "https://zenodo.org/api/records/2635487/draft",
+    "file_modification": "https://zenodo.org/api/records/2635487/file-modification",
+    "files": "https://zenodo.org/api/records/2635487/files",
+    "latest": "https://zenodo.org/api/records/2635487/versions/latest",
+    "latest_html": "https://zenodo.org/records/2635487/latest",
+    "media_files": "https://zenodo.org/api/records/2635487/media-files",
+    "parent": "https://zenodo.org/api/records/2629595",
+    "parent_doi": "https://doi.org/10.5281/zenodo.2629595",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2629595",
+    "parent_html": "https://zenodo.org/records/2629595",
+    "preview_html": "https://zenodo.org/records/2635487?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/2635487/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/2635487/request-deletion",
+    "requests": "https://zenodo.org/api/records/2635487/requests",
+    "reserve_doi": "https://zenodo.org/api/records/2635487/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/2635487",
+    "self_doi": "https://doi.org/10.5281/zenodo.2635487",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2635487",
+    "self_html": "https://zenodo.org/records/2635487",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:2635487/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:2635487/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:2635487:Archaeology40.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:2635487:Archaeology40.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:2635487:Archaeology40.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:2635487:Archaeology40.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:2635487:Archaeology40.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:2635487:Archaeology40.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/2635487/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>We are in the middle of the digital transformation era, which, as a digital revolution, aects society in economic as well as<br>\nin scientic terms. This digital revolution as a third part of industrial revolution is based on digital technologies that have<br>\nalready become established in individual stages in various areas of life. Terms such as Industry 4.0, Work 4.0 and Web 4.0 are<br>\nlived reality in our digital society.</p>\n\n<p>Archeology has also undergone a digital transformation from an analogous science to an Archaeology 4.0. Starting with an<br>\nanalogue era, in which research data was kept in books, followed by a digital era in which digitization progresses and data are<br>\npublished on the WWW, followed by a semantic era, in which semantic modelling and publication of Linked Data is reality,<br>\nwe end up in a knowledge era, in which the analysis and the creation of new knowledge through machines will be reality.</p>",
+    "doi": "10.5281/zenodo.2635487",
+    "imprint": {
+      "isbn": "10.5281/zenodo.2643727",
+      "place": "Mainz, Germany"
+    },
+    "keywords": [
+      "Archaeology 4.0",
+      "Linked Data",
+      "Semantic Reasoning",
+      "Articial Intelligence"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2019-04-05",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.2643727",
+        "relation": "isReferencedBy",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "2629595"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "workingpaper",
+      "title": "Working paper",
+      "type": "publication"
+    },
+    "title": "Archaeology 4.0: Archaeology in the Third Era of Computing"
+  },
+  "modified": "2024-07-24T21:20:14.886837+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "2635487",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Archaeology 4.0: Archaeology in the Third Era of Computing",
+  "updated": "2024-07-24T21:20:14.886837+00:00"
+}

@@ -1,0 +1,149 @@
+{
+  "conceptdoi": "10.5281/zenodo.16931907",
+  "conceptrecid": "16931907",
+  "created": "2025-09-11T14:12:11.675741+00:00",
+  "doi": "10.5281/zenodo.16931908",
+  "doi_url": "https://doi.org/10.5281/zenodo.16931908",
+  "files": [
+    {
+      "checksum": "md5:a24171466e6bcafcbb4d7aa1db120d6f",
+      "id": "3c02faa1-4a29-49cf-8069-3aed9c72a115",
+      "key": "CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/16931908/files/CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf/content"
+      },
+      "size": 9835941
+    }
+  ],
+  "id": 16931908,
+  "links": {
+    "access": "https://zenodo.org/api/records/16931908/access",
+    "access_grants": "https://zenodo.org/api/records/16931908/access/grants",
+    "access_links": "https://zenodo.org/api/records/16931908/access/links",
+    "access_request": "https://zenodo.org/api/records/16931908/access/request",
+    "access_users": "https://zenodo.org/api/records/16931908/access/users",
+    "archive": "https://zenodo.org/api/records/16931908/files-archive",
+    "archive_media": "https://zenodo.org/api/records/16931908/media-files-archive",
+    "communities": "https://zenodo.org/api/records/16931908/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/16931908/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.16931908",
+    "draft": "https://zenodo.org/api/records/16931908/draft",
+    "file_modification": "https://zenodo.org/api/records/16931908/file-modification",
+    "files": "https://zenodo.org/api/records/16931908/files",
+    "latest": "https://zenodo.org/api/records/16931908/versions/latest",
+    "latest_html": "https://zenodo.org/records/16931908/latest",
+    "media_files": "https://zenodo.org/api/records/16931908/media-files",
+    "parent": "https://zenodo.org/api/records/16931907",
+    "parent_doi": "https://doi.org/10.5281/zenodo.16931907",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16931907",
+    "parent_html": "https://zenodo.org/records/16931907",
+    "preview_html": "https://zenodo.org/records/16931908?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/16931908/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/16931908/request-deletion",
+    "requests": "https://zenodo.org/api/records/16931908/requests",
+    "reserve_doi": "https://zenodo.org/api/records/16931908/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/16931908",
+    "self_doi": "https://doi.org/10.5281/zenodo.16931908",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16931908",
+    "self_html": "https://zenodo.org/records/16931908",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16931908/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16931908/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:16931908:CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:16931908:CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:16931908:CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:16931908:CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:16931908:CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:16931908:CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/16931908/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "cordi-2025"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Technische Informationsbibliothek (TIB)",
+        "name": "Lozana, Rossenova",
+        "orcid": "0000-0002-5190-1867"
+      },
+      {
+        "affiliation": "FIZ Karlsruhe – Leibniz Institute for Information Infrastructure",
+        "name": "Mietchen, Daniel",
+        "orcid": "0000-0001-9488-1870"
+      }
+    ],
+    "description": "<p>The emerging ecosystem of distributed research data knowledge graphs (KGs) within the NFDI presents new opportunities&mdash;but also profound challenges&mdash;for semantic interoperability and federated querying. This contribution explores these challenges through the lens of the Wikiverse (Wikibase, Wikidata) and OpenStreetMap (OSM) as community-driven infrastructures for managing Linked Open Data (LOD), with a focus on their potential as hubs for semantic integration across heterogeneous data domains. NFDI consortia representing diverse research fields, e.g. NFDI4Objects, NFDI4Culture, BERD@NFDI, NFDI4Society, MaRDI, and the cross-cutting Base4NFDI&mdash;are increasingly investing in distributed KG solutions tailored to their respective research communities. However, diverse modelling paradigms (e.g. RDF vs. LPG), ontological frameworks (e.g. CIDOC CRM vs. BFO or schema.org), and terminological conventions remain significant barriers to integration. The Basic Services TS4NFDI and KGI4NFDI address these gaps by offering infrastructure components for terminology alignment and KG federation. This paper contributes to this discourse by evaluating how community-maintained infrastructures&mdash;especially Wikibase instances and Wikidata&mdash;can support harmonisation efforts and serve as semantic reference points across consortia while raising new issues and challenges in federating the queries. Drawing on current collaborative experiences from the Knowledge Graph Ecosystem within the NFDI, we examine how federated SPARQL queries can be (and cannot be) executed across distributed instances. Federated querying remains technically complex due to inconsistent endpoint configurations, naming conventions, and ontology alignments. These issues are especially pressing in projects using custom Wikibase installations, such as FactGrid, fuzzy-sl, and Semantic Kompakkt. Wikidata is an important semantic hub for external identifiers, cross-linking with OSM, terminologies, and LOD cloud resources. Its SPARQL endpoint, collaborative curation model, and breadth of scope make it an invaluable resource for interoperable queries across domains. The contribution highlights how these concepts apply in real-world settings through use cases from NFDI4Objects, NFDI4Culture and MaRDI: (1) Linked Open Ogham, cf. CIIC 81; (2) Linked Open Samian Ware integrating findspots across LOD repositories; (3) Babylonian mathematics on archaeological objects, e.g., Si.427, K08538 or MS 3042; (4) the Stolpersteine Project explores crowd-sourced volunteered geographic information (VGI) integration; (5) cuneiform tablets made available as 3D scan, LOD in Wikidata and FactGrid. Each example illustrates technical and conceptual hurdles for data federation, such as property mappings, namespace collisions, and endpoint restrictions. The contribution reflects the sustainability and scalability of current approaches, outlining key lessons learned from recent federation workshops and NFDI-wide coordination efforts. The most promising developments are infrastructure synergies, including services from Base4NFDI, improved query tooling using FAIRification Tools&mdash;e.g., SPARQLing Unicorn&mdash; and emerging AI-supported ontology alignment and SPARQL query generation methods. By examining the structural complexities and design patterns of distributed semantic infrastructures, we argue that Wikidata and the broader Wikibase ecosystem can play a vital role in bridging disciplinary silos&mdash;if adequately supported through community-driven service development and harmonisation efforts.</p>",
+    "doi": "10.5281/zenodo.16931908",
+    "journal": {
+      "issue": "5",
+      "pages": "𝒬9",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CoRDI 2025",
+      "dates": "26-28 Aug 2025",
+      "place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+      "session": "Humanities and Social Sciences: Machine-actionable data and tools for the humanities",
+      "session_part": "Semantic technologies and linked data",
+      "title": "2nd Conference on Research Data Infrastructure (CoRDI)",
+      "url": "https://www.nfdi.de/cordi-2025/"
+    },
+    "publication_date": "2025-08-26",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.16736047",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-conferenceproceeding",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "16931907"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Distributed Research Data Knowledge Graphs"
+  },
+  "modified": "2025-09-11T14:12:11.922943+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "16931908",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Distributed Research Data Knowledge Graphs",
+  "updated": "2025-09-11T14:12:11.922943+00:00"
+}

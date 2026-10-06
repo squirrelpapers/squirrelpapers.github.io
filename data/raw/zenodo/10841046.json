@@ -1,0 +1,141 @@
+{
+  "conceptdoi": "10.5281/zenodo.10841046",
+  "conceptrecid": "10841046",
+  "created": "2024-03-20T20:20:05.958680+00:00",
+  "doi": "10.5281/zenodo.10841047",
+  "doi_url": "https://doi.org/10.5281/zenodo.10841047",
+  "files": [
+    {
+      "checksum": "md5:5a5a44f2195180430286756a6c36c767",
+      "id": "01dafa44-467b-4310-9001-8eaaf0526ea5",
+      "key": "FOSSGIS_Hamburg_2024 _ThieryHomburg_GKTTQH.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/10841047/files/FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf/content"
+      },
+      "size": 10859570
+    }
+  ],
+  "id": 10841047,
+  "links": {
+    "access": "https://zenodo.org/api/records/10841047/access",
+    "access_grants": "https://zenodo.org/api/records/10841047/access/grants",
+    "access_links": "https://zenodo.org/api/records/10841047/access/links",
+    "access_request": "https://zenodo.org/api/records/10841047/access/request",
+    "access_users": "https://zenodo.org/api/records/10841047/access/users",
+    "archive": "https://zenodo.org/api/records/10841047/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10841047/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10841047/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10841047/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10841047",
+    "draft": "https://zenodo.org/api/records/10841047/draft",
+    "file_modification": "https://zenodo.org/api/records/10841047/file-modification",
+    "files": "https://zenodo.org/api/records/10841047/files",
+    "latest": "https://zenodo.org/api/records/10841047/versions/latest",
+    "latest_html": "https://zenodo.org/records/10841047/latest",
+    "media_files": "https://zenodo.org/api/records/10841047/media-files",
+    "parent": "https://zenodo.org/api/records/10841046",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10841046",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10841046",
+    "parent_html": "https://zenodo.org/records/10841046",
+    "preview_html": "https://zenodo.org/records/10841047?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/10841047/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/10841047/request-deletion",
+    "requests": "https://zenodo.org/api/records/10841047/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10841047/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10841047",
+    "self_doi": "https://doi.org/10.5281/zenodo.10841047",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10841047",
+    "self_html": "https://zenodo.org/records/10841047",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10841047/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10841047/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:10841047:FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:10841047:FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:10841047:FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:10841047:FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:10841047:FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:10841047:FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/10841047/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "alternate_identifiers": [
+      {
+        "identifier": "https://pretalx.com/fossgis2024/talk/GKTTQH/"
+      }
+    ],
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Research Squirrel Engineers Network",
+        "name": "Homburg, Timo",
+        "orcid": "0000-0002-9499-5840"
+      }
+    ],
+    "description": "<p>We introduce the ontology documentation feature of the SPARQLing Unicorn QGIS Plugin, allowing the conversion of RDF data dumps to static HTML deployments with static versions of well-known APIs such as OGC API Features. Contents of RDF data are deployed interoperably accessible for many research communities. Our talk shows the tool's motivation, conversion process with test datasets, discusses limitations, standardization issues and future developments of this approach in general.</p>",
+    "doi": "10.5281/zenodo.10841047",
+    "journal": {
+      "issue": "3",
+      "pages": "#7",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "FOSSGIS 2024",
+      "dates": "20-23 March 2024",
+      "place": "TUHH Hamburg",
+      "session": "Daten, Datenbanken und Datenprozessierung",
+      "title": "FOSSGIS-Konferenz Hamburg",
+      "url": "https://fossgis-konferenz.de/2024/"
+    },
+    "publication_date": "2024-03-20",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10841046"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs"
+  },
+  "modified": "2024-07-06T20:52:42.262953+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "10841047",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs",
+  "updated": "2024-07-06T20:52:42.262953+00:00"
+}

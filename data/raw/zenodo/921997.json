@@ -1,0 +1,136 @@
+{
+  "conceptdoi": "10.5281/zenodo.921996",
+  "conceptrecid": "921996",
+  "created": "2017-09-22T06:49:02.477041+00:00",
+  "doi": "10.5281/zenodo.921997",
+  "doi_url": "https://doi.org/10.5281/zenodo.921997",
+  "files": [
+    {
+      "checksum": "md5:7f892b7131df42cde144872443fa66ff",
+      "id": "3875aa45-e104-44b4-866f-0fa86720163c",
+      "key": "2017_DHRMU_Poster.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/921997/files/2017_DHRMU_Poster.pdf/content"
+      },
+      "size": 43866
+    }
+  ],
+  "id": 921997,
+  "links": {
+    "access": "https://zenodo.org/api/records/921997/access",
+    "access_grants": "https://zenodo.org/api/records/921997/access/grants",
+    "access_links": "https://zenodo.org/api/records/921997/access/links",
+    "access_request": "https://zenodo.org/api/records/921997/access/request",
+    "access_users": "https://zenodo.org/api/records/921997/access/users",
+    "archive": "https://zenodo.org/api/records/921997/files-archive",
+    "archive_media": "https://zenodo.org/api/records/921997/media-files-archive",
+    "communities": "https://zenodo.org/api/records/921997/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/921997/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.921997",
+    "draft": "https://zenodo.org/api/records/921997/draft",
+    "file_modification": "https://zenodo.org/api/records/921997/file-modification",
+    "files": "https://zenodo.org/api/records/921997/files",
+    "latest": "https://zenodo.org/api/records/921997/versions/latest",
+    "latest_html": "https://zenodo.org/records/921997/latest",
+    "media_files": "https://zenodo.org/api/records/921997/media-files",
+    "parent": "https://zenodo.org/api/records/921996",
+    "parent_doi": "https://doi.org/10.5281/zenodo.921996",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.921996",
+    "parent_html": "https://zenodo.org/records/921996",
+    "preview_html": "https://zenodo.org/records/921997?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/921997/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/921997/request-deletion",
+    "requests": "https://zenodo.org/api/records/921997/requests",
+    "reserve_doi": "https://zenodo.org/api/records/921997/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/921997",
+    "self_doi": "https://doi.org/10.5281/zenodo.921997",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.921997",
+    "self_html": "https://zenodo.org/records/921997",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:921997/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:921997/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:921997:2017_DHRMU_Poster.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:921997:2017_DHRMU_Poster.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:921997:2017_DHRMU_Poster.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:921997:2017_DHRMU_Poster.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:921997:2017_DHRMU_Poster.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:921997:2017_DHRMU_Poster.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/921997/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "linkedgeodesy"
+      },
+      {
+        "id": "mainzed"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "i3mainz - Institut für Raumbezogene Informations- und Messtechnik",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "i3mainz - Institut für Raumbezogene Informations- und Messtechnik",
+        "name": "Axel Kunz"
+      },
+      {
+        "affiliation": "i3mainz - Institut für Raumbezogene Informations- und Messtechnik",
+        "name": "Matthias Dufner"
+      }
+    ],
+    "description": "<p>Als Linked Open Data wird die direkte Vernetzung von frei verf&uuml;gbaren Daten im Internet bezeichnet. Aufgrund der st&auml;ndig wachsenden Datenmenge ergeben sich f&uuml;r die Wissenschaften daraus ganz neue Erkenntnism&ouml;glichkeiten.<br>\nDieses Wissensnetzwerk k&auml;mpft unter anderem mit dem Problem von nicht eindeutigen Begrifflichkeiten. Der nat&uuml;rliche Wortlaut eines Begriffs gen&uuml;gt datenverarbeitenden Systemen oftmals nicht, um sich dessen exakte Bedeutung zu erschlie&szlig;en. Eine maschinenlesbare Definition beinhaltet daher neben nat&uuml;rlichsprachlicher Erl&auml;uterungen auch Verkn&uuml;pfungen zu anderen Datenquellen, um den korrekten Begriffskontext sicherzustellen.<br>\nLabeling System ist eine Web-App, die an dieser Stelle ansetzt und mittels einer leicht bedienbaren Nutzeroberfl&auml;che das Erstellen von Begriffen und deren maschinenlesbarer Definitionen erm&ouml;glicht.<br>\nWissenschaftler*innen haben so die M&ouml;glichkeit, ihr Wissen als &rdquo;Linked Open Data&ldquo; zur Verf&uuml;gung zu stellen und somit die Qualit&auml;t der Forschungsdaten in ihrem Arbeitsgebiet zu verbessern.</p>",
+    "doi": "10.5281/zenodo.921997",
+    "keywords": [
+      "linked data",
+      "webapp",
+      "usability",
+      "publizierenImNetz",
+      "metadaten"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "21.09.2017",
+      "place": "Mainz, Germany",
+      "title": "Get Together DH-RMU"
+    },
+    "publication_date": "2017-09-21",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "921996"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+    },
+    "title": "labeling system"
+  },
+  "modified": "2024-08-03T06:21:53.586795+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "921997",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "labeling system",
+  "updated": "2024-08-03T06:21:53.586795+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 48.145208,
+    "lon": 11.566619
+  },
+  "country": [
+    "Q2415901"
+  ],
+  "descriptions": {
+    "de": "in Nachkriegszeit von US-Militärregierung in München eingerichtete zentrale Sammelstelle für aufgefundene Kunstwerke des nationalsozialistischen Kunstraubs für süddeutschen Raum",
+    "en": "depot used by the Monuments, Fine Arts, and Archives program after the end of the Second World War to process, photograph and redistribute artwork and cultural artefacts that had been confiscated by the Nazis and hidden throughout Germany and Austria"
+  },
+  "id": "Q1053735",
+  "instance_of": [
+    "Q181623",
+    "Q43229",
+    "Q7328910"
+  ],
+  "labels": {
+    "de": "Munich Central Collecting Point",
+    "en": "Munich Central Collecting Point"
+  }
+}

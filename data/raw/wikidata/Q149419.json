@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 48.041389,
+    "lon": 7.134167
+  },
+  "country": [
+    "Q142"
+  ],
+  "descriptions": {
+    "de": "französische Gemeinde im Elsass",
+    "en": "commune in Haut-Rhin, France"
+  },
+  "id": "Q149419",
+  "instance_of": [
+    "Q484170"
+  ],
+  "labels": {
+    "de": "Munster",
+    "en": "Munster"
+  }
+}

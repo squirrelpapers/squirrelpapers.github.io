@@ -1,0 +1,31 @@
+{
+  "coordinates": {
+    "lat": 51.9625,
+    "lon": 7.625556
+  },
+  "country": [
+    "Q142",
+    "Q183",
+    "Q249428",
+    "Q27306",
+    "Q697254"
+  ],
+  "descriptions": {
+    "de": "Stadt in Nordrhein-Westfalen, Deutschland",
+    "en": "city in North Rhine-Westphalia, Germany"
+  },
+  "id": "Q2742",
+  "instance_of": [
+    "Q106517174",
+    "Q1187811",
+    "Q1392581",
+    "Q1549591",
+    "Q42744322",
+    "Q707813",
+    "Q85635630"
+  ],
+  "labels": {
+    "de": "Münster",
+    "en": "Münster"
+  }
+}

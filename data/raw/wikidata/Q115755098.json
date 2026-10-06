@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 49.993565,
+    "lon": 8.281334
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Forschungsinstitut und Forschungsmuseum für Archäologie in der Leibniz-Gemeinschaft",
+    "en": "Research institute and museum for archaeology as part of the Leibniz association"
+  },
+  "id": "Q115755098",
+  "instance_of": [
+    "Q31855",
+    "Q33506"
+  ],
+  "labels": {
+    "de": "Leibniz-Zentrum für Archäologie",
+    "en": "Leibniz-Zentrum für Archäologie"
+  }
+}

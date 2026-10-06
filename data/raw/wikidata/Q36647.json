@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 51.9,
+    "lon": -8.473056
+  },
+  "country": [
+    "Q27"
+  ],
+  "descriptions": {
+    "de": "Stadt im südlichen Irland",
+    "en": "city in County Cork, Munster Province, Ireland"
+  },
+  "id": "Q36647",
+  "instance_of": [
+    "Q13455645",
+    "Q1549591",
+    "Q515"
+  ],
+  "labels": {
+    "de": "Cork",
+    "en": "Cork"
+  }
+}

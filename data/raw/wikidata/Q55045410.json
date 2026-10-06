@@ -1,0 +1,19 @@
+{
+  "coordinates": {
+    "lat": 51.89844,
+    "lon": -8.48362
+  },
+  "country": [
+    "Q27"
+  ],
+  "descriptions": {
+    "en": "former flour mill in Cork, County Cork, Ireland, now part of University College Cork campus"
+  },
+  "id": "Q55045410",
+  "instance_of": [
+    "Q185187"
+  ],
+  "labels": {
+    "en": "University College Cork, The Maltings Complex"
+  }
+}

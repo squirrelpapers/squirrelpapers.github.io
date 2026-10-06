@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 45.749,
+    "lon": 15.571
+  },
+  "country": [
+    "Q224"
+  ],
+  "descriptions": {
+    "de": "Gespanschaft Kroatiens",
+    "en": "county in central Croatia"
+  },
+  "id": "Q27038",
+  "instance_of": [
+    "Q57053"
+  ],
+  "labels": {
+    "de": "Gespanschaft Zagreb",
+    "en": "Zagreb County"
+  }
+}

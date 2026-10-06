@@ -1,0 +1,163 @@
+{
+  "conceptdoi": "10.5281/zenodo.13897231",
+  "conceptrecid": "13897231",
+  "created": "2024-10-09T20:01:22.732577+00:00",
+  "doi": "10.5281/zenodo.13897232",
+  "doi_url": "https://doi.org/10.5281/zenodo.13897232",
+  "files": [
+    {
+      "checksum": "md5:8e629fdaded0074a9fbdd5e810c0243c",
+      "id": "7e3300e5-c407-4325-9ff1-67fe02d2027f",
+      "key": "AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13897232/files/AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf/content"
+      },
+      "size": 30961293
+    }
+  ],
+  "id": 13897232,
+  "links": {
+    "access": "https://zenodo.org/api/records/13897232/access",
+    "access_grants": "https://zenodo.org/api/records/13897232/access/grants",
+    "access_links": "https://zenodo.org/api/records/13897232/access/links",
+    "access_request": "https://zenodo.org/api/records/13897232/access/request",
+    "access_users": "https://zenodo.org/api/records/13897232/access/users",
+    "archive": "https://zenodo.org/api/records/13897232/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13897232/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13897232/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13897232/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13897232",
+    "draft": "https://zenodo.org/api/records/13897232/draft",
+    "file_modification": "https://zenodo.org/api/records/13897232/file-modification",
+    "files": "https://zenodo.org/api/records/13897232/files",
+    "latest": "https://zenodo.org/api/records/13897232/versions/latest",
+    "latest_html": "https://zenodo.org/records/13897232/latest",
+    "media_files": "https://zenodo.org/api/records/13897232/media-files",
+    "parent": "https://zenodo.org/api/records/13897231",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13897231",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13897231",
+    "parent_html": "https://zenodo.org/records/13897231",
+    "preview_html": "https://zenodo.org/records/13897232?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13897232/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13897232/request-deletion",
+    "requests": "https://zenodo.org/api/records/13897232/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13897232/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13897232",
+    "self_doi": "https://doi.org/10.5281/zenodo.13897232",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13897232",
+    "self_html": "https://zenodo.org/records/13897232",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13897232/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13897232/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13897232:AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13897232:AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13897232:AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13897232:AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13897232:AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13897232:AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13897232/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "contributors": [
+      {
+        "affiliation": null,
+        "name": "Trognitz, Martina",
+        "type": "ProjectMember"
+      },
+      {
+        "affiliation": null,
+        "name": "Danthine, Brigit",
+        "type": "ProjectMember"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": null,
+        "name": "Schenk, Fiona"
+      },
+      {
+        "affiliation": null,
+        "name": "Schmidt, Sophie C."
+      },
+      {
+        "affiliation": null,
+        "name": "Homburg, Timo"
+      },
+      {
+        "affiliation": null,
+        "name": "Distel, Anne-Karoline"
+      },
+      {
+        "affiliation": null,
+        "name": "Thiery, Peter"
+      }
+    ],
+    "description": "<p>Die nachvollziehbare/kolloberative Erfassung und FAIRifizierung von Forschungsdaten wird in der Citizen Science Community immer wichtiger, um so ein Teil eines arch&auml;ologischen Wissensgraphen zu werden und das bereits vernetzte Datennetzwerk durch qualifizierte Daten anzureichern. Denn nur so k&ouml;nnen diese Daten auch mit anderen Daten verkn&uuml;pft werden und in internationale Initiativen (z.B. NFDI4Objects) und Community-Hubs (z.B. Wikidata, OpenStreetMap) aktiv eingebunden werden. Dabei sind Open Source (FOSS) Research und FAIRification Tools leider oft nicht verf&uuml;gbar. Diese, im Zusammenwirken mit Linked Open Data Projekten als Demonstratoren, k&ouml;nnen von Community- und freiwilligen Initiativen wie z.B. dem Research Squirrel Engineers Network jedoch erstellt und kuratiert werden.</p>\n<p>Dieses Paper stellt die Research Squirrel Engineers Network Initiative, drei Research und FAIRification Tools und drei Projekte der Research Squirrels vor. Diese k&ouml;nnen als digitale Services zum digitalen Datenmanagement der Arch&auml;ologie dienen. Das Paper stellt daher auch die Ziele, den Nutzen und die Umsetzung der Squirrel Tools vor.</p>\n<p>Das Research Squirrel Engineers Network (gegr&uuml;ndet 2019 zur Implementierung des SPARQL Unicorns) ist ein loser Zusammenschluss von Linked Open Data/Wikidata-Enthusias*Innen, Research Software Engineers und Citizen Scientists mit den Schwerpunkten Arch&auml;oinformatik, Digital Humanities und Geoinformatik. Die Mitglieder entwickeln und maintainen zusammen Research und FAIRification Tools und setzen diese in konkreten Projekten um.</p>\n<p>Ein FAIRification Tool f&uuml;r das digitale Datenmanagement ist das SPARQL Unicorn und dessen Implementierung f&uuml;r QGIS. Das SPARQLing Unicorn QGIS Plugin (Abb. 1, rechts) erm&ouml;glicht es, Linked-Data-Anfragen in (Geo)SPARQL an Triple-Stores zu senden (Abb. 1, links) und bereitet die Ergebnisse f&uuml;r die Geocommunity in QGIS auf. Es bietet derzeit drei Hauptfunktionen: (A) Vereinfachte Abfrage von Semantic Web Datenquellen (B) Anreicherung von Geodaten und (C) Transformation von QGIS-Vektorebenen nach RDF. Dar&uuml;ber hinaus erm&ouml;glicht das SPARQL Unicorn Ontology Documentation Tool z.B. per GitHub Action die automatisierte Erstellung von HTML Seiten von Linked Open Data Ver&ouml;ffentlichungen. Ein Beispiel ist die in gezeigte Abfrage zu irischen Ogham Sites auf der Dingle-Halbinsel, bzw. Daten aus dem Dissertationsprojekt von Sophie C. Schmidt zu &ldquo;Brandenburg 5.000 v. Chr.&rdquo;&nbsp; indem ein CIDOC CRM Datenmodell in Linked Open Data &uuml;berf&uuml;hrt und mit Hilfe des SPARQL Unicorns als HTML visualisiert wurde. Ein weiterer Service ist die &ldquo;Fuzzy Spatial Locations Ontology&rdquo;, in der Vagheiten, Unsicherheiten und Mehrdeutigkeiten in der Georeferenzierung mit Hilfe von Semantik und einer Ontology (basierend auf PROV-O) FAIR und nachvollziehbar gemacht werden. Ein Beispiel hierf&uuml;r sind Modellierungen von Fundorten der Erruption des Campanian Iginimbrite in den Phlegr&auml;ischen Feldern (39,940 yr b2k &plusmn; 150 years) die oft mit arch&auml;ologischen Fundorten korrespondieren, z.B. die Toplitsa H&ouml;hle in Bulgarien. Die &ldquo;Squirrel Papers&rdquo; komplementieren die Services um eine Plattform zu schaffen, auf der Working Papers, Daten, Software, Pr&auml;sentationsfolien und Poster zur Zitation ver&ouml;ffentlich werden k&ouml;nnen.</p>\n<p>Begleitet werden diese Services von Linked Open Data / Wikidata / Open Street Map und Wikimedia Commons Projekten, wie z.B. Linked Open Ogham, Holy Wells in Irland oder Linked Reindeers.</p>",
+    "doi": "10.5281/zenodo.13897232",
+    "journal": {
+      "issue": "3",
+      "pages": "#10",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "07-11 October 2024",
+      "place": "DBM Bochum",
+      "session": "Von der digital gestützten Ausgrabung zu digitalen Diensten in der Archäologie",
+      "session_part": "4",
+      "title": "Verbandstagung 2024 des NWVA e.V.",
+      "url": "https://va-bochum-2024.de/"
+    },
+    "publication_date": "2024-10-09",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13897231"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Das Research Squirrel Engineers Network: Digitale Services zum digitalen Datenmanagement aus der Archäoinformatik- und Citizen Science-Community"
+  },
+  "modified": "2024-10-09T20:01:23.006127+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13897232",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Das Research Squirrel Engineers Network: Digitale Services zum digitalen Datenmanagement aus der Archäoinformatik- und Citizen Science-Community",
+  "updated": "2024-10-09T20:01:23.006127+00:00"
+}

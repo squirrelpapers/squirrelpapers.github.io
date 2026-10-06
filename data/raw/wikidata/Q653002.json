@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 51.0528,
+    "lon": 13.7369
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Verbund von 15 weltberühmten Museen in Dresden",
+    "en": "complex of 15 world famous Museums in Dresden, Germany including the Gemäldegalerie Alte Meister, Galerie Neue Meister, and Dresden Castle"
+  },
+  "id": "Q653002",
+  "instance_of": [
+    "Q207694"
+  ],
+  "labels": {
+    "de": "Staatliche Kunstsammlungen Dresden",
+    "en": "Staatliche Kunstsammlungen Dresden"
+  }
+}

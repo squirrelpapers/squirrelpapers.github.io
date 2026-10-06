@@ -1,0 +1,137 @@
+{
+  "answers": {
+    "LEIZA [de]": [
+      {
+        "description": "Research institute and museum for archaeology as part of the Leibniz association",
+        "id": "Q115755098",
+        "label": "Leibniz-Zentrum für Archäologie"
+      },
+      {
+        "description": "archaeological research institute and museum in Mainz",
+        "id": "Q878029",
+        "label": "Römisch-Germanisches Zentralmuseum"
+      },
+      {
+        "description": "municipality of Spain",
+        "id": "Q1648056",
+        "label": "Leitza"
+      },
+      {
+        "description": "family name",
+        "id": "Q76829688",
+        "label": "Leizaola"
+      },
+      {
+        "description": "family name",
+        "id": "Q106854466",
+        "label": "Leizagoyen"
+      }
+    ],
+    "LEIZA [en]": [
+      {
+        "description": "archaeological research institute and museum in Mainz",
+        "id": "Q878029",
+        "label": "Römisch-Germanisches Zentralmuseum"
+      },
+      {
+        "description": "Research institute and museum for archaeology as part of the Leibniz association",
+        "id": "Q115755098",
+        "label": "Leibniz-Zentrum für Archäologie"
+      },
+      {
+        "description": "family name",
+        "id": "Q76829688",
+        "label": "Leizaola"
+      },
+      {
+        "description": "family name",
+        "id": "Q106854466",
+        "label": "Leizagoyen"
+      },
+      {
+        "description": "municipal capital of the homonymous municipality of Navarra, Spain",
+        "id": "Q120172892",
+        "label": "Leitza"
+      }
+    ],
+    "Leibniz-Zentrum für Archäologie [de]": [
+      {
+        "description": "Research institute and museum for archaeology as part of the Leibniz association",
+        "id": "Q115755098",
+        "label": "Leibniz-Zentrum für Archäologie"
+      },
+      {
+        "description": "archaeological research institute and museum in Mainz",
+        "id": "Q878029",
+        "label": "Römisch-Germanisches Zentralmuseum"
+      }
+    ],
+    "Leibniz-Zentrum für Archäologie [en]": [
+      {
+        "description": "archaeological research institute and museum in Mainz",
+        "id": "Q878029",
+        "label": "Römisch-Germanisches Zentralmuseum"
+      },
+      {
+        "description": "Research institute and museum for archaeology as part of the Leibniz association",
+        "id": "Q115755098",
+        "label": "Leibniz-Zentrum für Archäologie"
+      }
+    ],
+    "Mainz [de]": [
+      {
+        "description": "capital of the federal state Rhineland-Palatinate, Germany",
+        "id": "Q1720",
+        "label": "Mainz"
+      },
+      {
+        "description": "Bundesliga football club in Germany",
+        "id": "Q105254",
+        "label": "1. FSV Mainz 05"
+      },
+      {
+        "description": "public university in Mainz, Germany",
+        "id": "Q161982",
+        "label": "Johannes Gutenberg University Mainz"
+      },
+      {
+        "description": "human settlement in Germany",
+        "id": "Q32067943",
+        "label": "Mainz"
+      },
+      {
+        "description": "German-language journal",
+        "id": "Q6736845",
+        "label": "Mainz"
+      }
+    ],
+    "Mainz [en]": [
+      {
+        "description": "capital of the federal state Rhineland-Palatinate, Germany",
+        "id": "Q1720",
+        "label": "Mainz"
+      },
+      {
+        "description": "Bundesliga football club in Germany",
+        "id": "Q105254",
+        "label": "1. FSV Mainz 05"
+      },
+      {
+        "description": "district of Rhineland-Palatinate, Germany",
+        "id": "Q8569",
+        "label": "Mainz-Bingen district"
+      },
+      {
+        "description": "territory in the Holy Roman Empire",
+        "id": "Q284667",
+        "label": "Electorate of Mainz"
+      },
+      {
+        "description": "municipal district of the city of Wiesbaden in Hesse, Germany",
+        "id": "Q567545",
+        "label": "Mainz-Kastel"
+      }
+    ]
+  },
+  "label": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany"
+}

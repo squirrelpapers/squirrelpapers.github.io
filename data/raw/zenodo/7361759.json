@@ -1,0 +1,168 @@
+{
+  "conceptdoi": "10.5281/zenodo.7361759",
+  "conceptrecid": "7361759",
+  "created": "2022-11-25T15:03:17.996536+00:00",
+  "doi": "10.5281/zenodo.7361760",
+  "doi_url": "https://doi.org/10.5281/zenodo.7361760",
+  "files": [
+    {
+      "checksum": "md5:0ea2db4b62030fda0d9514ce3c69cc5d",
+      "id": "ea384cb7-af47-42bb-b79a-573261e4c6b4",
+      "key": "CAA_Tuebingen_2018_Thiery_Mees.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7361760/files/CAA_Tuebingen_2018_Thiery_Mees.pdf/content"
+      },
+      "size": 3570610
+    }
+  ],
+  "id": 7361760,
+  "links": {
+    "access": "https://zenodo.org/api/records/7361760/access",
+    "access_grants": "https://zenodo.org/api/records/7361760/access/grants",
+    "access_links": "https://zenodo.org/api/records/7361760/access/links",
+    "access_request": "https://zenodo.org/api/records/7361760/access/request",
+    "access_users": "https://zenodo.org/api/records/7361760/access/users",
+    "archive": "https://zenodo.org/api/records/7361760/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7361760/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7361760/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7361760/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7361760",
+    "draft": "https://zenodo.org/api/records/7361760/draft",
+    "file_modification": "https://zenodo.org/api/records/7361760/file-modification",
+    "files": "https://zenodo.org/api/records/7361760/files",
+    "latest": "https://zenodo.org/api/records/7361760/versions/latest",
+    "latest_html": "https://zenodo.org/records/7361760/latest",
+    "media_files": "https://zenodo.org/api/records/7361760/media-files",
+    "parent": "https://zenodo.org/api/records/7361759",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7361759",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7361759",
+    "parent_html": "https://zenodo.org/records/7361759",
+    "preview_html": "https://zenodo.org/records/7361760?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7361760/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7361760/request-deletion",
+    "requests": "https://zenodo.org/api/records/7361760/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7361760/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7361760",
+    "self_doi": "https://doi.org/10.5281/zenodo.7361760",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7361760",
+    "self_html": "https://zenodo.org/records/7361760",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7361760/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7361760/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7361760:CAA_Tuebingen_2018_Thiery_Mees.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7361760:CAA_Tuebingen_2018_Thiery_Mees.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7361760:CAA_Tuebingen_2018_Thiery_Mees.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7361760:CAA_Tuebingen_2018_Thiery_Mees.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7361760:CAA_Tuebingen_2018_Thiery_Mees.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7361760:CAA_Tuebingen_2018_Thiery_Mees.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7361760/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "alternate_identifiers": [
+      {
+        "identifier": "10.15496/publikation-87762"
+      },
+      {
+        "identifier": "10900/146421"
+      }
+    ],
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "contributors": [
+      {
+        "affiliation": "Universität Bonn",
+        "name": "Matthias Lang",
+        "type": "Editor"
+      },
+      {
+        "affiliation": "Universität Bonn",
+        "name": "Sonnemann, Till",
+        "type": "Editor"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "RGZM",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "RGZM",
+        "name": "Allard Mees",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<blockquote><p>Preprint of an article in the Proceedings of CAA 2018, now available via http://dx.doi.org/10.15496/publikation-87762.&nbsp;</p></blockquote><p>The Linked Data Cloud is full of controlled resources, which quality is in fact difficult to handle. Firstly, each resource collection, e.g. a thesaurus, is cooking its own soup related to its research context. Secondly, conceptualisation of Linked Open Data (LOD) assumes standardised data, but in reality, either generic concepts or real instances exist. Thirdly, archaeological items are usually related to generic instances in the LOD cloud, based on their object oriented nature. Describing these relations by modelling archaeological assumptions causes ambiguities which have to be tamed in order to guarantee data quality which can be reused. In this paper we will demonstrate this in three examples from the databases of the Römisch-Germanisches Zentralmuseum Mainz and are proposing ways to solve the handling of ambiguities with a software framework called Academic Meta Tool (AMT).</p>",
+    "doi": "10.5281/zenodo.7361760",
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CAA",
+      "dates": "19.04.-23.04.2018",
+      "place": "Tübingen, Germany",
+      "session": "S22 Semantic, Guaranteeing data quality in archaeological Linked Open Data",
+      "title": "Computer Applications and Quantitative Methods in Archaeology",
+      "url": "http://2018.caaconference.org/"
+    },
+    "publication_date": "2022-11-25",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.1200111",
+        "relation": "isDerivedFrom",
+        "resource_type": "presentation",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.15496/publikation-85121",
+        "relation": "isPublishedIn",
+        "resource_type": "publication-conferenceproceeding",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.15496/publikation-87762",
+        "relation": "isPublishedIn",
+        "resource_type": "publication-article",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7361759"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "preprint",
+      "title": "Preprint",
+      "type": "publication"
+    },
+    "title": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD"
+  },
+  "modified": "2024-07-15T16:31:58.232580+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7361760",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD",
+  "updated": "2024-07-15T16:31:58.232580+00:00"
+}

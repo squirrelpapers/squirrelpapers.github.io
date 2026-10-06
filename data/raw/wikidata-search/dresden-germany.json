@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Dresden [de]": [
+      {
+        "description": "capital city of the Free State of Saxony in Germany",
+        "id": "Q1731",
+        "label": "Dresden"
+      },
+      {
+        "description": "town in Tennessee, United States",
+        "id": "Q206353",
+        "label": "Dresden"
+      },
+      {
+        "description": "complex of 15 world famous Museums in Dresden, Germany including the Gemäldegalerie Alte Meister, Galerie Neue Meister, and Dresden Castle",
+        "id": "Q653002",
+        "label": "Staatliche Kunstsammlungen Dresden"
+      },
+      {
+        "description": "railway station in Dresden, Germany",
+        "id": "Q704354",
+        "label": "Dresden Central Station"
+      },
+      {
+        "description": "community in Ontario, Canada",
+        "id": "Q1258446",
+        "label": "Dresden"
+      }
+    ],
+    "Dresden [en]": [
+      {
+        "description": "capital city of the Free State of Saxony in Germany",
+        "id": "Q1731",
+        "label": "Dresden"
+      },
+      {
+        "description": "town in Tennessee, United States",
+        "id": "Q206353",
+        "label": "Dresden"
+      },
+      {
+        "description": "railway station in Dresden, Germany",
+        "id": "Q704354",
+        "label": "Dresden Central Station"
+      },
+      {
+        "description": "complex of 15 world famous Museums in Dresden, Germany including the Gemäldegalerie Alte Meister, Galerie Neue Meister, and Dresden Castle",
+        "id": "Q653002",
+        "label": "Staatliche Kunstsammlungen Dresden"
+      },
+      {
+        "description": "institute of higher education in the city of Dresden, Saxony, Germany, founded in 1828",
+        "id": "Q158158",
+        "label": "TU Dresden"
+      }
+    ]
+  },
+  "label": "Dresden, Germany"
+}

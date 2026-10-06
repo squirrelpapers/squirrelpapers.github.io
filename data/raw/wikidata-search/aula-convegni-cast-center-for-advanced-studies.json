@@ -1,0 +1,61 @@
+{
+  "answers": {
+    "Aula Convegni CAST [de]": [],
+    "Aula Convegni CAST [en]": [],
+    "Chieti [de]": [
+      {
+        "description": "Italian comune",
+        "id": "Q13138",
+        "label": "Chieti"
+      },
+      {
+        "description": "association sports club in Chieti, Italy",
+        "id": "Q1026324",
+        "label": "S.S. Chieti Calcio"
+      },
+      {
+        "description": "province of Italy",
+        "id": "Q16160",
+        "label": "Province of Chieti"
+      },
+      {
+        "description": "",
+        "id": "Q136671488",
+        "label": "Chieti"
+      },
+      {
+        "description": "railway station in Chieti, Italy",
+        "id": "Q3969405",
+        "label": "Chieti railway station"
+      }
+    ],
+    "Chieti [en]": [
+      {
+        "description": "Italian comune",
+        "id": "Q13138",
+        "label": "Chieti"
+      },
+      {
+        "description": "province of Italy",
+        "id": "Q16160",
+        "label": "Province of Chieti"
+      },
+      {
+        "description": "",
+        "id": "Q136671488",
+        "label": "Chieti"
+      },
+      {
+        "description": "railway station in Chieti, Italy",
+        "id": "Q3969405",
+        "label": "Chieti railway station"
+      },
+      {
+        "description": "",
+        "id": "Q3891936",
+        "label": "Pallacanestro Chieti"
+      }
+    ]
+  },
+  "label": "Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti Scalo, Chieti, Italy"
+}

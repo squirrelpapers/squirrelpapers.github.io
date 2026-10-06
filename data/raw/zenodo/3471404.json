@@ -1,0 +1,160 @@
+{
+  "conceptdoi": "10.5281/zenodo.3471404",
+  "conceptrecid": "3471404",
+  "created": "2019-10-03T21:16:31.717114+00:00",
+  "doi": "10.5281/zenodo.3471932",
+  "doi_url": "https://doi.org/10.5281/zenodo.3471932",
+  "files": [
+    {
+      "checksum": "md5:f2e704ed685840213c2ad2a4f7d9ebbf",
+      "id": "80aec407-7b63-4c79-88f9-373fc424ad94",
+      "key": "2019_10_04_CAA-UK2019_SparqlUnicorn.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/3471932/files/2019_10_04_CAA-UK2019_SparqlUnicorn.pdf/content"
+      },
+      "size": 4869561
+    },
+    {
+      "checksum": "md5:21413dfb1906649490a8a5438b73493f",
+      "id": "3b26f240-cdff-40f0-9a52-1bcdb34dcd19",
+      "key": "2019_10_04_CAA-UK2019_SparqlUnicorn.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/3471932/files/2019_10_04_CAA-UK2019_SparqlUnicorn.pptx/content"
+      },
+      "size": 38468224
+    }
+  ],
+  "id": 3471932,
+  "links": {
+    "access": "https://zenodo.org/api/records/3471932/access",
+    "access_grants": "https://zenodo.org/api/records/3471932/access/grants",
+    "access_links": "https://zenodo.org/api/records/3471932/access/links",
+    "access_request": "https://zenodo.org/api/records/3471932/access/request",
+    "access_users": "https://zenodo.org/api/records/3471932/access/users",
+    "archive": "https://zenodo.org/api/records/3471932/files-archive",
+    "archive_media": "https://zenodo.org/api/records/3471932/media-files-archive",
+    "communities": "https://zenodo.org/api/records/3471932/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/3471932/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.3471932",
+    "draft": "https://zenodo.org/api/records/3471932/draft",
+    "file_modification": "https://zenodo.org/api/records/3471932/file-modification",
+    "files": "https://zenodo.org/api/records/3471932/files",
+    "latest": "https://zenodo.org/api/records/3471932/versions/latest",
+    "latest_html": "https://zenodo.org/records/3471932/latest",
+    "media_files": "https://zenodo.org/api/records/3471932/media-files",
+    "parent": "https://zenodo.org/api/records/3471404",
+    "parent_doi": "https://doi.org/10.5281/zenodo.3471404",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3471404",
+    "parent_html": "https://zenodo.org/records/3471404",
+    "preview_html": "https://zenodo.org/records/3471932?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/3471932/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/3471932/request-deletion",
+    "requests": "https://zenodo.org/api/records/3471932/requests",
+    "reserve_doi": "https://zenodo.org/api/records/3471932/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/3471932",
+    "self_doi": "https://doi.org/10.5281/zenodo.3471932",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3471932",
+    "self_html": "https://zenodo.org/records/3471932",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3471932/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3471932/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:3471932:2019_10_04_CAA-UK2019_SparqlUnicorn.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:3471932:2019_10_04_CAA-UK2019_SparqlUnicorn.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:3471932:2019_10_04_CAA-UK2019_SparqlUnicorn.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:3471932:2019_10_04_CAA-UK2019_SparqlUnicorn.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:3471932:2019_10_04_CAA-UK2019_SparqlUnicorn.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:3471932:2019_10_04_CAA-UK2019_SparqlUnicorn.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/3471932/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "ACDH-ÖAW",
+        "name": "Matina Trognitz",
+        "orcid": "0000-0003-0485-6861"
+      },
+      {
+        "affiliation": "mainzed",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>In archaeological research and documentation, databases recording finds, sites and analyses, play a central role. Some of these databases are available as online resources, few of them are made openly available and accessible and even less are linked into the Linked Open Data Cloud. This hinders comparative analyses of records across multiple datasets. But there is one database that has been around since 2012 and recently gained momentum: Wikidata.</p>\n\n<p>Wikidata is a secondary database for structured data. Data in it is also enriched with source information, i.e. references about where the information came from. Additionally, connections to other databases, like the Getty AAT, are provided by inclusion of their IDs. In this way, Wikidata not only contains information about e.g. specific archaeological objects, but also helps in providing links to other datasets with further information. Wikidata can be accessed via a dedicated SPARQL endpoint.</p>\n\n<p>We are working towards a little minion: the SPARQL UNICORN. Its aim is to help researchers in using the community driven data from Wikidata and make it accessible to them without expertise in LOD or SPARQL. As a first step, we are currently exploring the already existing tools, as well as the archaeological content in Wikidata and will present our findings along an introduction to Wikidata and its data model.</p>",
+    "doi": "10.5281/zenodo.3471932",
+    "keywords": [
+      "Wikidata",
+      "Linked Data",
+      "R",
+      "Ogham"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CAA-UK 2019",
+      "dates": "04.10.-05.10.2019",
+      "place": "Bournemouth, United Kingdom",
+      "session": "II",
+      "session_part": "2",
+      "title": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology",
+      "url": "https://uk.caa-international.org/2019-bournemouth/"
+    },
+    "publication_date": "2019-10-04",
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "3471404"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "subjects": [
+      {
+        "identifier": "http://www.wikidata.org/entity/Q71937877",
+        "scheme": "url",
+        "term": "SPARQL Unicorn"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q70873595",
+        "scheme": "url",
+        "term": "Ogi-Ogam Project"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q184661",
+        "scheme": "url",
+        "term": "Ogham"
+      }
+    ],
+    "title": "Wikidata - A SPARQL(ing) Unicorn?"
+  },
+  "modified": "2024-07-22T18:00:19.387905+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "3471932",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Wikidata - A SPARQL(ing) Unicorn?",
+  "updated": "2024-07-22T18:00:19.387905+00:00"
+}

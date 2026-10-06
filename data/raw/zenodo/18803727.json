@@ -1,0 +1,152 @@
+{
+  "conceptdoi": "10.5281/zenodo.18803727",
+  "conceptrecid": "18803727",
+  "created": "2026-03-01T18:46:39.421143+00:00",
+  "doi": "10.5281/zenodo.18803728",
+  "doi_url": "https://doi.org/10.5281/zenodo.18803728",
+  "files": [
+    {
+      "checksum": "md5:cca9ca8159adc3a0c6f2d9a9fcaa3fc2",
+      "id": "507922da-f8f2-4167-b583-84ce2d75f1c9",
+      "key": "deRSE26_Stuttgart_21313_GeoSciRSE.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/18803728/files/deRSE26_Stuttgart_21313_GeoSciRSE.pdf/content"
+      },
+      "size": 2688144
+    }
+  ],
+  "id": 18803728,
+  "links": {
+    "access": "https://zenodo.org/api/records/18803728/access",
+    "access_grants": "https://zenodo.org/api/records/18803728/access/grants",
+    "access_links": "https://zenodo.org/api/records/18803728/access/links",
+    "access_request": "https://zenodo.org/api/records/18803728/access/request",
+    "access_users": "https://zenodo.org/api/records/18803728/access/users",
+    "archive": "https://zenodo.org/api/records/18803728/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18803728/media-files-archive",
+    "communities": "https://zenodo.org/api/records/18803728/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18803728/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.18803728",
+    "draft": "https://zenodo.org/api/records/18803728/draft",
+    "file_modification": "https://zenodo.org/api/records/18803728/file-modification",
+    "files": "https://zenodo.org/api/records/18803728/files",
+    "latest": "https://zenodo.org/api/records/18803728/versions/latest",
+    "latest_html": "https://zenodo.org/records/18803728/latest",
+    "media_files": "https://zenodo.org/api/records/18803728/media-files",
+    "parent": "https://zenodo.org/api/records/18803727",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18803727",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18803727",
+    "parent_html": "https://zenodo.org/records/18803727",
+    "preview_html": "https://zenodo.org/records/18803728?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/18803728/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/18803728/request-deletion",
+    "requests": "https://zenodo.org/api/records/18803728/requests",
+    "reserve_doi": "https://zenodo.org/api/records/18803728/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/18803728",
+    "self_doi": "https://doi.org/10.5281/zenodo.18803728",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18803728",
+    "self_html": "https://zenodo.org/records/18803728",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18803728/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18803728/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:18803728:deRSE26_Stuttgart_21313_GeoSciRSE.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:18803728:deRSE26_Stuttgart_21313_GeoSciRSE.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:18803728:deRSE26_Stuttgart_21313_GeoSciRSE.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:18803728:deRSE26_Stuttgart_21313_GeoSciRSE.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:18803728:deRSE26_Stuttgart_21313_GeoSciRSE.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:18803728:deRSE26_Stuttgart_21313_GeoSciRSE.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/18803728/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "n4o-cc-rse"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "derse26"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian"
+      },
+      {
+        "affiliation": null,
+        "name": "Schenk, Fiona"
+      },
+      {
+        "affiliation": null,
+        "name": "Schubert, Lutz"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/Research-Squirrel-Engineers/EPICA-SISAL-FAIRification",
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      },
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ]
+    },
+    "description": "<blockquote>\n<p>In geoscientific and geoarchaeological research, analytical workflows often remain locked in Excel-based environments. While such approaches are convenient, they limit reproducibility, transparency, and interoperability. This paper presents how Research Software Engineering (RSE) methodology can transform these &ldquo;black box&rdquo; workflows into reproducible, FAIR-compliant and semantically interoperable processes by reimplementing established analytical routines in open, script-based environments using Python and R.</p>\n<p>The work builds on data from tephra and sediment analyses in the Eifel region, focusing on EPMA and LA-ICP-MS. Traditionally, these datasets were processed and visualised in Excel, making version control, reproducibility, and methodological transparency difficult.</p>\n<p>Building on methods from ELSAinteractive++ (PHd by B.W. Diensberg), a C++-based application for visualising sediment cores, the project replaces static, closed workflows with modular Python scripts based on pandas and matplotlib. Each processing step, from data import to statistical transformation and plotting, is now reproducible and extensible.</p>\n<p>Further integration draws on an Eifel GDGT dataset and analytical workflow to demonstrate how existing R code for biomarker-based temperature reconstructions can be re-implemented in Python for enhanced cross-platform reproducibility. Together, these examples illustrate the practical implementation of the FAIR4RS principles, Findable, Accessible, Interoperable, and Reusable research software.</p>\n<p>Beyond reproducible computation, the project also explores semantic data publication. Laboratory results and analytical metadata are modelled as RDF triples to ensure machine-actionable interoperability with Cultural Heritage and Earth Science data. Python scripts assist in transforming tabular outputs into RDF using common vocabularies, while the SPARQLing Unicorn Toolkit enables the conversion of these RDF datasets into human-readable HTML pages automatically published on GitHub Pages. This dual approach, semantic and computational FAIRification, bridges the gap between traditional analytical workflows and Linked Open Data infrastructures.</p>\n<p>In contrast to spreadsheet-based workflows, the RSE-driven approach offers:</p>\n<ul>\n<li>Versioned and transparent analysis pipelines via Git-based code;</li>\n<li>Parameter reproducibility through explicit scripting;</li>\n<li>Scalability and automation for high-volume datasets; and</li>\n<li>Semantic interoperability through FAIR metadata and RDF publication.</li>\n</ul>\n<p>By showcasing examples from the Campanian Ignimbrite and Eifel tephra research, the paper highlights how RSE methodology enhances both reproducibility and semantic interoperability across disciplinary borders. It demonstrates that adopting RSE principles in geoscientific and archaeological workflows is not just a technical improvement but a cultural shift, from isolated Excel sheets to open, machine-actionable, and verifiable research.</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.18803728",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE26",
+      "dates": "03-05 March 2026",
+      "place": "University of Stuttgart, Germany",
+      "session": "Poster Session",
+      "session_part": "154",
+      "title": "deRSE26 - 6th conference for Research Software Engineering in Germany",
+      "url": "https://events.hifis.net/event/2945/"
+    },
+    "publication_date": "2026-03-03",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "18803727"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+    },
+    "title": "Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research"
+  },
+  "modified": "2026-03-01T19:07:56.138683+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "18803728",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research",
+  "updated": "2026-03-01T19:07:56.138683+00:00"
+}

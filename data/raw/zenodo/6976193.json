@@ -1,0 +1,202 @@
+{
+  "conceptdoi": "10.5281/zenodo.6976193",
+  "conceptrecid": "6976193",
+  "created": "2022-10-11T07:43:53.207202+00:00",
+  "doi": "10.5281/zenodo.6976194",
+  "doi_url": "https://doi.org/10.5281/zenodo.6976194",
+  "files": [
+    {
+      "checksum": "md5:f1ae5427f71c58dfef718d1a61e758c5",
+      "id": "9b2fd678-7e21-42ce-b6ef-6bf5adb087fe",
+      "key": "CAA2022Oxford_S04.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/6976194/files/CAA2022Oxford_S04.pptx/content"
+      },
+      "size": 9581177
+    },
+    {
+      "checksum": "md5:cb1270c5264199b701b3471476a19597",
+      "id": "fed5bd4c-8be3-4560-a875-4cf54da1049a",
+      "key": "CAA2022Oxford_S04.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/6976194/files/CAA2022Oxford_S04.pdf/content"
+      },
+      "size": 3671323
+    }
+  ],
+  "id": 6976194,
+  "links": {
+    "access": "https://zenodo.org/api/records/6976194/access",
+    "access_grants": "https://zenodo.org/api/records/6976194/access/grants",
+    "access_links": "https://zenodo.org/api/records/6976194/access/links",
+    "access_request": "https://zenodo.org/api/records/6976194/access/request",
+    "access_users": "https://zenodo.org/api/records/6976194/access/users",
+    "archive": "https://zenodo.org/api/records/6976194/files-archive",
+    "archive_media": "https://zenodo.org/api/records/6976194/media-files-archive",
+    "communities": "https://zenodo.org/api/records/6976194/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/6976194/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.6976194",
+    "draft": "https://zenodo.org/api/records/6976194/draft",
+    "file_modification": "https://zenodo.org/api/records/6976194/file-modification",
+    "files": "https://zenodo.org/api/records/6976194/files",
+    "latest": "https://zenodo.org/api/records/6976194/versions/latest",
+    "latest_html": "https://zenodo.org/records/6976194/latest",
+    "media_files": "https://zenodo.org/api/records/6976194/media-files",
+    "parent": "https://zenodo.org/api/records/6976193",
+    "parent_doi": "https://doi.org/10.5281/zenodo.6976193",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6976193",
+    "parent_html": "https://zenodo.org/records/6976193",
+    "preview_html": "https://zenodo.org/records/6976194?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/6976194/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/6976194/request-deletion",
+    "requests": "https://zenodo.org/api/records/6976194/requests",
+    "reserve_doi": "https://zenodo.org/api/records/6976194/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/6976194",
+    "self_doi": "https://doi.org/10.5281/zenodo.6976194",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.6976194",
+    "self_html": "https://zenodo.org/records/6976194",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:6976194/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:6976194/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:6976194:CAA2022Oxford_S04.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:6976194:CAA2022Oxford_S04.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:6976194:CAA2022Oxford_S04.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:6976194:CAA2022Oxford_S04.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:6976194:CAA2022Oxford_S04.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:6976194:CAA2022Oxford_S04.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/6976194/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "caa-datadragon"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": null,
+        "name": "Brigit Danthine",
+        "orcid": "0000-0002-4088-255X"
+      },
+      {
+        "affiliation": null,
+        "name": "Nicole High-Steskal",
+        "orcid": "0000-0002-9823-5507"
+      },
+      {
+        "affiliation": null,
+        "name": "Valeria Vitale",
+        "orcid": "0000-0002-9695-0240"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Allard W. Mees",
+        "orcid": "0000-0002-7634-5342"
+      },
+      {
+        "affiliation": "Goethe-Universität Frankfurt",
+        "name": "Karsten Tolle",
+        "orcid": "0000-0002-9953-7638"
+      },
+      {
+        "affiliation": "DAI RGZM",
+        "name": "David G. Wigg-Wolf",
+        "orcid": "0000-0002-8604-544X"
+      }
+    ],
+    "description": "<p>In historical maps, the phrase &ldquo;Hic sunt dracones&rdquo; (here be dragons) is used to describe areas which were unknown to the map creator. Today the WWW offers researchers the possibility of sharing their research (data) and enables the community to participate in the scientific discourse and create new knowledge. But much of this shared data is not findable or accessible, thus resulting in modern &lsquo;unknown data dragons&rsquo;. Often these &lsquo;data dragons&rsquo; lack connections to other datasets, i. e. they are not interoperable, and in some cases also lack usability. To overcome these shortcomings, Linked Open Data (LOD) techniques can be used (Hyland et al., 2013). In 2006 Berners-Lee introduced the concept of LOD (Berners-Lee, 2006), in 2018 Sanderson instigated the &ldquo;Usable&rdquo; aspect at EuropeanaTech (Sanderson, 2018). Additionally, in 2016 the FAIR principles were introduced: Findable, Accessible, Interoperable and Reusable (Wilkinson et al., 2016).</p>\n\n<p>The Semantic Web offers a variety of vocabularies, ontologies and reference models that can be used for archaeology-related LOD modelling: CIDOC-CRM, SKOS, PROV-O, FOAF, GeoSPARQL, Wikidata, etc. The Linked Data Cloud already provides FAIR and LOUD research data repositories, data hubs and domain-specific ontologies for specific archaeological and humanities domains such as: Nomisma, Kerameikos, Pelagios, OpenContext, Portable Antiquities Scheme, ARIADNE, Linked Open Samian Ware, Linked Open ARS, Linked Open Ogham, and the Ceramic Typologies Ontology. Beyond them, many other networks for graph modelling in the digital humanities, such as the Pelagios Network, Linked Pasts, Graph Technologies / Graphs and Networks in the Humanities offer methods and resources that could be used and further developed for digital archaeological research.</p>\n\n<p>The development of ever more repositories poses challenges in handling the complex facets of data quality and completeness. This is especially true for archaeological data, which are based on complex networks of concepts from different domains and linguistic backgrounds. Moreover, it is necessary to include means of assessing uncertainty in the data models to produce and publish transparent FAIR and LOUD data that can also describe specific stratigraphy or the (archaeological) context of objects.</p>\n\n<p>To enable non-experts to engage with FAIR and LOUD data, research tools &ndash; little minions &ndash; were created for different purposes, such as modelling relative chronologies in RDF (e.g. Alligator), modelling and reasoning on vague edges in graph data (e.g. Academic Meta Tool), creating annotated texts and images (e.g. Recogito, Annotorius), and sparql, as well as enhancing Geo-Datasets using the SPARQLing Unicorn QGIS Plugin. In addition, community-driven knowledge bases like Wikidata not only offer data, but also provide a number of tools for using and interacting.</p>\n\n<p>The positive feedback on the LOD sessions on data quality, FAIR and LOUD at CAA 2017-2021 encourages the pursuit of the debate. The goal of our online session is to bring together both experts and colleagues interested in learning about FAIR and LOUD data-driven publishing and applications, as well as to collect research application scenarios to jointly promote research domain specific solutions. We would like to discuss application-oriented and data-driven investigations into how to improve technologies for FAIR and LOUD data models as a basis for reproducible and&nbsp;CAREful research and exchange in the Semantic Web, as well as solutions related to one or more of the issues listed below:<br>\n<br>\n&bull; application of semantic web technologies, such as ontologies (e.g. CIDOC-CRM) or RDF, to the archaeological domain modelling of archaeological artefacts, archaeological context, including the specificity of stratigraphy, uncertainty, and vagueness<br>\n&bull; development of research tools producing or using FAIR and LOUD data<br>\n&bull; identifying sources and dangers of incorrect or ambiguous LOD, e. g. duplicates across different LOD sources<br>\n&bull; keeping track of the provenance of data as a means of solving errors and identifying their source<br>\n&bull; setting up research-question based methodologies and tools in order to label or assess datasets based on their quality<br>\n&bull; dealing with ambiguities resulting from multiple links in the LOD cloud<br>\n&bull; computer vision or machine learning applications built upon controlled, semantic data<br>\n&bull; modelling comprehensible / reproducible workflows and data flows as &ldquo;Linked Pipes&rdquo; using RDF for documentation and reproducible research (Thiery and Homburg, 2021).<br>\n&bull; use of Linked Open Data related tools in archaeological research, their implementation and/or enhancement<br>\n&bull; possibilities, challenges, benefits and risks of the Wikimedia Universe in archaeological research<br>\n&bull; implementation of reference models such as CIDOC-CRM in real-world datasets and ways to achieve LOD<br>\n&bull; graphs of facts, beliefs, and/or assertions as a digital archaeological method<br>\n&bull; reasoning with heterogeneous and real world archaeological data in graphs<br>\n&bull; granularity in LOD/graphs/networks<br>\n&bull; graph and RDF representation of specific networks of persons, objects and information relating to research questions<br>\n&bull; interacting with graphs and graph interaction design<br>\n&bull; LOUD techniques as a solution for information and data annotation on objects / artefacts in 2D and 3D (e.g. cuneiform tablets, ogham stones, samian ware, books, texts, &hellip;)<br>\n&bull; semantically modelling geospatial data FAIR and LOUD<br>\n&bull; implementation of GeoSPARQL as a geospatial standard in archaeological data<br>\n&bull; things as a concept, such as places (e.g. Pleiades Place/Location), persons (e.g. &ldquo;potters&rdquo; as Actors) and events in archaeological LOD<br>\n&bull; overcoming linguistic barriers and increasing accessibility through LOD<br>\n&bull; implementing the CARE-principles through thoughtful LOD application<br>\n&bull; development of educational or Open Educational resources (OERs) to increase use of LOD</p>\n\n<p>We encourage presenters to derive the problems addressed from real-world datasets and to formulate proposals for solutions, preferably demonstrating (prototypes of) realised data-driven&nbsp;(web-) applications. Due to the thematic relevance, we target a broad and diverse audience and the challenges described should also be integrated into an archaeological context (excavation, museum, archive, etc.). Only those papers will be taken into consideration which offer the data and tools involved as FAIR data and Open Source tools in Open Science repositories (e.g. Zenodo, OSF, GitHub, GiRetLab). Exceptions to this principle (e.g. dissertation in course) should be explained.</p>\n\n<p>This session is organised by the CAA SIG on Semantics and LOUD in Archaeology (SIG Data-Dragon). The core aim of this SIG is to use the SIG format to raise awareness for Linked Data in archaeology by creating a friendly and open platform to discuss and further develop semantics, and LOUD and FAIR data in archaeology.</p>\n\n<p><strong>References</strong></p>\n\n<ul>\n\t<li>Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018. https://doi.org/10.1038/sdata.2016.18.</li>\n\t<li>Berners-Lee, T. (2006). Linked Data. URL: https://www.w3.org/DesignIssues/LinkedData.html.</li>\n\t<li>Thiery, F., Homburg, T. (2021). Linked Pipes @ Linked Pasts 7: Introduction. Linked Pasts VII, Ghent, Belgium. https://doi.org/10.5281/zenodo.5781275.</li>\n\t<li>Hyland, B., Atemezing, G., Pendleton, M., Srivastava, B. (2013). Linked Data Glossary, W3C Working Group Note 27 June 2013. URL: https://www.w3.org/TR/ld-glossary/.</li>\n\t<li>Sanderson, R. (2018). Shout it Out: LOUD by Rob Sanderson, EuropeanaTech Conference 2018. URL: https://de.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018-98225909.</li>\n</ul>",
+    "doi": "10.5281/zenodo.6976194",
+    "journal": {
+      "issue": "3",
+      "pages": "No.11",
+      "title": "Squirrel Papers",
+      "volume": "4"
+    },
+    "keywords": [
+      "Linked Open Data",
+      "Digital Archaeology"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CAA Oxford",
+      "dates": "08.08.2022 - 11.08.2022",
+      "place": "Oxford, United Kingdom",
+      "session": "S04",
+      "title": "Computer Applications and Quantitative Methods in Archaeology",
+      "url": "https://2022.caaconference.org"
+    },
+    "publication_date": "2022-08-09",
+    "related_identifiers": [
+      {
+        "identifier": "2750-560X",
+        "relation": "isPartOf",
+        "resource_type": "publication-other",
+        "scheme": "issn"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "6976193"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "subjects": [
+      {
+        "identifier": "http://www.wikidata.org/entity/Q18692990",
+        "scheme": "url",
+        "term": "Linked Open Data"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q30299672",
+        "scheme": "url",
+        "term": "Computer Applications and Quantitative Methods in Archaeology"
+      },
+      {
+        "identifier": "http://www.wikidata.org/entity/Q73901110",
+        "scheme": "url",
+        "term": "CAA SIG Data-Dragon"
+      }
+    ],
+    "title": "Hic sunt dracones - Real-world data-driven knowledge modelling resulting in Semantics and FAIR-LOD based tools and workflows"
+  },
+  "modified": "2024-07-16T06:44:09.807205+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "6976194",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Hic sunt dracones - Real-world data-driven knowledge modelling resulting in Semantics and FAIR-LOD based tools and workflows",
+  "updated": "2024-07-16T06:44:09.807205+00:00"
+}

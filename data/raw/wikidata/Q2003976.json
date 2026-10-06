@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 39.48089,
+    "lon": -0.34111
+  },
+  "country": [
+    "Q29"
+  ],
+  "descriptions": {
+    "de": "Universität in Spanien",
+    "en": "university in Spain"
+  },
+  "id": "Q2003976",
+  "instance_of": [
+    "Q45400320",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Polytechnische Universität Valencia",
+    "en": "Technical University of Valencia"
+  }
+}

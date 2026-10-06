@@ -1,0 +1,148 @@
+{
+  "conceptdoi": "10.5281/zenodo.1469298",
+  "conceptrecid": "1469298",
+  "created": "2018-10-23T05:42:40.224686+00:00",
+  "doi": "10.5281/zenodo.1469299",
+  "doi_url": "https://doi.org/10.5281/zenodo.1469299",
+  "files": [
+    {
+      "checksum": "md5:02dbf50c8242d96625f62b2b19d312db",
+      "id": "77f8282e-4d6b-47c8-a9df-770d812910e5",
+      "key": "2018_10_26_CAA-UK2018_TamingChronology.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/1469299/files/2018_10_26_CAA-UK2018_TamingChronology.pdf/content"
+      },
+      "size": 3754417
+    }
+  ],
+  "id": 1469299,
+  "links": {
+    "access": "https://zenodo.org/api/records/1469299/access",
+    "access_grants": "https://zenodo.org/api/records/1469299/access/grants",
+    "access_links": "https://zenodo.org/api/records/1469299/access/links",
+    "access_request": "https://zenodo.org/api/records/1469299/access/request",
+    "access_users": "https://zenodo.org/api/records/1469299/access/users",
+    "archive": "https://zenodo.org/api/records/1469299/files-archive",
+    "archive_media": "https://zenodo.org/api/records/1469299/media-files-archive",
+    "communities": "https://zenodo.org/api/records/1469299/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/1469299/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.1469299",
+    "draft": "https://zenodo.org/api/records/1469299/draft",
+    "file_modification": "https://zenodo.org/api/records/1469299/file-modification",
+    "files": "https://zenodo.org/api/records/1469299/files",
+    "latest": "https://zenodo.org/api/records/1469299/versions/latest",
+    "latest_html": "https://zenodo.org/records/1469299/latest",
+    "media_files": "https://zenodo.org/api/records/1469299/media-files",
+    "parent": "https://zenodo.org/api/records/1469298",
+    "parent_doi": "https://doi.org/10.5281/zenodo.1469298",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1469298",
+    "parent_html": "https://zenodo.org/records/1469298",
+    "preview_html": "https://zenodo.org/records/1469299?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/1469299/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/1469299/request-deletion",
+    "requests": "https://zenodo.org/api/records/1469299/requests",
+    "reserve_doi": "https://zenodo.org/api/records/1469299/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/1469299",
+    "self_doi": "https://doi.org/10.5281/zenodo.1469299",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1469299",
+    "self_html": "https://zenodo.org/records/1469299",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:1469299/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:1469299/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:1469299:2018_10_26_CAA-UK2018_TamingChronology.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:1469299:2018_10_26_CAA-UK2018_TamingChronology.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:1469299:2018_10_26_CAA-UK2018_TamingChronology.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:1469299:2018_10_26_CAA-UK2018_TamingChronology.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:1469299:2018_10_26_CAA-UK2018_TamingChronology.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:1469299:2018_10_26_CAA-UK2018_TamingChronology.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/1469299/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "mainzed"
+      },
+      {
+        "id": "florianthiery"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum Mainz",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum Mainz",
+        "name": "Allard Mees",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<p>Since the mid-1990s the RGZM (R&ouml;misch-Germanisches Zentralmuseum Mainz) provides web-based databases containing millions of datasets with content from many different archaeological disciplines. These relational databases were constructed in interdisciplinary transnational projects and include a lot of &ldquo;hidden archaeological assumptions&rdquo;. The aim of our paper is to make these hidden assumptions visible and provide them as a Linked Open Data graph to establish reproducible research as a basis for Open Science.</p>\n\n<p>In particular the Samian Research database [1] at the RGZM which is based on the Names on Terra Sigillata project of Leeds and Reading Universities funded by the AHRC offers nearly 250&#39;000 identified potter stamps, which are traditionally dated in a traditional way. In Roman archaeology this is usually expressed by establishing &quot;absolute dates&quot; in well known &ldquo;from-to&rdquo; tables, whereas in reality, the situation is much more diffuse. In fact, Samian dating is quite often based upon so-called &lsquo;dated sites&rsquo;, which are themselves dated by Samian. Occurrences of South Gaulish Samian on &ldquo;historically dated sites&rdquo; like Hadrian&rsquo;s Wall with its absolute dating or the Wetteraulimes with its less clear dating are difficult to use as dating arguments because it is not possible to say a priori whether these were &ldquo;survivals&rdquo; or whether they were part of a still existing South Gaulish export industry. Therefore an RDF (Resource Description Framework) based model has been developed to deal with occurrences making the Samian dating process verifiable and transparent.</p>\n\n<p>This paper focuses on modelling dating arguments using a relative chronology based on Allen&rsquo;s interval algebra [2] compared with absolute dates in the prototypical build Academic Meta Tool [2] to create Linked Open Data for reproducible and transparent research. This tool enables the creation of an RDF-based ontology such as for modelling dating arguments and visualising the semantic reasoning for detecting errors.</p>\n\n<p>[1] http://rgzm.de/samian</p>\n\n<p>[2] http://cse.unl.edu/~choueiry/Documents/Allen-CACM1983.pdf</p>\n\n<p>[3] http://academic-meta-tool.xyz</p>",
+    "doi": "10.5281/zenodo.1469299",
+    "journal": {
+      "issue": "7",
+      "pages": "#2",
+      "title": "Squirrel Papers",
+      "volume": "1"
+    },
+    "keywords": [
+      "Linked Open Data",
+      "Chronology",
+      "South Gaulish Samian",
+      "Allen's interval algebra"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CAA-UK 2018",
+      "dates": "26.10.-27.10.2018",
+      "place": "Edinburgh, Scotland, Great Britain",
+      "session": "Main Hall",
+      "title": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology",
+      "url": "https://uk.caa-international.org/caa-uk-2018-edinburgh/"
+    },
+    "publication_date": "2018-10-26",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "1469298"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Taming the chronology of South Gaulish Samian found at Hadrian's Wall and the German Limes using Linked Open Data"
+  },
+  "modified": "2025-04-03T06:28:54.014664+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "1469299",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Taming the chronology of South Gaulish Samian found at Hadrian's Wall and the German Limes using Linked Open Data",
+  "updated": "2025-04-03T06:28:54.014664+00:00"
+}

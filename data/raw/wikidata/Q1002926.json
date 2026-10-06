@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 38.9,
+    "lon": -77.2667
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Ort im US-Bundesstaat Virginia",
+    "en": "town in Fairfax County, Virginia, United States"
+  },
+  "id": "Q1002926",
+  "instance_of": [
+    "Q15127012"
+  ],
+  "labels": {
+    "de": "Vienna",
+    "en": "Vienna"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "conceptdoi": "10.5281/zenodo.3567911",
+  "conceptrecid": "3567911",
+  "created": "2019-12-09T12:51:10.132491+00:00",
+  "doi": "10.5281/zenodo.3567912",
+  "doi_url": "https://doi.org/10.5281/zenodo.3567912",
+  "files": [
+    {
+      "checksum": "md5:7a1b10b4642481e4a729f2c9f01d1123",
+      "id": "a4fc344c-c4e4-43bd-acd9-64f4ee419319",
+      "key": "2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/3567912/files/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf/content"
+      },
+      "size": 1461421
+    }
+  ],
+  "id": 3567912,
+  "links": {
+    "access": "https://zenodo.org/api/records/3567912/access",
+    "access_grants": "https://zenodo.org/api/records/3567912/access/grants",
+    "access_links": "https://zenodo.org/api/records/3567912/access/links",
+    "access_request": "https://zenodo.org/api/records/3567912/access/request",
+    "access_users": "https://zenodo.org/api/records/3567912/access/users",
+    "archive": "https://zenodo.org/api/records/3567912/files-archive",
+    "archive_media": "https://zenodo.org/api/records/3567912/media-files-archive",
+    "communities": "https://zenodo.org/api/records/3567912/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/3567912/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.3567912",
+    "draft": "https://zenodo.org/api/records/3567912/draft",
+    "file_modification": "https://zenodo.org/api/records/3567912/file-modification",
+    "files": "https://zenodo.org/api/records/3567912/files",
+    "latest": "https://zenodo.org/api/records/3567912/versions/latest",
+    "latest_html": "https://zenodo.org/records/3567912/latest",
+    "media_files": "https://zenodo.org/api/records/3567912/media-files",
+    "parent": "https://zenodo.org/api/records/3567911",
+    "parent_doi": "https://doi.org/10.5281/zenodo.3567911",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3567911",
+    "parent_html": "https://zenodo.org/records/3567911",
+    "preview_html": "https://zenodo.org/records/3567912?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/3567912/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/3567912/request-deletion",
+    "requests": "https://zenodo.org/api/records/3567912/requests",
+    "reserve_doi": "https://zenodo.org/api/records/3567912/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/3567912",
+    "self_doi": "https://doi.org/10.5281/zenodo.3567912",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3567912",
+    "self_html": "https://zenodo.org/records/3567912",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3567912/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3567912/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:3567912:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:3567912:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:3567912:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:3567912:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:3567912:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:3567912:2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/3567912/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum Mainz",
+        "name": "Allard Mees",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<p>In archaeology, there is a lack of LOD tools and Linked Pipes for modelling, applying and reasoning of relative chronologies. Alligator and the Academic Meta Tool (AMT) are two little minions which in combination allow for establishing relative chronologies according to Allen&rsquo;s interval algebra as LOD. Starting with a correspondence analysis, this Linked Pipe yields temporal reasoning with vague edge information in RDF graphs. The semantic structures of Alligator and AMT are described in ontologies to provide reproducible and interoperable research results.</p>\n\n<p>Alligator is developed at the R&ouml;misch-Germanisches Zentralmuseum (RGZM). It is a web app for transforming 3D correspondence analyses (CA) with fixed and floating time time intervals into a relative chronology and RDF representation using Allen&#39;s interval algebra. Starting from an Alligator CA-File you can select an output mode which can be a visualisation (e.g. matrixes, virtual timelines or graphs) as well as machine readable representations (e.g. Turtle and Cypher) in order to use them in other LOD tools for further research and analyses.</p>\n\n<p>AMT is developed in collaboration with the Mainz Centre for Digitality in the Humanities and Cultural Studies (mainzed) by the RGZM and i3mainz. AMT allows for creating user based ontologies and provides a JavaScript framework for modelling vagueness in graphs, including a vagueness reasoning using different logics. Concerning relative chronologies, results can be modelled as LOD. By using the web app AMT, reasoned chronologies can visualised.</p>\n\n<p>This poster focuses on a short technical insight into our Linked Pipe using the little minions Alligator and AMT. The tools and pipe are demonstrated here with a method verification using the chronology of Roman Emperors and an example of dating Limes parts with Samian (terra sigillata).</p>",
+    "doi": "10.5281/zenodo.3567912",
+    "keywords": [
+      "Linked Data",
+      "Linked Pipe",
+      "Chronology",
+      "Allen"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "LPV",
+      "dates": "11.12.-13.12.2019",
+      "place": "Bordeaux, France",
+      "title": "Linked Pasts V",
+      "url": "https://linkedpasts5.sciencesconf.org/"
+    },
+    "publication_date": "2019-12-11",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "3567911"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+    },
+    "title": "Alligator + AMT: A Linked Pipe for taming relative chronology"
+  },
+  "modified": "2024-07-22T15:36:11.602510+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "3567912",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Alligator + AMT: A Linked Pipe for taming relative chronology",
+  "updated": "2024-07-22T15:36:11.602510+00:00"
+}

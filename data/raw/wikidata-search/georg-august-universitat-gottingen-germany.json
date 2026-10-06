@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Georg-August-Universität Göttingen [de]": [
+      {
+        "description": "university in the city of Göttingen, Germany",
+        "id": "Q152838",
+        "label": "University of Göttingen"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248032",
+        "label": "Georg-August-Universität Göttingen Universitätsmedizin"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101247971",
+        "label": "Georg-August-Universitat Gottingen Fakultat fur Biologie und Psychologie"
+      },
+      {
+        "description": "museum in Göttingen, Germany",
+        "id": "Q76636091",
+        "label": "Georg-August-Universität Göttingen. Central Custody"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101247976",
+        "label": "Georg-August-Universität Göttingen Geowissenschaftliches Zentrum"
+      }
+    ],
+    "Georg-August-Universität Göttingen [en]": [
+      {
+        "description": "university in the city of Göttingen, Germany",
+        "id": "Q152838",
+        "label": "University of Göttingen"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101248032",
+        "label": "Georg-August-Universität Göttingen Universitätsmedizin"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101247971",
+        "label": "Georg-August-Universitat Gottingen Fakultat fur Biologie und Psychologie"
+      },
+      {
+        "description": "museum in Göttingen, Germany",
+        "id": "Q76636091",
+        "label": "Georg-August-Universität Göttingen. Central Custody"
+      },
+      {
+        "description": "academic department",
+        "id": "Q101247976",
+        "label": "Georg-August-Universität Göttingen Geowissenschaftliches Zentrum"
+      }
+    ]
+  },
+  "label": "Georg-August-Universität Göttingen, Germany"
+}

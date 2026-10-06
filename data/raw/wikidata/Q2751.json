@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 43.318333,
+    "lon": 11.331389
+  },
+  "country": [
+    "Q154849",
+    "Q38",
+    "Q736727"
+  ],
+  "descriptions": {
+    "de": "italienische Stadt in der Toskana",
+    "en": "city in Tuscany, Italy and capital of the province of Siena"
+  },
+  "id": "Q2751",
+  "instance_of": [
+    "Q1187811",
+    "Q515",
+    "Q747074"
+  ],
+  "labels": {
+    "de": "Siena",
+    "en": "Siena"
+  }
+}

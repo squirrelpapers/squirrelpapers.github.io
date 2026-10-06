@@ -1,0 +1,124 @@
+{
+  "conceptdoi": "10.5281/zenodo.4305708",
+  "conceptrecid": "4305708",
+  "created": "2020-12-10T09:48:42.116930+00:00",
+  "doi": "10.5281/zenodo.4314355",
+  "doi_url": "https://doi.org/10.5281/zenodo.4314355",
+  "files": [
+    {
+      "checksum": "md5:232212c518edbb7a7b80ba3a24585884",
+      "id": "e8a62829-0e63-4fbe-9634-0b920ff9301b",
+      "key": "RGZM/samian-lod-2020-12-10.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/4314355/files/RGZM/samian-lod-2020-12-10.zip/content"
+      },
+      "size": 42023879
+    }
+  ],
+  "id": 4314355,
+  "links": {
+    "access": "https://zenodo.org/api/records/4314355/access",
+    "access_grants": "https://zenodo.org/api/records/4314355/access/grants",
+    "access_links": "https://zenodo.org/api/records/4314355/access/links",
+    "access_request": "https://zenodo.org/api/records/4314355/access/request",
+    "access_users": "https://zenodo.org/api/records/4314355/access/users",
+    "archive": "https://zenodo.org/api/records/4314355/files-archive",
+    "archive_media": "https://zenodo.org/api/records/4314355/media-files-archive",
+    "communities": "https://zenodo.org/api/records/4314355/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/4314355/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.4314355",
+    "draft": "https://zenodo.org/api/records/4314355/draft",
+    "file_modification": "https://zenodo.org/api/records/4314355/file-modification",
+    "files": "https://zenodo.org/api/records/4314355/files",
+    "latest": "https://zenodo.org/api/records/4314355/versions/latest",
+    "latest_html": "https://zenodo.org/records/4314355/latest",
+    "media_files": "https://zenodo.org/api/records/4314355/media-files",
+    "parent": "https://zenodo.org/api/records/4305708",
+    "parent_doi": "https://doi.org/10.5281/zenodo.4305708",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4305708",
+    "parent_html": "https://zenodo.org/records/4305708",
+    "preview_html": "https://zenodo.org/records/4314355?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/4314355/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/4314355/request-deletion",
+    "requests": "https://zenodo.org/api/records/4314355/requests",
+    "reserve_doi": "https://zenodo.org/api/records/4314355/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/4314355",
+    "self_doi": "https://doi.org/10.5281/zenodo.4314355",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4314355",
+    "self_html": "https://zenodo.org/records/4314355",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:4314355/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:4314355/sequence/default",
+    "versions": "https://zenodo.org/api/records/4314355/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Allard Mees",
+        "orcid": "0000-0002-7634-5342"
+      },
+      {
+        "affiliation": "JGU Mainz",
+        "name": "Dennis Gottwald",
+        "orcid": "0000-0002-8761-4659"
+      }
+    ],
+    "description": "<p>release from 10th dec 2020, with data from 9th dec 2020.</p>\n<p>data is published under a DPPL licence: <a href=\"https://www1.rgzm.de/ips/Licensing/DPPL/DPPLLicenseSamian_English.html\">https://www1.rgzm.de/ips/Licensing/DPPL/DPPLLicenseSamian_English.html</a></p>",
+    "doi": "10.5281/zenodo.4314355",
+    "keywords": [
+      "Linked Open Data",
+      "Samian Ware"
+    ],
+    "publication_date": "2020-12-10",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/RGZM/samian-lod/tree/2020-12-10",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": false,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "4305708"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "Linked Open Samian Ware [RGZM/samian-lod: 2020-12-10]",
+    "version": "2020-12-10"
+  },
+  "modified": "2024-09-09T13:28:58.278132+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "4314355",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Linked Open Samian Ware [RGZM/samian-lod: 2020-12-10]",
+  "updated": "2024-09-09T13:28:58.278132+00:00"
+}

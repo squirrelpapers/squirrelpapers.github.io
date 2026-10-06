@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 48.633333,
+    "lon": 10.9
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Gemeinde in Bayern",
+    "en": "municipality of Germany"
+  },
+  "id": "Q256895",
+  "instance_of": [
+    "Q116457956"
+  ],
+  "labels": {
+    "de": "Münster",
+    "en": "Münster"
+  }
+}

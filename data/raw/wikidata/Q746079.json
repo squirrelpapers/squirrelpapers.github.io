@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 5.10364,
+    "lon": -1.28249
+  },
+  "country": [
+    "Q117"
+  ],
+  "descriptions": {
+    "de": "Universität in Ghana",
+    "en": "public university in Ghana"
+  },
+  "id": "Q746079",
+  "instance_of": [
+    "Q875538"
+  ],
+  "labels": {
+    "de": "University of Cape Coast",
+    "en": "University of Cape Coast"
+  }
+}

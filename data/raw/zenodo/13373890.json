@@ -1,0 +1,159 @@
+{
+  "conceptdoi": "10.5281/zenodo.13373890",
+  "conceptrecid": "13373890",
+  "created": "2024-09-02T09:18:28.278942+00:00",
+  "doi": "10.5281/zenodo.13373891",
+  "doi_url": "https://doi.org/10.5281/zenodo.13373891",
+  "files": [
+    {
+      "checksum": "md5:d6c5901c3f87f4adb3a92d27b0738f16",
+      "id": "e4e1d63c-48e8-4c16-bf16-3286bf9c05d6",
+      "key": "EAA_2024_SID_514_Introduction_ThieryEtAl.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13373891/files/EAA_2024_SID_514_Introduction_ThieryEtAl.pdf/content"
+      },
+      "size": 2837938
+    },
+    {
+      "checksum": "md5:4cbd288590e9c1ec4ff9bfec8b195f8b",
+      "id": "1263d960-4052-42af-82dc-b5ed7053de3f",
+      "key": "EAA_2024_SID_514_Introduction_ThieryEtAl.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/13373891/files/EAA_2024_SID_514_Introduction_ThieryEtAl.pptx/content"
+      },
+      "size": 8503950
+    }
+  ],
+  "id": 13373891,
+  "links": {
+    "access": "https://zenodo.org/api/records/13373891/access",
+    "access_grants": "https://zenodo.org/api/records/13373891/access/grants",
+    "access_links": "https://zenodo.org/api/records/13373891/access/links",
+    "access_request": "https://zenodo.org/api/records/13373891/access/request",
+    "access_users": "https://zenodo.org/api/records/13373891/access/users",
+    "archive": "https://zenodo.org/api/records/13373891/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13373891/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13373891/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13373891/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13373891",
+    "draft": "https://zenodo.org/api/records/13373891/draft",
+    "file_modification": "https://zenodo.org/api/records/13373891/file-modification",
+    "files": "https://zenodo.org/api/records/13373891/files",
+    "latest": "https://zenodo.org/api/records/13373891/versions/latest",
+    "latest_html": "https://zenodo.org/records/13373891/latest",
+    "media_files": "https://zenodo.org/api/records/13373891/media-files",
+    "parent": "https://zenodo.org/api/records/13373890",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13373890",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13373890",
+    "parent_html": "https://zenodo.org/records/13373890",
+    "preview_html": "https://zenodo.org/records/13373891?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13373891/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13373891/request-deletion",
+    "requests": "https://zenodo.org/api/records/13373891/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13373891/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13373891",
+    "self_doi": "https://doi.org/10.5281/zenodo.13373891",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13373891",
+    "self_html": "https://zenodo.org/records/13373891",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13373891/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13373891/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13373891:EAA_2024_SID_514_Introduction_ThieryEtAl.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13373891:EAA_2024_SID_514_Introduction_ThieryEtAl.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13373891:EAA_2024_SID_514_Introduction_ThieryEtAl.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13373891:EAA_2024_SID_514_Introduction_ThieryEtAl.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13373891:EAA_2024_SID_514_Introduction_ThieryEtAl.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13373891:EAA_2024_SID_514_Introduction_ThieryEtAl.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13373891/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "nfdi4objects"
+      },
+      {
+        "id": "eaa2024-dob"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Leiden University",
+        "name": "Schneider, Agnes"
+      },
+      {
+        "affiliation": "Deutsches Archäologisches Institut, Zentrale",
+        "name": "Fricke, Fabian"
+      },
+      {
+        "affiliation": "Brigham Young University",
+        "name": "Allison, Jim"
+      },
+      {
+        "affiliation": "TU Wien",
+        "name": "Stefan, Daria"
+      }
+    ],
+    "description": "<p>Nowadays computer applications as well as statistical and computational approaches constitute a big part of the toolbox of every archaeologist, as they open tremendous possibilities for all research. These can be ready-to-use (proprietary) software applications but also &ldquo;Little Minions&rdquo; (self-scripted tools) or research software (e.g. implementation of statistic algorithms in R, Python), which are written by researchers. Both, research software and research data are part of Computational Archaeology and play an important role in up-to-date archaeological research. Optimally research data (and software) is FAIR(4RS) &ndash; Findable, Accessible, Interoperable, Re-usable (for Research Software) &ndash; and reproducible of which other users can benefit from or even develop further. The increasing number of topics and papers at the international and national chapters of the CAA show manifold applications but also implications. Working Groups like the SIG SSLA (https://sslarch.github.io) or the &ldquo;Little Minions&rdquo; (https://littleminions.link) also deal with Computational Archaeology and are building a community.</p>\n<p>Several initiatives, such as the German National Research Data Infrastructure (NFDI) &ndash; especially NFDI4Objects &ndash; or the European Open Science Cloud (EOSC), engage with this topic to strengthen the position of Computational Archaeologists and Research Software Engineers, highlight the scientific merit of their work, and ensure researchers receive credit for computational approaches, software development, as well as for writing papers.</p>",
+    "doi": "10.5281/zenodo.13373891",
+    "journal": {
+      "issue": "4",
+      "pages": "#7",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "EAA 2024",
+      "dates": "28-31 August 2024",
+      "place": "Sapienza University of Rome",
+      "session": "514",
+      "session_part": "1",
+      "title": "30th EAA Annual Meeting in Rome | Persisting with Change"
+    },
+    "publication_date": "2024-08-31",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13373890"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks"
+  },
+  "modified": "2024-09-02T09:18:28.521053+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13373891",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks",
+  "updated": "2024-09-02T09:18:28.521053+00:00"
+}

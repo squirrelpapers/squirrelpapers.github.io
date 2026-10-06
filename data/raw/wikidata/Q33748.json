@@ -1,0 +1,18 @@
+{
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Sportverein aus Hannover, Niedersachsen",
+    "en": "German sports club"
+  },
+  "id": "Q33748",
+  "instance_of": [
+    "Q476028",
+    "Q847017"
+  ],
+  "labels": {
+    "de": "Hannover 96",
+    "en": "Hannover 96"
+  }
+}

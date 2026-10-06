@@ -1,0 +1,146 @@
+{
+  "conceptdoi": "10.5281/zenodo.14167106",
+  "conceptrecid": "14167106",
+  "created": "2024-11-15T11:54:09.463020+00:00",
+  "doi": "10.5281/zenodo.14167107",
+  "doi_url": "https://doi.org/10.5281/zenodo.14167107",
+  "files": [
+    {
+      "checksum": "md5:8e9dda01195cf3c3121df2692e21d030",
+      "id": "6d94286b-c716-437d-87ae-49c1aea0f859",
+      "key": "19_UC4B2024_INFRA-WG-RSE.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/14167107/files/19_UC4B2024_INFRA-WG-RSE.pdf/content"
+      },
+      "size": 943124
+    }
+  ],
+  "id": 14167107,
+  "links": {
+    "access": "https://zenodo.org/api/records/14167107/access",
+    "access_grants": "https://zenodo.org/api/records/14167107/access/grants",
+    "access_links": "https://zenodo.org/api/records/14167107/access/links",
+    "access_request": "https://zenodo.org/api/records/14167107/access/request",
+    "access_users": "https://zenodo.org/api/records/14167107/access/users",
+    "archive": "https://zenodo.org/api/records/14167107/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14167107/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14167107/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14167107/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14167107",
+    "draft": "https://zenodo.org/api/records/14167107/draft",
+    "file_modification": "https://zenodo.org/api/records/14167107/file-modification",
+    "files": "https://zenodo.org/api/records/14167107/files",
+    "latest": "https://zenodo.org/api/records/14167107/versions/latest",
+    "latest_html": "https://zenodo.org/records/14167107/latest",
+    "media_files": "https://zenodo.org/api/records/14167107/media-files",
+    "parent": "https://zenodo.org/api/records/14167106",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14167106",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14167106",
+    "parent_html": "https://zenodo.org/records/14167106",
+    "preview_html": "https://zenodo.org/records/14167107?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/14167107/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/14167107/request-deletion",
+    "requests": "https://zenodo.org/api/records/14167107/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14167107/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14167107",
+    "self_doi": "https://doi.org/10.5281/zenodo.14167107",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14167107",
+    "self_html": "https://zenodo.org/records/14167107",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14167107/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14167107/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14167107:19_UC4B2024_INFRA-WG-RSE.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14167107:19_UC4B2024_INFRA-WG-RSE.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14167107:19_UC4B2024_INFRA-WG-RSE.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14167107:19_UC4B2024_INFRA-WG-RSE.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14167107:19_UC4B2024_INFRA-WG-RSE.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14167107:19_UC4B2024_INFRA-WG-RSE.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14167107/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "base4nfdi"
+      },
+      {
+        "id": "infra-wg-rse"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "University of Stuttgart",
+        "name": "Flemisch, Bernd",
+        "orcid": "0000-0001-8188-620X"
+      },
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "GFZ Helmholtz Centre for Geosciences",
+        "name": "Hammitzsch, Martin"
+      }
+    ],
+    "description": "<p>Research Software Engineering (RSE) is fundamental to the German National Research Data Infrastructure (NFDI). Within the NFDI e.V., several sections deal with overarching topics, including RSE technologies and knowledge, especially the \"Section Common Infrastructures\" with its working groups on \"Data Integration (DI)\", \"Data Management Planning (DMP)\", \"Data Science and Artificial Intelligence (DSAI)\", \"Electronic Lab Notebooks (ELN)\", \"Persistent Identifiers (PID)\" and \"Research Software Engineering (RSE)\".</p>\n<p>The RSE working group connects the NFDI consortia in software-related aspects. It focuses on Research software, software communities, and software infrastructure at NFDI. The working group operates a central forum in an advisory and supportive capacity. It establishes the necessary software ecosystem within NFDI for the professional development of software infrastructure components, which represent an integral part of the NFDI. In addition, the working group serves as an interface for the NFDI to compare European and international initiatives to promote the connectivity of the NFDI with other infrastructures.</p>\n<p>The WG RSE comprises several tasks that are also related to Base4NFDI:</p>\n<ul>\n<li>\n<p>Task Jupyter Services: bring together the JupyterHub providers in Germany; collect and list available hubs at a common website; evaluate the possibility of an NFDI-wide Jupyter service. This is addressed in the Jupyter4NFDI Basic Service (in its initialisation phase. Jupyter4NFDI aims to address the fragmented deployment of Jupyter Notebooks across NFDI consortia by offering a centralised service. This service will simplify access, improve user experience, and extend Jupyter's reach to a wider audience within and beyond the NFDI.</p>\n</li>\n<li>\n<p>Task Software Marketplace: Allow access to the portfolio of research software in the NFDI; develop a concept for the Marketplace; consider requirements from the consortia and available solutions. This has been substantiated in a proposal to Base4NFDI.</p>\n</li>\n<li>\n<p>Task Training Materials: Create recommendations to spread good practices using available content.</p>\n</li>\n<li>\n<p>Task Mission Statement: Develop a common mission statement, \"Software Engineering in the NFDI&ldquo;.</p>\n</li>\n<li>\n<p>Task Status Quo Survey and Report: Apply an RSE survey for a \"Landscape Analysis\" within the NFDI.</p>\n</li>\n<li>\n<p>Task Overarching Initiatives: Ensure connectivity and compatibility with European and international efforts.</p>\n</li>\n<li>\n<p>Task Software Ecosystem: Develop a draft strategy for establishing a software ecosystem within the NFDI.</p>\n</li>\n<li>\n<p>Task Use Cases: Identify use cases for a cross-consortium, prototypical development of the software ecosystem.</p>\n</li>\n<li>\n<p>Task Quality Criteria for Research Software: Identify and develop suitable, easy-to-record indicators.</p>\n</li>\n<li>\n<p>Task Criteria for NFDI Components: Ensure reliability, compatibility, and security; provide checklists/test suite.</p>\n</li>\n</ul>\n<p>This contribution presents the WG RSE activities and the possibilities for participation (small subgroups work on individual tasks, monthly WG-wide coordination meetings) in the working group discussion rounds that bring the NFDI consortia together in all software-related aspects.</p>",
+    "doi": "10.5281/zenodo.14167107",
+    "journal": {
+      "issue": "4",
+      "pages": "#26",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "UC4B2024",
+      "dates": "20-21 November 2024",
+      "place": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
+      "session": "Further Fields",
+      "title": "1st Base4NFDI User Conference (UC4B2024)",
+      "url": "https://events.gwdg.de/event/658/"
+    },
+    "publication_date": "2024-11-20",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14167106"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Research Software Engineering within the NFDI (INFRA-WG-RSE)"
+  },
+  "modified": "2024-11-15T11:54:09.826592+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "14167107",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Research Software Engineering within the NFDI (INFRA-WG-RSE)",
+  "updated": "2024-11-15T11:54:09.826592+00:00"
+}

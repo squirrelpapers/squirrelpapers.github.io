@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 28.9274,
+    "lon": 77.0564
+  },
+  "country": [
+    "Q668"
+  ],
+  "descriptions": {
+    "de": "staatlich anerkannte private Universität in Sonipat, Haryana, Indien",
+    "en": "state private university in Sonipat, Haryana, India"
+  },
+  "id": "Q7072154",
+  "instance_of": [
+    "Q131389368"
+  ],
+  "labels": {
+    "de": "Jindal Global University",
+    "en": "O.P. Jindal Global (Institution of Eminence Deemed to be University)"
+  }
+}

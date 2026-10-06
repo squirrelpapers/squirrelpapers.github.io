@@ -1,0 +1,137 @@
+{
+  "conceptdoi": "10.5281/zenodo.13739143",
+  "conceptrecid": "13739143",
+  "created": "2024-09-28T12:03:43.998172+00:00",
+  "doi": "10.5281/zenodo.13739144",
+  "doi_url": "https://doi.org/10.5281/zenodo.13739144",
+  "files": [
+    {
+      "checksum": "md5:f2cdd159c1b136602338f1587090535a",
+      "id": "b0cdd925-3453-44bb-bf58-1c8dbd411692",
+      "key": "Poster_TWG_N4O_OO_MMDS.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/13739144/files/Poster_TWG_N4O_OO_MMDS.pdf/content"
+      },
+      "size": 1297470
+    }
+  ],
+  "id": 13739144,
+  "links": {
+    "access": "https://zenodo.org/api/records/13739144/access",
+    "access_grants": "https://zenodo.org/api/records/13739144/access/grants",
+    "access_links": "https://zenodo.org/api/records/13739144/access/links",
+    "access_request": "https://zenodo.org/api/records/13739144/access/request",
+    "access_users": "https://zenodo.org/api/records/13739144/access/users",
+    "archive": "https://zenodo.org/api/records/13739144/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13739144/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13739144/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13739144/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13739144",
+    "draft": "https://zenodo.org/api/records/13739144/draft",
+    "file_modification": "https://zenodo.org/api/records/13739144/file-modification",
+    "files": "https://zenodo.org/api/records/13739144/files",
+    "latest": "https://zenodo.org/api/records/13739144/versions/latest",
+    "latest_html": "https://zenodo.org/records/13739144/latest",
+    "media_files": "https://zenodo.org/api/records/13739144/media-files",
+    "parent": "https://zenodo.org/api/records/13739143",
+    "parent_doi": "https://doi.org/10.5281/zenodo.13739143",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13739143",
+    "parent_html": "https://zenodo.org/records/13739143",
+    "preview_html": "https://zenodo.org/records/13739144?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/13739144/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/13739144/request-deletion",
+    "requests": "https://zenodo.org/api/records/13739144/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13739144/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13739144",
+    "self_doi": "https://doi.org/10.5281/zenodo.13739144",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13739144",
+    "self_html": "https://zenodo.org/records/13739144",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13739144/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13739144/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:13739144:Poster_TWG_N4O_OO_MMDS.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:13739144:Poster_TWG_N4O_OO_MMDS.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:13739144:Poster_TWG_N4O_OO_MMDS.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:13739144:Poster_TWG_N4O_OO_MMDS.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:13739144:Poster_TWG_N4O_OO_MMDS.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:13739144:Poster_TWG_N4O_OO_MMDS.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/13739144/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi4objects"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Klassik Stiftung Weimar",
+        "name": "Gerber, Anja",
+        "orcid": "0000-0003-2576-1511"
+      },
+      {
+        "affiliation": "Deutsches Archäologisches Institut, Zentrale",
+        "name": "Fricke, Fabian",
+        "orcid": "0000-0003-3223-2079"
+      }
+    ],
+    "description": "<p>Im Konsortium NFDI4Objects stehen die physischen Hinterlassenschaften der Menschheits- und Umweltgeschichte im Mittelpunkt. Diese sind immer in Zusammenhang mit Akteuren, Ereignissen, Zeitr&auml;umen und Orten zu betrachten: Wer hat was, wann, wo, mit einem bestimmten Objekt getan. Durch Ereignisse werden Objekte in einen bestimmten Kontext gesetzt, der n&auml;here Aussagen zu ihnen liefert und Zusammenh&auml;nge zwischen ihnen, aber auch mit ihnen verkn&uuml;pften Personen, Orten und Zeitschichten aufzeigt. Die digitale Objektbiografie [1] umfasst die ereignisbasierte, forschungsgetriebene Datenaufbereitung, bei der Objekte mit allen verf&uuml;gbaren Informationen zu ihren einzelnen Stationen sowie den Quellen, aus denen die Informationen stammen, verkn&uuml;pft werden.</p>\n<p>Prim&auml;res Ziel dieser Arbeitsgruppe ist der Aufbau einer von der NFDI4Objects getragenen N4O Anwendungsontologie (N4O Object Ontology; N4O OO), um die multidisziplin&auml;ren, heterogenen Daten des Konsortiums optimal f&uuml;r eine Integration in den Wissengraphen des Konsortiums [2] aufbereiten und zur Verf&uuml;gung stellen zu k&ouml;nnen. Die Ontologie enth&auml;lt dabei Elemente einer Objektbiografie, welche u. a. auf dem CIDOC CRM Referenzmodell [3] basiert, baut aber auf einem Minimal-Metadatensatz (Minimal Metadata-Set; N4O MMDS) auf. Da das N4O-Derivat der NFDIcore Ontology (N4O Core) bei einer digitalen Ressource (nfdi:Resource [4]) selbst endet, z.B. nfdi:Dataset oder nfdi:SemanticExpressivity, ist eine Ontologie f&uuml;r die Zusammenf&uuml;hrung der Forschungsdaten notwendig. Die Entwicklung wird in einer gemeinsamen Diskussion mit den Task Areas, entsprechenden TWGs und Community Clustern realisiert.</p>\n<p>Der N4O MMDS wird vor allem durch das fachliche Arbeitsprogramm - dem Objektzyklus [5] - der Task Areas 1-4 &ldquo;Documentation&rdquo;, &ldquo;Collecting&rdquo;, &ldquo;Analysis &amp; Experiments&rdquo; sowie &ldquo;Protecting&rdquo; bestimmt und ber&uuml;hrt dabei verschiedene Themengebiete, wie Ausgrabung, (digitale) Rekonstruktion und Annotation, Sammlung, Kunstgeschichte, Restaurierung/Konservierung, naturwissenschaftliche Analysen, Denkmalpflege, Provenienzforschung. Dieser Ansatz geht vom konkreten Gegenstand der Forschung - dem Objekt - aus, die Datenstrukturen zu entwickeln.</p>\n<p>In dieser TWG wird definiert, welche Elemente/Attribute der N4O MMDS [6] enthalten muss, d. h., welche Informationen zur Beschreibung von Objektdaten auf dem Weg durch den Objektzyklus notwendig sind. Dies beinhaltet die digitalen Schritte: capture, qualify, analyse, share and interlink [7] Der Er wird in einer technischen Beschreibung (z.B. JSON) zur Verf&uuml;gung gestellt und muss f&uuml;r den individuellen Datenaustausch der heterogenen Systeme in diverse &ldquo;Dialekte&rdquo; transformiert werden, z.B. LIDO/XML. Der N4O MMDS und die N4O OO als dessen RDF-Repr&auml;sentation (basierend auf CIDOC CRM,&nbsp;<a href=\"http://schema.org/\" target=\"_blank\" rel=\"nofollow noopener\">schema.org</a>, PROV-O, SKOS, BFO) bilden den Objektzyklus, der sukzessive durch die Task Areas 1-4 mit mit Informationen angereichert wird, ab. Diese Strukturen werden genutzt, da der Datenfluss in den Knowledge Graph zum einen LIDO/XML und RDF vorsieht [8].</p>\n<p>Diese Ontologie wird gemeinsam mit den im Konsortium t&auml;tigen Wissenschaftler*Innen und Stakeholdern anhand von Use Cases in der TWG &ldquo;Development of a common N4O Objects Ontology (N4O OO) and a Minimal Metadata-Set (N4O MMDS)&rdquo; erarbeitet. Eine inhaltliche Abstimmung mit den anderen geistes- und kulturwissenschaftlichen Konsortien der sogenannten Memorandum-of-understanding-Gruppe [9], bestehend aus NFDI4Culture, NFDI4Memory, NFDI4Objects und Text+, zur Herstellung der Interoperabilit&auml;t ist durch die Zusammenarbeit in verschiedenen Arbeitsgruppen sichergestellt. Weitere benachbarte Konsortien, z.B. NFDI4Earth, NFDI4Biodiversity, MaRDI etc., werden ebenfalls in die Entwicklungsprozesse einbezogen, um die naturwissenschaftlichen Aspekte abzudecken.</p>",
+    "doi": "10.5281/zenodo.13739144",
+    "journal": {
+      "issue": "4",
+      "pages": "#13",
+      "title": "Squirrel Papers",
+      "volume": "6"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "CM2024",
+      "dates": "25-27 September 2024",
+      "place": "Leibniz-Zentrum für Archäologie Mainz",
+      "session": "Poster",
+      "title": "NFDI4Objects Community Meeting",
+      "url": "https://cfp.nfdi4objects.net/N4O-CM2024/schedule/"
+    },
+    "publication_date": "2024-09-26",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "13739143"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+    },
+    "title": "NFDI4Objects Objects Ontology & Minimal Metadata Set"
+  },
+  "modified": "2024-09-28T12:03:44.319395+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "13739144",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "NFDI4Objects Objects Ontology & Minimal Metadata Set",
+  "updated": "2024-09-28T12:03:44.319395+00:00"
+}

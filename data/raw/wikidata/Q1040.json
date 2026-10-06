@@ -1,0 +1,28 @@
+{
+  "coordinates": {
+    "lat": 49.016667,
+    "lon": 8.4
+  },
+  "country": [
+    "Q183",
+    "Q186320",
+    "Q43287",
+    "Q713750"
+  ],
+  "descriptions": {
+    "de": "Großstadt in Baden-Württemberg, Deutschland",
+    "en": "city in Baden-Württemberg, Germany"
+  },
+  "id": "Q1040",
+  "instance_of": [
+    "Q134626",
+    "Q1549591",
+    "Q2327515",
+    "Q253030",
+    "Q42744322"
+  ],
+  "labels": {
+    "de": "Karlsruhe",
+    "en": "Karlsruhe"
+  }
+}

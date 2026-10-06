@@ -1,0 +1,33 @@
+{
+  "coordinates": {
+    "lat": 48.7775,
+    "lon": 9.18
+  },
+  "country": [
+    "Q159631",
+    "Q183",
+    "Q2172530",
+    "Q2227570",
+    "Q41304",
+    "Q43287",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Landeshauptstadt von Baden-Württemberg, Deutschland",
+    "en": "city on the Neckar river and capital of the federal state Baden-Württemberg, Germany"
+  },
+  "id": "Q1022",
+  "instance_of": [
+    "Q106517174",
+    "Q1066984",
+    "Q14784328",
+    "Q1549591",
+    "Q2327515",
+    "Q253030",
+    "Q42744322"
+  ],
+  "labels": {
+    "de": "Stuttgart",
+    "en": "Stuttgart"
+  }
+}

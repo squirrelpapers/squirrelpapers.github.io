@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Edinburgh [de]": [
+      {
+        "description": "capital city of Scotland, UK",
+        "id": "Q23436",
+        "label": "Edinburgh"
+      },
+      {
+        "description": "Scottish parish",
+        "id": "Q68826067",
+        "label": "Edinburgh"
+      },
+      {
+        "description": "council area in Scotland",
+        "id": "Q2379199",
+        "label": "City of Edinburgh"
+      },
+      {
+        "description": "public university in Edinburgh, Scotland, United Kingdom",
+        "id": "Q160302",
+        "label": "University of Edinburgh"
+      },
+      {
+        "description": "family name",
+        "id": "Q37259272",
+        "label": "Edinburgh"
+      }
+    ],
+    "Edinburgh [en]": [
+      {
+        "description": "capital city of Scotland, UK",
+        "id": "Q23436",
+        "label": "Edinburgh"
+      },
+      {
+        "description": "council area in Scotland",
+        "id": "Q2379199",
+        "label": "City of Edinburgh"
+      },
+      {
+        "description": "Scottish parish",
+        "id": "Q68826067",
+        "label": "Edinburgh"
+      },
+      {
+        "description": "family name",
+        "id": "Q37259272",
+        "label": "Edinburgh"
+      },
+      {
+        "description": "public university in Edinburgh, Scotland, United Kingdom",
+        "id": "Q160302",
+        "label": "University of Edinburgh"
+      }
+    ]
+  },
+  "label": "Edinburgh, Scotland, UK"
+}

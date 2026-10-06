@@ -1,0 +1,167 @@
+{
+  "answers": {
+    "Glasgow [de]": [
+      {
+        "description": "city in Scotland, United Kingdom",
+        "id": "Q4093",
+        "label": "Glasgow"
+      },
+      {
+        "description": "family name",
+        "id": "Q24232634",
+        "label": "Glasgow"
+      },
+      {
+        "description": "council area of Scotland, UK",
+        "id": "Q55934339",
+        "label": "Glasgow City"
+      },
+      {
+        "description": "Scottish parish",
+        "id": "Q68826097",
+        "label": "Glasgow"
+      },
+      {
+        "description": "sports club",
+        "id": "Q68078318",
+        "label": "Glasgow"
+      }
+    ],
+    "Glasgow [en]": [
+      {
+        "description": "city in Scotland, United Kingdom",
+        "id": "Q4093",
+        "label": "Glasgow"
+      },
+      {
+        "description": "family name",
+        "id": "Q24232634",
+        "label": "Glasgow"
+      },
+      {
+        "description": "council area of Scotland, UK",
+        "id": "Q55934339",
+        "label": "Glasgow City"
+      },
+      {
+        "description": "university in Glasgow, Scotland, United Kingdom, founded in 1451",
+        "id": "Q192775",
+        "label": "University of Glasgow"
+      },
+      {
+        "description": "Scottish parish",
+        "id": "Q68826097",
+        "label": "Glasgow"
+      }
+    ],
+    "Scotland [de]": [
+      {
+        "description": "country in north-west Europe, part of the United Kingdom",
+        "id": "Q22",
+        "label": "Scotland"
+      },
+      {
+        "description": "British botanist",
+        "id": "Q22669063",
+        "label": "Robert W. Scotland"
+      },
+      {
+        "description": "historic sovereign kingdom on the British Isles from the 9th century and up to 1707",
+        "id": "Q230791",
+        "label": "Kingdom of Scotland"
+      },
+      {
+        "description": "family name",
+        "id": "Q37509612",
+        "label": "Scotland"
+      },
+      {
+        "description": "city in South Dakota, United States of America",
+        "id": "Q2578696",
+        "label": "Scotland"
+      }
+    ],
+    "Scotland [en]": [
+      {
+        "description": "country in north-west Europe, part of the United Kingdom",
+        "id": "Q22",
+        "label": "Scotland"
+      },
+      {
+        "description": "historic sovereign kingdom on the British Isles from the 9th century and up to 1707",
+        "id": "Q230791",
+        "label": "Kingdom of Scotland"
+      },
+      {
+        "description": "given name",
+        "id": "Q107636801",
+        "label": "Scotland"
+      },
+      {
+        "description": "British botanist",
+        "id": "Q22669063",
+        "label": "Robert W. Scotland"
+      },
+      {
+        "description": "men's association football team representing Scotland",
+        "id": "Q34044",
+        "label": "Scotland men's national football team"
+      }
+    ],
+    "University of Glasgow [de]": [
+      {
+        "description": "university in Glasgow, Scotland, United Kingdom, founded in 1451",
+        "id": "Q192775",
+        "label": "University of Glasgow"
+      },
+      {
+        "description": "law school in Glasgow City, Scotland, UK",
+        "id": "Q7895465",
+        "label": "University of Glasgow School of Law"
+      },
+      {
+        "description": "medical school of the University of Glasgow, Scotland",
+        "id": "Q7895468",
+        "label": "University of Glasgow Medical School"
+      },
+      {
+        "description": "academic department in the UK",
+        "id": "Q86019224",
+        "label": "University of Glasgow School of Life Sciences"
+      },
+      {
+        "description": "library in Glasgow, Scotland, UK",
+        "id": "Q5566950",
+        "label": "Glasgow University Library"
+      }
+    ],
+    "University of Glasgow [en]": [
+      {
+        "description": "university in Glasgow, Scotland, United Kingdom, founded in 1451",
+        "id": "Q192775",
+        "label": "University of Glasgow"
+      },
+      {
+        "description": "law school in Glasgow City, Scotland, UK",
+        "id": "Q7895465",
+        "label": "University of Glasgow School of Law"
+      },
+      {
+        "description": "medical school of the University of Glasgow, Scotland",
+        "id": "Q7895468",
+        "label": "University of Glasgow Medical School"
+      },
+      {
+        "description": "academic department in the UK",
+        "id": "Q86019224",
+        "label": "University of Glasgow School of Life Sciences"
+      },
+      {
+        "description": "library in Glasgow, Scotland, UK",
+        "id": "Q5566950",
+        "label": "Glasgow University Library"
+      }
+    ]
+  },
+  "label": "University of Glasgow, Glasgow, United Kingdom (Scotland)"
+}

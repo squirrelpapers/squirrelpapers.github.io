@@ -1,0 +1,142 @@
+{
+  "conceptdoi": "10.5281/zenodo.2648210",
+  "conceptrecid": "2648210",
+  "created": "2019-04-21T16:59:27.066974+00:00",
+  "doi": "10.5281/zenodo.2648217",
+  "doi_url": "https://doi.org/10.5281/zenodo.2648217",
+  "files": [
+    {
+      "checksum": "md5:307b8c5bdbb08c5f10b6aaa230eb0110",
+      "id": "6e58027d-5836-4beb-8788-7d28eedde026",
+      "key": "2019_04_24_CAA_Krakow_ARS3D.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/2648217/files/2019_04_24_CAA_Krakow_ARS3D.pptx/content"
+      },
+      "size": 75528978
+    },
+    {
+      "checksum": "md5:734769f9205cce2382bb70bcaeec00cd",
+      "id": "8a09a2a9-a0ea-48ae-8567-8ac3bb3e6877",
+      "key": "2019_04_24_CAA_Krakow_ARS3D.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/2648217/files/2019_04_24_CAA_Krakow_ARS3D.pdf/content"
+      },
+      "size": 5704964
+    }
+  ],
+  "id": 2648217,
+  "links": {
+    "access": "https://zenodo.org/api/records/2648217/access",
+    "access_grants": "https://zenodo.org/api/records/2648217/access/grants",
+    "access_links": "https://zenodo.org/api/records/2648217/access/links",
+    "access_request": "https://zenodo.org/api/records/2648217/access/request",
+    "access_users": "https://zenodo.org/api/records/2648217/access/users",
+    "archive": "https://zenodo.org/api/records/2648217/files-archive",
+    "archive_media": "https://zenodo.org/api/records/2648217/media-files-archive",
+    "communities": "https://zenodo.org/api/records/2648217/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/2648217/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.2648217",
+    "draft": "https://zenodo.org/api/records/2648217/draft",
+    "file_modification": "https://zenodo.org/api/records/2648217/file-modification",
+    "files": "https://zenodo.org/api/records/2648217/files",
+    "latest": "https://zenodo.org/api/records/2648217/versions/latest",
+    "latest_html": "https://zenodo.org/records/2648217/latest",
+    "media_files": "https://zenodo.org/api/records/2648217/media-files",
+    "parent": "https://zenodo.org/api/records/2648210",
+    "parent_doi": "https://doi.org/10.5281/zenodo.2648210",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2648210",
+    "parent_html": "https://zenodo.org/records/2648210",
+    "preview_html": "https://zenodo.org/records/2648217?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/2648217/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/2648217/request-deletion",
+    "requests": "https://zenodo.org/api/records/2648217/requests",
+    "reserve_doi": "https://zenodo.org/api/records/2648217/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/2648217",
+    "self_doi": "https://doi.org/10.5281/zenodo.2648217",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.2648217",
+    "self_html": "https://zenodo.org/records/2648217",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:2648217/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:2648217/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:2648217:2019_04_24_CAA_Krakow_ARS3D.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:2648217:2019_04_24_CAA_Krakow_ARS3D.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:2648217:2019_04_24_CAA_Krakow_ARS3D.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:2648217:2019_04_24_CAA_Krakow_ARS3D.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:2648217:2019_04_24_CAA_Krakow_ARS3D.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:2648217:2019_04_24_CAA_Krakow_ARS3D.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/2648217/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "i3mainz - Institute for Spatial Information and Surveying Technology",
+        "name": "Ashish Karmacharya"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Louise Rokohl"
+      }
+    ],
+    "description": "<p>The African Red Slip Ware (ARS) is a central archaeological object type for the understanding of late antique world of ideas, their exchange and socio-economic history. The 3-year project ARS3D, funded by the German Federal Ministry of Education and Research (BMBF), started in February 2018 and aims to document, digitise and publish the relief-decorated ARS, located in the R&ouml;misch-Germanischen Zentralmuseum (RGZM). The ARS3D project will publish the facts and archaeological interpretations of these ARS objects. In this process the ARSs are 3D scanned and processed to create their 3D surrogates. These 3D models support archaeological interpretations which should be documented. Here we present our ontology that forms the structural fundament for the documentation and the underlying triplestore as data repository. The axioms are primarily based on CIDOC-CRM with few additions to fulfil our requirements. In addition, we included axioms to provide structure for storing meta- and para- information generated during the creation of 3D models. We have also included axioms from PROV-O, the W3C compliance ontology for structuring the provenance information of the 3D generation process. An interactive web application provides the graphical user interface of this ARS data repository. In this paper we consider data quality aspects for: 1) Provenance quality that affects the archaeological interpretations. 2) Archaeological factual quality on ARSs such as iconographical descriptions by bibliographic references and external resources, e.g. Icon Class to access the LOD cloud. 3) Identifying the provenance and storing chronological information.</p>",
+    "doi": "10.5281/zenodo.2648217",
+    "keywords": [
+      "African Red Slip Ware",
+      "data quality",
+      "CIDOC CRM",
+      "3D models",
+      "provenance"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "KrakCAA",
+      "dates": "23.04.-27.04.2019",
+      "place": "Krakow, Poland",
+      "session": "S14",
+      "session_part": "3/4",
+      "title": "Computer Applications and Quantitative Methods in Archaeology",
+      "url": "https://2019.caaconference.org/"
+    },
+    "publication_date": "2019-04-24",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "2648210"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "ARS3D - Documenting facts and interpretations of African Red Slip Ware"
+  },
+  "modified": "2024-07-24T20:42:14.402507+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "2648217",
+  "revision": 7,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "ARS3D - Documenting facts and interpretations of African Red Slip Ware",
+  "updated": "2024-07-24T20:42:14.402507+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "coordinates": {
+    "lat": 48.213186,
+    "lon": 16.36005
+  },
+  "country": [
+    "Q40"
+  ],
+  "descriptions": {
+    "en": "herbarium"
+  },
+  "id": "Q55829324",
+  "instance_of": [
+    "Q181916"
+  ],
+  "labels": {
+    "en": "University of Vienna, Institute of Botany Herbarium"
+  }
+}

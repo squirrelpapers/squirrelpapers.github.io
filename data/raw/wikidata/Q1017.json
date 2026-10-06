@@ -1,0 +1,41 @@
+{
+  "coordinates": {
+    "lat": 50.776207,
+    "lon": 6.083788
+  },
+  "country": [
+    "Q12548",
+    "Q142",
+    "Q146246",
+    "Q150981",
+    "Q151624",
+    "Q183",
+    "Q2415901",
+    "Q41304",
+    "Q43287",
+    "Q468902",
+    "Q6673921",
+    "Q713750",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "kreisfreie Großstadt im Regierungsbezirk Köln in Nordrhein-Westfalen, Deutschland",
+    "en": "city in North Rhine-Westphalia, Germany"
+  },
+  "id": "Q1017",
+  "instance_of": [
+    "Q1187811",
+    "Q134626",
+    "Q1549591",
+    "Q1780389",
+    "Q42744322",
+    "Q4946461",
+    "Q57318",
+    "Q85635630",
+    "Q902814"
+  ],
+  "labels": {
+    "de": "Aachen",
+    "en": "Aachen"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 49.92,
+    "lon": 8.08
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Landkreis in Rheinland-Pfalz",
+    "en": "district of Rhineland-Palatinate, Germany"
+  },
+  "id": "Q8569",
+  "instance_of": [
+    "Q106517174",
+    "Q85493040"
+  ],
+  "labels": {
+    "de": "Landkreis Mainz-Bingen",
+    "en": "Mainz-Bingen district"
+  }
+}

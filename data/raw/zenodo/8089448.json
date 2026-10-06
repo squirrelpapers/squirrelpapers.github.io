@@ -1,0 +1,147 @@
+{
+  "conceptdoi": "10.5281/zenodo.8089448",
+  "conceptrecid": "8089448",
+  "created": "2023-07-01T12:54:54.921967+00:00",
+  "doi": "10.5281/zenodo.8104046",
+  "doi_url": "https://doi.org/10.5281/zenodo.8104046",
+  "files": [
+    {
+      "checksum": "md5:37fc4c82c2b83befbd2c7d861d03e497",
+      "id": "d67ea563-efcd-48aa-8b8f-33a8c3831864",
+      "key": "IGSM-2023-Ogham-ThieryEtAl.pptx",
+      "links": {
+        "self": "https://zenodo.org/api/records/8104046/files/IGSM-2023-Ogham-ThieryEtAl.pptx/content"
+      },
+      "size": 55371901
+    },
+    {
+      "checksum": "md5:34feb0cef5a9890c638dac71c7c7116d",
+      "id": "6b36de61-33eb-4b22-ad39-98375296c413",
+      "key": "IGSM-2023-Ogham-ThieryEtAl.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/8104046/files/IGSM-2023-Ogham-ThieryEtAl.pdf/content"
+      },
+      "size": 17294278
+    }
+  ],
+  "id": 8104046,
+  "links": {
+    "access": "https://zenodo.org/api/records/8104046/access",
+    "access_grants": "https://zenodo.org/api/records/8104046/access/grants",
+    "access_links": "https://zenodo.org/api/records/8104046/access/links",
+    "access_request": "https://zenodo.org/api/records/8104046/access/request",
+    "access_users": "https://zenodo.org/api/records/8104046/access/users",
+    "archive": "https://zenodo.org/api/records/8104046/files-archive",
+    "archive_media": "https://zenodo.org/api/records/8104046/media-files-archive",
+    "communities": "https://zenodo.org/api/records/8104046/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/8104046/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.8104046",
+    "draft": "https://zenodo.org/api/records/8104046/draft",
+    "file_modification": "https://zenodo.org/api/records/8104046/file-modification",
+    "files": "https://zenodo.org/api/records/8104046/files",
+    "latest": "https://zenodo.org/api/records/8104046/versions/latest",
+    "latest_html": "https://zenodo.org/records/8104046/latest",
+    "media_files": "https://zenodo.org/api/records/8104046/media-files",
+    "parent": "https://zenodo.org/api/records/8089448",
+    "parent_doi": "https://doi.org/10.5281/zenodo.8089448",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8089448",
+    "parent_html": "https://zenodo.org/records/8089448",
+    "preview_html": "https://zenodo.org/records/8104046?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/8104046/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/8104046/request-deletion",
+    "requests": "https://zenodo.org/api/records/8104046/requests",
+    "reserve_doi": "https://zenodo.org/api/records/8104046/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/8104046",
+    "self_doi": "https://doi.org/10.5281/zenodo.8104046",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8104046",
+    "self_html": "https://zenodo.org/records/8104046",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:8104046/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:8104046/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:8104046:IGSM-2023-Ogham-ThieryEtAl.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:8104046:IGSM-2023-Ogham-ThieryEtAl.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:8104046:IGSM-2023-Ogham-ThieryEtAl.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:8104046:IGSM-2023-Ogham-ThieryEtAl.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:8104046:IGSM-2023-Ogham-ThieryEtAl.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:8104046:IGSM-2023-Ogham-ThieryEtAl.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/8104046/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "researchsquirrelengineers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Research Squirrel Engineers",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      }
+    ],
+    "description": "<p>Iᚑᚌᚆᚐᚋ (Ogham) stones are monoliths with the early medieval Primitive Irish Ogham script, placed on the island of Ireland and in the western part of Britain between the 4th and 9th centuries. They are an essential source for Archaic or Proto-Irish language and society. The letters of the Ogham alphabet consist of strokes written at different lengths and angles along (often natural) edges of the stones from the bottom left to the top and back down to the right. Names on the stones appear to be dedicated to a person. It remains unclear, however, whether the stones were grave markers, for example, or denoted land ownership. The stones are mostly no longer at the original site, which is, on the one hand, essential for cartographic recording (do you link the original site if known?) and, on the other hand, makes it more difficult to deduce their original function.</p>\n\n<p>Documentation on Ogham stones is available in many analogue sources and partly open online databases or repositories. However, as there is no common identification standard (e.g. stones, sites), these data cannot be analysed together; they need to be interoperable. The ogham.link project of the Research Squirrel Engineers Network creates a semantically modelled data basis as Linked Open Data (LOD) using community hubs such as Open Street Map and Wikidata. A Fellowship from Wikimedia Deutschland has already funded it in the Free Knowledge Fellow Programme as &#39;Irish ᚑᚌᚆᚐᚋ Stones in the Wikimedia Universe&#39;. The data and geodata are extracted through a workflow, modelled and made available via various hubs. In the Fellow project, this was done primarily as native RDF data and as Quick Statements for integration into Wikidata. In Wikidata, sites can be linked to Irish townlands, for which there is a platform townlands.ie based on OSM data if these cannot be determined more precisely on site.</p>\n\n<p>Various archaeological items have been tagged in OpenStreetMap by &quot;b-unicycling&quot;, including historic=ogham_stone. This makes Ogham data available in OSM with the tag ogham_stone and lends itself to linking the data mentioned in Wikidata, along with images on Wikimedia Commons and Flickr, to create an Ogham Knowledge Graph.</p>\n\n<p>This talk gives insights into the documentation, modelling and publication of selected Ogham stones from Ireland in OSM (user: b-unicycling, fthierygeo) and Wikidata (user: fthierygeo, Sophie_C._Schmidt). It shows how to create a Knowledge Graph with meta- and paradata and images. On top of that, the talks show how to integrate OSM data and Wikidata in QGIS using several Plugins, such as the &quot;SPARQLing Unicon QGIS Plugin&quot; or &quot;QuickOSM&quot; to perform further analysis. It also gives an overview of townland modelling and the publication of heritage sites using Web GIS systems and open geodata.</p>\n\n<blockquote>\n<p>Version 2023/07/01: modified slide 19</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.8104046",
+    "journal": {
+      "issue": "3",
+      "pages": "No. 4",
+      "title": "Squirrel Papers",
+      "volume": "5"
+    },
+    "keywords": [
+      "Ogham",
+      "GIS",
+      "IGSM",
+      "Linked Data",
+      "Wikidata",
+      "Open Street Map"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "IGSM",
+      "dates": "2.-8. July 2023",
+      "place": "Polytechnic University of Valencia (Universitat Politècnica de València, UPV)",
+      "title": "35th International Geodetic Student Meeting",
+      "url": "http://igsm2023.com/"
+    },
+    "publication_date": "2023-07-01",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "8089448"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata"
+  },
+  "modified": "2024-07-11T19:24:27.735264+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "8104046",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata",
+  "updated": "2024-07-11T19:24:27.735264+00:00"
+}

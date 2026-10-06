@@ -1,0 +1,83 @@
+{
+  "answers": {
+    "Rome [de]": [
+      {
+        "description": "county seat of Floyd County, Georgia, United States",
+        "id": "Q6580",
+        "label": "Rome"
+      },
+      {
+        "description": "capital and largest city of Italy",
+        "id": "Q220",
+        "label": "Rome"
+      },
+      {
+        "description": "family name",
+        "id": "Q37571708",
+        "label": "Rome"
+      },
+      {
+        "description": "city in Oneida County, New York, United States",
+        "id": "Q6586",
+        "label": "Rome"
+      },
+      {
+        "description": "period of ancient Roman civilization (509 BC–27 BC)",
+        "id": "Q17167",
+        "label": "Roman Republic"
+      }
+    ],
+    "Rome [en]": [
+      {
+        "description": "capital and largest city of Italy",
+        "id": "Q220",
+        "label": "Rome"
+      },
+      {
+        "description": "county seat of Floyd County, Georgia, United States",
+        "id": "Q6580",
+        "label": "Rome"
+      },
+      {
+        "description": "family name",
+        "id": "Q37571708",
+        "label": "Rome"
+      },
+      {
+        "description": "period of ancient Roman civilization (509 BC–27 BC)",
+        "id": "Q17167",
+        "label": "Roman Republic"
+      },
+      {
+        "description": "identifier for a time offset from UTC of +1",
+        "id": "Q6655",
+        "label": "UTC+01:00"
+      }
+    ],
+    "Sapienza University of Rome [de]": [
+      {
+        "description": "Italian university founded in Rome in 1303",
+        "id": "Q209344",
+        "label": "Sapienza University of Rome"
+      },
+      {
+        "description": "university library",
+        "id": "Q22980093",
+        "label": "Biblioteca del dipartimento di Matematica \"Guido Castelnuovo\". Università degli studi di Roma La Sapienza"
+      }
+    ],
+    "Sapienza University of Rome [en]": [
+      {
+        "description": "Italian university founded in Rome in 1303",
+        "id": "Q209344",
+        "label": "Sapienza University of Rome"
+      },
+      {
+        "description": "university library",
+        "id": "Q22980093",
+        "label": "Biblioteca del dipartimento di Matematica \"Guido Castelnuovo\". Università degli studi di Roma La Sapienza"
+      }
+    ]
+  },
+  "label": "Sapienza University of Rome, Italy"
+}

@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 41.613889,
+    "lon": -72.7725
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Gemeinde im US-Bundesstaat Connecticut",
+    "en": "town in Hartford County, Connecticut, United States"
+  },
+  "id": "Q821199",
+  "instance_of": [
+    "Q15127012"
+  ],
+  "labels": {
+    "de": "Berlin",
+    "en": "Berlin"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 45.069444,
+    "lon": 7.688889
+  },
+  "country": [
+    "Q38"
+  ],
+  "descriptions": {
+    "de": "Universität in Italien",
+    "en": "university in Turin, Italy"
+  },
+  "id": "Q499911",
+  "instance_of": [
+    "Q3918",
+    "Q43229",
+    "Q45400320"
+  ],
+  "labels": {
+    "de": "Universität Turin",
+    "en": "University of Turin"
+  }
+}

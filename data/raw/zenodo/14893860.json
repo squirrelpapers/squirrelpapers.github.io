@@ -1,0 +1,131 @@
+{
+  "conceptdoi": "10.5281/zenodo.14893860",
+  "conceptrecid": "14893860",
+  "created": "2025-09-19T10:36:37.422726+00:00",
+  "doi": "10.5281/zenodo.17159183",
+  "doi_url": "https://doi.org/10.5281/zenodo.17159183",
+  "files": [
+    {
+      "checksum": "md5:291ab0aaa3de68fce9fa234e078f3f5b",
+      "id": "28bd4f53-26c4-4f11-826a-f0fb94c1ac11",
+      "key": "NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/17159183/files/NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf/content"
+      },
+      "size": 722314
+    }
+  ],
+  "id": 17159183,
+  "links": {
+    "access": "https://zenodo.org/api/records/17159183/access",
+    "access_grants": "https://zenodo.org/api/records/17159183/access/grants",
+    "access_links": "https://zenodo.org/api/records/17159183/access/links",
+    "access_request": "https://zenodo.org/api/records/17159183/access/request",
+    "access_users": "https://zenodo.org/api/records/17159183/access/users",
+    "archive": "https://zenodo.org/api/records/17159183/files-archive",
+    "archive_media": "https://zenodo.org/api/records/17159183/media-files-archive",
+    "communities": "https://zenodo.org/api/records/17159183/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/17159183/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.17159183",
+    "draft": "https://zenodo.org/api/records/17159183/draft",
+    "file_modification": "https://zenodo.org/api/records/17159183/file-modification",
+    "files": "https://zenodo.org/api/records/17159183/files",
+    "latest": "https://zenodo.org/api/records/17159183/versions/latest",
+    "latest_html": "https://zenodo.org/records/17159183/latest",
+    "media_files": "https://zenodo.org/api/records/17159183/media-files",
+    "parent": "https://zenodo.org/api/records/14893860",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14893860",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14893860",
+    "parent_html": "https://zenodo.org/records/14893860",
+    "preview_html": "https://zenodo.org/records/17159183?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/17159183/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/17159183/request-deletion",
+    "requests": "https://zenodo.org/api/records/17159183/requests",
+    "reserve_doi": "https://zenodo.org/api/records/17159183/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/17159183",
+    "self_doi": "https://doi.org/10.5281/zenodo.17159183",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17159183",
+    "self_html": "https://zenodo.org/records/17159183",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17159183/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17159183/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:17159183:NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:17159183:NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:17159183:NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:17159183:NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:17159183:NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:17159183:NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/17159183/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "nfdi4objects"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA - Leibniz-Zentrum für Archäologie",
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Klassik Stiftung Weimar",
+        "name": "Gerber, Anja",
+        "orcid": "0000-0003-2576-1511"
+      },
+      {
+        "affiliation": "Deutsches Archäologisches Institut, Zentrale",
+        "name": "Fricke, Fabian",
+        "orcid": "0000-0003-3223-2079"
+      }
+    ],
+    "description": "<blockquote>\n<p dir=\"ltr\">Die TWG <a href=\"https://nfdi4objects.net//portal/twgs/twg2024-1_omds_oo/\">N4O ObjectMetaDataSet and ObjectOntology</a> wird in dieser Iteration den aktuellen Bed&uuml;rfnissen (NFDI Core Metadata Profile, etc.) inhaltlich agil angepasst. Diese TWG entwickelt kein Datenmodell f&uuml;r die Erstellung von Objektbiografien und definiert ebenfalls keine Anwendungsontologie f&uuml;r CIDOC CRM. Zudem werden keine LIDO-Anwendungsprofile entwickelt. Sie dient vor allem zur Entwicklung von technischen Referenzmodellen f&uuml;r Metadaten und publizierten Forschungsdaten. Die Themengebiete erzeugen fachliche Profile als Module der OCMDP sowie fachspezifische Profil-Ontologien, die jeweils auf CIDOC CRM Klassen referenzieren, um die Kompatibilit&auml;t mit dem N4O KG herzustellen und die Validierung positiv zu gestalten; die TWG entwickelt ein abgeglichenes gemeinsames harmonisiertes Metadaten- und Ontologieprofil, keine fachspezifischen L&ouml;sungen.</p>\n</blockquote>\n<p dir=\"ltr\">Prim&auml;res Ziel ist der Aufbau eines von der NFDI4Objects-Community getragenes Object Core Metadata Profile (OCMDP). Dieses Kerndatenschema stellt die Kompatibilit&auml;t mit dem sich in Aufbau befindlichen NFDI Core Meta Data Profile (NFDI Sektionen) und dem NFDI Core (FIZ Karlsruhe) sicher, so dass Metadaten in NFDI4Objects innerhalb der NFDI-Konsortien interoperabel zur Verf&uuml;gung stehen. Dazu m&uuml;ssen abgestimmte N4O eigene Elemente/Terms (properties) und Entit&auml;ten (classes) erzeugt und durch einen Cross-Walk mit anderen Schemata (u. a. schema.org, DCAT, DataCite, DublinCore) verkn&uuml;pft werden. Der OCMDP ist die Basis f&uuml;r ein RDF-basiertes Austauschformat (Objects Metadata Junction Ontology - OMJO), welche Daten in einen N4O Metadata Knowledge Graph (N4O MKG) einspielt und diese FAIR zur Verf&uuml;gung stellt. Zur FAIRifizierung von Forschungsdaten und Herstellung der Kompatibilit&auml;t mit internationalen Cultural Heritage Daten auf Basis des CIDOC CRM und seiner Extensions wird eine Material Cultural Heritage Crosswalk Ontology (MaCHeCO) entwickelt, um hier gemeinsam mit der N4O Community Basis-Entit&auml;ten (classes)&nbsp; in individuellen Ontologien durch einen hierarchischen CrossWalk zu CIDOC CRM als Crosswalk-Ontology im N4O Knowledge Graph (N4O KG) festzulegen. Zur Interaktion zwischen MaCHeCO und OMJO werden Ankn&uuml;pfungsklassen zur f&ouml;derierten Abfrage der beiden Knowledge Graphen (KG und MKG) definiert.</p>\n<p dir=\"ltr\">Das OCMDP und die MaCHeCO werden vor allem durch das fachliche Arbeitsprogramm - und damit dem Objektzyklus - der Task Areas 1-4 &ldquo;Documentation&rdquo;, &ldquo;Collecting&rdquo;, &ldquo;Analysis &amp; Experiments&rdquo; sowie &ldquo;Protecting&rdquo; bestimmt und ber&uuml;hren dabei die Themengebiete Ausgrabung, (digitale) Rekonstruktion und Annotation, Sammlung, Kunstgeschichte, Restaurierung/Konservierung, naturwissenschaftliche Analysen, Denkmalpflege, Provenienzforschung, etc. Die Themengebiete erzeugen dabei fachliche Profile als Module der OCMDP, sowie fachspezifische Profil-Ontologien, die jeweils auf CIDOC CRM Klassen referenzieren (per cross-walk) um die Kompatibilit&auml;t mit dem N4O KG herzustellen und die Validierung positiv zu gestalten.</p>\n<p dir=\"ltr\">Daraus ergeben sich als Aufgaben f&uuml;r die TWG u. a.:</p>\n<ul>\n<li>\n<p dir=\"ltr\">Definition der Begrifflichkeiten zu einem Objects Core (N4O Proposal G6.5, p. 93; M6.3, p.95)</p>\n</li>\n<li>\n<p dir=\"ltr\">Festlegung von gemeinsamen Basis-Entit&auml;ten (classes) in individuellen Ontologien und hierarchischer CrossWalk u.A. auf CIDOC CRM 7.1.3 f&uuml;r MaCHeCO als Crosswalk-Ontologie im N4O Knowledge Graph</p>\n</li>\n<li>\n<p dir=\"ltr\">Entwicklung eines Object Core Metadata Profile (OCMDP) und Verkn&uuml;pfung zu MaCHeCO und dem Knowledge Graph</p>\n<ul>\n<li>\n<p dir=\"ltr\">Aufbau eines gemeinsamen Thesaurus zur Definition der Elemente (properties) und Entit&auml;ten (classes, zum Ontologieaustausch) im Object Core Metadata Profile (OCMDP)</p>\n</li>\n<li>\n<p dir=\"ltr\">OCMDP-Super-Element-CrossWalk zu NFDI Core Metadata Profile (schema.org / DataCite / DCAT / NFDI Core / CodeMeta) sowie DublinCore und Wikidata</p>\n</li>\n<li>\n<p dir=\"ltr\">Definition eines Austauschformats (CSV; XML; JSON)</p>\n</li>\n<li>\n<p dir=\"ltr\">Definition einer OCMDP Ontology (RDF Repr&auml;sentation des OCMDP) und der Object Metadata Junction Ontology (OMJO)</p>\n<ul>\n<li>\n<p dir=\"ltr\">Elemente (properties) im Object Core Metadata Profile (OCMDP)</p>\n</li>\n<li>\n<p dir=\"ltr\">Gemeinsame Ankn&uuml;pfungsentit&auml;ten (classes) zwischen OMJO und MaCHeO zur f&ouml;derierten Abfrage der beiden Knowledge Graphen</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>",
+    "doi": "10.5281/zenodo.17159183",
+    "journal": {
+      "issue": "4",
+      "pages": "λ2",
+      "title": "Squirrel Papers",
+      "volume": "7"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2025-09-19",
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14893860"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "proposal",
+      "title": "Proposal",
+      "type": "publication"
+    },
+    "title": "NFDI4Objects TWG – Object Core Metadata Profile (OCMDP) & Material Cultural Heritage Crosswalk Ontology (MaCHeCO)",
+    "version": "v3"
+  },
+  "modified": "2025-09-19T10:36:37.740852+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "17159183",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "NFDI4Objects TWG – Object Core Metadata Profile (OCMDP) & Material Cultural Heritage Crosswalk Ontology (MaCHeCO)",
+  "updated": "2025-09-19T10:36:37.740852+00:00"
+}

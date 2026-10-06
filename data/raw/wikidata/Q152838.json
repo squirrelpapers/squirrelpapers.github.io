@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 51.53398,
+    "lon": 9.93792
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Universität in Niedersachsen (Deutschland)",
+    "en": "university in the city of Göttingen, Germany"
+  },
+  "id": "Q152838",
+  "instance_of": [
+    "Q1767829",
+    "Q2349320",
+    "Q5028741",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Georg-August-Universität Göttingen",
+    "en": "University of Göttingen"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "coordinates": {
+    "lat": 50.942222,
+    "lon": 6.957778
+  },
+  "country": [
+    "Q12548",
+    "Q146246",
+    "Q153080",
+    "Q183",
+    "Q2277",
+    "Q2415901",
+    "Q27306",
+    "Q41304",
+    "Q42834",
+    "Q43287",
+    "Q71084",
+    "Q713750",
+    "Q7318",
+    "Q7904317"
+  ],
+  "descriptions": {
+    "de": "Millionenmetropole am Rhein und bevölkerungsreichste Stadt Nordrhein-Westfalens",
+    "en": "most populous city in North Rhine-Westphalia, Germany"
+  },
+  "id": "Q365",
+  "instance_of": [
+    "Q1549591",
+    "Q200250",
+    "Q2202509",
+    "Q42744322",
+    "Q57318",
+    "Q707813",
+    "Q85635630"
+  ],
+  "labels": {
+    "de": "Köln",
+    "en": "Cologne"
+  }
+}

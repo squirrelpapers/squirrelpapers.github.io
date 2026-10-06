@@ -1,0 +1,15 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Farbe",
+    "en": "brownish red colour associated with Bordeaux wine"
+  },
+  "id": "Q10859033",
+  "instance_of": [
+    "Q1075"
+  ],
+  "labels": {
+    "de": "Bordeauxrot",
+    "en": "bordeaux"
+  }
+}

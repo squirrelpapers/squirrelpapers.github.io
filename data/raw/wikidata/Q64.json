@@ -1,0 +1,42 @@
+{
+  "coordinates": {
+    "lat": 52.516667,
+    "lon": 13.383333
+  },
+  "country": [
+    "Q148499",
+    "Q150981",
+    "Q157367",
+    "Q16957",
+    "Q183",
+    "Q27306",
+    "Q41304",
+    "Q43287",
+    "Q55300",
+    "Q713750",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt und bevölkerungsreichste Stadt der Bundesrepublik Deutschland",
+    "en": "federated state, capital and largest city of Germany"
+  },
+  "id": "Q64",
+  "instance_of": [
+    "Q114401982",
+    "Q1221156",
+    "Q1307779",
+    "Q133442",
+    "Q15974307",
+    "Q1901835",
+    "Q200250",
+    "Q257391",
+    "Q42744322",
+    "Q51929311",
+    "Q67123843",
+    "Q707813"
+  ],
+  "labels": {
+    "de": "Berlin",
+    "en": "Berlin"
+  }
+}

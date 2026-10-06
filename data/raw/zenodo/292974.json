@@ -1,0 +1,131 @@
+{
+  "conceptdoi": "10.5281/zenodo.774948",
+  "conceptrecid": "774948",
+  "created": "2017-02-17T08:54:57.276415+00:00",
+  "doi": "10.5281/zenodo.292974",
+  "doi_url": "https://doi.org/10.5281/zenodo.292974",
+  "files": [
+    {
+      "checksum": "md5:b1f712a85c306dcb988b3bdae1474e8b",
+      "id": "594bad43-fde2-449a-9781-d9f453255fc6",
+      "key": "2014_DHMAINZ_Poster.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/292974/files/2014_DHMAINZ_Poster.pdf/content"
+      },
+      "size": 14835706
+    }
+  ],
+  "id": 292974,
+  "links": {
+    "access": "https://zenodo.org/api/records/292974/access",
+    "access_grants": "https://zenodo.org/api/records/292974/access/grants",
+    "access_links": "https://zenodo.org/api/records/292974/access/links",
+    "access_request": "https://zenodo.org/api/records/292974/access/request",
+    "access_users": "https://zenodo.org/api/records/292974/access/users",
+    "archive": "https://zenodo.org/api/records/292974/files-archive",
+    "archive_media": "https://zenodo.org/api/records/292974/media-files-archive",
+    "communities": "https://zenodo.org/api/records/292974/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/292974/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.292974",
+    "draft": "https://zenodo.org/api/records/292974/draft",
+    "file_modification": "https://zenodo.org/api/records/292974/file-modification",
+    "files": "https://zenodo.org/api/records/292974/files",
+    "latest": "https://zenodo.org/api/records/292974/versions/latest",
+    "latest_html": "https://zenodo.org/records/292974/latest",
+    "media_files": "https://zenodo.org/api/records/292974/media-files",
+    "parent": "https://zenodo.org/api/records/774948",
+    "parent_doi": "https://doi.org/10.5281/zenodo.774948",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.774948",
+    "parent_html": "https://zenodo.org/records/774948",
+    "preview_html": "https://zenodo.org/records/292974?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/292974/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/292974/request-deletion",
+    "requests": "https://zenodo.org/api/records/292974/requests",
+    "reserve_doi": "https://zenodo.org/api/records/292974/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/292974",
+    "self_doi": "https://doi.org/10.5281/zenodo.292974",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.292974",
+    "self_html": "https://zenodo.org/records/292974",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:292974/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:292974/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:292974:2014_DHMAINZ_Poster.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:292974:2014_DHMAINZ_Poster.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:292974:2014_DHMAINZ_Poster.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:292974:2014_DHMAINZ_Poster.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:292974:2014_DHMAINZ_Poster.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:292974:2014_DHMAINZ_Poster.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/292974/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "mainzed"
+      },
+      {
+        "id": "linkedgeodesy"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "i3mainz - Institut für Raumbezoegene Informations- und Messtechnik",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "i3mainz - Institut für Raumbezoegene Informations- und Messtechnik",
+        "name": "Kai-Christian Bruhn",
+        "orcid": "0000-0001-8322-1260"
+      }
+    ],
+    "description": "<p>Poster auf dem Forum DHMainz.</p>",
+    "doi": "10.5281/zenodo.292974",
+    "keywords": [
+      "linked data",
+      "linked open data",
+      "SKOS"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "30.05.2014",
+      "place": "Mainz, Germany",
+      "title": "DHMainz | Forum DHMainz"
+    },
+    "publication_date": "2014-05-30",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "774948"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+    },
+    "title": "Das Labeling System – Lösen der Mehrdeutigkeiten von Räumen und deren Funktion"
+  },
+  "modified": "2024-08-03T13:05:52.437587+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "292974",
+  "revision": 11,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Das Labeling System – Lösen der Mehrdeutigkeiten von Räumen und deren Funktion",
+  "updated": "2024-08-03T13:05:52.437587+00:00"
+}

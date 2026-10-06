@@ -1,0 +1,40 @@
+{
+  "coordinates": {
+    "lat": 53.55,
+    "lon": 10
+  },
+  "country": [
+    "Q1055",
+    "Q12548",
+    "Q150981",
+    "Q151624",
+    "Q183",
+    "Q2415901",
+    "Q41304",
+    "Q43287",
+    "Q71084",
+    "Q713750",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Stadt und Land der Bundesrepublik Deutschland",
+    "en": "city and state in the North of Germany"
+  },
+  "id": "Q1055",
+  "instance_of": [
+    "Q1221156",
+    "Q133442",
+    "Q1549591",
+    "Q15974307",
+    "Q200250",
+    "Q2264924",
+    "Q42744322",
+    "Q57318",
+    "Q707813",
+    "Q85636199"
+  ],
+  "labels": {
+    "de": "Hamburg",
+    "en": "Hamburg"
+  }
+}

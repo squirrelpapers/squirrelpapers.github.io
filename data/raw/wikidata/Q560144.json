@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 50.776389,
+    "lon": 6.043611
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Universitätsklinikum der RWTH Aachen",
+    "en": "university hospital in Aachen, Germany"
+  },
+  "id": "Q560144",
+  "instance_of": [
+    "Q1059324"
+  ],
+  "labels": {
+    "de": "Universitätsklinikum Aachen",
+    "en": "Klinikum Aachen"
+  }
+}

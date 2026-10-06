@@ -1,0 +1,32 @@
+{
+  "coordinates": {
+    "lat": 37.984167,
+    "lon": 23.728056
+  },
+  "country": [
+    "Q12544",
+    "Q12560",
+    "Q17765809",
+    "Q209065",
+    "Q2277",
+    "Q334714",
+    "Q41",
+    "Q528546",
+    "Q844930"
+  ],
+  "descriptions": {
+    "de": "Hauptstadt von Griechenland",
+    "en": "capital and largest city of Greece"
+  },
+  "id": "Q1524",
+  "instance_of": [
+    "Q1549591",
+    "Q200250",
+    "Q51929311",
+    "Q5500203"
+  ],
+  "labels": {
+    "de": "Athen",
+    "en": "Athens"
+  }
+}

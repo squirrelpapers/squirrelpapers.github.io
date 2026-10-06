@@ -1,0 +1,127 @@
+{
+  "conceptdoi": "10.5281/zenodo.5767082",
+  "conceptrecid": "5767082",
+  "created": "2021-12-08T09:51:56.724438+00:00",
+  "doi": "10.5281/zenodo.5767083",
+  "doi_url": "https://doi.org/10.5281/zenodo.5767083",
+  "files": [
+    {
+      "checksum": "md5:3500ef93474784efad411765b43567b4",
+      "id": "29f7839a-e4ee-4661-8e67-235c936dfb4f",
+      "key": "RGZM/ceramictypologies-lod-v0.1.1.zip",
+      "links": {
+        "self": "https://zenodo.org/api/records/5767083/files/RGZM/ceramictypologies-lod-v0.1.1.zip/content"
+      },
+      "size": 65740
+    }
+  ],
+  "id": 5767083,
+  "links": {
+    "access": "https://zenodo.org/api/records/5767083/access",
+    "access_grants": "https://zenodo.org/api/records/5767083/access/grants",
+    "access_links": "https://zenodo.org/api/records/5767083/access/links",
+    "access_request": "https://zenodo.org/api/records/5767083/access/request",
+    "access_users": "https://zenodo.org/api/records/5767083/access/users",
+    "archive": "https://zenodo.org/api/records/5767083/files-archive",
+    "archive_media": "https://zenodo.org/api/records/5767083/media-files-archive",
+    "communities": "https://zenodo.org/api/records/5767083/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/5767083/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.5767083",
+    "draft": "https://zenodo.org/api/records/5767083/draft",
+    "file_modification": "https://zenodo.org/api/records/5767083/file-modification",
+    "files": "https://zenodo.org/api/records/5767083/files",
+    "latest": "https://zenodo.org/api/records/5767083/versions/latest",
+    "latest_html": "https://zenodo.org/records/5767083/latest",
+    "media_files": "https://zenodo.org/api/records/5767083/media-files",
+    "parent": "https://zenodo.org/api/records/5767082",
+    "parent_doi": "https://doi.org/10.5281/zenodo.5767082",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5767082",
+    "parent_html": "https://zenodo.org/records/5767082",
+    "preview_html": "https://zenodo.org/records/5767083?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/5767083/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/5767083/request-deletion",
+    "requests": "https://zenodo.org/api/records/5767083/requests",
+    "reserve_doi": "https://zenodo.org/api/records/5767083/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/5767083",
+    "self_doi": "https://doi.org/10.5281/zenodo.5767083",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5767083",
+    "self_html": "https://zenodo.org/records/5767083",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:5767083/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:5767083/sequence/default",
+    "versions": "https://zenodo.org/api/records/5767083/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": null,
+        "name": "Mees, Allard",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<ul>\n\t<li>first release</li>\n\t<li>fix licence in CFF file</li>\n</ul>",
+    "doi": "10.5281/zenodo.5767083",
+    "keywords": [
+      "Samian Ware",
+      "Linked Open Data",
+      "Ceramics"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "notes": "If you use this software, please cite it as below.",
+    "publication_date": "2021-12-08",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/RGZM/ceramictypologies-lod/tree/v0.1.1",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": false,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "5767082"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "title": "Ceramic Typologies Ontology (CeraTyOnt)",
+    "version": "v0.1"
+  },
+  "modified": "2022-10-11T08:12:49.935926+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "5767083",
+  "revision": 7,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Ceramic Typologies Ontology (CeraTyOnt)",
+  "updated": "2022-10-11T08:12:49.935926+00:00"
+}

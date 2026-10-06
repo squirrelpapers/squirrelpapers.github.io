@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 48.7767,
+    "lon": 9.1775
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Stadtbezirk in Stuttgart",
+    "en": "human settlement in Germany"
+  },
+  "id": "Q727750",
+  "instance_of": [
+    "Q2740635",
+    "Q676050"
+  ],
+  "labels": {
+    "de": "Stuttgart-Mitte",
+    "en": "Stuttgart-Mitte"
+  }
+}

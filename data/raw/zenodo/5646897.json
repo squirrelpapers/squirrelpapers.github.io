@@ -1,0 +1,162 @@
+{
+  "conceptdoi": "10.5281/zenodo.5646897",
+  "conceptrecid": "5646897",
+  "created": "2021-11-24T08:18:27.991750+00:00",
+  "doi": "10.5281/zenodo.5646898",
+  "doi_url": "https://doi.org/10.5281/zenodo.5646898",
+  "files": [
+    {
+      "checksum": "md5:b2cc047cceabb502f1ff19f3458befaf",
+      "id": "2558b0b9-2302-4d2c-ba01-6629d1837fd5",
+      "key": "ARS3D_ThePortal.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/5646898/files/ARS3D_ThePortal.pdf/content"
+      },
+      "size": 8335665
+    }
+  ],
+  "id": 5646898,
+  "links": {
+    "access": "https://zenodo.org/api/records/5646898/access",
+    "access_grants": "https://zenodo.org/api/records/5646898/access/grants",
+    "access_links": "https://zenodo.org/api/records/5646898/access/links",
+    "access_request": "https://zenodo.org/api/records/5646898/access/request",
+    "access_users": "https://zenodo.org/api/records/5646898/access/users",
+    "archive": "https://zenodo.org/api/records/5646898/files-archive",
+    "archive_media": "https://zenodo.org/api/records/5646898/media-files-archive",
+    "communities": "https://zenodo.org/api/records/5646898/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/5646898/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.5646898",
+    "draft": "https://zenodo.org/api/records/5646898/draft",
+    "file_modification": "https://zenodo.org/api/records/5646898/file-modification",
+    "files": "https://zenodo.org/api/records/5646898/files",
+    "latest": "https://zenodo.org/api/records/5646898/versions/latest",
+    "latest_html": "https://zenodo.org/records/5646898/latest",
+    "media_files": "https://zenodo.org/api/records/5646898/media-files",
+    "parent": "https://zenodo.org/api/records/5646897",
+    "parent_doi": "https://doi.org/10.5281/zenodo.5646897",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5646897",
+    "parent_html": "https://zenodo.org/records/5646897",
+    "preview_html": "https://zenodo.org/records/5646898?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/5646898/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/5646898/request-deletion",
+    "requests": "https://zenodo.org/api/records/5646898/requests",
+    "reserve_doi": "https://zenodo.org/api/records/5646898/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/5646898",
+    "self_doi": "https://doi.org/10.5281/zenodo.5646898",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5646898",
+    "self_html": "https://zenodo.org/records/5646898",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:5646898/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:5646898/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:5646898:ARS3D_ThePortal.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:5646898:ARS3D_ThePortal.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:5646898:ARS3D_ThePortal.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:5646898:ARS3D_ThePortal.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:5646898:ARS3D_ThePortal.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:5646898:ARS3D_ThePortal.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/5646898/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "ars3d"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "contributors": [
+      {
+        "affiliation": "i3mainz",
+        "name": "Jonas Veller",
+        "orcid": "0000-0003-1666-0348",
+        "type": "ResearchGroup"
+      },
+      {
+        "affiliation": "i3mainz",
+        "name": "Laura Raddatz",
+        "type": "ResearchGroup"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Allard Mees",
+        "orcid": "0000-0002-7634-5342",
+        "type": "ProjectMember"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum",
+        "name": "Louise Rokohl",
+        "orcid": "0000-0003-1631-9115"
+      }
+    ],
+    "description": "<p><strong>Due to its striking decoration, the so-called African Red Slip Ware (ARS) is central to the understanding of Late Antique imagination. The collaborative project between i3mainz and the RGZM opens up the artefact in an innovative and sustainable way through 3D digitisation.</strong></p>\n\n<p>Characteristic of the North African bowls, plates, and jugs are their pictorial decorations applied mainly by appliqu&eacute;s and stamps. As mass-produced image carriers and everyday objects, the ARS spread throughout the empire.</p>\n\n<p>The range of motifs includes mythological scenes as well as scenes from the Old and New Testament, circus, arena and hunting scenes as well as fish and plant motifs. The appliqu&eacute;s-decorated pottery thus provides insights into Late Antique imagination and its changes, as well as into the economic history of the period between the 3rd and 5th centuries AD in North Africa.</p>\n\n<p>Previous documentation methods were not able to capture the objects and their decoration in an adequate way. The digital recording of the RGZM&#39;s collections by 3D scans allows to compare potentially identical appliqu&eacute;s and to assign them to their negative forms and the corresponding stamps.</p>\n\n<p>Whereas vessel curvature previously falsified the assignment of appliqu&eacute;s and models, 3D analysis and visualisation tools now allow a comparison . Metadata created for each object increases the effectiveness and accuracy of determining image context and content. Issues related to the production of the ARS and the process flows within the workshops can be investigated through the analysis of the 3D data.</p>",
+    "doi": "10.5281/zenodo.5646898",
+    "journal": {
+      "issue": "1",
+      "pages": "No. 2",
+      "title": "Squirrel Papers",
+      "volume": "3"
+    },
+    "keywords": [
+      "African Red Slip Ware"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2021-11-24",
+    "related_identifiers": [
+      {
+        "identifier": "10.17605/OSF.IO/AQSXF",
+        "relation": "isDocumentedBy",
+        "resource_type": "publication-report",
+        "scheme": "doi"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "5646897"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "report",
+      "title": "Report",
+      "type": "publication"
+    },
+    "title": "African Red Slip Ware digital (ARS3D) - The Portal"
+  },
+  "modified": "2024-07-17T16:18:53.689490+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "5646898",
+  "revision": 6,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "African Red Slip Ware digital (ARS3D) - The Portal",
+  "updated": "2024-07-17T16:18:53.689490+00:00"
+}

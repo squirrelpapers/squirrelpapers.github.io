@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 42.35,
+    "lon": 14.166667
+  },
+  "country": [
+    "Q38"
+  ],
+  "descriptions": {
+    "de": "Italienische Provinz",
+    "en": "province of Italy"
+  },
+  "id": "Q16160",
+  "instance_of": [
+    "Q15089"
+  ],
+  "labels": {
+    "de": "Provinz Chieti",
+    "en": "Province of Chieti"
+  }
+}

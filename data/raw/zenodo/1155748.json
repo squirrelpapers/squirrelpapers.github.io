@@ -1,0 +1,137 @@
+{
+  "conceptdoi": "10.5281/zenodo.1155747",
+  "conceptrecid": "1155747",
+  "created": "2018-01-19T16:13:54.529846+00:00",
+  "doi": "10.5281/zenodo.1155748",
+  "doi_url": "https://doi.org/10.5281/zenodo.1155748",
+  "files": [
+    {
+      "checksum": "md5:37a6c860f7fab02a9b6c2f3ac72540ab",
+      "id": "bd532a1e-ed1f-400a-9f0c-18cf4477c438",
+      "key": "2018_01_19_Graphentechnologien2018_AMT_Samian.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/1155748/files/2018_01_19_Graphentechnologien2018_AMT_Samian.pdf/content"
+      },
+      "size": 4199359
+    }
+  ],
+  "id": 1155748,
+  "links": {
+    "access": "https://zenodo.org/api/records/1155748/access",
+    "access_grants": "https://zenodo.org/api/records/1155748/access/grants",
+    "access_links": "https://zenodo.org/api/records/1155748/access/links",
+    "access_request": "https://zenodo.org/api/records/1155748/access/request",
+    "access_users": "https://zenodo.org/api/records/1155748/access/users",
+    "archive": "https://zenodo.org/api/records/1155748/files-archive",
+    "archive_media": "https://zenodo.org/api/records/1155748/media-files-archive",
+    "communities": "https://zenodo.org/api/records/1155748/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/1155748/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.1155748",
+    "draft": "https://zenodo.org/api/records/1155748/draft",
+    "file_modification": "https://zenodo.org/api/records/1155748/file-modification",
+    "files": "https://zenodo.org/api/records/1155748/files",
+    "latest": "https://zenodo.org/api/records/1155748/versions/latest",
+    "latest_html": "https://zenodo.org/records/1155748/latest",
+    "media_files": "https://zenodo.org/api/records/1155748/media-files",
+    "parent": "https://zenodo.org/api/records/1155747",
+    "parent_doi": "https://doi.org/10.5281/zenodo.1155747",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1155747",
+    "parent_html": "https://zenodo.org/records/1155747",
+    "preview_html": "https://zenodo.org/records/1155748?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/1155748/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/1155748/request-deletion",
+    "requests": "https://zenodo.org/api/records/1155748/requests",
+    "reserve_doi": "https://zenodo.org/api/records/1155748/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/1155748",
+    "self_doi": "https://doi.org/10.5281/zenodo.1155748",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1155748",
+    "self_html": "https://zenodo.org/records/1155748",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:1155748/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:1155748/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:1155748:2018_01_19_Graphentechnologien2018_AMT_Samian.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:1155748:2018_01_19_Graphentechnologien2018_AMT_Samian.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:1155748:2018_01_19_Graphentechnologien2018_AMT_Samian.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:1155748:2018_01_19_Graphentechnologien2018_AMT_Samian.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:1155748:2018_01_19_Graphentechnologien2018_AMT_Samian.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:1155748:2018_01_19_Graphentechnologien2018_AMT_Samian.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/1155748/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "linkedgeodesy"
+      },
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "mainzed"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (RGZM)",
+        "name": "Allard Mees"
+      }
+    ],
+    "description": "<p>In der Arch&auml;ologie wurde bereits seit mehr als 120 Jahren damit begonnen, die r&ouml;mische Keramikgattung Terra Sigillata in Einzelformen zu klassifizieren. Jedoch spielen Unsicherheiten und Zweifel bei der Bestimmung von dieser europaweit &uuml;beraus h&auml;ufig vorkommenden Manufakturware eine herausragende Rolle.</p>\n\n<p>Wie beim modernen Porzellan gibt es bei Terra Sigillata standardisierte &quot;Service&quot;, d.h. verschiedene Formen (Teller, N&auml;pfe, Schalen) geh&ouml;ren durch &auml;hnlich gestaltete R&auml;nder oder Standringe zur gleichen &quot;Service-Familie&quot;. Da oft nur Bruchst&uuml;cke von einem Rand oder einem Standring gefunden werden, kann in solchen F&auml;llen h&ouml;chstens eine Zuweisung zu einer oder mehreren Service-Familien erfolgen. Eine solche Unsicherheit in der Zuweisung gilt es zu modellieren.</p>\n\n<p>Dar&uuml;ber hinaus geben die mit Namen versehenen T&ouml;pferstempel Auskunft dar&uuml;ber, wer die einzelnen Gef&auml;&szlig;e hergestellt hat. Die Bestimmung dieser T&ouml;pferstempel ist&nbsp;f&uuml;r die Chronologie dieser Ware von gro&szlig;er Bedeutung, da z.B. abgebrochene oder besch&auml;digte Stempel von j&uuml;ngerem Datum sein d&uuml;rften als noch vollst&auml;ndig erhaltene Namensstempel. Da die Stempel oft von Hand und in verschiedenen Winkeln in den noch weichen Gef&auml;&szlig;boden eingestempelt wurden, sind sie somit oft auf dem ersten Blick nicht als identisch erkennbar. Hier ist das Kriterium der Vagheit das zu modellierende Model.</p>\n\n<p>Der Gl&uuml;cksfall, dass in einer am R&ouml;misch-Germanischen Zentralmuseum Mainz (RGZM) entwickelten Datenbank 250&#39;000 gestempelte Gef&auml;&szlig;e des r&ouml;mischen Tafelgeschirrs Terra Sigillata in einem relationalen Datenmodell erfasst und &uuml;ber das Web verf&uuml;gbar<a href=\"#_ftn1\">[1]</a> sind, erm&ouml;glicht das Ausloten der Grenzen der relationalen Datenmodellierung im Kontext der &bdquo;Modellierung des Zweifels&ldquo; an Hand von realen Beispielen.</p>\n\n<p>Graphbasierte semantische Datenmodellierung bietet eine weitere interoperable und skalierbare M&ouml;glichkeit zur L&ouml;sung der Modellierung von Zweifel und Unsicherheiten bei der Zuweisung von Stempel und &quot;Service-Familien&quot;.</p>\n\n<p>Die Pr&auml;sentation zeigt L&ouml;sungsstrategien mittels einfachem OWL-Reasoning zur Modellierung des Zweifels in der RGZM Terra Sigillata Datenbank in Realtime-Beispielen.</p>\n\n<p><a href=\"#_ftnref1\">[1]</a> http://rgzm.de/samian</p>",
+    "doi": "10.5281/zenodo.1155748",
+    "keywords": [
+      "Samian",
+      "RDF",
+      "Graph"
+    ],
+    "language": "deu",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "#graph2018",
+      "dates": "19.-20.01.2018",
+      "place": "Akademie der Wissenschaften und der Literatur Mainz",
+      "session": "2",
+      "title": "Graphentechnologien 2018",
+      "url": "http://www.digitale-akademie.de/forschung/graphentechnologien/"
+    },
+    "publication_date": "2018-01-19",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "1155747"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Presentation",
+      "type": "presentation"
+    },
+    "title": "Putting Samian pots together – modelling ceramic service family roots – connecting figure types. Wie Graphen bei der Modellierung des Zweifels helfen können."
+  },
+  "modified": "2024-08-02T19:59:33.805468+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "1155748",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Putting Samian pots together – modelling ceramic service family roots – connecting figure types. Wie Graphen bei der Modellierung des Zweifels helfen können.",
+  "updated": "2024-08-02T19:59:33.805468+00:00"
+}

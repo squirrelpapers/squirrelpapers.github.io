@@ -1,0 +1,139 @@
+{
+  "conceptdoi": "10.5281/zenodo.3345711",
+  "conceptrecid": "3345711",
+  "created": "2019-07-22T12:15:50.157798+00:00",
+  "doi": "10.5281/zenodo.3345715",
+  "doi_url": "https://doi.org/10.5281/zenodo.3345715",
+  "files": [
+    {
+      "checksum": "md5:3cb38dece98ef76e8534d9705814078a",
+      "id": "a13baed4-8a82-43f5-84af-275cfddbea97",
+      "key": "datadragons.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/3345715/files/datadragons.pdf/content"
+      },
+      "size": 2048710
+    }
+  ],
+  "id": 3345715,
+  "links": {
+    "access": "https://zenodo.org/api/records/3345715/access",
+    "access_grants": "https://zenodo.org/api/records/3345715/access/grants",
+    "access_links": "https://zenodo.org/api/records/3345715/access/links",
+    "access_request": "https://zenodo.org/api/records/3345715/access/request",
+    "access_users": "https://zenodo.org/api/records/3345715/access/users",
+    "archive": "https://zenodo.org/api/records/3345715/files-archive",
+    "archive_media": "https://zenodo.org/api/records/3345715/media-files-archive",
+    "communities": "https://zenodo.org/api/records/3345715/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/3345715/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.3345715",
+    "draft": "https://zenodo.org/api/records/3345715/draft",
+    "file_modification": "https://zenodo.org/api/records/3345715/file-modification",
+    "files": "https://zenodo.org/api/records/3345715/files",
+    "latest": "https://zenodo.org/api/records/3345715/versions/latest",
+    "latest_html": "https://zenodo.org/records/3345715/latest",
+    "media_files": "https://zenodo.org/api/records/3345715/media-files",
+    "parent": "https://zenodo.org/api/records/3345711",
+    "parent_doi": "https://doi.org/10.5281/zenodo.3345711",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3345711",
+    "parent_html": "https://zenodo.org/records/3345711",
+    "preview_html": "https://zenodo.org/records/3345715?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/3345715/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/3345715/request-deletion",
+    "requests": "https://zenodo.org/api/records/3345715/requests",
+    "reserve_doi": "https://zenodo.org/api/records/3345715/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/3345715",
+    "self_doi": "https://doi.org/10.5281/zenodo.3345715",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3345715",
+    "self_html": "https://zenodo.org/records/3345715",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3345715/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3345715/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:3345715:datadragons.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:3345715:datadragons.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:3345715:datadragons.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:3345715:datadragons.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:3345715:datadragons.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:3345715:datadragons.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/3345715/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Römisch-Germanisches Zentralmuseum (Germany)",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "Österreichische Akademie der Wissenschaften (Austria)",
+        "name": "Martina Trognitz",
+        "orcid": "0000-0003-0485-6861"
+      },
+      {
+        "affiliation": "American Numismatic Society (USA)",
+        "name": "Ethan Gruber",
+        "orcid": "0000-0002-4691-9747"
+      },
+      {
+        "affiliation": "Römisch-Germanische Kommission des Deutschen Archäologischen Instituts (Germany)",
+        "name": "David Wigg-Wolf",
+        "orcid": "0000-0002-8604-544X"
+      }
+    ],
+    "description": "<p>The world of digital data is full of unknown data, with are not FAIR (Findable, Accessible, Interoperable and Reusable).<br>\nThis modern species of dragons on a (digital) map of the internet as sign for unknown and dangerous areas, the unknown<br>\ndigital data dragons, have to be resolved by digital techniques. We could use the Semantic Web and all of its ideas for this<br>\nchallenge. This paper focuses on data dragons in the humanities domain, especially in archaeology and proposes ideas to<br>\novercome the data dragons to achieve FAIR LOUD in archaeology!</p>",
+    "doi": "10.5281/zenodo.3345715",
+    "imprint": {
+      "isbn": "10.5281/zenodo.2643727",
+      "place": "Mainz, Germany"
+    },
+    "keywords": [
+      "Linked Data",
+      "Linked Open Data",
+      "Five Star Data",
+      "FAIR Data",
+      "Semantic Web",
+      "Data Dragon",
+      "CAA",
+      "Archaeology"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2019-07-22",
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "3345711"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "workingpaper",
+      "title": "Working paper",
+      "type": "publication"
+    },
+    "title": "Hic sunt dracones! the modern unknown Data Dragons"
+  },
+  "modified": "2024-07-22T20:35:54.555770+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "3345715",
+  "revision": 8,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Hic sunt dracones! the modern unknown Data Dragons",
+  "updated": "2024-07-22T20:35:54.555770+00:00"
+}

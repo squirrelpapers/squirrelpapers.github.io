@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 49.788056,
+    "lon": 9.935278
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Universität in Deutschland",
+    "en": "university in Germany"
+  },
+  "id": "Q161976",
+  "instance_of": [
+    "Q1767829",
+    "Q875538"
+  ],
+  "labels": {
+    "de": "Julius-Maximilians-Universität Würzburg",
+    "en": "University of Würzburg"
+  }
+}

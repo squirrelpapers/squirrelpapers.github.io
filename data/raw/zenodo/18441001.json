@@ -1,0 +1,119 @@
+{
+  "conceptdoi": "10.5281/zenodo.18441001",
+  "conceptrecid": "18441001",
+  "created": "2026-02-01T10:54:53.561647+00:00",
+  "doi": "10.5281/zenodo.18441002",
+  "doi_url": "https://doi.org/10.5281/zenodo.18441002",
+  "files": [
+    {
+      "checksum": "md5:1f521bf11eb1f4b44fc13d07f5645162",
+      "id": "f1c3d96e-3581-432f-8a15-9ce86ec8bd57",
+      "key": "SqP_8_1__2_GSAS.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/18441002/files/SqP_8_1__2_GSAS.pdf/content"
+      },
+      "size": 1030745
+    }
+  ],
+  "id": 18441002,
+  "links": {
+    "access": "https://zenodo.org/api/records/18441002/access",
+    "access_grants": "https://zenodo.org/api/records/18441002/access/grants",
+    "access_links": "https://zenodo.org/api/records/18441002/access/links",
+    "access_request": "https://zenodo.org/api/records/18441002/access/request",
+    "access_users": "https://zenodo.org/api/records/18441002/access/users",
+    "archive": "https://zenodo.org/api/records/18441002/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18441002/media-files-archive",
+    "communities": "https://zenodo.org/api/records/18441002/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18441002/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.18441002",
+    "draft": "https://zenodo.org/api/records/18441002/draft",
+    "file_modification": "https://zenodo.org/api/records/18441002/file-modification",
+    "files": "https://zenodo.org/api/records/18441002/files",
+    "latest": "https://zenodo.org/api/records/18441002/versions/latest",
+    "latest_html": "https://zenodo.org/records/18441002/latest",
+    "media_files": "https://zenodo.org/api/records/18441002/media-files",
+    "parent": "https://zenodo.org/api/records/18441001",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18441001",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18441001",
+    "parent_html": "https://zenodo.org/records/18441001",
+    "preview_html": "https://zenodo.org/records/18441002?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/18441002/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/18441002/request-deletion",
+    "requests": "https://zenodo.org/api/records/18441002/requests",
+    "reserve_doi": "https://zenodo.org/api/records/18441002/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/18441002",
+    "self_doi": "https://doi.org/10.5281/zenodo.18441002",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18441002",
+    "self_html": "https://zenodo.org/records/18441002",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18441002/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18441002/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:18441002:SqP_8_1__2_GSAS.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:18441002:SqP_8_1__2_GSAS.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:18441002:SqP_8_1__2_GSAS.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:18441002:SqP_8_1__2_GSAS.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:18441002:SqP_8_1__2_GSAS.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:18441002:SqP_8_1__2_GSAS.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/18441002/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian"
+      }
+    ],
+    "description": "<blockquote>\n<p>Semantic alignment between heterogeneous terminologies is a central prerequisite for interoperability in Knowledge Graph ecosystems. While SKOS provides well-established mapping properties for expressing semantic correspondences, these relations are inherently qualitative and lack an explicit, machine-actionable notion of mapping strength. This limits their use in quantitative analysis, ranking, and automated reasoning within research data infrastructures. This paper introduces&nbsp;<em>Gradual Semantic Alignment for SKOS (GSAS)</em>, a methodological framework that augments SKOS mappings with a normalised <em>degree of connection</em> in the interval [0,1]. GSAS comprises four complementary models, ranging from a minimal SKOS-based baseline to graded and empirically grounded approaches derived from linguistic probability perceptions. All models are formally defined, interoperable, and remain fully compatible with existing SKOS semantics. The methodology is operationalised in an open-source software reference implementation that produces reproducible RDF outputs and a unified&nbsp;<em>SKOSplus</em> ontology. An application example demonstrates how GSAS enables transparent comparison of alignment strategies and supports reusable, quantitative semantic alignment across domains.</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.18441002",
+    "journal": {
+      "issue": "1",
+      "pages": "§2",
+      "title": "Squirrel Papers",
+      "volume": "8"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2026-01-31",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "18441001"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "workingpaper",
+      "title": "Working paper",
+      "type": "publication"
+    },
+    "title": "Gradual Semantic Alignment for SKOS: Quantifying Mapping Strength in Knowledge Graph Infrastructures"
+  },
+  "modified": "2026-02-01T10:54:53.798826+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "18441002",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Gradual Semantic Alignment for SKOS: Quantifying Mapping Strength in Knowledge Graph Infrastructures",
+  "updated": "2026-02-01T10:54:53.798826+00:00"
+}

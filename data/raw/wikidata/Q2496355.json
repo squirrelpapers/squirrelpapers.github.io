@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 53.460997,
+    "lon": 9.969018
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Bibliothek",
+    "en": "academic library"
+  },
+  "id": "Q2496355",
+  "instance_of": [
+    "Q856234"
+  ],
+  "labels": {
+    "de": "Universitätsbibliothek der Technischen Universität Hamburg",
+    "en": "University Library of the Hamburg University of Technology"
+  }
+}

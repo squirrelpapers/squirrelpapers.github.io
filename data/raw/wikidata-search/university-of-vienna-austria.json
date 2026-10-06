@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "University of Vienna [de]": [
+      {
+        "description": "public university in Vienna, Austria",
+        "id": "Q165980",
+        "label": "University of Vienna"
+      },
+      {
+        "description": "Wikimedia category",
+        "id": "Q8823198",
+        "label": "Category:University of Vienna"
+      },
+      {
+        "description": "organization",
+        "id": "Q19845663",
+        "label": "University of Vienna, Department of Pharmaceutical Chemistry, Althanstrasse 14, 1090 Vienna, Austria"
+      },
+      {
+        "description": "herbarium",
+        "id": "Q55829324",
+        "label": "University of Vienna, Institute of Botany Herbarium"
+      },
+      {
+        "description": "",
+        "id": "Q1664825",
+        "label": "University of Vienna Department of Byzantine and Modern Greek Studies"
+      }
+    ],
+    "University of Vienna [en]": [
+      {
+        "description": "public university in Vienna, Austria",
+        "id": "Q165980",
+        "label": "University of Vienna"
+      },
+      {
+        "description": "organization",
+        "id": "Q19845663",
+        "label": "University of Vienna, Department of Pharmaceutical Chemistry, Althanstrasse 14, 1090 Vienna, Austria"
+      },
+      {
+        "description": "herbarium",
+        "id": "Q55829324",
+        "label": "University of Vienna, Institute of Botany Herbarium"
+      },
+      {
+        "description": "",
+        "id": "Q1664825",
+        "label": "University of Vienna Department of Byzantine and Modern Greek Studies"
+      },
+      {
+        "description": "department of the University of Vienna",
+        "id": "Q17100238",
+        "label": "Department of English and American Studies"
+      }
+    ]
+  },
+  "label": "University of Vienna, Austria"
+}

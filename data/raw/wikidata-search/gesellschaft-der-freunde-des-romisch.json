@@ -1,0 +1,61 @@
+{
+  "answers": {
+    "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz [de]": [],
+    "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz [en]": [],
+    "Mainz [de]": [
+      {
+        "description": "capital of the federal state Rhineland-Palatinate, Germany",
+        "id": "Q1720",
+        "label": "Mainz"
+      },
+      {
+        "description": "Bundesliga football club in Germany",
+        "id": "Q105254",
+        "label": "1. FSV Mainz 05"
+      },
+      {
+        "description": "public university in Mainz, Germany",
+        "id": "Q161982",
+        "label": "Johannes Gutenberg University Mainz"
+      },
+      {
+        "description": "human settlement in Germany",
+        "id": "Q32067943",
+        "label": "Mainz"
+      },
+      {
+        "description": "German-language journal",
+        "id": "Q6736845",
+        "label": "Mainz"
+      }
+    ],
+    "Mainz [en]": [
+      {
+        "description": "capital of the federal state Rhineland-Palatinate, Germany",
+        "id": "Q1720",
+        "label": "Mainz"
+      },
+      {
+        "description": "Bundesliga football club in Germany",
+        "id": "Q105254",
+        "label": "1. FSV Mainz 05"
+      },
+      {
+        "description": "district of Rhineland-Palatinate, Germany",
+        "id": "Q8569",
+        "label": "Mainz-Bingen district"
+      },
+      {
+        "description": "territory in the Holy Roman Empire",
+        "id": "Q284667",
+        "label": "Electorate of Mainz"
+      },
+      {
+        "description": "municipal district of the city of Wiesbaden in Hesse, Germany",
+        "id": "Q567545",
+        "label": "Mainz-Kastel"
+      }
+    ]
+  },
+  "label": "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany"
+}

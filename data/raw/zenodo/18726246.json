@@ -1,0 +1,135 @@
+{
+  "conceptdoi": "10.5281/zenodo.18726246",
+  "conceptrecid": "18726246",
+  "created": "2026-03-01T19:35:52.529271+00:00",
+  "doi": "10.5281/zenodo.18726247",
+  "doi_url": "https://doi.org/10.5281/zenodo.18726247",
+  "files": [
+    {
+      "checksum": "md5:1f56b8d90d663528da4147a52ba80698",
+      "id": "4dcd581b-ba9a-4468-8554-32cf2b8a0c86",
+      "key": "Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/18726247/files/Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf/content"
+      },
+      "size": 29810123
+    }
+  ],
+  "id": 18726247,
+  "links": {
+    "access": "https://zenodo.org/api/records/18726247/access",
+    "access_grants": "https://zenodo.org/api/records/18726247/access/grants",
+    "access_links": "https://zenodo.org/api/records/18726247/access/links",
+    "access_request": "https://zenodo.org/api/records/18726247/access/request",
+    "access_users": "https://zenodo.org/api/records/18726247/access/users",
+    "archive": "https://zenodo.org/api/records/18726247/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18726247/media-files-archive",
+    "communities": "https://zenodo.org/api/records/18726247/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18726247/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.18726247",
+    "draft": "https://zenodo.org/api/records/18726247/draft",
+    "file_modification": "https://zenodo.org/api/records/18726247/file-modification",
+    "files": "https://zenodo.org/api/records/18726247/files",
+    "latest": "https://zenodo.org/api/records/18726247/versions/latest",
+    "latest_html": "https://zenodo.org/records/18726247/latest",
+    "media_files": "https://zenodo.org/api/records/18726247/media-files",
+    "parent": "https://zenodo.org/api/records/18726246",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18726246",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18726246",
+    "parent_html": "https://zenodo.org/records/18726246",
+    "preview_html": "https://zenodo.org/records/18726247?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/18726247/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/18726247/request-deletion",
+    "requests": "https://zenodo.org/api/records/18726247/requests",
+    "reserve_doi": "https://zenodo.org/api/records/18726247/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/18726247",
+    "self_doi": "https://doi.org/10.5281/zenodo.18726247",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18726247",
+    "self_html": "https://zenodo.org/records/18726247",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18726247/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18726247/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:18726247:Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:18726247:Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:18726247:Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:18726247:Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:18726247:Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:18726247:Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/18726247/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "squirrelpapers"
+      },
+      {
+        "id": "squirrel-fdo"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Florian, Thiery"
+      }
+    ],
+    "description": "<blockquote>\n<p>Die 3D-Erfassung von Kulturg&uuml;tern, Kunstwerken und verg&auml;nglichen Strukturen mit Smartphones er&ouml;ffnet neue Perspektiven f&uuml;r partizipative digitale Dokumentation. Durch Structure-from-Motion-Verfahren (SfM) in mobilen Anwendungen wie der KIRI-Engine-App k&ouml;nnen Citizen Scientists Objekte ortsunabh&auml;ngig und kosteng&uuml;nstig digitalisieren &ndash; von historischen Denkm&auml;lern &uuml;ber moderne Kunstwerke bis hin zu tempor&auml;ren Ph&auml;nomenen wie Schnee- oder Holzskulpturen. Damit wird die digitale Erfassung zu einer alltagstauglichen Methode, um Objekte &bdquo;zum Mitnehmen&ldquo; zu schaffen, die weit &uuml;ber das private Erinnerungsfoto hinausgehen.</p>\n<p>Doch die reine Erfassung gen&uuml;gt nicht: Um 3D-Modelle nachhaltig nutzbar zu machen, m&uuml;ssen sie FAIR (Findable, Accessible, Interoperable, Reusable) sein. Hier setzt die SquirrelBase an &ndash; eine Wikibase-Instanz, die als semantische Metadaten- und Referenzplattform fungiert. Sie erweitert das Konzept der FAIR Digital Objects (FDOs) um eine leichtgewichtige, community-getriebene L&ouml;sung f&uuml;r Citizen Science und Forschung. Jedes 3D-Objekt erh&auml;lt einen persistenten Identifier (Q-ID), kann mit externen Plattformen wie Sketchfab, 3DHOP, Wikidata oder OpenStreetMap verkn&uuml;pft werden und wird damit Teil eines f&ouml;derierten Wissensgraphen.</p>\n<p>Die SquirrelBase speichert neben Basisinformationen (Erfassungsdatum, Methode, Software, Kamera) auch semantisch strukturierte Metadaten zu Georeferenz, Material, Objektkategorie, Urheber, Lizenz und Provenienz. Durch diese Modellierung lassen sich die 3D-Modelle maschinenlesbar beschreiben und in GIS- und LOD-Workflows integrieren &ndash; etwa &uuml;ber das SPARQLing Unicorn QGIS Plugin. Somit wird aus einem Smartphone-Scan ein vernetztes Forschungsobjekt, das interdisziplin&auml;r analysierbar und langfristig auffindbar ist.</p>\n<p>Beispiele reichen von klassischen Kulturerbe-Objekten (z. B. Grenzsteine, Brunnen, Skulpturen) &uuml;ber urbane Kunstwerke bis hin zu ephemeren Strukturen in den Dolomiten. Gerade bei verg&auml;nglichen Objekten zeigt sich das Potenzial: Durch die Kombination von SfM-Erfassung, FAIR-Metadaten und semantischer Einbindung bleiben auch fl&uuml;chtige Werke als digitale Erinnerungen erhalten und wissenschaftlich zitierbar.</p>\n<p>Der Beitrag diskutiert zudem Herausforderungen der Datenqualit&auml;t, Standardisierung und Langzeitarchivierung sowie m&ouml;gliche Synergien mit Forschungsinfrastrukturen wie NFDI4Objects. Das vorgestellte Konzept zeigt, wie Low-Cost-Technologien, Open-Science-Prinzipien und semantische Modellierung zusammenwirken k&ouml;nnen, um eine nachhaltige, partizipative 3D-Dokumentation zu schaffen &ndash; offen, interoperabel und zukunftssicher.</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.18726247",
+    "journal": {
+      "issue": "3",
+      "pages": "§2",
+      "title": "Squirrel Papers",
+      "volume": "8"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "dates": "25-26 Feb 2026",
+      "place": "HTW Dresden",
+      "session": "AG3D",
+      "title": "Oldenburger 3D Tage 2026 (zu Gast in Dresden)",
+      "url": "https://www.conftool.net/oldenburger-3d-tage-2026/sessions.php"
+    },
+    "publication_date": "2026-02-26",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "18726246"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "conferencepaper",
+      "title": "Conference paper",
+      "type": "publication"
+    },
+    "title": "Von der Hosentasche in den Wissensgraph: Smartphone-3D als FAIR Digital Object in der SquirrelBase"
+  },
+  "modified": "2026-03-01T19:35:52.919051+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "18726247",
+  "revision": 4,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Von der Hosentasche in den Wissensgraph: Smartphone-3D als FAIR Digital Object in der SquirrelBase",
+  "updated": "2026-03-01T19:35:52.919051+00:00"
+}

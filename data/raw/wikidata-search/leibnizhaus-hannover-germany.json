@@ -1,0 +1,93 @@
+{
+  "answers": {
+    "Hannover [de]": [
+      {
+        "description": "capital city of the German federated state of Lower Saxony",
+        "id": "Q1715",
+        "label": "Hanover"
+      },
+      {
+        "description": "German kingdom established in 1814",
+        "id": "Q164079",
+        "label": "Kingdom of Hanover"
+      },
+      {
+        "description": "family name",
+        "id": "Q49699202",
+        "label": "Hannover"
+      },
+      {
+        "description": "German sports club",
+        "id": "Q33748",
+        "label": "Hannover 96"
+      },
+      {
+        "description": "district of Hanover, Germany",
+        "id": "Q1826001",
+        "label": "Linden-Limmer"
+      }
+    ],
+    "Hannover [en]": [
+      {
+        "description": "capital city of the German federated state of Lower Saxony",
+        "id": "Q1715",
+        "label": "Hanover"
+      },
+      {
+        "description": "family name",
+        "id": "Q49699202",
+        "label": "Hannover"
+      },
+      {
+        "description": "German sports club",
+        "id": "Q33748",
+        "label": "Hannover 96"
+      },
+      {
+        "description": "German kingdom established in 1814",
+        "id": "Q164079",
+        "label": "Kingdom of Hanover"
+      },
+      {
+        "description": "district in Lower Saxony, Germany",
+        "id": "Q5963",
+        "label": "Hannover Region"
+      }
+    ],
+    "Leibnizhaus [de]": [
+      {
+        "description": "reconstructed residential house in Hannover, Germany",
+        "id": "Q1813804",
+        "label": "Leibnizhaus"
+      },
+      {
+        "description": "",
+        "id": "Q130390271",
+        "label": "Leibnizhaus II Stauffenbergstraße 30"
+      },
+      {
+        "description": "Wikimedia disambiguation page",
+        "id": "Q1813802",
+        "label": "Leibnizhaus"
+      }
+    ],
+    "Leibnizhaus [en]": [
+      {
+        "description": "reconstructed residential house in Hannover, Germany",
+        "id": "Q1813804",
+        "label": "Leibnizhaus"
+      },
+      {
+        "description": "",
+        "id": "Q130390271",
+        "label": "Leibnizhaus II Stauffenbergstraße 30"
+      },
+      {
+        "description": "Wikimedia disambiguation page",
+        "id": "Q1813802",
+        "label": "Leibnizhaus"
+      }
+    ]
+  },
+  "label": "Leibnizhaus, Hannover, Germany"
+}

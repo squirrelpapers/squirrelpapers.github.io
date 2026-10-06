@@ -1,0 +1,136 @@
+{
+  "conceptdoi": "10.5281/zenodo.7624870",
+  "conceptrecid": "7624870",
+  "created": "2023-02-09T11:43:17.552080+00:00",
+  "doi": "10.5281/zenodo.7624871",
+  "doi_url": "https://doi.org/10.5281/zenodo.7624871",
+  "files": [
+    {
+      "checksum": "md5:6041491f7131eec25917b22540de8479",
+      "id": "d9985df3-4dae-467a-85d8-efc2e8c875d5",
+      "key": "SqP_V5_I1_No2.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7624871/files/SqP_V5_I1_No2.pdf/content"
+      },
+      "size": 243459
+    }
+  ],
+  "id": 7624871,
+  "links": {
+    "access": "https://zenodo.org/api/records/7624871/access",
+    "access_grants": "https://zenodo.org/api/records/7624871/access/grants",
+    "access_links": "https://zenodo.org/api/records/7624871/access/links",
+    "access_request": "https://zenodo.org/api/records/7624871/access/request",
+    "access_users": "https://zenodo.org/api/records/7624871/access/users",
+    "archive": "https://zenodo.org/api/records/7624871/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7624871/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7624871/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7624871/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7624871",
+    "draft": "https://zenodo.org/api/records/7624871/draft",
+    "file_modification": "https://zenodo.org/api/records/7624871/file-modification",
+    "files": "https://zenodo.org/api/records/7624871/files",
+    "latest": "https://zenodo.org/api/records/7624871/versions/latest",
+    "latest_html": "https://zenodo.org/records/7624871/latest",
+    "media_files": "https://zenodo.org/api/records/7624871/media-files",
+    "parent": "https://zenodo.org/api/records/7624870",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7624870",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7624870",
+    "parent_html": "https://zenodo.org/records/7624870",
+    "preview_html": "https://zenodo.org/records/7624871?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/7624871/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/7624871/request-deletion",
+    "requests": "https://zenodo.org/api/records/7624871/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7624871/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7624871",
+    "self_doi": "https://doi.org/10.5281/zenodo.7624871",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7624871",
+    "self_html": "https://zenodo.org/records/7624871",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7624871/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7624871/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:7624871:SqP_V5_I1_No2.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:7624871:SqP_V5_I1_No2.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:7624871:SqP_V5_I1_No2.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:7624871:SqP_V5_I1_No2.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:7624871:SqP_V5_I1_No2.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:7624871:SqP_V5_I1_No2.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/7624871/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "rgzm-kbwissit"
+      },
+      {
+        "id": "squirrelpapers"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": "LEIZA",
+        "name": "Florian Thiery",
+        "orcid": "0000-0002-3246-3531"
+      },
+      {
+        "affiliation": "LEIZA",
+        "name": "Dr. Allard W. Mees",
+        "orcid": "0000-0002-7634-5342"
+      }
+    ],
+    "description": "<p>This short paper describes the &quot;Alligator&quot; Method, which converts the results of a CA into a relative chronology following Allen&#39;s interval algebra. This enables temporal reasoning and visualisation in graphs or timelines, as well as the export in standards such as RDF.</p>",
+    "doi": "10.5281/zenodo.7624871",
+    "journal": {
+      "issue": "1",
+      "pages": "No. 2",
+      "title": "Squirrel Papers",
+      "volume": "5"
+    },
+    "keywords": [
+      "relative Chronology",
+      "Allen",
+      "RDF",
+      "Linked Data",
+      "FAIR"
+    ],
+    "language": "eng",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2023-02-09",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7624870"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "subtype": "article",
+      "title": "Journal article",
+      "type": "publication"
+    },
+    "title": "Alligator Method"
+  },
+  "modified": "2024-07-12T16:10:05.885279+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "7624871",
+  "revision": 5,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Alligator Method",
+  "updated": "2024-07-12T16:10:05.885279+00:00"
+}

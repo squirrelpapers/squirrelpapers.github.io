@@ -1,0 +1,139 @@
+{
+  "conceptdoi": "10.5281/zenodo.18803485",
+  "conceptrecid": "18803485",
+  "created": "2026-03-01T18:46:44.891854+00:00",
+  "doi": "10.5281/zenodo.18803486",
+  "doi_url": "https://doi.org/10.5281/zenodo.18803486",
+  "files": [
+    {
+      "checksum": "md5:b7efaed17fb2b9d8c835e302d6bc376e",
+      "id": "789d29a8-5a15-498a-957b-3ef3a9620572",
+      "key": "deRSE26_Stuttgart_21314_GeoGraphs.pdf",
+      "links": {
+        "self": "https://zenodo.org/api/records/18803486/files/deRSE26_Stuttgart_21314_GeoGraphs.pdf/content"
+      },
+      "size": 1716613
+    }
+  ],
+  "id": 18803486,
+  "links": {
+    "access": "https://zenodo.org/api/records/18803486/access",
+    "access_grants": "https://zenodo.org/api/records/18803486/access/grants",
+    "access_links": "https://zenodo.org/api/records/18803486/access/links",
+    "access_request": "https://zenodo.org/api/records/18803486/access/request",
+    "access_users": "https://zenodo.org/api/records/18803486/access/users",
+    "archive": "https://zenodo.org/api/records/18803486/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18803486/media-files-archive",
+    "communities": "https://zenodo.org/api/records/18803486/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18803486/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.18803486",
+    "draft": "https://zenodo.org/api/records/18803486/draft",
+    "file_modification": "https://zenodo.org/api/records/18803486/file-modification",
+    "files": "https://zenodo.org/api/records/18803486/files",
+    "latest": "https://zenodo.org/api/records/18803486/versions/latest",
+    "latest_html": "https://zenodo.org/records/18803486/latest",
+    "media_files": "https://zenodo.org/api/records/18803486/media-files",
+    "parent": "https://zenodo.org/api/records/18803485",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18803485",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18803485",
+    "parent_html": "https://zenodo.org/records/18803485",
+    "preview_html": "https://zenodo.org/records/18803486?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/18803486/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/18803486/request-deletion",
+    "requests": "https://zenodo.org/api/records/18803486/requests",
+    "reserve_doi": "https://zenodo.org/api/records/18803486/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/18803486",
+    "self_doi": "https://doi.org/10.5281/zenodo.18803486",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18803486",
+    "self_html": "https://zenodo.org/records/18803486",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18803486/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18803486/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:18803486:deRSE26_Stuttgart_21314_GeoGraphs.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:18803486:deRSE26_Stuttgart_21314_GeoGraphs.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:18803486:deRSE26_Stuttgart_21314_GeoGraphs.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:18803486:deRSE26_Stuttgart_21314_GeoGraphs.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:18803486:deRSE26_Stuttgart_21314_GeoGraphs.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:18803486:deRSE26_Stuttgart_21314_GeoGraphs.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/18803486/versions"
+  },
+  "metadata": {
+    "access_right": "open",
+    "communities": [
+      {
+        "id": "researchsquirrelengineers"
+      },
+      {
+        "id": "n4o-cc-lod"
+      },
+      {
+        "id": "derse26"
+      }
+    ],
+    "creators": [
+      {
+        "affiliation": null,
+        "name": "Thiery, Florian"
+      },
+      {
+        "affiliation": null,
+        "name": "thor Straten, Mattis"
+      },
+      {
+        "affiliation": null,
+        "name": "Strohm, Steffen"
+      },
+      {
+        "affiliation": null,
+        "name": "Renz, Matthias"
+      }
+    ],
+    "description": "<blockquote>\n<p>This poster presents an ongoing comparative study on the semantic modelling and utility of (geo-)spatial information across three key graph-based paradigms &mdash; Resource Description Framework (RDF), Labelled Property Graphs (LPGs), and Attributed Heterogeneous Information Networks (AHINs) &mdash; and explores their integration within the NFDI federated Knowledge Graph (KG) ecosystem. The work examines spatial data within these graph-based data models regarding semantic expressiveness, practical interoperability, integration in research workflows and computational performance. This excludes FAIR Digital Objects, which are used for, e.g., binary data of geophysical prospection or 3D documentation, and do not provide geo-spatial information at graph level.</p>\n<p>Use cases reveal how RDF shows a tendency to excel in semantic richness and machine interpretability, whereas HINs and LPGs may handle high-volume or computationally demanding workflows more efficiently, albeit at the cost of standardisation and interoperability. Bridging these paradigms thus becomes crucial for a sustainable, federated research data infrastructure.</p>\n<p>Within the NFDI federated KG ecosystem, we aim to combine the analytical power of AHINs with the semantic richness and flexibility of LPGs as well as the high standardisation of RDF-based KGs. We discuss schema-mapping strategies, identifier management (URIs vs. node IDs), and transformation workflows that connect semantically rich but slower RDF environments with performant HIN-based analytical pipelines. The goal is to survey the bi-directional interoperability between all three paradigms, exploring existing mappings between RDF, LPG and AHINs and open challenges, focusing on geo-spatial information.</p>\n<p>From a research software engineering (RSE) perspective, this work contributes to RSE research, discussing Open Science, Research Data Management, Research Software usability and sustainability, Infrastructures for Scientific Computing within the Digital Humanities. It highlights design patterns and approaches for interlinking the three graph-based paradigms within the NFDI research data infrastructure, supporting scalable data exploration while maintaining FAIR principles. Spatial data serves as a cross-domain connector, linking research outputs from the humanities, natural sciences, geo-sciences and engineering through similarity of aligned spatial semantic concepts.</p>\n<p>By aligning semantic interoperability with analytical performance, this poster demonstrates how graph architectures can unlock the full potential of RDF-based KGs, LPGs and AHINs for practical research applications. We outline next steps towards interfaces and interoperability, fostering a more robust, FAIR-compliant, and computationally efficient research-software ecosystem within the NFDI and beyond.</p>\n</blockquote>",
+    "doi": "10.5281/zenodo.18803486",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "meeting": {
+      "acronym": "deRSE26",
+      "dates": "03-05 March 2026",
+      "place": "University of Stuttgart, Germany",
+      "session": "Poster Session",
+      "session_part": "157",
+      "title": "deRSE26 - 6th conference for Research Software Engineering in Germany",
+      "url": "https://events.hifis.net/event/2945/"
+    },
+    "publication_date": "2026-03-03",
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "18803485"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Poster",
+      "type": "poster"
+    },
+    "title": "Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks"
+  },
+  "modified": "2026-03-01T19:08:12.468830+00:00",
+  "owners": [
+    {
+      "id": "28686"
+    }
+  ],
+  "recid": "18803486",
+  "revision": 10,
+  "state": "done",
+  "status": "published",
+  "submitted": true,
+  "swh": {},
+  "title": "Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks",
+  "updated": "2026-03-01T19:08:12.468830+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 53.528611,
+    "lon": 8.105556
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "kreisfreie Hafenstadt an der Nordseeküste im nördlichen Niedersachsen, Deutschland",
+    "en": "city in Lower Saxony, Germany"
+  },
+  "id": "Q3857",
+  "instance_of": [
+    "Q133997300",
+    "Q253030",
+    "Q42744322",
+    "Q85635929"
+  ],
+  "labels": {
+    "de": "Wilhelmshaven",
+    "en": "Wilhelmshaven"
+  }
+}

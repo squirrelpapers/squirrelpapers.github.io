@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Warsaw [de]": [
+      {
+        "description": "capital and largest city of Poland",
+        "id": "Q270",
+        "label": "Warsaw"
+      },
+      {
+        "description": "city in Indiana, United States",
+        "id": "Q992560",
+        "label": "Warsaw"
+      },
+      {
+        "description": "family name",
+        "id": "Q37500217",
+        "label": "Warsaw"
+      },
+      {
+        "description": "town in New York",
+        "id": "Q7970879",
+        "label": "Warsaw"
+      },
+      {
+        "description": "city in Hancock County, Illinois, United States",
+        "id": "Q576165",
+        "label": "Warsaw"
+      }
+    ],
+    "Warsaw [en]": [
+      {
+        "description": "capital and largest city of Poland",
+        "id": "Q270",
+        "label": "Warsaw"
+      },
+      {
+        "description": "2019 video game",
+        "id": "Q106494408",
+        "label": "Warsaw"
+      },
+      {
+        "description": "family name",
+        "id": "Q37500217",
+        "label": "Warsaw"
+      },
+      {
+        "description": "largest university in Poland",
+        "id": "Q144488",
+        "label": "University of Warsaw"
+      },
+      {
+        "description": "city in Indiana, United States",
+        "id": "Q992560",
+        "label": "Warsaw"
+      }
+    ]
+  },
+  "label": "Warsaw, Poland"
+}

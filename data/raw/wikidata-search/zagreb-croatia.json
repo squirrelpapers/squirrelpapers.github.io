@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Zagreb [de]": [
+      {
+        "description": "capital city of Croatia",
+        "id": "Q1435",
+        "label": "Zagreb"
+      },
+      {
+        "description": "county in central Croatia",
+        "id": "Q27038",
+        "label": "Zagreb County"
+      },
+      {
+        "description": "Croatian university",
+        "id": "Q675848",
+        "label": "University of Zagreb"
+      },
+      {
+        "description": "railway station",
+        "id": "Q140377",
+        "label": "Zagreb Main Station"
+      },
+      {
+        "description": "Thoroughbred racehorse",
+        "id": "Q11306348",
+        "label": "Zagreb"
+      }
+    ],
+    "Zagreb [en]": [
+      {
+        "description": "capital city of Croatia",
+        "id": "Q1435",
+        "label": "Zagreb"
+      },
+      {
+        "description": "county in central Croatia",
+        "id": "Q27038",
+        "label": "Zagreb County"
+      },
+      {
+        "description": "Croatian university",
+        "id": "Q675848",
+        "label": "University of Zagreb"
+      },
+      {
+        "description": "railway station",
+        "id": "Q140377",
+        "label": "Zagreb Main Station"
+      },
+      {
+        "description": "1938 Beograd-class destroyer",
+        "id": "Q1275570",
+        "label": "Yugoslav destroyer Zagreb"
+      }
+    ]
+  },
+  "label": "Zagreb, Croatia"
+}

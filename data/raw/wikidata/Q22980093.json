@@ -1,0 +1,19 @@
+{
+  "coordinates": {
+    "lat": 41.901916,
+    "lon": 12.515128
+  },
+  "country": [
+    "Q38"
+  ],
+  "descriptions": {
+    "en": "university library"
+  },
+  "id": "Q22980093",
+  "instance_of": [
+    "Q1622062"
+  ],
+  "labels": {
+    "en": "Biblioteca del dipartimento di Matematica \"Guido Castelnuovo\". Università degli studi di Roma La Sapienza"
+  }
+}

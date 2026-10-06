@@ -1,0 +1,59 @@
+{
+  "answers": {
+    "Potsdam [de]": [
+      {
+        "description": "capital city of the German state of Brandenburg",
+        "id": "Q1711",
+        "label": "Potsdam"
+      },
+      {
+        "description": "town in St. Lawrence County, New York, United States",
+        "id": "Q1022943",
+        "label": "Potsdam"
+      },
+      {
+        "description": "central railway station in Potsdam, Germany",
+        "id": "Q647973",
+        "label": "Potsdam central station"
+      },
+      {
+        "description": "district in Brandenburg state, Germany",
+        "id": "Q6142",
+        "label": "Potsdam-Mittelmark District"
+      },
+      {
+        "description": "village in Miami County, Ohio",
+        "id": "Q2029716",
+        "label": "Potsdam"
+      }
+    ],
+    "Potsdam [en]": [
+      {
+        "description": "capital city of the German state of Brandenburg",
+        "id": "Q1711",
+        "label": "Potsdam"
+      },
+      {
+        "description": "central railway station in Potsdam, Germany",
+        "id": "Q647973",
+        "label": "Potsdam central station"
+      },
+      {
+        "description": "district in Brandenburg state, Germany",
+        "id": "Q6142",
+        "label": "Potsdam-Mittelmark District"
+      },
+      {
+        "description": "town in St. Lawrence County, New York, United States",
+        "id": "Q1022943",
+        "label": "Potsdam"
+      },
+      {
+        "description": "warship (GDR)",
+        "id": "Q113290497",
+        "label": "Potsdam"
+      }
+    ]
+  },
+  "label": "Potsdam, Germany"
+}
