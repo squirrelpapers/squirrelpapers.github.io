@@ -1,0 +1,368 @@
+# Squirrel Papers - Volume 8
+#
+# Source of truth for this volume (PRIMER A3). Edit here, never in docs/.
+# Migrated in S2 from squirrelpapers-volumes @ d00e0b7; see
+# dist/reports/migration.md for what needed attention.
+#
+# Entry IRI: https://w3id.org/squirrelpapers/v<volume>/i<issue>/e<n>
+# Citation:  <volume>(<issue>), <sigil><n>
+# `types` are slugs of the old labels; S4 maps them onto the SKOS scheme.
+# `creators` are written as they appeared; S4 aligns them with Zenodo/ORCID.
+
+volume: 8
+year: 2026
+issues:
+- issue: 1
+  sigil: §
+  special: false
+  entries:
+  - n: 1
+    types:
+    - methodological-working-paper
+    title: 'From Tables to Gazetteers: Reproducible Place Alignment for Archaeological Data with STL-PA'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.18441772
+    from: volumes-md/vol8/index.md#L22
+  - n: 2
+    types:
+    - methodological-working-paper
+    title: 'Gradual Semantic Alignment for SKOS: Quantifying Mapping Strength in Knowledge Graph Infrastructures'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.18441001
+    from: volumes-md/vol8/index.md#L26
+  - n: 3
+    types:
+    - position-paper
+    title: Bridging FDOs and Knowledge Graphs | Position Paper
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A. Noback
+    - name: F. Schenk
+    - name: M.N. Kasten
+    doi: 10.5281/zenodo.18441544
+    from: volumes-md/vol8/index.md#L30
+  - n: 4
+    types:
+    - methodological-working-paper
+    title: 'From Packaged Research Artefacts to RDF: A Reference Implementation for FAIR Digital Objects
+      into the Federated Knowledge Graph Ecosystem'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.18441772
+    from: volumes-md/vol8/index.md#L34
+- issue: 2
+  sigil: §
+  title:
+    en: Special Issue on data and software
+  special: true
+  entries:
+  - n: 1
+    types:
+    - software
+    title: Samian Research STL-PA
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    version: '0.1'
+    release_label: '@v0.1'
+    links:
+      repository: https://github.com/Research-Squirrel-Engineers/samianresearch-stlpa/
+      release: https://github.com/Research-Squirrel-Engineers/samianresearch-stlpa/releases/tag/v0.1
+    from: volumes-md/vol8/index.md#L42
+  - n: 2
+    types:
+    - software
+    title: Samian Site Dating
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Allard W. Mees
+      orcid: 0000-0002-7634-5342
+    version: '0.1'
+    release_label: '@v0.1'
+    links:
+      repository: https://github.com/leiza-rse/site-dating/
+      release: https://github.com/leiza-rse/site-dating/releases/tag/v0.1
+    from: volumes-md/vol8/index.md#L48
+  - n: 3
+    types:
+    - software
+    title: Gradual Semantic Alignment for SKOS (GSAS)
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    version: '0.1'
+    release_label: '@v0.1'
+    links:
+      repository: https://github.com/Research-Squirrel-Engineers/GSAS
+      release: https://github.com/Research-Squirrel-Engineers/GSAS/releases/tag/v0.1
+    from: volumes-md/vol8/index.md#L54
+  - n: 4
+    types:
+    - software
+    title: FAIR Digital Object Squirrel Implementation (FDOSquirrel)
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.18404885
+    version: '0.1'
+    release_label: '@v0.1'
+    links:
+      repository: https://github.com/Research-Squirrel-Engineers/fdo-squirrel
+      release: https://github.com/Research-Squirrel-Engineers/fdo-squirrel/releases/tag/v0.1
+    from: volumes-md/vol8/index.md#L60
+  - n: 5
+    types:
+    - data
+    title: 'FAIRyland: A playful dataset for teaching Linked Open Data in archaeology'
+    creators:
+    - name: F. Thiery
+    - name: B. Danthine
+    - name: N. Alpino
+    doi: 10.5281/zenodo.18901448
+    version: '0.2'
+    release_label: '@v0.2'
+    links:
+      repository: https://github.com/Research-Squirrel-Engineers/FAIRyland
+      release: https://github.com/Research-Squirrel-Engineers/FAIRyland/releases/tag/v0.2
+    from: volumes-md/vol8/index.md#L67
+- issue: 3
+  sigil: §
+  title:
+    en: Special Issue on conferences and talks
+  special: true
+  entries:
+  - n: 1
+    types:
+    - presentation
+    - conference-paper
+    title: Cultural Heritage als FAIR Digital Object? 3D-Erfassung und semantische Vernetzung von Kulturerbe
+      in Irland und Schottland
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: M. N. Kasten
+    - name: A.-K. Distel
+    - name: P. Thiery
+    doi: 10.5281/zenodo.18726192
+    event:
+      name: Oldenburger 3D-Tage
+      start: '2026-02-25'
+      end: '2026-02-26'
+      session: AG3D
+      location: Hochschule für Technik und Wirtschaft, Dresden
+      place: hochschule-fur-technik-und-wirtschaft-dresden
+      online: false
+    from: volumes-md/vol8/index.md#L78
+  - n: 2
+    types:
+    - presentation
+    - conference-paper
+    title: 'Von der Hosentasche in den Wissensgraph: Smartphone-3D als FAIR Digital Object in der SquirrelBase'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.18726246
+    event:
+      name: Oldenburger 3D-Tage
+      start: '2026-02-25'
+      end: '2026-02-26'
+      session: AG3D
+      location: Hochschule für Technik und Wirtschaft, Dresden
+      place: hochschule-fur-technik-und-wirtschaft-dresden
+      online: false
+    from: volumes-md/vol8/index.md#L85
+  - n: 3
+    types:
+    - poster
+    - conference-paper
+    title: Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous
+      Information Networks
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: M. thor Straten
+    - name: S. Strohm
+    - name: M. Renz
+    doi: 10.5281/zenodo.18803485
+    event:
+      name: deRSE26
+      start: '2026-03-03'
+      end: '2026-03-05'
+      session: Poster and Demo Session
+      location: University of Stuttgart, Stuttgart
+      place: university-of-stuttgart-stuttgart
+      online: false
+    from: volumes-md/vol8/index.md#L92
+  - n: 4
+    types:
+    - poster
+    - conference-paper
+    title: 'Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate
+      and Geoarchaeological Research'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+    - name: L. K. Schubert
+    doi: 10.5281/zenodo.18803727
+    event:
+      name: deRSE26
+      start: '2026-03-03'
+      end: '2026-03-05'
+      session: Poster and Demo Session
+      location: University of Stuttgart, Stuttgart
+      place: university-of-stuttgart-stuttgart
+      online: false
+    from: volumes-md/vol8/index.md#L99
+  - n: 5
+    types:
+    - poster
+    - conference-paper
+    title: RSE across the NFDI - Connecting Infrastructure and Community through FAIR4RS Practice
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: B. Flemisch
+    doi: 10.5281/zenodo.18803954
+    event:
+      name: deRSE26
+      start: '2026-03-03'
+      end: '2026-03-05'
+      session: Poster and Demo Session
+      location: University of Stuttgart, Stuttgart
+      place: university-of-stuttgart-stuttgart
+      online: false
+    from: volumes-md/vol8/index.md#L106
+  - n: 6
+    types:
+    - talk
+    - conference-paper
+    title: chublets.software – Building a FAIR Software Marketplace for Cultural Heritage
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L.K. Schubert
+    doi: 10.5281/zenodo.18826868
+    event:
+      name: deRSE26
+      start: '2026-03-03'
+      end: '2026-03-05'
+      session: Digital Humanities
+      location: University of Stuttgart, Stuttgart
+      place: university-of-stuttgart-stuttgart
+      online: false
+    from: volumes-md/vol8/index.md#L113
+  - n: 7
+    types:
+    - poster
+    - conference-paper
+    title: 'Counting in Clay: Linking Cuneiform Mathematics and Cultural Heritage in 𒉿𒆠𒁕𒋫'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    et_al: true
+    doi: 10.5281/zenodo.18901062
+    event:
+      name: CAA International 2026
+      start: '2026-03-31'
+      end: '2026-04-04'
+      session: 'S54: Poster Session'
+      location: University of Vienna, Austria
+      place: university-of-vienna-austria
+      online: false
+    from: volumes-md/vol8/index.md#L120
+  - n: 8
+    types:
+    - poster
+    - conference-paper
+    title: Cultural Heritage in FAIRyland? How to LODify GeoData in QGIS
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: B. Danthine
+    - name: N. Alpino
+    doi: 10.5281/zenodo.18901176
+    event:
+      name: CAA International 2026
+      start: '2026-03-31'
+      end: '2026-04-04'
+      session: 'S54: Poster Session'
+      location: University of Vienna, Austria
+      place: university-of-vienna-austria
+      online: false
+    from: volumes-md/vol8/index.md#L127
+  - n: 9
+    types: []
+    title: '![TYPE](https://img.shields.io/badge/TYPE-Talk-blue) ![TYPE](https://img.shields.io/badge/TYPE-Conference%20Paper-blue)
+      ![Lang](https://img.shields.io/badge/LANGUAGE-German-red) Von OpenStreetMap zu semantisch vernetzten
+      Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+    - name: P. Thiery
+    doi: 10.5281/zenodo.19200628
+    event:
+      name: FOSSGIS-Konferenz 2026
+      start: '2026-03-25'
+      end: '2026-03-28'
+      session: Daten, Datenbanken und Datenprozessierung
+      location: Georg-August-Universität Göttingen, Germany
+      place: georg-august-universitat-gottingen-germany
+      online: false
+    from: volumes-md/vol8/index.md#L134
+- issue: 4
+  sigil: §
+  title:
+    en: Special Issue on NFDI related topics
+  special: true
+  entries: []
+- issue: 5
+  sigil: §
+  title:
+    en: Special Issue on FAIR Digital Objects
+  special: true
+  entries:
+  - n: 1
+    types:
+    - fdo
+    title: CHUIS/1
+    draft: true
+    from: volumes-md/vol8/index.md#L149
+  - n: 2
+    types:
+    - fdo
+    title: GEARS/1
+    draft: true
+    from: volumes-md/vol8/index.md#L151
+  - n: 3
+    types:
+    - fdo
+    title: Jupyter Notebooks for Wikidata and LOD resources (FAIR Digital Object)
+    draft: true
+    from: volumes-md/vol8/index.md#L153
+  - n: 4
+    types:
+    - fdo
+    title: o3d-epidoc-extractor (FAIR Digital Object)
+    draft: true
+    from: volumes-md/vol8/index.md#L155
+  - n: 5
+    types:
+    - fdo
+    title: ogham-analysis (FAIR Digital Object)
+    draft: true
+    from: volumes-md/vol8/index.md#L157
+- issue: 6
+  sigil: §
+  title:
+    en: Special Issue on Open Educational Resources
+  special: true
+  entries: []

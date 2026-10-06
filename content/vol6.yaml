@@ -1,0 +1,1042 @@
+# Squirrel Papers - Volume 6
+#
+# Source of truth for this volume (PRIMER A3). Edit here, never in docs/.
+# Migrated in S2 from squirrelpapers-volumes @ d00e0b7; see
+# dist/reports/migration.md for what needed attention.
+#
+# Entry IRI: https://w3id.org/squirrelpapers/v<volume>/i<issue>/e<n>
+# Citation:  <volume>(<issue>), <sigil><n>
+# `types` are slugs of the old labels; S4 maps them onto the SKOS scheme.
+# `creators` are written as they appeared; S4 aligns them with Zenodo/ORCID.
+
+volume: 6
+year: 2024
+issues:
+- issue: 1
+  sigil: '#'
+  special: false
+  entries:
+  - n: 1
+    types:
+    - presentation
+    title: 'Kulturelles Erbe, Linked Open Data und das Wikiversum: Beispiele aus dem LEIZA, NFDI4Objects
+      und dem Research Squirrel Engineers Network'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    event:
+      name: Netzwerktreffen kulturelles Erbe, Linked Open Data und das Wikiversum
+      start: '2024-06-14'
+      end: '2024-06-14'
+      location: Wikimedia Deutschland e.V., Berlin, Germany
+      place: wikimedia-deutschland-e-v-berlin-germany
+      online: false
+    links:
+      link: https://commons.wikimedia.org/wiki/File:Netzwerktreffen_Offene_Kulturdaten_2024_Thiery.pdf
+    from: volumes-md/vol6/index.md#L21
+  - n: 2
+    types:
+    - presentation
+    title: Georeferenzierung und Mapping innerhalb des Wikiversums - WikiProject Irish Ogham Stones
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14217957
+    event:
+      name: 'kuwiki: tips&tools, #15 Georeferenzierung und Mapping mit Wikimedia'
+      start: '2024-11-28'
+      end: '2024-11-28'
+      location: Online
+      online: true
+    from: volumes-md/vol6/index.md#L27
+- issue: 2
+  sigil: '#'
+  title:
+    en: Special Issue on data and software
+  special: true
+  entries:
+  - n: 1
+    types:
+    - software
+    title: SPARQLing Unicorn QGIS Plugin
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: T. Homburg
+      orcid: 0000-0002-9499-5840
+    doi: 10.5281/zenodo.10779466
+    version: '0.17'
+    release_label: '@v0.17'
+    links:
+      repository: https://github.com/sparqlunicorn/sparqlunicornGoesGIS
+      release: https://github.com/sparqlunicorn/sparqlunicornGoesGIS/releases/tag/v0.17
+    from: volumes-md/vol6/index.md#L37
+  - n: 2
+    types:
+    - software
+    title: SPARQL Unicorn Ontology Documentation
+    creators:
+    - name: T. Homburg
+      orcid: 0000-0002-9499-5840
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.10780476
+    version: '0.17'
+    release_label: '@v0.17'
+    links:
+      repository: https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc
+      release: https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc/releases/tag/0.17
+    from: volumes-md/vol6/index.md#L44
+  - n: 3
+    types:
+    - software
+    title: TiGeR - Time Geospatial RDF
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+    doi: 10.5281/zenodo.11064284
+    version: '1.0'
+    release_label: '@v1.0'
+    links:
+      repository: https://github.com/leiza-rse/tiger
+      release: https://github.com/leiza-rse/tiger/releases/tag/v1.0
+    from: volumes-md/vol6/index.md#L51
+  - n: 4
+    types:
+    - software
+    title: alligator - Allen Transformer
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+    doi: 10.5281/zenodo.11064526
+    version: '1.1'
+    release_label: '@v1.1'
+    links:
+      repository: https://github.com/leiza-rse/alligator
+      release: https://github.com/leiza-rse/alligator/releases/tag/v1.1
+    from: volumes-md/vol6/index.md#L58
+  - n: 5
+    types:
+    - software
+    title: SPARQLing Unicorn QGIS Plugin
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: T. Homburg
+      orcid: 0000-0002-9499-5840
+    doi: 10.5281/zenodo.13828632
+    version: 0.17.1
+    release_label: '@v0.17.1'
+    links:
+      repository: https://github.com/sparqlunicorn/sparqlunicornGoesGIS
+      release: https://github.com/sparqlunicorn/sparqlunicornGoesGIS/releases/tag/v0.17.1
+    from: volumes-md/vol6/index.md#L65
+  - n: 6
+    types:
+    - software
+    title: Jupyter Notebooks and Linked Open Data
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    links:
+      repository: https://github.com/Research-Squirrel-Engineers/jupyter-nb-lod
+    from: volumes-md/vol6/index.md#L72
+- issue: 3
+  sigil: '#'
+  title:
+    en: Special Issue on conferences and talks
+  special: true
+  entries:
+  - n: 1
+    types:
+    - presentation
+    - conference-paper
+    title: '3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the
+      data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L. Rossenova
+      orcid: 0000-0002-5190-1867
+    - name: Z. Schubert
+      orcid: 0000-0001-9043-3632
+    doi: 10.5281/zenodo.10580308
+    event:
+      name: Oldenburger 3D-Tage
+      start: '2024-01-31'
+      end: '2024-02-01'
+      session: Kulturerbe
+      location: Jade-Hoschschule, Oldenburg
+      place: jade-hoschschule-oldenburg
+      online: false
+    from: volumes-md/vol6/index.md#L80
+  - n: 2
+    types:
+    - presentation
+    - conference-paper
+    title: 'Research Software Engineering in NFDI4Objects: Community building, implementation of FAIRification
+      Tools and scripting in Computational Archaeology'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L. Schubert
+      orcid: 0000-0003-4889-9353
+    - name: F. Fricke
+      orcid: 0000-0003-3223-2079
+    doi: 10.5281/zenodo.10774878
+    event:
+      name: deRSE2024
+      start: '2024-03-05'
+      end: '2024-03-07'
+      session: RSE in Digital Humanities
+      location: Julius-Maximilians-Universität Würzburg
+      place: julius-maximilians-universitat-wurzburg
+      online: false
+    from: volumes-md/vol6/index.md#L87
+  - n: 3
+    types:
+    - poster
+    - conference-paper
+    title: 'FOSS N4O Management Hub: Using RSE skills and Open Source Software to propose a heterogenious
+      Management Hub in NFDI4Objects'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Fricke
+      orcid: 0000-0003-3223-2079
+    doi: 10.5281/zenodo.10756823
+    event:
+      name: deRSE2024
+      start: '2024-03-05'
+      end: '2024-03-07'
+      session: Poster Session
+      location: Julius-Maximilians-Universität Würzburg
+      place: julius-maximilians-universitat-wurzburg
+      online: false
+    from: volumes-md/vol6/index.md#L94
+  - n: 4
+    types:
+    - poster
+    - conference-paper
+    title: Research Software Engineering within the NFDI (INFRA-WG-RSE)
+    creators:
+    - name: B. Flemisch
+      orcid: 0000-0001-8188-620X
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.10805071
+    event:
+      name: deRSE2024
+      start: '2024-03-05'
+      end: '2024-03-07'
+      session: Poster Session
+      location: Julius-Maximilians-Universität Würzburg
+      place: julius-maximilians-universitat-wurzburg
+      online: false
+    from: volumes-md/vol6/index.md#L101
+  - n: 5
+    types:
+    - presentation
+    - conference-paper
+    title: 'The SPARQL Unicorn: A Research Tool for Linked Open Data in QGIS and git-action-based ontology
+      documentation'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: T. Homburg
+      orcid: 0000-0002-9499-5840
+    doi: 10.5281/zenodo.10790939
+    event:
+      name: deRSE2024
+      start: '2024-03-05'
+      end: '2024-03-07'
+      session: RSE in Digital Humanities
+      location: Julius-Maximilians-Universität Würzburg
+      place: julius-maximilians-universitat-wurzburg
+      online: false
+    from: volumes-md/vol6/index.md#L108
+  - n: 6
+    types:
+    - presentation
+    - conference-paper
+    title: Modellierung von Fuzzyness & Wobbliness in Geodaten am Beispiel archäologischer und geowissenschaftlicher
+      Fundorte
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+    - name: S. Baars
+    - name: K. Tolle
+    - name: P. Thiery
+    doi: 10.5281/zenodo.10840999
+    event:
+      name: FOSSGIS 2024
+      start: '2024-03-20'
+      end: '2024-03-23'
+      session: Daten, Datenbanken und Datenprozessierung
+      location: Technische Universität Hamburg (TUHH)
+      place: technische-universitat-hamburg-tuhh
+      online: false
+    links:
+      video: https://media.ccc.de/v/fossgis2024-38914-modellierung-von-fuzzyness-wobbliness-in-geodaten
+    from: volumes-md/vol6/index.md#L115
+  - n: 7
+    types:
+    - presentation
+    - conference-paper
+    title: 'The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: T. Homburg
+      orcid: 0000-0002-9499-5840
+    doi: 10.5281/zenodo.10841046
+    event:
+      name: FOSSGIS 2024
+      start: '2024-03-20'
+      end: '2024-03-23'
+      session: Daten, Datenbanken und Datenprozessierung
+      location: Technische Universität Hamburg (TUHH)
+      place: technische-universitat-hamburg-tuhh
+      online: false
+    links:
+      video: https://media.ccc.de/v/fossgis2024-39049-the-sparql-unicorn-ontology-documentation-exposing-rdf-geodata-using-static-geoapis
+    from: volumes-md/vol6/index.md#L123
+  - n: 8
+    types:
+    - presentation
+    - conference-paper
+    title: 3D-Erfassung und FAIRe Publikation von Cultural Heritage Artefakten, insbesondere Ogham Steine
+      und Holy Wells in Zusammenarbeit mit Citizen Scientists
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Anne-Karoline Distel
+    - name: Nora White
+    - name: Megan Kasten
+    doi: 10.5281/zenodo.13364535
+    event:
+      name: CAA Deutschland-Workshop 2024
+      start: '2024-09-05'
+      end: '2024-09-06'
+      session: 3D-Dokumentation – Chancen und Herausforderungen
+      location: Historisches Seminar der Universität Münster, Münster, Germany
+      place: historisches-seminar-der-universitat-munster
+      online: false
+    from: volumes-md/vol6/index.md#L131
+  - n: 9
+    types:
+    - poster
+    - conference-paper
+    title: Taming Doubts - How to semantically model fuzzy and wobbly georeferences in archaeology and
+      in the geosciences
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Fiona Schenk
+    - name: Peter Thiery
+    doi: 10.5281/zenodo.13627274
+    event:
+      name: EAA 2024, Rome, Italy
+      start: '2024-08-31'
+      end: '2024-08-31'
+      session: Poster Session
+      location: Sapienza University of Rome, Italy
+      place: sapienza-university-of-rome-italy
+      online: false
+    from: volumes-md/vol6/index.md#L138
+  - n: 10
+    types:
+    - presentation
+    - conference-paper
+    title: Das Research Squirrel Engineers Network - Digitale Services zum digitalen Datenmanagement aus
+      der Archäoinformatik- und Citizen Science-Community
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.13897231
+    event:
+      name: Verbandstagung 2024 des NWVA e.V.
+      start: '2024-10-07'
+      end: '2024-10-11'
+      session: Von der digital gestützten Ausgrabung zu digitalen Diensten in der Archäologie
+      location: DBM Bochum, Germany
+      place: dbm-bochum-germany
+      online: false
+    from: volumes-md/vol6/index.md#L145
+  - n: 11
+    types:
+    - presentation
+    - conference-paper
+    title: 'Infrastructural Frameworks: Managing and publishing distributed Archaeological Research Data
+      through the Wikibase'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14524577
+    event:
+      name: ARCHEO.FOSS 18
+      start: '2024-12-19'
+      end: '2024-12-20'
+      session: 'Panel 1: Towards a Common Infrastructural Framework'
+      location: Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti
+        Scalo, Chieti, Italy
+      place: aula-convegni-cast-center-for-advanced-studies
+      online: false
+    from: volumes-md/vol6/index.md#L152
+  - n: 12
+    types:
+    - presentation
+    - conference-paper
+    title: 'Jupyter Python Minion: Empowering Open Data for Urban Archaeological Insights'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14524614
+    event:
+      name: ARCHEO.FOSS 18
+      start: '2024-12-19'
+      end: '2024-12-20'
+      session: 'Panel 6: Open Data for Urban Archaeological Potential Assessment'
+      location: Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti
+        Scalo, Chieti, Italy
+      place: aula-convegni-cast-center-for-advanced-studies
+      online: false
+    from: volumes-md/vol6/index.md#L159
+- issue: 4
+  sigil: '#'
+  title:
+    en: Special Issue on NFDI related topics
+  special: true
+  entries:
+  - n: 1
+    types:
+    - proposal
+    title: NFDI4Objects - Community Cluster "Semantic Modelling & Linked Open Data"
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: K. Tolle
+      orcid: 0000-0002-9953-7638
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.10512531
+    date: '2024-01-01'
+    context: NFDI4Objects Community Cluster
+    from: volumes-md/vol6/index.md#L170
+  - n: 2
+    types:
+    - proposal
+    title: NFDI4Objects - Community Cluster "Research Software Engineering (RSE)"
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L. Schubert
+      orcid: 0000-0003-4889-9353
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.10512603
+    date: '2024-01-01'
+    context: NFDI4Objects Community Cluster
+    from: volumes-md/vol6/index.md#L176
+  - n: 3
+    types:
+    - conference-session
+    title: 'Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational
+      Approaches to Daily Archaeological Tasks"'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A. Schneider
+      orcid: 0000-0002-1854-6760
+    - name: F. Fricke
+      orcid: 0000-0003-3223-2079
+    - name: Jim Allison
+    - name: Daria Stefan
+    doi: 10.5281/zenodo.10515269
+    date: '2024-01-01'
+    context: EAA 2024, Rome, Italy, Call for Papers
+    from: volumes-md/vol6/index.md#L182
+  - n: 4
+    types:
+    - conference-session
+    title: 'Best Practices on Archaeological 3D Data Management: Methods and Approaches to Capture, Generate,
+      and Disseminate 3D Information in Archaeology"'
+    creators:
+    - name: J. Hollaender
+      orcid: 0000-0001-7933-3518
+    - name: Miguel Angel Dilena Quintana
+    - name: John Skole
+    - name: Elli Papazoi
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.10515288
+    date: '2024-01-01'
+    context: EAA 2024, Rome, Italy, Call for Papers
+    from: volumes-md/vol6/index.md#L188
+  - n: 5
+    types:
+    - conference-session
+    title: Research Data Management in Cultural Heritage goes Digital – New Technologies along the object
+      biography"
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: M. thor Straten
+    - name: N. Alpino
+    doi: 10.5281/zenodo.10992401
+    date: '2024-04-15'
+    context: CHNT29, Vienna, Austria, Call for Papers
+    from: volumes-md/vol6/index.md#L194
+  - n: 6
+    types:
+    - presentation
+    title: Terminologien in NFDI4Objects
+    creators:
+    - name: J. Voß
+    - name: F. Thiery
+    - name: A. Gerber
+    - name: S. Wagner
+    - name: F. von Hagel
+    doi: 10.5281/zenodo.10906911
+    event:
+      name: Brücken schlagen zwischen Terminologien
+      start: '2024-03-20'
+      end: '2024-03-20'
+      location: online
+      online: true
+    from: volumes-md/vol6/index.md#L200
+  - n: 7
+    types:
+    - presentation
+    - conference-paper
+    title: 'Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational
+      Approaches to Daily Archaeological Tasks'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A. Schneider
+      orcid: 0000-0002-1854-6760
+    - name: F. Fricke
+      orcid: 0000-0003-3223-2079
+    - name: Jim Allison
+    - name: Daria Stefan
+    doi: 10.5281/zenodo.13373890
+    event:
+      name: EAA 2024, Rome, Italy
+      start: '2024-08-31'
+      end: '2024-08-31'
+      session: '514: Applying Archaeological Research Software Engineering as Little Minions: Statistical
+        & Computational Approaches to Daily Archaeological Tasks'
+      location: Sapienza University of Rome, Italy
+      place: sapienza-university-of-rome-italy
+      online: false
+    from: volumes-md/vol6/index.md#L207
+  - n: 8
+    types:
+    - presentation
+    - conference-paper
+    title: 'Taming Time: Using Correspondence Analysis to handle relative chronologies as graphs'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+    doi: 10.5281/zenodo.13132293
+    event:
+      name: EAA 2024, Rome, Italy
+      start: '2024-08-31'
+      end: '2024-08-31'
+      session: '514: Applying Archaeological Research Software Engineering as Little Minions: Statistical
+        & Computational Approaches to Daily Archaeological Tasks'
+      location: Sapienza University of Rome, Italy
+      place: sapienza-university-of-rome-italy
+      online: false
+    from: volumes-md/vol6/index.md#L214
+  - n: 9
+    types:
+    - presentation
+    title: '(3D-)Digitalisierung von archäologischen Objekten: Objektbiographien und digitale Workflows
+      am Beispiel der Task Area Collecting von NFDI4Objects'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.13332508
+    event:
+      name: 'BiodiversiTea – die NFDI4Biodiversity Coffee Lecture #5'
+      start: '2024-08-20'
+      end: '2024-08-20'
+      location: online
+      online: true
+    from: volumes-md/vol6/index.md#L221
+  - n: 10
+    types:
+    - poster
+    - conference-paper
+    title: Let us build a human network on Semantic Modelling and Linked Open Data for object-related
+      FAIRification
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Karsten Tolle
+    doi: 10.5281/zenodo.13734161
+    event:
+      name: NFDI4Objects Community Meeting 2024, Mainz, Germany
+      start: '2024-09-26'
+      end: '2024-09-26'
+      session: Poster Session
+      location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
+      place: leibniz-zentrum-fur-archaologie-leiza-mainz
+      online: false
+    from: volumes-md/vol6/index.md#L227
+  - n: 11
+    types:
+    - poster
+    - conference-paper
+    title: 'Communities of Practice: Research Software Engineering within NFDI4Objects and the NFDI e.V.
+      section Common Infrastructures applying FAIRification and RDM solutions'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Lutz Schubert
+    - name: Bernd Flemisch
+    doi: 10.5281/zenodo.13734380
+    event:
+      name: NFDI4Objects Community Meeting 2024, Mainz, Germany
+      start: '2024-09-26'
+      end: '2024-09-26'
+      session: Poster Session
+      location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
+      place: leibniz-zentrum-fur-archaologie-leiza-mainz
+      online: false
+    from: volumes-md/vol6/index.md#L234
+  - n: 12
+    types:
+    - poster
+    - conference-paper
+    title: 'Task Area 2: FDM-Services im Sammlungskontext'
+    creators:
+    - name: S. Baars
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    et_al: true
+    doi: 10.5281/zenodo.13734484
+    event:
+      name: NFDI4Objects Community Meeting 2024, Mainz, Germany
+      start: '2024-09-26'
+      end: '2024-09-26'
+      session: Poster Session
+      location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
+      place: leibniz-zentrum-fur-archaologie-leiza-mainz
+      online: false
+    from: volumes-md/vol6/index.md#L241
+  - n: 13
+    types:
+    - presentation
+    - conference-paper
+    title: Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset
+      benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Anja Gerber
+    - name: Fabian Fricke
+    doi: 10.5281/zenodo.13364680
+    event:
+      name: CAA Deutschland-Workshop 2024
+      start: '2024-09-05'
+      end: '2024-09-06'
+      session: Nachhaltige Forschung
+      location: Historisches Seminar der Universität Münster, Münster, Germany
+      place: historisches-seminar-der-universitat-munster
+      online: false
+    from: volumes-md/vol6/index.md#L248
+  - n: 14
+    types:
+    - poster
+    - conference-paper
+    title: NFDI4Objects Objects Ontology & Minimal Metadata Set
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Anja Gerber
+    - name: Fabian Fricke
+    doi: 10.5281/zenodo.13739143
+    event:
+      name: NFDI4Objects Community Meeting 2024, Mainz, Germany
+      start: '2024-09-26'
+      end: '2024-09-26'
+      session: Poster Session
+      location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
+      place: leibniz-zentrum-fur-archaologie-leiza-mainz
+      online: false
+    from: volumes-md/vol6/index.md#L255
+  - n: 15
+    types:
+    - poster
+    - conference-paper
+    title: Little Minions in Archaeology - An open space for RSE software and small scripts in digital
+      archaeology
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Moritz Mennenga
+    - name: Ronald Visser
+    - name: Brigit Danthine
+    doi: 10.5281/zenodo.13803736
+    event:
+      name: NFDI4Objects Community Meeting 2024, Mainz, Germany
+      start: '2024-09-26'
+      end: '2024-09-26'
+      session: Poster Session
+      location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
+      place: leibniz-zentrum-fur-archaologie-leiza-mainz
+      online: false
+    from: volumes-md/vol6/index.md#L262
+  - n: 16
+    types:
+    - poster
+    - conference-paper
+    title: Von Eichhörnchen und Unicorns - Community-driven grassroots Lösungen zur FAIRification aus
+      der Archäologie und den Geowissenschaften
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Timo Homburg
+    - name: Fiona Schenk
+    - name: Sophie C. Schmidt
+    doi: 10.5281/zenodo.13803957
+    event:
+      name: NFDI4Objects Community Meeting 2024, Mainz, Germany
+      start: '2024-09-26'
+      end: '2024-09-26'
+      session: Poster Session
+      location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
+      place: leibniz-zentrum-fur-archaologie-leiza-mainz
+      online: false
+    from: volumes-md/vol6/index.md#L269
+  - n: 17
+    types:
+    - presentation
+    - conference-paper
+    title: Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset
+      benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Lasse Mempel-Länger
+    - name: Kristina Fella
+    - name: Andreas Puhl
+    doi: 10.5281/zenodo.13897159
+    event:
+      name: Verbandstagung 2024 des NWVA e.V.
+      start: '2024-10-07'
+      end: '2024-10-11'
+      session: Von der digital gestützten Ausgrabung zu digitalen Diensten in der Archäologie
+      location: DBM Bochum, Germany
+      place: dbm-bochum-germany
+      online: false
+    from: volumes-md/vol6/index.md#L276
+  - n: 18
+    types:
+    - workshop
+    title: 'Workshop III: Linked Open Data am Beispiel von RDF-Daten, Wikidata und Wikibase'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Karsten Tolle
+    - name: Tobias-Arera Rütenik
+    doi: 10.5281/zenodo.13927753
+    event:
+      name: NFDI4Objects Community Meeting 2024, Mainz, Germany
+      start: '2024-09-25'
+      end: '2024-09-25'
+      session: Workshops on Wednesday
+      location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
+      place: leibniz-zentrum-fur-archaologie-leiza-mainz
+      online: false
+    from: volumes-md/vol6/index.md#L283
+  - n: 19
+    types:
+    - workshop
+    title: 'Workshop VI: Harmonisierung und Integration von Konsortialdiensten durch Verknüpfung dezentraler
+      Systeme in NFDI4Objects'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Anja Gerber
+    - name: Fabian Fricke
+    doi: 10.5281/zenodo.13980905
+    event:
+      name: NFDI4Objects Community Meeting 2024, Mainz, Germany
+      start: '2024-09-27'
+      end: '2024-09-27'
+      session: Workshops on Friday
+      location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
+      place: leibniz-zentrum-fur-archaologie-leiza-mainz
+      online: false
+    from: volumes-md/vol6/index.md#L290
+  - n: 20
+    types:
+    - workshop
+    title: Geodata in Linked Open Data and Wikidata in Practice
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Timo Homburg
+    doi: 10.5281/zenodo.13980966
+    event:
+      name: Open Science Festival Mainz 2024, Mainz, Germany
+      start: '2024-09-17'
+      end: '2024-09-17'
+      session: Workshops Day 1
+      location: JGU, Mainz Germany
+      place: jgu-mainz-germany
+      online: false
+    from: volumes-md/vol6/index.md#L297
+  - n: 21
+    types:
+    - poster
+    - conference-paper
+    title: 'NFDI4Objects and the Base4NFDI Services: An Overview'
+    creators:
+    - name: Fabian Fricke
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14017594
+    event:
+      name: 1st Base4NFDI User Conference (UC4B2024), Berlin, Germany
+      start: '2024-11-20'
+      end: '2024-11-20'
+      session: Poster Minute Madness
+      location: Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany
+      place: fraunhofer-fokus-fraunhofer-institute-for-open
+      online: false
+    from: volumes-md/vol6/index.md#L304
+  - n: 22
+    types:
+    - presentation
+    - conference-paper
+    title: 'Wikibase instances in the Cultural Heritage Domain: Examples from the German humanities NFDI
+      consortia'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Lozana Rossenova
+    - name: Olaf Simons
+    doi: 10.5281/zenodo.14055698
+    event:
+      name: Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria
+      start: '2024-11-04'
+      end: '2024-11-04'
+      session: Cultural Heritage and the new future of new technologies
+      location: Vienna City Hall, Wappensaal, Vienna, Austria
+      place: vienna-city-hall-wappensaal-vienna-austria
+      online: false
+    from: volumes-md/vol6/index.md#L311
+  - n: 23
+    types:
+    - presentation
+    - conference-paper
+    title: 'Interdisciplinary Knowledge Graphs: Semantic Modelling using Linked Open Data, Wikibase and
+      the Wikiverse'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Stefanie Baars
+    - name: Angela Berthold
+    - name: Fiona Schenk
+    doi: 10.5281/zenodo.14055804
+    event:
+      name: Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria
+      start: '2024-11-06'
+      end: '2024-11-06'
+      session: Research Data Management in Cultural Heritage goes Digital
+      location: Vienna City Hall, Wappensaal, Vienna, Austria
+      place: vienna-city-hall-wappensaal-vienna-austria
+      online: false
+    from: volumes-md/vol6/index.md#L318
+  - n: 24
+    types:
+    - presentation
+    - conference-paper
+    title: Derivation of thesauri in archaeological conservation through synergistic collaboration between
+      domain experts and the use of semantic and NLP technologies with a FAIR and open publication
+    creators:
+    - name: Lasse Mempel-Länger
+    - name: Kristina Fella
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14055855
+    event:
+      name: Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria
+      start: '2024-11-06'
+      end: '2024-11-06'
+      session: Research Data Management in Cultural Heritage goes Digital
+      location: Vienna City Hall, Wappensaal, Vienna, Austria
+      place: vienna-city-hall-wappensaal-vienna-austria
+      online: false
+    from: volumes-md/vol6/index.md#L325
+  - n: 25
+    types:
+    - presentation
+    title: 3D-Erfassung und FAIRe Publikation von Cultural Heritage Artefakten - und was das Semantic
+      Web damit zu tun hat
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14130517
+    event:
+      name: AG3D meeting
+      start: '2024-11-13'
+      end: '2024-11-13'
+      location: online
+      online: true
+    from: volumes-md/vol6/index.md#L332
+  - n: 26
+    types:
+    - presentation
+    - conference-paper
+    title: Research Software Engineering within the NFDI (INFRA-WG-RSE)
+    creators:
+    - name: Bernd Flemisch
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Martin Hammitzsch
+    doi: 10.5281/zenodo.14167106
+    event:
+      name: 1st Base4NFDI User Conference (UC4B2024), Berlin, Germany
+      start: '2024-11-20'
+      end: '2024-11-20'
+      session: Further Fields
+      location: Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany
+      place: fraunhofer-fokus-fraunhofer-institute-for-open
+      online: false
+    from: volumes-md/vol6/index.md#L338
+- issue: 5
+  sigil: '#'
+  title:
+    en: Special Issue on the UK-Ireland DH Association Annual Event 2024 at UCC
+  special: true
+  entries:
+  - n: 1
+    types:
+    - presentation
+    - conference-paper
+    title: Og(h)am from Ireland and the UK – Open Science and FAIR methods for early medieval epigraphic
+      sources
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Nora White
+    - name: Megan Kasten
+    - name: Anne-Karoline Distel
+    event:
+      name: UK-Ireland DH Association Annual Event 2024
+      start: '2024-06-04'
+      end: '2024-06-05'
+      session: 3A - Og(h)am from Ireland and the UK – Open Science and FAIR methods for early medieval
+        epigraphic sources
+      location: University College Cork (UCC), Cork, Ireland
+      place: university-college-cork-ucc-cork-ireland
+      online: false
+    draft: true
+    from: volumes-md/vol6/index.md#L349
+  - n: 2
+    types:
+    - presentation
+    - conference-paper
+    title: OG(H)AM in 3D-Digitisation, digital epigraphy and crosssector collaboration in the study of
+      ogham
+    creators:
+    - name: Nora White
+    event:
+      name: UK-Ireland DH Association Annual Event 2024
+      start: '2024-06-04'
+      end: '2024-06-05'
+      session: 3A - Og(h)am from Ireland and the UK – Open Science and FAIR methods for early medieval
+        epigraphic sources
+      location: University College Cork (UCC), Cork, Ireland
+      place: university-college-cork-ucc-cork-ireland
+      online: false
+    draft: true
+    from: volumes-md/vol6/index.md#L356
+  - n: 3
+    types:
+    - presentation
+    - conference-paper
+    title: OG(H)AM in 3D
+    creators:
+    - name: Megan Kasten
+    event:
+      name: UK-Ireland DH Association Annual Event 2024
+      start: '2024-06-04'
+      end: '2024-06-05'
+      session: 3A - Og(h)am from Ireland and the UK – Open Science and FAIR methods for early medieval
+        epigraphic sources
+      location: University College Cork (UCC), Cork, Ireland
+      place: university-college-cork-ucc-cork-ireland
+      online: false
+    draft: true
+    from: volumes-md/vol6/index.md#L363
+  - n: 4
+    types:
+    - presentation
+    - conference-paper
+    title: Og(h)am and Linked Open Data
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Peter Thiery
+    event:
+      name: UK-Ireland DH Association Annual Event 2024
+      start: '2024-06-04'
+      end: '2024-06-05'
+      session: 3A - Og(h)am from Ireland and the UK – Open Science and FAIR methods for early medieval
+        epigraphic sources
+      location: University College Cork (UCC), Cork, Ireland
+      place: university-college-cork-ucc-cork-ireland
+      online: false
+    draft: true
+    from: volumes-md/vol6/index.md#L370
+  - n: 5
+    types:
+    - presentation
+    - conference-paper
+    title: Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: S.C. Schmidt
+    - name: M. Trognitz
+    - name: T. Homburg
+    doi: 10.5281/zenodo.13364444
+    event:
+      name: UK-Ireland DH Association Annual Event 2024
+      start: '2024-06-04'
+      end: '2024-06-05'
+      session: 3A - Og(h)am from Ireland and the UK – Open Science and FAIR methods for early medieval
+        epigraphic sources
+      location: University College Cork (UCC), Cork, Ireland
+      place: university-college-cork-ucc-cork-ireland
+      online: false
+    from: volumes-md/vol6/index.md#L377
+  - n: 6
+    types:
+    - presentation
+    - conference-paper
+    title: Ogham stones on OpenStreetMap
+    creators:
+    - name: Anne-Karoline Distel
+    event:
+      name: UK-Ireland DH Association Annual Event 2024
+      start: '2024-06-04'
+      end: '2024-06-05'
+      session: 3A - Og(h)am from Ireland and the UK – Open Science and FAIR methods for early medieval
+        epigraphic sources
+      location: University College Cork (UCC), Cork, Ireland
+      place: university-college-cork-ucc-cork-ireland
+      online: false
+    draft: true
+    from: volumes-md/vol6/index.md#L384

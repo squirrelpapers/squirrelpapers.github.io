@@ -1,0 +1,80 @@
+# Squirrel Papers - Volume 2
+#
+# Source of truth for this volume (PRIMER A3). Edit here, never in docs/.
+# Migrated in S2 from squirrelpapers-volumes @ d00e0b7; see
+# dist/reports/migration.md for what needed attention.
+#
+# Entry IRI: https://w3id.org/squirrelpapers/v<volume>/i<issue>/e<n>
+# Citation:  <volume>(<issue>), <sigil><n>
+# `types` are slugs of the old labels; S4 maps them onto the SKOS scheme.
+# `creators` are written as they appeared; S4 aligns them with Zenodo/ORCID.
+
+volume: 2
+year: 2020
+wikidata: Q116235706
+issues:
+- issue: 1
+  sigil: '#'
+  special: false
+  wikidata: Q116235716
+  entries:
+  - n: 1
+    types: []
+    title: 'The SPARQL Unicorn: An introduction'
+    creators:
+    - name: Thiery, F.
+    - name: Schmidt S.C.
+    - name: Homburg, T.
+    - name: Trognitz, M.
+    doi: 10.5281/zenodo.3742185
+    wikidata: Q89659767
+    from: volumes-md/vol2/index.md#L15
+  - n: 2
+    types: []
+    title: QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF
+      in QGIS Plugins
+    creators:
+    - name: F. Thiery
+    - name: T. Homburg
+    doi: 10.5281/zenodo.3719127
+    isbn: 978-3-00-065006-2
+    from: volumes-md/vol2/index.md#L20
+- issue: 2
+  sigil: '#'
+  title:
+    en: Special Issue on Data & Software
+  special: true
+  entries:
+  - n: 1
+    types: []
+    title: Linked Open Samian Ware
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    - name: D. Gottwald
+    doi: 10.5281/zenodo.4305708
+    from: volumes-md/vol2/index.md#L27
+  - n: 2
+    types: []
+    title: 'Linked Open Samian Ware [RGZM/samian-lod: 2020-12-04]'
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    - name: D. Gottwald
+    doi: 10.5281/zenodo.4305709
+    from: volumes-md/vol2/index.md#L31
+  - n: 3
+    types: []
+    title: 'Linked Open Samian Ware [RGZM/samian-lod: 2020-12-10]'
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    - name: D. Gottwald
+    doi: 10.5281/zenodo.4314355
+    from: volumes-md/vol2/index.md#L35
+- issue: 3
+  sigil: '#'
+  title:
+    en: Special Issue on Conferences
+  special: true
+  entries: []

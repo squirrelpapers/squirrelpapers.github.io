@@ -1,0 +1,238 @@
+# Squirrel Papers - Volume 3
+#
+# Source of truth for this volume (PRIMER A3). Edit here, never in docs/.
+# Migrated in S2 from squirrelpapers-volumes @ d00e0b7; see
+# dist/reports/migration.md for what needed attention.
+#
+# Entry IRI: https://w3id.org/squirrelpapers/v<volume>/i<issue>/e<n>
+# Citation:  <volume>(<issue>), <sigil><n>
+# `types` are slugs of the old labels; S4 maps them onto the SKOS scheme.
+# `creators` are written as they appeared; S4 aligns them with Zenodo/ORCID.
+
+volume: 3
+year: 2021
+wikidata: Q116235711
+issues:
+- issue: 1
+  sigil: '#'
+  title:
+    en: Special Issue on NFDI & ARS3D
+  special: true
+  entries:
+  - n: 1
+    types: []
+    title: Digitale Vernetzung von Sammlungsdaten
+    creators:
+    - name: Allard W. Mees
+    - name: Florian Thiery
+    - name: Bernhard Weisser
+    doi: 10.5281/zenodo.5810310
+    from: volumes-md/vol3/index.md#L15
+  - n: 2
+    types: []
+    title: African Red Slip Ware digital (ARS3D) - The Portal
+    creators:
+    - name: Florian Thiery
+    - name: Louise Rokohl
+    doi: 10.5281/zenodo.5646897
+    from: volumes-md/vol3/index.md#L19
+  - n: 3
+    types: []
+    title: Linked Open African Red Slip Ware
+    creators:
+    - name: Florian Thiery
+    - name: Louise Rokohl
+    doi: 10.5281/zenodo.5722941
+    from: volumes-md/vol3/index.md#L23
+  - n: 4
+    types:
+    - working-paper
+    title: African Red Slip Ware Digital (ARS3D) - How to create a Feature?
+    creators:
+    - name: L. Rokohl
+      orcid: 0000-0003-1631-9115
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A. Dingler
+    - name: S. Beck
+    doi: 10.5281/zenodo.5642976
+    from: volumes-md/vol3/index.md#L27
+  - n: 5
+    types:
+    - data
+    title: African Red Slip Ware Digital (ARS3D) - Graph-Data
+    creators:
+    - name: L. Rokohl
+      orcid: 0000-0003-1631-9115
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: S. Beck
+      orcid: 0000-0002-7081-4339
+    - name: A. Dingler
+    doi: 10.5281/zenodo.5642750
+    from: volumes-md/vol3/index.md#L31
+  - n: 6
+    types:
+    - data
+    title: African Red Slip Ware Digital (ARS3D) - Ontology
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A. Karmacharya
+      orcid: 0000-0003-2822-7648
+    - name: L. Rokohl
+      orcid: 0000-0003-1631-9115
+    doi: 10.5281/zenodo.5642891
+    from: volumes-md/vol3/index.md#L35
+  - n: 7
+    types:
+    - data
+    title: African Red Slip Ware Digital (ARS3D) - Comparison-Data
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L. Rokohl
+      orcid: 0000-0003-1631-9115
+    - name: J. Veller
+      orcid: 0000-0003-1666-0348
+    doi: 10.5281/zenodo.5647827
+    from: volumes-md/vol3/index.md#L39
+  - n: 8
+    types:
+    - software
+    title: African Red Slip Ware Digital (ARS3D) - Comparison-Script
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.5647864
+    from: volumes-md/vol3/index.md#L43
+  - n: 9
+    types:
+    - data
+    title: African Red Slip Ware Digital (ARS3D) - Images (Objects)
+    creators:
+    - name: J. Veller
+      orcid: 0000-0003-1666-0348
+    - name: L. Raddatz
+      orcid: 0000-0001-7640-1247
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L. Rokohl
+      orcid: 0000-0003-1631-9115
+    doi: 10.5281/zenodo.5645179
+    from: volumes-md/vol3/index.md#L47
+  - n: 10
+    types:
+    - data
+    title: African Red Slip Ware Digital (ARS3D) - Images (Features)
+    creators:
+    - name: J. Veller
+      orcid: 0000-0003-1666-0348
+    - name: L. Raddatz
+      orcid: 0000-0001-7640-1247
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L. Rokohl
+      orcid: 0000-0003-1631-9115
+    doi: 10.5281/zenodo.5645236
+    from: volumes-md/vol3/index.md#L51
+  - n: 11
+    types:
+    - data
+    title: African Red Slip Ware Digital (ARS3D) - Images (Comparisons)
+    creators:
+    - name: J. Veller
+      orcid: 0000-0003-1666-0348
+    - name: L. Raddatz
+      orcid: 0000-0001-7640-1247
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L. Rokohl
+      orcid: 0000-0003-1631-9115
+    doi: 10.5281/zenodo.5645253
+    from: volumes-md/vol3/index.md#L55
+  - n: 12
+    types:
+    - data
+    title: African Red Slip Ware Digital (ARS3D) - Comparison Videos
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: J. Veller
+      orcid: 0000-0003-1666-0348
+    doi: 10.5281/zenodo.5642976
+    from: volumes-md/vol3/index.md#L59
+  - n: 13
+    types:
+    - data
+    title: African Red Slip Ware Digital (ARS3D) - Comparison (Archaeology)
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.6534661
+    from: volumes-md/vol3/index.md#L63
+- issue: 2
+  sigil: '#'
+  special: false
+  entries: []
+- issue: 3
+  sigil: '#'
+  title:
+    en: Special Issue on Data & Software
+  special: true
+  entries:
+  - n: 1
+    types:
+    - data
+    title: Ceramic Typologies Ontology (CeraTyOnt)
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.5767082
+    from: volumes-md/vol3/index.md#L73
+  - n: 2
+    types:
+    - data
+    title: Ceramic Typologies Ontology (CeraTyOnt) - Version v0.1
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.5767083
+    from: volumes-md/vol3/index.md#L77
+  - n: 3
+    types:
+    - data
+    title: Ogham Data
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.4765603
+    from: volumes-md/vol3/index.md#L81
+  - n: 4
+    types:
+    - data
+    title: Ogham Data - Version 1.0
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.4765604
+    from: volumes-md/vol3/index.md#L85
+  - n: 5
+    types:
+    - data
+    title: Ogham Data - Version 1.1
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.4849646
+    from: volumes-md/vol3/index.md#L89
+- issue: 4
+  sigil: '#'
+  title:
+    en: Special Issue on Conferences
+  special: true
+  entries: []

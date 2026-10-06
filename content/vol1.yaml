@@ -1,0 +1,720 @@
+# Squirrel Papers - Volume 1
+#
+# Source of truth for this volume (PRIMER A3). Edit here, never in docs/.
+# Migrated in S2 from squirrelpapers-volumes @ d00e0b7 and florianthiery/pub @ ac66360; see
+# dist/reports/migration.md for what needed attention.
+#
+# Entry IRI: https://w3id.org/squirrelpapers/v<volume>/i<issue>/e<n>
+# Citation:  <volume>(<issue>), <sigil><n>
+# `types` are slugs of the old labels; S4 maps them onto the SKOS scheme.
+# `creators` are written as they appeared; S4 aligns them with Zenodo/ORCID.
+
+volume: 1
+year: 2019
+coverage: 2014/2019
+wikidata: Q116235709
+issues:
+- issue: 1
+  sigil: '#'
+  special: false
+  entries:
+  - n: 1
+    types: []
+    title: Hic sunt dracones! The modern unknown data dragons
+    creators:
+    - name: Florian Thiery
+    - name: Martina Trognitz
+    - name: Ethan Gruber
+    - name: David Wigg-Wolf
+    doi: 10.5281/zenodo.3345715
+    from: volumes-md/vol1/index.md#L15
+  - n: 2
+    types: []
+    title: 'Archaeology 4.0: Archaeology in the Third Era of Computing'
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.2629595
+    from: volumes-md/vol1/index.md#L19
+  - n: 3
+    types: []
+    title: 'Sphere 7 Data: LOUD and FAIR Data for the Research Community'
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.2643469
+    from: volumes-md/vol1/index.md#L23
+  - n: 4
+    types: []
+    title: 'topi.link: the northern and southern ontology'
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.2635490
+    from: volumes-md/vol1/index.md#L27
+  - n: 5
+    types: []
+    title: SPARQLing Unicorn QGIS Plugin
+    creators:
+    - name: Florian Thiery
+    - name: Timo Homburg
+    doi: 10.5281/zenodo.3786814
+    from: volumes-md/vol1/index.md#L31
+- issue: 2
+  sigil: '#'
+  title:
+    en: Special Issue on Conferences 2019
+  special: true
+  entries:
+  - n: 1
+    types:
+    - presentation
+    title: 'Linked Data Cloud: Bindeglied zwischen Geodäsie und Gesellschaft'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.3403029
+    language: de
+    event:
+      name: Intergeo Conference
+      start: '2019-09-17'
+      end: '2019-09-17'
+      location: Stuttgart, Germany
+      place: stuttgart-germany
+      online: false
+    from: volumes-md/vol1/index.md#L37
+  - n: 2
+    types:
+    - presentation
+    title: 'Java und Linked Data im RGZM: Herausforderungen in einem archäologischen Museum'
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.2540228
+    language: de
+    event:
+      name: Java User Group Mainz Lightning Talks
+      start: '2019-01-16'
+      end: '2019-01-16'
+      location: Mainz, Germany
+      place: mainz-germany
+      online: false
+    from: pub/talks.md#L65
+  - n: 3
+    types:
+    - presentation
+    title: 'Dating Mechanism: Eine Linked Data Strategie zur interoperablen und nachvollziehbaren Modellierung
+      relativer Chronologien am Beispiel südgallischer Terra Sigillata in Limes-Abschnitten'
+    creators:
+    - name: Florian Thiery
+    - name: Allard Mees
+    doi: 10.5281/zenodo.2540373
+    language: de
+    event:
+      name: Graphentechnologien 2019
+      start: '2019-01-18'
+      end: '2019-01-18'
+      location: Mainz, Germany
+      place: mainz-germany
+      online: false
+    from: pub/talks.md#L63
+  - n: 4
+    types:
+    - presentation
+    title: ARS3D - Documenting facts and interpretations of African Red Slip Ware
+    creators:
+    - name: Florian Thiery
+    - name: Ashish Karmacharya
+    - name: Louise Rokohl
+    doi: 10.5281/zenodo.2648210
+    language: en
+    event:
+      name: Computer Applications and Quantitative Methods in Archaeology (CAA)
+      start: '2019-03-24'
+      end: '2019-03-24'
+      location: Kraków, Poland
+      place: krakow-poland
+      online: false
+    from: pub/talks.md#L59
+  - n: 5
+    types:
+    - presentation
+    title: 'Taming Time Tools: Alligator and Academic Meta Tool'
+    creators:
+    - name: Florian Thiery
+    - name: Allard Mees
+    doi: 10.5281/zenodo.2648202
+    language: en
+    event:
+      name: Computer Applications and Quantitative Methods in Archaeology (CAA)
+      start: '2019-03-24'
+      end: '2019-03-24'
+      location: Kraków, Poland
+      place: krakow-poland
+      online: false
+    from: pub/talks.md#L57
+  - n: 6
+    types:
+    - presentation
+    title: 'Das Internet als Daten-Netzwerk: Die Zukunft der Archäologie?'
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.2620929
+    language: de
+    event:
+      name: Wintervorträge 2019
+      start: '2019-04-02'
+      end: '2019-04-02'
+      location: Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz,
+        Germany
+      place: gesellschaft-der-freunde-des-romisch
+      online: false
+    from: pub/talks.md#L61
+  - n: 7
+    types:
+    - poster
+    title: Academic Meta Tool – Ein RDF basiertes Web-Tool zur Modellierung des Zweifels in den Digital
+      Humanities
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.3237306
+    language: de
+    event:
+      name: deRSE19 - Konferenz für ForschungssoftwareentwicklerInnen in Deutschland (deRSE19)
+      start: '2019-06-05'
+      end: '2019-06-05'
+      location: Potsdam, Germany
+      place: potsdam-germany
+      online: false
+    from: pub/poster.md#L27
+  - n: 8
+    types:
+    - presentation
+    title: topi.link - A graph-based topology for vague geographical relations
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.3252392
+    language: en
+    event:
+      name: 32. International Geodetic Students Meeting
+      start: '2019-06-25'
+      end: '2019-06-25'
+      location: Warsaw, Poland
+      place: warsaw-poland
+      online: false
+    from: pub/talks.md#L55
+  - n: 9
+    types:
+    - poster
+    title: Hic sunt dracones! Der digitale Wandel zur Archäologie 4.0 am Beispiel römischer Münzen
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.3403057
+    language: de
+    event:
+      name: 9. Workshop der AG CAA
+      start: '2019-09-23'
+      end: '2019-09-23'
+      location: Wilhelmshaven, Germany
+      place: wilhelmshaven-germany
+      online: false
+    from: pub/poster.md#L25
+  - n: 10
+    types:
+    - presentation
+    title: Wikidata - A SPARQL(ing) Unicorn?
+    creators:
+    - name: Martina Trognitz
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.3471404
+    language: en
+    event:
+      name: UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2019)
+      start: '2019-10-04'
+      end: '2019-10-04'
+      location: Bournemouth, England
+      place: bournemouth-england
+      online: false
+    from: pub/talks.md#L51
+  - n: 11
+    types:
+    - presentation
+    title: '#Linked Pipes'
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.3688792
+    language: en
+    event:
+      name: Linked Pasts V
+      start: '2019-12-11'
+      end: '2019-12-11'
+      location: Bordeaux, Germany
+      place: bordeaux-germany
+      online: false
+    from: pub/talks.md#L49
+  - n: 12
+    types:
+    - poster
+    title: 'Alligator + AMT: A Linked Pipe for taming relative chronology'
+    creators:
+    - name: Florian Thiery
+    - name: Allard Mees
+    doi: 10.5281/zenodo.3567911
+    language: en
+    event:
+      name: Linked Pasts V
+      start: '2019-12-11'
+      end: '2019-12-11'
+      location: Bordeaux, France
+      place: bordeaux-france
+      online: false
+    from: pub/poster.md#L21
+  - n: 13
+    types:
+    - poster
+    title: Linked Pipes! Let us feed the hungry squirrels!
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.3567928
+    language: en
+    event:
+      name: Linked Pasts V
+      start: '2019-12-11'
+      end: '2019-12-11'
+      location: Bordeaux, France
+      place: bordeaux-france
+      online: false
+    from: pub/poster.md#L23
+- issue: 3
+  sigil: '#'
+  title:
+    en: Special Issue on Conferences 2014
+  special: true
+  entries:
+  - n: 1
+    types:
+    - poster
+    title: 'Linking potter, pots and places: a LOD approach to samian ware'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.775019
+    related_dois:
+    - 10.5281/zenodo.292975
+    language: en
+    event:
+      name: Computer Applications and Quantitative Methods in Archaeology (CAA)
+      start: '2014-04-24'
+      end: '2014-04-24'
+      location: Paris, France
+      place: paris-france
+      online: false
+    from: volumes-md/vol1/index.md#L43
+  - n: 2
+    types:
+    - presentation
+    title: 'Linked Samian Ware: Potentiale von Linked Data in der Archäologie'
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.292971
+    language: de
+    event:
+      name: 5. Workshop der AG CAA
+      start: '2014-02-15'
+      end: '2014-02-15'
+      location: Tübingen, Germany
+      place: tubingen-germany
+      online: false
+    from: pub/talks.md#L113
+  - n: 3
+    types:
+    - poster
+    title: Das Labeling System – Lösen der Mehrdeutigkeiten von Räumen und deren Funktion
+    creators:
+    - name: Florian Thiery
+    - name: Kai-Christian Bruhn
+    doi: 10.5281/zenodo.292974
+    language: de
+    event:
+      name: Forum DH Mainz
+      start: '2014-07-30'
+      end: '2014-07-30'
+      location: Mainz, Germany
+      place: mainz-germany
+      online: false
+    from: pub/poster.md#L43
+  - n: 4
+    types:
+    - presentation
+    title: The Labeling System - A New Approach to Overcome the Vocabulary Bottleneck
+    creators:
+    - name: Michael Piotrowski
+    - name: Giovanni Colavizza
+    - name: Florian Thiery
+    - name: Kai-Christian Bruhn
+    doi: 10.5281/zenodo.2540522
+    language: en
+    event:
+      name: DH-CASE II
+      start: '2014-09-10'
+      end: '2014-09-10'
+      location: Fort Collins, USA
+      place: fort-collins-usa
+      online: false
+    from: pub/talks.md#L111
+- issue: 4
+  sigil: '#'
+  title:
+    en: Special Issue on Conferences 2015
+  special: true
+  entries:
+  - n: 1
+    types:
+    - poster
+    title: Das Labeling System – ein freier Baukasten für kontrollierte Vokabulare
+    creators:
+    - name: Michael Piotrowski
+    - name: Kai-Christian Bruhn
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.2540530
+    language: de
+    event:
+      name: Jahrestagung Digital Humanities im deutschsprachigen Raum
+      start: '2015-02-25'
+      end: '2015-02-25'
+      location: Graz, Austria
+      place: graz-austria
+      online: false
+    from: pub/poster.md#L39
+  - n: 2
+    types:
+    - presentation
+    title: 'The Labeling System: A Bottom-up Approach for Enriched Vocabularies in the Humanities'
+    creators:
+    - name: Florian Thiery
+    - name: Thomas Engel
+    doi: 10.5281/zenodo.2540477
+    language: en
+    event:
+      name: Computer Applications and Quantitative Methods in Archaeology (CAA)
+      start: '2015-03-31'
+      end: '2015-03-31'
+      location: Siena, Italy
+      place: siena-italy
+      online: false
+    from: pub/talks.md#L107
+  - n: 3
+    types:
+    - presentation
+    title: 'Linked Samian Ware: challenges of a LOD approach to samian ware'
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.292968
+    language: en
+    event:
+      name: Computer Applications and Quantitative Methods in Archaeology (CAA)
+      start: '2015-04-01'
+      end: '2015-04-01'
+      location: Siena, Italy
+      place: siena-italy
+      online: false
+    from: pub/talks.md#L105
+- issue: 5
+  sigil: '#'
+  title:
+    en: Special Issue on Conferences 2016
+  special: true
+  entries:
+  - n: 1
+    types:
+    - presentation
+    title: E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten
+      with dem Arches Framework
+    creators:
+    - name: Florian Thiery
+    - name: Thomas Engel
+    doi: 10.5281/zenodo.292967
+    language: de
+    event:
+      name: 7. Workshop der AG CAA
+      start: '2016-02-05'
+      end: '2016-02-05'
+      location: Hamburg, Germany
+      place: hamburg-germany
+      online: false
+    from: pub/talks.md#L101
+  - n: 2
+    types:
+    - presentation
+    title: Linked Open Data in Space and Time - A geodetic insight into humanities research using LOD
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.292962
+    language: en
+    event:
+      name: XXIX. International Geodetic Students Meeting
+      start: '2016-05-04'
+      end: '2016-05-04'
+      location: Munich, Germany
+      place: munich-germany
+      online: false
+    from: pub/talks.md#L99
+  - n: 3
+    types:
+    - presentation
+    title: Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen
+    creators:
+    - name: Florian Thiery
+    - name: Allard Mees
+    doi: 10.5281/zenodo.292957
+    language: de
+    event:
+      name: Internationale Tagung der Österreichischen Gesellschaft für Mittelalterarchäologie
+      start: '2016-09-20'
+      end: '2016-09-20'
+      location: Graz, Austria
+      place: graz-austria
+      online: false
+    from: pub/talks.md#L95
+- issue: 6
+  sigil: '#'
+  title:
+    en: Special Issue on Conferences 2017
+  special: true
+  entries:
+  - n: 1
+    types:
+    - presentation
+    title: 'Das Labeling System: Erstellung kontrollierter Linked Open Data Vokabulare als Metadaten-Hub
+      für archäologische Fachdatenbanken'
+    creators:
+    - name: Florian Thiery
+    - name: Allard Mees
+    doi: 10.5281/zenodo.292554
+    language: de
+    event:
+      name: 8. Workshop der AG CAA
+      start: '2017-02-11'
+      end: '2017-02-11'
+      location: Heidelberg, Germany
+      place: heidelberg-germany
+      online: false
+    from: pub/talks.md#L91
+  - n: 2
+    types:
+    - presentation
+    title: Avalanches on Atlantis - Real or Fake? The "true" story!
+    creators:
+    - name: Florian Thiery
+    - name: Rania Taani
+    doi: 10.5281/zenodo.817469
+    language: en
+    event:
+      name: 30. International Geodetic Students Meeting
+      start: '2017-06-27'
+      end: '2017-06-27'
+      location: Zagreb, Croatia
+      place: zagreb-croatia
+      online: false
+    from: pub/talks.md#L89
+  - n: 3
+    types:
+    - poster
+    title: labeling system
+    creators:
+    - name: Florian Thiery
+    - name: Axel Kunz
+    - name: Matthias Dufner
+    doi: 10.5281/zenodo.921997
+    language: de
+    event:
+      name: Get Together DH-RMU
+      start: '2017-09-21'
+      end: '2017-09-21'
+      location: Mainz, Germany
+      place: mainz-germany
+      online: false
+    from: pub/poster.md#L35
+- issue: 7
+  sigil: '#'
+  title:
+    en: Special Issue on Conferences 2018
+  special: true
+  entries:
+  - n: 1
+    types:
+    - presentation
+    - conference-paper
+    title: 'RDF based modeling of relative and absolute chronological data: Examples from the central
+      african rainforest and roman periodisation'
+    creators:
+    - name: D. Seidensticker
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+    - name: C. Schmid
+    doi: 10.5281/zenodo.1410516
+    language: en
+    event:
+      name: 24th Annual Meeting of the European Association of Archaeologists (EAA2018)
+      start: '2018-09-05'
+      end: '2018-09-08'
+      session: '708: DATA-DRIVEN CHRONOLOGY'
+      location: Universidad de Barcelona, Spain
+      place: universidad-de-barcelona-spain
+      online: false
+    from: volumes-md/vol1/index.md#L55
+  - n: 2
+    types:
+    - presentation
+    - conference-paper
+    title: Taming the chronology of South Gaulish Samian found at Hadrian's Wall and the German Limes
+      using Linked Open Data
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+    doi: 10.5281/zenodo.1469298
+    language: en
+    event:
+      name: UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2018)
+      start: '2018-10-26'
+      end: '2018-10-27'
+      session: Main Hall
+      location: Edinburgh, Scotland, UK
+      place: edinburgh-scotland-uk
+      online: false
+    from: volumes-md/vol1/index.md#L62
+  - n: 3
+    types:
+    - presentation
+    title: Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels
+    creators:
+    - name: Martin Unold
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.1155727
+    language: de
+    event:
+      name: Graphentechnologien 2018
+      start: '2018-01-19'
+      end: '2018-01-19'
+      location: Mainz, Germany
+      place: mainz-germany
+      online: false
+    from: pub/talks.md#L85
+  - n: 4
+    types:
+    - presentation
+    title: Putting Samian pots together – modelling ceramic service family roots – connecting figure types.
+      Wie Graphen bei der Modellierung des Zweifels helfen können.
+    creators:
+    - name: Florian Thiery
+    - name: Allard Mees
+    doi: 10.5281/zenodo.1155748
+    language: de
+    event:
+      name: Graphentechnologien 2018
+      start: '2018-01-19'
+      end: '2018-01-19'
+      location: Mainz, Germany
+      place: mainz-germany
+      online: false
+    from: pub/talks.md#L83
+  - n: 5
+    types:
+    - presentation
+    title: Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD
+    creators:
+    - name: Florian Thiery
+    - name: Allard Mees
+    doi: 10.5281/zenodo.1200111
+    language: en
+    event:
+      name: Computer Applications and Quantitative Methods in Archaeology (CAA)
+      start: '2018-03-22'
+      end: '2018-03-22'
+      location: Tübingen, Germany
+      place: tubingen-germany
+      online: false
+    from: pub/talks.md#L81
+  - n: 6
+    types:
+    - presentation
+    title: 'Looking for the "grey value" in research and geodesy: Is there right or wrong in software
+      framework decisions?'
+    creators:
+    - name: Florian Thiery
+    - name: Clemens Schmid
+    doi: 10.5281/zenodo.1293990
+    language: en
+    event:
+      name: 31. International Geodetic Students Meeting
+      start: '2018-06-27'
+      end: '2018-06-27'
+      location: Valencia, Spain
+      place: valencia-spain
+      online: false
+    from: pub/talks.md#L79
+  - n: 7
+    types:
+    - presentation
+    title: Taming Time – Modelling uncertainty as reproducible Linked Open Data
+    creators:
+    - name: Florian Thiery
+    - name: Allard Mees
+    doi: 10.5281/zenodo.1402509
+    language: en
+    event:
+      name: 24th Annual Meeting of the European Association of Archaeologists (EAA2018)
+      start: '2018-09-06'
+      end: '2018-09-06'
+      location: Barcelona, Spanien
+      place: barcelona-spanien
+      online: false
+    from: pub/talks.md#L77
+  - n: 8
+    types:
+    - presentation
+    title: Linked Open Geodata in Mainz – Best Practices and Projekte im Kontext der Humanities
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.1421690
+    language: de
+    event:
+      name: DOAG Big Data Days 2018
+      start: '2018-09-21'
+      end: '2018-09-21'
+      location: Dresden, Germany
+      place: dresden-germany
+      online: false
+    from: pub/talks.md#L73
+  - n: 9
+    types:
+    - presentation
+    title: Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.1494175
+    language: de
+    event:
+      name: 13. Konferenz der GeodäsieStudierenden
+      start: '2018-11-30'
+      end: '2018-11-30'
+      location: Munich, Germany
+      place: munich-germany
+      online: false
+    from: pub/talks.md#L69
+  - n: 10
+    types:
+    - poster
+    title: 'RGZM-Meta-Index: A central Linked Data Hub for aligning distributed databases'
+    creators:
+    - name: Florian Thiery
+    - name: Alalrd Mees
+    - name: Guido Heinz
+    doi: 10.5281/zenodo.2222237
+    language: en
+    event:
+      name: Linked Pasts IV
+      start: '2018-12-12'
+      end: '2018-12-12'
+      location: Mainz, Germany
+      place: mainz-germany
+      online: false
+    from: pub/poster.md#L31

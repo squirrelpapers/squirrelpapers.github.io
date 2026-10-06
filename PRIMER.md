@@ -44,7 +44,7 @@ Teil B und Beschlusslage in A4 werden am Ende jedes Chats nachgeführt.
    gewollte Zitierform: `pages = {7(5), 𝒬1}` bzw. `{λ5}` — das Sigel ist Teil
    der Zitation, nicht Dekoration.
 4. **Umfang.** 8 Volumes, 4–7 Issues je Volume, grob 200 Entries (Zählung per
-   Regex, unterzählt Vol 1–2), **178 verschiedene Zenodo-DOIs**. Nicht jede
+   Regex, unterzählt Vol 1–2), **178 verschiedene Zenodo-DOIs** (korrigiert 2026-10-06 in S2: 179 — `zenodo..5647827` hatte der erste Regex übersehen). Nicht jede
    Entry hat eine DOI: z. B. Vol 6, Issue 1, #1 verweist auf eine Datei auf
    Wikimedia Commons.
 5. **Typ-Label sind Handarbeit.** 20+ Varianten, darunter Synonyme
@@ -165,6 +165,14 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Schritte außerhalb des Standardlaufs | `migrate` (einmalig, überschreibt `content/`) und `harvest` (Netz) laufen nur mit `--only`; Standardreihenfolge `merge → cite → rdf → validate → map → site → sparql` | 2026-10-06 |
 | Schriften | Keine Webfonts, keine Drittanbieter-Anfrage für Typografie; Systemschrift-Stacks mit `Inter` an erster Stelle (greift, wo installiert) | Vorschlag |
 | Akzentfarbe im Fließtext | Magenta `#c94fa0` hat auf Weiß nur 4,1 : 1 → nur für große Schrift/Deko (`--accent`); Sigel und Akzent in Textgröße hell `#b03686` (5,6 : 1), dunkel Magenta (`--accent-text`) | 2026-10-06 |
+| Vol 2–8 beim Jahreszuschnitt | Bleiben, wie sie sind (Issues und Entries 1:1 aus dem alten Repo) | 2026-10-06 |
+| `pub`-Einträge in Vol 1 | Nach Jahr in die vorhandenen Issues „Conferences <Jahr>" (2019 → i2, 2014 → i3 … 2018 → i7), sortiert nach Datum, Nummern hinter den vorhandenen | 2026-10-06 |
+| Dubletten | DOI-Gleichheit überall = derselbe Datensatz; Titelgleichheit zählt nur innerhalb Vol 1 (gleicher Titel in Vol 4 war ein anderes Werk) | 2026-10-06 |
+| Link-Text ≠ Link-Ziel bei einer DOI | Sichtbarer Text gewinnt (Vol 7(3) λ4: Ziel war vom Eintrag darüber kopiert); verworfene DOI steht im Bericht, S3 prüft gegen Zenodo | 2026-10-06 |
+| Einträge ohne DOI und ohne Link | Bleiben im YAML mit `draft: true` (IRI und Nummer bleiben stabil), werden in S5 nicht veröffentlicht | Vorschlag |
+| Leere Issues („TBD") | Bleiben im YAML mit `entries: []` | Vorschlag |
+| `creators` und `types` nach der Migration | Wie in der Quelle geschrieben (`F. Thiery`, `Florian Thiery`, Slugs der Handlabel); Vereinheitlichung erst in S4 über ORCID/Zenodo bzw. SKOS | 2026-10-06 |
+| Erneute Migration | `migrate` verweigert, sobald `content/vol*.yaml` existiert; bewusst neu nur mit `set SQP_FORCE=1`. Bereits eingetragene QIDs in `places.yaml` bleiben erhalten | 2026-10-06 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -210,7 +218,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 |---|---|---|---|---|
 | S0 | Festlegungen: IRI, Sigel, Sprachen, Typen, Primer | — | — | erledigt 2026-10-06 |
 | S1 | Skelett: `main.py`, `sqp_utils.py`, Lizenz, Citation, Stil-Grundlage | dieses | S0 | erledigt 2026-10-06 |
-| S2 | Migration Markdown + `pub` → `content/*.yaml`, Prüfbericht | dieses | S1 | offen |
+| S2 | Migration Markdown + `pub` → `content/*.yaml`, Prüfbericht | dieses | S1 | erledigt 2026-10-06 |
 | S3 | Harvest: Zenodo-Records, Wikidata-Orte/QIDs → `data/raw/` | dieses (läuft bei Flo) | S2 | offen |
 | S4 | Merge + Normalisierung → `data/derived/entries.json`, SKOS-Typen | dieses | S2, S3 | offen |
 | S5 | Seiten EN/DE: Journal, Volume, Issue, Entry, About, Impressum, Datenschutz; PDF-iframe | dieses | S4 | offen |
@@ -334,6 +342,61 @@ issues:
 ⊆ DOI-Menge neu (Skript prüft, Ausnahme = leere Liste); jede Zeile, die der
 Parser nicht zuordnen konnte, ist im Bericht aufgeführt.
 
+### Erledigt 2026-10-06
+
+**Was entstanden ist.** `py/migrate_parsers.py` (reine Parser, keine
+Dateizugriffe) und `py/step_migrate.py`. Quellen als Snapshot unter
+`data/raw/volumes-md/` (Commit `d00e0b7`, 2026-04-18) und `data/raw/pub/`
+(Commit `ac66360`, 2022-06-16), je mit `SOURCE.yaml`. Ergebnis:
+`content/vol1.yaml` … `vol8.yaml`, `content/places.yaml`,
+`dist/reports/migration.md`.
+
+**Zahlen** (aus dem Bericht):
+
+| Vol | Issues | Entries | davon draft | DOIs |
+|---|---|---|---|---|
+| 1 | 7 | 41 | 0 | 41 |
+| 2 | 3 | 5 | 0 | 5 |
+| 3 | 4 | 18 | 0 | 17 |
+| 4 | 4 | 31 | 10 | 20 |
+| 5 | 6 | 26 | 0 | 24 |
+| 6 | 5 | 52 | 5 | 45 |
+| 7 | 5 | 47 | 0 | 44 |
+| 8 | 6 | 23 | 5 | 14 |
+| **Σ** | 40 | 243 | 20 | 212 |
+
+Aus `pub` (≤ 2019): 37 Einträge gelesen, 32 neu in Vol 1, 5 mit vorhandenen
+Vol-1-Einträgen zusammengeführt (Sprache, Datum, Ort ergänzt).
+**DOI-Prüfung:** 179 Zenodo-DOIs stehen per Regex (unabhängig vom Parser) in den
+alten Volumes, 0 gehen verloren; 2 bewusst verworfene Link-Ziele siehe unten.
+54 Präsenzorte in `places.yaml`, alle noch ohne QID.
+
+**Befunde an den Quellen** (geprüft 2026-10-06; alle mit Zeilennummer im Bericht):
+
+- *Gleiche DOI bei zwei Einträgen* — 3(1) #4/#12 (`5642976`), 5(3) #6/5(5) #4
+  (`10260778`), 8(1) §1/§4 (`18441772`). Vermutlich je ein Kopierfehler.
+- *Link-Text ≠ Link-Ziel* — 7(3) λ4 (Text `14898291`, Ziel `14886032` = λ3)
+  und `pub` 2017 „Avalanches on Atlantis" (Text `817469`, Ziel `817496`).
+- *Platzhalter-DOIs* — `zenodo.xyz`, `zenodo.TBD`, „DOI TBD": 12 Stellen,
+  daraus 20 `draft`-Einträge (10 in Vol 4, 5 in Vol 6 = UK-Ireland DH 2024,
+  5 in Vol 8 = FDO-Issue ohne Angaben).
+- *Gleicher Titel, andere DOI* — „Linking potter, pots and places" (Vol 1(3)
+  #1 `775019`, `pub` `292975`): als `related_dois` behalten. „Taming
+  Ambiguity" (CAA-Talk 2018 `1200111` vs. Preprint 2022 in Vol 4(4) #2
+  `7361759`): zwei Werke, beide behalten.
+- *Kleinkram* — `zenodo..5647827` (repariert), Autorzeilen ohne
+  Spiegelstrich (Vol 4, 2×), ein ORCID ohne Namen (Vol 1(7) #2, aus anderen
+  Einträgen ergänzt), „Alalrd Mees" in `pub`, Herausgeber in
+  `vol7/bibtex.md` einmal als „Paul, Groth", ein Datum „26.04.2024 /
+  14.02.2024" (Vol 7(4) λ2) nicht auswertbar.
+- *Länder in `pub`* falsch oder deutsch („Bordeaux, Germany", „Barcelona,
+  Spanien") — bleiben als Text, die QID in `places.yaml` macht sie eindeutig.
+- *39 Einträge ohne Typ* (Dialekt 1, Vol 1–4) — S4 holt den Typ aus Zenodo.
+
+**Anders als geplant.** Die Abnahme „DOI-Menge alt ⊆ neu" prüfte zuerst gegen
+die eigene Parser-Ausgabe; das hätte einen Parserfehler nicht bemerkt. Jetzt
+zählt ein unabhängiger Regex über die Rohdateien.
+
 ## S3 — Harvest
 
 **Ziel:** Für jede DOI liegt die Zenodo-Record-JSON unter
@@ -456,9 +519,12 @@ auf die neuen IRIs (P856 / P953 o. ä.).
    kein Jurist — der Text ist von Flo zu verantworten.
 2. **Hintergrundgrafik der alten Seite** (Netzwerk-Muster). Hochladen oder
    als SVG neu zeichnen?
-3. **Vol 2–8 Jahreszuschnitt prüfen**: die bestehenden Volumes sind schon je
-   Jahr; gibt es Entries, die beim Jahr umziehen müssen?
+3. ~~Vol 2–8 Jahreszuschnitt prüfen~~ → entschieden 2026-10-06: bleibt (A4).
 4. **Neue Entries ab jetzt**: nur YAML von Hand, oder zusätzlich
    `python main.py add <doi>` als Komfort?
-5. **DOI für Volumes/Issues** (Zenodo-Communities oder eigene Records)? Würde
+5. **Review-Liste aus S2** (`dist/reports/migration.md`): die drei doppelten
+   DOIs und die zwei Link-Text/Ziel-Fälle klären (S3 liefert die Zenodo-Titel
+   dazu); die 20 `draft`-Einträge behalten, ergänzen oder streichen;
+   54 Orte mit QIDs versehen (S3 kann Vorschläge per Wikidata-Suche machen).
+6. **DOI für Volumes/Issues** (Zenodo-Communities oder eigene Records)? Würde
    die Zitierfähigkeit der Issues verbessern.

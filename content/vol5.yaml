@@ -1,0 +1,403 @@
+# Squirrel Papers - Volume 5
+#
+# Source of truth for this volume (PRIMER A3). Edit here, never in docs/.
+# Migrated in S2 from squirrelpapers-volumes @ d00e0b7; see
+# dist/reports/migration.md for what needed attention.
+#
+# Entry IRI: https://w3id.org/squirrelpapers/v<volume>/i<issue>/e<n>
+# Citation:  <volume>(<issue>), <sigil><n>
+# `types` are slugs of the old labels; S4 maps them onto the SKOS scheme.
+# `creators` are written as they appeared; S4 aligns them with Zenodo/ORCID.
+
+volume: 5
+year: 2023
+wikidata: Q116234611
+issues:
+- issue: 1
+  sigil: '#'
+  special: false
+  wikidata: Q116235591
+  entries:
+  - n: 1
+    types:
+    - book
+    title: Irish Ogham Stones in Wikidata and Open Street Map
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: P. Thiery
+      orcid: 0000-0003-3270-2659
+    doi: 10.5281/zenodo.7558880
+    from: volumes-md/vol5/index.md#L21
+  - n: 2
+    types:
+    - working-paper
+    title: Alligator Method
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.7624870
+    from: volumes-md/vol5/index.md#L25
+  - n: 3
+    types:
+    - book-section
+    title: Irische ᚑᚌᚆᚐᚋ Steine in OSM und Wikidata
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    et_al: true
+    doi: 10.5281/zenodo.7870480
+    from: volumes-md/vol5/index.md#L29
+  - n: 4
+    types:
+    - journal-article
+    title: Modelling of Uncertainty in Geo Sciences Sites
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+      orcid: 0009-0008-2877-3204
+    doi: 10.5281/zenodo.10255259
+    from: volumes-md/vol5/index.md#L33
+  - n: 5
+    types:
+    - journal-article
+    title: How to locate the Campanian Ignimbrite site Urluia based on literature? How to provide and
+      publish this data in a FAIR way?
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+      orcid: 0009-0008-2877-3204
+    doi: 10.5281/zenodo.10262720
+    from: volumes-md/vol5/index.md#L37
+  - n: 6
+    types:
+    - journal-article
+    title: 'Dealing with doubts: Site georeferencing in archaeology and in the geosciences'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+      orcid: 0009-0008-2877-3204
+    - name: S. Baars
+      orcid: 0000-0003-1100-6494
+    doi: 10.5281/zenodo.10291889
+    from: volumes-md/vol5/index.md#L41
+- issue: 2
+  sigil: '#'
+  title:
+    en: Special Issue on data and software
+  special: true
+  wikidata: Q116234584
+  entries:
+  - n: 1
+    types:
+    - data
+    title: 'Ogham Stone Maps: Squirrel Stones in Ireland'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.7544117
+    wikidata: Q116235655
+    from: volumes-md/vol5/index.md#L49
+  - n: 2
+    types:
+    - data
+    title: Campanian Ignimbrite Geo Locations
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+      orcid: 0009-0008-2877-3204
+    doi: 10.5281/zenodo.10361309
+    from: volumes-md/vol5/index.md#L54
+  - n: 3
+    types:
+    - data
+    title: Fuzzy Spatial Locations Ontology
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.10362777
+    from: volumes-md/vol5/index.md#L58
+  - n: 4
+    types:
+    - data
+    title: Croton Geo Locations
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: S. Baars
+      orcid: 0000-0003-1100-6494
+    doi: 10.5281/zenodo.10369624
+    from: volumes-md/vol5/index.md#L62
+  - n: 5
+    types:
+    - software
+    title: SPARQL Unicorn Ontology Documentation
+    creators:
+    - name: T. Homburg
+      orcid: 0000-0002-9499-5840
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.8190763
+    from: volumes-md/vol5/index.md#L66
+- issue: 3
+  sigil: '#'
+  title:
+    en: Special Issue on conferences and talks
+  special: true
+  wikidata: Q116235599
+  entries:
+  - n: 1
+    types:
+    - presentation
+    title: Wikidata as a Knowledge Base and Research Tool for Open Science in Archaeology
+    creators:
+    - name: S.C. Schmidt
+      orcid: 0000-0003-4696-2101
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.7617764
+    from: volumes-md/vol5/index.md#L74
+  - n: 2
+    types:
+    - presentation
+    title: LEIZA-Forschungsdaten in der großen weiten Welt der Citizen Science
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.7629765
+    from: volumes-md/vol5/index.md#L78
+  - n: 3
+    types:
+    - presentation
+    title: Kleinfund-Dokumentation mit der Hilfe von Semantik
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.7629861
+    event:
+      name: Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel
+        römischer Tonlampen bei PD Dr. Matthias Grawehr
+      location: Johannes Gutenberg Universität Mainz, Fachbereich 07, Klassische Archäologie
+      place: johannes-gutenberg-universitat-mainz
+      online: false
+    from: volumes-md/vol5/index.md#L82
+  - n: 4
+    types:
+    - presentation
+    title: Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.8089448
+    event:
+      name: 35th International Geodetic Student Meeting
+      start: '2023-07-02'
+      end: '2023-07-08'
+      location: Polytechnic University of Valencia (Universitat Politècnica de València, UPV)
+      place: polytechnic-university-of-valencia-universitat
+      online: false
+    from: volumes-md/vol5/index.md#L88
+  - n: 5
+    types:
+    - presentation
+    title: Umgang mit Unsicherheiten und Vagheiten bei der Georeferenzierung von Geo-Locations in der
+      Archäologie und in den Geowissenschaften
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: S. Baars
+      orcid: 0000-0003-1100-6494
+    - name: F. Schenk
+      orcid: 0009-0008-2877-3204
+    doi: 10.5281/zenodo.8334767
+    event:
+      name: CAA-DE Workshop
+      start: '2023-09-14'
+      end: '2023-09-15'
+      session: Neue Wege bei der Analyse archäologischer Daten
+      location: Toscana-Saal der Residenz Würzburg
+      place: toscana-saal-der-residenz-wurzburg
+      online: false
+    from: volumes-md/vol5/index.md#L94
+  - n: 6
+    types:
+    - presentation
+    title: Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological
+      Domain
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+      orcid: 0009-0008-2877-3204
+    - name: S. Baars
+      orcid: 0000-0003-1100-6494
+    doi: 10.5281/zenodo.10260778
+    event:
+      name: ARCHAEO.FOSS XVII 2023
+      start: '2023-12-12'
+      end: '2023-12-13'
+      session: 'Panel Session 3: The Roadmap to Cooperation and Transparency: Fostering Open Science Solutions
+        in Archaeology'
+      location: Università di Torino, Italy
+      place: universita-di-torino-italy
+      online: false
+    from: volumes-md/vol5/index.md#L101
+- issue: 4
+  sigil: '#'
+  title:
+    en: Special Issue on GrapHNR 2023 related topics
+  special: true
+  entries:
+  - n: 1
+    types:
+    - abstract
+    title: 'Dating “dated sites”: Using Correspondence Analysis to handle relative chronologies as graphs.'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.7915197
+    from: volumes-md/vol5/index.md#L112
+  - n: 2
+    types:
+    - abstract
+    title: 'Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.7915364
+    from: volumes-md/vol5/index.md#L116
+  - n: 3
+    types:
+    - presentation
+    title: Dating Dated Sites - Using Correspondence Analysis to handle Chronologies as Graphs.
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.8154700
+    from: volumes-md/vol5/index.md#L120
+  - n: 4
+    types:
+    - poster
+    title: 'Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.8154844
+    contributors:
+    - name: P. Thiery
+      orcid: 0000-0003-3270-2659
+    from: volumes-md/vol5/index.md#L124
+- issue: 5
+  sigil: '#'
+  title:
+    en: Special Issue on NFDI related topics
+  special: true
+  entries:
+  - n: 1
+    types:
+    - presentation
+    title: Object-Related Research Data Workflows Within NFDI4Objects and Beyond
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.8333763
+    event:
+      name: CAA-DE Workshop
+      start: '2023-09-14'
+      end: '2023-09-15'
+      session: TBD
+      location: Toscana-Saal der Residenz Würzburg
+      place: toscana-saal-der-residenz-wurzburg
+      online: false
+    from: volumes-md/vol5/index.md#L133
+  - n: 2
+    types:
+    - presentation
+    title: FAIRifizierung mit Citizen Science? Herausforderungen bei der Integration von archäologischen
+      Daten in das Wikiversum und Open Street Map
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: S. Baars
+      orcid: 0000-0003-1100-6494
+    doi: 10.5281/zenodo.8334735
+    event:
+      name: CAA-DE Workshop
+      start: '2023-09-14'
+      end: '2023-09-15'
+      session: TBD
+      location: Toscana-Saal der Residenz Würzburg
+      place: toscana-saal-der-residenz-wurzburg
+      online: false
+    from: volumes-md/vol5/index.md#L140
+  - n: 3
+    types:
+    - presentation
+    title: Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological
+      Domain
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.10114894
+    event:
+      name: ClaReNet Final Workshop
+      start: '2023-11-14'
+      end: '2023-11-16'
+      session: Representation
+      location: RGK, Frankfurt am Mainz
+      place: rgk-frankfurt-am-mainz
+      online: false
+    from: volumes-md/vol5/index.md#L147
+  - n: 4
+    types:
+    - presentation
+    title: Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological
+      Domain
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.10260778
+    event:
+      name: ARCHAEO.FOSS XVII 2023
+      start: '2023-12-12'
+      end: '2023-12-13'
+      session: 'Panel Session 1: Tools, objectives, users: state of art and future perspectives on the
+        sharing of open data in archaeology'
+      location: Università di Torino, Italy
+      place: universita-di-torino-italy
+      online: false
+    from: volumes-md/vol5/index.md#L154
+- issue: 6
+  sigil: '#'
+  title:
+    en: Special Issue on GitHub Releases
+  special: true
+  entries:
+  - n: 1
+    types:
+    - data
+    title: archaeolink-lod / ars
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    release_label: '@v0.1/20231212'
+    links:
+      repository: https://github.com/archaeolink-lod/ars
+      release: https://github.com/archaeolink-lod/ars/releases/tag/v0.1
+    from: volumes-md/vol5/index.md#L165

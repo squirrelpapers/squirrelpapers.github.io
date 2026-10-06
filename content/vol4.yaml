@@ -1,0 +1,334 @@
+# Squirrel Papers - Volume 4
+#
+# Source of truth for this volume (PRIMER A3). Edit here, never in docs/.
+# Migrated in S2 from squirrelpapers-volumes @ d00e0b7; see
+# dist/reports/migration.md for what needed attention.
+#
+# Entry IRI: https://w3id.org/squirrelpapers/v<volume>/i<issue>/e<n>
+# Citation:  <volume>(<issue>), <sigil><n>
+# `types` are slugs of the old labels; S4 maps them onto the SKOS scheme.
+# `creators` are written as they appeared; S4 aligns them with Zenodo/ORCID.
+
+volume: 4
+year: 2022
+wikidata: Q114568632
+issues:
+- issue: 1
+  sigil: '#'
+  special: false
+  wikidata: Q114568638
+  entries:
+  - n: 1
+    types: []
+    title: African Red Slip Ware - Additional Iconography Catalogue
+    creators:
+    - name: Florian Thiery
+    doi: 10.5281/zenodo.6386603
+    wikidata: Q111370392
+    from: volumes-md/vol4/index.md#L15
+  - n: 2
+    types: []
+    title: How to handle vagueness and uncertainty in graph-based LOD knowledge modelling? Dealing with
+      archaeological numismatic and ceramological real world data.
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    - name: K. Tolle
+    - name: D.G. Wolf
+    draft: true
+    from: volumes-md/vol4/index.md#L20
+  - n: 3
+    types: []
+    title: Master-Thesis alt
+    draft: true
+    from: volumes-md/vol4/index.md#L24
+  - n: 4
+    types: []
+    title: Master-Thesis new
+    draft: true
+    from: volumes-md/vol4/index.md#L26
+  - n: 5
+    types: []
+    title: Software Review for the Software PointSamplingTool (Archäologische Informationen 44, Early
+      View, published online 18 Nov 2022)
+    creators:
+    - name: Thiery, F.
+    - name: Homburg, T.
+    - name: Klammt, A.
+    - name: Schmidt, S.C.
+    doi: 10.5281/zenodo.7337817
+    from: volumes-md/vol4/index.md#L28
+  - n: 6
+    types:
+    - report
+    title: Fellow-Programm Freies Wissen 2016 - 2021
+    creators:
+    - name: S. Behrens
+    - name: C. Schwarzkopf
+    - name: A-K. Gödeke
+    - name: D. Scholl
+    - name: N. Schneider
+    doi: 10.5281/zenodo.5788378
+    from: volumes-md/vol4/index.md#L32
+- issue: 2
+  sigil: '#'
+  title:
+    en: Special Issue on Data & Software
+  special: true
+  wikidata: Q114568679
+  entries:
+  - n: 1
+    types: []
+    title: Ceramic Typologies Ontology (CeraTyOnt) - Version v0.2
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    doi: 10.5281/zenodo.7143098
+    from: volumes-md/vol4/index.md#L38
+  - n: 2
+    types: []
+    title: CeraTyOnt @ AMT - Version v1.0
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    doi: 10.5281/zenodo.7143094
+    from: volumes-md/vol4/index.md#L42
+  - n: 3
+    types: []
+    title: 'Linked Pipe: Linked Open Samian Ware'
+    creators:
+    - name: F. Thiery
+    - name: T. Homburg
+    - name: M. Trognitz
+    doi: 10.5281/zenodo.5779053
+    from: volumes-md/vol4/index.md#L46
+  - n: 4
+    types:
+    - data
+    title: NAVIS.one Maritime Thesaurus
+    creators:
+    - name: F. Thiery
+    - name: A. W. Mees
+    doi: 10.5281/zenodo.7353771
+    from: volumes-md/vol4/index.md#L50
+  - n: 5
+    types:
+    - software
+    title: alligator - Allen Transformer
+    creators:
+    - name: F. Thiery
+    - name: A. W. Mees
+    doi: 10.5281/zenodo.2540709
+    from: volumes-md/vol4/index.md#L54
+  - n: 6
+    types:
+    - ontology
+    title: Linked Archaeological Data Ontology
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.7377740
+    version: '1.0'
+    release_label: '@v1.0'
+    links:
+      repository: https://github.com/archaeolink/lado/
+      release: https://github.com/archaeolink/lado/releases/tag/v1.0
+    from: volumes-md/vol4/index.md#L58
+- issue: 3
+  sigil: '#'
+  title:
+    en: Special Issue on Conferences
+  special: true
+  wikidata: Q114568721
+  entries:
+  - n: 1
+    types: []
+    title: 'How to navigate the coding archaeology world: An introduction to scientific co-creation using
+      Git and Github'
+    creators:
+    - name: C. Schmid
+    - name: S.C. Schmidt
+    - name: F. Thiery
+    links:
+      link: https://github.com/sslarch/caa2022_GitGitHub_workshop
+    from: volumes-md/vol4/index.md#L67
+  - n: 2
+    types: []
+    title: Linked Pipes @ CAA SIG SSLA Meeting
+    creators:
+    - name: F. Thiery
+    - name: T. Homburg
+    draft: true
+    from: volumes-md/vol4/index.md#L71
+  - n: 3
+    types: []
+    title: Linked Pipes @ Pelagios Network Annotation Activity Meeting
+    creators:
+    - name: F. Thiery
+    - name: T. Homburg
+    draft: true
+    from: volumes-md/vol4/index.md#L75
+  - n: 4
+    types: []
+    title: 'ARS3D: Close to the Original-Erfassung archäologischer Objekte und ihre webbasierte semantisch
+      modellierte Bereitstellung zur fachwissenschaftlichen Analyse'
+    creators:
+    - name: F. Thiery
+    - name: L. Raddatz
+    - name: F. Boochs
+    doi: 10.5281/zenodo.5942833
+    from: volumes-md/vol4/index.md#L79
+  - n: 5
+    types: []
+    title: Problem stories concerning thesaurus building and using controlled vocabularies. Examples from
+      the RGZM Department of Scientific IT
+    creators:
+    - name: A.W. Mees
+    - name: F. Thiery
+    draft: true
+    from: volumes-md/vol4/index.md#L83
+  - n: 6
+    types: []
+    title: How to handle vagueness and uncertainty in graph-based LOD knowledge modelling? Dealing with
+      archaeological numismatic and ceramological real world data.
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    - name: K. Tolle
+    - name: D.G. Wigg-Wolf
+    doi: 10.5281/zenodo.6043048
+    from: volumes-md/vol4/index.md#L87
+  - n: 7
+    types: []
+    title: Challenges & Opportunities from real world archaeological datasets in the community-driven
+      LOD ecosystem
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    - name: D.G. Wigg-Wolf
+    doi: 10.5281/zenodo.6976136
+    from: volumes-md/vol4/index.md#L91
+  - n: 8
+    types: []
+    title: 'Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman
+      Limes and Hadrian''s Wall relative time intervals based on Samian (Terra Sigillata)'
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    - name: S.C. Schmidt
+    doi: 10.5281/zenodo.6976175
+    from: volumes-md/vol4/index.md#L95
+  - n: 9
+    types: []
+    title: 'Linked Pipes: A Little Minion for reproducible research'
+    creators:
+    - name: F. Thiery
+    - name: T. Homburg
+    doi: 10.5281/zenodo.6976311
+    from: volumes-md/vol4/index.md#L99
+  - n: 10
+    types: []
+    title: 'Collaborative Writing: Using GitHub as a tool for collaborative writing and community building?'
+    creators:
+    - name: F. Thiery
+    - name: S.C. Schmidt
+    draft: true
+    from: volumes-md/vol4/index.md#L103
+  - n: 11
+    types: []
+    title: Hic sunt dracones - Real-world data-driven knowledge modelling resulting in Semantics and FAIR-LOD
+      based tools and workflows
+    creators:
+    - name: F. Thiery
+    - name: B. Danthine
+    - name: N. High-Steskal
+    - name: V. Vitale
+    - name: A.W. Mees
+    - name: K. Tolle
+    - name: D.G. Wigg-Wolf
+    doi: 10.5281/zenodo.6976193
+    from: volumes-md/vol4/index.md#L106
+  - n: 12
+    types: []
+    title: 'Little Minions: Our little minions IV: small tools with major impact'
+    creators:
+    - name: F. Thiery
+    - name: M. Mennenga
+    - name: R. Visser
+    - name: B. Danthine
+    draft: true
+    from: volumes-md/vol4/index.md#L110
+  - n: 13
+    types: []
+    title: Workflows and experiences on collaborative working and community building using digital tools
+    creators:
+    - name: M. Hinz
+    - name: S.C. Schmidt
+    - name: F. Thiery
+    draft: true
+    from: volumes-md/vol4/index.md#L114
+  - n: 14
+    types: []
+    title: 'Challenges in research community building: integrating Terra Sigillata (Samian) Research into
+      the Wikidata community'
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    - name: J.B. Kiesling
+    doi: 10.5281/zenodo.7105005
+    from: volumes-md/vol4/index.md#L118
+  - n: 15
+    types: []
+    title: 'NAVIS.one: Challenges and Opportunities for RSE and RDM by designing a common web application
+      from a 1990s online database'
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    doi: 10.5281/zenodo.7142170
+    from: volumes-md/vol4/index.md#L122
+  - n: 16
+    types: []
+    title: Typologie-Handling zur Dokumentation mit Hilfe künstlicher Intelligenz
+    creators:
+    - name: F. Thiery
+    - name: A.W. Mees
+    doi: 10.5281/zenodo.7179955
+    from: volumes-md/vol4/index.md#L126
+  - n: 17
+    types: []
+    title: Daten schaffen Daten! Quellcode sind auch Forschungsdaten!
+    creators:
+    - name: F. Thiery
+    - name: L. Linde
+    draft: true
+    from: volumes-md/vol4/index.md#L130
+- issue: 4
+  sigil: '#'
+  title:
+    en: Special Issue on Preprints
+  special: true
+  entries:
+  - n: 1
+    types:
+    - preprint
+    title: Semantic modelling and publishing African Red Slip Ware as Linked Data
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A. Karmacharya
+      orcid: 0000-0003-2822-7648
+    - name: L. Rokohl
+      orcid: 0000-0003-1631-9115
+    doi: 10.5281/zenodo.7361811
+    from: volumes-md/vol4/index.md#L136
+  - n: 2
+    types:
+    - preprint
+    title: Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.7361759
+    from: volumes-md/vol4/index.md#L140

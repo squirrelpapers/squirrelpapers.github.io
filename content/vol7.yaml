@@ -1,0 +1,1086 @@
+# Squirrel Papers - Volume 7
+#
+# Source of truth for this volume (PRIMER A3). Edit here, never in docs/.
+# Migrated in S2 from squirrelpapers-volumes @ d00e0b7; see
+# dist/reports/migration.md for what needed attention.
+#
+# Entry IRI: https://w3id.org/squirrelpapers/v<volume>/i<issue>/e<n>
+# Citation:  <volume>(<issue>), <sigil><n>
+# `types` are slugs of the old labels; S4 maps them onto the SKOS scheme.
+# `creators` are written as they appeared; S4 aligns them with Zenodo/ORCID.
+
+volume: 7
+year: 2025
+issues:
+- issue: 1
+  sigil: λ
+  special: false
+  entries:
+  - n: 1
+    types:
+    - presentation
+    title: 'Fuzzyness & Wobbliness in Geodaten: Linked Open Data und Wikibase in der Praxis'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14707872
+    event:
+      name: Workshop Vagheiten und Unsicherheiten in Provenienzdaten
+      start: '2025-01-23'
+      end: '2025-01-23'
+      location: Online
+      online: true
+    from: volumes-md/vol7/index.md#L21
+  - n: 2
+    types:
+    - working-paper
+    title: 'The Modelling Trinity: Space, Time and Actor'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: M. thor Straten
+    doi: 10.5281/zenodo.15039154
+    from: volumes-md/vol7/index.md#L27
+  - n: 3
+    types:
+    - presentation
+    title: 'LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries
+      and visualisations for archaeological data'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.15074382
+    event:
+      name: 'Text+ Show and Tell: Tools, Dienste, Projekte'
+      start: '2025-03-27'
+      end: '2025-03-27'
+      location: Online
+      online: true
+    from: volumes-md/vol7/index.md#L31
+  - n: 4
+    types:
+    - presentation
+    title: Inschriften und der “Knowledge Graph … wie CIDOC-CRM als Referenzmodell fungiert …
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+    doi: 10.5281/zenodo.15310723
+    event:
+      name: Workshop Objekt - Text - Bild
+      start: '2025-04-28'
+      end: '2025-04-28'
+      location: Online
+      online: true
+    from: volumes-md/vol7/index.md#L37
+  - n: 5
+    types:
+    - presentation
+    title: 'LOD Objects in Action II: SPARQLing Unicorn Research Toolkit: Integrating geospatial LOD SPARQL
+      queries for visualisations in QGIS'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.15401536
+    event:
+      name: 'Text+ Show and Tell: Tools, Dienste, Projekte'
+      start: '2025-05-15'
+      end: '2025-05-15'
+      location: Online
+      online: true
+    from: volumes-md/vol7/index.md#L43
+  - n: 6
+    types:
+    - presentation
+    title: 'LOD Objects in Action III: TEI/EpiDoc Ogham Data - How to integrate TEI data into the NFDI
+      Knowledge Graph Ecosystem'
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.16353592
+    event:
+      name: 'Text+ Show and Tell: Tools, Dienste, Projekte'
+      start: '2025-07-23'
+      end: '2025-07-23'
+      location: Online
+      online: true
+    from: volumes-md/vol7/index.md#L49
+- issue: 2
+  sigil: λ
+  title:
+    en: Special Issue on data and software
+  special: true
+  entries:
+  - n: 1
+    types:
+    - software
+    title: SPARQLing Unicorn QGIS Plugin
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: T. Homburg
+      orcid: 0000-0002-9499-5840
+    doi: 10.5281/zenodo.14874994
+    version: 0.17.2
+    release_label: '@v0.17.2'
+    links:
+      repository: https://github.com/sparqlunicorn/sparqlunicornGoesGIS
+      release: https://github.com/sparqlunicorn/sparqlunicornGoesGIS/releases/tag/v0.17.2
+    from: volumes-md/vol7/index.md#L59
+  - n: 2
+    types:
+    - data
+    title: GrapHNR2023 - Supplementary Material
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.14906708
+    version: '1.0'
+    release_label: '@v1.0'
+    links:
+      repository: https://github.com/leiza-scit/GrapHNR-2023-supplementary-material
+      release: '[TODO](https://github.com/leiza-scit/GrapHNR-2023-supplementary-material/tree/v1.0'
+    from: volumes-md/vol7/index.md#L66
+  - n: 3
+    types:
+    - data
+    title: Linked Archaeological Data Ontology (LADO) - v1.1
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.W. Mees
+      orcid: 0000-0002-7634-5342
+    doi: 10.5281/zenodo.15477358
+    version: '1.1'
+    release_label: '@v1.1'
+    links:
+      repository: https://github.com/archaeolink/lado/
+      release: https://github.com/archaeolink/lado/releases/tag/v1.1
+    from: volumes-md/vol7/index.md#L73
+  - n: 4
+    types:
+    - data
+    title: Archaeo-Natural Ontology (ArNO) - v0.1
+    creators:
+    - name: thor Straten, Mattis
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.15095413
+    version: '0.1'
+    release_label: '@v0.1'
+    links:
+      repository: https://github.com/archaeonatural-cloud/archaeonatural-ontology
+      release: https://github.com/archaeonatural-cloud/archaeonatural-ontology/tree/v0.1
+    from: volumes-md/vol7/index.md#L80
+  - n: 5
+    types:
+    - data
+    title: FAIRyland
+    creators:
+    - name: F. Thiery
+    - name: B. Danthine
+    - name: N. Alpino
+    version: '0.1'
+    links:
+      repository: https://github.com/Research-Squirrel-Engineers/FAIRyland
+    from: volumes-md/vol7/index.md#L87
+  - n: 6
+    types:
+    - software
+    title: osm2lod
+    creators:
+    - name: F. Thiery
+    version: '0.1'
+    links:
+      repository: https://github.com/Research-Squirrel-Engineers/osm2lod/
+    from: volumes-md/vol7/index.md#L92
+- issue: 3
+  sigil: λ
+  title:
+    en: Special Issue on conferences and talks
+  special: true
+  entries:
+  - n: 1
+    types:
+    - presentation
+    - conference-paper
+    title: FAIRes Kulturerbe mit dem Smartphone und SfM? Wie man das durch Smartphone Apps, Open Source
+      Tools und semantische Annotation im Wikiversum und OSM erreichen kann
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A.-K. Distel
+    - name: P. Thiery
+    doi: 10.5281/zenodo.14789260
+    event:
+      name: Oldenburger 3D-Tage
+      start: '2025-02-04'
+      end: '2025-02-05'
+      session: Kulturerbe
+      location: Jade-Hoschschule, Oldenburg
+      place: jade-hoschschule-oldenburg
+      online: false
+    from: volumes-md/vol7/index.md#L101
+  - n: 2
+    types:
+    - presentation
+    - conference-paper
+    title: Low-Cost 3D-Digitalisierung mit SfM in Smartphone Apps. 3D-Modelle zum Mitnehmen und Open Data
+      Publikation mit dem Wikiversum und OSM
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+    - name: P. Thiery
+    - name: S. Thiery
+    doi: 10.5281/zenodo.14789264
+    event:
+      name: Oldenburger 3D-Tage
+      start: '2025-02-04'
+      end: '2025-02-05'
+      session: Low-Cost
+      location: Jade-Hoschschule, Oldenburg
+      place: jade-hoschschule-oldenburg
+      online: false
+    from: volumes-md/vol7/index.md#L108
+  - n: 3
+    types:
+    - poster
+    - conference-paper
+    title: Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT)
+      coded from Humanities and Geosciences
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: T. Homburg
+    - name: F. Schenk
+    doi: 10.5281/zenodo.14886032
+    event:
+      name: deRSE25
+      start: '2025-02-25'
+      end: '2025-02-27'
+      session: Poster and Demo Session together with Reception
+      location: KIT, Karlsruhe
+      place: kit-karlsruhe
+      online: false
+    from: volumes-md/vol7/index.md#L115
+  - n: 4
+    types:
+    - poster
+    - conference-paper
+    title: 'Keeping it REAL: Sustainability Challenges for Research Software in Computational Archaeology'
+    creators:
+    - name: L. K. Schubert
+      orcid: 0000-0003-4889-9353
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14898291
+    event:
+      name: deRSE25
+      start: '2025-02-25'
+      end: '2025-02-27'
+      session: Poster and Demo Session together with Reception
+      location: KIT, Karlsruhe
+      place: kit-karlsruhe
+      online: false
+    from: volumes-md/vol7/index.md#L122
+  - n: 5
+    types:
+    - poster
+    - conference-paper
+    title: Research Software Engineering in the NFDI (INFRA-WG-RSE)
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: B. Flemisch
+    doi: 10.5281/zenodo.14898391
+    event:
+      name: deRSE25
+      start: '2025-02-25'
+      end: '2025-02-27'
+      session: Poster and Demo Session together with Reception
+      location: KIT, Karlsruhe
+      place: kit-karlsruhe
+      online: false
+    from: volumes-md/vol7/index.md#L129
+  - n: 6
+    types:
+    - presentation
+    - conference-paper
+    title: Research Squirrel Engineers How an independent RSE-driven network may help the NFDI
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14914287
+    event:
+      name: deRSE25
+      start: '2025-02-25'
+      end: '2025-02-27'
+      session: Nation-wide networks of RSEs
+      location: KIT, Karlsruhe
+      place: kit-karlsruhe
+      online: false
+    from: volumes-md/vol7/index.md#L136
+  - n: 7
+    types:
+    - presentation
+    - conference-paper
+    title: Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L.K. Schubert
+    doi: 10.5281/zenodo.14914309
+    event:
+      name: deRSE25
+      start: '2025-02-25'
+      end: '2025-02-27'
+      session: Visualization with Research Software
+      location: KIT, Karlsruhe
+      place: kit-karlsruhe
+      online: false
+    from: volumes-md/vol7/index.md#L143
+  - n: 8
+    types:
+    - presentation
+    - conference-paper
+    title: How to improve the visibility and added value of RSE(s) in NFDI
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: B. Flemisch
+    - name: J. Bernoth
+    - name: C. Seiwerth
+    - name: J. Linxweiler
+    - name: L. Söhn
+    doi: 10.5281/zenodo.14976365
+    event:
+      name: deRSE25
+      start: '2025-02-25'
+      end: '2025-02-27'
+      session: Meet-Up
+      location: KIT, Karlsruhe
+      place: kit-karlsruhe
+      online: false
+    from: volumes-md/vol7/index.md#L150
+  - n: 9
+    types:
+    - presentation
+    - conference-paper
+    title: Geodesist in the Humanities working with humanities people on Research Software and FAIRification
+      Tools
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.14920034
+    event:
+      name: deRSE25
+      start: '2025-02-25'
+      end: '2025-02-27'
+      session: Meet-Up
+      location: KIT, Karlsruhe
+      place: kit-karlsruhe
+      online: false
+    from: volumes-md/vol7/index.md#L157
+  - n: 10
+    types:
+    - presentation
+    - conference-paper
+    title: Data-Driven Community Standards for Interdisciplinary Heterogeneous Information Networks
+    creators:
+    - name: M. thor Straten
+    - name: S. Strohm
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: M. Renz
+    doi: 10.5281/zenodo.15040308
+    event:
+      name: E-Science-Tage 2025
+      start: '2025-03-12'
+      end: '2025-03-14'
+      session: 'B6: Information Networks'
+      location: Alte Universität Heidelberg
+      place: alte-universitat-heidelberg
+      online: false
+    from: volumes-md/vol7/index.md#L164
+  - n: 11
+    types:
+    - presentation
+    - conference-paper
+    title: 'Taming the Space: Semantic Modelling using Linked Open Data of Fuzzy Wobbling Geospatial Data
+      from the Archaeological and Geosciences domains'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Sophie C. Schmidt
+    - name: Chiara G. M. Girotto
+    - name: Fabian Fricke
+    - name: Fiona Schenk
+    - name: Stefanie Baars
+    - name: Allard W. Mees
+    doi: 10.5281/zenodo.15332813
+    event:
+      name: CAA International
+      start: '2025-05-05'
+      end: '2025-05-09'
+      session: 'S4: Hic sunt dracones! Semantics and archaeological Linked Open Data within the FAIRification
+        process and Research Data Lifecycle along the Object Biography'
+      location: University of West Attica, Athens, Greece
+      place: university-of-west-attica-athens-greece
+      online: false
+    from: volumes-md/vol7/index.md#L171
+  - n: 12
+    types:
+    - presentation
+    - conference-paper
+    title: How do we integrate community data from Wikidata, FactGrid and the fuzzy-sl Wikibase into a
+      cultural heritage knowledge graph? First examples using SPARQL Unicorns, CIDOC CRM and Linked Open
+      Data
+    creators:
+    - name: D. Stefan
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: F. Schenk
+    doi: 10.5281/zenodo.15332827
+    event:
+      name: CAA International
+      start: '2025-05-05'
+      end: '2025-05-09'
+      session: 'S4: Hic sunt dracones! Semantics and archaeological Linked Open Data within the FAIRification
+        process and Research Data Lifecycle along the Object Biography'
+      location: University of West Attica, Athens, Greece
+      place: university-of-west-attica-athens-greece
+      online: false
+    from: volumes-md/vol7/index.md#L178
+  - n: 13
+    types:
+    - presentation
+    - conference-paper
+    title: My Jupyter Python Minion! Jupyter Notebooks to SPARQL query Wikidata and Solid Pods
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.15332866
+    event:
+      name: CAA International
+      start: '2025-05-05'
+      end: '2025-05-09'
+      session: 'S5: Our Little Minions pt. VI: small tools with major impact'
+      location: University of West Attica, Athens, Greece
+      place: university-of-west-attica-athens-greece
+      online: false
+    from: volumes-md/vol7/index.md#L185
+  - n: 14
+    types:
+    - presentation
+    - conference-paper
+    title: A SPARQLing Little Minion? Linked Open Data in Action with the SPARQLing Unicorn QGIS Plugin
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.15332910
+    event:
+      name: CAA International
+      start: '2025-05-05'
+      end: '2025-05-09'
+      session: 'S5: Our Little Minions pt. VI: small tools with major impact'
+      location: University of West Attica, Athens, Greece
+      place: university-of-west-attica-athens-greece
+      online: false
+    from: volumes-md/vol7/index.md#L192
+  - n: 15
+    types:
+    - presentation
+    - conference-paper
+    title: How Squirrels can help to feed Wikidata and the Wikibase Ecosystem - Examples from Wikibases
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.15332927
+    event:
+      name: CAA International
+      start: '2025-05-05'
+      end: '2025-05-09'
+      session: 'S46: Advances in Computational Archaeology (General Session)'
+      location: University of West Attica, Athens, Greece
+      place: university-of-west-attica-athens-greece
+      online: false
+    from: volumes-md/vol7/index.md#L199
+  - n: 16
+    types:
+    - presentation
+    - conference-paper
+    title: Beyond Digital Boundaries - Linked Open Data and Wikidata with OG(H)AM and Holy Wells
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.15667685
+    event:
+      name: UK-Ireland DH Association Annual Event 2025
+      start: '2025-06-17'
+      end: '2025-06-18'
+      session: Session 5B. Cultural Heritage beyond boundaries
+      location: University of Glasgow, Glasgow, United Kingdom (Scotland)
+      place: university-of-glasgow-glasgow-united-kingdom
+      online: false
+    from: volumes-md/vol7/index.md#L206
+  - n: 17
+    types:
+    - presentation
+    - conference-paper
+    title: A Holy Wells Database on Wikidata
+    creators:
+    - name: A.-K. Distel
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.15721469
+    event:
+      name: UK-Ireland DH Association Annual Event 2025
+      start: '2025-06-17'
+      end: '2025-06-18'
+      session: Session 5B. Cultural Heritage beyond boundaries
+      location: University of Glasgow, Glasgow, United Kingdom (Scotland)
+      place: university-of-glasgow-glasgow-united-kingdom
+      online: false
+    from: volumes-md/vol7/index.md#L213
+  - n: 18
+    types:
+    - presentation
+    - conference-paper
+    title: Cultural Heritage beyond boundaries - Open Science and FAIR methods for Ogham and Holy Wells
+      in Ireland and the UK
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: Nora White
+    - name: Megan Kasten
+    - name: A.-K. Distel
+    doi: 10.5281/zenodo.15721553
+    event:
+      name: UK-Ireland DH Association Annual Event 2025
+      start: '2025-06-17'
+      end: '2025-06-18'
+      session: Session 5B. Cultural Heritage beyond boundaries
+      location: University of Glasgow, Glasgow, United Kingdom (Scotland)
+      place: university-of-glasgow-glasgow-united-kingdom
+      online: false
+    links:
+      video: https://youtu.be/j8hxYuqCVm4?si=BO5tWUY2rX2K5PJ2
+    from: volumes-md/vol7/index.md#L220
+  - n: 19
+    types:
+    - presentation
+    - conference-paper
+    title: Vom Ogham-Stein zum FAIR/LO(U)D Digital Object Wie Gigha Brewing und der federated Knowledge
+      Graph historische Artefakte lebendig machen
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.17150583
+    event:
+      name: CAA DE Workshop Köln 2025
+      start: '2025-09-17'
+      end: '2025-09-18'
+      session: Session 1
+      location: Universität zu Köln, Köln, Deutschland
+      place: universitat-zu-koln-koln-deutschland
+      online: false
+    from: volumes-md/vol7/index.md#L228
+  - n: 20
+    types:
+    - presentation
+    - conference-paper
+    title: How to FAIRify Citizen Science? Using the Wikibase Ecosystem for Volunteered Cultural Heritage
+      Information Systems
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.17475014
+    event:
+      name: 4. MediaWiki Users & Developer Conference
+      start: '2025-10-28'
+      end: '2025-10-30'
+      session: Knowledge Management for Public & Research Institutions
+      location: Leibnizhaus, Hannover, Germany
+      place: leibnizhaus-hannover-germany
+      online: false
+    from: volumes-md/vol7/index.md#L235
+- issue: 4
+  sigil: λ
+  title:
+    en: Special Issue on NFDI related topics
+  special: true
+  entries:
+  - n: 1
+    types:
+    - proposal
+    title: NFDI4Objects TWG - Community-Standards for modelling fuzziness & wobbliness in research data
+      using Semantic Web technologies and formalisms (FuzzyWobblySW)"
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: K. Tolle
+      orcid: 0000-0002-9953-7638
+    doi: 10.5281/zenodo.14893826
+    date: '2025-02-14'
+    context: NFDI4Objects Temporary Working Group (TWG)
+    from: volumes-md/vol7/index.md#L246
+  - n: 2
+    types:
+    - proposal
+    title: NFDI4Objects TWG - N4O ObjectMetaDataSet (N4O OMDS) & N4O ObjectOntology (N4O OO)
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A. Gerber
+    - name: F. Fricke
+    doi: 10.5281/zenodo.14893860
+    context: NFDI4Objects Temporary Working Group (TWG)
+    from: volumes-md/vol7/index.md#L252
+  - n: 3
+    types:
+    - presentation
+    title: Interdisziplinäre Knowledge Graphen? Ortsdaten im Kontext von NFDI4Objects
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A. Gerber
+    doi: 10.5281/zenodo.14916966
+    event:
+      name: NFDI4Memory AG Minimaldatensatz Historische Orte
+      start: '2025-02-24'
+      end: '2025-02-24'
+      location: Online
+      online: true
+    from: volumes-md/vol7/index.md#L258
+  - n: 4
+    types:
+    - presentation
+    title: Wikibase Datenmodell v0.2
+    creators:
+    - name: Florian Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A. Berthold
+    doi: 10.5281/zenodo.15065874
+    event:
+      name: TWG 2024.3 Prototypische Modellierung eines Provenienzgazetteers zur FAIRen Bereitstellung
+        in einer Wikibase
+      start: '2025-03-20'
+      end: '2025-03-20'
+      location: Online
+      online: true
+    from: volumes-md/vol7/index.md#L264
+  - n: 5
+    types:
+    - conference-paper
+    title: 'Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI - Ein interdisziplinäres federated
+      Knowledge Graph Ecosystem'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.16875678
+    event:
+      name: NFDI4Objects Community Meeting 2025
+      start: '2025-09-30'
+      end: '2025-10-01'
+      session: Marketplace
+      location: Deutsches Bergbau-Museum, Bochum, Germany
+      place: deutsches-bergbau-museum-bochum-germany
+      online: false
+    contributors:
+    - name: LK Schubert
+    - name: K Tolle
+    - name: F Schenk
+    - name: P Thiery
+    container:
+      bibtex_type: article
+    links:
+      zenodo_community: https://zenodo.org/communities/nfdi4objects/
+    legacy_citation: 'F. Thiery *et al.*, ‘Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI
+      - Ein interdisziplinäres federated Knowledge Graph Ecosystem’, *Squirrel Papers*, 2025, 7(4), λ5.
+      doi: 10.5281/zenodo.16875678. [[bibtex]](bibtex.md#4-λ5)'
+    from: volumes-md/vol7/index.md#L270
+- issue: 5
+  sigil: 𝒬
+  title:
+    en: Special Issue on 2nd Conference on Research Data Infrastructure (CoRDI)
+  special: true
+  entries:
+  - n: 1
+    types:
+    - conference-proceeding
+    title: 'RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification
+      while creating FAIR4RS Code'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: LK Schubert
+    - name: A Schneider
+    - name: J Landauer
+    - name: K Tolle
+    - name: S Gampe
+    - name: F Schenk
+    - name: P Thiery
+    doi: 10.5281/zenodo.16736089
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: 'Humanities and Social Sciences: Machine-actionable data and tools for the humanities (Workflows
+        and cross-domain tools)'
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    editors:
+    - name: York Sure-Vetter
+      orcid: 0000-0002-4522-1099
+    - name: Paul Groth
+      orcid: 0000-0003-0183-6910
+    container:
+      bibtex_type: inproceedings
+      title: Proceedings of the Conference on Research Data Infrastructure 2025
+      editors:
+      - name: Sure-Vetter, York
+      - name: Groth, Paul
+      publisher: Squirrel Papers
+      place: Aachen
+    links:
+      zenodo_community: https://zenodo.org/communities/cordi-2025/
+    legacy_citation: 'F. Thiery et al., ‘RDM within Computational Archaeology: The Role of RDM in Archaeological
+      RSE for Data FAIRification while creating FAIR4RS Code’, in Proceedings of the Conference on Research
+      Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025,
+      7(5), 𝒬1. doi: 10.5281/zenodo.16736089. [[bibtex]](bibtex.md#𝒬1)'
+    from: volumes-md/vol7/index.md#L286
+  - n: 2
+    types:
+    - conference-proceeding
+    title: Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse
+      and OpenStreetMap within the NFDI Knowledge Graph Ecosystem
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L Rossenova
+    - name: D Mietchen
+    - name: T Homburg
+    - name: P Thiery
+    doi: 10.5281/zenodo.16736047
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: 'Humanities and Social Sciences: Machine-actionable data and tools for the humanities (Semantic
+        technologies and linked data)'
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    editors:
+    - name: York Sure-Vetter
+      orcid: 0000-0002-4522-1099
+    - name: Paul Groth
+      orcid: 0000-0003-0183-6910
+    container:
+      bibtex_type: inproceedings
+      title: Proceedings of the Conference on Research Data Infrastructure 2025
+      editors:
+      - name: Sure-Vetter, York
+      - name: Groth, Paul
+      publisher: Squirrel Papers
+      place: Aachen
+    links:
+      zenodo_community: https://zenodo.org/communities/cordi-2025/
+    legacy_citation: 'F. Thiery et al., ‘Distributed Research Data Knowledge Graphs - Challenges of federated
+      queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem’, in Proceedings
+      of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen:
+      Squirrel Papers, Aug. 2025, 7(5), 𝒬2. doi: 10.5281/zenodo.16736047. [[bibtex]](bibtex.md#𝒬2)'
+    from: volumes-md/vol7/index.md#L298
+  - n: 3
+    types:
+    - conference-proceeding
+    title: 'Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data'
+    creators:
+    - name: K Fischer
+    - name: A Gerber
+    - name: T Koprucki
+    - name: A Noback
+    - name: M Reidelbach
+    - name: T Schrade
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.16736221
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: Impact of RDM
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    editors:
+    - name: York Sure-Vetter
+      orcid: 0000-0002-4522-1099
+    - name: Paul Groth
+      orcid: 0000-0003-0183-6910
+    container:
+      bibtex_type: inproceedings
+      title: Proceedings of the Conference on Research Data Infrastructure 2025
+      editors:
+      - name: Sure-Vetter, York
+      - name: Groth, Paul
+      publisher: Squirrel Papers
+      place: Aachen
+    links:
+      zenodo_community: https://zenodo.org/communities/cordi-2025/
+    legacy_citation: 'K. Fischer et al., ‘Windows on Data: Federating Research Data with FAIR Digital
+      Objects and Linked Open Data’, in Proceedings of the Conference on Research Data Infrastructure
+      2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬3. doi: 10.5281/zenodo.16736221.
+      [[bibtex]](bibtex.md#𝒬3)'
+    from: volumes-md/vol7/index.md#L310
+  - n: 4
+    types:
+    - conference-proceeding
+    title: Towards Common Metadata For Research Software in the NFDI
+    creators:
+    - name: S Ferenz
+    - name: LJ Castro
+    - name: H Hajiabadi
+    - name: M Löbe
+    - name: U Stervbo
+    - name: L Gan
+    - name: F Thiery
+      orcid: 0000-0002-3246-3531
+    doi: 10.5281/zenodo.16735847
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: RDM in Context (Session 2)
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    editors:
+    - name: York Sure-Vetter
+      orcid: 0000-0002-4522-1099
+    - name: Paul Groth
+      orcid: 0000-0003-0183-6910
+    container:
+      bibtex_type: inproceedings
+      title: Proceedings of the Conference on Research Data Infrastructure 2025
+      editors:
+      - name: Sure-Vetter, York
+      - name: Groth, Paul
+      publisher: Squirrel Papers
+      place: Aachen
+    links:
+      zenodo_community: https://zenodo.org/communities/cordi-2025/
+    legacy_citation: 'S. Ferenz et al., ‘Towards Common Metadata For Research Software in the NFDI’, in
+      Proceedings of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth,
+      Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬4. doi: 10.5281/zenodo.16735847. [[bibtex]](bibtex.md#𝒬4)'
+    from: volumes-md/vol7/index.md#L322
+  - n: 5
+    types:
+    - conference-proceeding
+    title: How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges
+      by the Working Group “Knowledge Graphs”
+    creators:
+    - name: L Rossenova
+    - name: F Limani
+    - name: C Fortmann-Grote
+    - name: A Kaplan
+    - name: F Thiery
+      orcid: 0000-0002-3246-3531
+    - name: A Latif
+    - name: R Shigapov
+    - name: B Zapilko
+    - name: M Schubotz
+    - name: H Fliegl
+    - name: T Tietz
+    doi: 10.5281/zenodo.16736077
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: RDM Infrastructures
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    editors:
+    - name: York Sure-Vetter
+      orcid: 0000-0002-4522-1099
+    - name: Paul Groth
+      orcid: 0000-0003-0183-6910
+    container:
+      bibtex_type: inproceedings
+      title: Proceedings of the Conference on Research Data Infrastructure 2025
+      editors:
+      - name: Sure-Vetter, York
+      - name: Paul, Groth
+      publisher: Squirrel Papers
+      place: Aachen
+    links:
+      zenodo_community: https://zenodo.org/communities/cordi-2025/
+    legacy_citation: 'L. Rossenova et al., ‘How are NFDI consortia using Knowledge Graphs? An overview
+      of common functions and challenges by the Working Group “Knowledge Graphs”’, in Proceedings of the
+      Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel
+      Papers, Aug. 2025, 7(5), 𝒬5. doi: 10.5281/zenodo.16736077. [[bibtex]](bibtex.md#𝒬5)'
+    from: volumes-md/vol7/index.md#L334
+  - n: 6
+    types:
+    - conference-proceeding
+    title: RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR
+      Data with FAIR4RS Code
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: B Flemisch
+    - name: B Hetényi
+    - name: C Seiwerth
+    - name: R Baum
+    - name: J Bernoth
+    - name: S Ferenz
+    - name: J Linxweiler
+    - name: M Reinhardt
+    - name: LK Schubert
+    doi: 10.5281/zenodo.16736041
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: 'RDM Infrastructures: Assessment & People in RDM Infrastructures (People in RDM Infrastructure)'
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    editors:
+    - name: York Sure-Vetter
+      orcid: 0000-0002-4522-1099
+    - name: Paul Groth
+      orcid: 0000-0003-0183-6910
+    container:
+      bibtex_type: inproceedings
+      title: Proceedings of the Conference on Research Data Infrastructure 2025
+      editors:
+      - name: Sure-Vetter, York
+      - name: Groth, Paul
+      publisher: Squirrel Papers
+      place: Aachen
+    links:
+      zenodo_community: https://zenodo.org/communities/cordi-2025/
+    legacy_citation: 'F. Thiery et al., ‘RSE 4 Research Data Infrastructures - The Role of Research Software
+      Engineers in creating FAIR Data with FAIR4RS Code’, in Proceedings of the Conference on Research
+      Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025,
+      7(5), 𝒬6. doi: 10.5281/zenodo.16736041. [[bibtex]](bibtex.md#𝒬6)'
+    from: volumes-md/vol7/index.md#L346
+  - n: 7
+    types:
+    - conference-proceeding
+    title: A Human- and Machine-Readable Thesaurus for the Conservation of Archaeological Heritage Development,
+      Technical Implementation and Application in digital space
+    creators:
+    - name: K Fischer
+    - name: L Mempel-Länger
+    doi: 10.5281/zenodo.16735267
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: Humanities and Social Sciences (Poster)
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    editors:
+    - name: York Sure-Vetter
+      orcid: 0000-0002-4522-1099
+    - name: Paul Groth
+      orcid: 0000-0003-0183-6910
+    container:
+      bibtex_type: inproceedings
+      title: Proceedings of the Conference on Research Data Infrastructure 2025
+      editors:
+      - name: Sure-Vetter, York
+      - name: Groth, Paul
+      publisher: Squirrel Papers
+      place: Aachen
+    links:
+      zenodo_community: https://zenodo.org/communities/cordi-2025/
+    legacy_citation: 'K. Fischer and L. Mempel-Länger, ‘A Human- and Machine-Readable Thesaurus for the
+      Conservation of Archaeological Heritage - Development, Technical Implementation and Application
+      in digital space’, in Proceedings of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter
+      and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬7. doi: 10.5281/zenodo.16735267.
+      [[bibtex]](bibtex.md#𝒬7)'
+    from: volumes-md/vol7/index.md#L358
+  - n: 8
+    types:
+    - conference-paper
+    - presentation
+    title: 'RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification
+      while creating FAIR4RS Code'
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: LK Schubert
+    doi: 10.5281/zenodo.16931832
+    date: '2025-08-26'
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: 'Humanities and Social Sciences: Machine-actionable data and tools for the humanities (Workflows
+        and cross-domain tools)'
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    legacy_citation: 'F. Thiery & LK. Schubert, ‘RDM within Computational Archaeology: The Role of RDM
+      in Archaeological RSE for Data FAIRification while creating FAIR4RS Code’, *Squirrel Papers*, 2025,
+      7(5), 𝒬8. doi: 10.5281/zenodo.16931832. [[bibtex]](bibtex.md#𝒬8)'
+    from: volumes-md/vol7/index.md#L370
+  - n: 9
+    types:
+    - conference-paper
+    - presentation
+    title: Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse
+      and OpenStreetMap within the NFDI Knowledge Graph Ecosystem
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: L Rossenova
+    - name: D Mietchen
+    doi: 10.5281/zenodo.16931907
+    date: '2025-08-26'
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: 'Humanities and Social Sciences: Machine-actionable data and tools for the humanities (Semantic
+        technologies and linked data)'
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    legacy_citation: 'F. Thiery et al., ‘Distributed Research Data Knowledge Graphs - Challenges of federated
+      queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem’, *Squirrel
+      Papers*, 2025, 7(5), 𝒬9. doi: 10.5281/zenodo.16931907. [[bibtex]](bibtex.md#𝒬9)'
+    from: volumes-md/vol7/index.md#L380
+  - n: 10
+    types:
+    - conference-paper
+    - presentation
+    title: RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR
+      Data with FAIR4RS Code
+    creators:
+    - name: F. Thiery
+      orcid: 0000-0002-3246-3531
+    - name: B Flemisch
+    doi: 10.5281/zenodo.16931909
+    date: '2025-08-28'
+    event:
+      name: 2nd Conference on Research Data Infrastructure (CoRDI) 2025
+      start: '2025-08-26'
+      end: '2025-08-28'
+      session: 'RDM Infrastructures: Assessment & People in RDM Infrastructures (People in RDM Infrastructure)'
+      location: RWTH Aachen, C.A.R.L., Aachen, Germany
+      place: rwth-aachen-c-a-r-l-aachen-germany
+      online: false
+    legacy_citation: 'F. Thiery & B. Flemisch, ‘RSE 4 Research Data Infrastructures - The Role of Research
+      Software Engineers in creating FAIR Data with FAIR4RS Code’, *Squirrel Papers*, 2025, 7(5), 𝒬10.
+      doi: 10.5281/zenodo.16931909. [[bibtex]](bibtex.md#𝒬10)'
+    from: volumes-md/vol7/index.md#L391
