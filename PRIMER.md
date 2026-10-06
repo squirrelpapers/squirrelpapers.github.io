@@ -181,6 +181,10 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Link-Text ≠ Link-Ziel | Keine feste Regel mehr: „Text gewinnt" galt für 7(3) λ4, bei 1(6) #2 war das Ziel richtig. Entscheidet die Titelprüfung des Harvest; Korrektur von Hand in `content/` mit Kommentar | 2026-10-06 |
 | Ab jetzt | `content/` wird von Hand gepflegt (erste Handkorrektur: 1(6) #2). `migrate` nie wieder ohne Not, `SQP_FORCE` würde Handkorrekturen überschreiben | 2026-10-06 |
 | Ortsvorschläge: Land | Ranking berücksichtigt das Land aus dem Label (Treffer +4, anderes Land −4); ohne Land im Label leichter Bonus für Deutschland | 2026-10-06 |
+| Einträge mit nicht abrufbarer DOI (404/410) | `draft: true` mit Kommentar im YAML (14 Einträge); später prüfen, ob die DOIs auf Zenodo veröffentlicht werden | 2026-10-06 |
+| QIDs der Orte | Veranstaltungsort, wenn Wikidata ihn kennt, sonst die Stadt; die S3-Vorschläge sind übernommen (52 von 55), nachjustiert wird von Hand | 2026-10-06 |
+| Suchhilfe für Orte | Optionales Feld `search: [Venue, Stadt]` in `content/places.yaml`; der Harvest sucht neu, sobald es sich ändert | 2026-10-06 |
+| Fehlgeschlagene Abrufe | Werden nie gecacht: Netzfehler landen nicht in `_status.json`, gescheiterte Suchen nicht in `wikidata-search/` (gefunden, als ein Lauf ohne Netz leere Suchergebnisse gespeichert hatte) | 2026-10-06 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -465,6 +469,18 @@ sind damit **nicht** geprüft: die Feldnamen des Zenodo-JSON (`metadata.title`,
   Frankfurt am Mainz" (→ Flughafen in Russland), „DBM Bochum", „Alte
   Universität Heidelberg". Viele Vorschläge sind Städte statt Veranstaltungsorte.
 
+### Nachbereitung 2026-10-06
+
+Ortsranking überarbeitet, nachdem die erste Übernahme Fehler zeigte:
+Reihenfolge der Suchbegriffe kommt aus den Begriffen selbst (der Cache
+speichert sortiert und hatte „Bochum" vor „Deutsches Bergbau-Museum"
+gestellt); Venue mit guter Namensähnlichkeit und Koordinaten +6; Bahnhöfe −8
+(„U-Bahnhof Deutsches Bergbau-Museum"); Kandidaten mehr als 50 km von der
+Stadt des Labels −8 („Hochschule für Technik und Wirtschaft" → HTW Berlin für
+eine Dresdner Veranstaltung). Ergebnis: rund ein Dutzend Orte wechseln von der Stadt zum
+Veranstaltungsort (u. a. Sapienza, UCC, University of Glasgow, RWTH,
+Leibnizhaus, Wikimedia Deutschland).
+
 ## S4 — Merge und Normalisierung
 
 **Ziel:** `data/derived/entries.json` — eine Liste, aus der alle weiteren
@@ -579,10 +595,12 @@ auf die neuen IRIs (P856 / P953 o. ä.).
    Comparison Videos; 5(3) #6 bzw. 5(5) #4 (beide „Semantic Modelling …",
    die DOI gehört dem Vortrag „Sharing (Linked) Open Data …"); 8(1) §1 From
    Tables to Gazetteers.
-5a. **14 nicht abrufbare DOIs** — auf Zenodo veröffentlichen, oder Einträge
-   als `draft: true` markieren. Tabelle in `dist/reports/harvest.md`.
-5b. **Orte** — `dist/reports/places.proposed.yaml` prüfen (RGK, DBM, Alte Uni
-   Heidelberg von Hand), Stadt oder Veranstaltungsort entscheiden, dann über
-   `content/places.yaml` kopieren. 20 `draft`-Einträge aus S2 sichten.
+   *(Flo liefert die DOIs nach, Stand 2026-10-06.)*
+5a. ~~14 nicht abrufbare DOIs~~ → 2026-10-06 als `draft` markiert (A4). Offen:
+   veröffentlichen oder endgültig streichen. Insgesamt 34 `draft`-Einträge.
+5b. ~~Orte~~ → 52 QIDs übernommen (A4). Für RGK (DAI am Palmengarten,
+   Frankfurt am Main), DBM (Deutsches Bergbau-Museum Bochum) und Alte
+   Universität (Heidelberger Innenstadt) stehen Suchhilfen in `places.yaml`;
+   der nächste Harvest schlägt QIDs vor, die von Hand übernommen werden.
 6. **DOI für Volumes/Issues** (Zenodo-Communities oder eigene Records)? Würde
    die Zitierfähigkeit der Issues verbessern.

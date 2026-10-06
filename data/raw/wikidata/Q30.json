@@ -1,0 +1,26 @@
+{
+  "coordinates": {
+    "lat": 39.828175,
+    "lon": -98.5795
+  },
+  "country": [
+    "Q30"
+  ],
+  "descriptions": {
+    "de": "Staat in Nordamerika",
+    "en": "country located primarily in North America"
+  },
+  "id": "Q30",
+  "instance_of": [
+    "Q1489259",
+    "Q1520223",
+    "Q3624078",
+    "Q5035794",
+    "Q6256",
+    "Q99541706"
+  ],
+  "labels": {
+    "de": "Vereinigte Staaten",
+    "en": "United States"
+  }
+}

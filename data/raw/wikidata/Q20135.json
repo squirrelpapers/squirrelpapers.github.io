@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 49.8667,
+    "lon": 8.65
+  },
+  "country": [
+    "Q1206012"
+  ],
+  "descriptions": {
+    "de": "ehemaliger deutscher Staat (1806–1918)",
+    "en": "member state of the German Confederation & the German Empire (1806–1918)"
+  },
+  "id": "Q20135",
+  "instance_of": [
+    "Q113136497",
+    "Q165116",
+    "Q26879769",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Großherzogtum Hessen",
+    "en": "Grand Duchy of Hesse"
+  }
+}

@@ -1,226 +1,240 @@
-# Event places (PRIMER A1, Befund 7). Fill in `wikidata` by hand;
-# S3 fetches coordinates for every QID. Online events are not listed.
-# `key` is referenced from event.place in content/vol<N>.yaml.
+# Event places (PRIMER A1, Befund 7). `key` is referenced from event.place in
+# content/vol<N>.yaml. Online events are not listed.
+#
+# `wikidata`: the venue if Wikidata has it, otherwise the city (PRIMER A4).
+#   Taken over from the S3 proposal (dist/reports/places.proposed.yaml) on
+#   2026-10-06; correct by hand whenever a value is wrong.
+# `search`: optional search terms [venue, city] for places the label alone does
+#   not find; the next harvest searches again and proposes a QID.
 
 places:
 - key: alte-universitat-heidelberg
   label: Alte Universität Heidelberg
+  search:
+  - Alte Universität
+  - Heidelberg
   wikidata: null
   entries: 1
 - key: aula-convegni-cast-center-for-advanced-studies
   label: Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti Scalo,
     Chieti, Italy
-  wikidata: null
+  wikidata: Q13138
   entries: 2
 - key: barcelona-spanien
   label: Barcelona, Spanien
-  wikidata: null
+  wikidata: Q1492
   entries: 1
 - key: bordeaux-france
   label: Bordeaux, France
-  wikidata: null
+  wikidata: Q1479
   entries: 2
 - key: bordeaux-germany
   label: Bordeaux, Germany
-  wikidata: null
+  wikidata: Q1479
   entries: 1
 - key: bournemouth-england
   label: Bournemouth, England
-  wikidata: null
+  wikidata: Q170478
   entries: 1
 - key: dbm-bochum-germany
   label: DBM Bochum, Germany
+  search:
+  - Deutsches Bergbau-Museum
+  - Bochum
   wikidata: null
   entries: 2
 - key: deutsches-bergbau-museum-bochum-germany
   label: Deutsches Bergbau-Museum, Bochum, Germany
-  wikidata: null
+  wikidata: Q896952
   entries: 1
 - key: dresden-germany
   label: Dresden, Germany
-  wikidata: null
+  wikidata: Q1731
   entries: 1
 - key: edinburgh-scotland-uk
   label: Edinburgh, Scotland, UK
-  wikidata: null
+  wikidata: Q23436
   entries: 1
 - key: fort-collins-usa
   label: Fort Collins, USA
-  wikidata: null
+  wikidata: Q490732
   entries: 1
 - key: fraunhofer-fokus-fraunhofer-institute-for-open
   label: Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany
-  wikidata: null
+  wikidata: Q64
   entries: 2
 - key: georg-august-universitat-gottingen-germany
   label: Georg-August-Universität Göttingen, Germany
-  wikidata: null
+  wikidata: Q152838
   entries: 1
 - key: gesellschaft-der-freunde-des-romisch
   label: Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany
-  wikidata: null
+  wikidata: Q1720
   entries: 1
 - key: graz-austria
   label: Graz, Austria
-  wikidata: null
+  wikidata: Q13298
   entries: 2
 - key: hamburg-germany
   label: Hamburg, Germany
-  wikidata: null
+  wikidata: Q1055
   entries: 1
 - key: heidelberg-germany
   label: Heidelberg, Germany
-  wikidata: null
+  wikidata: Q2966
   entries: 1
 - key: historisches-seminar-der-universitat-munster
   label: Historisches Seminar der Universität Münster, Münster, Germany
-  wikidata: null
+  wikidata: Q2742
   entries: 2
 - key: hochschule-fur-technik-und-wirtschaft-dresden
   label: Hochschule für Technik und Wirtschaft, Dresden
-  wikidata: null
+  wikidata: Q1622222
   entries: 2
 - key: jade-hoschschule-oldenburg
   label: Jade-Hoschschule, Oldenburg
-  wikidata: null
+  wikidata: Q2936
   entries: 3
 - key: jgu-mainz-germany
   label: JGU, Mainz Germany
-  wikidata: null
+  wikidata: Q1720
   entries: 1
 - key: johannes-gutenberg-universitat-mainz
   label: Johannes Gutenberg Universität Mainz, Fachbereich 07, Klassische Archäologie
-  wikidata: null
+  wikidata: Q161982
   entries: 1
 - key: julius-maximilians-universitat-wurzburg
   label: Julius-Maximilians-Universität Würzburg
-  wikidata: null
+  wikidata: Q161976
   entries: 4
 - key: kit-karlsruhe
   label: KIT, Karlsruhe
-  wikidata: null
+  wikidata: Q1040
   entries: 7
 - key: krakow-poland
   label: Kraków, Poland
-  wikidata: null
+  wikidata: Q31487
   entries: 2
 - key: leibniz-zentrum-fur-archaologie-leiza-mainz
   label: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
-  wikidata: null
+  wikidata: Q115755098
   entries: 8
 - key: leibnizhaus-hannover-germany
   label: Leibnizhaus, Hannover, Germany
-  wikidata: null
+  wikidata: Q1813804
   entries: 1
 - key: mainz-germany
   label: Mainz, Germany
-  wikidata: null
+  wikidata: Q1720
   entries: 7
 - key: munich-germany
   label: Munich, Germany
-  wikidata: null
+  wikidata: Q1726
   entries: 2
 - key: oslo-norway
   label: Oslo, Norway
-  wikidata: null
+  wikidata: Q585
   entries: 1
 - key: paris-france
   label: Paris, France
-  wikidata: null
+  wikidata: Q90
   entries: 1
 - key: polytechnic-university-of-valencia-universitat
   label: Polytechnic University of Valencia (Universitat Politècnica de València, UPV)
-  wikidata: null
+  wikidata: Q2003976
   entries: 1
 - key: potsdam-germany
   label: Potsdam, Germany
-  wikidata: null
+  wikidata: Q1711
   entries: 1
 - key: rgk-frankfurt-am-mainz
   label: RGK, Frankfurt am Mainz
+  search:
+  - Römisch-Germanische Kommission
+  - Frankfurt am Main
   wikidata: null
   entries: 1
 - key: rwth-aachen-c-a-r-l-aachen-germany
   label: RWTH Aachen, C.A.R.L., Aachen, Germany
-  wikidata: null
+  wikidata: Q273263
   entries: 10
 - key: sapienza-university-of-rome-italy
   label: Sapienza University of Rome, Italy
-  wikidata: null
+  wikidata: Q209344
   entries: 3
 - key: siena-italy
   label: Siena, Italy
-  wikidata: null
+  wikidata: Q2751
   entries: 2
 - key: stuttgart-germany
   label: Stuttgart, Germany
-  wikidata: null
+  wikidata: Q1022
   entries: 1
 - key: technische-universitat-hamburg-tuhh
   label: Technische Universität Hamburg (TUHH)
-  wikidata: null
+  wikidata: Q1060
   entries: 2
 - key: toscana-saal-der-residenz-wurzburg
   label: Toscana-Saal der Residenz Würzburg
-  wikidata: null
+  wikidata: Q2999
   entries: 3
 - key: tubingen-germany
   label: Tübingen, Germany
-  wikidata: null
+  wikidata: Q3806
   entries: 2
 - key: universidad-de-barcelona-spain
   label: Universidad de Barcelona, Spain
-  wikidata: null
+  wikidata: Q219615
   entries: 1
 - key: universita-di-torino-italy
   label: Università di Torino, Italy
-  wikidata: null
+  wikidata: Q499911
   entries: 2
 - key: universitat-zu-koln-koln-deutschland
   label: Universität zu Köln, Köln, Deutschland
-  wikidata: null
+  wikidata: Q54096
   entries: 1
 - key: university-college-cork-ucc-cork-ireland
   label: University College Cork (UCC), Cork, Ireland
-  wikidata: null
+  wikidata: Q1574185
   entries: 6
 - key: university-of-glasgow-glasgow-united-kingdom
   label: University of Glasgow, Glasgow, United Kingdom (Scotland)
-  wikidata: null
+  wikidata: Q192775
   entries: 3
 - key: university-of-stuttgart-stuttgart
   label: University of Stuttgart, Stuttgart
-  wikidata: null
+  wikidata: Q122453
   entries: 4
 - key: university-of-vienna-austria
   label: University of Vienna, Austria
-  wikidata: null
+  wikidata: Q165980
   entries: 2
 - key: university-of-west-attica-athens-greece
   label: University of West Attica, Athens, Greece
-  wikidata: null
+  wikidata: Q50359480
   entries: 5
 - key: valencia-spain
   label: Valencia, Spain
-  wikidata: null
+  wikidata: Q8818
   entries: 1
 - key: vienna-city-hall-wappensaal-vienna-austria
   label: Vienna City Hall, Wappensaal, Vienna, Austria
-  wikidata: null
+  wikidata: Q686468
   entries: 3
 - key: warsaw-poland
   label: Warsaw, Poland
-  wikidata: null
+  wikidata: Q270
   entries: 1
 - key: wikimedia-deutschland-e-v-berlin-germany
   label: Wikimedia Deutschland e.V., Berlin, Germany
-  wikidata: null
+  wikidata: Q8288
   entries: 1
 - key: wilhelmshaven-germany
   label: Wilhelmshaven, Germany
-  wikidata: null
+  wikidata: Q3857
   entries: 1
 - key: zagreb-croatia
   label: Zagreb, Croatia
-  wikidata: null
+  wikidata: Q1435
   entries: 1

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 51.163611,
+    "lon": 13.4775
+  },
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "mittelalterliches Reichsfürstentum im Heiligen Römischen Reich",
+    "en": "medieval principality in the area of the modern German state of Saxony"
+  },
+  "id": "Q170180",
+  "instance_of": [
+    "Q26830017",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Markgrafschaft Meißen",
+    "en": "Margraviate of Meissen"
+  }
+}

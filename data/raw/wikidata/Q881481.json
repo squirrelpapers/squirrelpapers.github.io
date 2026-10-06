@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 50.1361,
+    "lon": 8.68486
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Friedhof in Frankfurt am Main, Hessen, Deuschland",
+    "en": "cemetery in Frankfurt am Main, Hesse, Germany"
+  },
+  "id": "Q881481",
+  "instance_of": [
+    "Q39614"
+  ],
+  "labels": {
+    "de": "Hauptfriedhof Frankfurt",
+    "en": "Frankfurt Main Cemetery"
+  }
+}

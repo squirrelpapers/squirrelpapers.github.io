@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 49.783333,
+    "lon": 9.933333
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Reichsunmittelbares geistliches Territorium im Heiligen Römischen Reich, regiert vom Fürstbischof von Würzburg",
+    "en": "Ecclesiastical principality of the Holy Roman Empire, ruled by the Prince-Bishop of Würzburg (1168–1803)"
+  },
+  "id": "Q13427044",
+  "instance_of": [
+    "Q463742"
+  ],
+  "labels": {
+    "de": "Hochstift Würzburg",
+    "en": "Prince-Bishopric of Würzburg"
+  }
+}

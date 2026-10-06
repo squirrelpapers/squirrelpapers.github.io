@@ -1,0 +1,14 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "historischer Staat",
+    "en": "state proclaimed by Polish insurgents during the 1830-1831 uprising"
+  },
+  "id": "Q11750128",
+  "instance_of": [
+    "Q3024240"
+  ],
+  "labels": {
+    "en": "Kingdom of Poland"
+  }
+}

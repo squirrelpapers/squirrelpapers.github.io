@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 48.2088,
+    "lon": 16.377411
+  },
+  "country": [
+    "Q40"
+  ],
+  "descriptions": {
+    "de": "Komplex historischer Universitätsgebäude in Wien",
+    "en": "complex of historic university buildings in Vienna, Austria"
+  },
+  "id": "Q436347",
+  "instance_of": [
+    "Q1497364",
+    "Q19844914"
+  ],
+  "labels": {
+    "de": "Alte Universität",
+    "en": "Alte Universität"
+  }
+}

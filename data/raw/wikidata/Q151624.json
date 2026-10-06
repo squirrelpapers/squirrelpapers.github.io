@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 50.115,
+    "lon": 8.68
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Staatenbund deutscher Staaten (1815–1866)",
+    "en": "Confederation of States in Germany from 1815 to 1866"
+  },
+  "id": "Q151624",
+  "instance_of": [
+    "Q170156",
+    "Q56061"
+  ],
+  "labels": {
+    "de": "Deutscher Bund",
+    "en": "German Confederation"
+  }
+}

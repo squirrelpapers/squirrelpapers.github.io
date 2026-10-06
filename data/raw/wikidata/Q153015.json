@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 51.05,
+    "lon": 13.733333
+  },
+  "country": [
+    "Q1206012"
+  ],
+  "descriptions": {
+    "de": "ehemaliger deutscher Staat (1806–1918)",
+    "en": "former German state (1806-1918)"
+  },
+  "id": "Q153015",
+  "instance_of": [
+    "Q26879769",
+    "Q3024240",
+    "Q417175"
+  ],
+  "labels": {
+    "de": "Königreich Sachsen",
+    "en": "Kingdom of Saxony"
+  }
+}

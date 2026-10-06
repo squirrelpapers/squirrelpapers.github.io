@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 52.243056,
+    "lon": 21.016667
+  },
+  "country": [
+    "Q152115"
+  ],
+  "descriptions": {
+    "de": "napoleonischer Staat",
+    "en": "Napoleonic client state (1807–1815)"
+  },
+  "id": "Q152115",
+  "instance_of": [
+    "Q1151405",
+    "Q208500",
+    "Q26879763",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Herzogtum Warschau",
+    "en": "Duchy of Warsaw"
+  }
+}

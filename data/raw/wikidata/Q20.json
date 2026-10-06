@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 59.933333,
+    "lon": 10.683333
+  },
+  "country": [
+    "Q20"
+  ],
+  "descriptions": {
+    "de": "Staat in Nordeuropa",
+    "en": "country in Northern Europe"
+  },
+  "id": "Q20",
+  "instance_of": [
+    "Q3624078",
+    "Q6256"
+  ],
+  "labels": {
+    "de": "Norwegen",
+    "en": "Norway"
+  }
+}

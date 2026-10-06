@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 43,
+    "lon": 11
+  },
+  "country": [
+    "Q38"
+  ],
+  "descriptions": {
+    "de": "ehemaliger italienischer Staat (1569–1801 und 1815–1859)",
+    "en": "former Italian state (1569–1801; 1815–1859)"
+  },
+  "id": "Q154849",
+  "instance_of": [
+    "Q1151405",
+    "Q165116",
+    "Q188063",
+    "Q26830017",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Großherzogtum Toskana",
+    "en": "Grand Duchy of Tuscany"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 51.507222,
+    "lon": -0.1275
+  },
+  "country": [
+    "Q174193"
+  ],
+  "descriptions": {
+    "de": "historischer Staat (1801–1922), bis 1927 gebräuchlicher Name",
+    "en": "historical sovereign state (1801–1922)"
+  },
+  "id": "Q174193",
+  "instance_of": [
+    "Q20181813",
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Vereinigtes Königreich Großbritannien und Irland",
+    "en": "United Kingdom of Great Britain and Ireland"
+  }
+}

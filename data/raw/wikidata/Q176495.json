@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 48.2,
+    "lon": 16.366667
+  },
+  "country": [],
+  "descriptions": {
+    "de": "Staat in Mitteleuropa (1934–1938)",
+    "en": "sovereign state in Central Europe (1934–1938)"
+  },
+  "id": "Q176495",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078",
+    "Q50686"
+  ],
+  "labels": {
+    "de": "Bundesstaat Österreich",
+    "en": "Federal State of Austria"
+  }
+}

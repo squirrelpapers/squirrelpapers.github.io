@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 50,
+    "lon": 8.266667
+  },
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "weltlicher Herrschaftsbereich des Erzbischofs von Mainz im Heiligen Römischen Reich",
+    "en": "territory in the Holy Roman Empire"
+  },
+  "id": "Q284667",
+  "instance_of": [
+    "Q1366274",
+    "Q19953632",
+    "Q26830017",
+    "Q3024240",
+    "Q463742"
+  ],
+  "labels": {
+    "de": "Kurmainz",
+    "en": "Electorate of Mainz"
+  }
+}

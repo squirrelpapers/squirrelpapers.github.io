@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 48.2167,
+    "lon": 16.3667
+  },
+  "country": [
+    "Q268970"
+  ],
+  "descriptions": {
+    "de": "Staat in Mitteleuropa (1918–1919)",
+    "en": "country comprising areas with a predominantly German-speaking or ethnic German population and constituent part of the German republic (1918–1919)"
+  },
+  "id": "Q268970",
+  "instance_of": [
+    "Q1088391",
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Deutschösterreich",
+    "en": "Republic of German-Austria"
+  }
+}

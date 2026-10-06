@@ -1,0 +1,16 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "historischer Staat (1125–1555)",
+    "en": "former republic on the Italian peninsula between 1125 and 1555"
+  },
+  "id": "Q736727",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Republik Siena",
+    "en": "Republic of Siena"
+  }
+}

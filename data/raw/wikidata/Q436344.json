@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 49.4111,
+    "lon": 8.70611
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Die Heidelberger Alte Universität",
+    "en": "building in Heidelberg, Karlsruhe Government Region, Bade-Württemberg, Germany"
+  },
+  "id": "Q436344",
+  "instance_of": [
+    "Q19844914"
+  ],
+  "labels": {
+    "de": "Alte Universität",
+    "en": "Alte Universität"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 51,
+    "lon": 10
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Staat in Mitteleuropa",
+    "en": "country in Central Europe"
+  },
+  "id": "Q183",
+  "instance_of": [
+    "Q3624078",
+    "Q4209223",
+    "Q619610",
+    "Q6256",
+    "Q63791824"
+  ],
+  "labels": {
+    "de": "Deutschland",
+    "en": "Germany"
+  }
+}

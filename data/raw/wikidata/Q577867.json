@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q577867"
+  ],
+  "descriptions": {
+    "en": "Polish state from the coronation of the first King Bolesław I the Brave in 1025 to the union with Lithuania and the rule of the Jagiellon dynasty in 1385"
+  },
+  "id": "Q577867",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Königreich Polen",
+    "en": "Kingdom of Poland"
+  }
+}

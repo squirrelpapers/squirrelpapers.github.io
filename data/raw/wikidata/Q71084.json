@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 48.862222,
+    "lon": 2.3325
+  },
+  "country": [
+    "Q71084"
+  ],
+  "descriptions": {
+    "de": "Frankreich als Kaiserreich unter Napoleon von 1804 bis 1814",
+    "en": "empire of Napoleon I of France, from 1804 to 1815"
+  },
+  "id": "Q71084",
+  "instance_of": [
+    "Q3024240",
+    "Q48349",
+    "Q5589178"
+  ],
+  "labels": {
+    "de": "Erstes Kaiserreich",
+    "en": "First French Empire"
+  }
+}

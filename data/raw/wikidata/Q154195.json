@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 48.133333,
+    "lon": 11.566667
+  },
+  "country": [
+    "Q1206012"
+  ],
+  "descriptions": {
+    "de": "ehemaliger europäischer Staat (1805 bis 1918), Teil des Deutschen Reiches nach 1871",
+    "en": "kingdom in Central Europe between 1806 and 1918, from January 1871 part of the German Empire"
+  },
+  "id": "Q154195",
+  "instance_of": [
+    "Q113136497",
+    "Q1250464",
+    "Q26879769",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Königreich Bayern",
+    "en": "Kingdom of Bavaria"
+  }
+}

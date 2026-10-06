@@ -1,0 +1,19 @@
+{
+  "country": [
+    "Q249428"
+  ],
+  "descriptions": {
+    "de": "napoleonischer Staat",
+    "en": "grand duchy"
+  },
+  "id": "Q249428",
+  "instance_of": [
+    "Q165116",
+    "Q26879769",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Großherzogtum Berg",
+    "en": "Grand Duchy of Berg"
+  }
+}

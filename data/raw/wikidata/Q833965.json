@@ -1,0 +1,15 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "deutsches Versorgungsschiff",
+    "en": "2001 Berlin-class replenishment ship"
+  },
+  "id": "Q833965",
+  "instance_of": [
+    "Q162986"
+  ],
+  "labels": {
+    "de": "Einsatzgruppenversorger Frankfurt am Main",
+    "en": "Frankfurt am Main"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 58.65,
+    "lon": 70.1167
+  },
+  "country": [
+    "Q34266"
+  ],
+  "descriptions": {
+    "de": "historischer Staat (1721–1917)",
+    "en": "former empire in Eurasia and North America (1721–1917)"
+  },
+  "id": "Q34266",
+  "instance_of": [
+    "Q1323642",
+    "Q3024240",
+    "Q3624078",
+    "Q48349",
+    "Q6256"
+  ],
+  "labels": {
+    "de": "Russisches Kaiserreich",
+    "en": "Russian Empire"
+  }
+}

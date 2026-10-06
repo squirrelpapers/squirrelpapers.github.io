@@ -1,0 +1,26 @@
+{
+  "coordinates": {
+    "lat": 42.5,
+    "lon": 12.5
+  },
+  "country": [
+    "Q38"
+  ],
+  "descriptions": {
+    "de": "Staat in Südeuropa",
+    "en": "country in southern Europe"
+  },
+  "id": "Q38",
+  "instance_of": [
+    "Q179164",
+    "Q3624078",
+    "Q51576574",
+    "Q619610",
+    "Q6256",
+    "Q7270"
+  ],
+  "labels": {
+    "de": "Italien",
+    "en": "Italy"
+  }
+}

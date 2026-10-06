@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 48.3,
+    "lon": 7.766667
+  },
+  "country": [
+    "Q1206012"
+  ],
+  "descriptions": {
+    "de": "Land des Deutschen Reiches (1918–1945)",
+    "en": "federated republic in Germany between 1918 and 1945"
+  },
+  "id": "Q690821",
+  "instance_of": [
+    "Q107390",
+    "Q19953632",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Republik Baden",
+    "en": "Republic of Baden"
+  }
+}

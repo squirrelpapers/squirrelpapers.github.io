@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 48.2,
+    "lon": 16.35
+  },
+  "country": [
+    "Q131964"
+  ],
+  "descriptions": {
+    "de": "historischer Staat (1804–1867)",
+    "en": "Central European multinational Empire from 1804 to 1867"
+  },
+  "id": "Q131964",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Kaisertum Österreich",
+    "en": "Austrian Empire"
+  }
+}

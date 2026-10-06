@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 50.054722,
+    "lon": 19.936667
+  },
+  "country": [
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "deutsches Verwaltungsgebiet im besetzten Polen, 1939–1945",
+    "en": "German-occupied zone in Poland in World War II"
+  },
+  "id": "Q156111",
+  "instance_of": [
+    "Q2577883",
+    "Q99541706"
+  ],
+  "labels": {
+    "de": "Generalgouvernement",
+    "en": "General Government"
+  }
+}

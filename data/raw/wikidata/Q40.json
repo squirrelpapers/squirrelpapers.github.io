@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 48,
+    "lon": 14
+  },
+  "country": [
+    "Q40"
+  ],
+  "descriptions": {
+    "de": "Staat in Mitteleuropa",
+    "en": "country in Central Europe"
+  },
+  "id": "Q40",
+  "instance_of": [
+    "Q123480",
+    "Q127693126",
+    "Q3624078",
+    "Q4209223",
+    "Q6256"
+  ],
+  "labels": {
+    "de": "Österreich",
+    "en": "Austria"
+  }
+}

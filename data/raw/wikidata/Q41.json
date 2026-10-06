@@ -1,0 +1,27 @@
+{
+  "coordinates": {
+    "lat": 38.5,
+    "lon": 23
+  },
+  "country": [
+    "Q41"
+  ],
+  "descriptions": {
+    "de": "Staat in Südosteuropa",
+    "en": "country in Southeast Europe"
+  },
+  "id": "Q41",
+  "instance_of": [
+    "Q179164",
+    "Q3624078",
+    "Q4209223",
+    "Q51576574",
+    "Q619610",
+    "Q6256",
+    "Q7275"
+  ],
+  "labels": {
+    "de": "Griechenland",
+    "en": "Greece"
+  }
+}

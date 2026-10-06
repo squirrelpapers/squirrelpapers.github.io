@@ -1,0 +1,20 @@
+{
+  "coordinates": {
+    "lat": 52.516667,
+    "lon": 13.4
+  },
+  "country": [],
+  "descriptions": {
+    "de": "Bundesstaat in Norddeutschland von 1867 bis 1870",
+    "en": "historical federal state in today's Northern Germany (1867–1871)"
+  },
+  "id": "Q150981",
+  "instance_of": [
+    "Q3024240",
+    "Q43702"
+  ],
+  "labels": {
+    "de": "Norddeutscher Bund",
+    "en": "North German Confederation"
+  }
+}

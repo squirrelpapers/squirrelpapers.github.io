@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 48.2075,
+    "lon": 16.365
+  },
+  "country": [
+    "Q28513"
+  ],
+  "descriptions": {
+    "de": "Staat in Mitteleuropa (1867–1918)",
+    "en": "1867–1918 empire in Central Europe"
+  },
+  "id": "Q28513",
+  "instance_of": [
+    "Q1093720",
+    "Q3024240",
+    "Q3624078",
+    "Q48349",
+    "Q6256"
+  ],
+  "labels": {
+    "de": "Österreich-Ungarn",
+    "en": "Austria–Hungary"
+  }
+}

@@ -40,6 +40,7 @@ issues:
       orcid: 0000-0002-3246-3531
     - name: M. thor Straten
     doi: 10.5281/zenodo.15039154
+    draft: true  # S3: DOI 15039154 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol7/index.md#L27
   - n: 3
     types:
@@ -430,6 +431,7 @@ issues:
       location: University of West Attica, Athens, Greece
       place: university-of-west-attica-athens-greece
       online: false
+    draft: true  # S3: DOI 15332813 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol7/index.md#L171
   - n: 12
     types:
@@ -453,6 +455,7 @@ issues:
       location: University of West Attica, Athens, Greece
       place: university-of-west-attica-athens-greece
       online: false
+    draft: true  # S3: DOI 15332827 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol7/index.md#L178
   - n: 13
     types:
@@ -471,6 +474,7 @@ issues:
       location: University of West Attica, Athens, Greece
       place: university-of-west-attica-athens-greece
       online: false
+    draft: true  # S3: DOI 15332866 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol7/index.md#L185
   - n: 14
     types:
@@ -489,6 +493,7 @@ issues:
       location: University of West Attica, Athens, Greece
       place: university-of-west-attica-athens-greece
       online: false
+    draft: true  # S3: DOI 15332910 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol7/index.md#L192
   - n: 15
     types:
@@ -507,6 +512,7 @@ issues:
       location: University of West Attica, Athens, Greece
       place: university-of-west-attica-athens-greece
       online: false
+    draft: true  # S3: DOI 15332927 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol7/index.md#L199
   - n: 16
     types:

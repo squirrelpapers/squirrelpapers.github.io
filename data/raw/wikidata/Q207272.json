@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 52.23,
+    "lon": 21.011111
+  },
+  "country": [
+    "Q207272"
+  ],
+  "descriptions": {
+    "de": "polnischer Staat von 1918 bis 1945",
+    "en": "country in Central and Eastern Europe (1918–1945)"
+  },
+  "id": "Q207272",
+  "instance_of": [
+    "Q11514315",
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Zweite Polnische Republik",
+    "en": "Second Polish Republic"
+  }
+}

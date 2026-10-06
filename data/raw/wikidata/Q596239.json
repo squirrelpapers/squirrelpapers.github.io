@@ -1,0 +1,15 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Zeit der Besetzung Österreichs nach dem Zweiten Weltkrieg",
+    "en": "post-World War II Allied occupation of Austria (1945-1955)"
+  },
+  "id": "Q596239",
+  "instance_of": [
+    "Q2577883"
+  ],
+  "labels": {
+    "de": "besetztes Nachkriegsösterreich",
+    "en": "Allied-occupied Austria"
+  }
+}

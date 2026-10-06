@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 55.672222,
+    "lon": 12.525
+  },
+  "country": [],
+  "descriptions": {
+    "de": "Personalunion in Nordeuropa",
+    "en": "political union (1524–1814)"
+  },
+  "id": "Q62651",
+  "instance_of": [
+    "Q1093720",
+    "Q188800",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Dänemark-Norwegen",
+    "en": "Denmark–Norway"
+  }
+}

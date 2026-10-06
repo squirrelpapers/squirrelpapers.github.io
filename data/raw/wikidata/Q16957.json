@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 52.052,
+    "lon": 12.389
+  },
+  "country": [
+    "Q16957"
+  ],
+  "descriptions": {
+    "de": "Staat in Mitteleuropa (1949–1990)",
+    "en": "1949–1990 country in central Europe, unified into modern Germany"
+  },
+  "id": "Q16957",
+  "instance_of": [
+    "Q17007978",
+    "Q3024240",
+    "Q325261",
+    "Q7275"
+  ],
+  "labels": {
+    "de": "Deutsche Demokratische Republik",
+    "en": "East Germany"
+  }
+}

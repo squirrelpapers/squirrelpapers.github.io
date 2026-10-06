@@ -1,0 +1,20 @@
+{
+  "coordinates": {
+    "lat": 62.232313,
+    "lon": 12.282477
+  },
+  "country": [],
+  "descriptions": {
+    "de": "historischer Staat der 1814 bis 1905 existierte",
+    "en": "personal union between Sweden and Norway 1814–1905"
+  },
+  "id": "Q62589",
+  "instance_of": [
+    "Q188800",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Union zwischen Schweden und Norwegen",
+    "en": "Union between Sweden and Norway"
+  }
+}

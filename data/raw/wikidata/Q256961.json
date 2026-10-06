@@ -1,0 +1,18 @@
+{
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "historisches Territorium des Heiligen Römischen Reiches",
+    "en": "state in the Holy Roman Empire"
+  },
+  "id": "Q256961",
+  "instance_of": [
+    "Q26830017",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Kurfürstentum Bayern",
+    "en": "Electorate of Bavaria"
+  }
+}

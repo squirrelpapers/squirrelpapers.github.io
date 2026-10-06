@@ -1,0 +1,20 @@
+{
+  "coordinates": {
+    "lat": 45.8,
+    "lon": 15.966667
+  },
+  "country": [],
+  "descriptions": {
+    "de": "historischer Staat",
+    "en": "short-lived state on the Balkan Peninsula between late-October and early-December 1918"
+  },
+  "id": "Q718374",
+  "instance_of": [
+    "Q10711424",
+    "Q99541706"
+  ],
+  "labels": {
+    "de": "Staat der Slowenen, Kroaten und Serben",
+    "en": "State of Slovenes, Croats and Serbs"
+  }
+}

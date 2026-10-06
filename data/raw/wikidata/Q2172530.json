@@ -1,0 +1,18 @@
+{
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "historischer Staat",
+    "en": "electorate"
+  },
+  "id": "Q2172530",
+  "instance_of": [
+    "Q20521456",
+    "Q26830017"
+  ],
+  "labels": {
+    "de": "Kurfürstentum Württemberg",
+    "en": "Electorate of Württemberg"
+  }
+}

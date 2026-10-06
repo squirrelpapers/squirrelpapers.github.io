@@ -1,0 +1,20 @@
+{
+  "coordinates": {
+    "lat": 47.79945,
+    "lon": 13.0418
+  },
+  "country": [
+    "Q40"
+  ],
+  "descriptions": {
+    "de": "Denkmalgeschütztes Objekt in Salzburg (61206)"
+  },
+  "id": "Q20754305",
+  "instance_of": [
+    "Q19844914"
+  ],
+  "labels": {
+    "de": "Alte Universität",
+    "en": "Alte Universität"
+  }
+}

@@ -194,6 +194,7 @@ issues:
       location: Julius-Maximilians-Universität Würzburg
       place: julius-maximilians-universitat-wurzburg
       online: false
+    draft: true  # S3: DOI 10774878 not on Zenodo (410), checked 2026-10-06
     from: volumes-md/vol6/index.md#L87
   - n: 3
     types:
@@ -569,6 +570,7 @@ issues:
       end: '2024-08-20'
       location: online
       online: true
+    draft: true  # S3: DOI 13332508 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol6/index.md#L221
   - n: 10
     types:
@@ -589,6 +591,7 @@ issues:
       location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
       place: leibniz-zentrum-fur-archaologie-leiza-mainz
       online: false
+    draft: true  # S3: DOI 13734161 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol6/index.md#L227
   - n: 11
     types:
@@ -610,6 +613,7 @@ issues:
       location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
       place: leibniz-zentrum-fur-archaologie-leiza-mainz
       online: false
+    draft: true  # S3: DOI 13734380 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol6/index.md#L234
   - n: 12
     types:
@@ -693,6 +697,7 @@ issues:
       location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
       place: leibniz-zentrum-fur-archaologie-leiza-mainz
       online: false
+    draft: true  # S3: DOI 13803736 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol6/index.md#L262
   - n: 16
     types:
@@ -715,6 +720,7 @@ issues:
       location: Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany
       place: leibniz-zentrum-fur-archaologie-leiza-mainz
       online: false
+    draft: true  # S3: DOI 13803957 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol6/index.md#L269
   - n: 17
     types:

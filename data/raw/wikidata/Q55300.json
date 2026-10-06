@@ -1,0 +1,17 @@
+{
+  "country": [
+    "Q2415901"
+  ],
+  "descriptions": {
+    "de": "eine der vier Zonen, in die Deutschland von den Alliierten nach dem Zweiten Weltkrieg aufgeteilt wurde",
+    "en": "zone of Soviet occupation in postwar Germany"
+  },
+  "id": "Q55300",
+  "instance_of": [
+    "Q2577883"
+  ],
+  "labels": {
+    "de": "Sowjetische Besatzungszone",
+    "en": "Soviet occupation zone of Germany"
+  }
+}

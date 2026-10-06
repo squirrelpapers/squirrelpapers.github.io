@@ -1,0 +1,16 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "historischer Staat",
+    "en": "short-lived monarchy in Northern Europe (1814)"
+  },
+  "id": "Q2597352",
+  "instance_of": [
+    "Q10711424",
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "en": "Kingdom of Norway"
+  }
+}

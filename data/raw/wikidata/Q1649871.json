@@ -1,0 +1,17 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "historischer Staat (1386-1569)",
+    "en": "Jagiellon kingdom of Poland, 1386-1569"
+  },
+  "id": "Q1649871",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078",
+    "Q6256"
+  ],
+  "labels": {
+    "de": "Königreich Polen",
+    "en": "Kingdom of Poland"
+  }
+}

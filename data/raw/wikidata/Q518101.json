@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 48.2,
+    "lon": 16.366667
+  },
+  "country": [
+    "Q40"
+  ],
+  "descriptions": {
+    "de": "Republik Österreich von 1919–1934",
+    "en": "sovereign state in Europe (1919–1934)"
+  },
+  "id": "Q518101",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Erste Republik",
+    "en": "First Republic of Austria"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 50.061667,
+    "lon": 19.937222
+  },
+  "country": [
+    "Q36"
+  ],
+  "descriptions": {
+    "de": "historischer Stadtstaat in Polen",
+    "en": "former city-state"
+  },
+  "id": "Q501303",
+  "instance_of": [
+    "Q164142",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Republik Krakau",
+    "en": "Free City of Kraków"
+  }
+}

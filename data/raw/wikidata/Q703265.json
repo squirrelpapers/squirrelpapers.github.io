@@ -1,0 +1,15 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Stammesherzogtum im Ostfränkischen Reich",
+    "en": "medieval stem duchy in the Kingdom of Germany"
+  },
+  "id": "Q703265",
+  "instance_of": [
+    "Q154547"
+  ],
+  "labels": {
+    "de": "Herzogtum Franken",
+    "en": "Duchy of Franconia"
+  }
+}

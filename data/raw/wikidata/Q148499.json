@@ -1,0 +1,21 @@
+{
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "Markgrafschaft und Kurfürstentum des Heiligen Römischen Reiches",
+    "en": "Holy Roman Empire principality (1157–1806)"
+  },
+  "id": "Q148499",
+  "instance_of": [
+    "Q11514315",
+    "Q20181813",
+    "Q20521456",
+    "Q26830017",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Mark Brandenburg",
+    "en": "Margraviate of Brandenburg"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 52.52,
+    "lon": 13.375
+  },
+  "country": [
+    "Q1206012"
+  ],
+  "descriptions": {
+    "de": "Bezeichnung für Deutschland in der Periode 1918/1919 bis 1933",
+    "en": "Germany in the years 1918/1919–1933"
+  },
+  "id": "Q41304",
+  "instance_of": [
+    "Q11514315",
+    "Q3024240",
+    "Q859563"
+  ],
+  "labels": {
+    "de": "Weimarer Republik",
+    "en": "Weimar Republic"
+  }
+}

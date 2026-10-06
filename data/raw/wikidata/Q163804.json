@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 50.10322,
+    "lon": 8.67388
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Kunstmuseum in Frankfurt am Main",
+    "en": "art museum in Frankfurt, Germany"
+  },
+  "id": "Q163804",
+  "instance_of": [
+    "Q163740",
+    "Q207694"
+  ],
+  "labels": {
+    "de": "Städelsches Kunstinstitut",
+    "en": "Städel Museum"
+  }
+}

@@ -1,7 +1,117 @@
 {
   "answers": {
-    "Alte Universität Heidelberg [de]": [],
-    "Alte Universität Heidelberg [en]": []
+    "Alte Universität [de]": [
+      {
+        "description": "",
+        "id": "Q20754305",
+        "label": "Alte Universität"
+      },
+      {
+        "description": "complex of historic university buildings in Vienna, Austria",
+        "id": "Q436347",
+        "label": "Alte Universität"
+      },
+      {
+        "description": "building in Heidelberg, Karlsruhe Government Region, Bade-Württemberg, Germany",
+        "id": "Q436344",
+        "label": "Alte Universität"
+      },
+      {
+        "description": "building in the city of Basel, Switzerland",
+        "id": "Q17038009",
+        "label": "old university"
+      },
+      {
+        "description": "university in Leuven (Louvain) (founded 1425 - closed 1797)",
+        "id": "Q693380",
+        "label": "Old University of Leuven"
+      }
+    ],
+    "Alte Universität [en]": [
+      {
+        "description": "",
+        "id": "Q20754305",
+        "label": "Alte Universität"
+      },
+      {
+        "description": "complex of historic university buildings in Vienna, Austria",
+        "id": "Q436347",
+        "label": "Alte Universität"
+      },
+      {
+        "description": "building in Heidelberg, Karlsruhe Government Region, Bade-Württemberg, Germany",
+        "id": "Q436344",
+        "label": "Alte Universität"
+      },
+      {
+        "description": "timber framed house",
+        "id": "Q436342",
+        "label": "Alte Universität"
+      },
+      {
+        "description": "building in the city of Basel, Switzerland",
+        "id": "Q17038009",
+        "label": "old university"
+      }
+    ],
+    "Heidelberg [de]": [
+      {
+        "description": "large city in Baden-Württemberg, Germany",
+        "id": "Q2966",
+        "label": "Heidelberg"
+      },
+      {
+        "description": "suburb of Melbourne, Victoria, Australia",
+        "id": "Q1594002",
+        "label": "Heidelberg"
+      },
+      {
+        "description": "town in Gauteng province, South Africa",
+        "id": "Q1594009",
+        "label": "Heidelberg"
+      },
+      {
+        "description": "family name",
+        "id": "Q29996535",
+        "label": "Heidelberg"
+      },
+      {
+        "description": "academy of sciences",
+        "id": "Q833738",
+        "label": "Heidelberg Academy of Sciences and Humanities"
+      }
+    ],
+    "Heidelberg [en]": [
+      {
+        "description": "suburb of Melbourne, Victoria, Australia",
+        "id": "Q1594002",
+        "label": "Heidelberg"
+      },
+      {
+        "description": "large city in Baden-Württemberg, Germany",
+        "id": "Q2966",
+        "label": "Heidelberg"
+      },
+      {
+        "description": "town in Gauteng province, South Africa",
+        "id": "Q1594009",
+        "label": "Heidelberg"
+      },
+      {
+        "description": "railway station in Heidelberg, Germany",
+        "id": "Q467998",
+        "label": "Heidelberg Central Station"
+      },
+      {
+        "description": "public research university in Heidelberg, Baden-Württemberg, Germany",
+        "id": "Q151510",
+        "label": "Heidelberg University"
+      }
+    ]
   },
-  "label": "Alte Universität Heidelberg"
+  "label": "Alte Universität Heidelberg",
+  "terms": [
+    "Alte Universität",
+    "Heidelberg"
+  ]
 }

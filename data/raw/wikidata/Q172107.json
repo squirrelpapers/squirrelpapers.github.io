@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 50.05,
+    "lon": 19.933333
+  },
+  "country": [
+    "Q172107"
+  ],
+  "descriptions": {
+    "de": "Adelsrepublik, historischer feudaler Ständestaat und Wahlkönigtum (1569–1795)",
+    "en": "historical multinational monarchist state in Eastern Europe (Crown of the Kingdom of Poland and the Grand Duchy of Lithuania)"
+  },
+  "id": "Q172107",
+  "instance_of": [
+    "Q1088391",
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Polen-Litauen",
+    "en": "Polish–Lithuanian Commonwealth"
+  }
+}

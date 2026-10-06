@@ -277,6 +277,7 @@ issues:
       location: University of Vienna, Austria
       place: university-of-vienna-austria
       online: false
+    draft: true  # S3: DOI 18901062 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol8/index.md#L120
   - n: 8
     types:
@@ -297,6 +298,7 @@ issues:
       location: University of Vienna, Austria
       place: university-of-vienna-austria
       online: false
+    draft: true  # S3: DOI 18901176 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol8/index.md#L127
   - n: 9
     types: []

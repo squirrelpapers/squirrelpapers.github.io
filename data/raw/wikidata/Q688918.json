@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 50.066667,
+    "lon": 19.933333
+  },
+  "country": [
+    "Q28513"
+  ],
+  "descriptions": {
+    "de": "historischer Staat",
+    "en": "grand duchy in Eastern Europe between 1846–1918"
+  },
+  "id": "Q688918",
+  "instance_of": [
+    "Q165116",
+    "Q681026"
+  ],
+  "labels": {
+    "de": "Großherzogtum Krakau",
+    "en": "Grand Duchy of Cracow"
+  }
+}

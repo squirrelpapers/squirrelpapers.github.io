@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 44.809722,
+    "lon": 20.463056
+  },
+  "country": [
+    "Q191077"
+  ],
+  "descriptions": {
+    "de": "Monarchie in Südosteuropa (1929–1945)",
+    "en": "the official name of Yugoslavia during the period of 1929–1941 (de facto)/1945 (de jure)"
+  },
+  "id": "Q191077",
+  "instance_of": [
+    "Q11938905",
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Königreich Jugoslawien",
+    "en": "Kingdom of Yugoslavia"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "historischer Marionettenstaat (1916–1918)",
+    "en": "puppet state proposed in 1916 by Germany and Austria-Hungary"
+  },
+  "id": "Q696908",
+  "instance_of": [
+    "Q208164",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Regentschaftskönigreich Polen",
+    "en": "Kingdom of Poland"
+  }
+}

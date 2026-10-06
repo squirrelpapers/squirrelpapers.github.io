@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 50,
+    "lon": 10
+  },
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "Herrschaftsbereich der römisch-deutschen Kaiser (962–1806)",
+    "en": "multi-ethnic complex of territories in Western and Central Europe (800/962–1806)"
+  },
+  "id": "Q12548",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078",
+    "Q48349"
+  ],
+  "labels": {
+    "de": "Heiliges Römisches Reich",
+    "en": "Holy Roman Empire"
+  }
+}

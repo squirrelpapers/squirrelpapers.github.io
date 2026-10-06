@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 44.8,
+    "lon": 15.9667
+  },
+  "country": [
+    "Q153128"
+  ],
+  "descriptions": {
+    "de": "Vasallenstaat der Achsenmächte während des Zweiten Weltkriegs (April 1941-Mai 1945)",
+    "en": "World War II-era puppet state of Nazi Germany and Fascist Italy (April 1941-May 1945)"
+  },
+  "id": "Q153128",
+  "instance_of": [
+    "Q208164",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Unabhängiger Staat Kroatien",
+    "en": "Independent State of Croatia"
+  }
+}

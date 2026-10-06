@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 52,
+    "lon": 19
+  },
+  "country": [
+    "Q36"
+  ],
+  "descriptions": {
+    "de": "Staat in Mitteleuropa",
+    "en": "country in Central Europe"
+  },
+  "id": "Q36",
+  "instance_of": [
+    "Q127693126",
+    "Q3624078",
+    "Q6256",
+    "Q63791824"
+  ],
+  "labels": {
+    "de": "Polen",
+    "en": "Poland"
+  }
+}

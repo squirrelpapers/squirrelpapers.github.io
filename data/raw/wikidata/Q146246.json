@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 47.24,
+    "lon": 6.02
+  },
+  "country": [
+    "Q142",
+    "Q146246"
+  ],
+  "descriptions": {
+    "de": "historischer Nachfolgestaat des weströmischen Reiches",
+    "en": "Frankish Kingdom from 481 to 843"
+  },
+  "id": "Q146246",
+  "instance_of": [
+    "Q3024240",
+    "Q5402094"
+  ],
+  "labels": {
+    "de": "Fränkisches Reich",
+    "en": "Franciaf"
+  }
+}

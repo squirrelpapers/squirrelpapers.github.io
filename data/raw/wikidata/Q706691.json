@@ -1,0 +1,19 @@
+{
+  "coordinates": {
+    "lat": 49.999444,
+    "lon": 8.273611
+  },
+  "country": [],
+  "descriptions": {
+    "de": "erster auf demokratischen Grundsätzen beruhender deutscher Staat",
+    "en": "first democratic state on the current German territory"
+  },
+  "id": "Q706691",
+  "instance_of": [
+    "Q472538"
+  ],
+  "labels": {
+    "de": "Mainzer Republik",
+    "en": "Republic of Mainz"
+  }
+}

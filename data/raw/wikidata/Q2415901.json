@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 52.516667,
+    "lon": 13.383333
+  },
+  "country": [],
+  "descriptions": {
+    "de": "Periode alliierter Besatzung zwischen Kapitulation des NS-Staates und Gründung von Bundesrepublik und DDR",
+    "en": "post-World War II Allied military occupation of Germany (1945–1949)"
+  },
+  "id": "Q2415901",
+  "instance_of": [
+    "Q11514315",
+    "Q19953632",
+    "Q2577883"
+  ],
+  "labels": {
+    "de": "Deutschland 1945 bis 1949",
+    "en": "allied-occupied Germany"
+  }
+}

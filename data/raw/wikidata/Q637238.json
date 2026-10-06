@@ -1,0 +1,20 @@
+{
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "ehemaliges deutsches Territorium (1803-1806)",
+    "en": "state of the Holy Roman Empire (1803-1806)"
+  },
+  "id": "Q637238",
+  "instance_of": [
+    "Q20521456",
+    "Q26830017",
+    "Q26879769",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Kurfürstentum Baden",
+    "en": "Electorate of Baden"
+  }
+}

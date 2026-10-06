@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 47,
+    "lon": 2
+  },
+  "country": [
+    "Q142"
+  ],
+  "descriptions": {
+    "de": "Staat in Westeuropa mit Überseegebieten",
+    "en": "country in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)"
+  },
+  "id": "Q142",
+  "instance_of": [
+    "Q20181813",
+    "Q3624078",
+    "Q51576574",
+    "Q6256",
+    "Q7270"
+  ],
+  "labels": {
+    "de": "Frankreich",
+    "en": "France"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 52.511111,
+    "lon": 13.379722
+  },
+  "country": [
+    "Q1206012"
+  ],
+  "descriptions": {
+    "de": "Bezeichnung für das Deutsche Reich während der Zeit des Nationalsozialismus von 1933 bis 1945",
+    "en": "Germany from 1933 to 1945 while under control of the Nazi Party"
+  },
+  "id": "Q7318",
+  "instance_of": [
+    "Q11514315",
+    "Q3024240",
+    "Q317",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "NS-Staat",
+    "en": "Nazi Germany"
+  }
+}

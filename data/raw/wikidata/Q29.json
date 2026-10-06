@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 40.2,
+    "lon": -3.5
+  },
+  "country": [
+    "Q29"
+  ],
+  "descriptions": {
+    "de": "Staat in Südeuropa, mit Territorium in Afrika",
+    "en": "country in southwestern Europe with territories in Africa"
+  },
+  "id": "Q29",
+  "instance_of": [
+    "Q1250464",
+    "Q179671",
+    "Q3624078",
+    "Q51576574",
+    "Q6256"
+  ],
+  "labels": {
+    "de": "Spanien",
+    "en": "Spain"
+  }
+}

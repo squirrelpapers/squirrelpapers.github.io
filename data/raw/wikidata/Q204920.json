@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 41.788806,
+    "lon": -0.643417
+  },
+  "country": [],
+  "descriptions": {
+    "de": "historischer Staat",
+    "en": "composite monarchy which existed between 1162–1716"
+  },
+  "id": "Q204920",
+  "instance_of": [
+    "Q1102202",
+    "Q188800",
+    "Q3024240",
+    "Q3624078",
+    "Q5156764",
+    "Q5473816"
+  ],
+  "labels": {
+    "de": "Krone Aragon",
+    "en": "Crown of Aragon"
+  }
+}

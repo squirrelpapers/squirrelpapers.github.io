@@ -1,0 +1,20 @@
+{
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "historischer Staat in Südwestdeutschland (1495–1806)",
+    "en": "former German state (1495-1803)"
+  },
+  "id": "Q2227570",
+  "instance_of": [
+    "Q154547",
+    "Q19953632",
+    "Q26830017",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Herzogtum Württemberg",
+    "en": "Duchy of Württemberg"
+  }
+}

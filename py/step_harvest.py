@@ -68,7 +68,21 @@ COUNTRY_QIDS = {
     "uk": "Q145", "united kingdom": "Q145", "england": "Q145", "scotland": "Q145",
     "netherlands": "Q55", "norway": "Q20",
 }
-DEFAULT_COUNTRY = "Q183"    # most events without a country in the label were in Germany
+DEFAULT_COUNTRY = "Q183"
+
+# Stations share names with what they serve ('U-Bahnhof Deutsches
+# Bergbau-Museum'); they are never the place of an event.
+STATION_TYPES = {"Q55488", "Q928830", "Q2175765", "Q22808403", "Q4663385",
+                 "Q953806", "Q55485", "Q1793804", "Q18543139"}
+
+
+def distance_km(a: dict, b: dict) -> float:
+    import math
+
+    lat1, lon1, lat2, lon2 = map(math.radians, (a["lat"], a["lon"], b["lat"], b["lon"]))
+    h = (math.sin((lat2 - lat1) / 2) ** 2
+         + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2)
+    return 6371 * 2 * math.asin(math.sqrt(h))    # most events without a country in the label were in Germany
 
 COUNTRY_WORDS = {
     "germany", "deutschland", "france", "italy", "spain", "spanien", "austria",
@@ -164,12 +178,18 @@ def harvest_zenodo(http, wanted: dict[str, list[str]]) -> dict[str, str]:
             write_json(data, path)
             status.pop(record_id, None)
             print(f"  [{number}/{len(wanted)}] {record_id} ok")
-        else:
-            status[record_id] = str(code)
+        elif isinstance(code, int) and 400 <= code < 500:
+            status[record_id] = str(code)      # a real answer (404, 410): remembered
             print(f"  [{number}/{len(wanted)}] {record_id} -> {code}")
+        else:
+            # Network trouble is not a fact about the record: not remembered,
+            # so the next run tries again.
+            print(f"  [{number}/{len(wanted)}] {record_id} -> {code} (will retry next run)")
         time.sleep(ZENODO_DELAY)
     write_json(dict(sorted(status.items())), ZENODO_STATUS)
-    print(f"zenodo: {fetched} requests, {len(wanted) - len(status)} of {len(wanted)} cached")
+    cached = sum(1 for rid in wanted if (RAW_ZENODO / f"{rid}.json").exists())
+    print(f"zenodo: {fetched} requests, {cached} of {len(wanted)} cached, "
+          f"{sum(1 for rid in wanted if rid in status)} known as unavailable")
     return status
 
 
@@ -257,31 +277,56 @@ def search_terms(label: str) -> list[str]:
     return out
 
 
+def place_terms(place: dict) -> list[str]:
+    """The search terms for a place: the hand-written `search:` list in
+    content/places.yaml if there is one, otherwise derived from the label."""
+    given = place.get("search")
+    if isinstance(given, str):
+        given = [given]
+    return list(given) if given else search_terms(place["label"])
+
+
 def search_places(http, places: list[dict]) -> list[str]:
-    """Search Wikidata for every place without a QID. Returns candidate QIDs."""
+    """Search Wikidata for every place without a QID. Returns candidate QIDs.
+
+    A cached search is reused only if it was made with the same terms; adding
+    or changing `search:` for a place in content/places.yaml searches again.
+    """
     candidates = set()
+    failed = []
     for place in places:
         if place.get("wikidata"):
             continue
+        terms = place_terms(place)
         path = RAW_SEARCH / f"{place['key']}.json"
-        if path.exists() and not os.environ.get("SQP_REFRESH"):
-            answers = read_json(path)["answers"]
+        cached = read_json(path) if path.exists() else None
+        if cached and cached.get("terms") == terms and not os.environ.get("SQP_REFRESH"):
+            answers = cached["answers"]
         else:
             answers = {}
-            for term in search_terms(place["label"]):
+            ok = True
+            for term in terms:
                 for lang in ("en", "de"):
                     code, data = get_json(http, WIKIDATA_API, {
                         "action": "wbsearchentities", "search": term, "language": lang,
                         "uselang": "en", "type": "item", "limit": 5, "format": "json",
                     })
-                    hits = data.get("search", []) if code == 200 and data else []
+                    if code != 200 or data is None:
+                        ok = False          # never cache a failed search as "no hits"
+                        continue
+                    hits = data.get("search", [])
                     answers[f"{term} [{lang}]"] = [
                         {"id": h["id"], "label": h.get("label", ""),
                          "description": h.get("description", "")} for h in hits]
                     time.sleep(WIKIDATA_DELAY)
-            write_json({"label": place["label"], "answers": answers}, path)
+            if not ok:
+                failed.append(place["key"])
+                continue
+            write_json({"label": place["label"], "terms": terms, "answers": answers}, path)
         for hits in answers.values():
             candidates.update(h["id"] for h in hits[:3])
+    if failed:
+        print(f"wikidata search failed (not cached, retried next run): {', '.join(failed)}")
     return sorted(candidates)
 
 
@@ -319,10 +364,34 @@ def rank_candidates(place: dict) -> list[dict]:
     path = RAW_SEARCH / f"{place['key']}.json"
     if not path.exists():
         return []
-    answers = read_json(path)["answers"]
+    cached = read_json(path)
+    if cached.get("terms") != place_terms(place):
+        return []                       # search terms changed; the next harvest searches
+    answers = cached["answers"]
+    # The cache is written with sorted keys, so its order says nothing about
+    # which term came first. The order comes from the terms themselves: the
+    # venue is always searched before the city (first real run: 'Bochum [de]'
+    # sorted before 'Deutsches Bergbau-Museum [en]' and the city won).
+    terms = place_terms(place)
+    order = {f"{t} [{lang}]": i for i, t in enumerate(terms) for lang in ("en", "de")}
+    keys = sorted(answers, key=lambda k: (order.get(k, 99), not k.endswith("[en]")))
     country, stated = label_country(place["label"])
+    # Where the city is: the first hit with coordinates for the second term, if
+    # the label has a city part. A venue far from it is a namesake elsewhere
+    # ('Hochschule für Technik und Wirtschaft' -> HTW Berlin for a Dresden event).
+    city = None
+    if len(terms) > 1:
+        for lang in ("en", "de"):
+            for hit in answers.get(f"{terms[1]} [{lang}]", [])[:3]:   # [venue, city, ...]
+                item = entity(hit["id"]) or {}
+                if item.get("coordinates") and (not item.get("country") or country in item["country"]):
+                    city = item["coordinates"]
+                    break
+            if city:
+                break
     scored: dict[str, float] = {}
-    for rank_term, (term, hits) in enumerate(answers.items()):
+    for key in keys:
+        rank_term, hits, term = order.get(key, 99), answers[key], key.rsplit(" [", 1)[0]
         for rank_hit, hit in enumerate(hits[:3]):
             item = entity(hit["id"]) or {}
             score = 10 - rank_term - rank_hit * 0.5
@@ -334,7 +403,17 @@ def rank_candidates(place: dict) -> list[dict]:
                 elif stated:
                     score -= 4
             label = item.get("labels", {}).get("en") or hit.get("label", "")
-            score += 3 * difflib.SequenceMatcher(None, norm(label), norm(term.split(" [")[0])).ratio()
+            similarity = max(difflib.SequenceMatcher(None, norm(name), norm(term)).ratio()
+                             for name in [label, hit.get("label", "")] + list(item.get("labels", {}).values()))
+            score += 3 * similarity
+            # A venue that clearly matches beats its city (PRIMER A4: venue if
+            # known, otherwise city).
+            if rank_term == 0 and len(terms) > 1 and similarity >= 0.7 and item.get("coordinates"):
+                score += 6
+            if set(item.get("instance_of", [])) & STATION_TYPES:
+                score -= 8
+            if city and item.get("coordinates") and distance_km(city, item["coordinates"]) > 50:
+                score -= 8
             scored[hit["id"]] = max(scored.get(hit["id"], -99), score)
     ordered = sorted(scored, key=lambda q: (-scored[q], int(q[1:])))
     out = []
@@ -466,7 +545,7 @@ def write_report() -> None:
                              + "; ".join(f"{a['id']} {cell(describe(a))}" for a in ranked[1:])
                              + " |")
             else:
-                proposal.append("  wikidata: null   # no candidate found")
+                proposal.append("  wikidata: null   # no candidate (yet) - run the harvest")
                 lines.append(f"| {cell(place['label'])} | – | – |")
         proposal.append(f"  entries: {place.get('entries', 0)}")
     write_text(REPORT, "\n".join(lines) + "\n")

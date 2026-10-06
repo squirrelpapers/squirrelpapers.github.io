@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 52.52,
+    "lon": 13.375
+  },
+  "country": [
+    "Q1206012"
+  ],
+  "descriptions": {
+    "de": "Name des deutschen Nationalstaates (1871–1945), Bezeichnung Gesamtdeutschlands bis 1949",
+    "en": "official name for the German nation state from 1871 to 1945, and name of Germany until 1949"
+  },
+  "id": "Q1206012",
+  "instance_of": [
+    "Q11514315",
+    "Q179671",
+    "Q19953632",
+    "Q3024240",
+    "Q960541"
+  ],
+  "labels": {
+    "de": "Deutsches Reich",
+    "en": "German Reich"
+  }
+}

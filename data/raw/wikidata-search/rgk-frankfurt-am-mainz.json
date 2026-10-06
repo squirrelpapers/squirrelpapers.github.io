@@ -1,61 +1,97 @@
 {
   "answers": {
-    "Frankfurt am Mainz [de]": [],
-    "Frankfurt am Mainz [en]": [],
-    "RGK [de]": [
+    "Frankfurt am Main [de]": [
+      {
+        "description": "most populated city of Hesse, Germany",
+        "id": "Q1794",
+        "label": "Frankfurt"
+      },
+      {
+        "description": "cemetery in Frankfurt am Main, Hesse, Germany",
+        "id": "Q881481",
+        "label": "Frankfurt Main Cemetery"
+      },
+      {
+        "description": "art museum in Frankfurt, Germany",
+        "id": "Q163804",
+        "label": "Städel Museum"
+      },
+      {
+        "description": "2001 Berlin-class replenishment ship",
+        "id": "Q833965",
+        "label": "Frankfurt am Main"
+      },
+      {
+        "description": "main railway station in Frankfurt, Germany",
+        "id": "Q165368",
+        "label": "Frankfurt (Main) Hbf"
+      }
+    ],
+    "Frankfurt am Main [en]": [
+      {
+        "description": "most populated city of Hesse, Germany",
+        "id": "Q1794",
+        "label": "Frankfurt"
+      },
+      {
+        "description": "2001 Berlin-class replenishment ship",
+        "id": "Q833965",
+        "label": "Frankfurt am Main"
+      },
+      {
+        "description": "cemetery in Frankfurt am Main, Hesse, Germany",
+        "id": "Q881481",
+        "label": "Frankfurt Main Cemetery"
+      },
+      {
+        "description": "art museum in Frankfurt, Germany",
+        "id": "Q163804",
+        "label": "Städel Museum"
+      },
+      {
+        "description": "biggest airport of Germany, located in Frankfurt, Hesse",
+        "id": "Q46033",
+        "label": "Frankfurt Airport"
+      }
+    ],
+    "Römisch-Germanische Kommission [de]": [
       {
         "description": "institution",
         "id": "Q1425831",
         "label": "Deutsches Archäologisches Institut. Römisch-Germanische Kommission"
       },
       {
-        "description": "InterPro Family",
-        "id": "Q24724677",
-        "label": "Ras-related small G protein, RGK family"
+        "description": "library in Germany",
+        "id": "Q28739191",
+        "label": "Römisch-Germanische Kommission des Deutschen Archäologischen Instituts, Bibliothek"
       },
       {
-        "description": "airport in Russia",
-        "id": "Q2529510",
-        "label": "Gorno-Altaysk Airport"
-      },
-      {
-        "description": "Asia's first Private medical school in Kolkata, West Bengal (Now Public)",
-        "id": "Q7152833",
-        "label": "R. G. Kar Medical College and Hospital"
-      },
-      {
-        "description": "airport in Wisconsin, United States of America",
-        "id": "Q7305240",
-        "label": "Red Wing Regional Airport"
+        "description": "",
+        "id": "Q59179271",
+        "label": "Römisch-germanische Kommission des deutschen Archäologisches Instituts. Römisch-germanische Forschungen, Band 8. Die Kelten in Württemberg. Von Kurt Bittel. 12½ × 9½. Pp. iv + 128. Berlin and Leipzig: Walter de Gruyter. 1934. RM 22"
       }
     ],
-    "RGK [en]": [
+    "Römisch-Germanische Kommission [en]": [
       {
-        "description": "InterPro Family",
-        "id": "Q24724677",
-        "label": "Ras-related small G protein, RGK family"
+        "description": "institution",
+        "id": "Q1425831",
+        "label": "Deutsches Archäologisches Institut. Römisch-Germanische Kommission"
       },
       {
-        "description": "airport in Russia",
-        "id": "Q2529510",
-        "label": "Gorno-Altaysk Airport"
+        "description": "",
+        "id": "Q59179271",
+        "label": "Römisch-germanische Kommission des deutschen Archäologisches Instituts. Römisch-germanische Forschungen, Band 8. Die Kelten in Württemberg. Von Kurt Bittel. 12½ × 9½. Pp. iv + 128. Berlin and Leipzig: Walter de Gruyter. 1934. RM 22"
       },
       {
-        "description": "Asia's first Private medical school in Kolkata, West Bengal (Now Public)",
-        "id": "Q7152833",
-        "label": "R. G. Kar Medical College and Hospital"
-      },
-      {
-        "description": "airport in Wisconsin, United States of America",
-        "id": "Q7305240",
-        "label": "Red Wing Regional Airport"
-      },
-      {
-        "description": "protein-coding gene in the species Rattus norvegicus",
-        "id": "Q24372732",
-        "label": "Dlgap1"
+        "description": "library in Germany",
+        "id": "Q28739191",
+        "label": "Römisch-Germanische Kommission des Deutschen Archäologischen Instituts, Bibliothek"
       }
     ]
   },
-  "label": "RGK, Frankfurt am Mainz"
+  "label": "RGK, Frankfurt am Mainz",
+  "terms": [
+    "Römisch-Germanische Kommission",
+    "Frankfurt am Main"
+  ]
 }

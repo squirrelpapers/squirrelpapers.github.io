@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 45.8,
+    "lon": 15.966667
+  },
+  "country": [
+    "Q28513"
+  ],
+  "descriptions": {
+    "de": "autonomes Reich in der Habsburger Monarchie, Nebenland Ungarns",
+    "en": "administrative division that existed between 1868 and 1918 within the Austro-Hungary"
+  },
+  "id": "Q533558",
+  "instance_of": [
+    "Q1151405",
+    "Q3024240",
+    "Q41614",
+    "Q681026",
+    "Q696970"
+  ],
+  "labels": {
+    "de": "Königreich Kroatien und Slawonien",
+    "en": "Kingdom of Croatia-Slavonia"
+  }
+}

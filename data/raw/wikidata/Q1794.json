@@ -1,0 +1,44 @@
+{
+  "coordinates": {
+    "lat": 50.110556,
+    "lon": 8.682222
+  },
+  "country": [
+    "Q1206012",
+    "Q12548",
+    "Q146246",
+    "Q151624",
+    "Q153080",
+    "Q183",
+    "Q2415901",
+    "Q27306",
+    "Q41304",
+    "Q704300",
+    "Q704312",
+    "Q713750",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "bevölkerungsreichste Stadt in Hessen, Deutschland",
+    "en": "most populated city of Hesse, Germany"
+  },
+  "id": "Q1794",
+  "instance_of": [
+    "Q1066984",
+    "Q1187811",
+    "Q13218276",
+    "Q1375749",
+    "Q1549591",
+    "Q208511",
+    "Q42744322",
+    "Q486972",
+    "Q515",
+    "Q57318",
+    "Q61980648",
+    "Q745456"
+  ],
+  "labels": {
+    "de": "Frankfurt am Main",
+    "en": "Frankfurt"
+  }
+}

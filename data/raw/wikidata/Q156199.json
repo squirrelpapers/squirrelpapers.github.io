@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 51.033333,
+    "lon": 13.733333
+  },
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "Land des Heiligen Römischen Reiches (1356–1806), durch Erhebung des Herzogtums Sachsen-Wittenberg zum Kurfürstentum entstanden",
+    "en": "state of the Holy Roman Empire, established when Emperor Charles IV raised the Ascanian duchy of Saxe-Wittenberg to the status of an Electorate 1356"
+  },
+  "id": "Q156199",
+  "instance_of": [
+    "Q20521456",
+    "Q26830017",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Kurfürstentum Sachsen",
+    "en": "Electorate of Saxony"
+  }
+}

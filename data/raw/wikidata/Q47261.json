@@ -1,0 +1,17 @@
+{
+  "country": [],
+  "descriptions": {
+    "de": "Herzogtum innerhalb des Heiligen Römischen Reiches (907–1805)",
+    "en": "Duchy of the Holy Roman Empire (907–1805)"
+  },
+  "id": "Q47261",
+  "instance_of": [
+    "Q26830017",
+    "Q3024240",
+    "Q617347"
+  ],
+  "labels": {
+    "de": "Herzogtum Bayern",
+    "en": "Duchy of Bavaria"
+  }
+}

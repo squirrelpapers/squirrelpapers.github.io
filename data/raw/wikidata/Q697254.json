@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 51.963032,
+    "lon": 7.625628
+  },
+  "country": [
+    "Q12548"
+  ],
+  "descriptions": {
+    "de": "geistliches Territorium des Heiligen Römischen Reiches Deutscher Nation",
+    "en": "ecclesiastical principality in the Holy Roman Empire"
+  },
+  "id": "Q697254",
+  "instance_of": [
+    "Q463742"
+  ],
+  "labels": {
+    "de": "Hochstift Münster",
+    "en": "Prince-Bishopric of Münster"
+  }
+}

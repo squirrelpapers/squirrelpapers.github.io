@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 53,
+    "lon": -8
+  },
+  "country": [
+    "Q27"
+  ],
+  "descriptions": {
+    "de": "Staat im Nordwesten Europas, der fünf Sechstel der Insel Irland umfasst",
+    "en": "country in Northwestern Europe"
+  },
+  "id": "Q27",
+  "instance_of": [
+    "Q112099",
+    "Q127693126",
+    "Q3624078",
+    "Q6256"
+  ],
+  "labels": {
+    "de": "Irland",
+    "en": "Ireland"
+  }
+}

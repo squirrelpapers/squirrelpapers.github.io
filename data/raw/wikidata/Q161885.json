@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 51.5,
+    "lon": -0.133333
+  },
+  "country": [
+    "Q161885"
+  ],
+  "descriptions": {
+    "de": "historischer Staat (1707–1801)",
+    "en": "constitutional monarchy in Western Europe (1707–1800)"
+  },
+  "id": "Q161885",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078",
+    "Q417175"
+  ],
+  "labels": {
+    "de": "Königreich Großbritannien",
+    "en": "Kingdom of Great Britain"
+  }
+}

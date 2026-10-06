@@ -1,7 +1,87 @@
 {
   "answers": {
-    "DBM Bochum [de]": [],
-    "DBM Bochum [en]": []
+    "Bochum [de]": [
+      {
+        "description": "city in North Rhine-Westphalia, Germany",
+        "id": "Q2103",
+        "label": "Bochum"
+      },
+      {
+        "description": "",
+        "id": "Q31916839",
+        "label": "Bochum"
+      },
+      {
+        "description": "town in the Limpopo province, South Africa",
+        "id": "Q1150364",
+        "label": "Senwabarwana"
+      },
+      {
+        "description": "metro station in Bochum",
+        "id": "Q56037416",
+        "label": "Hauptbahnhof metro station"
+      },
+      {
+        "description": "urban district of Bochum, Germany",
+        "id": "Q492224",
+        "label": "Wattenscheid"
+      }
+    ],
+    "Bochum [en]": [
+      {
+        "description": "city in North Rhine-Westphalia, Germany",
+        "id": "Q2103",
+        "label": "Bochum"
+      },
+      {
+        "description": "metro station in Bochum",
+        "id": "Q56037416",
+        "label": "Hauptbahnhof metro station"
+      },
+      {
+        "description": "",
+        "id": "Q31916839",
+        "label": "Bochum"
+      },
+      {
+        "description": "town in the Limpopo province, South Africa",
+        "id": "Q1150364",
+        "label": "Senwabarwana"
+      },
+      {
+        "description": "",
+        "id": "Q66630445",
+        "label": "Bochum 1"
+      }
+    ],
+    "Deutsches Bergbau-Museum [de]": [
+      {
+        "description": "",
+        "id": "Q20170786",
+        "label": "U-Bahnhof Deutsches Bergbau-Museum"
+      },
+      {
+        "description": "museum",
+        "id": "Q896952",
+        "label": "German Mining Museum"
+      }
+    ],
+    "Deutsches Bergbau-Museum [en]": [
+      {
+        "description": "",
+        "id": "Q20170786",
+        "label": "U-Bahnhof Deutsches Bergbau-Museum"
+      },
+      {
+        "description": "museum",
+        "id": "Q896952",
+        "label": "German Mining Museum"
+      }
+    ]
   },
-  "label": "DBM Bochum, Germany"
+  "label": "DBM Bochum, Germany",
+  "terms": [
+    "Deutsches Bergbau-Museum",
+    "Bochum"
+  ]
 }

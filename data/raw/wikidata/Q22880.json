@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 49.5,
+    "lon": 8.016669
+  },
+  "country": [
+    "Q22880"
+  ],
+  "descriptions": {
+    "de": "Bezeichnung für ein bis 1803 bestehendes Territorium des Alten Reiches",
+    "en": "state of the Holy Roman Empire (1085–1803)"
+  },
+  "id": "Q22880",
+  "instance_of": [
+    "Q20521456",
+    "Q26830017",
+    "Q2991489",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Kurpfalz",
+    "en": "Electoral Palatinate"
+  }
+}

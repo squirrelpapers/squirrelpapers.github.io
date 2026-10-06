@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 48.2,
+    "lon": 16.366667
+  },
+  "country": [
+    "Q153136"
+  ],
+  "descriptions": {
+    "de": "1278–1918 von den Habsburgern in Personalunion regierte Territorien in Mitteleuropa",
+    "en": "monarchy in Europe (1282–1918)"
+  },
+  "id": "Q153136",
+  "instance_of": [
+    "Q188800",
+    "Q26830017",
+    "Q3024240",
+    "Q5156764"
+  ],
+  "labels": {
+    "de": "Habsburgermonarchie",
+    "en": "Habsburg monarchy"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 45.25,
+    "lon": 15.466667
+  },
+  "country": [
+    "Q224"
+  ],
+  "descriptions": {
+    "de": "Staat in Südosteuropa",
+    "en": "country in Central Europe"
+  },
+  "id": "Q224",
+  "instance_of": [
+    "Q179164",
+    "Q3624078",
+    "Q51576574",
+    "Q6256"
+  ],
+  "labels": {
+    "de": "Kroatien",
+    "en": "Croatia"
+  }
+}

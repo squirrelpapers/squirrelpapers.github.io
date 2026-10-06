@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 48.7775,
+    "lon": 9.18
+  },
+  "country": [
+    "Q43287"
+  ],
+  "descriptions": {
+    "de": "ehemaliger Staat im Südwesten des heutigen Deutschlands (1806–1918)",
+    "en": "kingdom in Central Europe between 1806–1918, from January 1871 part of the German Empire"
+  },
+  "id": "Q159631",
+  "instance_of": [
+    "Q113136497",
+    "Q26879769",
+    "Q3024240",
+    "Q3624078",
+    "Q4057683"
+  ],
+  "labels": {
+    "de": "Königreich Württemberg",
+    "en": "Kingdom of Württemberg"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "coordinates": {
+    "lat": 48.865278,
+    "lon": 2.327222
+  },
+  "country": [
+    "Q142"
+  ],
+  "descriptions": {
+    "de": "Frankreich nach der Revolution bis zum Ersten Kaiserreich (1792 - 1804)",
+    "en": "republic governing France, 1792–1804"
+  },
+  "id": "Q58296",
+  "instance_of": [
+    "Q17152708",
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Erste Französische Republik",
+    "en": "French First Republic"
+  }
+}

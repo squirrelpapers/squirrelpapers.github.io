@@ -1,0 +1,27 @@
+{
+  "coordinates": {
+    "lat": 49.016667,
+    "lon": 8.4
+  },
+  "country": [
+    "Q1206012",
+    "Q151624",
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "ehemaliger deutscher Staat (1806–1918)",
+    "en": "German grand duchy (1806-1918)"
+  },
+  "id": "Q186320",
+  "instance_of": [
+    "Q107390",
+    "Q113136497",
+    "Q165116",
+    "Q26879769",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Großherzogtum Baden",
+    "en": "Grand Duchy of Baden"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "country": [
+    "Q142",
+    "Q7318"
+  ],
+  "descriptions": {
+    "de": "Besetzung französischen Staatsgebietes durch den NS-Staat",
+    "en": "1940 interim occupation authority established by Nazi Germany during World War II"
+  },
+  "id": "Q2748708",
+  "instance_of": [
+    "Q11514315",
+    "Q2889084"
+  ],
+  "labels": {
+    "de": "Deutsche Besetzung Frankreichs 1940–1945",
+    "en": "German military administration in occupied France during World War II"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 47,
+    "lon": 2
+  },
+  "country": [
+    "Q70972"
+  ],
+  "descriptions": {
+    "de": "historischer westeuropäischer Staat",
+    "en": "monarchical state that ruled France from 987 to 1792, and again from 1814 to 1848 (except during the Hundred Days in 1815)"
+  },
+  "id": "Q70972",
+  "instance_of": [
+    "Q20181813",
+    "Q3024240",
+    "Q3624078",
+    "Q417175"
+  ],
+  "labels": {
+    "de": "Königreich Frankreich",
+    "en": "Kingdom of France"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 50.733889,
+    "lon": 7.099722
+  },
+  "country": [],
+  "descriptions": {
+    "de": "Westdeutschland einschließlich West-Berlin 1949–1990",
+    "en": "Federal Republic of Germany in the period between its formation on 23 May 1949 and German reunification on 3 October 1990"
+  },
+  "id": "Q713750",
+  "instance_of": [
+    "Q11514315",
+    "Q3024240",
+    "Q3624078",
+    "Q7275"
+  ],
+  "labels": {
+    "de": "Bundesrepublik Deutschland bis 1990",
+    "en": "West Germany"
+  }
+}

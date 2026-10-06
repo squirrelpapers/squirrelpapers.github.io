@@ -1,0 +1,25 @@
+{
+  "coordinates": {
+    "lat": 53,
+    "lon": 14
+  },
+  "country": [
+    "Q43287"
+  ],
+  "descriptions": {
+    "de": "ehemaliger europäischer Staat (1701–1918), ab 1871 Teil des Deutschen Reichs",
+    "en": "former European state (1701–1918), part of the German Empire after 1871"
+  },
+  "id": "Q27306",
+  "instance_of": [
+    "Q107390",
+    "Q113136497",
+    "Q26830017",
+    "Q3024240",
+    "Q3624078"
+  ],
+  "labels": {
+    "de": "Königreich Preußen",
+    "en": "Kingdom of Prussia"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "coordinates": {
+    "lat": 52.516667,
+    "lon": 13.4
+  },
+  "country": [],
+  "descriptions": {
+    "de": "historischer Staat (1618–1701)",
+    "en": "former country (1618–1701)"
+  },
+  "id": "Q157367",
+  "instance_of": [
+    "Q188800",
+    "Q26830017",
+    "Q3024240"
+  ],
+  "labels": {
+    "de": "Brandenburg-Preußen",
+    "en": "Brandenburg-Prussia"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "coordinates": {
+    "lat": 50.12064,
+    "lon": 8.65729
+  },
+  "country": [
+    "Q183"
+  ],
+  "descriptions": {
+    "de": "Bibliothek",
+    "en": "library in Germany"
+  },
+  "id": "Q28739191",
+  "instance_of": [
+    "Q7075"
+  ],
+  "labels": {
+    "de": "Römisch-Germanische Kommission des Deutschen Archäologischen Instituts, Bibliothek"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "coordinates": {
+    "lat": 44.82,
+    "lon": 20.4275
+  },
+  "country": [
+    "Q83286"
+  ],
+  "descriptions": {
+    "de": "sozialistischer Staat in Südosteuropa (1945–1992)",
+    "en": "Central and Southeast European socialist state (1945–1992)"
+  },
+  "id": "Q83286",
+  "instance_of": [
+    "Q3024240",
+    "Q3624078",
+    "Q465613",
+    "Q512187"
+  ],
+  "labels": {
+    "de": "Sozialistische Föderative Republik Jugoslawien",
+    "en": "Socialist Federal Republic of Yugoslavia"
+  }
+}

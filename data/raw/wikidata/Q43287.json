@@ -1,0 +1,22 @@
+{
+  "coordinates": {
+    "lat": 52.518611,
+    "lon": 13.376111
+  },
+  "country": [],
+  "descriptions": {
+    "de": "Bezeichnung für das Deutsche Reich von 1871 bis 1918",
+    "en": "German nation-state in Central Europe from 1871 to 1918"
+  },
+  "id": "Q43287",
+  "instance_of": [
+    "Q11514315",
+    "Q3024240",
+    "Q3624078",
+    "Q48349"
+  ],
+  "labels": {
+    "de": "Deutsches Kaiserreich",
+    "en": "German Empire"
+  }
+}
