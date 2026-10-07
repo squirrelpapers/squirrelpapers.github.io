@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../../v3/i1/e8/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../../v3/i1/e8/index.jsonld">
 <link rel="icon" type="image/png" href="../../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v3/i1/e8", "@type": "SoftwareSourceCode", "abstract": "Characteristic of the North African bowls, plates, and jugs are their pictorial decorations applied mainly by appliqués and stamps. As mass-produced image carriers and everyday objects, the ARS spread throughout the empire.\nThe range of motifs includes mythological scenes as well as scenes from the Old and New Testament, circus, arena and hunting scenes as well as fish and plant motifs. The appliqués-decorated pottery thus provides insights into Late Antique imagination and its changes, as well as into the economic history of the period between the 3rd and 5th centuries AD in North Africa.\nPrevious documentation methods were not able to capture the objects and their decoration in an adequate way. The digital recording of the RGZM's collections by 3D scans allows to compare potentially identical appliqués and to assign them to their negative forms and the corresponding stamps.\nWhereas vessel curvature previously falsified the assignment of appliqués and models, 3D analysis and visualisation tools now allow a comparison . Metadata created for each object increases the effectiveness and accuracy of determining image context and content. Issues related to the production of the ARS and the process flows within the workshops can be investigated through the analysis of the 3D data.\nThe developed ontology uses CIDOC CRM and various extensions. The data mainly consists of objects (E24), on which e.g. applications (features, E25) can be found. These objects can be described semantically, e.g. by the shape or time epoch. Features are described with observations, e.g. a human type man standing and wearing a beard. These observations lead to interpretations whose arguments can be observations.", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}], "datePublished": "2021", "genre": "Software", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.5647864"}, "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v3/i1", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v3", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "3"}, "issueNumber": "1"}, "keywords": ["African Red Slip Ware"], "license": "https://spdx.org/licenses/MIT.html", "name": "African Red Slip Ware Digital (ARS3D) - Comparison-Script", "sameAs": ["https://doi.org/10.5281/zenodo.5647864"], "url": "https://squirrelpapers.github.io/v3/i1/e8/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../../de/volumes/" aria-current="page">Bände &amp; Hefte</a>
       <a href="../../../../de/search/">Suche</a>
       <a href="../../../../de/map/">Karte</a>
+      <a href="../../../../de/model/">Datenmodell</a>
       <a href="../../../../de/sparql/">SPARQL</a>
       <a href="../../../../de/impressum/">Impressum</a>
       <a href="../../../../de/privacy/">Datenschutz</a>
       <a class="lang-switch" href="../../../../v3/i1/e8/" hreflang="en" lang="en">English</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Zum dunklen Modus wechseln" data-to-light="Zum hellen Modus wechseln"
+              data-dark="Dunkel" data-light="Hell"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -117,6 +128,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -132,9 +179,9 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.5647864", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "genre": "Software", "id": "v3-i1-e8", "issue": "1", "issued": {"date-parts": [[2021]]}, "keyword": "African Red Slip Ware", "page": "#8", "title": "African Red Slip Ware Digital (ARS3D) - Comparison-Script", "type": "article-journal", "volume": "3"}</script>
-<script src="../../../../assets/js/citeproc.js" defer></script>
-<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../../assets/js/sqp-cite.js" defer></script>
+<script src="../../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
 
 
 </body>

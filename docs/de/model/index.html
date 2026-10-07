@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenmodell – Squirrel Papers</title>
+
+<link rel="canonical" href="https://squirrelpapers.github.io/de/model/">
+<link rel="alternate" hreflang="en" href="https://squirrelpapers.github.io/model/">
+<link rel="alternate" hreflang="de" href="https://squirrelpapers.github.io/de/model/">
+<link rel="icon" type="image/png" href="../../assets/img/sqp-logo.png">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../assets/css/sqp.css?v=23fea32b22">
+
+
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="../../de/">Squirrel Papers</a>
+    <span class="site-tagline">vom Research Squirrel Engineers Network</span>
+    <nav class="site-nav" aria-label="Hauptmenü">
+      <a href="../../de/">Start</a>
+      <a href="../../de/volumes/">Bände &amp; Hefte</a>
+      <a href="../../de/search/">Suche</a>
+      <a href="../../de/map/">Karte</a>
+      <a href="../../de/model/" aria-current="page">Datenmodell</a>
+      <a href="../../de/sparql/">SPARQL</a>
+      <a href="../../de/impressum/">Impressum</a>
+      <a href="../../de/privacy/">Datenschutz</a>
+      <a class="lang-switch" href="../../model/" hreflang="en" lang="en">English</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Zum dunklen Modus wechseln" data-to-light="Zum hellen Modus wechseln"
+              data-dark="Dunkel" data-light="Hell"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap">
+  <h1>Das Datenmodell</h1>
+  <p class="lead measure">Wie das Journal als Linked Data beschrieben ist - in DCAT für Kataloge, in CIDOC CRM für das kulturelle Erbe, und wie beides zusammenpasst. Die Grafiken werden bei jedem Build gegen den veröffentlichten Graphen geprüft.</p>
+  <noscript><p class="notice">Die Grafiken brauchen JavaScript; ohne erscheint ihr Mermaid-Quelltext.</p></noscript>
+
+  <div class="model-head">
+    <nav class="model-toc" aria-label="Auf dieser Seite">
+      <h2 class="small-heading">Auf dieser Seite</h2>
+      <ol><li><a href="#overview">Von YAML zum Wissensgraphen</a></li><li><a href="#structure">Journal, Band, Heft, Beitrag</a></li><li><a href="#dcat">Die DCAT-Schicht</a></li><li><a href="#crm">Die CIDOC-CRM-Schicht</a></li><li><a href="#bridge">Wie die beiden Schichten zusammenkommen</a></li><li><a href="#example">Ein Beitrag in beiden Graphen: 7(4), λ5</a></li><li><a href="#rules">Die Regeln, die der Graph einhalten muss</a></li><li><a href="#iris">Stabile IRIs</a></li></ol>
+    </nav>
+    <div class="model-legend">
+      <h2 class="small-heading">Farben in den Grafiken</h2>
+      <ul class="legend">
+        
+        <li><span class="swatch swatch-inst" aria-hidden="true"></span>Ressource des Journals</li>
+        
+        <li><span class="swatch swatch-real" aria-hidden="true"></span>Ding in der Welt</li>
+        
+        <li><span class="swatch swatch-cls" aria-hidden="true"></span>Klasse</li>
+        
+        <li><span class="swatch swatch-term" aria-hidden="true"></span>Vokabularbegriff</li>
+        
+        <li><span class="swatch swatch-ext" aria-hidden="true"></span>Identifikator anderswo</li>
+        
+        <li><span class="swatch swatch-prop" aria-hidden="true"></span>Wert oder Property</li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+  <section class="model-section" id="overview">
+    <h2>1. Von YAML zum Wissensgraphen</h2>
+    <div class="prose measure"><p>Alles auf dieser Seite stammt aus wenigen YAML-Dateien im Repository: dem Journal, einer Datei je Band, den Orten und dem Vokabular der Beitragstypen. Eine Python-Pipeline (<code>main.py</code>) reichert sie mit den zwischengespeicherten Zenodo-Datensätzen und Wikidata-Orten an und erzeugt aus denselben zusammengeführten Daten drei Dinge: die Webseiten, die Zitationen und den Wissensgraphen. Der Graph wird geprüft, abgefragt und kartiert, bevor die Seite geschrieben wird.</p></div>
+
+    
+    <figure class="diagram"><pre class="mermaid">flowchart LR
+  yaml([content/*.yaml]):::inst --&gt; merge[merge]:::prop
+  zen([Zenodo cache]):::ext --&gt; merge
+  wd([Wikidata cache]):::ext --&gt; merge
+  merge --&gt; json([entries.json]):::inst
+  json --&gt; cite[cite]:::prop --&gt; bib([BibTeX · RIS · CSL-JSON]):::inst
+  json --&gt; rdf[rdf]:::prop --&gt; dcat([DCAT graph]):::inst
+  rdf --&gt; crm([CIDOC CRM graph]):::inst
+  dcat --&gt; validate[validate · SHACL]:::prop
+  crm --&gt; validate
+  dcat --&gt; sparql[sparql]:::prop
+  dcat --&gt; map[map]:::prop
+  validate --&gt; site[site]:::prop
+  sparql --&gt; site
+  map --&gt; site
+  bib --&gt; site
+  site --&gt; pages([pages EN · DE]):::inst
+classDef inst fill:#e2e8f0,stroke:#000000,color:#000000
+classDef real fill:#166534,stroke:#000000,color:#ffffff
+classDef cls fill:#9a3412,stroke:#000000,color:#ffffff
+classDef term fill:#4c1d95,stroke:#000000,color:#ffffff
+classDef ext fill:#ffffff,stroke:#000000,color:#000000
+classDef prop fill:#fbbf24,stroke:#000000,color:#000000</pre></figure>
+    
+
+    
+
+    
+
+    
+  </section>
+  
+  <section class="model-section" id="structure">
+    <h2>2. Journal, Band, Heft, Beitrag</h2>
+    <div class="prose measure"><p>Das Journal ist ein Katalog von Bänden, ein Band eine Reihe von Heften, ein Heft eine Reihe von Beiträgen. Jede Ebene hat eine eigene stabile IRI unter <code>https://w3id.org/squirrelpapers/</code>, jeder Beitrag seine Datei auf Zenodo, seine Personen und - bei Vorträgen und Postern - die Veranstaltung, auf der er vorgestellt wurde, samt ihrem Ort. Die Typen stammen aus dem eigenen SKOS-Vokabular des Journals, abgebildet auf COAR und FaBiO.</p></div>
+
+    
+    <figure class="diagram"><pre class="mermaid">flowchart TB
+  J([Journal · /]):::inst
+  V([Volume 7 · /v7]):::inst
+  I([Issue 4 · /v7/i4]):::inst
+  E([Entry 5 · /v7/i4/e5]):::inst
+  D([PDF · /v7/i4/e5#pdf]):::inst
+  P([Person · /person/ORCID]):::real
+  EV([Event · /event/…]):::real
+  PL([Place · /place/…]):::real
+  T([Type · /type/poster]):::term
+  O([ORCID]):::ext
+  W([Wikidata]):::ext
+  Z([DOI · Zenodo]):::ext
+  J --&gt;|&#34;dcat:dataset&#34;| V
+  V --&gt;|&#34;dct:hasPart&#34;| I
+  I --&gt;|&#34;dct:hasPart&#34;| E
+  E --&gt;|&#34;dcat:distribution&#34;| D
+  E --&gt;|&#34;dct:creator&#34;| P
+  E --&gt;|&#34;bibo:presentedAt&#34;| EV
+  EV --&gt;|&#34;schema:location&#34;| PL
+  E --&gt;|&#34;dct:type&#34;| T
+  P --&gt;|&#34;owl:sameAs&#34;| O
+  PL --&gt;|&#34;owl:sameAs&#34;| W
+  E --&gt;|&#34;owl:sameAs&#34;| Z
+classDef inst fill:#e2e8f0,stroke:#000000,color:#000000
+classDef real fill:#166534,stroke:#000000,color:#ffffff
+classDef cls fill:#9a3412,stroke:#000000,color:#ffffff
+classDef term fill:#4c1d95,stroke:#000000,color:#ffffff
+classDef ext fill:#ffffff,stroke:#000000,color:#000000
+classDef prop fill:#fbbf24,stroke:#000000,color:#000000</pre></figure>
+    
+
+    
+
+    
+
+    
+  </section>
+  
+  <section class="model-section" id="dcat">
+    <h2>3. Die DCAT-Schicht</h2>
+    <div class="prose measure"><p>Der Hauptgraph beschreibt das Journal als Datenkatalog in <strong>DCAT 3</strong>, geprüft gegen das Profil <strong>DCAT-AP 3.0.1</strong> der Europäischen Union: Das Journal ist ein <code>dcat:Catalog</code>, Bände und Hefte sind <code>dcat:DatasetSeries</code>, Beiträge <code>dcat:Dataset</code> mit einer <code>dcat:Distribution</code> für das PDF. Bibliografische Vokabulare ergänzen, was DCAT nicht sagt: BIBO und FaBiO die Art der Publikation, PRISM Band- und Heftnummern, schema.org und FOAF Personen, Veranstaltungen und Orte, GeoSPARQL die Koordinaten, PROV den Zenodo-Datensatz, aus dem ein Beitrag stammt, SPDX die Prüfsummen. Die kleine <code>sqp:</code>-Ontologie enthält nur die eigene Nummerierung des Journals.</p></div>
+
+    
+    <figure class="diagram"><pre class="mermaid">flowchart LR
+  cat[&#34;dcat:Catalog&lt;br&gt;fabio:Journal&#34;]:::cls
+  ser[&#34;dcat:DatasetSeries&lt;br&gt;fabio:JournalVolume&#34;]:::cls
+  iss[&#34;dcat:DatasetSeries&lt;br&gt;fabio:JournalIssue&#34;]:::cls
+  ds[&#34;dcat:Dataset&lt;br&gt;bibo:Document · fabio:…&#34;]:::cls
+  dist[&#34;dcat:Distribution&#34;]:::cls
+  per[&#34;foaf:Person&lt;br&gt;schema:Person&#34;]:::cls
+  ev[&#34;event:Event&lt;br&gt;schema:Event&#34;]:::cls
+  pl[&#34;dct:Location&lt;br&gt;schema:Place · geo:Feature&#34;]:::cls
+  geom[&#34;geo:Geometry&#34;]:::cls
+  con[&#34;skos:Concept&#34;]:::term
+  cat --&gt;|&#34;dcat:dataset&#34;| ser
+  ser --&gt;|&#34;dct:isPartOf&#34;| cat
+  iss --&gt;|&#34;dcat:inSeries&#34;| ser
+  ds --&gt;|&#34;dcat:inSeries&#34;| iss
+  ds --&gt;|&#34;dcat:distribution&#34;| dist
+  ds --&gt;|&#34;dct:creator · dct:contributor&#34;| per
+  ds --&gt;|&#34;bibo:presentedAt&#34;| ev
+  ds --&gt;|&#34;dct:type&#34;| con
+  ev --&gt;|&#34;schema:location&#34;| pl
+  pl --&gt;|&#34;geo:hasGeometry&#34;| geom
+  ds --- lbl[/&#34;sqp:citationLabel · sqp:entryNumber&#34;/]:::prop
+  iss --- sig[/&#34;sqp:sigil&#34;/]:::prop
+  geom --- wkt[/&#34;geo:asWKT&#34;/]:::prop
+classDef inst fill:#e2e8f0,stroke:#000000,color:#000000
+classDef real fill:#166534,stroke:#000000,color:#ffffff
+classDef cls fill:#9a3412,stroke:#000000,color:#ffffff
+classDef term fill:#4c1d95,stroke:#000000,color:#ffffff
+classDef ext fill:#ffffff,stroke:#000000,color:#000000
+classDef prop fill:#fbbf24,stroke:#000000,color:#000000</pre></figure>
+    
+
+    
+
+    
+
+    
+  </section>
+  
+  <section class="model-section" id="crm">
+    <h2>4. Die CIDOC-CRM-Schicht</h2>
+    <div class="prose measure"><p>Ein zweiter Graph beschreibt dieselben Ressourcen in <strong>CIDOC CRM</strong> 7.1 mit den Erweiterungen <strong>LRMoo</strong> (Werke und Expressionen) und <strong>CRMdig</strong> (digitale Objekte). Wo DCAT Fakten als Eigenschaften des Beitrags nennt, erzählt CRM sie als Ereignisse: Ein Beitrag wurde von Personen (P14) in einer Zeitspanne (P4) <em>geschaffen</em> (E65 / F28); eine Konferenz ist eine Aktivität (E7), die den Beitrag benutzte (P16) und an einem Ort (P7) stattfand, der durch Koordinaten bestimmt ist (P168). Titel und Identifikatoren sind eigene Knoten (E35, E42) mit ihrem symbolischen Inhalt (P190).</p></div>
+
+    
+    <figure class="diagram"><pre class="mermaid">flowchart LR
+  e73[&#34;crm:E73_Information_Object&lt;br&gt;lrmoo:F2_Expression&#34;]:::cls
+  e65[&#34;crm:E65_Creation&lt;br&gt;lrmoo:F28_Expression_Creation&#34;]:::cls
+  e21[&#34;crm:E21_Person&#34;]:::cls
+  e52[&#34;crm:E52_Time-Span&#34;]:::cls
+  e7[&#34;crm:E7_Activity&#34;]:::cls
+  e53[&#34;crm:E53_Place&#34;]:::cls
+  e35[&#34;crm:E35_Title&#34;]:::cls
+  e42[&#34;crm:E42_Identifier&#34;]:::cls
+  e41[&#34;crm:E41_Appellation&#34;]:::cls
+  d1[&#34;crmdig:D1_Digital_Object&#34;]:::cls
+  f18[&#34;lrmoo:F18_Serial_Work&#34;]:::cls
+  e65 --&gt;|&#34;crm:P94_has_created&lt;br&gt;lrmoo:R17_created&#34;| e73
+  e65 --&gt;|&#34;crm:P14_carried_out_by&#34;| e21
+  e65 --&gt;|&#34;crm:P4_has_time-span&#34;| e52
+  e7 --&gt;|&#34;crm:P16_used_specific_object&#34;| e73
+  e7 --&gt;|&#34;crm:P7_took_place_at&#34;| e53
+  e7 --&gt;|&#34;crm:P1_is_identified_by&#34;| e41
+  e7 --&gt;|&#34;crm:P4_has_time-span&#34;| e52
+  e73 --&gt;|&#34;crm:P102_has_title&#34;| e35
+  e73 --&gt;|&#34;crm:P1_is_identified_by&#34;| e42
+  e21 --&gt;|&#34;crm:P1_is_identified_by&#34;| e42
+  d1 --&gt;|&#34;crm:P165_incorporates&#34;| e73
+  e73b[&#34;crm:E73_Information_Object&lt;br&gt;issue · volume&#34;]:::cls
+  e73 --&gt;|&#34;crm:P106i_forms_part_of&#34;| e73b
+  e73b --&gt;|&#34;crm:P106i_forms_part_of&#34;| f18
+  e53 --- wkt[/&#34;crm:P168_place_is_defined_by&#34;/]:::prop
+  e52 --- dates[/&#34;crm:P82a_begin_of_the_begin&lt;br&gt;crm:P82b_end_of_the_end&#34;/]:::prop
+  e42 --- sym[/&#34;crm:P190_has_symbolic_content&#34;/]:::prop
+classDef inst fill:#e2e8f0,stroke:#000000,color:#000000
+classDef real fill:#166534,stroke:#000000,color:#ffffff
+classDef cls fill:#9a3412,stroke:#000000,color:#ffffff
+classDef term fill:#4c1d95,stroke:#000000,color:#ffffff
+classDef ext fill:#ffffff,stroke:#000000,color:#000000
+classDef prop fill:#fbbf24,stroke:#000000,color:#000000</pre></figure>
+    
+
+    
+
+    
+
+    
+  </section>
+  
+  <section class="model-section" id="bridge">
+    <h2>5. Wie die beiden Schichten zusammenkommen</h2>
+    <div class="prose measure"><p>Beide Graphen verwenden dieselben IRIs. Ein Beitrag, eine Person, eine Veranstaltung oder ein Ort ist ein Knoten, einmal als Katalogeintrag und einmal als CRM-Entität beschrieben; lädt man beide Dateien in einen Store, verbinden sie sich ohne jede Abbildung. Die Tabelle liest dieselbe Tatsache auf beide Arten. Der DCAT-Graph bleibt für sich lesbar, und der CRM-Graph lässt sich ohne das Katalogvokabular in einen CRM-basierten Wissensgraphen wie den von NFDI4Objects übernehmen.</p></div>
+
+    
+
+    
+
+    
+    <div class="table-scroll">
+      <table class="model-table">
+        <thead><tr><th>Tatsache</th><th>DCAT-Graph</th><th>CIDOC-CRM-Graph</th></tr></thead>
+        <tbody>
+        <tr>
+          <td>wer ihn schrieb</td>
+          <td><code class="curies">dct:creator</code></td>
+          <td><code class="curies">crm:P94i_was_created_by / crm:P14_carried_out_by</code></td></tr>
+        <tr>
+          <td>wann</td>
+          <td><code class="curies">dct:issued</code></td>
+          <td><code class="curies">… / crm:P4_has_time-span / crm:P82a_begin_of_the_begin</code></td></tr>
+        <tr>
+          <td>sein Titel</td>
+          <td><code class="curies">dct:title</code></td>
+          <td><code class="curies">crm:P102_has_title / crm:P190_has_symbolic_content</code></td></tr>
+        <tr>
+          <td>seine DOI</td>
+          <td><code class="curies">bibo:doi</code></td>
+          <td><code class="curies">crm:P1_is_identified_by / crm:P190_has_symbolic_content</code></td></tr>
+        <tr>
+          <td>sein Typ</td>
+          <td><code class="curies">dct:type</code></td>
+          <td><code class="curies">crm:P2_has_type</code></td></tr>
+        <tr>
+          <td>wo er vorgestellt wurde</td>
+          <td><code class="curies">bibo:presentedAt / schema:location</code></td>
+          <td><code class="curies">crm:P16i_was_used_for / crm:P7_took_place_at</code></td></tr>
+        <tr>
+          <td>sein PDF</td>
+          <td><code class="curies">dcat:distribution</code></td>
+          <td><code class="curies">crm:P165i_is_incorporated_in</code></td></tr>
+        <tr>
+          <td>sein Heft</td>
+          <td><code class="curies">dcat:inSeries</code></td>
+          <td><code class="curies">crm:P106i_forms_part_of</code></td></tr>
+        
+        </tbody>
+      </table>
+    </div>
+    
+
+    
+  </section>
+  
+  <section class="model-section" id="example">
+    <h2>6. Ein Beitrag in beiden Graphen: 7(4), λ5</h2>
+    <div class="prose measure"><p>Vom Build aus den veröffentlichten Graphen gezeichnet, nicht von Hand: der Beitrag <em>Brückenbau zwischen LOD und RSE</em> mit Heft, Person, Veranstaltung, Ort und Datei - erst als DCAT, dann als CIDOC CRM. Die vollständige Beschreibung steht in <a href="../../v7/i4/e5/index.ttl">index.ttl</a> neben der Beitragsseite.</p></div>
+
+    
+
+    
+    <div class="diagram-pair">
+      
+      <figure class="diagram"><figcaption>DCAT</figcaption><pre class="mermaid">flowchart LR
+  n0(&#34;/v7/i4/e5&lt;br&gt;&lt;small&gt;bibo:Document · dcat:Dataset&lt;/small&gt;&#34;):::inst
+  n1[/&#34;7(4), λ5&#34;/]:::prop
+  n2[/&#34;2025-09-30&#34;/]:::prop
+  n3(&#34;/v7/i4&lt;br&gt;&lt;small&gt;dcat:DatasetSeries · fabio:JournalIssue&lt;/small&gt;&#34;):::inst
+  n4(&#34;sqpt:conference-paper&lt;br&gt;&lt;small&gt;skos:Concept&lt;/small&gt;&#34;):::term
+  n5(&#34;Florian Thiery&lt;br&gt;&lt;small&gt;foaf:Person · schema:Person&lt;/small&gt;&#34;):::real
+  n6(&#34;NFDI4Objects Community Meeting 2025&lt;br&gt;&lt;small&gt;event:Event · schema:Event&lt;/small&gt;&#34;):::real
+  n7(&#34;/v7/i4/e5#pdf&lt;br&gt;&lt;small&gt;dcat:Distribution&lt;/small&gt;&#34;):::inst
+  n8[&#34;https://doi.org/10.5281/zenodo.16875678&#34;]:::ext
+  n9(&#34;German Mining Museum&lt;br&gt;&lt;small&gt;dct:Location · geo:Feature&lt;/small&gt;&#34;):::real
+  n10[&#34;wd:Q896952&#34;]:::ext
+  n11[&#34;iana:application/pdf&lt;br&gt;&lt;small&gt;dct:MediaType&lt;/small&gt;&#34;]:::ext
+  n12[/&#34;3050344&#34;/]:::prop
+  n13[&#34;https://orcid.org/0000-0002-3246-3531&#34;]:::ext
+  n0 --&gt;|&#34;sqp:citationLabel&#34;| n1
+  n0 --&gt;|&#34;dct:issued&#34;| n2
+  n0 --&gt;|&#34;dcat:inSeries&#34;| n3
+  n0 --&gt;|&#34;dct:type&#34;| n4
+  n0 --&gt;|&#34;dct:creator&#34;| n5
+  n0 --&gt;|&#34;bibo:presentedAt&#34;| n6
+  n0 --&gt;|&#34;dcat:distribution&#34;| n7
+  n0 --&gt;|&#34;owl:sameAs&#34;| n8
+  n6 --&gt;|&#34;schema:location&#34;| n9
+  n9 --&gt;|&#34;owl:sameAs&#34;| n10
+  n7 --&gt;|&#34;dcat:mediaType&#34;| n11
+  n7 --&gt;|&#34;dcat:byteSize&#34;| n12
+  n5 --&gt;|&#34;owl:sameAs&#34;| n13
+classDef inst fill:#e2e8f0,stroke:#000000,color:#000000
+classDef real fill:#166534,stroke:#000000,color:#ffffff
+classDef cls fill:#9a3412,stroke:#000000,color:#ffffff
+classDef term fill:#4c1d95,stroke:#000000,color:#ffffff
+classDef ext fill:#ffffff,stroke:#000000,color:#000000
+classDef prop fill:#fbbf24,stroke:#000000,color:#000000</pre></figure>
+      
+      <figure class="diagram"><figcaption>CIDOC CRM</figcaption><pre class="mermaid">flowchart LR
+  n0(&#34;/v7/i4/e5#creation&lt;br&gt;&lt;small&gt;crm:E65_Creation · lrmoo:F28_Expression_Creation&lt;/small&gt;&#34;):::inst
+  n1(&#34;/v7/i4/e5&lt;br&gt;&lt;small&gt;crm:E73_Information_Object · lrmoo:F2_Expression&lt;/small&gt;&#34;):::inst
+  n2(&#34;Florian Thiery&lt;br&gt;&lt;small&gt;crm:E21_Person&lt;/small&gt;&#34;):::real
+  n3(&#34;/v7/i4/e5#creation-time-span&lt;br&gt;&lt;small&gt;crm:E52_Time-Span&lt;/small&gt;&#34;):::inst
+  n4[/&#34;2025-09-30T00:00:00&#34;/]:::prop
+  n5(&#34;/v7/i4/e5#title&lt;br&gt;&lt;small&gt;crm:E35_Title&lt;/small&gt;&#34;):::inst
+  n6[/&#34;Brückenbau zwischen LOD und RSE: Von CIDOC CR…&#34;/]:::prop
+  n7(&#34;/v7/i4/e5#doi&lt;br&gt;&lt;small&gt;crm:E42_Identifier&lt;/small&gt;&#34;):::inst
+  n8[/&#34;10.5281/zenodo.16875678&#34;/]:::prop
+  n9(&#34;sqpt:conference-paper&#34;):::term
+  n10(&#34;/v7/i4&lt;br&gt;&lt;small&gt;crm:E73_Information_Object&lt;/small&gt;&#34;):::inst
+  n11(&#34;NFDI4Objects Community Meeting 2025&lt;br&gt;&lt;small&gt;crm:E7_Activity&lt;/small&gt;&#34;):::real
+  n12(&#34;German Mining Museum&lt;br&gt;&lt;small&gt;crm:E53_Place&lt;/small&gt;&#34;):::real
+  n13[/&#34;POINT(7.21722 51.4892)&#34;/]:::prop
+  n14(&#34;/v7/i4/e5#pdf&lt;br&gt;&lt;small&gt;crmdig:D1_Digital_Object&lt;/small&gt;&#34;):::inst
+  n0 --&gt;|&#34;crm:P94_has_created&#34;| n1
+  n0 --&gt;|&#34;crm:P14_carried_out_by&#34;| n2
+  n0 --&gt;|&#34;crm:P4_has_time-span&#34;| n3
+  n3 --&gt;|&#34;crm:P82a_begin_of_the_begin&#34;| n4
+  n1 --&gt;|&#34;crm:P102_has_title&#34;| n5
+  n5 --&gt;|&#34;crm:P190_has_symbolic_content&#34;| n6
+  n1 --&gt;|&#34;crm:P1_is_identified_by&#34;| n7
+  n7 --&gt;|&#34;crm:P190_has_symbolic_content&#34;| n8
+  n1 --&gt;|&#34;crm:P2_has_type&#34;| n9
+  n1 --&gt;|&#34;crm:P106i_forms_part_of&#34;| n10
+  n11 --&gt;|&#34;crm:P16_used_specific_object&#34;| n1
+  n11 --&gt;|&#34;crm:P7_took_place_at&#34;| n12
+  n12 --&gt;|&#34;crm:P168_place_is_defined_by&#34;| n13
+  n14 --&gt;|&#34;crm:P165_incorporates&#34;| n1
+classDef inst fill:#e2e8f0,stroke:#000000,color:#000000
+classDef real fill:#166534,stroke:#000000,color:#ffffff
+classDef cls fill:#9a3412,stroke:#000000,color:#ffffff
+classDef term fill:#4c1d95,stroke:#000000,color:#ffffff
+classDef ext fill:#ffffff,stroke:#000000,color:#000000
+classDef prop fill:#fbbf24,stroke:#000000,color:#000000</pre></figure>
+      
+    </div>
+    
+
+    
+
+    
+  </section>
+  
+  <section class="model-section" id="rules">
+    <h2>7. Die Regeln, die der Graph einhalten muss</h2>
+    <div class="prose measure"><p>Bevor die Seite gebaut wird, prüft SHACL den Graphen dreifach: gegen die offiziellen Shapes von DCAT-AP 3.0.1, gegen die eigenen Regeln des Journals unten und gegen Regeln für die CRM-Sicht. Zuerst muss ein absichtlich kaputter Beitrag von jeder Regel erkannt werden, damit die Prüfung nicht unbemerkt aufhört zu wirken. Die Regeln liegen als <a href="../../shapes/sqp-shapes.ttl">sqp-shapes.ttl</a> und <a href="../../shapes/crm-shapes.ttl">crm-shapes.ttl</a> vor.</p></div>
+
+    
+
+    
+
+    
+
+    
+    <div class="table-scroll">
+      <table class="model-table">
+        <thead><tr><th>Shape</th><th>Gilt für</th><th>Regeln</th></tr></thead>
+        <tbody>
+        <tr>
+          <td><code>EntryShape</code><br><span class="small muted">shapes/sqp-shapes.ttl</span></td>
+          <td><code>bibo:Document</code></td>
+          <td><ul class="plain"><li>A DOI is written without resolver, &#39;10.5281/zenodo.123&#39;.</li><li>An entry belongs to exactly one issue.</li><li>An entry has at least one creator, a foaf:Person.</li><li>An entry has exactly one title.</li><li>An entry has one entry number.</li><li>An entry has one issue date, a full date or a year.</li><li>An entry keeps the order of its authors in one rdf:Seq.</li><li>An entry without distribution cannot be reached from the catalogue.</li><li>Every type of an entry is a concept of the Squirrel Papers type scheme.</li><li>The citation label reads like &#39;7(4), λ5&#39;.</li><li>The landing page is the entry&#39;s page on the site.</li></ul></td>
+        </tr><tr>
+          <td><code>EventShape</code><br><span class="small muted">shapes/sqp-shapes.ttl</span></td>
+          <td><code>event:Event</code></td>
+          <td><ul class="plain"><li>An event cannot end before it starts.</li><li>rdfs:label exactly 1</li><li>schema:endDate at most 1</li><li>schema:location at most 1</li><li>schema:startDate at most 1</li></ul></td>
+        </tr><tr>
+          <td><code>IssueShape</code><br><span class="small muted">shapes/sqp-shapes.ttl</span></td>
+          <td><code>fabio:JournalIssue</code></td>
+          <td><ul class="plain"><li>An issue belongs to exactly one volume.</li><li>An issue has a title in English and in German.</li><li>An issue has one sigil out of #, λ, §, 𝒬.</li><li>prism:number exactly 1</li></ul></td>
+        </tr><tr>
+          <td><code>JournalShape</code><br><span class="small muted">shapes/sqp-shapes.ttl</span></td>
+          <td><code>/</code></td>
+          <td><ul class="plain"><li>Entry {?value}: the IRI must agree with its issue&#39;s IRI and its entry number.</li><li>Entry {?value}: the citation label must agree with volume, issue and entry number.</li><li>Entry {?value}: when its language is known, the title carries the matching language tag.</li><li>bibo:issn at least 1</li><li>dcat:dataset at least 1</li></ul></td>
+        </tr><tr>
+          <td><code>PersonShape</code><br><span class="small muted">shapes/sqp-shapes.ttl</span></td>
+          <td><code>foaf:Person</code></td>
+          <td><ul class="plain"><li>A person is linked to at most one ORCID.</li><li>foaf:familyName exactly 1</li><li>foaf:name exactly 1</li></ul></td>
+        </tr><tr>
+          <td><code>PlaceShape</code><br><span class="small muted">shapes/sqp-shapes.ttl</span></td>
+          <td><code>schema:Place</code></td>
+          <td><ul class="plain"><li>A place has one point geometry.</li><li>rdfs:label exactly 1</li></ul></td>
+        </tr><tr>
+          <td><code>VolumeShape</code><br><span class="small muted">shapes/sqp-shapes.ttl</span></td>
+          <td><code>fabio:JournalVolume</code></td>
+          <td><ul class="plain"><li>A volume is part of the journal.</li><li>prism:volume exactly 1</li></ul></td>
+        </tr><tr>
+          <td><code>CrmActivityShape</code><br><span class="small muted">shapes/crm-shapes.ttl</span></td>
+          <td><code>crm:E7_Activity</code></td>
+          <td><ul class="plain"><li>crm:P16_used_specific_object at least 1</li><li>crm:P1_is_identified_by at least 1</li><li>crm:P7_took_place_at at most 1</li></ul></td>
+        </tr><tr>
+          <td><code>CrmCreationShape</code><br><span class="small muted">shapes/crm-shapes.ttl</span></td>
+          <td><code>crm:E65_Creation</code></td>
+          <td><ul class="plain"><li>crm:P14_carried_out_by at least 1</li><li>crm:P4_has_time-span at most 1</li><li>crm:P94_has_created exactly 1</li></ul></td>
+        </tr><tr>
+          <td><code>CrmDigitalObjectShape</code><br><span class="small muted">shapes/crm-shapes.ttl</span></td>
+          <td><code>crmdig:D1_Digital_Object</code></td>
+          <td><ul class="plain"><li>crm:P165_incorporates at least 1</li></ul></td>
+        </tr><tr>
+          <td><code>CrmExpressionShape</code><br><span class="small muted">shapes/crm-shapes.ttl</span></td>
+          <td><code>lrmoo:F2_Expression</code></td>
+          <td><ul class="plain"><li>Every expression has exactly one creation event.</li><li>crm:P102_has_title exactly 1</li><li>crm:P106i_forms_part_of exactly 1</li><li>crm:P2_has_type at least 1</li></ul></td>
+        </tr><tr>
+          <td><code>CrmIdentifierShape</code><br><span class="small muted">shapes/crm-shapes.ttl</span></td>
+          <td><code>crm:E42_Identifier</code></td>
+          <td><ul class="plain"><li>crm:P190_has_symbolic_content exactly 1</li><li>crm:P2_has_type exactly 1</li></ul></td>
+        </tr><tr>
+          <td><code>CrmPlaceShape</code><br><span class="small muted">shapes/crm-shapes.ttl</span></td>
+          <td><code>crm:E53_Place</code></td>
+          <td><ul class="plain"><li>crm:P168_place_is_defined_by at most 1</li></ul></td>
+        </tr><tr>
+          <td><code>CrmTimeSpanShape</code><br><span class="small muted">shapes/crm-shapes.ttl</span></td>
+          <td><code>crm:E52_Time-Span</code></td>
+          <td><ul class="plain"><li>A time-span cannot end before it begins.</li><li>crm:P82a_begin_of_the_begin exactly 1</li><li>crm:P82b_end_of_the_end exactly 1</li></ul></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">Die Meldungen der Regeln sind englisch, wie in den Shapes.</p>
+    
+  </section>
+  
+  <section class="model-section" id="iris">
+    <h2>8. Stabile IRIs</h2>
+    <div class="prose measure"><p>Jede Ressource hat eine IRI unter <code>https://w3id.org/squirrelpapers/</code>, die bleibt, wenn die Seite umzieht. Sie führt einen Browser zur Seite und eine Maschine zu Turtle oder JSON-LD; dieselben Dateien liegen neben jeder Seite.</p></div>
+
+    
+
+    
+
+    
+    <div class="table-scroll">
+      <table class="model-table">
+        <thead><tr><th>IRI</th><th>Ressource</th><th>Klassen</th></tr></thead>
+        <tbody>
+        <tr>
+          <td><code>/</code></td>
+          <td>das Journal</td>
+          <td><code class="curies">dcat:Catalog · fabio:Journal · lrmoo:F18_Serial_Work</code></td></tr>
+        <tr>
+          <td><code>/v7</code></td>
+          <td>Band 7</td>
+          <td><code class="curies">dcat:DatasetSeries · fabio:JournalVolume</code></td></tr>
+        <tr>
+          <td><code>/v7/i4</code></td>
+          <td>Band 7, Heft 4</td>
+          <td><code class="curies">dcat:DatasetSeries · fabio:JournalIssue</code></td></tr>
+        <tr>
+          <td><code>/v7/i4/e5</code></td>
+          <td>Beitrag 5 dieses Hefts</td>
+          <td><code class="curies">dcat:Dataset · bibo:Document · crm:E73_Information_Object</code></td></tr>
+        <tr>
+          <td><code>/v7/i4/e5#pdf</code></td>
+          <td>sein PDF auf Zenodo</td>
+          <td><code class="curies">dcat:Distribution · crmdig:D1_Digital_Object</code></td></tr>
+        <tr>
+          <td><code>/person/&lt;ORCID&gt;</code></td>
+          <td>eine Person</td>
+          <td><code class="curies">foaf:Person · crm:E21_Person</code></td></tr>
+        <tr>
+          <td><code>/event/&lt;name-year&gt;</code></td>
+          <td>eine Konferenz oder ein Workshop</td>
+          <td><code class="curies">event:Event · crm:E7_Activity</code></td></tr>
+        <tr>
+          <td><code>/place/&lt;key&gt;</code></td>
+          <td>ein Ort</td>
+          <td><code class="curies">schema:Place · crm:E53_Place</code></td></tr>
+        <tr>
+          <td><code>/type/&lt;slug&gt;</code></td>
+          <td>ein Beitragstyp</td>
+          <td><code class="curies">skos:Concept</code></td></tr>
+        <tr>
+          <td><code>/ontology</code></td>
+          <td>die Ontologie des Journals</td>
+          <td><code class="curies">owl:Ontology</code></td></tr>
+        
+        </tbody>
+      </table>
+    </div>
+    
+
+    
+  </section>
+  
+</div>
+
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>Über die Squirrel Papers</h2>
+      <p>Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften.</p>
+      <p>Die Squirrel Papers sind ein offiziell vom Nationalen ISSN-Zentrum für Deutschland anerkanntes Journal mit der ISSN 2750-560X.</p>
+    </section>
+    <section>
+      <h2>Kontakt</h2>
+      <p><strong>E-Mail</strong><br>mail [at] squirrelpapers [dot] net</p>
+      <p><strong>Herausgeber / Head Squirrel</strong><br>
+        <a href="https://orcid.org/0000-0002-3246-3531">Florian Thiery</a></p>
+      <p>ISSN 2750-560X · <a href="https://www.wikidata.org/wiki/Q89658875">Wikidata: Q89658875</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>Die Metadaten dieser Seite stehen unter CC BY 4.0; jedes Paper, Poster, jeder Datensatz und jede Software trägt auf Zenodo eine eigene Lizenz.</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">Quellcode</a>
+      · <a href="../../de/impressum/">Impressum</a>
+      · <a href="../../de/privacy/">Datenschutz</a></p>
+  </div>
+</footer>
+<script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
+// Copy buttons. The PDF preview and the citation styles have their own scripts.
+document.addEventListener("click", function (event) {
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+
+<script src="../../assets/vendor/mermaid/mermaid.min.js?v=6484afc328"></script>
+<script src="../../assets/js/sqp-model.js?v=813862a02a"></script>
+
+</body>
+</html>

@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../v5/i4/e4/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../v5/i4/e4/index.jsonld">
 <link rel="icon" type="image/png" href="../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v5/i4/e4", "@type": "CreativeWork", "abstract": "Background\nᚑᚌᚆᚐᚋ (Ogham) stones, e.g. the Ogham stone CIIC 178, are monoliths with the early medieval Primitive Irish Ogham script, mostly erected on the island of Ireland and in the western part of Britain between the 4th and 9th centuries. They are an important source for Archaic or Proto-Irish language and society. Names on the stones seem to be dedicated to a person. It remains unclear, however, whether the stones were grave markers, for example, or designated land ownership [1;2;3;4]. The inscriptions consist of names and relations (formula words) such as MAQI (ᚋᚐᚊᚔ; engl. son) to feature kinship or tribal relations [2].\nOgham stones have been part of research for decades. Over time, several books, online databases and repositories comprising different numbering systems and readings of ogham inscriptions were produced. So the critical question is, “How to model research on Ogham (e.g. the readings of inscriptions) over time and different media using different sources and platforms with the help of graphs and Semantic Web technologies?”.\nMethods and data\nThis paper describes a use case from the “Linked Open Ogham Data Project” [5;6], which was set up in 2019 by the Research Squirrel Engineers Network and supported by the Wikimedia Germany Open Science Fellows Program. It uses “analogue” publications/catalogues on Ogham [1;2;7;8;9], online databases/repositories such as “Ogham in 3D” or “Celtic Inscribed Stones Project” (CISP) to transform and model the data with the help of Semantic Web and graph technologies within a hybrid Ogham LOD workflow [10], based on the idea of Open Science and the FAIR Principles as Linked Open Data (LOD) [11], in Wikidata and Open Street Map (OSM). Semantic modelling and LOD techniques such as RDF and Wikidata are used to describe, e.g. the different readings of inscriptions over time [12].\nDiscussion\nThis paper shows that using semantic modelling and LOD techniques to create a network of stones, data and individual views, e.g. readin", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}], "datePublished": "2023-07-17", "genre": "Poster", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.8154844"}, "inLanguage": "en", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v5/i4", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v5", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "5"}, "issueNumber": "4"}, "license": "https://creativecommons.org/licenses/by/4.0/", "name": "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?", "sameAs": ["https://doi.org/10.5281/zenodo.8154844"], "url": "https://squirrelpapers.github.io/v5/i4/e4/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../volumes/" aria-current="page">Volumes &amp; Issues</a>
       <a href="../../../search/">Search</a>
       <a href="../../../map/">Map</a>
+      <a href="../../../model/">Data model</a>
       <a href="../../../sparql/">SPARQL</a>
       <a href="../../../impressum/">Legal notice</a>
       <a href="../../../privacy/">Privacy</a>
       <a class="lang-switch" href="../../../de/v5/i4/e4/" hreflang="de" lang="de">Deutsch</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Switch to dark mode" data-to-light="Switch to light mode"
+              data-dark="Dark" data-light="Light"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -161,6 +172,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -176,10 +223,10 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.8154844", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "genre": "Poster", "id": "v5-i4-e4", "issue": "4", "issued": {"date-parts": [[2023, 7, 17]]}, "language": "en", "page": "#4", "title": "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?", "type": "article-journal", "volume": "5"}</script>
-<script src="../../../assets/js/citeproc.js" defer></script>
-<script src="../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../assets/js/sqp-cite.js" defer></script>
-<script src="../../../assets/js/sqp-preview.js" defer></script>
+<script src="../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
+<script src="../../../assets/js/sqp-preview.js?v=5efc8aca5d" defer></script>
 
 </body>
 </html>

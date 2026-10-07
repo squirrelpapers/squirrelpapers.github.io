@@ -9,7 +9,14 @@
 {% for alt in alternates %}<link rel="alternate" hreflang="{{ alt.lang }}" href="{{ alt.url }}">
 {% endfor %}{% for link in data_links %}<link rel="alternate" type="{{ link.type }}" href="{{ link.href }}">
 {% endfor %}<link rel="icon" type="image/png" href="{{ root }}assets/img/sqp-logo.png">
-<link rel="stylesheet" href="{{ root }}assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="{{ asset('assets/css/sqp.css') }}">
 {% block head_extra %}{% endblock %}
 {% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif %}
 </head>
@@ -24,10 +31,14 @@
       <a href="{{ home }}volumes/"{% if nav == 'volumes' %} aria-current="page"{% endif %}>{{ t.nav_volumes }}</a>
       <a href="{{ home }}search/"{% if nav == 'search' %} aria-current="page"{% endif %}>{{ t.nav_search }}</a>
       <a href="{{ home }}map/"{% if nav == 'map' %} aria-current="page"{% endif %}>{{ t.nav_map }}</a>
+      <a href="{{ home }}model/"{% if nav == 'model' %} aria-current="page"{% endif %}>{{ t.nav_model }}</a>
       <a href="{{ home }}sparql/"{% if nav == 'sparql' %} aria-current="page"{% endif %}>{{ t.nav_sparql }}</a>
       <a href="{{ home }}impressum/"{% if nav == 'impressum' %} aria-current="page"{% endif %}>{{ t.nav_impressum }}</a>
       <a href="{{ home }}privacy/"{% if nav == 'privacy' %} aria-current="page"{% endif %}>{{ t.nav_privacy }}</a>
       <a class="lang-switch" href="{{ other_lang_href }}" hreflang="{{ other_lang }}" lang="{{ other_lang }}">{{ t.other_lang }}</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="{{ t.theme_to_dark }}" data-to-light="{{ t.theme_to_light }}"
+              data-dark="{{ t.theme_dark }}" data-light="{{ t.theme_light }}"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -57,6 +68,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");

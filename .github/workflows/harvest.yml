@@ -1,0 +1,63 @@
+# S11 - refresh the Zenodo and Wikidata cache on request.
+#
+# The only workflow that reaches the network. It runs the harvest step, builds
+# with the new cache and opens a pull request with everything that changed,
+# including dist/reports/harvest.md to read before merging: a harvest can bring
+# new titles, dates or places, and those are reviewed, not merged blindly
+# (PRIMER A3). The build workflow then checks the pull request like any other.
+#
+# Needs, once, in the repository settings: Actions > General > Workflow
+# permissions > "Allow GitHub Actions to create and approve pull requests".
+# GitHub does not start other workflows for pushes made with the workflow's
+# own token, so the build check does not run on its own on that pull request:
+# run "build" by hand on the harvest branch (Actions > build > Run workflow).
+
+name: harvest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+
+      - name: Install the locked versions
+        run: pip install -r requirements-lock.txt
+
+      - name: Harvest Zenodo and Wikidata
+        run: python main.py --only harvest
+
+      - name: Build with the new cache
+        run: python main.py --strict --fresh
+
+      - name: Open a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing changed; no pull request."
+            exit 0
+          fi
+          branch="harvest/$(date -u +%Y-%m-%d)-${{ github.run_number }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add -A
+          git commit -m "Refresh the Zenodo and Wikidata cache" -m "Harvest run ${{ github.run_id }}. Read dist/reports/harvest.md before merging."
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Harvest $(date -u +%Y-%m-%d)" \
+            --body "Zenodo records and Wikidata places refreshed by the harvest workflow, site rebuilt with them. Check \`dist/reports/harvest.md\` (title check, shared DOIs) and the diff of \`content/\`-derived pages before merging."

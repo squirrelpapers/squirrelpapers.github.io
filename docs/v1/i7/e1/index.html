@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../v1/i7/e1/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../v1/i7/e1/index.jsonld">
 <link rel="icon" type="image/png" href="../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v1/i7/e1", "@type": "PresentationDigitalDocument", "abstract": "Chronology in Archaeology contains many hidden assumptions. Chronological intervals resulting from data analysis are sometimes based on absolute “certain” datings (e.g. C14 or Roman emperor reign years) or derived from relative datings or combinations of these. This may even lead to circular argumentations with hidden contradictions. To produce verifiable chronological relations, a well documented data scheme containing all the relevant chronological archaeological information is required.We modeled this scheme as an RDF (Resource Description Framework) based ontology comprising Allen`s interval algebra and provided the results as Linked Open Data. This is exemplarily done by parsing CSV based datasets of two case studies, one concerning the Iron Age settlement history of the Central African rainforest, and the second focusing on a system for Roman period classification used at the RGZM in Mainz.The first case study was based on a recently finished PhD thesis and reviewed the current knowledge on the settlement history of the Central African rainforest. The available data derived from surveys and excavations between present-day Cameroon and Angola. Chronological relations between groups have been modeled within a RDF graph in order to produce a machine readable and processable semantic representation. Additionally, we used radiocarbon dates from the OpenAccess data repository Archives des datations radiocarbone d'Afrique centrale (aDRAC). For the second case study, we developed a workflow for the RGZM retrieval system “easydb” in which a wide variety of time interval descriptions is used. Apart from the historically definable Roman emperor reigning years, which can often be subdivided by the consulship years of an emperor, many descriptives such as “early Roman” or “late Roman/early Medieval” are regularly used but far from being precise. For both case studies using RDF based modeling generated a reproducible representation of the state of knowledge concerning the t", "author": [{"@id": "https://orcid.org/0000-0002-8155-7702", "@type": "Person", "name": "Dirk Seidensticker"}, {"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}, {"@id": "https://orcid.org/0000-0002-7634-5342", "@type": "Person", "name": "Allard W. Mees"}, {"@id": "https://orcid.org/0000-0003-3448-5715", "@type": "Person", "name": "Clemens Schmid"}], "datePublished": "2018-09-05", "genre": "Presentation", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.1410516"}, "inLanguage": "en", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v1/i7", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v1", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "1"}, "issueNumber": "7"}, "keywords": ["Chronology", "Linked Open Data", "Rainforest", "Roman periodisation"], "license": "https://creativecommons.org/licenses/by/4.0/", "name": "RDF based modeling of relative and absolute chronological data: Examples from the central african rainforest and roman periodisation", "recordedAt": {"@type": "Event", "endDate": "2018-09-08", "location": {"@type": "Place", "geo": {"@type": "GeoCoordinates", "latitude": 41.386667, "longitude": 2.163889}, "name": "University of Barcelona", "sameAs": "http://www.wikidata.org/entity/Q219615"}, "name": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)", "startDate": "2018-09-05"}, "sameAs": ["https://doi.org/10.5281/zenodo.1410516"], "url": "https://squirrelpapers.github.io/v1/i7/e1/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../volumes/" aria-current="page">Volumes &amp; Issues</a>
       <a href="../../../search/">Search</a>
       <a href="../../../map/">Map</a>
+      <a href="../../../model/">Data model</a>
       <a href="../../../sparql/">SPARQL</a>
       <a href="../../../impressum/">Legal notice</a>
       <a href="../../../privacy/">Privacy</a>
       <a class="lang-switch" href="../../../de/v1/i7/e1/" hreflang="de" lang="de">Deutsch</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Switch to dark mode" data-to-light="Switch to light mode"
+              data-dark="Dark" data-light="Light"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -125,6 +136,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -140,10 +187,10 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.1410516", "ISSN": "2750-560X", "author": [{"family": "Seidensticker", "given": "Dirk"}, {"family": "Thiery", "given": "Florian"}, {"family": "Mees", "given": "Allard W."}, {"family": "Schmid", "given": "Clemens"}], "container-title": "Squirrel Papers", "event": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)", "event-place": "Universidad de Barcelona, Spain", "event-title": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)", "genre": "Presentation", "id": "v1-i7-e1", "issue": "7", "issued": {"date-parts": [[2018, 9, 5]]}, "keyword": "Chronology, Linked Open Data, Rainforest, Roman periodisation", "language": "en", "page": "#1", "title": "RDF based modeling of relative and absolute chronological data: Examples from the central african rainforest and roman periodisation", "type": "article-journal", "volume": "1"}</script>
-<script src="../../../assets/js/citeproc.js" defer></script>
-<script src="../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../assets/js/sqp-cite.js" defer></script>
-<script src="../../../assets/js/sqp-preview.js" defer></script>
+<script src="../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
+<script src="../../../assets/js/sqp-preview.js?v=5efc8aca5d" defer></script>
 
 </body>
 </html>

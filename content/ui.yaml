@@ -68,6 +68,28 @@ en:
   zenodo_title_differs: Title on Zenodo
   months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
   languages: {en: English, de: German}
+  # Light / dark switch
+  theme_dark: Dark
+  theme_light: Light
+  theme_to_dark: Switch to dark mode
+  theme_to_light: Switch to light mode
+  # S16: data model
+  nav_model: Data model
+  model_title: The data model
+  model_intro: How the journal is described as linked data - in DCAT for catalogues, in CIDOC CRM for cultural heritage, and how the two fit together. The diagrams are checked against the published graph on every build.
+  model_contents: On this page
+  model_legend: Colours in the diagrams
+  legend_inst: resource of the journal
+  legend_real: thing in the world
+  legend_cls: class
+  legend_term: vocabulary term
+  legend_ext: identifier elsewhere
+  legend_prop: value or property
+  model_nojs: The diagrams need JavaScript; without it their Mermaid source is shown.
+  rules_shape: Shape
+  rules_target: Applies to
+  rules_rules: Rules
+  rules_note: The messages of the rules are in English, as in the shapes.
   # S10: map
   nav_map: Map
   map_title: Where the work was presented
@@ -194,6 +216,28 @@ de:
   zenodo_title_differs: Titel auf Zenodo
   months: [Jan., Feb., März, Apr., Mai, Juni, Juli, Aug., Sep., Okt., Nov., Dez.]
   languages: {en: Englisch, de: Deutsch}
+  # Hell / dunkel
+  theme_dark: Dunkel
+  theme_light: Hell
+  theme_to_dark: Zum dunklen Modus wechseln
+  theme_to_light: Zum hellen Modus wechseln
+  # S16: Datenmodell
+  nav_model: Datenmodell
+  model_title: Das Datenmodell
+  model_intro: Wie das Journal als Linked Data beschrieben ist - in DCAT für Kataloge, in CIDOC CRM für das kulturelle Erbe, und wie beides zusammenpasst. Die Grafiken werden bei jedem Build gegen den veröffentlichten Graphen geprüft.
+  model_contents: Auf dieser Seite
+  model_legend: Farben in den Grafiken
+  legend_inst: Ressource des Journals
+  legend_real: Ding in der Welt
+  legend_cls: Klasse
+  legend_term: Vokabularbegriff
+  legend_ext: Identifikator anderswo
+  legend_prop: Wert oder Property
+  model_nojs: Die Grafiken brauchen JavaScript; ohne erscheint ihr Mermaid-Quelltext.
+  rules_shape: Shape
+  rules_target: Gilt für
+  rules_rules: Regeln
+  rules_note: Die Meldungen der Regeln sind englisch, wie in den Shapes.
   # S10: Karte
   nav_map: Karte
   map_title: Wo die Arbeiten vorgestellt wurden

@@ -35,17 +35,21 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from sqp_utils import (  # noqa: E402
     ASSETS, CONTENT, DIST, DOCS, ENTRIES_JSON, LANGUAGES, SITE, copy_file, prune, read_json,
-    read_yaml, rel, script_json, skipped, sync_tree, template_environment, tracking, warn,
+    read_yaml, rel, script_json, sha256_file, skipped, sync_tree, template_environment, tracking,
+    warn,
     write_text,
 )
 
 UI_YAML = CONTENT / "ui.yaml"
 PAGES_DIR = CONTENT / "pages"
 ASSET_FILES = ["css/sqp.css", "img/sqp-logo.png", "img/network.svg", "js/sqp-cite.js",
-               "js/sqp-preview.js", "js/sqp-search.js", "js/sqp-sparql.js", "js/sqp-map.js"]
+               "js/sqp-preview.js", "js/sqp-search.js", "js/sqp-sparql.js", "js/sqp-map.js",
+               "js/sqp-model.js"]
 # Copied whole: pdf.js with its fonts (S8b), Pyodide with the rdflib wheels (S9),
-# Leaflet and the Natural Earth background (S10).
-ASSET_DIRS = ["vendor/pdfjs", "vendor/pyodide", "vendor/leaflet", "vendor/naturalearth"]
+# Leaflet and the Natural Earth background (S10), Mermaid (S16).
+ASSET_DIRS = ["vendor/pdfjs", "vendor/pyodide", "vendor/leaflet", "vendor/naturalearth",
+              "vendor/mermaid"]
+MODEL_JSON = Path(__file__).resolve().parent.parent / "data" / "derived" / "model.json"  # S16
 EVENTS_GEOJSON = DIST / "events.geojson"                                     # S10
 QUERIES_JSON = Path(__file__).resolve().parent.parent / "data" / "derived" / "queries.json"  # S9
 SPARQL_MAX_ROWS = 500   # rendered rows; an unlimited table can hang a phone
@@ -269,6 +273,7 @@ def render_site(data: dict, ui: dict, journal: dict, types: dict, entries: dict)
 
     sparql = read_json(QUERIES_JSON) if QUERIES_JSON.exists() else None
     events = read_json(EVENTS_GEOJSON) if EVENTS_GEOJSON.exists() else None
+    model = read_json(MODEL_JSON) if MODEL_JSON.exists() else None
     csl_items = {}
     for e in data["entries"]:
         path = WEB / e["path"] / "index.csl.json"
@@ -298,10 +303,23 @@ def render_site(data: dict, ui: dict, journal: dict, types: dict, entries: dict)
     editor_name = f"{editor[1]} {editor[0]}" if len(editor) == 2 else journal["editor"]["name"]
     pages_written = 0
 
+    versions: dict[str, str] = {}
+
+    def version(relpath: str) -> str:
+        """Short content hash for a stylesheet or script in docs/.
+
+        Appended as ?v=... so a browser never pairs a new page with a cached
+        old stylesheet: GitHub Pages lets browsers keep files for ten minutes,
+        and the map page of S10 came up without its map that way."""
+        if relpath not in versions:
+            versions[relpath] = sha256_file(DOCS / relpath)[:10]
+        return versions[relpath]
+
     def render(template: str, path: str, lang: str, **context) -> None:
         nonlocal pages_written
         depth = (path.count("/") + 1 if path else 0) + (1 if lang != "en" else 0)
         root = "../" * depth
+        context.setdefault("asset", lambda relpath: f"{root}{relpath}?v={version(relpath)}")
         home = root + ("" if lang == "en" else f"{lang}/")
         other = "de" if lang == "en" else "en"
         other_home = root + ("" if other == "en" else f"{other}/")
@@ -343,6 +361,9 @@ def render_site(data: dict, ui: dict, journal: dict, types: dict, entries: dict)
                               ("type", "year", "volume", "event", "person", "language")},
                    "one": t["search_one"], "many": t["search_many"], "none": t["search_none"],
                    "more": t["search_show_more"], "fewer": t["search_show_fewer"]}))
+        if model:
+            render("model.html.j2", "model", lang, page_title=f"{t['nav_model']} – Squirrel Papers",
+                   nav="model", model=model)
         if events:
             render("map.html.j2", "map", lang, page_title=f"{t['nav_map']} – Squirrel Papers",
                    nav="map", map=map_view(events), map_ui=script_json({"home": "../", "lang": lang}))

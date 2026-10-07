@@ -21,20 +21,30 @@
 
   box.hidden = false;
   tools.hidden = false;
-  var css = getComputedStyle(document.documentElement);
-  var colour = function (name, fallback) { return css.getPropertyValue(name).trim() || fallback; };
+  // Leaflet draws nothing into a box without height. The stylesheet gives it
+  // one; should an old cached stylesheet arrive with a new page, this does.
+  if (box.clientHeight < 100) { box.style.height = "480px"; }
+  var colour = function (name, fallback) {
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
+  };
 
   var map = L.map(box, { worldCopyJump: true, minZoom: 2, maxZoom: 16, zoomSnap: 0.5 });
   map.attributionControl.setPrefix(false);
+  function landStyle() {
+    return { color: colour("--map-border", "#b9a9b5"), weight: 0.7,
+             fillColor: colour("--map-land", "#f6f1f5"), fillOpacity: 1 };
+  }
+  var land = null;
   if (COUNTRIES) {
-    L.geoJSON(COUNTRIES, {
-      interactive: false,
-      style: { color: colour("--map-border", "#b9a9b5"), weight: 0.7,
-               fillColor: colour("--map-land", "#f6f1f5"), fillOpacity: 1 }
-    }).addTo(map);
+    land = L.geoJSON(COUNTRIES, { interactive: false, style: landStyle }).addTo(map);
     map.attributionControl.addAttribution("Natural Earth");
   }
   box.style.background = colour("--map-sea", "#dfe9f0");
+  // The light/dark switch (base template) repaints land and sea.
+  document.addEventListener("sqp-theme", function () {
+    if (land) { land.setStyle(landStyle()); }
+    box.style.background = colour("--map-sea", "#dfe9f0");
+  });
 
   var osm = null;
   osmButton.addEventListener("click", function () {

@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../../v5/i3/e4/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../../v5/i3/e4/index.jsonld">
 <link rel="icon" type="image/png" href="../../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v5/i3/e4", "@type": "PresentationDigitalDocument", "abstract": "Iᚑᚌᚆᚐᚋ (Ogham) stones are monoliths with the early medieval Primitive Irish Ogham script, placed on the island of Ireland and in the western part of Britain between the 4th and 9th centuries. They are an essential source for Archaic or Proto-Irish language and society. The letters of the Ogham alphabet consist of strokes written at different lengths and angles along (often natural) edges of the stones from the bottom left to the top and back down to the right. Names on the stones appear to be dedicated to a person. It remains unclear, however, whether the stones were grave markers, for example, or denoted land ownership. The stones are mostly no longer at the original site, which is, on the one hand, essential for cartographic recording (do you link the original site if known?) and, on the other hand, makes it more difficult to deduce their original function.\nDocumentation on Ogham stones is available in many analogue sources and partly open online databases or repositories. However, as there is no common identification standard (e.g. stones, sites), these data cannot be analysed together; they need to be interoperable. The ogham.link project of the Research Squirrel Engineers Network creates a semantically modelled data basis as Linked Open Data (LOD) using community hubs such as Open Street Map and Wikidata. A Fellowship from Wikimedia Deutschland has already funded it in the Free Knowledge Fellow Programme as 'Irish ᚑᚌᚆᚐᚋ Stones in the Wikimedia Universe'. The data and geodata are extracted through a workflow, modelled and made available via various hubs. In the Fellow project, this was done primarily as native RDF data and as Quick Statements for integration into Wikidata. In Wikidata, sites can be linked to Irish townlands, for which there is a platform townlands.ie based on OSM data if these cannot be determined more precisely on site.\nVarious archaeological items have been tagged in OpenStreetMap by \"b-unicycling\", including historic=ogham_stone. This makes O", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}], "datePublished": "2023-07-02", "genre": "Presentation", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.8089448"}, "inLanguage": "en", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v5/i3", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v5", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "5"}, "issueNumber": "3"}, "keywords": ["GIS", "IGSM", "Linked Data", "Ogham", "Open Street Map", "Wikidata"], "license": "https://creativecommons.org/licenses/by/4.0/", "name": "Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata", "recordedAt": {"@type": "Event", "endDate": "2023-07-08", "location": {"@type": "Place", "geo": {"@type": "GeoCoordinates", "latitude": 39.48089, "longitude": -0.34111}, "name": "Technical University of Valencia", "sameAs": "http://www.wikidata.org/entity/Q2003976"}, "name": "35th International Geodetic Student Meeting", "startDate": "2023-07-02"}, "sameAs": ["https://doi.org/10.5281/zenodo.8089448"], "url": "https://squirrelpapers.github.io/v5/i3/e4/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../../de/volumes/" aria-current="page">Bände &amp; Hefte</a>
       <a href="../../../../de/search/">Suche</a>
       <a href="../../../../de/map/">Karte</a>
+      <a href="../../../../de/model/">Datenmodell</a>
       <a href="../../../../de/sparql/">SPARQL</a>
       <a href="../../../../de/impressum/">Impressum</a>
       <a href="../../../../de/privacy/">Datenschutz</a>
       <a class="lang-switch" href="../../../../v5/i3/e4/" hreflang="en" lang="en">English</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Zum dunklen Modus wechseln" data-to-light="Zum hellen Modus wechseln"
+              data-dark="Dunkel" data-light="Hell"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -134,6 +145,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -149,10 +196,10 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.8089448", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "event": "35th International Geodetic Student Meeting", "event-place": "Polytechnic University of Valencia (Universitat Politècnica de València, UPV)", "event-title": "35th International Geodetic Student Meeting", "genre": "Presentation", "id": "v5-i3-e4", "issue": "3", "issued": {"date-parts": [[2023, 7, 2]]}, "keyword": "GIS, IGSM, Linked Data, Ogham, Open Street Map, Wikidata", "language": "en", "page": "#4", "title": "Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata", "type": "article-journal", "volume": "5"}</script>
-<script src="../../../../assets/js/citeproc.js" defer></script>
-<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../../assets/js/sqp-cite.js" defer></script>
-<script src="../../../../assets/js/sqp-preview.js" defer></script>
+<script src="../../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
+<script src="../../../../assets/js/sqp-preview.js?v=5efc8aca5d" defer></script>
 
 </body>
 </html>

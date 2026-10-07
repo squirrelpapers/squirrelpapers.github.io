@@ -1,0 +1,317 @@
+# The data model, explained (S16) - one page, /model/ and /de/model/.
+#
+# Each section has a title and a text in English and German and may carry a
+# Mermaid diagram (language-neutral: class and property names are the same in
+# both), a table, or a part the build generates from the graph itself:
+#
+#   generated: example   the triples of one real entry, drawn from both graphs
+#   generated: rules     the SHACL shapes and their messages, from shapes/
+#
+# The build checks every CURIE written in a diagram or table ("dcat:Dataset",
+# "crm:P14_carried_out_by") against the published graphs: a name that does not
+# occur there fails the build, so a picture cannot drift away from the model.
+#
+# Colours follow one scheme on every diagram (legend on the page):
+#   inst   pastel grey, oval   a resource of the journal (entry, issue, ...)
+#   real   dark green          a thing in the world (person, place, event)
+#   cls    dark orange         a class
+#   term   dark purple         a term of a vocabulary (type, language, ...)
+#   ext    white               an identifier elsewhere (ORCID, Wikidata, DOI)
+#   prop   amber               a value or a property as such
+
+classdefs: |
+  classDef inst fill:#e2e8f0,stroke:#000000,color:#000000
+  classDef real fill:#166534,stroke:#000000,color:#ffffff
+  classDef cls fill:#9a3412,stroke:#000000,color:#ffffff
+  classDef term fill:#4c1d95,stroke:#000000,color:#ffffff
+  classDef ext fill:#ffffff,stroke:#000000,color:#000000
+  classDef prop fill:#fbbf24,stroke:#000000,color:#000000
+
+example: https://w3id.org/squirrelpapers/v7/i4/e5
+
+sections:
+  - id: overview
+    title: {en: From YAML to knowledge graph, de: Von YAML zum Wissensgraphen}
+    text:
+      en: >-
+        <p>Everything on this site comes from a few YAML files in the repository:
+        the journal, one file per volume, the places and the vocabulary of entry
+        types. A Python pipeline (<code>main.py</code>) enriches them with the
+        Zenodo records and Wikidata places it has cached, and produces three
+        things from the same merged data: the web pages, the citations and the
+        knowledge graph. The graph is then validated, queried and mapped before
+        the site is written.</p>
+      de: >-
+        <p>Alles auf dieser Seite stammt aus wenigen YAML-Dateien im Repository:
+        dem Journal, einer Datei je Band, den Orten und dem Vokabular der
+        Beitragstypen. Eine Python-Pipeline (<code>main.py</code>) reichert sie mit
+        den zwischengespeicherten Zenodo-Datensätzen und Wikidata-Orten an und
+        erzeugt aus denselben zusammengeführten Daten drei Dinge: die Webseiten,
+        die Zitationen und den Wissensgraphen. Der Graph wird geprüft, abgefragt
+        und kartiert, bevor die Seite geschrieben wird.</p>
+    diagram: |
+      flowchart LR
+        yaml([content/*.yaml]):::inst --> merge[merge]:::prop
+        zen([Zenodo cache]):::ext --> merge
+        wd([Wikidata cache]):::ext --> merge
+        merge --> json([entries.json]):::inst
+        json --> cite[cite]:::prop --> bib([BibTeX · RIS · CSL-JSON]):::inst
+        json --> rdf[rdf]:::prop --> dcat([DCAT graph]):::inst
+        rdf --> crm([CIDOC CRM graph]):::inst
+        dcat --> validate[validate · SHACL]:::prop
+        crm --> validate
+        dcat --> sparql[sparql]:::prop
+        dcat --> map[map]:::prop
+        validate --> site[site]:::prop
+        sparql --> site
+        map --> site
+        bib --> site
+        site --> pages([pages EN · DE]):::inst
+
+  - id: structure
+    title: {en: "Journal, volume, issue, entry", de: "Journal, Band, Heft, Beitrag"}
+    text:
+      en: >-
+        <p>The journal is a catalogue of volumes, a volume a series of issues,
+        an issue a series of entries. Every level has its own stable IRI under
+        <code>https://w3id.org/squirrelpapers/</code>, and every entry its file on
+        Zenodo, its people, and - for talks and posters - the event where it was
+        presented and the place of that event. Types come from the journal's own
+        SKOS vocabulary, mapped to COAR and FaBiO.</p>
+      de: >-
+        <p>Das Journal ist ein Katalog von Bänden, ein Band eine Reihe von Heften,
+        ein Heft eine Reihe von Beiträgen. Jede Ebene hat eine eigene stabile IRI
+        unter <code>https://w3id.org/squirrelpapers/</code>, jeder Beitrag seine
+        Datei auf Zenodo, seine Personen und - bei Vorträgen und Postern - die
+        Veranstaltung, auf der er vorgestellt wurde, samt ihrem Ort. Die Typen
+        stammen aus dem eigenen SKOS-Vokabular des Journals, abgebildet auf COAR
+        und FaBiO.</p>
+    diagram: |
+      flowchart TB
+        J([Journal · /]):::inst
+        V([Volume 7 · /v7]):::inst
+        I([Issue 4 · /v7/i4]):::inst
+        E([Entry 5 · /v7/i4/e5]):::inst
+        D([PDF · /v7/i4/e5#pdf]):::inst
+        P([Person · /person/ORCID]):::real
+        EV([Event · /event/…]):::real
+        PL([Place · /place/…]):::real
+        T([Type · /type/poster]):::term
+        O([ORCID]):::ext
+        W([Wikidata]):::ext
+        Z([DOI · Zenodo]):::ext
+        J -->|"dcat:dataset"| V
+        V -->|"dct:hasPart"| I
+        I -->|"dct:hasPart"| E
+        E -->|"dcat:distribution"| D
+        E -->|"dct:creator"| P
+        E -->|"bibo:presentedAt"| EV
+        EV -->|"schema:location"| PL
+        E -->|"dct:type"| T
+        P -->|"owl:sameAs"| O
+        PL -->|"owl:sameAs"| W
+        E -->|"owl:sameAs"| Z
+
+  - id: dcat
+    title: {en: The DCAT layer, de: Die DCAT-Schicht}
+    text:
+      en: >-
+        <p>The main graph describes the journal as a data catalogue in
+        <strong>DCAT 3</strong>, validated against the <strong>DCAT-AP 3.0.1</strong>
+        profile of the European Union: the journal is a <code>dcat:Catalog</code>,
+        volumes and issues are <code>dcat:DatasetSeries</code>, entries are
+        <code>dcat:Dataset</code> with a <code>dcat:Distribution</code> for the PDF.
+        Bibliographic vocabularies add what DCAT does not say: BIBO and FaBiO for the
+        kind of publication, PRISM for volume and issue numbers, schema.org and FOAF
+        for people, events and places, GeoSPARQL for coordinates, PROV for the
+        Zenodo record an entry was derived from, SPDX for checksums. The small
+        <code>sqp:</code> ontology holds only the journal's own numbering.</p>
+      de: >-
+        <p>Der Hauptgraph beschreibt das Journal als Datenkatalog in
+        <strong>DCAT 3</strong>, geprüft gegen das Profil <strong>DCAT-AP 3.0.1</strong>
+        der Europäischen Union: Das Journal ist ein <code>dcat:Catalog</code>, Bände
+        und Hefte sind <code>dcat:DatasetSeries</code>, Beiträge <code>dcat:Dataset</code>
+        mit einer <code>dcat:Distribution</code> für das PDF. Bibliografische
+        Vokabulare ergänzen, was DCAT nicht sagt: BIBO und FaBiO die Art der
+        Publikation, PRISM Band- und Heftnummern, schema.org und FOAF Personen,
+        Veranstaltungen und Orte, GeoSPARQL die Koordinaten, PROV den
+        Zenodo-Datensatz, aus dem ein Beitrag stammt, SPDX die Prüfsummen. Die kleine
+        <code>sqp:</code>-Ontologie enthält nur die eigene Nummerierung des
+        Journals.</p>
+    diagram: |
+      flowchart LR
+        cat["dcat:Catalog<br>fabio:Journal"]:::cls
+        ser["dcat:DatasetSeries<br>fabio:JournalVolume"]:::cls
+        iss["dcat:DatasetSeries<br>fabio:JournalIssue"]:::cls
+        ds["dcat:Dataset<br>bibo:Document · fabio:…"]:::cls
+        dist["dcat:Distribution"]:::cls
+        per["foaf:Person<br>schema:Person"]:::cls
+        ev["event:Event<br>schema:Event"]:::cls
+        pl["dct:Location<br>schema:Place · geo:Feature"]:::cls
+        geom["geo:Geometry"]:::cls
+        con["skos:Concept"]:::term
+        cat -->|"dcat:dataset"| ser
+        ser -->|"dct:isPartOf"| cat
+        iss -->|"dcat:inSeries"| ser
+        ds -->|"dcat:inSeries"| iss
+        ds -->|"dcat:distribution"| dist
+        ds -->|"dct:creator · dct:contributor"| per
+        ds -->|"bibo:presentedAt"| ev
+        ds -->|"dct:type"| con
+        ev -->|"schema:location"| pl
+        pl -->|"geo:hasGeometry"| geom
+        ds --- lbl[/"sqp:citationLabel · sqp:entryNumber"/]:::prop
+        iss --- sig[/"sqp:sigil"/]:::prop
+        geom --- wkt[/"geo:asWKT"/]:::prop
+
+  - id: crm
+    title: {en: The CIDOC CRM layer, de: Die CIDOC-CRM-Schicht}
+    text:
+      en: >-
+        <p>A second graph describes the same resources in <strong>CIDOC CRM</strong>
+        7.1 with its extensions <strong>LRMoo</strong> (works and expressions) and
+        <strong>CRMdig</strong> (digital objects). Where DCAT states facts as
+        properties of the entry, CRM tells them as events: an entry was
+        <em>created</em> (E65 / F28) by people (P14) within a time-span (P4); a
+        conference is an activity (E7) that used the entry (P16) and took place at
+        a place (P7) defined by coordinates (P168). Titles and identifiers are
+        nodes of their own (E35, E42), each with its symbolic content (P190).</p>
+      de: >-
+        <p>Ein zweiter Graph beschreibt dieselben Ressourcen in <strong>CIDOC CRM</strong>
+        7.1 mit den Erweiterungen <strong>LRMoo</strong> (Werke und Expressionen) und
+        <strong>CRMdig</strong> (digitale Objekte). Wo DCAT Fakten als Eigenschaften
+        des Beitrags nennt, erzählt CRM sie als Ereignisse: Ein Beitrag wurde von
+        Personen (P14) in einer Zeitspanne (P4) <em>geschaffen</em> (E65 / F28); eine
+        Konferenz ist eine Aktivität (E7), die den Beitrag benutzte (P16) und an
+        einem Ort (P7) stattfand, der durch Koordinaten bestimmt ist (P168). Titel
+        und Identifikatoren sind eigene Knoten (E35, E42) mit ihrem symbolischen
+        Inhalt (P190).</p>
+    diagram: |
+      flowchart LR
+        e73["crm:E73_Information_Object<br>lrmoo:F2_Expression"]:::cls
+        e65["crm:E65_Creation<br>lrmoo:F28_Expression_Creation"]:::cls
+        e21["crm:E21_Person"]:::cls
+        e52["crm:E52_Time-Span"]:::cls
+        e7["crm:E7_Activity"]:::cls
+        e53["crm:E53_Place"]:::cls
+        e35["crm:E35_Title"]:::cls
+        e42["crm:E42_Identifier"]:::cls
+        e41["crm:E41_Appellation"]:::cls
+        d1["crmdig:D1_Digital_Object"]:::cls
+        f18["lrmoo:F18_Serial_Work"]:::cls
+        e65 -->|"crm:P94_has_created<br>lrmoo:R17_created"| e73
+        e65 -->|"crm:P14_carried_out_by"| e21
+        e65 -->|"crm:P4_has_time-span"| e52
+        e7 -->|"crm:P16_used_specific_object"| e73
+        e7 -->|"crm:P7_took_place_at"| e53
+        e7 -->|"crm:P1_is_identified_by"| e41
+        e7 -->|"crm:P4_has_time-span"| e52
+        e73 -->|"crm:P102_has_title"| e35
+        e73 -->|"crm:P1_is_identified_by"| e42
+        e21 -->|"crm:P1_is_identified_by"| e42
+        d1 -->|"crm:P165_incorporates"| e73
+        e73b["crm:E73_Information_Object<br>issue · volume"]:::cls
+        e73 -->|"crm:P106i_forms_part_of"| e73b
+        e73b -->|"crm:P106i_forms_part_of"| f18
+        e53 --- wkt[/"crm:P168_place_is_defined_by"/]:::prop
+        e52 --- dates[/"crm:P82a_begin_of_the_begin<br>crm:P82b_end_of_the_end"/]:::prop
+        e42 --- sym[/"crm:P190_has_symbolic_content"/]:::prop
+
+  - id: bridge
+    title: {en: How the two layers meet, de: Wie die beiden Schichten zusammenkommen}
+    text:
+      en: >-
+        <p>Both graphs use the same IRIs. An entry, a person, an event or a place
+        is one node, described once as catalogue record and once as a CRM entity;
+        loading both files into one store joins them without any mapping. The
+        table reads one fact in both ways. The DCAT graph stays readable on its
+        own, and the CRM graph can be published to a CRM-based knowledge graph
+        such as the one of NFDI4Objects without the catalogue vocabulary.</p>
+      de: >-
+        <p>Beide Graphen verwenden dieselben IRIs. Ein Beitrag, eine Person, eine
+        Veranstaltung oder ein Ort ist ein Knoten, einmal als Katalogeintrag und
+        einmal als CRM-Entität beschrieben; lädt man beide Dateien in einen Store,
+        verbinden sie sich ohne jede Abbildung. Die Tabelle liest dieselbe
+        Tatsache auf beide Arten. Der DCAT-Graph bleibt für sich lesbar, und der
+        CRM-Graph lässt sich ohne das Katalogvokabular in einen CRM-basierten
+        Wissensgraphen wie den von NFDI4Objects übernehmen.</p>
+    table:
+      head:
+        en: [Fact, DCAT graph, CIDOC CRM graph]
+        de: [Tatsache, DCAT-Graph, CIDOC-CRM-Graph]
+      rows:
+        - [{en: who wrote it, de: wer ihn schrieb}, "dct:creator", "crm:P94i_was_created_by / crm:P14_carried_out_by"]
+        - [{en: when, de: wann}, "dct:issued", "… / crm:P4_has_time-span / crm:P82a_begin_of_the_begin"]
+        - [{en: its title, de: sein Titel}, "dct:title", "crm:P102_has_title / crm:P190_has_symbolic_content"]
+        - [{en: its DOI, de: seine DOI}, "bibo:doi", "crm:P1_is_identified_by / crm:P190_has_symbolic_content"]
+        - [{en: its type, de: sein Typ}, "dct:type", "crm:P2_has_type"]
+        - [{en: where it was presented, de: wo er vorgestellt wurde}, "bibo:presentedAt / schema:location", "crm:P16i_was_used_for / crm:P7_took_place_at"]
+        - [{en: its PDF, de: sein PDF}, "dcat:distribution", "crm:P165i_is_incorporated_in"]
+        - [{en: its issue, de: sein Heft}, "dcat:inSeries", "crm:P106i_forms_part_of"]
+    inverse_ok: [crm:P94i_was_created_by, crm:P16i_was_used_for, crm:P165i_is_incorporated_in]
+
+  - id: example
+    title: {en: "One entry in both graphs: 7(4), λ5", de: "Ein Beitrag in beiden Graphen: 7(4), λ5"}
+    text:
+      en: >-
+        <p>Drawn by the build from the published graphs, not by hand: the entry
+        <em>Brückenbau zwischen LOD und RSE</em> with its issue, person, event,
+        place and file - first as DCAT, then as CIDOC CRM. Its
+        complete description is in <a href="{root}v7/i4/e5/index.ttl">index.ttl</a>
+        next to the entry page.</p>
+      de: >-
+        <p>Vom Build aus den veröffentlichten Graphen gezeichnet, nicht von Hand:
+        der Beitrag <em>Brückenbau zwischen LOD und RSE</em> mit Heft, Person,
+        Veranstaltung, Ort und Datei - erst als DCAT, dann als CIDOC CRM. Die
+        vollständige Beschreibung steht in <a href="{root}v7/i4/e5/index.ttl">index.ttl</a>
+        neben der Beitragsseite.</p>
+    generated: example
+
+  - id: rules
+    title: {en: "The rules the graph must keep", de: "Die Regeln, die der Graph einhalten muss"}
+    text:
+      en: >-
+        <p>Before the site is built, the graph is checked three ways with SHACL:
+        against the official DCAT-AP 3.0.1 shapes, against the journal's own
+        rules below, and against rules for the CRM view. A deliberately broken
+        entry must be caught by every rule first, so the check cannot silently
+        stop working. The rules are published as
+        <a href="{root}shapes/sqp-shapes.ttl">sqp-shapes.ttl</a> and
+        <a href="{root}shapes/crm-shapes.ttl">crm-shapes.ttl</a>.</p>
+      de: >-
+        <p>Bevor die Seite gebaut wird, prüft SHACL den Graphen dreifach: gegen
+        die offiziellen Shapes von DCAT-AP 3.0.1, gegen die eigenen Regeln des
+        Journals unten und gegen Regeln für die CRM-Sicht. Zuerst muss ein
+        absichtlich kaputter Beitrag von jeder Regel erkannt werden, damit die
+        Prüfung nicht unbemerkt aufhört zu wirken. Die Regeln liegen als
+        <a href="{root}shapes/sqp-shapes.ttl">sqp-shapes.ttl</a> und
+        <a href="{root}shapes/crm-shapes.ttl">crm-shapes.ttl</a> vor.</p>
+    generated: rules
+
+  - id: iris
+    title: {en: Stable IRIs, de: Stabile IRIs}
+    text:
+      en: >-
+        <p>Every resource has an IRI under <code>https://w3id.org/squirrelpapers/</code>
+        that stays when the site moves. It resolves to the page for a browser and
+        to Turtle or JSON-LD for a machine; the same files lie next to every page.</p>
+      de: >-
+        <p>Jede Ressource hat eine IRI unter <code>https://w3id.org/squirrelpapers/</code>,
+        die bleibt, wenn die Seite umzieht. Sie führt einen Browser zur Seite und
+        eine Maschine zu Turtle oder JSON-LD; dieselben Dateien liegen neben jeder
+        Seite.</p>
+    table:
+      head:
+        en: [IRI, Resource, Classes]
+        de: [IRI, Ressource, Klassen]
+      rows:
+        - ["/", {en: the journal, de: das Journal}, "dcat:Catalog · fabio:Journal · lrmoo:F18_Serial_Work"]
+        - ["/v7", {en: volume 7, de: Band 7}, "dcat:DatasetSeries · fabio:JournalVolume"]
+        - ["/v7/i4", {en: "volume 7, issue 4", de: "Band 7, Heft 4"}, "dcat:DatasetSeries · fabio:JournalIssue"]
+        - ["/v7/i4/e5", {en: "entry 5 of that issue", de: "Beitrag 5 dieses Hefts"}, "dcat:Dataset · bibo:Document · crm:E73_Information_Object"]
+        - ["/v7/i4/e5#pdf", {en: its PDF on Zenodo, de: sein PDF auf Zenodo}, "dcat:Distribution · crmdig:D1_Digital_Object"]
+        - ["/person/<ORCID>", {en: a person, de: eine Person}, "foaf:Person · crm:E21_Person"]
+        - ["/event/<name-year>", {en: a conference or workshop, de: eine Konferenz oder ein Workshop}, "event:Event · crm:E7_Activity"]
+        - ["/place/<key>", {en: a place, de: ein Ort}, "schema:Place · crm:E53_Place"]
+        - ["/type/<slug>", {en: an entry type, de: ein Beitragstyp}, "skos:Concept"]
+        - ["/ontology", {en: the journal's ontology, de: die Ontologie des Journals}, "owl:Ontology"]

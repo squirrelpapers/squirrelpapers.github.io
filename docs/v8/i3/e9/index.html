@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../v8/i3/e9/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../v8/i3/e9/index.jsonld">
 <link rel="icon" type="image/png" href="../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v8/i3/e9", "@type": "PresentationDigitalDocument", "abstract": "Abstract\nCommunity-basierte Geodatenplattformen wie OpenStreetMap (OSM), Wikidata (Schmidt, Thiery, und Trognitz 2022) und weitere Wikibase-Instanzen stellen eine der wertvollsten frei verfügbaren Quellen raumbezogener Informationen dar. In der wissenschaftlichen Nutzung, insbesondere im Bereich des Cultural Heritage und der Geowissenschaften, besteht jedoch weiterhin die Herausforderung, diese heterogenen Daten strukturiert, semantisch konsistent und maschinenlesbar in Forschungsinfrastrukturen zu integrieren. Der Beitrag zeigt, wie Community-Geodaten automatisiert extrahiert, transformiert und in das Federated Knowledge Graph Ecosystem (Fischer u. a. 2025; Rossenova u. a. 2025; Thiery u. a. 2025) wie die Knowledge Graph Infrastructure (KGI4NFDI) und den Terminology Service (TS4NFDI) eingebunden werden können.\nDie Datenextraktion erfolgt über Overpass Turbo (für OSM-Daten) sowie über SPARQL-Endpoints der Wikibase-Systeme (z. B. Wikidata, fuzzy-sl Wikibase, FactGrid). Anschließend werden die Datensätze mithilfe von Python-Skripten und der Bibliothek rdflib in RDF transformiert und innerhalb von Jupyter Notebooks dokumentiert, um eine reproduzierbare, FAIR4RS-konforme Prozesskette sicherzustellen. Die resultierenden RDF-Graphen werden gemäß CIDOC CRM und GeoSPARQL 1.1 modelliert und über die Material Cultural Heritage Crosswalk Ontology (MaCHeCO) mit dem NFDI4Objects Knowledge Graph interoperabel gemacht. Ergänzend erzeugt das SPARQLing Unicorn Toolkit (Homburg und Thiery 2024b; 2024a) eine HTML-Dokumentation der RDF-Ergebnisse, während das zugehörige SPARQLing Unicorn QGIS-Plugin die Re-Integration der Linked Data in QGIS ermöglicht. Anhand konkreter Use Cases wird das Vorgehen illustriert:\n(1) Cultural Heritage Irish Sites – etwa der Ogham Stone Coumeenole North (Q126503090; node:5145413640), cgl. Thiery und Thiery (2023), via https://overpass-turbo.eu/s/2eM0 oder St. Lachtain’s Well (Q121840779; way:935503837), via https://overpass-turbo.eu/s/2eM2 – werden aus OSM", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}, {"@id": "https://orcid.org/0009-0008-2877-3204", "@type": "Person", "name": "Fiona Schenk"}, {"@id": "https://orcid.org/0000-0003-3270-2659", "@type": "Person", "name": "Peter Thiery"}], "datePublished": "2026-03-25", "genre": "Presentation", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.19200628"}, "inLanguage": "de", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v8/i3", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v8", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "8"}, "issueNumber": "3"}, "license": "https://creativecommons.org/licenses/by/4.0/", "name": "Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem", "recordedAt": {"@type": "Event", "endDate": "2026-03-28", "location": {"@type": "Place", "geo": {"@type": "GeoCoordinates", "latitude": 51.53398, "longitude": 9.93792}, "name": "University of Göttingen", "sameAs": "http://www.wikidata.org/entity/Q152838"}, "name": "FOSSGIS-Konferenz 2026", "startDate": "2026-03-25"}, "sameAs": ["https://doi.org/10.5281/zenodo.19200628"], "url": "https://squirrelpapers.github.io/v8/i3/e9/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../volumes/" aria-current="page">Volumes &amp; Issues</a>
       <a href="../../../search/">Search</a>
       <a href="../../../map/">Map</a>
+      <a href="../../../model/">Data model</a>
       <a href="../../../sparql/">SPARQL</a>
       <a href="../../../impressum/">Legal notice</a>
       <a href="../../../privacy/">Privacy</a>
       <a class="lang-switch" href="../../../de/v8/i3/e9/" hreflang="de" lang="de">Deutsch</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Switch to dark mode" data-to-light="Switch to light mode"
+              data-dark="Dark" data-light="Light"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -141,6 +152,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -156,10 +203,10 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.19200628", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Schenk", "given": "Fiona"}, {"family": "Thiery", "given": "Peter"}], "container-title": "Squirrel Papers", "event": "FOSSGIS-Konferenz 2026", "event-place": "Georg-August-Universität Göttingen, Germany", "event-title": "FOSSGIS-Konferenz 2026", "genre": "Presentation", "id": "v8-i3-e9", "issue": "3", "issued": {"date-parts": [[2026, 3, 25]]}, "language": "de", "page": "§9", "title": "Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem", "type": "article-journal", "volume": "8"}</script>
-<script src="../../../assets/js/citeproc.js" defer></script>
-<script src="../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../assets/js/sqp-cite.js" defer></script>
-<script src="../../../assets/js/sqp-preview.js" defer></script>
+<script src="../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
+<script src="../../../assets/js/sqp-preview.js?v=5efc8aca5d" defer></script>
 
 </body>
 </html>

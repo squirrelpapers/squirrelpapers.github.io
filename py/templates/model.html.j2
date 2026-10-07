@@ -1,0 +1,75 @@
+{% extends "base.html.j2" %}
+{% block main %}
+<div class="wrap">
+  <h1>{{ t.model_title }}</h1>
+  <p class="lead measure">{{ t.model_intro }}</p>
+  <noscript><p class="notice">{{ t.model_nojs }}</p></noscript>
+
+  <div class="model-head">
+    <nav class="model-toc" aria-label="{{ t.model_contents }}">
+      <h2 class="small-heading">{{ t.model_contents }}</h2>
+      <ol>{% for s in model.sections %}<li><a href="#{{ s.id }}">{{ s.title[lang] }}</a></li>{% endfor %}</ol>
+    </nav>
+    <div class="model-legend">
+      <h2 class="small-heading">{{ t.model_legend }}</h2>
+      <ul class="legend">
+        {% for key in ["inst", "real", "cls", "term", "ext", "prop"] %}
+        <li><span class="swatch swatch-{{ key }}" aria-hidden="true"></span>{{ t["legend_" ~ key] }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  {% for s in model.sections %}
+  <section class="model-section" id="{{ s.id }}">
+    <h2>{{ loop.index }}. {{ s.title[lang] }}</h2>
+    <div class="prose measure">{{ s.text[lang] | replace("{root}", root) | safe }}</div>
+
+    {% if s.diagram %}
+    <figure class="diagram"><pre class="mermaid">{{ s.diagram }}</pre></figure>
+    {% endif %}
+
+    {% if s.diagrams %}
+    <div class="diagram-pair">
+      {% for d in s.diagrams %}
+      <figure class="diagram"><figcaption>{{ d.label }}</figcaption><pre class="mermaid">{{ d.source }}</pre></figure>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if s.table %}
+    <div class="table-scroll">
+      <table class="model-table">
+        <thead><tr>{% for h in s.table.head[lang] %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+        <tbody>
+        {% for row in s.table.rows %}<tr>{% for cell in row %}
+          <td>{% if cell is mapping %}{{ cell[lang] }}{% elif loop.first %}<code>{{ cell }}</code>{% else %}<code class="curies">{{ cell }}</code>{% endif %}</td>{% endfor %}</tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+
+    {% if s.rules %}
+    <div class="table-scroll">
+      <table class="model-table">
+        <thead><tr><th>{{ t.rules_shape }}</th><th>{{ t.rules_target }}</th><th>{{ t.rules_rules }}</th></tr></thead>
+        <tbody>
+        {% for r in s.rules %}<tr>
+          <td><code>{{ r.shape }}</code><br><span class="small muted">{{ r.file }}</span></td>
+          <td>{% for target in r.targets %}<code>{{ target }}</code>{% if not loop.last %}<br>{% endif %}{% endfor %}</td>
+          <td><ul class="plain">{% for rule in r.rules %}<li>{{ rule }}</li>{% endfor %}</ul></td>
+        </tr>{% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% if lang != "en" %}<p class="small muted">{{ t.rules_note }}</p>{% endif %}
+    {% endif %}
+  </section>
+  {% endfor %}
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ asset('assets/vendor/mermaid/mermaid.min.js') }}"></script>
+<script src="{{ asset('assets/js/sqp-model.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,462 @@
+{
+  "example": "https://w3id.org/squirrelpapers/v7/i4/e5",
+  "sections": [
+    {
+      "diagram": "flowchart LR\n  yaml([content/*.yaml]):::inst --> merge[merge]:::prop\n  zen([Zenodo cache]):::ext --> merge\n  wd([Wikidata cache]):::ext --> merge\n  merge --> json([entries.json]):::inst\n  json --> cite[cite]:::prop --> bib([BibTeX · RIS · CSL-JSON]):::inst\n  json --> rdf[rdf]:::prop --> dcat([DCAT graph]):::inst\n  rdf --> crm([CIDOC CRM graph]):::inst\n  dcat --> validate[validate · SHACL]:::prop\n  crm --> validate\n  dcat --> sparql[sparql]:::prop\n  dcat --> map[map]:::prop\n  validate --> site[site]:::prop\n  sparql --> site\n  map --> site\n  bib --> site\n  site --> pages([pages EN · DE]):::inst\nclassDef inst fill:#e2e8f0,stroke:#000000,color:#000000\nclassDef real fill:#166534,stroke:#000000,color:#ffffff\nclassDef cls fill:#9a3412,stroke:#000000,color:#ffffff\nclassDef term fill:#4c1d95,stroke:#000000,color:#ffffff\nclassDef ext fill:#ffffff,stroke:#000000,color:#000000\nclassDef prop fill:#fbbf24,stroke:#000000,color:#000000",
+      "id": "overview",
+      "text": {
+        "de": "<p>Alles auf dieser Seite stammt aus wenigen YAML-Dateien im Repository: dem Journal, einer Datei je Band, den Orten und dem Vokabular der Beitragstypen. Eine Python-Pipeline (<code>main.py</code>) reichert sie mit den zwischengespeicherten Zenodo-Datensätzen und Wikidata-Orten an und erzeugt aus denselben zusammengeführten Daten drei Dinge: die Webseiten, die Zitationen und den Wissensgraphen. Der Graph wird geprüft, abgefragt und kartiert, bevor die Seite geschrieben wird.</p>",
+        "en": "<p>Everything on this site comes from a few YAML files in the repository: the journal, one file per volume, the places and the vocabulary of entry types. A Python pipeline (<code>main.py</code>) enriches them with the Zenodo records and Wikidata places it has cached, and produces three things from the same merged data: the web pages, the citations and the knowledge graph. The graph is then validated, queried and mapped before the site is written.</p>"
+      },
+      "title": {
+        "de": "Von YAML zum Wissensgraphen",
+        "en": "From YAML to knowledge graph"
+      }
+    },
+    {
+      "diagram": "flowchart TB\n  J([Journal · /]):::inst\n  V([Volume 7 · /v7]):::inst\n  I([Issue 4 · /v7/i4]):::inst\n  E([Entry 5 · /v7/i4/e5]):::inst\n  D([PDF · /v7/i4/e5#pdf]):::inst\n  P([Person · /person/ORCID]):::real\n  EV([Event · /event/…]):::real\n  PL([Place · /place/…]):::real\n  T([Type · /type/poster]):::term\n  O([ORCID]):::ext\n  W([Wikidata]):::ext\n  Z([DOI · Zenodo]):::ext\n  J -->|\"dcat:dataset\"| V\n  V -->|\"dct:hasPart\"| I\n  I -->|\"dct:hasPart\"| E\n  E -->|\"dcat:distribution\"| D\n  E -->|\"dct:creator\"| P\n  E -->|\"bibo:presentedAt\"| EV\n  EV -->|\"schema:location\"| PL\n  E -->|\"dct:type\"| T\n  P -->|\"owl:sameAs\"| O\n  PL -->|\"owl:sameAs\"| W\n  E -->|\"owl:sameAs\"| Z\nclassDef inst fill:#e2e8f0,stroke:#000000,color:#000000\nclassDef real fill:#166534,stroke:#000000,color:#ffffff\nclassDef cls fill:#9a3412,stroke:#000000,color:#ffffff\nclassDef term fill:#4c1d95,stroke:#000000,color:#ffffff\nclassDef ext fill:#ffffff,stroke:#000000,color:#000000\nclassDef prop fill:#fbbf24,stroke:#000000,color:#000000",
+      "id": "structure",
+      "text": {
+        "de": "<p>Das Journal ist ein Katalog von Bänden, ein Band eine Reihe von Heften, ein Heft eine Reihe von Beiträgen. Jede Ebene hat eine eigene stabile IRI unter <code>https://w3id.org/squirrelpapers/</code>, jeder Beitrag seine Datei auf Zenodo, seine Personen und - bei Vorträgen und Postern - die Veranstaltung, auf der er vorgestellt wurde, samt ihrem Ort. Die Typen stammen aus dem eigenen SKOS-Vokabular des Journals, abgebildet auf COAR und FaBiO.</p>",
+        "en": "<p>The journal is a catalogue of volumes, a volume a series of issues, an issue a series of entries. Every level has its own stable IRI under <code>https://w3id.org/squirrelpapers/</code>, and every entry its file on Zenodo, its people, and - for talks and posters - the event where it was presented and the place of that event. Types come from the journal's own SKOS vocabulary, mapped to COAR and FaBiO.</p>"
+      },
+      "title": {
+        "de": "Journal, Band, Heft, Beitrag",
+        "en": "Journal, volume, issue, entry"
+      }
+    },
+    {
+      "diagram": "flowchart LR\n  cat[\"dcat:Catalog<br>fabio:Journal\"]:::cls\n  ser[\"dcat:DatasetSeries<br>fabio:JournalVolume\"]:::cls\n  iss[\"dcat:DatasetSeries<br>fabio:JournalIssue\"]:::cls\n  ds[\"dcat:Dataset<br>bibo:Document · fabio:…\"]:::cls\n  dist[\"dcat:Distribution\"]:::cls\n  per[\"foaf:Person<br>schema:Person\"]:::cls\n  ev[\"event:Event<br>schema:Event\"]:::cls\n  pl[\"dct:Location<br>schema:Place · geo:Feature\"]:::cls\n  geom[\"geo:Geometry\"]:::cls\n  con[\"skos:Concept\"]:::term\n  cat -->|\"dcat:dataset\"| ser\n  ser -->|\"dct:isPartOf\"| cat\n  iss -->|\"dcat:inSeries\"| ser\n  ds -->|\"dcat:inSeries\"| iss\n  ds -->|\"dcat:distribution\"| dist\n  ds -->|\"dct:creator · dct:contributor\"| per\n  ds -->|\"bibo:presentedAt\"| ev\n  ds -->|\"dct:type\"| con\n  ev -->|\"schema:location\"| pl\n  pl -->|\"geo:hasGeometry\"| geom\n  ds --- lbl[/\"sqp:citationLabel · sqp:entryNumber\"/]:::prop\n  iss --- sig[/\"sqp:sigil\"/]:::prop\n  geom --- wkt[/\"geo:asWKT\"/]:::prop\nclassDef inst fill:#e2e8f0,stroke:#000000,color:#000000\nclassDef real fill:#166534,stroke:#000000,color:#ffffff\nclassDef cls fill:#9a3412,stroke:#000000,color:#ffffff\nclassDef term fill:#4c1d95,stroke:#000000,color:#ffffff\nclassDef ext fill:#ffffff,stroke:#000000,color:#000000\nclassDef prop fill:#fbbf24,stroke:#000000,color:#000000",
+      "id": "dcat",
+      "text": {
+        "de": "<p>Der Hauptgraph beschreibt das Journal als Datenkatalog in <strong>DCAT 3</strong>, geprüft gegen das Profil <strong>DCAT-AP 3.0.1</strong> der Europäischen Union: Das Journal ist ein <code>dcat:Catalog</code>, Bände und Hefte sind <code>dcat:DatasetSeries</code>, Beiträge <code>dcat:Dataset</code> mit einer <code>dcat:Distribution</code> für das PDF. Bibliografische Vokabulare ergänzen, was DCAT nicht sagt: BIBO und FaBiO die Art der Publikation, PRISM Band- und Heftnummern, schema.org und FOAF Personen, Veranstaltungen und Orte, GeoSPARQL die Koordinaten, PROV den Zenodo-Datensatz, aus dem ein Beitrag stammt, SPDX die Prüfsummen. Die kleine <code>sqp:</code>-Ontologie enthält nur die eigene Nummerierung des Journals.</p>",
+        "en": "<p>The main graph describes the journal as a data catalogue in <strong>DCAT 3</strong>, validated against the <strong>DCAT-AP 3.0.1</strong> profile of the European Union: the journal is a <code>dcat:Catalog</code>, volumes and issues are <code>dcat:DatasetSeries</code>, entries are <code>dcat:Dataset</code> with a <code>dcat:Distribution</code> for the PDF. Bibliographic vocabularies add what DCAT does not say: BIBO and FaBiO for the kind of publication, PRISM for volume and issue numbers, schema.org and FOAF for people, events and places, GeoSPARQL for coordinates, PROV for the Zenodo record an entry was derived from, SPDX for checksums. The small <code>sqp:</code> ontology holds only the journal's own numbering.</p>"
+      },
+      "title": {
+        "de": "Die DCAT-Schicht",
+        "en": "The DCAT layer"
+      }
+    },
+    {
+      "diagram": "flowchart LR\n  e73[\"crm:E73_Information_Object<br>lrmoo:F2_Expression\"]:::cls\n  e65[\"crm:E65_Creation<br>lrmoo:F28_Expression_Creation\"]:::cls\n  e21[\"crm:E21_Person\"]:::cls\n  e52[\"crm:E52_Time-Span\"]:::cls\n  e7[\"crm:E7_Activity\"]:::cls\n  e53[\"crm:E53_Place\"]:::cls\n  e35[\"crm:E35_Title\"]:::cls\n  e42[\"crm:E42_Identifier\"]:::cls\n  e41[\"crm:E41_Appellation\"]:::cls\n  d1[\"crmdig:D1_Digital_Object\"]:::cls\n  f18[\"lrmoo:F18_Serial_Work\"]:::cls\n  e65 -->|\"crm:P94_has_created<br>lrmoo:R17_created\"| e73\n  e65 -->|\"crm:P14_carried_out_by\"| e21\n  e65 -->|\"crm:P4_has_time-span\"| e52\n  e7 -->|\"crm:P16_used_specific_object\"| e73\n  e7 -->|\"crm:P7_took_place_at\"| e53\n  e7 -->|\"crm:P1_is_identified_by\"| e41\n  e7 -->|\"crm:P4_has_time-span\"| e52\n  e73 -->|\"crm:P102_has_title\"| e35\n  e73 -->|\"crm:P1_is_identified_by\"| e42\n  e21 -->|\"crm:P1_is_identified_by\"| e42\n  d1 -->|\"crm:P165_incorporates\"| e73\n  e73b[\"crm:E73_Information_Object<br>issue · volume\"]:::cls\n  e73 -->|\"crm:P106i_forms_part_of\"| e73b\n  e73b -->|\"crm:P106i_forms_part_of\"| f18\n  e53 --- wkt[/\"crm:P168_place_is_defined_by\"/]:::prop\n  e52 --- dates[/\"crm:P82a_begin_of_the_begin<br>crm:P82b_end_of_the_end\"/]:::prop\n  e42 --- sym[/\"crm:P190_has_symbolic_content\"/]:::prop\nclassDef inst fill:#e2e8f0,stroke:#000000,color:#000000\nclassDef real fill:#166534,stroke:#000000,color:#ffffff\nclassDef cls fill:#9a3412,stroke:#000000,color:#ffffff\nclassDef term fill:#4c1d95,stroke:#000000,color:#ffffff\nclassDef ext fill:#ffffff,stroke:#000000,color:#000000\nclassDef prop fill:#fbbf24,stroke:#000000,color:#000000",
+      "id": "crm",
+      "text": {
+        "de": "<p>Ein zweiter Graph beschreibt dieselben Ressourcen in <strong>CIDOC CRM</strong> 7.1 mit den Erweiterungen <strong>LRMoo</strong> (Werke und Expressionen) und <strong>CRMdig</strong> (digitale Objekte). Wo DCAT Fakten als Eigenschaften des Beitrags nennt, erzählt CRM sie als Ereignisse: Ein Beitrag wurde von Personen (P14) in einer Zeitspanne (P4) <em>geschaffen</em> (E65 / F28); eine Konferenz ist eine Aktivität (E7), die den Beitrag benutzte (P16) und an einem Ort (P7) stattfand, der durch Koordinaten bestimmt ist (P168). Titel und Identifikatoren sind eigene Knoten (E35, E42) mit ihrem symbolischen Inhalt (P190).</p>",
+        "en": "<p>A second graph describes the same resources in <strong>CIDOC CRM</strong> 7.1 with its extensions <strong>LRMoo</strong> (works and expressions) and <strong>CRMdig</strong> (digital objects). Where DCAT states facts as properties of the entry, CRM tells them as events: an entry was <em>created</em> (E65 / F28) by people (P14) within a time-span (P4); a conference is an activity (E7) that used the entry (P16) and took place at a place (P7) defined by coordinates (P168). Titles and identifiers are nodes of their own (E35, E42), each with its symbolic content (P190).</p>"
+      },
+      "title": {
+        "de": "Die CIDOC-CRM-Schicht",
+        "en": "The CIDOC CRM layer"
+      }
+    },
+    {
+      "id": "bridge",
+      "table": {
+        "head": {
+          "de": [
+            "Tatsache",
+            "DCAT-Graph",
+            "CIDOC-CRM-Graph"
+          ],
+          "en": [
+            "Fact",
+            "DCAT graph",
+            "CIDOC CRM graph"
+          ]
+        },
+        "rows": [
+          [
+            {
+              "de": "wer ihn schrieb",
+              "en": "who wrote it"
+            },
+            "dct:creator",
+            "crm:P94i_was_created_by / crm:P14_carried_out_by"
+          ],
+          [
+            {
+              "de": "wann",
+              "en": "when"
+            },
+            "dct:issued",
+            "… / crm:P4_has_time-span / crm:P82a_begin_of_the_begin"
+          ],
+          [
+            {
+              "de": "sein Titel",
+              "en": "its title"
+            },
+            "dct:title",
+            "crm:P102_has_title / crm:P190_has_symbolic_content"
+          ],
+          [
+            {
+              "de": "seine DOI",
+              "en": "its DOI"
+            },
+            "bibo:doi",
+            "crm:P1_is_identified_by / crm:P190_has_symbolic_content"
+          ],
+          [
+            {
+              "de": "sein Typ",
+              "en": "its type"
+            },
+            "dct:type",
+            "crm:P2_has_type"
+          ],
+          [
+            {
+              "de": "wo er vorgestellt wurde",
+              "en": "where it was presented"
+            },
+            "bibo:presentedAt / schema:location",
+            "crm:P16i_was_used_for / crm:P7_took_place_at"
+          ],
+          [
+            {
+              "de": "sein PDF",
+              "en": "its PDF"
+            },
+            "dcat:distribution",
+            "crm:P165i_is_incorporated_in"
+          ],
+          [
+            {
+              "de": "sein Heft",
+              "en": "its issue"
+            },
+            "dcat:inSeries",
+            "crm:P106i_forms_part_of"
+          ]
+        ]
+      },
+      "text": {
+        "de": "<p>Beide Graphen verwenden dieselben IRIs. Ein Beitrag, eine Person, eine Veranstaltung oder ein Ort ist ein Knoten, einmal als Katalogeintrag und einmal als CRM-Entität beschrieben; lädt man beide Dateien in einen Store, verbinden sie sich ohne jede Abbildung. Die Tabelle liest dieselbe Tatsache auf beide Arten. Der DCAT-Graph bleibt für sich lesbar, und der CRM-Graph lässt sich ohne das Katalogvokabular in einen CRM-basierten Wissensgraphen wie den von NFDI4Objects übernehmen.</p>",
+        "en": "<p>Both graphs use the same IRIs. An entry, a person, an event or a place is one node, described once as catalogue record and once as a CRM entity; loading both files into one store joins them without any mapping. The table reads one fact in both ways. The DCAT graph stays readable on its own, and the CRM graph can be published to a CRM-based knowledge graph such as the one of NFDI4Objects without the catalogue vocabulary.</p>"
+      },
+      "title": {
+        "de": "Wie die beiden Schichten zusammenkommen",
+        "en": "How the two layers meet"
+      }
+    },
+    {
+      "diagrams": [
+        {
+          "label": "DCAT",
+          "source": "flowchart LR\n  n0(\"/v7/i4/e5<br><small>bibo:Document · dcat:Dataset</small>\"):::inst\n  n1[/\"7(4), λ5\"/]:::prop\n  n2[/\"2025-09-30\"/]:::prop\n  n3(\"/v7/i4<br><small>dcat:DatasetSeries · fabio:JournalIssue</small>\"):::inst\n  n4(\"sqpt:conference-paper<br><small>skos:Concept</small>\"):::term\n  n5(\"Florian Thiery<br><small>foaf:Person · schema:Person</small>\"):::real\n  n6(\"NFDI4Objects Community Meeting 2025<br><small>event:Event · schema:Event</small>\"):::real\n  n7(\"/v7/i4/e5#pdf<br><small>dcat:Distribution</small>\"):::inst\n  n8[\"https://doi.org/10.5281/zenodo.16875678\"]:::ext\n  n9(\"German Mining Museum<br><small>dct:Location · geo:Feature</small>\"):::real\n  n10[\"wd:Q896952\"]:::ext\n  n11[\"iana:application/pdf<br><small>dct:MediaType</small>\"]:::ext\n  n12[/\"3050344\"/]:::prop\n  n13[\"https://orcid.org/0000-0002-3246-3531\"]:::ext\n  n0 -->|\"sqp:citationLabel\"| n1\n  n0 -->|\"dct:issued\"| n2\n  n0 -->|\"dcat:inSeries\"| n3\n  n0 -->|\"dct:type\"| n4\n  n0 -->|\"dct:creator\"| n5\n  n0 -->|\"bibo:presentedAt\"| n6\n  n0 -->|\"dcat:distribution\"| n7\n  n0 -->|\"owl:sameAs\"| n8\n  n6 -->|\"schema:location\"| n9\n  n9 -->|\"owl:sameAs\"| n10\n  n7 -->|\"dcat:mediaType\"| n11\n  n7 -->|\"dcat:byteSize\"| n12\n  n5 -->|\"owl:sameAs\"| n13\nclassDef inst fill:#e2e8f0,stroke:#000000,color:#000000\nclassDef real fill:#166534,stroke:#000000,color:#ffffff\nclassDef cls fill:#9a3412,stroke:#000000,color:#ffffff\nclassDef term fill:#4c1d95,stroke:#000000,color:#ffffff\nclassDef ext fill:#ffffff,stroke:#000000,color:#000000\nclassDef prop fill:#fbbf24,stroke:#000000,color:#000000"
+        },
+        {
+          "label": "CIDOC CRM",
+          "source": "flowchart LR\n  n0(\"/v7/i4/e5#creation<br><small>crm:E65_Creation · lrmoo:F28_Expression_Creation</small>\"):::inst\n  n1(\"/v7/i4/e5<br><small>crm:E73_Information_Object · lrmoo:F2_Expression</small>\"):::inst\n  n2(\"Florian Thiery<br><small>crm:E21_Person</small>\"):::real\n  n3(\"/v7/i4/e5#creation-time-span<br><small>crm:E52_Time-Span</small>\"):::inst\n  n4[/\"2025-09-30T00:00:00\"/]:::prop\n  n5(\"/v7/i4/e5#title<br><small>crm:E35_Title</small>\"):::inst\n  n6[/\"Brückenbau zwischen LOD und RSE: Von CIDOC CR…\"/]:::prop\n  n7(\"/v7/i4/e5#doi<br><small>crm:E42_Identifier</small>\"):::inst\n  n8[/\"10.5281/zenodo.16875678\"/]:::prop\n  n9(\"sqpt:conference-paper\"):::term\n  n10(\"/v7/i4<br><small>crm:E73_Information_Object</small>\"):::inst\n  n11(\"NFDI4Objects Community Meeting 2025<br><small>crm:E7_Activity</small>\"):::real\n  n12(\"German Mining Museum<br><small>crm:E53_Place</small>\"):::real\n  n13[/\"POINT(7.21722 51.4892)\"/]:::prop\n  n14(\"/v7/i4/e5#pdf<br><small>crmdig:D1_Digital_Object</small>\"):::inst\n  n0 -->|\"crm:P94_has_created\"| n1\n  n0 -->|\"crm:P14_carried_out_by\"| n2\n  n0 -->|\"crm:P4_has_time-span\"| n3\n  n3 -->|\"crm:P82a_begin_of_the_begin\"| n4\n  n1 -->|\"crm:P102_has_title\"| n5\n  n5 -->|\"crm:P190_has_symbolic_content\"| n6\n  n1 -->|\"crm:P1_is_identified_by\"| n7\n  n7 -->|\"crm:P190_has_symbolic_content\"| n8\n  n1 -->|\"crm:P2_has_type\"| n9\n  n1 -->|\"crm:P106i_forms_part_of\"| n10\n  n11 -->|\"crm:P16_used_specific_object\"| n1\n  n11 -->|\"crm:P7_took_place_at\"| n12\n  n12 -->|\"crm:P168_place_is_defined_by\"| n13\n  n14 -->|\"crm:P165_incorporates\"| n1\nclassDef inst fill:#e2e8f0,stroke:#000000,color:#000000\nclassDef real fill:#166534,stroke:#000000,color:#ffffff\nclassDef cls fill:#9a3412,stroke:#000000,color:#ffffff\nclassDef term fill:#4c1d95,stroke:#000000,color:#ffffff\nclassDef ext fill:#ffffff,stroke:#000000,color:#000000\nclassDef prop fill:#fbbf24,stroke:#000000,color:#000000"
+        }
+      ],
+      "generated": "example",
+      "id": "example",
+      "text": {
+        "de": "<p>Vom Build aus den veröffentlichten Graphen gezeichnet, nicht von Hand: der Beitrag <em>Brückenbau zwischen LOD und RSE</em> mit Heft, Person, Veranstaltung, Ort und Datei - erst als DCAT, dann als CIDOC CRM. Die vollständige Beschreibung steht in <a href=\"{root}v7/i4/e5/index.ttl\">index.ttl</a> neben der Beitragsseite.</p>",
+        "en": "<p>Drawn by the build from the published graphs, not by hand: the entry <em>Brückenbau zwischen LOD und RSE</em> with its issue, person, event, place and file - first as DCAT, then as CIDOC CRM. Its complete description is in <a href=\"{root}v7/i4/e5/index.ttl\">index.ttl</a> next to the entry page.</p>"
+      },
+      "title": {
+        "de": "Ein Beitrag in beiden Graphen: 7(4), λ5",
+        "en": "One entry in both graphs: 7(4), λ5"
+      }
+    },
+    {
+      "generated": "rules",
+      "id": "rules",
+      "rules": [
+        {
+          "file": "shapes/sqp-shapes.ttl",
+          "rules": [
+            "A DOI is written without resolver, '10.5281/zenodo.123'.",
+            "An entry belongs to exactly one issue.",
+            "An entry has at least one creator, a foaf:Person.",
+            "An entry has exactly one title.",
+            "An entry has one entry number.",
+            "An entry has one issue date, a full date or a year.",
+            "An entry keeps the order of its authors in one rdf:Seq.",
+            "An entry without distribution cannot be reached from the catalogue.",
+            "Every type of an entry is a concept of the Squirrel Papers type scheme.",
+            "The citation label reads like '7(4), λ5'.",
+            "The landing page is the entry's page on the site."
+          ],
+          "shape": "EntryShape",
+          "targets": [
+            "bibo:Document"
+          ]
+        },
+        {
+          "file": "shapes/sqp-shapes.ttl",
+          "rules": [
+            "An event cannot end before it starts.",
+            "rdfs:label exactly 1",
+            "schema:endDate at most 1",
+            "schema:location at most 1",
+            "schema:startDate at most 1"
+          ],
+          "shape": "EventShape",
+          "targets": [
+            "event:Event"
+          ]
+        },
+        {
+          "file": "shapes/sqp-shapes.ttl",
+          "rules": [
+            "An issue belongs to exactly one volume.",
+            "An issue has a title in English and in German.",
+            "An issue has one sigil out of #, λ, §, 𝒬.",
+            "prism:number exactly 1"
+          ],
+          "shape": "IssueShape",
+          "targets": [
+            "fabio:JournalIssue"
+          ]
+        },
+        {
+          "file": "shapes/sqp-shapes.ttl",
+          "rules": [
+            "Entry {?value}: the IRI must agree with its issue's IRI and its entry number.",
+            "Entry {?value}: the citation label must agree with volume, issue and entry number.",
+            "Entry {?value}: when its language is known, the title carries the matching language tag.",
+            "bibo:issn at least 1",
+            "dcat:dataset at least 1"
+          ],
+          "shape": "JournalShape",
+          "targets": [
+            "/"
+          ]
+        },
+        {
+          "file": "shapes/sqp-shapes.ttl",
+          "rules": [
+            "A person is linked to at most one ORCID.",
+            "foaf:familyName exactly 1",
+            "foaf:name exactly 1"
+          ],
+          "shape": "PersonShape",
+          "targets": [
+            "foaf:Person"
+          ]
+        },
+        {
+          "file": "shapes/sqp-shapes.ttl",
+          "rules": [
+            "A place has one point geometry.",
+            "rdfs:label exactly 1"
+          ],
+          "shape": "PlaceShape",
+          "targets": [
+            "schema:Place"
+          ]
+        },
+        {
+          "file": "shapes/sqp-shapes.ttl",
+          "rules": [
+            "A volume is part of the journal.",
+            "prism:volume exactly 1"
+          ],
+          "shape": "VolumeShape",
+          "targets": [
+            "fabio:JournalVolume"
+          ]
+        },
+        {
+          "file": "shapes/crm-shapes.ttl",
+          "rules": [
+            "crm:P16_used_specific_object at least 1",
+            "crm:P1_is_identified_by at least 1",
+            "crm:P7_took_place_at at most 1"
+          ],
+          "shape": "CrmActivityShape",
+          "targets": [
+            "crm:E7_Activity"
+          ]
+        },
+        {
+          "file": "shapes/crm-shapes.ttl",
+          "rules": [
+            "crm:P14_carried_out_by at least 1",
+            "crm:P4_has_time-span at most 1",
+            "crm:P94_has_created exactly 1"
+          ],
+          "shape": "CrmCreationShape",
+          "targets": [
+            "crm:E65_Creation"
+          ]
+        },
+        {
+          "file": "shapes/crm-shapes.ttl",
+          "rules": [
+            "crm:P165_incorporates at least 1"
+          ],
+          "shape": "CrmDigitalObjectShape",
+          "targets": [
+            "crmdig:D1_Digital_Object"
+          ]
+        },
+        {
+          "file": "shapes/crm-shapes.ttl",
+          "rules": [
+            "Every expression has exactly one creation event.",
+            "crm:P102_has_title exactly 1",
+            "crm:P106i_forms_part_of exactly 1",
+            "crm:P2_has_type at least 1"
+          ],
+          "shape": "CrmExpressionShape",
+          "targets": [
+            "lrmoo:F2_Expression"
+          ]
+        },
+        {
+          "file": "shapes/crm-shapes.ttl",
+          "rules": [
+            "crm:P190_has_symbolic_content exactly 1",
+            "crm:P2_has_type exactly 1"
+          ],
+          "shape": "CrmIdentifierShape",
+          "targets": [
+            "crm:E42_Identifier"
+          ]
+        },
+        {
+          "file": "shapes/crm-shapes.ttl",
+          "rules": [
+            "crm:P168_place_is_defined_by at most 1"
+          ],
+          "shape": "CrmPlaceShape",
+          "targets": [
+            "crm:E53_Place"
+          ]
+        },
+        {
+          "file": "shapes/crm-shapes.ttl",
+          "rules": [
+            "A time-span cannot end before it begins.",
+            "crm:P82a_begin_of_the_begin exactly 1",
+            "crm:P82b_end_of_the_end exactly 1"
+          ],
+          "shape": "CrmTimeSpanShape",
+          "targets": [
+            "crm:E52_Time-Span"
+          ]
+        }
+      ],
+      "text": {
+        "de": "<p>Bevor die Seite gebaut wird, prüft SHACL den Graphen dreifach: gegen die offiziellen Shapes von DCAT-AP 3.0.1, gegen die eigenen Regeln des Journals unten und gegen Regeln für die CRM-Sicht. Zuerst muss ein absichtlich kaputter Beitrag von jeder Regel erkannt werden, damit die Prüfung nicht unbemerkt aufhört zu wirken. Die Regeln liegen als <a href=\"{root}shapes/sqp-shapes.ttl\">sqp-shapes.ttl</a> und <a href=\"{root}shapes/crm-shapes.ttl\">crm-shapes.ttl</a> vor.</p>",
+        "en": "<p>Before the site is built, the graph is checked three ways with SHACL: against the official DCAT-AP 3.0.1 shapes, against the journal's own rules below, and against rules for the CRM view. A deliberately broken entry must be caught by every rule first, so the check cannot silently stop working. The rules are published as <a href=\"{root}shapes/sqp-shapes.ttl\">sqp-shapes.ttl</a> and <a href=\"{root}shapes/crm-shapes.ttl\">crm-shapes.ttl</a>.</p>"
+      },
+      "title": {
+        "de": "Die Regeln, die der Graph einhalten muss",
+        "en": "The rules the graph must keep"
+      }
+    },
+    {
+      "id": "iris",
+      "table": {
+        "head": {
+          "de": [
+            "IRI",
+            "Ressource",
+            "Klassen"
+          ],
+          "en": [
+            "IRI",
+            "Resource",
+            "Classes"
+          ]
+        },
+        "rows": [
+          [
+            "/",
+            {
+              "de": "das Journal",
+              "en": "the journal"
+            },
+            "dcat:Catalog · fabio:Journal · lrmoo:F18_Serial_Work"
+          ],
+          [
+            "/v7",
+            {
+              "de": "Band 7",
+              "en": "volume 7"
+            },
+            "dcat:DatasetSeries · fabio:JournalVolume"
+          ],
+          [
+            "/v7/i4",
+            {
+              "de": "Band 7, Heft 4",
+              "en": "volume 7, issue 4"
+            },
+            "dcat:DatasetSeries · fabio:JournalIssue"
+          ],
+          [
+            "/v7/i4/e5",
+            {
+              "de": "Beitrag 5 dieses Hefts",
+              "en": "entry 5 of that issue"
+            },
+            "dcat:Dataset · bibo:Document · crm:E73_Information_Object"
+          ],
+          [
+            "/v7/i4/e5#pdf",
+            {
+              "de": "sein PDF auf Zenodo",
+              "en": "its PDF on Zenodo"
+            },
+            "dcat:Distribution · crmdig:D1_Digital_Object"
+          ],
+          [
+            "/person/<ORCID>",
+            {
+              "de": "eine Person",
+              "en": "a person"
+            },
+            "foaf:Person · crm:E21_Person"
+          ],
+          [
+            "/event/<name-year>",
+            {
+              "de": "eine Konferenz oder ein Workshop",
+              "en": "a conference or workshop"
+            },
+            "event:Event · crm:E7_Activity"
+          ],
+          [
+            "/place/<key>",
+            {
+              "de": "ein Ort",
+              "en": "a place"
+            },
+            "schema:Place · crm:E53_Place"
+          ],
+          [
+            "/type/<slug>",
+            {
+              "de": "ein Beitragstyp",
+              "en": "an entry type"
+            },
+            "skos:Concept"
+          ],
+          [
+            "/ontology",
+            {
+              "de": "die Ontologie des Journals",
+              "en": "the journal's ontology"
+            },
+            "owl:Ontology"
+          ]
+        ]
+      },
+      "text": {
+        "de": "<p>Jede Ressource hat eine IRI unter <code>https://w3id.org/squirrelpapers/</code>, die bleibt, wenn die Seite umzieht. Sie führt einen Browser zur Seite und eine Maschine zu Turtle oder JSON-LD; dieselben Dateien liegen neben jeder Seite.</p>",
+        "en": "<p>Every resource has an IRI under <code>https://w3id.org/squirrelpapers/</code> that stays when the site moves. It resolves to the page for a browser and to Turtle or JSON-LD for a machine; the same files lie next to every page.</p>"
+      },
+      "title": {
+        "de": "Stabile IRIs",
+        "en": "Stable IRIs"
+      }
+    }
+  ]
+}

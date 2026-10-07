@@ -68,8 +68,9 @@ STEPS: list[Step] = [
     # index; it writes no HTML - the site step renders both pages (S9).
     Step("sparql", "step_sparql", "S9   search index, example queries checked against the graph", True),
     Step("map", "step_map", "S10  event places -> dist/events.geojson", True),
-    # site comes last: it copies the products of cite, rdf, validate, sparql
-    # and map into docs/ and links them from every page.
+    Step("model", "step_model", "S16  data model page: diagrams checked against the graph", True),
+    # site comes last: it copies the products of cite, rdf, validate, sparql,
+    # map and model into docs/ and links them from every page.
     Step("site", "step_site", "S5   render docs/ (EN and DE) for GitHub Pages", True),
 ]
 

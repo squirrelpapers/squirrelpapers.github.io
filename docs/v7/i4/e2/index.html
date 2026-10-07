@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../v7/i4/e2/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../v7/i4/e2/index.jsonld">
 <link rel="icon" type="image/png" href="../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v7/i4/e2", "@type": "CreativeWork", "abstract": "Die TWG N4O ObjectMetaDataSet and ObjectOntology wird in dieser Iteration den aktuellen Bedürfnissen (NFDI Core Metadata Profile, etc.) inhaltlich agil angepasst. Diese TWG entwickelt kein Datenmodell für die Erstellung von Objektbiografien und definiert ebenfalls keine Anwendungsontologie für CIDOC CRM. Zudem werden keine LIDO-Anwendungsprofile entwickelt. Sie dient vor allem zur Entwicklung von technischen Referenzmodellen für Metadaten und publizierten Forschungsdaten. Die Themengebiete erzeugen fachliche Profile als Module der OCMDP sowie fachspezifische Profil-Ontologien, die jeweils auf CIDOC CRM Klassen referenzieren, um die Kompatibilität mit dem N4O KG herzustellen und die Validierung positiv zu gestalten; die TWG entwickelt ein abgeglichenes gemeinsames harmonisiertes Metadaten- und Ontologieprofil, keine fachspezifischen Lösungen.\nPrimäres Ziel ist der Aufbau eines von der NFDI4Objects-Community getragenes Object Core Metadata Profile (OCMDP). Dieses Kerndatenschema stellt die Kompatibilität mit dem sich in Aufbau befindlichen NFDI Core Meta Data Profile (NFDI Sektionen) und dem NFDI Core (FIZ Karlsruhe) sicher, so dass Metadaten in NFDI4Objects innerhalb der NFDI-Konsortien interoperabel zur Verfügung stehen. Dazu müssen abgestimmte N4O eigene Elemente/Terms (properties) und Entitäten (classes) erzeugt und durch einen Cross-Walk mit anderen Schemata (u. a. schema.org, DCAT, DataCite, DublinCore) verknüpft werden. Der OCMDP ist die Basis für ein RDF-basiertes Austauschformat (Objects Metadata Junction Ontology - OMJO), welche Daten in einen N4O Metadata Knowledge Graph (N4O MKG) einspielt und diese FAIR zur Verfügung stellt. Zur FAIRifizierung von Forschungsdaten und Herstellung der Kompatibilität mit internationalen Cultural Heritage Daten auf Basis des CIDOC CRM und seiner Extensions wird eine Material Cultural Heritage Crosswalk Ontology (MaCHeCO) entwickelt, um hier gemeinsam mit der N4O Community Basis-Entitäten (classes)  in individuellen Ontologien", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}, {"@id": "https://orcid.org/0000-0003-2576-1511", "@type": "Person", "name": "Anja Gerber"}, {"@id": "https://orcid.org/0000-0003-3223-2079", "@type": "Person", "name": "Fabian Fricke"}], "datePublished": "2025-09-19", "genre": "Proposal", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.14893860"}, "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v7/i4", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v7", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "7"}, "issueNumber": "4"}, "license": "https://creativecommons.org/licenses/by/4.0/", "name": "NFDI4Objects TWG - N4O ObjectMetaDataSet (N4O OMDS) \u0026 N4O ObjectOntology (N4O OO)", "sameAs": ["https://doi.org/10.5281/zenodo.14893860"], "url": "https://squirrelpapers.github.io/v7/i4/e2/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../volumes/" aria-current="page">Volumes &amp; Issues</a>
       <a href="../../../search/">Search</a>
       <a href="../../../map/">Map</a>
+      <a href="../../../model/">Data model</a>
       <a href="../../../sparql/">SPARQL</a>
       <a href="../../../impressum/">Legal notice</a>
       <a href="../../../privacy/">Privacy</a>
       <a class="lang-switch" href="../../../de/v7/i4/e2/" hreflang="de" lang="de">Deutsch</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Switch to dark mode" data-to-light="Switch to light mode"
+              data-dark="Dark" data-light="Light"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -159,6 +170,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -174,10 +221,10 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.14893860", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Gerber", "given": "Anja"}, {"family": "Fricke", "given": "Fabian"}], "container-title": "Squirrel Papers", "genre": "Proposal", "id": "v7-i4-e2", "issue": "4", "issued": {"date-parts": [[2025, 9, 19]]}, "page": "λ2", "title": "NFDI4Objects TWG - N4O ObjectMetaDataSet (N4O OMDS) \u0026 N4O ObjectOntology (N4O OO)", "type": "article-journal", "volume": "7"}</script>
-<script src="../../../assets/js/citeproc.js" defer></script>
-<script src="../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../assets/js/sqp-cite.js" defer></script>
-<script src="../../../assets/js/sqp-preview.js" defer></script>
+<script src="../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
+<script src="../../../assets/js/sqp-preview.js?v=5efc8aca5d" defer></script>
 
 </body>
 </html>

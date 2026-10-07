@@ -74,3 +74,11 @@ naturalearth:
     py/tools/make_basemap.py (simplified 0.02 degrees, rounded to 0.01 degrees,
     attributes dropped; 3 MB -> 0.76 MB).
   taken: 2026-10-07
+mermaid:
+  name: Mermaid
+  version: 12.1.0
+  source: https://www.npmjs.com/package/mermaid
+  files: [mermaid/mermaid.min.js, mermaid/LICENSE]
+  licence: MIT (see mermaid/LICENSE)
+  note: Draws the diagrams of the data model page (S16), only on that page.
+  taken: 2026-10-07

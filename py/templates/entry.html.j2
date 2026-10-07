@@ -75,8 +75,8 @@
 {% endblock %}
 {% block scripts %}
 <script type="application/json" id="csl-item">{{ csl_item | safe }}</script>
-<script src="{{ root }}assets/js/citeproc.js" defer></script>
-<script src="{{ root }}assets/js/sqp-csl-data.js" defer></script>
-<script src="{{ root }}assets/js/sqp-cite.js" defer></script>
-{% if e.pdf %}<script src="{{ root }}assets/js/sqp-preview.js" defer></script>{% endif %}
+<script src="{{ asset('assets/js/citeproc.js') }}" defer></script>
+<script src="{{ asset('assets/js/sqp-csl-data.js') }}" defer></script>
+<script src="{{ asset('assets/js/sqp-cite.js') }}" defer></script>
+{% if e.pdf %}<script src="{{ asset('assets/js/sqp-preview.js') }}" defer></script>{% endif %}
 {% endblock %}

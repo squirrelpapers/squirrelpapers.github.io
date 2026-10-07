@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../../v1/i5/e1/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../../v1/i5/e1/index.jsonld">
 <link rel="icon" type="image/png" href="../../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v1/i5/e1", "@type": "PresentationDigitalDocument", "abstract": "Die heterogene Natur archäologischer Daten wird bis heute meist in relationalen Datenbanken abgebildet. Datenmodellierungen mit NoSQL-Datenbanken oder in Graphen, fristen auch im Jahr 2015 noch ein Nischendasein, obwohl die konzeptionellen wie auch die technischen Grundlagen seit langem zur Verfügung stehen und einen Zugang in das Web 3.0 und in die Linked Data Cloud ermöglichen. Das i3mainz (Institut für Raumbezogene Informations- und Messtechnik) arbeitet in verschiedenen Projekten mit interdisziplinären Kontexten an  Graphenstrukturen, insbesondere auch an der Modellierung jener mit Hilfe des W3C-standardisierten Resource Description Framework (RDF). Ein besonderes Augenmerk liegt dabei  bei der Evaluation von Methoden zur standardisierten und interoperablen Vorhaltung komplexer archäologischer Fundstellendaten. Die technische Basis bildet dabei das auf dem CIDOC Conceptual Reference Model (CIDOC CRM) und Simple Knowledge Organization System (SKOS) basierende ARCHES Heritage \u0026 Management System. Die von Kooperationspartnern innerhalb des Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften»mainzed« in unterschiedlicher Form zur Verfügung gestellten archäologischen Fachdatenkönnen für eine Vielzahl von Szenarien als exemplarisch angesehen werden. Ziele der Initiative sind die standardisierte und interoperable Vorhaltung strukturiert modellierter archäologischer Datensätze. Dabei steht die Abbildung möglichst vieler Prozesse wie etwa Abfrage, Pflege, Erweiterung und Analyse im Mittelpunkt, welche auch von nicht direkt im Projekt involvierten Wissenschaftlern erbracht werden sollen. Das Paper präsentiert technische Grundlagen semantischer Datenmodellierung unter Verwendung von CIDOC CRM. Weiterhin werden prototypische Fragestellungen behandelt: Welche Voraussetzungen sollten Daten hinsichtlich Aufbau und Struktur erfüllen? Welche Schritte sind zur Datenintegration in vorhandene Graphenstrukturen nötig? Wie können diese Strukturen erweitert und au", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}, {"@type": "Person", "name": "Thomas Engel"}], "datePublished": "2016-02-05", "genre": "Presentation", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.292967"}, "inLanguage": "de", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v1/i5", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v1", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "1"}, "issueNumber": "5"}, "keywords": ["archaeology", "arches", "CIDOC-CRM", "graph", "ontology", "semantic web"], "license": "https://creativecommons.org/licenses/by-sa/4.0/", "name": "E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten with dem Arches Framework", "recordedAt": {"@type": "Event", "endDate": "2016-02-05", "location": {"@type": "Place", "geo": {"@type": "GeoCoordinates", "latitude": 53.55, "longitude": 10.0}, "name": "Hamburg", "sameAs": "http://www.wikidata.org/entity/Q1055"}, "name": "7. Workshop der AG CAA", "startDate": "2016-02-05"}, "sameAs": ["https://doi.org/10.5281/zenodo.292967"], "url": "https://squirrelpapers.github.io/v1/i5/e1/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../../de/volumes/" aria-current="page">Bände &amp; Hefte</a>
       <a href="../../../../de/search/">Suche</a>
       <a href="../../../../de/map/">Karte</a>
+      <a href="../../../../de/model/">Datenmodell</a>
       <a href="../../../../de/sparql/">SPARQL</a>
       <a href="../../../../de/impressum/">Impressum</a>
       <a href="../../../../de/privacy/">Datenschutz</a>
       <a class="lang-switch" href="../../../../v1/i5/e1/" hreflang="en" lang="en">English</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Zum dunklen Modus wechseln" data-to-light="Zum hellen Modus wechseln"
+              data-dark="Dunkel" data-light="Hell"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -125,6 +136,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -140,10 +187,10 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.292967", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Engel", "given": "Thomas"}], "container-title": "Squirrel Papers", "event": "7. Workshop der AG CAA", "event-place": "Hamburg, Germany", "event-title": "7. Workshop der AG CAA", "genre": "Presentation", "id": "v1-i5-e1", "issue": "5", "issued": {"date-parts": [[2016, 2, 5]]}, "keyword": "archaeology, arches, CIDOC-CRM, graph, ontology, semantic web", "language": "de", "page": "#1", "title": "E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten with dem Arches Framework", "type": "article-journal", "volume": "1"}</script>
-<script src="../../../../assets/js/citeproc.js" defer></script>
-<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../../assets/js/sqp-cite.js" defer></script>
-<script src="../../../../assets/js/sqp-preview.js" defer></script>
+<script src="../../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
+<script src="../../../../assets/js/sqp-preview.js?v=5efc8aca5d" defer></script>
 
 </body>
 </html>

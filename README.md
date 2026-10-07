@@ -19,10 +19,12 @@ pattern `https://w3id.org/squirrelpapers/v<volume>/i<issue>/e<entry>`.
 ```cmd
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements-lock.txt
 python main.py
 ```
 
+`requirements-lock.txt` holds the exact versions the GitHub Action builds with;
+with them a local build reproduces `docs/` and `dist/` byte for byte.
 `python main.py --list` shows all steps. Two steps are not part of the default
 run and are only executed when named: `migrate` (one-off import from the old
 volumes) and `harvest` (the only step that reaches the network):
@@ -49,6 +51,21 @@ alike; the `sparql` step warns otherwise.
 `/map/` shows the places of all on-site events (`dist/events.geojson`, read from
 the graph). Its background is drawn from Natural Earth data on this site;
 OpenStreetMap tiles are loaded only when the reader switches them on.
+
+`/model/` explains the data model - DCAT, CIDOC CRM and how they meet - with
+Mermaid diagrams from `content/model.yaml`; every class and property named in
+them is checked against the published graph, and one example entry is drawn
+from the graph itself.
+
+## Continuous integration
+
+`docs/` and `dist/` are committed. The `build` workflow
+(`.github/workflows/build.yml`) rebuilds everything on every push and pull
+request with `--strict --fresh` and the locked versions, and fails when a step
+fails or when the rebuild differs from the commit - that is, when the generated
+files were not regenerated after a change. It deploys nothing; GitHub Pages
+serves `docs/` from `main`. The `harvest` workflow refreshes the Zenodo and
+Wikidata cache on request and opens a pull request with the result.
 
 The PDF preview and the SPARQL page load modules (pdf.js, Pyodide), which
 browsers refuse from `file://`: use `--serve` to try them locally. The search
@@ -101,6 +118,7 @@ Served from this site, copied unchanged into `assets/vendor/` (details in
 - [Pyodide](https://pyodide.org/) 314.0.7 — MPL-2.0, with the wheels of
   [rdflib](https://github.com/RDFLib/rdflib) 7.6.0 (BSD-3-Clause) and
   [pyparsing](https://github.com/pyparsing/pyparsing) 3.3.2 (MIT), for the SPARQL page
+- [Mermaid](https://mermaid.js.org/) 12.1.0 — MIT, for the data model page
 - [Leaflet](https://leafletjs.com/) 1.9.4 — BSD-2-Clause, and country borders from
   [Natural Earth](https://www.naturalearthdata.com/) — public domain, for the map
 

@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../../v3/i3/e5/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../../v3/i3/e5/index.jsonld">
 <link rel="icon" type="image/png" href="../../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v3/i3/e5", "@type": "Dataset", "abstract": "This repository contains Ogham Data of several data sources such as\nCeltic Inscribed Stones Project (CISP)\nOgham in 3D Project\nCorpus inscriptionum insularum Celticarum (1945)\nThe data is divided into\nGeospatial Data\nOgham Data\nThe data belongs to the Irish ᚑᚌᚆᚐᚋ Stones in the Wikimedia Universe project. This project is funded by Wikimedia Deutschland and the Open Science Fellows Program.\n# Change Log\nfix turtle files\nsplit geospatial turtle files", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}], "datePublished": "2021-05-28", "genre": "Dataset", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.4849646"}, "inLanguage": "en", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v3/i3", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v3", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "3"}, "issueNumber": "3"}, "keywords": ["Fellow-Programm Freies Wissen", "Linked Data", "Ogham", "Semantic Web", "Wikidata"], "license": "https://creativecommons.org/licenses/by/4.0/", "name": "Ogham Data - Version 1.1", "sameAs": ["https://doi.org/10.5281/zenodo.4849646"], "url": "https://squirrelpapers.github.io/v3/i3/e5/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../../de/volumes/" aria-current="page">Bände &amp; Hefte</a>
       <a href="../../../../de/search/">Suche</a>
       <a href="../../../../de/map/">Karte</a>
+      <a href="../../../../de/model/">Datenmodell</a>
       <a href="../../../../de/sparql/">SPARQL</a>
       <a href="../../../../de/impressum/">Impressum</a>
       <a href="../../../../de/privacy/">Datenschutz</a>
       <a class="lang-switch" href="../../../../v3/i3/e5/" hreflang="en" lang="en">English</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Zum dunklen Modus wechseln" data-to-light="Zum hellen Modus wechseln"
+              data-dark="Dunkel" data-light="Hell"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -131,6 +142,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -146,9 +193,9 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.4849646", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "genre": "Dataset", "id": "v3-i3-e5", "issue": "3", "issued": {"date-parts": [[2021, 5, 28]]}, "keyword": "Fellow-Programm Freies Wissen, Linked Data, Ogham, Semantic Web, Wikidata", "language": "en", "page": "#5", "title": "Ogham Data - Version 1.1", "type": "article-journal", "volume": "3"}</script>
-<script src="../../../../assets/js/citeproc.js" defer></script>
-<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../../assets/js/sqp-cite.js" defer></script>
+<script src="../../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
 
 
 </body>

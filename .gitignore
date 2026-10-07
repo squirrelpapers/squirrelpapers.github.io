@@ -42,3 +42,4 @@ data/derived/web/
 # Fingerprints of the last rdf/validate run, so an unchanged run can skip them.
 # Machine-local by nature; a fresh clone just builds everything once.
 data/derived/cache/
+PATCH-README.md

@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../../v5/i3/e3/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../../v5/i3/e3/index.jsonld">
 <link rel="icon" type="image/png" href="../../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v5/i3/e3", "@type": "PresentationDigitalDocument", "abstract": "Vorlesungsfolien im Zusammenhang mit einer Gastvorlesung in 07.012.897 P Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen von PD Dr. Matthias Grawehr im Wintersemester 2022/2023, Johannes Gutenberg Universität Mainz Fachbereich 07 | Klassische Archäologie.", "author": [{"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}], "datePublished": "2023-02-07", "genre": "Presentation", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.7629861"}, "inLanguage": "de", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v5/i3", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v5", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "5"}, "issueNumber": "3"}, "keywords": ["Archäologie", "Dokumentation", "FAIR"], "license": "https://creativecommons.org/licenses/by/4.0/", "name": "Kleinfund-Dokumentation mit der Hilfe von Semantik", "recordedAt": {"@type": "Event", "location": {"@type": "Place", "geo": {"@type": "GeoCoordinates", "latitude": 49.993056, "longitude": 8.241667}, "name": "Johannes Gutenberg University Mainz", "sameAs": "http://www.wikidata.org/entity/Q161982"}, "name": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr"}, "sameAs": ["https://doi.org/10.5281/zenodo.7629861"], "url": "https://squirrelpapers.github.io/v5/i3/e3/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../../de/volumes/" aria-current="page">Bände &amp; Hefte</a>
       <a href="../../../../de/search/">Suche</a>
       <a href="../../../../de/map/">Karte</a>
+      <a href="../../../../de/model/">Datenmodell</a>
       <a href="../../../../de/sparql/">SPARQL</a>
       <a href="../../../../de/impressum/">Impressum</a>
       <a href="../../../../de/privacy/">Datenschutz</a>
       <a class="lang-switch" href="../../../../v5/i3/e3/" hreflang="en" lang="en">English</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Zum dunklen Modus wechseln" data-to-light="Zum hellen Modus wechseln"
+              data-dark="Dunkel" data-light="Hell"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -125,6 +136,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -140,10 +187,10 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.7629861", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "event": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr", "event-place": "Johannes Gutenberg Universität Mainz, Fachbereich 07, Klassische Archäologie", "event-title": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr", "genre": "Presentation", "id": "v5-i3-e3", "issue": "3", "issued": {"date-parts": [[2023, 2, 7]]}, "keyword": "Archäologie, Dokumentation, FAIR", "language": "de", "page": "#3", "title": "Kleinfund-Dokumentation mit der Hilfe von Semantik", "type": "article-journal", "volume": "5"}</script>
-<script src="../../../../assets/js/citeproc.js" defer></script>
-<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../../assets/js/sqp-cite.js" defer></script>
-<script src="../../../../assets/js/sqp-preview.js" defer></script>
+<script src="../../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
+<script src="../../../../assets/js/sqp-preview.js?v=5efc8aca5d" defer></script>
 
 </body>
 </html>

@@ -11,7 +11,14 @@
 <link rel="alternate" type="text/turtle" href="../../../v7/i5/e3/index.ttl">
 <link rel="alternate" type="application/ld+json" href="../../../v7/i5/e3/index.jsonld">
 <link rel="icon" type="image/png" href="../../../assets/img/sqp-logo.png">
-<link rel="stylesheet" href="../../../assets/css/sqp.css">
+<script>
+/* Light or dark before the first paint, so the page never flashes the other
+   one: a choice made with the switch wins, else the system setting (CSS). */
+(function () { try { var t = localStorage.getItem("sqp-theme");
+  if (t === "light" || t === "dark") { document.documentElement.setAttribute("data-theme", t); }
+} catch (e) {} }());
+</script>
+<link rel="stylesheet" href="../../../assets/css/sqp.css?v=23fea32b22">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@id": "https://w3id.org/squirrelpapers/v7/i5/e3", "@type": "ScholarlyArticle", "abstract": "Against the background of the vision of 'One NFDI', consortia are increasingly faced with the question of overarching metadata models and common metadata standards. In material culture, built environment or cultural heritage, interdisciplinary collaboration between engineering and natural sciences, humanities and social sciences is essential for scientific success but involves multiple consortia. Making the best possible use of cross-NFDI cooperations, the consortia have set up a standing working group with the aim of finding concrete solutions in transdisciplinary research data management. An exemplary use case is centered on medieval stained-glass windows from the Corpus Vitrearum Medii Aevi (CVMA) project, which allows the consortia DAPHNE4NFDI, MaRDI, NFDI4Culture, NFDI4Objects, NFDI4ING, and NFDIxCS to examine data types, processes and implementations for FAIR Digital Objects (FDO), Linked Open Data (LOD) or Knowledge Graphs. The research project CVMA catalogs Medieval stained glass in Germany based on high resolution photographic images enriched with information regarding history and conservation, bibliography, related actors, iconography and location. The project integrates methodologies and existing standards from art history, conservation, digital imaging, and information science. This use-case can be extended to include measurements and process data of various kinds, e.g., photogrammetry, x-ray scans, microscope analysis, and goniophotometric scatter analysis. These data generation processes fall within the domains of material, engineering, and natural sciences, so the tools and standards of the related consortia apply. Ideally, this data and other artefacts such as software, measurement, simulation setups or calibration data is stored in the form of a FDO containing technical metadata regarding its content and type and a Persistent Identifier (PID) to make it findable. A federated infrastructure for generating and storing FDO is currently under developmen", "author": [{"@id": "https://orcid.org/0009-0005-3991-1025", "@type": "Person", "name": "Kristina Fella"}, {"@id": "https://orcid.org/0000-0003-2576-1511", "@type": "Person", "name": "Anja Gerber"}, {"@id": "https://orcid.org/0000-0001-6235-9412", "@type": "Person", "name": "Thomas Koprucki"}, {"@id": "https://orcid.org/0000-0001-8214-0952", "@type": "Person", "name": "Andreas Noback"}, {"@id": "https://orcid.org/0000-0002-1919-1834", "@type": "Person", "name": "Marco Reidelbach"}, {"@id": "https://orcid.org/0000-0002-0953-2818", "@type": "Person", "name": "Torsten Schrade"}, {"@id": "https://orcid.org/0000-0002-3246-3531", "@type": "Person", "name": "Florian Thiery"}], "datePublished": "2025-08-26", "genre": "Proceedings paper", "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.16736221"}, "inLanguage": "en", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v7/i5", "@type": "PublicationIssue", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/v7", "@type": "PublicationVolume", "isPartOf": {"@id": "https://w3id.org/squirrelpapers/", "@type": "Periodical", "issn": "2750-560X", "name": "Squirrel Papers"}, "volumeNumber": "7"}, "issueNumber": "5"}, "keywords": ["CIDOC-CRM", "community-standards", "Engineering", "FAIR Digital", "Humanities", "Knowledge Graph", "Linked Open Data", "NFDIcore Ontology", "Objects"], "license": "https://creativecommons.org/licenses/by/4.0/", "name": "Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data", "recordedAt": {"@type": "Event", "endDate": "2025-08-28", "location": {"@type": "Place", "geo": {"@type": "GeoCoordinates", "latitude": 50.777778, "longitude": 6.078056}, "name": "RWTH Aachen University", "sameAs": "http://www.wikidata.org/entity/Q273263"}, "name": "2nd Conference on Research Data Infrastructure (CoRDI) 2025", "startDate": "2025-08-26"}, "sameAs": ["https://doi.org/10.5281/zenodo.16736221"], "url": "https://squirrelpapers.github.io/v7/i5/e3/"}</script>
 </head>
@@ -26,10 +33,14 @@
       <a href="../../../volumes/" aria-current="page">Volumes &amp; Issues</a>
       <a href="../../../search/">Search</a>
       <a href="../../../map/">Map</a>
+      <a href="../../../model/">Data model</a>
       <a href="../../../sparql/">SPARQL</a>
       <a href="../../../impressum/">Legal notice</a>
       <a href="../../../privacy/">Privacy</a>
       <a class="lang-switch" href="../../../de/v7/i5/e3/" hreflang="de" lang="de">Deutsch</a>
+      <button type="button" class="theme-switch" id="theme-switch" hidden
+              data-to-dark="Switch to dark mode" data-to-light="Switch to light mode"
+              data-dark="Dark" data-light="Light"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span></span></button>
     </nav>
   </div>
 </header>
@@ -130,6 +141,42 @@
   </div>
 </footer>
 <script>
+// Light / dark switch. Shows the mode it switches to; the choice is kept in
+// this browser only (localStorage, no cookie) and announced to the map and
+// diagram scripts with a "sqp-theme" event.
+(function () {
+  var button = document.getElementById("theme-switch");
+  var root = document.documentElement;
+  var system = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function current() {
+    var t = root.getAttribute("data-theme");
+    return t || (system && system.matches ? "dark" : "light");
+  }
+  function show() {
+    var dark = current() === "dark";
+    button.querySelector("span").textContent = button.getAttribute(dark ? "data-light" : "data-dark");
+    button.setAttribute("aria-label", button.getAttribute(dark ? "data-to-light" : "data-to-dark"));
+    button.title = button.getAttribute("aria-label");
+  }
+  button.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("sqp-theme", next); } catch (e) {}
+    show();
+    document.dispatchEvent(new CustomEvent("sqp-theme", { detail: next }));
+  });
+  if (system && system.addEventListener) {
+    system.addEventListener("change", function () {
+      if (!root.getAttribute("data-theme")) {
+        show();
+        document.dispatchEvent(new CustomEvent("sqp-theme", { detail: current() }));
+      }
+    });
+  }
+  button.hidden = false;
+  show();
+}());
+
 // Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
   var copy = event.target.closest("[data-copy]");
@@ -145,10 +192,10 @@ document.addEventListener("click", function (event) {
 </script>
 
 <script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.16736221", "ISSN": "2750-560X", "author": [{"family": "Fella", "given": "Kristina"}, {"family": "Gerber", "given": "Anja"}, {"family": "Koprucki", "given": "Thomas"}, {"family": "Noback", "given": "Andreas"}, {"family": "Reidelbach", "given": "Marco"}, {"family": "Schrade", "given": "Torsten"}, {"family": "Thiery", "given": "Florian"}], "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025", "editor": [{"family": "Sure-Vetter", "given": "York"}, {"family": "Groth", "given": "Paul"}], "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025", "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany", "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025", "genre": "Proceedings paper", "id": "v7-i5-e3", "issued": {"date-parts": [[2025, 8, 26]]}, "keyword": "CIDOC-CRM, community-standards, Engineering, FAIR Digital, Humanities, Knowledge Graph, Linked Open Data, NFDIcore Ontology, Objects", "language": "en", "page": "7(5), 𝒬3", "publisher": "Squirrel Papers", "publisher-place": "Aachen", "title": "Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data", "type": "paper-conference"}</script>
-<script src="../../../assets/js/citeproc.js" defer></script>
-<script src="../../../assets/js/sqp-csl-data.js" defer></script>
-<script src="../../../assets/js/sqp-cite.js" defer></script>
-<script src="../../../assets/js/sqp-preview.js" defer></script>
+<script src="../../../assets/js/citeproc.js?v=74d814752e" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js?v=e381f8095a" defer></script>
+<script src="../../../assets/js/sqp-cite.js?v=b626825d3f" defer></script>
+<script src="../../../assets/js/sqp-preview.js?v=5efc8aca5d" defer></script>
 
 </body>
 </html>

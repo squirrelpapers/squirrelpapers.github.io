@@ -28,6 +28,6 @@
 <script type="application/json" id="search-ui">{{ search_ui | safe }}</script>
 {% endblock %}
 {% block scripts %}
-<script src="{{ root }}search/index.js"></script>
-<script src="{{ root }}assets/js/sqp-search.js"></script>
+<script src="{{ asset('search/index.js') }}"></script>
+<script src="{{ asset('assets/js/sqp-search.js') }}"></script>
 {% endblock %}

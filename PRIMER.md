@@ -162,7 +162,7 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Quellrepos | Werden von Claude geklont, Snapshot nach `data/raw/` | 2026-10-06 |
 | Modellierung Volume/Issue | Journal = `dcat:Catalog` + `fabio:Journal`; Volume und Issue = `dcat:DatasetSeries` + `fabio:JournalVolume`/`JournalIssue` (Issue `dcat:inSeries` Volume); Entry = `dcat:Dataset` + `fabio:`-Typ, `dcat:inSeries` Issue | 2026-10-07 |
 | Seitengenerator | Python + Jinja2, kein Jekyll, kein Node-Build | 2026-10-07 |
-| Schritte außerhalb des Standardlaufs | `migrate` (einmalig, überschreibt `content/`) und `harvest` (Netz) laufen nur mit `--only`; Standardreihenfolge `merge → cite → rdf → validate → sparql → map → site` (seit S9) | 2026-10-06 |
+| Schritte außerhalb des Standardlaufs | `migrate` (einmalig, überschreibt `content/`) und `harvest` (Netz) laufen nur mit `--only`; Standardreihenfolge `merge → cite → rdf → validate → sparql → map → model → site` (seit S16) | 2026-10-06 |
 | Schriften | Keine Webfonts, keine Drittanbieter-Anfrage für Typografie; Systemschrift-Stacks mit `Inter` an erster Stelle (greift, wo installiert) | Vorschlag |
 | Akzentfarbe im Fließtext | Magenta `#c94fa0` hat auf Weiß nur 4,1 : 1 → nur für große Schrift/Deko (`--accent`); Sigel und Akzent in Textgröße hell `#b03686` (5,6 : 1), dunkel Magenta (`--accent-text`) | 2026-10-06 |
 | Vol 2–8 beim Jahreszuschnitt | Bleiben, wie sie sind (Issues und Entries 1:1 aus dem alten Repo) | 2026-10-06 |
@@ -223,6 +223,14 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | S10: Karte | Leaflet 1.9.4 und ein Hintergrund aus Natural Earth (Ländergrenzen, vereinfacht, ~0,8 MB) selbst gehostet; die Karte ist ohne fremden Server vollständig. OSM-Kacheln nur auf Klick („OpenStreetMap-Hintergrund zeigen"), wieder ausschaltbar. Ein Kreis je Ort (Größe nach Zahl der Beiträge), Popup mit Veranstaltungen und Beiträgen, Jahresfilter; darunter dieselben Veranstaltungen als Tabelle (ohne JavaScript lesbar) | 2026-10-07 |
 | S10: Datenquelle | `dist/events.geojson` (ein Punkt je Veranstaltung) wird per SPARQL aus `dist/squirrelpapers.ttl` gelesen, nicht aus `entries.json`: Veranstaltungs-IRIs, Bündelung und Geometrien entscheidet S7 einmal. Abnahme gegen `entries.json` als zweiten Weg | 2026-10-07 |
 | Land eines Ortes | Das heutige Land: bevorzugte P17-Aussage, sonst eine ohne Endzeit (P582) – ab dem nächsten Harvest als `country_current` im Cache. Für den vorhandenen Cache: Kandidaten, die heute Staaten sind (P31 Q6256/Q3624078, nicht Q3024240), davon das im Ortslabel genannte | 2026-10-07 |
+| S11: `docs/` im Repo | `docs/` und `dist/` bleiben committet (Flo, 2026-10-07): lokal liegt genau das, was live geht. Pages liefert weiter `docs/` aus `main`; die Action deployt nicht, sie prüft | 2026-10-07 |
+| S11: Build-Gate | `.github/workflows/build.yml` bei Push, PR und von Hand: `python main.py --strict --fresh` mit `requirements-lock.txt`, danach muss `git status` leer sein – sonst wurden `docs/`/`dist/` nach einer Änderung nicht neu gebaut | 2026-10-07 |
+| S11: Versionen | `requirements-lock.txt` (Python 3.13, rdflib 7.6.0, pyshacl 0.40.1, …) aus einer frischen venv; damit ist der Build byte-gleich. Lokal dieselbe Datei installieren | 2026-10-07 |
+| S11: Harvest | `.github/workflows/harvest.yml` nur von Hand: Harvest, Build, Pull Request mit allem Geänderten zum Prüfen; braucht die Einstellung „Allow GitHub Actions to create and approve pull requests“. Der Build-Check startet auf diesem PR nicht von selbst (Token-Regel von GitHub) | 2026-10-07 |
+| Cache-Busting | CSS und JS werden mit `?v=<Inhaltshash>` verlinkt; sonst kombiniert ein Browser eine neue Seite mit einem bis zu 10 Minuten alten Stylesheet (Karte ohne Höhe, S10) | 2026-10-07 |
+| Hell/dunkel | Voreinstellung = Systemeinstellung; Schalter in der Kopfzeile, Wahl nur im `localStorage` dieses Browsers (`sqp-theme`), vor dem ersten Zeichnen gesetzt; Karte und Diagramme färben beim Umschalten mit um | 2026-10-07 |
+| S16: Diagramme | Mermaid 12.1.0 selbst gehostet, nur auf `/model/`; Quellen in `content/model.yaml`, Farben nach Flos Schema (Ressource grau-oval, Ding in der Welt grün, Klasse orange, Vokabularbegriff lila, externer Identifikator weiß, Wert/Property amber). Jeder CURIE in Grafiken und Tabellen muss im veröffentlichten Graphen vorkommen (Ausnahme: benannte CRM-Inverse) | 2026-10-07 |
+| S16: generiert | Das Beispiel 7(4), λ5 wird aus beiden Graphen gezeichnet, die Regel-Tabelle aus `shapes/` gelesen – nicht von Hand gepflegt | 2026-10-07 |
 | S14: Einreichen | `python main.py add` (CLI, prüft und sortiert ein) als Kern, Issue-Formular + Action, die daraus einen Pull Request macht, obendrauf | 2026-10-07 |
 | S14: Bearbeiten | Der Editor kann auch bestehende Einträge laden und ändern (Ergebnis wieder als Schnipsel / Änderung über denselben Weg) | 2026-10-07 |
 | S14: Zenodo | Nur optionale Anreicherung; jedes Feld lässt sich von Hand füllen, der Editor funktioniert vollständig ohne DOI und ohne Netz zu Zenodo | 2026-10-07 |
@@ -284,12 +292,12 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S8b | Nachbesserung: PDF-Vorschau mit pdf.js statt `iframe`, Build-Laufzeit (nur Geändertes schreiben, Schritt-Cache) | dieses | S8 | erledigt 2026-10-07 |
 | S9 | Suche mit Facetten (JSON-Index) + SPARQL-Seite (rdflib/Pyodide, selbst gehostet) | dieses | S7 | erledigt 2026-10-07 |
 | S10 | Karte der Konferenzorte + GeoJSON | dieses | S3, S4 | erledigt 2026-10-07 |
-| S11 | GitHub Action: Build + Pages-Deploy, optional Harvest | dieses | S5–S10 | offen |
+| S11 | GitHub Action: Build-Gate (Pages bleibt `docs/` aus `main`), Harvest von Hand | dieses | S5–S10 | erledigt 2026-10-07 |
 | S12 | w3id: `.htaccess` mit Content Negotiation, PR an perma-id | perma-id/w3id.org | S5, S7 | offen |
 | S13 | Umstellung: Weiterleitung `squirrelpapers.net`, Archiv `squirrelpapers-volumes`, Wikidata-Pflege | — | S11, S12 | offen |
 | S14 | Eintragseditor im Web: DOI → Formular → YAML-Schnipsel für `content/vol<N>.yaml` | neues Repo (Arbeitstitel `squirrelpapers-editor`) | S4, S11 | offen |
 | S15 | Frontend überarbeiten: Navigation, Startseite, Feinschliff, Barrierefreiheit | dieses | S9, S10 | offen |
-| S16 | Datenmodell erklärt: Seiten EN/DE mit Mermaid-Grafiken (DCAT-Schicht, CRM-Schicht, wie alles zusammenhängt) | dieses | S7, S8 | offen |
+| S16 | Datenmodell erklärt: Seiten EN/DE mit Mermaid-Grafiken (DCAT-Schicht, CRM-Schicht, wie alles zusammenhängt) | dieses | S7, S8 | erledigt 2026-10-07 |
 
 **Unabhängig.** Nach S4 laufen S5, S6, S7 und S10 in beliebiger Reihenfolge.
 S14 braucht nur das YAML-Format aus S2/S4 und kann jederzeit parallel in
@@ -864,6 +872,29 @@ Veranstaltungen fehlen absichtlich.
 
 **Abnahme:** grüner Lauf, Seite erreichbar unter `squirrelpapers.github.io`.
 
+### Erledigt 2026-10-07
+
+Entscheidung Flo: `docs/` bleibt committet. Damit wird das Ziel zum
+**Gate** statt zum Deploy (A4): Pages liefert weiter `docs/` aus `main`.
+
+- `.github/workflows/build.yml` (Push, PR, von Hand): Lock-Versionen,
+  `python main.py --strict --fresh`, dann `git status` muss leer sein;
+  Berichte als Artefakt.
+- `.github/workflows/harvest.yml` (nur von Hand): Harvest + Build + PR.
+- `requirements-lock.txt`; `requirements.txt` unverändert als Bereiche.
+- Beide Workflows mit `actionlint` geprüft. Simuliert: frischer Klon + Patch,
+  Build mit den Lock-Versionen in einer frischen venv, dann ein zweiter
+  `--fresh`-Lauf – kein Unterschied, das Gate wäre grün.
+- Nebenbei (aus Flos Screenshot nach S10): **Karte ohne Karte** – neue Seite,
+  altes Stylesheet aus dem Browser-Cache (Pages: 10 Minuten). Jetzt
+  Cache-Busting für CSS/JS und eine Mindesthöhe aus dem Skript (A4).
+- Nebenbei: **Hell/dunkel-Schalter** in der Kopfzeile (Wunsch Flo, A4).
+
+**Offen für Flo:** Der erste echte Lauf passiert beim Push. Wird er rot, weil
+lokal andere Versionen gebaut haben: `pip install -r requirements-lock.txt`,
+`python main.py --fresh`, committen. Für `harvest.yml` einmal die
+Einstellung aus A4 setzen.
+
 ## S12 — w3id
 
 **Ziel:** `.htaccess` für `w3id.org/squirrelpapers/` mit Content Negotiation,
@@ -989,6 +1020,29 @@ auf mehreren Ebenen:
 existiert im veröffentlichten Graphen (Build-Prüfung, sonst Warnung);
 EN/DE vollständig; Grafiken ohne Netz lesbar; Screenshot-Durchgang mit Flo.
 
+### Erledigt 2026-10-07
+
+- `content/model.yaml` (8 Abschnitte EN/DE: Pipeline, Struktur,
+  DCAT-Schicht, CRM-Schicht, Brücke als Tabelle, Beispiel, Regeln, IRIs),
+  `py/step_model.py` (Schritt `model` vor `site`: Begriffsprüfung, Beispiel aus
+  beiden Graphen, Regeln aus `shapes/`, Schritt-Cache),
+  `py/templates/model.html.j2`, `assets/js/sqp-model.js`,
+  `assets/vendor/mermaid/`, Navigation „Data model/Datenmodell".
+- **Werkzeug entschieden:** Mermaid im Browser, selbst gehostet (5,5 MB, nur
+  auf dieser Seite). `mermaid-cli` hätte Node und Chromium beim Build
+  verlangt, auch unter Windows. Ohne JavaScript bleibt der Quelltext lesbar.
+- **Abnahme:** 118 CURIEs in Grafiken und Tabellen, alle im Graphen;
+  Gegenprobe mit `crm:P7_took_place` und `dcat:inSerie` bricht den Build ab.
+  6 Grafiken rendern in Chromium hell/dunkel, EN/DE, Mobil (seitlich
+  scrollbar) und von `file://`; keine fremde Anfrage.
+
+**Befunde:**
+- Zwei Titel in `model.yaml` waren durch ein Komma in einer YAML-Flow-Map
+  still zerschnitten („Die Regeln, die …"). Der Schritt verlangt jetzt für
+  Titel und Text genau `en` und `de`.
+- Das CRM-Diagramm zeigte zuerst `P106i` direkt vom Beitrag zum Journal;
+  richtig ist die Kette Beitrag → Heft → Band → Journal.
+
 ---
 
 # Teil D — Offene Punkte
@@ -1042,7 +1096,8 @@ EN/DE vollständig; Grafiken ohne Netz lesbar; Screenshot-Durchgang mit Flo.
    Release einen PR hierher schickt. Lassen sich kombinieren — (a) für das
    Formular, (b) als gemeinsamer Kern. Flo entscheidet.
 
-8. **PDF-Vorschau gegen das echte Zenodo prüfen (aus S8b).** Flo öffnet nach
+8. ~~PDF-Vorschau gegen das echte Zenodo prüfen~~ → 2026-10-07 von Flo live geprüft: Zenodo erlaubt den Abruf, pdf.js zeichnet das PDF. Ursprünglich:
+   **PDF-Vorschau gegen das echte Zenodo prüfen (aus S8b).** Flo öffnet nach
    `python main.py --serve` eine Eintragsseite mit PDF und klickt „PDF-Vorschau
    anzeigen". Erscheinen die Seiten → fertig. Erscheint der Rückfall-Link, in
    der Browser-Konsole nach „CORS" schauen und den Text an Claude geben;

@@ -1,5 +1,5 @@
 {% extends "base.html.j2" %}
-{% block head_extra %}<link rel="stylesheet" href="{{ root }}assets/vendor/leaflet/leaflet.css">{% endblock %}
+{% block head_extra %}<link rel="stylesheet" href="{{ asset('assets/vendor/leaflet/leaflet.css') }}">{% endblock %}
 {% block main %}
 <div class="wrap">
   <h1>{{ t.map_title }}</h1>
@@ -36,8 +36,8 @@
 <script type="application/json" id="map-ui">{{ map_ui | safe }}</script>
 {% endblock %}
 {% block scripts %}
-<script src="{{ root }}assets/vendor/leaflet/leaflet.js"></script>
-<script src="{{ root }}assets/vendor/naturalearth/countries.js"></script>
-<script src="{{ root }}map/events.js"></script>
-<script src="{{ root }}assets/js/sqp-map.js"></script>
+<script src="{{ asset('assets/vendor/leaflet/leaflet.js') }}"></script>
+<script src="{{ asset('assets/vendor/naturalearth/countries.js') }}"></script>
+<script src="{{ asset('map/events.js') }}"></script>
+<script src="{{ asset('assets/js/sqp-map.js') }}"></script>
 {% endblock %}
