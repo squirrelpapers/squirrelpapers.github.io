@@ -108,7 +108,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/stuttgart-germany#geometry> ;
     owl:sameAs wd:Q1022 ;
     dcat:centroid "POINT(9.18 48.7775)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q159631 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Stuttgart, Germany" ;
     schema:latitude 4.87775e+01 ;
     schema:longitude 9.18e+00 .

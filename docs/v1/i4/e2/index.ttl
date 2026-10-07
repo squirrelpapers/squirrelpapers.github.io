@@ -119,7 +119,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/siena-italy#geometry> ;
     owl:sameAs wd:Q2751 ;
     dcat:centroid "POINT(11.331389 43.318333)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q154849 ;
+    schema:addressCountry wd:Q38 ;
     schema:description "Siena, Italy" ;
     schema:latitude 4.331833e+01 ;
     schema:longitude 1.133139e+01 .

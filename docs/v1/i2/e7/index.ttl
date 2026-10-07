@@ -108,7 +108,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/potsdam-germany#geometry> ;
     owl:sameAs wd:Q1711 ;
     dcat:centroid "POINT(13.05914 52.400931)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q148499 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Potsdam, Germany" ;
     schema:latitude 5.240093e+01 ;
     schema:longitude 1.305914e+01 .

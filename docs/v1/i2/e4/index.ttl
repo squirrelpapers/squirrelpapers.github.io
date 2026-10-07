@@ -143,7 +143,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/krakow-poland#geometry> ;
     owl:sameAs wd:Q31487 ;
     dcat:centroid "POINT(19.937222 50.061389)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q11750541 ;
+    schema:addressCountry wd:Q36 ;
     schema:description "Kraków, Poland" ;
     schema:latitude 5.006139e+01 ;
     schema:longitude 1.993722e+01 .

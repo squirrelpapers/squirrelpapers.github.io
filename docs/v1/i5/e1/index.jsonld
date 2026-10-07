@@ -152,7 +152,7 @@
       },
       "rdfs:label": "Hamburg",
       "schema:addressCountry": {
-        "@id": "wd:Q1055"
+        "@id": "wd:Q183"
       },
       "schema:description": "Hamburg, Germany",
       "schema:latitude": 53.55,

@@ -118,7 +118,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/hamburg-germany#geometry> ;
     owl:sameAs wd:Q1055 ;
     dcat:centroid "POINT(10.0 53.55)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q1055 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Hamburg, Germany" ;
     schema:latitude 5.355e+01 ;
     schema:longitude 1e+01 .

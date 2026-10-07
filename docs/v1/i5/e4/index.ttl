@@ -125,7 +125,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/graz-austria#geometry> ;
     owl:sameAs wd:Q13298 ;
     dcat:centroid "POINT(15.438611 47.070833)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q131964 ;
+    schema:addressCountry wd:Q40 ;
     schema:description "Graz, Austria" ;
     schema:latitude 4.707083e+01 ;
     schema:longitude 1.543861e+01 .

@@ -1,0 +1,43 @@
+{% extends "base.html.j2" %}
+{% block head_extra %}<link rel="stylesheet" href="{{ root }}assets/vendor/leaflet/leaflet.css">{% endblock %}
+{% block main %}
+<div class="wrap">
+  <h1>{{ t.map_title }}</h1>
+  <p class="lead">{{ t.map_intro | replace("{events}", map.events|string) | replace("{places}", map.places|string) | replace("{entries}", map.entries|string) }}</p>
+  <noscript><p class="notice">{{ t.map_nojs }}</p></noscript>
+  <div class="map-tools" id="map-tools" hidden>
+    <label for="map-year">{{ t.map_year }}</label>
+    <select id="map-year"><option value="">{{ t.map_all_years }}</option>
+      {% for y in map.years %}<option value="{{ y }}">{{ y }}</option>{% endfor %}</select>
+    <button type="button" class="button button-small button-quiet" id="map-osm"
+            data-show="{{ t.map_osm_show }}" data-hide="{{ t.map_osm_hide }}">{{ t.map_osm_show }}</button>
+  </div>
+  <div class="map" id="map" hidden></div>
+  <p class="small muted measure">{{ t.map_osm_note }}</p>
+
+  <h2 id="events">{{ t.map_list }}</h2>
+  <div class="table-scroll">
+    <table class="event-table">
+      <thead><tr><th>{{ t.map_col_date }}</th><th>{{ t.map_col_event }}</th><th>{{ t.map_col_place }}</th><th>{{ t.map_col_entries }}</th></tr></thead>
+      <tbody>
+      {% for f in map.features %}{% set p = f.properties %}
+        <tr id="{{ f.anchor }}">
+          <td class="nowrap">{% if p.start %}{{ fmt_range(p.start, p.end) }}{% endif %}</td>
+          <td>{{ p.name }}</td>
+          <td>{% if p.place.wikidata %}<a href="https://www.wikidata.org/wiki/{{ p.place.wikidata }}">{{ p.place.label }}</a>{% else %}{{ p.place.label }}{% endif %}</td>
+          <td><ul class="plain">{% for e in p.entries %}<li><a href="{{ home }}{{ e.path }}/"><span class="sigil">{{ e.label }}</span> {{ e.title }}</a></li>{% endfor %}</ul></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="downloads">{{ t.map_download }}: <a href="{{ root }}downloads/events.geojson" download>events.geojson</a></p>
+</div>
+<script type="application/json" id="map-ui">{{ map_ui | safe }}</script>
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}assets/vendor/leaflet/leaflet.js"></script>
+<script src="{{ root }}assets/vendor/naturalearth/countries.js"></script>
+<script src="{{ root }}map/events.js"></script>
+<script src="{{ root }}assets/js/sqp-map.js"></script>
+{% endblock %}

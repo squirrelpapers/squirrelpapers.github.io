@@ -325,7 +325,7 @@
         <https://w3id.org/squirrelpapers/v1/i2/e13> ;
     crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/linked-pasts-v-2019#name> ;
     crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/linked-pasts-v-2019#time-span> ;
-    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/bordeaux-germany> .
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/bordeaux-france> .
 
 <https://w3id.org/squirrelpapers/event/netzwerktreffen-kulturelles-erbe-linked-open-data-und-das-wikiversum-2024> a crm:E7_Activity ;
     crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i1/e1> ;
@@ -3692,7 +3692,7 @@
 <https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies> a crm:E53_Place ;
     crm:P168_place_is_defined_by "POINT(14.167428 42.351114)"^^geo:wktLiteral .
 
-<https://w3id.org/squirrelpapers/place/bordeaux-germany> a crm:E53_Place ;
+<https://w3id.org/squirrelpapers/place/bordeaux-france> a crm:E53_Place ;
     crm:P168_place_is_defined_by "POINT(-0.579444 44.837778)"^^geo:wktLiteral .
 
 <https://w3id.org/squirrelpapers/place/bournemouth-england> a crm:E53_Place ;

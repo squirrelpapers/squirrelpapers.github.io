@@ -220,6 +220,9 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | S9: Suche | Eigene Seite `/search/` (EN/DE): Volltext (ohne Groß-/Kleinschreibung und Akzente) und Facetten Typ, Jahr, Band, Veranstaltung, Person, Sprache; innerhalb einer Facette ODER, zwischen Facetten UND; Zustand im URL-Hash (`#type=poster&year=2019`). Index aus `entries.json` als `search/index.js` (läuft auch von `file://`) und `index.json` | 2026-10-07 |
 | S9: Abfragen | `content/queries.yaml`: 11 Beispiele (DCAT, SKOS, GeoSPARQL, CIDOC CRM/CRMdig/LRMoo), Titel und Einleitung EN/DE, SPARQL einmal. Beim Build gegen dieselben vier Turtle-Dateien ausgeführt, die die Seite lädt; 0 Zeilen = Build-Abbruch. `crosscheck` gleicht 5 Abfragen mit den Facetten des Suchindex ab | 2026-10-07 |
 | Schrittreihenfolge | `merge → cite → rdf → validate → sparql → map → site`: `sparql` schreibt kein HTML mehr, nur Index, `.rq` und `data/derived/queries.json`; `site` rendert Such- und SPARQL-Seite und bleibt alleiniger Besitzer von `docs/` | 2026-10-07 |
+| S10: Karte | Leaflet 1.9.4 und ein Hintergrund aus Natural Earth (Ländergrenzen, vereinfacht, ~0,8 MB) selbst gehostet; die Karte ist ohne fremden Server vollständig. OSM-Kacheln nur auf Klick („OpenStreetMap-Hintergrund zeigen"), wieder ausschaltbar. Ein Kreis je Ort (Größe nach Zahl der Beiträge), Popup mit Veranstaltungen und Beiträgen, Jahresfilter; darunter dieselben Veranstaltungen als Tabelle (ohne JavaScript lesbar) | 2026-10-07 |
+| S10: Datenquelle | `dist/events.geojson` (ein Punkt je Veranstaltung) wird per SPARQL aus `dist/squirrelpapers.ttl` gelesen, nicht aus `entries.json`: Veranstaltungs-IRIs, Bündelung und Geometrien entscheidet S7 einmal. Abnahme gegen `entries.json` als zweiten Weg | 2026-10-07 |
+| Land eines Ortes | Das heutige Land: bevorzugte P17-Aussage, sonst eine ohne Endzeit (P582) – ab dem nächsten Harvest als `country_current` im Cache. Für den vorhandenen Cache: Kandidaten, die heute Staaten sind (P31 Q6256/Q3624078, nicht Q3024240), davon das im Ortslabel genannte | 2026-10-07 |
 | S14: Einreichen | `python main.py add` (CLI, prüft und sortiert ein) als Kern, Issue-Formular + Action, die daraus einen Pull Request macht, obendrauf | 2026-10-07 |
 | S14: Bearbeiten | Der Editor kann auch bestehende Einträge laden und ändern (Ergebnis wieder als Schnipsel / Änderung über denselben Weg) | 2026-10-07 |
 | S14: Zenodo | Nur optionale Anreicherung; jedes Feld lässt sich von Hand füllen, der Editor funktioniert vollständig ohne DOI und ohne Netz zu Zenodo | 2026-10-07 |
@@ -280,7 +283,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S8 | SHACL-Gate (eigene + DCAT-AP-3-Shapes), `--strict` | dieses | S7 | erledigt 2026-10-07 |
 | S8b | Nachbesserung: PDF-Vorschau mit pdf.js statt `iframe`, Build-Laufzeit (nur Geändertes schreiben, Schritt-Cache) | dieses | S8 | erledigt 2026-10-07 |
 | S9 | Suche mit Facetten (JSON-Index) + SPARQL-Seite (rdflib/Pyodide, selbst gehostet) | dieses | S7 | erledigt 2026-10-07 |
-| S10 | Karte der Konferenzorte + GeoJSON | dieses | S3, S4 | offen |
+| S10 | Karte der Konferenzorte + GeoJSON | dieses | S3, S4 | erledigt 2026-10-07 |
 | S11 | GitHub Action: Build + Pages-Deploy, optional Harvest | dieses | S5–S10 | offen |
 | S12 | w3id: `.htaccess` mit Content Negotiation, PR an perma-id | perma-id/w3id.org | S5, S7 | offen |
 | S13 | Umstellung: Weiterleitung `squirrelpapers.net`, Archiv `squirrelpapers-volumes`, Wikidata-Pflege | — | S11, S12 | offen |
@@ -822,6 +825,39 @@ Entscheidungen von Flo: Pyodide selbst gehostet; Suche als eigene Seite (A4).
 **Abnahme:** Jede Präsenz-Veranstaltung mit QID hat einen Punkt; Online-
 Veranstaltungen fehlen absichtlich.
 
+### Erledigt 2026-10-07
+
+- `py/step_map.py` (SPARQL über den DCAT-Graphen → `dist/events.geojson`,
+  `web/downloads/events.geojson`, `web/map/events.js`; Abnahmeprüfung;
+  Schritt-Cache), `py/templates/map.html.j2`, `assets/js/sqp-map.js`,
+  `assets/vendor/{leaflet,naturalearth}/`, `py/tools/make_basemap.py`
+  (einmalig, braucht `shapely`), Navigation „Map/Karte", UI-Texte EN/DE,
+  Absatz in den Datenschutz-Entwürfen.
+- **Ergebnis:** 60 Veranstaltungen an 51 Orten mit 105 Beiträgen; 10 Beiträge
+  auf Online-Veranstaltungen fehlen absichtlich. **Abnahme erfüllt:** Jeder
+  veröffentlichte Beitrag einer Präsenzveranstaltung an einem Ort mit QID ist
+  auf der Karte; Gegenprobe (Ort einer Veranstaltung aus dem Graphen entfernt)
+  meldet genau diesen Beitrag.
+- Getestet mit Playwright/Chromium, hell/dunkel, EN/DE, Mobil: 51 Kreise,
+  Popup, Jahresfilter (2019: 9 Orte), 60 Tabellenzeilen; vor dem Klick auf
+  „OpenStreetMap-Hintergrund zeigen" keine einzige fremde Anfrage, danach nur
+  tile.openstreetmap.org.
+
+**Befunde:**
+- **Länder waren historisch.** P17 auf Wikidata nennt jeden Staat, zu dem ein
+  Ort je gehörte; S4 nahm den ersten nach QID – Mainz lag im „Holy Roman
+  Empire", Zagreb im „Independent State of Croatia". Jetzt heutige Länder
+  (A4); im Graphen (`schema:addressCountry`) entsprechend korrigiert.
+- **Tippfehler in der Quelle:** Linked Pasts V (1(1), #11) stand als
+  „Bordeaux, Germany" in `pub/talks.md`. In `content/vol1.yaml` auf
+  `bordeaux-france` gesetzt; der Ort `bordeaux-germany` ist aus
+  `content/places.yaml` entfernt (54 Orte).
+- Die erste Fassung der Abnahmeprüfung fragte nach einem Schlüssel, den es
+  nicht gibt, und war damit wirkungslos; gefunden über die Gegenprobe.
+- Ein Ort in den USA (Fort Collins) hätte Europa beim Laden auf eine Ecke
+  geschrumpft: Die Startansicht passt sich an Europa an, wenn dort ≥ 80 % der
+  gezeigten Orte liegen.
+
 ## S11 — GitHub Action
 
 **Ziel:** Push auf `main` baut und deployt Pages.
@@ -986,8 +1022,8 @@ EN/DE vollständig; Grafiken ohne Netz lesbar; Screenshot-Durchgang mit Flo.
 5d. **Impressum und Datenschutz prüfen** — Entwürfe in `content/pages/`
    (S5). Vor allem: Ist die Anschrift richtig, braucht es eine
    Verantwortlichen-Angabe nach § 18 MStV, und was muss für S10
-   (Kartenkacheln) noch hinein? S9 lädt nur von dieser Seite; ein Absatz dazu
-   steht schon im Entwurf.
+   (Kartenkacheln) noch hinein? S9 lädt nur von dieser Seite, S10 OSM-Kacheln
+   nur auf Klick; Absätze zu beidem stehen schon im Entwurf.
 5c. **Autorenlisten (aus S4)** — 18 Einträge, bei denen Zenodo eine andere
    Zahl Personen nennt als `content/` (`dist/reports/merge.md`,
    `creator-count`). Soll Zenodo dort gewinnen? Derzeit gilt `content/` (A4,
@@ -1011,3 +1047,8 @@ EN/DE vollständig; Grafiken ohne Netz lesbar; Screenshot-Durchgang mit Flo.
    anzeigen". Erscheinen die Seiten → fertig. Erscheint der Rückfall-Link, in
    der Browser-Konsole nach „CORS" schauen und den Text an Claude geben;
    dann bleibt nur der Link oder ein Abruf über einen eigenen Dienst.
+
+9. **Harvest einmal neu laufen lassen (aus S10, ohne Eile).** Der neue Cache
+   enthält `country_current` (heutiges Land direkt aus den Wikidata-Rängen);
+   bis dahin entscheidet die Ersatzregel aus A4. `python main.py --only harvest`,
+   danach `git diff data/raw/wikidata` ansehen.

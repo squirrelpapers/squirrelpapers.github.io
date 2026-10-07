@@ -140,7 +140,7 @@
       },
       "rdfs:label": "Warsaw",
       "schema:addressCountry": {
-        "@id": "wd:Q11750128"
+        "@id": "wd:Q36"
       },
       "schema:description": "Warsaw, Poland",
       "schema:latitude": 52.23,

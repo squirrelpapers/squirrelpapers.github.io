@@ -152,7 +152,7 @@
       },
       "rdfs:label": "Zagreb",
       "schema:addressCountry": {
-        "@id": "wd:Q153128"
+        "@id": "wd:Q224"
       },
       "schema:description": "Zagreb, Croatia",
       "schema:latitude": 45.813056,

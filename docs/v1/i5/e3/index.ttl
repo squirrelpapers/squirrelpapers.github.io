@@ -108,7 +108,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/munich-germany#geometry> ;
     owl:sameAs wd:Q1726 ;
     dcat:centroid "POINT(11.575 48.1375)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q154195 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Munich, Germany" ;
     schema:latitude 4.81375e+01 ;
     schema:longitude 1.1575e+01 .

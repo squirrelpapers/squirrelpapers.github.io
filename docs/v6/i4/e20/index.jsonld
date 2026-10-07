@@ -169,7 +169,7 @@
       },
       "rdfs:label": "Mainz",
       "schema:addressCountry": {
-        "@id": "wd:Q12548"
+        "@id": "wd:Q183"
       },
       "schema:description": "JGU, Mainz Germany",
       "schema:latitude": 49.999444,

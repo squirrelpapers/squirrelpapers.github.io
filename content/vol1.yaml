@@ -245,8 +245,8 @@ issues:
       name: Linked Pasts V
       start: '2019-12-11'
       end: '2019-12-11'
-      location: Bordeaux, Germany
-      place: bordeaux-germany
+      location: Bordeaux, France
+      place: bordeaux-france
       online: false
     from: pub/talks.md#L49
   - n: 12

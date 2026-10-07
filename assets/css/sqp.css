@@ -294,3 +294,31 @@ main .wrap > h1:first-child, .breadcrumb + h1 { margin-top: 0.4rem; }
   white-space: pre-wrap; font-size: 0.8rem; overflow-x: auto; }
 .facet-panel > summary { cursor: pointer; font-weight: 700; padding: 0.4rem 0; }
 @media (min-width: 860px) { .facet-panel > summary { display: none; } }
+
+/* Map (S10). The background is drawn from Natural Earth on this site. */
+:root { --map-land: #f6f1f5; --map-border: #b9a9b5; --map-sea: #dde7ee; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --map-land: #2c1f2a; --map-border: #5a4656; --map-sea: #141019; }
+}
+:root[data-theme="dark"] { --map-land: #2c1f2a; --map-border: #5a4656; --map-sea: #141019; }
+.map { height: min(70vh, 560px); border: 1px solid var(--rule); border-radius: var(--radius); margin: 0.5rem 0; }
+.map-tools { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin: 1rem 0 0.4rem; }
+.map-tools select { font: inherit; padding: 0.25rem 0.4rem; border: 1px solid var(--rule);
+  border-radius: var(--radius); background: var(--bg); color: var(--text); }
+.map-tools .button-quiet { margin-left: auto; }
+.map-popup { font-size: 0.85rem; max-height: 18rem; overflow-y: auto; }
+.leaflet-popup-content .map-popup p { margin: 0.15rem 0; }
+.map-popup-place { font-weight: 700; font-size: 0.95rem; }
+.leaflet-popup-content .map-popup .map-popup-event { font-weight: 600; margin-top: 0.6rem; }
+.map-popup-date { color: #5c4f59; }
+.map-popup .sigil { margin-right: 0.2em; }
+.leaflet-container { font-family: var(--font-body); }
+.leaflet-container a { color: var(--sqp-plum); }
+ul.plain { list-style: none; padding: 0; margin: 0; }
+ul.plain li + li { margin-top: 0.25rem; }
+.nowrap { white-space: nowrap; }
+.event-table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+.event-table th, .event-table td { text-align: left; vertical-align: top; padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid var(--rule); }
+.event-table th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); }
+.event-table a { text-decoration-thickness: 1px; }

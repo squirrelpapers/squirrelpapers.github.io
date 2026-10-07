@@ -174,7 +174,7 @@
       },
       "rdfs:label": "Berlin",
       "schema:addressCountry": {
-        "@id": "wd:Q148499"
+        "@id": "wd:Q183"
       },
       "schema:description": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
       "schema:latitude": 52.516667,

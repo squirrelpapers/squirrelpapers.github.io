@@ -1,0 +1,2181 @@
+{
+ "features": [
+  {
+   "geometry": {
+    "coordinates": [
+     9.93792,
+     51.53398
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/fossgis-konferenz-2026",
+   "properties": {
+    "end": "2026-03-28",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v8/i3/e9",
+      "issued": "2026-03-25",
+      "label": "8(3), §9",
+      "path": "v8/i3/e9",
+      "title": "Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem"
+     }
+    ],
+    "name": "FOSSGIS-Konferenz 2026",
+    "place": {
+     "description": "Georg-August-Universität Göttingen, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/georg-august-universitat-gottingen-germany",
+     "label": "University of Göttingen",
+     "wikidata": "Q152838"
+    },
+    "start": "2026-03-25"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     9.1752,
+     48.7817
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/derse26-2026",
+   "properties": {
+    "end": "2026-03-05",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v8/i3/e3",
+      "issued": "2026-03-03",
+      "label": "8(3), §3",
+      "path": "v8/i3/e3",
+      "title": "Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v8/i3/e4",
+      "issued": "2026-03-03",
+      "label": "8(3), §4",
+      "path": "v8/i3/e4",
+      "title": "Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v8/i3/e5",
+      "issued": "2026-03-03",
+      "label": "8(3), §5",
+      "path": "v8/i3/e5",
+      "title": "RSE across the NFDI - Connecting Infrastructure and Community through FAIR4RS Practice"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v8/i3/e6",
+      "issued": "2026-03-03",
+      "label": "8(3), §6",
+      "path": "v8/i3/e6",
+      "title": "chublets.software – Building a FAIR Software Marketplace for Cultural Heritage"
+     }
+    ],
+    "name": "deRSE26",
+    "place": {
+     "description": "University of Stuttgart, Stuttgart",
+     "iri": "https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart",
+     "label": "University of Stuttgart",
+     "wikidata": "Q122453"
+    },
+    "start": "2026-03-03"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.735215,
+     51.037504
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/oldenburger-3d-tage-2026",
+   "properties": {
+    "end": "2026-02-26",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v8/i3/e1",
+      "issued": "2026-02-25",
+      "label": "8(3), §1",
+      "path": "v8/i3/e1",
+      "title": "Cultural Heritage als FAIR Digital Object? 3D-Erfassung und semantische Vernetzung von Kulturerbe in Irland und Schottland"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v8/i3/e2",
+      "issued": "2026-02-25",
+      "label": "8(3), §2",
+      "path": "v8/i3/e2",
+      "title": "Von der Hosentasche in den Wissensgraph: Smartphone-3D als FAIR Digital Object in der SquirrelBase"
+     }
+    ],
+    "name": "Oldenburger 3D-Tage",
+    "place": {
+     "description": "Hochschule für Technik und Wirtschaft, Dresden",
+     "iri": "https://w3id.org/squirrelpapers/place/hochschule-fur-technik-und-wirtschaft-dresden",
+     "label": "University of Applied Sciences Dresden",
+     "wikidata": "Q1622222"
+    },
+    "start": "2026-02-25"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     9.732194,
+     52.371417
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/4-mediawiki-users-developer-conference-2025",
+   "properties": {
+    "end": "2025-10-30",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e20",
+      "issued": "2025-10-28",
+      "label": "7(3), λ20",
+      "path": "v7/i3/e20",
+      "title": "How to FAIRify Citizen Science? Using the Wikibase Ecosystem for Volunteered Cultural Heritage Information Systems"
+     }
+    ],
+    "name": "4. MediaWiki Users & Developer Conference",
+    "place": {
+     "description": "Leibnizhaus, Hannover, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/leibnizhaus-hannover-germany",
+     "label": "Leibnizhaus",
+     "wikidata": "Q1813804"
+    },
+    "start": "2025-10-28"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     7.21722,
+     51.4892
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2025",
+   "properties": {
+    "end": "2025-10-01",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i4/e5",
+      "issued": "2025-09-30",
+      "label": "7(4), λ5",
+      "path": "v7/i4/e5",
+      "title": "Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI - Ein interdisziplinäres federated Knowledge Graph Ecosystem"
+     }
+    ],
+    "name": "NFDI4Objects Community Meeting 2025",
+    "place": {
+     "description": "Deutsches Bergbau-Museum, Bochum, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/deutsches-bergbau-museum-bochum-germany",
+     "label": "German Mining Museum",
+     "wikidata": "Q896952"
+    },
+    "start": "2025-09-30"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     6.928611,
+     50.928056
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-koln-2025",
+   "properties": {
+    "end": "2025-09-18",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e19",
+      "issued": "2025-09-17",
+      "label": "7(3), λ19",
+      "path": "v7/i3/e19",
+      "title": "Vom Ogham-Stein zum FAIR/LO(U)D Digital Object Wie Gigha Brewing und der federated Knowledge Graph historische Artefakte lebendig machen"
+     }
+    ],
+    "name": "CAA DE Workshop Köln 2025",
+    "place": {
+     "description": "Universität zu Köln, Köln, Deutschland",
+     "iri": "https://w3id.org/squirrelpapers/place/universitat-zu-koln-koln-deutschland",
+     "label": "University of Cologne",
+     "wikidata": "Q54096"
+    },
+    "start": "2025-09-17"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     6.078056,
+     50.777778
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025",
+   "properties": {
+    "end": "2025-08-28",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e1",
+      "issued": "2025-08-26",
+      "label": "7(5), 𝒬1",
+      "path": "v7/i5/e1",
+      "title": "RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e2",
+      "issued": "2025-08-26",
+      "label": "7(5), 𝒬2",
+      "path": "v7/i5/e2",
+      "title": "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e3",
+      "issued": "2025-08-26",
+      "label": "7(5), 𝒬3",
+      "path": "v7/i5/e3",
+      "title": "Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e4",
+      "issued": "2025-08-26",
+      "label": "7(5), 𝒬4",
+      "path": "v7/i5/e4",
+      "title": "Towards Common Metadata For Research Software in the NFDI"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e5",
+      "issued": "2025-08-26",
+      "label": "7(5), 𝒬5",
+      "path": "v7/i5/e5",
+      "title": "How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e6",
+      "issued": "2025-08-26",
+      "label": "7(5), 𝒬6",
+      "path": "v7/i5/e6",
+      "title": "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e7",
+      "issued": "2025-08-26",
+      "label": "7(5), 𝒬7",
+      "path": "v7/i5/e7",
+      "title": "A Human- and Machine-Readable Thesaurus for the Conservation of Archaeological Heritage Development, Technical Implementation and Application in digital space"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e8",
+      "issued": "2025-08-26",
+      "label": "7(5), 𝒬8",
+      "path": "v7/i5/e8",
+      "title": "RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e9",
+      "issued": "2025-08-26",
+      "label": "7(5), 𝒬9",
+      "path": "v7/i5/e9",
+      "title": "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i5/e10",
+      "issued": "2025-08-28",
+      "label": "7(5), 𝒬10",
+      "path": "v7/i5/e10",
+      "title": "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code"
+     }
+    ],
+    "name": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "place": {
+     "description": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany",
+     "label": "RWTH Aachen University",
+     "wikidata": "Q273263"
+    },
+    "start": "2025-08-26"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -4.288056,
+     55.872222
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2025",
+   "properties": {
+    "end": "2025-06-18",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e16",
+      "issued": "2025-06-17",
+      "label": "7(3), λ16",
+      "path": "v7/i3/e16",
+      "title": "Beyond Digital Boundaries - Linked Open Data and Wikidata with OG(H)AM and Holy Wells"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e17",
+      "issued": "2025-06-17",
+      "label": "7(3), λ17",
+      "path": "v7/i3/e17",
+      "title": "A Holy Wells Database on Wikidata"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e18",
+      "issued": "2025-06-17",
+      "label": "7(3), λ18",
+      "path": "v7/i3/e18",
+      "title": "Cultural Heritage beyond boundaries - Open Science and FAIR methods for Ogham and Holy Wells in Ireland and the UK"
+     }
+    ],
+    "name": "UK-Ireland DH Association Annual Event 2025",
+    "place": {
+     "description": "University of Glasgow, Glasgow, United Kingdom (Scotland)",
+     "iri": "https://w3id.org/squirrelpapers/place/university-of-glasgow-glasgow-united-kingdom",
+     "label": "University of Glasgow",
+     "wikidata": "Q192775"
+    },
+    "start": "2025-06-17"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.70611,
+     49.4111
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/e-science-tage-2025",
+   "properties": {
+    "end": "2025-03-14",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e10",
+      "issued": "2025-03-12",
+      "label": "7(3), λ10",
+      "path": "v7/i3/e10",
+      "title": "Data-Driven Community Standards for Interdisciplinary Heterogeneous Information Networks"
+     }
+    ],
+    "name": "E-Science-Tage 2025",
+    "place": {
+     "description": "Alte Universität Heidelberg",
+     "iri": "https://w3id.org/squirrelpapers/place/alte-universitat-heidelberg",
+     "label": "Alte Universität",
+     "wikidata": "Q436344"
+    },
+    "start": "2025-03-12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.4,
+     49.016667
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/derse25-2025",
+   "properties": {
+    "end": "2025-02-27",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e3",
+      "issued": "2025-02-25",
+      "label": "7(3), λ3",
+      "path": "v7/i3/e3",
+      "title": "Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e4",
+      "issued": "2025-02-25",
+      "label": "7(3), λ4",
+      "path": "v7/i3/e4",
+      "title": "Keeping it REAL: Sustainability Challenges for Research Software in Computational Archaeology"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e5",
+      "issued": "2025-02-25",
+      "label": "7(3), λ5",
+      "path": "v7/i3/e5",
+      "title": "Research Software Engineering in the NFDI (INFRA-WG-RSE)"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e6",
+      "issued": "2025-02-25",
+      "label": "7(3), λ6",
+      "path": "v7/i3/e6",
+      "title": "Research Squirrel Engineers How an independent RSE-driven network may help the NFDI"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e7",
+      "issued": "2025-02-25",
+      "label": "7(3), λ7",
+      "path": "v7/i3/e7",
+      "title": "Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e8",
+      "issued": "2025-02-25",
+      "label": "7(3), λ8",
+      "path": "v7/i3/e8",
+      "title": "How to improve the visibility and added value of RSE(s) in NFDI"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e9",
+      "issued": "2025-02-25",
+      "label": "7(3), λ9",
+      "path": "v7/i3/e9",
+      "title": "Geodesist in the Humanities working with humanities people on Research Software and FAIRification Tools"
+     }
+    ],
+    "name": "deRSE25",
+    "place": {
+     "description": "KIT, Karlsruhe",
+     "iri": "https://w3id.org/squirrelpapers/place/kit-karlsruhe",
+     "label": "Karlsruhe",
+     "wikidata": "Q1040"
+    },
+    "start": "2025-02-25"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.213889,
+     53.143889
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/oldenburger-3d-tage-2025",
+   "properties": {
+    "end": "2025-02-05",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e1",
+      "issued": "2025-02-04",
+      "label": "7(3), λ1",
+      "path": "v7/i3/e1",
+      "title": "FAIRes Kulturerbe mit dem Smartphone und SfM? Wie man das durch Smartphone Apps, Open Source Tools und semantische Annotation im Wikiversum und OSM erreichen kann"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v7/i3/e2",
+      "issued": "2025-02-04",
+      "label": "7(3), λ2",
+      "path": "v7/i3/e2",
+      "title": "Low-Cost 3D-Digitalisierung mit SfM in Smartphone Apps. 3D-Modelle zum Mitnehmen und Open Data Publikation mit dem Wikiversum und OSM"
+     }
+    ],
+    "name": "Oldenburger 3D-Tage",
+    "place": {
+     "description": "Jade-Hoschschule, Oldenburg",
+     "iri": "https://w3id.org/squirrelpapers/place/jade-hoschschule-oldenburg",
+     "label": "Oldenburg",
+     "wikidata": "Q2936"
+    },
+    "start": "2025-02-04"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     14.167428,
+     42.351114
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/archeo-foss-18-2024",
+   "properties": {
+    "end": "2024-12-20",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e11",
+      "issued": "2024-12-19",
+      "label": "6(3), #11",
+      "path": "v6/i3/e11",
+      "title": "Infrastructural Frameworks: Managing and publishing distributed Archaeological Research Data through the Wikibase"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e12",
+      "issued": "2024-12-19",
+      "label": "6(3), #12",
+      "path": "v6/i3/e12",
+      "title": "Jupyter Python Minion: Empowering Open Data for Urban Archaeological Insights"
+     }
+    ],
+    "name": "ARCHEO.FOSS 18",
+    "place": {
+     "description": "Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti Scalo, Chieti, Italy",
+     "iri": "https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies",
+     "label": "Chieti",
+     "wikidata": "Q13138"
+    },
+    "start": "2024-12-19"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.383333,
+     52.516667
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024",
+   "properties": {
+    "end": "2024-11-20",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e21",
+      "issued": "2024-11-20",
+      "label": "6(4), #21",
+      "path": "v6/i4/e21",
+      "title": "NFDI4Objects and the Base4NFDI Services: An Overview"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e26",
+      "issued": "2024-11-20",
+      "label": "6(4), #26",
+      "path": "v6/i4/e26",
+      "title": "Research Software Engineering within the NFDI (INFRA-WG-RSE)"
+     }
+    ],
+    "name": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+    "place": {
+     "description": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open",
+     "label": "Berlin",
+     "wikidata": "Q64"
+    },
+    "start": "2024-11-20"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.3574,
+     48.2108
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/conference-on-cultral-heritage-and-new-technologies-chnt29-vienna-2024",
+   "properties": {
+    "end": "2024-11-06",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e22",
+      "issued": "2024-11-04",
+      "label": "6(4), #22",
+      "path": "v6/i4/e22",
+      "title": "Wikibase instances in the Cultural Heritage Domain: Examples from the German humanities NFDI consortia"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e23",
+      "issued": "2024-11-06",
+      "label": "6(4), #23",
+      "path": "v6/i4/e23",
+      "title": "Interdisciplinary Knowledge Graphs: Semantic Modelling using Linked Open Data, Wikibase and the Wikiverse"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e24",
+      "issued": "2024-11-06",
+      "label": "6(4), #24",
+      "path": "v6/i4/e24",
+      "title": "Derivation of thesauri in archaeological conservation through synergistic collaboration between domain experts and the use of semantic and NLP technologies with a FAIR and open publication"
+     }
+    ],
+    "name": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+    "place": {
+     "description": "Vienna City Hall, Wappensaal, Vienna, Austria",
+     "iri": "https://w3id.org/squirrelpapers/place/vienna-city-hall-wappensaal-vienna-austria",
+     "label": "Vienna City Hall",
+     "wikidata": "Q686468"
+    },
+    "start": "2024-11-04"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     7.21722,
+     51.4892
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/verbandstagung-2024-des-nwva-e-v-2024",
+   "properties": {
+    "end": "2024-10-11",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e10",
+      "issued": "2024-10-07",
+      "label": "6(3), #10",
+      "path": "v6/i3/e10",
+      "title": "Das Research Squirrel Engineers Network - Digitale Services zum digitalen Datenmanagement aus der Archäoinformatik- und Citizen Science-Community"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e17",
+      "issued": "2024-10-07",
+      "label": "6(4), #17",
+      "path": "v6/i4/e17",
+      "title": "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken"
+     }
+    ],
+    "name": "Verbandstagung 2024 des NWVA e.V.",
+    "place": {
+     "description": "DBM Bochum, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/dbm-bochum-germany",
+     "label": "German Mining Museum",
+     "wikidata": "Q896952"
+    },
+    "start": "2024-10-07"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.281334,
+     49.993565
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024",
+   "properties": {
+    "end": "2024-09-27",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e12",
+      "issued": "2024-09-26",
+      "label": "6(4), #12",
+      "path": "v6/i4/e12",
+      "title": "Task Area 2: FDM-Services im Sammlungskontext"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e14",
+      "issued": "2024-09-26",
+      "label": "6(4), #14",
+      "path": "v6/i4/e14",
+      "title": "NFDI4Objects Objects Ontology & Minimal Metadata Set"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e18",
+      "issued": "2024-09-25",
+      "label": "6(4), #18",
+      "path": "v6/i4/e18",
+      "title": "Workshop III: Linked Open Data am Beispiel von RDF-Daten, Wikidata und Wikibase"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e19",
+      "issued": "2024-09-27",
+      "label": "6(4), #19",
+      "path": "v6/i4/e19",
+      "title": "Workshop VI: Harmonisierung und Integration von Konsortialdiensten durch Verknüpfung dezentraler Systeme in NFDI4Objects"
+     }
+    ],
+    "name": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "place": {
+     "description": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz",
+     "label": "Leibniz-Zentrum für Archäologie",
+     "wikidata": "Q115755098"
+    },
+    "start": "2024-09-25"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.273611,
+     49.999444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/open-science-festival-mainz-2024-mainz-germany-2024",
+   "properties": {
+    "end": "2024-09-17",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e20",
+      "issued": "2024-09-17",
+      "label": "6(4), #20",
+      "path": "v6/i4/e20",
+      "title": "Geodata in Linked Open Data and Wikidata in Practice"
+     }
+    ],
+    "name": "Open Science Festival Mainz 2024, Mainz, Germany",
+    "place": {
+     "description": "JGU, Mainz Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/jgu-mainz-germany",
+     "label": "Mainz",
+     "wikidata": "Q1720"
+    },
+    "start": "2024-09-17"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     7.625556,
+     51.9625
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024",
+   "properties": {
+    "end": "2024-09-06",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e8",
+      "issued": "2024-09-05",
+      "label": "6(3), #8",
+      "path": "v6/i3/e8",
+      "title": "3D-Erfassung und FAIRe Publikation von Cultural Heritage Artefakten, insbesondere Ogham Steine und Holy Wells in Zusammenarbeit mit Citizen Scientists"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e13",
+      "issued": "2024-09-05",
+      "label": "6(4), #13",
+      "path": "v6/i4/e13",
+      "title": "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken"
+     }
+    ],
+    "name": "CAA Deutschland-Workshop 2024",
+    "place": {
+     "description": "Historisches Seminar der Universität Münster, Münster, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster",
+     "label": "Münster",
+     "wikidata": "Q2742"
+    },
+    "start": "2024-09-05"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.515833,
+     41.903333
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024",
+   "properties": {
+    "end": "2024-08-31",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e9",
+      "issued": "2024-08-31",
+      "label": "6(3), #9",
+      "path": "v6/i3/e9",
+      "title": "Taming Doubts - How to semantically model fuzzy and wobbly georeferences in archaeology and in the geosciences"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e7",
+      "issued": "2024-08-31",
+      "label": "6(4), #7",
+      "path": "v6/i4/e7",
+      "title": "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i4/e8",
+      "issued": "2024-08-31",
+      "label": "6(4), #8",
+      "path": "v6/i4/e8",
+      "title": "Taming Time: Using Correspondence Analysis to handle relative chronologies as graphs"
+     }
+    ],
+    "name": "EAA 2024, Rome, Italy",
+    "place": {
+     "description": "Sapienza University of Rome, Italy",
+     "iri": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy",
+     "label": "Sapienza University of Rome",
+     "wikidata": "Q209344"
+    },
+    "start": "2024-08-31"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.381449,
+     52.498418
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/netzwerktreffen-kulturelles-erbe-linked-open-data-und-das-wikiversum-2024",
+   "properties": {
+    "end": "2024-06-14",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i1/e1",
+      "issued": "2024-06-14",
+      "label": "6(1), #1",
+      "path": "v6/i1/e1",
+      "title": "Kulturelles Erbe, Linked Open Data und das Wikiversum: Beispiele aus dem LEIZA, NFDI4Objects und dem Research Squirrel Engineers Network"
+     }
+    ],
+    "name": "Netzwerktreffen kulturelles Erbe, Linked Open Data und das Wikiversum",
+    "place": {
+     "description": "Wikimedia Deutschland e.V., Berlin, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/wikimedia-deutschland-e-v-berlin-germany",
+     "label": "Wikimedia Germany",
+     "wikidata": "Q8288"
+    },
+    "start": "2024-06-14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -8.49289,
+     51.89291
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2024",
+   "properties": {
+    "end": "2024-06-05",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i5/e5",
+      "issued": "2024-06-04",
+      "label": "6(5), #5",
+      "path": "v6/i5/e5",
+      "title": "Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata"
+     }
+    ],
+    "name": "UK-Ireland DH Association Annual Event 2024",
+    "place": {
+     "description": "University College Cork (UCC), Cork, Ireland",
+     "iri": "https://w3id.org/squirrelpapers/place/university-college-cork-ucc-cork-ireland",
+     "label": "University College Cork",
+     "wikidata": "Q1574185"
+    },
+    "start": "2024-06-04"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     9.969506,
+     53.460958
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/fossgis-2024",
+   "properties": {
+    "end": "2024-03-23",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e6",
+      "issued": "2024-03-20",
+      "label": "6(3), #6",
+      "path": "v6/i3/e6",
+      "title": "Modellierung von Fuzzyness & Wobbliness in Geodaten am Beispiel archäologischer und geowissenschaftlicher Fundorte"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e7",
+      "issued": "2024-03-20",
+      "label": "6(3), #7",
+      "path": "v6/i3/e7",
+      "title": "The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs"
+     }
+    ],
+    "name": "FOSSGIS 2024",
+    "place": {
+     "description": "Technische Universität Hamburg (TUHH)",
+     "iri": "https://w3id.org/squirrelpapers/place/technische-universitat-hamburg-tuhh",
+     "label": "Hamburg University of Technology",
+     "wikidata": "Q1060"
+    },
+    "start": "2024-03-20"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     9.935278,
+     49.788056
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/derse2024",
+   "properties": {
+    "end": "2024-03-07",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e3",
+      "issued": "2024-03-05",
+      "label": "6(3), #3",
+      "path": "v6/i3/e3",
+      "title": "FOSS N4O Management Hub: Using RSE skills and Open Source Software to propose a heterogenious Management Hub in NFDI4Objects"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e4",
+      "issued": "2024-03-05",
+      "label": "6(3), #4",
+      "path": "v6/i3/e4",
+      "title": "Research Software Engineering within the NFDI (INFRA-WG-RSE)"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e5",
+      "issued": "2024-03-05",
+      "label": "6(3), #5",
+      "path": "v6/i3/e5",
+      "title": "The SPARQL Unicorn: A Research Tool for Linked Open Data in QGIS and git-action-based ontology documentation"
+     }
+    ],
+    "name": "deRSE2024",
+    "place": {
+     "description": "Julius-Maximilians-Universität Würzburg",
+     "iri": "https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg",
+     "label": "University of Würzburg",
+     "wikidata": "Q161976"
+    },
+    "start": "2024-03-05"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.213889,
+     53.143889
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/oldenburger-3d-tage-2024",
+   "properties": {
+    "end": "2024-02-01",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v6/i3/e1",
+      "issued": "2024-01-31",
+      "label": "6(3), #1",
+      "path": "v6/i3/e1",
+      "title": "3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)"
+     }
+    ],
+    "name": "Oldenburger 3D-Tage",
+    "place": {
+     "description": "Jade-Hoschschule, Oldenburg",
+     "iri": "https://w3id.org/squirrelpapers/place/jade-hoschschule-oldenburg",
+     "label": "Oldenburg",
+     "wikidata": "Q2936"
+    },
+    "start": "2024-01-31"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     7.688889,
+     45.069444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/archaeo-foss-xvii-2023",
+   "properties": {
+    "end": "2023-12-13",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v5/i3/e6",
+      "issued": "2023-12-12",
+      "label": "5(3), #6",
+      "path": "v5/i3/e6",
+      "title": "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v5/i5/e4",
+      "issued": "2023-12-12",
+      "label": "5(5), #4",
+      "path": "v5/i5/e4",
+      "title": "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain"
+     }
+    ],
+    "name": "ARCHAEO.FOSS XVII 2023",
+    "place": {
+     "description": "Università di Torino, Italy",
+     "iri": "https://w3id.org/squirrelpapers/place/universita-di-torino-italy",
+     "label": "University of Turin",
+     "wikidata": "Q499911"
+    },
+    "start": "2023-12-12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.65729,
+     50.12064
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/clarenet-final-workshop-2023",
+   "properties": {
+    "end": "2023-11-16",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v5/i5/e3",
+      "issued": "2023-11-14",
+      "label": "5(5), #3",
+      "path": "v5/i5/e3",
+      "title": "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain"
+     }
+    ],
+    "name": "ClaReNet Final Workshop",
+    "place": {
+     "description": "RGK, Frankfurt am Mainz",
+     "iri": "https://w3id.org/squirrelpapers/place/rgk-frankfurt-am-mainz",
+     "label": "Deutsches Archäologisches Institut. Römisch-Germanische Kommission",
+     "wikidata": "Q1425831"
+    },
+    "start": "2023-11-14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     9.929444,
+     49.794444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-2023",
+   "properties": {
+    "end": "2023-09-15",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v5/i3/e5",
+      "issued": "2023-09-14",
+      "label": "5(3), #5",
+      "path": "v5/i3/e5",
+      "title": "Umgang mit Unsicherheiten und Vagheiten bei der Georeferenzierung von Geo-Locations in der Archäologie und in den Geowissenschaften"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v5/i5/e1",
+      "issued": "2023-09-14",
+      "label": "5(5), #1",
+      "path": "v5/i5/e1",
+      "title": "Object-Related Research Data Workflows Within NFDI4Objects and Beyond"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v5/i5/e2",
+      "issued": "2023-09-14",
+      "label": "5(5), #2",
+      "path": "v5/i5/e2",
+      "title": "FAIRifizierung mit Citizen Science? Herausforderungen bei der Integration von archäologischen Daten in das Wikiversum und Open Street Map"
+     }
+    ],
+    "name": "CAA-DE Workshop",
+    "place": {
+     "description": "Toscana-Saal der Residenz Würzburg",
+     "iri": "https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg",
+     "label": "Würzburg",
+     "wikidata": "Q2999"
+    },
+    "start": "2023-09-14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -0.34111,
+     39.48089
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/35th-international-geodetic-student-meeting-2023",
+   "properties": {
+    "end": "2023-07-08",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v5/i3/e4",
+      "issued": "2023-07-02",
+      "label": "5(3), #4",
+      "path": "v5/i3/e4",
+      "title": "Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata"
+     }
+    ],
+    "name": "35th International Geodetic Student Meeting",
+    "place": {
+     "description": "Polytechnic University of Valencia (Universitat Politècnica de València, UPV)",
+     "iri": "https://w3id.org/squirrelpapers/place/polytechnic-university-of-valencia-universitat",
+     "label": "Technical University of Valencia",
+     "wikidata": "Q2003976"
+    },
+    "start": "2023-07-02"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -0.579444,
+     44.837778
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/linked-pasts-v-2019",
+   "properties": {
+    "end": "2019-12-11",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e11",
+      "issued": "2019-12-11",
+      "label": "1(2), #11",
+      "path": "v1/i2/e11",
+      "title": "#Linked Pipes"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e12",
+      "issued": "2019-12-11",
+      "label": "1(2), #12",
+      "path": "v1/i2/e12",
+      "title": "Alligator + AMT: A Linked Pipe for taming relative chronology"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e13",
+      "issued": "2019-12-11",
+      "label": "1(2), #13",
+      "path": "v1/i2/e13",
+      "title": "Linked Pipes! Let us feed the hungry squirrels!"
+     }
+    ],
+    "name": "Linked Pasts V",
+    "place": {
+     "description": "Bordeaux, France",
+     "iri": "https://w3id.org/squirrelpapers/place/bordeaux-france",
+     "label": "Bordeaux",
+     "wikidata": "Q1479"
+    },
+    "start": "2019-12-11"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -1.88,
+     50.72
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/uk-chapter-of-computer-applications-and-quantitative-methods-in-2019",
+   "properties": {
+    "end": "2019-10-04",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e10",
+      "issued": "2019-10-04",
+      "label": "1(2), #10",
+      "path": "v1/i2/e10",
+      "title": "Wikidata - A SPARQL(ing) Unicorn?"
+     }
+    ],
+    "name": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2019)",
+    "place": {
+     "description": "Bournemouth, England",
+     "iri": "https://w3id.org/squirrelpapers/place/bournemouth-england",
+     "label": "Bournemouth",
+     "wikidata": "Q170478"
+    },
+    "start": "2019-10-04"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.105556,
+     53.528611
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/9-workshop-der-ag-caa-2019",
+   "properties": {
+    "end": "2019-09-23",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e9",
+      "issued": "2019-09-23",
+      "label": "1(2), #9",
+      "path": "v1/i2/e9",
+      "title": "Hic sunt dracones! Der digitale Wandel zur Archäologie 4.0 am Beispiel römischer Münzen"
+     }
+    ],
+    "name": "9. Workshop der AG CAA",
+    "place": {
+     "description": "Wilhelmshaven, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/wilhelmshaven-germany",
+     "label": "Wilhelmshaven",
+     "wikidata": "Q3857"
+    },
+    "start": "2019-09-23"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     9.18,
+     48.7775
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/intergeo-conference-2019",
+   "properties": {
+    "end": "2019-09-17",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e1",
+      "issued": "2019-09-17",
+      "label": "1(2), #1",
+      "path": "v1/i2/e1",
+      "title": "Linked Data Cloud: Bindeglied zwischen Geodäsie und Gesellschaft"
+     }
+    ],
+    "name": "Intergeo Conference",
+    "place": {
+     "description": "Stuttgart, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/stuttgart-germany",
+     "label": "Stuttgart",
+     "wikidata": "Q1022"
+    },
+    "start": "2019-09-17"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     21.011111,
+     52.23
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/32-international-geodetic-students-meeting-2019",
+   "properties": {
+    "end": "2019-06-25",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e8",
+      "issued": "2019-06-25",
+      "label": "1(2), #8",
+      "path": "v1/i2/e8",
+      "title": "topi.link - A graph-based topology for vague geographical relations"
+     }
+    ],
+    "name": "32. International Geodetic Students Meeting",
+    "place": {
+     "description": "Warsaw, Poland",
+     "iri": "https://w3id.org/squirrelpapers/place/warsaw-poland",
+     "label": "Warsaw",
+     "wikidata": "Q270"
+    },
+    "start": "2019-06-25"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.05914,
+     52.400931
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/derse19-konferenz-fur-forschungssoftwareentwicklerinnen-in-2019",
+   "properties": {
+    "end": "2019-06-05",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e7",
+      "issued": "2019-06-05",
+      "label": "1(2), #7",
+      "path": "v1/i2/e7",
+      "title": "Academic Meta Tool – Ein RDF basiertes Web-Tool zur Modellierung des Zweifels in den Digital Humanities"
+     }
+    ],
+    "name": "deRSE19 - Konferenz für ForschungssoftwareentwicklerInnen in Deutschland (deRSE19)",
+    "place": {
+     "description": "Potsdam, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/potsdam-germany",
+     "label": "Potsdam",
+     "wikidata": "Q1711"
+    },
+    "start": "2019-06-05"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.273611,
+     49.999444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/wintervortrage-2019",
+   "properties": {
+    "end": "2019-04-02",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e6",
+      "issued": "2019-04-02",
+      "label": "1(2), #6",
+      "path": "v1/i2/e6",
+      "title": "Das Internet als Daten-Netzwerk: Die Zukunft der Archäologie?"
+     }
+    ],
+    "name": "Wintervorträge 2019",
+    "place": {
+     "description": "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/gesellschaft-der-freunde-des-romisch",
+     "label": "Mainz",
+     "wikidata": "Q1720"
+    },
+    "start": "2019-04-02"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     19.937222,
+     50.061389
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2019",
+   "properties": {
+    "end": "2019-03-24",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e4",
+      "issued": "2019-03-24",
+      "label": "1(2), #4",
+      "path": "v1/i2/e4",
+      "title": "ARS3D - Documenting facts and interpretations of African Red Slip Ware"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e5",
+      "issued": "2019-03-24",
+      "label": "1(2), #5",
+      "path": "v1/i2/e5",
+      "title": "Taming Time Tools: Alligator and Academic Meta Tool"
+     }
+    ],
+    "name": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "place": {
+     "description": "Kraków, Poland",
+     "iri": "https://w3id.org/squirrelpapers/place/krakow-poland",
+     "label": "Kraków",
+     "wikidata": "Q31487"
+    },
+    "start": "2019-03-24"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.273611,
+     49.999444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/graphentechnologien-2019",
+   "properties": {
+    "end": "2019-01-18",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e3",
+      "issued": "2019-01-18",
+      "label": "1(2), #3",
+      "path": "v1/i2/e3",
+      "title": "Dating Mechanism: Eine Linked Data Strategie zur interoperablen und nachvollziehbaren Modellierung relativer Chronologien am Beispiel südgallischer Terra Sigillata in Limes-Abschnitten"
+     }
+    ],
+    "name": "Graphentechnologien 2019",
+    "place": {
+     "description": "Mainz, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/mainz-germany",
+     "label": "Mainz",
+     "wikidata": "Q1720"
+    },
+    "start": "2019-01-18"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.273611,
+     49.999444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/java-user-group-mainz-lightning-talks-2019",
+   "properties": {
+    "end": "2019-01-16",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i2/e2",
+      "issued": "2019-01-16",
+      "label": "1(2), #2",
+      "path": "v1/i2/e2",
+      "title": "Java und Linked Data im RGZM: Herausforderungen in einem archäologischen Museum"
+     }
+    ],
+    "name": "Java User Group Mainz Lightning Talks",
+    "place": {
+     "description": "Mainz, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/mainz-germany",
+     "label": "Mainz",
+     "wikidata": "Q1720"
+    },
+    "start": "2019-01-16"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.273611,
+     49.999444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/linked-pasts-iv-2018",
+   "properties": {
+    "end": "2018-12-12",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e10",
+      "issued": "2018-12-12",
+      "label": "1(7), #10",
+      "path": "v1/i7/e10",
+      "title": "RGZM-Meta-Index: A central Linked Data Hub for aligning distributed databases"
+     }
+    ],
+    "name": "Linked Pasts IV",
+    "place": {
+     "description": "Mainz, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/mainz-germany",
+     "label": "Mainz",
+     "wikidata": "Q1720"
+    },
+    "start": "2018-12-12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     11.575,
+     48.1375
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/13-konferenz-der-geodasiestudierenden-2018",
+   "properties": {
+    "end": "2018-11-30",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e9",
+      "issued": "2018-11-30",
+      "label": "1(7), #9",
+      "path": "v1/i7/e9",
+      "title": "Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks"
+     }
+    ],
+    "name": "13. Konferenz der GeodäsieStudierenden",
+    "place": {
+     "description": "Munich, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/munich-germany",
+     "label": "Munich",
+     "wikidata": "Q1726"
+    },
+    "start": "2018-11-30"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -3.189167,
+     55.953333
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/uk-chapter-of-computer-applications-and-quantitative-methods-in-2018",
+   "properties": {
+    "end": "2018-10-27",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e2",
+      "issued": "2018-10-26",
+      "label": "1(7), #2",
+      "path": "v1/i7/e2",
+      "title": "Taming the chronology of South Gaulish Samian found at Hadrian's Wall and the German Limes using Linked Open Data"
+     }
+    ],
+    "name": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2018)",
+    "place": {
+     "description": "Edinburgh, Scotland, UK",
+     "iri": "https://w3id.org/squirrelpapers/place/edinburgh-scotland-uk",
+     "label": "Edinburgh",
+     "wikidata": "Q23436"
+    },
+    "start": "2018-10-26"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.738144,
+     51.049329
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/doag-big-data-days-2018",
+   "properties": {
+    "end": "2018-09-21",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e8",
+      "issued": "2018-09-21",
+      "label": "1(7), #8",
+      "path": "v1/i7/e8",
+      "title": "Linked Open Geodata in Mainz – Best Practices and Projekte im Kontext der Humanities"
+     }
+    ],
+    "name": "DOAG Big Data Days 2018",
+    "place": {
+     "description": "Dresden, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/dresden-germany",
+     "label": "Dresden",
+     "wikidata": "Q1731"
+    },
+    "start": "2018-09-21"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     2.163889,
+     41.386667
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/24th-annual-meeting-of-the-european-association-of-archaeologists-2018",
+   "properties": {
+    "end": "2018-09-08",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e1",
+      "issued": "2018-09-05",
+      "label": "1(7), #1",
+      "path": "v1/i7/e1",
+      "title": "RDF based modeling of relative and absolute chronological data: Examples from the central african rainforest and roman periodisation"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e7",
+      "issued": "2018-09-06",
+      "label": "1(7), #7",
+      "path": "v1/i7/e7",
+      "title": "Taming Time – Modelling uncertainty as reproducible Linked Open Data"
+     }
+    ],
+    "name": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+    "place": {
+     "description": "Universidad de Barcelona, Spain",
+     "iri": "https://w3id.org/squirrelpapers/place/universidad-de-barcelona-spain",
+     "label": "University of Barcelona",
+     "wikidata": "Q219615"
+    },
+    "start": "2018-09-05"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -0.376389,
+     39.47
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/31-international-geodetic-students-meeting-2018",
+   "properties": {
+    "end": "2018-06-27",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e6",
+      "issued": "2018-06-27",
+      "label": "1(7), #6",
+      "path": "v1/i7/e6",
+      "title": "Looking for the \"grey value\" in research and geodesy: Is there right or wrong in software framework decisions?"
+     }
+    ],
+    "name": "31. International Geodetic Students Meeting",
+    "place": {
+     "description": "Valencia, Spain",
+     "iri": "https://w3id.org/squirrelpapers/place/valencia-spain",
+     "label": "Valencia",
+     "wikidata": "Q8818"
+    },
+    "start": "2018-06-27"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     9.055556,
+     48.52
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2018",
+   "properties": {
+    "end": "2018-03-22",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e5",
+      "issued": "2018-03-22",
+      "label": "1(7), #5",
+      "path": "v1/i7/e5",
+      "title": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD"
+     }
+    ],
+    "name": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "place": {
+     "description": "Tübingen, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/tubingen-germany",
+     "label": "Tübingen",
+     "wikidata": "Q3806"
+    },
+    "start": "2018-03-22"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.273611,
+     49.999444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/graphentechnologien-2018",
+   "properties": {
+    "end": "2018-01-19",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e3",
+      "issued": "2018-01-19",
+      "label": "1(7), #3",
+      "path": "v1/i7/e3",
+      "title": "Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i7/e4",
+      "issued": "2018-01-19",
+      "label": "1(7), #4",
+      "path": "v1/i7/e4",
+      "title": "Putting Samian pots together – modelling ceramic service family roots – connecting figure types. Wie Graphen bei der Modellierung des Zweifels helfen können."
+     }
+    ],
+    "name": "Graphentechnologien 2018",
+    "place": {
+     "description": "Mainz, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/mainz-germany",
+     "label": "Mainz",
+     "wikidata": "Q1720"
+    },
+    "start": "2018-01-19"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.273611,
+     49.999444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/get-together-dh-rmu-2017",
+   "properties": {
+    "end": "2017-09-21",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i6/e3",
+      "issued": "2017-09-21",
+      "label": "1(6), #3",
+      "path": "v1/i6/e3",
+      "title": "labeling system"
+     }
+    ],
+    "name": "Get Together DH-RMU",
+    "place": {
+     "description": "Mainz, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/mainz-germany",
+     "label": "Mainz",
+     "wikidata": "Q1720"
+    },
+    "start": "2017-09-21"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.977222,
+     45.813056
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/30-international-geodetic-students-meeting-2017",
+   "properties": {
+    "end": "2017-06-27",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i6/e2",
+      "issued": "2017-06-27",
+      "label": "1(6), #2",
+      "path": "v1/i6/e2",
+      "title": "Avalanches on Atlantis - Real or Fake? The \"true\" story!"
+     }
+    ],
+    "name": "30. International Geodetic Students Meeting",
+    "place": {
+     "description": "Zagreb, Croatia",
+     "iri": "https://w3id.org/squirrelpapers/place/zagreb-croatia",
+     "label": "Zagreb",
+     "wikidata": "Q1435"
+    },
+    "start": "2017-06-27"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.694724,
+     49.409358
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/8-workshop-der-ag-caa-2017",
+   "properties": {
+    "end": "2017-02-11",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i6/e1",
+      "issued": "2017-02-11",
+      "label": "1(6), #1",
+      "path": "v1/i6/e1",
+      "title": "Das Labeling System: Erstellung kontrollierter Linked Open Data Vokabulare als Metadaten-Hub für archäologische Fachdatenbanken"
+     }
+    ],
+    "name": "8. Workshop der AG CAA",
+    "place": {
+     "description": "Heidelberg, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/heidelberg-germany",
+     "label": "Heidelberg",
+     "wikidata": "Q2966"
+    },
+    "start": "2017-02-11"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.438611,
+     47.070833
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/internationale-tagung-der-osterreichischen-gesellschaft-fur-2016",
+   "properties": {
+    "end": "2016-09-20",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i5/e4",
+      "issued": "2016-09-20",
+      "label": "1(5), #4",
+      "path": "v1/i5/e4",
+      "title": "Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen"
+     }
+    ],
+    "name": "Internationale Tagung der Österreichischen Gesellschaft für Mittelalterarchäologie",
+    "place": {
+     "description": "Graz, Austria",
+     "iri": "https://w3id.org/squirrelpapers/place/graz-austria",
+     "label": "Graz",
+     "wikidata": "Q13298"
+    },
+    "start": "2016-09-20"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     11.575,
+     48.1375
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/xxix-international-geodetic-students-meeting-2016",
+   "properties": {
+    "end": "2016-05-04",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i5/e3",
+      "issued": "2016-05-04",
+      "label": "1(5), #3",
+      "path": "v1/i5/e3",
+      "title": "Linked Open Data in Space and Time - A geodetic insight into humanities research using LOD"
+     }
+    ],
+    "name": "XXIX. International Geodetic Students Meeting",
+    "place": {
+     "description": "Munich, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/munich-germany",
+     "label": "Munich",
+     "wikidata": "Q1726"
+    },
+    "start": "2016-05-04"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     10.738889,
+     59.913333
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2016",
+   "properties": {
+    "end": "2016-04-30",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i5/e2",
+      "issued": "2016-04-30",
+      "label": "1(5), #2",
+      "path": "v1/i5/e2",
+      "title": "Linking periods: Modeling and utilizing spatio-temporal concepts in the chronOntology project"
+     }
+    ],
+    "name": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "place": {
+     "description": "Oslo, Norway",
+     "iri": "https://w3id.org/squirrelpapers/place/oslo-norway",
+     "label": "Oslo",
+     "wikidata": "Q585"
+    },
+    "start": "2016-04-30"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     10.0,
+     53.55
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/7-workshop-der-ag-caa-2016",
+   "properties": {
+    "end": "2016-02-05",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i5/e1",
+      "issued": "2016-02-05",
+      "label": "1(5), #1",
+      "path": "v1/i5/e1",
+      "title": "E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten with dem Arches Framework"
+     }
+    ],
+    "name": "7. Workshop der AG CAA",
+    "place": {
+     "description": "Hamburg, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/hamburg-germany",
+     "label": "Hamburg",
+     "wikidata": "Q1055"
+    },
+    "start": "2016-02-05"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     11.331389,
+     43.318333
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2015",
+   "properties": {
+    "end": "2015-04-01",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i4/e2",
+      "issued": "2015-03-31",
+      "label": "1(4), #2",
+      "path": "v1/i4/e2",
+      "title": "The Labeling System: A Bottom-up Approach for Enriched Vocabularies in the Humanities"
+     },
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i4/e3",
+      "issued": "2015-04-01",
+      "label": "1(4), #3",
+      "path": "v1/i4/e3",
+      "title": "Linked Samian Ware: challenges of a LOD approach to samian ware"
+     }
+    ],
+    "name": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "place": {
+     "description": "Siena, Italy",
+     "iri": "https://w3id.org/squirrelpapers/place/siena-italy",
+     "label": "Siena",
+     "wikidata": "Q2751"
+    },
+    "start": "2015-03-31"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.438611,
+     47.070833
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/jahrestagung-digital-humanities-im-deutschsprachigen-raum-2015",
+   "properties": {
+    "end": "2015-02-25",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i4/e1",
+      "issued": "2015-02-25",
+      "label": "1(4), #1",
+      "path": "v1/i4/e1",
+      "title": "Das Labeling System – ein freier Baukasten für kontrollierte Vokabulare"
+     }
+    ],
+    "name": "Jahrestagung Digital Humanities im deutschsprachigen Raum",
+    "place": {
+     "description": "Graz, Austria",
+     "iri": "https://w3id.org/squirrelpapers/place/graz-austria",
+     "label": "Graz",
+     "wikidata": "Q13298"
+    },
+    "start": "2015-02-25"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -105.083333,
+     40.566667
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/dh-case-ii-2014",
+   "properties": {
+    "end": "2014-09-10",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i3/e4",
+      "issued": "2014-09-10",
+      "label": "1(3), #4",
+      "path": "v1/i3/e4",
+      "title": "The Labeling System - A New Approach to Overcome the Vocabulary Bottleneck"
+     }
+    ],
+    "name": "DH-CASE II",
+    "place": {
+     "description": "Fort Collins, USA",
+     "iri": "https://w3id.org/squirrelpapers/place/fort-collins-usa",
+     "label": "Fort Collins",
+     "wikidata": "Q490732"
+    },
+    "start": "2014-09-10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.273611,
+     49.999444
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/forum-dh-mainz-2014",
+   "properties": {
+    "end": "2014-07-30",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i3/e3",
+      "issued": "2014-07-30",
+      "label": "1(3), #3",
+      "path": "v1/i3/e3",
+      "title": "Das Labeling System – Lösen der Mehrdeutigkeiten von Räumen und deren Funktion"
+     }
+    ],
+    "name": "Forum DH Mainz",
+    "place": {
+     "description": "Mainz, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/mainz-germany",
+     "label": "Mainz",
+     "wikidata": "Q1720"
+    },
+    "start": "2014-07-30"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     2.352222,
+     48.856667
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2014",
+   "properties": {
+    "end": "2014-04-24",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i3/e1",
+      "issued": "2014-04-24",
+      "label": "1(3), #1",
+      "path": "v1/i3/e1",
+      "title": "Linking potter, pots and places: a LOD approach to samian ware"
+     }
+    ],
+    "name": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "place": {
+     "description": "Paris, France",
+     "iri": "https://w3id.org/squirrelpapers/place/paris-france",
+     "label": "Paris",
+     "wikidata": "Q90"
+    },
+    "start": "2014-04-24"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     9.055556,
+     48.52
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/5-workshop-der-ag-caa-2014",
+   "properties": {
+    "end": "2014-02-15",
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v1/i3/e2",
+      "issued": "2014-02-15",
+      "label": "1(3), #2",
+      "path": "v1/i3/e2",
+      "title": "Linked Samian Ware: Potentiale von Linked Data in der Archäologie"
+     }
+    ],
+    "name": "5. Workshop der AG CAA",
+    "place": {
+     "description": "Tübingen, Germany",
+     "iri": "https://w3id.org/squirrelpapers/place/tubingen-germany",
+     "label": "Tübingen",
+     "wikidata": "Q3806"
+    },
+    "start": "2014-02-15"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     8.241667,
+     49.993056
+    ],
+    "type": "Point"
+   },
+   "id": "https://w3id.org/squirrelpapers/event/praxisubung-praktikum-zu-kleinfunddokumentation-und-computergestutzte",
+   "properties": {
+    "end": null,
+    "entries": [
+     {
+      "iri": "https://w3id.org/squirrelpapers/v5/i3/e3",
+      "issued": "2023-02-07",
+      "label": "5(3), #3",
+      "path": "v5/i3/e3",
+      "title": "Kleinfund-Dokumentation mit der Hilfe von Semantik"
+     }
+    ],
+    "name": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr",
+    "place": {
+     "description": "Johannes Gutenberg Universität Mainz, Fachbereich 07, Klassische Archäologie",
+     "iri": "https://w3id.org/squirrelpapers/place/johannes-gutenberg-universitat-mainz",
+     "label": "Johannes Gutenberg University Mainz",
+     "wikidata": "Q161982"
+    },
+    "start": null
+   },
+   "type": "Feature"
+  }
+ ],
+ "name": "Squirrel Papers - conference places",
+ "type": "FeatureCollection"
+}

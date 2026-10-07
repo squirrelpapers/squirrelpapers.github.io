@@ -140,7 +140,7 @@
       },
       "rdfs:label": "Dresden",
       "schema:addressCountry": {
-        "@id": "wd:Q1206012"
+        "@id": "wd:Q183"
       },
       "schema:description": "Dresden, Germany",
       "schema:latitude": 51.049329,

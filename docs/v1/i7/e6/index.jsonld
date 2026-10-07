@@ -169,7 +169,7 @@
       },
       "rdfs:label": "Valencia",
       "schema:addressCountry": {
-        "@id": "wd:Q204920"
+        "@id": "wd:Q29"
       },
       "schema:description": "Valencia, Spain",
       "schema:latitude": 39.47,

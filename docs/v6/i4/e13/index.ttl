@@ -143,7 +143,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster#geometry> ;
     owl:sameAs wd:Q2742 ;
     dcat:centroid "POINT(7.625556 51.9625)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q142 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Historisches Seminar der Universität Münster, Münster, Germany" ;
     schema:latitude 5.19625e+01 ;
     schema:longitude 7.625556e+00 .

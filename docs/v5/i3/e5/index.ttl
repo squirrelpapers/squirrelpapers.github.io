@@ -144,7 +144,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg#geometry> ;
     owl:sameAs wd:Q2999 ;
     dcat:centroid "POINT(9.929444 49.794444)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q13427044 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Toscana-Saal der Residenz Würzburg" ;
     schema:latitude 4.979444e+01 ;
     schema:longitude 9.929444e+00 .

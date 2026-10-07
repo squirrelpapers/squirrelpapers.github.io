@@ -203,7 +203,7 @@
       },
       "rdfs:label": "Münster",
       "schema:addressCountry": {
-        "@id": "wd:Q142"
+        "@id": "wd:Q183"
       },
       "schema:description": "Historisches Seminar der Universität Münster, Münster, Germany",
       "schema:latitude": 51.9625,

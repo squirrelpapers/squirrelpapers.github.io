@@ -140,7 +140,7 @@
       },
       "rdfs:label": "Munich",
       "schema:addressCountry": {
-        "@id": "wd:Q154195"
+        "@id": "wd:Q183"
       },
       "schema:description": "Munich, Germany",
       "schema:latitude": 48.1375,

@@ -140,7 +140,7 @@
       },
       "rdfs:label": "Stuttgart",
       "schema:addressCountry": {
-        "@id": "wd:Q159631"
+        "@id": "wd:Q183"
       },
       "schema:description": "Stuttgart, Germany",
       "schema:latitude": 48.7775,

@@ -2,6 +2,6 @@
 
 PyYAML>=6.0            # content/*.yaml, queries.yaml (all steps)
 Jinja2>=3.1            # page templates (S5, S9)
-rdflib>=7.0            # graph building and canonical serialisation (S7, S9)
+rdflib>=7.6,<8         # graph, canonical serialisation, query check (S7, S9); the SPARQL page runs 7.6.0
 pyshacl>=0.26          # SHACL gate (S8)
 requests>=2.31         # Zenodo and Wikidata APIs (S3, the only step that uses the network)

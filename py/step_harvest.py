@@ -198,6 +198,22 @@ def harvest_zenodo(http, wanted: dict[str, list[str]]) -> dict[str, str]:
 # ---------------------------------------------------------------------------
 
 
+def current_claim_ids(entity: dict, prop: str) -> list[str]:
+    """Item ids of the claims that hold now: preferred rank, else no end time."""
+    claims = [c for c in entity.get("claims", {}).get(prop, []) if c.get("rank") != "deprecated"]
+
+    def ids(selected):
+        out = []
+        for claim in selected:
+            value = claim.get("mainsnak", {}).get("datavalue", {}).get("value")
+            if isinstance(value, dict) and "id" in value:
+                out.append(value["id"])
+        return sorted(set(out))
+
+    preferred = [c for c in claims if c.get("rank") == "preferred"]
+    return ids(preferred) or ids([c for c in claims if "P582" not in c.get("qualifiers", {})])
+
+
 def reduce_entity(entity: dict) -> dict:
     """Keep what the site needs from a Wikidata item: labels, coordinates, country, type."""
     def claim_ids(prop):
@@ -215,6 +231,10 @@ def reduce_entity(entity: dict) -> dict:
         "descriptions": {lang: v["value"] for lang, v in
                          sorted(entity.get("descriptions", {}).items()) if lang in ("en", "de")},
         "country": claim_ids("P17"),
+        # P17 lists every state the place ever belonged to (Mainz: Holy Roman
+        # Empire, Electorate of Mainz, ..., Germany). The current one is the
+        # preferred claim, or else a claim without an end time (P582) - S10.
+        "country_current": current_claim_ids(entity, "P17"),
         "instance_of": claim_ids("P31"),
     }
     for claim in entity.get("claims", {}).get("P625", [])[:1]:

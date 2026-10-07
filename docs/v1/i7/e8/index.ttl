@@ -108,7 +108,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/dresden-germany#geometry> ;
     owl:sameAs wd:Q1731 ;
     dcat:centroid "POINT(13.738144 51.049329)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q1206012 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Dresden, Germany" ;
     schema:latitude 5.104933e+01 ;
     schema:longitude 1.373814e+01 .

@@ -56,10 +56,10 @@
         "@id": "https://w3id.org/squirrelpapers/event/linked-pasts-v-2019#time-span"
       },
       "crm:P7_took_place_at": {
-        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany"
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france"
       },
       "event:place": {
-        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany"
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france"
       },
       "rdfs:label": "Linked Pasts V",
       "schema:endDate": {
@@ -67,7 +67,7 @@
         "@value": "2019-12-11"
       },
       "schema:location": {
-        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany"
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france"
       },
       "schema:name": "Linked Pasts V",
       "schema:startDate": {
@@ -119,6 +119,47 @@
       "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
       "crm:P2_has_type": {
         "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(-0.579444 44.837778)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(-0.579444 44.837778)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1479"
+      },
+      "rdfs:label": "Bordeaux",
+      "schema:addressCountry": {
+        "@id": "wd:Q142"
+      },
+      "schema:description": "Bordeaux, France",
+      "schema:latitude": 44.837778,
+      "schema:longitude": -0.579444
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(-0.579444 44.837778)"
       }
     },
     {

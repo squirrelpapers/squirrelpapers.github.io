@@ -136,7 +136,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open#geometry> ;
     owl:sameAs wd:Q64 ;
     dcat:centroid "POINT(13.383333 52.516667)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q148499 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany" ;
     schema:latitude 5.251667e+01 ;
     schema:longitude 1.338333e+01 .

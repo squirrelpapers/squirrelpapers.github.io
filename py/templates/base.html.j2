@@ -10,6 +10,7 @@
 {% endfor %}{% for link in data_links %}<link rel="alternate" type="{{ link.type }}" href="{{ link.href }}">
 {% endfor %}<link rel="icon" type="image/png" href="{{ root }}assets/img/sqp-logo.png">
 <link rel="stylesheet" href="{{ root }}assets/css/sqp.css">
+{% block head_extra %}{% endblock %}
 {% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif %}
 </head>
 <body>
@@ -22,6 +23,7 @@
       <a href="{{ home }}"{% if nav == 'home' %} aria-current="page"{% endif %}>{{ t.nav_home }}</a>
       <a href="{{ home }}volumes/"{% if nav == 'volumes' %} aria-current="page"{% endif %}>{{ t.nav_volumes }}</a>
       <a href="{{ home }}search/"{% if nav == 'search' %} aria-current="page"{% endif %}>{{ t.nav_search }}</a>
+      <a href="{{ home }}map/"{% if nav == 'map' %} aria-current="page"{% endif %}>{{ t.nav_map }}</a>
       <a href="{{ home }}sparql/"{% if nav == 'sparql' %} aria-current="page"{% endif %}>{{ t.nav_sparql }}</a>
       <a href="{{ home }}impressum/"{% if nav == 'impressum' %} aria-current="page"{% endif %}>{{ t.nav_impressum }}</a>
       <a href="{{ home }}privacy/"{% if nav == 'privacy' %} aria-current="page"{% endif %}>{{ t.nav_privacy }}</a>

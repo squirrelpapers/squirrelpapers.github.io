@@ -206,7 +206,7 @@
       },
       "rdfs:label": "Würzburg",
       "schema:addressCountry": {
-        "@id": "wd:Q13427044"
+        "@id": "wd:Q183"
       },
       "schema:description": "Toscana-Saal der Residenz Würzburg",
       "schema:latitude": 49.794444,

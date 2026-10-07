@@ -169,7 +169,7 @@
       },
       "rdfs:label": "Graz",
       "schema:addressCountry": {
-        "@id": "wd:Q131964"
+        "@id": "wd:Q40"
       },
       "schema:description": "Graz, Austria",
       "schema:latitude": 47.070833,

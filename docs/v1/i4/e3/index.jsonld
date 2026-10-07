@@ -145,7 +145,7 @@
       },
       "rdfs:label": "Siena",
       "schema:addressCountry": {
-        "@id": "wd:Q154849"
+        "@id": "wd:Q38"
       },
       "schema:description": "Siena, Italy",
       "schema:latitude": 43.318333,

@@ -118,7 +118,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/zagreb-croatia#geometry> ;
     owl:sameAs wd:Q1435 ;
     dcat:centroid "POINT(15.977222 45.813056)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q153128 ;
+    schema:addressCountry wd:Q224 ;
     schema:description "Zagreb, Croatia" ;
     schema:latitude 4.581306e+01 ;
     schema:longitude 1.597722e+01 .

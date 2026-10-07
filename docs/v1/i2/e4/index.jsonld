@@ -203,7 +203,7 @@
       },
       "rdfs:label": "Kraków",
       "schema:addressCountry": {
-        "@id": "wd:Q11750541"
+        "@id": "wd:Q36"
       },
       "schema:description": "Kraków, Poland",
       "schema:latitude": 50.061389,

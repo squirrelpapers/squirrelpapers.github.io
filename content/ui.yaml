@@ -68,6 +68,22 @@ en:
   zenodo_title_differs: Title on Zenodo
   months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
   languages: {en: English, de: German}
+  # S10: map
+  nav_map: Map
+  map_title: Where the work was presented
+  map_intro: "{events} conferences and workshops at {places} places, with {entries} entries. Online events are not on the map."
+  map_nojs: The map needs JavaScript; the list below holds the same events.
+  map_osm_show: Show OpenStreetMap background
+  map_osm_hide: Hide OpenStreetMap background
+  map_osm_note: The map is drawn from data on this site. The OpenStreetMap background is loaded from tile.openstreetmap.org only when you switch it on; your browser then sends your IP address there.
+  map_year: Year
+  map_all_years: All years
+  map_list: All events on the map
+  map_col_date: Date
+  map_col_event: Event
+  map_col_place: Place
+  map_col_entries: Entries
+  map_download: The same data as GeoJSON
   # S9: search and SPARQL pages
   nav_search: Search
   nav_sparql: SPARQL
@@ -178,6 +194,22 @@ de:
   zenodo_title_differs: Titel auf Zenodo
   months: [Jan., Feb., März, Apr., Mai, Juni, Juli, Aug., Sep., Okt., Nov., Dez.]
   languages: {en: Englisch, de: Deutsch}
+  # S10: Karte
+  nav_map: Karte
+  map_title: Wo die Arbeiten vorgestellt wurden
+  map_intro: "{events} Konferenzen und Workshops an {places} Orten, mit {entries} Beiträgen. Online-Veranstaltungen sind nicht auf der Karte."
+  map_nojs: Die Karte braucht JavaScript; die Liste unten enthält dieselben Veranstaltungen.
+  map_osm_show: OpenStreetMap-Hintergrund zeigen
+  map_osm_hide: OpenStreetMap-Hintergrund ausblenden
+  map_osm_note: Die Karte wird aus Daten dieser Seite gezeichnet. Der OpenStreetMap-Hintergrund wird erst geladen, wenn du ihn einschaltest, und kommt von tile.openstreetmap.org; dein Browser übermittelt dabei deine IP-Adresse.
+  map_year: Jahr
+  map_all_years: Alle Jahre
+  map_list: Alle Veranstaltungen auf der Karte
+  map_col_date: Datum
+  map_col_event: Veranstaltung
+  map_col_place: Ort
+  map_col_entries: Beiträge
+  map_download: Dieselben Daten als GeoJSON
   # S9: Such- und SPARQL-Seite
   nav_search: Suche
   nav_sparql: SPARQL

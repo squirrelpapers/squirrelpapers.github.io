@@ -269,6 +269,37 @@ def person_record(family: str, given: str, orcid: str | None) -> dict:
 # ---------------------------------------------------------------------------
 
 
+# Instances of these are states that exist today; "historical country"
+# (Q3024240) marks those that do not.
+CURRENT_STATE = {"Q6256", "Q3624078"}
+HISTORICAL_STATE = "Q3024240"
+
+
+def current_country(item: dict, label: str) -> str | None:
+    """The country a place belongs to now (S10).
+
+    P17 on Wikidata lists every state a place ever belonged to, and the first
+    of them by QID was Holy Roman Empire for Mainz. Harvests from S10 on keep
+    the current claim (`country_current`: preferred rank, else no end time);
+    for older cache files, the states that still exist are taken, and among
+    them the one the place label names (", Germany")."""
+    from step_harvest import label_country
+
+    named, _ = label_country(label)
+    candidates = item.get("country_current") or []
+    if not candidates:
+        for qid in item.get("country", []):
+            path = RAW_WIKIDATA / f"{qid}.json"
+            types = set(read_json(path).get("instance_of", [])) if path.exists() else set()
+            if types & CURRENT_STATE and HISTORICAL_STATE not in types:
+                candidates.append(qid)
+    if not candidates:
+        candidates = item.get("country", [])
+    if named in candidates:
+        return named
+    return sorted(candidates)[0] if candidates else None
+
+
 def load_places() -> dict[str, dict]:
     places = {}
     for place in (read_yaml(PLACES_YAML) or {}).get("places", []) if PLACES_YAML.exists() else []:
@@ -278,8 +309,8 @@ def load_places() -> dict[str, dict]:
         if qid:
             out["wikidata"] = qid
             out["name"] = item.get("labels", {}).get("en") or item.get("labels", {}).get("de") or place["label"]
-            if item.get("country"):
-                country = item["country"][0]
+            country = current_country(item, place["label"])
+            if country:
                 c_item = read_json(RAW_WIKIDATA / f"{country}.json") if (RAW_WIKIDATA / f"{country}.json").exists() else {}
                 out["country"] = {"wikidata": country,
                                   "name": c_item.get("labels", {}).get("en", country)}

@@ -125,7 +125,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/valencia-spain#geometry> ;
     owl:sameAs wd:Q8818 ;
     dcat:centroid "POINT(-0.376389 39.47)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q204920 ;
+    schema:addressCountry wd:Q29 ;
     schema:description "Valencia, Spain" ;
     schema:latitude 3.947e+01 ;
     schema:longitude -3.76389e-01 .

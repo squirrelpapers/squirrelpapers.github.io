@@ -56,3 +56,21 @@ pyodide:
     so neither micropip nor the Pyodide CDN is ever contacted. When updating,
     keep rdflib equal to the version the build checks with (requirements.txt).
   taken: 2026-10-07
+leaflet:
+  name: Leaflet
+  version: 1.9.4
+  source: https://www.npmjs.com/package/leaflet
+  files: [leaflet/leaflet.js, leaflet/leaflet.css, leaflet/images/, leaflet/LICENSE]
+  licence: BSD-2-Clause (see leaflet/LICENSE)
+  note: Draws the map of event places (S10).
+  taken: 2026-10-07
+naturalearth:
+  name: Natural Earth 1:50m admin-0 countries, simplified
+  version: natural-earth-vector master ca96624 (VERSION 5.2.0-pre)
+  source: https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_admin_0_countries.geojson
+  files: [naturalearth/countries.js]
+  licence: public domain (https://www.naturalearthdata.com/about/terms-of-use/)
+  note: Background of the map, so it needs no tile server. Made by
+    py/tools/make_basemap.py (simplified 0.02 degrees, rounded to 0.01 degrees,
+    attributes dropped; 3 MB -> 0.76 MB).
+  taken: 2026-10-07

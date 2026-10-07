@@ -3,7 +3,7 @@
 - entries: 244 (210 published, 34 drafts)
 - published entries with a PDF preview: 162
 - people: 112, of which with ORCID: 76
-- places: 55
+- places: 54
 
 ## Primary types (published entries)
 

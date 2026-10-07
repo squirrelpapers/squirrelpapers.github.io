@@ -108,7 +108,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/warsaw-poland#geometry> ;
     owl:sameAs wd:Q270 ;
     dcat:centroid "POINT(21.011111 52.23)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q11750128 ;
+    schema:addressCountry wd:Q36 ;
     schema:description "Warsaw, Poland" ;
     schema:latitude 5.223e+01 ;
     schema:longitude 2.101111e+01 .

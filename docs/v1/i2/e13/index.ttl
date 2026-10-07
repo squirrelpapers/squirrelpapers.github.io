@@ -8,6 +8,7 @@
 @prefix event: <http://purl.org/NET/c4dm/event.owl#> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
@@ -18,6 +19,7 @@
 @prefix spdx: <http://spdx.org/rdf/terms#> .
 @prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
 @prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/squirrelpapers/v1/i2/e13#creation> a lrmoo:F28_Expression_Creation,
@@ -31,15 +33,15 @@
         crm:E7_Activity,
         schema:Event ;
     rdfs:label "Linked Pasts V" ;
-    event:place <https://w3id.org/squirrelpapers/place/bordeaux-germany> ;
+    event:place <https://w3id.org/squirrelpapers/place/bordeaux-france> ;
     crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i2/e11>,
         <https://w3id.org/squirrelpapers/v1/i2/e12>,
         <https://w3id.org/squirrelpapers/v1/i2/e13> ;
     crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/linked-pasts-v-2019#name> ;
     crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/linked-pasts-v-2019#time-span> ;
-    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/bordeaux-germany> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/bordeaux-france> ;
     schema:endDate "2019-12-11"^^xsd:date ;
-    schema:location <https://w3id.org/squirrelpapers/place/bordeaux-germany> ;
+    schema:location <https://w3id.org/squirrelpapers/place/bordeaux-france> ;
     schema:name "Linked Pasts V" ;
     schema:startDate "2019-12-11"^^xsd:date .
 
@@ -84,6 +86,9 @@
 <https://w3id.org/squirrelpapers/v1/i2/e13#title> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Linked Pipes! Let us feed the hungry squirrels!" .
 
+<https://w3id.org/squirrelpapers/place/bordeaux-france#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(-0.579444 44.837778)"^^geo:wktLiteral .
+
 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
         foaf:Person,
         schema:Person ;
@@ -94,6 +99,21 @@
     foaf:givenName "Florian" ;
     foaf:name "Florian Thiery" ;
     schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/bordeaux-france> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Bordeaux" ;
+    crm:P168_place_is_defined_by "POINT(-0.579444 44.837778)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/bordeaux-france#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/bordeaux-france#geometry> ;
+    owl:sameAs wd:Q1479 ;
+    dcat:centroid "POINT(-0.579444 44.837778)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q142 ;
+    schema:description "Bordeaux, France" ;
+    schema:latitude 4.483778e+01 ;
+    schema:longitude -5.79444e-01 .
 
 <https://w3id.org/squirrelpapers/v1/i2/e13> a lrmoo:F2_Expression,
         bibo:Document,

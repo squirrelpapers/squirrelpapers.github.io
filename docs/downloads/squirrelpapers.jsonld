@@ -3835,10 +3835,10 @@
         "@id": "https://w3id.org/squirrelpapers/event/linked-pasts-v-2019#time-span"
       },
       "crm:P7_took_place_at": {
-        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany"
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france"
       },
       "event:place": {
-        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany"
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france"
       },
       "rdfs:label": "Linked Pasts V",
       "schema:endDate": {
@@ -3846,7 +3846,7 @@
         "@value": "2019-12-11"
       },
       "schema:location": {
-        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany"
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france"
       },
       "schema:name": "Linked Pasts V",
       "schema:startDate": {
@@ -7661,7 +7661,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany",
+      "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france",
       "@type": [
         "crm:E53_Place",
         "dct:Location",
@@ -7677,10 +7677,10 @@
         "@value": "POINT(-0.579444 44.837778)"
       },
       "geo:hasDefaultGeometry": {
-        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany#geometry"
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france#geometry"
       },
       "geo:hasGeometry": {
-        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany#geometry"
+        "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france#geometry"
       },
       "owl:sameAs": {
         "@id": "wd:Q1479"
@@ -7689,12 +7689,12 @@
       "schema:addressCountry": {
         "@id": "wd:Q142"
       },
-      "schema:description": "Bordeaux, Germany",
+      "schema:description": "Bordeaux, France",
       "schema:latitude": 44.837778,
       "schema:longitude": -0.579444
     },
     {
-      "@id": "https://w3id.org/squirrelpapers/place/bordeaux-germany#geometry",
+      "@id": "https://w3id.org/squirrelpapers/place/bordeaux-france#geometry",
       "@type": "geo:Geometry",
       "geo:asWKT": {
         "@type": "geo:wktLiteral",
@@ -7851,7 +7851,7 @@
       },
       "rdfs:label": "Dresden",
       "schema:addressCountry": {
-        "@id": "wd:Q1206012"
+        "@id": "wd:Q183"
       },
       "schema:description": "Dresden, Germany",
       "schema:latitude": 51.049329,
@@ -7974,7 +7974,7 @@
       },
       "rdfs:label": "Berlin",
       "schema:addressCountry": {
-        "@id": "wd:Q148499"
+        "@id": "wd:Q183"
       },
       "schema:description": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
       "schema:latitude": 52.516667,
@@ -8056,7 +8056,7 @@
       },
       "rdfs:label": "Mainz",
       "schema:addressCountry": {
-        "@id": "wd:Q12548"
+        "@id": "wd:Q183"
       },
       "schema:description": "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany",
       "schema:latitude": 49.999444,
@@ -8097,7 +8097,7 @@
       },
       "rdfs:label": "Graz",
       "schema:addressCountry": {
-        "@id": "wd:Q131964"
+        "@id": "wd:Q40"
       },
       "schema:description": "Graz, Austria",
       "schema:latitude": 47.070833,
@@ -8138,7 +8138,7 @@
       },
       "rdfs:label": "Hamburg",
       "schema:addressCountry": {
-        "@id": "wd:Q1055"
+        "@id": "wd:Q183"
       },
       "schema:description": "Hamburg, Germany",
       "schema:latitude": 53.55,
@@ -8220,7 +8220,7 @@
       },
       "rdfs:label": "Münster",
       "schema:addressCountry": {
-        "@id": "wd:Q142"
+        "@id": "wd:Q183"
       },
       "schema:description": "Historisches Seminar der Universität Münster, Münster, Germany",
       "schema:latitude": 51.9625,
@@ -8343,7 +8343,7 @@
       },
       "rdfs:label": "Mainz",
       "schema:addressCountry": {
-        "@id": "wd:Q12548"
+        "@id": "wd:Q183"
       },
       "schema:description": "JGU, Mainz Germany",
       "schema:latitude": 49.999444,
@@ -8507,7 +8507,7 @@
       },
       "rdfs:label": "Kraków",
       "schema:addressCountry": {
-        "@id": "wd:Q11750541"
+        "@id": "wd:Q36"
       },
       "schema:description": "Kraków, Poland",
       "schema:latitude": 50.061389,
@@ -8630,7 +8630,7 @@
       },
       "rdfs:label": "Mainz",
       "schema:addressCountry": {
-        "@id": "wd:Q12548"
+        "@id": "wd:Q183"
       },
       "schema:description": "Mainz, Germany",
       "schema:latitude": 49.999444,
@@ -8671,7 +8671,7 @@
       },
       "rdfs:label": "Munich",
       "schema:addressCountry": {
-        "@id": "wd:Q154195"
+        "@id": "wd:Q183"
       },
       "schema:description": "Munich, Germany",
       "schema:latitude": 48.1375,
@@ -8835,7 +8835,7 @@
       },
       "rdfs:label": "Potsdam",
       "schema:addressCountry": {
-        "@id": "wd:Q148499"
+        "@id": "wd:Q183"
       },
       "schema:description": "Potsdam, Germany",
       "schema:latitude": 52.400931,
@@ -8999,7 +8999,7 @@
       },
       "rdfs:label": "Siena",
       "schema:addressCountry": {
-        "@id": "wd:Q154849"
+        "@id": "wd:Q38"
       },
       "schema:description": "Siena, Italy",
       "schema:latitude": 43.318333,
@@ -9040,7 +9040,7 @@
       },
       "rdfs:label": "Stuttgart",
       "schema:addressCountry": {
-        "@id": "wd:Q159631"
+        "@id": "wd:Q183"
       },
       "schema:description": "Stuttgart, Germany",
       "schema:latitude": 48.7775,
@@ -9122,7 +9122,7 @@
       },
       "rdfs:label": "Würzburg",
       "schema:addressCountry": {
-        "@id": "wd:Q13427044"
+        "@id": "wd:Q183"
       },
       "schema:description": "Toscana-Saal der Residenz Würzburg",
       "schema:latitude": 49.794444,
@@ -9450,7 +9450,7 @@
       },
       "rdfs:label": "Valencia",
       "schema:addressCountry": {
-        "@id": "wd:Q204920"
+        "@id": "wd:Q29"
       },
       "schema:description": "Valencia, Spain",
       "schema:latitude": 39.47,
@@ -9532,7 +9532,7 @@
       },
       "rdfs:label": "Warsaw",
       "schema:addressCountry": {
-        "@id": "wd:Q11750128"
+        "@id": "wd:Q36"
       },
       "schema:description": "Warsaw, Poland",
       "schema:latitude": 52.23,
@@ -9655,7 +9655,7 @@
       },
       "rdfs:label": "Zagreb",
       "schema:addressCountry": {
-        "@id": "wd:Q153128"
+        "@id": "wd:Q224"
       },
       "schema:description": "Zagreb, Croatia",
       "schema:latitude": 45.813056,

@@ -42,9 +42,11 @@ from sqp_utils import (  # noqa: E402
 UI_YAML = CONTENT / "ui.yaml"
 PAGES_DIR = CONTENT / "pages"
 ASSET_FILES = ["css/sqp.css", "img/sqp-logo.png", "img/network.svg", "js/sqp-cite.js",
-               "js/sqp-preview.js", "js/sqp-search.js", "js/sqp-sparql.js"]
-# Copied whole: pdf.js with its fonts (S8b), Pyodide with the rdflib wheels (S9).
-ASSET_DIRS = ["vendor/pdfjs", "vendor/pyodide"]
+               "js/sqp-preview.js", "js/sqp-search.js", "js/sqp-sparql.js", "js/sqp-map.js"]
+# Copied whole: pdf.js with its fonts (S8b), Pyodide with the rdflib wheels (S9),
+# Leaflet and the Natural Earth background (S10).
+ASSET_DIRS = ["vendor/pdfjs", "vendor/pyodide", "vendor/leaflet", "vendor/naturalearth"]
+EVENTS_GEOJSON = DIST / "events.geojson"                                     # S10
 QUERIES_JSON = Path(__file__).resolve().parent.parent / "data" / "derived" / "queries.json"  # S9
 SPARQL_MAX_ROWS = 500   # rendered rows; an unlimited table can hang a phone
 # Files in docs/ that other steps or people own; prune() leaves them alone.
@@ -216,6 +218,19 @@ def check_links(root: Path) -> list[str]:
 # ---------------------------------------------------------------------------
 
 
+def map_view(events: dict) -> dict:
+    """Counts and the event list for the map page (S10)."""
+    features = []
+    for f in events["features"]:
+        anchor = "event-" + f["id"].rstrip("/").rsplit("/", 1)[-1]
+        features.append({**f, "anchor": anchor})
+    return {"features": features, "events": len(features),
+            "places": len({f["properties"]["place"]["iri"] for f in features}),
+            "entries": sum(len(f["properties"]["entries"]) for f in features),
+            "years": sorted({(f["properties"]["start"] or "")[:4] for f in features
+                             if f["properties"]["start"]}, reverse=True)}
+
+
 def sparql_view(sparql: dict, lang: str) -> dict:
     """What the SPARQL template needs from data/derived/queries.json (S9)."""
     queries = []
@@ -253,6 +268,7 @@ def render_site(data: dict, ui: dict, journal: dict, types: dict, entries: dict)
                 for suffix, label in DOWNLOAD_FORMATS if (folder / f"{prefix}.{suffix}").exists()]
 
     sparql = read_json(QUERIES_JSON) if QUERIES_JSON.exists() else None
+    events = read_json(EVENTS_GEOJSON) if EVENTS_GEOJSON.exists() else None
     csl_items = {}
     for e in data["entries"]:
         path = WEB / e["path"] / "index.csl.json"
@@ -327,6 +343,9 @@ def render_site(data: dict, ui: dict, journal: dict, types: dict, entries: dict)
                               ("type", "year", "volume", "event", "person", "language")},
                    "one": t["search_one"], "many": t["search_many"], "none": t["search_none"],
                    "more": t["search_show_more"], "fewer": t["search_show_fewer"]}))
+        if events:
+            render("map.html.j2", "map", lang, page_title=f"{t['nav_map']} – Squirrel Papers",
+                   nav="map", map=map_view(events), map_ui=script_json({"home": "../", "lang": lang}))
         if sparql:
             render("sparql.html.j2", "sparql", lang, page_title=f"SPARQL – Squirrel Papers",
                    nav="sparql", sparql=sparql_view(sparql, lang),

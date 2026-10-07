@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map – Squirrel Papers</title>
+
+<link rel="canonical" href="https://squirrelpapers.github.io/map/">
+<link rel="alternate" hreflang="en" href="https://squirrelpapers.github.io/map/">
+<link rel="alternate" hreflang="de" href="https://squirrelpapers.github.io/de/map/">
+<link rel="icon" type="image/png" href="../assets/img/sqp-logo.png">
+<link rel="stylesheet" href="../assets/css/sqp.css">
+<link rel="stylesheet" href="../assets/vendor/leaflet/leaflet.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="../">Squirrel Papers</a>
+    <span class="site-tagline">by the Research Squirrel Engineers Network</span>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../">Home</a>
+      <a href="../volumes/">Volumes &amp; Issues</a>
+      <a href="../search/">Search</a>
+      <a href="../map/" aria-current="page">Map</a>
+      <a href="../sparql/">SPARQL</a>
+      <a href="../impressum/">Legal notice</a>
+      <a href="../privacy/">Privacy</a>
+      <a class="lang-switch" href="../de/map/" hreflang="de" lang="de">Deutsch</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap">
+  <h1>Where the work was presented</h1>
+  <p class="lead">60 conferences and workshops at 51 places, with 105 entries. Online events are not on the map.</p>
+  <noscript><p class="notice">The map needs JavaScript; the list below holds the same events.</p></noscript>
+  <div class="map-tools" id="map-tools" hidden>
+    <label for="map-year">Year</label>
+    <select id="map-year"><option value="">All years</option>
+      <option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option></select>
+    <button type="button" class="button button-small button-quiet" id="map-osm"
+            data-show="Show OpenStreetMap background" data-hide="Hide OpenStreetMap background">Show OpenStreetMap background</button>
+  </div>
+  <div class="map" id="map" hidden></div>
+  <p class="small muted measure">The map is drawn from data on this site. The OpenStreetMap background is loaded from tile.openstreetmap.org only when you switch it on; your browser then sends your IP address there.</p>
+
+  <h2 id="events">All events on the map</h2>
+  <div class="table-scroll">
+    <table class="event-table">
+      <thead><tr><th>Date</th><th>Event</th><th>Place</th><th>Entries</th></tr></thead>
+      <tbody>
+      
+        <tr id="event-fossgis-konferenz-2026">
+          <td class="nowrap">25–28 Mar 2026</td>
+          <td>FOSSGIS-Konferenz 2026</td>
+          <td><a href="https://www.wikidata.org/wiki/Q152838">University of Göttingen</a></td>
+          <td><ul class="plain"><li><a href="../v8/i3/e9/"><span class="sigil">8(3), §9</span> Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-derse26-2026">
+          <td class="nowrap">3–5 Mar 2026</td>
+          <td>deRSE26</td>
+          <td><a href="https://www.wikidata.org/wiki/Q122453">University of Stuttgart</a></td>
+          <td><ul class="plain"><li><a href="../v8/i3/e3/"><span class="sigil">8(3), §3</span> Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks</a></li><li><a href="../v8/i3/e4/"><span class="sigil">8(3), §4</span> Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research</a></li><li><a href="../v8/i3/e5/"><span class="sigil">8(3), §5</span> RSE across the NFDI - Connecting Infrastructure and Community through FAIR4RS Practice</a></li><li><a href="../v8/i3/e6/"><span class="sigil">8(3), §6</span> chublets.software – Building a FAIR Software Marketplace for Cultural Heritage</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-oldenburger-3d-tage-2026">
+          <td class="nowrap">25–26 Feb 2026</td>
+          <td>Oldenburger 3D-Tage</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1622222">University of Applied Sciences Dresden</a></td>
+          <td><ul class="plain"><li><a href="../v8/i3/e1/"><span class="sigil">8(3), §1</span> Cultural Heritage als FAIR Digital Object? 3D-Erfassung und semantische Vernetzung von Kulturerbe in Irland und Schottland</a></li><li><a href="../v8/i3/e2/"><span class="sigil">8(3), §2</span> Von der Hosentasche in den Wissensgraph: Smartphone-3D als FAIR Digital Object in der SquirrelBase</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-4-mediawiki-users-developer-conference-2025">
+          <td class="nowrap">28–30 Oct 2025</td>
+          <td>4. MediaWiki Users &amp; Developer Conference</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1813804">Leibnizhaus</a></td>
+          <td><ul class="plain"><li><a href="../v7/i3/e20/"><span class="sigil">7(3), λ20</span> How to FAIRify Citizen Science? Using the Wikibase Ecosystem for Volunteered Cultural Heritage Information Systems</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-nfdi4objects-community-meeting-2025">
+          <td class="nowrap">30 Sep 2025 – 1 Oct 2025</td>
+          <td>NFDI4Objects Community Meeting 2025</td>
+          <td><a href="https://www.wikidata.org/wiki/Q896952">German Mining Museum</a></td>
+          <td><ul class="plain"><li><a href="../v7/i4/e5/"><span class="sigil">7(4), λ5</span> Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI - Ein interdisziplinäres federated Knowledge Graph Ecosystem</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-caa-de-workshop-koln-2025">
+          <td class="nowrap">17–18 Sep 2025</td>
+          <td>CAA DE Workshop Köln 2025</td>
+          <td><a href="https://www.wikidata.org/wiki/Q54096">University of Cologne</a></td>
+          <td><ul class="plain"><li><a href="../v7/i3/e19/"><span class="sigil">7(3), λ19</span> Vom Ogham-Stein zum FAIR/LO(U)D Digital Object Wie Gigha Brewing und der federated Knowledge Graph historische Artefakte lebendig machen</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-2nd-conference-on-research-data-infrastructure-cordi-2025">
+          <td class="nowrap">26–28 Aug 2025</td>
+          <td>2nd Conference on Research Data Infrastructure (CoRDI) 2025</td>
+          <td><a href="https://www.wikidata.org/wiki/Q273263">RWTH Aachen University</a></td>
+          <td><ul class="plain"><li><a href="../v7/i5/e1/"><span class="sigil">7(5), 𝒬1</span> RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code</a></li><li><a href="../v7/i5/e2/"><span class="sigil">7(5), 𝒬2</span> Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem</a></li><li><a href="../v7/i5/e3/"><span class="sigil">7(5), 𝒬3</span> Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data</a></li><li><a href="../v7/i5/e4/"><span class="sigil">7(5), 𝒬4</span> Towards Common Metadata For Research Software in the NFDI</a></li><li><a href="../v7/i5/e5/"><span class="sigil">7(5), 𝒬5</span> How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”</a></li><li><a href="../v7/i5/e6/"><span class="sigil">7(5), 𝒬6</span> RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code</a></li><li><a href="../v7/i5/e7/"><span class="sigil">7(5), 𝒬7</span> A Human- and Machine-Readable Thesaurus for the Conservation of Archaeological Heritage Development, Technical Implementation and Application in digital space</a></li><li><a href="../v7/i5/e8/"><span class="sigil">7(5), 𝒬8</span> RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code</a></li><li><a href="../v7/i5/e9/"><span class="sigil">7(5), 𝒬9</span> Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem</a></li><li><a href="../v7/i5/e10/"><span class="sigil">7(5), 𝒬10</span> RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-uk-ireland-dh-association-annual-event-2025">
+          <td class="nowrap">17–18 Jun 2025</td>
+          <td>UK-Ireland DH Association Annual Event 2025</td>
+          <td><a href="https://www.wikidata.org/wiki/Q192775">University of Glasgow</a></td>
+          <td><ul class="plain"><li><a href="../v7/i3/e16/"><span class="sigil">7(3), λ16</span> Beyond Digital Boundaries - Linked Open Data and Wikidata with OG(H)AM and Holy Wells</a></li><li><a href="../v7/i3/e17/"><span class="sigil">7(3), λ17</span> A Holy Wells Database on Wikidata</a></li><li><a href="../v7/i3/e18/"><span class="sigil">7(3), λ18</span> Cultural Heritage beyond boundaries - Open Science and FAIR methods for Ogham and Holy Wells in Ireland and the UK</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-e-science-tage-2025">
+          <td class="nowrap">12–14 Mar 2025</td>
+          <td>E-Science-Tage 2025</td>
+          <td><a href="https://www.wikidata.org/wiki/Q436344">Alte Universität</a></td>
+          <td><ul class="plain"><li><a href="../v7/i3/e10/"><span class="sigil">7(3), λ10</span> Data-Driven Community Standards for Interdisciplinary Heterogeneous Information Networks</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-derse25-2025">
+          <td class="nowrap">25–27 Feb 2025</td>
+          <td>deRSE25</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1040">Karlsruhe</a></td>
+          <td><ul class="plain"><li><a href="../v7/i3/e3/"><span class="sigil">7(3), λ3</span> Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences</a></li><li><a href="../v7/i3/e4/"><span class="sigil">7(3), λ4</span> Keeping it REAL: Sustainability Challenges for Research Software in Computational Archaeology</a></li><li><a href="../v7/i3/e5/"><span class="sigil">7(3), λ5</span> Research Software Engineering in the NFDI (INFRA-WG-RSE)</a></li><li><a href="../v7/i3/e6/"><span class="sigil">7(3), λ6</span> Research Squirrel Engineers How an independent RSE-driven network may help the NFDI</a></li><li><a href="../v7/i3/e7/"><span class="sigil">7(3), λ7</span> Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data</a></li><li><a href="../v7/i3/e8/"><span class="sigil">7(3), λ8</span> How to improve the visibility and added value of RSE(s) in NFDI</a></li><li><a href="../v7/i3/e9/"><span class="sigil">7(3), λ9</span> Geodesist in the Humanities working with humanities people on Research Software and FAIRification Tools</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-oldenburger-3d-tage-2025">
+          <td class="nowrap">4–5 Feb 2025</td>
+          <td>Oldenburger 3D-Tage</td>
+          <td><a href="https://www.wikidata.org/wiki/Q2936">Oldenburg</a></td>
+          <td><ul class="plain"><li><a href="../v7/i3/e1/"><span class="sigil">7(3), λ1</span> FAIRes Kulturerbe mit dem Smartphone und SfM? Wie man das durch Smartphone Apps, Open Source Tools und semantische Annotation im Wikiversum und OSM erreichen kann</a></li><li><a href="../v7/i3/e2/"><span class="sigil">7(3), λ2</span> Low-Cost 3D-Digitalisierung mit SfM in Smartphone Apps. 3D-Modelle zum Mitnehmen und Open Data Publikation mit dem Wikiversum und OSM</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-archeo-foss-18-2024">
+          <td class="nowrap">19–20 Dec 2024</td>
+          <td>ARCHEO.FOSS 18</td>
+          <td><a href="https://www.wikidata.org/wiki/Q13138">Chieti</a></td>
+          <td><ul class="plain"><li><a href="../v6/i3/e11/"><span class="sigil">6(3), #11</span> Infrastructural Frameworks: Managing and publishing distributed Archaeological Research Data through the Wikibase</a></li><li><a href="../v6/i3/e12/"><span class="sigil">6(3), #12</span> Jupyter Python Minion: Empowering Open Data for Urban Archaeological Insights</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024">
+          <td class="nowrap">20 Nov 2024</td>
+          <td>1st Base4NFDI User Conference (UC4B2024), Berlin, Germany</td>
+          <td><a href="https://www.wikidata.org/wiki/Q64">Berlin</a></td>
+          <td><ul class="plain"><li><a href="../v6/i4/e21/"><span class="sigil">6(4), #21</span> NFDI4Objects and the Base4NFDI Services: An Overview</a></li><li><a href="../v6/i4/e26/"><span class="sigil">6(4), #26</span> Research Software Engineering within the NFDI (INFRA-WG-RSE)</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-conference-on-cultral-heritage-and-new-technologies-chnt29-vienna-2024">
+          <td class="nowrap">4–6 Nov 2024</td>
+          <td>Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria</td>
+          <td><a href="https://www.wikidata.org/wiki/Q686468">Vienna City Hall</a></td>
+          <td><ul class="plain"><li><a href="../v6/i4/e22/"><span class="sigil">6(4), #22</span> Wikibase instances in the Cultural Heritage Domain: Examples from the German humanities NFDI consortia</a></li><li><a href="../v6/i4/e23/"><span class="sigil">6(4), #23</span> Interdisciplinary Knowledge Graphs: Semantic Modelling using Linked Open Data, Wikibase and the Wikiverse</a></li><li><a href="../v6/i4/e24/"><span class="sigil">6(4), #24</span> Derivation of thesauri in archaeological conservation through synergistic collaboration between domain experts and the use of semantic and NLP technologies with a FAIR and open publication</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-verbandstagung-2024-des-nwva-e-v-2024">
+          <td class="nowrap">7–11 Oct 2024</td>
+          <td>Verbandstagung 2024 des NWVA e.V.</td>
+          <td><a href="https://www.wikidata.org/wiki/Q896952">German Mining Museum</a></td>
+          <td><ul class="plain"><li><a href="../v6/i3/e10/"><span class="sigil">6(3), #10</span> Das Research Squirrel Engineers Network - Digitale Services zum digitalen Datenmanagement aus der Archäoinformatik- und Citizen Science-Community</a></li><li><a href="../v6/i4/e17/"><span class="sigil">6(4), #17</span> Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-nfdi4objects-community-meeting-2024-mainz-germany-2024">
+          <td class="nowrap">25–27 Sep 2024</td>
+          <td>NFDI4Objects Community Meeting 2024, Mainz, Germany</td>
+          <td><a href="https://www.wikidata.org/wiki/Q115755098">Leibniz-Zentrum für Archäologie</a></td>
+          <td><ul class="plain"><li><a href="../v6/i4/e12/"><span class="sigil">6(4), #12</span> Task Area 2: FDM-Services im Sammlungskontext</a></li><li><a href="../v6/i4/e14/"><span class="sigil">6(4), #14</span> NFDI4Objects Objects Ontology &amp; Minimal Metadata Set</a></li><li><a href="../v6/i4/e18/"><span class="sigil">6(4), #18</span> Workshop III: Linked Open Data am Beispiel von RDF-Daten, Wikidata und Wikibase</a></li><li><a href="../v6/i4/e19/"><span class="sigil">6(4), #19</span> Workshop VI: Harmonisierung und Integration von Konsortialdiensten durch Verknüpfung dezentraler Systeme in NFDI4Objects</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-open-science-festival-mainz-2024-mainz-germany-2024">
+          <td class="nowrap">17 Sep 2024</td>
+          <td>Open Science Festival Mainz 2024, Mainz, Germany</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1720">Mainz</a></td>
+          <td><ul class="plain"><li><a href="../v6/i4/e20/"><span class="sigil">6(4), #20</span> Geodata in Linked Open Data and Wikidata in Practice</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-caa-deutschland-workshop-2024">
+          <td class="nowrap">5–6 Sep 2024</td>
+          <td>CAA Deutschland-Workshop 2024</td>
+          <td><a href="https://www.wikidata.org/wiki/Q2742">Münster</a></td>
+          <td><ul class="plain"><li><a href="../v6/i3/e8/"><span class="sigil">6(3), #8</span> 3D-Erfassung und FAIRe Publikation von Cultural Heritage Artefakten, insbesondere Ogham Steine und Holy Wells in Zusammenarbeit mit Citizen Scientists</a></li><li><a href="../v6/i4/e13/"><span class="sigil">6(4), #13</span> Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-eaa-2024-rome-italy-2024">
+          <td class="nowrap">31 Aug 2024</td>
+          <td>EAA 2024, Rome, Italy</td>
+          <td><a href="https://www.wikidata.org/wiki/Q209344">Sapienza University of Rome</a></td>
+          <td><ul class="plain"><li><a href="../v6/i3/e9/"><span class="sigil">6(3), #9</span> Taming Doubts - How to semantically model fuzzy and wobbly georeferences in archaeology and in the geosciences</a></li><li><a href="../v6/i4/e7/"><span class="sigil">6(4), #7</span> Applying Archaeological Research Software Engineering as Little Minions: Statistical &amp; Computational Approaches to Daily Archaeological Tasks</a></li><li><a href="../v6/i4/e8/"><span class="sigil">6(4), #8</span> Taming Time: Using Correspondence Analysis to handle relative chronologies as graphs</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-netzwerktreffen-kulturelles-erbe-linked-open-data-und-das-wikiversum-2024">
+          <td class="nowrap">14 Jun 2024</td>
+          <td>Netzwerktreffen kulturelles Erbe, Linked Open Data und das Wikiversum</td>
+          <td><a href="https://www.wikidata.org/wiki/Q8288">Wikimedia Germany</a></td>
+          <td><ul class="plain"><li><a href="../v6/i1/e1/"><span class="sigil">6(1), #1</span> Kulturelles Erbe, Linked Open Data und das Wikiversum: Beispiele aus dem LEIZA, NFDI4Objects und dem Research Squirrel Engineers Network</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-uk-ireland-dh-association-annual-event-2024">
+          <td class="nowrap">4–5 Jun 2024</td>
+          <td>UK-Ireland DH Association Annual Event 2024</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1574185">University College Cork</a></td>
+          <td><ul class="plain"><li><a href="../v6/i5/e5/"><span class="sigil">6(5), #5</span> Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-fossgis-2024">
+          <td class="nowrap">20–23 Mar 2024</td>
+          <td>FOSSGIS 2024</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1060">Hamburg University of Technology</a></td>
+          <td><ul class="plain"><li><a href="../v6/i3/e6/"><span class="sigil">6(3), #6</span> Modellierung von Fuzzyness &amp; Wobbliness in Geodaten am Beispiel archäologischer und geowissenschaftlicher Fundorte</a></li><li><a href="../v6/i3/e7/"><span class="sigil">6(3), #7</span> The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-derse2024">
+          <td class="nowrap">5–7 Mar 2024</td>
+          <td>deRSE2024</td>
+          <td><a href="https://www.wikidata.org/wiki/Q161976">University of Würzburg</a></td>
+          <td><ul class="plain"><li><a href="../v6/i3/e3/"><span class="sigil">6(3), #3</span> FOSS N4O Management Hub: Using RSE skills and Open Source Software to propose a heterogenious Management Hub in NFDI4Objects</a></li><li><a href="../v6/i3/e4/"><span class="sigil">6(3), #4</span> Research Software Engineering within the NFDI (INFRA-WG-RSE)</a></li><li><a href="../v6/i3/e5/"><span class="sigil">6(3), #5</span> The SPARQL Unicorn: A Research Tool for Linked Open Data in QGIS and git-action-based ontology documentation</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-oldenburger-3d-tage-2024">
+          <td class="nowrap">31 Jan 2024 – 1 Feb 2024</td>
+          <td>Oldenburger 3D-Tage</td>
+          <td><a href="https://www.wikidata.org/wiki/Q2936">Oldenburg</a></td>
+          <td><ul class="plain"><li><a href="../v6/i3/e1/"><span class="sigil">6(3), #1</span> 3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-archaeo-foss-xvii-2023">
+          <td class="nowrap">12–13 Dec 2023</td>
+          <td>ARCHAEO.FOSS XVII 2023</td>
+          <td><a href="https://www.wikidata.org/wiki/Q499911">University of Turin</a></td>
+          <td><ul class="plain"><li><a href="../v5/i3/e6/"><span class="sigil">5(3), #6</span> Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain</a></li><li><a href="../v5/i5/e4/"><span class="sigil">5(5), #4</span> Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-clarenet-final-workshop-2023">
+          <td class="nowrap">14–16 Nov 2023</td>
+          <td>ClaReNet Final Workshop</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1425831">Deutsches Archäologisches Institut. Römisch-Germanische Kommission</a></td>
+          <td><ul class="plain"><li><a href="../v5/i5/e3/"><span class="sigil">5(5), #3</span> Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-caa-de-workshop-2023">
+          <td class="nowrap">14–15 Sep 2023</td>
+          <td>CAA-DE Workshop</td>
+          <td><a href="https://www.wikidata.org/wiki/Q2999">Würzburg</a></td>
+          <td><ul class="plain"><li><a href="../v5/i3/e5/"><span class="sigil">5(3), #5</span> Umgang mit Unsicherheiten und Vagheiten bei der Georeferenzierung von Geo-Locations in der Archäologie und in den Geowissenschaften</a></li><li><a href="../v5/i5/e1/"><span class="sigil">5(5), #1</span> Object-Related Research Data Workflows Within NFDI4Objects and Beyond</a></li><li><a href="../v5/i5/e2/"><span class="sigil">5(5), #2</span> FAIRifizierung mit Citizen Science? Herausforderungen bei der Integration von archäologischen Daten in das Wikiversum und Open Street Map</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-35th-international-geodetic-student-meeting-2023">
+          <td class="nowrap">2–8 Jul 2023</td>
+          <td>35th International Geodetic Student Meeting</td>
+          <td><a href="https://www.wikidata.org/wiki/Q2003976">Technical University of Valencia</a></td>
+          <td><ul class="plain"><li><a href="../v5/i3/e4/"><span class="sigil">5(3), #4</span> Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-linked-pasts-v-2019">
+          <td class="nowrap">11 Dec 2019</td>
+          <td>Linked Pasts V</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1479">Bordeaux</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e11/"><span class="sigil">1(2), #11</span> #Linked Pipes</a></li><li><a href="../v1/i2/e12/"><span class="sigil">1(2), #12</span> Alligator + AMT: A Linked Pipe for taming relative chronology</a></li><li><a href="../v1/i2/e13/"><span class="sigil">1(2), #13</span> Linked Pipes! Let us feed the hungry squirrels!</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-uk-chapter-of-computer-applications-and-quantitative-methods-in-2019">
+          <td class="nowrap">4 Oct 2019</td>
+          <td>UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2019)</td>
+          <td><a href="https://www.wikidata.org/wiki/Q170478">Bournemouth</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e10/"><span class="sigil">1(2), #10</span> Wikidata - A SPARQL(ing) Unicorn?</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-9-workshop-der-ag-caa-2019">
+          <td class="nowrap">23 Sep 2019</td>
+          <td>9. Workshop der AG CAA</td>
+          <td><a href="https://www.wikidata.org/wiki/Q3857">Wilhelmshaven</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e9/"><span class="sigil">1(2), #9</span> Hic sunt dracones! Der digitale Wandel zur Archäologie 4.0 am Beispiel römischer Münzen</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-intergeo-conference-2019">
+          <td class="nowrap">17 Sep 2019</td>
+          <td>Intergeo Conference</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1022">Stuttgart</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e1/"><span class="sigil">1(2), #1</span> Linked Data Cloud: Bindeglied zwischen Geodäsie und Gesellschaft</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-32-international-geodetic-students-meeting-2019">
+          <td class="nowrap">25 Jun 2019</td>
+          <td>32. International Geodetic Students Meeting</td>
+          <td><a href="https://www.wikidata.org/wiki/Q270">Warsaw</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e8/"><span class="sigil">1(2), #8</span> topi.link - A graph-based topology for vague geographical relations</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-derse19-konferenz-fur-forschungssoftwareentwicklerinnen-in-2019">
+          <td class="nowrap">5 Jun 2019</td>
+          <td>deRSE19 - Konferenz für ForschungssoftwareentwicklerInnen in Deutschland (deRSE19)</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1711">Potsdam</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e7/"><span class="sigil">1(2), #7</span> Academic Meta Tool – Ein RDF basiertes Web-Tool zur Modellierung des Zweifels in den Digital Humanities</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-wintervortrage-2019">
+          <td class="nowrap">2 Apr 2019</td>
+          <td>Wintervorträge 2019</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1720">Mainz</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e6/"><span class="sigil">1(2), #6</span> Das Internet als Daten-Netzwerk: Die Zukunft der Archäologie?</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-computer-applications-and-quantitative-methods-in-archaeology-caa-2019">
+          <td class="nowrap">24 Mar 2019</td>
+          <td>Computer Applications and Quantitative Methods in Archaeology (CAA)</td>
+          <td><a href="https://www.wikidata.org/wiki/Q31487">Kraków</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e4/"><span class="sigil">1(2), #4</span> ARS3D - Documenting facts and interpretations of African Red Slip Ware</a></li><li><a href="../v1/i2/e5/"><span class="sigil">1(2), #5</span> Taming Time Tools: Alligator and Academic Meta Tool</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-graphentechnologien-2019">
+          <td class="nowrap">18 Jan 2019</td>
+          <td>Graphentechnologien 2019</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1720">Mainz</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e3/"><span class="sigil">1(2), #3</span> Dating Mechanism: Eine Linked Data Strategie zur interoperablen und nachvollziehbaren Modellierung relativer Chronologien am Beispiel südgallischer Terra Sigillata in Limes-Abschnitten</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-java-user-group-mainz-lightning-talks-2019">
+          <td class="nowrap">16 Jan 2019</td>
+          <td>Java User Group Mainz Lightning Talks</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1720">Mainz</a></td>
+          <td><ul class="plain"><li><a href="../v1/i2/e2/"><span class="sigil">1(2), #2</span> Java und Linked Data im RGZM: Herausforderungen in einem archäologischen Museum</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-linked-pasts-iv-2018">
+          <td class="nowrap">12 Dec 2018</td>
+          <td>Linked Pasts IV</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1720">Mainz</a></td>
+          <td><ul class="plain"><li><a href="../v1/i7/e10/"><span class="sigil">1(7), #10</span> RGZM-Meta-Index: A central Linked Data Hub for aligning distributed databases</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-13-konferenz-der-geodasiestudierenden-2018">
+          <td class="nowrap">30 Nov 2018</td>
+          <td>13. Konferenz der GeodäsieStudierenden</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1726">Munich</a></td>
+          <td><ul class="plain"><li><a href="../v1/i7/e9/"><span class="sigil">1(7), #9</span> Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-uk-chapter-of-computer-applications-and-quantitative-methods-in-2018">
+          <td class="nowrap">26–27 Oct 2018</td>
+          <td>UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2018)</td>
+          <td><a href="https://www.wikidata.org/wiki/Q23436">Edinburgh</a></td>
+          <td><ul class="plain"><li><a href="../v1/i7/e2/"><span class="sigil">1(7), #2</span> Taming the chronology of South Gaulish Samian found at Hadrian&#39;s Wall and the German Limes using Linked Open Data</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-doag-big-data-days-2018">
+          <td class="nowrap">21 Sep 2018</td>
+          <td>DOAG Big Data Days 2018</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1731">Dresden</a></td>
+          <td><ul class="plain"><li><a href="../v1/i7/e8/"><span class="sigil">1(7), #8</span> Linked Open Geodata in Mainz – Best Practices and Projekte im Kontext der Humanities</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-24th-annual-meeting-of-the-european-association-of-archaeologists-2018">
+          <td class="nowrap">5–8 Sep 2018</td>
+          <td>24th Annual Meeting of the European Association of Archaeologists (EAA2018)</td>
+          <td><a href="https://www.wikidata.org/wiki/Q219615">University of Barcelona</a></td>
+          <td><ul class="plain"><li><a href="../v1/i7/e1/"><span class="sigil">1(7), #1</span> RDF based modeling of relative and absolute chronological data: Examples from the central african rainforest and roman periodisation</a></li><li><a href="../v1/i7/e7/"><span class="sigil">1(7), #7</span> Taming Time – Modelling uncertainty as reproducible Linked Open Data</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-31-international-geodetic-students-meeting-2018">
+          <td class="nowrap">27 Jun 2018</td>
+          <td>31. International Geodetic Students Meeting</td>
+          <td><a href="https://www.wikidata.org/wiki/Q8818">Valencia</a></td>
+          <td><ul class="plain"><li><a href="../v1/i7/e6/"><span class="sigil">1(7), #6</span> Looking for the &#34;grey value&#34; in research and geodesy: Is there right or wrong in software framework decisions?</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-computer-applications-and-quantitative-methods-in-archaeology-caa-2018">
+          <td class="nowrap">22 Mar 2018</td>
+          <td>Computer Applications and Quantitative Methods in Archaeology (CAA)</td>
+          <td><a href="https://www.wikidata.org/wiki/Q3806">Tübingen</a></td>
+          <td><ul class="plain"><li><a href="../v1/i7/e5/"><span class="sigil">1(7), #5</span> Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-graphentechnologien-2018">
+          <td class="nowrap">19 Jan 2018</td>
+          <td>Graphentechnologien 2018</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1720">Mainz</a></td>
+          <td><ul class="plain"><li><a href="../v1/i7/e3/"><span class="sigil">1(7), #3</span> Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels</a></li><li><a href="../v1/i7/e4/"><span class="sigil">1(7), #4</span> Putting Samian pots together – modelling ceramic service family roots – connecting figure types. Wie Graphen bei der Modellierung des Zweifels helfen können.</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-get-together-dh-rmu-2017">
+          <td class="nowrap">21 Sep 2017</td>
+          <td>Get Together DH-RMU</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1720">Mainz</a></td>
+          <td><ul class="plain"><li><a href="../v1/i6/e3/"><span class="sigil">1(6), #3</span> labeling system</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-30-international-geodetic-students-meeting-2017">
+          <td class="nowrap">27 Jun 2017</td>
+          <td>30. International Geodetic Students Meeting</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1435">Zagreb</a></td>
+          <td><ul class="plain"><li><a href="../v1/i6/e2/"><span class="sigil">1(6), #2</span> Avalanches on Atlantis - Real or Fake? The &#34;true&#34; story!</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-8-workshop-der-ag-caa-2017">
+          <td class="nowrap">11 Feb 2017</td>
+          <td>8. Workshop der AG CAA</td>
+          <td><a href="https://www.wikidata.org/wiki/Q2966">Heidelberg</a></td>
+          <td><ul class="plain"><li><a href="../v1/i6/e1/"><span class="sigil">1(6), #1</span> Das Labeling System: Erstellung kontrollierter Linked Open Data Vokabulare als Metadaten-Hub für archäologische Fachdatenbanken</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-internationale-tagung-der-osterreichischen-gesellschaft-fur-2016">
+          <td class="nowrap">20 Sep 2016</td>
+          <td>Internationale Tagung der Österreichischen Gesellschaft für Mittelalterarchäologie</td>
+          <td><a href="https://www.wikidata.org/wiki/Q13298">Graz</a></td>
+          <td><ul class="plain"><li><a href="../v1/i5/e4/"><span class="sigil">1(5), #4</span> Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-xxix-international-geodetic-students-meeting-2016">
+          <td class="nowrap">4 May 2016</td>
+          <td>XXIX. International Geodetic Students Meeting</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1726">Munich</a></td>
+          <td><ul class="plain"><li><a href="../v1/i5/e3/"><span class="sigil">1(5), #3</span> Linked Open Data in Space and Time - A geodetic insight into humanities research using LOD</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-computer-applications-and-quantitative-methods-in-archaeology-caa-2016">
+          <td class="nowrap">30 Apr 2016</td>
+          <td>Computer Applications and Quantitative Methods in Archaeology (CAA)</td>
+          <td><a href="https://www.wikidata.org/wiki/Q585">Oslo</a></td>
+          <td><ul class="plain"><li><a href="../v1/i5/e2/"><span class="sigil">1(5), #2</span> Linking periods: Modeling and utilizing spatio-temporal concepts in the chronOntology project</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-7-workshop-der-ag-caa-2016">
+          <td class="nowrap">5 Feb 2016</td>
+          <td>7. Workshop der AG CAA</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1055">Hamburg</a></td>
+          <td><ul class="plain"><li><a href="../v1/i5/e1/"><span class="sigil">1(5), #1</span> E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten with dem Arches Framework</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-computer-applications-and-quantitative-methods-in-archaeology-caa-2015">
+          <td class="nowrap">31 Mar 2015 – 1 Apr 2015</td>
+          <td>Computer Applications and Quantitative Methods in Archaeology (CAA)</td>
+          <td><a href="https://www.wikidata.org/wiki/Q2751">Siena</a></td>
+          <td><ul class="plain"><li><a href="../v1/i4/e2/"><span class="sigil">1(4), #2</span> The Labeling System: A Bottom-up Approach for Enriched Vocabularies in the Humanities</a></li><li><a href="../v1/i4/e3/"><span class="sigil">1(4), #3</span> Linked Samian Ware: challenges of a LOD approach to samian ware</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-jahrestagung-digital-humanities-im-deutschsprachigen-raum-2015">
+          <td class="nowrap">25 Feb 2015</td>
+          <td>Jahrestagung Digital Humanities im deutschsprachigen Raum</td>
+          <td><a href="https://www.wikidata.org/wiki/Q13298">Graz</a></td>
+          <td><ul class="plain"><li><a href="../v1/i4/e1/"><span class="sigil">1(4), #1</span> Das Labeling System – ein freier Baukasten für kontrollierte Vokabulare</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-dh-case-ii-2014">
+          <td class="nowrap">10 Sep 2014</td>
+          <td>DH-CASE II</td>
+          <td><a href="https://www.wikidata.org/wiki/Q490732">Fort Collins</a></td>
+          <td><ul class="plain"><li><a href="../v1/i3/e4/"><span class="sigil">1(3), #4</span> The Labeling System - A New Approach to Overcome the Vocabulary Bottleneck</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-forum-dh-mainz-2014">
+          <td class="nowrap">30 Jul 2014</td>
+          <td>Forum DH Mainz</td>
+          <td><a href="https://www.wikidata.org/wiki/Q1720">Mainz</a></td>
+          <td><ul class="plain"><li><a href="../v1/i3/e3/"><span class="sigil">1(3), #3</span> Das Labeling System – Lösen der Mehrdeutigkeiten von Räumen und deren Funktion</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-computer-applications-and-quantitative-methods-in-archaeology-caa-2014">
+          <td class="nowrap">24 Apr 2014</td>
+          <td>Computer Applications and Quantitative Methods in Archaeology (CAA)</td>
+          <td><a href="https://www.wikidata.org/wiki/Q90">Paris</a></td>
+          <td><ul class="plain"><li><a href="../v1/i3/e1/"><span class="sigil">1(3), #1</span> Linking potter, pots and places: a LOD approach to samian ware</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-5-workshop-der-ag-caa-2014">
+          <td class="nowrap">15 Feb 2014</td>
+          <td>5. Workshop der AG CAA</td>
+          <td><a href="https://www.wikidata.org/wiki/Q3806">Tübingen</a></td>
+          <td><ul class="plain"><li><a href="../v1/i3/e2/"><span class="sigil">1(3), #2</span> Linked Samian Ware: Potentiale von Linked Data in der Archäologie</a></li></ul></td>
+        </tr>
+      
+        <tr id="event-praxisubung-praktikum-zu-kleinfunddokumentation-und-computergestutzte">
+          <td class="nowrap"></td>
+          <td>Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr</td>
+          <td><a href="https://www.wikidata.org/wiki/Q161982">Johannes Gutenberg University Mainz</a></td>
+          <td><ul class="plain"><li><a href="../v5/i3/e3/"><span class="sigil">5(3), #3</span> Kleinfund-Dokumentation mit der Hilfe von Semantik</a></li></ul></td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </div>
+  <p class="downloads">The same data as GeoJSON: <a href="../downloads/events.geojson" download>events.geojson</a></p>
+</div>
+<script type="application/json" id="map-ui">{"home": "../", "lang": "en"}</script>
+
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>About Squirrel Papers</h2>
+      <p>The Squirrel Papers by the Research Squirrel Engineers Network are a free Open Access journal hosting publications on Zenodo and the Open Science Framework (OSF), collecting Linked Open Data (LOD), Research Software Engineering (RSE), Cultural Heritage and Geo-Sciences related research papers, working papers, blog posts, posters, slides, research data and research software.</p>
+      <p>The Squirrel Papers are an official journal accepted by the &#34;Nationales ISSN-Zentrum für Deutschland&#34; with ISSN 2750-560X.</p>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p><strong>Mail</strong><br>mail [at] squirrelpapers [dot] net</p>
+      <p><strong>Editor / Head Squirrel</strong><br>
+        <a href="https://orcid.org/0000-0002-3246-3531">Florian Thiery</a></p>
+      <p>ISSN 2750-560X · <a href="https://www.wikidata.org/wiki/Q89658875">Wikidata: Q89658875</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>Metadata on this site are licensed CC BY 4.0; each paper, poster, dataset and software carries its own licence on Zenodo.</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">Source code</a>
+      · <a href="../impressum/">Legal notice</a>
+      · <a href="../privacy/">Privacy</a></p>
+  </div>
+</footer>
+<script>
+// Copy buttons. The PDF preview and the citation styles have their own scripts.
+document.addEventListener("click", function (event) {
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+
+<script src="../assets/vendor/leaflet/leaflet.js"></script>
+<script src="../assets/vendor/naturalearth/countries.js"></script>
+<script src="../map/events.js"></script>
+<script src="../assets/js/sqp-map.js"></script>
+
+</body>
+</html>

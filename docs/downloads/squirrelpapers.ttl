@@ -13484,20 +13484,20 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
 <https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies#geometry> a geo:Geometry ;
     geo:asWKT "POINT(14.167428 42.351114)"^^geo:wktLiteral .
 
-<https://w3id.org/squirrelpapers/place/bordeaux-germany> a dct:Location,
+<https://w3id.org/squirrelpapers/place/bordeaux-france> a dct:Location,
         geo:Feature,
         schema:Place ;
     rdfs:label "Bordeaux" ;
-    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/bordeaux-germany#geometry> ;
-    geo:hasGeometry <https://w3id.org/squirrelpapers/place/bordeaux-germany#geometry> ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/bordeaux-france#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/bordeaux-france#geometry> ;
     owl:sameAs wd:Q1479 ;
     dcat:centroid "POINT(-0.579444 44.837778)"^^geo:wktLiteral ;
     schema:addressCountry wd:Q142 ;
-    schema:description "Bordeaux, Germany" ;
+    schema:description "Bordeaux, France" ;
     schema:latitude 4.483778e+01 ;
     schema:longitude -5.79444e-01 .
 
-<https://w3id.org/squirrelpapers/place/bordeaux-germany#geometry> a geo:Geometry ;
+<https://w3id.org/squirrelpapers/place/bordeaux-france#geometry> a geo:Geometry ;
     geo:asWKT "POINT(-0.579444 44.837778)"^^geo:wktLiteral .
 
 <https://w3id.org/squirrelpapers/place/bournemouth-england> a dct:Location,
@@ -13556,7 +13556,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/dresden-germany#geometry> ;
     owl:sameAs wd:Q1731 ;
     dcat:centroid "POINT(13.738144 51.049329)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q1206012 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Dresden, Germany" ;
     schema:latitude 5.104933e+01 ;
     schema:longitude 1.373814e+01 .
@@ -13604,7 +13604,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open#geometry> ;
     owl:sameAs wd:Q64 ;
     dcat:centroid "POINT(13.383333 52.516667)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q148499 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany" ;
     schema:latitude 5.251667e+01 ;
     schema:longitude 1.338333e+01 .
@@ -13636,7 +13636,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/gesellschaft-der-freunde-des-romisch#geometry> ;
     owl:sameAs wd:Q1720 ;
     dcat:centroid "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q12548 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany" ;
     schema:latitude 4.999944e+01 ;
     schema:longitude 8.273611e+00 .
@@ -13655,7 +13655,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/hamburg-germany#geometry> ;
     owl:sameAs wd:Q1055 ;
     dcat:centroid "POINT(10.0 53.55)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q1055 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Hamburg, Germany" ;
     schema:latitude 5.355e+01 ;
     schema:longitude 1e+01 .
@@ -13687,7 +13687,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster#geometry> ;
     owl:sameAs wd:Q2742 ;
     dcat:centroid "POINT(7.625556 51.9625)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q142 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Historisches Seminar der Universität Münster, Münster, Germany" ;
     schema:latitude 5.19625e+01 ;
     schema:longitude 7.625556e+00 .
@@ -13722,7 +13722,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/jgu-mainz-germany#geometry> ;
     owl:sameAs wd:Q1720 ;
     dcat:centroid "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q12548 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "JGU, Mainz Germany" ;
     schema:latitude 4.999944e+01 ;
     schema:longitude 8.273611e+00 .
@@ -13786,7 +13786,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/krakow-poland#geometry> ;
     owl:sameAs wd:Q31487 ;
     dcat:centroid "POINT(19.937222 50.061389)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q11750541 ;
+    schema:addressCountry wd:Q36 ;
     schema:description "Kraków, Poland" ;
     schema:latitude 5.006139e+01 ;
     schema:longitude 1.993722e+01 .
@@ -13888,7 +13888,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/potsdam-germany#geometry> ;
     owl:sameAs wd:Q1711 ;
     dcat:centroid "POINT(13.05914 52.400931)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q148499 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Potsdam, Germany" ;
     schema:latitude 5.240093e+01 ;
     schema:longitude 1.305914e+01 .
@@ -13952,7 +13952,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/siena-italy#geometry> ;
     owl:sameAs wd:Q2751 ;
     dcat:centroid "POINT(11.331389 43.318333)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q154849 ;
+    schema:addressCountry wd:Q38 ;
     schema:description "Siena, Italy" ;
     schema:latitude 4.331833e+01 ;
     schema:longitude 1.133139e+01 .
@@ -13968,7 +13968,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/stuttgart-germany#geometry> ;
     owl:sameAs wd:Q1022 ;
     dcat:centroid "POINT(9.18 48.7775)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q159631 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Stuttgart, Germany" ;
     schema:latitude 4.87775e+01 ;
     schema:longitude 9.18e+00 .
@@ -14000,7 +14000,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg#geometry> ;
     owl:sameAs wd:Q2999 ;
     dcat:centroid "POINT(9.929444 49.794444)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q13427044 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Toscana-Saal der Residenz Würzburg" ;
     schema:latitude 4.979444e+01 ;
     schema:longitude 9.929444e+00 .
@@ -14115,7 +14115,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/valencia-spain#geometry> ;
     owl:sameAs wd:Q8818 ;
     dcat:centroid "POINT(-0.376389 39.47)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q204920 ;
+    schema:addressCountry wd:Q29 ;
     schema:description "Valencia, Spain" ;
     schema:latitude 3.947e+01 ;
     schema:longitude -3.76389e-01 .
@@ -14147,7 +14147,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/warsaw-poland#geometry> ;
     owl:sameAs wd:Q270 ;
     dcat:centroid "POINT(21.011111 52.23)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q11750128 ;
+    schema:addressCountry wd:Q36 ;
     schema:description "Warsaw, Poland" ;
     schema:latitude 5.223e+01 ;
     schema:longitude 2.101111e+01 .
@@ -14195,7 +14195,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/zagreb-croatia#geometry> ;
     owl:sameAs wd:Q1435 ;
     dcat:centroid "POINT(15.977222 45.813056)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q153128 ;
+    schema:addressCountry wd:Q224 ;
     schema:description "Zagreb, Croatia" ;
     schema:latitude 4.581306e+01 ;
     schema:longitude 1.597722e+01 .
@@ -14242,9 +14242,9 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
 <https://w3id.org/squirrelpapers/event/linked-pasts-v-2019> a event:Event,
         schema:Event ;
     rdfs:label "Linked Pasts V" ;
-    event:place <https://w3id.org/squirrelpapers/place/bordeaux-germany> ;
+    event:place <https://w3id.org/squirrelpapers/place/bordeaux-france> ;
     schema:endDate "2019-12-11"^^xsd:date ;
-    schema:location <https://w3id.org/squirrelpapers/place/bordeaux-germany> ;
+    schema:location <https://w3id.org/squirrelpapers/place/bordeaux-france> ;
     schema:name "Linked Pasts V" ;
     schema:startDate "2019-12-11"^^xsd:date .
 
@@ -14449,7 +14449,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/graz-austria#geometry> ;
     owl:sameAs wd:Q13298 ;
     dcat:centroid "POINT(15.438611 47.070833)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q131964 ;
+    schema:addressCountry wd:Q40 ;
     schema:description "Graz, Austria" ;
     schema:latitude 4.707083e+01 ;
     schema:longitude 1.543861e+01 .
@@ -14475,7 +14475,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/munich-germany#geometry> ;
     owl:sameAs wd:Q1726 ;
     dcat:centroid "POINT(11.575 48.1375)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q154195 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Munich, Germany" ;
     schema:latitude 4.81375e+01 ;
     schema:longitude 1.1575e+01 .
@@ -15090,7 +15090,7 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/mainz-germany#geometry> ;
     owl:sameAs wd:Q1720 ;
     dcat:centroid "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q12548 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "Mainz, Germany" ;
     schema:latitude 4.999944e+01 ;
     schema:longitude 8.273611e+00 .

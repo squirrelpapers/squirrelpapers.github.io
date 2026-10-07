@@ -29,11 +29,7 @@ places:
 - key: bordeaux-france
   label: Bordeaux, France
   wikidata: Q1479
-  entries: 2
-- key: bordeaux-germany
-  label: Bordeaux, Germany
-  wikidata: Q1479
-  entries: 1
+  entries: 3
 - key: bournemouth-england
   label: Bournemouth, England
   wikidata: Q170478

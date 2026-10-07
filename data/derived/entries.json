@@ -350,8 +350,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Kingdom of Württemberg",
-            "wikidata": "Q159631"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "stuttgart-germany",
           "label": "Stuttgart, Germany",
@@ -453,8 +453,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Holy Roman Empire",
-            "wikidata": "Q12548"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "mainz-germany",
           "label": "Mainz, Germany",
@@ -544,8 +544,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Holy Roman Empire",
-            "wikidata": "Q12548"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "mainz-germany",
           "label": "Mainz, Germany",
@@ -643,8 +643,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Duchy of Kraków",
-            "wikidata": "Q11750541"
+            "name": "Poland",
+            "wikidata": "Q36"
           },
           "key": "krakow-poland",
           "label": "Kraków, Poland",
@@ -736,8 +736,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Duchy of Kraków",
-            "wikidata": "Q11750541"
+            "name": "Poland",
+            "wikidata": "Q36"
           },
           "key": "krakow-poland",
           "label": "Kraków, Poland",
@@ -822,8 +822,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Holy Roman Empire",
-            "wikidata": "Q12548"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "gesellschaft-der-freunde-des-romisch",
           "label": "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany",
@@ -910,8 +910,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Margraviate of Brandenburg",
-            "wikidata": "Q148499"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "potsdam-germany",
           "label": "Potsdam, Germany",
@@ -994,8 +994,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Kingdom of Poland",
-            "wikidata": "Q11750128"
+            "name": "Poland",
+            "wikidata": "Q36"
           },
           "key": "warsaw-poland",
           "label": "Warsaw, Poland",
@@ -1251,7 +1251,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.3688792",
       "event": {
         "end": "2019-12-11",
-        "location": "Bordeaux, Germany",
+        "location": "Bordeaux, France",
         "name": "Linked Pasts V",
         "online": false,
         "place": {
@@ -1259,8 +1259,8 @@
             "name": "France",
             "wikidata": "Q142"
           },
-          "key": "bordeaux-germany",
-          "label": "Bordeaux, Germany",
+          "key": "bordeaux-france",
+          "label": "Bordeaux, France",
           "lat": 44.837778,
           "lon": -0.579444,
           "name": "Bordeaux",
@@ -1666,8 +1666,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Holy Roman Empire",
-            "wikidata": "Q12548"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "mainz-germany",
           "label": "Mainz, Germany",
@@ -1852,8 +1852,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Austrian Empire",
-            "wikidata": "Q131964"
+            "name": "Austria",
+            "wikidata": "Q40"
           },
           "key": "graz-austria",
           "label": "Graz, Austria",
@@ -1931,8 +1931,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Grand Duchy of Tuscany",
-            "wikidata": "Q154849"
+            "name": "Italy",
+            "wikidata": "Q38"
           },
           "key": "siena-italy",
           "label": "Siena, Italy",
@@ -2004,8 +2004,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Grand Duchy of Tuscany",
-            "wikidata": "Q154849"
+            "name": "Italy",
+            "wikidata": "Q38"
           },
           "key": "siena-italy",
           "label": "Siena, Italy",
@@ -2091,8 +2091,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Hamburg",
-            "wikidata": "Q1055"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "hamburg-germany",
           "label": "Hamburg, Germany",
@@ -2263,8 +2263,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Kingdom of Bavaria",
-            "wikidata": "Q154195"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "munich-germany",
           "label": "Munich, Germany",
@@ -2349,8 +2349,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Austrian Empire",
-            "wikidata": "Q131964"
+            "name": "Austria",
+            "wikidata": "Q40"
           },
           "key": "graz-austria",
           "label": "Graz, Austria",
@@ -2521,8 +2521,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Independent State of Croatia",
-            "wikidata": "Q153128"
+            "name": "Croatia",
+            "wikidata": "Q224"
           },
           "key": "zagreb-croatia",
           "label": "Zagreb, Croatia",
@@ -2610,8 +2610,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Holy Roman Empire",
-            "wikidata": "Q12548"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "mainz-germany",
           "label": "Mainz, Germany",
@@ -2886,8 +2886,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Holy Roman Empire",
-            "wikidata": "Q12548"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "mainz-germany",
           "label": "Mainz, Germany",
@@ -2972,8 +2972,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Holy Roman Empire",
-            "wikidata": "Q12548"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "mainz-germany",
           "label": "Mainz, Germany",
@@ -3144,8 +3144,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Crown of Aragon",
-            "wikidata": "Q204920"
+            "name": "Spain",
+            "wikidata": "Q29"
           },
           "key": "valencia-spain",
           "label": "Valencia, Spain",
@@ -3315,8 +3315,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "German Reich",
-            "wikidata": "Q1206012"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "dresden-germany",
           "label": "Dresden, Germany",
@@ -3388,8 +3388,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Kingdom of Bavaria",
-            "wikidata": "Q154195"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "munich-germany",
           "label": "Munich, Germany",
@@ -3488,8 +3488,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Holy Roman Empire",
-            "wikidata": "Q12548"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "mainz-germany",
           "label": "Mainz, Germany",
@@ -19779,8 +19779,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Prince-Bishopric of Würzburg",
-            "wikidata": "Q13427044"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "toscana-saal-der-residenz-wurzburg",
           "label": "Toscana-Saal der Residenz Würzburg",
@@ -20193,8 +20193,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Prince-Bishopric of Würzburg",
-            "wikidata": "Q13427044"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "toscana-saal-der-residenz-wurzburg",
           "label": "Toscana-Saal der Residenz Würzburg",
@@ -20275,8 +20275,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Prince-Bishopric of Würzburg",
-            "wikidata": "Q13427044"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "toscana-saal-der-residenz-wurzburg",
           "label": "Toscana-Saal der Residenz Würzburg",
@@ -21614,8 +21614,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "France",
-            "wikidata": "Q142"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "historisches-seminar-der-universitat-munster",
           "label": "Historisches Seminar der Universität Münster, Münster, Germany",
@@ -22936,8 +22936,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "France",
-            "wikidata": "Q142"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "historisches-seminar-der-universitat-munster",
           "label": "Historisches Seminar der Universität Münster, Münster, Germany",
@@ -23528,8 +23528,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Holy Roman Empire",
-            "wikidata": "Q12548"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "jgu-mainz-germany",
           "label": "JGU, Mainz Germany",
@@ -23610,8 +23610,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Margraviate of Brandenburg",
-            "wikidata": "Q148499"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "fraunhofer-fokus-fraunhofer-institute-for-open",
           "label": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
@@ -24044,8 +24044,8 @@
         "online": false,
         "place": {
           "country": {
-            "name": "Margraviate of Brandenburg",
-            "wikidata": "Q148499"
+            "name": "Germany",
+            "wikidata": "Q183"
           },
           "key": "fraunhofer-fokus-fraunhofer-institute-for-open",
           "label": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
@@ -31462,18 +31462,6 @@
     },
     {
       "country": {
-        "name": "France",
-        "wikidata": "Q142"
-      },
-      "key": "bordeaux-germany",
-      "label": "Bordeaux, Germany",
-      "lat": 44.837778,
-      "lon": -0.579444,
-      "name": "Bordeaux",
-      "wikidata": "Q1479"
-    },
-    {
-      "country": {
         "name": "United Kingdom",
         "wikidata": "Q145"
       },
@@ -31510,8 +31498,8 @@
     },
     {
       "country": {
-        "name": "German Reich",
-        "wikidata": "Q1206012"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "dresden-germany",
       "label": "Dresden, Germany",
@@ -31546,8 +31534,8 @@
     },
     {
       "country": {
-        "name": "Margraviate of Brandenburg",
-        "wikidata": "Q148499"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "fraunhofer-fokus-fraunhofer-institute-for-open",
       "label": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
@@ -31570,8 +31558,8 @@
     },
     {
       "country": {
-        "name": "Holy Roman Empire",
-        "wikidata": "Q12548"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "gesellschaft-der-freunde-des-romisch",
       "label": "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany",
@@ -31582,8 +31570,8 @@
     },
     {
       "country": {
-        "name": "Austrian Empire",
-        "wikidata": "Q131964"
+        "name": "Austria",
+        "wikidata": "Q40"
       },
       "key": "graz-austria",
       "label": "Graz, Austria",
@@ -31594,8 +31582,8 @@
     },
     {
       "country": {
-        "name": "Hamburg",
-        "wikidata": "Q1055"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "hamburg-germany",
       "label": "Hamburg, Germany",
@@ -31618,8 +31606,8 @@
     },
     {
       "country": {
-        "name": "France",
-        "wikidata": "Q142"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "historisches-seminar-der-universitat-munster",
       "label": "Historisches Seminar der Universität Münster, Münster, Germany",
@@ -31654,8 +31642,8 @@
     },
     {
       "country": {
-        "name": "Holy Roman Empire",
-        "wikidata": "Q12548"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "jgu-mainz-germany",
       "label": "JGU, Mainz Germany",
@@ -31702,8 +31690,8 @@
     },
     {
       "country": {
-        "name": "Duchy of Kraków",
-        "wikidata": "Q11750541"
+        "name": "Poland",
+        "wikidata": "Q36"
       },
       "key": "krakow-poland",
       "label": "Kraków, Poland",
@@ -31738,8 +31726,8 @@
     },
     {
       "country": {
-        "name": "Holy Roman Empire",
-        "wikidata": "Q12548"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "mainz-germany",
       "label": "Mainz, Germany",
@@ -31750,8 +31738,8 @@
     },
     {
       "country": {
-        "name": "Kingdom of Bavaria",
-        "wikidata": "Q154195"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "munich-germany",
       "label": "Munich, Germany",
@@ -31798,8 +31786,8 @@
     },
     {
       "country": {
-        "name": "Margraviate of Brandenburg",
-        "wikidata": "Q148499"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "potsdam-germany",
       "label": "Potsdam, Germany",
@@ -31846,8 +31834,8 @@
     },
     {
       "country": {
-        "name": "Grand Duchy of Tuscany",
-        "wikidata": "Q154849"
+        "name": "Italy",
+        "wikidata": "Q38"
       },
       "key": "siena-italy",
       "label": "Siena, Italy",
@@ -31858,8 +31846,8 @@
     },
     {
       "country": {
-        "name": "Kingdom of Württemberg",
-        "wikidata": "Q159631"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "stuttgart-germany",
       "label": "Stuttgart, Germany",
@@ -31882,8 +31870,8 @@
     },
     {
       "country": {
-        "name": "Prince-Bishopric of Würzburg",
-        "wikidata": "Q13427044"
+        "name": "Germany",
+        "wikidata": "Q183"
       },
       "key": "toscana-saal-der-residenz-wurzburg",
       "label": "Toscana-Saal der Residenz Würzburg",
@@ -32002,8 +31990,8 @@
     },
     {
       "country": {
-        "name": "Crown of Aragon",
-        "wikidata": "Q204920"
+        "name": "Spain",
+        "wikidata": "Q29"
       },
       "key": "valencia-spain",
       "label": "Valencia, Spain",
@@ -32026,8 +32014,8 @@
     },
     {
       "country": {
-        "name": "Kingdom of Poland",
-        "wikidata": "Q11750128"
+        "name": "Poland",
+        "wikidata": "Q36"
       },
       "key": "warsaw-poland",
       "label": "Warsaw, Poland",
@@ -32062,8 +32050,8 @@
     },
     {
       "country": {
-        "name": "Independent State of Croatia",
-        "wikidata": "Q153128"
+        "name": "Croatia",
+        "wikidata": "Q224"
       },
       "key": "zagreb-croatia",
       "label": "Zagreb, Croatia",

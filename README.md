@@ -46,6 +46,10 @@ at build time too, and one that returns nothing stops the build. Install the
 rdflib version the page uses (see `assets/vendor/SOURCE.yaml`) so both answer
 alike; the `sparql` step warns otherwise.
 
+`/map/` shows the places of all on-site events (`dist/events.geojson`, read from
+the graph). Its background is drawn from Natural Earth data on this site;
+OpenStreetMap tiles are loaded only when the reader switches them on.
+
 The PDF preview and the SPARQL page load modules (pdf.js, Pyodide), which
 browsers refuse from `file://`: use `--serve` to try them locally. The search
 page works from disk as well.
@@ -76,6 +80,7 @@ and for entries `index.bib`, `index.ris`, `index.csl.json`). The whole journal:
 | `dist/vocab/types.ttl` | SKOS scheme of entry types, mapped to COAR and FaBiO |
 | `dist/ontology/sqp.ttl` | the small Squirrel Papers ontology (sigil, entry number, citation label) |
 | `dist/squirrelpapers.bib`, `.ris`, `.csl.json` | all published entries as citations |
+| `dist/events.geojson` | conference places, one point per event, with its entries |
 
 ## Licence
 
@@ -96,6 +101,8 @@ Served from this site, copied unchanged into `assets/vendor/` (details in
 - [Pyodide](https://pyodide.org/) 314.0.7 — MPL-2.0, with the wheels of
   [rdflib](https://github.com/RDFLib/rdflib) 7.6.0 (BSD-3-Clause) and
   [pyparsing](https://github.com/pyparsing/pyparsing) 3.3.2 (MIT), for the SPARQL page
+- [Leaflet](https://leafletjs.com/) 1.9.4 — BSD-2-Clause, and country borders from
+  [Natural Earth](https://www.naturalearthdata.com/) — public domain, for the map
 
 ## Citation
 

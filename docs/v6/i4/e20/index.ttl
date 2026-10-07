@@ -125,7 +125,7 @@
     geo:hasGeometry <https://w3id.org/squirrelpapers/place/jgu-mainz-germany#geometry> ;
     owl:sameAs wd:Q1720 ;
     dcat:centroid "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
-    schema:addressCountry wd:Q12548 ;
+    schema:addressCountry wd:Q183 ;
     schema:description "JGU, Mainz Germany" ;
     schema:latitude 4.999944e+01 ;
     schema:longitude 8.273611e+00 .
