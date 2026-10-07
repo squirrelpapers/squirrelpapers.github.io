@@ -32,7 +32,13 @@ python main.py --only harvest
 ```
 
 Other options: `--only`, `--from`, `--skip`, `--dry-run`, `--strict` (what CI
-runs), `--open`, `--serve`.
+runs), `--open`, `--serve`, `--fresh`.
+
+Steps write a file only when its content changed and delete only what they no
+longer produce. `rdf` and `validate` are skipped when their inputs are the same
+as in the last run (fingerprints in `data/derived/cache/`, not committed);
+`--fresh` forgets them. The PDF preview loads pdf.js as a module, which
+browsers refuse from `file://`: use `--serve` to try it locally.
 
 ## Layout
 
@@ -76,6 +82,7 @@ Served from this site, copied unchanged into `assets/vendor/` (details in
 - [CSL styles](https://github.com/citation-style-language/styles) (APA, Chicago author-date,
   Harvard Cite Them Right, IEEE, MLA, Vancouver) and
   [CSL locales](https://github.com/citation-style-language/locales) (en-GB, en-US, de-DE) — CC BY-SA 3.0
+- [pdf.js](https://github.com/mozilla/pdf.js) 6.4.299 (legacy build, with its standard fonts) — Apache-2.0
 
 ## Citation
 

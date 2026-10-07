@@ -15,6 +15,7 @@ otherwise; warnings and infos never fail. Report: dist/reports/validation.md.
 
 from __future__ import annotations
 
+import os
 import sys
 from collections import Counter
 from pathlib import Path
@@ -22,7 +23,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from sqp_utils import (  # noqa: E402
-    DERIVED, DIST, PREFIXES, RAW, REPORTS, ROOT, rel, skipped, warn, write_text,
+    DERIVED, DIST, PREFIXES, RAW, REPORTS, ROOT, cached_run, prune, rel, skipped,
+    store_run, tracking, warn, write_text,
 )
 
 GRAPH = DIST / "squirrelpapers.ttl"
@@ -31,6 +33,7 @@ TYPES = DIST / "vocab" / "types.ttl"
 SHAPES = ROOT / "shapes"
 DCAT_AP = RAW / "shapes" / "dcat-ap-3.0.1"
 REPORT = REPORTS / "validation.md"
+WEB_SHAPES = DERIVED / "web" / "shapes"     # published copies (docs/shapes/)
 SH = "http://www.w3.org/ns/shacl#"
 
 
@@ -109,10 +112,40 @@ def selftest(sqp_shapes, ap_shapes) -> list[str]:
     return silent
 
 
+def inputs() -> list[Path]:
+    """Graphs, shapes and code: what a validation result depends on."""
+    return [GRAPH, CRM_GRAPH, TYPES, *sorted(SHAPES.glob("*.ttl")),
+            *sorted(DCAT_AP.glob("*.ttl")), Path(__file__).resolve()]
+
+
 def main(strict: bool = False) -> None:
     if not GRAPH.exists():
         skipped(f"{rel(GRAPH)} missing (S7)")
         return
+    # pyshacl over 12 000 triples is the slowest part of a run (S8b: 33 s on
+    # Windows). Same graphs, same shapes, same code: same result.
+    record = cached_run("validate", inputs())
+    if record:
+        for line in record["summary"]:
+            print(line)
+        print("graphs and shapes unchanged since the last run: result reused "
+              "(python main.py --fresh re-validates)")
+        prune(WEB_SHAPES, {os.path.abspath(ROOT / path) for path in record["outputs"]})
+        if record["violations"]:
+            warn(f"{record['violations']} SHACL violations, see {rel(REPORT)}", strict)
+        return
+    with tracking() as produced:
+        summary, violations = check()
+    prune(WEB_SHAPES, produced)
+    for line in summary:
+        print(line)
+    store_run("validate", inputs(), produced, summary=summary, violations=violations)
+    if violations:
+        warn(f"{violations} SHACL violations, see {rel(REPORT)}", strict)
+
+
+def check() -> tuple[list[str], int]:
+    summary = []
 
     ap_shapes, dangling = dcat_ap_shapes()
     sqp_shapes = load(SHAPES / "sqp-shapes.ttl")
@@ -121,7 +154,7 @@ def main(strict: bool = False) -> None:
     silent = selftest(sqp_shapes, ap_shapes)
     if silent:
         raise RuntimeError(f"SHACL self-test: these rules did not fire on the broken entry: {silent}")
-    print("self-test: every expected rule fired on the broken entry")
+    summary.append("self-test: every expected rule fired on the broken entry")
 
     data = load(GRAPH, TYPES, SHAPES / "axioms.ttl")
     checks = [
@@ -137,7 +170,7 @@ def main(strict: bool = False) -> None:
         sev = Counter(r[2] for r in results)
         total_violations += sev["Violation"]
         lines.append(f"| {name} | `{graph}` | {sev['Violation']} | {sev['Warning']} | {sev['Info']} |")
-        print(f"{name}: {sev['Violation']} violations, {sev['Warning']} warnings, {sev['Info']} infos")
+        summary.append(f"{name}: {sev['Violation']} violations, {sev['Warning']} warnings, {sev['Info']} infos")
     lines += ["", "Self-test: a deliberately broken entry (`shapes/selftest.ttl`) was reported "
               "by every rule it lists before the real graphs were checked.", "",
               "DCAT-AP 3.0.1 refers to property shapes it never defines; these references were "
@@ -158,10 +191,9 @@ def main(strict: bool = False) -> None:
     # The rules are published next to the ontology, so anyone can check the
     # graph against the same shapes (docs/shapes/).
     for name in ("sqp-shapes.ttl", "crm-shapes.ttl"):
-        write_text(DERIVED / "web" / "shapes" / name, (SHAPES / name).read_text(encoding="utf-8"))
-    print(f"report -> {rel(REPORT)}")
-    if total_violations:
-        warn(f"{total_violations} SHACL violations, see {rel(REPORT)}", strict)
+        write_text(WEB_SHAPES / name, (SHAPES / name).read_text(encoding="utf-8"))
+    summary.append(f"report -> {rel(REPORT)}")
+    return summary, total_violations
 
 
 if __name__ == "__main__":

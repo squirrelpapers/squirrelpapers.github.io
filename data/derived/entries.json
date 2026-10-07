@@ -67,6 +67,7 @@
       "n": 1,
       "path": "v1/i1/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3345715/files/datadragons.pdf/content",
         "download": "https://zenodo.org/records/3345715/files/datadragons.pdf?download=1",
         "key": "datadragons.pdf",
         "preview": "https://zenodo.org/records/3345715/preview/datadragons.pdf"
@@ -126,6 +127,7 @@
       "n": 2,
       "path": "v1/i1/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2635487/files/Archaeology40.pdf/content",
         "download": "https://zenodo.org/records/2635487/files/Archaeology40.pdf?download=1",
         "key": "Archaeology40.pdf",
         "preview": "https://zenodo.org/records/2635487/preview/Archaeology40.pdf"
@@ -186,6 +188,7 @@
       "n": 3,
       "path": "v1/i1/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2643470/files/spheresevendata.pdf/content",
         "download": "https://zenodo.org/records/2643470/files/spheresevendata.pdf?download=1",
         "key": "spheresevendata.pdf",
         "preview": "https://zenodo.org/records/2643470/preview/spheresevendata.pdf"
@@ -245,6 +248,7 @@
       "n": 4,
       "path": "v1/i1/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2635491/files/TopiNorthSouth.pdf/content",
         "download": "https://zenodo.org/records/2635491/files/TopiNorthSouth.pdf?download=1",
         "key": "TopiNorthSouth.pdf",
         "preview": "https://zenodo.org/records/2635491/preview/TopiNorthSouth.pdf"
@@ -407,6 +411,7 @@
       "n": 1,
       "path": "v1/i2/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3403030/files/2019_09_17_Intergeo_Stuttgart_LDC.pdf/content",
         "download": "https://zenodo.org/records/3403030/files/2019_09_17_Intergeo_Stuttgart_LDC.pdf?download=1",
         "key": "2019_09_17_Intergeo_Stuttgart_LDC.pdf",
         "preview": "https://zenodo.org/records/3403030/preview/2019_09_17_Intergeo_Stuttgart_LDC.pdf"
@@ -490,6 +495,7 @@
       "n": 2,
       "path": "v1/i2/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2540229/files/2019_01_16_JUG_LightningTalks.pdf/content",
         "download": "https://zenodo.org/records/2540229/files/2019_01_16_JUG_LightningTalks.pdf?download=1",
         "key": "2019_01_16_JUG_LightningTalks.pdf",
         "preview": "https://zenodo.org/records/2540229/preview/2019_01_16_JUG_LightningTalks.pdf"
@@ -581,6 +587,7 @@
       "n": 3,
       "path": "v1/i2/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2540374/files/2019_01_18_Graphentechnologien2019_DatingMechanism.pdf/content",
         "download": "https://zenodo.org/records/2540374/files/2019_01_18_Graphentechnologien2019_DatingMechanism.pdf?download=1",
         "key": "2019_01_18_Graphentechnologien2019_DatingMechanism.pdf",
         "preview": "https://zenodo.org/records/2540374/preview/2019_01_18_Graphentechnologien2019_DatingMechanism.pdf"
@@ -680,6 +687,7 @@
       "n": 4,
       "path": "v1/i2/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2648217/files/2019_04_24_CAA_Krakow_ARS3D.pdf/content",
         "download": "https://zenodo.org/records/2648217/files/2019_04_24_CAA_Krakow_ARS3D.pdf?download=1",
         "key": "2019_04_24_CAA_Krakow_ARS3D.pdf",
         "preview": "https://zenodo.org/records/2648217/preview/2019_04_24_CAA_Krakow_ARS3D.pdf"
@@ -772,6 +780,7 @@
       "n": 5,
       "path": "v1/i2/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2648216/files/2019_04_24_CAA_Krakow_Minions.pdf/content",
         "download": "https://zenodo.org/records/2648216/files/2019_04_24_CAA_Krakow_Minions.pdf?download=1",
         "key": "2019_04_24_CAA_Krakow_Minions.pdf",
         "preview": "https://zenodo.org/records/2648216/preview/2019_04_24_CAA_Krakow_Minions.pdf"
@@ -859,6 +868,7 @@
       "n": 6,
       "path": "v1/i2/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2620930/files/2019_04_02_Wintervortraege_Archaelogie40.pdf/content",
         "download": "https://zenodo.org/records/2620930/files/2019_04_02_Wintervortraege_Archaelogie40.pdf?download=1",
         "key": "2019_04_02_Wintervortraege_Archaelogie40.pdf",
         "preview": "https://zenodo.org/records/2620930/preview/2019_04_02_Wintervortraege_Archaelogie40.pdf"
@@ -942,6 +952,7 @@
       "n": 7,
       "path": "v1/i2/e7",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3237307/files/26_Thiery_Lightning.pdf/content",
         "download": "https://zenodo.org/records/3237307/files/26_Thiery_Lightning.pdf?download=1",
         "key": "26_Thiery_Lightning.pdf",
         "preview": "https://zenodo.org/records/3237307/preview/26_Thiery_Lightning.pdf"
@@ -1034,6 +1045,7 @@
       "n": 8,
       "path": "v1/i2/e8",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3252393/files/2019_06_25_IGSM_Warsaw_Topi.pdf/content",
         "download": "https://zenodo.org/records/3252393/files/2019_06_25_IGSM_Warsaw_Topi.pdf?download=1",
         "key": "2019_06_25_IGSM_Warsaw_Topi.pdf",
         "preview": "https://zenodo.org/records/3252393/preview/2019_06_25_IGSM_Warsaw_Topi.pdf"
@@ -1110,6 +1122,7 @@
       "n": 9,
       "path": "v1/i2/e9",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3403058/files/2019_09_23_AGCAA_Wilhelmshaven_DataDragons.pdf/content",
         "download": "https://zenodo.org/records/3403058/files/2019_09_23_AGCAA_Wilhelmshaven_DataDragons.pdf?download=1",
         "key": "2019_09_23_AGCAA_Wilhelmshaven_DataDragons.pdf",
         "preview": "https://zenodo.org/records/3403058/preview/2019_09_23_AGCAA_Wilhelmshaven_DataDragons.pdf"
@@ -1201,6 +1214,7 @@
       "n": 10,
       "path": "v1/i2/e10",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3471932/files/2019_10_04_CAA-UK2019_SparqlUnicorn.pdf/content",
         "download": "https://zenodo.org/records/3471932/files/2019_10_04_CAA-UK2019_SparqlUnicorn.pdf?download=1",
         "key": "2019_10_04_CAA-UK2019_SparqlUnicorn.pdf",
         "preview": "https://zenodo.org/records/3471932/preview/2019_10_04_CAA-UK2019_SparqlUnicorn.pdf"
@@ -1277,6 +1291,7 @@
       "n": 11,
       "path": "v1/i2/e11",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3688793/files/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf/content",
         "download": "https://zenodo.org/records/3688793/files/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf?download=1",
         "key": "2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf",
         "preview": "https://zenodo.org/records/3688793/preview/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf"
@@ -1362,6 +1377,7 @@
       "n": 12,
       "path": "v1/i2/e12",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3567912/files/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf/content",
         "download": "https://zenodo.org/records/3567912/files/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf?download=1",
         "key": "2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf",
         "preview": "https://zenodo.org/records/3567912/preview/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipe.pdf"
@@ -1438,6 +1454,7 @@
       "n": 13,
       "path": "v1/i2/e13",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3567929/files/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf/content",
         "download": "https://zenodo.org/records/3567929/files/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf?download=1",
         "key": "2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf",
         "preview": "https://zenodo.org/records/3567929/preview/2019_12_11_LinkedPastsV_Bordeaux_LinkedPipes.pdf"
@@ -1517,6 +1534,7 @@
       "n": 1,
       "path": "v1/i3/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/292975/files/2014_CAA_Poster.pdf/content",
         "download": "https://zenodo.org/records/292975/files/2014_CAA_Poster.pdf?download=1",
         "key": "2014_CAA_Poster.pdf",
         "preview": "https://zenodo.org/records/292975/preview/2014_CAA_Poster.pdf"
@@ -1599,6 +1617,7 @@
       "n": 2,
       "path": "v1/i3/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/292971/files/2014_05_02_AGCAA_Tuebingen_LOD.pdf/content",
         "download": "https://zenodo.org/records/292971/files/2014_05_02_AGCAA_Tuebingen_LOD.pdf?download=1",
         "key": "2014_05_02_AGCAA_Tuebingen_LOD.pdf",
         "preview": "https://zenodo.org/records/292971/preview/2014_05_02_AGCAA_Tuebingen_LOD.pdf"
@@ -1683,6 +1702,7 @@
       "n": 3,
       "path": "v1/i3/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/292974/files/2014_DHMAINZ_Poster.pdf/content",
         "download": "https://zenodo.org/records/292974/files/2014_DHMAINZ_Poster.pdf?download=1",
         "key": "2014_DHMAINZ_Poster.pdf",
         "preview": "https://zenodo.org/records/292974/preview/2014_DHMAINZ_Poster.pdf"
@@ -1775,6 +1795,7 @@
       "n": 4,
       "path": "v1/i3/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2540523/files/2016_03_30_CAA_Oslo_ChronOntology.pdf/content",
         "download": "https://zenodo.org/records/2540523/files/2016_03_30_CAA_Oslo_ChronOntology.pdf?download=1",
         "key": "2016_03_30_CAA_Oslo_ChronOntology.pdf",
         "preview": "https://zenodo.org/records/2540523/preview/2016_03_30_CAA_Oslo_ChronOntology.pdf"
@@ -1862,6 +1883,7 @@
       "n": 1,
       "path": "v1/i4/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2540531/files/2015_DHd_Poster.pdf/content",
         "download": "https://zenodo.org/records/2540531/files/2015_DHd_Poster.pdf?download=1",
         "key": "2015_DHd_Poster.pdf",
         "preview": "https://zenodo.org/records/2540531/preview/2015_DHd_Poster.pdf"
@@ -1940,6 +1962,7 @@
       "n": 2,
       "path": "v1/i4/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2540478/files/2014_09_10_DHCASE_FortCollins_LabelingSystem.pdf/content",
         "download": "https://zenodo.org/records/2540478/files/2014_09_10_DHCASE_FortCollins_LabelingSystem.pdf?download=1",
         "key": "2014_09_10_DHCASE_FortCollins_LabelingSystem.pdf",
         "preview": "https://zenodo.org/records/2540478/preview/2014_09_10_DHCASE_FortCollins_LabelingSystem.pdf"
@@ -2020,6 +2043,7 @@
       "n": 3,
       "path": "v1/i4/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/292968/files/2015_04_01_CAA_Siena_SamianLOD.pdf/content",
         "download": "https://zenodo.org/records/292968/files/2015_04_01_CAA_Siena_SamianLOD.pdf?download=1",
         "key": "2015_04_01_CAA_Siena_SamianLOD.pdf",
         "preview": "https://zenodo.org/records/292968/preview/2015_04_01_CAA_Siena_SamianLOD.pdf"
@@ -2106,6 +2130,7 @@
       "n": 1,
       "path": "v1/i5/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/292967/files/2016_02_05_AGCAA_Hamburg_Arches.pdf/content",
         "download": "https://zenodo.org/records/292967/files/2016_02_05_AGCAA_Hamburg_Arches.pdf?download=1",
         "key": "2016_02_05_AGCAA_Hamburg_Arches.pdf",
         "preview": "https://zenodo.org/records/292967/preview/2016_02_05_AGCAA_Hamburg_Arches.pdf"
@@ -2196,6 +2221,7 @@
       "n": 2,
       "path": "v1/i5/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2540523/files/2016_03_30_CAA_Oslo_ChronOntology.pdf/content",
         "download": "https://zenodo.org/records/2540523/files/2016_03_30_CAA_Oslo_ChronOntology.pdf?download=1",
         "key": "2016_03_30_CAA_Oslo_ChronOntology.pdf",
         "preview": "https://zenodo.org/records/2540523/preview/2016_03_30_CAA_Oslo_ChronOntology.pdf"
@@ -2274,6 +2300,7 @@
       "n": 3,
       "path": "v1/i5/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/292962/files/2016_05_06_IGSM_Muenchen_LOD.pdf/content",
         "download": "https://zenodo.org/records/292962/files/2016_05_06_IGSM_Muenchen_LOD.pdf?download=1",
         "key": "2016_05_06_IGSM_Muenchen_LOD.pdf",
         "preview": "https://zenodo.org/records/292962/preview/2016_05_06_IGSM_Muenchen_LOD.pdf"
@@ -2359,6 +2386,7 @@
       "n": 4,
       "path": "v1/i5/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/292957/files/2016_09_20_OEGM_Graz_Chronologie.pdf/content",
         "download": "https://zenodo.org/records/292957/files/2016_09_20_OEGM_Graz_Chronologie.pdf?download=1",
         "key": "2016_09_20_OEGM_Graz_Chronologie.pdf",
         "preview": "https://zenodo.org/records/292957/preview/2016_09_20_OEGM_Graz_Chronologie.pdf"
@@ -2445,6 +2473,7 @@
       "n": 1,
       "path": "v1/i6/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/292554/files/2017_02_11_AGCAA_Heidelberg_LabelingSystem.pdf/content",
         "download": "https://zenodo.org/records/292554/files/2017_02_11_AGCAA_Heidelberg_LabelingSystem.pdf?download=1",
         "key": "2017_02_11_AGCAA_Heidelberg_LabelingSystem.pdf",
         "preview": "https://zenodo.org/records/292554/preview/2017_02_11_AGCAA_Heidelberg_LabelingSystem.pdf"
@@ -2527,6 +2556,7 @@
       "n": 2,
       "path": "v1/i6/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/817496/files/2017_06_27_IGSM_Zagreb_AtlantGIS.pdf/content",
         "download": "https://zenodo.org/records/817496/files/2017_06_27_IGSM_Zagreb_AtlantGIS.pdf?download=1",
         "key": "2017_06_27_IGSM_Zagreb_AtlantGIS.pdf",
         "preview": "https://zenodo.org/records/817496/preview/2017_06_27_IGSM_Zagreb_AtlantGIS.pdf"
@@ -2618,6 +2648,7 @@
       "n": 3,
       "path": "v1/i6/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/921997/files/2017_DHRMU_Poster.pdf/content",
         "download": "https://zenodo.org/records/921997/files/2017_DHRMU_Poster.pdf?download=1",
         "key": "2017_DHRMU_Poster.pdf",
         "preview": "https://zenodo.org/records/921997/preview/2017_DHRMU_Poster.pdf"
@@ -2718,6 +2749,7 @@
       "n": 1,
       "path": "v1/i7/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/1410517/files/2018_09_08_EAA_BarcelonaAlligator.pdf/content",
         "download": "https://zenodo.org/records/1410517/files/2018_09_08_EAA_BarcelonaAlligator.pdf?download=1",
         "key": "2018_09_08_EAA_BarcelonaAlligator.pdf",
         "preview": "https://zenodo.org/records/1410517/preview/2018_09_08_EAA_BarcelonaAlligator.pdf"
@@ -2805,6 +2837,7 @@
       "n": 2,
       "path": "v1/i7/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/1469299/files/2018_10_26_CAA-UK2018_TamingChronology.pdf/content",
         "download": "https://zenodo.org/records/1469299/files/2018_10_26_CAA-UK2018_TamingChronology.pdf?download=1",
         "key": "2018_10_26_CAA-UK2018_TamingChronology.pdf",
         "preview": "https://zenodo.org/records/1469299/preview/2018_10_26_CAA-UK2018_TamingChronology.pdf"
@@ -2890,6 +2923,7 @@
       "n": 3,
       "path": "v1/i7/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/1155727/files/2018_01_19_Graphentechnologien2018_AMT.pdf/content",
         "download": "https://zenodo.org/records/1155727/files/2018_01_19_Graphentechnologien2018_AMT.pdf?download=1",
         "key": "2018_01_19_Graphentechnologien2018_AMT.pdf",
         "preview": "https://zenodo.org/records/1155727/preview/2018_01_19_Graphentechnologien2018_AMT.pdf"
@@ -2974,6 +3008,7 @@
       "n": 4,
       "path": "v1/i7/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/1155748/files/2018_01_19_Graphentechnologien2018_AMT_Samian.pdf/content",
         "download": "https://zenodo.org/records/1155748/files/2018_01_19_Graphentechnologien2018_AMT_Samian.pdf?download=1",
         "key": "2018_01_19_Graphentechnologien2018_AMT_Samian.pdf",
         "preview": "https://zenodo.org/records/1155748/preview/2018_01_19_Graphentechnologien2018_AMT_Samian.pdf"
@@ -3060,6 +3095,7 @@
       "n": 5,
       "path": "v1/i7/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/1202168/files/2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf/content",
         "download": "https://zenodo.org/records/1202168/files/2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf?download=1",
         "key": "2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf",
         "preview": "https://zenodo.org/records/1202168/preview/2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf"
@@ -3150,6 +3186,7 @@
       "n": 6,
       "path": "v1/i7/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/1293991/files/2018_06_27_IGSM_Valencia_GreyValue.pdf/content",
         "download": "https://zenodo.org/records/1293991/files/2018_06_27_IGSM_Valencia_GreyValue.pdf?download=1",
         "key": "2018_06_27_IGSM_Valencia_GreyValue.pdf",
         "preview": "https://zenodo.org/records/1293991/preview/2018_06_27_IGSM_Valencia_GreyValue.pdf"
@@ -3236,6 +3273,7 @@
       "n": 7,
       "path": "v1/i7/e7",
       "pdf": {
+        "content": "https://zenodo.org/api/records/1402510/files/2018_09_06_EAA_BarcelonaTamingTime.pdf/content",
         "download": "https://zenodo.org/records/1402510/files/2018_09_06_EAA_BarcelonaTamingTime.pdf?download=1",
         "key": "2018_09_06_EAA_BarcelonaTamingTime.pdf",
         "preview": "https://zenodo.org/records/1402510/preview/2018_09_06_EAA_BarcelonaTamingTime.pdf"
@@ -3308,6 +3346,7 @@
       "n": 8,
       "path": "v1/i7/e8",
       "pdf": {
+        "content": "https://zenodo.org/api/records/1421691/files/2018_09_21_DOAG_LinkedOpenGeodata.pdf/content",
         "download": "https://zenodo.org/records/1421691/files/2018_09_21_DOAG_LinkedOpenGeodata.pdf?download=1",
         "key": "2018_09_21_DOAG_LinkedOpenGeodata.pdf",
         "preview": "https://zenodo.org/records/1421691/preview/2018_09_21_DOAG_LinkedOpenGeodata.pdf"
@@ -3394,6 +3433,7 @@
       "n": 9,
       "path": "v1/i7/e9",
       "pdf": {
+        "content": "https://zenodo.org/api/records/1494176/files/2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf/content",
         "download": "https://zenodo.org/records/1494176/files/2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf?download=1",
         "key": "2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf",
         "preview": "https://zenodo.org/records/1494176/preview/2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf"
@@ -3527,6 +3567,7 @@
       "n": 10,
       "path": "v1/i7/e10",
       "pdf": {
+        "content": "https://zenodo.org/api/records/2222238/files/2018_12_12_LinkedPastsIV_Mainz_RMI.pdf/content",
         "download": "https://zenodo.org/records/2222238/files/2018_12_12_LinkedPastsIV_Mainz_RMI.pdf?download=1",
         "key": "2018_12_12_LinkedPastsIV_Mainz_RMI.pdf",
         "preview": "https://zenodo.org/records/2222238/preview/2018_12_12_LinkedPastsIV_Mainz_RMI.pdf"
@@ -3607,6 +3648,7 @@
       "n": 1,
       "path": "v2/i1/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3742186/files/sparqlunicorn.pdf/content",
         "download": "https://zenodo.org/records/3742186/files/sparqlunicorn.pdf?download=1",
         "key": "sparqlunicorn.pdf",
         "preview": "https://zenodo.org/records/3742186/preview/sparqlunicorn.pdf"
@@ -3676,6 +3718,7 @@
       "n": 2,
       "path": "v2/i1/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/3719128/files/FOSSGIS_Tagungsband_2020_pp_68_72.pdf/content",
         "download": "https://zenodo.org/records/3719128/files/FOSSGIS_Tagungsband_2020_pp_68_72.pdf?download=1",
         "key": "FOSSGIS_Tagungsband_2020_pp_68_72.pdf",
         "preview": "https://zenodo.org/records/3719128/preview/FOSSGIS_Tagungsband_2020_pp_68_72.pdf"
@@ -3936,6 +3979,7 @@
       "n": 1,
       "path": "v3/i1/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/6676192/files/_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf/content",
         "download": "https://zenodo.org/records/6676192/files/_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf?download=1",
         "key": "_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf",
         "preview": "https://zenodo.org/records/6676192/preview/_SqP__3_1___Digitale_Vernetzung_von_Sammlungsdaten.pdf"
@@ -3999,6 +4043,7 @@
       "n": 2,
       "path": "v3/i1/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/5646898/files/ARS3D_ThePortal.pdf/content",
         "download": "https://zenodo.org/records/5646898/files/ARS3D_ThePortal.pdf?download=1",
         "key": "ARS3D_ThePortal.pdf",
         "preview": "https://zenodo.org/records/5646898/preview/ARS3D_ThePortal.pdf"
@@ -4134,6 +4179,7 @@
       "n": 4,
       "path": "v3/i1/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/5642977/files/ARS3D%20-%20How%20to%20create%20a%20Feature.pdf/content",
         "download": "https://zenodo.org/records/5642977/files/ARS3D%20-%20How%20to%20create%20a%20Feature.pdf?download=1",
         "key": "ARS3D - How to create a Feature.pdf",
         "preview": "https://zenodo.org/records/5642977/preview/ARS3D%20-%20How%20to%20create%20a%20Feature.pdf"
@@ -16468,6 +16514,7 @@
       "n": 12,
       "path": "v3/i1/e12",
       "pdf": {
+        "content": "https://zenodo.org/api/records/5642977/files/ARS3D%20-%20How%20to%20create%20a%20Feature.pdf/content",
         "download": "https://zenodo.org/records/5642977/files/ARS3D%20-%20How%20to%20create%20a%20Feature.pdf?download=1",
         "key": "ARS3D - How to create a Feature.pdf",
         "preview": "https://zenodo.org/records/5642977/preview/ARS3D%20-%20How%20to%20create%20a%20Feature.pdf"
@@ -16553,6 +16600,7 @@
       "n": 13,
       "path": "v3/i1/e13",
       "pdf": {
+        "content": "https://zenodo.org/api/records/6534662/files/ars3d_archaeo_en.pdf/content",
         "download": "https://zenodo.org/records/6534662/files/ars3d_archaeo_en.pdf?download=1",
         "key": "ars3d_archaeo_en.pdf",
         "preview": "https://zenodo.org/records/6534662/preview/ars3d_archaeo_en.pdf"
@@ -16893,6 +16941,7 @@
       "n": 1,
       "path": "v4/i1/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7711130/files/ARS3D_AddIconCat.pdf/content",
         "download": "https://zenodo.org/records/7711130/files/ARS3D_AddIconCat.pdf?download=1",
         "key": "ARS3D_AddIconCat.pdf",
         "preview": "https://zenodo.org/records/7711130/preview/ARS3D_AddIconCat.pdf"
@@ -17056,6 +17105,7 @@
       "n": 5,
       "path": "v4/i1/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7337818/files/ArchInf-EV_Thiery-etal.pdf/content",
         "download": "https://zenodo.org/records/7337818/files/ArchInf-EV_Thiery-etal.pdf?download=1",
         "key": "ArchInf-EV_Thiery-etal.pdf",
         "preview": "https://zenodo.org/records/7337818/preview/ArchInf-EV_Thiery-etal.pdf"
@@ -17140,6 +17190,7 @@
       "n": 6,
       "path": "v4/i1/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/5788379/files/Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf/content",
         "download": "https://zenodo.org/records/5788379/files/Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf?download=1",
         "key": "Fellow-Programm Freies Wissen  Revisited_EZ_08_DE.pdf",
         "preview": "https://zenodo.org/records/5788379/preview/Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf"
@@ -17697,6 +17748,7 @@
       "n": 4,
       "path": "v4/i3/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/5942834/files/O3DT_2022_ARS3D.pdf/content",
         "download": "https://zenodo.org/records/5942834/files/O3DT_2022_ARS3D.pdf?download=1",
         "key": "O3DT_2022_ARS3D.pdf",
         "preview": "https://zenodo.org/records/5942834/preview/O3DT_2022_ARS3D.pdf"
@@ -17811,6 +17863,7 @@
       "n": 6,
       "path": "v4/i3/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/6043049/files/HowToHandleVaguenessAndUncertainty_Graphum2022.pdf/content",
         "download": "https://zenodo.org/records/6043049/files/HowToHandleVaguenessAndUncertainty_Graphum2022.pdf?download=1",
         "key": "HowToHandleVaguenessAndUncertainty_Graphum2022.pdf",
         "preview": "https://zenodo.org/records/6043049/preview/HowToHandleVaguenessAndUncertainty_Graphum2022.pdf"
@@ -17894,6 +17947,7 @@
       "n": 7,
       "path": "v4/i3/e7",
       "pdf": {
+        "content": "https://zenodo.org/api/records/6976137/files/CAA2022Oxford_LODEcosystem.pdf/content",
         "download": "https://zenodo.org/records/6976137/files/CAA2022Oxford_LODEcosystem.pdf?download=1",
         "key": "CAA2022Oxford_LODEcosystem.pdf",
         "preview": "https://zenodo.org/records/6976137/preview/CAA2022Oxford_LODEcosystem.pdf"
@@ -17975,6 +18029,7 @@
       "n": 8,
       "path": "v4/i3/e8",
       "pdf": {
+        "content": "https://zenodo.org/api/records/6976176/files/CAA2022Oxford_LinkedOpenTime.pdf/content",
         "download": "https://zenodo.org/records/6976176/files/CAA2022Oxford_LinkedOpenTime.pdf?download=1",
         "key": "CAA2022Oxford_LinkedOpenTime.pdf",
         "preview": "https://zenodo.org/records/6976176/preview/CAA2022Oxford_LinkedOpenTime.pdf"
@@ -18039,6 +18094,7 @@
       "n": 9,
       "path": "v4/i3/e9",
       "pdf": {
+        "content": "https://zenodo.org/api/records/6979739/files/CAA2022_Oxford_LinkedPipes_v2.pdf/content",
         "download": "https://zenodo.org/records/6979739/files/CAA2022_Oxford_LinkedPipes_v2.pdf?download=1",
         "key": "CAA2022_Oxford_LinkedPipes_v2.pdf",
         "preview": "https://zenodo.org/records/6979739/preview/CAA2022_Oxford_LinkedPipes_v2.pdf"
@@ -18178,6 +18234,7 @@
       "n": 11,
       "path": "v4/i3/e11",
       "pdf": {
+        "content": "https://zenodo.org/api/records/6976194/files/CAA2022Oxford_S04.pdf/content",
         "download": "https://zenodo.org/records/6976194/files/CAA2022Oxford_S04.pdf?download=1",
         "key": "CAA2022Oxford_S04.pdf",
         "preview": "https://zenodo.org/records/6976194/preview/CAA2022Oxford_S04.pdf"
@@ -18340,6 +18397,7 @@
       "n": 14,
       "path": "v4/i3/e14",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7105006/files/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf/content",
         "download": "https://zenodo.org/records/7105006/files/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf?download=1",
         "key": "ARCHEOFOSS_XVI_2022_WikidataSamian.pdf",
         "preview": "https://zenodo.org/records/7105006/preview/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf"
@@ -18410,6 +18468,7 @@
       "n": 15,
       "path": "v4/i3/e15",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7142171/files/JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf/content",
         "download": "https://zenodo.org/records/7142171/files/JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf?download=1",
         "key": "JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf",
         "preview": "https://zenodo.org/records/7142171/preview/JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf"
@@ -18480,6 +18539,7 @@
       "n": 16,
       "path": "v4/i3/e16",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7179956/files/DMB_FG_Doku_HT2022_AI_FT_AWM.pdf/content",
         "download": "https://zenodo.org/records/7179956/files/DMB_FG_Doku_HT2022_AI_FT_AWM.pdf?download=1",
         "key": "DMB_FG_Doku_HT2022_AI_FT_AWM.pdf",
         "preview": "https://zenodo.org/records/7179956/preview/DMB_FG_Doku_HT2022_AI_FT_AWM.pdf"
@@ -18581,6 +18641,7 @@
       "n": 1,
       "path": "v4/i4/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7598649/files/CAA2019_ARS3D_LOD.pdf/content",
         "download": "https://zenodo.org/records/7598649/files/CAA2019_ARS3D_LOD.pdf?download=1",
         "key": "CAA2019_ARS3D_LOD.pdf",
         "preview": "https://zenodo.org/records/7598649/preview/CAA2019_ARS3D_LOD.pdf"
@@ -18641,6 +18702,7 @@
       "n": 2,
       "path": "v4/i4/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7361760/files/CAA_Tuebingen_2018_Thiery_Mees.pdf/content",
         "download": "https://zenodo.org/records/7361760/files/CAA_Tuebingen_2018_Thiery_Mees.pdf?download=1",
         "key": "CAA_Tuebingen_2018_Thiery_Mees.pdf",
         "preview": "https://zenodo.org/records/7361760/preview/CAA_Tuebingen_2018_Thiery_Mees.pdf"
@@ -18707,6 +18769,7 @@
       "n": 1,
       "path": "v5/i1/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7558881/files/Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf/content",
         "download": "https://zenodo.org/records/7558881/files/Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf?download=1",
         "key": "Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf",
         "preview": "https://zenodo.org/records/7558881/preview/Irish_Ogham_Stones_in_Wikidata_and_Open_Street_Map_5_1_No_1.pdf"
@@ -18775,6 +18838,7 @@
       "n": 2,
       "path": "v5/i1/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7624871/files/SqP_V5_I1_No2.pdf/content",
         "download": "https://zenodo.org/records/7624871/files/SqP_V5_I1_No2.pdf?download=1",
         "key": "SqP_V5_I1_No2.pdf",
         "preview": "https://zenodo.org/records/7624871/preview/SqP_V5_I1_No2.pdf"
@@ -18855,6 +18919,7 @@
       "n": 3,
       "path": "v5/i1/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7870481/files/FOSSGIS_Tagungsband_2023_pp_177_183.pdf/content",
         "download": "https://zenodo.org/records/7870481/files/FOSSGIS_Tagungsband_2023_pp_177_183.pdf?download=1",
         "key": "FOSSGIS_Tagungsband_2023_pp_177_183.pdf",
         "preview": "https://zenodo.org/records/7870481/preview/FOSSGIS_Tagungsband_2023_pp_177_183.pdf"
@@ -18914,6 +18979,7 @@
       "n": 4,
       "path": "v5/i1/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10255260/files/SqP_5_1__4_CI_Findspots.pdf/content",
         "download": "https://zenodo.org/records/10255260/files/SqP_5_1__4_CI_Findspots.pdf?download=1",
         "key": "SqP_5_1__4_CI_Findspots.pdf",
         "preview": "https://zenodo.org/records/10255260/preview/SqP_5_1__4_CI_Findspots.pdf"
@@ -18973,6 +19039,7 @@
       "n": 5,
       "path": "v5/i1/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10262721/files/SqP_5_1__5_Urluia_Findspot.pdf/content",
         "download": "https://zenodo.org/records/10262721/files/SqP_5_1__5_Urluia_Findspot.pdf?download=1",
         "key": "SqP_5_1__5_Urluia_Findspot.pdf",
         "preview": "https://zenodo.org/records/10262721/preview/SqP_5_1__5_Urluia_Findspot.pdf"
@@ -19040,6 +19107,7 @@
       "n": 6,
       "path": "v5/i1/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10291890/files/SqP_5_1__6_DealingWithDoubts.pdf/content",
         "download": "https://zenodo.org/records/10291890/files/SqP_5_1__6_DealingWithDoubts.pdf?download=1",
         "key": "SqP_5_1__6_DealingWithDoubts.pdf",
         "preview": "https://zenodo.org/records/10291890/preview/SqP_5_1__6_DealingWithDoubts.pdf"
@@ -19120,6 +19188,7 @@
       "n": 1,
       "path": "v5/i2/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7544118/files/Ogham_Stones_Squirrel_Ireland_Barony.pdf/content",
         "download": "https://zenodo.org/records/7544118/files/Ogham_Stones_Squirrel_Ireland_Barony.pdf?download=1",
         "key": "Ogham_Stones_Squirrel_Ireland_Barony.pdf",
         "preview": "https://zenodo.org/records/7544118/preview/Ogham_Stones_Squirrel_Ireland_Barony.pdf"
@@ -19412,6 +19481,7 @@
       "n": 1,
       "path": "v5/i3/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7617765/files/DAB23_Wikidata_zenodo.pdf/content",
         "download": "https://zenodo.org/records/7617765/files/DAB23_Wikidata_zenodo.pdf?download=1",
         "key": "DAB23_Wikidata_zenodo.pdf",
         "preview": "https://zenodo.org/records/7617765/preview/DAB23_Wikidata_zenodo.pdf"
@@ -19484,6 +19554,7 @@
       "n": 2,
       "path": "v5/i3/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7629766/files/2023_Wintervortrag_GdfR_ThieryMees.pdf/content",
         "download": "https://zenodo.org/records/7629766/files/2023_Wintervortrag_GdfR_ThieryMees.pdf?download=1",
         "key": "2023_Wintervortrag_GdfR_ThieryMees.pdf",
         "preview": "https://zenodo.org/records/7629766/preview/2023_Wintervortrag_GdfR_ThieryMees.pdf"
@@ -19565,6 +19636,7 @@
       "n": 3,
       "path": "v5/i3/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7629862/files/2023_JGU_Kleinfunddokumentation_Thiery.pdf/content",
         "download": "https://zenodo.org/records/7629862/files/2023_JGU_Kleinfunddokumentation_Thiery.pdf?download=1",
         "key": "2023_JGU_Kleinfunddokumentation_Thiery.pdf",
         "preview": "https://zenodo.org/records/7629862/preview/2023_JGU_Kleinfunddokumentation_Thiery.pdf"
@@ -19651,6 +19723,7 @@
       "n": 4,
       "path": "v5/i3/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/8104046/files/IGSM-2023-Ogham-ThieryEtAl.pdf/content",
         "download": "https://zenodo.org/records/8104046/files/IGSM-2023-Ogham-ThieryEtAl.pdf?download=1",
         "key": "IGSM-2023-Ogham-ThieryEtAl.pdf",
         "preview": "https://zenodo.org/records/8104046/preview/IGSM-2023-Ogham-ThieryEtAl.pdf"
@@ -19739,6 +19812,7 @@
       "n": 5,
       "path": "v5/i3/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/8334768/files/CAA-DE_W%C3%BCrzburg_2023_Geo-Unsicherheiten_ThieryEtAl.pdf/content",
         "download": "https://zenodo.org/records/8334768/files/CAA-DE_W%C3%BCrzburg_2023_Geo-Unsicherheiten_ThieryEtAl.pdf?download=1",
         "key": "CAA-DE_Würzburg_2023_Geo-Unsicherheiten_ThieryEtAl.pdf",
         "preview": "https://zenodo.org/records/8334768/preview/CAA-DE_W%C3%BCrzburg_2023_Geo-Unsicherheiten_ThieryEtAl.pdf"
@@ -19826,6 +19900,7 @@
       "n": 6,
       "path": "v5/i3/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10260779/files/ArcheoFOSS%20_Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf/content",
         "download": "https://zenodo.org/records/10260779/files/ArcheoFOSS%20_Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf?download=1",
         "key": "ArcheoFOSS _Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf",
         "preview": "https://zenodo.org/records/10260779/preview/ArcheoFOSS%20_Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf"
@@ -19888,6 +19963,7 @@
       "n": 1,
       "path": "v5/i4/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7915198/files/GrapHNR_2023_DatingMechanisms.pdf/content",
         "download": "https://zenodo.org/records/7915198/files/GrapHNR_2023_DatingMechanisms.pdf?download=1",
         "key": "GrapHNR_2023_DatingMechanisms.pdf",
         "preview": "https://zenodo.org/records/7915198/preview/GrapHNR_2023_DatingMechanisms.pdf"
@@ -19942,6 +20018,7 @@
       "n": 2,
       "path": "v5/i4/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/7915365/files/GrapHNR_2023_Ogham.pdf/content",
         "download": "https://zenodo.org/records/7915365/files/GrapHNR_2023_Ogham.pdf?download=1",
         "key": "GrapHNR_2023_Ogham.pdf",
         "preview": "https://zenodo.org/records/7915365/preview/GrapHNR_2023_Ogham.pdf"
@@ -20003,6 +20080,7 @@
       "n": 3,
       "path": "v5/i4/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/8154701/files/GrapHNR2023_DatingDatedSites_ThieryMees_zenodo_8154700.pdf/content",
         "download": "https://zenodo.org/records/8154701/files/GrapHNR2023_DatingDatedSites_ThieryMees_zenodo_8154700.pdf?download=1",
         "key": "GrapHNR2023_DatingDatedSites_ThieryMees_zenodo_8154700.pdf",
         "preview": "https://zenodo.org/records/8154701/preview/GrapHNR2023_DatingDatedSites_ThieryMees_zenodo_8154700.pdf"
@@ -20066,6 +20144,7 @@
       "n": 4,
       "path": "v5/i4/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/8154845/files/GrapHNR2023_%20Poster_Ogham.pdf/content",
         "download": "https://zenodo.org/records/8154845/files/GrapHNR2023_%20Poster_Ogham.pdf?download=1",
         "key": "GrapHNR2023_ Poster_Ogham.pdf",
         "preview": "https://zenodo.org/records/8154845/preview/GrapHNR2023_%20Poster_Ogham.pdf"
@@ -20147,6 +20226,7 @@
       "n": 1,
       "path": "v5/i5/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/8333764/files/N4O_CORDI_2023_Thiery_etal.pdf/content",
         "download": "https://zenodo.org/records/8333764/files/N4O_CORDI_2023_Thiery_etal.pdf?download=1",
         "key": "N4O_CORDI_2023_Thiery_etal.pdf",
         "preview": "https://zenodo.org/records/8333764/preview/N4O_CORDI_2023_Thiery_etal.pdf"
@@ -20228,6 +20308,7 @@
       "n": 2,
       "path": "v5/i5/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/8334736/files/CAA-DE_W%C3%BCrzburg_2023_Wikiversum_ThieryEtAl.pdf/content",
         "download": "https://zenodo.org/records/8334736/files/CAA-DE_W%C3%BCrzburg_2023_Wikiversum_ThieryEtAl.pdf?download=1",
         "key": "CAA-DE_Würzburg_2023_Wikiversum_ThieryEtAl.pdf",
         "preview": "https://zenodo.org/records/8334736/preview/CAA-DE_W%C3%BCrzburg_2023_Wikiversum_ThieryEtAl.pdf"
@@ -20299,6 +20380,7 @@
       "n": 3,
       "path": "v5/i5/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10114895/files/ClaReNet_Frankfurt_2023_Fuzzyness.pdf/content",
         "download": "https://zenodo.org/records/10114895/files/ClaReNet_Frankfurt_2023_Fuzzyness.pdf?download=1",
         "key": "ClaReNet_Frankfurt_2023_Fuzzyness.pdf",
         "preview": "https://zenodo.org/records/10114895/preview/ClaReNet_Frankfurt_2023_Fuzzyness.pdf"
@@ -20379,6 +20461,7 @@
       "n": 4,
       "path": "v5/i5/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10260779/files/ArcheoFOSS%20_Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf/content",
         "download": "https://zenodo.org/records/10260779/files/ArcheoFOSS%20_Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf?download=1",
         "key": "ArcheoFOSS _Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf",
         "preview": "https://zenodo.org/records/10260779/preview/ArcheoFOSS%20_Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf"
@@ -20519,6 +20602,7 @@
       "n": 2,
       "path": "v6/i1/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14217958/files/kuwiki-tipstools-15-WikidataOgham.pdf/content",
         "download": "https://zenodo.org/records/14217958/files/kuwiki-tipstools-15-WikidataOgham.pdf?download=1",
         "key": "kuwiki-tipstools-15-WikidataOgham.pdf",
         "preview": "https://zenodo.org/records/14217958/preview/kuwiki-tipstools-15-WikidataOgham.pdf"
@@ -20966,6 +21050,7 @@
       "n": 1,
       "path": "v6/i3/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10580309/files/OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf/content",
         "download": "https://zenodo.org/records/10580309/files/OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf?download=1",
         "key": "OL3DT _Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf",
         "preview": "https://zenodo.org/records/10580309/preview/OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf"
@@ -21113,6 +21198,7 @@
       "n": 3,
       "path": "v6/i3/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10756824/files/deRSE24_FOSS_N4O_Managment_Hub_FrickeThiery.pdf/content",
         "download": "https://zenodo.org/records/10756824/files/deRSE24_FOSS_N4O_Managment_Hub_FrickeThiery.pdf?download=1",
         "key": "deRSE24_FOSS_N4O_Managment_Hub_FrickeThiery.pdf",
         "preview": "https://zenodo.org/records/10756824/preview/deRSE24_FOSS_N4O_Managment_Hub_FrickeThiery.pdf"
@@ -21194,6 +21280,7 @@
       "n": 4,
       "path": "v6/i3/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10805072/files/deRSE2024_No56_FlemischThiery.pdf/content",
         "download": "https://zenodo.org/records/10805072/files/deRSE2024_No56_FlemischThiery.pdf?download=1",
         "key": "deRSE2024_No56_FlemischThiery.pdf",
         "preview": "https://zenodo.org/records/10805072/preview/deRSE2024_No56_FlemischThiery.pdf"
@@ -21275,6 +21362,7 @@
       "n": 5,
       "path": "v6/i3/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10790940/files/deRSE2024_No40_HomburgThiery.pdf/content",
         "download": "https://zenodo.org/records/10790940/files/deRSE2024_No40_HomburgThiery.pdf?download=1",
         "key": "deRSE2024_No40_HomburgThiery.pdf",
         "preview": "https://zenodo.org/records/10790940/preview/deRSE2024_No40_HomburgThiery.pdf"
@@ -21380,6 +21468,7 @@
       "n": 6,
       "path": "v6/i3/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10841000/files/FOSSGIS_Hamburg_2024_ThieryEtAl_VTYCM7%20.pdf/content",
         "download": "https://zenodo.org/records/10841000/files/FOSSGIS_Hamburg_2024_ThieryEtAl_VTYCM7%20.pdf?download=1",
         "key": "FOSSGIS_Hamburg_2024_ThieryEtAl_VTYCM7 .pdf",
         "preview": "https://zenodo.org/records/10841000/preview/FOSSGIS_Hamburg_2024_ThieryEtAl_VTYCM7%20.pdf"
@@ -21464,6 +21553,7 @@
       "n": 7,
       "path": "v6/i3/e7",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10841047/files/FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf/content",
         "download": "https://zenodo.org/records/10841047/files/FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf?download=1",
         "key": "FOSSGIS_Hamburg_2024 _ThieryHomburg_GKTTQH.pdf",
         "preview": "https://zenodo.org/records/10841047/preview/FOSSGIS_Hamburg_2024%20_ThieryHomburg_GKTTQH.pdf"
@@ -21557,6 +21647,7 @@
       "n": 8,
       "path": "v6/i3/e8",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13364536/files/CAADE_2024_Muenster_Citizen%20Science_3DWikidataOSM_Thiery.pdf/content",
         "download": "https://zenodo.org/records/13364536/files/CAADE_2024_Muenster_Citizen%20Science_3DWikidataOSM_Thiery.pdf?download=1",
         "key": "CAADE_2024_Muenster_Citizen Science_3DWikidataOSM_Thiery.pdf",
         "preview": "https://zenodo.org/records/13364536/preview/CAADE_2024_Muenster_Citizen%20Science_3DWikidataOSM_Thiery.pdf"
@@ -21646,6 +21737,7 @@
       "n": 9,
       "path": "v6/i3/e9",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13627275/files/42_ThieryetAl.pdf/content",
         "download": "https://zenodo.org/records/13627275/files/42_ThieryetAl.pdf?download=1",
         "key": "42_ThieryetAl.pdf",
         "preview": "https://zenodo.org/records/13627275/preview/42_ThieryetAl.pdf"
@@ -21721,6 +21813,7 @@
       "n": 10,
       "path": "v6/i3/e10",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13897232/files/AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf/content",
         "download": "https://zenodo.org/records/13897232/files/AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf?download=1",
         "key": "AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf",
         "preview": "https://zenodo.org/records/13897232/preview/AT_Bochum_N4O_Plenum_ResearchSquirrels_ThieryEtAl.pdf"
@@ -21795,6 +21888,7 @@
       "n": 11,
       "path": "v6/i3/e11",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14524578/files/ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf/content",
         "download": "https://zenodo.org/records/14524578/files/ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf?download=1",
         "key": "ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf",
         "preview": "https://zenodo.org/records/14524578/preview/ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf"
@@ -21869,6 +21963,7 @@
       "n": 12,
       "path": "v6/i3/e12",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14524615/files/ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf/content",
         "download": "https://zenodo.org/records/14524615/files/ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf?download=1",
         "key": "ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf",
         "preview": "https://zenodo.org/records/14524615/preview/ARCHEO.FOSS_2024_Panel6_JupyterPythonMinion.pdf"
@@ -21945,6 +22040,7 @@
       "n": 1,
       "path": "v6/i4/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10512532/files/CC_SemantikLOD.pdf/content",
         "download": "https://zenodo.org/records/10512532/files/CC_SemantikLOD.pdf?download=1",
         "key": "CC_SemantikLOD.pdf",
         "preview": "https://zenodo.org/records/10512532/preview/CC_SemantikLOD.pdf"
@@ -22018,6 +22114,7 @@
       "n": 2,
       "path": "v6/i4/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10512604/files/CC_ResearchSoftwareEngineering.pdf/content",
         "download": "https://zenodo.org/records/10512604/files/CC_ResearchSoftwareEngineering.pdf?download=1",
         "key": "CC_ResearchSoftwareEngineering.pdf",
         "preview": "https://zenodo.org/records/10512604/preview/CC_ResearchSoftwareEngineering.pdf"
@@ -22099,6 +22196,7 @@
       "n": 3,
       "path": "v6/i4/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10515270/files/EAA_2024_Rome_Session_514.pdf/content",
         "download": "https://zenodo.org/records/10515270/files/EAA_2024_Rome_Session_514.pdf?download=1",
         "key": "EAA_2024_Rome_Session_514.pdf",
         "preview": "https://zenodo.org/records/10515270/preview/EAA_2024_Rome_Session_514.pdf"
@@ -22178,6 +22276,7 @@
       "n": 4,
       "path": "v6/i4/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10515289/files/EAA_2024_Rome_Session_797.pdf/content",
         "download": "https://zenodo.org/records/10515289/files/EAA_2024_Rome_Session_797.pdf?download=1",
         "key": "EAA_2024_Rome_Session_797.pdf",
         "preview": "https://zenodo.org/records/10515289/preview/EAA_2024_Rome_Session_797.pdf"
@@ -22245,6 +22344,7 @@
       "n": 5,
       "path": "v6/i4/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10992402/files/CHNT29_2024_Vienna_Session_06.pdf/content",
         "download": "https://zenodo.org/records/10992402/files/CHNT29_2024_Vienna_Session_06.pdf?download=1",
         "key": "CHNT29_2024_Vienna_Session_06.pdf",
         "preview": "https://zenodo.org/records/10992402/preview/CHNT29_2024_Vienna_Session_06.pdf"
@@ -22336,6 +22436,7 @@
       "n": 6,
       "path": "v6/i4/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/10906912/files/Terminologien%20in%20NFDI4Objects.pdf/content",
         "download": "https://zenodo.org/records/10906912/files/Terminologien%20in%20NFDI4Objects.pdf?download=1",
         "key": "Terminologien in NFDI4Objects.pdf",
         "preview": "https://zenodo.org/records/10906912/preview/Terminologien%20in%20NFDI4Objects.pdf"
@@ -22443,6 +22544,7 @@
       "n": 7,
       "path": "v6/i4/e7",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13373891/files/EAA_2024_SID_514_Introduction_ThieryEtAl.pdf/content",
         "download": "https://zenodo.org/records/13373891/files/EAA_2024_SID_514_Introduction_ThieryEtAl.pdf?download=1",
         "key": "EAA_2024_SID_514_Introduction_ThieryEtAl.pdf",
         "preview": "https://zenodo.org/records/13373891/preview/EAA_2024_SID_514_Introduction_ThieryEtAl.pdf"
@@ -22531,6 +22633,7 @@
       "n": 8,
       "path": "v6/i4/e8",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13132294/files/EAA_2024_ID_344_TamingTime_ThieryMees.pdf/content",
         "download": "https://zenodo.org/records/13132294/files/EAA_2024_ID_344_TamingTime_ThieryMees.pdf?download=1",
         "key": "EAA_2024_ID_344_TamingTime_ThieryMees.pdf",
         "preview": "https://zenodo.org/records/13132294/preview/EAA_2024_ID_344_TamingTime_ThieryMees.pdf"
@@ -22776,6 +22879,7 @@
       "n": 12,
       "path": "v6/i4/e12",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13734485/files/N4O_CM_2024_Poster_TA2.pdf/content",
         "download": "https://zenodo.org/records/13734485/files/N4O_CM_2024_Poster_TA2.pdf?download=1",
         "key": "N4O_CM_2024_Poster_TA2.pdf",
         "preview": "https://zenodo.org/records/13734485/preview/N4O_CM_2024_Poster_TA2.pdf"
@@ -22865,6 +22969,7 @@
       "n": 13,
       "path": "v6/i4/e13",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13364681/files/CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf/content",
         "download": "https://zenodo.org/records/13364681/files/CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf?download=1",
         "key": "CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf",
         "preview": "https://zenodo.org/records/13364681/preview/CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf"
@@ -22952,6 +23057,7 @@
       "n": 14,
       "path": "v6/i4/e14",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13739144/files/Poster_TWG_N4O_OO_MMDS.pdf/content",
         "download": "https://zenodo.org/records/13739144/files/Poster_TWG_N4O_OO_MMDS.pdf?download=1",
         "key": "Poster_TWG_N4O_OO_MMDS.pdf",
         "preview": "https://zenodo.org/records/13739144/preview/Poster_TWG_N4O_OO_MMDS.pdf"
@@ -23194,6 +23300,7 @@
       "n": 17,
       "path": "v6/i4/e17",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13897160/files/AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf/content",
         "download": "https://zenodo.org/records/13897160/files/AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf?download=1",
         "key": "AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf",
         "preview": "https://zenodo.org/records/13897160/preview/AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf"
@@ -23283,6 +23390,7 @@
       "n": 18,
       "path": "v6/i4/e18",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13927754/files/N4O_CM24_WorkshopIII_LOD.pdf/content",
         "download": "https://zenodo.org/records/13927754/files/N4O_CM24_WorkshopIII_LOD.pdf?download=1",
         "key": "N4O_CM24_WorkshopIII_LOD.pdf",
         "preview": "https://zenodo.org/records/13927754/preview/N4O_CM24_WorkshopIII_LOD.pdf"
@@ -23371,6 +23479,7 @@
       "n": 19,
       "path": "v6/i4/e19",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13980906/files/N4O_CM24_WorkshopVI_OOMMDS.pdf/content",
         "download": "https://zenodo.org/records/13980906/files/N4O_CM24_WorkshopVI_OOMMDS.pdf?download=1",
         "key": "N4O_CM24_WorkshopVI_OOMMDS.pdf",
         "preview": "https://zenodo.org/records/13980906/preview/N4O_CM24_WorkshopVI_OOMMDS.pdf"
@@ -23452,6 +23561,7 @@
       "n": 20,
       "path": "v6/i4/e20",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13980967/files/N4O_OSF24_Workshop_LOD.pdf/content",
         "download": "https://zenodo.org/records/13980967/files/N4O_OSF24_Workshop_LOD.pdf?download=1",
         "key": "N4O_OSF24_Workshop_LOD.pdf",
         "preview": "https://zenodo.org/records/13980967/preview/N4O_OSF24_Workshop_LOD.pdf"
@@ -23533,6 +23643,7 @@
       "n": 21,
       "path": "v6/i4/e21",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14017595/files/12_UC4B2024_NFDI4Objects_Poster.pdf/content",
         "download": "https://zenodo.org/records/14017595/files/12_UC4B2024_NFDI4Objects_Poster.pdf?download=1",
         "key": "12_UC4B2024_NFDI4Objects_Poster.pdf",
         "preview": "https://zenodo.org/records/14017595/preview/12_UC4B2024_NFDI4Objects_Poster.pdf"
@@ -23628,6 +23739,7 @@
       "n": 22,
       "path": "v6/i4/e22",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14055699/files/20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf/content",
         "download": "https://zenodo.org/records/14055699/files/20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf?download=1",
         "key": "20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf",
         "preview": "https://zenodo.org/records/14055699/preview/20241104_CHNT29_2024_Vienna_NFDIWikibases.pdf"
@@ -23724,6 +23836,7 @@
       "n": 23,
       "path": "v6/i4/e23",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14055805/files/20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf/content",
         "download": "https://zenodo.org/records/14055805/files/20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf?download=1",
         "key": "20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf",
         "preview": "https://zenodo.org/records/14055805/preview/20241106_CHNT29_2024_Vienna_InterdisciplinaryKnowledgeGraphs.pdf"
@@ -23813,6 +23926,7 @@
       "n": 24,
       "path": "v6/i4/e24",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14055856/files/20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf/content",
         "download": "https://zenodo.org/records/14055856/files/20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf?download=1",
         "key": "20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf",
         "preview": "https://zenodo.org/records/14055856/preview/20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf"
@@ -23875,6 +23989,7 @@
       "n": 25,
       "path": "v6/i4/e25",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14130518/files/20241113_Thiery_AG3D_3DFAIRLOD.pdf/content",
         "download": "https://zenodo.org/records/14130518/files/20241113_Thiery_AG3D_3DFAIRLOD.pdf?download=1",
         "key": "20241113_Thiery_AG3D_3DFAIRLOD.pdf",
         "preview": "https://zenodo.org/records/14130518/preview/20241113_Thiery_AG3D_3DFAIRLOD.pdf"
@@ -23962,6 +24077,7 @@
       "n": 26,
       "path": "v6/i4/e26",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14167107/files/19_UC4B2024_INFRA-WG-RSE.pdf/content",
         "download": "https://zenodo.org/records/14167107/files/19_UC4B2024_INFRA-WG-RSE.pdf?download=1",
         "key": "19_UC4B2024_INFRA-WG-RSE.pdf",
         "preview": "https://zenodo.org/records/14167107/preview/19_UC4B2024_INFRA-WG-RSE.pdf"
@@ -24280,6 +24396,7 @@
       "n": 5,
       "path": "v6/i5/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/13364445/files/3A_IV_Ogham_Wikidata.pdf/content",
         "download": "https://zenodo.org/records/13364445/files/3A_IV_Ogham_Wikidata.pdf?download=1",
         "key": "3A_IV_Ogham_Wikidata.pdf",
         "preview": "https://zenodo.org/records/13364445/preview/3A_IV_Ogham_Wikidata.pdf"
@@ -24389,6 +24506,7 @@
       "n": 1,
       "path": "v7/i1/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14707873/files/N4O-PROV_2025_fuzzy-sl.pdf/content",
         "download": "https://zenodo.org/records/14707873/files/N4O-PROV_2025_fuzzy-sl.pdf?download=1",
         "key": "N4O-PROV_2025_fuzzy-sl.pdf",
         "preview": "https://zenodo.org/records/14707873/preview/N4O-PROV_2025_fuzzy-sl.pdf"
@@ -24493,6 +24611,7 @@
       "n": 3,
       "path": "v7/i1/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/15074383/files/Text%2BShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf/content",
         "download": "https://zenodo.org/records/15074383/files/Text%2BShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf?download=1",
         "key": "Text+ShowAndTell_2025_#6_JupyterPythonMinion_20250327.pdf",
         "preview": "https://zenodo.org/records/15074383/preview/Text%2BShowAndTell_2025_%236_JupyterPythonMinion_20250327.pdf"
@@ -24561,6 +24680,7 @@
       "n": 4,
       "path": "v7/i1/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/15310724/files/N4O-Workshop_ObjektTextBild-2025_04_28_SamianAmphoraOgham.pdf/content",
         "download": "https://zenodo.org/records/15310724/files/N4O-Workshop_ObjektTextBild-2025_04_28_SamianAmphoraOgham.pdf?download=1",
         "key": "N4O-Workshop_ObjektTextBild-2025_04_28_SamianAmphoraOgham.pdf",
         "preview": "https://zenodo.org/records/15310724/preview/N4O-Workshop_ObjektTextBild-2025_04_28_SamianAmphoraOgham.pdf"
@@ -24631,6 +24751,7 @@
       "n": 5,
       "path": "v7/i1/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/15401537/files/Text%2BShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf/content",
         "download": "https://zenodo.org/records/15401537/files/Text%2BShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf?download=1",
         "key": "Text+ShowAndTell_2025_#9_SPARQLingUnicorn_20250515.pdf",
         "preview": "https://zenodo.org/records/15401537/preview/Text%2BShowAndTell_2025_%239_SPARQLingUnicorn_20250515.pdf"
@@ -24699,6 +24820,7 @@
       "n": 6,
       "path": "v7/i1/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16353593/files/Text%2BShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf/content",
         "download": "https://zenodo.org/records/16353593/files/Text%2BShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf?download=1",
         "key": "Text+ShowAndTell_2025_#12_TEIEpiDoc_OghamData_20250724.pdf",
         "preview": "https://zenodo.org/records/16353593/preview/Text%2BShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf"
@@ -25105,6 +25227,7 @@
       "n": 1,
       "path": "v7/i3/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14789261/files/SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf/content",
         "download": "https://zenodo.org/records/14789261/files/SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf?download=1",
         "key": "SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf",
         "preview": "https://zenodo.org/records/14789261/preview/SessionKulturerbe_ThieryetAl_FAIResKulturerbe.pdf"
@@ -25198,6 +25321,7 @@
       "n": 2,
       "path": "v7/i3/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14789265/files/SessionLowCost_ThieryetAl_LowCost3D.pdf/content",
         "download": "https://zenodo.org/records/14789265/files/SessionLowCost_ThieryetAl_LowCost3D.pdf?download=1",
         "key": "SessionLowCost_ThieryetAl_LowCost3D.pdf",
         "preview": "https://zenodo.org/records/14789265/preview/SessionLowCost_ThieryetAl_LowCost3D.pdf"
@@ -25286,6 +25410,7 @@
       "n": 3,
       "path": "v7/i3/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14886033/files/deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf/content",
         "download": "https://zenodo.org/records/14886033/files/deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf?download=1",
         "key": "deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf",
         "preview": "https://zenodo.org/records/14886033/preview/deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf"
@@ -25367,6 +25492,7 @@
       "n": 4,
       "path": "v7/i3/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14898292/files/deRSE25_Karlsruhe_137_KeepingREAL.pdf/content",
         "download": "https://zenodo.org/records/14898292/files/deRSE25_Karlsruhe_137_KeepingREAL.pdf?download=1",
         "key": "deRSE25_Karlsruhe_137_KeepingREAL.pdf",
         "preview": "https://zenodo.org/records/14898292/preview/deRSE25_Karlsruhe_137_KeepingREAL.pdf"
@@ -25448,6 +25574,7 @@
       "n": 5,
       "path": "v7/i3/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14898392/files/deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf/content",
         "download": "https://zenodo.org/records/14898392/files/deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf?download=1",
         "key": "deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf",
         "preview": "https://zenodo.org/records/14898392/preview/deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf"
@@ -25522,6 +25649,7 @@
       "n": 6,
       "path": "v7/i3/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14925718/files/deRSE25_9_ResearchSquirrelEngineers.pdf/content",
         "download": "https://zenodo.org/records/14925718/files/deRSE25_9_ResearchSquirrelEngineers.pdf?download=1",
         "key": "deRSE25_9_ResearchSquirrelEngineers.pdf",
         "preview": "https://zenodo.org/records/14925718/preview/deRSE25_9_ResearchSquirrelEngineers.pdf"
@@ -25604,6 +25732,7 @@
       "n": 7,
       "path": "v7/i3/e7",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14914310/files/deRSE25_108_JupyterPythonMinion.pdf/content",
         "download": "https://zenodo.org/records/14914310/files/deRSE25_108_JupyterPythonMinion.pdf?download=1",
         "key": "deRSE25_108_JupyterPythonMinion.pdf",
         "preview": "https://zenodo.org/records/14914310/preview/deRSE25_108_JupyterPythonMinion.pdf"
@@ -25713,6 +25842,7 @@
       "n": 8,
       "path": "v7/i3/e8",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14976366/files/deRSE25_94_INFRA-WG-RSE.pdf/content",
         "download": "https://zenodo.org/records/14976366/files/deRSE25_94_INFRA-WG-RSE.pdf?download=1",
         "key": "deRSE25_94_INFRA-WG-RSE.pdf",
         "preview": "https://zenodo.org/records/14976366/preview/deRSE25_94_INFRA-WG-RSE.pdf"
@@ -25791,6 +25921,7 @@
       "n": 9,
       "path": "v7/i3/e9",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14920035/files/deRSE25_94_ThieryRSE.pdf/content",
         "download": "https://zenodo.org/records/14920035/files/deRSE25_94_ThieryRSE.pdf?download=1",
         "key": "deRSE25_94_ThieryRSE.pdf",
         "preview": "https://zenodo.org/records/14920035/preview/deRSE25_94_ThieryRSE.pdf"
@@ -25886,6 +26017,7 @@
       "n": 10,
       "path": "v7/i3/e10",
       "pdf": {
+        "content": "https://zenodo.org/api/records/15040309/files/250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf/content",
         "download": "https://zenodo.org/records/15040309/files/250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf?download=1",
         "key": "250313 E-Science Tage 2025 Mattis thor Straten HIN.pdf",
         "preview": "https://zenodo.org/records/15040309/preview/250313%20E-Science%20Tage%202025%20Mattis%20thor%20Straten%20HIN.pdf"
@@ -26271,6 +26403,7 @@
       "n": 16,
       "path": "v7/i3/e16",
       "pdf": {
+        "content": "https://zenodo.org/api/records/15667686/files/DHUKIE2025_BeyondDigitalBoundaries_LODWikidataOghamHolyWells_Thiery.pdf/content",
         "download": "https://zenodo.org/records/15667686/files/DHUKIE2025_BeyondDigitalBoundaries_LODWikidataOghamHolyWells_Thiery.pdf?download=1",
         "key": "DHUKIE2025_BeyondDigitalBoundaries_LODWikidataOghamHolyWells_Thiery.pdf",
         "preview": "https://zenodo.org/records/15667686/preview/DHUKIE2025_BeyondDigitalBoundaries_LODWikidataOghamHolyWells_Thiery.pdf"
@@ -26443,6 +26576,7 @@
       "n": 18,
       "path": "v7/i3/e18",
       "pdf": {
+        "content": "https://zenodo.org/api/records/15721554/files/DHUKIE2025_BeyondDigitalBoundaries_Session5B.pdf/content",
         "download": "https://zenodo.org/records/15721554/files/DHUKIE2025_BeyondDigitalBoundaries_Session5B.pdf?download=1",
         "key": "DHUKIE2025_BeyondDigitalBoundaries_Session5B.pdf",
         "preview": "https://zenodo.org/records/15721554/preview/DHUKIE2025_BeyondDigitalBoundaries_Session5B.pdf"
@@ -26518,6 +26652,7 @@
       "n": 19,
       "path": "v7/i3/e19",
       "pdf": {
+        "content": "https://zenodo.org/api/records/17150584/files/CAA-DE%202025%20K%C3%B6ln%20Ogham.pdf/content",
         "download": "https://zenodo.org/records/17150584/files/CAA-DE%202025%20K%C3%B6ln%20Ogham.pdf?download=1",
         "key": "CAA-DE 2025 Köln Ogham.pdf",
         "preview": "https://zenodo.org/records/17150584/preview/CAA-DE%202025%20K%C3%B6ln%20Ogham.pdf"
@@ -26593,6 +26728,7 @@
       "n": 20,
       "path": "v7/i3/e20",
       "pdf": {
+        "content": "https://zenodo.org/api/records/17475015/files/MediaWikiCon2025%20Wikibase%20Ecosystem%20Thiery.pdf/content",
         "download": "https://zenodo.org/records/17475015/files/MediaWikiCon2025%20Wikibase%20Ecosystem%20Thiery.pdf?download=1",
         "key": "MediaWikiCon2025 Wikibase Ecosystem Thiery.pdf",
         "preview": "https://zenodo.org/records/17475015/preview/MediaWikiCon2025%20Wikibase%20Ecosystem%20Thiery.pdf"
@@ -26662,6 +26798,7 @@
       "n": 1,
       "path": "v7/i4/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14893827/files/NFDI4Objects_TWG_FuzzyWobblySW_de.pdf/content",
         "download": "https://zenodo.org/records/14893827/files/NFDI4Objects_TWG_FuzzyWobblySW_de.pdf?download=1",
         "key": "NFDI4Objects_TWG_FuzzyWobblySW_de.pdf",
         "preview": "https://zenodo.org/records/14893827/preview/NFDI4Objects_TWG_FuzzyWobblySW_de.pdf"
@@ -26729,6 +26866,7 @@
       "n": 2,
       "path": "v7/i4/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/17159183/files/NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf/content",
         "download": "https://zenodo.org/records/17159183/files/NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf?download=1",
         "key": "NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf",
         "preview": "https://zenodo.org/records/17159183/preview/NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf"
@@ -26799,6 +26937,7 @@
       "n": 3,
       "path": "v7/i4/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/14916967/files/NFDI4Memory%20AG%20Minimaldatensatz%20Historische%20Orte%20%5BThiery%2C%20Gerber%5D.pdf/content",
         "download": "https://zenodo.org/records/14916967/files/NFDI4Memory%20AG%20Minimaldatensatz%20Historische%20Orte%20%5BThiery%2C%20Gerber%5D.pdf?download=1",
         "key": "NFDI4Memory AG Minimaldatensatz Historische Orte [Thiery, Gerber].pdf",
         "preview": "https://zenodo.org/records/14916967/preview/NFDI4Memory%20AG%20Minimaldatensatz%20Historische%20Orte%20%5BThiery%2C%20Gerber%5D.pdf"
@@ -26865,6 +27004,7 @@
       "n": 4,
       "path": "v7/i4/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/15065875/files/TWG%202024.3%20Provenienzgazetteer%20Datenmodell%2020250320.pdf/content",
         "download": "https://zenodo.org/records/15065875/files/TWG%202024.3%20Provenienzgazetteer%20Datenmodell%2020250320.pdf?download=1",
         "key": "TWG 2024.3 Provenienzgazetteer Datenmodell 20250320.pdf",
         "preview": "https://zenodo.org/records/15065875/preview/TWG%202024.3%20Provenienzgazetteer%20Datenmodell%2020250320.pdf"
@@ -26976,6 +27116,7 @@
       "n": 5,
       "path": "v7/i4/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16875679/files/Poster_N4O_CM_Bochum_2025_LODmeetsRSE.pdf/content",
         "download": "https://zenodo.org/records/16875679/files/Poster_N4O_CM_Bochum_2025_LODmeetsRSE.pdf?download=1",
         "key": "Poster_N4O_CM_Bochum_2025_LODmeetsRSE.pdf",
         "preview": "https://zenodo.org/records/16875679/preview/Poster_N4O_CM_Bochum_2025_LODmeetsRSE.pdf"
@@ -27144,6 +27285,7 @@
       "n": 1,
       "path": "v7/i5/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16736090/files/CoRDI_2025_paper_223.pdf/content",
         "download": "https://zenodo.org/records/16736090/files/CoRDI_2025_paper_223.pdf?download=1",
         "key": "CoRDI_2025_paper_223.pdf",
         "preview": "https://zenodo.org/records/16736090/preview/CoRDI_2025_paper_223.pdf"
@@ -27291,6 +27433,7 @@
       "n": 2,
       "path": "v7/i5/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16736048/files/CoRDI_2025_paper_196.pdf/content",
         "download": "https://zenodo.org/records/16736048/files/CoRDI_2025_paper_196.pdf?download=1",
         "key": "CoRDI_2025_paper_196.pdf",
         "preview": "https://zenodo.org/records/16736048/preview/CoRDI_2025_paper_196.pdf"
@@ -27452,6 +27595,7 @@
       "n": 3,
       "path": "v7/i5/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16736222/files/CoRDI_2025_paper_283.pdf/content",
         "download": "https://zenodo.org/records/16736222/files/CoRDI_2025_paper_283.pdf?download=1",
         "key": "CoRDI_2025_paper_283.pdf",
         "preview": "https://zenodo.org/records/16736222/preview/CoRDI_2025_paper_283.pdf"
@@ -27607,6 +27751,7 @@
       "n": 4,
       "path": "v7/i5/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16735848/files/CoRDI_2025_paper_92.pdf/content",
         "download": "https://zenodo.org/records/16735848/files/CoRDI_2025_paper_92.pdf?download=1",
         "key": "CoRDI_2025_paper_92.pdf",
         "preview": "https://zenodo.org/records/16735848/preview/CoRDI_2025_paper_92.pdf"
@@ -27792,6 +27937,7 @@
       "n": 5,
       "path": "v7/i5/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16736078/files/CoRDI_2025_paper_215.pdf/content",
         "download": "https://zenodo.org/records/16736078/files/CoRDI_2025_paper_215.pdf?download=1",
         "key": "CoRDI_2025_paper_215.pdf",
         "preview": "https://zenodo.org/records/16736078/preview/CoRDI_2025_paper_215.pdf"
@@ -27970,6 +28116,7 @@
       "n": 6,
       "path": "v7/i5/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16736042/files/CoRDI_2025_paper_195.pdf/content",
         "download": "https://zenodo.org/records/16736042/files/CoRDI_2025_paper_195.pdf?download=1",
         "key": "CoRDI_2025_paper_195.pdf",
         "preview": "https://zenodo.org/records/16736042/preview/CoRDI_2025_paper_195.pdf"
@@ -28091,6 +28238,7 @@
       "n": 7,
       "path": "v7/i5/e7",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16735268/files/CoRDI_2025_paper_8.pdf/content",
         "download": "https://zenodo.org/records/16735268/files/CoRDI_2025_paper_8.pdf?download=1",
         "key": "CoRDI_2025_paper_8.pdf",
         "preview": "https://zenodo.org/records/16735268/preview/CoRDI_2025_paper_8.pdf"
@@ -28173,6 +28321,7 @@
       "n": 8,
       "path": "v7/i5/e8",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16931833/files/CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf/content",
         "download": "https://zenodo.org/records/16931833/files/CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf?download=1",
         "key": "CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf",
         "preview": "https://zenodo.org/records/16931833/preview/CoRDI_2025_Aachen_RDMComputationalArchaeology.pdf"
@@ -28264,6 +28413,7 @@
       "n": 9,
       "path": "v7/i5/e9",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16931908/files/CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf/content",
         "download": "https://zenodo.org/records/16931908/files/CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf?download=1",
         "key": "CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf",
         "preview": "https://zenodo.org/records/16931908/preview/CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf"
@@ -28348,6 +28498,7 @@
       "n": 10,
       "path": "v7/i5/e10",
       "pdf": {
+        "content": "https://zenodo.org/api/records/16931910/files/CoRDI_2025_Aachen_WGRSE.pdf/content",
         "download": "https://zenodo.org/records/16931910/files/CoRDI_2025_Aachen_WGRSE.pdf?download=1",
         "key": "CoRDI_2025_Aachen_WGRSE.pdf",
         "preview": "https://zenodo.org/records/16931910/preview/CoRDI_2025_Aachen_WGRSE.pdf"
@@ -28404,6 +28555,7 @@
       "n": 1,
       "path": "v8/i1/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18441773/files/SqP_8_1__4_FDO_Reference_Implementation.pdf/content",
         "download": "https://zenodo.org/records/18441773/files/SqP_8_1__4_FDO_Reference_Implementation.pdf?download=1",
         "key": "SqP_8_1__4_FDO_Reference_Implementation.pdf",
         "preview": "https://zenodo.org/records/18441773/preview/SqP_8_1__4_FDO_Reference_Implementation.pdf"
@@ -28459,6 +28611,7 @@
       "n": 2,
       "path": "v8/i1/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18441002/files/SqP_8_1__2_GSAS.pdf/content",
         "download": "https://zenodo.org/records/18441002/files/SqP_8_1__2_GSAS.pdf?download=1",
         "key": "SqP_8_1__2_GSAS.pdf",
         "preview": "https://zenodo.org/records/18441002/preview/SqP_8_1__2_GSAS.pdf"
@@ -28531,6 +28684,7 @@
       "n": 3,
       "path": "v8/i1/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18441545/files/SqP_8_1__3_FDO_PositionPaper.pdf/content",
         "download": "https://zenodo.org/records/18441545/files/SqP_8_1__3_FDO_PositionPaper.pdf?download=1",
         "key": "SqP_8_1__3_FDO_PositionPaper.pdf",
         "preview": "https://zenodo.org/records/18441545/preview/SqP_8_1__3_FDO_PositionPaper.pdf"
@@ -28585,6 +28739,7 @@
       "n": 4,
       "path": "v8/i1/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18441773/files/SqP_8_1__4_FDO_Reference_Implementation.pdf/content",
         "download": "https://zenodo.org/records/18441773/files/SqP_8_1__4_FDO_Reference_Implementation.pdf?download=1",
         "key": "SqP_8_1__4_FDO_Reference_Implementation.pdf",
         "preview": "https://zenodo.org/records/18441773/preview/SqP_8_1__4_FDO_Reference_Implementation.pdf"
@@ -28911,6 +29066,7 @@
       "n": 1,
       "path": "v8/i3/e1",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18726193/files/Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf/content",
         "download": "https://zenodo.org/records/18726193/files/Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf?download=1",
         "key": "Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf",
         "preview": "https://zenodo.org/records/18726193/preview/Oldenburger3DTage_Dresden_2026_CHasFDO--Irland-Schottland.pdf"
@@ -28986,6 +29142,7 @@
       "n": 2,
       "path": "v8/i3/e2",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18726247/files/Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf/content",
         "download": "https://zenodo.org/records/18726247/files/Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf?download=1",
         "key": "Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf",
         "preview": "https://zenodo.org/records/18726247/preview/Oldenburger3DTage_Dresden_2026_HosentascheWissensgraph.pdf"
@@ -29082,6 +29239,7 @@
       "n": 3,
       "path": "v8/i3/e3",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18803486/files/deRSE26_Stuttgart_21314_GeoGraphs.pdf/content",
         "download": "https://zenodo.org/records/18803486/files/deRSE26_Stuttgart_21314_GeoGraphs.pdf?download=1",
         "key": "deRSE26_Stuttgart_21314_GeoGraphs.pdf",
         "preview": "https://zenodo.org/records/18803486/preview/deRSE26_Stuttgart_21314_GeoGraphs.pdf"
@@ -29171,6 +29329,7 @@
       "n": 4,
       "path": "v8/i3/e4",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18803728/files/deRSE26_Stuttgart_21313_GeoSciRSE.pdf/content",
         "download": "https://zenodo.org/records/18803728/files/deRSE26_Stuttgart_21313_GeoSciRSE.pdf?download=1",
         "key": "deRSE26_Stuttgart_21313_GeoSciRSE.pdf",
         "preview": "https://zenodo.org/records/18803728/preview/deRSE26_Stuttgart_21313_GeoSciRSE.pdf"
@@ -29253,6 +29412,7 @@
       "n": 5,
       "path": "v8/i3/e5",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18803955/files/deRSE26_Stuttgart_14053_INFRA-WG-RSE.pdf/content",
         "download": "https://zenodo.org/records/18803955/files/deRSE26_Stuttgart_14053_INFRA-WG-RSE.pdf?download=1",
         "key": "deRSE26_Stuttgart_14053_INFRA-WG-RSE.pdf",
         "preview": "https://zenodo.org/records/18803955/preview/deRSE26_Stuttgart_14053_INFRA-WG-RSE.pdf"
@@ -29335,6 +29495,7 @@
       "n": 6,
       "path": "v8/i3/e6",
       "pdf": {
+        "content": "https://zenodo.org/api/records/18885415/files/deRSE26_21145_chublets.software_v2.pdf/content",
         "download": "https://zenodo.org/records/18885415/files/deRSE26_21145_chublets.software_v2.pdf?download=1",
         "key": "deRSE26_21145_chublets.software_v2.pdf",
         "preview": "https://zenodo.org/records/18885415/preview/deRSE26_21145_chublets.software_v2.pdf"
@@ -29538,6 +29699,7 @@
       "n": 9,
       "path": "v8/i3/e9",
       "pdf": {
+        "content": "https://zenodo.org/api/records/19200629/files/Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_G%C3%B6ttingen_OSM2LOD.pdf/content",
         "download": "https://zenodo.org/records/19200629/files/Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_G%C3%B6ttingen_OSM2LOD.pdf?download=1",
         "key": "Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_Göttingen_OSM2LOD.pdf",
         "preview": "https://zenodo.org/records/19200629/preview/Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_G%C3%B6ttingen_OSM2LOD.pdf"

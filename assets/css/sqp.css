@@ -210,7 +210,10 @@ main .wrap > h1:first-child, .breadcrumb + h1 { margin-top: 0.4rem; }
   background: var(--sqp-plum); color: #fff; padding: 0.55rem 1rem; }
 .button:hover, .button:focus-visible { background: var(--sqp-berry); }
 .button-small { padding: 0.25rem 0.6rem; font-size: 0.85rem; }
-.preview-frame { width: 100%; height: min(80vh, 760px); border: 1px solid var(--rule); border-radius: var(--radius); }
+.preview-box { margin-top: 0.75rem; max-height: 80vh; overflow-y: auto; border: 1px solid var(--rule);
+  border-radius: var(--radius); background: var(--bg-soft); padding: 0.5rem; }
+.preview-box canvas { display: block; margin: 0 auto 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.25); background: #fff; }
+.preview-fallback { margin: 0.25rem; }
 .cite-box { background: var(--bg-soft); border: 1px solid var(--rule); border-radius: var(--radius);
   padding: 0.75rem 1rem; display: flex; gap: 1rem; align-items: flex-start; }
 .cite-box p { margin: 0; flex: 1; overflow-wrap: anywhere; }

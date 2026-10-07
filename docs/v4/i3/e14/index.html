@@ -51,8 +51,14 @@
       
       <section class="preview">
         <h2>Preview</h2>
-        <button type="button" class="button" data-preview-src="https://zenodo.org/records/7105006/preview/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf" data-preview-title="Preview: ARCHEOFOSS_XVI_2022_WikidataSamian.pdf">Show PDF preview</button>
-        <p class="muted small">The preview is loaded from zenodo.org only when you ask for it. <a href="https://zenodo.org/records/7105006/files/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf?download=1">Download PDF</a> (ARCHEOFOSS_XVI_2022_WikidataSamian.pdf)</p>
+        <button type="button" class="button" aria-controls="pdf-preview"
+          data-pdf="https://zenodo.org/api/records/7105006/files/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf/content" data-root="../../../" data-download="https://zenodo.org/records/7105006/files/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf?download=1"
+          data-zenodo-preview="https://zenodo.org/records/7105006/preview/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf" data-msg-loading="Loading the PDF from zenodo.org …"
+          data-msg-failed="The PDF could not be loaded here." data-msg-open="Open the preview on Zenodo"
+          data-msg-page="Page" data-msg-download="Download PDF">Show PDF preview</button>
+        <div id="pdf-preview" class="preview-box" hidden></div>
+        <p class="muted small">The preview is loaded from zenodo.org only when you ask for it. <a href="https://zenodo.org/records/7105006/files/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf?download=1">Download PDF</a> (ARCHEOFOSS_XVI_2022_WikidataSamian.pdf)
+          · <a href="https://zenodo.org/records/7105006/preview/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf" target="_blank" rel="noopener">Open the preview on Zenodo</a></p>
       </section>
       
 
@@ -123,18 +129,8 @@
   </div>
 </footer>
 <script>
-// Click-to-load PDF preview and copy buttons. Nothing else runs on this site.
+// Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
-  var load = event.target.closest("[data-preview-src]");
-  if (load) {
-    var frame = document.createElement("iframe");
-    frame.src = load.getAttribute("data-preview-src");
-    frame.title = load.getAttribute("data-preview-title");
-    frame.className = "preview-frame";
-    frame.setAttribute("loading", "lazy");
-    load.parentNode.replaceChild(frame, load);
-    return;
-  }
   var copy = event.target.closest("[data-copy]");
   if (copy && navigator.clipboard) {
     var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
@@ -151,6 +147,7 @@ document.addEventListener("click", function (event) {
 <script src="../../../assets/js/citeproc.js" defer></script>
 <script src="../../../assets/js/sqp-csl-data.js" defer></script>
 <script src="../../../assets/js/sqp-cite.js" defer></script>
+<script src="../../../assets/js/sqp-preview.js" defer></script>
 
 </body>
 </html>

@@ -46,6 +46,10 @@ en:
   preview: Preview
   preview_note: The preview is loaded from zenodo.org only when you ask for it.
   preview_button: Show PDF preview
+  preview_loading: Loading the PDF from zenodo.org …
+  preview_failed: The PDF could not be loaded here.
+  preview_open_zenodo: Open the preview on Zenodo
+  preview_page: Page
   download_pdf: Download PDF
   how_to_cite: How to cite
   cite_style: Citation style
@@ -110,6 +114,10 @@ de:
   preview: Vorschau
   preview_note: Die Vorschau wird erst auf deinen Klick von zenodo.org geladen.
   preview_button: PDF-Vorschau anzeigen
+  preview_loading: Das PDF wird von zenodo.org geladen …
+  preview_failed: Das PDF ließ sich hier nicht laden.
+  preview_open_zenodo: Vorschau auf Zenodo öffnen
+  preview_page: Seite
   download_pdf: PDF herunterladen
   how_to_cite: Zitiervorschlag
   cite_style: Zitierstil

@@ -21,8 +21,14 @@
       {% if e.pdf %}
       <section class="preview">
         <h2>{{ t.preview }}</h2>
-        <button type="button" class="button" data-preview-src="{{ e.pdf.preview }}" data-preview-title="{{ t.preview }}: {{ e.pdf.key }}">{{ t.preview_button }}</button>
-        <p class="muted small">{{ t.preview_note }} <a href="{{ e.pdf.download }}">{{ t.download_pdf }}</a> ({{ e.pdf.key }})</p>
+        <button type="button" class="button" aria-controls="pdf-preview"
+          data-pdf="{{ e.pdf.content }}" data-root="{{ root }}" data-download="{{ e.pdf.download }}"
+          data-zenodo-preview="{{ e.pdf.preview }}" data-msg-loading="{{ t.preview_loading }}"
+          data-msg-failed="{{ t.preview_failed }}" data-msg-open="{{ t.preview_open_zenodo }}"
+          data-msg-page="{{ t.preview_page }}" data-msg-download="{{ t.download_pdf }}">{{ t.preview_button }}</button>
+        <div id="pdf-preview" class="preview-box" hidden></div>
+        <p class="muted small">{{ t.preview_note }} <a href="{{ e.pdf.download }}">{{ t.download_pdf }}</a> ({{ e.pdf.key }})
+          · <a href="{{ e.pdf.preview }}" target="_blank" rel="noopener">{{ t.preview_open_zenodo }}</a></p>
       </section>
       {% endif %}
 
@@ -72,4 +78,5 @@
 <script src="{{ root }}assets/js/citeproc.js" defer></script>
 <script src="{{ root }}assets/js/sqp-csl-data.js" defer></script>
 <script src="{{ root }}assets/js/sqp-cite.js" defer></script>
+{% if e.pdf %}<script src="{{ root }}assets/js/sqp-preview.js" defer></script>{% endif %}
 {% endblock %}

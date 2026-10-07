@@ -7,6 +7,8 @@
     python main.py --skip map       run everything except this step
     python main.py --dry-run        print the plan, run nothing
     python main.py --strict         warnings become errors (this is what CI runs)
+    python main.py --fresh          forget the step cache: rdf and validate run
+                                    even if their inputs did not change
     python main.py --open           build, then open docs/index.html from disk
     python main.py --serve          build, then serve docs/ on 127.0.0.1:8000
                                     until Ctrl+C (--serve 8080 for another port)
@@ -103,6 +105,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--dry-run", action="store_true", help="print the plan only")
     parser.add_argument("--strict", action="store_true",
                         help="treat warnings as errors")
+    parser.add_argument("--fresh", action="store_true",
+                        help="ignore data/derived/cache/ and rebuild everything")
     parser.add_argument("--open", dest="open_page", action="store_true",
                         help="open docs/index.html in the browser when the run is done")
     parser.add_argument("--serve", nargs="?", const=8000, type=int, metavar="PORT",
@@ -219,6 +223,10 @@ def main() -> int:
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8", errors="replace")
     REPORT.parent.mkdir(parents=True, exist_ok=True)
+    if args.fresh:
+        import shutil
+
+        shutil.rmtree(ROOT / "data" / "derived" / "cache", ignore_errors=True)
 
     timings: list[tuple[str, float]] = []
     failed: str | None = None

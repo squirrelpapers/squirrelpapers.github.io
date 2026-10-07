@@ -18,7 +18,8 @@ on the web (BibTeX, Turtle, JSON-LD per entry, the dumps) are written by those
 steps to data/derived/web/ in the docs/ layout; this step copies that tree
 into docs/ and links what it finds.
 
-The site step owns docs/: it empties it before writing (S9 runs afterwards
+The site step owns docs/: it writes changed files only and afterwards deletes
+what it did not produce, except the paths in KEEP_IN_DOCS (S9 runs afterwards
 and adds its page).
 """
 
@@ -26,22 +27,26 @@ from __future__ import annotations
 
 import json
 import re
-import shutil
 import sys
-from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from sqp_utils import (  # noqa: E402
-    ASSETS, CONTENT, DIST, DOCS, ENTRIES_JSON, LANGUAGES, SITE, read_json, read_yaml,
-    rel, script_json, skipped, template_environment, warn, write_text,
+    ASSETS, CONTENT, DIST, DOCS, ENTRIES_JSON, LANGUAGES, SITE, copy_file, prune, read_json,
+    read_yaml, rel, script_json, skipped, sync_tree, template_environment, tracking, warn,
+    write_text,
 )
 
 UI_YAML = CONTENT / "ui.yaml"
 PAGES_DIR = CONTENT / "pages"
-ASSET_FILES = ["css/sqp.css", "img/sqp-logo.png", "img/network.svg", "js/sqp-cite.js"]
+ASSET_FILES = ["css/sqp.css", "img/sqp-logo.png", "img/network.svg", "js/sqp-cite.js",
+               "js/sqp-preview.js"]
+ASSET_DIRS = ["vendor/pdfjs"]          # copied whole (pdf.js with its fonts, S8b)
+# Files in docs/ that other steps or people own; prune() leaves them alone.
+# CNAME: a custom domain set on GitHub (S13). S9 adds its own entry here.
+KEEP_IN_DOCS = ("CNAME",)
 WEB = Path(__file__).resolve().parent.parent / "data" / "derived" / "web"   # S6/S7/S10 products
 DOWNLOAD_FORMATS = (("bib", "BibTeX"), ("ris", "RIS"), ("csl.json", "CSL-JSON"),
                     ("ttl", "Turtle"), ("jsonld", "JSON-LD"), ("crm.ttl", "CIDOC CRM (Turtle)"))
@@ -176,31 +181,31 @@ def jsonld_for(e: dict, journal: dict, issue: dict, types: dict) -> str:
 # ---------------------------------------------------------------------------
 
 
-class _Links(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.links: list[str] = []
-
-    def handle_starttag(self, tag, attrs):
-        for name, value in attrs:
-            if name in ("href", "src") and value:
-                self.links.append(value)
+# href="..." and src="..." as Jinja writes them (always double quotes); not
+# data-src or the like. A regex instead of html.parser: same links, a tenth of
+# the time over 524 pages (S8b).
+_LINK = re.compile(r'(?<![\w-])(?:href|src)="([^"]+)"')
 
 
 def check_links(root: Path) -> list[str]:
     """Every relative href/src in docs/ must point to an existing file."""
+    import html
+    import posixpath
+
+    files = {p.relative_to(root).as_posix() for p in root.rglob("*") if p.is_file()}
+    folders = {posixpath.dirname(f) for f in files}
     broken = []
     for page in sorted(root.rglob("*.html")):
-        parser = _Links()
-        parser.feed(page.read_text(encoding="utf-8"))
-        for link in parser.links:
+        here = posixpath.dirname(page.relative_to(root).as_posix())
+        for link in _LINK.findall(page.read_text(encoding="utf-8")):
+            link = html.unescape(link)
             parsed = urlparse(link)
             if parsed.scheme or link.startswith(("#", "mailto:", "//")):
                 continue
-            target = (page.parent / parsed.path).resolve()
-            if parsed.path.endswith("/") or target.is_dir():
-                target = target / "index.html"
-            if not target.exists():
+            target = posixpath.normpath(posixpath.join(here, parsed.path)) if parsed.path else here
+            if parsed.path.endswith("/") or target in folders or target == ".":
+                target = posixpath.normpath(posixpath.join(target, "index.html"))
+            if target.startswith("../") or target not in files:
                 broken.append(f"{rel(page)} -> {link}")
     return broken
 
@@ -208,32 +213,16 @@ def check_links(root: Path) -> list[str]:
 # ---------------------------------------------------------------------------
 
 
-def main(strict: bool = False) -> None:
-    if not ENTRIES_JSON.exists():
-        skipped(f"{rel(ENTRIES_JSON)} missing (S4)")
-        return
-    data = read_json(ENTRIES_JSON)
-    ui = read_yaml(UI_YAML)
-    # Jinja looks up `t.copy` as the dict method before the key: a UI string
-    # named like a dict method renders as "<built-in method ...>" (S5, found
-    # on the first screenshot). Refuse such keys.
-    clashes = sorted({k for lang in LANGUAGES for k in ui[lang] if hasattr(dict, k)})
-    if clashes:
-        raise KeyError(f"content/ui.yaml: keys clash with dict methods: {clashes}")
-    journal = data["journal"]
-    types = {t["slug"]: t for t in data["types"]}
-    entries = {e["id"]: e for e in data["entries"]}
-
-    # fresh docs/ - this step owns it
-    if DOCS.exists():
-        shutil.rmtree(DOCS)
-    DOCS.mkdir(parents=True)
+def render_site(data: dict, ui: dict, journal: dict, types: dict, entries: dict) -> tuple[int, list]:
+    """Write every page and copy every file of docs/; returns pages and volumes."""
     write_text(DOCS / ".nojekyll", "")
     if WEB.exists():
-        shutil.copytree(WEB, DOCS, dirs_exist_ok=True)
+        sync_tree(WEB, DOCS)
 
     def downloads_for(path: str, prefix: str = "index") -> list[dict]:
-        folder = DOCS / path if path else DOCS
+        # Looked up in web/, not docs/: docs/ may still hold a stale file that
+        # prune() removes only after rendering.
+        folder = WEB / path if path else WEB
         # Relative to the site root: the files exist once, the pages twice (EN, DE).
         return [{"href": (f"{path}/" if path else "") + f"{prefix}.{suffix}", "label": label}
                 for suffix, label in DOWNLOAD_FORMATS if (folder / f"{prefix}.{suffix}").exists()]
@@ -244,9 +233,9 @@ def main(strict: bool = False) -> None:
         if path.exists():
             csl_items[e["id"]] = read_json(path)[0]
     for asset in ASSET_FILES:
-        target = DOCS / "assets" / asset
-        target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(ASSETS / asset, target)
+        copy_file(ASSETS / asset, DOCS / "assets" / asset)
+    for folder in ASSET_DIRS:
+        sync_tree(ASSETS / folder, DOCS / "assets" / folder)
 
     # volumes with resolved, published entries
     volumes = []
@@ -278,7 +267,7 @@ def main(strict: bool = False) -> None:
         fmt_date, fmt_range = make_formatters(t, lang)
         prefix = "" if lang == "en" else f"{lang}/"
         # Machine-readable twins of the page (S7), announced in the <head>.
-        folder = DOCS / path if path else DOCS
+        folder = WEB / path if path else WEB
         context.setdefault("data_links", [
             {"type": mime, "href": root + (f"{path}/" if path else "") + f"index.{suffix}"}
             for suffix, mime in (("ttl", "text/turtle"), ("jsonld", "application/ld+json"))
@@ -324,6 +313,33 @@ def main(strict: bool = False) -> None:
                            citation=simple_citation(e, journal), downloads=downloads,
                            csl_item=script_json(csl_items.get(e["id"], {})),
                            jsonld=jsonld_for(e, journal, issue, types))
+
+    return pages_written, volumes
+
+
+def main(strict: bool = False) -> None:
+    if not ENTRIES_JSON.exists():
+        skipped(f"{rel(ENTRIES_JSON)} missing (S4)")
+        return
+    data = read_json(ENTRIES_JSON)
+    ui = read_yaml(UI_YAML)
+    # Jinja looks up `t.copy` as the dict method before the key: a UI string
+    # named like a dict method renders as "<built-in method ...>" (S5, found
+    # on the first screenshot). Refuse such keys.
+    clashes = sorted({k for lang in LANGUAGES for k in ui[lang] if hasattr(dict, k)})
+    if clashes:
+        raise KeyError(f"content/ui.yaml: keys clash with dict methods: {clashes}")
+    journal = data["journal"]
+    types = {t["slug"]: t for t in data["types"]}
+    entries = {e["id"]: e for e in data["entries"]}
+
+    # docs/ is no longer emptied first: unchanged pages stay untouched and
+    # whatever this step did not produce is pruned afterwards (S8b).
+    with tracking() as produced:
+        pages_written, volumes = render_site(data, ui, journal, types, entries)
+    removed = prune(DOCS, produced, lambda path: not path.startswith(KEEP_IN_DOCS))
+    if removed:
+        print(f"removed {len(removed)} stale files from {rel(DOCS)}/")
 
     broken = check_links(DOCS)
     published = sum(v["count"] for v in volumes)

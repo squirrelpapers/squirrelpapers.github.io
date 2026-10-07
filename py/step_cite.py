@@ -30,9 +30,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from sqp_utils import (  # noqa: E402
-    ASSETS, DERIVED, DIST, ENTRIES_JSON, read_json, rel, skipped, write_json,
-    write_text,
+    ASSETS, DERIVED, DIST, ENTRIES_JSON, prune, read_json, rel, skipped, tracking,
+    write_json, write_text,
 )
+
+CITE_SUFFIXES = (".bib", ".ris", ".csl.json")     # what prune() may delete in web/
 
 WEB = DERIVED / "web"
 VENDOR = ASSETS / "vendor"
@@ -288,10 +290,18 @@ def main(strict: bool = False) -> None:
     types = {t["slug"]: t for t in data["types"]}
     entries = {e["id"]: e for e in data["entries"]}
 
-    import shutil
-    if WEB.exists():
-        shutil.rmtree(WEB)
+    # No emptying of data/derived/web/: rdf and validate write there too, and
+    # unchanged files stay untouched (S8b). What this step no longer produces
+    # is pruned at the end - its own kinds of file only.
+    with tracking() as produced:
+        build(data, journal, types, entries)
+    removed = prune(WEB, produced, lambda path: path.endswith(CITE_SUFFIXES)
+                    or path in ("assets/js/citeproc.js", "assets/js/sqp-csl-data.js"))
+    if removed:
+        print(f"removed {len(removed)} stale files from {rel(WEB)}/")
 
+
+def build(data: dict, journal: dict, types: dict, entries: dict) -> None:
     all_bib, all_ris, all_csl = [], [], []
     for volume in data["volumes"]:
         vol_bib, vol_ris = [], []

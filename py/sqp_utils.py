@@ -12,9 +12,12 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
+import shutil
 import subprocess
 import unicodedata
+from contextlib import contextmanager
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -220,15 +223,106 @@ def read_yaml(path: Path):
     return yaml.safe_load(path.read_text(encoding="utf-8"))
 
 
+# Every file a step writes or copies is recorded in the open trackers, so the
+# step can afterwards delete what it no longer produces (prune) instead of
+# emptying its folder first. Emptying meant rewriting ~2 000 unchanged files
+# per run, which a virus scanner on Windows turns into half a minute (S8b).
+_TRACKERS: list[set] = []
+
+
+@contextmanager
+def tracking():
+    """Collect the paths written or copied inside the block (absolute strings).
+
+    os.path.abspath, not Path.resolve: resolving follows links through the
+    file system, and on Windows that costs more than the writes it guards."""
+    produced: set = set()
+    _TRACKERS.append(produced)
+    try:
+        yield produced
+    finally:
+        _TRACKERS.remove(produced)
+
+
+def _record(path: Path) -> None:
+    for produced in _TRACKERS:
+        produced.add(os.path.abspath(path))
+
+
+def write_bytes(path: Path, data: bytes) -> bool:
+    """Write only when the content differs. Returns True if the file changed.
+
+    An unchanged file keeps its timestamp, so git, the browser cache and the
+    virus scanner have nothing to look at.
+    """
+    _record(path)
+    try:
+        if path.stat().st_size == len(data) and path.read_bytes() == data:
+            return False
+    except FileNotFoundError:
+        path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(data)
+    return True
+
+
 def write_text(path: Path, text: str) -> Path:
     """Write a generated text file with LF endings on every platform.
 
     `Path.write_text()` translates "\\n" to `os.linesep`, so the same generator
-    would produce CRLF on Windows and LF elsewhere.
+    would produce CRLF on Windows and LF elsewhere. Unchanged files are not
+    touched (write_bytes).
     """
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8", newline="\n")
+    write_bytes(path, text.encode("utf-8"))
     return path
+
+
+def copy_file(source: Path, target: Path) -> bool:
+    """Copy when the bytes differ; True if the target changed."""
+    _record(target)
+    try:
+        stat = target.stat()
+        if stat.st_size == source.stat().st_size and target.read_bytes() == source.read_bytes():
+            return False
+    except FileNotFoundError:
+        target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(source, target)
+    return True
+
+
+def sync_tree(source: Path, target: Path) -> int:
+    """Copy every file of `source` into `target`, changed ones only.
+
+    Files in `target` that `source` lacks are left alone - prune() decides
+    about those. Returns the number of files that changed."""
+    changed = 0
+    for path in sorted(source.rglob("*")):
+        if path.is_file():
+            changed += copy_file(path, target / path.relative_to(source))
+    return changed
+
+
+def prune(root: Path, keep: set, predicate=lambda relpath: True) -> list[str]:
+    """Delete files under `root` that are not in `keep` and match `predicate`.
+
+    `predicate` gets the POSIX path relative to `root`, so a step deletes only
+    its own kind of file ("*.bib", "shapes/...") and never another step's.
+    Empty folders left behind are removed. Returns the deleted paths.
+    """
+    if not root.exists():
+        return []
+    removed = []
+    for path in sorted(root.rglob("*")):
+        if not path.is_file():
+            continue
+        relpath = path.relative_to(root).as_posix()
+        if os.path.abspath(path) not in keep and predicate(relpath):
+            path.unlink()
+            removed.append(relpath)
+    for folder in sorted((p for p in root.rglob("*") if p.is_dir()),
+                         key=lambda p: -len(p.parts)):
+        if not any(folder.iterdir()):
+            folder.rmdir()
+    return removed
 
 
 def write_json(data, path: Path) -> Path:
@@ -292,32 +386,30 @@ def bind_remaining(graph) -> list[str]:
     return assigned
 
 
-def write_canonical_turtle(graph, path: Path, *, keep_nt: bool = True) -> Path:
-    """Serialise a graph reproducibly: sorted N-Triples, Turtle made from those.
+def canonical_turtle(graph) -> str:
+    """Turtle that depends on the triples only, not on the process.
 
-    Skolemise blank nodes before calling this - a blank node gets a fresh id on
-    every parse and makes two otherwise identical runs differ.
+    Triples are inserted in sorted order into a fresh graph with the shared
+    prefixes; rdflib's Turtle writer then orders subjects itself. Checked over
+    several PYTHONHASHSEED values (S8b). Replaces the former detour through
+    sorted N-Triples on disk, which cost a temporary file per resource.
+    Skolemise blank nodes first - a blank node gets a fresh id on every parse.
     """
     from rdflib import Graph
-
-    path.parent.mkdir(parents=True, exist_ok=True)
-    lines = sorted(
-        line for line in graph.serialize(format="nt").splitlines() if line.strip()
-    )
-    nt_path = path.with_suffix(".nt")
-    write_text(nt_path, "\n".join(lines) + "\n")
 
     canonical = Graph()
     bind_prefixes(canonical)
     for prefix, namespace in graph.namespaces():
         canonical.bind(prefix, namespace, override=False)
-    canonical.parse(nt_path, format="nt")
+    for triple in sorted(graph, key=lambda t: tuple(term.n3() for term in t)):
+        canonical.add(triple)
     bind_remaining(canonical)
-    write_text(path, canonical.serialize(format="turtle"))
+    return canonical.serialize(format="turtle")
 
-    if not keep_nt:
-        nt_path.unlink()
-    return path
+
+def write_canonical_turtle(graph, path: Path) -> Path:
+    """canonical_turtle() written to `path` (only when it changed)."""
+    return write_text(path, canonical_turtle(graph))
 
 
 def script_json(value) -> str:
@@ -369,6 +461,41 @@ def content_fingerprint(*paths: Path) -> str:
         digest.update(rel(path).encode("utf-8"))
         digest.update(sha256_file(path).encode("ascii"))
     return digest.hexdigest()[:16]
+
+
+# A step whose inputs and code are unchanged since its last run, and whose
+# outputs are still in place, may skip its work (rdf, validate; S8b). The
+# record lives in data/derived/cache/ and is never committed: a fresh clone
+# simply builds everything once.
+CACHE = DERIVED / "cache"
+
+
+def _run_fingerprint(inputs: list[Path]) -> str:
+    return content_fingerprint(*inputs, Path(__file__).resolve())
+
+
+def cached_run(name: str, inputs: list[Path]) -> dict | None:
+    """The stored record of the last run if nothing changed since, else None."""
+    record_path = CACHE / f"{name}.json"
+    if not record_path.exists() or not all(p.exists() for p in inputs):
+        return None
+    record = read_json(record_path)
+    if record.get("fingerprint") != _run_fingerprint(inputs):
+        return None
+    for relpath, digest in record.get("outputs", {}).items():
+        path = ROOT / relpath
+        if not path.exists() or sha256_file(path) != digest:
+            return None
+    return record
+
+
+def store_run(name: str, inputs: list[Path], outputs, **extra) -> None:
+    """Remember fingerprint and outputs (with their hashes) of a finished run."""
+    record = {"fingerprint": _run_fingerprint(inputs),
+              "outputs": {rel(Path(p)): sha256_file(Path(p)) for p in sorted(outputs)
+                          if Path(p).exists()},
+              **extra}
+    write_json(record, CACHE / f"{name}.json")
 
 
 def git_revision() -> str | None:

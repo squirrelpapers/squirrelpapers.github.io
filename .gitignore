@@ -37,3 +37,8 @@ PATCH-README.md
 # Written by cite/rdf/map in the layout of docs/ and copied in by the site step.
 # docs/ is the published copy; tracking this one too would double every file.
 data/derived/web/
+
+# --- Step cache (S8b) ---
+# Fingerprints of the last rdf/validate run, so an unchanged run can skip them.
+# Machine-local by nature; a fresh clone just builds everything once.
+data/derived/cache/

@@ -213,6 +213,9 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Typisierung verwiesener Knoten | Landing Pages `foaf:Document`, EU-Sprach-IRIs `dct:LinguisticSystem`, IANA-Medientyp `dct:MediaType`, EU-Dateityp `dct:MediaTypeOrExtent`, SPDX-Algorithmus `spdx:ChecksumAlgorithm` — im veröffentlichten Graphen, weil DCAT-AP sie per `sh:class` verlangt und die Normdateien nicht mitgeladen werden | 2026-10-07 |
 | Konsistenzregeln über alle Einträge | Als SPARQL-Constraints am Journal-Knoten (eine Abfrage je Regel, fehlerhafter Eintrag als `sh:value`), nicht je Eintrag — 9 s → 0,1 s | 2026-10-07 |
 | COAR-Codes | Gegen COAR Resource Types 3.2 (Stand 2024-12-03) geprüft: alle Codes in `types.yaml` existieren; `c_c94f` = „conference output" für Workshop/Abstract/Session (`closeMatch`) | 2026-10-07 |
+| PDF-Vorschau | Kein `iframe` mehr: Zenodo verbietet das Einbetten seiner Vorschau (`frame-ancestors`). Auf Klick lädt die Seite das PDF über die Zenodo-API (`…/api/records/<id>/files/<datei>/content`) und zeichnet es mit pdf.js (selbst gehostet, Legacy-Build) in Canvas-Seiten, höchstens 30. Scheitert der Abruf, erscheint der Link „Vorschau auf Zenodo öffnen" (neuer Tab). Vor dem Klick keine Anfrage an Dritte | 2026-10-07 |
+| Inkrementeller Build | Dateien werden nur geschrieben, wenn sich ihr Inhalt ändert; kein Schritt leert mehr `docs/` oder `data/derived/web/`. Jeder Schritt löscht danach nur, was er selbst nicht mehr erzeugt und was zu seinen Dateiarten gehört (cite: `.bib/.ris/.csl.json`, rdf: `.ttl/.jsonld` außer `shapes/`, validate: `shapes/`, site: alles in `docs/` außer `KEEP_IN_DOCS`, z. B. `CNAME`) | 2026-10-07 |
+| Schritt-Cache | `rdf` und `validate` merken sich einen Fingerabdruck ihrer Eingaben, ihres Codes und von `sqp_utils.py` samt Prüfsummen ihrer Ausgaben in `data/derived/cache/` (nicht im Repo). Gleiche Eingaben und unversehrte Ausgaben → der Schritt gibt das letzte Ergebnis aus und überspringt die Arbeit; `--fresh` vergisst den Cache. CI startet ohne Cache, prüft also immer voll | 2026-10-07 |
 | S14: Einreichen | `python main.py add` (CLI, prüft und sortiert ein) als Kern, Issue-Formular + Action, die daraus einen Pull Request macht, obendrauf | 2026-10-07 |
 | S14: Bearbeiten | Der Editor kann auch bestehende Einträge laden und ändern (Ergebnis wieder als Schnipsel / Änderung über denselben Weg) | 2026-10-07 |
 | S14: Zenodo | Nur optionale Anreicherung; jedes Feld lässt sich von Hand füllen, der Editor funktioniert vollständig ohne DOI und ohne Netz zu Zenodo | 2026-10-07 |
@@ -271,6 +274,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S6 | Zitation: CSL-JSON, citeproc-js + Stilwahl, BibTeX/RIS je Ebene | dieses | S4 | erledigt 2026-10-07 |
 | S7 | RDF: Ontologie, DCAT 3/DCAT-AP 3, BIBO/FaBiO, CRM/CRMdig/LRMoo, JSON-LD | dieses | S4 | erledigt 2026-10-07 |
 | S8 | SHACL-Gate (eigene + DCAT-AP-3-Shapes), `--strict` | dieses | S7 | erledigt 2026-10-07 |
+| S8b | Nachbesserung: PDF-Vorschau mit pdf.js statt `iframe`, Build-Laufzeit (nur Geändertes schreiben, Schritt-Cache) | dieses | S8 | erledigt 2026-10-07 |
 | S9 | Filter (JSON-Index) + SPARQL-Seite (rdflib/Pyodide) | dieses | S7 | offen |
 | S10 | Karte der Konferenzorte + GeoJSON | dieses | S3, S4 | offen |
 | S11 | GitHub Action: Build + Pages-Deploy, optional Harvest | dieses | S5–S10 | offen |
@@ -278,11 +282,14 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S13 | Umstellung: Weiterleitung `squirrelpapers.net`, Archiv `squirrelpapers-volumes`, Wikidata-Pflege | — | S11, S12 | offen |
 | S14 | Eintragseditor im Web: DOI → Formular → YAML-Schnipsel für `content/vol<N>.yaml` | neues Repo (Arbeitstitel `squirrelpapers-editor`) | S4, S11 | offen |
 | S15 | Frontend überarbeiten: Navigation, Startseite, Feinschliff, Barrierefreiheit | dieses | S9, S10 | offen |
+| S16 | Datenmodell erklärt: Seiten EN/DE mit Mermaid-Grafiken (DCAT-Schicht, CRM-Schicht, wie alles zusammenhängt) | dieses | S7, S8 | offen |
 
 **Unabhängig.** Nach S4 laufen S5, S6, S7 und S10 in beliebiger Reihenfolge.
 S14 braucht nur das YAML-Format aus S2/S4 und kann jederzeit parallel in
 seinem eigenen Repo beginnen; die Einreichung (S14b) setzt S11 voraus. S15
-kommt bewusst zuletzt, wenn alle Seiten (Filter, Karte, SPARQL) existieren.
+kommt bewusst zuletzt, wenn alle Seiten (Filter, Karte, SPARQL, Datenmodell)
+existieren. S16 braucht nur den Graphen (S7) und die Shapes (S8) und kann
+jederzeit vor S15 laufen.
 S9 braucht S7, S8 braucht S7. S12 kann parallel zu S8–S11 vorbereitet werden,
 sobald die Ordnerstruktur aus S5 steht.
 
@@ -726,6 +733,42 @@ Zitierlabel liefert 2 Verstöße und `--strict` bricht ab; eine entschärfte Reg
 - 43 Titel ohne bekannte Sprache tragen kein Sprach-Tag — erlaubt; die Regel
   verlangt das Tag nur, wenn `dct:language` bekannt ist.
 
+## S8b — Nachbesserung: PDF-Vorschau und Laufzeit
+
+**Anlass (Flo, 2026-10-07):** (1) Firefox zeigt statt der Vorschau „Firefox
+darf diese eingebettete Seite nicht öffnen" — Zenodo erlaubt das Einbetten
+seiner Vorschauseite nicht (`frame-ancestors`). (2) Ein voller Lauf dauert
+unter Windows 94 s (rdf 25 s, validate 33 s, site 33 s), hier im Sandbox 17 s.
+
+### Erledigt 2026-10-07
+
+- **Vorschau:** `assets/js/sqp-preview.js` + pdf.js 6.4.299 unter
+  `assets/vendor/pdfjs/` (Legacy-Build: der normale Build braucht
+  `Map.getOrInsertComputed`, das aktuelle Browser noch nicht haben — mit ihm
+  scheiterte die Vorschau auch dann, wenn das PDF ankam). `step_merge.py`
+  liefert `pdf.content` (API-URL der Datei), `step_site.py` kopiert
+  `ASSET_DIRS`. Getestet mit Playwright/Chromium: PDF mit CORS-Kopf → 3
+  Seiten gerendert (EN und DE); Zenodo nicht erreichbar → Rückfall-Link; vor
+  dem Klick keine Anfrage an zenodo.org. **Nicht testbar von hier:** ob
+  zenodo.org für die API-Datei-URL wirklich `Access-Control-Allow-Origin`
+  sendet. Falls nicht, greift der Rückfall-Link, und die Vorschau braucht
+  einen anderen Weg (Teil D 8). Von `file://` lädt kein Browser pdf.js als
+  Modul — lokal also `python main.py --serve`.
+- **Laufzeit:** `sqp_utils.py` hat `write_bytes`/`write_text` (schreiben nur
+  bei Änderung), `copy_file`, `sync_tree`, `prune`, `tracking()` sowie
+  `cached_run`/`store_run`; `canonical_turtle()` serialisiert ohne den Umweg
+  über N-Triples auf der Platte (Ausgabe byteweise gleich, über mehrere
+  `PYTHONHASHSEED` geprüft). Der Link-Check liest Links per Regex statt
+  `html.parser` und löst Pfade als Zeichenketten auf (4 s → 0,3 s).
+  `main.py --fresh` leert den Cache.
+
+**Ergebnis (Sandbox):** erster Lauf 13,5 s, jeder weitere ohne Änderung
+**2,0 s** (merge 0,8 · cite 0,2 · rdf 0,1 · validate 0,0 · site 1,0); dabei
+wird keine Datei neu geschrieben. Zwei Läufe mit verschiedenem
+`PYTHONHASHSEED` und `--fresh` ergeben denselben Baum. Veraltete Dateien
+(Testdatei in `docs/v99/`, `web/v99/`) verschwinden beim nächsten Lauf;
+`docs/CNAME` bleibt.
+
 ## S9 — Filter und SPARQL
 
 **Ziel:** Facettenfilter (Jahr, Typ, Volume, Event, Person, Sprache) auf der
@@ -830,6 +873,49 @@ ergibt wie heute.
 alle Seitentypen; Lighthouse Accessibility ≥ 95 auf Start-, Heft- und
 Eintragsseite; keine toten Links.
 
+## S16 — Datenmodell erklärt
+
+**Ziel:** Seiten unter `docs/model/` (EN) und `docs/de/model/` (DE), die das
+Datenmodell für Menschen erklären — mit einfachen Grafiken im Mermaid-Stil,
+auf mehreren Ebenen:
+
+1. **Überblick:** Journal → Volume → Issue → Entry → Distribution (PDF),
+   daneben Person, Veranstaltung, Ort, Typ; welche Datei (`content/`,
+   `entries.json`, Turtle, JSON-LD, BibTeX) was enthält; wie YAML zu Seite
+   und Graph wird (Pipeline-Grafik `merge → … → site`).
+2. **DCAT-Schicht:** `dcat:Catalog`/`DatasetSeries`/`Dataset`/`Distribution`
+   mit BIBO, FaBiO, PRISM, schema.org, FOAF, GeoSPARQL, SKOS-Typen, dem
+   eigenen `sqp:`-Vokabular; was DCAT-AP verlangt und warum (Pflichtfelder,
+   Typisierung, A4).
+3. **CRM-Schicht:** `E73`/`lrmoo:F2`, Entstehung `E65`/`F28` mit `P14`,
+   `P4`/`E52`, Veranstaltung `E7` mit `P7`/`E53`, PDF `crmdig:D1`,
+   Identifikatoren `E42`, Titel `E35`, Hefte und Bände über `P106i`.
+4. **Zusammenhang:** dieselbe IRI in beiden Graphen; Gegenüberstellung je
+   Ressource (DCAT-Aussage ↔ CRM-Pfad); w3id-IRI ↔ Seite ↔ Datei (A6).
+5. **Beispiel:** ein echter Eintrag (z. B. 7(4), λ5) mit seinen Tripeln aus
+   beiden Graphen, verlinkt auf `index.ttl`/`index.jsonld`.
+6. **Prüfregeln:** welche SHACL-Shapes was sichern (aus `shapes/`, Kommentare
+   und `sh:message`).
+
+- Grafiken als Mermaid-Quelltext in `content/model/*.mmd` (oder in einer YAML
+  mit Text EN/DE), beim Build zu **statischem SVG** gerendert — keine
+  Mermaid-Bibliothek im Browser, kein CDN. Werkzeug klären: `mermaid-cli`
+  (Node + Chromium) ist schwer für Windows und CI; Alternative: Mermaid selbst
+  gehostet unter `assets/vendor/` und clientseitig rendern, oder die Grafiken
+  aus dem Graphen erzeugen (Klassen und Prädikate aus `dist/*.ttl`, damit die
+  Grafik nicht vom Modell abweicht). Entscheidung im Schritt.
+- Farben nach Flos Schema: Subjekt/Objekt `fill:#e2e8f0` (pastellgraues
+  Oval), RealObject `#166534` (weiße Schrift), Klasse `#9a3412` (weiß),
+  Term `#4c1d95` (weiß), OWL `#ffffff`, PropMeta `#fbbf24`; Rand jeweils
+  `#000000`.
+- Navigation: Link „Datenmodell" im Kopf oder Fuß; S15 bindet ihn endgültig ein.
+
+**Uploads:** `PRIMER.md`.
+
+**Abnahme:** Jede Klasse und jedes Prädikat, das in einer Grafik vorkommt,
+existiert im veröffentlichten Graphen (Build-Prüfung, sonst Warnung);
+EN/DE vollständig; Grafiken ohne Netz lesbar; Screenshot-Durchgang mit Flo.
+
 ---
 
 # Teil D — Offene Punkte
@@ -838,7 +924,7 @@ Eintragsseite; keine toten Links.
    heran (Befund 10). Flo speichert die drei WordPress-Seiten als HTML nach
    `data/raw/site/` (oder kopiert den Text). Dabei klären: § 5 TMG → § 5 DDG;
    Datenschutzerklärung muss für GitHub Pages (Server-Logs bei GitHub,
-   Zenodo-`iframe`, OSM-Kacheln, CDN für Pyodide) neu gefasst werden. Ich bin
+   Zenodo-PDF-Abruf (S8b), OSM-Kacheln, CDN für Pyodide) neu gefasst werden. Ich bin
    kein Jurist — der Text ist von Flo zu verantworten.
 2. **Hintergrundgrafik der alten Seite** (Netzwerk-Muster). Hochladen oder
    als SVG neu zeichnen?
@@ -881,3 +967,9 @@ Eintragsseite; keine toten Links.
    Action in einem anderen Repo (z. B. einem Paper-Repo), die bei einem
    Release einen PR hierher schickt. Lassen sich kombinieren — (a) für das
    Formular, (b) als gemeinsamer Kern. Flo entscheidet.
+
+8. **PDF-Vorschau gegen das echte Zenodo prüfen (aus S8b).** Flo öffnet nach
+   `python main.py --serve` eine Eintragsseite mit PDF und klickt „PDF-Vorschau
+   anzeigen". Erscheinen die Seiten → fertig. Erscheint der Rückfall-Link, in
+   der Browser-Konsole nach „CORS" schauen und den Text an Claude geben;
+   dann bleibt nur der Link oder ein Abruf über einen eigenen Dienst.

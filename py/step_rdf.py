@@ -22,8 +22,8 @@ IRIs under their resource. Drafts are not in the graph.
 from __future__ import annotations
 
 import json
+import os
 import re
-import shutil
 import sys
 from collections import Counter
 from pathlib import Path
@@ -33,7 +33,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from sqp_utils import (  # noqa: E402
     BASE, DERIVED, DIST, ENTRIES_JSON, EVENT_NS, JOURNAL_IRI, ONTOLOGY_NS, ORG_NS,
     PLACE_NS, PREFIXES, RELEASE, REPORTS, ROOT, SITE, TYPE_NS, bind_prefixes,
-    read_json, rel, skipped, slugify, write_canonical_turtle, write_text,
+    cached_run, canonical_turtle, copy_file, prune, read_json, rel, skipped, slugify,
+    store_run, tracking, write_canonical_turtle, write_text,
 )
 
 WEB = DERIVED / "web"
@@ -596,22 +597,45 @@ def jsonld(graph) -> str:
 
 
 def turtle(graph) -> str:
-    """Canonical Turtle of a small graph, via the shared writer."""
-    import tempfile
-
-    with tempfile.TemporaryDirectory() as tmp:
-        path = Path(tmp) / "g.ttl"
-        write_canonical_turtle(graph, path, keep_nt=False)
-        return path.read_text(encoding="utf-8")
+    """Canonical Turtle of a small graph."""
+    return canonical_turtle(graph)
 
 
 # ---------------------------------------------------------------------------
+
+
+# Everything the graph is made from. Unchanged inputs and intact outputs let a
+# run skip this step (S8b: 25 s of a 94 s Windows run).
+INPUTS = [ENTRIES_JSON, ONTOLOGY_SRC, Path(__file__).resolve()]
 
 
 def main(strict: bool = False) -> None:
     if not ENTRIES_JSON.exists():
         skipped(f"{rel(ENTRIES_JSON)} missing (S4)")
         return
+    record = cached_run("rdf", INPUTS)
+    if record:
+        summary = record["summary"] + ["inputs unchanged since the last run: graph and "
+                                       "files kept (python main.py --fresh rebuilds)"]
+        produced = {os.path.abspath(ROOT / path) for path in record["outputs"]}
+    else:
+        with tracking() as produced:
+            summary = build()
+    # Own kinds of file only: shapes/*.ttl in web/ belong to validate.
+    removed = prune(WEB, produced, lambda path: path.endswith((".ttl", ".jsonld"))
+                    and not path.startswith("shapes/"))
+    for line in summary:
+        print(line)
+    if record:
+        if removed:
+            print(f"removed {len(removed)} stale files from {rel(WEB)}/")
+        return
+    if removed:
+        print(f"removed {len(removed)} stale files from {rel(WEB)}/")
+    store_run("rdf", INPUTS, produced, summary=summary)
+
+
+def build() -> list[str]:
     from rdflib import BNode, Graph
 
     data = read_json(ENTRIES_JSON)
@@ -644,13 +668,12 @@ def main(strict: bool = False) -> None:
         assert not any(isinstance(t, BNode) for triple in graph for t in triple), "blank node in graph"
 
     # dumps
-    write_canonical_turtle(b.g, GRAPH, keep_nt=False)
-    write_canonical_turtle(b.crm, CRM_GRAPH, keep_nt=False)
+    write_canonical_turtle(b.g, GRAPH)
+    write_canonical_turtle(b.crm, CRM_GRAPH)
     types = b.types_graph()
-    write_canonical_turtle(types, TYPES_TTL, keep_nt=False)
-    ONTOLOGY_OUT.parent.mkdir(parents=True, exist_ok=True)
+    write_canonical_turtle(types, TYPES_TTL)
     ontology = Graph().parse(ONTOLOGY_SRC, format="turtle")
-    write_canonical_turtle(ontology, ONTOLOGY_OUT, keep_nt=False)
+    write_canonical_turtle(ontology, ONTOLOGY_OUT)
 
     # web copies
     index = index_by_subject((b.g, b.crm))
@@ -665,8 +688,7 @@ def main(strict: bool = False) -> None:
                         (CRM_GRAPH, "downloads/squirrelpapers.crm.ttl"),
                         (TYPES_TTL, "vocab/types.ttl"),
                         (ONTOLOGY_OUT, "ontology/index.ttl")):
-        (WEB / target).parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(src, WEB / target)
+        copy_file(src, WEB / target)
     merged = Graph()
     bind_prefixes(merged)
     for g in (b.g, b.crm):
@@ -675,9 +697,9 @@ def main(strict: bool = False) -> None:
     write_text(WEB / "downloads" / "squirrelpapers.jsonld", jsonld(merged))
 
     write_report(b, types, ontology, resources)
-    print(f"{len(b.g)} triples (DCAT) + {len(b.crm)} (CRM) -> {rel(GRAPH)}, {rel(CRM_GRAPH)}")
-    print(f"{len(resources)} resources with index.ttl and index.jsonld; "
-          f"{len(b.seen_people)} people, {len(b.seen_events)} events, {len(b.seen_places)} places")
+    return [f"{len(b.g)} triples (DCAT) + {len(b.crm)} (CRM) -> {rel(GRAPH)}, {rel(CRM_GRAPH)}",
+            f"{len(resources)} resources with index.ttl and index.jsonld; "
+            f"{len(b.seen_people)} people, {len(b.seen_events)} events, {len(b.seen_places)} places"]
 
 
 def write_report(b: Builder, types, ontology, resources) -> None:

@@ -51,8 +51,14 @@
       
       <section class="preview">
         <h2>Vorschau</h2>
-        <button type="button" class="button" data-preview-src="https://zenodo.org/records/2620930/preview/2019_04_02_Wintervortraege_Archaelogie40.pdf" data-preview-title="Vorschau: 2019_04_02_Wintervortraege_Archaelogie40.pdf">PDF-Vorschau anzeigen</button>
-        <p class="muted small">Die Vorschau wird erst auf deinen Klick von zenodo.org geladen. <a href="https://zenodo.org/records/2620930/files/2019_04_02_Wintervortraege_Archaelogie40.pdf?download=1">PDF herunterladen</a> (2019_04_02_Wintervortraege_Archaelogie40.pdf)</p>
+        <button type="button" class="button" aria-controls="pdf-preview"
+          data-pdf="https://zenodo.org/api/records/2620930/files/2019_04_02_Wintervortraege_Archaelogie40.pdf/content" data-root="../../../../" data-download="https://zenodo.org/records/2620930/files/2019_04_02_Wintervortraege_Archaelogie40.pdf?download=1"
+          data-zenodo-preview="https://zenodo.org/records/2620930/preview/2019_04_02_Wintervortraege_Archaelogie40.pdf" data-msg-loading="Das PDF wird von zenodo.org geladen …"
+          data-msg-failed="Das PDF ließ sich hier nicht laden." data-msg-open="Vorschau auf Zenodo öffnen"
+          data-msg-page="Seite" data-msg-download="PDF herunterladen">PDF-Vorschau anzeigen</button>
+        <div id="pdf-preview" class="preview-box" hidden></div>
+        <p class="muted small">Die Vorschau wird erst auf deinen Klick von zenodo.org geladen. <a href="https://zenodo.org/records/2620930/files/2019_04_02_Wintervortraege_Archaelogie40.pdf?download=1">PDF herunterladen</a> (2019_04_02_Wintervortraege_Archaelogie40.pdf)
+          · <a href="https://zenodo.org/records/2620930/preview/2019_04_02_Wintervortraege_Archaelogie40.pdf" target="_blank" rel="noopener">Vorschau auf Zenodo öffnen</a></p>
       </section>
       
 
@@ -115,18 +121,8 @@
   </div>
 </footer>
 <script>
-// Click-to-load PDF preview and copy buttons. Nothing else runs on this site.
+// Copy buttons. The PDF preview and the citation styles have their own scripts.
 document.addEventListener("click", function (event) {
-  var load = event.target.closest("[data-preview-src]");
-  if (load) {
-    var frame = document.createElement("iframe");
-    frame.src = load.getAttribute("data-preview-src");
-    frame.title = load.getAttribute("data-preview-title");
-    frame.className = "preview-frame";
-    frame.setAttribute("loading", "lazy");
-    load.parentNode.replaceChild(frame, load);
-    return;
-  }
   var copy = event.target.closest("[data-copy]");
   if (copy && navigator.clipboard) {
     var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
@@ -143,6 +139,7 @@ document.addEventListener("click", function (event) {
 <script src="../../../../assets/js/citeproc.js" defer></script>
 <script src="../../../../assets/js/sqp-csl-data.js" defer></script>
 <script src="../../../../assets/js/sqp-cite.js" defer></script>
+<script src="../../../../assets/js/sqp-preview.js" defer></script>
 
 </body>
 </html>

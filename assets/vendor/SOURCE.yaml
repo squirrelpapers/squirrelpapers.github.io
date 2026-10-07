@@ -29,3 +29,15 @@ csl_locales:
   licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)
   files: [locales-en-GB.xml, locales-en-US.xml, locales-de-DE.xml]
   taken: 2026-10-07
+
+pdfjs:
+  name: pdf.js (pdfjs-dist)
+  version: 6.4.299
+  source: https://www.npmjs.com/package/pdfjs-dist
+  files: [pdfjs/pdf.min.mjs, pdfjs/pdf.worker.min.mjs, pdfjs/standard_fonts/, pdfjs/LICENSE]
+  build: legacy/build/ of the package - the modern build needs Map.getOrInsertComputed,
+    which current Chromium and Firefox releases do not have yet (S8b)
+  licence: Apache-2.0 (see pdfjs/LICENSE)
+  note: Renders the PDF preview on entry pages (S8b); Zenodo does not allow its
+    preview page inside a frame on another site.
+  taken: 2026-10-07

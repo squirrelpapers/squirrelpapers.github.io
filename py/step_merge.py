@@ -471,6 +471,9 @@ def main(strict: bool = False) -> None:
                                 "key": pdf["key"],
                                 "preview": f"https://zenodo.org/records/{record['id']}/preview/{quote(pdf['key'])}",
                                 "download": pdf["url"],
+                                # The file itself, for pdf.js (S8b). Zenodo forbids its
+                                # preview page in a frame on another site.
+                                "content": f"https://zenodo.org/api/records/{record['id']}/files/{quote(pdf['key'])}/content",
                             }
                     if meta.get("version") and "version" not in out:
                         out["version"] = meta["version"]
