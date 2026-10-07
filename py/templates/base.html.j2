@@ -21,6 +21,8 @@
     <nav class="site-nav" aria-label="{{ 'Main' if lang == 'en' else 'Hauptmenü' }}">
       <a href="{{ home }}"{% if nav == 'home' %} aria-current="page"{% endif %}>{{ t.nav_home }}</a>
       <a href="{{ home }}volumes/"{% if nav == 'volumes' %} aria-current="page"{% endif %}>{{ t.nav_volumes }}</a>
+      <a href="{{ home }}search/"{% if nav == 'search' %} aria-current="page"{% endif %}>{{ t.nav_search }}</a>
+      <a href="{{ home }}sparql/"{% if nav == 'sparql' %} aria-current="page"{% endif %}>{{ t.nav_sparql }}</a>
       <a href="{{ home }}impressum/"{% if nav == 'impressum' %} aria-current="page"{% endif %}>{{ t.nav_impressum }}</a>
       <a href="{{ home }}privacy/"{% if nav == 'privacy' %} aria-current="page"{% endif %}>{{ t.nav_privacy }}</a>
       <a class="lang-switch" href="{{ other_lang_href }}" hreflang="{{ other_lang }}" lang="{{ other_lang }}">{{ t.other_lang }}</a>

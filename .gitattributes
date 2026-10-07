@@ -9,3 +9,6 @@
 *.ttf binary
 *.woff binary
 *.woff2 binary
+*.wasm binary
+*.whl binary
+*.zip binary

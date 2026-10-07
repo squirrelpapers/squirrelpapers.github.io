@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suche – Squirrel Papers</title>
+
+<link rel="canonical" href="https://squirrelpapers.github.io/de/search/">
+<link rel="alternate" hreflang="en" href="https://squirrelpapers.github.io/search/">
+<link rel="alternate" hreflang="de" href="https://squirrelpapers.github.io/de/search/">
+<link rel="icon" type="image/png" href="../../assets/img/sqp-logo.png">
+<link rel="stylesheet" href="../../assets/css/sqp.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="../../de/">Squirrel Papers</a>
+    <span class="site-tagline">vom Research Squirrel Engineers Network</span>
+    <nav class="site-nav" aria-label="Hauptmenü">
+      <a href="../../de/">Start</a>
+      <a href="../../de/volumes/">Bände &amp; Hefte</a>
+      <a href="../../de/search/" aria-current="page">Suche</a>
+      <a href="../../de/sparql/">SPARQL</a>
+      <a href="../../de/impressum/">Impressum</a>
+      <a href="../../de/privacy/">Datenschutz</a>
+      <a class="lang-switch" href="../../search/" hreflang="en" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap">
+  <h1>Das Journal durchsuchen</h1>
+  <p class="lead">Alle veröffentlichten Beiträge, durchsuchbar nach Text und eingrenzbar nach Typ, Jahr, Band, Veranstaltung, Person und Sprache.</p>
+  <noscript><p class="notice">Die Suche braucht JavaScript. Ohne JavaScript listen die Bandseiten alle Beiträge auf. <a href="../../de/volumes/">Bände &amp; Hefte</a></p></noscript>
+  <div class="search" id="search" hidden>
+    <div class="search-bar">
+      <label for="search-text" class="visually-hidden">Suchtext</label>
+      <input id="search-text" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Titel, Person, Veranstaltung, DOI, Wort aus dem Abstract …">
+      <button type="button" class="button button-small" id="search-clear">Filter zurücksetzen</button>
+    </div>
+    <div class="search-grid">
+      <details class="facet-panel" id="search-panel" open>
+        <summary>Filter</summary>
+        <aside class="facets" id="search-facets" aria-label="Filter"></aside>
+      </details>
+      <section class="search-results">
+        <p class="search-count" id="search-count" aria-live="polite"></p>
+        <ul class="result-list" id="search-results"></ul>
+      </section>
+    </div>
+  </div>
+  <p class="muted small">Die Suche läuft in deinem Browser über einen Index aller Beiträge:
+    <a href="../../search/index.json" download>index.json</a>.</p>
+</div>
+<script type="application/json" id="search-ui">{"facets": {"event": "Veranstaltung", "language": "Sprache", "person": "Person", "type": "Typ", "volume": "Band", "year": "Jahr"}, "fewer": "Weniger zeigen", "home": "../", "lang": "de", "many": "{n} Beiträge", "more": "Alle zeigen ({n})", "none": "Kein Beitrag passt. Entferne einen Filter oder ändere den Text.", "one": "1 Beitrag"}</script>
+
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>Über die Squirrel Papers</h2>
+      <p>Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften.</p>
+      <p>Die Squirrel Papers sind ein offiziell vom Nationalen ISSN-Zentrum für Deutschland anerkanntes Journal mit der ISSN 2750-560X.</p>
+    </section>
+    <section>
+      <h2>Kontakt</h2>
+      <p><strong>E-Mail</strong><br>mail [at] squirrelpapers [dot] net</p>
+      <p><strong>Herausgeber / Head Squirrel</strong><br>
+        <a href="https://orcid.org/0000-0002-3246-3531">Florian Thiery</a></p>
+      <p>ISSN 2750-560X · <a href="https://www.wikidata.org/wiki/Q89658875">Wikidata: Q89658875</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>Die Metadaten dieser Seite stehen unter CC BY 4.0; jedes Paper, Poster, jeder Datensatz und jede Software trägt auf Zenodo eine eigene Lizenz.</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">Quellcode</a>
+      · <a href="../../de/impressum/">Impressum</a>
+      · <a href="../../de/privacy/">Datenschutz</a></p>
+  </div>
+</footer>
+<script>
+// Copy buttons. The PDF preview and the citation styles have their own scripts.
+document.addEventListener("click", function (event) {
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+
+<script src="../../search/index.js"></script>
+<script src="../../assets/js/sqp-search.js"></script>
+
+</body>
+</html>

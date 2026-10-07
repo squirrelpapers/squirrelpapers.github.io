@@ -7,7 +7,7 @@
     python main.py --skip map       run everything except this step
     python main.py --dry-run        print the plan, run nothing
     python main.py --strict         warnings become errors (this is what CI runs)
-    python main.py --fresh          forget the step cache: rdf and validate run
+    python main.py --fresh          forget the step cache: rdf, validate and sparql run
                                     even if their inputs did not change
     python main.py --open           build, then open docs/index.html from disk
     python main.py --serve          build, then serve docs/ on 127.0.0.1:8000
@@ -64,13 +64,13 @@ STEPS: list[Step] = [
     Step("cite", "step_cite", "S6   CSL-JSON, BibTeX, RIS per entry, issue, volume", True),
     Step("rdf", "step_rdf", "S7   DCAT 3 / CRM graph -> dist/", True),
     Step("validate", "step_validate", "S8   SHACL gate", True),
+    # sparql checks the example queries against the graph and writes the search
+    # index; it writes no HTML - the site step renders both pages (S9).
+    Step("sparql", "step_sparql", "S9   search index, example queries checked against the graph", True),
     Step("map", "step_map", "S10  event places -> dist/events.geojson", True),
-    # site comes after cite, rdf and map: it copies their products into docs/
-    # and links them from every page.
+    # site comes last: it copies the products of cite, rdf, validate, sparql
+    # and map into docs/ and links them from every page.
     Step("site", "step_site", "S5   render docs/ (EN and DE) for GitHub Pages", True),
-    # After site: the query page lives in the docs/ tree the site step lays out
-    # and loads the graph the site step publishes there.
-    Step("sparql", "step_sparql", "S9   filter index and browser SPARQL page", True),
 ]
 
 

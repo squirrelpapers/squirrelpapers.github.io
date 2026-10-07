@@ -1,0 +1,37 @@
+# Conferences and where they took place
+# Events with their place as a GeoSPARQL point: the ?wkt column can be pasted
+# into QGIS as delimited text. Online events have no place and are left out.
+#
+# Squirrel Papers - https://squirrelpapers.github.io/sparql/
+# Graphs: downloads/squirrelpapers.ttl, downloads/squirrelpapers.crm.ttl, vocab/types.ttl, ontology/index.ttl
+
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX event: <http://purl.org/NET/c4dm/event.owl#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sqp: <https://w3id.org/squirrelpapers/ontology#>
+PREFIX sqpt: <https://w3id.org/squirrelpapers/type/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?event ?start ?place ?wkt (COUNT(DISTINCT ?entry) AS ?entries)
+WHERE {
+  ?entry bibo:presentedAt ?e .
+  ?e rdfs:label ?event ;
+     schema:location ?p .
+  OPTIONAL { ?e schema:startDate ?start }
+  ?p rdfs:label ?place ;
+     geo:hasGeometry/geo:asWKT ?wkt .
+}
+GROUP BY ?event ?start ?place ?wkt
+ORDER BY DESC(?start) ?event

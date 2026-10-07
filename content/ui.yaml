@@ -68,6 +68,48 @@ en:
   zenodo_title_differs: Title on Zenodo
   months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
   languages: {en: English, de: German}
+  # S9: search and SPARQL pages
+  nav_search: Search
+  nav_sparql: SPARQL
+  search_title: Search the journal
+  search_intro: Every published entry, searchable by text and narrowed down by type, year, volume, event, person and language.
+  search_label: Search text
+  search_placeholder: Title, person, event, DOI, word from the abstract …
+  search_clear: Clear filters
+  search_one: 1 entry
+  search_many: "{n} entries"
+  search_none: No entry matches. Remove a filter or change the text.
+  search_show_more: "Show all ({n})"
+  search_show_fewer: Show fewer
+  search_filters: Filters
+  search_nojs: The search needs JavaScript. Without it, the volume pages list every entry.
+  search_index_note: The search runs in your browser over an index of all entries
+  facet_type: Type
+  facet_year: Year
+  facet_volume: Volume
+  facet_event: Event
+  facet_person: Person
+  facet_language: Language
+  sparql_title: Query the journal with SPARQL
+  sparql_intro: The whole journal is a knowledge graph - DCAT 3 / DCAT-AP 3 and the same resources in CIDOC CRM. This page runs SPARQL over it in your browser. Every query is editable; change it, press Run, and see what the graph says.
+  sparql_engine: "There is no SPARQL endpoint and no server behind this page. On request your browser loads Python (Pyodide {pyodide}) and rdflib {rdflib} from this site, about 13 MB, then the four Turtle files listed below with {triples} triples. Nothing you type leaves your machine."
+  sparql_start: Start the query engine
+  sparql_loading_runtime: Loading Python …
+  sparql_loading_rdflib: Loading rdflib …
+  sparql_loading_graph: Loading the graph …
+  sparql_ready: "Ready: {triples} triples loaded. Edit a query and press Run."
+  sparql_failed: "The query engine could not start:"
+  sparql_file_url: The query engine cannot start from a file on disk. Run python main.py --serve and open the page from there.
+  sparql_run: Run
+  sparql_reset: Reset
+  sparql_running: running …
+  sparql_rows: "{n} rows"
+  sparql_rows_first: "First {shown} of {n} rows"
+  sparql_no_rows: No results. The query is valid but matches nothing.
+  sparql_time: "{s} s"
+  sparql_at_build: "{n} rows when this page was built"
+  sparql_graphs: Graphs
+  sparql_footer: The queries come from content/queries.yaml in the repository and are run against these graphs whenever the site is built; a query that returns nothing stops the build. The same queries are available as .rq files for any other SPARQL processor.
 
 de:
   lang_name: Deutsch
@@ -136,3 +178,45 @@ de:
   zenodo_title_differs: Titel auf Zenodo
   months: [Jan., Feb., März, Apr., Mai, Juni, Juli, Aug., Sep., Okt., Nov., Dez.]
   languages: {en: Englisch, de: Deutsch}
+  # S9: Such- und SPARQL-Seite
+  nav_search: Suche
+  nav_sparql: SPARQL
+  search_title: Das Journal durchsuchen
+  search_intro: Alle veröffentlichten Beiträge, durchsuchbar nach Text und eingrenzbar nach Typ, Jahr, Band, Veranstaltung, Person und Sprache.
+  search_label: Suchtext
+  search_placeholder: Titel, Person, Veranstaltung, DOI, Wort aus dem Abstract …
+  search_clear: Filter zurücksetzen
+  search_one: 1 Beitrag
+  search_many: "{n} Beiträge"
+  search_none: Kein Beitrag passt. Entferne einen Filter oder ändere den Text.
+  search_show_more: "Alle zeigen ({n})"
+  search_show_fewer: Weniger zeigen
+  search_filters: Filter
+  search_nojs: Die Suche braucht JavaScript. Ohne JavaScript listen die Bandseiten alle Beiträge auf.
+  search_index_note: Die Suche läuft in deinem Browser über einen Index aller Beiträge
+  facet_type: Typ
+  facet_year: Jahr
+  facet_volume: Band
+  facet_event: Veranstaltung
+  facet_person: Person
+  facet_language: Sprache
+  sparql_title: Das Journal mit SPARQL abfragen
+  sparql_intro: Das ganze Journal ist ein Wissensgraph - DCAT 3 / DCAT-AP 3 und dieselben Ressourcen in CIDOC CRM. Diese Seite führt SPARQL darauf in deinem Browser aus. Jede Abfrage lässt sich bearbeiten; ändern, „Ausführen“ drücken und sehen, was der Graph sagt.
+  sparql_engine: "Hinter dieser Seite steht kein SPARQL-Endpunkt und kein Server. Auf Wunsch lädt dein Browser Python (Pyodide {pyodide}) und rdflib {rdflib} von dieser Seite, etwa 13 MB, danach die vier unten genannten Turtle-Dateien mit {triples} Tripeln. Nichts, was du eintippst, verlässt deinen Rechner."
+  sparql_start: Abfrage-Engine starten
+  sparql_loading_runtime: Python wird geladen …
+  sparql_loading_rdflib: rdflib wird geladen …
+  sparql_loading_graph: Der Graph wird geladen …
+  sparql_ready: "Bereit: {triples} Tripel geladen. Abfrage bearbeiten und „Ausführen“ drücken."
+  sparql_failed: "Die Abfrage-Engine ließ sich nicht starten:"
+  sparql_file_url: Von einer Datei auf der Festplatte startet die Abfrage-Engine nicht. python main.py --serve ausführen und die Seite von dort öffnen.
+  sparql_run: Ausführen
+  sparql_reset: Zurücksetzen
+  sparql_running: läuft …
+  sparql_rows: "{n} Zeilen"
+  sparql_rows_first: "Erste {shown} von {n} Zeilen"
+  sparql_no_rows: Keine Ergebnisse. Die Abfrage ist gültig, passt aber auf nichts.
+  sparql_time: "{s} s"
+  sparql_at_build: "{n} Zeilen beim Erstellen dieser Seite"
+  sparql_graphs: Graphen
+  sparql_footer: Die Abfragen stammen aus content/queries.yaml im Repository und werden bei jedem Build gegen diese Graphen ausgeführt; eine Abfrage ohne Ergebnis hält den Build an. Dieselben Abfragen gibt es als .rq-Dateien für jeden anderen SPARQL-Prozessor.

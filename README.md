@@ -35,10 +35,20 @@ Other options: `--only`, `--from`, `--skip`, `--dry-run`, `--strict` (what CI
 runs), `--open`, `--serve`, `--fresh`.
 
 Steps write a file only when its content changed and delete only what they no
-longer produce. `rdf` and `validate` are skipped when their inputs are the same
-as in the last run (fingerprints in `data/derived/cache/`, not committed);
-`--fresh` forgets them. The PDF preview loads pdf.js as a module, which
-browsers refuse from `file://`: use `--serve` to try it locally.
+longer produce. `rdf`, `validate` and `sparql` are skipped when their inputs
+are the same as in the last run (fingerprints in `data/derived/cache/`, not
+committed); `--fresh` forgets them.
+
+`/search/` filters all entries by text, type, year, volume, event, person and
+language; `/sparql/` runs the example queries from `content/queries.yaml` in the
+browser (rdflib under Pyodide, served from this site). Every example query runs
+at build time too, and one that returns nothing stops the build. Install the
+rdflib version the page uses (see `assets/vendor/SOURCE.yaml`) so both answer
+alike; the `sparql` step warns otherwise.
+
+The PDF preview and the SPARQL page load modules (pdf.js, Pyodide), which
+browsers refuse from `file://`: use `--serve` to try them locally. The search
+page works from disk as well.
 
 ## Layout
 
@@ -83,6 +93,9 @@ Served from this site, copied unchanged into `assets/vendor/` (details in
   Harvard Cite Them Right, IEEE, MLA, Vancouver) and
   [CSL locales](https://github.com/citation-style-language/locales) (en-GB, en-US, de-DE) — CC BY-SA 3.0
 - [pdf.js](https://github.com/mozilla/pdf.js) 6.4.299 (legacy build, with its standard fonts) — Apache-2.0
+- [Pyodide](https://pyodide.org/) 314.0.7 — MPL-2.0, with the wheels of
+  [rdflib](https://github.com/RDFLib/rdflib) 7.6.0 (BSD-3-Clause) and
+  [pyparsing](https://github.com/pyparsing/pyparsing) 3.3.2 (MIT), for the SPARQL page
 
 ## Citation
 

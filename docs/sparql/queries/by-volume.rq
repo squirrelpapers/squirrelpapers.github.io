@@ -1,0 +1,37 @@
+# Entries per volume and issue
+# Walks the chain entry → issue → volume through dcat:inSeries, the way DCAT 3
+# links datasets to dataset series, and counts what hangs on each issue.
+#
+# Squirrel Papers - https://squirrelpapers.github.io/sparql/
+# Graphs: downloads/squirrelpapers.ttl, downloads/squirrelpapers.crm.ttl, vocab/types.ttl, ontology/index.ttl
+
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX event: <http://purl.org/NET/c4dm/event.owl#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sqp: <https://w3id.org/squirrelpapers/ontology#>
+PREFIX sqpt: <https://w3id.org/squirrelpapers/type/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?volume ?issue ?sigil (COUNT(?entry) AS ?entries) ?issueIri
+WHERE {
+  ?entry a bibo:Document ;
+         dcat:inSeries ?issueIri .
+  ?issueIri prism:number ?issue ;
+            sqp:sigil ?sigil ;
+            dcat:inSeries ?volumeIri .
+  ?volumeIri prism:volume ?volume .
+}
+GROUP BY ?volume ?issue ?sigil ?issueIri
+ORDER BY DESC(xsd:integer(?volume)) xsd:integer(?issue)

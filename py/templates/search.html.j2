@@ -1,0 +1,33 @@
+{% extends "base.html.j2" %}
+{% block main %}
+<div class="wrap">
+  <h1>{{ t.search_title }}</h1>
+  <p class="lead">{{ t.search_intro }}</p>
+  <noscript><p class="notice">{{ t.search_nojs }} <a href="{{ home }}volumes/">{{ t.nav_volumes }}</a></p></noscript>
+  <div class="search" id="search" hidden>
+    <div class="search-bar">
+      <label for="search-text" class="visually-hidden">{{ t.search_label }}</label>
+      <input id="search-text" type="search" autocomplete="off" spellcheck="false"
+             placeholder="{{ t.search_placeholder }}">
+      <button type="button" class="button button-small" id="search-clear">{{ t.search_clear }}</button>
+    </div>
+    <div class="search-grid">
+      <details class="facet-panel" id="search-panel" open>
+        <summary>{{ t.search_filters }}</summary>
+        <aside class="facets" id="search-facets" aria-label="{{ t.search_filters }}"></aside>
+      </details>
+      <section class="search-results">
+        <p class="search-count" id="search-count" aria-live="polite"></p>
+        <ul class="result-list" id="search-results"></ul>
+      </section>
+    </div>
+  </div>
+  <p class="muted small">{{ t.search_index_note }}:
+    <a href="{{ root }}search/index.json" download>index.json</a>.</p>
+</div>
+<script type="application/json" id="search-ui">{{ search_ui | safe }}</script>
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}search/index.js"></script>
+<script src="{{ root }}assets/js/sqp-search.js"></script>
+{% endblock %}

@@ -1,0 +1,39 @@
+# CIDOC CRM: what was presented where
+# An event is an E7 Activity that used the entry (P16) and took place at an
+# E53 Place (P7), whose position is a WKT literal (P168). The PDF of an entry
+# is a CRMdig D1 Digital Object that incorporates it (P165).
+#
+# Squirrel Papers - https://squirrelpapers.github.io/sparql/
+# Graphs: downloads/squirrelpapers.ttl, downloads/squirrelpapers.crm.ttl, vocab/types.ttl, ontology/index.ttl
+
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX event: <http://purl.org/NET/c4dm/event.owl#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sqp: <https://w3id.org/squirrelpapers/ontology#>
+PREFIX sqpt: <https://w3id.org/squirrelpapers/type/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?event ?place ?wkt ?title ?pdf
+WHERE {
+  ?activity a crm:E7_Activity ;
+            crm:P1_is_identified_by/crm:P190_has_symbolic_content ?event ;
+            crm:P16_used_specific_object ?entry ;
+            crm:P7_took_place_at ?p .
+  ?p crm:P168_place_is_defined_by ?wkt ;
+     rdfs:label ?place .
+  ?entry crm:P102_has_title/crm:P190_has_symbolic_content ?title .
+  OPTIONAL { ?pdf crm:P165_incorporates ?entry ; a crmdig:D1_Digital_Object }
+}
+ORDER BY ?event ?title

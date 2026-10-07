@@ -238,3 +238,59 @@ main .wrap > h1:first-child, .breadcrumb + h1 { margin-top: 0.4rem; }
 .cite-text .csl-entry { margin: 0; }
 .cite-text .csl-left-margin { display: inline; margin-right: 0.4em; }
 .cite-text .csl-right-inline { display: inline; }
+
+/* Search and SPARQL (S9) */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; }
+.notice { background: var(--bg-soft); border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 0.6rem 0.8rem; }
+.button-quiet { background: transparent; color: var(--link); border: 1px solid var(--rule); }
+.button-quiet:hover, .button-quiet:focus-visible { background: var(--bg-soft); color: var(--link-hover); }
+.button:disabled { opacity: 0.55; cursor: default; }
+.search-bar { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0; }
+.search-bar input { flex: 1; min-width: 12rem; font: inherit; padding: 0.5rem 0.7rem;
+  border: 1px solid var(--rule); border-radius: var(--radius); background: var(--bg); color: var(--text); }
+.search-bar input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.search-grid { display: grid; gap: 1.5rem; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 860px) { .search-grid { grid-template-columns: 16rem minmax(0, 1fr); } }
+.facet { border: 0; border-top: 1px solid var(--rule); margin: 0 0 0.8rem; padding: 0.5rem 0 0; min-width: 0; }
+.facet legend { font-weight: 700; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--text-muted); padding: 0 0.3rem 0 0; }
+.facet-value { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 0.4rem;
+  align-items: baseline; font-size: 0.9rem; padding: 0.1rem 0; cursor: pointer; }
+.facet-label { overflow-wrap: anywhere; }
+.facet-count { color: var(--text-muted); font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+.facet-more { font: inherit; font-size: 0.82rem; background: none; border: 0; padding: 0.2rem 0;
+  color: var(--link); cursor: pointer; text-decoration: underline; }
+.search-count { font-weight: 700; margin: 0 0 0.5rem; }
+.result-list { list-style: none; padding: 0; margin: 0; }
+.result { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); gap: 0.6rem;
+  padding: 0.55rem 0; border-bottom: 1px solid var(--rule); }
+.result-label { font-family: var(--font-heading); font-weight: 800; color: var(--accent-text);
+  font-size: 0.9rem; white-space: nowrap; }
+@media (max-width: 520px) { .result { grid-template-columns: minmax(0, 1fr); gap: 0.1rem; } }
+.engine { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; margin: 1.2rem 0;
+  padding: 0.8rem 1rem; background: var(--bg-soft); border: 1px solid var(--rule); border-radius: var(--radius); }
+.engine-status { font-size: 0.9rem; color: var(--text-muted); }
+.engine-status[data-state="ok"] { color: var(--text); font-weight: 600; }
+.engine-status[data-state="err"] { color: #b42318; font-weight: 600; }
+.query-toc { columns: 2 18rem; padding-left: 1.4rem; }
+.query { border-top: 1px solid var(--rule); padding-top: 0.6rem; margin-top: 2rem; }
+.query h2 { font-size: 1.2rem; margin: 0.4rem 0; }
+.sparql-src { width: 100%; font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.45;
+  padding: 0.6rem 0.7rem; border: 1px solid var(--rule); border-radius: var(--radius);
+  background: var(--bg-soft); color: var(--text); resize: vertical; tab-size: 2; }
+.query-bar { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin-top: 0.5rem; }
+.query-meta { margin-left: auto; }
+.query-result { margin-top: 0.8rem; }
+.table-scroll { overflow-x: auto; }
+.result-table { border-collapse: collapse; width: 100%; font-size: 0.82rem; }
+.result-table th, .result-table td { text-align: left; vertical-align: top; padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid var(--rule); }
+.result-table th { font-family: var(--font-mono); font-weight: 600; color: var(--text-muted); white-space: nowrap; }
+.result-table td a { overflow-wrap: anywhere; }
+.result-table td.nil { color: var(--text-muted); }
+.query-error { background: var(--bg-soft); border-left: 3px solid #b42318; padding: 0.6rem 0.8rem;
+  white-space: pre-wrap; font-size: 0.8rem; overflow-x: auto; }
+.facet-panel > summary { cursor: pointer; font-weight: 700; padding: 0.4rem 0; }
+@media (min-width: 860px) { .facet-panel > summary { display: none; } }

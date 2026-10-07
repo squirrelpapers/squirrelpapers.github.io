@@ -1,0 +1,43 @@
+{% extends "base.html.j2" %}
+{% block main %}
+<div class="wrap">
+  <h1>{{ t.sparql_title }}</h1>
+  <p class="lead measure">{{ t.sparql_intro }}</p>
+  <p class="measure">{{ t.sparql_engine | replace("{pyodide}", sparql.pyodide) | replace("{rdflib}", sparql.rdflib) | replace("{triples}", sparql.triples_fmt) }}</p>
+  <p class="small muted">{{ t.sparql_graphs }}:
+    {% for g in sparql.graphs %}<a href="{{ root }}{{ g.url }}"><code>{{ g.url }}</code></a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+
+  <div class="engine" id="engine">
+    <button type="button" class="button" id="engine-start">{{ t.sparql_start }}</button>
+    <span class="engine-status" id="engine-status" role="status" aria-live="polite"></span>
+  </div>
+
+  <ol class="query-toc small">
+    {% for q in sparql.queries %}<li><a href="#q-{{ q.id }}">{{ q.title[lang] }}</a></li>{% endfor %}
+  </ol>
+
+  {% for q in sparql.queries %}
+  <section class="query" id="q-{{ q.id }}">
+    <h2>{{ loop.index }}. {{ q.title[lang] }}</h2>
+    <p class="measure">{{ q.intro[lang] }}</p>
+    <label class="visually-hidden" for="src-{{ q.id }}">SPARQL – {{ q.title[lang] }}</label>
+    <textarea class="sparql-src" id="src-{{ q.id }}" spellcheck="false"
+              rows="{{ q.rows }}">{{ q.sparql }}</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="{{ q.id }}">{{ t.sparql_run }}</button>
+      <button type="button" class="button button-small button-quiet" data-reset="{{ q.id }}">{{ t.sparql_reset }}</button>
+      <span class="small muted" id="time-{{ q.id }}"></span>
+      <span class="small muted query-meta">{{ t.sparql_at_build | replace("{n}", q.rows_at_build|string) }} ·
+        <a href="{{ root }}sparql/queries/{{ q.id }}.rq" download>{{ q.id }}.rq</a></span>
+    </div>
+    <div class="query-result" id="out-{{ q.id }}"></div>
+  </section>
+  {% endfor %}
+
+  <p class="small muted measure">{{ t.sparql_footer }}</p>
+</div>
+<script type="application/json" id="sparql-config">{{ sparql_config | safe }}</script>
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}assets/js/sqp-sparql.js"></script>
+{% endblock %}

@@ -162,7 +162,7 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Quellrepos | Werden von Claude geklont, Snapshot nach `data/raw/` | 2026-10-06 |
 | Modellierung Volume/Issue | Journal = `dcat:Catalog` + `fabio:Journal`; Volume und Issue = `dcat:DatasetSeries` + `fabio:JournalVolume`/`JournalIssue` (Issue `dcat:inSeries` Volume); Entry = `dcat:Dataset` + `fabio:`-Typ, `dcat:inSeries` Issue | 2026-10-07 |
 | Seitengenerator | Python + Jinja2, kein Jekyll, kein Node-Build | 2026-10-07 |
-| Schritte außerhalb des Standardlaufs | `migrate` (einmalig, überschreibt `content/`) und `harvest` (Netz) laufen nur mit `--only`; Standardreihenfolge `merge → cite → rdf → validate → map → site → sparql` | 2026-10-06 |
+| Schritte außerhalb des Standardlaufs | `migrate` (einmalig, überschreibt `content/`) und `harvest` (Netz) laufen nur mit `--only`; Standardreihenfolge `merge → cite → rdf → validate → sparql → map → site` (seit S9) | 2026-10-06 |
 | Schriften | Keine Webfonts, keine Drittanbieter-Anfrage für Typografie; Systemschrift-Stacks mit `Inter` an erster Stelle (greift, wo installiert) | Vorschlag |
 | Akzentfarbe im Fließtext | Magenta `#c94fa0` hat auf Weiß nur 4,1 : 1 → nur für große Schrift/Deko (`--accent`); Sigel und Akzent in Textgröße hell `#b03686` (5,6 : 1), dunkel Magenta (`--accent-text`) | 2026-10-06 |
 | Vol 2–8 beim Jahreszuschnitt | Bleiben, wie sie sind (Issues und Entries 1:1 aus dem alten Repo) | 2026-10-06 |
@@ -216,6 +216,10 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | PDF-Vorschau | Kein `iframe` mehr: Zenodo verbietet das Einbetten seiner Vorschau (`frame-ancestors`). Auf Klick lädt die Seite das PDF über die Zenodo-API (`…/api/records/<id>/files/<datei>/content`) und zeichnet es mit pdf.js (selbst gehostet, Legacy-Build) in Canvas-Seiten, höchstens 30. Scheitert der Abruf, erscheint der Link „Vorschau auf Zenodo öffnen" (neuer Tab). Vor dem Klick keine Anfrage an Dritte | 2026-10-07 |
 | Inkrementeller Build | Dateien werden nur geschrieben, wenn sich ihr Inhalt ändert; kein Schritt leert mehr `docs/` oder `data/derived/web/`. Jeder Schritt löscht danach nur, was er selbst nicht mehr erzeugt und was zu seinen Dateiarten gehört (cite: `.bib/.ris/.csl.json`, rdf: `.ttl/.jsonld` außer `shapes/`, validate: `shapes/`, site: alles in `docs/` außer `KEEP_IN_DOCS`, z. B. `CNAME`) | 2026-10-07 |
 | Schritt-Cache | `rdf` und `validate` merken sich einen Fingerabdruck ihrer Eingaben, ihres Codes und von `sqp_utils.py` samt Prüfsummen ihrer Ausgaben in `data/derived/cache/` (nicht im Repo). Gleiche Eingaben und unversehrte Ausgaben → der Schritt gibt das letzte Ergebnis aus und überspringt die Arbeit; `--fresh` vergisst den Cache. CI startet ohne Cache, prüft also immer voll | 2026-10-07 |
+| S9: Abfrage-Engine | rdflib unter Pyodide wie in fdox, aber **selbst gehostet** (Pyodide 314.0.7, rdflib 7.6.0, pyparsing 3.3.2 unter `assets/vendor/pyodide/`, ~13 MB). Die Wheels entpackt die Seite selbst, kein micropip, kein CDN. Geladen wird erst auf „Abfrage-Engine starten" oder das erste „Ausführen" | 2026-10-07 |
+| S9: Suche | Eigene Seite `/search/` (EN/DE): Volltext (ohne Groß-/Kleinschreibung und Akzente) und Facetten Typ, Jahr, Band, Veranstaltung, Person, Sprache; innerhalb einer Facette ODER, zwischen Facetten UND; Zustand im URL-Hash (`#type=poster&year=2019`). Index aus `entries.json` als `search/index.js` (läuft auch von `file://`) und `index.json` | 2026-10-07 |
+| S9: Abfragen | `content/queries.yaml`: 11 Beispiele (DCAT, SKOS, GeoSPARQL, CIDOC CRM/CRMdig/LRMoo), Titel und Einleitung EN/DE, SPARQL einmal. Beim Build gegen dieselben vier Turtle-Dateien ausgeführt, die die Seite lädt; 0 Zeilen = Build-Abbruch. `crosscheck` gleicht 5 Abfragen mit den Facetten des Suchindex ab | 2026-10-07 |
+| Schrittreihenfolge | `merge → cite → rdf → validate → sparql → map → site`: `sparql` schreibt kein HTML mehr, nur Index, `.rq` und `data/derived/queries.json`; `site` rendert Such- und SPARQL-Seite und bleibt alleiniger Besitzer von `docs/` | 2026-10-07 |
 | S14: Einreichen | `python main.py add` (CLI, prüft und sortiert ein) als Kern, Issue-Formular + Action, die daraus einen Pull Request macht, obendrauf | 2026-10-07 |
 | S14: Bearbeiten | Der Editor kann auch bestehende Einträge laden und ändern (Ergebnis wieder als Schnipsel / Änderung über denselben Weg) | 2026-10-07 |
 | S14: Zenodo | Nur optionale Anreicherung; jedes Feld lässt sich von Hand füllen, der Editor funktioniert vollständig ohne DOI und ohne Netz zu Zenodo | 2026-10-07 |
@@ -275,7 +279,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S7 | RDF: Ontologie, DCAT 3/DCAT-AP 3, BIBO/FaBiO, CRM/CRMdig/LRMoo, JSON-LD | dieses | S4 | erledigt 2026-10-07 |
 | S8 | SHACL-Gate (eigene + DCAT-AP-3-Shapes), `--strict` | dieses | S7 | erledigt 2026-10-07 |
 | S8b | Nachbesserung: PDF-Vorschau mit pdf.js statt `iframe`, Build-Laufzeit (nur Geändertes schreiben, Schritt-Cache) | dieses | S8 | erledigt 2026-10-07 |
-| S9 | Filter (JSON-Index) + SPARQL-Seite (rdflib/Pyodide) | dieses | S7 | offen |
+| S9 | Suche mit Facetten (JSON-Index) + SPARQL-Seite (rdflib/Pyodide, selbst gehostet) | dieses | S7 | erledigt 2026-10-07 |
 | S10 | Karte der Konferenzorte + GeoJSON | dieses | S3, S4 | offen |
 | S11 | GitHub Action: Build + Pages-Deploy, optional Harvest | dieses | S5–S10 | offen |
 | S12 | w3id: `.htaccess` mit Content Negotiation, PR an perma-id | perma-id/w3id.org | S5, S7 | offen |
@@ -769,14 +773,47 @@ wird keine Datei neu geschrieben. Zwei Läufe mit verschiedenem
 (Testdatei in `docs/v99/`, `web/v99/`) verschwinden beim nächsten Lauf;
 `docs/CNAME` bleibt.
 
-## S9 — Filter und SPARQL
+## S9 — Suche und SPARQL
 
-**Ziel:** Facettenfilter (Jahr, Typ, Volume, Event, Person, Sprache) auf der
-Übersichtsseite und `docs/sparql.html`.
+**Ziel:** Facettenfilter (Jahr, Typ, Volume, Event, Person, Sprache) und eine
+SPARQL-Seite nach dem Muster von `fdo-squirrel-registry`.
 
 - `queries.yaml` + `step_sparql.py` + Template aus der Registry kopieren.
 
 **Abnahme:** Jede Beispielabfrage liefert beim Build ≥ 1 Zeile.
+
+### Erledigt 2026-10-07
+
+Entscheidungen von Flo: Pyodide selbst gehostet; Suche als eigene Seite (A4).
+
+- `content/queries.yaml` (11 Abfragen), `py/step_sparql.py` (Index, Prüfung,
+  Kreuzprüfung, `.rq`, `data/derived/queries.json`, Schritt-Cache),
+  `py/templates/{search,sparql}.html.j2`, `assets/js/sqp-{search,sparql}.js`,
+  `assets/vendor/pyodide/`, Navigation „Search/Suche" und „SPARQL", CSS,
+  UI-Texte EN/DE, Abschnitt in den Datenschutz-Entwürfen.
+- Ergebnis: 11/11 Abfragen liefern Zeilen; `entries`, `by-type`, `by-year`,
+  `people`, `languages` stimmen mit den Facetten des Index überein (210
+  Einträge, 20 Typen, 13 Jahre, 106 Personen, 2 Sprachen). Gegenprobe: eine
+  Abfrage ohne `bibo:editor` und eine mit Tippfehler im Prädikat brechen den
+  Schritt ab.
+- Getestet mit Playwright/Chromium: Suche (Text, Facetten, Deep Link,
+  Umlaute, Mobil mit eingeklappten Filtern, Dunkelmodus), SPARQL EN und DE
+  (Engine in ≈ 4 s bereit, Abfragen 0,1–1,4 s, Fehlermeldung bei kaputter
+  Abfrage, Zurücksetzen); **keine einzige Anfrage an einen fremden Server**,
+  keine Konsolenfehler.
+
+**Befunde:**
+- **`import()` löst relative Pfade gegen das Skript auf, nicht gegen die
+  Seite.** Die PDF-Vorschau aus S8b funktionierte nur zufällig (Eintragsseiten
+  liegen tief genug, dass überzählige `../` an der Wurzel enden). Beide Skripte
+  bauen jetzt absolute URLs.
+- rdflib sortiert bei `ORDER BY DESC(?v)` auf gruppierten Variablen falsch;
+  `entries` sortiert deshalb aufsteigend (Band 1 zuerst), was ohnehin der
+  Reihenfolge des Journals entspricht.
+- Der Suchindex ist mit Abstracts ≈ 540 KB (gzip auf Pages deutlich weniger);
+  ohne Abstracts fände die Suche keine Wörter aus dem Text.
+- Repo wächst um ≈ 13 MB Pyodide, in `docs/` noch einmal (zusammen ≈ 26 MB,
+  einmalig).
 
 ## S10 — Karte
 
@@ -924,7 +961,7 @@ EN/DE vollständig; Grafiken ohne Netz lesbar; Screenshot-Durchgang mit Flo.
    heran (Befund 10). Flo speichert die drei WordPress-Seiten als HTML nach
    `data/raw/site/` (oder kopiert den Text). Dabei klären: § 5 TMG → § 5 DDG;
    Datenschutzerklärung muss für GitHub Pages (Server-Logs bei GitHub,
-   Zenodo-PDF-Abruf (S8b), OSM-Kacheln, CDN für Pyodide) neu gefasst werden. Ich bin
+   Zenodo-PDF-Abruf (S8b), OSM-Kacheln; Pyodide seit S9 selbst gehostet) neu gefasst werden. Ich bin
    kein Jurist — der Text ist von Flo zu verantworten.
 2. **Hintergrundgrafik der alten Seite** (Netzwerk-Muster). Hochladen oder
    als SVG neu zeichnen?
@@ -948,8 +985,9 @@ EN/DE vollständig; Grafiken ohne Netz lesbar; Screenshot-Durchgang mit Flo.
    die Ausnahme überflüssig machen.
 5d. **Impressum und Datenschutz prüfen** — Entwürfe in `content/pages/`
    (S5). Vor allem: Ist die Anschrift richtig, braucht es eine
-   Verantwortlichen-Angabe nach § 18 MStV, und was muss für S9 (Pyodide von
-   einem CDN) und S10 (Kartenkacheln) noch hinein?
+   Verantwortlichen-Angabe nach § 18 MStV, und was muss für S10
+   (Kartenkacheln) noch hinein? S9 lädt nur von dieser Seite; ein Absatz dazu
+   steht schon im Entwurf.
 5c. **Autorenlisten (aus S4)** — 18 Einträge, bei denen Zenodo eine andere
    Zahl Personen nennt als `content/` (`dist/reports/merge.md`,
    `creator-count`). Soll Zenodo dort gewinnen? Derzeit gilt `content/` (A4,

@@ -1,0 +1,196 @@
+{
+  "graphs": [
+    {
+      "source": "dist/squirrelpapers.ttl",
+      "url": "downloads/squirrelpapers.ttl"
+    },
+    {
+      "source": "dist/squirrelpapers-crm.ttl",
+      "url": "downloads/squirrelpapers.crm.ttl"
+    },
+    {
+      "source": "dist/vocab/types.ttl",
+      "url": "vocab/types.ttl"
+    },
+    {
+      "source": "dist/ontology/sqp.ttl",
+      "url": "ontology/index.ttl"
+    }
+  ],
+  "prefixes": "PREFIX bibo: <http://purl.org/ontology/bibo/>\nPREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX event: <http://purl.org/NET/c4dm/event.owl#>\nPREFIX fabio: <http://purl.org/spar/fabio/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX geo: <http://www.opengis.net/ont/geosparql#>\nPREFIX lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX schema: <https://schema.org/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX sqp: <https://w3id.org/squirrelpapers/ontology#>\nPREFIX sqpt: <https://w3id.org/squirrelpapers/type/>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n",
+  "pyodide": "314.0.7",
+  "queries": [
+    {
+      "crosscheck": {
+        "entries": true
+      },
+      "id": "entries",
+      "intro": {
+        "de": "Das Inhaltsverzeichnis des ganzen Journals: Zitierlabel, Titel, Datum und Typen jedes Beitrags. Ein Beitrag mit mehreren Typen erscheint einmal, die Typen durch Schrägstrich verbunden.",
+        "en": "The table of contents of the whole journal: citation label, title, date and types of each entry. An entry with several types appears once, its types joined with a slash."
+      },
+      "rows_at_build": 210,
+      "sparql": "SELECT ?label ?title ?issued (GROUP_CONCAT(?type; separator=\" / \") AS ?types) ?entry\nWHERE {\n  ?entry a bibo:Document ;\n         sqp:citationLabel ?label ;\n         dct:title ?title ;\n         dct:issued ?issued ;\n         prism:volume ?volume ;\n         prism:number ?issue ;\n         sqp:entryNumber ?n .\n  OPTIONAL { ?entry dct:type/skos:notation ?type }\n  # Sort keys as plain integers: volume and issue are strings in PRISM.\n  BIND(xsd:integer(?volume) AS ?v)\n  BIND(xsd:integer(?issue) AS ?i)\n  BIND(xsd:integer(?n) AS ?e)\n}\nGROUP BY ?label ?title ?issued ?entry ?v ?i ?e\nORDER BY ?v ?i ?e\n",
+      "title": {
+        "de": "Alle veröffentlichten Beiträge, in der Reihenfolge des Journals",
+        "en": "Every published entry, in journal order"
+      }
+    },
+    {
+      "crosscheck": {
+        "count": "entries",
+        "facet": "type",
+        "value": "type"
+      },
+      "id": "by-type",
+      "intro": {
+        "de": "Gezählt über die SKOS-Konzepte des eigenen Typenvokabulars, mit dem COAR-Ressourcentyp, auf den jedes abgebildet ist. Dieselben Zahlen wie der Typ-Filter der Suchseite. Für deutsche Bezeichnungen \"en\" durch \"de\" ersetzen.",
+        "en": "Counted over the SKOS concepts of the journal's own type vocabulary, with the COAR resource type each one maps to. The same numbers as the type facet on the search page."
+      },
+      "rows_at_build": 20,
+      "sparql": "SELECT ?type ?label ?coar (COUNT(DISTINCT ?entry) AS ?entries)\nWHERE {\n  ?entry a bibo:Document ;\n         dct:type ?concept .\n  ?concept skos:notation ?type ;\n           skos:prefLabel ?label .\n  FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?concept skos:exactMatch|skos:closeMatch ?coar }\n}\nGROUP BY ?type ?label ?coar\nORDER BY DESC(?entries) ?type\n",
+      "title": {
+        "de": "Beiträge nach Typ",
+        "en": "Entries by type"
+      }
+    },
+    {
+      "crosscheck": {
+        "count": "entries",
+        "facet": "year",
+        "value": "year"
+      },
+      "id": "by-year",
+      "intro": {
+        "de": "Das Jahr aus dct:issued - das Datum von Vortrag, Poster oder Veröffentlichung, nicht das Jahr des Bandes, in dem der Beitrag steht (Band 1 sammelt alles bis 2019).",
+        "en": "The year of dct:issued - the date of the talk, poster or publication, not the year of the volume it was gathered into (Volume 1 collects everything up to 2019)."
+      },
+      "rows_at_build": 13,
+      "sparql": "SELECT ?year (COUNT(DISTINCT ?entry) AS ?entries)\nWHERE {\n  ?entry a bibo:Document ;\n         dct:issued ?issued .\n  BIND(SUBSTR(STR(?issued), 1, 4) AS ?year)\n}\nGROUP BY ?year\nORDER BY DESC(?year)\n",
+      "title": {
+        "de": "Beiträge nach Jahr",
+        "en": "Entries by year"
+      }
+    },
+    {
+      "id": "by-volume",
+      "intro": {
+        "de": "Geht die Kette Beitrag → Heft → Band über dcat:inSeries, wie DCAT 3 Datensätze mit Datensatzserien verbindet, und zählt, was an jedem Heft hängt.",
+        "en": "Walks the chain entry → issue → volume through dcat:inSeries, the way DCAT 3 links datasets to dataset series, and counts what hangs on each issue."
+      },
+      "rows_at_build": 34,
+      "sparql": "SELECT ?volume ?issue ?sigil (COUNT(?entry) AS ?entries) ?issueIri\nWHERE {\n  ?entry a bibo:Document ;\n         dcat:inSeries ?issueIri .\n  ?issueIri prism:number ?issue ;\n            sqp:sigil ?sigil ;\n            dcat:inSeries ?volumeIri .\n  ?volumeIri prism:volume ?volume .\n}\nGROUP BY ?volume ?issue ?sigil ?issueIri\nORDER BY DESC(xsd:integer(?volume)) xsd:integer(?issue)\n",
+      "title": {
+        "de": "Beiträge je Band und Heft",
+        "en": "Entries per volume and issue"
+      }
+    },
+    {
+      "crosscheck": {
+        "count": "entries",
+        "facet": "person",
+        "value": "person"
+      },
+      "id": "people",
+      "intro": {
+        "de": "Autorinnen und Autoren, Mitwirkende und Herausgebende von Beiträgen, gezählt je Personen-IRI. Wer eine ORCID hat, bekommt eine daraus gebildete IRI; owl:sameAs führt zum ORCID-Eintrag. Dieselben Zahlen wie der Personen-Filter.",
+        "en": "Authors, contributors and editors of entries, counted per person IRI. A person with an ORCID has an IRI built from it; the owl:sameAs link leads to the ORCID record. The same numbers as the person facet."
+      },
+      "rows_at_build": 106,
+      "sparql": "SELECT ?name (COUNT(DISTINCT ?entry) AS ?entries) ?orcid ?person\nWHERE {\n  ?entry a bibo:Document ;\n         dct:creator|dct:contributor|bibo:editor ?person .\n  ?person foaf:name ?name .\n  OPTIONAL { ?person owl:sameAs ?orcid }\n}\nGROUP BY ?person ?name ?orcid\nORDER BY DESC(?entries) ?name\n",
+      "title": {
+        "de": "Personen und wie oft sie vorkommen",
+        "en": "People and how often they appear"
+      }
+    },
+    {
+      "id": "coauthors",
+      "intro": {
+        "de": "Paare von Personen mit mindestens zwei gemeinsamen Beiträgen als Autor:innen. Der FILTER auf die IRIs zählt jedes Paar einmal statt zweimal.",
+        "en": "Pairs of people who share at least two entries as authors. The FILTER on the IRIs keeps each pair once instead of twice."
+      },
+      "rows_at_build": 88,
+      "sparql": "SELECT ?a ?b (COUNT(DISTINCT ?entry) AS ?together)\nWHERE {\n  ?entry a bibo:Document ;\n         dct:creator ?p1, ?p2 .\n  FILTER(STR(?p1) < STR(?p2))\n  ?p1 foaf:name ?a .\n  ?p2 foaf:name ?b .\n}\nGROUP BY ?a ?b\nHAVING (COUNT(DISTINCT ?entry) > 1)\nORDER BY DESC(?together) ?a ?b\n",
+      "title": {
+        "de": "Wer mit wem geschrieben hat",
+        "en": "Who wrote with whom"
+      }
+    },
+    {
+      "crosscheck": {
+        "count": "entries",
+        "facet": "language",
+        "value": "language"
+      },
+      "id": "languages",
+      "intro": {
+        "de": "dct:language verweist auf die Sprachen-Normdatei der EU. Wo die Quelle keine Sprache nennt, schätzt der Build sie aus dem Titel und markiert den Beitrag mit sqp:languageGuessed; Beiträge ganz ohne Sprache zählen hier nicht.",
+        "en": "dct:language points to the EU language authority. Where the source does not state a language, the build guesses it from the title and marks the entry with sqp:languageGuessed; entries without any language are not counted here."
+      },
+      "rows_at_build": 2,
+      "sparql": "SELECT ?language (COUNT(DISTINCT ?entry) AS ?entries) (SUM(?guess) AS ?guessed)\nWHERE {\n  ?entry a bibo:Document ;\n         dct:language ?authority .\n  BIND(IF(?authority = <http://publications.europa.eu/resource/authority/language/DEU>, \"de\",\n       IF(?authority = <http://publications.europa.eu/resource/authority/language/ENG>, \"en\",\n          STR(?authority))) AS ?language)\n  OPTIONAL { ?entry sqp:languageGuessed ?g }\n  BIND(IF(COALESCE(?g, false), 1, 0) AS ?guess)\n}\nGROUP BY ?language\nORDER BY DESC(?entries)\n",
+      "title": {
+        "de": "Beiträge nach Sprache",
+        "en": "Entries by language"
+      }
+    },
+    {
+      "id": "events-places",
+      "intro": {
+        "de": "Veranstaltungen mit ihrem Ort als GeoSPARQL-Punkt: Die Spalte ?wkt lässt sich als Textdatei mit Trennzeichen in QGIS laden. Online-Veranstaltungen haben keinen Ort und fehlen hier.",
+        "en": "Events with their place as a GeoSPARQL point: the ?wkt column can be pasted into QGIS as delimited text. Online events have no place and are left out."
+      },
+      "rows_at_build": 60,
+      "sparql": "SELECT ?event ?start ?place ?wkt (COUNT(DISTINCT ?entry) AS ?entries)\nWHERE {\n  ?entry bibo:presentedAt ?e .\n  ?e rdfs:label ?event ;\n     schema:location ?p .\n  OPTIONAL { ?e schema:startDate ?start }\n  ?p rdfs:label ?place ;\n     geo:hasGeometry/geo:asWKT ?wkt .\n}\nGROUP BY ?event ?start ?place ?wkt\nORDER BY DESC(?start) ?event\n",
+      "title": {
+        "de": "Konferenzen und wo sie stattfanden",
+        "en": "Conferences and where they took place"
+      }
+    },
+    {
+      "id": "crm-creation",
+      "intro": {
+        "de": "Dieselbe Autorschaft wie in der Personen-Abfrage, diesmal aus der CRM-Sicht gelesen: eine E65-Schöpfung (zugleich LRMoo F28), ausgeführt von Personen (P14), mit einer Zeitspanne (P4), deren frühester Beginn (P82a) das Datum liefert.",
+        "en": "The same authorship as in the people query, read from the CRM view instead: an E65 Creation (also LRMoo F28) carried out by persons (P14), with a time-span (P4) whose earliest begin (P82a) gives the date."
+      },
+      "rows_at_build": 200,
+      "sparql": "SELECT ?title ?person ?begin ?entry\nWHERE {\n  ?creation a crm:E65_Creation ;\n            crm:P94_has_created ?entry ;\n            crm:P14_carried_out_by ?actor ;\n            crm:P4_has_time-span/crm:P82a_begin_of_the_begin ?begin .\n  ?entry crm:P102_has_title/crm:P190_has_symbolic_content ?title .\n  ?actor rdfs:label ?person .\n}\nORDER BY DESC(?begin) ?title ?person\nLIMIT 200\n",
+      "title": {
+        "de": "CIDOC CRM: wer was wann geschaffen hat",
+        "en": "CIDOC CRM: who created what, and when"
+      }
+    },
+    {
+      "id": "crm-presented",
+      "intro": {
+        "de": "Eine Veranstaltung ist eine E7-Aktivität, die den Beitrag benutzt hat (P16) und an einem E53-Ort stattfand (P7), dessen Lage ein WKT-Literal ist (P168). Das PDF eines Beitrags ist ein CRMdig-D1-Digitalobjekt, das ihn enthält (P165).",
+        "en": "An event is an E7 Activity that used the entry (P16) and took place at an E53 Place (P7), whose position is a WKT literal (P168). The PDF of an entry is a CRMdig D1 Digital Object that incorporates it (P165)."
+      },
+      "rows_at_build": 105,
+      "sparql": "SELECT ?event ?place ?wkt ?title ?pdf\nWHERE {\n  ?activity a crm:E7_Activity ;\n            crm:P1_is_identified_by/crm:P190_has_symbolic_content ?event ;\n            crm:P16_used_specific_object ?entry ;\n            crm:P7_took_place_at ?p .\n  ?p crm:P168_place_is_defined_by ?wkt ;\n     rdfs:label ?place .\n  ?entry crm:P102_has_title/crm:P190_has_symbolic_content ?title .\n  OPTIONAL { ?pdf crm:P165_incorporates ?entry ; a crmdig:D1_Digital_Object }\n}\nORDER BY ?event ?title\n",
+      "title": {
+        "de": "CIDOC CRM: was wo vorgestellt wurde",
+        "en": "CIDOC CRM: what was presented where"
+      }
+    },
+    {
+      "id": "pdfs",
+      "intro": {
+        "de": "Jede Distribution mit Bytegröße, je Band summiert. Die Dateien bleiben auf Zenodo; der Graph hält fest, wo sie liegen, ihren Medientyp und eine MD5-Prüfsumme (SPDX).",
+        "en": "Every distribution with a byte size, summed per volume. The files stay on Zenodo; the graph records where they are, their media type and an MD5 checksum (SPDX)."
+      },
+      "rows_at_build": 8,
+      "sparql": "SELECT ?volume (COUNT(?file) AS ?files) (ROUND(SUM(?bytes) / 10485.76) / 100 AS ?MiB)\nWHERE {\n  ?entry a bibo:Document ;\n         prism:volume ?volume ;\n         dcat:distribution ?file .\n  ?file dcat:byteSize ?bytes .\n}\nGROUP BY ?volume\nORDER BY DESC(xsd:integer(?volume))\n",
+      "title": {
+        "de": "PDF-Dateien je Band, mit ihrer Größe",
+        "en": "PDF files per volume, with their size"
+      }
+    }
+  ],
+  "rdflib": "7.6.0",
+  "triples": 19125,
+  "wheels": [
+    "pyparsing-3.3.2-py3-none-any.whl",
+    "rdflib-7.6.0-py3-none-any.whl"
+  ]
+}

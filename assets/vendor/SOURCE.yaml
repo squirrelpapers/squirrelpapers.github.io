@@ -41,3 +41,18 @@ pdfjs:
   note: Renders the PDF preview on entry pages (S8b); Zenodo does not allow its
     preview page inside a frame on another site.
   taken: 2026-10-07
+pyodide:
+  name: Pyodide (npm package pyodide) with rdflib and pyparsing wheels
+  version: 314.0.7 (Python 3.14.2); rdflib 7.6.0; pyparsing 3.3.2
+  source: https://www.npmjs.com/package/pyodide, https://pypi.org/project/rdflib/,
+    https://pypi.org/project/pyparsing/
+  files: [pyodide/pyodide.mjs, pyodide/pyodide.asm.mjs, pyodide/pyodide.asm.wasm,
+    pyodide/python_stdlib.zip, pyodide/pyodide-lock.json, pyodide/LICENSE,
+    pyodide/rdflib-7.6.0-py3-none-any.whl, pyodide/pyparsing-3.3.2-py3-none-any.whl]
+  licence: MPL-2.0 (Pyodide, see pyodide/LICENSE); BSD-3-Clause (rdflib) and MIT
+    (pyparsing), each inside its wheel (*.dist-info)
+  note: Runs the SPARQL page (S9) in the browser. Only the core runtime is taken
+    from the package; the two pure-Python wheels are unpacked by the page itself,
+    so neither micropip nor the Pyodide CDN is ever contacted. When updating,
+    keep rdflib equal to the version the build checks with (requirements.txt).
+  taken: 2026-10-07

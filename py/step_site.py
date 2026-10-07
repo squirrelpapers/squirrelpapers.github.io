@@ -42,8 +42,11 @@ from sqp_utils import (  # noqa: E402
 UI_YAML = CONTENT / "ui.yaml"
 PAGES_DIR = CONTENT / "pages"
 ASSET_FILES = ["css/sqp.css", "img/sqp-logo.png", "img/network.svg", "js/sqp-cite.js",
-               "js/sqp-preview.js"]
-ASSET_DIRS = ["vendor/pdfjs"]          # copied whole (pdf.js with its fonts, S8b)
+               "js/sqp-preview.js", "js/sqp-search.js", "js/sqp-sparql.js"]
+# Copied whole: pdf.js with its fonts (S8b), Pyodide with the rdflib wheels (S9).
+ASSET_DIRS = ["vendor/pdfjs", "vendor/pyodide"]
+QUERIES_JSON = Path(__file__).resolve().parent.parent / "data" / "derived" / "queries.json"  # S9
+SPARQL_MAX_ROWS = 500   # rendered rows; an unlimited table can hang a phone
 # Files in docs/ that other steps or people own; prune() leaves them alone.
 # CNAME: a custom domain set on GitHub (S13). S9 adds its own entry here.
 KEEP_IN_DOCS = ("CNAME",)
@@ -213,6 +216,28 @@ def check_links(root: Path) -> list[str]:
 # ---------------------------------------------------------------------------
 
 
+def sparql_view(sparql: dict, lang: str) -> dict:
+    """What the SPARQL template needs from data/derived/queries.json (S9)."""
+    queries = []
+    for q in sparql["queries"]:
+        text = q["sparql"].rstrip("\n")
+        queries.append({**q, "sparql": text, "rows": max(5, text.count("\n") + 2)})
+    sep = "," if lang == "en" else "."
+    return {**sparql, "queries": queries,
+            "triples_fmt": f"{sparql['triples']:,}".replace(",", sep)}
+
+
+def sparql_config(sparql: dict, t: dict, lang: str) -> str:
+    """The page script's configuration. The page sits at /sparql/ or /de/sparql/,
+    so the site root is one or two levels up."""
+    ui = {key[len("sparql_"):]: value for key, value in t.items() if key.startswith("sparql_")}
+    return script_json({
+        "lang": lang, "root": "../" if lang == "en" else "../../",
+        "prefixes": sparql["prefixes"], "graphs": [g["url"] for g in sparql["graphs"]],
+        "wheels": sparql["wheels"], "max_rows": SPARQL_MAX_ROWS,
+        "queries": {q["id"]: q["sparql"].rstrip("\n") for q in sparql["queries"]}, "ui": ui})
+
+
 def render_site(data: dict, ui: dict, journal: dict, types: dict, entries: dict) -> tuple[int, list]:
     """Write every page and copy every file of docs/; returns pages and volumes."""
     write_text(DOCS / ".nojekyll", "")
@@ -227,6 +252,7 @@ def render_site(data: dict, ui: dict, journal: dict, types: dict, entries: dict)
         return [{"href": (f"{path}/" if path else "") + f"{prefix}.{suffix}", "label": label}
                 for suffix, label in DOWNLOAD_FORMATS if (folder / f"{prefix}.{suffix}").exists()]
 
+    sparql = read_json(QUERIES_JSON) if QUERIES_JSON.exists() else None
     csl_items = {}
     for e in data["entries"]:
         path = WEB / e["path"] / "index.csl.json"
@@ -292,6 +318,19 @@ def render_site(data: dict, ui: dict, journal: dict, types: dict, entries: dict)
         render("volumes.html.j2", "volumes", lang, page_title=f"{t['nav_volumes']} – Squirrel Papers",
                nav="volumes", volumes=volumes,
                downloads=downloads_for("downloads", "squirrelpapers"))
+        render("search.html.j2", "search", lang, page_title=f"{t['nav_search']} – Squirrel Papers",
+               nav="search", search_ui=script_json({
+                   # entry links relative to /search/ or /de/search/: one level up
+                   # is the home of the page's own language
+                   "lang": lang, "home": "../",
+                   "facets": {f: t[f"facet_{f}"] for f in
+                              ("type", "year", "volume", "event", "person", "language")},
+                   "one": t["search_one"], "many": t["search_many"], "none": t["search_none"],
+                   "more": t["search_show_more"], "fewer": t["search_show_fewer"]}))
+        if sparql:
+            render("sparql.html.j2", "sparql", lang, page_title=f"SPARQL – Squirrel Papers",
+                   nav="sparql", sparql=sparql_view(sparql, lang),
+                   sparql_config=sparql_config(sparql, t, lang))
         for slug, nav, heading in (("impressum", "impressum", t["nav_impressum"]),
                                    ("privacy", "privacy", t["nav_privacy"])):
             body = (PAGES_DIR / f"{slug}.{lang}.html").read_text(encoding="utf-8")

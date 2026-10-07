@@ -1,0 +1,38 @@
+# CIDOC CRM: who created what, and when
+# The same authorship as in the people query, read from the CRM view instead:
+# an E65 Creation (also LRMoo F28) carried out by persons (P14), with a time-
+# span (P4) whose earliest begin (P82a) gives the date.
+#
+# Squirrel Papers - https://squirrelpapers.github.io/sparql/
+# Graphs: downloads/squirrelpapers.ttl, downloads/squirrelpapers.crm.ttl, vocab/types.ttl, ontology/index.ttl
+
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX event: <http://purl.org/NET/c4dm/event.owl#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sqp: <https://w3id.org/squirrelpapers/ontology#>
+PREFIX sqpt: <https://w3id.org/squirrelpapers/type/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?title ?person ?begin ?entry
+WHERE {
+  ?creation a crm:E65_Creation ;
+            crm:P94_has_created ?entry ;
+            crm:P14_carried_out_by ?actor ;
+            crm:P4_has_time-span/crm:P82a_begin_of_the_begin ?begin .
+  ?entry crm:P102_has_title/crm:P190_has_symbolic_content ?title .
+  ?actor rdfs:label ?person .
+}
+ORDER BY DESC(?begin) ?title ?person
+LIMIT 200

@@ -34,11 +34,15 @@
     box.hidden = false;
     text(box, button.getAttribute("data-msg-loading"));
 
-    import(root + "assets/vendor/pdfjs/pdf.min.mjs").then(function (pdfjs) {
-      pdfjs.GlobalWorkerOptions.workerSrc = root + "assets/vendor/pdfjs/pdf.worker.min.mjs";
+    // Absolute URLs: import() resolves a relative path against this script
+    // (assets/js/), not against the page; it only worked because entry pages
+    // sit deep enough for the surplus "../" to stop at the site root (S9).
+    var base = new URL(root + "assets/vendor/pdfjs/", document.baseURI).href;
+    import(base + "pdf.min.mjs").then(function (pdfjs) {
+      pdfjs.GlobalWorkerOptions.workerSrc = base + "pdf.worker.min.mjs";
       return pdfjs.getDocument({
         url: button.getAttribute("data-pdf"),
-        standardFontDataUrl: root + "assets/vendor/pdfjs/standard_fonts/",
+        standardFontDataUrl: base + "standard_fonts/",
         withCredentials: false
       }).promise;
     }).then(function (pdf) {

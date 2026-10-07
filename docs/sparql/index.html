@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPARQL – Squirrel Papers</title>
+
+<link rel="canonical" href="https://squirrelpapers.github.io/sparql/">
+<link rel="alternate" hreflang="en" href="https://squirrelpapers.github.io/sparql/">
+<link rel="alternate" hreflang="de" href="https://squirrelpapers.github.io/de/sparql/">
+<link rel="icon" type="image/png" href="../assets/img/sqp-logo.png">
+<link rel="stylesheet" href="../assets/css/sqp.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="../">Squirrel Papers</a>
+    <span class="site-tagline">by the Research Squirrel Engineers Network</span>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../">Home</a>
+      <a href="../volumes/">Volumes &amp; Issues</a>
+      <a href="../search/">Search</a>
+      <a href="../sparql/" aria-current="page">SPARQL</a>
+      <a href="../impressum/">Legal notice</a>
+      <a href="../privacy/">Privacy</a>
+      <a class="lang-switch" href="../de/sparql/" hreflang="de" lang="de">Deutsch</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap">
+  <h1>Query the journal with SPARQL</h1>
+  <p class="lead measure">The whole journal is a knowledge graph - DCAT 3 / DCAT-AP 3 and the same resources in CIDOC CRM. This page runs SPARQL over it in your browser. Every query is editable; change it, press Run, and see what the graph says.</p>
+  <p class="measure">There is no SPARQL endpoint and no server behind this page. On request your browser loads Python (Pyodide 314.0.7) and rdflib 7.6.0 from this site, about 13 MB, then the four Turtle files listed below with 19,125 triples. Nothing you type leaves your machine.</p>
+  <p class="small muted">Graphs:
+    <a href="../downloads/squirrelpapers.ttl"><code>downloads/squirrelpapers.ttl</code></a> · <a href="../downloads/squirrelpapers.crm.ttl"><code>downloads/squirrelpapers.crm.ttl</code></a> · <a href="../vocab/types.ttl"><code>vocab/types.ttl</code></a> · <a href="../ontology/index.ttl"><code>ontology/index.ttl</code></a></p>
+
+  <div class="engine" id="engine">
+    <button type="button" class="button" id="engine-start">Start the query engine</button>
+    <span class="engine-status" id="engine-status" role="status" aria-live="polite"></span>
+  </div>
+
+  <ol class="query-toc small">
+    <li><a href="#q-entries">Every published entry, in journal order</a></li><li><a href="#q-by-type">Entries by type</a></li><li><a href="#q-by-year">Entries by year</a></li><li><a href="#q-by-volume">Entries per volume and issue</a></li><li><a href="#q-people">People and how often they appear</a></li><li><a href="#q-coauthors">Who wrote with whom</a></li><li><a href="#q-languages">Entries by language</a></li><li><a href="#q-events-places">Conferences and where they took place</a></li><li><a href="#q-crm-creation">CIDOC CRM: who created what, and when</a></li><li><a href="#q-crm-presented">CIDOC CRM: what was presented where</a></li><li><a href="#q-pdfs">PDF files per volume, with their size</a></li>
+  </ol>
+
+  
+  <section class="query" id="q-entries">
+    <h2>1. Every published entry, in journal order</h2>
+    <p class="measure">The table of contents of the whole journal: citation label, title, date and types of each entry. An entry with several types appears once, its types joined with a slash.</p>
+    <label class="visually-hidden" for="src-entries">SPARQL – Every published entry, in journal order</label>
+    <textarea class="sparql-src" id="src-entries" spellcheck="false"
+              rows="18">SELECT ?label ?title ?issued (GROUP_CONCAT(?type; separator=&#34; / &#34;) AS ?types) ?entry
+WHERE {
+  ?entry a bibo:Document ;
+         sqp:citationLabel ?label ;
+         dct:title ?title ;
+         dct:issued ?issued ;
+         prism:volume ?volume ;
+         prism:number ?issue ;
+         sqp:entryNumber ?n .
+  OPTIONAL { ?entry dct:type/skos:notation ?type }
+  # Sort keys as plain integers: volume and issue are strings in PRISM.
+  BIND(xsd:integer(?volume) AS ?v)
+  BIND(xsd:integer(?issue) AS ?i)
+  BIND(xsd:integer(?n) AS ?e)
+}
+GROUP BY ?label ?title ?issued ?entry ?v ?i ?e
+ORDER BY ?v ?i ?e</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="entries">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="entries">Reset</button>
+      <span class="small muted" id="time-entries"></span>
+      <span class="small muted query-meta">210 rows when this page was built ·
+        <a href="../sparql/queries/entries.rq" download>entries.rq</a></span>
+    </div>
+    <div class="query-result" id="out-entries"></div>
+  </section>
+  
+  <section class="query" id="q-by-type">
+    <h2>2. Entries by type</h2>
+    <p class="measure">Counted over the SKOS concepts of the journal&#39;s own type vocabulary, with the COAR resource type each one maps to. The same numbers as the type facet on the search page.</p>
+    <label class="visually-hidden" for="src-by-type">SPARQL – Entries by type</label>
+    <textarea class="sparql-src" id="src-by-type" spellcheck="false"
+              rows="12">SELECT ?type ?label ?coar (COUNT(DISTINCT ?entry) AS ?entries)
+WHERE {
+  ?entry a bibo:Document ;
+         dct:type ?concept .
+  ?concept skos:notation ?type ;
+           skos:prefLabel ?label .
+  FILTER(LANG(?label) = &#34;en&#34;)
+  OPTIONAL { ?concept skos:exactMatch|skos:closeMatch ?coar }
+}
+GROUP BY ?type ?label ?coar
+ORDER BY DESC(?entries) ?type</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="by-type">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="by-type">Reset</button>
+      <span class="small muted" id="time-by-type"></span>
+      <span class="small muted query-meta">20 rows when this page was built ·
+        <a href="../sparql/queries/by-type.rq" download>by-type.rq</a></span>
+    </div>
+    <div class="query-result" id="out-by-type"></div>
+  </section>
+  
+  <section class="query" id="q-by-year">
+    <h2>3. Entries by year</h2>
+    <p class="measure">The year of dct:issued - the date of the talk, poster or publication, not the year of the volume it was gathered into (Volume 1 collects everything up to 2019).</p>
+    <label class="visually-hidden" for="src-by-year">SPARQL – Entries by year</label>
+    <textarea class="sparql-src" id="src-by-year" spellcheck="false"
+              rows="9">SELECT ?year (COUNT(DISTINCT ?entry) AS ?entries)
+WHERE {
+  ?entry a bibo:Document ;
+         dct:issued ?issued .
+  BIND(SUBSTR(STR(?issued), 1, 4) AS ?year)
+}
+GROUP BY ?year
+ORDER BY DESC(?year)</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="by-year">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="by-year">Reset</button>
+      <span class="small muted" id="time-by-year"></span>
+      <span class="small muted query-meta">13 rows when this page was built ·
+        <a href="../sparql/queries/by-year.rq" download>by-year.rq</a></span>
+    </div>
+    <div class="query-result" id="out-by-year"></div>
+  </section>
+  
+  <section class="query" id="q-by-volume">
+    <h2>4. Entries per volume and issue</h2>
+    <p class="measure">Walks the chain entry → issue → volume through dcat:inSeries, the way DCAT 3 links datasets to dataset series, and counts what hangs on each issue.</p>
+    <label class="visually-hidden" for="src-by-volume">SPARQL – Entries per volume and issue</label>
+    <textarea class="sparql-src" id="src-by-volume" spellcheck="false"
+              rows="12">SELECT ?volume ?issue ?sigil (COUNT(?entry) AS ?entries) ?issueIri
+WHERE {
+  ?entry a bibo:Document ;
+         dcat:inSeries ?issueIri .
+  ?issueIri prism:number ?issue ;
+            sqp:sigil ?sigil ;
+            dcat:inSeries ?volumeIri .
+  ?volumeIri prism:volume ?volume .
+}
+GROUP BY ?volume ?issue ?sigil ?issueIri
+ORDER BY DESC(xsd:integer(?volume)) xsd:integer(?issue)</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="by-volume">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="by-volume">Reset</button>
+      <span class="small muted" id="time-by-volume"></span>
+      <span class="small muted query-meta">34 rows when this page was built ·
+        <a href="../sparql/queries/by-volume.rq" download>by-volume.rq</a></span>
+    </div>
+    <div class="query-result" id="out-by-volume"></div>
+  </section>
+  
+  <section class="query" id="q-people">
+    <h2>5. People and how often they appear</h2>
+    <p class="measure">Authors, contributors and editors of entries, counted per person IRI. A person with an ORCID has an IRI built from it; the owl:sameAs link leads to the ORCID record. The same numbers as the person facet.</p>
+    <label class="visually-hidden" for="src-people">SPARQL – People and how often they appear</label>
+    <textarea class="sparql-src" id="src-people" spellcheck="false"
+              rows="10">SELECT ?name (COUNT(DISTINCT ?entry) AS ?entries) ?orcid ?person
+WHERE {
+  ?entry a bibo:Document ;
+         dct:creator|dct:contributor|bibo:editor ?person .
+  ?person foaf:name ?name .
+  OPTIONAL { ?person owl:sameAs ?orcid }
+}
+GROUP BY ?person ?name ?orcid
+ORDER BY DESC(?entries) ?name</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="people">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="people">Reset</button>
+      <span class="small muted" id="time-people"></span>
+      <span class="small muted query-meta">106 rows when this page was built ·
+        <a href="../sparql/queries/people.rq" download>people.rq</a></span>
+    </div>
+    <div class="query-result" id="out-people"></div>
+  </section>
+  
+  <section class="query" id="q-coauthors">
+    <h2>6. Who wrote with whom</h2>
+    <p class="measure">Pairs of people who share at least two entries as authors. The FILTER on the IRIs keeps each pair once instead of twice.</p>
+    <label class="visually-hidden" for="src-coauthors">SPARQL – Who wrote with whom</label>
+    <textarea class="sparql-src" id="src-coauthors" spellcheck="false"
+              rows="12">SELECT ?a ?b (COUNT(DISTINCT ?entry) AS ?together)
+WHERE {
+  ?entry a bibo:Document ;
+         dct:creator ?p1, ?p2 .
+  FILTER(STR(?p1) &lt; STR(?p2))
+  ?p1 foaf:name ?a .
+  ?p2 foaf:name ?b .
+}
+GROUP BY ?a ?b
+HAVING (COUNT(DISTINCT ?entry) &gt; 1)
+ORDER BY DESC(?together) ?a ?b</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="coauthors">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="coauthors">Reset</button>
+      <span class="small muted" id="time-coauthors"></span>
+      <span class="small muted query-meta">88 rows when this page was built ·
+        <a href="../sparql/queries/coauthors.rq" download>coauthors.rq</a></span>
+    </div>
+    <div class="query-result" id="out-coauthors"></div>
+  </section>
+  
+  <section class="query" id="q-languages">
+    <h2>7. Entries by language</h2>
+    <p class="measure">dct:language points to the EU language authority. Where the source does not state a language, the build guesses it from the title and marks the entry with sqp:languageGuessed; entries without any language are not counted here.</p>
+    <label class="visually-hidden" for="src-languages">SPARQL – Entries by language</label>
+    <textarea class="sparql-src" id="src-languages" spellcheck="false"
+              rows="13">SELECT ?language (COUNT(DISTINCT ?entry) AS ?entries) (SUM(?guess) AS ?guessed)
+WHERE {
+  ?entry a bibo:Document ;
+         dct:language ?authority .
+  BIND(IF(?authority = &lt;http://publications.europa.eu/resource/authority/language/DEU&gt;, &#34;de&#34;,
+       IF(?authority = &lt;http://publications.europa.eu/resource/authority/language/ENG&gt;, &#34;en&#34;,
+          STR(?authority))) AS ?language)
+  OPTIONAL { ?entry sqp:languageGuessed ?g }
+  BIND(IF(COALESCE(?g, false), 1, 0) AS ?guess)
+}
+GROUP BY ?language
+ORDER BY DESC(?entries)</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="languages">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="languages">Reset</button>
+      <span class="small muted" id="time-languages"></span>
+      <span class="small muted query-meta">2 rows when this page was built ·
+        <a href="../sparql/queries/languages.rq" download>languages.rq</a></span>
+    </div>
+    <div class="query-result" id="out-languages"></div>
+  </section>
+  
+  <section class="query" id="q-events-places">
+    <h2>8. Conferences and where they took place</h2>
+    <p class="measure">Events with their place as a GeoSPARQL point: the ?wkt column can be pasted into QGIS as delimited text. Online events have no place and are left out.</p>
+    <label class="visually-hidden" for="src-events-places">SPARQL – Conferences and where they took place</label>
+    <textarea class="sparql-src" id="src-events-places" spellcheck="false"
+              rows="12">SELECT ?event ?start ?place ?wkt (COUNT(DISTINCT ?entry) AS ?entries)
+WHERE {
+  ?entry bibo:presentedAt ?e .
+  ?e rdfs:label ?event ;
+     schema:location ?p .
+  OPTIONAL { ?e schema:startDate ?start }
+  ?p rdfs:label ?place ;
+     geo:hasGeometry/geo:asWKT ?wkt .
+}
+GROUP BY ?event ?start ?place ?wkt
+ORDER BY DESC(?start) ?event</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="events-places">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="events-places">Reset</button>
+      <span class="small muted" id="time-events-places"></span>
+      <span class="small muted query-meta">60 rows when this page was built ·
+        <a href="../sparql/queries/events-places.rq" download>events-places.rq</a></span>
+    </div>
+    <div class="query-result" id="out-events-places"></div>
+  </section>
+  
+  <section class="query" id="q-crm-creation">
+    <h2>9. CIDOC CRM: who created what, and when</h2>
+    <p class="measure">The same authorship as in the people query, read from the CRM view instead: an E65 Creation (also LRMoo F28) carried out by persons (P14), with a time-span (P4) whose earliest begin (P82a) gives the date.</p>
+    <label class="visually-hidden" for="src-crm-creation">SPARQL – CIDOC CRM: who created what, and when</label>
+    <textarea class="sparql-src" id="src-crm-creation" spellcheck="false"
+              rows="12">SELECT ?title ?person ?begin ?entry
+WHERE {
+  ?creation a crm:E65_Creation ;
+            crm:P94_has_created ?entry ;
+            crm:P14_carried_out_by ?actor ;
+            crm:P4_has_time-span/crm:P82a_begin_of_the_begin ?begin .
+  ?entry crm:P102_has_title/crm:P190_has_symbolic_content ?title .
+  ?actor rdfs:label ?person .
+}
+ORDER BY DESC(?begin) ?title ?person
+LIMIT 200</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="crm-creation">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="crm-creation">Reset</button>
+      <span class="small muted" id="time-crm-creation"></span>
+      <span class="small muted query-meta">200 rows when this page was built ·
+        <a href="../sparql/queries/crm-creation.rq" download>crm-creation.rq</a></span>
+    </div>
+    <div class="query-result" id="out-crm-creation"></div>
+  </section>
+  
+  <section class="query" id="q-crm-presented">
+    <h2>10. CIDOC CRM: what was presented where</h2>
+    <p class="measure">An event is an E7 Activity that used the entry (P16) and took place at an E53 Place (P7), whose position is a WKT literal (P168). The PDF of an entry is a CRMdig D1 Digital Object that incorporates it (P165).</p>
+    <label class="visually-hidden" for="src-crm-presented">SPARQL – CIDOC CRM: what was presented where</label>
+    <textarea class="sparql-src" id="src-crm-presented" spellcheck="false"
+              rows="13">SELECT ?event ?place ?wkt ?title ?pdf
+WHERE {
+  ?activity a crm:E7_Activity ;
+            crm:P1_is_identified_by/crm:P190_has_symbolic_content ?event ;
+            crm:P16_used_specific_object ?entry ;
+            crm:P7_took_place_at ?p .
+  ?p crm:P168_place_is_defined_by ?wkt ;
+     rdfs:label ?place .
+  ?entry crm:P102_has_title/crm:P190_has_symbolic_content ?title .
+  OPTIONAL { ?pdf crm:P165_incorporates ?entry ; a crmdig:D1_Digital_Object }
+}
+ORDER BY ?event ?title</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="crm-presented">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="crm-presented">Reset</button>
+      <span class="small muted" id="time-crm-presented"></span>
+      <span class="small muted query-meta">105 rows when this page was built ·
+        <a href="../sparql/queries/crm-presented.rq" download>crm-presented.rq</a></span>
+    </div>
+    <div class="query-result" id="out-crm-presented"></div>
+  </section>
+  
+  <section class="query" id="q-pdfs">
+    <h2>11. PDF files per volume, with their size</h2>
+    <p class="measure">Every distribution with a byte size, summed per volume. The files stay on Zenodo; the graph records where they are, their media type and an MD5 checksum (SPDX).</p>
+    <label class="visually-hidden" for="src-pdfs">SPARQL – PDF files per volume, with their size</label>
+    <textarea class="sparql-src" id="src-pdfs" spellcheck="false"
+              rows="10">SELECT ?volume (COUNT(?file) AS ?files) (ROUND(SUM(?bytes) / 10485.76) / 100 AS ?MiB)
+WHERE {
+  ?entry a bibo:Document ;
+         prism:volume ?volume ;
+         dcat:distribution ?file .
+  ?file dcat:byteSize ?bytes .
+}
+GROUP BY ?volume
+ORDER BY DESC(xsd:integer(?volume))</textarea>
+    <div class="query-bar">
+      <button type="button" class="button button-small" data-run="pdfs">Run</button>
+      <button type="button" class="button button-small button-quiet" data-reset="pdfs">Reset</button>
+      <span class="small muted" id="time-pdfs"></span>
+      <span class="small muted query-meta">8 rows when this page was built ·
+        <a href="../sparql/queries/pdfs.rq" download>pdfs.rq</a></span>
+    </div>
+    <div class="query-result" id="out-pdfs"></div>
+  </section>
+  
+
+  <p class="small muted measure">The queries come from content/queries.yaml in the repository and are run against these graphs whenever the site is built; a query that returns nothing stops the build. The same queries are available as .rq files for any other SPARQL processor.</p>
+</div>
+<script type="application/json" id="sparql-config">{"graphs": ["downloads/squirrelpapers.ttl", "downloads/squirrelpapers.crm.ttl", "vocab/types.ttl", "ontology/index.ttl"], "lang": "en", "max_rows": 500, "prefixes": "PREFIX bibo: \u003chttp://purl.org/ontology/bibo/\u003e\nPREFIX crm: \u003chttp://www.cidoc-crm.org/cidoc-crm/\u003e\nPREFIX crmdig: \u003chttp://www.ics.forth.gr/isl/CRMdig/\u003e\nPREFIX dcat: \u003chttp://www.w3.org/ns/dcat#\u003e\nPREFIX dct: \u003chttp://purl.org/dc/terms/\u003e\nPREFIX event: \u003chttp://purl.org/NET/c4dm/event.owl#\u003e\nPREFIX fabio: \u003chttp://purl.org/spar/fabio/\u003e\nPREFIX foaf: \u003chttp://xmlns.com/foaf/0.1/\u003e\nPREFIX geo: \u003chttp://www.opengis.net/ont/geosparql#\u003e\nPREFIX lrmoo: \u003chttp://iflastandards.info/ns/lrm/lrmoo/\u003e\nPREFIX owl: \u003chttp://www.w3.org/2002/07/owl#\u003e\nPREFIX prism: \u003chttp://prismstandard.org/namespaces/basic/2.0/\u003e\nPREFIX rdfs: \u003chttp://www.w3.org/2000/01/rdf-schema#\u003e\nPREFIX schema: \u003chttps://schema.org/\u003e\nPREFIX skos: \u003chttp://www.w3.org/2004/02/skos/core#\u003e\nPREFIX sqp: \u003chttps://w3id.org/squirrelpapers/ontology#\u003e\nPREFIX sqpt: \u003chttps://w3id.org/squirrelpapers/type/\u003e\nPREFIX xsd: \u003chttp://www.w3.org/2001/XMLSchema#\u003e\n", "queries": {"by-type": "SELECT ?type ?label ?coar (COUNT(DISTINCT ?entry) AS ?entries)\nWHERE {\n  ?entry a bibo:Document ;\n         dct:type ?concept .\n  ?concept skos:notation ?type ;\n           skos:prefLabel ?label .\n  FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?concept skos:exactMatch|skos:closeMatch ?coar }\n}\nGROUP BY ?type ?label ?coar\nORDER BY DESC(?entries) ?type", "by-volume": "SELECT ?volume ?issue ?sigil (COUNT(?entry) AS ?entries) ?issueIri\nWHERE {\n  ?entry a bibo:Document ;\n         dcat:inSeries ?issueIri .\n  ?issueIri prism:number ?issue ;\n            sqp:sigil ?sigil ;\n            dcat:inSeries ?volumeIri .\n  ?volumeIri prism:volume ?volume .\n}\nGROUP BY ?volume ?issue ?sigil ?issueIri\nORDER BY DESC(xsd:integer(?volume)) xsd:integer(?issue)", "by-year": "SELECT ?year (COUNT(DISTINCT ?entry) AS ?entries)\nWHERE {\n  ?entry a bibo:Document ;\n         dct:issued ?issued .\n  BIND(SUBSTR(STR(?issued), 1, 4) AS ?year)\n}\nGROUP BY ?year\nORDER BY DESC(?year)", "coauthors": "SELECT ?a ?b (COUNT(DISTINCT ?entry) AS ?together)\nWHERE {\n  ?entry a bibo:Document ;\n         dct:creator ?p1, ?p2 .\n  FILTER(STR(?p1) \u003c STR(?p2))\n  ?p1 foaf:name ?a .\n  ?p2 foaf:name ?b .\n}\nGROUP BY ?a ?b\nHAVING (COUNT(DISTINCT ?entry) \u003e 1)\nORDER BY DESC(?together) ?a ?b", "crm-creation": "SELECT ?title ?person ?begin ?entry\nWHERE {\n  ?creation a crm:E65_Creation ;\n            crm:P94_has_created ?entry ;\n            crm:P14_carried_out_by ?actor ;\n            crm:P4_has_time-span/crm:P82a_begin_of_the_begin ?begin .\n  ?entry crm:P102_has_title/crm:P190_has_symbolic_content ?title .\n  ?actor rdfs:label ?person .\n}\nORDER BY DESC(?begin) ?title ?person\nLIMIT 200", "crm-presented": "SELECT ?event ?place ?wkt ?title ?pdf\nWHERE {\n  ?activity a crm:E7_Activity ;\n            crm:P1_is_identified_by/crm:P190_has_symbolic_content ?event ;\n            crm:P16_used_specific_object ?entry ;\n            crm:P7_took_place_at ?p .\n  ?p crm:P168_place_is_defined_by ?wkt ;\n     rdfs:label ?place .\n  ?entry crm:P102_has_title/crm:P190_has_symbolic_content ?title .\n  OPTIONAL { ?pdf crm:P165_incorporates ?entry ; a crmdig:D1_Digital_Object }\n}\nORDER BY ?event ?title", "entries": "SELECT ?label ?title ?issued (GROUP_CONCAT(?type; separator=\" / \") AS ?types) ?entry\nWHERE {\n  ?entry a bibo:Document ;\n         sqp:citationLabel ?label ;\n         dct:title ?title ;\n         dct:issued ?issued ;\n         prism:volume ?volume ;\n         prism:number ?issue ;\n         sqp:entryNumber ?n .\n  OPTIONAL { ?entry dct:type/skos:notation ?type }\n  # Sort keys as plain integers: volume and issue are strings in PRISM.\n  BIND(xsd:integer(?volume) AS ?v)\n  BIND(xsd:integer(?issue) AS ?i)\n  BIND(xsd:integer(?n) AS ?e)\n}\nGROUP BY ?label ?title ?issued ?entry ?v ?i ?e\nORDER BY ?v ?i ?e", "events-places": "SELECT ?event ?start ?place ?wkt (COUNT(DISTINCT ?entry) AS ?entries)\nWHERE {\n  ?entry bibo:presentedAt ?e .\n  ?e rdfs:label ?event ;\n     schema:location ?p .\n  OPTIONAL { ?e schema:startDate ?start }\n  ?p rdfs:label ?place ;\n     geo:hasGeometry/geo:asWKT ?wkt .\n}\nGROUP BY ?event ?start ?place ?wkt\nORDER BY DESC(?start) ?event", "languages": "SELECT ?language (COUNT(DISTINCT ?entry) AS ?entries) (SUM(?guess) AS ?guessed)\nWHERE {\n  ?entry a bibo:Document ;\n         dct:language ?authority .\n  BIND(IF(?authority = \u003chttp://publications.europa.eu/resource/authority/language/DEU\u003e, \"de\",\n       IF(?authority = \u003chttp://publications.europa.eu/resource/authority/language/ENG\u003e, \"en\",\n          STR(?authority))) AS ?language)\n  OPTIONAL { ?entry sqp:languageGuessed ?g }\n  BIND(IF(COALESCE(?g, false), 1, 0) AS ?guess)\n}\nGROUP BY ?language\nORDER BY DESC(?entries)", "pdfs": "SELECT ?volume (COUNT(?file) AS ?files) (ROUND(SUM(?bytes) / 10485.76) / 100 AS ?MiB)\nWHERE {\n  ?entry a bibo:Document ;\n         prism:volume ?volume ;\n         dcat:distribution ?file .\n  ?file dcat:byteSize ?bytes .\n}\nGROUP BY ?volume\nORDER BY DESC(xsd:integer(?volume))", "people": "SELECT ?name (COUNT(DISTINCT ?entry) AS ?entries) ?orcid ?person\nWHERE {\n  ?entry a bibo:Document ;\n         dct:creator|dct:contributor|bibo:editor ?person .\n  ?person foaf:name ?name .\n  OPTIONAL { ?person owl:sameAs ?orcid }\n}\nGROUP BY ?person ?name ?orcid\nORDER BY DESC(?entries) ?name"}, "root": "../", "ui": {"at_build": "{n} rows when this page was built", "engine": "There is no SPARQL endpoint and no server behind this page. On request your browser loads Python (Pyodide {pyodide}) and rdflib {rdflib} from this site, about 13 MB, then the four Turtle files listed below with {triples} triples. Nothing you type leaves your machine.", "failed": "The query engine could not start:", "file_url": "The query engine cannot start from a file on disk. Run python main.py --serve and open the page from there.", "footer": "The queries come from content/queries.yaml in the repository and are run against these graphs whenever the site is built; a query that returns nothing stops the build. The same queries are available as .rq files for any other SPARQL processor.", "graphs": "Graphs", "intro": "The whole journal is a knowledge graph - DCAT 3 / DCAT-AP 3 and the same resources in CIDOC CRM. This page runs SPARQL over it in your browser. Every query is editable; change it, press Run, and see what the graph says.", "loading_graph": "Loading the graph …", "loading_rdflib": "Loading rdflib …", "loading_runtime": "Loading Python …", "no_rows": "No results. The query is valid but matches nothing.", "ready": "Ready: {triples} triples loaded. Edit a query and press Run.", "reset": "Reset", "rows": "{n} rows", "rows_first": "First {shown} of {n} rows", "run": "Run", "running": "running …", "start": "Start the query engine", "time": "{s} s", "title": "Query the journal with SPARQL"}, "wheels": ["pyparsing-3.3.2-py3-none-any.whl", "rdflib-7.6.0-py3-none-any.whl"]}</script>
+
+</main>
+<footer class="site-footer band">
+  <div class="wrap footer-grid">
+    <section>
+      <h2>About Squirrel Papers</h2>
+      <p>The Squirrel Papers by the Research Squirrel Engineers Network are a free Open Access journal hosting publications on Zenodo and the Open Science Framework (OSF), collecting Linked Open Data (LOD), Research Software Engineering (RSE), Cultural Heritage and Geo-Sciences related research papers, working papers, blog posts, posters, slides, research data and research software.</p>
+      <p>The Squirrel Papers are an official journal accepted by the &#34;Nationales ISSN-Zentrum für Deutschland&#34; with ISSN 2750-560X.</p>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p><strong>Mail</strong><br>mail [at] squirrelpapers [dot] net</p>
+      <p><strong>Editor / Head Squirrel</strong><br>
+        <a href="https://orcid.org/0000-0002-3246-3531">Florian Thiery</a></p>
+      <p>ISSN 2750-560X · <a href="https://www.wikidata.org/wiki/Q89658875">Wikidata: Q89658875</a></p>
+    </section>
+  </div>
+  <div class="wrap footer-small">
+    <p>Metadata on this site are licensed CC BY 4.0; each paper, poster, dataset and software carries its own licence on Zenodo.</p>
+    <p><a href="https://github.com/squirrelpapers/squirrelpapers.github.io">Source code</a>
+      · <a href="../impressum/">Legal notice</a>
+      · <a href="../privacy/">Privacy</a></p>
+  </div>
+</footer>
+<script>
+// Copy buttons. The PDF preview and the citation styles have their own scripts.
+document.addEventListener("click", function (event) {
+  var copy = event.target.closest("[data-copy]");
+  if (copy && navigator.clipboard) {
+    var text = document.getElementById(copy.getAttribute("data-copy")).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      var label = copy.textContent;
+      copy.textContent = copy.getAttribute("data-copied");
+      setTimeout(function () { copy.textContent = label; }, 1500);
+    });
+  }
+});
+</script>
+
+<script src="../assets/js/sqp-sparql.js"></script>
+
+</body>
+</html>
