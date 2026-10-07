@@ -1,0 +1,105 @@
+TY  - JOUR
+ID  - sp_vol7_iss1_e1
+TI  - Fuzzyness & Wobbliness in Geodaten: Linked Open Data und Wikibase in der Praxis
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/01/23
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14707872
+UR  - https://doi.org/10.5281/zenodo.14707872
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss1_e3
+TI  - LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries and visualisations for archaeological data
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/03/27
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15074382
+UR  - https://doi.org/10.5281/zenodo.15074382
+LA  - en
+KW  - Jupyter Notebook
+KW  - NFDI
+KW  - NFDI4Objects
+KW  - Python
+KW  - Research Software Engineering
+KW  - Text+
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss1_e4
+TI  - Inschriften und der “Knowledge Graph … wie CIDOC-CRM als Referenzmodell fungiert …
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2025
+DA  - 2025/04/28
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15310723
+UR  - https://doi.org/10.5281/zenodo.15310723
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss1_e5
+TI  - LOD Objects in Action II: SPARQLing Unicorn Research Toolkit: Integrating geospatial LOD SPARQL queries for visualisations in QGIS
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/05/15
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15401536
+UR  - https://doi.org/10.5281/zenodo.15401536
+LA  - en
+KW  - Linked Data
+KW  - LOD
+KW  - NFDI
+KW  - NFDI4Objects
+KW  - QGIS
+KW  - Research Software Engineering
+KW  - SPARQL Unicorn
+KW  - Text+
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss1_e6
+TI  - LOD Objects in Action III: TEI/EpiDoc Ogham Data - How to integrate TEI data into the NFDI Knowledge Graph Ecosystem
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/07/23
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16353592
+UR  - https://doi.org/10.5281/zenodo.16353592
+LA  - en
+KW  - Linked Data
+KW  - LOD
+KW  - NFDI
+KW  - NFDI4Objects
+KW  - TEI/EpiDoc
+KW  - Text+
+N1  - Presentation
+ER  -

@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.2540530",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Piotrowski",
+        "given": "Michael"
+      },
+      {
+        "family": "Bruhn",
+        "given": "Kai-Christian"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Jahrestagung Digital Humanities im deutschsprachigen Raum",
+    "event-place": "Graz, Austria",
+    "event-title": "Jahrestagung Digital Humanities im deutschsprachigen Raum",
+    "genre": "Poster",
+    "id": "v1-i4-e1",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#1",
+    "title": "Das Labeling System – ein freier Baukasten für kontrollierte Vokabulare",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

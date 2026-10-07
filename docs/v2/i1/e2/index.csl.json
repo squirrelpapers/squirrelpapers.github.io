@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.3719127",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Book section",
+    "id": "v2-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          20
+        ]
+      ]
+    },
+    "keyword": "FOSSGIS, Linked Data, QGIS, SPARQL Unicorn, Wikidata",
+    "language": "de",
+    "page": "#2",
+    "title": "QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins",
+    "type": "article-journal",
+    "volume": "2"
+  }
+]

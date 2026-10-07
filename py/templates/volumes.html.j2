@@ -2,6 +2,7 @@
 {% block main %}
 <div class="wrap">
   <h1>{{ t.nav_volumes }}</h1>
+  {% if downloads %}<p class="downloads">{{ t.export_journal }}: {% for d in downloads %}<a href="{{ root }}{{ d.href }}" download>{{ d.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
   {% for v in volumes %}
   <section class="volume-block">
     <h2><a href="{{ root }}{{ v.path }}/">{{ t.volume }} {{ v.volume }}</a> <span class="muted">{{ v.label_years }}</span></h2>

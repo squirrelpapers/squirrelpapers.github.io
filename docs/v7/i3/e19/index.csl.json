@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.17150583",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA DE Workshop Köln 2025",
+    "event-place": "Universität zu Köln, Köln, Deutschland",
+    "event-title": "CAA DE Workshop Köln 2025",
+    "genre": "Presentation",
+    "id": "v7-i3-e19",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          17
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ19",
+    "title": "Vom Ogham-Stein zum FAIR/LO(U)D Digital Object Wie Gigha Brewing und der federated Knowledge Graph historische Artefakte lebendig machen",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

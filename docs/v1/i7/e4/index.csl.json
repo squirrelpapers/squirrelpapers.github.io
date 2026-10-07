@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.1155748",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Graphentechnologien 2018",
+    "event-place": "Mainz, Germany",
+    "event-title": "Graphentechnologien 2018",
+    "genre": "Presentation",
+    "id": "v1-i7-e4",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          19
+        ]
+      ]
+    },
+    "keyword": "Graph, RDF, Samian",
+    "language": "de",
+    "page": "#4",
+    "title": "Putting Samian pots together – modelling ceramic service family roots – connecting figure types. Wie Graphen bei der Modellierung des Zweifels helfen können.",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

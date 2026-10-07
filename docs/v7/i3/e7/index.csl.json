@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14914309",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Presentation",
+    "id": "v7-i3-e7",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ7",
+    "title": "Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

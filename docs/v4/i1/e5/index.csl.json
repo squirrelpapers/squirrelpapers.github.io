@@ -1,0 +1,42 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7337817",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Klammt",
+        "given": "Anne"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Preprint",
+    "id": "v4-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          18
+        ]
+      ]
+    },
+    "keyword": "Archäoinformatik, DGUF, QGIS, Softwarerezension",
+    "page": "#5",
+    "title": "Software Review for the Software PointSamplingTool (Archäologische Informationen 44, Early View, published online 18 Nov 2022)",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13897231",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Verbandstagung 2024 des NWVA e.V.",
+    "event-place": "DBM Bochum, Germany",
+    "event-title": "Verbandstagung 2024 des NWVA e.V.",
+    "genre": "Presentation",
+    "id": "v6-i3-e10",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          7
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#10",
+    "title": "Das Research Squirrel Engineers Network - Digitale Services zum digitalen Datenmanagement aus der Archäoinformatik- und Citizen Science-Community",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

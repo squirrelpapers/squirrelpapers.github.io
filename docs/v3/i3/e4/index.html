@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F. (2021). Ogham Data - Version 1.0. <em>Squirrel Papers</em>, 3(3), #4. <a href="https://doi.org/10.5281/zenodo.4765604">https://doi.org/10.5281/zenodo.4765604</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F. (2021). Ogham Data - Version 1.0. <em>Squirrel Papers</em>, 3(3), #4. <a href="https://doi.org/10.5281/zenodo.4765604">https://doi.org/10.5281/zenodo.4765604</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v3/i3/e4/index.bib" download>BibTeX</a> · <a href="../../../v3/i3/e4/index.ris" download>RIS</a> · <a href="../../../v3/i3/e4/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -139,5 +141,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.4765604", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "genre": "Dataset", "id": "v3-i3-e4", "issue": "3", "issued": {"date-parts": [[2021, 5, 16]]}, "keyword": "Fellow-Programm Freies Wissen, Linked Data, Ogham, Semantic Web, Wikidata", "language": "en", "page": "#4", "title": "Ogham Data - Version 1.0", "type": "article-journal", "volume": "3"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

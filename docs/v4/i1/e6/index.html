@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Behrens, S., Schwarzkopf, C., Gödeke, A. K., Scholl, D., &amp; Schneider, N. (2022). Fellow-Programm Freies Wissen 2016 - 2021. <em>Squirrel Papers</em>, 4(1), #6. <a href="https://doi.org/10.5281/zenodo.5788378">https://doi.org/10.5281/zenodo.5788378</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Behrens, S., Schwarzkopf, C., Gödeke, A. K., Scholl, D., &amp; Schneider, N. (2022). Fellow-Programm Freies Wissen 2016 - 2021. <em>Squirrel Papers</em>, 4(1), #6. <a href="https://doi.org/10.5281/zenodo.5788378">https://doi.org/10.5281/zenodo.5788378</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v4/i1/e6/index.bib" download>BibTeX</a> · <a href="../../../v4/i1/e6/index.ris" download>RIS</a> · <a href="../../../v4/i1/e6/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -130,5 +132,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.5788378", "ISSN": "2750-560X", "author": [{"family": "Behrens", "given": "Sarah"}, {"family": "Schwarzkopf", "given": "Christopher"}, {"family": "Gödeke", "given": "Anna-Katharina"}, {"family": "Scholl", "given": "Dominik"}, {"family": "Schneider", "given": "Nico"}], "container-title": "Squirrel Papers", "genre": "Report", "id": "v4-i1-e6", "issue": "1", "issued": {"date-parts": [[2022, 2, 1]]}, "keyword": "Open Research, Open Scholarship, Open Science", "language": "de", "page": "#6", "title": "Fellow-Programm Freies Wissen 2016 - 2021", "type": "article-journal", "volume": "4"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

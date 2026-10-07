@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10512531",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Proposal",
+    "id": "v6-i4-e1",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#1",
+    "title": "NFDI4Objects - Community Cluster \"Semantic Modelling & Linked Open Data\"",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F. (2018). Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks. <em>Squirrel Papers</em>, 1(7), #9. <a href="https://doi.org/10.5281/zenodo.1494175">https://doi.org/10.5281/zenodo.1494175</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F. (2018). Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks. <em>Squirrel Papers</em>, 1(7), #9. <a href="https://doi.org/10.5281/zenodo.1494175">https://doi.org/10.5281/zenodo.1494175</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v1/i7/e9/index.bib" download>BibTeX</a> · <a href="../../../../v1/i7/e9/index.ris" download>RIS</a> · <a href="../../../../v1/i7/e9/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -134,5 +136,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.1494175", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "event": "13. Konferenz der GeodäsieStudierenden", "event-place": "Munich, Germany", "event-title": "13. Konferenz der GeodäsieStudierenden", "genre": "Presentation", "id": "v1-i7-e9", "issue": "7", "issued": {"date-parts": [[2018, 11, 30]]}, "keyword": "KonGeoS, Linked Data, Netzwerk, RDF, Vagheit, Zweifel", "language": "de", "page": "#9", "title": "Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks", "type": "article-journal", "volume": "1"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

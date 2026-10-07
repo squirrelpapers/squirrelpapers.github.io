@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.775019",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "event-place": "Paris, France",
+    "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "genre": "Poster",
+    "id": "v1-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          4,
+          24
+        ]
+      ]
+    },
+    "keyword": "archaeology, linked data, linked open data, samian ware, semantic modelling",
+    "language": "en",
+    "page": "#1",
+    "title": "Linking potter, pots and places: a LOD approach to samian ware",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

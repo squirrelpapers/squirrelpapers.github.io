@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10790939",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE2024",
+    "event-place": "Julius-Maximilians-Universität Würzburg",
+    "event-title": "deRSE2024",
+    "genre": "Presentation",
+    "id": "v6-i3-e5",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#5",
+    "title": "The SPARQL Unicorn: A Research Tool for Linked Open Data in QGIS and git-action-based ontology documentation",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

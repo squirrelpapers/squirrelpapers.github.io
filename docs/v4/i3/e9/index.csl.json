@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.6976311",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e9",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          10
+        ]
+      ]
+    },
+    "keyword": "Linked Open Data, Linked Pipes",
+    "language": "en",
+    "page": "#9",
+    "title": "Linked Pipes: A Little Minion for reproducible research",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

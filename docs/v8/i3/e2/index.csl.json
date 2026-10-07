@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18726246",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Oldenburger 3D-Tage",
+    "event-place": "Hochschule für Technik und Wirtschaft, Dresden",
+    "event-title": "Oldenburger 3D-Tage",
+    "genre": "Presentation",
+    "id": "v8-i3-e2",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "§2",
+    "title": "Von der Hosentasche in den Wissensgraph: Smartphone-3D als FAIR Digital Object in der SquirrelBase",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

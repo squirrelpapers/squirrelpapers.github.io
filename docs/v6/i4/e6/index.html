@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Voß, J., Thiery, F., Gerber, A., Wagner, S., &amp; von Hagel, F. (2024). Terminologien in NFDI4Objects. <em>Squirrel Papers</em>, 6(4), #6. <a href="https://doi.org/10.5281/zenodo.10906911">https://doi.org/10.5281/zenodo.10906911</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Voß, J., Thiery, F., Gerber, A., Wagner, S., &amp; von Hagel, F. (2024). Terminologien in NFDI4Objects. <em>Squirrel Papers</em>, 6(4), #6. <a href="https://doi.org/10.5281/zenodo.10906911">https://doi.org/10.5281/zenodo.10906911</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v6/i4/e6/index.bib" download>BibTeX</a> · <a href="../../../v6/i4/e6/index.ris" download>RIS</a> · <a href="../../../v6/i4/e6/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -136,5 +138,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.10906911", "ISSN": "2750-560X", "author": [{"family": "Voß", "given": "Jakob"}, {"family": "Thiery", "given": "Florian"}, {"family": "Gerber", "given": "Anja"}, {"family": "Wagner", "given": "Sarah"}, {"family": "von Hagel", "given": "Frank"}], "container-title": "Squirrel Papers", "event": "Brücken schlagen zwischen Terminologien", "event-title": "Brücken schlagen zwischen Terminologien", "genre": "Presentation", "id": "v6-i4-e6", "issue": "4", "issued": {"date-parts": [[2024, 3, 20]]}, "keyword": "nfdi", "language": "de", "page": "#6", "title": "Terminologien in NFDI4Objects", "type": "article-journal", "volume": "6"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

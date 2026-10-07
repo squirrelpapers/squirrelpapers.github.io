@@ -1,0 +1,31 @@
+# Third-party files, copied unchanged (PRIMER A3). Used by the citation step
+# (S6) to render citations in the reader's browser; nothing is loaded from a
+# CDN at run time.
+
+citeproc:
+  name: citeproc-js
+  version: 2.4.63
+  source: https://www.npmjs.com/package/citeproc
+  files: [citeproc/citeproc_commonjs.js, citeproc/LICENSE]
+  licence: CPAL-1.0 OR AGPL-1.0 (see citeproc/LICENSE)
+  taken: 2026-10-07
+
+csl_styles:
+  repository: https://github.com/citation-style-language/styles
+  commit: 0151fd1ed467ec54f4f2554d68fce9ccc6ff0118
+  licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)
+  files:
+    apa.csl: APA 7th edition
+    chicago-author-date.csl: Chicago Manual of Style (author-date)
+    harvard-cite-them-right.csl: Harvard (Cite Them Right)
+    ieee.csl: IEEE
+    modern-language-association.csl: MLA 9th edition
+    nlm-citation-sequence.csl: Vancouver (the independent parent of dependent/vancouver-nlm.csl)
+  taken: 2026-10-07
+
+csl_locales:
+  repository: https://github.com/citation-style-language/locales
+  commit: a89adece41013402236e2c9020972d7e931fbab8
+  licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)
+  files: [locales-en-GB.xml, locales-en-US.xml, locales-de-DE.xml]
+  taken: 2026-10-07

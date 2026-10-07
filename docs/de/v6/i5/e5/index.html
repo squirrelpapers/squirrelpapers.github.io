@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., Schmidt, S. C., Trognitz, M., &amp; Homburg, T. (2024). Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata. <em>Squirrel Papers</em>, 6(5), #5. <a href="https://doi.org/10.5281/zenodo.13364444">https://doi.org/10.5281/zenodo.13364444</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., Schmidt, S. C., Trognitz, M., &amp; Homburg, T. (2024). Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata. <em>Squirrel Papers</em>, 6(5), #5. <a href="https://doi.org/10.5281/zenodo.13364444">https://doi.org/10.5281/zenodo.13364444</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v6/i5/e5/index.bib" download>BibTeX</a> · <a href="../../../../v6/i5/e5/index.ris" download>RIS</a> · <a href="../../../../v6/i5/e5/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -134,5 +136,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.13364444", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Schmidt", "given": "Sophie Charlotte"}, {"family": "Trognitz", "given": "Martina"}, {"family": "Homburg", "given": "Timo"}], "container-title": "Squirrel Papers", "event": "UK-Ireland DH Association Annual Event 2024", "event-place": "University College Cork (UCC), Cork, Ireland", "event-title": "UK-Ireland DH Association Annual Event 2024", "genre": "Presentation", "id": "v6-i5-e5", "issue": "5", "issued": {"date-parts": [[2024, 6, 4]]}, "keyword": "Ogham, Wikidata", "language": "en", "page": "#5", "title": "Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata", "type": "article-journal", "volume": "6"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

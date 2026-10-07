@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.292967",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Engel",
+        "given": "Thomas"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "7. Workshop der AG CAA",
+    "event-place": "Hamburg, Germany",
+    "event-title": "7. Workshop der AG CAA",
+    "genre": "Presentation",
+    "id": "v1-i5-e1",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          5
+        ]
+      ]
+    },
+    "keyword": "archaeology, arches, CIDOC-CRM, graph, ontology, semantic web",
+    "language": "de",
+    "page": "#1",
+    "title": "E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten with dem Arches Framework",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

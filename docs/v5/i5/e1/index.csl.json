@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.8333763",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA-DE Workshop",
+    "event-place": "Toscana-Saal der Residenz Würzburg",
+    "event-title": "CAA-DE Workshop",
+    "genre": "Presentation",
+    "id": "v5-i5-e1",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#1",
+    "title": "Object-Related Research Data Workflows Within NFDI4Objects and Beyond",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

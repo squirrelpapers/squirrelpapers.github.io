@@ -1,0 +1,30 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18441772",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Methodological working paper",
+    "id": "v8-i1-e4",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§4",
+    "title": "From Packaged Research Artefacts to RDF: A Reference Implementation for FAIR Digital Objects into the Federated Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

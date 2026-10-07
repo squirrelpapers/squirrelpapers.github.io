@@ -1,0 +1,39 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7105005",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Kiesling",
+        "given": "J.B."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e14",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          23
+        ]
+      ]
+    },
+    "keyword": "Archaeology, Wikidata",
+    "language": "en",
+    "page": "#14",
+    "title": "Challenges in research community building: integrating Terra Sigillata (Samian) Research into the Wikidata community",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

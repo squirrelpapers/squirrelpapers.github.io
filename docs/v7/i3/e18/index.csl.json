@@ -1,0 +1,45 @@
+[
+  {
+    "DOI": "10.5281/zenodo.15721553",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "White",
+        "given": "Nora"
+      },
+      {
+        "family": "Kasten",
+        "given": "Megan Nichole"
+      },
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK-Ireland DH Association Annual Event 2025",
+    "event-place": "University of Glasgow, Glasgow, United Kingdom (Scotland)",
+    "event-title": "UK-Ireland DH Association Annual Event 2025",
+    "genre": "Presentation",
+    "id": "v7-i3-e18",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ18",
+    "title": "Cultural Heritage beyond boundaries - Open Science and FAIR methods for Ogham and Holy Wells in Ireland and the UK",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

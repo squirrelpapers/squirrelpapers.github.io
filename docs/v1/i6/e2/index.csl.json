@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.817496",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Taani",
+        "given": "Rania"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "30. International Geodetic Students Meeting",
+    "event-place": "Zagreb, Croatia",
+    "event-title": "30. International Geodetic Students Meeting",
+    "genre": "Presentation",
+    "id": "v1-i6-e2",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          27
+        ]
+      ]
+    },
+    "keyword": "atlantis, gis",
+    "language": "en",
+    "page": "#2",
+    "title": "Avalanches on Atlantis - Real or Fake? The \"true\" story!",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

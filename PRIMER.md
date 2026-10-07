@@ -152,7 +152,7 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Entry-Sigel (#, λ, §, 𝒬) | Pro Issue im YAML (`sigil:`), nur Anzeige und Zitation, nie in der IRI | 2026-10-06 |
 | Impressum/Datenschutz | Von der alten Seite übernehmen; Flo stellt danach die Weiterleitung um | 2026-10-06 |
 | Sprachen | EN unter `/`, DE unter `/de/`; UI und Rahmentexte übersetzt, Inhalte in Originalsprache | 2026-10-06 |
-| Zitierstile | CSL-JSON je Entry, im Browser gerendert mit citeproc-js und Stil-Auswahl wie bei Zenodo; Vorschlag Stile: APA 7, Chicago (author-date), Harvard (Cite Them Right), IEEE, MLA 9, Vancouver | Vorschlag |
+| Zitierstile | CSL-JSON je Entry, im Browser gerendert mit citeproc-js 2.4.63 und Stil-Auswahl wie bei Zenodo: APA 7, Chicago (author-date), Harvard (Cite Them Right), IEEE, MLA 9, Vancouver (= `nlm-citation-sequence`). Locale `en-GB` bzw. `de-DE` nach Seitensprache. Ohne JavaScript bleibt der vorgerenderte APA-ähnliche Text stehen | 2026-10-07 |
 | PDF-Vorschau | `iframe` auf den Zenodo-Previewer, PDF-Datei dynamisch aus dem Cache (erste PDF im Record) | 2026-10-06 |
 | SPARQL | Muster aus `fdo-squirrel-registry`: rdflib unter Pyodide, `queries.yaml`; so einfach wie möglich | 2026-10-06 |
 | Karte | Leaflet + OSM; Online-Veranstaltungen erscheinen nicht auf der Karte | 2026-10-06 |
@@ -192,11 +192,15 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Personen | ORCID ist der Schlüssel; Name je ORCID = häufigste Nachnamensschreibung, davon der längste Vorname, der mindestens ein Viertel so oft vorkommt wie der häufigste. Ohne ORCID: Zuordnung über Nachname + verträgliche Initialen, nur wenn eindeutig. Personen ohne ORCID mit gleichem Nachnamen und verträglichen Initialen werden zusammengeführt. Titel (Dr., Prof.) und Suffixe (FSA, PhD) fallen weg. Person-IRI `…/person/<ORCID>` bzw. `…/person/<slug>` | 2026-10-07 |
 | Autorenliste | Die Liste aus `content/` gilt, auch wenn Zenodo mehr oder weniger Personen nennt (18 Fälle im Bericht); nur bei `et_al: true` wird aus Zenodo ergänzt | Vorschlag |
 | Typvokabular | `content/vocab/types.yaml`, 23 Konzepte mit Labels EN/DE, Aliassen (`talk` → `presentation`), `broader`, Mappings auf COAR, FaBiO und Zenodo-`resource_type`; erster Typ = Haupttyp | 2026-10-07 |
-| `docs/` | Gehört dem `site`-Schritt: wird bei jedem Lauf geleert und neu geschrieben. Produkte anderer Schritte für das Web (BibTeX, Turtle, Dumps …) schreiben diese nach `dist/web/` im Layout von `docs/`; `site` kopiert sie hinein und verlinkt, was da ist | 2026-10-07 |
+| `docs/` | Gehört dem `site`-Schritt: wird bei jedem Lauf geleert und neu geschrieben. Produkte anderer Schritte für das Web (BibTeX, Turtle, Dumps …) schreiben diese nach `data/derived/web/` im Layout von `docs/` (git-ignoriert, sonst läge jede Datei doppelt im Repo); `site` kopiert sie hinein und verlinkt, was da ist. Geändert 2026-10-07 in S6: vorher `dist/web/` — `dist/` ist versioniert, die Kopie in `docs/` reicht | 2026-10-07 |
 | Seitenlayout | Ein Ordner je Seite (`v7/i4/e5/index.html`), relative Links (funktioniert von der Platte und unter jedem Host), `canonical` und `hreflang` auf `squirrelpapers.github.io`, schema.org-JSON-LD je Entry | 2026-10-07 |
 | PDF-Vorschau | Erst nach Klick (`iframe` auf den Zenodo-Previewer der Versions-Record-ID); vorher kein Drittanbieter-Request — geprüft mit Playwright | 2026-10-07 |
 | Rechtliche Seiten | `content/pages/{impressum,privacy}.{de,en}.html`; Impressum auf § 5 DDG umgestellt, Datenschutz neu für GitHub Pages gefasst. **Entwurf**, von Flo vor dem Umschalten zu prüfen | 2026-10-07 |
 | UI-Texte | `content/ui.yaml` (EN/DE); Schlüssel dürfen nicht wie Dict-Methoden heißen (`copy`, `items` …), der Build bricht sonst ab | 2026-10-07 |
+| Zitierform | Jeder Eintrag als Artikel der Squirrel Papers: Band, Heft, Seite = Sigel + Nummer („Squirrel Papers, 7(4), λ5"); Typ als `genre`/`note`. Nur Einträge mit `@inproceedings`-Container (CoRDI, 7(5)) als Konferenzbeitrag im Tagungsband, Seite = volles Label „7(5), 𝒬1" — wie in Flos `vol7/bibtex.md` | 2026-10-07 |
+| BibTeX-Schlüssel | `sp_vol<V>_iss<I>_e<N>` (ASCII); die alten Schlüssel aus `vol7/bibtex.md` (`…_l5`, `…_q1`) gelten nicht weiter | 2026-10-07 |
+| Drittanbieter-Code | citeproc-js, 6 CSL-Stile und 3 Locales unverändert unter `assets/vendor/` mit `SOURCE.yaml` (Version/Commit, Lizenz); auf der Seite selbst gehostet, kein CDN | 2026-10-07 |
+| Sprache, wenn unbekannt | S4 rät aus Funktionswörtern im Titel (`de`/`en`), markiert mit `language_guessed`; `content/` gewinnt immer. Grund: Zitierstile setzen sonst deutsche Titel in englischen Title Case | 2026-10-07 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -246,7 +250,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S3 | Harvest: Zenodo-Records, Wikidata-Orte/QIDs → `data/raw/` | dieses (läuft bei Flo) | S2 | erledigt 2026-10-06 |
 | S4 | Merge + Normalisierung → `data/derived/entries.json`, SKOS-Typen | dieses | S2, S3 | erledigt 2026-10-07 |
 | S5 | Seiten EN/DE: Journal, Volume, Issue, Entry, About, Impressum, Datenschutz; PDF-iframe | dieses | S4 | erledigt 2026-10-07 |
-| S6 | Zitation: CSL-JSON, citeproc-js + Stilwahl, BibTeX/RIS je Ebene | dieses | S4 | offen |
+| S6 | Zitation: CSL-JSON, citeproc-js + Stilwahl, BibTeX/RIS je Ebene | dieses | S4 | erledigt 2026-10-07 |
 | S7 | RDF: Ontologie, DCAT 3/DCAT-AP 3, BIBO/FaBiO, CRM/CRMdig/LRMoo, JSON-LD | dieses | S4 | offen |
 | S8 | SHACL-Gate (eigene + DCAT-AP-3-Shapes), `--strict` | dieses | S7 | offen |
 | S9 | Filter (JSON-Index) + SPARQL-Seite (rdflib/Pyodide) | dieses | S7 | offen |
@@ -581,6 +585,41 @@ auf „Deploy from a branch: main, /docs" steht (die Action kommt in S11).
 
 **Abnahme:** BibTeX parst mit `bibtexparser` ohne Fehler; Stichprobe gegen
 `vol7/bibtex.md` stimmt inhaltlich.
+
+### Erledigt 2026-10-07
+
+`py/step_cite.py`, `assets/js/sqp-cite.js`, `assets/vendor/` (citeproc-js
+2.4.63, CSL-Styles @ `0151fd1`, Locales @ `a89adec`). Anpassungen an
+`step_site.py`, den Templates (Stil-Auswahl, Downloads auf Entry-, Heft-,
+Band- und Übersichtsseite), `step_merge.py` (Sprachschätzung) und
+`migrate_parsers.py` (Dialekt 4).
+
+**Ergebnis:** 210 Einträge je als BibTeX, RIS, CSL-JSON; dazu je Heft und
+Band BibTeX/RIS und das ganze Journal als `dist/squirrelpapers.{bib,ris,csl.json}`
+(auch unter `docs/downloads/`). pybtex liest alle 210 Einträge (203 article,
+7 inproceedings). Browser-Test (Playwright): alle 6 Stile auf EN- und
+DE-Seiten, keine Konsolenfehler, keine Anfragen an Dritte. Zwei Läufe
+byte-gleich. JavaScript auf Entry-Seiten: ≈ 1,4 MB (citeproc 0,97 MB, Stile
+und Locales 0,46 MB), wird einmal geladen und gecacht.
+
+**Befunde:**
+- **7(4) λ5 kam als `@inproceedings` mit dem Journal als Buchtitel** heraus:
+  `vol7/bibtex.md` hat auch für λ5 einen Block (ein `@article`), und die
+  Migration hatte ihn als `container` übernommen. Nur `@inproceedings` zählt
+  jetzt als Tagungsband. Inhaltlicher Abgleich mit `vol7/bibtex.md`: gleich,
+  bis auf den Monat (Sep. statt Okt.: Event 30.9.–1.10., genommen wird der
+  Beginn).
+- **Vertauschter Herausgeber** „Paul, Groth" in einem CoRDI-Container
+  (seit S2 im Bericht): in `content/vol7.yaml` korrigiert.
+- **114 von 210 Einträgen ohne Sprache** → Chicago/MLA setzten deutsche
+  Titel in Title Case. Jetzt geraten: 51 × en, 20 × de; 43 bleiben offen
+  (meist Software-/Datentitel ohne Funktionswörter).
+- **Ein vierter Markdown-Dialekt:** 8(3) §9 hatte Typ und Sprache als
+  shields.io-Badges vor dem Titel, der Titel bestand aus Badge-Markdown. Von
+  Hand in `content/vol8.yaml` korrigiert, Parser kennt das Muster jetzt (falls
+  je wieder migriert wird). Kein weiterer Titel hat Markup-Reste.
+- IEEE und Vancouver setzen eine Listennummer „[1]" vor den Eintrag — wird
+  für die Einzelanzeige entfernt, damit sie nicht mitkopiert wird.
 
 ## S7 — RDF
 

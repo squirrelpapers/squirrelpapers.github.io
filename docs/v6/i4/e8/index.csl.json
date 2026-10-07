@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13132293",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "EAA 2024, Rome, Italy",
+    "event-place": "Sapienza University of Rome, Italy",
+    "event-title": "EAA 2024, Rome, Italy",
+    "genre": "Presentation",
+    "id": "v6-i4-e8",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#8",
+    "title": "Taming Time: Using Correspondence Analysis to handle relative chronologies as graphs",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

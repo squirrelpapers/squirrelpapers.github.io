@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14886032",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Poster",
+    "id": "v7-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ3",
+    "title": "Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

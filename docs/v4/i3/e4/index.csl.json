@@ -1,0 +1,39 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5942833",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Raddatz",
+        "given": "Laura"
+      },
+      {
+        "family": "Boochs",
+        "given": "Frank"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          2
+        ]
+      ]
+    },
+    "keyword": "3D, African Red Slip Ware, Kulturerbe, Linked Open Data",
+    "language": "de",
+    "page": "#4",
+    "title": "ARS3D: Close to the Original-Erfassung archäologischer Objekte und ihre webbasierte semantisch modellierte Bereitstellung zur fachwissenschaftlichen Analyse",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.15065874",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Berthold",
+        "given": "Angela"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "TWG 2024.3 Prototypische Modellierung eines Provenienzgazetteers zur FAIRen Bereitstellung in einer Wikibase",
+    "event-title": "TWG 2024.3 Prototypische Modellierung eines Provenienzgazetteers zur FAIRen Bereitstellung in einer Wikibase",
+    "genre": "Presentation",
+    "id": "v7-i4-e4",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          20
+        ]
+      ]
+    },
+    "page": "λ4",
+    "title": "Wikibase Datenmodell v0.2",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

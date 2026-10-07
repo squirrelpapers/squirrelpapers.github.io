@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10756823",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE2024",
+    "event-place": "Julius-Maximilians-Universität Würzburg",
+    "event-title": "deRSE2024",
+    "genre": "Poster",
+    "id": "v6-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#3",
+    "title": "FOSS N4O Management Hub: Using RSE skills and Open Source Software to propose a heterogenious Management Hub in NFDI4Objects",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

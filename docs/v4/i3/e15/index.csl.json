@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7142170",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e15",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          6
+        ]
+      ]
+    },
+    "keyword": "Linked Open Data, Ships",
+    "language": "en",
+    "page": "#15",
+    "title": "NAVIS.one: Challenges and Opportunities for RSE and RDM by designing a common web application from a 1990s online database",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

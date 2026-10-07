@@ -1,0 +1,278 @@
+TY  - JOUR
+ID  - sp_vol7_iss3_e1
+TI  - FAIRes Kulturerbe mit dem Smartphone und SfM? Wie man das durch Smartphone Apps, Open Source Tools und semantische Annotation im Wikiversum und OSM erreichen kann
+AU  - Thiery, Florian
+AU  - Distel, Anne-Karoline
+AU  - Thiery, Peter
+PY  - 2025
+DA  - 2025/02/04
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14789260
+UR  - https://doi.org/10.5281/zenodo.14789260
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e2
+TI  - Low-Cost 3D-Digitalisierung mit SfM in Smartphone Apps. 3D-Modelle zum Mitnehmen und Open Data Publikation mit dem Wikiversum und OSM
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+AU  - Thiery, Peter
+AU  - Thiery, Susanne
+PY  - 2025
+DA  - 2025/02/04
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14789264
+UR  - https://doi.org/10.5281/zenodo.14789264
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e3
+TI  - Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences
+AU  - Thiery, Florian
+AU  - Homburg, Timo
+AU  - Schenk, Fiona
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14886032
+UR  - https://doi.org/10.5281/zenodo.14886032
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e4
+TI  - Keeping it REAL: Sustainability Challenges for Research Software in Computational Archaeology
+AU  - Schubert, Lutz Krister
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14898291
+UR  - https://doi.org/10.5281/zenodo.14898291
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e5
+TI  - Research Software Engineering in the NFDI (INFRA-WG-RSE)
+AU  - Thiery, Florian
+AU  - Flemisch, Bernd
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14898391
+UR  - https://doi.org/10.5281/zenodo.14898391
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e6
+TI  - Research Squirrel Engineers How an independent RSE-driven network may help the NFDI
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14914287
+UR  - https://doi.org/10.5281/zenodo.14914287
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e7
+TI  - Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data
+AU  - Thiery, Florian
+AU  - Schubert, Lutz Krister
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ7
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14914309
+UR  - https://doi.org/10.5281/zenodo.14914309
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e8
+TI  - How to improve the visibility and added value of RSE(s) in NFDI
+AU  - Thiery, Florian
+AU  - Flemisch, Bernd
+AU  - Bernoth, Jan
+AU  - Seiwerth, Corinna
+AU  - Linxweiler, Jan
+AU  - Söhn, Linnaea
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ8
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14976365
+UR  - https://doi.org/10.5281/zenodo.14976365
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e9
+TI  - Geodesist in the Humanities working with humanities people on Research Software and FAIRification Tools
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ9
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14920034
+UR  - https://doi.org/10.5281/zenodo.14920034
+LA  - en
+KW  - NFDI
+KW  - Research Software Engineering
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e10
+TI  - Data-Driven Community Standards for Interdisciplinary Heterogeneous Information Networks
+AU  - thor Straten, Mattis
+AU  - Strohm, Steffen
+AU  - Thiery, Florian
+AU  - Renz, Matthias
+PY  - 2025
+DA  - 2025/03/12
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ10
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15040308
+UR  - https://doi.org/10.5281/zenodo.15040308
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e16
+TI  - Beyond Digital Boundaries - Linked Open Data and Wikidata with OG(H)AM and Holy Wells
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/06/17
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ16
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15667685
+UR  - https://doi.org/10.5281/zenodo.15667685
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e17
+TI  - A Holy Wells Database on Wikidata
+AU  - Distel, Anne-Karoline
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/06/17
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ17
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15721469
+UR  - https://doi.org/10.5281/zenodo.15721469
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e18
+TI  - Cultural Heritage beyond boundaries - Open Science and FAIR methods for Ogham and Holy Wells in Ireland and the UK
+AU  - Thiery, Florian
+AU  - White, Nora
+AU  - Kasten, Megan Nichole
+AU  - Distel, Anne-Karoline
+PY  - 2025
+DA  - 2025/06/17
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ18
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15721553
+UR  - https://doi.org/10.5281/zenodo.15721553
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e19
+TI  - Vom Ogham-Stein zum FAIR/LO(U)D Digital Object Wie Gigha Brewing und der federated Knowledge Graph historische Artefakte lebendig machen
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/09/17
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ19
+SN  - 2750-560X
+DO  - 10.5281/zenodo.17150583
+UR  - https://doi.org/10.5281/zenodo.17150583
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e20
+TI  - How to FAIRify Citizen Science? Using the Wikibase Ecosystem for Volunteered Cultural Heritage Information Systems
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/10/28
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ20
+SN  - 2750-560X
+DO  - 10.5281/zenodo.17475014
+UR  - https://doi.org/10.5281/zenodo.17475014
+LA  - en
+N1  - Presentation
+ER  -

@@ -1,0 +1,43 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7870480",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Book section",
+    "id": "v5-i1-e3",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          27
+        ]
+      ]
+    },
+    "keyword": "Archäologie, Linked Open Data, Ogham, Open Street Map, Wikidata",
+    "language": "de",
+    "page": "#3",
+    "title": "Irische ᚑᚌᚆᚐᚋ Steine in OSM und Wikidata",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

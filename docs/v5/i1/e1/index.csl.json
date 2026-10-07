@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7558880",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Book",
+    "id": "v5-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          22
+        ]
+      ]
+    },
+    "keyword": "Linked Open Data, Ogham, Open Street Map, Wikidata",
+    "language": "en",
+    "page": "#1",
+    "title": "Irish Ogham Stones in Wikidata and Open Street Map",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

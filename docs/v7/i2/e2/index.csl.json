@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14906708",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v7-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          21
+        ]
+      ]
+    },
+    "page": "λ2",
+    "title": "GrapHNR2023 - Supplementary Material",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10780476",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v6-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "page": "#2",
+    "title": "SPARQL Unicorn Ontology Documentation",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

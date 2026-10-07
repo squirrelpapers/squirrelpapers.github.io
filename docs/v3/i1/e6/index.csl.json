@@ -1,0 +1,39 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5642891",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Karmacharya",
+        "given": "Ashish"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e6",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware, CIDOC CRM",
+    "language": "en",
+    "page": "#6",
+    "title": "African Red Slip Ware Digital (ARS3D) - Ontology",
+    "type": "article-journal",
+    "volume": "3"
+  }
+]

@@ -70,6 +70,30 @@ def norm(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", (text or "").lower()).strip()
 
 
+GERMAN = {"der", "die", "das", "und", "mit", "von", "für", "im", "in", "zur", "zum", "den",
+          "dem", "des", "ein", "eine", "einer", "auf", "über", "zwischen", "bei", "als", "wie",
+          "oder", "nach", "aus", "am", "vom", "ist", "sind", "neue", "digitale", "daten"}
+ENGLISH = {"the", "and", "of", "for", "with", "to", "in", "on", "a", "an", "from", "by", "as",
+           "how", "using", "into", "towards", "between", "is", "are", "new", "data"}
+
+
+def guess_language(title: str) -> str | None:
+    """'de' or 'en' from function words in the title, or None if unclear.
+
+    114 of 210 published entries carry no language in content/ or on Zenodo,
+    and citation styles title-case every title they believe is English
+    ("Brückenbau Zwischen LOD Und RSE", S6). A guess is better than English by
+    default; it is marked `language_guessed` and content/ always wins."""
+    words = re.findall(r"[a-zäöüß]+", title.lower())
+    de = sum(w in GERMAN for w in words) + 2 * len(re.findall(r"[äöüß]", title.lower()))
+    en = sum(w in ENGLISH for w in words)
+    if de > en and de >= 2:
+        return "de"
+    if en > de and en >= 1:
+        return "en"
+    return None
+
+
 def similarity(a: str, b: str) -> float:
     return difflib.SequenceMatcher(None, norm(a), norm(b)).ratio()
 
@@ -465,6 +489,10 @@ def main(strict: bool = False) -> None:
 
                 # language and dates
                 language = e.get("language") or LANGUAGE_3_TO_2.get(meta.get("language") or "")
+                if not language:
+                    language = guess_language(e["title"])
+                    if language:
+                        out["language_guessed"] = True
                 if language:
                     out["language"] = language
                 event = dict(e.get("event") or {})

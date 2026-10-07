@@ -41,7 +41,7 @@ runs), `--open`, `--serve`.
 | `content/` | **source of truth**: `journal.yaml`, `vol<N>.yaml`, vocabularies |
 | `data/raw/` | inputs as obtained: source snapshots, Zenodo and Wikidata cache |
 | `data/derived/` | intermediate files (generated) |
-| `dist/` | citable products: graph, GeoJSON, BibTeX, reports (generated) |
+| `dist/` | citable products: `squirrelpapers.bib`/`.ris`/`.csl.json`, graph, GeoJSON, reports (generated) |
 | `docs/` | the website served by GitHub Pages (generated) |
 | `assets/` | stylesheet, logo and vendored scripts copied into `docs/` |
 | `py/` | one module per step, `sqp_utils.py` for shared helpers |
@@ -53,6 +53,16 @@ Edit `content/`, never `docs/`.
 Code: [MIT](LICENSE). Journal metadata and texts: [CC BY 4.0](LICENSE-CONTENT).
 The listed papers, posters, data and software carry their own licences on
 their Zenodo records.
+
+## Third-party components
+
+Served from this site, copied unchanged into `assets/vendor/` (details in
+`assets/vendor/SOURCE.yaml`):
+
+- [citeproc-js](https://github.com/Juris-M/citeproc-js) 2.4.63 — CPAL-1.0 or AGPL-1.0
+- [CSL styles](https://github.com/citation-style-language/styles) (APA, Chicago author-date,
+  Harvard Cite Them Right, IEEE, MLA, Vancouver) and
+  [CSL locales](https://github.com/citation-style-language/locales) (en-GB, en-US, de-DE) — CC BY-SA 3.0
 
 ## Citation
 

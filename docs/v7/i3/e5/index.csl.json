@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14898391",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Poster",
+    "id": "v7-i3-e5",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ5",
+    "title": "Research Software Engineering in the NFDI (INFRA-WG-RSE)",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F. (2019). Sphere 7 Data: LOUD and FAIR Data for the Research Community. <em>Squirrel Papers</em>, 1(1), #3. <a href="https://doi.org/10.5281/zenodo.2643469">https://doi.org/10.5281/zenodo.2643469</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F. (2019). Sphere 7 Data: LOUD and FAIR Data for the Research Community. <em>Squirrel Papers</em>, 1(1), #3. <a href="https://doi.org/10.5281/zenodo.2643469">https://doi.org/10.5281/zenodo.2643469</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v1/i1/e3/index.bib" download>BibTeX</a> · <a href="../../../../v1/i1/e3/index.ris" download>RIS</a> · <a href="../../../../v1/i1/e3/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -134,5 +136,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.2643469", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "genre": "Working paper", "id": "v1-i1-e3", "issue": "1", "issued": {"date-parts": [[2019, 4, 17]]}, "keyword": "FAIR Data, Five Star Data, Linked Data, Linked Open Data, Semantic Web", "language": "en", "page": "#3", "title": "Sphere 7 Data: LOUD and FAIR Data for the Research Community", "type": "article-journal", "volume": "1"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

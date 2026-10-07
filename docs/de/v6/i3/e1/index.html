@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., Rossenova, L., &amp; Schubert, Z. (2024). 3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C). <em>Squirrel Papers</em>, 6(3), #1. <a href="https://doi.org/10.5281/zenodo.10580308">https://doi.org/10.5281/zenodo.10580308</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., Rossenova, L., &amp; Schubert, Z. (2024). 3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C). <em>Squirrel Papers</em>, 6(3), #1. <a href="https://doi.org/10.5281/zenodo.10580308">https://doi.org/10.5281/zenodo.10580308</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v6/i3/e1/index.bib" download>BibTeX</a> · <a href="../../../../v6/i3/e1/index.ris" download>RIS</a> · <a href="../../../../v6/i3/e1/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -135,5 +137,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.10580308", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Rossenova", "given": "Lozana"}, {"family": "Schubert", "given": "Zoe"}], "container-title": "Squirrel Papers", "event": "Oldenburger 3D-Tage", "event-place": "Jade-Hoschschule, Oldenburg", "event-title": "Oldenburger 3D-Tage", "genre": "Presentation", "id": "v6-i3-e1", "issue": "3", "issued": {"date-parts": [[2024, 1, 31]]}, "keyword": "3D, NFDI, NFDI4Culture, NFDI4Objects, Research Data Management, Semantic Modelling, Semantics, Wikibase", "language": "de", "page": "#1", "title": "3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)", "type": "article-journal", "volume": "6"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

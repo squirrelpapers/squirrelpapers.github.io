@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.19200628",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "FOSSGIS-Konferenz 2026",
+    "event-place": "Georg-August-Universität Göttingen, Germany",
+    "event-title": "FOSSGIS-Konferenz 2026",
+    "genre": "Presentation",
+    "id": "v8-i3-e9",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "§9",
+    "title": "Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

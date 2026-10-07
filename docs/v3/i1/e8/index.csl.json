@@ -1,0 +1,28 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5647864",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v3-i1-e8",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "page": "#8",
+    "title": "African Red Slip Ware Digital (ARS3D) - Comparison-Script",
+    "type": "article-journal",
+    "volume": "3"
+  }
+]

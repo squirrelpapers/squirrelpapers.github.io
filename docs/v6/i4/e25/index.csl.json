@@ -1,0 +1,32 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14130517",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "AG3D meeting",
+    "event-title": "AG3D meeting",
+    "genre": "Presentation",
+    "id": "v6-i4-e25",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          13
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#25",
+    "title": "3D-Erfassung und FAIRe Publikation von Cultural Heritage Artefakten - und was das Semantic Web damit zu tun hat",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

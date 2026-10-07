@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7629765",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v5-i3-e2",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
+        ]
+      ]
+    },
+    "keyword": "Citizen Science, Samian Ware, Terra Sigillata, Wikidata",
+    "language": "de",
+    "page": "#2",
+    "title": "LEIZA-Forschungsdaten in der großen weiten Welt der Citizen Science",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

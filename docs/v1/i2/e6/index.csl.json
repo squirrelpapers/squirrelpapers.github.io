@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.2620929",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Wintervorträge 2019",
+    "event-place": "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany",
+    "event-title": "Wintervorträge 2019",
+    "genre": "Presentation",
+    "id": "v1-i2-e6",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          2
+        ]
+      ]
+    },
+    "keyword": "Archäologie 4.0, Data Mining, Digitale Transformation, Industrie 4.0, Linked Data, Semantic Web, Web 3.0",
+    "language": "de",
+    "page": "#6",
+    "title": "Das Internet als Daten-Netzwerk: Die Zukunft der Archäologie?",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5642976",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Dingler",
+        "given": "Anke"
+      },
+      {
+        "family": "Beck",
+        "given": "S."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v3-i1-e4",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "language": "en",
+    "page": "#4",
+    "title": "African Red Slip Ware Digital (ARS3D) - How to create a Feature?",
+    "type": "article-journal",
+    "volume": "3"
+  }
+]

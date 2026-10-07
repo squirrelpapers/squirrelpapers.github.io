@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14789260",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Oldenburger 3D-Tage",
+    "event-place": "Jade-Hoschschule, Oldenburg",
+    "event-title": "Oldenburger 3D-Tage",
+    "genre": "Presentation",
+    "id": "v7-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          4
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ1",
+    "title": "FAIRes Kulturerbe mit dem Smartphone und SfM? Wie man das durch Smartphone Apps, Open Source Tools und semantische Annotation im Wikiversum und OSM erreichen kann",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

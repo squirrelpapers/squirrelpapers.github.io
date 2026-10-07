@@ -1,0 +1,46 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13897159",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mempel-Länger",
+        "given": "Lasse"
+      },
+      {
+        "family": "Fella",
+        "given": "Kristina"
+      },
+      {
+        "family": "Puhl",
+        "given": "Andreas"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Verbandstagung 2024 des NWVA e.V.",
+    "event-place": "DBM Bochum, Germany",
+    "event-title": "Verbandstagung 2024 des NWVA e.V.",
+    "genre": "Presentation",
+    "id": "v6-i4-e17",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          7
+        ]
+      ]
+    },
+    "keyword": "NFDI, NFDI4Objects",
+    "language": "de",
+    "page": "#17",
+    "title": "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

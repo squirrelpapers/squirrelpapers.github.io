@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.292974",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Bruhn",
+        "given": "Kai-Christian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Forum DH Mainz",
+    "event-place": "Mainz, Germany",
+    "event-title": "Forum DH Mainz",
+    "genre": "Poster",
+    "id": "v1-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          7,
+          30
+        ]
+      ]
+    },
+    "keyword": "linked data, linked open data, SKOS",
+    "language": "de",
+    "page": "#3",
+    "title": "Das Labeling System – Lösen der Mehrdeutigkeiten von Räumen und deren Funktion",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

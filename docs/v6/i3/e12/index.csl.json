@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14524614",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "ARCHEO.FOSS 18",
+    "event-place": "Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti Scalo, Chieti, Italy",
+    "event-title": "ARCHEO.FOSS 18",
+    "genre": "Presentation",
+    "id": "v6-i3-e12",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#12",
+    "title": "Jupyter Python Minion: Empowering Open Data for Urban Archaeological Insights",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

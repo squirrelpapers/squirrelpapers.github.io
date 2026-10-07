@@ -1,0 +1,68 @@
+[
+  {
+    "DOI": "10.5281/zenodo.16735847",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Ferenz",
+        "given": "Stephan"
+      },
+      {
+        "family": "Castro",
+        "given": "Leyla Jael"
+      },
+      {
+        "family": "Hajiabadi",
+        "given": "Hamideh"
+      },
+      {
+        "family": "Löbe",
+        "given": "Matthias"
+      },
+      {
+        "family": "Stervbo",
+        "given": "Ulrik"
+      },
+      {
+        "family": "Gan",
+        "given": "Lu"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "Research Software, Research Software Metadata, Software Metadata",
+    "language": "en",
+    "page": "7(5), 𝒬4",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "Towards Common Metadata For Research Software in the NFDI",
+    "type": "paper-conference"
+  }
+]

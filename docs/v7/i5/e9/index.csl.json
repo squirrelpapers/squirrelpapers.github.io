@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.16931907",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rossenova",
+        "given": "Lozana"
+      },
+      {
+        "family": "Mietchen",
+        "given": "Daniel"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Conference paper",
+    "id": "v7-i5-e9",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "𝒬9",
+    "title": "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

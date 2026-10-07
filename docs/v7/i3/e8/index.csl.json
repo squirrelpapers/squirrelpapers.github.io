@@ -1,0 +1,53 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14976365",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      },
+      {
+        "family": "Bernoth",
+        "given": "Jan"
+      },
+      {
+        "family": "Seiwerth",
+        "given": "Corinna"
+      },
+      {
+        "family": "Linxweiler",
+        "given": "Jan"
+      },
+      {
+        "family": "Söhn",
+        "given": "Linnaea"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Presentation",
+    "id": "v7-i3-e8",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ8",
+    "title": "How to improve the visibility and added value of RSE(s) in NFDI",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

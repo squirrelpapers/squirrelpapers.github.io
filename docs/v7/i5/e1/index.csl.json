@@ -1,0 +1,72 @@
+[
+  {
+    "DOI": "10.5281/zenodo.16736089",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      },
+      {
+        "family": "Schneider",
+        "given": "Agnes"
+      },
+      {
+        "family": "Landauer",
+        "given": "Jürgen"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Gampe",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "Artificial Intelligence, Base4NFDI, Community-driven Software, Computational Archaeology, FAIR Data, Linked Open Data, Research Software Engineering, Semantic Modelling",
+    "language": "en",
+    "page": "7(5), 𝒬1",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code",
+    "type": "paper-conference"
+  }
+]

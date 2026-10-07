@@ -1,0 +1,39 @@
+[
+  {
+    "DOI": "10.5281/zenodo.6976136",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Wigg-Wolf",
+        "given": "David G."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e7",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          9
+        ]
+      ]
+    },
+    "keyword": "Archaeology, Digital Archaeology, Linked Open Data, Nomisma, Numismatics, Samian Ware, Terra Sigillata, Wikidata",
+    "language": "en",
+    "page": "#7",
+    "title": "Challenges & Opportunities from real world archaeological datasets in the community-driven LOD ecosystem",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

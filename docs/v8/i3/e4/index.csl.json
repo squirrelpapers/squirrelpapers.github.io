@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18803727",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE26",
+    "event-place": "University of Stuttgart, Stuttgart",
+    "event-title": "deRSE26",
+    "genre": "Poster",
+    "id": "v8-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§4",
+    "title": "Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.1402509",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+    "event-place": "Barcelona, Spanien",
+    "event-title": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+    "genre": "Presentation",
+    "id": "v1-i7-e7",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          6
+        ]
+      ]
+    },
+    "keyword": "Allens's Alegebra, Chronology, Linked Open Data, Samian, Sigillata",
+    "language": "en",
+    "page": "#7",
+    "title": "Taming Time – Modelling uncertainty as reproducible Linked Open Data",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

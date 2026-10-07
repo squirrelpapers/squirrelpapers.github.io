@@ -1,0 +1,49 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13373890",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schneider",
+        "given": "Agnes"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      },
+      {
+        "family": "Allison",
+        "given": "Jim"
+      },
+      {
+        "family": "Stefan",
+        "given": "Daria"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "EAA 2024, Rome, Italy",
+    "event-place": "Sapienza University of Rome, Italy",
+    "event-title": "EAA 2024, Rome, Italy",
+    "genre": "Presentation",
+    "id": "v6-i4-e7",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#7",
+    "title": "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14914287",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Presentation",
+    "id": "v7-i3-e6",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ6",
+    "title": "Research Squirrel Engineers How an independent RSE-driven network may help the NFDI",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

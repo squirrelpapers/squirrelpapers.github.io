@@ -1,0 +1,46 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13364444",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      },
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK-Ireland DH Association Annual Event 2024",
+    "event-place": "University College Cork (UCC), Cork, Ireland",
+    "event-title": "UK-Ireland DH Association Annual Event 2024",
+    "genre": "Presentation",
+    "id": "v6-i5-e5",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          4
+        ]
+      ]
+    },
+    "keyword": "Ogham, Wikidata",
+    "language": "en",
+    "page": "#5",
+    "title": "Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

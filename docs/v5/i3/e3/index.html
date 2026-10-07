@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F. (2023). Kleinfund-Dokumentation mit der Hilfe von Semantik. <em>Squirrel Papers</em>, 5(3), #3. <a href="https://doi.org/10.5281/zenodo.7629861">https://doi.org/10.5281/zenodo.7629861</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F. (2023). Kleinfund-Dokumentation mit der Hilfe von Semantik. <em>Squirrel Papers</em>, 5(3), #3. <a href="https://doi.org/10.5281/zenodo.7629861">https://doi.org/10.5281/zenodo.7629861</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v5/i3/e3/index.bib" download>BibTeX</a> · <a href="../../../v5/i3/e3/index.ris" download>RIS</a> · <a href="../../../v5/i3/e3/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -134,5 +136,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.7629861", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "event": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr", "event-place": "Johannes Gutenberg Universität Mainz, Fachbereich 07, Klassische Archäologie", "event-title": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr", "genre": "Presentation", "id": "v5-i3-e3", "issue": "3", "issued": {"date-parts": [[2023, 2, 7]]}, "keyword": "Archäologie, Dokumentation, FAIR", "language": "de", "page": "#3", "title": "Kleinfund-Dokumentation mit der Hilfe von Semantik", "type": "article-journal", "volume": "5"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

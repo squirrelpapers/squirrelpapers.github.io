@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., &amp; Homburg, T. (2022). Linked Pipes: A Little Minion for reproducible research. <em>Squirrel Papers</em>, 4(3), #9. <a href="https://doi.org/10.5281/zenodo.6976311">https://doi.org/10.5281/zenodo.6976311</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., &amp; Homburg, T. (2022). Linked Pipes: A Little Minion for reproducible research. <em>Squirrel Papers</em>, 4(3), #9. <a href="https://doi.org/10.5281/zenodo.6976311">https://doi.org/10.5281/zenodo.6976311</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v4/i3/e9/index.bib" download>BibTeX</a> · <a href="../../../v4/i3/e9/index.ris" download>RIS</a> · <a href="../../../v4/i3/e9/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -149,5 +151,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.6976311", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Homburg", "given": "Timo"}], "container-title": "Squirrel Papers", "genre": "Presentation", "id": "v4-i3-e9", "issue": "3", "issued": {"date-parts": [[2022, 8, 10]]}, "keyword": "Linked Open Data, Linked Pipes", "language": "en", "page": "#9", "title": "Linked Pipes: A Little Minion for reproducible research", "type": "article-journal", "volume": "4"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

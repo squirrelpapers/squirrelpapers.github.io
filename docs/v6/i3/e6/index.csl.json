@@ -1,0 +1,49 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10840999",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "FOSSGIS 2024",
+    "event-place": "Technische Universität Hamburg (TUHH)",
+    "event-title": "FOSSGIS 2024",
+    "genre": "Presentation",
+    "id": "v6-i3-e6",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          20
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#6",
+    "title": "Modellierung von Fuzzyness & Wobbliness in Geodaten am Beispiel archäologischer und geowissenschaftlicher Fundorte",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "DOI": "10.5281/zenodo.3786814",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v1-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "keyword": "GeoSPARQL, Linked Open Data, Wikidata",
+    "page": "#5",
+    "title": "SPARQLing Unicorn QGIS Plugin",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

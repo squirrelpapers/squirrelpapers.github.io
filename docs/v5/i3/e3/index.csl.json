@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7629861",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr",
+    "event-place": "Johannes Gutenberg Universität Mainz, Fachbereich 07, Klassische Archäologie",
+    "event-title": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr",
+    "genre": "Presentation",
+    "id": "v5-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
+        ]
+      ]
+    },
+    "keyword": "Archäologie, Dokumentation, FAIR",
+    "language": "de",
+    "page": "#3",
+    "title": "Kleinfund-Dokumentation mit der Hilfe von Semantik",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

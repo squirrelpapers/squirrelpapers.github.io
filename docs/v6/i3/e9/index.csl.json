@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13627274",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "EAA 2024, Rome, Italy",
+    "event-place": "Sapienza University of Rome, Italy",
+    "event-title": "EAA 2024, Rome, Italy",
+    "genre": "Poster",
+    "id": "v6-i3-e9",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#9",
+    "title": "Taming Doubts - How to semantically model fuzzy and wobbly georeferences in archaeology and in the geosciences",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

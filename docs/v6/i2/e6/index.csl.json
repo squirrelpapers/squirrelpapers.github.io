@@ -1,0 +1,28 @@
+[
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v6/i2/e6",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v6-i2-e6",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#6",
+    "title": "Jupyter Notebooks and Linked Open Data",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

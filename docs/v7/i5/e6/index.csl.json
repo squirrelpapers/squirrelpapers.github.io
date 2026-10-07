@@ -1,0 +1,80 @@
+[
+  {
+    "DOI": "10.5281/zenodo.16736041",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      },
+      {
+        "family": "Hetényi",
+        "given": "Beate"
+      },
+      {
+        "family": "Seiwerth",
+        "given": "Corinna"
+      },
+      {
+        "family": "Baum",
+        "given": "Roman"
+      },
+      {
+        "family": "Bernoth",
+        "given": "Jan"
+      },
+      {
+        "family": "Ferenz",
+        "given": "Stephan"
+      },
+      {
+        "family": "Linxweiler",
+        "given": "Jan"
+      },
+      {
+        "family": "Reinhardt",
+        "given": "Martin"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e6",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "NFDI, Research Data, Research Data Management, Research Software Engineering, Software",
+    "language": "en",
+    "page": "7(5), 𝒬6",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code",
+    "type": "paper-conference"
+  }
+]

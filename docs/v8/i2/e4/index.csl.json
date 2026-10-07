@@ -1,0 +1,30 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18404885",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v8-i2-e4",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          9
+        ]
+      ]
+    },
+    "keyword": "FAIR Digital Object, Federated Knowledge Graph Ecosystem, RDF",
+    "page": "§4",
+    "title": "FAIR Digital Object Squirrel Implementation (FDOSquirrel)",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

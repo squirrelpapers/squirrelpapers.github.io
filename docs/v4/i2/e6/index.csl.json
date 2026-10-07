@@ -1,0 +1,29 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7377740",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Ontology",
+    "id": "v4-i2-e6",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "Archaeology, Linked Open Data",
+    "language": "en",
+    "page": "#6",
+    "title": "Linked Archaeological Data Ontology",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

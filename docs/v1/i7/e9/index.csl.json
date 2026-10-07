@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.1494175",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "13. Konferenz der GeodäsieStudierenden",
+    "event-place": "Munich, Germany",
+    "event-title": "13. Konferenz der GeodäsieStudierenden",
+    "genre": "Presentation",
+    "id": "v1-i7-e9",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          30
+        ]
+      ]
+    },
+    "keyword": "KonGeoS, Linked Data, Netzwerk, RDF, Vagheit, Zweifel",
+    "language": "de",
+    "page": "#9",
+    "title": "Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

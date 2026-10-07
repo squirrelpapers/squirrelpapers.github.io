@@ -48,6 +48,9 @@ en:
   preview_button: Show PDF preview
   download_pdf: Download PDF
   how_to_cite: How to cite
+  cite_style: Citation style
+  export_all: Export all entries
+  export_journal: Export the whole journal
   copy_button: Copy
   copied_button: Copied
   published_in: Published in
@@ -109,6 +112,9 @@ de:
   preview_button: PDF-Vorschau anzeigen
   download_pdf: PDF herunterladen
   how_to_cite: Zitiervorschlag
+  cite_style: Zitierstil
+  export_all: Alle Beiträge exportieren
+  export_journal: Das ganze Journal exportieren
   copy_button: Kopieren
   copied_button: Kopiert
   published_in: Erschienen in

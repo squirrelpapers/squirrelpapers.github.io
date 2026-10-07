@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5647827",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      },
+      {
+        "family": "Veller",
+        "given": "Jonas"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e7",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware, Semantics",
+    "language": "en",
+    "page": "#7",
+    "title": "African Red Slip Ware Digital (ARS3D) - Comparison-Data",
+    "type": "article-journal",
+    "volume": "3"
+  }
+]

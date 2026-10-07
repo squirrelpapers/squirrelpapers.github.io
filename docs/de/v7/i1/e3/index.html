@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F. (2025). LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries and visualisations for archaeological data. <em>Squirrel Papers</em>, 7(1), λ3. <a href="https://doi.org/10.5281/zenodo.15074382">https://doi.org/10.5281/zenodo.15074382</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F. (2025). LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries and visualisations for archaeological data. <em>Squirrel Papers</em>, 7(1), λ3. <a href="https://doi.org/10.5281/zenodo.15074382">https://doi.org/10.5281/zenodo.15074382</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v7/i1/e3/index.bib" download>BibTeX</a> · <a href="../../../../v7/i1/e3/index.ris" download>RIS</a> · <a href="../../../../v7/i1/e3/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -136,5 +138,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.15074382", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "event": "Text+ Show and Tell: Tools, Dienste, Projekte", "event-title": "Text+ Show and Tell: Tools, Dienste, Projekte", "genre": "Presentation", "id": "v7-i1-e3", "issue": "1", "issued": {"date-parts": [[2025, 3, 27]]}, "keyword": "Jupyter Notebook, NFDI, NFDI4Objects, Python, Research Software Engineering, Text+", "language": "en", "page": "λ3", "title": "LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries and visualisations for archaeological data", "type": "article-journal", "volume": "7"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

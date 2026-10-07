@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.3471404",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2019)",
+    "event-place": "Bournemouth, England",
+    "event-title": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2019)",
+    "genre": "Presentation",
+    "id": "v1-i2-e10",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          4
+        ]
+      ]
+    },
+    "keyword": "Linked Data, Ogham, R, Wikidata",
+    "language": "en",
+    "page": "#10",
+    "title": "Wikidata - A SPARQL(ing) Unicorn?",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

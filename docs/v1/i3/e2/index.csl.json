@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.292971",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "5. Workshop der AG CAA",
+    "event-place": "Tübingen, Germany",
+    "event-title": "5. Workshop der AG CAA",
+    "genre": "Presentation",
+    "id": "v1-i3-e2",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          2,
+          15
+        ]
+      ]
+    },
+    "keyword": "archaeology, linked data, linked open data, roman, samian ware",
+    "language": "de",
+    "page": "#2",
+    "title": "Linked Samian Ware: Potentiale von Linked Data in der Archäologie",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

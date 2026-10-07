@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13980905",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "event-place": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany",
+    "event-title": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "genre": "Workshop",
+    "id": "v6-i4-e19",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          27
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#19",
+    "title": "Workshop VI: Harmonisierung und Integration von Konsortialdiensten durch Verknüpfung dezentraler Systeme in NFDI4Objects",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

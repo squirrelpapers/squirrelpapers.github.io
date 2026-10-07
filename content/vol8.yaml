@@ -303,10 +303,14 @@ issues:
     draft: true  # S3: DOI 18901176 not on Zenodo (404), checked 2026-10-06
     from: volumes-md/vol8/index.md#L127
   - n: 9
-    types: []
-    title: '![TYPE](https://img.shields.io/badge/TYPE-Talk-blue) ![TYPE](https://img.shields.io/badge/TYPE-Conference%20Paper-blue)
-      ![Lang](https://img.shields.io/badge/LANGUAGE-German-red) Von OpenStreetMap zu semantisch vernetzten
-      Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem'
+    # S6: the source marked type and language with shields.io badges, which the
+    # S2 parser did not know; resolved by hand (Talk, Conference Paper, German).
+    types:
+    - talk
+    - conference-paper
+    title: 'Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten
+      in das Federated Knowledge Graph Ecosystem'
+    language: de
     creators:
     - name: F. Thiery
       orcid: 0000-0002-3246-3531

@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Baars, S., Thiery, F., &amp; Thiery, F. (2024). Task Area 2: FDM-Services im Sammlungskontext. <em>Squirrel Papers</em>, 6(4), #12. <a href="https://doi.org/10.5281/zenodo.13734484">https://doi.org/10.5281/zenodo.13734484</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Baars, S., Thiery, F., &amp; Thiery, F. (2024). Task Area 2: FDM-Services im Sammlungskontext. <em>Squirrel Papers</em>, 6(4), #12. <a href="https://doi.org/10.5281/zenodo.13734484">https://doi.org/10.5281/zenodo.13734484</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v6/i4/e12/index.bib" download>BibTeX</a> · <a href="../../../v6/i4/e12/index.ris" download>RIS</a> · <a href="../../../v6/i4/e12/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -129,5 +131,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.13734484", "ISSN": "2750-560X", "author": [{"family": "Baars", "given": "Stefanie"}, {"family": "Thiery", "given": "Florian"}, {"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "event": "NFDI4Objects Community Meeting 2024, Mainz, Germany", "event-place": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany", "event-title": "NFDI4Objects Community Meeting 2024, Mainz, Germany", "genre": "Poster", "id": "v6-i4-e12", "issue": "4", "issued": {"date-parts": [[2024, 9, 26]]}, "page": "#12", "title": "Task Area 2: FDM-Services im Sammlungskontext", "type": "article-journal", "volume": "6"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

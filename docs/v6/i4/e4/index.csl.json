@@ -1,0 +1,46 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10515288",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Hollaender",
+        "given": "Julian"
+      },
+      {
+        "family": "Quintana",
+        "given": "Miguel Angel Dilena"
+      },
+      {
+        "family": "Skole",
+        "given": "John"
+      },
+      {
+        "family": "Papazoi",
+        "given": "Elli"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Conference session proposal",
+    "id": "v6-i4-e4",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#4",
+    "title": "Best Practices on Archaeological 3D Data Management: Methods and Approaches to Capture, Generate, and Disseminate 3D Information in Archaeology\"",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

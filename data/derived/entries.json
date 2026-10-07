@@ -4203,6 +4203,8 @@
         "African Red Slip Ware",
         "CIDOC CRM"
       ],
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -4333,6 +4335,8 @@
         "African Red Slip Ware",
         "Semantics"
       ],
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -16944,6 +16948,8 @@
       "id": "v4-i1-e2",
       "iri": "https://w3id.org/squirrelpapers/v4/i1/e2",
       "issue": 1,
+      "language": "en",
+      "language_guessed": true,
       "n": 2,
       "path": "v4/i1/e2",
       "sigil": "#",
@@ -16978,6 +16984,8 @@
       "id": "v4-i1-e4",
       "iri": "https://w3id.org/squirrelpapers/v4/i1/e4",
       "issue": 1,
+      "language": "en",
+      "language_guessed": true,
       "n": 4,
       "path": "v4/i1/e4",
       "sigil": "#",
@@ -17499,6 +17507,8 @@
         "Archaeology",
         "Linked Open Data"
       ],
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -17554,6 +17564,8 @@
       "id": "v4-i3-e1",
       "iri": "https://w3id.org/squirrelpapers/v4/i3/e1",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "links": {
         "link": "https://github.com/sslarch/caa2022_GitGitHub_workshop"
       },
@@ -17725,6 +17737,8 @@
       "id": "v4-i3-e5",
       "iri": "https://w3id.org/squirrelpapers/v4/i3/e5",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 5,
       "path": "v4/i3/e5",
       "sigil": "#",
@@ -18065,6 +18079,8 @@
       "id": "v4-i3-e10",
       "iri": "https://w3id.org/squirrelpapers/v4/i3/e10",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 10,
       "path": "v4/i3/e10",
       "sigil": "#",
@@ -18214,6 +18230,8 @@
       "id": "v4-i3-e12",
       "iri": "https://w3id.org/squirrelpapers/v4/i3/e12",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 12,
       "path": "v4/i3/e12",
       "sigil": "#",
@@ -18252,6 +18270,8 @@
       "id": "v4-i3-e13",
       "iri": "https://w3id.org/squirrelpapers/v4/i3/e13",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 13,
       "path": "v4/i3/e13",
       "sigil": "#",
@@ -18499,6 +18519,8 @@
       "id": "v4-i3-e17",
       "iri": "https://w3id.org/squirrelpapers/v4/i3/e17",
       "issue": 3,
+      "language": "de",
+      "language_guessed": true,
       "n": 17,
       "path": "v4/i3/e17",
       "sigil": "#",
@@ -18550,6 +18572,8 @@
       "id": "v4-i4-e1",
       "iri": "https://w3id.org/squirrelpapers/v4/i4/e1",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -18881,6 +18905,8 @@
       "id": "v5-i1-e4",
       "iri": "https://w3id.org/squirrelpapers/v5/i1/e4",
       "issue": 1,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -18938,6 +18964,8 @@
       "id": "v5-i1-e5",
       "iri": "https://w3id.org/squirrelpapers/v5/i1/e5",
       "issue": 1,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -19702,6 +19730,8 @@
       "id": "v5-i3-e5",
       "iri": "https://w3id.org/squirrelpapers/v5/i3/e5",
       "issue": 3,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -19849,6 +19879,8 @@
       "id": "v5-i4-e1",
       "iri": "https://w3id.org/squirrelpapers/v5/i4/e1",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -19901,6 +19933,8 @@
       "id": "v5-i4-e2",
       "iri": "https://w3id.org/squirrelpapers/v5/i4/e2",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -19960,6 +19994,8 @@
       "id": "v5-i4-e3",
       "iri": "https://w3id.org/squirrelpapers/v5/i4/e3",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -20021,6 +20057,8 @@
       "id": "v5-i4-e4",
       "iri": "https://w3id.org/squirrelpapers/v5/i4/e4",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -20100,6 +20138,8 @@
       "id": "v5-i5-e1",
       "iri": "https://w3id.org/squirrelpapers/v5/i5/e1",
       "issue": 5,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -20179,6 +20219,8 @@
       "id": "v5-i5-e2",
       "iri": "https://w3id.org/squirrelpapers/v5/i5/e2",
       "issue": 5,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -20419,6 +20461,8 @@
       "id": "v6-i1-e1",
       "iri": "https://w3id.org/squirrelpapers/v6/i1/e1",
       "issue": 1,
+      "language": "de",
+      "language_guessed": true,
       "links": {
         "link": "https://commons.wikimedia.org/wiki/File:Netzwerktreffen_Offene_Kulturdaten_2024_Thiery.pdf"
       },
@@ -20466,6 +20510,8 @@
       "id": "v6-i1-e2",
       "iri": "https://w3id.org/squirrelpapers/v6/i1/e2",
       "issue": 1,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -20826,6 +20872,8 @@
       "id": "v6-i2-e6",
       "iri": "https://w3id.org/squirrelpapers/v6/i2/e6",
       "issue": 2,
+      "language": "en",
+      "language_guessed": true,
       "links": {
         "repository": "https://github.com/Research-Squirrel-Engineers/jupyter-nb-lod"
       },
@@ -20989,6 +21037,8 @@
       "id": "v6-i3-e2",
       "iri": "https://w3id.org/squirrelpapers/v6/i3/e2",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 2,
       "path": "v6/i3/e2",
       "sigil": "#",
@@ -21054,6 +21104,8 @@
       "id": "v6-i3-e3",
       "iri": "https://w3id.org/squirrelpapers/v6/i3/e3",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -21496,6 +21548,8 @@
       "id": "v6-i3-e8",
       "iri": "https://w3id.org/squirrelpapers/v6/i3/e8",
       "issue": 3,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -21583,6 +21637,8 @@
       "id": "v6-i3-e9",
       "iri": "https://w3id.org/squirrelpapers/v6/i3/e9",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -21656,6 +21712,8 @@
       "id": "v6-i3-e10",
       "iri": "https://w3id.org/squirrelpapers/v6/i3/e10",
       "issue": 3,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -21878,6 +21936,8 @@
       "id": "v6-i4-e1",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e1",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -22374,6 +22434,8 @@
       "id": "v6-i4-e7",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e7",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -22460,6 +22522,8 @@
       "id": "v6-i4-e8",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e8",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -22511,6 +22575,8 @@
       "id": "v6-i4-e9",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e9",
       "issue": 4,
+      "language": "de",
+      "language_guessed": true,
       "n": 9,
       "path": "v6/i4/e9",
       "sigil": "#",
@@ -22566,6 +22632,8 @@
       "id": "v6-i4-e10",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e10",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "n": 10,
       "path": "v6/i4/e10",
       "sigil": "#",
@@ -22629,6 +22697,8 @@
       "id": "v6-i4-e11",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e11",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "n": 11,
       "path": "v6/i4/e11",
       "sigil": "#",
@@ -22786,6 +22856,8 @@
       "id": "v6-i4-e13",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e13",
       "issue": 4,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -22956,6 +23028,8 @@
       "id": "v6-i4-e15",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e15",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "n": 15,
       "path": "v6/i4/e15",
       "sigil": "#",
@@ -23026,6 +23100,8 @@
       "id": "v6-i4-e16",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e16",
       "issue": 4,
+      "language": "de",
+      "language_guessed": true,
       "n": 16,
       "path": "v6/i4/e16",
       "sigil": "#",
@@ -23109,6 +23185,8 @@
         "NFDI",
         "NFDI4Objects"
       ],
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23196,6 +23274,8 @@
       "id": "v6-i4-e18",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e18",
       "issue": 4,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23282,6 +23362,8 @@
       "id": "v6-i4-e19",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e19",
       "issue": 4,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23361,6 +23443,8 @@
       "id": "v6-i4-e20",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e20",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23440,6 +23524,8 @@
       "id": "v6-i4-e21",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e21",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23533,6 +23619,8 @@
       "id": "v6-i4-e22",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e22",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23627,6 +23715,8 @@
       "id": "v6-i4-e23",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e23",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23714,6 +23804,8 @@
       "id": "v6-i4-e24",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e24",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23774,6 +23866,8 @@
       "id": "v6-i4-e25",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e25",
       "issue": 4,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23859,6 +23953,8 @@
       "id": "v6-i4-e26",
       "iri": "https://w3id.org/squirrelpapers/v6/i4/e26",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -23939,6 +24035,8 @@
       "id": "v6-i5-e1",
       "iri": "https://w3id.org/squirrelpapers/v6/i5/e1",
       "issue": 5,
+      "language": "en",
+      "language_guessed": true,
       "n": 1,
       "path": "v6/i5/e1",
       "sigil": "#",
@@ -23985,6 +24083,8 @@
       "id": "v6-i5-e2",
       "iri": "https://w3id.org/squirrelpapers/v6/i5/e2",
       "issue": 5,
+      "language": "en",
+      "language_guessed": true,
       "n": 2,
       "path": "v6/i5/e2",
       "sigil": "#",
@@ -24031,6 +24131,8 @@
       "id": "v6-i5-e3",
       "iri": "https://w3id.org/squirrelpapers/v6/i5/e3",
       "issue": 5,
+      "language": "de",
+      "language_guessed": true,
       "n": 3,
       "path": "v6/i5/e3",
       "sigil": "#",
@@ -24085,6 +24187,8 @@
       "id": "v6-i5-e4",
       "iri": "https://w3id.org/squirrelpapers/v6/i5/e4",
       "issue": 5,
+      "language": "en",
+      "language_guessed": true,
       "n": 4,
       "path": "v6/i5/e4",
       "sigil": "#",
@@ -24230,6 +24334,8 @@
       "id": "v6-i5-e6",
       "iri": "https://w3id.org/squirrelpapers/v6/i5/e6",
       "issue": 5,
+      "language": "en",
+      "language_guessed": true,
       "n": 6,
       "path": "v6/i5/e6",
       "sigil": "#",
@@ -24325,6 +24431,8 @@
       "id": "v7-i1-e2",
       "iri": "https://w3id.org/squirrelpapers/v7/i1/e2",
       "issue": 1,
+      "language": "en",
+      "language_guessed": true,
       "n": 2,
       "path": "v7/i1/e2",
       "sigil": "λ",
@@ -24444,6 +24552,8 @@
       "id": "v7-i1-e4",
       "iri": "https://w3id.org/squirrelpapers/v7/i1/e4",
       "issue": 1,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -24771,6 +24881,8 @@
         "Archaeology",
         "Linked Open Data"
       ],
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -24984,6 +25096,8 @@
       "id": "v7-i3-e1",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e1",
       "issue": 3,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -25075,6 +25189,8 @@
       "id": "v7-i3-e2",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e2",
       "issue": 3,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -25479,6 +25595,8 @@
       "id": "v7-i3-e7",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e7",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -25866,6 +25984,8 @@
       "id": "v7-i3-e11",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e11",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 11,
       "path": "v7/i3/e11",
       "sigil": "λ",
@@ -25929,6 +26049,8 @@
       "id": "v7-i3-e12",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e12",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 12,
       "path": "v7/i3/e12",
       "sigil": "λ",
@@ -25978,6 +26100,8 @@
       "id": "v7-i3-e13",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e13",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 13,
       "path": "v7/i3/e13",
       "sigil": "λ",
@@ -26027,6 +26151,8 @@
       "id": "v7-i3-e14",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e14",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 14,
       "path": "v7/i3/e14",
       "sigil": "λ",
@@ -26076,6 +26202,8 @@
       "id": "v7-i3-e15",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e15",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 15,
       "path": "v7/i3/e15",
       "sigil": "λ",
@@ -26134,6 +26262,8 @@
       "id": "v7-i3-e16",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e16",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -26213,6 +26343,8 @@
       "id": "v7-i3-e17",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e17",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -26299,6 +26431,8 @@
       "id": "v7-i3-e18",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e18",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -26375,6 +26509,8 @@
       "id": "v7-i3-e19",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e19",
       "issue": 3,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -26448,6 +26584,8 @@
       "id": "v7-i3-e20",
       "iri": "https://w3id.org/squirrelpapers/v7/i3/e20",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -26515,6 +26653,8 @@
       "id": "v7-i4-e1",
       "iri": "https://w3id.org/squirrelpapers/v7/i4/e1",
       "issue": 4,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -26650,6 +26790,8 @@
       "id": "v7-i4-e3",
       "iri": "https://w3id.org/squirrelpapers/v7/i4/e3",
       "issue": 4,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -26821,6 +26963,8 @@
       "id": "v7-i4-e5",
       "iri": "https://w3id.org/squirrelpapers/v7/i4/e5",
       "issue": 4,
+      "language": "de",
+      "language_guessed": true,
       "legacy_citation": "F. Thiery *et al.*, ‘Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI - Ein interdisziplinäres federated Knowledge Graph Ecosystem’, *Squirrel Papers*, 2025, 7(4), λ5. doi: 10.5281/zenodo.16875678. [[bibtex]](bibtex.md#4-λ5)",
       "licence": {
         "id": "cc-by-4.0",
@@ -26987,6 +27131,8 @@
         "Research Software Engineering",
         "Semantic Modelling"
       ],
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "F. Thiery et al., ‘RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code’, in Proceedings of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬1. doi: 10.5281/zenodo.16736089. [[bibtex]](bibtex.md#𝒬1)",
       "licence": {
         "id": "cc-by-4.0",
@@ -27132,6 +27278,8 @@
         "Terminology",
         "Wikibase"
       ],
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "F. Thiery et al., ‘Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem’, in Proceedings of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬2. doi: 10.5281/zenodo.16736047. [[bibtex]](bibtex.md#𝒬2)",
       "licence": {
         "id": "cc-by-4.0",
@@ -27291,6 +27439,8 @@
         "NFDIcore Ontology",
         "Objects"
       ],
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "K. Fischer et al., ‘Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data’, in Proceedings of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬3. doi: 10.5281/zenodo.16736221. [[bibtex]](bibtex.md#𝒬3)",
       "licence": {
         "id": "cc-by-4.0",
@@ -27444,6 +27594,8 @@
         "Research Software Metadata",
         "Software Metadata"
       ],
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "S. Ferenz et al., ‘Towards Common Metadata For Research Software in the NFDI’, in Proceedings of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬4. doi: 10.5281/zenodo.16735847. [[bibtex]](bibtex.md#𝒬4)",
       "licence": {
         "id": "cc-by-4.0",
@@ -27484,7 +27636,7 @@
             "name": "Sure-Vetter, York"
           },
           {
-            "name": "Paul, Groth"
+            "name": "Groth, Paul"
           }
         ],
         "place": "Aachen",
@@ -27627,6 +27779,8 @@
         "NFDI",
         "semantic interoperability"
       ],
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "L. Rossenova et al., ‘How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”’, in Proceedings of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬5. doi: 10.5281/zenodo.16736077. [[bibtex]](bibtex.md#𝒬5)",
       "licence": {
         "id": "cc-by-4.0",
@@ -27803,6 +27957,8 @@
         "Research Software Engineering",
         "Software"
       ],
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "F. Thiery et al., ‘RSE 4 Research Data Infrastructures - The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code’, in Proceedings of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬6. doi: 10.5281/zenodo.16736041. [[bibtex]](bibtex.md#𝒬6)",
       "licence": {
         "id": "cc-by-4.0",
@@ -27922,6 +28078,8 @@
         "Controlled vocabularies",
         "Semantic Modelling"
       ],
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "K. Fischer and L. Mempel-Länger, ‘A Human- and Machine-Readable Thesaurus for the Conservation of Archaeological Heritage - Development, Technical Implementation and Application in digital space’, in Proceedings of the Conference on Research Data Infrastructure 2025, Y. Sure-Vetter and P. Groth, Eds., Aachen: Squirrel Papers, Aug. 2025, 7(5), 𝒬7. doi: 10.5281/zenodo.16735267. [[bibtex]](bibtex.md#𝒬7)",
       "licence": {
         "id": "cc-by-4.0",
@@ -28005,6 +28163,8 @@
       "id": "v7-i5-e8",
       "iri": "https://w3id.org/squirrelpapers/v7/i5/e8",
       "issue": 5,
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "F. Thiery & LK. Schubert, ‘RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code’, *Squirrel Papers*, 2025, 7(5), 𝒬8. doi: 10.5281/zenodo.16931832. [[bibtex]](bibtex.md#𝒬8)",
       "licence": {
         "id": "cc-by-4.0",
@@ -28094,6 +28254,8 @@
       "id": "v7-i5-e9",
       "iri": "https://w3id.org/squirrelpapers/v7/i5/e9",
       "issue": 5,
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "F. Thiery et al., ‘Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem’, *Squirrel Papers*, 2025, 7(5), 𝒬9. doi: 10.5281/zenodo.16931907. [[bibtex]](bibtex.md#𝒬9)",
       "licence": {
         "id": "cc-by-4.0",
@@ -28176,6 +28338,8 @@
       "id": "v7-i5-e10",
       "iri": "https://w3id.org/squirrelpapers/v7/i5/e10",
       "issue": 5,
+      "language": "en",
+      "language_guessed": true,
       "legacy_citation": "F. Thiery & B. Flemisch, ‘RSE 4 Research Data Infrastructures - The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code’, *Squirrel Papers*, 2025, 7(5), 𝒬10. doi: 10.5281/zenodo.16931909. [[bibtex]](bibtex.md#𝒬10)",
       "licence": {
         "id": "cc-by-4.0",
@@ -28231,6 +28395,8 @@
       "id": "v8-i1-e1",
       "iri": "https://w3id.org/squirrelpapers/v8/i1/e1",
       "issue": 1,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -28284,6 +28450,8 @@
       "id": "v8-i1-e2",
       "iri": "https://w3id.org/squirrelpapers/v8/i1/e2",
       "issue": 1,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -28354,6 +28522,8 @@
       "id": "v8-i1-e3",
       "iri": "https://w3id.org/squirrelpapers/v8/i1/e3",
       "issue": 1,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -28406,6 +28576,8 @@
       "id": "v8-i1-e4",
       "iri": "https://w3id.org/squirrelpapers/v8/i1/e4",
       "issue": 1,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -28512,6 +28684,8 @@
       "id": "v8-i2-e3",
       "iri": "https://w3id.org/squirrelpapers/v8/i2/e3",
       "issue": 2,
+      "language": "en",
+      "language_guessed": true,
       "links": {
         "release": "https://github.com/Research-Squirrel-Engineers/GSAS/releases/tag/v0.1",
         "repository": "https://github.com/Research-Squirrel-Engineers/GSAS"
@@ -28634,6 +28808,8 @@
         "OER",
         "Python"
       ],
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "mit-license",
         "url": "https://spdx.org/licenses/MIT.html"
@@ -28726,6 +28902,8 @@
       "id": "v8-i3-e1",
       "iri": "https://w3id.org/squirrelpapers/v8/i3/e1",
       "issue": 3,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -28799,6 +28977,8 @@
       "id": "v8-i3-e2",
       "iri": "https://w3id.org/squirrelpapers/v8/i3/e2",
       "issue": 3,
+      "language": "de",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -28893,6 +29073,8 @@
       "id": "v8-i3-e3",
       "iri": "https://w3id.org/squirrelpapers/v8/i3/e3",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -28980,6 +29162,8 @@
       "id": "v8-i3-e4",
       "iri": "https://w3id.org/squirrelpapers/v8/i3/e4",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -29060,6 +29244,8 @@
       "id": "v8-i3-e5",
       "iri": "https://w3id.org/squirrelpapers/v8/i3/e5",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -29140,6 +29326,8 @@
       "id": "v8-i3-e6",
       "iri": "https://w3id.org/squirrelpapers/v8/i3/e6",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -29204,6 +29392,8 @@
       "id": "v8-i3-e7",
       "iri": "https://w3id.org/squirrelpapers/v8/i3/e7",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 7,
       "path": "v8/i3/e7",
       "sigil": "§",
@@ -29266,6 +29456,8 @@
       "id": "v8-i3-e8",
       "iri": "https://w3id.org/squirrelpapers/v8/i3/e8",
       "issue": 3,
+      "language": "en",
+      "language_guessed": true,
       "n": 8,
       "path": "v8/i3/e8",
       "sigil": "§",
@@ -29338,6 +29530,7 @@
       "id": "v8-i3-e9",
       "iri": "https://w3id.org/squirrelpapers/v8/i3/e9",
       "issue": 3,
+      "language": "de",
       "licence": {
         "id": "cc-by-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -29350,8 +29543,9 @@
         "preview": "https://zenodo.org/records/19200629/preview/Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_Göttingen_OSM2LOD.pdf"
       },
       "sigil": "§",
-      "title": "![TYPE](https://img.shields.io/badge/TYPE-Talk-blue) ![TYPE](https://img.shields.io/badge/TYPE-Conference%20Paper-blue) ![Lang](https://img.shields.io/badge/LANGUAGE-German-red) Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem",
+      "title": "Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem",
       "types": [
+        "presentation",
         "conference-paper"
       ],
       "volume": 8,
@@ -29404,6 +29598,8 @@
       "id": "v8-i5-e3",
       "iri": "https://w3id.org/squirrelpapers/v8/i5/e3",
       "issue": 5,
+      "language": "en",
+      "language_guessed": true,
       "n": 3,
       "path": "v8/i5/e3",
       "sigil": "§",

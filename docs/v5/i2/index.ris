@@ -1,0 +1,90 @@
+TY  - DATA
+ID  - sp_vol5_iss2_e1
+TI  - Ogham Stone Maps: Squirrel Stones in Ireland
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/01/17
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7544117
+UR  - https://doi.org/10.5281/zenodo.7544117
+KW  - Ireland
+KW  - Ogham
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol5_iss2_e2
+TI  - Campanian Ignimbrite Geo Locations
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+PY  - 2023
+DA  - 2023/12/12
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10361309
+UR  - https://doi.org/10.5281/zenodo.10361309
+KW  - Campanian Ignimbrite
+KW  - Geosciences
+KW  - Linked Open Data
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol5_iss2_e3
+TI  - Fuzzy Spatial Locations Ontology
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/12/12
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10362777
+UR  - https://doi.org/10.5281/zenodo.10362777
+KW  - Fuzzy Things
+KW  - Geospatial
+KW  - Linked Open Data
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol5_iss2_e4
+TI  - Croton Geo Locations
+AU  - Thiery, Florian
+AU  - Baars, Stefanie
+PY  - 2023
+DA  - 2023/12/13
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10369624
+UR  - https://doi.org/10.5281/zenodo.10369624
+N1  - Dataset
+ER  -
+
+TY  - COMP
+ID  - sp_vol5_iss2_e5
+TI  - SPARQL Unicorn Ontology Documentation
+AU  - Homburg, Timo
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.8190763
+UR  - https://doi.org/10.5281/zenodo.8190763
+N1  - Software
+ER  -

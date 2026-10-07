@@ -1,0 +1,30 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7544117",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v5-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          17
+        ]
+      ]
+    },
+    "keyword": "Ireland, Ogham",
+    "page": "#1",
+    "title": "Ogham Stone Maps: Squirrel Stones in Ireland",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

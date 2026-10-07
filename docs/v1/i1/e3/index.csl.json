@@ -1,0 +1,31 @@
+[
+  {
+    "DOI": "10.5281/zenodo.2643469",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v1-i1-e3",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          17
+        ]
+      ]
+    },
+    "keyword": "FAIR Data, Five Star Data, Linked Data, Linked Open Data, Semantic Web",
+    "language": "en",
+    "page": "#3",
+    "title": "Sphere 7 Data: LOUD and FAIR Data for the Research Community",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

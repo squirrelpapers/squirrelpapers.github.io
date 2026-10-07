@@ -1,0 +1,32 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14707872",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Workshop Vagheiten und Unsicherheiten in Provenienzdaten",
+    "event-title": "Workshop Vagheiten und Unsicherheiten in Provenienzdaten",
+    "genre": "Presentation",
+    "id": "v7-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          23
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ1",
+    "title": "Fuzzyness & Wobbliness in Geodaten: Linked Open Data und Wikibase in der Praxis",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

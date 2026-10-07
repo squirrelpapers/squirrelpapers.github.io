@@ -1,0 +1,45 @@
+[
+  {
+    "DOI": "10.5281/zenodo.15040308",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "thor Straten",
+        "given": "Mattis"
+      },
+      {
+        "family": "Strohm",
+        "given": "Steffen"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Renz",
+        "given": "Matthias"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "E-Science-Tage 2025",
+    "event-place": "Alte Universität Heidelberg",
+    "event-title": "E-Science-Tage 2025",
+    "genre": "Presentation",
+    "id": "v7-i3-e10",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ10",
+    "title": "Data-Driven Community Standards for Interdisciplinary Heterogeneous Information Networks",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

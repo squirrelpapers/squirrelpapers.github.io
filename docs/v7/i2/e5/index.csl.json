@@ -1,0 +1,35 @@
+[
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v7/i2/e5",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Danthine",
+        "given": "Brigit"
+      },
+      {
+        "family": "Alpino",
+        "given": "Nadine"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v7-i2-e5",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "λ5",
+    "title": "FAIRyland",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

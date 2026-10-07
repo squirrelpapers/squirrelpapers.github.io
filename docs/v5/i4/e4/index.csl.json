@@ -1,0 +1,30 @@
+[
+  {
+    "DOI": "10.5281/zenodo.8154844",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Poster",
+    "id": "v5-i4-e4",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#4",
+    "title": "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

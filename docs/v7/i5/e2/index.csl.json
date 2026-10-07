@@ -1,0 +1,60 @@
+[
+  {
+    "DOI": "10.5281/zenodo.16736047",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rossenova",
+        "given": "Lozana"
+      },
+      {
+        "family": "Mietchen",
+        "given": "Daniel"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e2",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "Base4NFDI, Cultural Heritage, Federation, Knowledge Graphs, Linked Open Data, NFDI, SPARQL, Terminology, Wikibase",
+    "language": "en",
+    "page": "7(5), 𝒬2",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem",
+    "type": "paper-conference"
+  }
+]

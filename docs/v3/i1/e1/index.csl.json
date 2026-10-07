@@ -1,0 +1,39 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5810310",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Weisser",
+        "given": "Bernhard"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v3-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ]
+    },
+    "keyword": "NFDI, NFDI4Objects",
+    "language": "de",
+    "page": "#1",
+    "title": "Digitale Vernetzung von Sammlungsdaten",
+    "type": "article-journal",
+    "volume": "3"
+  }
+]

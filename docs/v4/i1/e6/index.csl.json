@@ -1,0 +1,47 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5788378",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Behrens",
+        "given": "Sarah"
+      },
+      {
+        "family": "Schwarzkopf",
+        "given": "Christopher"
+      },
+      {
+        "family": "Gödeke",
+        "given": "Anna-Katharina"
+      },
+      {
+        "family": "Scholl",
+        "given": "Dominik"
+      },
+      {
+        "family": "Schneider",
+        "given": "Nico"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Report",
+    "id": "v4-i1-e6",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          1
+        ]
+      ]
+    },
+    "keyword": "Open Research, Open Scholarship, Open Science",
+    "language": "de",
+    "page": "#6",
+    "title": "Fellow-Programm Freies Wissen 2016 - 2021",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v8/i2/e2",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v8-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "§2",
+    "title": "Samian Site Dating",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

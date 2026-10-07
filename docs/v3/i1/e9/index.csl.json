@@ -1,0 +1,42 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5645179",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Veller",
+        "given": "Jonas"
+      },
+      {
+        "family": "Raddatz",
+        "given": "Laura"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e9",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "page": "#9",
+    "title": "African Red Slip Ware Digital (ARS3D) - Images (Objects)",
+    "type": "article-journal",
+    "volume": "3"
+  }
+]

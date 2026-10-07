@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18826868",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE26",
+    "event-place": "University of Stuttgart, Stuttgart",
+    "event-title": "deRSE26",
+    "genre": "Presentation",
+    "id": "v8-i3-e6",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§6",
+    "title": "chublets.software – Building a FAIR Software Marketplace for Cultural Heritage",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

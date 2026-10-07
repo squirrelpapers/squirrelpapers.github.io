@@ -1,0 +1,40 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13739143",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "event-place": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany",
+    "event-title": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "genre": "Poster",
+    "id": "v6-i4-e14",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ]
+    },
+    "page": "#14",
+    "title": "NFDI4Objects Objects Ontology & Minimal Metadata Set",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

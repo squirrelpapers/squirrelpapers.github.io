@@ -1,0 +1,496 @@
+TY  - JOUR
+ID  - sp_vol5_iss1_e1
+TI  - Irish Ogham Stones in Wikidata and Open Street Map
+AU  - Thiery, Florian
+AU  - Thiery, Peter
+PY  - 2023
+DA  - 2023/01/22
+JO  - Squirrel Papers
+VL  - 5
+IS  - 1
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7558880
+UR  - https://doi.org/10.5281/zenodo.7558880
+LA  - en
+KW  - Linked Open Data
+KW  - Ogham
+KW  - Open Street Map
+KW  - Wikidata
+N1  - Book
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss1_e2
+TI  - Alligator Method
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2023
+DA  - 2023/02/09
+JO  - Squirrel Papers
+VL  - 5
+IS  - 1
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7624870
+UR  - https://doi.org/10.5281/zenodo.7624870
+LA  - en
+KW  - Allen
+KW  - FAIR
+KW  - Linked Data
+KW  - RDF
+KW  - relative Chronology
+N1  - Working paper
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss1_e3
+TI  - Irische ᚑᚌᚆᚐᚋ Steine in OSM und Wikidata
+AU  - Thiery, Florian
+AU  - Distel, Anne-Karoline
+AU  - Schmidt, Sophie Charlotte
+AU  - Thiery, Peter
+PY  - 2023
+DA  - 2023/04/27
+JO  - Squirrel Papers
+VL  - 5
+IS  - 1
+SP  - #3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7870480
+UR  - https://doi.org/10.5281/zenodo.7870480
+LA  - de
+KW  - Archäologie
+KW  - Linked Open Data
+KW  - Ogham
+KW  - Open Street Map
+KW  - Wikidata
+N1  - Book section
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss1_e4
+TI  - Modelling of Uncertainty in Geo Sciences Sites
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+PY  - 2023
+DA  - 2023/12/11
+JO  - Squirrel Papers
+VL  - 5
+IS  - 1
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10255259
+UR  - https://doi.org/10.5281/zenodo.10255259
+LA  - en
+N1  - Journal article
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss1_e5
+TI  - How to locate the Campanian Ignimbrite site Urluia based on literature? How to provide and publish this data in a FAIR way?
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+PY  - 2023
+DA  - 2023/12/05
+JO  - Squirrel Papers
+VL  - 5
+IS  - 1
+SP  - #5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10262720
+UR  - https://doi.org/10.5281/zenodo.10262720
+LA  - en
+N1  - Journal article
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss1_e6
+TI  - Dealing with doubts: Site georeferencing in archaeology and in the geosciences
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+AU  - Baars, Stefanie
+PY  - 2023
+DA  - 2023/12/07
+JO  - Squirrel Papers
+VL  - 5
+IS  - 1
+SP  - #6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10291889
+UR  - https://doi.org/10.5281/zenodo.10291889
+LA  - en
+N1  - Journal article
+ER  -
+
+TY  - DATA
+ID  - sp_vol5_iss2_e1
+TI  - Ogham Stone Maps: Squirrel Stones in Ireland
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/01/17
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7544117
+UR  - https://doi.org/10.5281/zenodo.7544117
+KW  - Ireland
+KW  - Ogham
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol5_iss2_e2
+TI  - Campanian Ignimbrite Geo Locations
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+PY  - 2023
+DA  - 2023/12/12
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10361309
+UR  - https://doi.org/10.5281/zenodo.10361309
+KW  - Campanian Ignimbrite
+KW  - Geosciences
+KW  - Linked Open Data
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol5_iss2_e3
+TI  - Fuzzy Spatial Locations Ontology
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/12/12
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10362777
+UR  - https://doi.org/10.5281/zenodo.10362777
+KW  - Fuzzy Things
+KW  - Geospatial
+KW  - Linked Open Data
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol5_iss2_e4
+TI  - Croton Geo Locations
+AU  - Thiery, Florian
+AU  - Baars, Stefanie
+PY  - 2023
+DA  - 2023/12/13
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10369624
+UR  - https://doi.org/10.5281/zenodo.10369624
+N1  - Dataset
+ER  -
+
+TY  - COMP
+ID  - sp_vol5_iss2_e5
+TI  - SPARQL Unicorn Ontology Documentation
+AU  - Homburg, Timo
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023
+JO  - Squirrel Papers
+VL  - 5
+IS  - 2
+SP  - #5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.8190763
+UR  - https://doi.org/10.5281/zenodo.8190763
+N1  - Software
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss3_e1
+TI  - Wikidata as a Knowledge Base and Research Tool for Open Science in Archaeology
+AU  - Schmidt, Sophie Charlotte
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/02/01
+JO  - Squirrel Papers
+VL  - 5
+IS  - 3
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7617764
+UR  - https://doi.org/10.5281/zenodo.7617764
+LA  - en
+KW  - Archaeology
+KW  - Citizen Science
+KW  - Linked Open Data
+KW  - Wikidata
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss3_e2
+TI  - LEIZA-Forschungsdaten in der großen weiten Welt der Citizen Science
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2023
+DA  - 2023/02/07
+JO  - Squirrel Papers
+VL  - 5
+IS  - 3
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7629765
+UR  - https://doi.org/10.5281/zenodo.7629765
+LA  - de
+KW  - Citizen Science
+KW  - Samian Ware
+KW  - Terra Sigillata
+KW  - Wikidata
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss3_e3
+TI  - Kleinfund-Dokumentation mit der Hilfe von Semantik
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/02/07
+JO  - Squirrel Papers
+VL  - 5
+IS  - 3
+SP  - #3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7629861
+UR  - https://doi.org/10.5281/zenodo.7629861
+LA  - de
+KW  - Archäologie
+KW  - Dokumentation
+KW  - FAIR
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss3_e4
+TI  - Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/07/02
+JO  - Squirrel Papers
+VL  - 5
+IS  - 3
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.8089448
+UR  - https://doi.org/10.5281/zenodo.8089448
+LA  - en
+KW  - GIS
+KW  - IGSM
+KW  - Linked Data
+KW  - Ogham
+KW  - Open Street Map
+KW  - Wikidata
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss3_e5
+TI  - Umgang mit Unsicherheiten und Vagheiten bei der Georeferenzierung von Geo-Locations in der Archäologie und in den Geowissenschaften
+AU  - Thiery, Florian
+AU  - Baars, Stefanie
+AU  - Schenk, Fiona
+PY  - 2023
+DA  - 2023/09/14
+JO  - Squirrel Papers
+VL  - 5
+IS  - 3
+SP  - #5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.8334767
+UR  - https://doi.org/10.5281/zenodo.8334767
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss3_e6
+TI  - Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+AU  - Baars, Stefanie
+PY  - 2023
+DA  - 2023/12/12
+JO  - Squirrel Papers
+VL  - 5
+IS  - 3
+SP  - #6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10260778
+UR  - https://doi.org/10.5281/zenodo.10260778
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss4_e1
+TI  - Dating “dated sites”: Using Correspondence Analysis to handle relative chronologies as graphs.
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2023
+DA  - 2023/05/09
+JO  - Squirrel Papers
+VL  - 5
+IS  - 4
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7915197
+UR  - https://doi.org/10.5281/zenodo.7915197
+LA  - en
+N1  - Abstract
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss4_e2
+TI  - Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/05/09
+JO  - Squirrel Papers
+VL  - 5
+IS  - 4
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7915364
+UR  - https://doi.org/10.5281/zenodo.7915364
+LA  - en
+N1  - Abstract
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss4_e3
+TI  - Dating Dated Sites - Using Correspondence Analysis to handle Chronologies as Graphs.
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2023
+DA  - 2023/07/19
+JO  - Squirrel Papers
+VL  - 5
+IS  - 4
+SP  - #3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.8154700
+UR  - https://doi.org/10.5281/zenodo.8154700
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss4_e4
+TI  - Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/07/17
+JO  - Squirrel Papers
+VL  - 5
+IS  - 4
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.8154844
+UR  - https://doi.org/10.5281/zenodo.8154844
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss5_e1
+TI  - Object-Related Research Data Workflows Within NFDI4Objects and Beyond
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2023
+DA  - 2023/09/14
+JO  - Squirrel Papers
+VL  - 5
+IS  - 5
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.8333763
+UR  - https://doi.org/10.5281/zenodo.8333763
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss5_e2
+TI  - FAIRifizierung mit Citizen Science? Herausforderungen bei der Integration von archäologischen Daten in das Wikiversum und Open Street Map
+AU  - Thiery, Florian
+AU  - Baars, Stefanie
+PY  - 2023
+DA  - 2023/09/14
+JO  - Squirrel Papers
+VL  - 5
+IS  - 5
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.8334735
+UR  - https://doi.org/10.5281/zenodo.8334735
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss5_e3
+TI  - Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023/11/14
+JO  - Squirrel Papers
+VL  - 5
+IS  - 5
+SP  - #3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10114894
+UR  - https://doi.org/10.5281/zenodo.10114894
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol5_iss5_e4
+TI  - Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2023
+DA  - 2023/12/12
+JO  - Squirrel Papers
+VL  - 5
+IS  - 5
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.10260778
+UR  - https://doi.org/10.5281/zenodo.10260778
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - DATA
+ID  - sp_vol5_iss6_e1
+TI  - archaeolink-lod / ars
+AU  - Thiery, Florian
+PY  - 2023
+DA  - 2023
+JO  - Squirrel Papers
+VL  - 5
+IS  - 6
+SP  - #1
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v5/i6/e1
+N1  - Dataset
+ER  -

@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.1293990",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schmid",
+        "given": "Clemens"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "31. International Geodetic Students Meeting",
+    "event-place": "Valencia, Spain",
+    "event-title": "31. International Geodetic Students Meeting",
+    "genre": "Presentation",
+    "id": "v1-i7-e6",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          27
+        ]
+      ]
+    },
+    "keyword": "Git, IGSM, Software Development",
+    "language": "en",
+    "page": "#6",
+    "title": "Looking for the \"grey value\" in research and geodesy: Is there right or wrong in software framework decisions?",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., &amp; Mees, A. W. (2022). Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD. <em>Squirrel Papers</em>, 4(4), #2. <a href="https://doi.org/10.5281/zenodo.7361759">https://doi.org/10.5281/zenodo.7361759</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., &amp; Mees, A. W. (2022). Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD. <em>Squirrel Papers</em>, 4(4), #2. <a href="https://doi.org/10.5281/zenodo.7361759">https://doi.org/10.5281/zenodo.7361759</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v4/i4/e2/index.bib" download>BibTeX</a> · <a href="../../../../v4/i4/e2/index.ris" download>RIS</a> · <a href="../../../../v4/i4/e2/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -130,5 +132,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.7361759", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Mees", "given": "Allard W."}], "container-title": "Squirrel Papers", "genre": "Preprint", "id": "v4-i4-e2", "issue": "4", "issued": {"date-parts": [[2022, 11, 25]]}, "language": "en", "page": "#2", "title": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD", "type": "article-journal", "volume": "4"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

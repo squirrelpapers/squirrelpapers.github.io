@@ -1,0 +1,45 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18726192",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Kasten",
+        "given": "Megan Nichole"
+      },
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Oldenburger 3D-Tage",
+    "event-place": "Hochschule für Technik und Wirtschaft, Dresden",
+    "event-title": "Oldenburger 3D-Tage",
+    "genre": "Presentation",
+    "id": "v8-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "§1",
+    "title": "Cultural Heritage als FAIR Digital Object? 3D-Erfassung und semantische Vernetzung von Kulturerbe in Irland und Schottland",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

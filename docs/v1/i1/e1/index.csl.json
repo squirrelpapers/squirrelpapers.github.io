@@ -1,0 +1,43 @@
+[
+  {
+    "DOI": "10.5281/zenodo.3345715",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      },
+      {
+        "family": "Gruber",
+        "given": "Ethan"
+      },
+      {
+        "family": "Wigg-Wolf",
+        "given": "David G."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v1-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          22
+        ]
+      ]
+    },
+    "keyword": "Archaeology, CAA, Data Dragon, FAIR Data, Five Star Data, Linked Data, Linked Open Data, Semantic Web",
+    "language": "en",
+    "page": "#1",
+    "title": "Hic sunt dracones! The modern unknown data dragons",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

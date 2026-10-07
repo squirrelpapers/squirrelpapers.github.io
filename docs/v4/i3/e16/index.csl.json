@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7179955",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e16",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          10
+        ]
+      ]
+    },
+    "keyword": "Artificial Intelligence, Semantic Reasoning",
+    "language": "de",
+    "page": "#16",
+    "title": "Typologie-Handling zur Dokumentation mit Hilfe künstlicher Intelligenz",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

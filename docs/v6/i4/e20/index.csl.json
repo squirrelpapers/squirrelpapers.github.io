@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13980966",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Open Science Festival Mainz 2024, Mainz, Germany",
+    "event-place": "JGU, Mainz Germany",
+    "event-title": "Open Science Festival Mainz 2024, Mainz, Germany",
+    "genre": "Workshop",
+    "id": "v6-i4-e20",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#20",
+    "title": "Geodata in Linked Open Data and Wikidata in Practice",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

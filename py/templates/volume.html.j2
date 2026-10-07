@@ -5,6 +5,7 @@
   <nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{ root }}">{{ t.breadcrumb_home }}</a> › {{ t.volume }} {{ v.volume }}</nav>
   <h1>{{ t.volume }} {{ v.volume }} <span class="muted">{{ v.label_years }}</span></h1>
   <p class="muted">{{ t.identifier }}: <a href="{{ v.iri }}">{{ v.iri }}</a>{% if v.wikidata %} · <a href="https://www.wikidata.org/wiki/{{ v.wikidata }}">{{ t.wikidata }}: {{ v.wikidata }}</a>{% endif %}</p>
+  {% if downloads %}<p class="downloads">{{ t.export_all }}: {% for d in downloads %}<a href="{{ root }}{{ d.href }}" download>{{ d.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
   {% for issue in v.issues %}
   <section class="issue-block" id="i{{ issue.issue }}">
     <h2><a href="{{ root }}{{ issue.path }}/">{{ t.issue }} {{ issue.issue }}</a>{% if issue.title %} <span class="muted">· {{ issue.title[lang] or issue.title.en }}</span>{% endif %}</h2>

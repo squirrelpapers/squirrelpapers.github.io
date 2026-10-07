@@ -1,0 +1,30 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10362777",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v5-i2-e3",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          12
+        ]
+      ]
+    },
+    "keyword": "Fuzzy Things, Geospatial, Linked Open Data",
+    "page": "#3",
+    "title": "Fuzzy Spatial Locations Ontology",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

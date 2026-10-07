@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14893826",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Proposal",
+    "id": "v7-i4-e1",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          14
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ1",
+    "title": "NFDI4Objects TWG - Community-Standards for modelling fuzziness & wobbliness in research data using Semantic Web technologies and formalisms (FuzzyWobblySW)\"",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

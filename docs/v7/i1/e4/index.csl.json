@@ -1,0 +1,36 @@
+[
+  {
+    "DOI": "10.5281/zenodo.15310723",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Workshop Objekt - Text - Bild",
+    "event-title": "Workshop Objekt - Text - Bild",
+    "genre": "Presentation",
+    "id": "v7-i1-e4",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          28
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ4",
+    "title": "Inschriften und der “Knowledge Graph … wie CIDOC-CRM als Referenzmodell fungiert …",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

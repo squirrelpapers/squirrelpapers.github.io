@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10114894",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "ClaReNet Final Workshop",
+    "event-place": "RGK, Frankfurt am Mainz",
+    "event-title": "ClaReNet Final Workshop",
+    "genre": "Presentation",
+    "id": "v5-i5-e3",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          14
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#3",
+    "title": "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

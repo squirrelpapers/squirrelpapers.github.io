@@ -1,0 +1,42 @@
+[
+  {
+    "DOI": "10.5281/zenodo.2648210",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Karmacharya",
+        "given": "Ashish"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "event-place": "Kraków, Poland",
+    "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "genre": "Presentation",
+    "id": "v1-i2-e4",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          24
+        ]
+      ]
+    },
+    "keyword": "3D models, African Red Slip Ware, CIDOC CRM, data quality, provenance",
+    "language": "en",
+    "page": "#4",
+    "title": "ARS3D - Documenting facts and interpretations of African Red Slip Ware",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

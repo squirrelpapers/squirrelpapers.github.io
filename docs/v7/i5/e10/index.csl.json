@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.16931909",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Conference paper",
+    "id": "v7-i5-e10",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          28
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "𝒬10",
+    "title": "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

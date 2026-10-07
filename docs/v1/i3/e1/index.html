@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F. (2014). Linking potter, pots and places: a LOD approach to samian ware. <em>Squirrel Papers</em>, 1(3), #1. <a href="https://doi.org/10.5281/zenodo.775019">https://doi.org/10.5281/zenodo.775019</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F. (2014). Linking potter, pots and places: a LOD approach to samian ware. <em>Squirrel Papers</em>, 1(3), #1. <a href="https://doi.org/10.5281/zenodo.775019">https://doi.org/10.5281/zenodo.775019</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v1/i3/e1/index.bib" download>BibTeX</a> · <a href="../../../v1/i3/e1/index.ris" download>RIS</a> · <a href="../../../v1/i3/e1/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -134,5 +136,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.775019", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)", "event-place": "Paris, France", "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)", "genre": "Poster", "id": "v1-i3-e1", "issue": "3", "issued": {"date-parts": [[2014, 4, 24]]}, "keyword": "archaeology, linked data, linked open data, samian ware, semantic modelling", "language": "en", "page": "#1", "title": "Linking potter, pots and places: a LOD approach to samian ware", "type": "article-journal", "volume": "1"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

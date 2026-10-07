@@ -1,0 +1,873 @@
+TY  - JOUR
+ID  - sp_vol7_iss1_e1
+TI  - Fuzzyness & Wobbliness in Geodaten: Linked Open Data und Wikibase in der Praxis
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/01/23
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14707872
+UR  - https://doi.org/10.5281/zenodo.14707872
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss1_e3
+TI  - LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries and visualisations for archaeological data
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/03/27
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15074382
+UR  - https://doi.org/10.5281/zenodo.15074382
+LA  - en
+KW  - Jupyter Notebook
+KW  - NFDI
+KW  - NFDI4Objects
+KW  - Python
+KW  - Research Software Engineering
+KW  - Text+
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss1_e4
+TI  - Inschriften und der “Knowledge Graph … wie CIDOC-CRM als Referenzmodell fungiert …
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2025
+DA  - 2025/04/28
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15310723
+UR  - https://doi.org/10.5281/zenodo.15310723
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss1_e5
+TI  - LOD Objects in Action II: SPARQLing Unicorn Research Toolkit: Integrating geospatial LOD SPARQL queries for visualisations in QGIS
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/05/15
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15401536
+UR  - https://doi.org/10.5281/zenodo.15401536
+LA  - en
+KW  - Linked Data
+KW  - LOD
+KW  - NFDI
+KW  - NFDI4Objects
+KW  - QGIS
+KW  - Research Software Engineering
+KW  - SPARQL Unicorn
+KW  - Text+
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss1_e6
+TI  - LOD Objects in Action III: TEI/EpiDoc Ogham Data - How to integrate TEI data into the NFDI Knowledge Graph Ecosystem
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/07/23
+JO  - Squirrel Papers
+VL  - 7
+IS  - 1
+SP  - λ6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16353592
+UR  - https://doi.org/10.5281/zenodo.16353592
+LA  - en
+KW  - Linked Data
+KW  - LOD
+KW  - NFDI
+KW  - NFDI4Objects
+KW  - TEI/EpiDoc
+KW  - Text+
+N1  - Presentation
+ER  -
+
+TY  - COMP
+ID  - sp_vol7_iss2_e1
+TI  - SPARQLing Unicorn QGIS Plugin
+AU  - Thiery, Florian
+AU  - Homburg, Timo
+PY  - 2025
+DA  - 2025/02/15
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14874994
+UR  - https://doi.org/10.5281/zenodo.14874994
+KW  - GeoSPARQL
+KW  - Linked Open Data
+KW  - Wikidata
+N1  - Software
+ER  -
+
+TY  - DATA
+ID  - sp_vol7_iss2_e2
+TI  - GrapHNR2023 - Supplementary Material
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2025
+DA  - 2025/02/21
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14906708
+UR  - https://doi.org/10.5281/zenodo.14906708
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol7_iss2_e3
+TI  - Linked Archaeological Data Ontology (LADO) - v1.1
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2025
+DA  - 2025/05/20
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15477358
+UR  - https://doi.org/10.5281/zenodo.15477358
+LA  - en
+KW  - Archaeology
+KW  - Linked Open Data
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol7_iss2_e4
+TI  - Archaeo-Natural Ontology (ArNO) - v0.1
+AU  - thor Straten, Mattis
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/03/27
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15095413
+UR  - https://doi.org/10.5281/zenodo.15095413
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol7_iss2_e5
+TI  - FAIRyland
+AU  - Thiery, Florian
+AU  - Danthine, Brigit
+AU  - Alpino, Nadine
+PY  - 2025
+DA  - 2025
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ5
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v7/i2/e5
+N1  - Dataset
+ER  -
+
+TY  - COMP
+ID  - sp_vol7_iss2_e6
+TI  - osm2lod
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ6
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v7/i2/e6
+N1  - Software
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e1
+TI  - FAIRes Kulturerbe mit dem Smartphone und SfM? Wie man das durch Smartphone Apps, Open Source Tools und semantische Annotation im Wikiversum und OSM erreichen kann
+AU  - Thiery, Florian
+AU  - Distel, Anne-Karoline
+AU  - Thiery, Peter
+PY  - 2025
+DA  - 2025/02/04
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14789260
+UR  - https://doi.org/10.5281/zenodo.14789260
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e2
+TI  - Low-Cost 3D-Digitalisierung mit SfM in Smartphone Apps. 3D-Modelle zum Mitnehmen und Open Data Publikation mit dem Wikiversum und OSM
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+AU  - Thiery, Peter
+AU  - Thiery, Susanne
+PY  - 2025
+DA  - 2025/02/04
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14789264
+UR  - https://doi.org/10.5281/zenodo.14789264
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e3
+TI  - Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences
+AU  - Thiery, Florian
+AU  - Homburg, Timo
+AU  - Schenk, Fiona
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14886032
+UR  - https://doi.org/10.5281/zenodo.14886032
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e4
+TI  - Keeping it REAL: Sustainability Challenges for Research Software in Computational Archaeology
+AU  - Schubert, Lutz Krister
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14898291
+UR  - https://doi.org/10.5281/zenodo.14898291
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e5
+TI  - Research Software Engineering in the NFDI (INFRA-WG-RSE)
+AU  - Thiery, Florian
+AU  - Flemisch, Bernd
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14898391
+UR  - https://doi.org/10.5281/zenodo.14898391
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e6
+TI  - Research Squirrel Engineers How an independent RSE-driven network may help the NFDI
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14914287
+UR  - https://doi.org/10.5281/zenodo.14914287
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e7
+TI  - Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data
+AU  - Thiery, Florian
+AU  - Schubert, Lutz Krister
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ7
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14914309
+UR  - https://doi.org/10.5281/zenodo.14914309
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e8
+TI  - How to improve the visibility and added value of RSE(s) in NFDI
+AU  - Thiery, Florian
+AU  - Flemisch, Bernd
+AU  - Bernoth, Jan
+AU  - Seiwerth, Corinna
+AU  - Linxweiler, Jan
+AU  - Söhn, Linnaea
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ8
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14976365
+UR  - https://doi.org/10.5281/zenodo.14976365
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e9
+TI  - Geodesist in the Humanities working with humanities people on Research Software and FAIRification Tools
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/02/25
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ9
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14920034
+UR  - https://doi.org/10.5281/zenodo.14920034
+LA  - en
+KW  - NFDI
+KW  - Research Software Engineering
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e10
+TI  - Data-Driven Community Standards for Interdisciplinary Heterogeneous Information Networks
+AU  - thor Straten, Mattis
+AU  - Strohm, Steffen
+AU  - Thiery, Florian
+AU  - Renz, Matthias
+PY  - 2025
+DA  - 2025/03/12
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ10
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15040308
+UR  - https://doi.org/10.5281/zenodo.15040308
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e16
+TI  - Beyond Digital Boundaries - Linked Open Data and Wikidata with OG(H)AM and Holy Wells
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/06/17
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ16
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15667685
+UR  - https://doi.org/10.5281/zenodo.15667685
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e17
+TI  - A Holy Wells Database on Wikidata
+AU  - Distel, Anne-Karoline
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/06/17
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ17
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15721469
+UR  - https://doi.org/10.5281/zenodo.15721469
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e18
+TI  - Cultural Heritage beyond boundaries - Open Science and FAIR methods for Ogham and Holy Wells in Ireland and the UK
+AU  - Thiery, Florian
+AU  - White, Nora
+AU  - Kasten, Megan Nichole
+AU  - Distel, Anne-Karoline
+PY  - 2025
+DA  - 2025/06/17
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ18
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15721553
+UR  - https://doi.org/10.5281/zenodo.15721553
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e19
+TI  - Vom Ogham-Stein zum FAIR/LO(U)D Digital Object Wie Gigha Brewing und der federated Knowledge Graph historische Artefakte lebendig machen
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/09/17
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ19
+SN  - 2750-560X
+DO  - 10.5281/zenodo.17150583
+UR  - https://doi.org/10.5281/zenodo.17150583
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss3_e20
+TI  - How to FAIRify Citizen Science? Using the Wikibase Ecosystem for Volunteered Cultural Heritage Information Systems
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/10/28
+JO  - Squirrel Papers
+VL  - 7
+IS  - 3
+SP  - λ20
+SN  - 2750-560X
+DO  - 10.5281/zenodo.17475014
+UR  - https://doi.org/10.5281/zenodo.17475014
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss4_e1
+TI  - NFDI4Objects TWG - Community-Standards for modelling fuzziness & wobbliness in research data using Semantic Web technologies and formalisms (FuzzyWobblySW)"
+AU  - Thiery, Florian
+AU  - Tolle, Karsten
+PY  - 2025
+DA  - 2025/02/14
+JO  - Squirrel Papers
+VL  - 7
+IS  - 4
+SP  - λ1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14893826
+UR  - https://doi.org/10.5281/zenodo.14893826
+LA  - en
+N1  - Proposal
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss4_e2
+TI  - NFDI4Objects TWG - N4O ObjectMetaDataSet (N4O OMDS) & N4O ObjectOntology (N4O OO)
+AU  - Thiery, Florian
+AU  - Gerber, Anja
+AU  - Fricke, Fabian
+PY  - 2025
+DA  - 2025/09/19
+JO  - Squirrel Papers
+VL  - 7
+IS  - 4
+SP  - λ2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14893860
+UR  - https://doi.org/10.5281/zenodo.14893860
+N1  - Proposal
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss4_e3
+TI  - Interdisziplinäre Knowledge Graphen? Ortsdaten im Kontext von NFDI4Objects
+AU  - Thiery, Florian
+AU  - Gerber, Anja
+PY  - 2025
+DA  - 2025/02/24
+JO  - Squirrel Papers
+VL  - 7
+IS  - 4
+SP  - λ3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14916966
+UR  - https://doi.org/10.5281/zenodo.14916966
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss4_e4
+TI  - Wikibase Datenmodell v0.2
+AU  - Thiery, Florian
+AU  - Berthold, Angela
+PY  - 2025
+DA  - 2025/03/20
+JO  - Squirrel Papers
+VL  - 7
+IS  - 4
+SP  - λ4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15065874
+UR  - https://doi.org/10.5281/zenodo.15065874
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss4_e5
+TI  - Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI - Ein interdisziplinäres federated Knowledge Graph Ecosystem
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/09/30
+JO  - Squirrel Papers
+VL  - 7
+IS  - 4
+SP  - λ5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16875678
+UR  - https://doi.org/10.5281/zenodo.16875678
+LA  - de
+N1  - Conference paper
+ER  -
+
+TY  - CPAPER
+ID  - sp_vol7_iss5_e1
+TI  - RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code
+AU  - Thiery, Florian
+AU  - Schubert, Lutz Krister
+AU  - Schneider, Agnes
+AU  - Landauer, Jürgen
+AU  - Tolle, Karsten
+AU  - Gampe, Sebastian
+AU  - Schenk, Fiona
+AU  - Thiery, Peter
+PY  - 2025
+DA  - 2025/08/26
+T2  - Proceedings of the Conference on Research Data Infrastructure 2025
+A2  - Sure-Vetter, York
+A2  - Groth, Paul
+PB  - Squirrel Papers
+CY  - Aachen
+T3  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 7(5), 𝒬1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16736089
+UR  - https://doi.org/10.5281/zenodo.16736089
+LA  - en
+KW  - Artificial Intelligence
+KW  - Base4NFDI
+KW  - Community-driven Software
+KW  - Computational Archaeology
+KW  - FAIR Data
+KW  - Linked Open Data
+KW  - Research Software Engineering
+KW  - Semantic Modelling
+N1  - Proceedings paper
+ER  -
+
+TY  - CPAPER
+ID  - sp_vol7_iss5_e2
+TI  - Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem
+AU  - Thiery, Florian
+AU  - Rossenova, Lozana
+AU  - Mietchen, Daniel
+AU  - Homburg, Timo
+AU  - Thiery, Peter
+PY  - 2025
+DA  - 2025/08/26
+T2  - Proceedings of the Conference on Research Data Infrastructure 2025
+A2  - Sure-Vetter, York
+A2  - Groth, Paul
+PB  - Squirrel Papers
+CY  - Aachen
+T3  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 7(5), 𝒬2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16736047
+UR  - https://doi.org/10.5281/zenodo.16736047
+LA  - en
+KW  - Base4NFDI
+KW  - Cultural Heritage
+KW  - Federation
+KW  - Knowledge Graphs
+KW  - Linked Open Data
+KW  - NFDI
+KW  - SPARQL
+KW  - Terminology
+KW  - Wikibase
+N1  - Proceedings paper
+ER  -
+
+TY  - CPAPER
+ID  - sp_vol7_iss5_e3
+TI  - Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data
+AU  - Fella, Kristina
+AU  - Gerber, Anja
+AU  - Koprucki, Thomas
+AU  - Noback, Andreas
+AU  - Reidelbach, Marco
+AU  - Schrade, Torsten
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/08/26
+T2  - Proceedings of the Conference on Research Data Infrastructure 2025
+A2  - Sure-Vetter, York
+A2  - Groth, Paul
+PB  - Squirrel Papers
+CY  - Aachen
+T3  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 7(5), 𝒬3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16736221
+UR  - https://doi.org/10.5281/zenodo.16736221
+LA  - en
+KW  - CIDOC-CRM
+KW  - community-standards
+KW  - Engineering
+KW  - FAIR Digital
+KW  - Humanities
+KW  - Knowledge Graph
+KW  - Linked Open Data
+KW  - NFDIcore Ontology
+KW  - Objects
+N1  - Proceedings paper
+ER  -
+
+TY  - CPAPER
+ID  - sp_vol7_iss5_e4
+TI  - Towards Common Metadata For Research Software in the NFDI
+AU  - Ferenz, Stephan
+AU  - Castro, Leyla Jael
+AU  - Hajiabadi, Hamideh
+AU  - Löbe, Matthias
+AU  - Stervbo, Ulrik
+AU  - Gan, Lu
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/08/26
+T2  - Proceedings of the Conference on Research Data Infrastructure 2025
+A2  - Sure-Vetter, York
+A2  - Groth, Paul
+PB  - Squirrel Papers
+CY  - Aachen
+T3  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 7(5), 𝒬4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16735847
+UR  - https://doi.org/10.5281/zenodo.16735847
+LA  - en
+KW  - Research Software
+KW  - Research Software Metadata
+KW  - Software Metadata
+N1  - Proceedings paper
+ER  -
+
+TY  - CPAPER
+ID  - sp_vol7_iss5_e5
+TI  - How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”
+AU  - Rossenova, Lozana
+AU  - Limani, Fidan
+AU  - Fortmann-Grote, Carsten
+AU  - Kaplan, Angelika
+AU  - Thiery, Florian
+AU  - Latif, Atif
+AU  - Shigapov, Renat
+AU  - Zapilko, Benjamin
+AU  - Schubotz, Moritz
+AU  - Fliegl, Heike
+AU  - Tietz, Tabea
+PY  - 2025
+DA  - 2025/08/26
+T2  - Proceedings of the Conference on Research Data Infrastructure 2025
+A2  - Sure-Vetter, York
+A2  - Groth, Paul
+PB  - Squirrel Papers
+CY  - Aachen
+T3  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 7(5), 𝒬5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16736077
+UR  - https://doi.org/10.5281/zenodo.16736077
+LA  - en
+KW  - data integration
+KW  - FAIR data
+KW  - Knowledge Graphs
+KW  - NFDI
+KW  - semantic interoperability
+N1  - Proceedings paper
+ER  -
+
+TY  - CPAPER
+ID  - sp_vol7_iss5_e6
+TI  - RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code
+AU  - Thiery, Florian
+AU  - Flemisch, Bernd
+AU  - Hetényi, Beate
+AU  - Seiwerth, Corinna
+AU  - Baum, Roman
+AU  - Bernoth, Jan
+AU  - Ferenz, Stephan
+AU  - Linxweiler, Jan
+AU  - Reinhardt, Martin
+AU  - Schubert, Lutz Krister
+PY  - 2025
+DA  - 2025/08/26
+T2  - Proceedings of the Conference on Research Data Infrastructure 2025
+A2  - Sure-Vetter, York
+A2  - Groth, Paul
+PB  - Squirrel Papers
+CY  - Aachen
+T3  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 7(5), 𝒬6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16736041
+UR  - https://doi.org/10.5281/zenodo.16736041
+LA  - en
+KW  - NFDI
+KW  - Research Data
+KW  - Research Data Management
+KW  - Research Software Engineering
+KW  - Software
+N1  - Proceedings paper
+ER  -
+
+TY  - CPAPER
+ID  - sp_vol7_iss5_e7
+TI  - A Human- and Machine-Readable Thesaurus for the Conservation of Archaeological Heritage Development, Technical Implementation and Application in digital space
+AU  - Fella, Kristina
+AU  - Mempel-Länger, Lasse
+PY  - 2025
+DA  - 2025/08/26
+T2  - Proceedings of the Conference on Research Data Infrastructure 2025
+A2  - Sure-Vetter, York
+A2  - Groth, Paul
+PB  - Squirrel Papers
+CY  - Aachen
+T3  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 7(5), 𝒬7
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16735267
+UR  - https://doi.org/10.5281/zenodo.16735267
+LA  - en
+KW  - Archaeology
+KW  - Conservation
+KW  - Controlled vocabularies
+KW  - Semantic Modelling
+N1  - Proceedings paper
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss5_e8
+TI  - RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code
+AU  - Thiery, Florian
+AU  - Schubert, Lutz Krister
+PY  - 2025
+DA  - 2025/08/26
+JO  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 𝒬8
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16931832
+UR  - https://doi.org/10.5281/zenodo.16931832
+LA  - en
+N1  - Conference paper
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss5_e9
+TI  - Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem
+AU  - Thiery, Florian
+AU  - Rossenova, Lozana
+AU  - Mietchen, Daniel
+PY  - 2025
+DA  - 2025/08/26
+JO  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 𝒬9
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16931907
+UR  - https://doi.org/10.5281/zenodo.16931907
+LA  - en
+N1  - Conference paper
+ER  -
+
+TY  - JOUR
+ID  - sp_vol7_iss5_e10
+TI  - RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code
+AU  - Thiery, Florian
+AU  - Flemisch, Bernd
+PY  - 2025
+DA  - 2025/08/28
+JO  - Squirrel Papers
+VL  - 7
+IS  - 5
+SP  - 𝒬10
+SN  - 2750-560X
+DO  - 10.5281/zenodo.16931909
+UR  - https://doi.org/10.5281/zenodo.16931909
+LA  - en
+N1  - Conference paper
+ER  -

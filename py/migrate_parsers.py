@@ -228,6 +228,16 @@ def _parse_entry_head(line: str) -> dict | None:
     rest = rest.replace("<br>", " ").strip()
     rest = re.sub(r"\*\*\s*$", "", rest).strip()
     labels = []
+    language = None
+    # Dialect 4 (Vol 8, from 8(3) §9 on): shields.io badges instead of
+    # backtick tags - ![TYPE](…/badge/TYPE-Talk-blue), ![Lang](…/LANGUAGE-German-red).
+    for kind, value in re.findall(r"!\[[^\]]*\]\(https://img\.shields\.io/badge/([A-Z]+)-([^)]*?)-[a-z]+\)", rest):
+        value = value.replace("%20", " ").replace("_", " ")
+        if kind == "TYPE":
+            labels.append(value)
+        elif kind == "LANGUAGE":
+            language = {"german": "de", "english": "en"}.get(value.lower(), value.lower())
+    rest = re.sub(r"!\[[^\]]*\]\(https://img\.shields\.io/[^)]*\)\s*", "", rest)
     while True:
         t = TYPE_TAG.match(rest)
         if not t:
@@ -235,7 +245,10 @@ def _parse_entry_head(line: str) -> dict | None:
         labels.append(t.group(1).strip())
         rest = rest[t.end():]
     title = re.sub(r"\s+", " ", rest.replace("**", "")).strip().rstrip()
-    return {"sigil": sigil, "n": n, "labels": labels, "title": title}
+    head = {"sigil": sigil, "n": n, "labels": labels, "title": title}
+    if language:
+        head["language"] = language
+    return head
 
 
 def parse_volume_md(text: str, volume: int, source: str, notes: Notes) -> dict:
@@ -336,6 +349,8 @@ def build_entry(raw: dict, notes: Notes) -> dict:
     where = raw["where"]
     out: dict = {"n": raw["n"], "types": [slugify(label) for label in raw["labels"]],
                  "title": raw["title"]}
+    if raw.get("language"):
+        out["language"] = raw["language"]
     event: dict = {}
     links: dict = {}
     creators: list[dict] = []

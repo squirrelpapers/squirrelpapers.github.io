@@ -1,0 +1,105 @@
+TY  - COMP
+ID  - sp_vol7_iss2_e1
+TI  - SPARQLing Unicorn QGIS Plugin
+AU  - Thiery, Florian
+AU  - Homburg, Timo
+PY  - 2025
+DA  - 2025/02/15
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14874994
+UR  - https://doi.org/10.5281/zenodo.14874994
+KW  - GeoSPARQL
+KW  - Linked Open Data
+KW  - Wikidata
+N1  - Software
+ER  -
+
+TY  - DATA
+ID  - sp_vol7_iss2_e2
+TI  - GrapHNR2023 - Supplementary Material
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2025
+DA  - 2025/02/21
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.14906708
+UR  - https://doi.org/10.5281/zenodo.14906708
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol7_iss2_e3
+TI  - Linked Archaeological Data Ontology (LADO) - v1.1
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2025
+DA  - 2025/05/20
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15477358
+UR  - https://doi.org/10.5281/zenodo.15477358
+LA  - en
+KW  - Archaeology
+KW  - Linked Open Data
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol7_iss2_e4
+TI  - Archaeo-Natural Ontology (ArNO) - v0.1
+AU  - thor Straten, Mattis
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025/03/27
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.15095413
+UR  - https://doi.org/10.5281/zenodo.15095413
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol7_iss2_e5
+TI  - FAIRyland
+AU  - Thiery, Florian
+AU  - Danthine, Brigit
+AU  - Alpino, Nadine
+PY  - 2025
+DA  - 2025
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ5
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v7/i2/e5
+N1  - Dataset
+ER  -
+
+TY  - COMP
+ID  - sp_vol7_iss2_e6
+TI  - osm2lod
+AU  - Thiery, Florian
+PY  - 2025
+DA  - 2025
+JO  - Squirrel Papers
+VL  - 7
+IS  - 2
+SP  - λ6
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v7/i2/e6
+N1  - Software
+ER  -

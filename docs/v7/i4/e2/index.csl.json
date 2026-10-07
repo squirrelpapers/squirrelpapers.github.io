@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14893860",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Proposal",
+    "id": "v7-i4-e2",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          19
+        ]
+      ]
+    },
+    "page": "λ2",
+    "title": "NFDI4Objects TWG - N4O ObjectMetaDataSet (N4O OMDS) & N4O ObjectOntology (N4O OO)",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

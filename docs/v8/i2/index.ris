@@ -1,0 +1,90 @@
+TY  - COMP
+ID  - sp_vol8_iss2_e1
+TI  - Samian Research STL-PA
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §1
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v8/i2/e1
+N1  - Software
+ER  -
+
+TY  - COMP
+ID  - sp_vol8_iss2_e2
+TI  - Samian Site Dating
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2026
+DA  - 2026
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §2
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v8/i2/e2
+N1  - Software
+ER  -
+
+TY  - COMP
+ID  - sp_vol8_iss2_e3
+TI  - Gradual Semantic Alignment for SKOS (GSAS)
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §3
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v8/i2/e3
+LA  - en
+N1  - Software
+ER  -
+
+TY  - COMP
+ID  - sp_vol8_iss2_e4
+TI  - FAIR Digital Object Squirrel Implementation (FDOSquirrel)
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026/09/09
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18404885
+UR  - https://doi.org/10.5281/zenodo.18404885
+KW  - FAIR Digital Object
+KW  - Federated Knowledge Graph Ecosystem
+KW  - RDF
+N1  - Software
+ER  -
+
+TY  - DATA
+ID  - sp_vol8_iss2_e5
+TI  - FAIRyland: A playful dataset for teaching Linked Open Data in archaeology
+AU  - Thiery, Florian
+AU  - Danthine, Brigit
+AU  - Alpino, Nadine
+PY  - 2026
+DA  - 2026/03/07
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18901448
+UR  - https://doi.org/10.5281/zenodo.18901448
+LA  - en
+KW  - archaeology
+KW  - FAIR
+KW  - Jupyter
+KW  - Linked Open Data
+KW  - OER
+KW  - Python
+N1  - Dataset
+ER  -

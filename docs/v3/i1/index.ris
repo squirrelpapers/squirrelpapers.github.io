@@ -1,0 +1,257 @@
+TY  - JOUR
+ID  - sp_vol3_iss1_e1
+TI  - Digitale Vernetzung von Sammlungsdaten
+AU  - Mees, Allard W.
+AU  - Thiery, Florian
+AU  - Weisser, Bernhard
+PY  - 2021
+DA  - 2021/03/31
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5810310
+UR  - https://doi.org/10.5281/zenodo.5810310
+LA  - de
+KW  - NFDI
+KW  - NFDI4Objects
+N1  - Journal article
+ER  -
+
+TY  - JOUR
+ID  - sp_vol3_iss1_e2
+TI  - African Red Slip Ware digital (ARS3D) - The Portal
+AU  - Thiery, Florian
+AU  - Rokohl, Louise
+PY  - 2021
+DA  - 2021/11/24
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5646897
+UR  - https://doi.org/10.5281/zenodo.5646897
+LA  - en
+KW  - African Red Slip Ware
+N1  - Report
+ER  -
+
+TY  - DATA
+ID  - sp_vol3_iss1_e3
+TI  - Linked Open African Red Slip Ware
+AU  - Thiery, Florian
+AU  - Rokohl, Louise
+PY  - 2021
+DA  - 2021/11/24
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5722941
+UR  - https://doi.org/10.5281/zenodo.5722941
+KW  - African Red Slip Ware
+KW  - Linked Open Data
+N1  - Dataset
+ER  -
+
+TY  - JOUR
+ID  - sp_vol3_iss1_e4
+TI  - African Red Slip Ware Digital (ARS3D) - How to create a Feature?
+AU  - Rokohl, Louise
+AU  - Thiery, Florian
+AU  - Dingler, Anke
+AU  - Beck, S.
+PY  - 2021
+DA  - 2021/11/01
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5642976
+UR  - https://doi.org/10.5281/zenodo.5642976
+LA  - en
+KW  - African Red Slip Ware
+N1  - Working paper
+ER  -
+
+TY  - DATA
+ID  - sp_vol3_iss1_e5
+TI  - African Red Slip Ware Digital (ARS3D) - Graph-Data
+AU  - Rokohl, Louise
+AU  - Thiery, Florian
+AU  - Beck, S.
+AU  - Dingler, Anke
+PY  - 2021
+DA  - 2021/11/01
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5642750
+UR  - https://doi.org/10.5281/zenodo.5642750
+LA  - en
+KW  - African Red Slip Ware
+KW  - CIDOC CRM
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol3_iss1_e6
+TI  - African Red Slip Ware Digital (ARS3D) - Ontology
+AU  - Thiery, Florian
+AU  - Karmacharya, Ashish
+AU  - Rokohl, Louise
+PY  - 2021
+DA  - 2021/11/01
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5642891
+UR  - https://doi.org/10.5281/zenodo.5642891
+LA  - en
+KW  - African Red Slip Ware
+KW  - CIDOC CRM
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol3_iss1_e7
+TI  - African Red Slip Ware Digital (ARS3D) - Comparison-Data
+AU  - Thiery, Florian
+AU  - Rokohl, Louise
+AU  - Veller, Jonas
+PY  - 2021
+DA  - 2021
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #7
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5647827
+UR  - https://doi.org/10.5281/zenodo.5647827
+LA  - en
+KW  - African Red Slip Ware
+KW  - Semantics
+N1  - Dataset
+ER  -
+
+TY  - COMP
+ID  - sp_vol3_iss1_e8
+TI  - African Red Slip Ware Digital (ARS3D) - Comparison-Script
+AU  - Thiery, Florian
+PY  - 2021
+DA  - 2021
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #8
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5647864
+UR  - https://doi.org/10.5281/zenodo.5647864
+KW  - African Red Slip Ware
+N1  - Software
+ER  -
+
+TY  - DATA
+ID  - sp_vol3_iss1_e9
+TI  - African Red Slip Ware Digital (ARS3D) - Images (Objects)
+AU  - Veller, Jonas
+AU  - Raddatz, Laura
+AU  - Thiery, Florian
+AU  - Rokohl, Louise
+PY  - 2021
+DA  - 2021/11/01
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #9
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5645179
+UR  - https://doi.org/10.5281/zenodo.5645179
+KW  - African Red Slip Ware
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol3_iss1_e10
+TI  - African Red Slip Ware Digital (ARS3D) - Images (Features)
+AU  - Veller, Jonas
+AU  - Raddatz, Laura
+AU  - Thiery, Florian
+AU  - Rokohl, Louise
+PY  - 2021
+DA  - 2021/11/01
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #10
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5645236
+UR  - https://doi.org/10.5281/zenodo.5645236
+KW  - African Red Slip Ware
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol3_iss1_e11
+TI  - African Red Slip Ware Digital (ARS3D) - Images (Comparisons)
+AU  - Veller, Jonas
+AU  - Raddatz, Laura
+AU  - Thiery, Florian
+AU  - Rokohl, Louise
+PY  - 2021
+DA  - 2021/11/01
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #11
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5645253
+UR  - https://doi.org/10.5281/zenodo.5645253
+KW  - African Red Slip Ware
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol3_iss1_e12
+TI  - African Red Slip Ware Digital (ARS3D) - Comparison Videos
+AU  - Thiery, Florian
+AU  - Veller, Jonas
+PY  - 2021
+DA  - 2021/11/01
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #12
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5642976
+UR  - https://doi.org/10.5281/zenodo.5642976
+LA  - en
+KW  - African Red Slip Ware
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol3_iss1_e13
+TI  - African Red Slip Ware Digital (ARS3D) - Comparison (Archaeology)
+AU  - Thiery, Florian
+PY  - 2021
+DA  - 2021
+JO  - Squirrel Papers
+VL  - 3
+IS  - 1
+SP  - #13
+SN  - 2750-560X
+DO  - 10.5281/zenodo.6534661
+UR  - https://doi.org/10.5281/zenodo.6534661
+KW  - ARS
+KW  - Semantics
+N1  - Dataset
+ER  -

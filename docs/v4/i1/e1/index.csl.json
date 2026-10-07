@@ -1,0 +1,27 @@
+[
+  {
+    "DOI": "10.5281/zenodo.6386603",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v4-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "#1",
+    "title": "African Red Slip Ware - Additional Iconography Catalogue",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

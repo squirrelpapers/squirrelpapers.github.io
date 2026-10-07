@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7624870",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v5-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          9
+        ]
+      ]
+    },
+    "keyword": "Allen, FAIR, Linked Data, RDF, relative Chronology",
+    "language": "en",
+    "page": "#2",
+    "title": "Alligator Method",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

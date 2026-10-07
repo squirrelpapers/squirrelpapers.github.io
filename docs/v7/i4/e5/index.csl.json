@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.16875678",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Objects Community Meeting 2025",
+    "event-place": "Deutsches Bergbau-Museum, Bochum, Germany",
+    "event-title": "NFDI4Objects Community Meeting 2025",
+    "genre": "Conference paper",
+    "id": "v7-i4-e5",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ5",
+    "title": "Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI - Ein interdisziplinäres federated Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

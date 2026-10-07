@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10291889",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v5-i1-e6",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#6",
+    "title": "Dealing with doubts: Site georeferencing in archaeology and in the geosciences",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

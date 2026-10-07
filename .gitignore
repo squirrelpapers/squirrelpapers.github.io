@@ -32,3 +32,8 @@ PATCH-README.md
 # what GitHub Pages serves, dist/ holds the citable products (graph, GeoJSON,
 # BibTeX). data/raw/ is not ignored either: the harvest cache is committed so
 # that every build after S3 runs offline (PRIMER A3).
+
+# --- Web products before they reach docs/ (S6) ---
+# Written by cite/rdf/map in the layout of docs/ and copied in by the site step.
+# docs/ is the published copy; tracking this one too would double every file.
+data/derived/web/

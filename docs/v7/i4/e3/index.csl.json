@@ -1,0 +1,36 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14916966",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Memory AG Minimaldatensatz Historische Orte",
+    "event-title": "NFDI4Memory AG Minimaldatensatz Historische Orte",
+    "genre": "Presentation",
+    "id": "v7-i4-e3",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          24
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ3",
+    "title": "Interdisziplinäre Knowledge Graphen? Ortsdaten im Kontext von NFDI4Objects",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

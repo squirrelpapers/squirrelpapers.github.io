@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18803954",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE26",
+    "event-place": "University of Stuttgart, Stuttgart",
+    "event-title": "deRSE26",
+    "genre": "Poster",
+    "id": "v8-i3-e5",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§5",
+    "title": "RSE across the NFDI - Connecting Infrastructure and Community through FAIR4RS Practice",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

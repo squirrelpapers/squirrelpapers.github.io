@@ -9,14 +9,14 @@
 
 | Type | Entries |
 |---|---|
-| presentation | 91 |
+| presentation | 92 |
 | data | 26 |
 | poster | 22 |
 | software | 21 |
 | conference-proceeding | 7 |
 | journal-article | 6 |
 | working-paper | 6 |
-| conference-paper | 5 |
+| conference-paper | 4 |
 | proposal | 4 |
 | conference-session | 3 |
 | methodological-working-paper | 3 |
@@ -40,7 +40,7 @@
 | `person-ambiguous` | 1 |
 | `person-merged` | 6 |
 | `person-split` | 2 |
-| `type-from-zenodo` | 28 |
+| `type-from-zenodo` | 27 |
 | `type-missing` | 1 |
 | `zenodo-date-ignored` | 11 |
 
@@ -110,7 +110,6 @@
 | `4(3) #7` | `type-from-zenodo` | presentation -> presentation |
 | `4(3) #8` | `type-from-zenodo` | presentation -> presentation |
 | `4(3) #9` | `type-from-zenodo` | presentation -> presentation |
-| `8(3) §9` | `type-from-zenodo` | publication/conferencepaper -> conference-paper |
 | `4(3) #1` | `type-missing` | no type in content/ or Zenodo; 'other' |
 | `1(1) #5` | `zenodo-date-ignored` | 2025-12-19 (latest version) outside the volume; year from the volume |
 | `2(2) #1` | `zenodo-date-ignored` | 2024-09-24 (latest version) outside the volume; year from the volume |

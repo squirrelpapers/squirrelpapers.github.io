@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5646897",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Report",
+    "id": "v3-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          24
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "language": "en",
+    "page": "#2",
+    "title": "African Red Slip Ware digital (ARS3D) - The Portal",
+    "type": "article-journal",
+    "volume": "3"
+  }
+]

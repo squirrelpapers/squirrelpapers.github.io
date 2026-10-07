@@ -1,0 +1,292 @@
+TY  - JOUR
+ID  - sp_vol8_iss1_e1
+TI  - From Tables to Gazetteers: Reproducible Place Alignment for Archaeological Data with STL-PA
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026/01/31
+JO  - Squirrel Papers
+VL  - 8
+IS  - 1
+SP  - §1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18441772
+UR  - https://doi.org/10.5281/zenodo.18441772
+LA  - en
+N1  - Methodological working paper
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss1_e2
+TI  - Gradual Semantic Alignment for SKOS: Quantifying Mapping Strength in Knowledge Graph Infrastructures
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026/01/31
+JO  - Squirrel Papers
+VL  - 8
+IS  - 1
+SP  - §2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18441001
+UR  - https://doi.org/10.5281/zenodo.18441001
+LA  - en
+N1  - Methodological working paper
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss1_e3
+TI  - Bridging FDOs and Knowledge Graphs | Position Paper
+AU  - Thiery, Florian
+AU  - Noback, Andreas
+AU  - Schenk, Fiona
+AU  - Kasten, Megan Nichole
+PY  - 2026
+DA  - 2026/01/31
+JO  - Squirrel Papers
+VL  - 8
+IS  - 1
+SP  - §3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18441544
+UR  - https://doi.org/10.5281/zenodo.18441544
+LA  - en
+N1  - Position paper
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss1_e4
+TI  - From Packaged Research Artefacts to RDF: A Reference Implementation for FAIR Digital Objects into the Federated Knowledge Graph Ecosystem
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026/01/31
+JO  - Squirrel Papers
+VL  - 8
+IS  - 1
+SP  - §4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18441772
+UR  - https://doi.org/10.5281/zenodo.18441772
+LA  - en
+N1  - Methodological working paper
+ER  -
+
+TY  - COMP
+ID  - sp_vol8_iss2_e1
+TI  - Samian Research STL-PA
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §1
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v8/i2/e1
+N1  - Software
+ER  -
+
+TY  - COMP
+ID  - sp_vol8_iss2_e2
+TI  - Samian Site Dating
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2026
+DA  - 2026
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §2
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v8/i2/e2
+N1  - Software
+ER  -
+
+TY  - COMP
+ID  - sp_vol8_iss2_e3
+TI  - Gradual Semantic Alignment for SKOS (GSAS)
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §3
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v8/i2/e3
+LA  - en
+N1  - Software
+ER  -
+
+TY  - COMP
+ID  - sp_vol8_iss2_e4
+TI  - FAIR Digital Object Squirrel Implementation (FDOSquirrel)
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026/09/09
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18404885
+UR  - https://doi.org/10.5281/zenodo.18404885
+KW  - FAIR Digital Object
+KW  - Federated Knowledge Graph Ecosystem
+KW  - RDF
+N1  - Software
+ER  -
+
+TY  - DATA
+ID  - sp_vol8_iss2_e5
+TI  - FAIRyland: A playful dataset for teaching Linked Open Data in archaeology
+AU  - Thiery, Florian
+AU  - Danthine, Brigit
+AU  - Alpino, Nadine
+PY  - 2026
+DA  - 2026/03/07
+JO  - Squirrel Papers
+VL  - 8
+IS  - 2
+SP  - §5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18901448
+UR  - https://doi.org/10.5281/zenodo.18901448
+LA  - en
+KW  - archaeology
+KW  - FAIR
+KW  - Jupyter
+KW  - Linked Open Data
+KW  - OER
+KW  - Python
+N1  - Dataset
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss3_e1
+TI  - Cultural Heritage als FAIR Digital Object? 3D-Erfassung und semantische Vernetzung von Kulturerbe in Irland und Schottland
+AU  - Thiery, Florian
+AU  - Kasten, Megan Nichole
+AU  - Distel, Anne-Karoline
+AU  - Thiery, Peter
+PY  - 2026
+DA  - 2026/02/25
+JO  - Squirrel Papers
+VL  - 8
+IS  - 3
+SP  - §1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18726192
+UR  - https://doi.org/10.5281/zenodo.18726192
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss3_e2
+TI  - Von der Hosentasche in den Wissensgraph: Smartphone-3D als FAIR Digital Object in der SquirrelBase
+AU  - Thiery, Florian
+PY  - 2026
+DA  - 2026/02/25
+JO  - Squirrel Papers
+VL  - 8
+IS  - 3
+SP  - §2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18726246
+UR  - https://doi.org/10.5281/zenodo.18726246
+LA  - de
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss3_e3
+TI  - Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks
+AU  - Thiery, Florian
+AU  - thor Straten, Mattis
+AU  - Strohm, Steffen
+AU  - Renz, Matthias
+PY  - 2026
+DA  - 2026/03/03
+JO  - Squirrel Papers
+VL  - 8
+IS  - 3
+SP  - §3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18803485
+UR  - https://doi.org/10.5281/zenodo.18803485
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss3_e4
+TI  - Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+AU  - Schubert, Lutz Krister
+PY  - 2026
+DA  - 2026/03/03
+JO  - Squirrel Papers
+VL  - 8
+IS  - 3
+SP  - §4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18803727
+UR  - https://doi.org/10.5281/zenodo.18803727
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss3_e5
+TI  - RSE across the NFDI - Connecting Infrastructure and Community through FAIR4RS Practice
+AU  - Thiery, Florian
+AU  - Flemisch, Bernd
+PY  - 2026
+DA  - 2026/03/03
+JO  - Squirrel Papers
+VL  - 8
+IS  - 3
+SP  - §5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18803954
+UR  - https://doi.org/10.5281/zenodo.18803954
+LA  - en
+N1  - Poster
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss3_e6
+TI  - chublets.software – Building a FAIR Software Marketplace for Cultural Heritage
+AU  - Thiery, Florian
+AU  - Schubert, Lutz Krister
+PY  - 2026
+DA  - 2026/03/03
+JO  - Squirrel Papers
+VL  - 8
+IS  - 3
+SP  - §6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.18826868
+UR  - https://doi.org/10.5281/zenodo.18826868
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol8_iss3_e9
+TI  - Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem
+AU  - Thiery, Florian
+AU  - Schenk, Fiona
+AU  - Thiery, Peter
+PY  - 2026
+DA  - 2026/03/25
+JO  - Squirrel Papers
+VL  - 8
+IS  - 3
+SP  - §9
+SN  - 2750-560X
+DO  - 10.5281/zenodo.19200628
+UR  - https://doi.org/10.5281/zenodo.19200628
+LA  - de
+N1  - Presentation
+ER  -

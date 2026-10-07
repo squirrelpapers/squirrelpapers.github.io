@@ -1,0 +1,45 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14055804",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      },
+      {
+        "family": "Berthold",
+        "given": "Angela"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+    "event-place": "Vienna City Hall, Wappensaal, Vienna, Austria",
+    "event-title": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+    "genre": "Presentation",
+    "id": "v6-i4-e23",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          6
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#23",
+    "title": "Interdisciplinary Knowledge Graphs: Semantic Modelling using Linked Open Data, Wikibase and the Wikiverse",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

@@ -1,0 +1,86 @@
+TY  - JOUR
+ID  - sp_vol1_iss5_e1
+TI  - E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten with dem Arches Framework
+AU  - Thiery, Florian
+AU  - Engel, Thomas
+PY  - 2016
+DA  - 2016/02/05
+JO  - Squirrel Papers
+VL  - 1
+IS  - 5
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.292967
+UR  - https://doi.org/10.5281/zenodo.292967
+LA  - de
+KW  - archaeology
+KW  - arches
+KW  - CIDOC-CRM
+KW  - graph
+KW  - ontology
+KW  - semantic web
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol1_iss5_e2
+TI  - Linking periods: Modeling and utilizing spatio-temporal concepts in the chronOntology project
+AU  - Schmidle, Wolfgang
+AU  - Cuy, Sebastian
+AU  - Kallas, Nathalie
+AU  - Thiery, Florian
+PY  - 2016
+DA  - 2016/04/30
+JO  - Squirrel Papers
+VL  - 1
+IS  - 5
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.2540522
+UR  - https://doi.org/10.5281/zenodo.2540522
+LA  - en
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol1_iss5_e3
+TI  - Linked Open Data in Space and Time - A geodetic insight into humanities research using LOD
+AU  - Thiery, Florian
+PY  - 2016
+DA  - 2016/05/04
+JO  - Squirrel Papers
+VL  - 1
+IS  - 5
+SP  - #3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.292962
+UR  - https://doi.org/10.5281/zenodo.292962
+LA  - en
+KW  - geodesy
+KW  - humanities
+KW  - linked data
+KW  - semantic web
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol1_iss5_e4
+TI  - Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2016
+DA  - 2016/09/20
+JO  - Squirrel Papers
+VL  - 1
+IS  - 5
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.292957
+UR  - https://doi.org/10.5281/zenodo.292957
+LA  - de
+KW  - archaeology
+KW  - chronology
+KW  - linked data
+KW  - linked open data
+N1  - Presentation
+ER  -

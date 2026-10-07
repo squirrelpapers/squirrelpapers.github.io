@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.15401536",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "event-title": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "genre": "Presentation",
+    "id": "v7-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          15
+        ]
+      ]
+    },
+    "keyword": "Linked Data, LOD, NFDI, NFDI4Objects, QGIS, Research Software Engineering, SPARQL Unicorn, Text+",
+    "language": "en",
+    "page": "λ5",
+    "title": "LOD Objects in Action II: SPARQLing Unicorn Research Toolkit: Integrating geospatial LOD SPARQL queries for visualisations in QGIS",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13927753",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Rütenik",
+        "given": "Tobias-Arera"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "event-place": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany",
+    "event-title": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "genre": "Workshop",
+    "id": "v6-i4-e18",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#18",
+    "title": "Workshop III: Linked Open Data am Beispiel von RDF-Daten, Wikidata und Wikibase",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.17475014",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "4. MediaWiki Users & Developer Conference",
+    "event-place": "Leibnizhaus, Hannover, Germany",
+    "event-title": "4. MediaWiki Users & Developer Conference",
+    "genre": "Presentation",
+    "id": "v7-i3-e20",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          28
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ20",
+    "title": "How to FAIRify Citizen Science? Using the Wikibase Ecosystem for Volunteered Cultural Heritage Information Systems",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

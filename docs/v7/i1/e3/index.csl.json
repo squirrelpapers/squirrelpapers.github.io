@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.15074382",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "event-title": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "genre": "Presentation",
+    "id": "v7-i1-e3",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          27
+        ]
+      ]
+    },
+    "keyword": "Jupyter Notebook, NFDI, NFDI4Objects, Python, Research Software Engineering, Text+",
+    "language": "en",
+    "page": "λ3",
+    "title": "LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries and visualisations for archaeological data",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

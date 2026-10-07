@@ -1,0 +1,27 @@
+[
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v7/i2/e6",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v7-i2-e6",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "λ6",
+    "title": "osm2lod",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

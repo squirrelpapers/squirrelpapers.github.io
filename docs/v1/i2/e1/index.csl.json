@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.3403029",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Intergeo Conference",
+    "event-place": "Stuttgart, Germany",
+    "event-title": "Intergeo Conference",
+    "genre": "Presentation",
+    "id": "v1-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          17
+        ]
+      ]
+    },
+    "keyword": "Arbeiten 4.0, Geodäsie 2030, Linked Data, Linked Open Geodata",
+    "language": "de",
+    "page": "#1",
+    "title": "Linked Data Cloud: Bindeglied zwischen Geodäsie und Gesellschaft",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

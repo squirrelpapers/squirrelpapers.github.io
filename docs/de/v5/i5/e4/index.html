@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., &amp; Mees, A. W. (2023). Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain. <em>Squirrel Papers</em>, 5(5), #4. <a href="https://doi.org/10.5281/zenodo.10260778">https://doi.org/10.5281/zenodo.10260778</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., &amp; Mees, A. W. (2023). Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain. <em>Squirrel Papers</em>, 5(5), #4. <a href="https://doi.org/10.5281/zenodo.10260778">https://doi.org/10.5281/zenodo.10260778</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v5/i5/e4/index.bib" download>BibTeX</a> · <a href="../../../../v5/i5/e4/index.ris" download>RIS</a> · <a href="../../../../v5/i5/e4/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -134,5 +136,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.10260778", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Mees", "given": "Allard W."}], "container-title": "Squirrel Papers", "event": "ARCHAEO.FOSS XVII 2023", "event-place": "Università di Torino, Italy", "event-title": "ARCHAEO.FOSS XVII 2023", "genre": "Presentation", "id": "v5-i5-e4", "issue": "5", "issued": {"date-parts": [[2023, 12, 12]]}, "language": "en", "page": "#4", "title": "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain", "type": "article-journal", "volume": "5"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., Danthine, B., High-Steskal, N., Vitale, V., Mees, A. W., Tolle, K., &amp; Wigg-Wolf, D. G. (2022). Hic sunt dracones - Real-world data-driven knowledge modelling resulting in Semantics and FAIR-LOD based tools and workflows. <em>Squirrel Papers</em>, 4(3), #11. <a href="https://doi.org/10.5281/zenodo.6976193">https://doi.org/10.5281/zenodo.6976193</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., Danthine, B., High-Steskal, N., Vitale, V., Mees, A. W., Tolle, K., &amp; Wigg-Wolf, D. G. (2022). Hic sunt dracones - Real-world data-driven knowledge modelling resulting in Semantics and FAIR-LOD based tools and workflows. <em>Squirrel Papers</em>, 4(3), #11. <a href="https://doi.org/10.5281/zenodo.6976193">https://doi.org/10.5281/zenodo.6976193</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v4/i3/e11/index.bib" download>BibTeX</a> · <a href="../../../../v4/i3/e11/index.ris" download>RIS</a> · <a href="../../../../v4/i3/e11/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -176,5 +178,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.6976193", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Danthine", "given": "Brigit"}, {"family": "High-Steskal", "given": "Nicole"}, {"family": "Vitale", "given": "Valeria"}, {"family": "Mees", "given": "Allard W."}, {"family": "Tolle", "given": "Karsten"}, {"family": "Wigg-Wolf", "given": "David G."}], "container-title": "Squirrel Papers", "genre": "Presentation", "id": "v4-i3-e11", "issue": "3", "issued": {"date-parts": [[2022, 8, 9]]}, "keyword": "Digital Archaeology, Linked Open Data", "language": "en", "page": "#11", "title": "Hic sunt dracones - Real-world data-driven knowledge modelling resulting in Semantics and FAIR-LOD based tools and workflows", "type": "article-journal", "volume": "4"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

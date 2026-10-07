@@ -15,8 +15,8 @@ Pages link to each other with relative paths, so docs/ works from disk
 (`python main.py --open`) and under any host. Every page carries its canonical
 URL; entry pages carry schema.org JSON-LD. Products of S6/S7/S10 that belong
 on the web (BibTeX, Turtle, JSON-LD per entry, the dumps) are written by those
-steps to dist/web/ in the docs/ layout; this step copies dist/web/ into docs/
-and links what it finds.
+steps to data/derived/web/ in the docs/ layout; this step copies that tree
+into docs/ and links what it finds.
 
 The site step owns docs/: it empties it before writing (S9 runs afterwards
 and adds its page).
@@ -41,7 +41,10 @@ from sqp_utils import (  # noqa: E402
 
 UI_YAML = CONTENT / "ui.yaml"
 PAGES_DIR = CONTENT / "pages"
-ASSET_FILES = ["css/sqp.css", "img/sqp-logo.png", "img/network.svg"]
+ASSET_FILES = ["css/sqp.css", "img/sqp-logo.png", "img/network.svg", "js/sqp-cite.js"]
+WEB = Path(__file__).resolve().parent.parent / "data" / "derived" / "web"   # S6/S7/S10 products
+DOWNLOAD_FORMATS = (("bib", "BibTeX"), ("ris", "RIS"), ("csl.json", "CSL-JSON"),
+                    ("ttl", "Turtle"), ("jsonld", "JSON-LD"))
 
 SCHEMA_TYPES = {
     "journal-article": "ScholarlyArticle", "conference-paper": "ScholarlyArticle",
@@ -226,9 +229,20 @@ def main(strict: bool = False) -> None:
         shutil.rmtree(DOCS)
     DOCS.mkdir(parents=True)
     write_text(DOCS / ".nojekyll", "")
-    web = DIST / "web"                 # products of S6/S7/S10, same layout as docs/
-    if web.exists():
-        shutil.copytree(web, DOCS, dirs_exist_ok=True)
+    if WEB.exists():
+        shutil.copytree(WEB, DOCS, dirs_exist_ok=True)
+
+    def downloads_for(path: str, prefix: str = "index") -> list[dict]:
+        folder = DOCS / path if path else DOCS
+        # Relative to the site root: the files exist once, the pages twice (EN, DE).
+        return [{"href": (f"{path}/" if path else "") + f"{prefix}.{suffix}", "label": label}
+                for suffix, label in DOWNLOAD_FORMATS if (folder / f"{prefix}.{suffix}").exists()]
+
+    csl_items = {}
+    for e in data["entries"]:
+        path = WEB / e["path"] / "index.csl.json"
+        if path.exists():
+            csl_items[e["id"]] = read_json(path)[0]
     for asset in ASSET_FILES:
         target = DOCS / "assets" / asset
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -281,7 +295,8 @@ def main(strict: bool = False) -> None:
         render("home.html.j2", "", lang, page_title=f"Squirrel Papers – {t['hero_claim']}",
                nav="home", volumes=volumes, latest=latest)
         render("volumes.html.j2", "volumes", lang, page_title=f"{t['nav_volumes']} – Squirrel Papers",
-               nav="volumes", volumes=volumes)
+               nav="volumes", volumes=volumes,
+               downloads=downloads_for("downloads", "squirrelpapers"))
         for slug, nav, heading in (("impressum", "impressum", t["nav_impressum"]),
                                    ("privacy", "privacy", t["nav_privacy"])):
             body = (PAGES_DIR / f"{slug}.{lang}.html").read_text(encoding="utf-8")
@@ -289,21 +304,19 @@ def main(strict: bool = False) -> None:
                    nav=nav, heading=heading, body=body)
         for v in volumes:
             render("volume.html.j2", v["path"], lang,
-                   page_title=f"{t['volume']} {v['volume']} – Squirrel Papers", nav="volumes", v=v)
+                   page_title=f"{t['volume']} {v['volume']} – Squirrel Papers", nav="volumes", v=v,
+                   downloads=downloads_for(v["path"]))
             for issue in v["issues"]:
                 render("issue.html.j2", issue["path"], lang,
                        page_title=f"{t['volume']} {v['volume']}, {t['issue']} {issue['issue']} – Squirrel Papers",
-                       nav="volumes", v=v, issue=issue)
+                       nav="volumes", v=v, issue=issue, downloads=downloads_for(issue["path"]))
                 for e in issue["published"]:
-                    downloads = []
-                    for suffix, label in (("bib", "BibTeX"), ("ris", "RIS"), ("csl.json", "CSL-JSON"),
-                                          ("ttl", "Turtle"), ("jsonld", "JSON-LD")):
-                        if (DOCS / e["path"] / f"index.{suffix}").exists():
-                            downloads.append({"href": f"index.{suffix}", "label": label})
+                    downloads = downloads_for(e["path"])
                     render("entry.html.j2", e["path"], lang,
                            page_title=f"{e['title']} – Squirrel Papers {e['citation_label']}",
                            nav="volumes", v=v, issue=issue, e=e,
                            citation=simple_citation(e, journal), downloads=downloads,
+                           csl_item=script_json(csl_items.get(e["id"], {})),
                            jsonld=jsonld_for(e, journal, issue, types))
 
     broken = check_links(DOCS)

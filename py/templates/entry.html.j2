@@ -11,9 +11,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>{{ t.how_to_cite }}</h2>
-        <div class="cite-box"><p id="cite-text">{{ citation | safe }}</p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">{{ t.cite_style }}</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">{{ citation | safe }}</div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="{{ t.copied_button }}">{{ t.copy_button }}</button></div>
-        {% if downloads %}<p class="downloads">{% for d in downloads %}<a href="{{ d.href }}" download>{{ d.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+        {% if downloads %}<p class="downloads">{% for d in downloads %}<a href="{{ root }}{{ d.href }}" download>{{ d.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
       </section>
 
       {% if e.pdf %}
@@ -64,4 +66,10 @@
     </aside>
   </div>
 </article>
+{% endblock %}
+{% block scripts %}
+<script type="application/json" id="csl-item">{{ csl_item | safe }}</script>
+<script src="{{ root }}assets/js/citeproc.js" defer></script>
+<script src="{{ root }}assets/js/sqp-csl-data.js" defer></script>
+<script src="{{ root }}assets/js/sqp-cite.js" defer></script>
 {% endblock %}

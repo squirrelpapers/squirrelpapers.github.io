@@ -1,0 +1,68 @@
+[
+  {
+    "DOI": "10.5281/zenodo.16736221",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Fella",
+        "given": "Kristina"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Koprucki",
+        "given": "Thomas"
+      },
+      {
+        "family": "Noback",
+        "given": "Andreas"
+      },
+      {
+        "family": "Reidelbach",
+        "given": "Marco"
+      },
+      {
+        "family": "Schrade",
+        "given": "Torsten"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "CIDOC-CRM, community-standards, Engineering, FAIR Digital, Humanities, Knowledge Graph, Linked Open Data, NFDIcore Ontology, Objects",
+    "language": "en",
+    "page": "7(5), 𝒬3",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data",
+    "type": "paper-conference"
+  }
+]

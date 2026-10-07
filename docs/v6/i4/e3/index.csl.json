@@ -1,0 +1,46 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10515269",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schneider",
+        "given": "Agnes"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      },
+      {
+        "family": "Allison",
+        "given": "Jim"
+      },
+      {
+        "family": "Stefan",
+        "given": "Daria"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Conference session proposal",
+    "id": "v6-i4-e3",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#3",
+    "title": "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks\"",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

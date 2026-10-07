@@ -1,0 +1,43 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5642750",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Beck",
+        "given": "S."
+      },
+      {
+        "family": "Dingler",
+        "given": "Anke"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware, CIDOC CRM",
+    "language": "en",
+    "page": "#5",
+    "title": "African Red Slip Ware Digital (ARS3D) - Graph-Data",
+    "type": "article-journal",
+    "volume": "3"
+  }
+]

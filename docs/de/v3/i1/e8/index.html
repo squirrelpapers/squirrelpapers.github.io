@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F. (2021). African Red Slip Ware Digital (ARS3D) - Comparison-Script. <em>Squirrel Papers</em>, 3(1), #8. <a href="https://doi.org/10.5281/zenodo.5647864">https://doi.org/10.5281/zenodo.5647864</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F. (2021). African Red Slip Ware Digital (ARS3D) - Comparison-Script. <em>Squirrel Papers</em>, 3(1), #8. <a href="https://doi.org/10.5281/zenodo.5647864">https://doi.org/10.5281/zenodo.5647864</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v3/i1/e8/index.bib" download>BibTeX</a> · <a href="../../../../v3/i1/e8/index.ris" download>RIS</a> · <a href="../../../../v3/i1/e8/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -132,5 +134,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.5647864", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "genre": "Software", "id": "v3-i1-e8", "issue": "1", "issued": {"date-parts": [[2021]]}, "keyword": "African Red Slip Ware", "page": "#8", "title": "African Red Slip Ware Digital (ARS3D) - Comparison-Script", "type": "article-journal", "volume": "3"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

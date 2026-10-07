@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., Homburg, T., Klammt, A., &amp; Schmidt, S. C. (2022). Software Review for the Software PointSamplingTool (Archäologische Informationen 44, Early View, published online 18 Nov 2022). <em>Squirrel Papers</em>, 4(1), #5. <a href="https://doi.org/10.5281/zenodo.7337817">https://doi.org/10.5281/zenodo.7337817</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., Homburg, T., Klammt, A., &amp; Schmidt, S. C. (2022). Software Review for the Software PointSamplingTool (Archäologische Informationen 44, Early View, published online 18 Nov 2022). <em>Squirrel Papers</em>, 4(1), #5. <a href="https://doi.org/10.5281/zenodo.7337817">https://doi.org/10.5281/zenodo.7337817</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v4/i1/e5/index.bib" download>BibTeX</a> · <a href="../../../v4/i1/e5/index.ris" download>RIS</a> · <a href="../../../v4/i1/e5/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -132,5 +134,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.7337817", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Homburg", "given": "Timo"}, {"family": "Klammt", "given": "Anne"}, {"family": "Schmidt", "given": "Sophie Charlotte"}], "container-title": "Squirrel Papers", "genre": "Preprint", "id": "v4-i1-e5", "issue": "1", "issued": {"date-parts": [[2022, 11, 18]]}, "keyword": "Archäoinformatik, DGUF, QGIS, Softwarerezension", "page": "#5", "title": "Software Review for the Software PointSamplingTool (Archäologische Informationen 44, Early View, published online 18 Nov 2022)", "type": "article-journal", "volume": "4"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

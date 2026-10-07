@@ -1,0 +1,39 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18901448",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Danthine",
+        "given": "Brigit"
+      },
+      {
+        "family": "Alpino",
+        "given": "Nadine"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v8-i2-e5",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          7
+        ]
+      ]
+    },
+    "keyword": "archaeology, FAIR, Jupyter, Linked Open Data, OER, Python",
+    "language": "en",
+    "page": "§5",
+    "title": "FAIRyland: A playful dataset for teaching Linked Open Data in archaeology",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

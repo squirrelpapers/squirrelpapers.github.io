@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.5779053",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v4-i2-e3",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "#3",
+    "title": "Linked Pipe: Linked Open Samian Ware",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14217957",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "kuwiki: tips&tools, #15 Georeferenzierung und Mapping mit Wikimedia",
+    "event-title": "kuwiki: tips&tools, #15 Georeferenzierung und Mapping mit Wikimedia",
+    "genre": "Presentation",
+    "id": "v6-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          28
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#2",
+    "title": "Georeferenzierung und Mapping innerhalb des Wikiversums - WikiProject Irish Ogham Stones",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

@@ -226,3 +226,12 @@ main .wrap > h1:first-child, .breadcrumb + h1 { margin-top: 0.4rem; }
 .footer-small { font-size: 0.82rem; opacity: 0.85; padding-bottom: 1.5rem; }
 .site-footer .wrap { padding-bottom: 0.5rem; }
 .lang-switch { border: 1px solid rgba(255,255,255,0.6); border-radius: var(--radius); padding: 0 0.4rem; }
+
+/* Citation (S6) */
+.cite-style { margin: 0 0 0.5rem; display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.cite-style select { font: inherit; padding: 0.25rem 0.4rem; border: 1px solid var(--rule);
+  border-radius: var(--radius); background: var(--bg); color: var(--text); }
+.cite-text { flex: 1; overflow-wrap: anywhere; }
+.cite-text .csl-entry { margin: 0; }
+.cite-text .csl-left-margin { display: inline; margin-right: 0.4em; }
+.cite-text .csl-right-inline { display: inline; }

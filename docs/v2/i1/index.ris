@@ -1,0 +1,46 @@
+TY  - JOUR
+ID  - sp_vol2_iss1_e1
+TI  - The SPARQL Unicorn: An introduction
+AU  - Thiery, Florian
+AU  - Schmidt, Sophie Charlotte
+AU  - Homburg, Timo
+AU  - Trognitz, Martina
+PY  - 2020
+DA  - 2020/04/06
+JO  - Squirrel Papers
+VL  - 2
+IS  - 1
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.3742185
+UR  - https://doi.org/10.5281/zenodo.3742185
+LA  - en
+KW  - Linked Data
+KW  - RDF
+KW  - SPARQL
+KW  - SPARQL Unicorn
+N1  - Journal article
+ER  -
+
+TY  - JOUR
+ID  - sp_vol2_iss1_e2
+TI  - QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins
+AU  - Thiery, Florian
+AU  - Homburg, Timo
+PY  - 2020
+DA  - 2020/03/20
+JO  - Squirrel Papers
+VL  - 2
+IS  - 1
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.3719127
+UR  - https://doi.org/10.5281/zenodo.3719127
+LA  - de
+KW  - FOSSGIS
+KW  - Linked Data
+KW  - QGIS
+KW  - SPARQL Unicorn
+KW  - Wikidata
+N1  - Book section
+ER  -

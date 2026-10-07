@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7143094",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v4-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          4
+        ]
+      ]
+    },
+    "keyword": "Ceramics, Linked Open Data, Samian Ware, Vagueness",
+    "page": "#2",
+    "title": "CeraTyOnt @ AMT - Version v1.0",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

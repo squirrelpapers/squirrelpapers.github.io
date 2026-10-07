@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Homburg, T., &amp; Thiery, F. (2023). SPARQL Unicorn Ontology Documentation. <em>Squirrel Papers</em>, 5(2), #5. <a href="https://doi.org/10.5281/zenodo.8190763">https://doi.org/10.5281/zenodo.8190763</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Homburg, T., &amp; Thiery, F. (2023). SPARQL Unicorn Ontology Documentation. <em>Squirrel Papers</em>, 5(2), #5. <a href="https://doi.org/10.5281/zenodo.8190763">https://doi.org/10.5281/zenodo.8190763</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v5/i2/e5/index.bib" download>BibTeX</a> · <a href="../../../v5/i2/e5/index.ris" download>RIS</a> · <a href="../../../v5/i2/e5/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -133,5 +135,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.8190763", "ISSN": "2750-560X", "author": [{"family": "Homburg", "given": "Timo"}, {"family": "Thiery", "given": "Florian"}], "container-title": "Squirrel Papers", "genre": "Software", "id": "v5-i2-e5", "issue": "2", "issued": {"date-parts": [[2023]]}, "page": "#5", "title": "SPARQL Unicorn Ontology Documentation", "type": "article-journal", "volume": "5"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

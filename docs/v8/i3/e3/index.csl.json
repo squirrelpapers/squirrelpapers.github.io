@@ -1,0 +1,45 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18803485",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "thor Straten",
+        "given": "Mattis"
+      },
+      {
+        "family": "Strohm",
+        "given": "Steffen"
+      },
+      {
+        "family": "Renz",
+        "given": "Matthias"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE26",
+    "event-place": "University of Stuttgart, Stuttgart",
+    "event-title": "deRSE26",
+    "genre": "Poster",
+    "id": "v8-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§3",
+    "title": "Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

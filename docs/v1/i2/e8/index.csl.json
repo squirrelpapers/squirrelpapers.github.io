@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.3252392",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "32. International Geodetic Students Meeting",
+    "event-place": "Warsaw, Poland",
+    "event-title": "32. International Geodetic Students Meeting",
+    "genre": "Presentation",
+    "id": "v1-i2-e8",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          25
+        ]
+      ]
+    },
+    "keyword": "Arctic Circle, Finland, North Cape, Norway, Scandinavia, Sweden",
+    "language": "en",
+    "page": "#8",
+    "title": "topi.link - A graph-based topology for vague geographical relations",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

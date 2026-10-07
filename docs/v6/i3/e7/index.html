@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., &amp; Homburg, T. (2024). The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs. <em>Squirrel Papers</em>, 6(3), #7. <a href="https://doi.org/10.5281/zenodo.10841046">https://doi.org/10.5281/zenodo.10841046</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., &amp; Homburg, T. (2024). The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs. <em>Squirrel Papers</em>, 6(3), #7. <a href="https://doi.org/10.5281/zenodo.10841046">https://doi.org/10.5281/zenodo.10841046</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v6/i3/e7/index.bib" download>BibTeX</a> · <a href="../../../v6/i3/e7/index.ris" download>RIS</a> · <a href="../../../v6/i3/e7/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -139,5 +141,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.10841046", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Homburg", "given": "Timo"}], "container-title": "Squirrel Papers", "event": "FOSSGIS 2024", "event-place": "Technische Universität Hamburg (TUHH)", "event-title": "FOSSGIS 2024", "genre": "Presentation", "id": "v6-i3-e7", "issue": "3", "issued": {"date-parts": [[2024, 3, 20]]}, "language": "de", "page": "#7", "title": "The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs", "type": "article-journal", "volume": "6"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

@@ -1,0 +1,46 @@
+[
+  {
+    "DOI": "10.5281/zenodo.1410516",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Seidensticker",
+        "given": "Dirk"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Schmid",
+        "given": "Clemens"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+    "event-place": "Universidad de Barcelona, Spain",
+    "event-title": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+    "genre": "Presentation",
+    "id": "v1-i7-e1",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          5
+        ]
+      ]
+    },
+    "keyword": "Chronology, Linked Open Data, Rainforest, Roman periodisation",
+    "language": "en",
+    "page": "#1",
+    "title": "RDF based modeling of relative and absolute chronological data: Examples from the central african rainforest and roman periodisation",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

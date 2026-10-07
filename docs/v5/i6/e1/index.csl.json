@@ -1,0 +1,27 @@
+[
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v5/i6/e1",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v5-i6-e1",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "page": "#1",
+    "title": "archaeolink-lod / ars",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

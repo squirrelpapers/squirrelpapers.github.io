@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.7361811",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Karmacharya",
+        "given": "Ashish"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Preprint",
+    "id": "v4-i4-e1",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#1",
+    "title": "Semantic modelling and publishing African Red Slip Ware as Linked Data",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

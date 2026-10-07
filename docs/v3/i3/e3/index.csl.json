@@ -1,0 +1,31 @@
+[
+  {
+    "DOI": "10.5281/zenodo.4765603",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          28
+        ]
+      ]
+    },
+    "keyword": "Fellow-Programm Freies Wissen, Linked Data, Ogham, Semantic Web, Wikidata",
+    "language": "en",
+    "page": "#3",
+    "title": "Ogham Data",
+    "type": "article-journal",
+    "volume": "3"
+  }
+]

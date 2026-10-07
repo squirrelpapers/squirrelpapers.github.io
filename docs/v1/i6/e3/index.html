@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>How to cite</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., Kunz, A., &amp; Dufner, M. (2017). labeling system. <em>Squirrel Papers</em>, 1(6), #3. <a href="https://doi.org/10.5281/zenodo.921997">https://doi.org/10.5281/zenodo.921997</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Citation style</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., Kunz, A., &amp; Dufner, M. (2017). labeling system. <em>Squirrel Papers</em>, 1(6), #3. <a href="https://doi.org/10.5281/zenodo.921997">https://doi.org/10.5281/zenodo.921997</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Copied">Copy</button></div>
-        
+        <p class="downloads"><a href="../../../v1/i6/e3/index.bib" download>BibTeX</a> · <a href="../../../v1/i6/e3/index.ris" download>RIS</a> · <a href="../../../v1/i6/e3/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -137,5 +139,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.921997", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Kunz", "given": "Axel"}, {"family": "Dufner", "given": "Matthias"}], "container-title": "Squirrel Papers", "event": "Get Together DH-RMU", "event-place": "Mainz, Germany", "event-title": "Get Together DH-RMU", "genre": "Poster", "id": "v1-i6-e3", "issue": "6", "issued": {"date-parts": [[2017, 9, 21]]}, "keyword": "linked data, metadaten, publizierenImNetz, usability, webapp", "language": "de", "page": "#3", "title": "labeling system", "type": "article-journal", "volume": "1"}</script>
+<script src="../../../assets/js/citeproc.js" defer></script>
+<script src="../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

@@ -1,0 +1,35 @@
+[
+  {
+    "DOI": "10.5281/zenodo.4305708",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Gottwald",
+        "given": "Dennis"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v2-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "#1",
+    "title": "Linked Open Samian Ware",
+    "type": "article-journal",
+    "volume": "2"
+  }
+]

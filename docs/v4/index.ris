@@ -1,0 +1,439 @@
+TY  - JOUR
+ID  - sp_vol4_iss1_e1
+TI  - African Red Slip Ware - Additional Iconography Catalogue
+AU  - Thiery, Florian
+PY  - 2022
+DA  - 2022
+JO  - Squirrel Papers
+VL  - 4
+IS  - 1
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.6386603
+UR  - https://doi.org/10.5281/zenodo.6386603
+N1  - Journal article
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss1_e5
+TI  - Software Review for the Software PointSamplingTool (Archäologische Informationen 44, Early View, published online 18 Nov 2022)
+AU  - Thiery, Florian
+AU  - Homburg, Timo
+AU  - Klammt, Anne
+AU  - Schmidt, Sophie Charlotte
+PY  - 2022
+DA  - 2022/11/18
+JO  - Squirrel Papers
+VL  - 4
+IS  - 1
+SP  - #5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7337817
+UR  - https://doi.org/10.5281/zenodo.7337817
+KW  - Archäoinformatik
+KW  - DGUF
+KW  - QGIS
+KW  - Softwarerezension
+N1  - Preprint
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss1_e6
+TI  - Fellow-Programm Freies Wissen 2016 - 2021
+AU  - Behrens, Sarah
+AU  - Schwarzkopf, Christopher
+AU  - Gödeke, Anna-Katharina
+AU  - Scholl, Dominik
+AU  - Schneider, Nico
+PY  - 2022
+DA  - 2022/02/01
+JO  - Squirrel Papers
+VL  - 4
+IS  - 1
+SP  - #6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5788378
+UR  - https://doi.org/10.5281/zenodo.5788378
+LA  - de
+KW  - Open Research
+KW  - Open Scholarship
+KW  - Open Science
+N1  - Report
+ER  -
+
+TY  - COMP
+ID  - sp_vol4_iss2_e1
+TI  - Ceramic Typologies Ontology (CeraTyOnt) - Version v0.2
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2022
+DA  - 2022/10/04
+JO  - Squirrel Papers
+VL  - 4
+IS  - 2
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7143098
+UR  - https://doi.org/10.5281/zenodo.7143098
+KW  - Ceramics
+KW  - Linked Open Data
+KW  - Samian Ware
+N1  - Software
+ER  -
+
+TY  - COMP
+ID  - sp_vol4_iss2_e2
+TI  - CeraTyOnt @ AMT - Version v1.0
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2022
+DA  - 2022/10/04
+JO  - Squirrel Papers
+VL  - 4
+IS  - 2
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7143094
+UR  - https://doi.org/10.5281/zenodo.7143094
+KW  - Ceramics
+KW  - Linked Open Data
+KW  - Samian Ware
+KW  - Vagueness
+N1  - Software
+ER  -
+
+TY  - DATA
+ID  - sp_vol4_iss2_e3
+TI  - Linked Pipe: Linked Open Samian Ware
+AU  - Thiery, Florian
+AU  - Homburg, Timo
+AU  - Trognitz, Martina
+PY  - 2022
+DA  - 2022
+JO  - Squirrel Papers
+VL  - 4
+IS  - 2
+SP  - #3
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5779053
+UR  - https://doi.org/10.5281/zenodo.5779053
+N1  - Dataset
+ER  -
+
+TY  - DATA
+ID  - sp_vol4_iss2_e4
+TI  - NAVIS.one Maritime Thesaurus
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2022
+DA  - 2022/11/18
+JO  - Squirrel Papers
+VL  - 4
+IS  - 2
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7353771
+UR  - https://doi.org/10.5281/zenodo.7353771
+KW  - Linked Open Data
+KW  - Ships
+N1  - Dataset
+ER  -
+
+TY  - COMP
+ID  - sp_vol4_iss2_e5
+TI  - alligator - Allen Transformer
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2022
+DA  - 2022
+JO  - Squirrel Papers
+VL  - 4
+IS  - 2
+SP  - #5
+SN  - 2750-560X
+DO  - 10.5281/zenodo.2540709
+UR  - https://doi.org/10.5281/zenodo.2540709
+KW  - Allen Interval Algebra
+KW  - Linked Open Data
+KW  - Relative Chronology
+N1  - Software
+ER  -
+
+TY  - DATA
+ID  - sp_vol4_iss2_e6
+TI  - Linked Archaeological Data Ontology
+AU  - Thiery, Florian
+PY  - 2022
+DA  - 2022
+JO  - Squirrel Papers
+VL  - 4
+IS  - 2
+SP  - #6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7377740
+UR  - https://doi.org/10.5281/zenodo.7377740
+LA  - en
+KW  - Archaeology
+KW  - Linked Open Data
+N1  - Ontology
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e1
+TI  - How to navigate the coding archaeology world: An introduction to scientific co-creation using Git and Github
+AU  - Schmid, Clemens
+AU  - Schmidt, Sophie Charlotte
+AU  - Thiery, Florian
+PY  - 2022
+DA  - 2022
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #1
+SN  - 2750-560X
+UR  - https://w3id.org/squirrelpapers/v4/i3/e1
+LA  - en
+N1  - Other
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e4
+TI  - ARS3D: Close to the Original-Erfassung archäologischer Objekte und ihre webbasierte semantisch modellierte Bereitstellung zur fachwissenschaftlichen Analyse
+AU  - Thiery, Florian
+AU  - Raddatz, Laura
+AU  - Boochs, Frank
+PY  - 2022
+DA  - 2022/02/02
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #4
+SN  - 2750-560X
+DO  - 10.5281/zenodo.5942833
+UR  - https://doi.org/10.5281/zenodo.5942833
+LA  - de
+KW  - 3D
+KW  - African Red Slip Ware
+KW  - Kulturerbe
+KW  - Linked Open Data
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e6
+TI  - How to handle vagueness and uncertainty in graph-based LOD knowledge modelling? Dealing with archaeological numismatic and ceramological real world data.
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+AU  - Tolle, Karsten
+AU  - Wigg-Wolf, David G.
+PY  - 2022
+DA  - 2022/02/04
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #6
+SN  - 2750-560X
+DO  - 10.5281/zenodo.6043048
+UR  - https://doi.org/10.5281/zenodo.6043048
+LA  - en
+KW  - Graph
+KW  - Linked Data
+KW  - Uncertainty
+KW  - Vagueness
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e7
+TI  - Challenges & Opportunities from real world archaeological datasets in the community-driven LOD ecosystem
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+AU  - Wigg-Wolf, David G.
+PY  - 2022
+DA  - 2022/08/09
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #7
+SN  - 2750-560X
+DO  - 10.5281/zenodo.6976136
+UR  - https://doi.org/10.5281/zenodo.6976136
+LA  - en
+KW  - Archaeology
+KW  - Digital Archaeology
+KW  - Linked Open Data
+KW  - Nomisma
+KW  - Numismatics
+KW  - Samian Ware
+KW  - Terra Sigillata
+KW  - Wikidata
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e8
+TI  - Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman Limes and Hadrian's Wall relative time intervals based on Samian (Terra Sigillata)
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+AU  - Schmidt, Sophie Charlotte
+PY  - 2022
+DA  - 2022/08/09
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #8
+SN  - 2750-560X
+DO  - 10.5281/zenodo.6976175
+UR  - https://doi.org/10.5281/zenodo.6976175
+LA  - en
+KW  - Allen Algebra
+KW  - Archaeology
+KW  - Linked Open Data
+KW  - Relative Chronology
+KW  - Samian Ware
+KW  - Terra Sigillata
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e9
+TI  - Linked Pipes: A Little Minion for reproducible research
+AU  - Thiery, Florian
+AU  - Homburg, Timo
+PY  - 2022
+DA  - 2022/08/10
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #9
+SN  - 2750-560X
+DO  - 10.5281/zenodo.6976311
+UR  - https://doi.org/10.5281/zenodo.6976311
+LA  - en
+KW  - Linked Open Data
+KW  - Linked Pipes
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e11
+TI  - Hic sunt dracones - Real-world data-driven knowledge modelling resulting in Semantics and FAIR-LOD based tools and workflows
+AU  - Thiery, Florian
+AU  - Danthine, Brigit
+AU  - High-Steskal, Nicole
+AU  - Vitale, Valeria
+AU  - Mees, Allard W.
+AU  - Tolle, Karsten
+AU  - Wigg-Wolf, David G.
+PY  - 2022
+DA  - 2022/08/09
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #11
+SN  - 2750-560X
+DO  - 10.5281/zenodo.6976193
+UR  - https://doi.org/10.5281/zenodo.6976193
+LA  - en
+KW  - Digital Archaeology
+KW  - Linked Open Data
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e14
+TI  - Challenges in research community building: integrating Terra Sigillata (Samian) Research into the Wikidata community
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+AU  - Kiesling, J.B.
+PY  - 2022
+DA  - 2022/09/23
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #14
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7105005
+UR  - https://doi.org/10.5281/zenodo.7105005
+LA  - en
+KW  - Archaeology
+KW  - Wikidata
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e15
+TI  - NAVIS.one: Challenges and Opportunities for RSE and RDM by designing a common web application from a 1990s online database
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2022
+DA  - 2022/10/06
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #15
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7142170
+UR  - https://doi.org/10.5281/zenodo.7142170
+LA  - en
+KW  - Linked Open Data
+KW  - Ships
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss3_e16
+TI  - Typologie-Handling zur Dokumentation mit Hilfe künstlicher Intelligenz
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2022
+DA  - 2022/10/10
+JO  - Squirrel Papers
+VL  - 4
+IS  - 3
+SP  - #16
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7179955
+UR  - https://doi.org/10.5281/zenodo.7179955
+LA  - de
+KW  - Artificial Intelligence
+KW  - Semantic Reasoning
+N1  - Presentation
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss4_e1
+TI  - Semantic modelling and publishing African Red Slip Ware as Linked Data
+AU  - Thiery, Florian
+AU  - Karmacharya, Ashish
+AU  - Rokohl, Louise
+PY  - 2022
+DA  - 2022/11/25
+JO  - Squirrel Papers
+VL  - 4
+IS  - 4
+SP  - #1
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7361811
+UR  - https://doi.org/10.5281/zenodo.7361811
+LA  - en
+N1  - Preprint
+ER  -
+
+TY  - JOUR
+ID  - sp_vol4_iss4_e2
+TI  - Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD
+AU  - Thiery, Florian
+AU  - Mees, Allard W.
+PY  - 2022
+DA  - 2022/11/25
+JO  - Squirrel Papers
+VL  - 4
+IS  - 4
+SP  - #2
+SN  - 2750-560X
+DO  - 10.5281/zenodo.7361759
+UR  - https://doi.org/10.5281/zenodo.7361759
+LA  - en
+N1  - Preprint
+ER  -

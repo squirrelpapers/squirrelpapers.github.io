@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.16353592",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "event-title": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "genre": "Presentation",
+    "id": "v7-i1-e6",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          23
+        ]
+      ]
+    },
+    "keyword": "Linked Data, LOD, NFDI, NFDI4Objects, TEI/EpiDoc, Text+",
+    "language": "en",
+    "page": "λ6",
+    "title": "LOD Objects in Action III: TEI/EpiDoc Ogham Data - How to integrate TEI data into the NFDI Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

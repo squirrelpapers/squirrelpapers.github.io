@@ -1,0 +1,38 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10992401",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "thor Straten",
+        "given": "Mattis"
+      },
+      {
+        "family": "Alpino",
+        "given": "Nadine"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Conference session proposal",
+    "id": "v6-i4-e5",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          15
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#5",
+    "title": "Research Data Management in Cultural Heritage goes Digital – New Technologies along the object biography\"",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

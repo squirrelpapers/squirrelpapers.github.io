@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10805071",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE2024",
+    "event-place": "Julius-Maximilians-Universität Würzburg",
+    "event-title": "deRSE2024",
+    "genre": "Poster",
+    "id": "v6-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#4",
+    "title": "Research Software Engineering within the NFDI (INFRA-WG-RSE)",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

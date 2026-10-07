@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.3567928",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Linked Pasts V",
+    "event-place": "Bordeaux, France",
+    "event-title": "Linked Pasts V",
+    "genre": "Poster",
+    "id": "v1-i2-e13",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          11
+        ]
+      ]
+    },
+    "keyword": "Linked Data, Linked Pipes",
+    "language": "en",
+    "page": "#13",
+    "title": "Linked Pipes! Let us feed the hungry squirrels!",
+    "type": "article-journal",
+    "volume": "1"
+  }
+]

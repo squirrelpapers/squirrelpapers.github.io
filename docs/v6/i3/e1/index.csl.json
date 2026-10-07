@@ -1,0 +1,42 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10580308",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rossenova",
+        "given": "Lozana"
+      },
+      {
+        "family": "Schubert",
+        "given": "Zoe"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Oldenburger 3D-Tage",
+    "event-place": "Jade-Hoschschule, Oldenburg",
+    "event-title": "Oldenburger 3D-Tage",
+    "genre": "Presentation",
+    "id": "v6-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          31
+        ]
+      ]
+    },
+    "keyword": "3D, NFDI, NFDI4Culture, NFDI4Objects, Research Data Management, Semantic Modelling, Semantics, Wikibase",
+    "language": "de",
+    "page": "#1",
+    "title": "3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

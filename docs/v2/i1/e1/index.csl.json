@@ -1,0 +1,43 @@
+[
+  {
+    "DOI": "10.5281/zenodo.3742185",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v2-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          6
+        ]
+      ]
+    },
+    "keyword": "Linked Data, RDF, SPARQL, SPARQL Unicorn",
+    "language": "en",
+    "page": "#1",
+    "title": "The SPARQL Unicorn: An introduction",
+    "type": "article-journal",
+    "volume": "2"
+  }
+]

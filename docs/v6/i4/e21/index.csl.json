@@ -1,0 +1,37 @@
+[
+  {
+    "DOI": "10.5281/zenodo.14017594",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+    "event-place": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
+    "event-title": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+    "genre": "Poster",
+    "id": "v6-i4-e21",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          20
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#21",
+    "title": "NFDI4Objects and the Base4NFDI Services: An Overview",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]

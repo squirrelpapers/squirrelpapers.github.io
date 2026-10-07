@@ -39,9 +39,11 @@
     <div class="entry-main">
       <section class="cite">
         <h2>Zitiervorschlag</h2>
-        <div class="cite-box"><p id="cite-text">Thiery, F., Mees, A. W., &amp; Gottwald, D. (2020). Linked Open Samian Ware. <em>Squirrel Papers</em>, 2(2), #1. <a href="https://doi.org/10.5281/zenodo.4305708">https://doi.org/10.5281/zenodo.4305708</a></p>
+        <p class="cite-style" id="cite-style-field" hidden><label for="cite-style">Zitierstil</label>
+          <select id="cite-style"></select></p>
+        <div class="cite-box"><div id="cite-text" class="cite-text">Thiery, F., Mees, A. W., &amp; Gottwald, D. (2020). Linked Open Samian Ware. <em>Squirrel Papers</em>, 2(2), #1. <a href="https://doi.org/10.5281/zenodo.4305708">https://doi.org/10.5281/zenodo.4305708</a></div>
           <button type="button" class="button button-small" data-copy="cite-text" data-copied="Kopiert">Kopieren</button></div>
-        
+        <p class="downloads"><a href="../../../../v2/i2/e1/index.bib" download>BibTeX</a> · <a href="../../../../v2/i2/e1/index.ris" download>RIS</a> · <a href="../../../../v2/i2/e1/index.csl.json" download>CSL-JSON</a></p>
       </section>
 
       
@@ -124,5 +126,11 @@ document.addEventListener("click", function (event) {
   }
 });
 </script>
+
+<script type="application/json" id="csl-item">{"DOI": "10.5281/zenodo.4305708", "ISSN": "2750-560X", "author": [{"family": "Thiery", "given": "Florian"}, {"family": "Mees", "given": "Allard W."}, {"family": "Gottwald", "given": "Dennis"}], "container-title": "Squirrel Papers", "genre": "Software", "id": "v2-i2-e1", "issue": "2", "issued": {"date-parts": [[2020]]}, "page": "#1", "title": "Linked Open Samian Ware", "type": "article-journal", "volume": "2"}</script>
+<script src="../../../../assets/js/citeproc.js" defer></script>
+<script src="../../../../assets/js/sqp-csl-data.js" defer></script>
+<script src="../../../../assets/js/sqp-cite.js" defer></script>
+
 </body>
 </html>

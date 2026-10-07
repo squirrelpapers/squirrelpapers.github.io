@@ -1,0 +1,7526 @@
+[
+  {
+    "DOI": "10.5281/zenodo.3345715",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      },
+      {
+        "family": "Gruber",
+        "given": "Ethan"
+      },
+      {
+        "family": "Wigg-Wolf",
+        "given": "David G."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v1-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          22
+        ]
+      ]
+    },
+    "keyword": "Archaeology, CAA, Data Dragon, FAIR Data, Five Star Data, Linked Data, Linked Open Data, Semantic Web",
+    "language": "en",
+    "page": "#1",
+    "title": "Hic sunt dracones! The modern unknown data dragons",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2629595",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v1-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          5
+        ]
+      ]
+    },
+    "keyword": "Archaeology 4.0, Articial Intelligence, Linked Data, Semantic Reasoning",
+    "language": "en",
+    "page": "#2",
+    "title": "Archaeology 4.0: Archaeology in the Third Era of Computing",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2643469",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v1-i1-e3",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          17
+        ]
+      ]
+    },
+    "keyword": "FAIR Data, Five Star Data, Linked Data, Linked Open Data, Semantic Web",
+    "language": "en",
+    "page": "#3",
+    "title": "Sphere 7 Data: LOUD and FAIR Data for the Research Community",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2635490",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v1-i1-e4",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          10
+        ]
+      ]
+    },
+    "keyword": "Conceptual Modeling, Linked Data, Semantic Reasoning, Vagueness",
+    "language": "en",
+    "page": "#4",
+    "title": "topi.link: the northern and southern ontology",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3786814",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v1-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "keyword": "GeoSPARQL, Linked Open Data, Wikidata",
+    "page": "#5",
+    "title": "SPARQLing Unicorn QGIS Plugin",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3403029",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Intergeo Conference",
+    "event-place": "Stuttgart, Germany",
+    "event-title": "Intergeo Conference",
+    "genre": "Presentation",
+    "id": "v1-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          17
+        ]
+      ]
+    },
+    "keyword": "Arbeiten 4.0, Geodäsie 2030, Linked Data, Linked Open Geodata",
+    "language": "de",
+    "page": "#1",
+    "title": "Linked Data Cloud: Bindeglied zwischen Geodäsie und Gesellschaft",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2540228",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Java User Group Mainz Lightning Talks",
+    "event-place": "Mainz, Germany",
+    "event-title": "Java User Group Mainz Lightning Talks",
+    "genre": "Presentation",
+    "id": "v1-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          16
+        ]
+      ]
+    },
+    "keyword": "JAVA, Linked Data, Linked Open Data",
+    "language": "de",
+    "page": "#2",
+    "title": "Java und Linked Data im RGZM: Herausforderungen in einem archäologischen Museum",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2540373",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Graphentechnologien 2019",
+    "event-place": "Mainz, Germany",
+    "event-title": "Graphentechnologien 2019",
+    "genre": "Presentation",
+    "id": "v1-i2-e3",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          18
+        ]
+      ]
+    },
+    "keyword": "Allen's interval algebra, Chronologie, Linked Open Data, Südgallische Terra Sigillata",
+    "language": "de",
+    "page": "#3",
+    "title": "Dating Mechanism: Eine Linked Data Strategie zur interoperablen und nachvollziehbaren Modellierung relativer Chronologien am Beispiel südgallischer Terra Sigillata in Limes-Abschnitten",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2648210",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Karmacharya",
+        "given": "Ashish"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "event-place": "Kraków, Poland",
+    "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "genre": "Presentation",
+    "id": "v1-i2-e4",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          24
+        ]
+      ]
+    },
+    "keyword": "3D models, African Red Slip Ware, CIDOC CRM, data quality, provenance",
+    "language": "en",
+    "page": "#4",
+    "title": "ARS3D - Documenting facts and interpretations of African Red Slip Ware",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2648202",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "event-place": "Kraków, Poland",
+    "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "genre": "Presentation",
+    "id": "v1-i2-e5",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          24
+        ]
+      ]
+    },
+    "keyword": "Allen's interval algebra, Chronology, Linked Open Data, reproducible research, Samian (Terra Sigillata)",
+    "language": "en",
+    "page": "#5",
+    "title": "Taming Time Tools: Alligator and Academic Meta Tool",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2620929",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Wintervorträge 2019",
+    "event-place": "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany",
+    "event-title": "Wintervorträge 2019",
+    "genre": "Presentation",
+    "id": "v1-i2-e6",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          2
+        ]
+      ]
+    },
+    "keyword": "Archäologie 4.0, Data Mining, Digitale Transformation, Industrie 4.0, Linked Data, Semantic Web, Web 3.0",
+    "language": "de",
+    "page": "#6",
+    "title": "Das Internet als Daten-Netzwerk: Die Zukunft der Archäologie?",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3237306",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE19 - Konferenz für ForschungssoftwareentwicklerInnen in Deutschland (deRSE19)",
+    "event-place": "Potsdam, Germany",
+    "event-title": "deRSE19 - Konferenz für ForschungssoftwareentwicklerInnen in Deutschland (deRSE19)",
+    "genre": "Poster",
+    "id": "v1-i2-e7",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          5
+        ]
+      ]
+    },
+    "keyword": "Linked Data, RDF, Vagheit",
+    "language": "de",
+    "page": "#7",
+    "title": "Academic Meta Tool – Ein RDF basiertes Web-Tool zur Modellierung des Zweifels in den Digital Humanities",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3252392",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "32. International Geodetic Students Meeting",
+    "event-place": "Warsaw, Poland",
+    "event-title": "32. International Geodetic Students Meeting",
+    "genre": "Presentation",
+    "id": "v1-i2-e8",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          25
+        ]
+      ]
+    },
+    "keyword": "Arctic Circle, Finland, North Cape, Norway, Scandinavia, Sweden",
+    "language": "en",
+    "page": "#8",
+    "title": "topi.link - A graph-based topology for vague geographical relations",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3403057",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "9. Workshop der AG CAA",
+    "event-place": "Wilhelmshaven, Germany",
+    "event-title": "9. Workshop der AG CAA",
+    "genre": "Poster",
+    "id": "v1-i2-e9",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          23
+        ]
+      ]
+    },
+    "keyword": "Archaeology 4.0, Linked Data",
+    "language": "de",
+    "page": "#9",
+    "title": "Hic sunt dracones! Der digitale Wandel zur Archäologie 4.0 am Beispiel römischer Münzen",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3471404",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2019)",
+    "event-place": "Bournemouth, England",
+    "event-title": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2019)",
+    "genre": "Presentation",
+    "id": "v1-i2-e10",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          4
+        ]
+      ]
+    },
+    "keyword": "Linked Data, Ogham, R, Wikidata",
+    "language": "en",
+    "page": "#10",
+    "title": "Wikidata - A SPARQL(ing) Unicorn?",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3688792",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Linked Pasts V",
+    "event-place": "Bordeaux, Germany",
+    "event-title": "Linked Pasts V",
+    "genre": "Presentation",
+    "id": "v1-i2-e11",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          11
+        ]
+      ]
+    },
+    "keyword": "Linked Data, Linked Pipes",
+    "language": "en",
+    "page": "#11",
+    "title": "#Linked Pipes",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3567911",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Linked Pasts V",
+    "event-place": "Bordeaux, France",
+    "event-title": "Linked Pasts V",
+    "genre": "Poster",
+    "id": "v1-i2-e12",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          11
+        ]
+      ]
+    },
+    "keyword": "Allen, Chronology, Linked Data, Linked Pipe",
+    "language": "en",
+    "page": "#12",
+    "title": "Alligator + AMT: A Linked Pipe for taming relative chronology",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3567928",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Linked Pasts V",
+    "event-place": "Bordeaux, France",
+    "event-title": "Linked Pasts V",
+    "genre": "Poster",
+    "id": "v1-i2-e13",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          11
+        ]
+      ]
+    },
+    "keyword": "Linked Data, Linked Pipes",
+    "language": "en",
+    "page": "#13",
+    "title": "Linked Pipes! Let us feed the hungry squirrels!",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.775019",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "event-place": "Paris, France",
+    "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "genre": "Poster",
+    "id": "v1-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          4,
+          24
+        ]
+      ]
+    },
+    "keyword": "archaeology, linked data, linked open data, samian ware, semantic modelling",
+    "language": "en",
+    "page": "#1",
+    "title": "Linking potter, pots and places: a LOD approach to samian ware",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.292971",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "5. Workshop der AG CAA",
+    "event-place": "Tübingen, Germany",
+    "event-title": "5. Workshop der AG CAA",
+    "genre": "Presentation",
+    "id": "v1-i3-e2",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          2,
+          15
+        ]
+      ]
+    },
+    "keyword": "archaeology, linked data, linked open data, roman, samian ware",
+    "language": "de",
+    "page": "#2",
+    "title": "Linked Samian Ware: Potentiale von Linked Data in der Archäologie",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.292974",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Bruhn",
+        "given": "Kai-Christian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Forum DH Mainz",
+    "event-place": "Mainz, Germany",
+    "event-title": "Forum DH Mainz",
+    "genre": "Poster",
+    "id": "v1-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          7,
+          30
+        ]
+      ]
+    },
+    "keyword": "linked data, linked open data, SKOS",
+    "language": "de",
+    "page": "#3",
+    "title": "Das Labeling System – Lösen der Mehrdeutigkeiten von Räumen und deren Funktion",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2540522",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Piotrowski",
+        "given": "Michael"
+      },
+      {
+        "family": "Colavizza",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Bruhn",
+        "given": "Kai-Christian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "DH-CASE II",
+    "event-place": "Fort Collins, USA",
+    "event-title": "DH-CASE II",
+    "genre": "Presentation",
+    "id": "v1-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          9,
+          10
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#4",
+    "title": "The Labeling System - A New Approach to Overcome the Vocabulary Bottleneck",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2540530",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Piotrowski",
+        "given": "Michael"
+      },
+      {
+        "family": "Bruhn",
+        "given": "Kai-Christian"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Jahrestagung Digital Humanities im deutschsprachigen Raum",
+    "event-place": "Graz, Austria",
+    "event-title": "Jahrestagung Digital Humanities im deutschsprachigen Raum",
+    "genre": "Poster",
+    "id": "v1-i4-e1",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#1",
+    "title": "Das Labeling System – ein freier Baukasten für kontrollierte Vokabulare",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2540477",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Engel",
+        "given": "Thomas"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "event-place": "Siena, Italy",
+    "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "genre": "Presentation",
+    "id": "v1-i4-e2",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#2",
+    "title": "The Labeling System: A Bottom-up Approach for Enriched Vocabularies in the Humanities",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.292968",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "event-place": "Siena, Italy",
+    "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "genre": "Presentation",
+    "id": "v1-i4-e3",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          4,
+          1
+        ]
+      ]
+    },
+    "keyword": "archeaeology, linked data, linked open data, pottery, roman, samian ware",
+    "language": "en",
+    "page": "#3",
+    "title": "Linked Samian Ware: challenges of a LOD approach to samian ware",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.292967",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Engel",
+        "given": "Thomas"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "7. Workshop der AG CAA",
+    "event-place": "Hamburg, Germany",
+    "event-title": "7. Workshop der AG CAA",
+    "genre": "Presentation",
+    "id": "v1-i5-e1",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          5
+        ]
+      ]
+    },
+    "keyword": "archaeology, arches, CIDOC-CRM, graph, ontology, semantic web",
+    "language": "de",
+    "page": "#1",
+    "title": "E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten with dem Arches Framework",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2540522",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Schmidle",
+        "given": "Wolfgang"
+      },
+      {
+        "family": "Cuy",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Kallas",
+        "given": "Nathalie"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "event-place": "Oslo, Norway",
+    "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "genre": "Presentation",
+    "id": "v1-i5-e2",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          30
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#2",
+    "title": "Linking periods: Modeling and utilizing spatio-temporal concepts in the chronOntology project",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.292962",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "XXIX. International Geodetic Students Meeting",
+    "event-place": "Munich, Germany",
+    "event-title": "XXIX. International Geodetic Students Meeting",
+    "genre": "Presentation",
+    "id": "v1-i5-e3",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          4
+        ]
+      ]
+    },
+    "keyword": "geodesy, humanities, linked data, semantic web",
+    "language": "en",
+    "page": "#3",
+    "title": "Linked Open Data in Space and Time - A geodetic insight into humanities research using LOD",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.292957",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Internationale Tagung der Österreichischen Gesellschaft für Mittelalterarchäologie",
+    "event-place": "Graz, Austria",
+    "event-title": "Internationale Tagung der Österreichischen Gesellschaft für Mittelalterarchäologie",
+    "genre": "Presentation",
+    "id": "v1-i5-e4",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          20
+        ]
+      ]
+    },
+    "keyword": "archaeology, chronology, linked data, linked open data",
+    "language": "de",
+    "page": "#4",
+    "title": "Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.292554",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "8. Workshop der AG CAA",
+    "event-place": "Heidelberg, Germany",
+    "event-title": "8. Workshop der AG CAA",
+    "genre": "Presentation",
+    "id": "v1-i6-e1",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          11
+        ]
+      ]
+    },
+    "keyword": "archaeology, linked data, linked open data, semantic web, skos",
+    "language": "de",
+    "page": "#1",
+    "title": "Das Labeling System: Erstellung kontrollierter Linked Open Data Vokabulare als Metadaten-Hub für archäologische Fachdatenbanken",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.817496",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Taani",
+        "given": "Rania"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "30. International Geodetic Students Meeting",
+    "event-place": "Zagreb, Croatia",
+    "event-title": "30. International Geodetic Students Meeting",
+    "genre": "Presentation",
+    "id": "v1-i6-e2",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          27
+        ]
+      ]
+    },
+    "keyword": "atlantis, gis",
+    "language": "en",
+    "page": "#2",
+    "title": "Avalanches on Atlantis - Real or Fake? The \"true\" story!",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.921997",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Kunz",
+        "given": "Axel"
+      },
+      {
+        "family": "Dufner",
+        "given": "Matthias"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Get Together DH-RMU",
+    "event-place": "Mainz, Germany",
+    "event-title": "Get Together DH-RMU",
+    "genre": "Poster",
+    "id": "v1-i6-e3",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          21
+        ]
+      ]
+    },
+    "keyword": "linked data, metadaten, publizierenImNetz, usability, webapp",
+    "language": "de",
+    "page": "#3",
+    "title": "labeling system",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.1410516",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Seidensticker",
+        "given": "Dirk"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Schmid",
+        "given": "Clemens"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+    "event-place": "Universidad de Barcelona, Spain",
+    "event-title": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+    "genre": "Presentation",
+    "id": "v1-i7-e1",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          5
+        ]
+      ]
+    },
+    "keyword": "Chronology, Linked Open Data, Rainforest, Roman periodisation",
+    "language": "en",
+    "page": "#1",
+    "title": "RDF based modeling of relative and absolute chronological data: Examples from the central african rainforest and roman periodisation",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.1469298",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2018)",
+    "event-place": "Edinburgh, Scotland, UK",
+    "event-title": "UK Chapter of Computer Applications and Quantitative Methods in Archaeology (CAA-UK 2018)",
+    "genre": "Presentation",
+    "id": "v1-i7-e2",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          26
+        ]
+      ]
+    },
+    "keyword": "Allen's interval algebra, Chronology, Linked Open Data, South Gaulish Samian",
+    "language": "en",
+    "page": "#2",
+    "title": "Taming the chronology of South Gaulish Samian found at Hadrian's Wall and the German Limes using Linked Open Data",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.1155727",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Unold",
+        "given": "Martin"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Graphentechnologien 2018",
+    "event-place": "Mainz, Germany",
+    "event-title": "Graphentechnologien 2018",
+    "genre": "Presentation",
+    "id": "v1-i7-e3",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          19
+        ]
+      ]
+    },
+    "keyword": "graph, ontologie, owl, rdf",
+    "language": "de",
+    "page": "#3",
+    "title": "Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.1155748",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Graphentechnologien 2018",
+    "event-place": "Mainz, Germany",
+    "event-title": "Graphentechnologien 2018",
+    "genre": "Presentation",
+    "id": "v1-i7-e4",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          19
+        ]
+      ]
+    },
+    "keyword": "Graph, RDF, Samian",
+    "language": "de",
+    "page": "#4",
+    "title": "Putting Samian pots together – modelling ceramic service family roots – connecting figure types. Wie Graphen bei der Modellierung des Zweifels helfen können.",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.1200111",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "event-place": "Tübingen, Germany",
+    "event-title": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+    "genre": "Presentation",
+    "id": "v1-i7-e5",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          22
+        ]
+      ]
+    },
+    "keyword": "controlled vocabulary, data quality, Linked Open Data, NAVIS ship database, Samian Research",
+    "language": "en",
+    "page": "#5",
+    "title": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.1293990",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schmid",
+        "given": "Clemens"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "31. International Geodetic Students Meeting",
+    "event-place": "Valencia, Spain",
+    "event-title": "31. International Geodetic Students Meeting",
+    "genre": "Presentation",
+    "id": "v1-i7-e6",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          27
+        ]
+      ]
+    },
+    "keyword": "Git, IGSM, Software Development",
+    "language": "en",
+    "page": "#6",
+    "title": "Looking for the \"grey value\" in research and geodesy: Is there right or wrong in software framework decisions?",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.1402509",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+    "event-place": "Barcelona, Spanien",
+    "event-title": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+    "genre": "Presentation",
+    "id": "v1-i7-e7",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          6
+        ]
+      ]
+    },
+    "keyword": "Allens's Alegebra, Chronology, Linked Open Data, Samian, Sigillata",
+    "language": "en",
+    "page": "#7",
+    "title": "Taming Time – Modelling uncertainty as reproducible Linked Open Data",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.1421690",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "DOAG Big Data Days 2018",
+    "event-place": "Dresden, Germany",
+    "event-title": "DOAG Big Data Days 2018",
+    "genre": "Presentation",
+    "id": "v1-i7-e8",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          21
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#8",
+    "title": "Linked Open Geodata in Mainz – Best Practices and Projekte im Kontext der Humanities",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.1494175",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "13. Konferenz der GeodäsieStudierenden",
+    "event-place": "Munich, Germany",
+    "event-title": "13. Konferenz der GeodäsieStudierenden",
+    "genre": "Presentation",
+    "id": "v1-i7-e9",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          30
+        ]
+      ]
+    },
+    "keyword": "KonGeoS, Linked Data, Netzwerk, RDF, Vagheit, Zweifel",
+    "language": "de",
+    "page": "#9",
+    "title": "Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.2222237",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Heinz",
+        "given": "Guido"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Linked Pasts IV",
+    "event-place": "Mainz, Germany",
+    "event-title": "Linked Pasts IV",
+    "genre": "Poster",
+    "id": "v1-i7-e10",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          12
+        ]
+      ]
+    },
+    "keyword": "keyword, linked data, meta index, skos",
+    "language": "en",
+    "page": "#10",
+    "title": "RGZM-Meta-Index: A central Linked Data Hub for aligning distributed databases",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.5281/zenodo.3742185",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v2-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          6
+        ]
+      ]
+    },
+    "keyword": "Linked Data, RDF, SPARQL, SPARQL Unicorn",
+    "language": "en",
+    "page": "#1",
+    "title": "The SPARQL Unicorn: An introduction",
+    "type": "article-journal",
+    "volume": "2"
+  },
+  {
+    "DOI": "10.5281/zenodo.3719127",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Book section",
+    "id": "v2-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          20
+        ]
+      ]
+    },
+    "keyword": "FOSSGIS, Linked Data, QGIS, SPARQL Unicorn, Wikidata",
+    "language": "de",
+    "page": "#2",
+    "title": "QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins",
+    "type": "article-journal",
+    "volume": "2"
+  },
+  {
+    "DOI": "10.5281/zenodo.4305708",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Gottwald",
+        "given": "Dennis"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v2-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "#1",
+    "title": "Linked Open Samian Ware",
+    "type": "article-journal",
+    "volume": "2"
+  },
+  {
+    "DOI": "10.5281/zenodo.4305709",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Gottwald",
+        "given": "Dennis"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v2-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          4
+        ]
+      ]
+    },
+    "keyword": "Linked Open Data, Samian Ware",
+    "page": "#2",
+    "title": "Linked Open Samian Ware [RGZM/samian-lod: 2020-12-04]",
+    "type": "article-journal",
+    "volume": "2"
+  },
+  {
+    "DOI": "10.5281/zenodo.4314355",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Gottwald",
+        "given": "Dennis"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v2-i2-e3",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          10
+        ]
+      ]
+    },
+    "keyword": "Linked Open Data, Samian Ware",
+    "page": "#3",
+    "title": "Linked Open Samian Ware [RGZM/samian-lod: 2020-12-10]",
+    "type": "article-journal",
+    "volume": "2"
+  },
+  {
+    "DOI": "10.5281/zenodo.5810310",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Weisser",
+        "given": "Bernhard"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v3-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ]
+    },
+    "keyword": "NFDI, NFDI4Objects",
+    "language": "de",
+    "page": "#1",
+    "title": "Digitale Vernetzung von Sammlungsdaten",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5646897",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Report",
+    "id": "v3-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          24
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "language": "en",
+    "page": "#2",
+    "title": "African Red Slip Ware digital (ARS3D) - The Portal",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5722941",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e3",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          24
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware, Linked Open Data",
+    "page": "#3",
+    "title": "Linked Open African Red Slip Ware",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5642976",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Dingler",
+        "given": "Anke"
+      },
+      {
+        "family": "Beck",
+        "given": "S."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v3-i1-e4",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "language": "en",
+    "page": "#4",
+    "title": "African Red Slip Ware Digital (ARS3D) - How to create a Feature?",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5642750",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Beck",
+        "given": "S."
+      },
+      {
+        "family": "Dingler",
+        "given": "Anke"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware, CIDOC CRM",
+    "language": "en",
+    "page": "#5",
+    "title": "African Red Slip Ware Digital (ARS3D) - Graph-Data",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5642891",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Karmacharya",
+        "given": "Ashish"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e6",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware, CIDOC CRM",
+    "language": "en",
+    "page": "#6",
+    "title": "African Red Slip Ware Digital (ARS3D) - Ontology",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5647827",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      },
+      {
+        "family": "Veller",
+        "given": "Jonas"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e7",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware, Semantics",
+    "language": "en",
+    "page": "#7",
+    "title": "African Red Slip Ware Digital (ARS3D) - Comparison-Data",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5647864",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v3-i1-e8",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "page": "#8",
+    "title": "African Red Slip Ware Digital (ARS3D) - Comparison-Script",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5645179",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Veller",
+        "given": "Jonas"
+      },
+      {
+        "family": "Raddatz",
+        "given": "Laura"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e9",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "page": "#9",
+    "title": "African Red Slip Ware Digital (ARS3D) - Images (Objects)",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5645236",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Veller",
+        "given": "Jonas"
+      },
+      {
+        "family": "Raddatz",
+        "given": "Laura"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e10",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "page": "#10",
+    "title": "African Red Slip Ware Digital (ARS3D) - Images (Features)",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5645253",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Veller",
+        "given": "Jonas"
+      },
+      {
+        "family": "Raddatz",
+        "given": "Laura"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e11",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "page": "#11",
+    "title": "African Red Slip Ware Digital (ARS3D) - Images (Comparisons)",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5642976",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Veller",
+        "given": "Jonas"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e12",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "keyword": "African Red Slip Ware",
+    "language": "en",
+    "page": "#12",
+    "title": "African Red Slip Ware Digital (ARS3D) - Comparison Videos",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.6534661",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i1-e13",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "ARS, Semantics",
+    "page": "#13",
+    "title": "African Red Slip Ware Digital (ARS3D) - Comparison (Archaeology)",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5767082",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "keyword": "Ceramics, Linked Open Data, Samian Ware",
+    "page": "#1",
+    "title": "Ceramic Typologies Ontology (CeraTyOnt)",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.5767083",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i3-e2",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          8
+        ]
+      ]
+    },
+    "keyword": "Ceramics, Linked Open Data, Samian Ware",
+    "page": "#2",
+    "title": "Ceramic Typologies Ontology (CeraTyOnt) - Version v0.1",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.4765603",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          28
+        ]
+      ]
+    },
+    "keyword": "Fellow-Programm Freies Wissen, Linked Data, Ogham, Semantic Web, Wikidata",
+    "language": "en",
+    "page": "#3",
+    "title": "Ogham Data",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.4765604",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          16
+        ]
+      ]
+    },
+    "keyword": "Fellow-Programm Freies Wissen, Linked Data, Ogham, Semantic Web, Wikidata",
+    "language": "en",
+    "page": "#4",
+    "title": "Ogham Data - Version 1.0",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.4849646",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v3-i3-e5",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          28
+        ]
+      ]
+    },
+    "keyword": "Fellow-Programm Freies Wissen, Linked Data, Ogham, Semantic Web, Wikidata",
+    "language": "en",
+    "page": "#5",
+    "title": "Ogham Data - Version 1.1",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "DOI": "10.5281/zenodo.6386603",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v4-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "#1",
+    "title": "African Red Slip Ware - Additional Iconography Catalogue",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7337817",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Klammt",
+        "given": "Anne"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Preprint",
+    "id": "v4-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          18
+        ]
+      ]
+    },
+    "keyword": "Archäoinformatik, DGUF, QGIS, Softwarerezension",
+    "page": "#5",
+    "title": "Software Review for the Software PointSamplingTool (Archäologische Informationen 44, Early View, published online 18 Nov 2022)",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.5788378",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Behrens",
+        "given": "Sarah"
+      },
+      {
+        "family": "Schwarzkopf",
+        "given": "Christopher"
+      },
+      {
+        "family": "Gödeke",
+        "given": "Anna-Katharina"
+      },
+      {
+        "family": "Scholl",
+        "given": "Dominik"
+      },
+      {
+        "family": "Schneider",
+        "given": "Nico"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Report",
+    "id": "v4-i1-e6",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          1
+        ]
+      ]
+    },
+    "keyword": "Open Research, Open Scholarship, Open Science",
+    "language": "de",
+    "page": "#6",
+    "title": "Fellow-Programm Freies Wissen 2016 - 2021",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7143098",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v4-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          4
+        ]
+      ]
+    },
+    "keyword": "Ceramics, Linked Open Data, Samian Ware",
+    "page": "#1",
+    "title": "Ceramic Typologies Ontology (CeraTyOnt) - Version v0.2",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7143094",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v4-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          4
+        ]
+      ]
+    },
+    "keyword": "Ceramics, Linked Open Data, Samian Ware, Vagueness",
+    "page": "#2",
+    "title": "CeraTyOnt @ AMT - Version v1.0",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.5779053",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v4-i2-e3",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "#3",
+    "title": "Linked Pipe: Linked Open Samian Ware",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7353771",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v4-i2-e4",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          18
+        ]
+      ]
+    },
+    "keyword": "Linked Open Data, Ships",
+    "page": "#4",
+    "title": "NAVIS.one Maritime Thesaurus",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.2540709",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v4-i2-e5",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "Allen Interval Algebra, Linked Open Data, Relative Chronology",
+    "page": "#5",
+    "title": "alligator - Allen Transformer",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7377740",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Ontology",
+    "id": "v4-i2-e6",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "Archaeology, Linked Open Data",
+    "language": "en",
+    "page": "#6",
+    "title": "Linked Archaeological Data Ontology",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v4/i3/e1",
+    "author": [
+      {
+        "family": "Schmid",
+        "given": "Clemens"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Other",
+    "id": "v4-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#1",
+    "title": "How to navigate the coding archaeology world: An introduction to scientific co-creation using Git and Github",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.5942833",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Raddatz",
+        "given": "Laura"
+      },
+      {
+        "family": "Boochs",
+        "given": "Frank"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          2
+        ]
+      ]
+    },
+    "keyword": "3D, African Red Slip Ware, Kulturerbe, Linked Open Data",
+    "language": "de",
+    "page": "#4",
+    "title": "ARS3D: Close to the Original-Erfassung archäologischer Objekte und ihre webbasierte semantisch modellierte Bereitstellung zur fachwissenschaftlichen Analyse",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.6043048",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Wigg-Wolf",
+        "given": "David G."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e6",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          4
+        ]
+      ]
+    },
+    "keyword": "Graph, Linked Data, Uncertainty, Vagueness",
+    "language": "en",
+    "page": "#6",
+    "title": "How to handle vagueness and uncertainty in graph-based LOD knowledge modelling? Dealing with archaeological numismatic and ceramological real world data.",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.6976136",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Wigg-Wolf",
+        "given": "David G."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e7",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          9
+        ]
+      ]
+    },
+    "keyword": "Archaeology, Digital Archaeology, Linked Open Data, Nomisma, Numismatics, Samian Ware, Terra Sigillata, Wikidata",
+    "language": "en",
+    "page": "#7",
+    "title": "Challenges & Opportunities from real world archaeological datasets in the community-driven LOD ecosystem",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.6976175",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e8",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          9
+        ]
+      ]
+    },
+    "keyword": "Allen Algebra, Archaeology, Linked Open Data, Relative Chronology, Samian Ware, Terra Sigillata",
+    "language": "en",
+    "page": "#8",
+    "title": "Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman Limes and Hadrian's Wall relative time intervals based on Samian (Terra Sigillata)",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.6976311",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e9",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          10
+        ]
+      ]
+    },
+    "keyword": "Linked Open Data, Linked Pipes",
+    "language": "en",
+    "page": "#9",
+    "title": "Linked Pipes: A Little Minion for reproducible research",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.6976193",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Danthine",
+        "given": "Brigit"
+      },
+      {
+        "family": "High-Steskal",
+        "given": "Nicole"
+      },
+      {
+        "family": "Vitale",
+        "given": "Valeria"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Wigg-Wolf",
+        "given": "David G."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e11",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          9
+        ]
+      ]
+    },
+    "keyword": "Digital Archaeology, Linked Open Data",
+    "language": "en",
+    "page": "#11",
+    "title": "Hic sunt dracones - Real-world data-driven knowledge modelling resulting in Semantics and FAIR-LOD based tools and workflows",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7105005",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Kiesling",
+        "given": "J.B."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e14",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          23
+        ]
+      ]
+    },
+    "keyword": "Archaeology, Wikidata",
+    "language": "en",
+    "page": "#14",
+    "title": "Challenges in research community building: integrating Terra Sigillata (Samian) Research into the Wikidata community",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7142170",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e15",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          6
+        ]
+      ]
+    },
+    "keyword": "Linked Open Data, Ships",
+    "language": "en",
+    "page": "#15",
+    "title": "NAVIS.one: Challenges and Opportunities for RSE and RDM by designing a common web application from a 1990s online database",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7179955",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e16",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          10
+        ]
+      ]
+    },
+    "keyword": "Artificial Intelligence, Semantic Reasoning",
+    "language": "de",
+    "page": "#16",
+    "title": "Typologie-Handling zur Dokumentation mit Hilfe künstlicher Intelligenz",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7361811",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Karmacharya",
+        "given": "Ashish"
+      },
+      {
+        "family": "Rokohl",
+        "given": "Louise"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Preprint",
+    "id": "v4-i4-e1",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#1",
+    "title": "Semantic modelling and publishing African Red Slip Ware as Linked Data",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7361759",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Preprint",
+    "id": "v4-i4-e2",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#2",
+    "title": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD",
+    "type": "article-journal",
+    "volume": "4"
+  },
+  {
+    "DOI": "10.5281/zenodo.7558880",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Book",
+    "id": "v5-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          22
+        ]
+      ]
+    },
+    "keyword": "Linked Open Data, Ogham, Open Street Map, Wikidata",
+    "language": "en",
+    "page": "#1",
+    "title": "Irish Ogham Stones in Wikidata and Open Street Map",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.7624870",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Working paper",
+    "id": "v5-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          9
+        ]
+      ]
+    },
+    "keyword": "Allen, FAIR, Linked Data, RDF, relative Chronology",
+    "language": "en",
+    "page": "#2",
+    "title": "Alligator Method",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.7870480",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Book section",
+    "id": "v5-i1-e3",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          27
+        ]
+      ]
+    },
+    "keyword": "Archäologie, Linked Open Data, Ogham, Open Street Map, Wikidata",
+    "language": "de",
+    "page": "#3",
+    "title": "Irische ᚑᚌᚆᚐᚋ Steine in OSM und Wikidata",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.10255259",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v5-i1-e4",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          11
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#4",
+    "title": "Modelling of Uncertainty in Geo Sciences Sites",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.10262720",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v5-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#5",
+    "title": "How to locate the Campanian Ignimbrite site Urluia based on literature? How to provide and publish this data in a FAIR way?",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.10291889",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v5-i1-e6",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#6",
+    "title": "Dealing with doubts: Site georeferencing in archaeology and in the geosciences",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.7544117",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v5-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          17
+        ]
+      ]
+    },
+    "keyword": "Ireland, Ogham",
+    "page": "#1",
+    "title": "Ogham Stone Maps: Squirrel Stones in Ireland",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.10361309",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v5-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          12
+        ]
+      ]
+    },
+    "keyword": "Campanian Ignimbrite, Geosciences, Linked Open Data",
+    "page": "#2",
+    "title": "Campanian Ignimbrite Geo Locations",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.10362777",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v5-i2-e3",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          12
+        ]
+      ]
+    },
+    "keyword": "Fuzzy Things, Geospatial, Linked Open Data",
+    "page": "#3",
+    "title": "Fuzzy Spatial Locations Ontology",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.10369624",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v5-i2-e4",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          13
+        ]
+      ]
+    },
+    "page": "#4",
+    "title": "Croton Geo Locations",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.8190763",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v5-i2-e5",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "page": "#5",
+    "title": "SPARQL Unicorn Ontology Documentation",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.7617764",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v5-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          1
+        ]
+      ]
+    },
+    "keyword": "Archaeology, Citizen Science, Linked Open Data, Wikidata",
+    "language": "en",
+    "page": "#1",
+    "title": "Wikidata as a Knowledge Base and Research Tool for Open Science in Archaeology",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.7629765",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v5-i3-e2",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
+        ]
+      ]
+    },
+    "keyword": "Citizen Science, Samian Ware, Terra Sigillata, Wikidata",
+    "language": "de",
+    "page": "#2",
+    "title": "LEIZA-Forschungsdaten in der großen weiten Welt der Citizen Science",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.7629861",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr",
+    "event-place": "Johannes Gutenberg Universität Mainz, Fachbereich 07, Klassische Archäologie",
+    "event-title": "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr",
+    "genre": "Presentation",
+    "id": "v5-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
+        ]
+      ]
+    },
+    "keyword": "Archäologie, Dokumentation, FAIR",
+    "language": "de",
+    "page": "#3",
+    "title": "Kleinfund-Dokumentation mit der Hilfe von Semantik",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.8089448",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "35th International Geodetic Student Meeting",
+    "event-place": "Polytechnic University of Valencia (Universitat Politècnica de València, UPV)",
+    "event-title": "35th International Geodetic Student Meeting",
+    "genre": "Presentation",
+    "id": "v5-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          2
+        ]
+      ]
+    },
+    "keyword": "GIS, IGSM, Linked Data, Ogham, Open Street Map, Wikidata",
+    "language": "en",
+    "page": "#4",
+    "title": "Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.8334767",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA-DE Workshop",
+    "event-place": "Toscana-Saal der Residenz Würzburg",
+    "event-title": "CAA-DE Workshop",
+    "genre": "Presentation",
+    "id": "v5-i3-e5",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#5",
+    "title": "Umgang mit Unsicherheiten und Vagheiten bei der Georeferenzierung von Geo-Locations in der Archäologie und in den Geowissenschaften",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.10260778",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "ARCHAEO.FOSS XVII 2023",
+    "event-place": "Università di Torino, Italy",
+    "event-title": "ARCHAEO.FOSS XVII 2023",
+    "genre": "Presentation",
+    "id": "v5-i3-e6",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#6",
+    "title": "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.7915197",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Abstract",
+    "id": "v5-i4-e1",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#1",
+    "title": "Dating “dated sites”: Using Correspondence Analysis to handle relative chronologies as graphs.",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.7915364",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Abstract",
+    "id": "v5-i4-e2",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#2",
+    "title": "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.8154700",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v5-i4-e3",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          19
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#3",
+    "title": "Dating Dated Sites - Using Correspondence Analysis to handle Chronologies as Graphs.",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.8154844",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Poster",
+    "id": "v5-i4-e4",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#4",
+    "title": "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.8333763",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA-DE Workshop",
+    "event-place": "Toscana-Saal der Residenz Würzburg",
+    "event-title": "CAA-DE Workshop",
+    "genre": "Presentation",
+    "id": "v5-i5-e1",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#1",
+    "title": "Object-Related Research Data Workflows Within NFDI4Objects and Beyond",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.8334735",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA-DE Workshop",
+    "event-place": "Toscana-Saal der Residenz Würzburg",
+    "event-title": "CAA-DE Workshop",
+    "genre": "Presentation",
+    "id": "v5-i5-e2",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#2",
+    "title": "FAIRifizierung mit Citizen Science? Herausforderungen bei der Integration von archäologischen Daten in das Wikiversum und Open Street Map",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.10114894",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "ClaReNet Final Workshop",
+    "event-place": "RGK, Frankfurt am Mainz",
+    "event-title": "ClaReNet Final Workshop",
+    "genre": "Presentation",
+    "id": "v5-i5-e3",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          14
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#3",
+    "title": "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "DOI": "10.5281/zenodo.10260778",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "ARCHAEO.FOSS XVII 2023",
+    "event-place": "Università di Torino, Italy",
+    "event-title": "ARCHAEO.FOSS XVII 2023",
+    "genre": "Presentation",
+    "id": "v5-i5-e4",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#4",
+    "title": "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v5/i6/e1",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v5-i6-e1",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "page": "#1",
+    "title": "archaeolink-lod / ars",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v6/i1/e1",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Netzwerktreffen kulturelles Erbe, Linked Open Data und das Wikiversum",
+    "event-place": "Wikimedia Deutschland e.V., Berlin, Germany",
+    "event-title": "Netzwerktreffen kulturelles Erbe, Linked Open Data und das Wikiversum",
+    "genre": "Presentation",
+    "id": "v6-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          14
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#1",
+    "title": "Kulturelles Erbe, Linked Open Data und das Wikiversum: Beispiele aus dem LEIZA, NFDI4Objects und dem Research Squirrel Engineers Network",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14217957",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "kuwiki: tips&tools, #15 Georeferenzierung und Mapping mit Wikimedia",
+    "event-title": "kuwiki: tips&tools, #15 Georeferenzierung und Mapping mit Wikimedia",
+    "genre": "Presentation",
+    "id": "v6-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          28
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#2",
+    "title": "Georeferenzierung und Mapping innerhalb des Wikiversums - WikiProject Irish Ogham Stones",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10779466",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v6-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          4
+        ]
+      ]
+    },
+    "keyword": "GeoSPARQL, Linked Open Data, Wikidata",
+    "page": "#1",
+    "title": "SPARQLing Unicorn QGIS Plugin",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10780476",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v6-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "page": "#2",
+    "title": "SPARQL Unicorn Ontology Documentation",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.11064284",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v6-i2-e3",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          25
+        ]
+      ]
+    },
+    "keyword": "Allen Interval Algebra, Linked Open Data, Relative Chronology",
+    "page": "#3",
+    "title": "TiGeR - Time Geospatial RDF",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.11064526",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v6-i2-e4",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          25
+        ]
+      ]
+    },
+    "keyword": "Allen Interval Algebra, Linked Open Data, Relative Chronology",
+    "page": "#4",
+    "title": "alligator - Allen Transformer",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13828632",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v6-i2-e5",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          23
+        ]
+      ]
+    },
+    "keyword": "GeoSPARQL, Linked Open Data, Wikidata",
+    "page": "#5",
+    "title": "SPARQLing Unicorn QGIS Plugin",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v6/i2/e6",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v6-i2-e6",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#6",
+    "title": "Jupyter Notebooks and Linked Open Data",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10580308",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rossenova",
+        "given": "Lozana"
+      },
+      {
+        "family": "Schubert",
+        "given": "Zoe"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Oldenburger 3D-Tage",
+    "event-place": "Jade-Hoschschule, Oldenburg",
+    "event-title": "Oldenburger 3D-Tage",
+    "genre": "Presentation",
+    "id": "v6-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          31
+        ]
+      ]
+    },
+    "keyword": "3D, NFDI, NFDI4Culture, NFDI4Objects, Research Data Management, Semantic Modelling, Semantics, Wikibase",
+    "language": "de",
+    "page": "#1",
+    "title": "3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10756823",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE2024",
+    "event-place": "Julius-Maximilians-Universität Würzburg",
+    "event-title": "deRSE2024",
+    "genre": "Poster",
+    "id": "v6-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#3",
+    "title": "FOSS N4O Management Hub: Using RSE skills and Open Source Software to propose a heterogenious Management Hub in NFDI4Objects",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10805071",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE2024",
+    "event-place": "Julius-Maximilians-Universität Würzburg",
+    "event-title": "deRSE2024",
+    "genre": "Poster",
+    "id": "v6-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#4",
+    "title": "Research Software Engineering within the NFDI (INFRA-WG-RSE)",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10790939",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE2024",
+    "event-place": "Julius-Maximilians-Universität Würzburg",
+    "event-title": "deRSE2024",
+    "genre": "Presentation",
+    "id": "v6-i3-e5",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#5",
+    "title": "The SPARQL Unicorn: A Research Tool for Linked Open Data in QGIS and git-action-based ontology documentation",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10840999",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "FOSSGIS 2024",
+    "event-place": "Technische Universität Hamburg (TUHH)",
+    "event-title": "FOSSGIS 2024",
+    "genre": "Presentation",
+    "id": "v6-i3-e6",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          20
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#6",
+    "title": "Modellierung von Fuzzyness & Wobbliness in Geodaten am Beispiel archäologischer und geowissenschaftlicher Fundorte",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10841046",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "FOSSGIS 2024",
+    "event-place": "Technische Universität Hamburg (TUHH)",
+    "event-title": "FOSSGIS 2024",
+    "genre": "Presentation",
+    "id": "v6-i3-e7",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          20
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#7",
+    "title": "The SPARQL Unicorn Ontology documentation: Exposing RDF geodata using static GeoAPIs",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13364535",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      },
+      {
+        "family": "White",
+        "given": "Nora"
+      },
+      {
+        "family": "Kasten",
+        "given": "Megan Nichole"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA Deutschland-Workshop 2024",
+    "event-place": "Historisches Seminar der Universität Münster, Münster, Germany",
+    "event-title": "CAA Deutschland-Workshop 2024",
+    "genre": "Presentation",
+    "id": "v6-i3-e8",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#8",
+    "title": "3D-Erfassung und FAIRe Publikation von Cultural Heritage Artefakten, insbesondere Ogham Steine und Holy Wells in Zusammenarbeit mit Citizen Scientists",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13627274",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "EAA 2024, Rome, Italy",
+    "event-place": "Sapienza University of Rome, Italy",
+    "event-title": "EAA 2024, Rome, Italy",
+    "genre": "Poster",
+    "id": "v6-i3-e9",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#9",
+    "title": "Taming Doubts - How to semantically model fuzzy and wobbly georeferences in archaeology and in the geosciences",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13897231",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Verbandstagung 2024 des NWVA e.V.",
+    "event-place": "DBM Bochum, Germany",
+    "event-title": "Verbandstagung 2024 des NWVA e.V.",
+    "genre": "Presentation",
+    "id": "v6-i3-e10",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          7
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#10",
+    "title": "Das Research Squirrel Engineers Network - Digitale Services zum digitalen Datenmanagement aus der Archäoinformatik- und Citizen Science-Community",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14524577",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "ARCHEO.FOSS 18",
+    "event-place": "Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti Scalo, Chieti, Italy",
+    "event-title": "ARCHEO.FOSS 18",
+    "genre": "Presentation",
+    "id": "v6-i3-e11",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#11",
+    "title": "Infrastructural Frameworks: Managing and publishing distributed Archaeological Research Data through the Wikibase",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14524614",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "ARCHEO.FOSS 18",
+    "event-place": "Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti Scalo, Chieti, Italy",
+    "event-title": "ARCHEO.FOSS 18",
+    "genre": "Presentation",
+    "id": "v6-i3-e12",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#12",
+    "title": "Jupyter Python Minion: Empowering Open Data for Urban Archaeological Insights",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10512531",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Proposal",
+    "id": "v6-i4-e1",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#1",
+    "title": "NFDI4Objects - Community Cluster \"Semantic Modelling & Linked Open Data\"",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10512603",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Proposal",
+    "id": "v6-i4-e2",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    },
+    "page": "#2",
+    "title": "NFDI4Objects - Community Cluster \"Research Software Engineering (RSE)\"",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10515269",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schneider",
+        "given": "Agnes"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      },
+      {
+        "family": "Allison",
+        "given": "Jim"
+      },
+      {
+        "family": "Stefan",
+        "given": "Daria"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Conference session proposal",
+    "id": "v6-i4-e3",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#3",
+    "title": "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks\"",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10515288",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Hollaender",
+        "given": "Julian"
+      },
+      {
+        "family": "Quintana",
+        "given": "Miguel Angel Dilena"
+      },
+      {
+        "family": "Skole",
+        "given": "John"
+      },
+      {
+        "family": "Papazoi",
+        "given": "Elli"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Conference session proposal",
+    "id": "v6-i4-e4",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#4",
+    "title": "Best Practices on Archaeological 3D Data Management: Methods and Approaches to Capture, Generate, and Disseminate 3D Information in Archaeology\"",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10992401",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "thor Straten",
+        "given": "Mattis"
+      },
+      {
+        "family": "Alpino",
+        "given": "Nadine"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Conference session proposal",
+    "id": "v6-i4-e5",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          15
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#5",
+    "title": "Research Data Management in Cultural Heritage goes Digital – New Technologies along the object biography\"",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.10906911",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Voß",
+        "given": "Jakob"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Wagner",
+        "given": "Sarah"
+      },
+      {
+        "family": "von Hagel",
+        "given": "Frank"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Brücken schlagen zwischen Terminologien",
+    "event-title": "Brücken schlagen zwischen Terminologien",
+    "genre": "Presentation",
+    "id": "v6-i4-e6",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          20
+        ]
+      ]
+    },
+    "keyword": "nfdi",
+    "language": "de",
+    "page": "#6",
+    "title": "Terminologien in NFDI4Objects",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13373890",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schneider",
+        "given": "Agnes"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      },
+      {
+        "family": "Allison",
+        "given": "Jim"
+      },
+      {
+        "family": "Stefan",
+        "given": "Daria"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "EAA 2024, Rome, Italy",
+    "event-place": "Sapienza University of Rome, Italy",
+    "event-title": "EAA 2024, Rome, Italy",
+    "genre": "Presentation",
+    "id": "v6-i4-e7",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#7",
+    "title": "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13132293",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "EAA 2024, Rome, Italy",
+    "event-place": "Sapienza University of Rome, Italy",
+    "event-title": "EAA 2024, Rome, Italy",
+    "genre": "Presentation",
+    "id": "v6-i4-e8",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#8",
+    "title": "Taming Time: Using Correspondence Analysis to handle relative chronologies as graphs",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13734484",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "event-place": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany",
+    "event-title": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "genre": "Poster",
+    "id": "v6-i4-e12",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ]
+    },
+    "page": "#12",
+    "title": "Task Area 2: FDM-Services im Sammlungskontext",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13364680",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA Deutschland-Workshop 2024",
+    "event-place": "Historisches Seminar der Universität Münster, Münster, Germany",
+    "event-title": "CAA Deutschland-Workshop 2024",
+    "genre": "Presentation",
+    "id": "v6-i4-e13",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#13",
+    "title": "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13739143",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "event-place": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany",
+    "event-title": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "genre": "Poster",
+    "id": "v6-i4-e14",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ]
+    },
+    "page": "#14",
+    "title": "NFDI4Objects Objects Ontology & Minimal Metadata Set",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13897159",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mempel-Länger",
+        "given": "Lasse"
+      },
+      {
+        "family": "Fella",
+        "given": "Kristina"
+      },
+      {
+        "family": "Puhl",
+        "given": "Andreas"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Verbandstagung 2024 des NWVA e.V.",
+    "event-place": "DBM Bochum, Germany",
+    "event-title": "Verbandstagung 2024 des NWVA e.V.",
+    "genre": "Presentation",
+    "id": "v6-i4-e17",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          7
+        ]
+      ]
+    },
+    "keyword": "NFDI, NFDI4Objects",
+    "language": "de",
+    "page": "#17",
+    "title": "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13927753",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Rütenik",
+        "given": "Tobias-Arera"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "event-place": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany",
+    "event-title": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "genre": "Workshop",
+    "id": "v6-i4-e18",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#18",
+    "title": "Workshop III: Linked Open Data am Beispiel von RDF-Daten, Wikidata und Wikibase",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13980905",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "event-place": "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany",
+    "event-title": "NFDI4Objects Community Meeting 2024, Mainz, Germany",
+    "genre": "Workshop",
+    "id": "v6-i4-e19",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          27
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#19",
+    "title": "Workshop VI: Harmonisierung und Integration von Konsortialdiensten durch Verknüpfung dezentraler Systeme in NFDI4Objects",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13980966",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Open Science Festival Mainz 2024, Mainz, Germany",
+    "event-place": "JGU, Mainz Germany",
+    "event-title": "Open Science Festival Mainz 2024, Mainz, Germany",
+    "genre": "Workshop",
+    "id": "v6-i4-e20",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#20",
+    "title": "Geodata in Linked Open Data and Wikidata in Practice",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14017594",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+    "event-place": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
+    "event-title": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+    "genre": "Poster",
+    "id": "v6-i4-e21",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          20
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#21",
+    "title": "NFDI4Objects and the Base4NFDI Services: An Overview",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14055698",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rossenova",
+        "given": "Lozana"
+      },
+      {
+        "family": "Simons",
+        "given": "Olaf"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+    "event-place": "Vienna City Hall, Wappensaal, Vienna, Austria",
+    "event-title": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+    "genre": "Presentation",
+    "id": "v6-i4-e22",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          4
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#22",
+    "title": "Wikibase instances in the Cultural Heritage Domain: Examples from the German humanities NFDI consortia",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14055804",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      },
+      {
+        "family": "Berthold",
+        "given": "Angela"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+    "event-place": "Vienna City Hall, Wappensaal, Vienna, Austria",
+    "event-title": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+    "genre": "Presentation",
+    "id": "v6-i4-e23",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          6
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#23",
+    "title": "Interdisciplinary Knowledge Graphs: Semantic Modelling using Linked Open Data, Wikibase and the Wikiverse",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14055855",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Mempel-Länger",
+        "given": "Lasse"
+      },
+      {
+        "family": "Fella",
+        "given": "Kristina"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+    "event-place": "Vienna City Hall, Wappensaal, Vienna, Austria",
+    "event-title": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+    "genre": "Presentation",
+    "id": "v6-i4-e24",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          6
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#24",
+    "title": "Derivation of thesauri in archaeological conservation through synergistic collaboration between domain experts and the use of semantic and NLP technologies with a FAIR and open publication",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14130517",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "AG3D meeting",
+    "event-title": "AG3D meeting",
+    "genre": "Presentation",
+    "id": "v6-i4-e25",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          13
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#25",
+    "title": "3D-Erfassung und FAIRe Publikation von Cultural Heritage Artefakten - und was das Semantic Web damit zu tun hat",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14167106",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Hammitzsch",
+        "given": "Martin"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+    "event-place": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
+    "event-title": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+    "genre": "Presentation",
+    "id": "v6-i4-e26",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          20
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#26",
+    "title": "Research Software Engineering within the NFDI (INFRA-WG-RSE)",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.13364444",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schmidt",
+        "given": "Sophie Charlotte"
+      },
+      {
+        "family": "Trognitz",
+        "given": "Martina"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK-Ireland DH Association Annual Event 2024",
+    "event-place": "University College Cork (UCC), Cork, Ireland",
+    "event-title": "UK-Ireland DH Association Annual Event 2024",
+    "genre": "Presentation",
+    "id": "v6-i5-e5",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          4
+        ]
+      ]
+    },
+    "keyword": "Ogham, Wikidata",
+    "language": "en",
+    "page": "#5",
+    "title": "Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata",
+    "type": "article-journal",
+    "volume": "6"
+  },
+  {
+    "DOI": "10.5281/zenodo.14707872",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Workshop Vagheiten und Unsicherheiten in Provenienzdaten",
+    "event-title": "Workshop Vagheiten und Unsicherheiten in Provenienzdaten",
+    "genre": "Presentation",
+    "id": "v7-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          23
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ1",
+    "title": "Fuzzyness & Wobbliness in Geodaten: Linked Open Data und Wikibase in der Praxis",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15074382",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "event-title": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "genre": "Presentation",
+    "id": "v7-i1-e3",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          27
+        ]
+      ]
+    },
+    "keyword": "Jupyter Notebook, NFDI, NFDI4Objects, Python, Research Software Engineering, Text+",
+    "language": "en",
+    "page": "λ3",
+    "title": "LOD Objects in Action I: Jupyter Python Notebook Minions - Simplifying LOD SPARQL queries and visualisations for archaeological data",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15310723",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Workshop Objekt - Text - Bild",
+    "event-title": "Workshop Objekt - Text - Bild",
+    "genre": "Presentation",
+    "id": "v7-i1-e4",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          28
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ4",
+    "title": "Inschriften und der “Knowledge Graph … wie CIDOC-CRM als Referenzmodell fungiert …",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15401536",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "event-title": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "genre": "Presentation",
+    "id": "v7-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          15
+        ]
+      ]
+    },
+    "keyword": "Linked Data, LOD, NFDI, NFDI4Objects, QGIS, Research Software Engineering, SPARQL Unicorn, Text+",
+    "language": "en",
+    "page": "λ5",
+    "title": "LOD Objects in Action II: SPARQLing Unicorn Research Toolkit: Integrating geospatial LOD SPARQL queries for visualisations in QGIS",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.16353592",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "event-title": "Text+ Show and Tell: Tools, Dienste, Projekte",
+    "genre": "Presentation",
+    "id": "v7-i1-e6",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          23
+        ]
+      ]
+    },
+    "keyword": "Linked Data, LOD, NFDI, NFDI4Objects, TEI/EpiDoc, Text+",
+    "language": "en",
+    "page": "λ6",
+    "title": "LOD Objects in Action III: TEI/EpiDoc Ogham Data - How to integrate TEI data into the NFDI Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14874994",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v7-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          15
+        ]
+      ]
+    },
+    "keyword": "GeoSPARQL, Linked Open Data, Wikidata",
+    "page": "λ1",
+    "title": "SPARQLing Unicorn QGIS Plugin",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14906708",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v7-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          21
+        ]
+      ]
+    },
+    "page": "λ2",
+    "title": "GrapHNR2023 - Supplementary Material",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15477358",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v7-i2-e3",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          20
+        ]
+      ]
+    },
+    "keyword": "Archaeology, Linked Open Data",
+    "language": "en",
+    "page": "λ3",
+    "title": "Linked Archaeological Data Ontology (LADO) - v1.1",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15095413",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "thor Straten",
+        "given": "Mattis"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v7-i2-e4",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          27
+        ]
+      ]
+    },
+    "page": "λ4",
+    "title": "Archaeo-Natural Ontology (ArNO) - v0.1",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v7/i2/e5",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Danthine",
+        "given": "Brigit"
+      },
+      {
+        "family": "Alpino",
+        "given": "Nadine"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v7-i2-e5",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "λ5",
+    "title": "FAIRyland",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v7/i2/e6",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v7-i2-e6",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "λ6",
+    "title": "osm2lod",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14789260",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Oldenburger 3D-Tage",
+    "event-place": "Jade-Hoschschule, Oldenburg",
+    "event-title": "Oldenburger 3D-Tage",
+    "genre": "Presentation",
+    "id": "v7-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          4
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ1",
+    "title": "FAIRes Kulturerbe mit dem Smartphone und SfM? Wie man das durch Smartphone Apps, Open Source Tools und semantische Annotation im Wikiversum und OSM erreichen kann",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14789264",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      },
+      {
+        "family": "Thiery",
+        "given": "Susanne"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Oldenburger 3D-Tage",
+    "event-place": "Jade-Hoschschule, Oldenburg",
+    "event-title": "Oldenburger 3D-Tage",
+    "genre": "Presentation",
+    "id": "v7-i3-e2",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          4
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ2",
+    "title": "Low-Cost 3D-Digitalisierung mit SfM in Smartphone Apps. 3D-Modelle zum Mitnehmen und Open Data Publikation mit dem Wikiversum und OSM",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14886032",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Poster",
+    "id": "v7-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ3",
+    "title": "Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14898291",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Poster",
+    "id": "v7-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ4",
+    "title": "Keeping it REAL: Sustainability Challenges for Research Software in Computational Archaeology",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14898391",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Poster",
+    "id": "v7-i3-e5",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ5",
+    "title": "Research Software Engineering in the NFDI (INFRA-WG-RSE)",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14914287",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Presentation",
+    "id": "v7-i3-e6",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ6",
+    "title": "Research Squirrel Engineers How an independent RSE-driven network may help the NFDI",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14914309",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Presentation",
+    "id": "v7-i3-e7",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ7",
+    "title": "Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14976365",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      },
+      {
+        "family": "Bernoth",
+        "given": "Jan"
+      },
+      {
+        "family": "Seiwerth",
+        "given": "Corinna"
+      },
+      {
+        "family": "Linxweiler",
+        "given": "Jan"
+      },
+      {
+        "family": "Söhn",
+        "given": "Linnaea"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Presentation",
+    "id": "v7-i3-e8",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ8",
+    "title": "How to improve the visibility and added value of RSE(s) in NFDI",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14920034",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE25",
+    "event-place": "KIT, Karlsruhe",
+    "event-title": "deRSE25",
+    "genre": "Presentation",
+    "id": "v7-i3-e9",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ]
+    },
+    "keyword": "NFDI, Research Software Engineering",
+    "language": "en",
+    "page": "λ9",
+    "title": "Geodesist in the Humanities working with humanities people on Research Software and FAIRification Tools",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15040308",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "thor Straten",
+        "given": "Mattis"
+      },
+      {
+        "family": "Strohm",
+        "given": "Steffen"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Renz",
+        "given": "Matthias"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "E-Science-Tage 2025",
+    "event-place": "Alte Universität Heidelberg",
+    "event-title": "E-Science-Tage 2025",
+    "genre": "Presentation",
+    "id": "v7-i3-e10",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ10",
+    "title": "Data-Driven Community Standards for Interdisciplinary Heterogeneous Information Networks",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15667685",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK-Ireland DH Association Annual Event 2025",
+    "event-place": "University of Glasgow, Glasgow, United Kingdom (Scotland)",
+    "event-title": "UK-Ireland DH Association Annual Event 2025",
+    "genre": "Presentation",
+    "id": "v7-i3-e16",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ16",
+    "title": "Beyond Digital Boundaries - Linked Open Data and Wikidata with OG(H)AM and Holy Wells",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15721469",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK-Ireland DH Association Annual Event 2025",
+    "event-place": "University of Glasgow, Glasgow, United Kingdom (Scotland)",
+    "event-title": "UK-Ireland DH Association Annual Event 2025",
+    "genre": "Presentation",
+    "id": "v7-i3-e17",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ17",
+    "title": "A Holy Wells Database on Wikidata",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15721553",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "White",
+        "given": "Nora"
+      },
+      {
+        "family": "Kasten",
+        "given": "Megan Nichole"
+      },
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK-Ireland DH Association Annual Event 2025",
+    "event-place": "University of Glasgow, Glasgow, United Kingdom (Scotland)",
+    "event-title": "UK-Ireland DH Association Annual Event 2025",
+    "genre": "Presentation",
+    "id": "v7-i3-e18",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ18",
+    "title": "Cultural Heritage beyond boundaries - Open Science and FAIR methods for Ogham and Holy Wells in Ireland and the UK",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.17150583",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA DE Workshop Köln 2025",
+    "event-place": "Universität zu Köln, Köln, Deutschland",
+    "event-title": "CAA DE Workshop Köln 2025",
+    "genre": "Presentation",
+    "id": "v7-i3-e19",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          17
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ19",
+    "title": "Vom Ogham-Stein zum FAIR/LO(U)D Digital Object Wie Gigha Brewing und der federated Knowledge Graph historische Artefakte lebendig machen",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.17475014",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "4. MediaWiki Users & Developer Conference",
+    "event-place": "Leibnizhaus, Hannover, Germany",
+    "event-title": "4. MediaWiki Users & Developer Conference",
+    "genre": "Presentation",
+    "id": "v7-i3-e20",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          28
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ20",
+    "title": "How to FAIRify Citizen Science? Using the Wikibase Ecosystem for Volunteered Cultural Heritage Information Systems",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14893826",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Proposal",
+    "id": "v7-i4-e1",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          14
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ1",
+    "title": "NFDI4Objects TWG - Community-Standards for modelling fuzziness & wobbliness in research data using Semantic Web technologies and formalisms (FuzzyWobblySW)\"",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14893860",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Proposal",
+    "id": "v7-i4-e2",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          19
+        ]
+      ]
+    },
+    "page": "λ2",
+    "title": "NFDI4Objects TWG - N4O ObjectMetaDataSet (N4O OMDS) & N4O ObjectOntology (N4O OO)",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.14916966",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Memory AG Minimaldatensatz Historische Orte",
+    "event-title": "NFDI4Memory AG Minimaldatensatz Historische Orte",
+    "genre": "Presentation",
+    "id": "v7-i4-e3",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          24
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ3",
+    "title": "Interdisziplinäre Knowledge Graphen? Ortsdaten im Kontext von NFDI4Objects",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.15065874",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Berthold",
+        "given": "Angela"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "TWG 2024.3 Prototypische Modellierung eines Provenienzgazetteers zur FAIRen Bereitstellung in einer Wikibase",
+    "event-title": "TWG 2024.3 Prototypische Modellierung eines Provenienzgazetteers zur FAIRen Bereitstellung in einer Wikibase",
+    "genre": "Presentation",
+    "id": "v7-i4-e4",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          20
+        ]
+      ]
+    },
+    "page": "λ4",
+    "title": "Wikibase Datenmodell v0.2",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.16875678",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "NFDI4Objects Community Meeting 2025",
+    "event-place": "Deutsches Bergbau-Museum, Bochum, Germany",
+    "event-title": "NFDI4Objects Community Meeting 2025",
+    "genre": "Conference paper",
+    "id": "v7-i4-e5",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "λ5",
+    "title": "Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI - Ein interdisziplinäres federated Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.16736089",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      },
+      {
+        "family": "Schneider",
+        "given": "Agnes"
+      },
+      {
+        "family": "Landauer",
+        "given": "Jürgen"
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Gampe",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "Artificial Intelligence, Base4NFDI, Community-driven Software, Computational Archaeology, FAIR Data, Linked Open Data, Research Software Engineering, Semantic Modelling",
+    "language": "en",
+    "page": "7(5), 𝒬1",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.5281/zenodo.16736047",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rossenova",
+        "given": "Lozana"
+      },
+      {
+        "family": "Mietchen",
+        "given": "Daniel"
+      },
+      {
+        "family": "Homburg",
+        "given": "Timo"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e2",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "Base4NFDI, Cultural Heritage, Federation, Knowledge Graphs, Linked Open Data, NFDI, SPARQL, Terminology, Wikibase",
+    "language": "en",
+    "page": "7(5), 𝒬2",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.5281/zenodo.16736221",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Fella",
+        "given": "Kristina"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Koprucki",
+        "given": "Thomas"
+      },
+      {
+        "family": "Noback",
+        "given": "Andreas"
+      },
+      {
+        "family": "Reidelbach",
+        "given": "Marco"
+      },
+      {
+        "family": "Schrade",
+        "given": "Torsten"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "CIDOC-CRM, community-standards, Engineering, FAIR Digital, Humanities, Knowledge Graph, Linked Open Data, NFDIcore Ontology, Objects",
+    "language": "en",
+    "page": "7(5), 𝒬3",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.5281/zenodo.16735847",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Ferenz",
+        "given": "Stephan"
+      },
+      {
+        "family": "Castro",
+        "given": "Leyla Jael"
+      },
+      {
+        "family": "Hajiabadi",
+        "given": "Hamideh"
+      },
+      {
+        "family": "Löbe",
+        "given": "Matthias"
+      },
+      {
+        "family": "Stervbo",
+        "given": "Ulrik"
+      },
+      {
+        "family": "Gan",
+        "given": "Lu"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e4",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "Research Software, Research Software Metadata, Software Metadata",
+    "language": "en",
+    "page": "7(5), 𝒬4",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "Towards Common Metadata For Research Software in the NFDI",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.5281/zenodo.16736077",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Rossenova",
+        "given": "Lozana"
+      },
+      {
+        "family": "Limani",
+        "given": "Fidan"
+      },
+      {
+        "family": "Fortmann-Grote",
+        "given": "Carsten"
+      },
+      {
+        "family": "Kaplan",
+        "given": "Angelika"
+      },
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Latif",
+        "given": "Atif"
+      },
+      {
+        "family": "Shigapov",
+        "given": "Renat"
+      },
+      {
+        "family": "Zapilko",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Schubotz",
+        "given": "Moritz"
+      },
+      {
+        "family": "Fliegl",
+        "given": "Heike"
+      },
+      {
+        "family": "Tietz",
+        "given": "Tabea"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e5",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "data integration, FAIR data, Knowledge Graphs, NFDI, semantic interoperability",
+    "language": "en",
+    "page": "7(5), 𝒬5",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.5281/zenodo.16736041",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      },
+      {
+        "family": "Hetényi",
+        "given": "Beate"
+      },
+      {
+        "family": "Seiwerth",
+        "given": "Corinna"
+      },
+      {
+        "family": "Baum",
+        "given": "Roman"
+      },
+      {
+        "family": "Bernoth",
+        "given": "Jan"
+      },
+      {
+        "family": "Ferenz",
+        "given": "Stephan"
+      },
+      {
+        "family": "Linxweiler",
+        "given": "Jan"
+      },
+      {
+        "family": "Reinhardt",
+        "given": "Martin"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e6",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "NFDI, Research Data, Research Data Management, Research Software Engineering, Software",
+    "language": "en",
+    "page": "7(5), 𝒬6",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.5281/zenodo.16735267",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Fella",
+        "given": "Kristina"
+      },
+      {
+        "family": "Mempel-Länger",
+        "given": "Lasse"
+      }
+    ],
+    "container-title": "Proceedings of the Conference on Research Data Infrastructure 2025",
+    "editor": [
+      {
+        "family": "Sure-Vetter",
+        "given": "York"
+      },
+      {
+        "family": "Groth",
+        "given": "Paul"
+      }
+    ],
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Proceedings paper",
+    "id": "v7-i5-e7",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "keyword": "Archaeology, Conservation, Controlled vocabularies, Semantic Modelling",
+    "language": "en",
+    "page": "7(5), 𝒬7",
+    "publisher": "Squirrel Papers",
+    "publisher-place": "Aachen",
+    "title": "A Human- and Machine-Readable Thesaurus for the Conservation of Archaeological Heritage Development, Technical Implementation and Application in digital space",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.5281/zenodo.16931832",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Conference paper",
+    "id": "v7-i5-e8",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "𝒬8",
+    "title": "RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.16931907",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Rossenova",
+        "given": "Lozana"
+      },
+      {
+        "family": "Mietchen",
+        "given": "Daniel"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Conference paper",
+    "id": "v7-i5-e9",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "𝒬9",
+    "title": "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.16931909",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "event-place": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+    "event-title": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+    "genre": "Conference paper",
+    "id": "v7-i5-e10",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          28
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "𝒬10",
+    "title": "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.5281/zenodo.18441772",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Methodological working paper",
+    "id": "v8-i1-e1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§1",
+    "title": "From Tables to Gazetteers: Reproducible Place Alignment for Archaeological Data with STL-PA",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18441001",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Methodological working paper",
+    "id": "v8-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§2",
+    "title": "Gradual Semantic Alignment for SKOS: Quantifying Mapping Strength in Knowledge Graph Infrastructures",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18441544",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Noback",
+        "given": "Andreas"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Kasten",
+        "given": "Megan Nichole"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Position paper",
+    "id": "v8-i1-e3",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§3",
+    "title": "Bridging FDOs and Knowledge Graphs | Position Paper",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18441772",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Methodological working paper",
+    "id": "v8-i1-e4",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§4",
+    "title": "From Packaged Research Artefacts to RDF: A Reference Implementation for FAIR Digital Objects into the Federated Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v8/i2/e1",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v8-i2-e1",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "§1",
+    "title": "Samian Research STL-PA",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v8/i2/e2",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v8-i2-e2",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "§2",
+    "title": "Samian Site Dating",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "ISSN": "2750-560X",
+    "URL": "https://w3id.org/squirrelpapers/v8/i2/e3",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v8-i2-e3",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§3",
+    "title": "Gradual Semantic Alignment for SKOS (GSAS)",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18404885",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Software",
+    "id": "v8-i2-e4",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          9
+        ]
+      ]
+    },
+    "keyword": "FAIR Digital Object, Federated Knowledge Graph Ecosystem, RDF",
+    "page": "§4",
+    "title": "FAIR Digital Object Squirrel Implementation (FDOSquirrel)",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18901448",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Danthine",
+        "given": "Brigit"
+      },
+      {
+        "family": "Alpino",
+        "given": "Nadine"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Dataset",
+    "id": "v8-i2-e5",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          7
+        ]
+      ]
+    },
+    "keyword": "archaeology, FAIR, Jupyter, Linked Open Data, OER, Python",
+    "language": "en",
+    "page": "§5",
+    "title": "FAIRyland: A playful dataset for teaching Linked Open Data in archaeology",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18726192",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Kasten",
+        "given": "Megan Nichole"
+      },
+      {
+        "family": "Distel",
+        "given": "Anne-Karoline"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Oldenburger 3D-Tage",
+    "event-place": "Hochschule für Technik und Wirtschaft, Dresden",
+    "event-title": "Oldenburger 3D-Tage",
+    "genre": "Presentation",
+    "id": "v8-i3-e1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "§1",
+    "title": "Cultural Heritage als FAIR Digital Object? 3D-Erfassung und semantische Vernetzung von Kulturerbe in Irland und Schottland",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18726246",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "Oldenburger 3D-Tage",
+    "event-place": "Hochschule für Technik und Wirtschaft, Dresden",
+    "event-title": "Oldenburger 3D-Tage",
+    "genre": "Presentation",
+    "id": "v8-i3-e2",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "§2",
+    "title": "Von der Hosentasche in den Wissensgraph: Smartphone-3D als FAIR Digital Object in der SquirrelBase",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18803485",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "thor Straten",
+        "given": "Mattis"
+      },
+      {
+        "family": "Strohm",
+        "given": "Steffen"
+      },
+      {
+        "family": "Renz",
+        "given": "Matthias"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE26",
+    "event-place": "University of Stuttgart, Stuttgart",
+    "event-title": "deRSE26",
+    "genre": "Poster",
+    "id": "v8-i3-e3",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§3",
+    "title": "Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18803727",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE26",
+    "event-place": "University of Stuttgart, Stuttgart",
+    "event-title": "deRSE26",
+    "genre": "Poster",
+    "id": "v8-i3-e4",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§4",
+    "title": "Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18803954",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Flemisch",
+        "given": "Bernd"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE26",
+    "event-place": "University of Stuttgart, Stuttgart",
+    "event-title": "deRSE26",
+    "genre": "Poster",
+    "id": "v8-i3-e5",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§5",
+    "title": "RSE across the NFDI - Connecting Infrastructure and Community through FAIR4RS Practice",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.18826868",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schubert",
+        "given": "Lutz Krister"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "deRSE26",
+    "event-place": "University of Stuttgart, Stuttgart",
+    "event-title": "deRSE26",
+    "genre": "Presentation",
+    "id": "v8-i3-e6",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§6",
+    "title": "chublets.software – Building a FAIR Software Marketplace for Cultural Heritage",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5281/zenodo.19200628",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Thiery",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "FOSSGIS-Konferenz 2026",
+    "event-place": "Georg-August-Universität Göttingen, Germany",
+    "event-title": "FOSSGIS-Konferenz 2026",
+    "genre": "Presentation",
+    "id": "v8-i3-e9",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          25
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "§9",
+    "title": "Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

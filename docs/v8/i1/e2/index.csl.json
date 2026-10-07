@@ -1,0 +1,30 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18441001",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Methodological working paper",
+    "id": "v8-i1-e2",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§2",
+    "title": "Gradual Semantic Alignment for SKOS: Quantifying Mapping Strength in Knowledge Graph Infrastructures",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

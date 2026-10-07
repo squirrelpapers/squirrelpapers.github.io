@@ -1,0 +1,42 @@
+[
+  {
+    "DOI": "10.5281/zenodo.18441544",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Noback",
+        "given": "Andreas"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      },
+      {
+        "family": "Kasten",
+        "given": "Megan Nichole"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Position paper",
+    "id": "v8-i1-e3",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          31
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "§3",
+    "title": "Bridging FDOs and Knowledge Graphs | Position Paper",
+    "type": "article-journal",
+    "volume": "8"
+  }
+]

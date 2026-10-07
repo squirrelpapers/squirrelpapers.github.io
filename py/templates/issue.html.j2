@@ -6,6 +6,7 @@
   <h1>{{ t.volume }} {{ v.volume }}, {{ t.issue }} {{ issue.issue }}</h1>
   {% if issue.title %}<p class="lead">{{ issue.title[lang] or issue.title.en }}</p>{% endif %}
   <p class="muted">{{ t.identifier }}: <a href="{{ issue.iri }}">{{ issue.iri }}</a>{% if issue.wikidata %} · <a href="https://www.wikidata.org/wiki/{{ issue.wikidata }}">{{ t.wikidata }}: {{ issue.wikidata }}</a>{% endif %}</p>
+  {% if downloads %}<p class="downloads">{{ t.export_all }}: {% for d in downloads %}<a href="{{ root }}{{ d.href }}" download>{{ d.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
   {% if issue.published %}<ul class="entry-list">{% for e in issue.published %}{{ entry_item(e, root, types, t, lang) }}{% endfor %}</ul>
   {% else %}<p class="muted">{{ t.no_entries }}</p>{% endif %}
 </div>

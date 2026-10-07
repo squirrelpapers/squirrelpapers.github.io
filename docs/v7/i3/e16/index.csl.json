@@ -1,0 +1,33 @@
+[
+  {
+    "DOI": "10.5281/zenodo.15667685",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "UK-Ireland DH Association Annual Event 2025",
+    "event-place": "University of Glasgow, Glasgow, United Kingdom (Scotland)",
+    "event-title": "UK-Ireland DH Association Annual Event 2025",
+    "genre": "Presentation",
+    "id": "v7-i3-e16",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "λ16",
+    "title": "Beyond Digital Boundaries - Linked Open Data and Wikidata with OG(H)AM and Holy Wells",
+    "type": "article-journal",
+    "volume": "7"
+  }
+]

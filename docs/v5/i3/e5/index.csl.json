@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.8334767",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Baars",
+        "given": "Stefanie"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA-DE Workshop",
+    "event-place": "Toscana-Saal der Residenz Würzburg",
+    "event-title": "CAA-DE Workshop",
+    "genre": "Presentation",
+    "id": "v5-i3-e5",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#5",
+    "title": "Umgang mit Unsicherheiten und Vagheiten bei der Georeferenzierung von Geo-Locations in der Archäologie und in den Geowissenschaften",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

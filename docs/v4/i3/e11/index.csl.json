@@ -1,0 +1,55 @@
+[
+  {
+    "DOI": "10.5281/zenodo.6976193",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Danthine",
+        "given": "Brigit"
+      },
+      {
+        "family": "High-Steskal",
+        "given": "Nicole"
+      },
+      {
+        "family": "Vitale",
+        "given": "Valeria"
+      },
+      {
+        "family": "Mees",
+        "given": "Allard W."
+      },
+      {
+        "family": "Tolle",
+        "given": "Karsten"
+      },
+      {
+        "family": "Wigg-Wolf",
+        "given": "David G."
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Presentation",
+    "id": "v4-i3-e11",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          9
+        ]
+      ]
+    },
+    "keyword": "Digital Archaeology, Linked Open Data",
+    "language": "en",
+    "page": "#11",
+    "title": "Hic sunt dracones - Real-world data-driven knowledge modelling resulting in Semantics and FAIR-LOD based tools and workflows",
+    "type": "article-journal",
+    "volume": "4"
+  }
+]

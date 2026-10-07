@@ -1,0 +1,34 @@
+[
+  {
+    "DOI": "10.5281/zenodo.10262720",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Schenk",
+        "given": "Fiona"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "genre": "Journal article",
+    "id": "v5-i1-e5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "#5",
+    "title": "How to locate the Campanian Ignimbrite site Urluia based on literature? How to provide and publish this data in a FAIR way?",
+    "type": "article-journal",
+    "volume": "5"
+  }
+]

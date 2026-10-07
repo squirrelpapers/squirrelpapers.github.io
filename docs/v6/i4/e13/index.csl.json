@@ -1,0 +1,41 @@
+[
+  {
+    "DOI": "10.5281/zenodo.13364680",
+    "ISSN": "2750-560X",
+    "author": [
+      {
+        "family": "Thiery",
+        "given": "Florian"
+      },
+      {
+        "family": "Gerber",
+        "given": "Anja"
+      },
+      {
+        "family": "Fricke",
+        "given": "Fabian"
+      }
+    ],
+    "container-title": "Squirrel Papers",
+    "event": "CAA Deutschland-Workshop 2024",
+    "event-place": "Historisches Seminar der Universität Münster, Münster, Germany",
+    "event-title": "CAA Deutschland-Workshop 2024",
+    "genre": "Presentation",
+    "id": "v6-i4-e13",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ]
+    },
+    "language": "de",
+    "page": "#13",
+    "title": "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken",
+    "type": "article-journal",
+    "volume": "6"
+  }
+]
