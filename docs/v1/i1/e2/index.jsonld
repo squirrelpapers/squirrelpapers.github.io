@@ -1,0 +1,252 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e2",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:WorkingPaper",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "We are in the middle of the digital transformation era, which, as a digital revolution, aects society in economic as well as\nin scientic terms. This digital revolution as a third part of industrial revolution is based on digital technologies that have\nalready become established in individual stages in various areas of life. Terms such as Industry 4.0, Work 4.0 and Web 4.0 are\nlived reality in our digital society.\nArcheology has also undergone a digital transformation from an analogous science to an Archaeology 4.0. Starting with an\nanalogue era, in which research data was kept in books, followed by a digital era in which digitization progresses and data are\npublished on the WWW, followed by a semantic era, in which semantic modelling and publication of Linked Data is reality,\nwe end up in a knowledge era, in which the analysis and the creation of new knowledge through machines will be reality."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.2629595",
+      "bibo:locator": "#2",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:working-paper"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1"
+      },
+      "dcat:keyword": [
+        "Archaeology 4.0",
+        "Articial Intelligence",
+        "Linked Data",
+        "Semantic Reasoning"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i1/e2/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:working-paper"
+      },
+      "dct:creator": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "dct:description": {
+        "@language": "en",
+        "@value": "We are in the middle of the digital transformation era, which, as a digital revolution, aects society in economic as well as\nin scientic terms. This digital revolution as a third part of industrial revolution is based on digital technologies that have\nalready become established in individual stages in various areas of life. Terms such as Industry 4.0, Work 4.0 and Web 4.0 are\nlived reality in our digital society.\nArcheology has also undergone a digital transformation from an analogous science to an Archaeology 4.0. Starting with an\nanalogue era, in which research data was kept in books, followed by a digital era in which digitization progresses and data are\npublished on the WWW, followed by a semantic era, in which semantic modelling and publication of Linked Data is reality,\nwe end up in a knowledge era, in which the analysis and the creation of new knowledge through machines will be reality."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.2629595",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2019-04-05"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Archaeology 4.0: Archaeology in the Third Era of Computing"
+      },
+      "dct:type": {
+        "@id": "sqpt:working-paper"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.2629595"
+      },
+      "prism:number": "1",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/2635487"
+      },
+      "sqp:citationLabel": "1(1), #2",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e2"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-04-05T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-04-05T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.2629595",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e2"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/2635487"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "3537296"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/2635487/files/Archaeology40.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "Archaeology40.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "dd984ddf4b8e77ff048d882100ba101d"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e2#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Archaeology 4.0: Archaeology in the Third Era of Computing"
+    }
+  ]
+}

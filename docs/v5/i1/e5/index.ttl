@@ -1,0 +1,125 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v5/i1/e5#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v5/i1/e5> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v5/i1/e5#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v5/i1/e5> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0008-2877-3204" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v5/i1/e5#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> .
+
+<https://w3id.org/squirrelpapers/v5/i1/e5#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2023-12-05T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2023-12-05T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v5/i1/e5#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.10262720" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v5/i1/e5#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "SqP_5_1__5_Urluia_Findspot.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v5/i1/e5#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v5/i1/e5> ;
+    dcat:accessURL <https://zenodo.org/records/10262721> ;
+    dcat:byteSize "11398412"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/10262721/files/SqP_5_1__5_Urluia_Findspot.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v5/i1/e5#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "dc9950a29e1cbe8cd7b29944e6ff03d9"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v5/i1/e5#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "How to locate the Campanian Ignimbrite site Urluia based on literature? How to provide and publish this data in a FAIR way?" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fiona Schenk" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0008-2877-3204> ;
+    foaf:familyName "Schenk" ;
+    foaf:givenName "Fiona" ;
+    foaf:name "Fiona Schenk" ;
+    schema:identifier <https://orcid.org/0009-0008-2877-3204> .
+
+<https://w3id.org/squirrelpapers/v5/i1/e5> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:JournalArticle,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "1" ;
+    prism:volume "5" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> ;
+    dct:description "Journal article published in the Squirrel Papers 5(1), #5."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.10262720" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v5/i1> ;
+    dct:issued "2023-12-05"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "How to locate the Campanian Ignimbrite site Urluia based on literature? How to provide and publish this data in a FAIR way?"@en ;
+    dct:type sqpt:journal-article ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v5/i1/e5#authors> ;
+    bibo:doi "10.5281/zenodo.10262720" ;
+    bibo:locator "#5" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v5/i1/e5#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v5/i1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v5/i1/e5#doi> ;
+    crm:P2_has_type sqpt:journal-article ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.10262720> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v5/i1/e5#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v5/i1> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v5/i1/e5/> ;
+    dcat:theme sqpt:journal-article ;
+    prov:wasDerivedFrom <https://zenodo.org/records/10262721> ;
+    sqp:citationLabel "5(1), #5" ;
+    sqp:entryNumber "5"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

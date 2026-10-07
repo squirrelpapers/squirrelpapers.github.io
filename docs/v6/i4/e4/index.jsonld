@@ -1,0 +1,351 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7933-3518",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7933-3518#orcid"
+      },
+      "foaf:familyName": "Hollaender",
+      "foaf:givenName": "Julian",
+      "foaf:name": "Julian Hollaender",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0001-7933-3518"
+      },
+      "rdfs:label": "Julian Hollaender",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0001-7933-3518"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7933-3518#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0001-7933-3518",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/papazoi-elli",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Papazoi",
+      "foaf:givenName": "Elli",
+      "foaf:name": "Elli Papazoi",
+      "rdfs:label": "Elli Papazoi"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/quintana-miguel-angel-dilena",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Quintana",
+      "foaf:givenName": "Miguel Angel Dilena",
+      "foaf:name": "Miguel Angel Dilena Quintana",
+      "rdfs:label": "Miguel Angel Dilena Quintana"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/skole-john",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Skole",
+      "foaf:givenName": "John",
+      "foaf:name": "John Skole",
+      "rdfs:label": "John Skole"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e4",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Expression",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Over the last 15 years, digital methods have been well-established in all documentary stages of archaeological research. As is known, each excavation develops integrally in a three-dimensional setting, hence the relevance of digitally gathering each component of the whole volumetric information. This includes the 3D capturing and modelling of excavation sites and recovered artefacts or structures that emerge via different approaches like Light Detection and Ranging (LiDaR), 3D (laser), programmatically combined procedures, scanning or photogrammetrical techniques, e.g. Structure from Motion (SfM).\nHowever, much of that spatial data is lost through the misapplication of documentation practices, the informatic guidelines and a missing Research Data Management (RDM). Crucial discussions around consistency and reproducibility in diverse software environments regarding these 3D methodologies, or their respective capacity for long-term storage and findability, accessibility, interoperability, and reusability (FAIR) faculties are ignored or left aside. In addition, the metadata modelling for these processes is still in its very early stages. Therefore, these discrepancies can impede different teams from comparing and disseminating the computerised results.\nFor this purpose, collaborative efforts, both in creating common documentation standards, free open source software (FOSS) and FAIRification tools and developing future-proof archiving instances have been made by various worldwide initiatives. However, they require a decidedly global perspective and acceptance.\nWe aim to bring together archaeologists and researchers concerned with the above-stated issues and work with all archaeological periods and digital technologies. We encourage them to present their views on this matter to debate about standardised methodologies capable of capturing, generating, archiving and disseminating archaeological 3D digital information."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.10515288",
+      "bibo:locator": "#4",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:conference-session"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v6/i4/e4/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:conference-session"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7933-3518"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/papazoi-elli"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/quintana-miguel-angel-dilena"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/skole-john"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Over the last 15 years, digital methods have been well-established in all documentary stages of archaeological research. As is known, each excavation develops integrally in a three-dimensional setting, hence the relevance of digitally gathering each component of the whole volumetric information. This includes the 3D capturing and modelling of excavation sites and recovered artefacts or structures that emerge via different approaches like Light Detection and Ranging (LiDaR), 3D (laser), programmatically combined procedures, scanning or photogrammetrical techniques, e.g. Structure from Motion (SfM).\nHowever, much of that spatial data is lost through the misapplication of documentation practices, the informatic guidelines and a missing Research Data Management (RDM). Crucial discussions around consistency and reproducibility in diverse software environments regarding these 3D methodologies, or their respective capacity for long-term storage and findability, accessibility, interoperability, and reusability (FAIR) faculties are ignored or left aside. In addition, the metadata modelling for these processes is still in its very early stages. Therefore, these discrepancies can impede different teams from comparing and disseminating the computerised results.\nFor this purpose, collaborative efforts, both in creating common documentation standards, free open source software (FOSS) and FAIRification tools and developing future-proof archiving instances have been made by various worldwide initiatives. However, they require a decidedly global perspective and acceptance.\nWe aim to bring together archaeologists and researchers concerned with the above-stated issues and work with all archaeological periods and digital technologies. We encourage them to present their views on this matter to debate about standardised methodologies capable of capturing, generating, archiving and disseminating archaeological 3D digital information."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.10515288",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2024-01-01"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Best Practices on Archaeological 3D Data Management: Methods and Approaches to Capture, Generate, and Disseminate 3D Information in Archaeology\""
+      },
+      "dct:type": {
+        "@id": "sqpt:conference-session"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.10515288"
+      },
+      "prism:number": "4",
+      "prism:volume": "6",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/10515289"
+      },
+      "sqp:citationLabel": "6(4), #4",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7933-3518"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/quintana-miguel-angel-dilena"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/skole-john"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/papazoi-elli"
+      },
+      "rdf:_5": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7933-3518"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/papazoi-elli"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/quintana-miguel-angel-dilena"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/skole-john"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e4"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-01-01T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-01-01T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.10515288",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e4"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/10515289"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "115184"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/10515289/files/EAA_2024_Rome_Session_797.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "EAA_2024_Rome_Session_797.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "b4bc9e8f8878a2447b6119d274dac726"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e4#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Best Practices on Archaeological 3D Data Management: Methods and Approaches to Capture, Generate, and Disseminate 3D Information in Archaeology\""
+    }
+  ]
+}

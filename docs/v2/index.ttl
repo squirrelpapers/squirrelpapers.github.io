@@ -1,0 +1,23 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://w3id.org/squirrelpapers/v2> a fabio:JournalVolume,
+        crm:E73_Information_Object,
+        dcat:DatasetSeries ;
+    prism:volume "2" ;
+    dct:description "Volume 2 of the Squirrel Papers, covering 2020."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v2/i1>,
+        <https://w3id.org/squirrelpapers/v2/i2>,
+        <https://w3id.org/squirrelpapers/v2/i3> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 2 (2020)"@de,
+        "Squirrel Papers, Volume 2 (2020)"@en ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/> ;
+    owl:sameAs wd:Q116235706 ;
+    dcat:landingPage <https://squirrelpapers.github.io/v2/> .
+

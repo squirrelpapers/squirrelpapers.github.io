@@ -1,0 +1,397 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2019",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v1/i2/e4"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v1/i2/e5"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2019#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2019#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/krakow-poland"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/krakow-poland"
+      },
+      "rdfs:label": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2019-03-24"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/krakow-poland"
+      },
+      "schema:name": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2019-03-24"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2019#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Computer Applications and Quantitative Methods in Archaeology (CAA)"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2019#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-03-24T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-03-24T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid"
+      },
+      "foaf:familyName": "Mees",
+      "foaf:givenName": "Allard W.",
+      "foaf:name": "Allard W. Mees",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      },
+      "rdfs:label": "Allard W. Mees",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7634-5342",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/krakow-poland",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(19.937222 50.061389)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(19.937222 50.061389)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/krakow-poland#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/krakow-poland#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q31487"
+      },
+      "rdfs:label": "Kraków",
+      "schema:addressCountry": {
+        "@id": "wd:Q11750541"
+      },
+      "schema:description": "Kraków, Poland",
+      "schema:latitude": 50.061389,
+      "schema:longitude": 19.937222
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/krakow-poland#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(19.937222 50.061389)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e5",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Alligator and the Academic Meta Tool (AMT) are two prototypical little minions which in combination allow for establishing relative chronologies according to Allen’s interval algebra as Linked Open Data. Starting with a correspondence analyse, this combination of tools achieves temporal reasoning with vague edge information in RDF graphs. The semantical structure of Alligator and AMT is described in ontologies to provide reproducible, interoperable and comprehensible research results. Alligator is developed at the Römisch-Germanisches Zentralmuseum Mainz (RGZM). It consists of an ontology and a web app for transforming correspondence analyses with fixed and floating time intervals into a relative chronology and Resource Description Framework (RDF) representation using Allen's interval algebra. The Academic Meta Tool is developed at the Mainz Centre for Digitality in the Humanities and Cultural Studies (mainzed), the RGZM and the i3mainz - Institute for Spatial Information and Surveying Technology at the Hochschule Mainz University of Applied Sciences. AMT allows for creating ontologies and provides a JavaScript framework for modelling vagueness in graphs, including reasoning, particularly modelled as RDF. This minion talk focuses on a short technical insight into the little minions Alligator and AMT. The tools are demonstrated with an example of Limes dating with Samian."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.2648202",
+      "bibo:locator": "#5",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2019"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2"
+      },
+      "dcat:keyword": [
+        "Allen's interval algebra",
+        "Chronology",
+        "Linked Open Data",
+        "Samian (Terra Sigillata)",
+        "reproducible research"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i2/e5/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Alligator and the Academic Meta Tool (AMT) are two prototypical little minions which in combination allow for establishing relative chronologies according to Allen’s interval algebra as Linked Open Data. Starting with a correspondence analyse, this combination of tools achieves temporal reasoning with vague edge information in RDF graphs. The semantical structure of Alligator and AMT is described in ontologies to provide reproducible, interoperable and comprehensible research results. Alligator is developed at the Römisch-Germanisches Zentralmuseum Mainz (RGZM). It consists of an ontology and a web app for transforming correspondence analyses with fixed and floating time intervals into a relative chronology and Resource Description Framework (RDF) representation using Allen's interval algebra. The Academic Meta Tool is developed at the Mainz Centre for Digitality in the Humanities and Cultural Studies (mainzed), the RGZM and the i3mainz - Institute for Spatial Information and Surveying Technology at the Hochschule Mainz University of Applied Sciences. AMT allows for creating ontologies and provides a JavaScript framework for modelling vagueness in graphs, including reasoning, particularly modelled as RDF. This minion talk focuses on a short technical insight into the little minions Alligator and AMT. The tools are demonstrated with an example of Limes dating with Samian."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.2648202",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2019-03-24"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Taming Time Tools: Alligator and Academic Meta Tool"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.2648202"
+      },
+      "prism:number": "2",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/2648216"
+      },
+      "sqp:citationLabel": "1(2), #5",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e5"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-03-24T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-03-24T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.2648202",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e5"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/2648216"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "3016129"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/2648216/files/2019_04_24_CAA_Krakow_Minions.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2019_04_24_CAA_Krakow_Minions.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "fff07bea061944306106892c6d0c2d25"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e5#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Taming Time Tools: Alligator and Academic Meta Tool"
+    }
+  ]
+}

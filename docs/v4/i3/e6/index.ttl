@@ -1,0 +1,187 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e6#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v4/i3/e6> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-8604-544X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v4/i3/e6#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v4/i3/e6> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7634-5342" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-8604-544X#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-8604-544X" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9953-7638" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e6#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/0000-0002-8604-544X> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e6#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2022-02-04T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2022-02-04T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v4/i3/e6#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.6043048" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e6#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "HowToHandleVaguenessAndUncertainty_Graphum2022.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v4/i3/e6#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v4/i3/e6> ;
+    dcat:accessURL <https://zenodo.org/records/6043049> ;
+    dcat:byteSize "9858061"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/6043049/files/HowToHandleVaguenessAndUncertainty_Graphum2022.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e6#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "4b6b8bdf43d603e6b27b2daaae411f67"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v4/i3/e6#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "How to handle vagueness and uncertainty in graph-based LOD knowledge modelling? Dealing with archaeological numismatic and ceramological real world data." .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Allard W. Mees" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7634-5342> ;
+    foaf:familyName "Mees" ;
+    foaf:givenName "Allard W." ;
+    foaf:name "Allard W. Mees" ;
+    schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-8604-544X> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "David G. Wigg-Wolf" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-8604-544X#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-8604-544X> ;
+    foaf:familyName "Wigg-Wolf" ;
+    foaf:givenName "David G." ;
+    foaf:name "David G. Wigg-Wolf" ;
+    schema:identifier <https://orcid.org/0000-0002-8604-544X> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Karsten Tolle" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9953-7638> ;
+    foaf:familyName "Tolle" ;
+    foaf:givenName "Karsten" ;
+    foaf:name "Karsten Tolle" ;
+    schema:identifier <https://orcid.org/0000-0002-9953-7638> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e6> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "4" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-8604-544X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> ;
+    dct:description """Strategies for graph-based knowledge modelling as Linked Open Data (LOD) of real world archaeological data comprising vague and/or uncertain information are widely lacking. Semantically modelled information related to fuzziness and wobbliness in numismatics and ceramic studies will allow for analysis based on reasoning of archaeological research data, eventually revealing imperfect inferences. Uniform modelling of uncertainties and vagueness in research data is extremely challenging. In the context of archaeological data these aspects can appear in any phase starting from the discovery of an object through each further processing step. It also might depend on context- and meta-information, such as who performed the steps, and in the case of archaeological objects it also depends to a great extent on the preservation of the object itself and its archaeological context. It should be noted that context is a friendly notation for an endless beast!
+When focusing on modelling uncertainties and vagueness in RDF, we can find different approaches, for example special properties, refined statements, attribute assignments or blank scope nodes, which have been tested in best practices for numismatics (TWW15; SM14; TM18) and ceramics (TM21), recently by using the Academic Meta Tool (AMT) (UTM19;UT18; TU18). The jury is still out on which of these approaches would be the best, since each of them has different advantages and drawbacks. At least in the domain of archaeology there is no consensus, e.g. for CIDOC CRM this matter is still an open issue (CIDOC2019) and the same is true for Nomisma.org for example. This results in either non-homogeneous modelling even within the same domains, while transformation rules between modelling concepts for vagueness and uncertainty are missing. On top of this, uncertain and vague information may simply be removed from the publicly available data or even worse, is not even captured and stored at all.
+This paper discusses and evaluates modelling approaches, challenges, and limits to fuzziness and wobbliness (e.g. uncertainty, vagueness, accuracy, and precision) in research data in the exemplary contexts of numismatics and ceramic research. Both areas are similar, but both follow their own intrinsic research aspects and both underly different use wear conditions (corrosion, fragileness). By comparing the two domains, we hope to have a broader approach in the modelling possibilities and their effects. The results should serve as a basis for answering the question as to which of the modelling approaches should be preferred and how a mapping between them could be performed. Via the CAA Special Interest Group (SIG) on Semantics and LOUD in Archaeology (SIG-DataDragon) [http://datadragon.link] it then can be evaluated and scaled to other subject domains.
+Bibliography
+CIDOC (2019). Issue 349: Belief Values. URL: http://www.cidoc-crm.org/Issue/ID-349-belief-values.
+S. Metzger (2014). Modeling Uncertainty and Beliefs using Ontologies. Bachelor-Thesis, Goethe-University Frankfurt am Main, Department of Computer Science. URL: http://www.bigdata.uni-frankfurt.de/wp-content/uploads/2021/05/Modeling-Uncertainty-and-Beliefs-using-Ontologies_Melvin_S_Metzger.pdf.
+F. Thiery, A. Mees (2021). Linked Open Samian Ware - AMT Perspective. DOI: 10.5281/zenodo.5415571.
+F. Thiery, M. Unold (2018). Academic Meta Tool Ontology. URL: http://academic-meta-tool.xyz/ontology.
+F. Thiery, A. Mees (2018). Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD, Computer Applications and Quantitative Methods in Archaeology (CAA), Tübingen, Germany, 22nd March 2018. DOI: 10.5281/zenodo.1200111.
+K. Tolle, D. Wigg-Wolf. (2015).  Uncertainty Handling for Ancient Coinage. In: F. Giligny, F. Djindjian, L. Costa, P. Moscati, and S. Robert, Eds., CAA2014. 21st Century Archaeology. Concepts, Methods and Tools. Proceedings of the 42nd Annual Conference on Computer Applications and Quantitative Methods in Archaeology., 171–78. Oxford: Archaeopress.
+M. Unold, F. Thiery, A. Mees (2019). Academic Meta Tool – Ein Web-Tool zur Modellierung von Vagheit. In: A. Kuczera, T. Wübbena, and T. Kollatz, Eds., Die Modellierung des Zweifels – Schlüsselideen und -konzepte zur graphbasierten Modellierung von Unsicherheiten, Zeitschrift für digitale Geisteswissenschaften / Sonderbände, 4. DOI: 10.17175/sb004_004.
+M. Unold, F. Thiery (2018). Academic Meta Tool JavaScript Library. DOI: 10.5281/zenodo.3992520."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.6043048" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v4/i3> ;
+    dct:issued "2022-02-04"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "How to handle vagueness and uncertainty in graph-based LOD knowledge modelling? Dealing with archaeological numismatic and ceramological real world data."@en ;
+    dct:type sqpt:presentation ;
+    bibo:abstract """Strategies for graph-based knowledge modelling as Linked Open Data (LOD) of real world archaeological data comprising vague and/or uncertain information are widely lacking. Semantically modelled information related to fuzziness and wobbliness in numismatics and ceramic studies will allow for analysis based on reasoning of archaeological research data, eventually revealing imperfect inferences. Uniform modelling of uncertainties and vagueness in research data is extremely challenging. In the context of archaeological data these aspects can appear in any phase starting from the discovery of an object through each further processing step. It also might depend on context- and meta-information, such as who performed the steps, and in the case of archaeological objects it also depends to a great extent on the preservation of the object itself and its archaeological context. It should be noted that context is a friendly notation for an endless beast!
+When focusing on modelling uncertainties and vagueness in RDF, we can find different approaches, for example special properties, refined statements, attribute assignments or blank scope nodes, which have been tested in best practices for numismatics (TWW15; SM14; TM18) and ceramics (TM21), recently by using the Academic Meta Tool (AMT) (UTM19;UT18; TU18). The jury is still out on which of these approaches would be the best, since each of them has different advantages and drawbacks. At least in the domain of archaeology there is no consensus, e.g. for CIDOC CRM this matter is still an open issue (CIDOC2019) and the same is true for Nomisma.org for example. This results in either non-homogeneous modelling even within the same domains, while transformation rules between modelling concepts for vagueness and uncertainty are missing. On top of this, uncertain and vague information may simply be removed from the publicly available data or even worse, is not even captured and stored at all.
+This paper discusses and evaluates modelling approaches, challenges, and limits to fuzziness and wobbliness (e.g. uncertainty, vagueness, accuracy, and precision) in research data in the exemplary contexts of numismatics and ceramic research. Both areas are similar, but both follow their own intrinsic research aspects and both underly different use wear conditions (corrosion, fragileness). By comparing the two domains, we hope to have a broader approach in the modelling possibilities and their effects. The results should serve as a basis for answering the question as to which of the modelling approaches should be preferred and how a mapping between them could be performed. Via the CAA Special Interest Group (SIG) on Semantics and LOUD in Archaeology (SIG-DataDragon) [http://datadragon.link] it then can be evaluated and scaled to other subject domains.
+Bibliography
+CIDOC (2019). Issue 349: Belief Values. URL: http://www.cidoc-crm.org/Issue/ID-349-belief-values.
+S. Metzger (2014). Modeling Uncertainty and Beliefs using Ontologies. Bachelor-Thesis, Goethe-University Frankfurt am Main, Department of Computer Science. URL: http://www.bigdata.uni-frankfurt.de/wp-content/uploads/2021/05/Modeling-Uncertainty-and-Beliefs-using-Ontologies_Melvin_S_Metzger.pdf.
+F. Thiery, A. Mees (2021). Linked Open Samian Ware - AMT Perspective. DOI: 10.5281/zenodo.5415571.
+F. Thiery, M. Unold (2018). Academic Meta Tool Ontology. URL: http://academic-meta-tool.xyz/ontology.
+F. Thiery, A. Mees (2018). Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD, Computer Applications and Quantitative Methods in Archaeology (CAA), Tübingen, Germany, 22nd March 2018. DOI: 10.5281/zenodo.1200111.
+K. Tolle, D. Wigg-Wolf. (2015).  Uncertainty Handling for Ancient Coinage. In: F. Giligny, F. Djindjian, L. Costa, P. Moscati, and S. Robert, Eds., CAA2014. 21st Century Archaeology. Concepts, Methods and Tools. Proceedings of the 42nd Annual Conference on Computer Applications and Quantitative Methods in Archaeology., 171–78. Oxford: Archaeopress.
+M. Unold, F. Thiery, A. Mees (2019). Academic Meta Tool – Ein Web-Tool zur Modellierung von Vagheit. In: A. Kuczera, T. Wübbena, and T. Kollatz, Eds., Die Modellierung des Zweifels – Schlüsselideen und -konzepte zur graphbasierten Modellierung von Unsicherheiten, Zeitschrift für digitale Geisteswissenschaften / Sonderbände, 4. DOI: 10.17175/sb004_004.
+M. Unold, F. Thiery (2018). Academic Meta Tool JavaScript Library. DOI: 10.5281/zenodo.3992520."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v4/i3/e6#authors> ;
+    bibo:doi "10.5281/zenodo.6043048" ;
+    bibo:locator "#6" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v4/i3/e6#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v4/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v4/i3/e6#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.6043048> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v4/i3/e6#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v4/i3> ;
+    dcat:keyword "Graph",
+        "Linked Data",
+        "Uncertainty",
+        "Vagueness" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v4/i3/e6/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/6043049> ;
+    sqp:citationLabel "4(3), #6" ;
+    sqp:entryNumber "6"^^xsd:positiveInteger .
+

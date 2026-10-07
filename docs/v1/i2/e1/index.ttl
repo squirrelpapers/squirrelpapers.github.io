@@ -1,0 +1,154 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i2/e1#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v1/i2/e1> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v1/i2/e1#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v1/i2/e1> .
+
+<https://w3id.org/squirrelpapers/event/intergeo-conference-2019> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Intergeo Conference" ;
+    event:place <https://w3id.org/squirrelpapers/place/stuttgart-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i2/e1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/intergeo-conference-2019#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/intergeo-conference-2019#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/stuttgart-germany> ;
+    schema:endDate "2019-09-17"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/stuttgart-germany> ;
+    schema:name "Intergeo Conference" ;
+    schema:startDate "2019-09-17"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/intergeo-conference-2019#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Intergeo Conference" .
+
+<https://w3id.org/squirrelpapers/event/intergeo-conference-2019#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2019-09-17T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2019-09-17T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v1/i2/e1#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v1/i2/e1#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2019-09-17T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2019-09-17T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v1/i2/e1#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.3403029" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v1/i2/e1#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "2019_09_17_Intergeo_Stuttgart_LDC.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v1/i2/e1#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v1/i2/e1> ;
+    dcat:accessURL <https://zenodo.org/records/3403030> ;
+    dcat:byteSize "2110764"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/3403030/files/2019_09_17_Intergeo_Stuttgart_LDC.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v1/i2/e1#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "65bfc3243fcd4005e9836b4081d2f15f"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v1/i2/e1#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Linked Data Cloud: Bindeglied zwischen Geodäsie und Gesellschaft" .
+
+<https://w3id.org/squirrelpapers/place/stuttgart-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(9.18 48.7775)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/stuttgart-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Stuttgart" ;
+    crm:P168_place_is_defined_by "POINT(9.18 48.7775)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/stuttgart-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/stuttgart-germany#geometry> ;
+    owl:sameAs wd:Q1022 ;
+    dcat:centroid "POINT(9.18 48.7775)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q159631 ;
+    schema:description "Stuttgart, Germany" ;
+    schema:latitude 4.87775e+01 ;
+    schema:longitude 9.18e+00 .
+
+<https://w3id.org/squirrelpapers/v1/i2/e1> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "2" ;
+    prism:volume "1" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description "Geodäten leben bereits im Jahr 2019 in einer globalen, digitalen und vernetzten Welt: der Cloud. Wir erleben das Arbeiten 4.0 in einer Industrie 4.0 mit dem Einsatz von cyber-physischen Systemen und der Vernetzung von Maschinen, Geräten, Sensoren, Menschen und Daten. 80% aller Daten besitzen einen Raumbezug, somit sind Geodaten der Treibstoff der digitalen Gesellschaft. Darüber hinaus werden Bestandteile des OOO-Modells immer wichtiger: Open Source Software, Open (Geo-) Data und Open Access. Zur Bereitstellung von offenen und freien (Geo-) Daten in interoperablen Formaten eigenen sich insbesondere Techniken des Web 3.0, sogenannte Linked Open Data (LOD), bzw. Linked Open Geodata. Durch die Bereitstellung von LO(Geo-)D entsteht eine riesige vernetzte Linked Data Cloud verschiedenster Disziplinen (Geodäsie / Geisteswissenschaften / Naturwissenschaften), in der amtliche Geodaten als Bindeglied dienen, um neues Wissen für die Gesellschaft zu erzeugen."@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.3403029" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1/i2> ;
+    dct:issued "2019-09-17"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Linked Data Cloud: Bindeglied zwischen Geodäsie und Gesellschaft"@de ;
+    dct:type sqpt:presentation ;
+    bibo:abstract "Geodäten leben bereits im Jahr 2019 in einer globalen, digitalen und vernetzten Welt: der Cloud. Wir erleben das Arbeiten 4.0 in einer Industrie 4.0 mit dem Einsatz von cyber-physischen Systemen und der Vernetzung von Maschinen, Geräten, Sensoren, Menschen und Daten. 80% aller Daten besitzen einen Raumbezug, somit sind Geodaten der Treibstoff der digitalen Gesellschaft. Darüber hinaus werden Bestandteile des OOO-Modells immer wichtiger: Open Source Software, Open (Geo-) Data und Open Access. Zur Bereitstellung von offenen und freien (Geo-) Daten in interoperablen Formaten eigenen sich insbesondere Techniken des Web 3.0, sogenannte Linked Open Data (LOD), bzw. Linked Open Geodata. Durch die Bereitstellung von LO(Geo-)D entsteht eine riesige vernetzte Linked Data Cloud verschiedenster Disziplinen (Geodäsie / Geisteswissenschaften / Naturwissenschaften), in der amtliche Geodaten als Bindeglied dienen, um neues Wissen für die Gesellschaft zu erzeugen."@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v1/i2/e1#authors> ;
+    bibo:doi "10.5281/zenodo.3403029" ;
+    bibo:locator "#1" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/intergeo-conference-2019> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v1/i2/e1#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1/i2> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v1/i2/e1#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.3403029> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v1/i2/e1#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1/i2> ;
+    dcat:keyword "Arbeiten 4.0",
+        "Geodäsie 2030",
+        "Linked Data",
+        "Linked Open Geodata" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i2/e1/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/3403030> ;
+    sqp:citationLabel "1(2), #1" ;
+    sqp:entryNumber "1"^^xsd:positiveInteger .
+

@@ -1,0 +1,34 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i3> a fabio:JournalIssue,
+        crm:E73_Information_Object,
+        dcat:DatasetSeries ;
+    prism:number "3" ;
+    prism:volume "6" ;
+    dct:description "Special Issue on conferences and talks"@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v6/i3/e1>,
+        <https://w3id.org/squirrelpapers/v6/i3/e10>,
+        <https://w3id.org/squirrelpapers/v6/i3/e11>,
+        <https://w3id.org/squirrelpapers/v6/i3/e12>,
+        <https://w3id.org/squirrelpapers/v6/i3/e3>,
+        <https://w3id.org/squirrelpapers/v6/i3/e4>,
+        <https://w3id.org/squirrelpapers/v6/i3/e5>,
+        <https://w3id.org/squirrelpapers/v6/i3/e6>,
+        <https://w3id.org/squirrelpapers/v6/i3/e7>,
+        <https://w3id.org/squirrelpapers/v6/i3/e8>,
+        <https://w3id.org/squirrelpapers/v6/i3/e9> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6> ;
+    dct:title "Squirrel Papers, Band 6, Heft 3: Sonderheft Konferenzen und Vorträge"@de,
+        "Squirrel Papers, Volume 6, Issue 3: Special Issue on conferences and talks"@en ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i3/> ;
+    sqp:sigil "#" ;
+    sqp:specialIssue true .
+

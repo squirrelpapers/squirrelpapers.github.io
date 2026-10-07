@@ -1,0 +1,348 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/derse19-konferenz-fur-forschungssoftwareentwicklerinnen-in-2019",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/derse19-konferenz-fur-forschungssoftwareentwicklerinnen-in-2019#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/derse19-konferenz-fur-forschungssoftwareentwicklerinnen-in-2019#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/potsdam-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/potsdam-germany"
+      },
+      "rdfs:label": "deRSE19 - Konferenz für ForschungssoftwareentwicklerInnen in Deutschland (deRSE19)",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2019-06-05"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/potsdam-germany"
+      },
+      "schema:name": "deRSE19 - Konferenz für ForschungssoftwareentwicklerInnen in Deutschland (deRSE19)",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2019-06-05"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/derse19-konferenz-fur-forschungssoftwareentwicklerinnen-in-2019#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "deRSE19 - Konferenz für ForschungssoftwareentwicklerInnen in Deutschland (deRSE19)"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/derse19-konferenz-fur-forschungssoftwareentwicklerinnen-in-2019#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-06-05T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-06-05T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/potsdam-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(13.05914 52.400931)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(13.05914 52.400931)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/potsdam-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/potsdam-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1711"
+      },
+      "rdfs:label": "Potsdam",
+      "schema:addressCountry": {
+        "@id": "wd:Q148499"
+      },
+      "schema:description": "Potsdam, Germany",
+      "schema:latitude": 52.400931,
+      "schema:longitude": 13.05914
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/potsdam-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(13.05914 52.400931)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e7",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ConferencePoster",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Zur interoperablen und semantischen Modellierung von Forschungsdaten in den Geistes- und Kulturwissenschaften werden z.B. Graphstrukturen wie Linked Data verwendet. Gängige Triple Stores bieten jedoch keine Möglichkeit Zweifel zu modellieren. Hierzu haben die mainzed-Netzwerker Martin Unold und Florian Thiery das Academic Meta Tool (AMT) entwickelt. AMT bietet die Möglichkeit, sämtlichen Kanten eine Gewichtung (Grad der Beziehung) hinzuzufügen, um dadurch die Vagheit dieser Kante auszudrücken. AMT beinhaltet zusätzlich ein Verfahren, um aus vorhandenen graphbasierten Daten automatisch Schlussfolgerungen zu ziehen (Reasoning). Die Core-Software besteht aus JavaScript-Code, wird jedoch perspektivisch auch als JAVA API zur Verfügung stehen."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.3237306",
+      "bibo:locator": "#7",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/derse19-konferenz-fur-forschungssoftwareentwicklerinnen-in-2019"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:poster"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2"
+      },
+      "dcat:keyword": [
+        "Linked Data",
+        "RDF",
+        "Vagheit"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i2/e7/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:poster"
+      },
+      "dct:creator": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "dct:description": {
+        "@language": "de",
+        "@value": "Zur interoperablen und semantischen Modellierung von Forschungsdaten in den Geistes- und Kulturwissenschaften werden z.B. Graphstrukturen wie Linked Data verwendet. Gängige Triple Stores bieten jedoch keine Möglichkeit Zweifel zu modellieren. Hierzu haben die mainzed-Netzwerker Martin Unold und Florian Thiery das Academic Meta Tool (AMT) entwickelt. AMT bietet die Möglichkeit, sämtlichen Kanten eine Gewichtung (Grad der Beziehung) hinzuzufügen, um dadurch die Vagheit dieser Kante auszudrücken. AMT beinhaltet zusätzlich ein Verfahren, um aus vorhandenen graphbasierten Daten automatisch Schlussfolgerungen zu ziehen (Reasoning). Die Core-Software besteht aus JavaScript-Code, wird jedoch perspektivisch auch als JAVA API zur Verfügung stehen."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.3237306",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2019-06-05"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Academic Meta Tool – Ein RDF basiertes Web-Tool zur Modellierung des Zweifels in den Digital Humanities"
+      },
+      "dct:type": {
+        "@id": "sqpt:poster"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.3237306"
+      },
+      "prism:number": "2",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/3237307"
+      },
+      "sqp:citationLabel": "1(2), #7",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "7"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-06-05T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-06-05T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.3237306",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/3237307"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "237085"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/3237307/files/26_Thiery_Lightning.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "26_Thiery_Lightning.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "ceb15589cc1660bf8d74e5929d2d7c1a"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e7#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Academic Meta Tool – Ein RDF basiertes Web-Tool zur Modellierung des Zweifels in den Digital Humanities"
+    }
+  ]
+}

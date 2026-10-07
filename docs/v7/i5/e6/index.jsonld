@@ -1,0 +1,792 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e1"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e10"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e2"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e3"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e4"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e5"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e6"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e7"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e8"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e9"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "rdfs:label": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2025-08-28"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "schema:name": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2025-08-26"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "2nd Conference on Research Data Infrastructure (CoRDI) 2025"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-28T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5246-9351",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5246-9351#orcid"
+      },
+      "foaf:familyName": "Baum",
+      "foaf:givenName": "Roman",
+      "foaf:name": "Roman Baum",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0001-5246-9351"
+      },
+      "rdfs:label": "Roman Baum",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0001-5246-9351"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5246-9351#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0001-5246-9351",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid"
+      },
+      "foaf:familyName": "Flemisch",
+      "foaf:givenName": "Bernd",
+      "foaf:name": "Bernd Flemisch",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0001-8188-620X"
+      },
+      "rdfs:label": "Bernd Flemisch",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0001-8188-620X"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0001-8188-620X",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9523-7227",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9523-7227#orcid"
+      },
+      "foaf:familyName": "Ferenz",
+      "foaf:givenName": "Stephan",
+      "foaf:name": "Stephan Ferenz",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0001-9523-7227"
+      },
+      "rdfs:label": "Stephan Ferenz",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0001-9523-7227"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9523-7227#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0001-9523-7227",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1213-5135",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1213-5135#orcid"
+      },
+      "foaf:familyName": "Reinhardt",
+      "foaf:givenName": "Martin",
+      "foaf:name": "Martin Reinhardt",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-1213-5135"
+      },
+      "rdfs:label": "Martin Reinhardt",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-1213-5135"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1213-5135#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-1213-5135",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2755-5087",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2755-5087#orcid"
+      },
+      "foaf:familyName": "Linxweiler",
+      "foaf:givenName": "Jan",
+      "foaf:name": "Jan Linxweiler",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-2755-5087"
+      },
+      "rdfs:label": "Jan Linxweiler",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-2755-5087"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2755-5087#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-2755-5087",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4127-0053",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4127-0053#orcid"
+      },
+      "foaf:familyName": "Bernoth",
+      "foaf:givenName": "Jan",
+      "foaf:name": "Jan Bernoth",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-4127-0053"
+      },
+      "rdfs:label": "Jan Bernoth",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-4127-0053"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4127-0053#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-4127-0053",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid"
+      },
+      "foaf:familyName": "Sure-Vetter",
+      "foaf:givenName": "York",
+      "foaf:name": "York Sure-Vetter",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-4522-1099"
+      },
+      "rdfs:label": "York Sure-Vetter",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-4522-1099"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-4522-1099",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid"
+      },
+      "foaf:familyName": "Groth",
+      "foaf:givenName": "Paul",
+      "foaf:name": "Paul Groth",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-0183-6910"
+      },
+      "rdfs:label": "Paul Groth",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-0183-6910"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-0183-6910",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid"
+      },
+      "foaf:familyName": "Schubert",
+      "foaf:givenName": "Lutz Krister",
+      "foaf:name": "Lutz Krister Schubert",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-4889-9353"
+      },
+      "rdfs:label": "Lutz Krister Schubert",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-4889-9353"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-4889-9353",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0004-0779-3186",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0004-0779-3186#orcid"
+      },
+      "foaf:familyName": "Seiwerth",
+      "foaf:givenName": "Corinna",
+      "foaf:name": "Corinna Seiwerth",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0004-0779-3186"
+      },
+      "rdfs:label": "Corinna Seiwerth",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0004-0779-3186"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0004-0779-3186#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0004-0779-3186",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0006-0497-2327",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0006-0497-2327#orcid"
+      },
+      "foaf:familyName": "Hetényi",
+      "foaf:givenName": "Beate",
+      "foaf:name": "Beate Hetényi",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0006-0497-2327"
+      },
+      "rdfs:label": "Beate Hetényi",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0006-0497-2327"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0006-0497-2327#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0006-0497-2327",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q273263"
+      },
+      "rdfs:label": "RWTH Aachen University",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+      "schema:latitude": 50.777778,
+      "schema:longitude": 6.078056
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e6",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ProceedingsPaper",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "In the context of the German National Research Data Infrastructure (NFDI), Research Software Engineers (RSEs) and research software play crucial and increasingly formalised roles in enabling the creation, management, and sustainable reuse of research artefacts such as data and software [1], [2]. This contribution introduces a layered model of roles and responsibilities developed by the Working Group Research Software Engineering of the NFDI section Common Infrastructures [3]-[6] (INFRA-WG-RSE). The model reflects its implications for Research Data Management (RDM) and Research Data Infrastructures (RDI). It works with other sections and working groups, e.g. WG RSM [7] (Fig. 1) within NFDI. The core of this model (Fig. 2) is the recognition that RSE in RDI consists of three foundational pillars: P-I) Research Software as Research Artifact [8] P-II) Research Software as FAIRification Service P-III) Research Software as Infrastructure Service for FAIRification (e.g., Basic Services of Base4NFDI) [9], [10] These three pillars illustrate how research software acts as a tool and an integral and multifaceted component of digital research workflows. It may be a research output or contribute to generating it. In more mature cases, it can evolve into a reusable, community-maintained service within a portfolio of infrastructure services like NFDI. To support these roles, the RSE community engages in five cross-cutting tasks (CCT): A) Create Research Software Metadata to apply FAIR4RS [11] B) Implement Research Software (Quality) Criteria C) Contribute to the Research Software Infrastructure and Archiving D) Make Tools FAIR within a Research Software Marketplace E) Create Guidelines and give Training This structured approach forms the conceptual and operational foundation of the INFRA-WG-RSE. The group serves as a hub for coordination and networking across NFDI consortia, contributing to Base4NFDI services and fostering the adoption of FAIR4RS principles through shared practices, policies, and tooling. Precisely, CCT-C aligns with the Basic Service Jupyter4NFDI, supporting federated infrastructures for computational workflows. Contributions like the Jupyter Python Minions [12] from computational archaeology—as a use case from the humanities—offer reusable, modular FAIRification helpers in Jupyter-based environments. Similarly, CCT-D contributes to nfdi.software, a central Basic Service to interlink and sustain domain-specific software registries, such as those from NFDI4Objects, NFDI4Energy, and NFDI4ING (Betty's Research Engine), among others. The Basic Service TS4NFDI develops, e.g., widgets within the Terminology Service Suite [13] (P-III). Tools from the NFDI4Objects domain, e.g., the SPARQLing Unicorn QGIS Plugin [14] and the AMT [15], enable domain researchers to integrate data from the NFDI Knowledge Graph Ecosystem into established Open Source environments (P-II). Furthermore, the Alligator method [16] illustrates \"Research Software as Research Artifact\" (P-1). The WG RSM [7] within the NFDI section (Meta)data, Terminologies, Provenance complements these efforts by developing standardised metadata models to support interoperability and discoverability of research software also using nfdi.software, contributing directly to the realisation of FAIR4RS. We conclude with recommendations for more strongly integrating RSE roles into the strategic development of the NFDI, highlighting that software is more than a technical asset: it is a cultural, infrastructural, and epistemic cornerstone of modern research."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.16736041",
+      "bibo:editor": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910"
+        }
+      ],
+      "bibo:locator": "𝒬6",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "dcat:keyword": [
+        "NFDI",
+        "Research Data Management",
+        "Research Data",
+        "Research Software Engineering",
+        "Software"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v7/i5/e6/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5246-9351"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9523-7227"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1213-5135"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2755-5087"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4127-0053"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0004-0779-3186"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0006-0497-2327"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "In the context of the German National Research Data Infrastructure (NFDI), Research Software Engineers (RSEs) and research software play crucial and increasingly formalised roles in enabling the creation, management, and sustainable reuse of research artefacts such as data and software [1], [2]. This contribution introduces a layered model of roles and responsibilities developed by the Working Group Research Software Engineering of the NFDI section Common Infrastructures [3]-[6] (INFRA-WG-RSE). The model reflects its implications for Research Data Management (RDM) and Research Data Infrastructures (RDI). It works with other sections and working groups, e.g. WG RSM [7] (Fig. 1) within NFDI. The core of this model (Fig. 2) is the recognition that RSE in RDI consists of three foundational pillars: P-I) Research Software as Research Artifact [8] P-II) Research Software as FAIRification Service P-III) Research Software as Infrastructure Service for FAIRification (e.g., Basic Services of Base4NFDI) [9], [10] These three pillars illustrate how research software acts as a tool and an integral and multifaceted component of digital research workflows. It may be a research output or contribute to generating it. In more mature cases, it can evolve into a reusable, community-maintained service within a portfolio of infrastructure services like NFDI. To support these roles, the RSE community engages in five cross-cutting tasks (CCT): A) Create Research Software Metadata to apply FAIR4RS [11] B) Implement Research Software (Quality) Criteria C) Contribute to the Research Software Infrastructure and Archiving D) Make Tools FAIR within a Research Software Marketplace E) Create Guidelines and give Training This structured approach forms the conceptual and operational foundation of the INFRA-WG-RSE. The group serves as a hub for coordination and networking across NFDI consortia, contributing to Base4NFDI services and fostering the adoption of FAIR4RS principles through shared practices, policies, and tooling. Precisely, CCT-C aligns with the Basic Service Jupyter4NFDI, supporting federated infrastructures for computational workflows. Contributions like the Jupyter Python Minions [12] from computational archaeology—as a use case from the humanities—offer reusable, modular FAIRification helpers in Jupyter-based environments. Similarly, CCT-D contributes to nfdi.software, a central Basic Service to interlink and sustain domain-specific software registries, such as those from NFDI4Objects, NFDI4Energy, and NFDI4ING (Betty's Research Engine), among others. The Basic Service TS4NFDI develops, e.g., widgets within the Terminology Service Suite [13] (P-III). Tools from the NFDI4Objects domain, e.g., the SPARQLing Unicorn QGIS Plugin [14] and the AMT [15], enable domain researchers to integrate data from the NFDI Knowledge Graph Ecosystem into established Open Source environments (P-II). Furthermore, the Alligator method [16] illustrates \"Research Software as Research Artifact\" (P-1). The WG RSM [7] within the NFDI section (Meta)data, Terminologies, Provenance complements these efforts by developing standardised metadata models to support interoperability and discoverability of research software also using nfdi.software, contributing directly to the realisation of FAIR4RS. We conclude with recommendations for more strongly integrating RSE roles into the strategic development of the NFDI, highlighting that software is more than a technical asset: it is a cultural, infrastructural, and epistemic cornerstone of modern research."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.16736041",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2025-08-26"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code"
+      },
+      "dct:type": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.16736041"
+      },
+      "prism:number": "5",
+      "prism:volume": "7",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/16736042"
+      },
+      "sqp:citationLabel": "7(5), 𝒬6",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "6"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_10": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0006-0497-2327"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0004-0779-3186"
+      },
+      "rdf:_5": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5246-9351"
+      },
+      "rdf:_6": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4127-0053"
+      },
+      "rdf:_7": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9523-7227"
+      },
+      "rdf:_8": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2755-5087"
+      },
+      "rdf:_9": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1213-5135"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5246-9351"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9523-7227"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1213-5135"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2755-5087"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4127-0053"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0004-0779-3186"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0006-0497-2327"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e6"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.16736041",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e6"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/16736042"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "2460327"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/16736042/files/CoRDI_2025_paper_195.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "CoRDI_2025_paper_195.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "ad8175ccc24a32f283e741a6fe94f6cf"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e6#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code"
+    }
+  ]
+}

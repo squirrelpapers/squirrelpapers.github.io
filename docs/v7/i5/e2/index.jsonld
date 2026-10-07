@@ -1,0 +1,606 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e1"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e10"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e2"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e3"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e4"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e5"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e6"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e7"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e8"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e9"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "rdfs:label": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2025-08-28"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "schema:name": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2025-08-26"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "2nd Conference on Research Data Infrastructure (CoRDI) 2025"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-28T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9488-1870",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9488-1870#orcid"
+      },
+      "foaf:familyName": "Mietchen",
+      "foaf:givenName": "Daniel",
+      "foaf:name": "Daniel Mietchen",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0001-9488-1870"
+      },
+      "rdfs:label": "Daniel Mietchen",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0001-9488-1870"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9488-1870#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0001-9488-1870",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid"
+      },
+      "foaf:familyName": "Sure-Vetter",
+      "foaf:givenName": "York",
+      "foaf:name": "York Sure-Vetter",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-4522-1099"
+      },
+      "rdfs:label": "York Sure-Vetter",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-4522-1099"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-4522-1099",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid"
+      },
+      "foaf:familyName": "Rossenova",
+      "foaf:givenName": "Lozana",
+      "foaf:name": "Lozana Rossenova",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-5190-1867"
+      },
+      "rdfs:label": "Lozana Rossenova",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-5190-1867"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-5190-1867",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid"
+      },
+      "foaf:familyName": "Homburg",
+      "foaf:givenName": "Timo",
+      "foaf:name": "Timo Homburg",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-9499-5840"
+      },
+      "rdfs:label": "Timo Homburg",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-9499-5840"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-9499-5840",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid"
+      },
+      "foaf:familyName": "Groth",
+      "foaf:givenName": "Paul",
+      "foaf:name": "Paul Groth",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-0183-6910"
+      },
+      "rdfs:label": "Paul Groth",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-0183-6910"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-0183-6910",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Peter",
+      "foaf:name": "Peter Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      },
+      "rdfs:label": "Peter Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3270-2659",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q273263"
+      },
+      "rdfs:label": "RWTH Aachen University",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+      "schema:latitude": 50.777778,
+      "schema:longitude": 6.078056
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e2",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ProceedingsPaper",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "The emerging ecosystem of distributed research data knowledge graphs (KGs) within the NFDI presents new opportunities—but also profound challenges—for semantic interoperability and federated querying. This contribution explores these challenges through the lens of the Wikiverse (Wikibase, Wikidata) and OpenStreetMap (OSM) as community-driven infrastructures for managing Linked Open Data (LOD), with a focus on their potential as hubs for semantic integration across heterogeneous data domains. NFDI consortia representing diverse research fields, e.g. NFDI4Objects [1], [2], NFDI4Culture [3], BERD@NFDI [4], NFDI4Society [5], MaRDI [6], and the cross-cutting Base4NFDI—are increasingly investing in distributed KG solutions tailored to their respective research communities. However, diverse modelling paradigms (e.g. RDF vs. LPG), ontological frameworks (e.g. CIDOC CRM vs. BFO or schema.org), and terminological conventions remain significant barriers to integration. The Basic Services TS4NFDI [7] and KGI4NFDI [8] address these gaps by offering infrastructure components for terminology alignment and KG federation. This paper contributes to this discourse by evaluating how community-maintained infrastructures—especially Wikibase instances and Wikidata—can support harmonisation efforts and serve as semantic reference points across consortia while raising new issues and challenges in federating the queries. Drawing on current collaborative experiences from the Knowledge Graph Ecosystem within the NFDI [9], [10], we examine how federated SPARQL queries can be (and cannot be) executed across distributed instances. Federated querying remains technically complex due to inconsistent endpoint configurations, naming conventions, and ontology alignments. These issues are especially pressing in projects using custom Wikibase installations, such as FactGrid, fuzzy-sl, and Semantic Kompakkt. Wikidata is an important semantic hub for external identifiers, cross-linking with OSM, terminologies, and LOD cloud resources. Its SPARQL endpoint, collaborative curation model, and breadth of scope make it an invaluable resource for interoperable queries across domains. The contribution highlights how these concepts apply in real-world settings through use cases from NFDI4Objects, NFDI4Culture and MaRDI: (1) Linked Open Ogham, cf. CIIC 81 [11], cf. Fig. 1 and Fig. 2; (2) Linked Open Samian Ware integrating findspots across LOD repositories [12]; (3) Babylonian mathematics on archaeological objects, e.g., Si.427 [13], K08538 [14] or MS 3042 [15]; (4) the Stolpersteine Project explores crowd-sourced volunteered geographic information (VGI) [16] integration; (5) cuneiform tablets made available as 3D scan, LOD in Wikidata and FactGrid [17]. Each example illustrates technical and conceptual hurdles for data federation, such as property mappings, namespace collisions, and endpoint restrictions. The contribution reflects the sustainability and scalability of current approaches, outlining key lessons learned from recent federation workshops [18] and NFDI-wide coordination efforts [19]. The most promising developments are infrastructure synergies, including services from Base4NFDI, improved query tooling using FAIRification Tools—e.g., SPARQLing Unicorn— and emerging AI-supported ontology alignment and SPARQL query generation methods [20]. By examining the structural complexities and design patterns of distributed semantic infrastructures, we argue that Wikidata and the broader Wikibase ecosystem can play a vital role in bridging disciplinary silos—if adequately supported through community-driven service development and harmonisation efforts."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.16736047",
+      "bibo:editor": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910"
+        }
+      ],
+      "bibo:locator": "𝒬2",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "dcat:keyword": [
+        "Base4NFDI",
+        "Cultural Heritage",
+        "Federation",
+        "Knowledge Graphs",
+        "Linked Open Data",
+        "NFDI",
+        "SPARQL",
+        "Terminology",
+        "Wikibase"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v7/i5/e2/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9488-1870"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "The emerging ecosystem of distributed research data knowledge graphs (KGs) within the NFDI presents new opportunities—but also profound challenges—for semantic interoperability and federated querying. This contribution explores these challenges through the lens of the Wikiverse (Wikibase, Wikidata) and OpenStreetMap (OSM) as community-driven infrastructures for managing Linked Open Data (LOD), with a focus on their potential as hubs for semantic integration across heterogeneous data domains. NFDI consortia representing diverse research fields, e.g. NFDI4Objects [1], [2], NFDI4Culture [3], BERD@NFDI [4], NFDI4Society [5], MaRDI [6], and the cross-cutting Base4NFDI—are increasingly investing in distributed KG solutions tailored to their respective research communities. However, diverse modelling paradigms (e.g. RDF vs. LPG), ontological frameworks (e.g. CIDOC CRM vs. BFO or schema.org), and terminological conventions remain significant barriers to integration. The Basic Services TS4NFDI [7] and KGI4NFDI [8] address these gaps by offering infrastructure components for terminology alignment and KG federation. This paper contributes to this discourse by evaluating how community-maintained infrastructures—especially Wikibase instances and Wikidata—can support harmonisation efforts and serve as semantic reference points across consortia while raising new issues and challenges in federating the queries. Drawing on current collaborative experiences from the Knowledge Graph Ecosystem within the NFDI [9], [10], we examine how federated SPARQL queries can be (and cannot be) executed across distributed instances. Federated querying remains technically complex due to inconsistent endpoint configurations, naming conventions, and ontology alignments. These issues are especially pressing in projects using custom Wikibase installations, such as FactGrid, fuzzy-sl, and Semantic Kompakkt. Wikidata is an important semantic hub for external identifiers, cross-linking with OSM, terminologies, and LOD cloud resources. Its SPARQL endpoint, collaborative curation model, and breadth of scope make it an invaluable resource for interoperable queries across domains. The contribution highlights how these concepts apply in real-world settings through use cases from NFDI4Objects, NFDI4Culture and MaRDI: (1) Linked Open Ogham, cf. CIIC 81 [11], cf. Fig. 1 and Fig. 2; (2) Linked Open Samian Ware integrating findspots across LOD repositories [12]; (3) Babylonian mathematics on archaeological objects, e.g., Si.427 [13], K08538 [14] or MS 3042 [15]; (4) the Stolpersteine Project explores crowd-sourced volunteered geographic information (VGI) [16] integration; (5) cuneiform tablets made available as 3D scan, LOD in Wikidata and FactGrid [17]. Each example illustrates technical and conceptual hurdles for data federation, such as property mappings, namespace collisions, and endpoint restrictions. The contribution reflects the sustainability and scalability of current approaches, outlining key lessons learned from recent federation workshops [18] and NFDI-wide coordination efforts [19]. The most promising developments are infrastructure synergies, including services from Base4NFDI, improved query tooling using FAIRification Tools—e.g., SPARQLing Unicorn— and emerging AI-supported ontology alignment and SPARQL query generation methods [20]. By examining the structural complexities and design patterns of distributed semantic infrastructures, we argue that Wikidata and the broader Wikibase ecosystem can play a vital role in bridging disciplinary silos—if adequately supported through community-driven service development and harmonisation efforts."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.16736047",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2025-08-26"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem"
+      },
+      "dct:type": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.16736047"
+      },
+      "prism:number": "5",
+      "prism:volume": "7",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/16736048"
+      },
+      "sqp:citationLabel": "7(5), 𝒬2",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "2"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9488-1870"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+      },
+      "rdf:_5": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9488-1870"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e2"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.16736047",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e2"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/16736048"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "8177369"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/16736048/files/CoRDI_2025_paper_196.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "CoRDI_2025_paper_196.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "8522a646dbe1d6acba219623a7da2f5f"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e2#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem"
+    }
+  ]
+}

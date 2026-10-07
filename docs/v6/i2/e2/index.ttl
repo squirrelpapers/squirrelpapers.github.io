@@ -1,0 +1,126 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i2/e2#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i2/e2> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i2/e2#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i2/e2> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9499-5840" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i2/e2#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v6/i2/e2#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-03-05T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-03-05T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i2/e2#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.10780476" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i2/e2#landing> a dcat:Distribution ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://zenodo.org/records/10780476> .
+
+<https://w3id.org/squirrelpapers/v6/i2/e2#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "SPARQL Unicorn Ontology Documentation" .
+
+<https://w3id.org/squirrelpapers/v6/i2/e2> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ComputerProgram,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "2" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> ;
+    dct:description """Release version 0.17 aligned with the SPARQLUnicorn QGIS Plugin Release 0.17
+New folder structure for pip package release
+Classtree vocabulary JSON-LD context
+HTML Template fixes: Better threejs 3D template, details tags for many values, lazy loading for images
+Static API Generation: CKAN and vCard
+Detection of Ontolex-Lemon vocabulary
+VOID File Generation
+Rewrite of export code""" ;
+    dct:identifier "https://doi.org/10.5281/zenodo.10780476" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i2> ;
+    dct:issued "2024-03-05"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "SPARQL Unicorn Ontology Documentation" ;
+    dct:type sqpt:software ;
+    bibo:abstract """Release version 0.17 aligned with the SPARQLUnicorn QGIS Plugin Release 0.17
+New folder structure for pip package release
+Classtree vocabulary JSON-LD context
+HTML Template fixes: Better threejs 3D template, details tags for many values, lazy loading for images
+Static API Generation: CKAN and vCard
+Detection of Ontolex-Lemon vocabulary
+VOID File Generation
+Rewrite of export code""" ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i2/e2#authors> ;
+    bibo:doi "10.5281/zenodo.10780476" ;
+    bibo:locator "#2" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i2/e2#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i2> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i2/e2#doi> ;
+    crm:P2_has_type sqpt:software ;
+    rdfs:seeAlso <https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc/releases/tag/0.17> ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.10780476> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i2/e2#landing> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i2> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i2/e2/> ;
+    dcat:theme sqpt:software ;
+    dcat:version "0.17" ;
+    prov:wasDerivedFrom <https://zenodo.org/records/10780476> ;
+    schema:codeRepository <https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc> ;
+    sqp:citationLabel "6(2), #2" ;
+    sqp:entryNumber "2"^^xsd:positiveInteger .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Timo Homburg" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9499-5840> ;
+    foaf:familyName "Homburg" ;
+    foaf:givenName "Timo" ;
+    foaf:name "Timo Homburg" ;
+    schema:identifier <https://orcid.org/0000-0002-9499-5840> .
+

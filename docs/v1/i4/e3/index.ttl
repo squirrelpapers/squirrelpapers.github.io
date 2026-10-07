@@ -1,0 +1,157 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e3#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v1/i4/e3> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v1/i4/e3#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v1/i4/e3> .
+
+<https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2015> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Computer Applications and Quantitative Methods in Archaeology (CAA)" ;
+    event:place <https://w3id.org/squirrelpapers/place/siena-italy> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i4/e2>,
+        <https://w3id.org/squirrelpapers/v1/i4/e3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2015#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2015#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/siena-italy> ;
+    schema:endDate "2015-04-01"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/siena-italy> ;
+    schema:name "Computer Applications and Quantitative Methods in Archaeology (CAA)" ;
+    schema:startDate "2015-03-31"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2015#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Computer Applications and Quantitative Methods in Archaeology (CAA)" .
+
+<https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2015#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2015-03-31T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2015-04-01T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e3#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e3#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2015-04-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2015-04-01T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v1/i4/e3#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.292968" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e3#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "2015_04_01_CAA_Siena_SamianLOD.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v1/i4/e3#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v1/i4/e3> ;
+    dcat:accessURL <https://zenodo.org/records/292968> ;
+    dcat:byteSize "1289174"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/292968/files/2015_04_01_CAA_Siena_SamianLOD.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e3#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "a8420fa7e42f9b479644a1a21f8b8330"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v1/i4/e3#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Linked Samian Ware: challenges of a LOD approach to samian ware" .
+
+<https://w3id.org/squirrelpapers/place/siena-italy#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(11.331389 43.318333)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/siena-italy> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Siena" ;
+    crm:P168_place_is_defined_by "POINT(11.331389 43.318333)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/siena-italy#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/siena-italy#geometry> ;
+    owl:sameAs wd:Q2751 ;
+    dcat:centroid "POINT(11.331389 43.318333)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q154849 ;
+    schema:description "Siena, Italy" ;
+    schema:latitude 4.331833e+01 ;
+    schema:longitude 1.133139e+01 .
+
+<https://w3id.org/squirrelpapers/v1/i4/e3> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "1" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description "Research in samian ware advanced considerably in recent years based on a dataset collected by several scholars in the past decades. It comprises detailed and reviewed data of potters, pots and related places in the northern provinces of the Roman Empire. The spatial distribution and chronological pattern as well as the identification of kiln sites of individual potters are key research questions. Based on this data, for instance Mees proposed a reconstruction and analysis of pottery trade networks considering archaeological material. The nature of the data makes it reasonable to approach the questions utilizing the concept of Linked Open Data (LOD) to generate interoperability and potential for data dissemination. The goal of the study presented in this presentation is to migrate a subset of these data into a LOD structure and to make it accessible through URIs in a REST interface as well as via a SPARQL endpoint. The subjective semantic relations between potters, pots and places should be visualised in the manner of linking. Furthermore the resources should be linked to existing LOD projects, for instance to Pleiades for places, using the Semantic Web to get additional information for the own resource. Potter, pots and places and their attributes could be conceptually modelled using the CIDOC-CRM. However, in the study direct linking of individual objects to mature ontologies widely used in the Semantic Web was preferred, to avoid CIDOC-CRM modelling questions. This presentation shows different modelling concepts and its challenges for each resource type using (1) an own ontology, (2) existing ontologies in the web, (3) the approach of Kerameikos as well as (4) labels of the Labeling System. The semantic links between potters, pots and places could be build via an own fixed predicate ontology or using ontologies like SKOS or Open Annotation to generate loose coupled relations. The idea of LOD is to couple related resources to build up an interlinked web of data. In the context of the study it was investigated what kind of suitable web resources are available from which the samian ware resources could benefit. On the one hand, web accessible repositories for fragments and potters are missing. On the other hand, Pleiades provides a large number of places to support geographical annotations of textural sources or archaeological objects. These places are used by the Pelagios project that links data from more than 20 partners to get additional information to an abstract Pleiades place concept. In this study, find-spots and kiln sites are mapped to Pleiades places to get additional data from the Pelagios partners. The locations in the samian dataset are reviewed and show much higher precision than the Pleiades places, so this mapping challenge have to be solved, too. The results yield that research on samian ware can benefit from implementing the concept of LOD. Enhanced perspectives arise when extending the linked data to other resources like dies and coins. When the data is published it could contribute to cross-linking of archaeological information internationally. A major challenge is finding the correct modelling concept for each resource type, as well as the semantic links between each other and to relying resources in the Semantic Web. Using technologies like the Labeling System, CIDOC-CRM, SKOS and Open Annotation can help to overcome this bottleneck. The presentation presents the results of a M.Sc. thesis delivered at the Hochschule Mainz - University of Applied Sciences in cooperation with the Römisch Germanisches Zentralmuseum Mainz (RGZM) and the Institute for Spatial Information and Surveying Technology (i3mainz)."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.292968" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1/i4> ;
+    dct:issued "2015-04-01"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Linked Samian Ware: challenges of a LOD approach to samian ware"@en ;
+    dct:type sqpt:presentation ;
+    bibo:abstract "Research in samian ware advanced considerably in recent years based on a dataset collected by several scholars in the past decades. It comprises detailed and reviewed data of potters, pots and related places in the northern provinces of the Roman Empire. The spatial distribution and chronological pattern as well as the identification of kiln sites of individual potters are key research questions. Based on this data, for instance Mees proposed a reconstruction and analysis of pottery trade networks considering archaeological material. The nature of the data makes it reasonable to approach the questions utilizing the concept of Linked Open Data (LOD) to generate interoperability and potential for data dissemination. The goal of the study presented in this presentation is to migrate a subset of these data into a LOD structure and to make it accessible through URIs in a REST interface as well as via a SPARQL endpoint. The subjective semantic relations between potters, pots and places should be visualised in the manner of linking. Furthermore the resources should be linked to existing LOD projects, for instance to Pleiades for places, using the Semantic Web to get additional information for the own resource. Potter, pots and places and their attributes could be conceptually modelled using the CIDOC-CRM. However, in the study direct linking of individual objects to mature ontologies widely used in the Semantic Web was preferred, to avoid CIDOC-CRM modelling questions. This presentation shows different modelling concepts and its challenges for each resource type using (1) an own ontology, (2) existing ontologies in the web, (3) the approach of Kerameikos as well as (4) labels of the Labeling System. The semantic links between potters, pots and places could be build via an own fixed predicate ontology or using ontologies like SKOS or Open Annotation to generate loose coupled relations. The idea of LOD is to couple related resources to build up an interlinked web of data. In the context of the study it was investigated what kind of suitable web resources are available from which the samian ware resources could benefit. On the one hand, web accessible repositories for fragments and potters are missing. On the other hand, Pleiades provides a large number of places to support geographical annotations of textural sources or archaeological objects. These places are used by the Pelagios project that links data from more than 20 partners to get additional information to an abstract Pleiades place concept. In this study, find-spots and kiln sites are mapped to Pleiades places to get additional data from the Pelagios partners. The locations in the samian dataset are reviewed and show much higher precision than the Pleiades places, so this mapping challenge have to be solved, too. The results yield that research on samian ware can benefit from implementing the concept of LOD. Enhanced perspectives arise when extending the linked data to other resources like dies and coins. When the data is published it could contribute to cross-linking of archaeological information internationally. A major challenge is finding the correct modelling concept for each resource type, as well as the semantic links between each other and to relying resources in the Semantic Web. Using technologies like the Labeling System, CIDOC-CRM, SKOS and Open Annotation can help to overcome this bottleneck. The presentation presents the results of a M.Sc. thesis delivered at the Hochschule Mainz - University of Applied Sciences in cooperation with the Römisch Germanisches Zentralmuseum Mainz (RGZM) and the Institute for Spatial Information and Surveying Technology (i3mainz)."@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v1/i4/e3#authors> ;
+    bibo:doi "10.5281/zenodo.292968" ;
+    bibo:locator "#3" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2015> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v1/i4/e3#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v1/i4/e3#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.292968> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v1/i4/e3#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1/i4> ;
+    dcat:keyword "archeaeology",
+        "linked data",
+        "linked open data",
+        "pottery",
+        "roman",
+        "samian ware" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i4/e3/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/292968> ;
+    sqp:citationLabel "1(4), #3" ;
+    sqp:entryNumber "3"^^xsd:positiveInteger .
+

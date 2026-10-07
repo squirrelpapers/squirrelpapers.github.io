@@ -1,0 +1,198 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e14#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i4/e14> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i4/e14#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i4/e14> .
+
+<https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "NFDI4Objects Community Meeting 2024, Mainz, Germany" ;
+    event:place <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i4/e12>,
+        <https://w3id.org/squirrelpapers/v6/i4/e14>,
+        <https://w3id.org/squirrelpapers/v6/i4/e18>,
+        <https://w3id.org/squirrelpapers/v6/i4/e19> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz> ;
+    schema:endDate "2024-09-27"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz> ;
+    schema:name "NFDI4Objects Community Meeting 2024, Mainz, Germany" ;
+    schema:startDate "2024-09-25"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "NFDI4Objects Community Meeting 2024, Mainz, Germany" .
+
+<https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-09-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-09-27T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-2576-1511#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-2576-1511" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3223-2079" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e14#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e14#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-09-26T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-09-26T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i4/e14#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.13739143" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e14#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Poster_TWG_N4O_OO_MMDS.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i4/e14#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i4/e14> ;
+    dcat:accessURL <https://zenodo.org/records/13739144> ;
+    dcat:byteSize "1297470"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/13739144/files/Poster_TWG_N4O_OO_MMDS.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e14#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "f2cdd159c1b136602338f1587090535a"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i4/e14#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "NFDI4Objects Objects Ontology & Minimal Metadata Set" .
+
+<https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.281334 49.993565)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-2576-1511> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Anja Gerber" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-2576-1511> ;
+    foaf:familyName "Gerber" ;
+    foaf:givenName "Anja" ;
+    foaf:name "Anja Gerber" ;
+    schema:identifier <https://orcid.org/0000-0003-2576-1511> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fabian Fricke" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3223-2079> ;
+    foaf:familyName "Fricke" ;
+    foaf:givenName "Fabian" ;
+    foaf:name "Fabian Fricke" ;
+    schema:identifier <https://orcid.org/0000-0003-3223-2079> .
+
+<https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Leibniz-Zentrum für Archäologie" ;
+    crm:P168_place_is_defined_by "POINT(8.281334 49.993565)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz#geometry> ;
+    owl:sameAs wd:Q115755098 ;
+    dcat:centroid "POINT(8.281334 49.993565)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany" ;
+    schema:latitude 4.999356e+01 ;
+    schema:longitude 8.281334e+00 .
+
+<https://w3id.org/squirrelpapers/v6/i4/e14> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePoster,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> ;
+    dct:description """Im Konsortium NFDI4Objects stehen die physischen Hinterlassenschaften der Menschheits- und Umweltgeschichte im Mittelpunkt. Diese sind immer in Zusammenhang mit Akteuren, Ereignissen, Zeiträumen und Orten zu betrachten: Wer hat was, wann, wo, mit einem bestimmten Objekt getan. Durch Ereignisse werden Objekte in einen bestimmten Kontext gesetzt, der nähere Aussagen zu ihnen liefert und Zusammenhänge zwischen ihnen, aber auch mit ihnen verknüpften Personen, Orten und Zeitschichten aufzeigt. Die digitale Objektbiografie [1] umfasst die ereignisbasierte, forschungsgetriebene Datenaufbereitung, bei der Objekte mit allen verfügbaren Informationen zu ihren einzelnen Stationen sowie den Quellen, aus denen die Informationen stammen, verknüpft werden.
+Primäres Ziel dieser Arbeitsgruppe ist der Aufbau einer von der NFDI4Objects getragenen N4O Anwendungsontologie (N4O Object Ontology; N4O OO), um die multidisziplinären, heterogenen Daten des Konsortiums optimal für eine Integration in den Wissengraphen des Konsortiums [2] aufbereiten und zur Verfügung stellen zu können. Die Ontologie enthält dabei Elemente einer Objektbiografie, welche u. a. auf dem CIDOC CRM Referenzmodell [3] basiert, baut aber auf einem Minimal-Metadatensatz (Minimal Metadata-Set; N4O MMDS) auf. Da das N4O-Derivat der NFDIcore Ontology (N4O Core) bei einer digitalen Ressource (nfdi:Resource [4]) selbst endet, z.B. nfdi:Dataset oder nfdi:SemanticExpressivity, ist eine Ontologie für die Zusammenführung der Forschungsdaten notwendig. Die Entwicklung wird in einer gemeinsamen Diskussion mit den Task Areas, entsprechenden TWGs und Community Clustern realisiert.
+Der N4O MMDS wird vor allem durch das fachliche Arbeitsprogramm - dem Objektzyklus [5] - der Task Areas 1-4 “Documentation”, “Collecting”, “Analysis & Experiments” sowie “Protecting” bestimmt und berührt dabei verschiedene Themengebiete, wie Ausgrabung, (digitale) Rekonstruktion und Annotation, Sammlung, Kunstgeschichte, Restaurierung/Konservierung, naturwissenschaftliche Analysen, Denkmalpflege, Provenienzforschung. Dieser Ansatz geht vom konkreten Gegenstand der Forschung - dem Objekt - aus, die Datenstrukturen zu entwickeln.
+In dieser TWG wird definiert, welche Elemente/Attribute der N4O MMDS [6] enthalten muss, d. h., welche Informationen zur Beschreibung von Objektdaten auf dem Weg durch den Objektzyklus notwendig sind. Dies beinhaltet die digitalen Schritte: capture, qualify, analyse, share and interlink [7] Der Er wird in einer technischen Beschreibung (z.B. JSON) zur Verfügung gestellt und muss für den individuellen Datenaustausch der heterogenen Systeme in diverse “Dialekte” transformiert werden, z.B. LIDO/XML. Der N4O MMDS und die N4O OO als dessen RDF-Repräsentation (basierend auf CIDOC CRM, schema.org, PROV-O, SKOS, BFO) bilden den Objektzyklus, der sukzessive durch die Task Areas 1-4 mit mit Informationen angereichert wird, ab. Diese Strukturen werden genutzt, da der Datenfluss in den Knowledge Graph zum einen LIDO/XML und RDF vorsieht [8].
+Diese Ontologie wird gemeinsam mit den im Konsortium tätigen Wissenschaftler*Innen und Stakeholdern anhand von Use Cases in der TWG “Development of a common N4O Objects Ontology (N4O OO) and a Minimal Metadata-Set (N4O MMDS)” erarbeitet. Eine inhaltliche Abstimmung mit den anderen geistes- und kulturwissenschaftlichen Konsortien der sogenannten Memorandum-of-understanding-Gruppe [9], bestehend aus NFDI4Culture, NFDI4Memory, NFDI4Objects und Text+, zur Herstellung der Interoperabilität ist durch die Zusammenarbeit in verschiedenen Arbeitsgruppen sichergestellt. Weitere benachbarte Konsortien, z.B. NFDI4Earth, NFDI4Biodiversity, MaRDI etc., werden ebenfalls in die Entwicklungsprozesse einbezogen, um die naturwissenschaftlichen Aspekte abzudecken.""" ;
+    dct:identifier "https://doi.org/10.5281/zenodo.13739143" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i4> ;
+    dct:issued "2024-09-26"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "NFDI4Objects Objects Ontology & Minimal Metadata Set" ;
+    dct:type sqpt:conference-paper,
+        sqpt:poster ;
+    bibo:abstract """Im Konsortium NFDI4Objects stehen die physischen Hinterlassenschaften der Menschheits- und Umweltgeschichte im Mittelpunkt. Diese sind immer in Zusammenhang mit Akteuren, Ereignissen, Zeiträumen und Orten zu betrachten: Wer hat was, wann, wo, mit einem bestimmten Objekt getan. Durch Ereignisse werden Objekte in einen bestimmten Kontext gesetzt, der nähere Aussagen zu ihnen liefert und Zusammenhänge zwischen ihnen, aber auch mit ihnen verknüpften Personen, Orten und Zeitschichten aufzeigt. Die digitale Objektbiografie [1] umfasst die ereignisbasierte, forschungsgetriebene Datenaufbereitung, bei der Objekte mit allen verfügbaren Informationen zu ihren einzelnen Stationen sowie den Quellen, aus denen die Informationen stammen, verknüpft werden.
+Primäres Ziel dieser Arbeitsgruppe ist der Aufbau einer von der NFDI4Objects getragenen N4O Anwendungsontologie (N4O Object Ontology; N4O OO), um die multidisziplinären, heterogenen Daten des Konsortiums optimal für eine Integration in den Wissengraphen des Konsortiums [2] aufbereiten und zur Verfügung stellen zu können. Die Ontologie enthält dabei Elemente einer Objektbiografie, welche u. a. auf dem CIDOC CRM Referenzmodell [3] basiert, baut aber auf einem Minimal-Metadatensatz (Minimal Metadata-Set; N4O MMDS) auf. Da das N4O-Derivat der NFDIcore Ontology (N4O Core) bei einer digitalen Ressource (nfdi:Resource [4]) selbst endet, z.B. nfdi:Dataset oder nfdi:SemanticExpressivity, ist eine Ontologie für die Zusammenführung der Forschungsdaten notwendig. Die Entwicklung wird in einer gemeinsamen Diskussion mit den Task Areas, entsprechenden TWGs und Community Clustern realisiert.
+Der N4O MMDS wird vor allem durch das fachliche Arbeitsprogramm - dem Objektzyklus [5] - der Task Areas 1-4 “Documentation”, “Collecting”, “Analysis & Experiments” sowie “Protecting” bestimmt und berührt dabei verschiedene Themengebiete, wie Ausgrabung, (digitale) Rekonstruktion und Annotation, Sammlung, Kunstgeschichte, Restaurierung/Konservierung, naturwissenschaftliche Analysen, Denkmalpflege, Provenienzforschung. Dieser Ansatz geht vom konkreten Gegenstand der Forschung - dem Objekt - aus, die Datenstrukturen zu entwickeln.
+In dieser TWG wird definiert, welche Elemente/Attribute der N4O MMDS [6] enthalten muss, d. h., welche Informationen zur Beschreibung von Objektdaten auf dem Weg durch den Objektzyklus notwendig sind. Dies beinhaltet die digitalen Schritte: capture, qualify, analyse, share and interlink [7] Der Er wird in einer technischen Beschreibung (z.B. JSON) zur Verfügung gestellt und muss für den individuellen Datenaustausch der heterogenen Systeme in diverse “Dialekte” transformiert werden, z.B. LIDO/XML. Der N4O MMDS und die N4O OO als dessen RDF-Repräsentation (basierend auf CIDOC CRM, schema.org, PROV-O, SKOS, BFO) bilden den Objektzyklus, der sukzessive durch die Task Areas 1-4 mit mit Informationen angereichert wird, ab. Diese Strukturen werden genutzt, da der Datenfluss in den Knowledge Graph zum einen LIDO/XML und RDF vorsieht [8].
+Diese Ontologie wird gemeinsam mit den im Konsortium tätigen Wissenschaftler*Innen und Stakeholdern anhand von Use Cases in der TWG “Development of a common N4O Objects Ontology (N4O OO) and a Minimal Metadata-Set (N4O MMDS)” erarbeitet. Eine inhaltliche Abstimmung mit den anderen geistes- und kulturwissenschaftlichen Konsortien der sogenannten Memorandum-of-understanding-Gruppe [9], bestehend aus NFDI4Culture, NFDI4Memory, NFDI4Objects und Text+, zur Herstellung der Interoperabilität ist durch die Zusammenarbeit in verschiedenen Arbeitsgruppen sichergestellt. Weitere benachbarte Konsortien, z.B. NFDI4Earth, NFDI4Biodiversity, MaRDI etc., werden ebenfalls in die Entwicklungsprozesse einbezogen, um die naturwissenschaftlichen Aspekte abzudecken.""" ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i4/e14#authors> ;
+    bibo:doi "10.5281/zenodo.13739143" ;
+    bibo:locator "#14" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i4/e14#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i4/e14#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:poster ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.13739143> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i4/e14#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i4/e14/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:poster ;
+    prov:wasDerivedFrom <https://zenodo.org/records/13739144> ;
+    sqp:citationLabel "6(4), #14" ;
+    sqp:entryNumber "14"^^xsd:positiveInteger .
+

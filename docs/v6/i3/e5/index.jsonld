@@ -1,0 +1,408 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/derse2024",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i3/e3"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i3/e4"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i3/e5"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/derse2024#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/derse2024#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg"
+      },
+      "rdfs:label": "deRSE2024",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2024-03-07"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg"
+      },
+      "schema:name": "deRSE2024",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2024-03-05"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/derse2024#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "deRSE2024"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/derse2024#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-03-05T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-03-07T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid"
+      },
+      "foaf:familyName": "Homburg",
+      "foaf:givenName": "Timo",
+      "foaf:name": "Timo Homburg",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-9499-5840"
+      },
+      "rdfs:label": "Timo Homburg",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-9499-5840"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-9499-5840",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.935278 49.788056)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.935278 49.788056)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q161976"
+      },
+      "rdfs:label": "University of Würzburg",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "Julius-Maximilians-Universität Würzburg",
+      "schema:latitude": 49.788056,
+      "schema:longitude": 9.935278
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.935278 49.788056)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e5",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Introduction\nPublishing sustainable research data and providing appropriate access for many research communities challenges many players: Researchers, RSEs, standardisation organizations and data repositories. With national research data infrastructures (NFDI) being set up in Germany, the latter could be solved in the mid- to long-term for specific datasets. In the meantime, researchers often produce datasets of data in research projects which are provided as services, e.g. from a web page, but may, due to a lack of funding, disappear in that form after the research project has ended. To circumvent this, open research data is hosted long-term on public platforms like university libraries, Zenodo or Github. However, this hosted data is not necessarily easily discoverable by different research communities. On top of that, research data is rarely published in isolation, but with links to related datasets, leading to the creation of link-preserving, FAIR linked open data (LOD) as RDF dumps, modelling data interoperably in common vocabularies. LOD in RDF preserves links, but is not necessarily Linked Open Usable Data (LOUD), i.e. it does not provide data in ways different research communities expect. We would like to address this problem of missing LOUD data while removing requirements on the backend such as hardware and software to a minimum.\nDocumentation-Tool\nWe believe that a solution to this data provision problem is publishing research data as static webpages and using standardised static APIs to serve data in ways different research communities expect.\nWe developed a documentation extension to our SPARQLing Unicorn QGIS Plugin, allowing to publish RDF data dumps as HTML page and RDF serialization per data instance, similar to what frontends to triple stores such as Pubby provide.\nIt is published as a QGIS Plugin, a standalone script on Github and a Github Action.\nThe resulting data dump is hostable on static webspaces e.g. Github pages and allows navigating the contents of the LOD data in HTML including a class tree. It may include:\n* Further data formats: Graph Data (GraphML, GEXF), General Purpose (CSV)\n* SPARQL querying in JavaScript using the data dump\n* Generation of static APIs, e.g. JSON documents mimicking standardized APIs, for\n* OGC API Features: Access to FeatureCollections from e.g. QGIS\n* IIIF Presentation API 3.0: IIIF Manifest Files for images/media in the knowledge graph including typed collections\n* CKAN API: Datasets in the DCAT vocabulary or data collections\nStatic APIs further the accessibility of LOD data for different research communities and increase the chances of data reusage and exposure in different research fields, while at the same time not depending on additional infrastructures for data provision.\nLimitations and Future Work\nOur talk shows the feasibility of using publicly available examples for geodata and CKAN (SPP Dataset, AncientPorts Dataset, CIGS Datatset) and the ARS-LOD dataset for static IIIF-data.\nWe discuss requirements and limitations of this kind of publishing in a RDM publishing workflow, in relation to NFDI plans and how to extend this approach to only partially open data using a Solid pod publishing workflow."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.10790939",
+      "bibo:locator": "#5",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/derse2024"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v6/i3/e5/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Introduction\nPublishing sustainable research data and providing appropriate access for many research communities challenges many players: Researchers, RSEs, standardisation organizations and data repositories. With national research data infrastructures (NFDI) being set up in Germany, the latter could be solved in the mid- to long-term for specific datasets. In the meantime, researchers often produce datasets of data in research projects which are provided as services, e.g. from a web page, but may, due to a lack of funding, disappear in that form after the research project has ended. To circumvent this, open research data is hosted long-term on public platforms like university libraries, Zenodo or Github. However, this hosted data is not necessarily easily discoverable by different research communities. On top of that, research data is rarely published in isolation, but with links to related datasets, leading to the creation of link-preserving, FAIR linked open data (LOD) as RDF dumps, modelling data interoperably in common vocabularies. LOD in RDF preserves links, but is not necessarily Linked Open Usable Data (LOUD), i.e. it does not provide data in ways different research communities expect. We would like to address this problem of missing LOUD data while removing requirements on the backend such as hardware and software to a minimum.\nDocumentation-Tool\nWe believe that a solution to this data provision problem is publishing research data as static webpages and using standardised static APIs to serve data in ways different research communities expect.\nWe developed a documentation extension to our SPARQLing Unicorn QGIS Plugin, allowing to publish RDF data dumps as HTML page and RDF serialization per data instance, similar to what frontends to triple stores such as Pubby provide.\nIt is published as a QGIS Plugin, a standalone script on Github and a Github Action.\nThe resulting data dump is hostable on static webspaces e.g. Github pages and allows navigating the contents of the LOD data in HTML including a class tree. It may include:\n* Further data formats: Graph Data (GraphML, GEXF), General Purpose (CSV)\n* SPARQL querying in JavaScript using the data dump\n* Generation of static APIs, e.g. JSON documents mimicking standardized APIs, for\n* OGC API Features: Access to FeatureCollections from e.g. QGIS\n* IIIF Presentation API 3.0: IIIF Manifest Files for images/media in the knowledge graph including typed collections\n* CKAN API: Datasets in the DCAT vocabulary or data collections\nStatic APIs further the accessibility of LOD data for different research communities and increase the chances of data reusage and exposure in different research fields, while at the same time not depending on additional infrastructures for data provision.\nLimitations and Future Work\nOur talk shows the feasibility of using publicly available examples for geodata and CKAN (SPP Dataset, AncientPorts Dataset, CIGS Datatset) and the ARS-LOD dataset for static IIIF-data.\nWe discuss requirements and limitations of this kind of publishing in a RDM publishing workflow, in relation to NFDI plans and how to extend this approach to only partially open data using a Solid pod publishing workflow."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.10790939",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2024-03-05"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "The SPARQL Unicorn: A Research Tool for Linked Open Data in QGIS and git-action-based ontology documentation"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.10790939"
+      },
+      "prism:number": "3",
+      "prism:volume": "6",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/10790940"
+      },
+      "sqp:citationLabel": "6(3), #5",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e5"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-03-05T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-03-05T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.10790939",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e5"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/10790940"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "6147817"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/10790940/files/deRSE2024_No40_HomburgThiery.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "deRSE2024_No40_HomburgThiery.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "de7d29eb86ba57de2caf36f493ead032"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e5#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "The SPARQL Unicorn: A Research Tool for Linked Open Data in QGIS and git-action-based ontology documentation"
+    }
+  ]
+}

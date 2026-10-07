@@ -1,0 +1,289 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid"
+      },
+      "foaf:familyName": "Mees",
+      "foaf:givenName": "Allard W.",
+      "foaf:name": "Allard W. Mees",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      },
+      "rdfs:label": "Allard W. Mees",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7634-5342",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e3",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Background\n“Dated sites” in archaeology are usually not “dated sites”. In the first century AD e.g., there are only two verifiable “absolute dated sites”: Pompei [1] and Inchtuthil [2], of which ancient authors indicate their dates. Only parts of the “dated sites” can be set in relative relation to each other, e.g. if they belong to a group of sites within a newly occupied area or if they are part of a string of military sites related to a military campaign etc. For this purpose, we can use e.g. Allen's interval algebra [3;4], such as “after” or “during” [5-8]. However, most of the temporality of “dated sites” is usually derived from a series of historical assumptions and interpolations. Yet, the chronology of these materials is often based on material coming from the manifold of other assumed “dated sites”, thus potentially resulting in a circulus vitiosus. On top of that, “dated sites” are frequently given dates like “from - to”, suggesting a dating security which is actually only a probability. A methodological way out of this dilemma is possible when we enhance the assumed external dating evidence and go back to the factual occurrences and overlaps in the data from the suspected “dated sites”, since only these data are free of any temporal interpretations.\nThis results in four different research questions:\n(1) How can any resulting time order of “dated sites” be comprehensively encoded and semantically modelled, e.g. by using Allen’s interval algebra and graph technologies [5;6]?\n(2) How can a reproducible algorithm deal with incomplete or vague dates to fix missing start or endpoints by creating “virtual fuzzy and wobbly dates”? Are graph-based digital tools like Alligator [9] or the Academic Meta Tool (AMT) [10] usable for this purpose?\n(3) How can results be visualised for researchers using graphs, timelines or maps [8, chapter 9]?\n(4) Do we need a different concept of temporalities for such “dated sites”?\nMethods and data\nAs a method, the chronological assumptions used in defining “dated sites” based on archaeological find materials in the 1st century AD must be deconstructed and restricted to the occurrences and overlaps within and between “find materials” from suspected “dated sites” only, to arrive at a relative chronology. This can be achieved by using correspondence analysis and visualising the resulting dimension values on maps recalculated in Hue values. By applying the “Alligator Method” [11], including the Alligator and AMT tools, we can fix missing or enhance existing start- or endpoints by adding information about the vagueness/uncertainties of the hitherto “from-to” information. The resulting relative chronology can be transferred and refined by Allen's interval algebra and visualised in graph structures such as the Resource Description Framework (RDF).\nTo cover as many as possible assumed “dated sites”, the Samian (Terra Sigillata) curated in the Open Data accessible research infrastructure Samian Research (https://www.rgzm.de/samian) with its 250’000 potter’s stamps from all over Europe is used. The paper is focused on data related to the historical southern German Limes developments and the enrollment of the Roman occupation of Britain as a cross-check for the statistically achieved relative chronologies.\nFindings\nIt turns out that it is possible to visualise historical development on maps, timelines and graph structures without using historical assumptions about individual “dated sites”. Simultaneously, this paper demonstrates that dating individual sites with the help of Samian cannot result in precise datings as usually expected in archaeology but requires the application of a different concept of temporality. The development of the Samian consumption patterns in the progressing Southern German Limes and the enrollment of the occupation of Britain appears to be a gradual development only. Hence the precise dating ability of the “find category” Samian has been overcharged since the beginning of Samian studies in the 19th century.\nApplying the before-mentioned methods, based on semantic modelling and W3C standards such as RDF [12-14] and inspired by LOD techniques, enables the FAIRification of these data related to temporality, especially by creating interoperability and reproducibility.\nReferences\n[1] Plinius the Younger, Letters (chapter LXV).\n[2] Tacitus, Agricola (chapter XXIX-XXXVII).\n[3] Allen, JF. 1983 Maintaining knowledge about temporal intervals. Communications of the ACM 26(11): 832–843. DOI: 10.1145/182.358434.\n[4] Freksa, C. 1991 Conceptual Neighborhood and its role in temporal and spatial reasoning. In:. Singh, MG and Travé-Massuyés, L (eds.). Proceedings of the IMACS Workshop on Decision Support Systems and Qualitative Reasoning. 1991. Amsterdam: North-Holland. pp. 181–187.\n[5] Cox, S, Little C 2022 Time Ontology in OWL. https://www.w3.org/TR/owl-time/#topology\n[6] Cox, S, Hobbs J, and Pan, F 2016. OWL-Time. https://www.w3.org/2006/time\n[7] Shaw R 202. Modeling and Reasoning about Incomplete, Uncertain, and Approximate Historical Dates. Extended Abstracts of Graphs and Networks in the Humanities 2022:\nTechnologies, Models, Analyses, and Visualizations, 11.2. https://t1p.de/5m3ow\n[8] Thiery, F 2013 Semantic Web und Linked Data: Generierung von Interoperabilität in archäologischen Fachdaten am Beispiel römischer Töpferstempel. Squirrel Papers 4(1): No. 3. DOI: 10.5281/zenodo.774861\n[9] Thiery, F, Mees AW. 2022 alligator - Allen Transformer. Squirrel Papers 4(2): No. 5. DOI: 10.5281/zenodo.2540709\n[10] Unold, M, Thiery, F and Mees, A. 2019 Academic Meta Tool. Ein Web-Tool zur Modellierung von Vagheit. ZfdG Sonderband 4: No. 6. DOI: 10.17175/SB004_004.\n[11] Thiery, F, Mees AW. 2023 Alligator Method. Squirrel Papers 5(1): No. 2. DOI: 10.5281/zenodo.7624871\n[12] Thiery, F 2018 Alligator Vocabulary. Vättern Edition. https://rgzm.github.io/alligator/vocab/\n[13] Thiery, F, Unold, M 2018 Academic Meta Tool Ontology. Leonard Edition. https://academic-meta-tool.xyz/ontology/\n[14] Thiery, F, Unold, M 2018 Academic Meta Tool Vocabulary. Penny Edition. https://academic-meta-tool.xyz/vocab/"
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.8154700",
+      "bibo:locator": "#3",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v5/i4/e3/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Background\n“Dated sites” in archaeology are usually not “dated sites”. In the first century AD e.g., there are only two verifiable “absolute dated sites”: Pompei [1] and Inchtuthil [2], of which ancient authors indicate their dates. Only parts of the “dated sites” can be set in relative relation to each other, e.g. if they belong to a group of sites within a newly occupied area or if they are part of a string of military sites related to a military campaign etc. For this purpose, we can use e.g. Allen's interval algebra [3;4], such as “after” or “during” [5-8]. However, most of the temporality of “dated sites” is usually derived from a series of historical assumptions and interpolations. Yet, the chronology of these materials is often based on material coming from the manifold of other assumed “dated sites”, thus potentially resulting in a circulus vitiosus. On top of that, “dated sites” are frequently given dates like “from - to”, suggesting a dating security which is actually only a probability. A methodological way out of this dilemma is possible when we enhance the assumed external dating evidence and go back to the factual occurrences and overlaps in the data from the suspected “dated sites”, since only these data are free of any temporal interpretations.\nThis results in four different research questions:\n(1) How can any resulting time order of “dated sites” be comprehensively encoded and semantically modelled, e.g. by using Allen’s interval algebra and graph technologies [5;6]?\n(2) How can a reproducible algorithm deal with incomplete or vague dates to fix missing start or endpoints by creating “virtual fuzzy and wobbly dates”? Are graph-based digital tools like Alligator [9] or the Academic Meta Tool (AMT) [10] usable for this purpose?\n(3) How can results be visualised for researchers using graphs, timelines or maps [8, chapter 9]?\n(4) Do we need a different concept of temporalities for such “dated sites”?\nMethods and data\nAs a method, the chronological assumptions used in defining “dated sites” based on archaeological find materials in the 1st century AD must be deconstructed and restricted to the occurrences and overlaps within and between “find materials” from suspected “dated sites” only, to arrive at a relative chronology. This can be achieved by using correspondence analysis and visualising the resulting dimension values on maps recalculated in Hue values. By applying the “Alligator Method” [11], including the Alligator and AMT tools, we can fix missing or enhance existing start- or endpoints by adding information about the vagueness/uncertainties of the hitherto “from-to” information. The resulting relative chronology can be transferred and refined by Allen's interval algebra and visualised in graph structures such as the Resource Description Framework (RDF).\nTo cover as many as possible assumed “dated sites”, the Samian (Terra Sigillata) curated in the Open Data accessible research infrastructure Samian Research (https://www.rgzm.de/samian) with its 250’000 potter’s stamps from all over Europe is used. The paper is focused on data related to the historical southern German Limes developments and the enrollment of the Roman occupation of Britain as a cross-check for the statistically achieved relative chronologies.\nFindings\nIt turns out that it is possible to visualise historical development on maps, timelines and graph structures without using historical assumptions about individual “dated sites”. Simultaneously, this paper demonstrates that dating individual sites with the help of Samian cannot result in precise datings as usually expected in archaeology but requires the application of a different concept of temporality. The development of the Samian consumption patterns in the progressing Southern German Limes and the enrollment of the occupation of Britain appears to be a gradual development only. Hence the precise dating ability of the “find category” Samian has been overcharged since the beginning of Samian studies in the 19th century.\nApplying the before-mentioned methods, based on semantic modelling and W3C standards such as RDF [12-14] and inspired by LOD techniques, enables the FAIRification of these data related to temporality, especially by creating interoperability and reproducibility.\nReferences\n[1] Plinius the Younger, Letters (chapter LXV).\n[2] Tacitus, Agricola (chapter XXIX-XXXVII).\n[3] Allen, JF. 1983 Maintaining knowledge about temporal intervals. Communications of the ACM 26(11): 832–843. DOI: 10.1145/182.358434.\n[4] Freksa, C. 1991 Conceptual Neighborhood and its role in temporal and spatial reasoning. In:. Singh, MG and Travé-Massuyés, L (eds.). Proceedings of the IMACS Workshop on Decision Support Systems and Qualitative Reasoning. 1991. Amsterdam: North-Holland. pp. 181–187.\n[5] Cox, S, Little C 2022 Time Ontology in OWL. https://www.w3.org/TR/owl-time/#topology\n[6] Cox, S, Hobbs J, and Pan, F 2016. OWL-Time. https://www.w3.org/2006/time\n[7] Shaw R 202. Modeling and Reasoning about Incomplete, Uncertain, and Approximate Historical Dates. Extended Abstracts of Graphs and Networks in the Humanities 2022:\nTechnologies, Models, Analyses, and Visualizations, 11.2. https://t1p.de/5m3ow\n[8] Thiery, F 2013 Semantic Web und Linked Data: Generierung von Interoperabilität in archäologischen Fachdaten am Beispiel römischer Töpferstempel. Squirrel Papers 4(1): No. 3. DOI: 10.5281/zenodo.774861\n[9] Thiery, F, Mees AW. 2022 alligator - Allen Transformer. Squirrel Papers 4(2): No. 5. DOI: 10.5281/zenodo.2540709\n[10] Unold, M, Thiery, F and Mees, A. 2019 Academic Meta Tool. Ein Web-Tool zur Modellierung von Vagheit. ZfdG Sonderband 4: No. 6. DOI: 10.17175/SB004_004.\n[11] Thiery, F, Mees AW. 2023 Alligator Method. Squirrel Papers 5(1): No. 2. DOI: 10.5281/zenodo.7624871\n[12] Thiery, F 2018 Alligator Vocabulary. Vättern Edition. https://rgzm.github.io/alligator/vocab/\n[13] Thiery, F, Unold, M 2018 Academic Meta Tool Ontology. Leonard Edition. https://academic-meta-tool.xyz/ontology/\n[14] Thiery, F, Unold, M 2018 Academic Meta Tool Vocabulary. Penny Edition. https://academic-meta-tool.xyz/vocab/"
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.8154700",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2023-07-19"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Dating Dated Sites - Using Correspondence Analysis to handle Chronologies as Graphs."
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.8154700"
+      },
+      "prism:number": "4",
+      "prism:volume": "5",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/8154701"
+      },
+      "sqp:citationLabel": "5(4), #3",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "3"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e3"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e3"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-07-19T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-07-19T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.8154700",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e3"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/8154701"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "20198783"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/8154701/files/GrapHNR2023_DatingDatedSites_ThieryMees_zenodo_8154700.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "GrapHNR2023_DatingDatedSites_ThieryMees_zenodo_8154700.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "91d88c482e39b0687a9d1e26daf75863"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e3#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Dating Dated Sites - Using Correspondence Analysis to handle Chronologies as Graphs."
+    }
+  ]
+}

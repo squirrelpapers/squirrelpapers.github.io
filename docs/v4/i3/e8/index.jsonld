@@ -1,0 +1,334 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid"
+      },
+      "foaf:familyName": "Mees",
+      "foaf:givenName": "Allard W.",
+      "foaf:name": "Allard W. Mees",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      },
+      "rdfs:label": "Allard W. Mees",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7634-5342",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid"
+      },
+      "foaf:familyName": "Schmidt",
+      "foaf:givenName": "Sophie Charlotte",
+      "foaf:name": "Sophie Charlotte Schmidt",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-4696-2101"
+      },
+      "rdfs:label": "Sophie Charlotte Schmidt",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-4696-2101"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-4696-2101",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e8",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman Limes and Hadrian’s Wall relative time intervals based on Samian (Terra Sigillata)\nDr. Allard W. Mees, Florian Thiery, Sophie C. Schmidt\nIntroduction\nThe handling of relative time intervals, including vague and uncertain relations between them, is a major challenge in modelling chronologies in archaeology. Underlying dating mechanisms such as circular argumentations or dependencies on open end time intervals require tools for verification and visualisation of the underlying reasoning process. We are working with algorithms to combine relative time intervals with absolute dates by using quantitative parameters, resulting in a machine readable representation and a pipeline of tools using Semantic Web technologies to enable reproducible research. The consecutive phases of the Roman Limes have always been thought to be a corner-stone in establishing chronologies in archaeology. However, since there are only very few absolute dates attached to the Limes sections, many Limes parts are - if at all - only describable as relatively vague time intervals.\nMethods and Materials\nIn order to tackle the issues mentioned above, we developed two methods which are built on one another: the Alligator, and the Academic Meta Tool (AMT) approaches. As their starting point, an *.agt file is used which includes the values name, xyz-coordinates, start / end dates (if available), as well as uncertainty information (e.g. a “fixed” absolute dates or floating endings). This file is generated from the correspondence analysis (ca) output (based on a CSV comprising Limes intervals, potters, number of occurrences) in which the quantitative relations of the euclidean distances between finds and proposed time intervals are calculated. Following the “horseshoe paradigm”, the ca result may provide a measure of (possible chronological) overlap between the Limes intervals. It is important to note that a ca does not start with any pre-known dating information. Therefore, the *.agt file contains dating metadata (e.g. start / end dates, uncertainty information) from a separate file. The Alligator approach starts with (i) a 3D distance calculation using the coordinates of the first 3 ca dimensions (xyz) in the *.agt file. Then the “Alligator Algorithm” will be applied by (ii) calculating undated wobbly floating periods (e.g. terminus post quem points, derived from a historical sources, or terminus ante quem points derived from dendrochronological dates) by finding the next 3D ca neighbour. Following this step (iii) the new virtual time intervals are calculated and the resulting “virtual fuzzy years” are generated based on Allen’s interval algebra. Any resulting “virtual fuzzy year” is then (iiii) transformed into relative intervals and stored in RDF format [1]. The AMT approach is applied by using the AMT library. It uses a specific AMT ontology for relative time intervals [2], in which temporal reasoning can be applied.\nEach relation contains a degree of connection that is based on the rules of vagueness. In our use case, the estimated Allen intervals and the potters’ overlap of the Limes parts is (j) described with the (normalised) Pearson correlation coefficient. In the case of the AMT approach, we (jj) have to transform the intervals into the AMT format and include the degree of connection as a (normalised) Pearson correlation coefficient. This RDF file serves as input for the AMT. With AMT (jjj) temporal reasoning according to the specific-ontology can be calculated and afterwards (jjjj) exported and visualised. As a use case, this Linked Open Time workflow validates Roman Limes and Hadrian’s Wall relative time intervals, based on the Samian (Terra Sigillata) found on these Limes sections. The data stems from the online database “Samian Research”. Several Limes time intervals can be defined convincingly (e.g. Elisabethenstraße: AD 74-104, Wetteraulimes: AD 110-260), others are less certain. Although there is only a vague possible starting date known during Hadrian’s reign (after AD 122), we neither know the precise starting date nor its end date. As for the North Sea foundations, we assume that Hadrian founded them AD 120 (emperor Hadrian gave his name to the newly founded town Forum Hadriani), but we do not know what their end date was.\nResults and Discussion\nThe approaches are resulting in research tools: the *.agt file format, an AMT ontology for temporal reasoning, the R-based research tool “Alligator CA” (in cooperation with the CAA SIG SSLA), the JAVA-based “Alligator”, the Python-based “Alligator-AMT-Transformator”, and the JavaScript-based “AMT time” have been implemented. In combination as a Linked Pipe [3], they are able to base the mechanisms of Limes-dating on specific material find-categories more comprehensible. As an example, it is possible to analyse and visualise the dependencies within the dating arguments of individual Limes sections when using the Terra Sigillata found on their Limes sites. “Virtual timelines” show the position of the “Elisabethenstraße” and the “Wetterau Limes” in “virtual fuzzy years” as a fundament for a relative Limes chronology. The results of this use case seem to confirm the widespread assumption that Hadrian’s Wall, the North Sea Coast foundations and the Wetterau Limes were founded in the same decades. Based on very similar Samian consumption profiles, they are all located on the right (“late”) side. However, the process of nearest neighbour findings also suggests a somewhat earlier starting date of Hadrian’s Wall, similar to Wetterau Limes. There may have been a number of reasons for this phenomenon: a) the quantities involved are causing volatility, b) the amount of Samian Ware available on the British/Scottish or German markets were different, causing supply differences c) although it is possible with Samian as a find category to establish relative chronologies (especially when there are no absolute dates available), it has no reliable capability for yielding absolute dates. This method of dealing with uncertain time intervals opens possibilities for comparisons with other timeline oriented methods used to date Limes sites, such as series of coin dates. When applying the workflow, there are some issues which still need to be discussed and implemented: a) including weights from dating metadata, e.g. dating method, b) refine the algorithm to add wobbliness to the calculated virtual fuzzy years, c) weighing of factor loads in different ca dimensions, d) taking quality values of individual ca units and types into account.\nReferences\n[1] DOI: 10.5281/zenodo.1436351\n[2] DOIs: 10.5281/zenodo.1157985 and 10.5281/zenodo.1160350 / https://github.com/mainzed/academicmetatool-viewer/blob/master/time/ontology_time.ttl\n[3] DOI: 10.5281/zenodo.6412435"
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.6976175",
+      "bibo:locator": "#8",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3"
+      },
+      "dcat:keyword": [
+        "Allen Algebra",
+        "Archaeology",
+        "Linked Open Data",
+        "Relative Chronology",
+        "Samian Ware",
+        "Terra Sigillata"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v4/i3/e8/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman Limes and Hadrian’s Wall relative time intervals based on Samian (Terra Sigillata)\nDr. Allard W. Mees, Florian Thiery, Sophie C. Schmidt\nIntroduction\nThe handling of relative time intervals, including vague and uncertain relations between them, is a major challenge in modelling chronologies in archaeology. Underlying dating mechanisms such as circular argumentations or dependencies on open end time intervals require tools for verification and visualisation of the underlying reasoning process. We are working with algorithms to combine relative time intervals with absolute dates by using quantitative parameters, resulting in a machine readable representation and a pipeline of tools using Semantic Web technologies to enable reproducible research. The consecutive phases of the Roman Limes have always been thought to be a corner-stone in establishing chronologies in archaeology. However, since there are only very few absolute dates attached to the Limes sections, many Limes parts are - if at all - only describable as relatively vague time intervals.\nMethods and Materials\nIn order to tackle the issues mentioned above, we developed two methods which are built on one another: the Alligator, and the Academic Meta Tool (AMT) approaches. As their starting point, an *.agt file is used which includes the values name, xyz-coordinates, start / end dates (if available), as well as uncertainty information (e.g. a “fixed” absolute dates or floating endings). This file is generated from the correspondence analysis (ca) output (based on a CSV comprising Limes intervals, potters, number of occurrences) in which the quantitative relations of the euclidean distances between finds and proposed time intervals are calculated. Following the “horseshoe paradigm”, the ca result may provide a measure of (possible chronological) overlap between the Limes intervals. It is important to note that a ca does not start with any pre-known dating information. Therefore, the *.agt file contains dating metadata (e.g. start / end dates, uncertainty information) from a separate file. The Alligator approach starts with (i) a 3D distance calculation using the coordinates of the first 3 ca dimensions (xyz) in the *.agt file. Then the “Alligator Algorithm” will be applied by (ii) calculating undated wobbly floating periods (e.g. terminus post quem points, derived from a historical sources, or terminus ante quem points derived from dendrochronological dates) by finding the next 3D ca neighbour. Following this step (iii) the new virtual time intervals are calculated and the resulting “virtual fuzzy years” are generated based on Allen’s interval algebra. Any resulting “virtual fuzzy year” is then (iiii) transformed into relative intervals and stored in RDF format [1]. The AMT approach is applied by using the AMT library. It uses a specific AMT ontology for relative time intervals [2], in which temporal reasoning can be applied.\nEach relation contains a degree of connection that is based on the rules of vagueness. In our use case, the estimated Allen intervals and the potters’ overlap of the Limes parts is (j) described with the (normalised) Pearson correlation coefficient. In the case of the AMT approach, we (jj) have to transform the intervals into the AMT format and include the degree of connection as a (normalised) Pearson correlation coefficient. This RDF file serves as input for the AMT. With AMT (jjj) temporal reasoning according to the specific-ontology can be calculated and afterwards (jjjj) exported and visualised. As a use case, this Linked Open Time workflow validates Roman Limes and Hadrian’s Wall relative time intervals, based on the Samian (Terra Sigillata) found on these Limes sections. The data stems from the online database “Samian Research”. Several Limes time intervals can be defined convincingly (e.g. Elisabethenstraße: AD 74-104, Wetteraulimes: AD 110-260), others are less certain. Although there is only a vague possible starting date known during Hadrian’s reign (after AD 122), we neither know the precise starting date nor its end date. As for the North Sea foundations, we assume that Hadrian founded them AD 120 (emperor Hadrian gave his name to the newly founded town Forum Hadriani), but we do not know what their end date was.\nResults and Discussion\nThe approaches are resulting in research tools: the *.agt file format, an AMT ontology for temporal reasoning, the R-based research tool “Alligator CA” (in cooperation with the CAA SIG SSLA), the JAVA-based “Alligator”, the Python-based “Alligator-AMT-Transformator”, and the JavaScript-based “AMT time” have been implemented. In combination as a Linked Pipe [3], they are able to base the mechanisms of Limes-dating on specific material find-categories more comprehensible. As an example, it is possible to analyse and visualise the dependencies within the dating arguments of individual Limes sections when using the Terra Sigillata found on their Limes sites. “Virtual timelines” show the position of the “Elisabethenstraße” and the “Wetterau Limes” in “virtual fuzzy years” as a fundament for a relative Limes chronology. The results of this use case seem to confirm the widespread assumption that Hadrian’s Wall, the North Sea Coast foundations and the Wetterau Limes were founded in the same decades. Based on very similar Samian consumption profiles, they are all located on the right (“late”) side. However, the process of nearest neighbour findings also suggests a somewhat earlier starting date of Hadrian’s Wall, similar to Wetterau Limes. There may have been a number of reasons for this phenomenon: a) the quantities involved are causing volatility, b) the amount of Samian Ware available on the British/Scottish or German markets were different, causing supply differences c) although it is possible with Samian as a find category to establish relative chronologies (especially when there are no absolute dates available), it has no reliable capability for yielding absolute dates. This method of dealing with uncertain time intervals opens possibilities for comparisons with other timeline oriented methods used to date Limes sites, such as series of coin dates. When applying the workflow, there are some issues which still need to be discussed and implemented: a) including weights from dating metadata, e.g. dating method, b) refine the algorithm to add wobbliness to the calculated virtual fuzzy years, c) weighing of factor loads in different ca dimensions, d) taking quality values of individual ca units and types into account.\nReferences\n[1] DOI: 10.5281/zenodo.1436351\n[2] DOIs: 10.5281/zenodo.1157985 and 10.5281/zenodo.1160350 / https://github.com/mainzed/academicmetatool-viewer/blob/master/time/ontology_time.ttl\n[3] DOI: 10.5281/zenodo.6412435"
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.6976175",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2022-08-09"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman Limes and Hadrian's Wall relative time intervals based on Samian (Terra Sigillata)"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.6976175"
+      },
+      "prism:number": "3",
+      "prism:volume": "4",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/6976176"
+      },
+      "sqp:citationLabel": "4(3), #8",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "8"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e8"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e8"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-08-09T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-08-09T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.6976175",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e8"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/6976176"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "5493103"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/6976176/files/CAA2022Oxford_LinkedOpenTime.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "CAA2022Oxford_LinkedOpenTime.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "7a27048a69b6f89628774e8934b46002"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e8#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Linked Open Time: Reproducible LOD-driven workflows and research tools for validating Roman Limes and Hadrian's Wall relative time intervals based on Samian (Terra Sigillata)"
+    }
+  ]
+}

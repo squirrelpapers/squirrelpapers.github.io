@@ -1,0 +1,292 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid"
+      },
+      "foaf:familyName": "Mees",
+      "foaf:givenName": "Allard W.",
+      "foaf:name": "Allard W. Mees",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      },
+      "rdfs:label": "Allard W. Mees",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7634-5342",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e15",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Although the current situation in archaeology still shows a clear predominance of relational databases, the relevance of LOD and the Semantic Web in the Digital Humanities has increased substantially. Enhancing SQL databases by applying LOD technologies enables the application of the RDF standard, semantic modelling, interlinking of data, and Open Access by offering SPARQL endpoints to create FAIR Linked Open Usable Data. Creating a new infrastructure, an adapted data model, and the implementation of interactive web applications based on legacy systems causes challenges for Research Software Engineering (RSE) and Research Data Management (RDM) issues. This talk will demonstrate the example of NAVIS ONE.\nThe NAVIS Ship Databases 1-3 at the RGZM cover ancient ships (< AD 1200). The European Union funded the NAVIS projects, and its research community consisted of scientists from more than ten countries. NAVIS I (1996-1999) comprises shipwrecks, reconstructions and models, NAVIS II (1999-2001) focuses on ancient ship depictions on objects, and NAVIS III (2002) is related to ships on Roman coins. Moreover, the NAVIS ship databases enclose terms organised in controlled vocabularies, i.e. NAVIS I: thesauri of ship components and wreck-specific thesauri; NAVIS II: thesauri of ship components and their properties, objects keywords, dating, material as well as techniques; NAVIS III: thesauri of emperors, mints, coin types and ship features.\nDesigning a common web app causes challenges in merging three different individual MS Access data models focussing on wrecks, models, reconstructions and depictions of archaeological objects and artefacts, especially coins, in a common data model based on PostgreSQL. Furthermore, transforming, cleaning, validating and normalising data is a highly elaborate task. These refined data enable opportunities in Semantic Web applications, LOD\nand community work, e.g. NFDI4Objects TRAILs. Publishing data in the LOD hub archaeology.link connects them within the LOD Cloud, e.g. by interlinking ARS in NAVIS ONE and in ARS3D as well as iDAI.objects and entities of the Wikidata Knowledge Graph; thesauri can be published via a hub for authority files and community-driven vocabularies: DANTE; Nomisma can be used to share coins as a domain-specific hub."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.7142170",
+      "bibo:locator": "#15",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3"
+      },
+      "dcat:keyword": [
+        "Linked Open Data",
+        "Ships"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v4/i3/e15/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Although the current situation in archaeology still shows a clear predominance of relational databases, the relevance of LOD and the Semantic Web in the Digital Humanities has increased substantially. Enhancing SQL databases by applying LOD technologies enables the application of the RDF standard, semantic modelling, interlinking of data, and Open Access by offering SPARQL endpoints to create FAIR Linked Open Usable Data. Creating a new infrastructure, an adapted data model, and the implementation of interactive web applications based on legacy systems causes challenges for Research Software Engineering (RSE) and Research Data Management (RDM) issues. This talk will demonstrate the example of NAVIS ONE.\nThe NAVIS Ship Databases 1-3 at the RGZM cover ancient ships (< AD 1200). The European Union funded the NAVIS projects, and its research community consisted of scientists from more than ten countries. NAVIS I (1996-1999) comprises shipwrecks, reconstructions and models, NAVIS II (1999-2001) focuses on ancient ship depictions on objects, and NAVIS III (2002) is related to ships on Roman coins. Moreover, the NAVIS ship databases enclose terms organised in controlled vocabularies, i.e. NAVIS I: thesauri of ship components and wreck-specific thesauri; NAVIS II: thesauri of ship components and their properties, objects keywords, dating, material as well as techniques; NAVIS III: thesauri of emperors, mints, coin types and ship features.\nDesigning a common web app causes challenges in merging three different individual MS Access data models focussing on wrecks, models, reconstructions and depictions of archaeological objects and artefacts, especially coins, in a common data model based on PostgreSQL. Furthermore, transforming, cleaning, validating and normalising data is a highly elaborate task. These refined data enable opportunities in Semantic Web applications, LOD\nand community work, e.g. NFDI4Objects TRAILs. Publishing data in the LOD hub archaeology.link connects them within the LOD Cloud, e.g. by interlinking ARS in NAVIS ONE and in ARS3D as well as iDAI.objects and entities of the Wikidata Knowledge Graph; thesauri can be published via a hub for authority files and community-driven vocabularies: DANTE; Nomisma can be used to share coins as a domain-specific hub."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.7142170",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2022-10-06"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "NAVIS.one: Challenges and Opportunities for RSE and RDM by designing a common web application from a 1990s online database"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.7142170"
+      },
+      "prism:number": "3",
+      "prism:volume": "4",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/7142171"
+      },
+      "sqp:citationLabel": "4(3), #15",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "15"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e15"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e15"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-10-06T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-10-06T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.7142170",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e15"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/7142171"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "7991310"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/7142171/files/JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "JCM_Cologne_CAA_DE_NL_FL_2022_NAVISONE.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "45f2e428a4e79755cd406f6ec30ec7ac"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e15#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "NAVIS.one: Challenges and Opportunities for RSE and RDM by designing a common web application from a 1990s online database"
+    }
+  ]
+}

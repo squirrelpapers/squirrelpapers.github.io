@@ -1,0 +1,427 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e21"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e26"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open"
+      },
+      "rdfs:label": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2024-11-20"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open"
+      },
+      "schema:name": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2024-11-20"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-20T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-20T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid"
+      },
+      "foaf:familyName": "Flemisch",
+      "foaf:givenName": "Bernd",
+      "foaf:name": "Bernd Flemisch",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0001-8188-620X"
+      },
+      "rdfs:label": "Bernd Flemisch",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0001-8188-620X"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0001-8188-620X",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/hammitzsch-martin",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Hammitzsch",
+      "foaf:givenName": "Martin",
+      "foaf:name": "Martin Hammitzsch",
+      "rdfs:label": "Martin Hammitzsch"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(13.383333 52.516667)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(13.383333 52.516667)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q64"
+      },
+      "rdfs:label": "Berlin",
+      "schema:addressCountry": {
+        "@id": "wd:Q148499"
+      },
+      "schema:description": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
+      "schema:latitude": 52.516667,
+      "schema:longitude": 13.383333
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(13.383333 52.516667)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e26",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Research Software Engineering (RSE) is fundamental to the German National Research Data Infrastructure (NFDI). Within the NFDI e.V., several sections deal with overarching topics, including RSE technologies and knowledge, especially the \"Section Common Infrastructures\" with its working groups on \"Data Integration (DI)\", \"Data Management Planning (DMP)\", \"Data Science and Artificial Intelligence (DSAI)\", \"Electronic Lab Notebooks (ELN)\", \"Persistent Identifiers (PID)\" and \"Research Software Engineering (RSE)\".\nThe RSE working group connects the NFDI consortia in software-related aspects. It focuses on Research software, software communities, and software infrastructure at NFDI. The working group operates a central forum in an advisory and supportive capacity. It establishes the necessary software ecosystem within NFDI for the professional development of software infrastructure components, which represent an integral part of the NFDI. In addition, the working group serves as an interface for the NFDI to compare European and international initiatives to promote the connectivity of the NFDI with other infrastructures.\nThe WG RSE comprises several tasks that are also related to Base4NFDI:\nTask Jupyter Services: bring together the JupyterHub providers in Germany; collect and list available hubs at a common website; evaluate the possibility of an NFDI-wide Jupyter service. This is addressed in the Jupyter4NFDI Basic Service (in its initialisation phase. Jupyter4NFDI aims to address the fragmented deployment of Jupyter Notebooks across NFDI consortia by offering a centralised service. This service will simplify access, improve user experience, and extend Jupyter's reach to a wider audience within and beyond the NFDI.\nTask Software Marketplace: Allow access to the portfolio of research software in the NFDI; develop a concept for the Marketplace; consider requirements from the consortia and available solutions. This has been substantiated in a proposal to Base4NFDI.\nTask Training Materials: Create recommendations to spread good practices using available content.\nTask Mission Statement: Develop a common mission statement, \"Software Engineering in the NFDI“.\nTask Status Quo Survey and Report: Apply an RSE survey for a \"Landscape Analysis\" within the NFDI.\nTask Overarching Initiatives: Ensure connectivity and compatibility with European and international efforts.\nTask Software Ecosystem: Develop a draft strategy for establishing a software ecosystem within the NFDI.\nTask Use Cases: Identify use cases for a cross-consortium, prototypical development of the software ecosystem.\nTask Quality Criteria for Research Software: Identify and develop suitable, easy-to-record indicators.\nTask Criteria for NFDI Components: Ensure reliability, compatibility, and security; provide checklists/test suite.\nThis contribution presents the WG RSE activities and the possibilities for participation (small subgroups work on individual tasks, monthly WG-wide coordination meetings) in the working group discussion rounds that bring the NFDI consortia together in all software-related aspects."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.14167106",
+      "bibo:locator": "#26",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v6/i4/e26/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/hammitzsch-martin"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Research Software Engineering (RSE) is fundamental to the German National Research Data Infrastructure (NFDI). Within the NFDI e.V., several sections deal with overarching topics, including RSE technologies and knowledge, especially the \"Section Common Infrastructures\" with its working groups on \"Data Integration (DI)\", \"Data Management Planning (DMP)\", \"Data Science and Artificial Intelligence (DSAI)\", \"Electronic Lab Notebooks (ELN)\", \"Persistent Identifiers (PID)\" and \"Research Software Engineering (RSE)\".\nThe RSE working group connects the NFDI consortia in software-related aspects. It focuses on Research software, software communities, and software infrastructure at NFDI. The working group operates a central forum in an advisory and supportive capacity. It establishes the necessary software ecosystem within NFDI for the professional development of software infrastructure components, which represent an integral part of the NFDI. In addition, the working group serves as an interface for the NFDI to compare European and international initiatives to promote the connectivity of the NFDI with other infrastructures.\nThe WG RSE comprises several tasks that are also related to Base4NFDI:\nTask Jupyter Services: bring together the JupyterHub providers in Germany; collect and list available hubs at a common website; evaluate the possibility of an NFDI-wide Jupyter service. This is addressed in the Jupyter4NFDI Basic Service (in its initialisation phase. Jupyter4NFDI aims to address the fragmented deployment of Jupyter Notebooks across NFDI consortia by offering a centralised service. This service will simplify access, improve user experience, and extend Jupyter's reach to a wider audience within and beyond the NFDI.\nTask Software Marketplace: Allow access to the portfolio of research software in the NFDI; develop a concept for the Marketplace; consider requirements from the consortia and available solutions. This has been substantiated in a proposal to Base4NFDI.\nTask Training Materials: Create recommendations to spread good practices using available content.\nTask Mission Statement: Develop a common mission statement, \"Software Engineering in the NFDI“.\nTask Status Quo Survey and Report: Apply an RSE survey for a \"Landscape Analysis\" within the NFDI.\nTask Overarching Initiatives: Ensure connectivity and compatibility with European and international efforts.\nTask Software Ecosystem: Develop a draft strategy for establishing a software ecosystem within the NFDI.\nTask Use Cases: Identify use cases for a cross-consortium, prototypical development of the software ecosystem.\nTask Quality Criteria for Research Software: Identify and develop suitable, easy-to-record indicators.\nTask Criteria for NFDI Components: Ensure reliability, compatibility, and security; provide checklists/test suite.\nThis contribution presents the WG RSE activities and the possibilities for participation (small subgroups work on individual tasks, monthly WG-wide coordination meetings) in the working group discussion rounds that bring the NFDI consortia together in all software-related aspects."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.14167106",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2024-11-20"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Research Software Engineering within the NFDI (INFRA-WG-RSE)"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.14167106"
+      },
+      "prism:number": "4",
+      "prism:volume": "6",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/14167107"
+      },
+      "sqp:citationLabel": "6(4), #26",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "26"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/hammitzsch-martin"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-8188-620X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/hammitzsch-martin"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e26"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e26"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-20T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-20T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.14167106",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e26"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/14167107"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "943124"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/14167107/files/19_UC4B2024_INFRA-WG-RSE.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "19_UC4B2024_INFRA-WG-RSE.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "8e9dda01195cf3c3121df2692e21d030"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e26#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Research Software Engineering within the NFDI (INFRA-WG-RSE)"
+    }
+  ]
+}

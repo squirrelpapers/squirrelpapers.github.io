@@ -1,0 +1,356 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/24th-annual-meeting-of-the-european-association-of-archaeologists-2018",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v1/i7/e1"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v1/i7/e7"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/24th-annual-meeting-of-the-european-association-of-archaeologists-2018#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/24th-annual-meeting-of-the-european-association-of-archaeologists-2018#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/universidad-de-barcelona-spain"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/universidad-de-barcelona-spain"
+      },
+      "rdfs:label": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2018-09-08"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/universidad-de-barcelona-spain"
+      },
+      "schema:name": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2018-09-05"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/24th-annual-meeting-of-the-european-association-of-archaeologists-2018#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "24th Annual Meeting of the European Association of Archaeologists (EAA2018)"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/24th-annual-meeting-of-the-european-association-of-archaeologists-2018#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-09-05T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-09-08T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid"
+      },
+      "foaf:familyName": "Mees",
+      "foaf:givenName": "Allard W.",
+      "foaf:name": "Allard W. Mees",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      },
+      "rdfs:label": "Allard W. Mees",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7634-5342",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e7",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "It is a stroke of luck that the RGZM (Römisch-Germanisches Zentralmuseum Mainz) hosts already since the mid-1990s several online available databases containing millions of datasets, with content from many different archaeological disciplines. These databases where constructed in interdisciplinary transnational projects and include a lot of “hidden archaeological assumptions” in their relational data models. Especially short cutted relative chronological information and its dependencies are not modelled using transparent methods. The aim of our project is to make these hidden assumptions in archaeology visible and provide them as Linked Open Data to establish reproducible research as a fundament for Open Science.\nIn particular the Samian Research database at the RGZM offers nearly 250’000 identified potter stamps, which are traditionally dated in a short cutted way. In Roman archaeology this is usually expressed by establishing “absolute dates” in well known “from-to” tables, whereas in reality, the situation is much more diffuse. In fact, Limes fortress dating is often done based on circular arguments. Samian stamps, for example, are being dated by sites, which on their own are again being dated by Samian.\nThis paper focuses on modelling these circular dating arguments using a relative chronology based on Allen’s interval algebra for temporal reasoning in the Academic Meta Tool (AMT) to create Linked Open Data for reproducible and transparent research. AMT allows us to create a fitting ontology and visualise the reasoning results in a web app for detecting errors and circular reasoning. As an example, we will take a deeper look into the relative chronological relationships of the Limes fortresses."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.1402509",
+      "bibo:locator": "#7",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/24th-annual-meeting-of-the-european-association-of-archaeologists-2018"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "dcat:keyword": [
+        "Allens's Alegebra",
+        "Chronology",
+        "Linked Open Data",
+        "Samian",
+        "Sigillata"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i7/e7/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "It is a stroke of luck that the RGZM (Römisch-Germanisches Zentralmuseum Mainz) hosts already since the mid-1990s several online available databases containing millions of datasets, with content from many different archaeological disciplines. These databases where constructed in interdisciplinary transnational projects and include a lot of “hidden archaeological assumptions” in their relational data models. Especially short cutted relative chronological information and its dependencies are not modelled using transparent methods. The aim of our project is to make these hidden assumptions in archaeology visible and provide them as Linked Open Data to establish reproducible research as a fundament for Open Science.\nIn particular the Samian Research database at the RGZM offers nearly 250’000 identified potter stamps, which are traditionally dated in a short cutted way. In Roman archaeology this is usually expressed by establishing “absolute dates” in well known “from-to” tables, whereas in reality, the situation is much more diffuse. In fact, Limes fortress dating is often done based on circular arguments. Samian stamps, for example, are being dated by sites, which on their own are again being dated by Samian.\nThis paper focuses on modelling these circular dating arguments using a relative chronology based on Allen’s interval algebra for temporal reasoning in the Academic Meta Tool (AMT) to create Linked Open Data for reproducible and transparent research. AMT allows us to create a fitting ontology and visualise the reasoning results in a web app for detecting errors and circular reasoning. As an example, we will take a deeper look into the relative chronological relationships of the Limes fortresses."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.1402509",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2018-09-06"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Taming Time – Modelling uncertainty as reproducible Linked Open Data"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.1402509"
+      },
+      "prism:number": "7",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/1402510"
+      },
+      "sqp:citationLabel": "1(7), #7",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "7"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e7"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e7"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-09-06T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-09-06T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.1402509",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e7"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/1402510"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "3961348"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/1402510/files/2018_09_06_EAA_BarcelonaTamingTime.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2018_09_06_EAA_BarcelonaTamingTime.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "fcad836c9a81ff1ea9d7f956def2ce1b"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e7#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Taming Time – Modelling uncertainty as reproducible Linked Open Data"
+    }
+  ]
+}

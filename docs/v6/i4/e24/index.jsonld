@@ -1,0 +1,447 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/conference-on-cultral-heritage-and-new-technologies-chnt29-vienna-2024",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e22"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e23"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e24"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/conference-on-cultral-heritage-and-new-technologies-chnt29-vienna-2024#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/conference-on-cultral-heritage-and-new-technologies-chnt29-vienna-2024#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/vienna-city-hall-wappensaal-vienna-austria"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/vienna-city-hall-wappensaal-vienna-austria"
+      },
+      "rdfs:label": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2024-11-06"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/vienna-city-hall-wappensaal-vienna-austria"
+      },
+      "schema:name": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2024-11-04"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/conference-on-cultral-heritage-and-new-technologies-chnt29-vienna-2024#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Conference on Cultral Heritage and New Technologies (CHNT29), Vienna, Austria"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/conference-on-cultral-heritage-and-new-technologies-chnt29-vienna-2024#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-04T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-06T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0001-5183-1635",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0001-5183-1635#orcid"
+      },
+      "foaf:familyName": "Mempel-Länger",
+      "foaf:givenName": "Lasse",
+      "foaf:name": "Lasse Mempel-Länger",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0001-5183-1635"
+      },
+      "rdfs:label": "Lasse Mempel-Länger",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0001-5183-1635"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0001-5183-1635#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0001-5183-1635",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0005-3991-1025",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0005-3991-1025#orcid"
+      },
+      "foaf:familyName": "Fella",
+      "foaf:givenName": "Kristina",
+      "foaf:name": "Kristina Fella",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0005-3991-1025"
+      },
+      "rdfs:label": "Kristina Fella",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0005-3991-1025"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0005-3991-1025#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0005-3991-1025",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/vienna-city-hall-wappensaal-vienna-austria",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(16.3574 48.2108)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(16.3574 48.2108)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/vienna-city-hall-wappensaal-vienna-austria#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/vienna-city-hall-wappensaal-vienna-austria#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q686468"
+      },
+      "rdfs:label": "Vienna City Hall",
+      "schema:addressCountry": {
+        "@id": "wd:Q40"
+      },
+      "schema:description": "Vienna City Hall, Wappensaal, Vienna, Austria",
+      "schema:latitude": 48.2108,
+      "schema:longitude": 16.3574
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/vienna-city-hall-wappensaal-vienna-austria#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(16.3574 48.2108)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e24",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Digital technology has significantly advanced the conservation of archaeological cultural heritage, underscoring the importance of structured data management. However, diverse innovations have led to various isolated solutions without uniform standards, creating challenges in interdisciplinary cooperation.\nThe consortium NFDI4Objects (Thiery et al., 2023; Bibby et al., 2023) aims to harmonise this fragmented data landscape concerning human legacies from cultural history, opening new potential for knowledge generation and interdisciplinary linking. Within the consortium, Task Area 4 - \"Protecting\" (Himmelmann et al., 2024; Fella, Mempel-Länger, and Witt, 2024) focuses on managing and protecting cultural heritage, enhancing the accessibility and exchange of conservation data and facilitating interdisciplinary research using data-driven methodologies. To achieve this, it is necessary to overcome barriers, such as using different specialised terminology.\nDifferent terms can describe the same objects or conservation methods even within individual specialist communities, complicating clear communication and understanding of described entities. This challenge intensifies across disciplinary boundaries. Controlled vocabularies offer a solution by enabling uniform and precise communication, improving clarity and consistency in scientific collaboration. Semantic modelling and linking can connect disparate specialist vocabularies due to the impracticality of establishing a uniform vocabulary across all disciplines.\nThis project utilises the terminology used at the archaeological conservation of the Leibniz-Zentrum für Archäologie (LEIZA) to illustrate the process and demonstrate the potential for developing semantically networked, machine-readable specialist thesauri."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.14055855",
+      "bibo:locator": "#24",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/conference-on-cultral-heritage-and-new-technologies-chnt29-vienna-2024"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v6/i4/e24/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0001-5183-1635"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0005-3991-1025"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Digital technology has significantly advanced the conservation of archaeological cultural heritage, underscoring the importance of structured data management. However, diverse innovations have led to various isolated solutions without uniform standards, creating challenges in interdisciplinary cooperation.\nThe consortium NFDI4Objects (Thiery et al., 2023; Bibby et al., 2023) aims to harmonise this fragmented data landscape concerning human legacies from cultural history, opening new potential for knowledge generation and interdisciplinary linking. Within the consortium, Task Area 4 - \"Protecting\" (Himmelmann et al., 2024; Fella, Mempel-Länger, and Witt, 2024) focuses on managing and protecting cultural heritage, enhancing the accessibility and exchange of conservation data and facilitating interdisciplinary research using data-driven methodologies. To achieve this, it is necessary to overcome barriers, such as using different specialised terminology.\nDifferent terms can describe the same objects or conservation methods even within individual specialist communities, complicating clear communication and understanding of described entities. This challenge intensifies across disciplinary boundaries. Controlled vocabularies offer a solution by enabling uniform and precise communication, improving clarity and consistency in scientific collaboration. Semantic modelling and linking can connect disparate specialist vocabularies due to the impracticality of establishing a uniform vocabulary across all disciplines.\nThis project utilises the terminology used at the archaeological conservation of the Leibniz-Zentrum für Archäologie (LEIZA) to illustrate the process and demonstrate the potential for developing semantically networked, machine-readable specialist thesauri."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.14055855",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2024-11-06"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Derivation of thesauri in archaeological conservation through synergistic collaboration between domain experts and the use of semantic and NLP technologies with a FAIR and open publication"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.14055855"
+      },
+      "prism:number": "4",
+      "prism:volume": "6",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/14055856"
+      },
+      "sqp:citationLabel": "6(4), #24",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "24"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0001-5183-1635"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0005-3991-1025"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0001-5183-1635"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0005-3991-1025"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e24"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e24"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-06T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-06T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.14055855",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e24"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/14055856"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "8790149"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/14055856/files/20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "20241106_CHNT29_2024_Vienna_ConservationThesauri.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "562e0fc445a0f88caf9b2a2caa6a8469"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e24#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Derivation of thesauri in archaeological conservation through synergistic collaboration between domain experts and the use of semantic and NLP technologies with a FAIR and open publication"
+    }
+  ]
+}

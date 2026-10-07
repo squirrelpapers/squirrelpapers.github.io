@@ -1,0 +1,719 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e1"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e10"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e2"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e3"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e4"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e5"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e6"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e7"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e8"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e9"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "rdfs:label": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2025-08-28"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "schema:name": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2025-08-26"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "2nd Conference on Research Data Infrastructure (CoRDI) 2025"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-28T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760#orcid"
+      },
+      "foaf:familyName": "Schneider",
+      "foaf:givenName": "Agnes",
+      "foaf:name": "Agnes Schneider",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-1854-6760"
+      },
+      "rdfs:label": "Agnes Schneider",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-1854-6760"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-1854-6760",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4426-2657",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4426-2657#orcid"
+      },
+      "foaf:familyName": "Landauer",
+      "foaf:givenName": "Jürgen",
+      "foaf:name": "Jürgen Landauer",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-4426-2657"
+      },
+      "rdfs:label": "Jürgen Landauer",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-4426-2657"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4426-2657#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-4426-2657",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid"
+      },
+      "foaf:familyName": "Sure-Vetter",
+      "foaf:givenName": "York",
+      "foaf:name": "York Sure-Vetter",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-4522-1099"
+      },
+      "rdfs:label": "York Sure-Vetter",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-4522-1099"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-4522-1099",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9953-7638",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid"
+      },
+      "foaf:familyName": "Tolle",
+      "foaf:givenName": "Karsten",
+      "foaf:name": "Karsten Tolle",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-9953-7638"
+      },
+      "rdfs:label": "Karsten Tolle",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-9953-7638"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-9953-7638",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid"
+      },
+      "foaf:familyName": "Groth",
+      "foaf:givenName": "Paul",
+      "foaf:name": "Paul Groth",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-0183-6910"
+      },
+      "rdfs:label": "Paul Groth",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-0183-6910"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-0183-6910",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Peter",
+      "foaf:name": "Peter Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      },
+      "rdfs:label": "Peter Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3270-2659",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid"
+      },
+      "foaf:familyName": "Schubert",
+      "foaf:givenName": "Lutz Krister",
+      "foaf:name": "Lutz Krister Schubert",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-4889-9353"
+      },
+      "rdfs:label": "Lutz Krister Schubert",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-4889-9353"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-4889-9353",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0002-8700-3505",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0002-8700-3505#orcid"
+      },
+      "foaf:familyName": "Gampe",
+      "foaf:givenName": "Sebastian",
+      "foaf:name": "Sebastian Gampe",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0002-8700-3505"
+      },
+      "rdfs:label": "Sebastian Gampe",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0002-8700-3505"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0002-8700-3505#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0002-8700-3505",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid"
+      },
+      "foaf:familyName": "Schenk",
+      "foaf:givenName": "Fiona",
+      "foaf:name": "Fiona Schenk",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0008-2877-3204"
+      },
+      "rdfs:label": "Fiona Schenk",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0008-2877-3204"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0008-2877-3204",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q273263"
+      },
+      "rdfs:label": "RWTH Aachen University",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+      "schema:latitude": 50.777778,
+      "schema:longitude": 6.078056
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e1",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ProceedingsPaper",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Computational Archaeology plays an increasingly strategic role in research data management (RDM) within archaeology and the (digital) humanities [1], [2]. At the heart of these developments lies a growing recognition of Research Software Engineering (RSE) as a key enabler for the FAIRification of data and code. This contribution explores the role of RSE and domain-specific research software in archaeological data workflows, illustrating how computational archaeology drives innovation in semantic modelling, data transformation, and the handling of uncertainty, which are core challenges for the NFDI [3]. As a participant in the NFDI4Objects consortium, the German Chapter of the Computer Applications and Quantitative Methods in Archaeology (CAA-DE) [4] contributes substantially to structuring RDM processes. Through its involvement in the NFDI4Objects Community Clusters [5] \"Semantic Modelling & Linked Open Data\" [6] and \"Research Software Engineering\" [7] connected to the Humanities@NFDI group, CAA-DE experts help align domain practices with national strategies, including initiatives of the Base4NFDI consortium. Semantic modelling and Linked Open Data (LOD) [8], [9] are widely acknowledged as foundational elements for cross-disciplinary interoperability, as reflected in Base4NFDI's technical services TS4NFDI and the knowledge graph infrastructure KGI4NFDI. Internationally, the SIG on Scientific Scripting Languages in Archaeology (SIG SSLA) [10] and the SIG on Semantics and LOUD in Archaeology (SIG DataDragon) [11] within CAA International are pioneering community-driven efforts that bridge theory and implementation. These initiatives promote semantic interoperability by creating reusable ontologies, developing transformation pipelines, and sharing research software openly. Their collaborative structure demonstrates how communities shape infrastructures and standards from the bottom up. Research software developed in this context must be understood as both code and data [12], [13]. Tools such as the SPARQLing Unicorn Research Toolkit (c.f. Figure 1 and 2) [14], the modular Little Python Minions [15] (used, e.g. in Jupyter4NFDI workflows), and the RDFier (a data-to-RDF transformation engine) [16] serve as FAIRification services that encapsulate reusable logic and make RDM workflows transparent and repeatable. These tools embody FAIR4RS principles and reflect the needs of both domain researchers and infrastructure providers. Integrating Artificial Intelligence (AI) into archaeological workflows further highlights the need for explainable, reproducible, and FAIR data practices [17]-[20] in addition to traditional statistical methods [13], [21]-[28]. Semantic modelling and RSE provide the conceptual and technical foundation to ensure these AI applications can be responsibly integrated into RDM ecosystems. Beyond disciplinary boundaries, the methods and tools developed in computational archaeology are already influencing infrastructure efforts across NFDI consortia. As a real-world laboratory for semantic data practices, including uncertainties and vagueness in data modelling [29], [30] and research software development, the field contributes reusable components to broader initiatives like Base4NFDI. Initial feedback from community use has shown the importance of modularity, documentation, and training to lower entry barriers. These lessons highlight the value of aligning community-driven innovation with national RDM strategies. This contribution advocates for a more substantial recognition of Computational Archaeology as a driver for sustainable, FAIR, and AI-ready research data infrastructures—grounded in community, enabled by research software, and built for reuse across domains."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.16736089",
+      "bibo:editor": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910"
+        }
+      ],
+      "bibo:locator": "𝒬1",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "dcat:keyword": [
+        "Artificial Intelligence",
+        "Base4NFDI",
+        "Community-driven Software",
+        "Computational Archaeology",
+        "FAIR Data",
+        "Linked Open Data",
+        "Research Software Engineering",
+        "Semantic Modelling"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v7/i5/e1/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4426-2657"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9953-7638"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0002-8700-3505"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Computational Archaeology plays an increasingly strategic role in research data management (RDM) within archaeology and the (digital) humanities [1], [2]. At the heart of these developments lies a growing recognition of Research Software Engineering (RSE) as a key enabler for the FAIRification of data and code. This contribution explores the role of RSE and domain-specific research software in archaeological data workflows, illustrating how computational archaeology drives innovation in semantic modelling, data transformation, and the handling of uncertainty, which are core challenges for the NFDI [3]. As a participant in the NFDI4Objects consortium, the German Chapter of the Computer Applications and Quantitative Methods in Archaeology (CAA-DE) [4] contributes substantially to structuring RDM processes. Through its involvement in the NFDI4Objects Community Clusters [5] \"Semantic Modelling & Linked Open Data\" [6] and \"Research Software Engineering\" [7] connected to the Humanities@NFDI group, CAA-DE experts help align domain practices with national strategies, including initiatives of the Base4NFDI consortium. Semantic modelling and Linked Open Data (LOD) [8], [9] are widely acknowledged as foundational elements for cross-disciplinary interoperability, as reflected in Base4NFDI's technical services TS4NFDI and the knowledge graph infrastructure KGI4NFDI. Internationally, the SIG on Scientific Scripting Languages in Archaeology (SIG SSLA) [10] and the SIG on Semantics and LOUD in Archaeology (SIG DataDragon) [11] within CAA International are pioneering community-driven efforts that bridge theory and implementation. These initiatives promote semantic interoperability by creating reusable ontologies, developing transformation pipelines, and sharing research software openly. Their collaborative structure demonstrates how communities shape infrastructures and standards from the bottom up. Research software developed in this context must be understood as both code and data [12], [13]. Tools such as the SPARQLing Unicorn Research Toolkit (c.f. Figure 1 and 2) [14], the modular Little Python Minions [15] (used, e.g. in Jupyter4NFDI workflows), and the RDFier (a data-to-RDF transformation engine) [16] serve as FAIRification services that encapsulate reusable logic and make RDM workflows transparent and repeatable. These tools embody FAIR4RS principles and reflect the needs of both domain researchers and infrastructure providers. Integrating Artificial Intelligence (AI) into archaeological workflows further highlights the need for explainable, reproducible, and FAIR data practices [17]-[20] in addition to traditional statistical methods [13], [21]-[28]. Semantic modelling and RSE provide the conceptual and technical foundation to ensure these AI applications can be responsibly integrated into RDM ecosystems. Beyond disciplinary boundaries, the methods and tools developed in computational archaeology are already influencing infrastructure efforts across NFDI consortia. As a real-world laboratory for semantic data practices, including uncertainties and vagueness in data modelling [29], [30] and research software development, the field contributes reusable components to broader initiatives like Base4NFDI. Initial feedback from community use has shown the importance of modularity, documentation, and training to lower entry barriers. These lessons highlight the value of aligning community-driven innovation with national RDM strategies. This contribution advocates for a more substantial recognition of Computational Archaeology as a driver for sustainable, FAIR, and AI-ready research data infrastructures—grounded in community, enabled by research software, and built for reuse across domains."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.16736089",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2025-08-26"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code"
+      },
+      "dct:type": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.16736089"
+      },
+      "prism:number": "5",
+      "prism:volume": "7",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/16736090"
+      },
+      "sqp:citationLabel": "7(5), 𝒬1",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "1"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4426-2657"
+      },
+      "rdf:_5": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9953-7638"
+      },
+      "rdf:_6": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0002-8700-3505"
+      },
+      "rdf:_7": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+      },
+      "rdf:_8": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4426-2657"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9953-7638"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0002-8700-3505"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e1"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.16736089",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e1"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/16736090"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "15090444"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/16736090/files/CoRDI_2025_paper_223.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "CoRDI_2025_paper_223.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "306af4fc784d17b1f35a71cc34e2cc39"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e1#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "RDM within Computational Archaeology: The Role of RDM in Archaeological RSE for Data FAIRification while creating FAIR4RS Code"
+    }
+  ]
+}

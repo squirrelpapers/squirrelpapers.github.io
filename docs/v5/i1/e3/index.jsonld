@@ -1,0 +1,354 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Peter",
+      "foaf:name": "Peter Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      },
+      "rdfs:label": "Peter Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3270-2659",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid"
+      },
+      "foaf:familyName": "Schmidt",
+      "foaf:givenName": "Sophie Charlotte",
+      "foaf:name": "Sophie Charlotte Schmidt",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-4696-2101"
+      },
+      "rdfs:label": "Sophie Charlotte Schmidt",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-4696-2101"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-4696-2101",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/distel-anne-karoline",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Distel",
+      "foaf:givenName": "Anne-Karoline",
+      "foaf:name": "Anne-Karoline Distel",
+      "rdfs:label": "Anne-Karoline Distel"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i1/e3",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:BookChapter",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "ᚑᚌᚆᚐᚋ (Ogham) Steine sind mit der frühmittelalterlichen Ogham-Schrift versehene Monolithen, die vor allem in Irland, zwischen dem 4. und 9. Jahrhundert errichtet wurden. Viele von ihnen sind in “der freien Wildbahn” oder in Museen für die “Volunteer Community” einsehbar. Dieser Vortrag beschreibt die Dokumentation, Modellierung und Veröffentlichung dieser archäologischen Fundgattung in Community Hubs wie OSM und Wikidata mit der Nutzung von Linked Open Data Technologien.\nMehr auch unter https://pretalx.com/fossgis2023/talk/Y8JWWP/"
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.7870480",
+      "bibo:locator": "#3",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:book-section"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1"
+      },
+      "dcat:keyword": [
+        "Archäologie",
+        "Linked Open Data",
+        "Ogham",
+        "Open Street Map",
+        "Wikidata"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v5/i1/e3/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:book-section"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/distel-anne-karoline"
+        }
+      ],
+      "dct:description": {
+        "@language": "de",
+        "@value": "ᚑᚌᚆᚐᚋ (Ogham) Steine sind mit der frühmittelalterlichen Ogham-Schrift versehene Monolithen, die vor allem in Irland, zwischen dem 4. und 9. Jahrhundert errichtet wurden. Viele von ihnen sind in “der freien Wildbahn” oder in Museen für die “Volunteer Community” einsehbar. Dieser Vortrag beschreibt die Dokumentation, Modellierung und Veröffentlichung dieser archäologischen Fundgattung in Community Hubs wie OSM und Wikidata mit der Nutzung von Linked Open Data Technologien.\nMehr auch unter https://pretalx.com/fossgis2023/talk/Y8JWWP/"
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.7870480",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2023-04-27"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Irische ᚑᚌᚆᚐᚋ Steine in OSM und Wikidata"
+      },
+      "dct:type": {
+        "@id": "sqpt:book-section"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.7870480"
+      },
+      "prism:number": "1",
+      "prism:volume": "5",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/7870481"
+      },
+      "sqp:citationLabel": "5(1), #3",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "3"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/distel-anne-karoline"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/distel-anne-karoline"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1/e3"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1/e3"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-04-27T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-04-27T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.7870480",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1/e3"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/7870481"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "10600360"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/7870481/files/FOSSGIS_Tagungsband_2023_pp_177_183.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "FOSSGIS_Tagungsband_2023_pp_177_183.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "d913e10b651f652b3e3a494c68f03648"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i1/e3#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Irische ᚑᚌᚆᚐᚋ Steine in OSM und Wikidata"
+    }
+  ]
+}

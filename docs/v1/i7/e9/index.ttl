@@ -1,0 +1,156 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e9#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v1/i7/e9> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v1/i7/e9#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v1/i7/e9> .
+
+<https://w3id.org/squirrelpapers/event/13-konferenz-der-geodasiestudierenden-2018> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "13. Konferenz der GeodäsieStudierenden" ;
+    event:place <https://w3id.org/squirrelpapers/place/munich-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i7/e9> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/13-konferenz-der-geodasiestudierenden-2018#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/13-konferenz-der-geodasiestudierenden-2018#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/munich-germany> ;
+    schema:endDate "2018-11-30"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/munich-germany> ;
+    schema:name "13. Konferenz der GeodäsieStudierenden" ;
+    schema:startDate "2018-11-30"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/13-konferenz-der-geodasiestudierenden-2018#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "13. Konferenz der GeodäsieStudierenden" .
+
+<https://w3id.org/squirrelpapers/event/13-konferenz-der-geodasiestudierenden-2018#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-11-30T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-11-30T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e9#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e9#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-11-30T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-11-30T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v1/i7/e9#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.1494175" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e9#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v1/i7/e9#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v1/i7/e9> ;
+    dcat:accessURL <https://zenodo.org/records/1494176> ;
+    dcat:byteSize "12634890"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/1494176/files/2018_11_30_KonGeoS_Muenchen_ZweifelnErlaubt.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e9#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "8a1f44f313b9a45108c8f4224fbb6ae8"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v1/i7/e9#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks" .
+
+<https://w3id.org/squirrelpapers/place/munich-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(11.575 48.1375)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/munich-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Munich" ;
+    crm:P168_place_is_defined_by "POINT(11.575 48.1375)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/munich-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/munich-germany#geometry> ;
+    owl:sameAs wd:Q1726 ;
+    dcat:centroid "POINT(11.575 48.1375)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q154195 ;
+    schema:description "Munich, Germany" ;
+    schema:latitude 4.81375e+01 ;
+    schema:longitude 1.1575e+01 .
+
+<https://w3id.org/squirrelpapers/v1/i7/e9> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "7" ;
+    prism:volume "1" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description "Die Modellierung von Daten in relationalen Strukturen ist uns als Geodäten all gegenwärtig, z.B. nutzen wir PostGIS und Geoserver zum Teilen von Geodaten über das World Wide Web. In modernen Web Apps sind heute jedoch NoSQL Datenbanken weit verbreitet, welche zum Beispiel dokumentenorientiert (z.B. MongoDB) oder graphbasiert (z.B. Neo4j) sein können. Kantengewichtete Graphen sind in der Geoinformatik insbesondere im Bereich der Navigationssysteme durch den Dijkstra-Algorithmus bekannt. Zur interoperablen und semantischen Datenmodellierung sind aber auch gerichtete kantengefärbte Graphen nach den Prinzipien der Linked Data in RDF-Strukturen verbreitet (z.B. GeoSPARQL, Wikidata, LinkedGeoData). Eine besondere Herausforderung ist hierbei die Modellierung von Unsicherheit/Vagheit im Graphen und einem daraus resultierenden Reasoning. Der Vortrag gibt einen Einblick in das Academic Meta Tool, ein Web Tool zur Modellierung + Reasoning von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks."@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.1494175" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1/i7> ;
+    dct:issued "2018-11-30"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Zweifeln erlaubt! Modellierung von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks"@de ;
+    dct:type sqpt:presentation ;
+    bibo:abstract "Die Modellierung von Daten in relationalen Strukturen ist uns als Geodäten all gegenwärtig, z.B. nutzen wir PostGIS und Geoserver zum Teilen von Geodaten über das World Wide Web. In modernen Web Apps sind heute jedoch NoSQL Datenbanken weit verbreitet, welche zum Beispiel dokumentenorientiert (z.B. MongoDB) oder graphbasiert (z.B. Neo4j) sein können. Kantengewichtete Graphen sind in der Geoinformatik insbesondere im Bereich der Navigationssysteme durch den Dijkstra-Algorithmus bekannt. Zur interoperablen und semantischen Datenmodellierung sind aber auch gerichtete kantengefärbte Graphen nach den Prinzipien der Linked Data in RDF-Strukturen verbreitet (z.B. GeoSPARQL, Wikidata, LinkedGeoData). Eine besondere Herausforderung ist hierbei die Modellierung von Unsicherheit/Vagheit im Graphen und einem daraus resultierenden Reasoning. Der Vortrag gibt einen Einblick in das Academic Meta Tool, ein Web Tool zur Modellierung + Reasoning von Vagheit im Graphen am Beispiel des KonGeoS-Netzwerks."@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v1/i7/e9#authors> ;
+    bibo:doi "10.5281/zenodo.1494175" ;
+    bibo:locator "#9" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/13-konferenz-der-geodasiestudierenden-2018> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v1/i7/e9#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1/i7> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v1/i7/e9#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.1494175> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v1/i7/e9#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1/i7> ;
+    dcat:keyword "KonGeoS",
+        "Linked Data",
+        "Netzwerk",
+        "RDF",
+        "Vagheit",
+        "Zweifel" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i7/e9/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/1494176> ;
+    sqp:citationLabel "1(7), #9" ;
+    sqp:entryNumber "9"^^xsd:positiveInteger .
+

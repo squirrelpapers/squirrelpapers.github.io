@@ -48,6 +48,19 @@ runs), `--open`, `--serve`.
 
 Edit `content/`, never `docs/`.
 
+## Data
+
+Every page has machine-readable twins next to it (`index.ttl`, `index.jsonld`,
+and for entries `index.bib`, `index.ris`, `index.csl.json`). The whole journal:
+
+| File | Contents |
+|---|---|
+| `dist/squirrelpapers.ttl` | DCAT 3 / DCAT-AP 3 catalogue with BIBO, FaBiO, PRISM, schema.org, FOAF, GeoSPARQL, PROV |
+| `dist/squirrelpapers-crm.ttl` | the same resources in CIDOC CRM, CRMdig and LRMoo |
+| `dist/vocab/types.ttl` | SKOS scheme of entry types, mapped to COAR and FaBiO |
+| `dist/ontology/sqp.ttl` | the small Squirrel Papers ontology (sigil, entry number, citation label) |
+| `dist/squirrelpapers.bib`, `.ris`, `.csl.json` | all published entries as citations |
+
 ## Licence
 
 Code: [MIT](LICENSE). Journal metadata and texts: [CC BY 4.0](LICENSE-CONTENT).

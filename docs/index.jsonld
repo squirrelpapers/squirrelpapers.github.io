@@ -1,0 +1,170 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/",
+      "@type": [
+        "bibo:Periodical",
+        "crm:E73_Information_Object",
+        "dcat:Catalog",
+        "fabio:Journal",
+        "lrmoo:F18_Serial_Work",
+        "schema:Periodical"
+      ],
+      "bibo:editor": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "bibo:issn": "2750-560X",
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/#issn"
+      },
+      "dcat:dataset": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v1"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v2"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v3"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v4"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v5"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v8"
+        }
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/"
+      },
+      "dcat:themeTaxonomy": {
+        "@id": "sqpt:"
+      },
+      "dct:description": [
+        {
+          "@language": "de",
+          "@value": "Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften."
+        },
+        {
+          "@language": "en",
+          "@value": "The Squirrel Papers by the Research Squirrel Engineers Network are a free Open Access journal hosting publications on Zenodo and the Open Science Framework (OSF), collecting Linked Open Data (LOD), Research Software Engineering (RSE), Cultural Heritage and Geo-Sciences related research papers, working papers, blog posts, posters, slides, research data and research software."
+        }
+      ],
+      "dct:hasPart": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v1"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v2"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v3"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v4"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v5"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v8"
+        }
+      ],
+      "dct:identifier": "ISSN 2750-560X",
+      "dct:language": [
+        {
+          "@id": "eulang:DEU"
+        },
+        {
+          "@id": "eulang:ENG"
+        }
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:modified": {
+        "@type": "xsd:date",
+        "@value": "2026-10-06"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Squirrel Papers"
+      },
+      "foaf:homepage": {
+        "@id": "https://squirrelpapers.github.io/"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q89658875"
+      },
+      "prism:issn": "2750-560X",
+      "schema:editor": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/#issn",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "2750-560X",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/issn"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers",
+      "@type": "foaf:Organization",
+      "foaf:name": {
+        "@language": "en",
+        "@value": "Research Squirrel Engineers Network"
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4088-255X",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4088-255X#orcid"
+      },
+      "foaf:familyName": "Danthine",
+      "foaf:givenName": "Brigit",
+      "foaf:name": "Brigit Danthine",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-4088-255X"
+      },
+      "rdfs:label": "Brigit Danthine",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-4088-255X"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4088-255X#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-4088-255X",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/alpino-nadine",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Alpino",
+      "foaf:givenName": "Nadine",
+      "foaf:name": "Nadine Alpino",
+      "rdfs:label": "Nadine Alpino"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e5",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Dataset",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "FAIRyland is an open educational resource (OER) combining fictional archaeology with real research software engineering methods. The dataset simulates a Minion Period archaeological site in northern Sweden, featuring craters, streets, petrified kangaroo droppings (Kötbullar), and other playful features. It demonstrates the complete workflow from QGIS vector data to RDF/Linked Open Data using the SPARQLing Unicorn plugin, followed by SPARQL querying and Python-based visualisation. The repository includes geospatial data (GeoJSON, GeoPackage), RDF triples in Turtle format with CIDOC-CRM and GeoSPARQL vocabularies, seven interactive SPARQL queries, Python scripts for data analysis and visualisation (rdflib, pandas, matplotlib, GeoPandas), and Jupyter Notebooks for hands-on learning. FAIRyland serves as a practical sandbox for students and researchers to learn semantic web technologies, geospatial analysis, and FAIR data principles through an accessible, playful framework."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.18901448",
+      "bibo:locator": "§5",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:data"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#landing"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2"
+      },
+      "dcat:keyword": [
+        "FAIR",
+        "Jupyter",
+        "Linked Open Data",
+        "OER",
+        "Python",
+        "archaeology"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v8/i2/e5/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:data"
+      },
+      "dcat:version": "0.2",
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4088-255X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/alpino-nadine"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "FAIRyland is an open educational resource (OER) combining fictional archaeology with real research software engineering methods. The dataset simulates a Minion Period archaeological site in northern Sweden, featuring craters, streets, petrified kangaroo droppings (Kötbullar), and other playful features. It demonstrates the complete workflow from QGIS vector data to RDF/Linked Open Data using the SPARQLing Unicorn plugin, followed by SPARQL querying and Python-based visualisation. The repository includes geospatial data (GeoJSON, GeoPackage), RDF triples in Turtle format with CIDOC-CRM and GeoSPARQL vocabularies, seven interactive SPARQL queries, Python scripts for data analysis and visualisation (rdflib, pandas, matplotlib, GeoPandas), and Jupyter Notebooks for hands-on learning. FAIRyland serves as a practical sandbox for students and researchers to learn semantic web technologies, geospatial analysis, and FAIR data principles through an accessible, playful framework."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.18901448",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2026-03-07"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://spdx.org/licenses/MIT.html"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "FAIRyland: A playful dataset for teaching Linked Open Data in archaeology"
+      },
+      "dct:type": {
+        "@id": "sqpt:data"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.18901448"
+      },
+      "prism:number": "2",
+      "prism:volume": "8",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/18901448"
+      },
+      "rdfs:seeAlso": {
+        "@id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/releases/tag/v0.2"
+      },
+      "schema:codeRepository": {
+        "@id": "https://github.com/Research-Squirrel-Engineers/FAIRyland"
+      },
+      "sqp:citationLabel": "8(2), §5",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "5"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4088-255X"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/alpino-nadine"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4088-255X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/alpino-nadine"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e5"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-07T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-07T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.18901448",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/18901448"
+      },
+      "dct:license": {
+        "@id": "https://spdx.org/licenses/MIT.html"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e5#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "FAIRyland: A playful dataset for teaching Linked Open Data in archaeology"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v4/i4/e1#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v4/i4/e1> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-1631-9115>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-2822-7648> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v4/i4/e1#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v4/i4/e1> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-1631-9115#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-1631-9115" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-2822-7648#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-2822-7648" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v4/i4/e1#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-2822-7648> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0003-1631-9115> .
+
+<https://w3id.org/squirrelpapers/v4/i4/e1#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2022-11-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2022-11-25T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v4/i4/e1#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.7361811" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v4/i4/e1#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CAA2019_ARS3D_LOD.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v4/i4/e1#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v4/i4/e1> ;
+    dcat:accessURL <https://zenodo.org/records/7598649> ;
+    dcat:byteSize "1660793"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/7598649/files/CAA2019_ARS3D_LOD.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v4/i4/e1#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "9847d934fb3e1796dc3e613e9bfe9a07"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v4/i4/e1#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Semantic modelling and publishing African Red Slip Ware as Linked Data" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-1631-9115> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Louise Rokohl" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-1631-9115#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-1631-9115> ;
+    foaf:familyName "Rokohl" ;
+    foaf:givenName "Louise" ;
+    foaf:name "Louise Rokohl" ;
+    schema:identifier <https://orcid.org/0000-0003-1631-9115> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-2822-7648> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Ashish Karmacharya" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-2822-7648#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-2822-7648> ;
+    foaf:familyName "Karmacharya" ;
+    foaf:givenName "Ashish" ;
+    foaf:name "Ashish Karmacharya" ;
+    schema:identifier <https://orcid.org/0000-0003-2822-7648> .
+
+<https://w3id.org/squirrelpapers/v4/i4/e1> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Preprint,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "4" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-1631-9115>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-2822-7648> ;
+    dct:description """This is a Preprint of an CAA 2019 Proceedings article which is still in review status.
+The African Red Slip Ware (ARS) is a central archaeological object type for the understanding of late antique world of ideas, their exchange and socio-economic history. The 3-year project ARS3D, funded by the German Federal Ministry of Education and Research (BMBF), started in February 2018 and aims to document, digitise and publish the relief-decorated ARS, located in the Römisch-Germanischen Zentralmuseum (RGZM). The ARS3D project will publish the facts and archaeological interpretations of these ARS objects. In this process the ARSs are 3D scanned and processed to create their 3D surrogates. These 3D models support archaeological interpretations which should be documented. Here we present our ontology that forms the structural fundament for the documentation and the underlying triplestore as data repository. The axioms are primarily based on CIDOC-CRM with few additions to fulfil our requirements. In addition, we included axioms to provide structure for storing meta- and para- information generated during the creation of 3D models. We have also included axioms from PROV-O, the W3C compliance ontology for structuring the provenance information of the 3D generation process. An interactive web application provides the graphical user interface of this ARS data repository. In this paper we consider data quality aspects for: 1) Provenance quality that affects the archaeological interpretations. 2) Archaeological factual quality on ARSs such as iconographical descriptions by bibliographic references and external resources, e.g. Icon Class to access the LOD cloud. 3) Identifying the provenance and storing chronological information."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.7361811" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v4/i4> ;
+    dct:issued "2022-11-25"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Semantic modelling and publishing African Red Slip Ware as Linked Data"@en ;
+    dct:type sqpt:preprint ;
+    bibo:abstract """This is a Preprint of an CAA 2019 Proceedings article which is still in review status.
+The African Red Slip Ware (ARS) is a central archaeological object type for the understanding of late antique world of ideas, their exchange and socio-economic history. The 3-year project ARS3D, funded by the German Federal Ministry of Education and Research (BMBF), started in February 2018 and aims to document, digitise and publish the relief-decorated ARS, located in the Römisch-Germanischen Zentralmuseum (RGZM). The ARS3D project will publish the facts and archaeological interpretations of these ARS objects. In this process the ARSs are 3D scanned and processed to create their 3D surrogates. These 3D models support archaeological interpretations which should be documented. Here we present our ontology that forms the structural fundament for the documentation and the underlying triplestore as data repository. The axioms are primarily based on CIDOC-CRM with few additions to fulfil our requirements. In addition, we included axioms to provide structure for storing meta- and para- information generated during the creation of 3D models. We have also included axioms from PROV-O, the W3C compliance ontology for structuring the provenance information of the 3D generation process. An interactive web application provides the graphical user interface of this ARS data repository. In this paper we consider data quality aspects for: 1) Provenance quality that affects the archaeological interpretations. 2) Archaeological factual quality on ARSs such as iconographical descriptions by bibliographic references and external resources, e.g. Icon Class to access the LOD cloud. 3) Identifying the provenance and storing chronological information."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v4/i4/e1#authors> ;
+    bibo:doi "10.5281/zenodo.7361811" ;
+    bibo:locator "#1" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v4/i4/e1#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v4/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v4/i4/e1#doi> ;
+    crm:P2_has_type sqpt:preprint ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.7361811> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v4/i4/e1#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v4/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v4/i4/e1/> ;
+    dcat:theme sqpt:preprint ;
+    prov:wasDerivedFrom <https://zenodo.org/records/7598649> ;
+    sqp:citationLabel "4(4), #1" ;
+    sqp:entryNumber "1"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

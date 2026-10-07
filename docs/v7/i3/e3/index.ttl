@@ -1,0 +1,209 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e3#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i3/e3> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i3/e3#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i3/e3> .
+
+<https://w3id.org/squirrelpapers/event/derse25-2025> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "deRSE25" ;
+    event:place <https://w3id.org/squirrelpapers/place/kit-karlsruhe> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i3/e3>,
+        <https://w3id.org/squirrelpapers/v7/i3/e4>,
+        <https://w3id.org/squirrelpapers/v7/i3/e5>,
+        <https://w3id.org/squirrelpapers/v7/i3/e6>,
+        <https://w3id.org/squirrelpapers/v7/i3/e7>,
+        <https://w3id.org/squirrelpapers/v7/i3/e8>,
+        <https://w3id.org/squirrelpapers/v7/i3/e9> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/derse25-2025#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/derse25-2025#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/kit-karlsruhe> ;
+    schema:endDate "2025-02-27"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/kit-karlsruhe> ;
+    schema:name "deRSE25" ;
+    schema:startDate "2025-02-25"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/derse25-2025#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "deRSE25" .
+
+<https://w3id.org/squirrelpapers/event/derse25-2025#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-02-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-02-27T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9499-5840" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0008-2877-3204" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e3#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e3#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-02-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-02-25T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i3/e3#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.14886032" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e3#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i3/e3#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i3/e3> ;
+    dcat:accessURL <https://zenodo.org/records/14886033> ;
+    dcat:byteSize "2348825"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/14886033/files/deRSE25_Karlsruhe_8_ResearchSquirrelEngineersNetwork.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e3#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "fce00caf18be5cf5eff0196be30d123f"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i3/e3#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences" .
+
+<https://w3id.org/squirrelpapers/place/kit-karlsruhe#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.4 49.016667)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Timo Homburg" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9499-5840> ;
+    foaf:familyName "Homburg" ;
+    foaf:givenName "Timo" ;
+    foaf:name "Timo Homburg" ;
+    schema:identifier <https://orcid.org/0000-0002-9499-5840> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fiona Schenk" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0008-2877-3204> ;
+    foaf:familyName "Schenk" ;
+    foaf:givenName "Fiona" ;
+    foaf:name "Fiona Schenk" ;
+    schema:identifier <https://orcid.org/0009-0008-2877-3204> .
+
+<https://w3id.org/squirrelpapers/place/kit-karlsruhe> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Karlsruhe" ;
+    crm:P168_place_is_defined_by "POINT(8.4 49.016667)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/kit-karlsruhe#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/kit-karlsruhe#geometry> ;
+    owl:sameAs wd:Q1040 ;
+    dcat:centroid "POINT(8.4 49.016667)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "KIT, Karlsruhe" ;
+    schema:latitude 4.901667e+01 ;
+    schema:longitude 8.4e+00 .
+
+<https://w3id.org/squirrelpapers/v7/i3/e3> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePoster,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> ;
+    dct:description """Squirrels, LOD and RFAIRT
+The comprehensible and collaborative collection and FAIRification of research data is becoming increasingly important in the Citizen Science community to become part of, for example, an archaeological or geoscientific Linked Open Data (LOD) Knowledge Graph and to enrich the already connected data network with qualified data (Schmidt et al. 2022). Only in this way can these data be linked with other data and actively integrated into international initiatives such as NFDI4Objects and community hubs (e.g., Wikidata, OpenStreetMap). Unfortunately, open-source (FOSS) research and Research FAIRification Tools (RFAIRT) are often not available. However, these can be created and curated by community and volunteer initiatives such as the Research Squirrel Engineers Network (Thiery et al. 2025), in collaboration with Linked Open Data projects as demonstrators. One example is the SPARQL Unicorn Research Toolkit (Thiery et al. 2025) which contains the SPARQLing Unicorn QGIS Plugin, the SPARQL Unicorn Ontology Documentation Tool and SPARQLing Jupyter Python Minions.
+Research Squirrel Engineers
+The Research Squirrel Engineers Network (founded in 2019 to implement the SPARQL Unicorn Research Toolkit) is an informal association of Linked Open Data/Wikidata enthusiasts, research software engineers, and citizen scientists with a focus on computational archaeology, digital humanities, and geoinformatics. The members collaboratively develop and maintain research and Research FAIRification Tools and implement them in interoperable data-driven projects.
+SPARQL Unicorn Research Toolit
+One FAIRification tool for digital data management is within the SPARQL Unicorn Research Toolkit is an implementation for the FLOSS GIS software QGIS. The SPARQLing Unicorn QGIS Plugin (Thiery & Homburg 2020) allows sending Linked Data queries in (Geo)SPARQL to triple stores and prepares the results for the geocommunity in QGIS. It currently offers three main functions: (A) simplified querying of semantic web data sources, (B) transformation of QGIS vector layers to RDF, and (C) documentation of LOD as an HTML page. Additionally, the SPARQL Unicorn Ontology Documentation Tool (Homburg & Thiery 2024) enables, for example, the automated creation of HTML pages from Linked Open Data publications in other applications via GitHub Action. The example (Fig. 1-4) shows findspots of the Campanian Ignimbrite eruption (Schenk et al. 2022) as LOD in QGIS and GitHub.
+Jupyter Python Minions
+Another key tool within the SPARQL Unicorn Research Toolkit are SPARQLing Python Minions, which enables users to send SPARQL queries from Jupyter Notebooks and Python Scripts to Wikidata, Wikibases, triple stores, and Solid Pods and visualise the results. This allows for direct integration of Semantic Web data into Python-based data analysis workflows. By leveraging Jupyter Notebooks, users can efficiently process, analyse, and visualise the retrieved data, further expanding the usability of SPARQL Unicorn tools for researchers across various domains. The example shows queries on Wikidata (Fig. 5-6)."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.14886032" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i3> ;
+    dct:issued "2025-02-25"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Research Squirrel Engineering Community-driven grassroots Research FAIRification Tools (RFAIRT) coded from Humanities and Geosciences"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:poster ;
+    bibo:abstract """Squirrels, LOD and RFAIRT
+The comprehensible and collaborative collection and FAIRification of research data is becoming increasingly important in the Citizen Science community to become part of, for example, an archaeological or geoscientific Linked Open Data (LOD) Knowledge Graph and to enrich the already connected data network with qualified data (Schmidt et al. 2022). Only in this way can these data be linked with other data and actively integrated into international initiatives such as NFDI4Objects and community hubs (e.g., Wikidata, OpenStreetMap). Unfortunately, open-source (FOSS) research and Research FAIRification Tools (RFAIRT) are often not available. However, these can be created and curated by community and volunteer initiatives such as the Research Squirrel Engineers Network (Thiery et al. 2025), in collaboration with Linked Open Data projects as demonstrators. One example is the SPARQL Unicorn Research Toolkit (Thiery et al. 2025) which contains the SPARQLing Unicorn QGIS Plugin, the SPARQL Unicorn Ontology Documentation Tool and SPARQLing Jupyter Python Minions.
+Research Squirrel Engineers
+The Research Squirrel Engineers Network (founded in 2019 to implement the SPARQL Unicorn Research Toolkit) is an informal association of Linked Open Data/Wikidata enthusiasts, research software engineers, and citizen scientists with a focus on computational archaeology, digital humanities, and geoinformatics. The members collaboratively develop and maintain research and Research FAIRification Tools and implement them in interoperable data-driven projects.
+SPARQL Unicorn Research Toolit
+One FAIRification tool for digital data management is within the SPARQL Unicorn Research Toolkit is an implementation for the FLOSS GIS software QGIS. The SPARQLing Unicorn QGIS Plugin (Thiery & Homburg 2020) allows sending Linked Data queries in (Geo)SPARQL to triple stores and prepares the results for the geocommunity in QGIS. It currently offers three main functions: (A) simplified querying of semantic web data sources, (B) transformation of QGIS vector layers to RDF, and (C) documentation of LOD as an HTML page. Additionally, the SPARQL Unicorn Ontology Documentation Tool (Homburg & Thiery 2024) enables, for example, the automated creation of HTML pages from Linked Open Data publications in other applications via GitHub Action. The example (Fig. 1-4) shows findspots of the Campanian Ignimbrite eruption (Schenk et al. 2022) as LOD in QGIS and GitHub.
+Jupyter Python Minions
+Another key tool within the SPARQL Unicorn Research Toolkit are SPARQLing Python Minions, which enables users to send SPARQL queries from Jupyter Notebooks and Python Scripts to Wikidata, Wikibases, triple stores, and Solid Pods and visualise the results. This allows for direct integration of Semantic Web data into Python-based data analysis workflows. By leveraging Jupyter Notebooks, users can efficiently process, analyse, and visualise the retrieved data, further expanding the usability of SPARQL Unicorn tools for researchers across various domains. The example shows queries on Wikidata (Fig. 5-6)."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i3/e3#authors> ;
+    bibo:doi "10.5281/zenodo.14886032" ;
+    bibo:locator "λ3" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/derse25-2025> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i3/e3#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i3/e3#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:poster ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.14886032> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i3/e3#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i3> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i3/e3/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:poster ;
+    prov:wasDerivedFrom <https://zenodo.org/records/14886033> ;
+    sqp:citationLabel "7(3), λ3" ;
+    sqp:entryNumber "3"^^xsd:positiveInteger .
+

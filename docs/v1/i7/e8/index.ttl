@@ -1,0 +1,154 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e8#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v1/i7/e8> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v1/i7/e8#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v1/i7/e8> .
+
+<https://w3id.org/squirrelpapers/event/doag-big-data-days-2018> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "DOAG Big Data Days 2018" ;
+    event:place <https://w3id.org/squirrelpapers/place/dresden-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i7/e8> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/doag-big-data-days-2018#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/doag-big-data-days-2018#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/dresden-germany> ;
+    schema:endDate "2018-09-21"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/dresden-germany> ;
+    schema:name "DOAG Big Data Days 2018" ;
+    schema:startDate "2018-09-21"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/doag-big-data-days-2018#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "DOAG Big Data Days 2018" .
+
+<https://w3id.org/squirrelpapers/event/doag-big-data-days-2018#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-09-21T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-09-21T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e8#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e8#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-09-21T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-09-21T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v1/i7/e8#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.1421690" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e8#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "2018_09_21_DOAG_LinkedOpenGeodata.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v1/i7/e8#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v1/i7/e8> ;
+    dcat:accessURL <https://zenodo.org/records/1421691> ;
+    dcat:byteSize "10457061"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/1421691/files/2018_09_21_DOAG_LinkedOpenGeodata.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e8#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "beb985c106633c98e1295dae7cfc2c1f"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v1/i7/e8#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Linked Open Geodata in Mainz – Best Practices and Projekte im Kontext der Humanities" .
+
+<https://w3id.org/squirrelpapers/place/dresden-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(13.738144 51.049329)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/dresden-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Dresden" ;
+    crm:P168_place_is_defined_by "POINT(13.738144 51.049329)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/dresden-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/dresden-germany#geometry> ;
+    owl:sameAs wd:Q1731 ;
+    dcat:centroid "POINT(13.738144 51.049329)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q1206012 ;
+    schema:description "Dresden, Germany" ;
+    schema:latitude 5.104933e+01 ;
+    schema:longitude 1.373814e+01 .
+
+<https://w3id.org/squirrelpapers/v1/i7/e8> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "7" ;
+    prism:volume "1" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """Geodaten-Spezialisten behaupten 80% aller Daten besitzen einen Raumbezug, denn »Geodaten sind der Treibstoff der digitalen Gesellschaft«. Ob Geodaten, offene Geodaten oder verlinkte Geodaten – der Forschungsstandort Mainz ist hier in der Scientific Community sehr präsent. Dies gilt insbesondere für den Bereich der Digital Humanities des Kompetenzbereichs Wissenschaftliche IT am RGZM. Als Mitglied der Leibniz-Gemeinschaft und Gründungsmitglied des mainzed steht das RGZM mit der Scientific Community in engem Austausch.
+Im Rahmen des von der öffentlichen Hand geforderten „OOO-Modells“ (Open Source, Open Data, Open Access) ist die Nutzung quelloffener und freier Software von hoher Bedeutung. Aber hier gilt: »Software comes and goes. Mind the Data!« (Arnulf Christl). Zur offenen Bereitstellung von Daten im Allgemeinen und Geodaten im Speziellen, sind Standards wie OGC-Services und RDF essentiell. Von der Community vorangetriebene Initiativen für freie Geodaten wie OpenStreetMap und von der öffentlichen Hand bereitgestellte Geodaten über Geoportale, ermöglichen immer mehr Entwicklern die Schaffung von Geodaten-Anwendungen in World Wide Web. Dies gilt auch für raumbezogene Projekte in den Digital Humanities wie Pleiades, welche die „klassische Geodatenlandschaft“ um den Bereich des Altertums erweitern und Anwendungen wie Recogito der Pelagios Commons zur Schaffung von Linked Open Geodata in den Humanities ermöglichen.
+Der Vortrag gibt einen Einblick in Linked Open Geodata Best Practices und Projekte im Kontext der Humanities des RGZM unter Anwendung des „OOO-Modells“ und deren Standards und Technologien wie PostGIS und QGIS sowie Technologien der „Oracle Familie“ wie JAVA und deren „Geo- und Semantik-Abkömmlinge“ GeoServer, RDF4J und Apache Jena."""@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.1421690" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1/i7> ;
+    dct:issued "2018-09-21"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Linked Open Geodata in Mainz – Best Practices and Projekte im Kontext der Humanities"@de ;
+    dct:type sqpt:presentation ;
+    bibo:abstract """Geodaten-Spezialisten behaupten 80% aller Daten besitzen einen Raumbezug, denn »Geodaten sind der Treibstoff der digitalen Gesellschaft«. Ob Geodaten, offene Geodaten oder verlinkte Geodaten – der Forschungsstandort Mainz ist hier in der Scientific Community sehr präsent. Dies gilt insbesondere für den Bereich der Digital Humanities des Kompetenzbereichs Wissenschaftliche IT am RGZM. Als Mitglied der Leibniz-Gemeinschaft und Gründungsmitglied des mainzed steht das RGZM mit der Scientific Community in engem Austausch.
+Im Rahmen des von der öffentlichen Hand geforderten „OOO-Modells“ (Open Source, Open Data, Open Access) ist die Nutzung quelloffener und freier Software von hoher Bedeutung. Aber hier gilt: »Software comes and goes. Mind the Data!« (Arnulf Christl). Zur offenen Bereitstellung von Daten im Allgemeinen und Geodaten im Speziellen, sind Standards wie OGC-Services und RDF essentiell. Von der Community vorangetriebene Initiativen für freie Geodaten wie OpenStreetMap und von der öffentlichen Hand bereitgestellte Geodaten über Geoportale, ermöglichen immer mehr Entwicklern die Schaffung von Geodaten-Anwendungen in World Wide Web. Dies gilt auch für raumbezogene Projekte in den Digital Humanities wie Pleiades, welche die „klassische Geodatenlandschaft“ um den Bereich des Altertums erweitern und Anwendungen wie Recogito der Pelagios Commons zur Schaffung von Linked Open Geodata in den Humanities ermöglichen.
+Der Vortrag gibt einen Einblick in Linked Open Geodata Best Practices und Projekte im Kontext der Humanities des RGZM unter Anwendung des „OOO-Modells“ und deren Standards und Technologien wie PostGIS und QGIS sowie Technologien der „Oracle Familie“ wie JAVA und deren „Geo- und Semantik-Abkömmlinge“ GeoServer, RDF4J und Apache Jena."""@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v1/i7/e8#authors> ;
+    bibo:doi "10.5281/zenodo.1421690" ;
+    bibo:locator "#8" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/doag-big-data-days-2018> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v1/i7/e8#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1/i7> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v1/i7/e8#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.1421690> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v1/i7/e8#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1/i7> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i7/e8/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/1421691> ;
+    sqp:citationLabel "1(7), #8" ;
+    sqp:entryNumber "8"^^xsd:positiveInteger .
+

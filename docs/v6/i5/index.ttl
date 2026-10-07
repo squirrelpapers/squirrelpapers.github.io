@@ -1,0 +1,24 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i5> a fabio:JournalIssue,
+        crm:E73_Information_Object,
+        dcat:DatasetSeries ;
+    prism:number "5" ;
+    prism:volume "6" ;
+    dct:description "Special Issue on the UK-Ireland DH Association Annual Event 2024 at UCC"@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v6/i5/e5> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6> ;
+    dct:title "Squirrel Papers, Band 6, Heft 5: Sonderheft zum Annual Event 2024 der UK-Ireland DH Association am UCC"@de,
+        "Squirrel Papers, Volume 6, Issue 5: Special Issue on the UK-Ireland DH Association Annual Event 2024 at UCC"@en ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i5/> ;
+    sqp:sigil "#" ;
+    sqp:specialIssue true .
+

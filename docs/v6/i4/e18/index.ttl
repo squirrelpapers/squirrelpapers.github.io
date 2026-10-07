@@ -1,0 +1,183 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e18#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i4/e18> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638>,
+        <https://w3id.org/squirrelpapers/person/rutenik-tobias-arera> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i4/e18#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i4/e18> .
+
+<https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "NFDI4Objects Community Meeting 2024, Mainz, Germany" ;
+    event:place <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i4/e12>,
+        <https://w3id.org/squirrelpapers/v6/i4/e14>,
+        <https://w3id.org/squirrelpapers/v6/i4/e18>,
+        <https://w3id.org/squirrelpapers/v6/i4/e19> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz> ;
+    schema:endDate "2024-09-27"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz> ;
+    schema:name "NFDI4Objects Community Meeting 2024, Mainz, Germany" ;
+    schema:startDate "2024-09-25"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "NFDI4Objects Community Meeting 2024, Mainz, Germany" .
+
+<https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-09-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-09-27T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9953-7638" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e18#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/rutenik-tobias-arera> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e18#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-09-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-09-25T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i4/e18#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.13927753" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e18#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "N4O_CM24_WorkshopIII_LOD.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i4/e18#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i4/e18> ;
+    dcat:accessURL <https://zenodo.org/records/13927754> ;
+    dcat:byteSize "57654344"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/13927754/files/N4O_CM24_WorkshopIII_LOD.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e18#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "9dfa743982279af002b6f0a34b274741"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i4/e18#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Workshop III: Linked Open Data am Beispiel von RDF-Daten, Wikidata und Wikibase" .
+
+<https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.281334 49.993565)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Karsten Tolle" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9953-7638> ;
+    foaf:familyName "Tolle" ;
+    foaf:givenName "Karsten" ;
+    foaf:name "Karsten Tolle" ;
+    schema:identifier <https://orcid.org/0000-0002-9953-7638> .
+
+<https://w3id.org/squirrelpapers/person/rutenik-tobias-arera> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Tobias-Arera Rütenik" ;
+    foaf:familyName "Rütenik" ;
+    foaf:givenName "Tobias-Arera" ;
+    foaf:name "Tobias-Arera Rütenik" .
+
+<https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Leibniz-Zentrum für Archäologie" ;
+    crm:P168_place_is_defined_by "POINT(8.281334 49.993565)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/leibniz-zentrum-fur-archaologie-leiza-mainz#geometry> ;
+    owl:sameAs wd:Q115755098 ;
+    dcat:centroid "POINT(8.281334 49.993565)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "Leibniz-Zentrum für Archäologie (LEIZA), Mainz Germany" ;
+    schema:latitude 4.999356e+01 ;
+    schema:longitude 8.281334e+00 .
+
+<https://w3id.org/squirrelpapers/v6/i4/e18> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Expression,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638>,
+        <https://w3id.org/squirrelpapers/person/rutenik-tobias-arera> ;
+    dct:description "Den Teilnehmenden soll die aktive Arbeit mit Linked Open Data nähergebracht werden. Ihnen werden digitale Werkzeuge (hier QGIS, Wikidata und Wikibase) vorgestellt und eine Einführung darin gegeben. Im Mittelpunkt stehen die Modellierung von Daten in Wikibase-Instanzen und das dynamische Abfragen mit Hilfe von Open Source Tools, wie das SPARQLing Unicorn QGIS Plugin, bzw. online unter: http://nomisma.org/sparql/. Einführung in die einfache Erzeugung von RDF-Daten aus CSV-Dateien (z.B. durch die Nutzung von RDFier)."@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.13927753" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i4> ;
+    dct:issued "2024-09-25"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Workshop III: Linked Open Data am Beispiel von RDF-Daten, Wikidata und Wikibase"@de ;
+    dct:type sqpt:workshop ;
+    bibo:abstract "Den Teilnehmenden soll die aktive Arbeit mit Linked Open Data nähergebracht werden. Ihnen werden digitale Werkzeuge (hier QGIS, Wikidata und Wikibase) vorgestellt und eine Einführung darin gegeben. Im Mittelpunkt stehen die Modellierung von Daten in Wikibase-Instanzen und das dynamische Abfragen mit Hilfe von Open Source Tools, wie das SPARQLing Unicorn QGIS Plugin, bzw. online unter: http://nomisma.org/sparql/. Einführung in die einfache Erzeugung von RDF-Daten aus CSV-Dateien (z.B. durch die Nutzung von RDFier)."@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i4/e18#authors> ;
+    bibo:doi "10.5281/zenodo.13927753" ;
+    bibo:locator "#18" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2024-mainz-germany-2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i4/e18#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i4/e18#doi> ;
+    crm:P2_has_type sqpt:workshop ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.13927753> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i4/e18#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i4/e18/> ;
+    dcat:theme sqpt:workshop ;
+    prov:wasDerivedFrom <https://zenodo.org/records/13927754> ;
+    sqp:citationLabel "6(4), #18" ;
+    sqp:entryNumber "18"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

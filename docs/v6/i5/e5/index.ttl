@@ -1,0 +1,209 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i5/e5#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i5/e5> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-0485-6861>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-4696-2101> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i5/e5#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i5/e5> .
+
+<https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "UK-Ireland DH Association Annual Event 2024" ;
+    event:place <https://w3id.org/squirrelpapers/place/university-college-cork-ucc-cork-ireland> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i5/e5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/university-college-cork-ucc-cork-ireland> ;
+    schema:endDate "2024-06-05"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/university-college-cork-ucc-cork-ireland> ;
+    schema:name "UK-Ireland DH Association Annual Event 2024" ;
+    schema:startDate "2024-06-04"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "UK-Ireland DH Association Annual Event 2024" .
+
+<https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-06-04T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-06-05T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9499-5840" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-0485-6861#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-0485-6861" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-4696-2101" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i5/e5#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-4696-2101> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0003-0485-6861> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> .
+
+<https://w3id.org/squirrelpapers/v6/i5/e5#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-06-04T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-06-04T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i5/e5#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.13364444" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i5/e5#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "3A_IV_Ogham_Wikidata.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i5/e5#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i5/e5> ;
+    dcat:accessURL <https://zenodo.org/records/13364445> ;
+    dcat:byteSize "13764706"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/13364445/files/3A_IV_Ogham_Wikidata.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i5/e5#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "80d47d4dfe734581cc6c57ad8e99faa9"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i5/e5#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata" .
+
+<https://w3id.org/squirrelpapers/place/university-college-cork-ucc-cork-ireland#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(-8.49289 51.89291)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Timo Homburg" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9499-5840> ;
+    foaf:familyName "Homburg" ;
+    foaf:givenName "Timo" ;
+    foaf:name "Timo Homburg" ;
+    schema:identifier <https://orcid.org/0000-0002-9499-5840> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-0485-6861> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Martina Trognitz" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-0485-6861#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-0485-6861> ;
+    foaf:familyName "Trognitz" ;
+    foaf:givenName "Martina" ;
+    foaf:name "Martina Trognitz" ;
+    schema:identifier <https://orcid.org/0000-0003-0485-6861> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4696-2101> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Sophie Charlotte Schmidt" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-4696-2101> ;
+    foaf:familyName "Schmidt" ;
+    foaf:givenName "Sophie Charlotte" ;
+    foaf:name "Sophie Charlotte Schmidt" ;
+    schema:identifier <https://orcid.org/0000-0003-4696-2101> .
+
+<https://w3id.org/squirrelpapers/place/university-college-cork-ucc-cork-ireland> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "University College Cork" ;
+    crm:P168_place_is_defined_by "POINT(-8.49289 51.89291)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/university-college-cork-ucc-cork-ireland#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/university-college-cork-ucc-cork-ireland#geometry> ;
+    owl:sameAs wd:Q1574185 ;
+    dcat:centroid "POINT(-8.49289 51.89291)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q27 ;
+    schema:description "University College Cork (UCC), Cork, Ireland" ;
+    schema:latitude 5.189291e+01 ;
+    schema:longitude -8.49289e+00 .
+
+<https://w3id.org/squirrelpapers/v6/i5/e5> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "5" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-0485-6861>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-4696-2101> ;
+    dct:description "This presentation demonstrates and introduces Og(h)am data used in Community Hubs and the Citizen Sciences, e.g. OpenStreetMap (OSM), the Wikiverse and 3D modelling created by photogrammetric methods via SfM. In OSM, the tag historic=ogham_stone shows a lot of machine-readable tags that Citizen Scientists can use to describe Og(h)am Data in OSM, such as inscription, material, height, access, as well as wikidata and wikimedia_commons. OSM also provides data about boundaries like townlands and baronies (especially via townlands.ie) which may help to geolocate the findspots from literature and excavation reports. The Wikiverse (e.g., Wikidata, Wikimedia Commons, Wikipedia) also provides a lot of opportunities to share Og(h)am data as a community hub within the volunteer community, such as structured entries in Wikidata, images and other media in Wikimedia Commons as well as text information in Wikidata. Easy-to-use smartphone applications enable Citizen Scientists to create 3D models using photogrammetric methods that can be linked to OSM and potentially Wikidata."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.13364444" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i5> ;
+    dct:issued "2024-06-04"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Og(h)am in Open Science Community Hubs and the Citizen Sciences - Wikidata"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract "This presentation demonstrates and introduces Og(h)am data used in Community Hubs and the Citizen Sciences, e.g. OpenStreetMap (OSM), the Wikiverse and 3D modelling created by photogrammetric methods via SfM. In OSM, the tag historic=ogham_stone shows a lot of machine-readable tags that Citizen Scientists can use to describe Og(h)am Data in OSM, such as inscription, material, height, access, as well as wikidata and wikimedia_commons. OSM also provides data about boundaries like townlands and baronies (especially via townlands.ie) which may help to geolocate the findspots from literature and excavation reports. The Wikiverse (e.g., Wikidata, Wikimedia Commons, Wikipedia) also provides a lot of opportunities to share Og(h)am data as a community hub within the volunteer community, such as structured entries in Wikidata, images and other media in Wikimedia Commons as well as text information in Wikidata. Easy-to-use smartphone applications enable Citizen Scientists to create 3D models using photogrammetric methods that can be linked to OSM and potentially Wikidata."@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i5/e5#authors> ;
+    bibo:doi "10.5281/zenodo.13364444" ;
+    bibo:locator "#5" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i5/e5#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i5/e5#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.13364444> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i5/e5#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i5> ;
+    dcat:keyword "Ogham",
+        "Wikidata" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i5/e5/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/13364445> ;
+    sqp:citationLabel "6(5), #5" ;
+    sqp:entryNumber "5"^^xsd:positiveInteger .
+

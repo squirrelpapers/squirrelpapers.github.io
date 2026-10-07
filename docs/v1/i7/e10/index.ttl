@@ -1,0 +1,187 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e10#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v1/i7/e10> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342>,
+        <https://w3id.org/squirrelpapers/person/heinz-guido> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v1/i7/e10#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v1/i7/e10> .
+
+<https://w3id.org/squirrelpapers/event/linked-pasts-iv-2018> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Linked Pasts IV" ;
+    event:place <https://w3id.org/squirrelpapers/place/mainz-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i7/e10> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/linked-pasts-iv-2018#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/linked-pasts-iv-2018#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/mainz-germany> ;
+    schema:endDate "2018-12-12"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/mainz-germany> ;
+    schema:name "Linked Pasts IV" ;
+    schema:startDate "2018-12-12"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/linked-pasts-iv-2018#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Linked Pasts IV" .
+
+<https://w3id.org/squirrelpapers/event/linked-pasts-iv-2018#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-12-12T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-12-12T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7634-5342" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e10#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/heinz-guido> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e10#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-12-12T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-12-12T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v1/i7/e10#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.2222237" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e10#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "2018_12_12_LinkedPastsIV_Mainz_RMI.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v1/i7/e10#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v1/i7/e10> ;
+    dcat:accessURL <https://zenodo.org/records/2222238> ;
+    dcat:byteSize "1768355"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/2222238/files/2018_12_12_LinkedPastsIV_Mainz_RMI.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e10#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "77258cef2d9b00db1a6d6e1bef4f1975"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v1/i7/e10#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "RGZM-Meta-Index: A central Linked Data Hub for aligning distributed databases" .
+
+<https://w3id.org/squirrelpapers/place/mainz-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.273611 49.999444)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Allard W. Mees" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7634-5342> ;
+    foaf:familyName "Mees" ;
+    foaf:givenName "Allard W." ;
+    foaf:name "Allard W. Mees" ;
+    schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/person/heinz-guido> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Guido Heinz" ;
+    foaf:familyName "Heinz" ;
+    foaf:givenName "Guido" ;
+    foaf:name "Guido Heinz" .
+
+<https://w3id.org/squirrelpapers/place/mainz-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Mainz" ;
+    crm:P168_place_is_defined_by "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/mainz-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/mainz-germany#geometry> ;
+    owl:sameAs wd:Q1720 ;
+    dcat:centroid "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q12548 ;
+    schema:description "Mainz, Germany" ;
+    schema:latitude 4.999944e+01 ;
+    schema:longitude 8.273611e+00 .
+
+<https://w3id.org/squirrelpapers/v1/i7/e10> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePoster,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "7" ;
+    prism:volume "1" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342>,
+        <https://w3id.org/squirrelpapers/person/heinz-guido> ;
+    dct:description """Since the mid-1990s the RGZM (Römisch-Germanisches Zentralmuseum) provides distributed web-based databases containing hundreds of thousands datasets with content from different archaeological disciplines. The data storage behind it is based on various technologies and data modelling concepts like relational structures or graph (triple) structures. Data access is usually only possible via a GUI interface of the specific database. A global search among the distributed RGZM databases data is at the moment not possible. Our aim is to provide a central access point to enable a global search across the distributed databases based on Linked Data principles.
+The core concept comprises a central index, the RGZM-Meta-Index (RMI), as a central Linked Data Hub for aligning the data of the distributed databases by versioned keywords or ‘index terms’. These can e.g. be presented in different languages or descriptions). In this Meta-Index, all terms which are important for describing the content of each object resource, such as a coin or a mosaic depicting a ship, are listed and provided via a RESTful API. The RMI is modelled as a RDF and linked to external resources (e.g. Pleiades, GeoNames, Getty, …) into the Linked Open Data Cloud in order to resolve the ambiguities. A user-friendly GUI will help the archaeological researchers to create the index terms and structure them hierarchically (broader, narrower), semantically (e.g. similar, related), by type (e.g. geography, person) and by label (e.g. site, material). This structure is related to the SKOS-ontology but extended to RGZM-specific needs.
+Additionally, the individual databases will provide an API for returning all object resources identified by URIs which are connected to the RMI-index terms. In order to achieve this, the underlying data in the distributed databases will provide Linked Open Data resources for each object and represent a knowledge representation by using a RGZM-specific vocabulary and ontology."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.2222237" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1/i7> ;
+    dct:issued "2018-12-12"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "RGZM-Meta-Index: A central Linked Data Hub for aligning distributed databases"@en ;
+    dct:type sqpt:poster ;
+    bibo:abstract """Since the mid-1990s the RGZM (Römisch-Germanisches Zentralmuseum) provides distributed web-based databases containing hundreds of thousands datasets with content from different archaeological disciplines. The data storage behind it is based on various technologies and data modelling concepts like relational structures or graph (triple) structures. Data access is usually only possible via a GUI interface of the specific database. A global search among the distributed RGZM databases data is at the moment not possible. Our aim is to provide a central access point to enable a global search across the distributed databases based on Linked Data principles.
+The core concept comprises a central index, the RGZM-Meta-Index (RMI), as a central Linked Data Hub for aligning the data of the distributed databases by versioned keywords or ‘index terms’. These can e.g. be presented in different languages or descriptions). In this Meta-Index, all terms which are important for describing the content of each object resource, such as a coin or a mosaic depicting a ship, are listed and provided via a RESTful API. The RMI is modelled as a RDF and linked to external resources (e.g. Pleiades, GeoNames, Getty, …) into the Linked Open Data Cloud in order to resolve the ambiguities. A user-friendly GUI will help the archaeological researchers to create the index terms and structure them hierarchically (broader, narrower), semantically (e.g. similar, related), by type (e.g. geography, person) and by label (e.g. site, material). This structure is related to the SKOS-ontology but extended to RGZM-specific needs.
+Additionally, the individual databases will provide an API for returning all object resources identified by URIs which are connected to the RMI-index terms. In order to achieve this, the underlying data in the distributed databases will provide Linked Open Data resources for each object and represent a knowledge representation by using a RGZM-specific vocabulary and ontology."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v1/i7/e10#authors> ;
+    bibo:doi "10.5281/zenodo.2222237" ;
+    bibo:locator "#10" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/linked-pasts-iv-2018> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v1/i7/e10#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1/i7> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v1/i7/e10#doi> ;
+    crm:P2_has_type sqpt:poster ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.2222237> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v1/i7/e10#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1/i7> ;
+    dcat:keyword "keyword",
+        "linked data",
+        "meta index",
+        "skos" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i7/e10/> ;
+    dcat:theme sqpt:poster ;
+    prov:wasDerivedFrom <https://zenodo.org/records/2222238> ;
+    sqp:citationLabel "1(7), #10" ;
+    sqp:entryNumber "10"^^xsd:positiveInteger .
+

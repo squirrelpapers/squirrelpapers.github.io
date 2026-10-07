@@ -1,0 +1,155 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e2#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i4/e2> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i4/e2#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i4/e2> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7634-5342" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-4889-9353" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e2#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e2#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-01-01T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i4/e2#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.10512603" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e2#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CC_ResearchSoftwareEngineering.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i4/e2#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i4/e2> ;
+    dcat:accessURL <https://zenodo.org/records/10512604> ;
+    dcat:byteSize "629442"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/10512604/files/CC_ResearchSoftwareEngineering.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e2#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "4d0fb6611b860266b4cc849f1c8c6d34"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i4/e2#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "NFDI4Objects - Community Cluster \"Research Software Engineering (RSE)\"" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Allard W. Mees" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7634-5342> ;
+    foaf:familyName "Mees" ;
+    foaf:givenName "Allard W." ;
+    foaf:name "Allard W. Mees" ;
+    schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Lutz Krister Schubert" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-4889-9353> ;
+    foaf:familyName "Schubert" ;
+    foaf:givenName "Lutz Krister" ;
+    foaf:name "Lutz Krister Schubert" ;
+    schema:identifier <https://orcid.org/0000-0003-4889-9353> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e2> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Expression,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> ;
+    dct:description """General Information
+Description and Objectives of the Community Cluster "Research Software Engineering (RSE)" approved as part of NDFI4Objects in April 2023
+Beschreibung und Zielsetzung des im Rahmen von NDFI4Objects im April 2023 beschlossenen Community Clusters "Research Software Engineering (RSE)"
+Communication
+Current information about and collaboration in this Community Cluster via the following RocketChat channel: https://n4o-chat.nfdi.de/channel/CC_ResearchSoftwareEngineering
+Aktuelle Informationen zu und Mitarbeit in diesem Community Cluster über folgenden RocketChat-Kanal: https://n4o-chat.nfdi.de/channel/CC_ResearchSoftwareEngineering
+Konstituierende Sitzung / Inaugural Meeting
+24.01.2024, 14.00 AM CET, Zoom Link will be announced in the RocketChat channel""" ;
+    dct:identifier "https://doi.org/10.5281/zenodo.10512603" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i4> ;
+    dct:issued "2024-01-01"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "NFDI4Objects - Community Cluster \"Research Software Engineering (RSE)\"" ;
+    dct:type sqpt:proposal ;
+    bibo:abstract """General Information
+Description and Objectives of the Community Cluster "Research Software Engineering (RSE)" approved as part of NDFI4Objects in April 2023
+Beschreibung und Zielsetzung des im Rahmen von NDFI4Objects im April 2023 beschlossenen Community Clusters "Research Software Engineering (RSE)"
+Communication
+Current information about and collaboration in this Community Cluster via the following RocketChat channel: https://n4o-chat.nfdi.de/channel/CC_ResearchSoftwareEngineering
+Aktuelle Informationen zu und Mitarbeit in diesem Community Cluster über folgenden RocketChat-Kanal: https://n4o-chat.nfdi.de/channel/CC_ResearchSoftwareEngineering
+Konstituierende Sitzung / Inaugural Meeting
+24.01.2024, 14.00 AM CET, Zoom Link will be announced in the RocketChat channel""" ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i4/e2#authors> ;
+    bibo:doi "10.5281/zenodo.10512603" ;
+    bibo:locator "#2" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i4/e2#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i4/e2#doi> ;
+    crm:P2_has_type sqpt:proposal ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.10512603> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i4/e2#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i4/e2/> ;
+    dcat:theme sqpt:proposal ;
+    prov:wasDerivedFrom <https://zenodo.org/records/10512604> ;
+    sqp:citationLabel "6(4), #2" ;
+    sqp:entryNumber "2"^^xsd:positiveInteger .
+

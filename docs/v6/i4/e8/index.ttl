@@ -1,0 +1,180 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e8#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i4/e8> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i4/e8#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i4/e8> .
+
+<https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "EAA 2024, Rome, Italy" ;
+    event:place <https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i3/e9>,
+        <https://w3id.org/squirrelpapers/v6/i4/e7>,
+        <https://w3id.org/squirrelpapers/v6/i4/e8> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy> ;
+    schema:endDate "2024-08-31"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy> ;
+    schema:name "EAA 2024, Rome, Italy" ;
+    schema:startDate "2024-08-31"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "EAA 2024, Rome, Italy" .
+
+<https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-08-31T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-08-31T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7634-5342" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e8#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e8#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-08-31T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-08-31T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i4/e8#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.13132293" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e8#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "EAA_2024_ID_344_TamingTime_ThieryMees.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i4/e8#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i4/e8> ;
+    dcat:accessURL <https://zenodo.org/records/13132294> ;
+    dcat:byteSize "11192762"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/13132294/files/EAA_2024_ID_344_TamingTime_ThieryMees.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e8#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "f1bdc8524fdad89838710417e10ef1bd"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i4/e8#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Taming Time: Using Correspondence Analysis to handle relative chronologies as graphs" .
+
+<https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(12.515833 41.903333)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Allard W. Mees" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7634-5342> ;
+    foaf:familyName "Mees" ;
+    foaf:givenName "Allard W." ;
+    foaf:name "Allard W. Mees" ;
+    schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Sapienza University of Rome" ;
+    crm:P168_place_is_defined_by "POINT(12.515833 41.903333)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy#geometry> ;
+    owl:sameAs wd:Q209344 ;
+    dcat:centroid "POINT(12.515833 41.903333)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q38 ;
+    schema:description "Sapienza University of Rome, Italy" ;
+    schema:latitude 4.190333e+01 ;
+    schema:longitude 1.251583e+01 .
+
+<https://w3id.org/squirrelpapers/v6/i4/e8> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    dct:description """“Dated sites” in archaeology are usually not “dated sites”. Most of the temporality of “dated sites” is usually derived from historical assumptions. However, the chronology of these materials is often based on material coming from the manifold of other assumed “dated sites”, thus potentially resulting in a circulus vitiosus. A methodological way out of this dilemma is possible when we enhance the assumed external dating evidence and go back to the factual occurrences and overlaps in the data from the suspected “dated sites” since only these data are free of any temporal interpretations.
+As a method, the chronological assumptions used in defining “dated sites” based on archaeological find materials must be deconstructed and restricted to the occurrences and overlaps within and between “find materials” from suspected “dated sites” only to arrive at a relative chronology. This can be achieved by using correspondence analysis and visualising the resulting dimension values on maps recalculated in Hue values. By applying Allen’s interval algebra, including the Alligator and AMT tools, we can fix missing or enhance existing start- or endpoints by adding information about the vagueness/uncertainties.
+To cover as many assumed “dated sites” as possible, the Samian Research database with its 250,000 potter’s stamps from all over Europe is used.
+It turns out that it is possible to visualise historical development on maps, timelines and graph structures without using historical-chronological assumptions about individual “dated sites”. Simultaneously, this paper demonstrates the application of a different concept of temporality. The development of the Samian consumption patterns in the progressing Southern German Limes and the enrollment of the occupation of Britain appears to be gradual only. Applying the methods above, based on Linked Open Data techniques, enables the FAIRification of these data related to temporality, especially by creating interoperability and reproducibility."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.13132293" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i4> ;
+    dct:issued "2024-08-31"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Taming Time: Using Correspondence Analysis to handle relative chronologies as graphs"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract """“Dated sites” in archaeology are usually not “dated sites”. Most of the temporality of “dated sites” is usually derived from historical assumptions. However, the chronology of these materials is often based on material coming from the manifold of other assumed “dated sites”, thus potentially resulting in a circulus vitiosus. A methodological way out of this dilemma is possible when we enhance the assumed external dating evidence and go back to the factual occurrences and overlaps in the data from the suspected “dated sites” since only these data are free of any temporal interpretations.
+As a method, the chronological assumptions used in defining “dated sites” based on archaeological find materials must be deconstructed and restricted to the occurrences and overlaps within and between “find materials” from suspected “dated sites” only to arrive at a relative chronology. This can be achieved by using correspondence analysis and visualising the resulting dimension values on maps recalculated in Hue values. By applying Allen’s interval algebra, including the Alligator and AMT tools, we can fix missing or enhance existing start- or endpoints by adding information about the vagueness/uncertainties.
+To cover as many assumed “dated sites” as possible, the Samian Research database with its 250,000 potter’s stamps from all over Europe is used.
+It turns out that it is possible to visualise historical development on maps, timelines and graph structures without using historical-chronological assumptions about individual “dated sites”. Simultaneously, this paper demonstrates the application of a different concept of temporality. The development of the Samian consumption patterns in the progressing Southern German Limes and the enrollment of the occupation of Britain appears to be gradual only. Applying the methods above, based on Linked Open Data techniques, enables the FAIRification of these data related to temporality, especially by creating interoperability and reproducibility."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i4/e8#authors> ;
+    bibo:doi "10.5281/zenodo.13132293" ;
+    bibo:locator "#8" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i4/e8#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i4/e8#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.13132293> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i4/e8#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i4/e8/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/13132294> ;
+    sqp:citationLabel "6(4), #8" ;
+    sqp:entryNumber "8"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

@@ -1,0 +1,296 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/workshop-vagheiten-und-unsicherheiten-in-provenienzdaten-2025",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/workshop-vagheiten-und-unsicherheiten-in-provenienzdaten-2025#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/workshop-vagheiten-und-unsicherheiten-in-provenienzdaten-2025#time-span"
+      },
+      "rdfs:label": "Workshop Vagheiten und Unsicherheiten in Provenienzdaten",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2025-01-23"
+      },
+      "schema:eventAttendanceMode": {
+        "@id": "schema:OnlineEventAttendanceMode"
+      },
+      "schema:name": "Workshop Vagheiten und Unsicherheiten in Provenienzdaten",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2025-01-23"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/workshop-vagheiten-und-unsicherheiten-in-provenienzdaten-2025#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Workshop Vagheiten und Unsicherheiten in Provenienzdaten"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/workshop-vagheiten-und-unsicherheiten-in-provenienzdaten-2025#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-01-23T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-01-23T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i1/e1",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "== Deutsch ==\nIn der archäologischen Forschung stellen Unsicherheiten und Mehrdeutigkeiten in Geodaten eine große Herausforderung dar. Historische Orte wie „Mainz“ können je nach Kontext unterschiedliche Bedeutungen haben – sei es das römische Mainz, das mittelalterliche Mainz oder die Stadt im 20. Jahrhundert. Um solche Unsicherheiten transparent zu dokumentieren und für die Nachnutzung zugänglich zu machen, ist der Einsatz von Linked Open Data (LOD) und Ontologien ein vielversprechender Ansatz. Das vorliegende Paper stellt die Fuzzy Spatial Locations Ontology (fuzzy-sl) vor, eine Ontologie, die auf PROV-O, SKOS und GeoSPARQL basiert und dabei hilft, unscharfe geographische Informationen nachvollziehbar zu modellieren und zu zitieren. Diese Ontologie ermöglicht es, vagueness, Unsicherheiten und verschiedene Interpretationen von Orten konsistent in einer Wikibase-Umgebung zu erfassen. Die Modellierung erfolgt durch eine Kombination von Konzepten wie coordinate metadata (CM) und geolocation metadata (GLM), die es ermöglichen, unterschiedliche Genauigkeiten und Quellenangaben der Daten klar zu differenzieren. Ein zentrales Ziel der Studie ist die FAIRifizierung von Daten gemäß den FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable). Dies wird durch die Integration von fuzzy-sl in bestehende Linked Open Data-Ökosysteme wie Wikidata, Semantic Kompakkt und FactGrid erreicht. Dadurch wird ein interoperables Netzwerk geschaffen, das unterschiedliche Datensätze miteinander verknüpft und so die Provenienz von Daten transparent macht. Neben der archäologischen Anwendung demonstriert das Paper auch die Integration von fuzzy-sl in weitere Disziplinen wie die Numismatik und die Geowissenschaften. Fallstudien, darunter Fundorte römischer Terra Sigillata in London und mittelalterliche Ogham-Steine, verdeutlichen, wie Unsicherheiten bei Fundorten und historischen Daten effektiv behandelt werden können. Abschließend hebt die Arbeit hervor, wie fuzzy-sl dazu beitragen kann, unscharfe geographische Daten nicht nur zu dokumentieren, sondern auch in modernen Linked-Data-Umgebungen zitierbar zu machen. Dies eröffnet neue Möglichkeiten für die wissenschaftliche Zusammenarbeit und den Datenaustausch in der Archäologie, Geschichtsforschung und darüber hinaus. Alle erstellten Daten und Modelle stehen unter einer offenen Creative Commons Lizenz (CC BY 4.0) zur Verfügung, um die Nachnutzung und Weiterentwicklung durch die Forschungsgemeinschaft zu fördern.\n== English ==\nIn archaeological research, uncertainties and ambiguities in geodata present significant challenges. Historical locations such as “Mainz” can have multiple interpretations depending on context—whether it refers to Roman Mainz, medieval Mainz, or the city in the 20th century. To document such uncertainties transparently and make them available for reuse, the use of Linked Open Data (LOD) and ontologies is a promising approach. This paper introduces the Fuzzy Spatial Locations Ontology (fuzzy-sl), an ontology based on PROV-O, SKOS, and GeoSPARQL, which aids in modelling and citing uncertain geographic information in a comprehensible manner. The ontology facilitates the documentation of vagueness, uncertainties, and different interpretations of locations consistently within a Wikibase environment. Modelling is achieved through a combination of concepts such as coordinate metadata (CM) and geolocation metadata (GLM), enabling the differentiation of varying accuracies and data sources. A key objective of the study is the FAIRification of data in accordance with the FAIR principles (Findable, Accessible, Interoperable, Reusable). This is accomplished by integrating fuzzy-sl into existing Linked Open Data ecosystems such as Wikidata, Semantic Kompakkt, and FactGrid. This creates an interoperable network that connects various datasets and enhances the transparency of data provenance. In addition to its application in archaeology, the paper also demonstrates the integration of fuzzy-sl in other disciplines such as numismatics and geosciences. Case studies, including Roman Terra Sigillata findspots in London and medieval Ogham stones, illustrate how uncertainties in findspots and historical data can be effectively addressed. Finally, the paper emphasises how fuzzy-sl can contribute not only to documenting vague geographic data but also to making it citable in modern Linked Data environments. This opens up new opportunities for scientific collaboration and data exchange across archaeology, historical research, and beyond. All created data and models are available under an open Creative Commons Licence (CC BY 4.0) to encourage reuse and further development by the research community."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.14707872",
+      "bibo:locator": "λ1",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/workshop-vagheiten-und-unsicherheiten-in-provenienzdaten-2025"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v7/i1/e1/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "dct:description": {
+        "@language": "de",
+        "@value": "== Deutsch ==\nIn der archäologischen Forschung stellen Unsicherheiten und Mehrdeutigkeiten in Geodaten eine große Herausforderung dar. Historische Orte wie „Mainz“ können je nach Kontext unterschiedliche Bedeutungen haben – sei es das römische Mainz, das mittelalterliche Mainz oder die Stadt im 20. Jahrhundert. Um solche Unsicherheiten transparent zu dokumentieren und für die Nachnutzung zugänglich zu machen, ist der Einsatz von Linked Open Data (LOD) und Ontologien ein vielversprechender Ansatz. Das vorliegende Paper stellt die Fuzzy Spatial Locations Ontology (fuzzy-sl) vor, eine Ontologie, die auf PROV-O, SKOS und GeoSPARQL basiert und dabei hilft, unscharfe geographische Informationen nachvollziehbar zu modellieren und zu zitieren. Diese Ontologie ermöglicht es, vagueness, Unsicherheiten und verschiedene Interpretationen von Orten konsistent in einer Wikibase-Umgebung zu erfassen. Die Modellierung erfolgt durch eine Kombination von Konzepten wie coordinate metadata (CM) und geolocation metadata (GLM), die es ermöglichen, unterschiedliche Genauigkeiten und Quellenangaben der Daten klar zu differenzieren. Ein zentrales Ziel der Studie ist die FAIRifizierung von Daten gemäß den FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable). Dies wird durch die Integration von fuzzy-sl in bestehende Linked Open Data-Ökosysteme wie Wikidata, Semantic Kompakkt und FactGrid erreicht. Dadurch wird ein interoperables Netzwerk geschaffen, das unterschiedliche Datensätze miteinander verknüpft und so die Provenienz von Daten transparent macht. Neben der archäologischen Anwendung demonstriert das Paper auch die Integration von fuzzy-sl in weitere Disziplinen wie die Numismatik und die Geowissenschaften. Fallstudien, darunter Fundorte römischer Terra Sigillata in London und mittelalterliche Ogham-Steine, verdeutlichen, wie Unsicherheiten bei Fundorten und historischen Daten effektiv behandelt werden können. Abschließend hebt die Arbeit hervor, wie fuzzy-sl dazu beitragen kann, unscharfe geographische Daten nicht nur zu dokumentieren, sondern auch in modernen Linked-Data-Umgebungen zitierbar zu machen. Dies eröffnet neue Möglichkeiten für die wissenschaftliche Zusammenarbeit und den Datenaustausch in der Archäologie, Geschichtsforschung und darüber hinaus. Alle erstellten Daten und Modelle stehen unter einer offenen Creative Commons Lizenz (CC BY 4.0) zur Verfügung, um die Nachnutzung und Weiterentwicklung durch die Forschungsgemeinschaft zu fördern.\n== English ==\nIn archaeological research, uncertainties and ambiguities in geodata present significant challenges. Historical locations such as “Mainz” can have multiple interpretations depending on context—whether it refers to Roman Mainz, medieval Mainz, or the city in the 20th century. To document such uncertainties transparently and make them available for reuse, the use of Linked Open Data (LOD) and ontologies is a promising approach. This paper introduces the Fuzzy Spatial Locations Ontology (fuzzy-sl), an ontology based on PROV-O, SKOS, and GeoSPARQL, which aids in modelling and citing uncertain geographic information in a comprehensible manner. The ontology facilitates the documentation of vagueness, uncertainties, and different interpretations of locations consistently within a Wikibase environment. Modelling is achieved through a combination of concepts such as coordinate metadata (CM) and geolocation metadata (GLM), enabling the differentiation of varying accuracies and data sources. A key objective of the study is the FAIRification of data in accordance with the FAIR principles (Findable, Accessible, Interoperable, Reusable). This is accomplished by integrating fuzzy-sl into existing Linked Open Data ecosystems such as Wikidata, Semantic Kompakkt, and FactGrid. This creates an interoperable network that connects various datasets and enhances the transparency of data provenance. In addition to its application in archaeology, the paper also demonstrates the integration of fuzzy-sl in other disciplines such as numismatics and geosciences. Case studies, including Roman Terra Sigillata findspots in London and medieval Ogham stones, illustrate how uncertainties in findspots and historical data can be effectively addressed. Finally, the paper emphasises how fuzzy-sl can contribute not only to documenting vague geographic data but also to making it citable in modern Linked Data environments. This opens up new opportunities for scientific collaboration and data exchange across archaeology, historical research, and beyond. All created data and models are available under an open Creative Commons Licence (CC BY 4.0) to encourage reuse and further development by the research community."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.14707872",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2025-01-23"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Fuzzyness & Wobbliness in Geodaten: Linked Open Data und Wikibase in der Praxis"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.14707872"
+      },
+      "prism:number": "1",
+      "prism:volume": "7",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/14707873"
+      },
+      "sqp:citationLabel": "7(1), λ1",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-01-23T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-01-23T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.14707872",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/14707873"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "23868018"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/14707873/files/N4O-PROV_2025_fuzzy-sl.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "N4O-PROV_2025_fuzzy-sl.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "1b1a298e6b3475e798ee03edf7f62535"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i1/e1#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Fuzzyness & Wobbliness in Geodaten: Linked Open Data und Wikibase in der Praxis"
+    }
+  ]
+}

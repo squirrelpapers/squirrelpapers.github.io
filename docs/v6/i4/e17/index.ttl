@@ -1,0 +1,245 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e17#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i4/e17> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7387-7247>,
+        <https://w3id.org/squirrelpapers/person/0009-0001-5183-1635>,
+        <https://w3id.org/squirrelpapers/person/0009-0005-3991-1025> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i4/e17#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i4/e17> .
+
+<https://w3id.org/squirrelpapers/event/verbandstagung-2024-des-nwva-e-v-2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Verbandstagung 2024 des NWVA e.V." ;
+    event:place <https://w3id.org/squirrelpapers/place/dbm-bochum-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i3/e10>,
+        <https://w3id.org/squirrelpapers/v6/i4/e17> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/verbandstagung-2024-des-nwva-e-v-2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/verbandstagung-2024-des-nwva-e-v-2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/dbm-bochum-germany> ;
+    schema:endDate "2024-10-11"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/dbm-bochum-germany> ;
+    schema:name "Verbandstagung 2024 des NWVA e.V." ;
+    schema:startDate "2024-10-07"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/verbandstagung-2024-des-nwva-e-v-2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Verbandstagung 2024 des NWVA e.V." .
+
+<https://w3id.org/squirrelpapers/event/verbandstagung-2024-des-nwva-e-v-2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-10-07T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-10-11T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7387-7247#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7387-7247" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0001-5183-1635#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0001-5183-1635" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0005-3991-1025#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0005-3991-1025" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e17#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0009-0001-5183-1635> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0009-0005-3991-1025> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/0000-0002-7387-7247> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e17#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-10-07T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-10-07T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i4/e17#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.13897159" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e17#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i4/e17#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i4/e17> ;
+    dcat:accessURL <https://zenodo.org/records/13897160> ;
+    dcat:byteSize "15517709"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/13897160/files/AT_Bochum_N4O_Plenum_NFDITA2TA4_ThieryFellaPuhlEtAl.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e17#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "8d4c2279d1f5a2e14816624d58eeb360"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i4/e17#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken" .
+
+<https://w3id.org/squirrelpapers/place/dbm-bochum-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(7.21722 51.4892)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7387-7247> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Andreas Puhl" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7387-7247#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7387-7247> ;
+    foaf:familyName "Puhl" ;
+    foaf:givenName "Andreas" ;
+    foaf:name "Andreas Puhl" ;
+    schema:identifier <https://orcid.org/0000-0002-7387-7247> .
+
+<https://w3id.org/squirrelpapers/person/0009-0001-5183-1635> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Lasse Mempel-Länger" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0001-5183-1635#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0001-5183-1635> ;
+    foaf:familyName "Mempel-Länger" ;
+    foaf:givenName "Lasse" ;
+    foaf:name "Lasse Mempel-Länger" ;
+    schema:identifier <https://orcid.org/0009-0001-5183-1635> .
+
+<https://w3id.org/squirrelpapers/person/0009-0005-3991-1025> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Kristina Fella" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0005-3991-1025#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0005-3991-1025> ;
+    foaf:familyName "Fella" ;
+    foaf:givenName "Kristina" ;
+    foaf:name "Kristina Fella" ;
+    schema:identifier <https://orcid.org/0009-0005-3991-1025> .
+
+<https://w3id.org/squirrelpapers/place/dbm-bochum-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "German Mining Museum" ;
+    crm:P168_place_is_defined_by "POINT(7.21722 51.4892)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/dbm-bochum-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/dbm-bochum-germany#geometry> ;
+    owl:sameAs wd:Q896952 ;
+    dcat:centroid "POINT(7.21722 51.4892)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "DBM Bochum, Germany" ;
+    schema:latitude 5.14892e+01 ;
+    schema:longitude 7.21722e+00 .
+
+<https://w3id.org/squirrelpapers/v6/i4/e17> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7387-7247>,
+        <https://w3id.org/squirrelpapers/person/0009-0001-5183-1635>,
+        <https://w3id.org/squirrelpapers/person/0009-0005-3991-1025> ;
+    dct:description """Das Konsortium NFDI4Objects der Nationalen Forschungsdateninfrastruktur (NFDI) beschäftigt sich mit dem Forschungsdatenmanagement des materiellen Erbes von rund drei Millionen Jahren Menschheits- und Umweltgeschichte und entwickelt digitale Services für die interdisziplinäre archäologische Forschung. Die Arbeitsbereiche (Task Areas; TA) in NFDI4Objects hangeln sich entlang des Konzept der Objektbiografie, in dem ein Objekt dokumentiert (TA1: Documentation), gesammelt (TA2: Collecting), analysiert (TA3: Analysis & Experiments), geschützt (TA4: Protecting), gespeichert und geteilt (TA5: Storage, Access & Dissemination) wird. Gleiches gilt für digitale (Meta-)Daten über das Objekt, die in einem Forschungsdatenlebenszyklus die Stationen “plan & design”, “collect & capture”, “enrich & interpret”, “archive & preserve”, “share, publish and discover”, sowie “resuse & cite” durchlaufen. Begleitet wird dies durch FAIRification Services, welche zu data -management, -capturing, -enrichment, -preservation, -discovery und -connecting in NFDI4Objects entwickelt und bereitgestellt werden.
+Task Area 2 “Collecting” entwickelt eine vernetzte Forschungsdateninfrastruktur im Bereich der Sammlungen und Museen, begleitet mit qualitätsorientierten Datenmanagementprozessen, die die komplexen Anforderungen des wissenschaftlichen Sammelns von Objekten, der sammlungsbezogenen Forschung und Provenienzforschung unterstützen. Task Area 4 “Protecting” befasst sich mit Fragen des Datenmanagements und institutionsübergreifenden Datenaustauschs in den Bereichen Cultural Heritage, Denkmalschutz – insbesondere aus Sicht der föderalen behördlichen Struktur und deren gesetzlichen Vorgaben und Richtlinien – sowie Konservierung und Restaurierung von Sammlungsobjekten oder Denkmälern.
+Dieses Paper zeigt, welche digitalen Dienste – insbesondere in und aus den den Task Areas 2 “Collecting” und 4 “Protecting” – für die Archäologien in Deutschland und darüber hinaus in und mit Hilfe von NFDI4Objects (weiter-)entwickelt werden, bzw. bereits vorhanden oder geplant sind. Es wird aufgezeigt, welcher Nutzen durch digitale Dienste für den Datenlebenszyklus in der Archäologie entstehen um Anwendungen zwischen Grabungsalltag, musealer Arbeit und wissenschaftlicher Arbeit zu verknüpfen. In diesem Prozess der FAIRification hin zu Open Science spielen Open Source Software (FOSS), Open Data – auch Linked Open Data – und Open Access unter Einhaltung internationaler Vorgaben (z.B. DSGVO) eine entscheidente Rolle.
+Wir stellen in diesem Paper in Zusammenarbeit mit den Institutionen und Partnern aus NFDI4Objects folgende FAIRification Services vor:
+bereits vorhanden
+Academic Meta Tool – API for RDF modelling of vagueness in research data
+re3dragon – lookup and resolve tool for LOD resources
+Data and Research Tool Framework archaeology.link
+Alligator – An Allen Transformator
+LEIZA Conservation Thesaurus
+in Entwicklung (in Zusammenarbeit mit der Community)
+Provenienzgazetteers zur FAIRen Bereitstellung in einer Wikibase
+Knowledge Management Tool for Conservation and Restoration Processes
+Recommendations/Good Practices and Research Toolkits for Knowledge Modelling
+Standards and interfaces for interdisciplinary knowledge modelling and data exchange of heterogeneous systems
+Tools for managing knowledge modelling, including fuzzy and wobbly semantics
+Wikibase und Semantic Media Wiki Infrastructures
+Recommendations/Good Practices zur Integration in das Wikiversum"""@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.13897159" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i4> ;
+    dct:issued "2024-10-07"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken"@de ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract """Das Konsortium NFDI4Objects der Nationalen Forschungsdateninfrastruktur (NFDI) beschäftigt sich mit dem Forschungsdatenmanagement des materiellen Erbes von rund drei Millionen Jahren Menschheits- und Umweltgeschichte und entwickelt digitale Services für die interdisziplinäre archäologische Forschung. Die Arbeitsbereiche (Task Areas; TA) in NFDI4Objects hangeln sich entlang des Konzept der Objektbiografie, in dem ein Objekt dokumentiert (TA1: Documentation), gesammelt (TA2: Collecting), analysiert (TA3: Analysis & Experiments), geschützt (TA4: Protecting), gespeichert und geteilt (TA5: Storage, Access & Dissemination) wird. Gleiches gilt für digitale (Meta-)Daten über das Objekt, die in einem Forschungsdatenlebenszyklus die Stationen “plan & design”, “collect & capture”, “enrich & interpret”, “archive & preserve”, “share, publish and discover”, sowie “resuse & cite” durchlaufen. Begleitet wird dies durch FAIRification Services, welche zu data -management, -capturing, -enrichment, -preservation, -discovery und -connecting in NFDI4Objects entwickelt und bereitgestellt werden.
+Task Area 2 “Collecting” entwickelt eine vernetzte Forschungsdateninfrastruktur im Bereich der Sammlungen und Museen, begleitet mit qualitätsorientierten Datenmanagementprozessen, die die komplexen Anforderungen des wissenschaftlichen Sammelns von Objekten, der sammlungsbezogenen Forschung und Provenienzforschung unterstützen. Task Area 4 “Protecting” befasst sich mit Fragen des Datenmanagements und institutionsübergreifenden Datenaustauschs in den Bereichen Cultural Heritage, Denkmalschutz – insbesondere aus Sicht der föderalen behördlichen Struktur und deren gesetzlichen Vorgaben und Richtlinien – sowie Konservierung und Restaurierung von Sammlungsobjekten oder Denkmälern.
+Dieses Paper zeigt, welche digitalen Dienste – insbesondere in und aus den den Task Areas 2 “Collecting” und 4 “Protecting” – für die Archäologien in Deutschland und darüber hinaus in und mit Hilfe von NFDI4Objects (weiter-)entwickelt werden, bzw. bereits vorhanden oder geplant sind. Es wird aufgezeigt, welcher Nutzen durch digitale Dienste für den Datenlebenszyklus in der Archäologie entstehen um Anwendungen zwischen Grabungsalltag, musealer Arbeit und wissenschaftlicher Arbeit zu verknüpfen. In diesem Prozess der FAIRification hin zu Open Science spielen Open Source Software (FOSS), Open Data – auch Linked Open Data – und Open Access unter Einhaltung internationaler Vorgaben (z.B. DSGVO) eine entscheidente Rolle.
+Wir stellen in diesem Paper in Zusammenarbeit mit den Institutionen und Partnern aus NFDI4Objects folgende FAIRification Services vor:
+bereits vorhanden
+Academic Meta Tool – API for RDF modelling of vagueness in research data
+re3dragon – lookup and resolve tool for LOD resources
+Data and Research Tool Framework archaeology.link
+Alligator – An Allen Transformator
+LEIZA Conservation Thesaurus
+in Entwicklung (in Zusammenarbeit mit der Community)
+Provenienzgazetteers zur FAIRen Bereitstellung in einer Wikibase
+Knowledge Management Tool for Conservation and Restoration Processes
+Recommendations/Good Practices and Research Toolkits for Knowledge Modelling
+Standards and interfaces for interdisciplinary knowledge modelling and data exchange of heterogeneous systems
+Tools for managing knowledge modelling, including fuzzy and wobbly semantics
+Wikibase und Semantic Media Wiki Infrastructures
+Recommendations/Good Practices zur Integration in das Wikiversum"""@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i4/e17#authors> ;
+    bibo:doi "10.5281/zenodo.13897159" ;
+    bibo:locator "#17" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/verbandstagung-2024-des-nwva-e-v-2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i4/e17#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i4/e17#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.13897159> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i4/e17#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i4> ;
+    dcat:keyword "NFDI",
+        "NFDI4Objects" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i4/e17/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/13897160> ;
+    sqp:citationLabel "6(4), #17" ;
+    sqp:entryNumber "17"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

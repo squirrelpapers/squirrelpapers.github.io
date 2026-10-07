@@ -160,7 +160,7 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Typ-Vokabular | Eigenes SKOS-Schema `sqp:type/…`, gemappt auf COAR Resource Types, Zenodo `resource_type` und FaBiO | 2026-10-06 |
 | Lizenzen | Code MIT, Inhalte/Metadaten CC BY 4.0 | 2026-10-06 |
 | Quellrepos | Werden von Claude geklont, Snapshot nach `data/raw/` | 2026-10-06 |
-| Modellierung Volume/Issue | Journal = `dcat:Catalog`; Volume und Issue = `dcat:DatasetSeries` (Issue `dcat:inSeries` Volume); Entry = `dcat:Dataset` + `fabio:`-Typ, `dcat:inSeries` Issue | Vorschlag |
+| Modellierung Volume/Issue | Journal = `dcat:Catalog` + `fabio:Journal`; Volume und Issue = `dcat:DatasetSeries` + `fabio:JournalVolume`/`JournalIssue` (Issue `dcat:inSeries` Volume); Entry = `dcat:Dataset` + `fabio:`-Typ, `dcat:inSeries` Issue | 2026-10-07 |
 | Seitengenerator | Python + Jinja2, kein Jekyll, kein Node-Build | 2026-10-07 |
 | Schritte außerhalb des Standardlaufs | `migrate` (einmalig, überschreibt `content/`) und `harvest` (Netz) laufen nur mit `--only`; Standardreihenfolge `merge → cite → rdf → validate → map → site → sparql` | 2026-10-06 |
 | Schriften | Keine Webfonts, keine Drittanbieter-Anfrage für Typografie; Systemschrift-Stacks mit `Inter` an erster Stelle (greift, wo installiert) | Vorschlag |
@@ -201,6 +201,12 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | BibTeX-Schlüssel | `sp_vol<V>_iss<I>_e<N>` (ASCII); die alten Schlüssel aus `vol7/bibtex.md` (`…_l5`, `…_q1`) gelten nicht weiter | 2026-10-07 |
 | Drittanbieter-Code | citeproc-js, 6 CSL-Stile und 3 Locales unverändert unter `assets/vendor/` mit `SOURCE.yaml` (Version/Commit, Lizenz); auf der Seite selbst gehostet, kein CDN | 2026-10-07 |
 | Sprache, wenn unbekannt | S4 rät aus Funktionswörtern im Titel (`de`/`en`), markiert mit `language_guessed`; `content/` gewinnt immer. Grund: Zitierstile setzen sonst deutsche Titel in englischen Title Case | 2026-10-07 |
+| Zwei Graphen | `dist/squirrelpapers.ttl` (DCAT/DCAT-AP, BIBO, FaBiO, PRISM, schema.org, FOAF, GeoSPARQL, PROV, SPDX) und `dist/squirrelpapers-crm.ttl` (CIDOC CRM, CRMdig, LRMoo) über dieselben IRIs; die CRM-Sicht liegt getrennt, damit der DCAT-Graph allein lesbar bleibt | 2026-10-07 |
+| CRM-Abbildung | Entry = `E73`/`lrmoo:F2`, `P102` Titel (`E35`), `P1` DOI (`E42`), `P2` Typ; Entstehung = `E65`/`lrmoo:F28` mit `P14` Personen und `P4` Zeitspanne (`E52`); Veranstaltung = `E7` mit `P7` Ort (`E53`, `P168` WKT) und `P16` → Entry; PDF = `crmdig:D1` `P165` → Entry; Heft/Band/Journal per `P106i`; Journal `lrmoo:F18` | 2026-10-07 |
+| Veranstaltungen | Eine Veranstaltung = gleicher Name, gleiches Jahr, Beginn innerhalb von 14 Tagen; Zeitraum = frühester Beginn bis spätestes Ende ihrer Vorträge. IRI `…/event/<name-slug>-<jahr>`, Jahr nicht doppelt; zweiter Termin einer Serie im selben Jahr `…-<datum>` | 2026-10-07 |
+| Keine Blank Nodes | Autorenreihenfolge als `rdf:Seq` mit eigener IRI (`#authors`), Distribution, Prüfsumme, Zeitspannen als Hash-IRIs; der Build bricht bei einem Blank Node ab | 2026-10-07 |
+| DCAT-AP-Pflichtfelder | Fehlt ein Abstract, bekommt der Eintrag eine erzeugte `dct:description` („Presentation published in the Squirrel Papers 7(4), λ5."); ohne PDF eine Distribution `#landing` auf Zenodo/DOI/Link; Sprachen als EU-Authority-IRIs | 2026-10-07 |
+| Turtle-Präfixe | Feste Präfixe nur für Prädikate und Klassen; Subjekt- und Objekt-IRIs werden ausgeschrieben (vorher ein `nsNN`-Präfix pro Eintrag) | 2026-10-07 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -224,15 +230,17 @@ Basis: `https://w3id.org/squirrelpapers/`
 
 | Pfad | Inhalt | Ziel des Redirects | Status |
 |---|---|---|---|
-| `/` | Journal (`dcat:Catalog`) | `https://squirrelpapers.github.io/` | beschlossen |
-| `/v<N>` | Volume | `…/v<N>/` | beschlossen |
-| `/v<N>/i<M>` | Issue | `…/v<N>/i<M>/` | beschlossen |
-| `/v<N>/i<M>/e<K>` | Entry | `…/v<N>/i<M>/e<K>/` | beschlossen |
-| `/ontology` | Ontologie `sqp:` | `…/ontology/` | geplant |
-| `/type/<slug>` | SKOS-Typen | `…/vocab/type/` | geplant |
-| `/person/<orcid-or-slug>` | Personen | `…/people/` | geplant |
-| `/event/<slug>` | Veranstaltungen | `…/events/` | geplant |
-| `/dump.ttl` | Gesamtgraph | `…/dist/squirrelpapers.ttl` | geplant |
+| `/` | Journal (`dcat:Catalog`) | `https://squirrelpapers.github.io/` | aktiv im Graph (S7) |
+| `/v<N>` | Volume (`dcat:DatasetSeries`) | `…/v<N>/` | aktiv im Graph (S7) |
+| `/v<N>/i<M>` | Issue (`dcat:DatasetSeries`, `dcat:inSeries` Volume) | `…/v<N>/i<M>/` | aktiv im Graph (S7) |
+| `/v<N>/i<M>/e<K>` | Entry (`dcat:Dataset`); Hash-IRIs darunter: `#pdf`, `#landing`, `#authors`, `#creation`, `#title`, `#doi` | `…/v<N>/i<M>/e<K>/` | aktiv im Graph (S7) |
+| `/ontology` | Ontologie `sqp:` (`ontology/sqp.ttl`) | `…/ontology/index.ttl` | aktiv (S7) |
+| `/type/<slug>` | SKOS-Typen | `…/vocab/types.ttl` | aktiv (S7) |
+| `/person/<orcid-or-slug>` | Personen (`foaf:Person`) | noch keine Seite | aktiv im Graph (S7), Seite offen |
+| `/event/<slug>-<jahr>` | Veranstaltungen (`event:Event`, `crm:E7_Activity`) | noch keine Seite | aktiv im Graph (S7), Seite offen |
+| `/place/<key>` | Orte (`dct:Location`, `geo:Feature`, `crm:E53_Place`) | Karte (S10) | aktiv im Graph (S7) |
+| `/org/research-squirrel-engineers` | Herausgeber (`foaf:Organization`) | Startseite | aktiv im Graph (S7) |
+| `/dump.ttl` | Gesamtgraph | `…/downloads/squirrelpapers.ttl` (CRM-Sicht: `squirrelpapers.crm.ttl`) | beschlossen, Redirect in S12 |
 
 Content Negotiation (S12): `Accept: text/turtle` → `index.ttl`,
 `application/ld+json` → `index.jsonld`, `application/x-bibtex` → `index.bib`,
@@ -251,15 +259,20 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S4 | Merge + Normalisierung → `data/derived/entries.json`, SKOS-Typen | dieses | S2, S3 | erledigt 2026-10-07 |
 | S5 | Seiten EN/DE: Journal, Volume, Issue, Entry, About, Impressum, Datenschutz; PDF-iframe | dieses | S4 | erledigt 2026-10-07 |
 | S6 | Zitation: CSL-JSON, citeproc-js + Stilwahl, BibTeX/RIS je Ebene | dieses | S4 | erledigt 2026-10-07 |
-| S7 | RDF: Ontologie, DCAT 3/DCAT-AP 3, BIBO/FaBiO, CRM/CRMdig/LRMoo, JSON-LD | dieses | S4 | offen |
+| S7 | RDF: Ontologie, DCAT 3/DCAT-AP 3, BIBO/FaBiO, CRM/CRMdig/LRMoo, JSON-LD | dieses | S4 | erledigt 2026-10-07 |
 | S8 | SHACL-Gate (eigene + DCAT-AP-3-Shapes), `--strict` | dieses | S7 | offen |
 | S9 | Filter (JSON-Index) + SPARQL-Seite (rdflib/Pyodide) | dieses | S7 | offen |
 | S10 | Karte der Konferenzorte + GeoJSON | dieses | S3, S4 | offen |
 | S11 | GitHub Action: Build + Pages-Deploy, optional Harvest | dieses | S5–S10 | offen |
 | S12 | w3id: `.htaccess` mit Content Negotiation, PR an perma-id | perma-id/w3id.org | S5, S7 | offen |
 | S13 | Umstellung: Weiterleitung `squirrelpapers.net`, Archiv `squirrelpapers-volumes`, Wikidata-Pflege | — | S11, S12 | offen |
+| S14 | Eintragseditor im Web: DOI → Formular → YAML-Schnipsel für `content/vol<N>.yaml` | neues Repo (Arbeitstitel `squirrelpapers-editor`) | S4, S11 | offen |
+| S15 | Frontend überarbeiten: Navigation, Startseite, Feinschliff, Barrierefreiheit | dieses | S9, S10 | offen |
 
 **Unabhängig.** Nach S4 laufen S5, S6, S7 und S10 in beliebiger Reihenfolge.
+S14 braucht nur das YAML-Format aus S2/S4 und kann jederzeit parallel in
+seinem eigenen Repo beginnen; die Einreichung (S14b) setzt S11 voraus. S15
+kommt bewusst zuletzt, wenn alle Seiten (Filter, Karte, SPARQL) existieren.
 S9 braucht S7, S8 braucht S7. S12 kann parallel zu S8–S11 vorbereitet werden,
 sobald die Ordnerstruktur aus S5 steht.
 
@@ -635,6 +648,35 @@ und Locales 0,46 MB), wird einmal geladen und gecacht.
 **Abnahme:** Tripelzahl im Bericht; keine Blank Nodes; zweiter Lauf
 byte-gleich.
 
+### Erledigt 2026-10-07
+
+`py/step_rdf.py`, `ontology/sqp.ttl` (5 Properties: `sqp:sigil`,
+`sqp:entryNumber`, `sqp:citationLabel`, `sqp:specialIssue`,
+`sqp:languageGuessed`). Anpassungen: `sqp_utils.py` (Präfixe, `PLACE_NS`,
+`ORG_NS`, `bind_remaining`), `step_merge.py` (Dateinamen URL-kodiert),
+`step_site.py` (`<link rel="alternate">` auf Turtle/JSON-LD, Downloads).
+
+**Ergebnis:** `dist/squirrelpapers.ttl` 12 374 Tripel, `-crm.ttl` 6 185,
+`vocab/types.ttl` 234, `ontology/sqp.ttl` 48. 210 Einträge, 106 Personen,
+70 Veranstaltungen, 51 Orte. 259 Ressourcen (Journal, 8 Bände, 40 Hefte,
+210 Einträge) mit eigenem `index.ttl` und `index.jsonld` in `docs/`; die
+Seiten verweisen per `<link rel="alternate">` darauf — Vorstufe der Content
+Negotiation in S12. Keine Blank Nodes, zwei Läufe byte-gleich, Laufzeit ≈ 6 s.
+
+**Befunde:**
+- **rdflib-Falle:** `Namespace` ist ein `str`, also war `DCTERMS.title` die
+  String-Methode `str.title` — der erste Lauf brach mit „Predicate <built-in
+  method format …>" ab. Durchgängig `N["dct"]["title"]`.
+- **Dateinamen mit Leerzeichen** auf Zenodo (`OL3DT _Oldenburg_….pdf`) ergaben
+  ungültige IRIs; S4 kodiert sie jetzt (betrifft auch Download- und
+  Vorschau-Links auf den Seiten).
+- **Kürzen vor dem Jahr:** die erste Event-IRI schnitt lange Namen nach dem
+  Anhängen des Datums ab und verschmolz CAA-UK 2018 mit 2019. Jetzt erst
+  kürzen, dann Jahr anhängen; Serien wie „Text+ Show and Tell" 2025 bleiben
+  drei Veranstaltungen.
+- 7 Einträge haben weder PDF noch DOI noch Link und daher keine
+  Distribution — für DCAT-AP zulässig (0..n), S8 prüft es trotzdem.
+
 ## S8 — SHACL
 
 **Ziel:** Gate gegen eigene Shapes und die DCAT-AP-3-Shapes (kopiert nach
@@ -678,6 +720,65 @@ die drei richtigen Ziele.
 **Ziel:** Alte Seite leitet um, altes Repo archiviert, Wikidata-Items zeigen
 auf die neuen IRIs (P856 / P953 o. ä.).
 
+## S14 — Eintragseditor im Web (neues Repo)
+
+**Ziel:** Ein neuer Eintrag entsteht, ohne YAML von Hand zu schreiben: eine
+statische Webseite mit Formular erzeugt einen YAML-Schnipsel, der genau in
+`content/vol<N>.yaml` passt und dort per Werkzeug eingetragen wird.
+
+**Uploads:** `PRIMER.md`; das Repo dieses Journals holt Claude selbst.
+
+**Ablauf (Vorschlag):**
+
+```
+DOI eingeben ─► Zenodo-API im Browser (CORS) ─► Titel, Personen + ORCID,
+                                                 Datum, Typ, Sprache, Lizenz
+Band/Heft wählen ◄── entries.json von squirrelpapers.github.io
+                     (nächste freie Nummer, Sigel des Hefts)
+Veranstaltung ─► Ort per Wikidata-Suche (wbsearchentities, origin=*)
+                 oder aus content/places.yaml wählen
+        │
+        ▼
+YAML-Schnipsel (+ ggf. neuer places.yaml-Eintrag) ─► kopieren / herunterladen
+        │
+        ▼
+Einreichen (S14b, siehe Teil D 7): Issue-Formular, Pull Request oder CLI
+```
+
+- **S14a — Format festschreiben (in diesem Repo):** JSON Schema
+  `content/schema/entry.schema.json` aus dem tatsächlichen YAML-Format, plus
+  `python main.py check`, das alle `content/vol*.yaml` dagegen prüft. Der
+  Editor und dieses Repo validieren gegen dieselbe Datei.
+- **S14b — Einreichen:** das Werkzeug, das den Schnipsel ins offizielle
+  Verzeichnis bringt (Optionen in Teil D 7).
+- Typen aus `content/vocab/types.yaml`, UI zweisprachig wie die Seite, Look
+  der Squirrel Papers.
+
+**Abnahme:** Für drei vorhandene Einträge (ein Vortrag, ein Software-Release,
+ein CoRDI-Beitrag) erzeugt der Editor aus der DOI einen Schnipsel, der nach
+dem Einfügen `python main.py --strict` besteht und dieselbe Eintragsseite
+ergibt wie heute.
+
+## S15 — Frontend überarbeiten
+
+**Ziel:** Aus den einzeln gewachsenen Seiten wird eine Website aus einem Guss.
+
+**Uploads:** `PRIMER.md`; Screenshots oder Notizen von Flo, was stört.
+
+- Navigation um Filter/Suche (S9), Karte (S10), SPARQL (S9) und „Daten"
+  (Downloads, Ontologie, Vokabular) erweitern; Seiten für Personen und
+  Veranstaltungen (die IRIs existieren seit S7).
+- Startseite: aktuelle Einträge, Zahlen, Einstieg in Karte und Filter.
+- Entry-Seite: Faktenspalte straffen (z. B. „Titel auf Zenodo" nur zeigen,
+  wenn er wirklich abweicht), Typ-Badges, Personen verlinken.
+- Barrierefreiheit (Kontraste, Fokus, Tastatur, Screenreader-Labels),
+  Druck-CSS, OpenGraph/Social Cards, Favicon-Satz, 404-Seite.
+- Performance: citeproc (≈ 1 MB) erst bei Bedarf laden.
+
+**Abnahme:** Screenshot-Durchgang mit Flo (hell/dunkel, Desktop/Mobil) über
+alle Seitentypen; Lighthouse Accessibility ≥ 95 auf Start-, Heft- und
+Eintragsseite; keine toten Links.
+
 ---
 
 # Teil D — Offene Punkte
@@ -691,8 +792,7 @@ auf die neuen IRIs (P856 / P953 o. ä.).
 2. **Hintergrundgrafik der alten Seite** (Netzwerk-Muster). Hochladen oder
    als SVG neu zeichnen?
 3. ~~Vol 2–8 Jahreszuschnitt prüfen~~ → entschieden 2026-10-06: bleibt (A4).
-4. **Neue Entries ab jetzt**: nur YAML von Hand, oder zusätzlich
-   `python main.py add <doi>` als Komfort?
+4. ~~Neue Entries ab jetzt~~ → wird S14 (Eintragseditor), 2026-10-07; die Einreichung ist Punkt 7.
 5. **Falsche DOIs (aus S3, `dist/reports/harvest.md` → „Shared DOIs")** — die
    richtige DOI kennt nur Flo: 1(3) #4 Labeling System 2014; 3(1) #12 ARS3D
    Comparison Videos; 5(3) #6 bzw. 5(5) #4 (beide „Semantic Modelling …",
@@ -719,3 +819,12 @@ auf die neuen IRIs (P856 / P953 o. ä.).
    Vorschlag).
 6. **DOI für Volumes/Issues** (Zenodo-Communities oder eigene Records)? Würde
    die Zitierfähigkeit der Issues verbessern.
+
+7. **S14b — wie kommt ein Schnipsel ins Verzeichnis?** Optionen:
+   (a) GitHub-Issue-Formular in diesem Repo, eine Action macht daraus einen
+   Pull Request auf `content/vol<N>.yaml` (Editor öffnet das vorausgefüllte
+   Issue; kein Token im Browser); (b) `python main.py add schnipsel.yaml` als
+   CLI, das den Eintrag einsortiert und prüft; (c) eine wiederverwendbare
+   Action in einem anderen Repo (z. B. einem Paper-Repo), die bei einem
+   Release einen PR hierher schickt. Lassen sich kombinieren — (a) für das
+   Formular, (b) als gemeinsamer Kern. Flo entscheidet.

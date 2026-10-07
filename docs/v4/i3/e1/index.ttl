@@ -1,0 +1,118 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e1#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v4/i3/e1> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3448-5715>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-4696-2101> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v4/i3/e1#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v4/i3/e1> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3448-5715#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3448-5715" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-4696-2101" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e1#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0003-3448-5715> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-4696-2101> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e1#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2022-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2022-12-31T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v4/i3/e1#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/sslarch/caa2022_GitGitHub_workshop> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e1#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "How to navigate the coding archaeology world: An introduction to scientific co-creation using Git and Github" .
+
+<https://w3id.org/squirrelpapers/v4/i3/e1> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Expression,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "4" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3448-5715>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-4696-2101> ;
+    dct:description "Other published in the Squirrel Papers 4(3), #1."@en ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v4/i3> ;
+    dct:issued "2022"^^xsd:gYear ;
+    dct:language eulang:ENG ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "How to navigate the coding archaeology world: An introduction to scientific co-creation using Git and Github"@en ;
+    dct:type sqpt:other ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v4/i3/e1#authors> ;
+    bibo:locator "#1" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v4/i3/e1#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v4/i3> ;
+    crm:P2_has_type sqpt:other ;
+    rdfs:seeAlso <https://github.com/sslarch/caa2022_GitGitHub_workshop> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v4/i3/e1#landing> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v4/i3> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v4/i3/e1/> ;
+    dcat:theme sqpt:other ;
+    sqp:citationLabel "4(3), #1" ;
+    sqp:entryNumber "1"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3448-5715> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Clemens Schmid" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3448-5715#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3448-5715> ;
+    foaf:familyName "Schmid" ;
+    foaf:givenName "Clemens" ;
+    foaf:name "Clemens Schmid" ;
+    schema:identifier <https://orcid.org/0000-0003-3448-5715> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4696-2101> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Sophie Charlotte Schmidt" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-4696-2101> ;
+    foaf:familyName "Schmidt" ;
+    foaf:givenName "Sophie Charlotte" ;
+    foaf:name "Sophie Charlotte Schmidt" ;
+    schema:identifier <https://orcid.org/0000-0003-4696-2101> .
+

@@ -1,0 +1,184 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e4#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v1/i7/e4> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v1/i7/e4#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v1/i7/e4> .
+
+<https://w3id.org/squirrelpapers/event/graphentechnologien-2018> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Graphentechnologien 2018" ;
+    event:place <https://w3id.org/squirrelpapers/place/mainz-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i7/e3>,
+        <https://w3id.org/squirrelpapers/v1/i7/e4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/graphentechnologien-2018#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/graphentechnologien-2018#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/mainz-germany> ;
+    schema:endDate "2018-01-19"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/mainz-germany> ;
+    schema:name "Graphentechnologien 2018" ;
+    schema:startDate "2018-01-19"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/graphentechnologien-2018#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Graphentechnologien 2018" .
+
+<https://w3id.org/squirrelpapers/event/graphentechnologien-2018#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-01-19T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-01-19T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7634-5342" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e4#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e4#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-01-19T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-01-19T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v1/i7/e4#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.1155748" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e4#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "2018_01_19_Graphentechnologien2018_AMT_Samian.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v1/i7/e4#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v1/i7/e4> ;
+    dcat:accessURL <https://zenodo.org/records/1155748> ;
+    dcat:byteSize "4199359"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/1155748/files/2018_01_19_Graphentechnologien2018_AMT_Samian.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e4#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "37a6c860f7fab02a9b6c2f3ac72540ab"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v1/i7/e4#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Putting Samian pots together – modelling ceramic service family roots – connecting figure types. Wie Graphen bei der Modellierung des Zweifels helfen können." .
+
+<https://w3id.org/squirrelpapers/place/mainz-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.273611 49.999444)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Allard W. Mees" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7634-5342> ;
+    foaf:familyName "Mees" ;
+    foaf:givenName "Allard W." ;
+    foaf:name "Allard W. Mees" ;
+    schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/place/mainz-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Mainz" ;
+    crm:P168_place_is_defined_by "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/mainz-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/mainz-germany#geometry> ;
+    owl:sameAs wd:Q1720 ;
+    dcat:centroid "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q12548 ;
+    schema:description "Mainz, Germany" ;
+    schema:latitude 4.999944e+01 ;
+    schema:longitude 8.273611e+00 .
+
+<https://w3id.org/squirrelpapers/v1/i7/e4> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "7" ;
+    prism:volume "1" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    dct:description """In der Archäologie wurde bereits seit mehr als 120 Jahren damit begonnen, die römische Keramikgattung Terra Sigillata in Einzelformen zu klassifizieren. Jedoch spielen Unsicherheiten und Zweifel bei der Bestimmung von dieser europaweit überaus häufig vorkommenden Manufakturware eine herausragende Rolle.
+Wie beim modernen Porzellan gibt es bei Terra Sigillata standardisierte "Service", d.h. verschiedene Formen (Teller, Näpfe, Schalen) gehören durch ähnlich gestaltete Ränder oder Standringe zur gleichen "Service-Familie". Da oft nur Bruchstücke von einem Rand oder einem Standring gefunden werden, kann in solchen Fällen höchstens eine Zuweisung zu einer oder mehreren Service-Familien erfolgen. Eine solche Unsicherheit in der Zuweisung gilt es zu modellieren.
+Darüber hinaus geben die mit Namen versehenen Töpferstempel Auskunft darüber, wer die einzelnen Gefäße hergestellt hat. Die Bestimmung dieser Töpferstempel ist für die Chronologie dieser Ware von großer Bedeutung, da z.B. abgebrochene oder beschädigte Stempel von jüngerem Datum sein dürften als noch vollständig erhaltene Namensstempel. Da die Stempel oft von Hand und in verschiedenen Winkeln in den noch weichen Gefäßboden eingestempelt wurden, sind sie somit oft auf dem ersten Blick nicht als identisch erkennbar. Hier ist das Kriterium der Vagheit das zu modellierende Model.
+Der Glücksfall, dass in einer am Römisch-Germanischen Zentralmuseum Mainz (RGZM) entwickelten Datenbank 250'000 gestempelte Gefäße des römischen Tafelgeschirrs Terra Sigillata in einem relationalen Datenmodell erfasst und über das Web verfügbar[1] sind, ermöglicht das Ausloten der Grenzen der relationalen Datenmodellierung im Kontext der „Modellierung des Zweifels“ an Hand von realen Beispielen.
+Graphbasierte semantische Datenmodellierung bietet eine weitere interoperable und skalierbare Möglichkeit zur Lösung der Modellierung von Zweifel und Unsicherheiten bei der Zuweisung von Stempel und "Service-Familien".
+Die Präsentation zeigt Lösungsstrategien mittels einfachem OWL-Reasoning zur Modellierung des Zweifels in der RGZM Terra Sigillata Datenbank in Realtime-Beispielen.
+[1] http://rgzm.de/samian"""@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.1155748" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1/i7> ;
+    dct:issued "2018-01-19"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Putting Samian pots together – modelling ceramic service family roots – connecting figure types. Wie Graphen bei der Modellierung des Zweifels helfen können."@de ;
+    dct:type sqpt:presentation ;
+    bibo:abstract """In der Archäologie wurde bereits seit mehr als 120 Jahren damit begonnen, die römische Keramikgattung Terra Sigillata in Einzelformen zu klassifizieren. Jedoch spielen Unsicherheiten und Zweifel bei der Bestimmung von dieser europaweit überaus häufig vorkommenden Manufakturware eine herausragende Rolle.
+Wie beim modernen Porzellan gibt es bei Terra Sigillata standardisierte "Service", d.h. verschiedene Formen (Teller, Näpfe, Schalen) gehören durch ähnlich gestaltete Ränder oder Standringe zur gleichen "Service-Familie". Da oft nur Bruchstücke von einem Rand oder einem Standring gefunden werden, kann in solchen Fällen höchstens eine Zuweisung zu einer oder mehreren Service-Familien erfolgen. Eine solche Unsicherheit in der Zuweisung gilt es zu modellieren.
+Darüber hinaus geben die mit Namen versehenen Töpferstempel Auskunft darüber, wer die einzelnen Gefäße hergestellt hat. Die Bestimmung dieser Töpferstempel ist für die Chronologie dieser Ware von großer Bedeutung, da z.B. abgebrochene oder beschädigte Stempel von jüngerem Datum sein dürften als noch vollständig erhaltene Namensstempel. Da die Stempel oft von Hand und in verschiedenen Winkeln in den noch weichen Gefäßboden eingestempelt wurden, sind sie somit oft auf dem ersten Blick nicht als identisch erkennbar. Hier ist das Kriterium der Vagheit das zu modellierende Model.
+Der Glücksfall, dass in einer am Römisch-Germanischen Zentralmuseum Mainz (RGZM) entwickelten Datenbank 250'000 gestempelte Gefäße des römischen Tafelgeschirrs Terra Sigillata in einem relationalen Datenmodell erfasst und über das Web verfügbar[1] sind, ermöglicht das Ausloten der Grenzen der relationalen Datenmodellierung im Kontext der „Modellierung des Zweifels“ an Hand von realen Beispielen.
+Graphbasierte semantische Datenmodellierung bietet eine weitere interoperable und skalierbare Möglichkeit zur Lösung der Modellierung von Zweifel und Unsicherheiten bei der Zuweisung von Stempel und "Service-Familien".
+Die Präsentation zeigt Lösungsstrategien mittels einfachem OWL-Reasoning zur Modellierung des Zweifels in der RGZM Terra Sigillata Datenbank in Realtime-Beispielen.
+[1] http://rgzm.de/samian"""@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v1/i7/e4#authors> ;
+    bibo:doi "10.5281/zenodo.1155748" ;
+    bibo:locator "#4" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/graphentechnologien-2018> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v1/i7/e4#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1/i7> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v1/i7/e4#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.1155748> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v1/i7/e4#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1/i7> ;
+    dcat:keyword "Graph",
+        "RDF",
+        "Samian" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i7/e4/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/1155748> ;
+    sqp:citationLabel "1(7), #4" ;
+    sqp:entryNumber "4"^^xsd:positiveInteger .
+

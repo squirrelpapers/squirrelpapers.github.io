@@ -47,6 +47,8 @@ ONTOLOGY_NS = BASE + "ontology#"
 TYPE_NS = BASE + "type/"
 PERSON_NS = BASE + "person/"
 EVENT_NS = BASE + "event/"
+PLACE_NS = BASE + "place/"
+ORG_NS = BASE + "org/"
 JOURNAL_IRI = BASE
 
 # Every prefix used in generated graphs is bound here, in one place, so that
@@ -54,6 +56,7 @@ JOURNAL_IRI = BASE
 PREFIXES = {
     "sqp": ONTOLOGY_NS,
     "sqpt": TYPE_NS,
+    "adms": "http://www.w3.org/ns/adms#",
     "bibo": "http://purl.org/ontology/bibo/",
     "crm": "http://www.cidoc-crm.org/cidoc-crm/",
     "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
@@ -61,7 +64,12 @@ PREFIXES = {
     "dcatap": "http://data.europa.eu/r5r/",
     "dct": "http://purl.org/dc/terms/",
     "fabio": "http://purl.org/spar/fabio/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
     "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
     "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
     "owl": "http://www.w3.org/2002/07/owl#",
     "prism": "http://prismstandard.org/namespaces/basic/2.0/",
@@ -71,6 +79,8 @@ PREFIXES = {
     "schema": "https://schema.org/",
     "sh": "http://www.w3.org/ns/shacl#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "vann": "http://purl.org/vocab/vann/",
     "wd": "http://www.wikidata.org/entity/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 }
@@ -258,10 +268,15 @@ def bind_remaining(graph) -> list[str]:
     from rdflib import URIRef
     from rdflib.namespace import split_uri
 
+    from rdflib.namespace import RDF
+
     bound = {str(namespace) for _, namespace in graph.namespaces()}
     unbound = set()
-    for triple in graph:
-        for term in triple:
+    # Only predicates and classes: those are the positions in which rdflib
+    # invents a prefix. Binding every namespace of every subject and object
+    # gave the S7 dump one ns-prefix per entry (ns01 ... ns300).
+    for s, p, o in graph:
+        for term in (p, o) if p == RDF.type else (p,):
             if not isinstance(term, URIRef):
                 continue
             try:

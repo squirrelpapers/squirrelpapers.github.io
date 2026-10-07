@@ -1,0 +1,118 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i2/e2#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i2/e2> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i2/e2#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i2/e2> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7634-5342" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i2/e2#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/v7/i2/e2#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-02-21T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-02-21T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i2/e2#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.14906708" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i2/e2#landing> a dcat:Distribution ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://zenodo.org/records/14906709> .
+
+<https://w3id.org/squirrelpapers/v7/i2/e2#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "GrapHNR2023 - Supplementary Material" .
+
+<https://w3id.org/squirrelpapers/v7/i2/e2> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Dataset,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "2" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    dct:description """Supplementary material to the article "Dating Dated Sites: Using Correspondence Analysis to handle Chronologies as Graphs" presented at the GrapHNR 2023, published in the Journal of Historical Network Research xx (2025), yy–zz.
+This record contains a dynamic HTML website with figures that are mentioned in the paper.
+Abstract
+This article discusses digital methods to model and handle the ordering of so-called dated sites in archaeology. This findspot attribute is usually elaborated by indirect evidence based on the chronology of find materials, which are often based on material derived from other assumed dated sites, thus potentially resulting in a circulus vitiosus. To avoid self-fulfilling dating methods, comparative tools such as correspondence analysis or algorithms like Allen’s interval algebra can be applied to stamped Roman terra sigillata (Samian) pottery vessels and their occurrences in Roman sites. The TiGeR method and the Alligator method demonstrate ways to establish and visualize the chronological order of dated sites. With the TiGeR method, a sequential order of chronologically sensitive material can be plotted on a map, where the coloring of the dots is realized by calculating hue color values from the normalized values of the first component of the correspondence analysis. The resulting maps and graphs chronologically display the historical conquering of the Roman provinces of Britannia and Germania. Based on Allen’s interval algebra, the Alligator method is able to chronologically sort groups of dated sites, such as limes sections, when only a few chronological indications are known beforehand and other limes sections can only be judged by the overlap of material which they have in common. The Academic Meta Tool offers a decision procedure (reasoning) to calculate the chronological relative order of limes sections. This tool is also capable of visualizing the results as graph structures.""" ;
+    dct:identifier "https://doi.org/10.5281/zenodo.14906708" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i2> ;
+    dct:issued "2025-02-21"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "GrapHNR2023 - Supplementary Material" ;
+    dct:type sqpt:data ;
+    bibo:abstract """Supplementary material to the article "Dating Dated Sites: Using Correspondence Analysis to handle Chronologies as Graphs" presented at the GrapHNR 2023, published in the Journal of Historical Network Research xx (2025), yy–zz.
+This record contains a dynamic HTML website with figures that are mentioned in the paper.
+Abstract
+This article discusses digital methods to model and handle the ordering of so-called dated sites in archaeology. This findspot attribute is usually elaborated by indirect evidence based on the chronology of find materials, which are often based on material derived from other assumed dated sites, thus potentially resulting in a circulus vitiosus. To avoid self-fulfilling dating methods, comparative tools such as correspondence analysis or algorithms like Allen’s interval algebra can be applied to stamped Roman terra sigillata (Samian) pottery vessels and their occurrences in Roman sites. The TiGeR method and the Alligator method demonstrate ways to establish and visualize the chronological order of dated sites. With the TiGeR method, a sequential order of chronologically sensitive material can be plotted on a map, where the coloring of the dots is realized by calculating hue color values from the normalized values of the first component of the correspondence analysis. The resulting maps and graphs chronologically display the historical conquering of the Roman provinces of Britannia and Germania. Based on Allen’s interval algebra, the Alligator method is able to chronologically sort groups of dated sites, such as limes sections, when only a few chronological indications are known beforehand and other limes sections can only be judged by the overlap of material which they have in common. The Academic Meta Tool offers a decision procedure (reasoning) to calculate the chronological relative order of limes sections. This tool is also capable of visualizing the results as graph structures.""" ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i2/e2#authors> ;
+    bibo:doi "10.5281/zenodo.14906708" ;
+    bibo:locator "λ2" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i2/e2#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i2> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i2/e2#doi> ;
+    crm:P2_has_type sqpt:data ;
+    rdfs:seeAlso <https://github.com/leiza-scit/GrapHNR-2023-supplementary-material/tree/v1.0> ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.14906708> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i2/e2#landing> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i2> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i2/e2/> ;
+    dcat:theme sqpt:data ;
+    dcat:version "1.0" ;
+    prov:wasDerivedFrom <https://zenodo.org/records/14906709> ;
+    schema:codeRepository <https://github.com/leiza-scit/GrapHNR-2023-supplementary-material> ;
+    sqp:citationLabel "7(2), λ2" ;
+    sqp:entryNumber "2"^^xsd:positiveInteger .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Allard W. Mees" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7634-5342> ;
+    foaf:familyName "Mees" ;
+    foaf:givenName "Allard W." ;
+    foaf:name "Allard W. Mees" ;
+    schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+

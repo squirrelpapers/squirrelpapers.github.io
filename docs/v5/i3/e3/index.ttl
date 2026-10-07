@@ -1,0 +1,146 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e3#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v5/i3/e3> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v5/i3/e3#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v5/i3/e3> .
+
+<https://w3id.org/squirrelpapers/event/praxisubung-praktikum-zu-kleinfunddokumentation-und-computergestutzte> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr" ;
+    event:place <https://w3id.org/squirrelpapers/place/johannes-gutenberg-universitat-mainz> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v5/i3/e3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/praxisubung-praktikum-zu-kleinfunddokumentation-und-computergestutzte#name> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/johannes-gutenberg-universitat-mainz> ;
+    schema:location <https://w3id.org/squirrelpapers/place/johannes-gutenberg-universitat-mainz> ;
+    schema:name "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr" .
+
+<https://w3id.org/squirrelpapers/event/praxisubung-praktikum-zu-kleinfunddokumentation-und-computergestutzte#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Praxisübung / Praktikum zu Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen bei PD Dr. Matthias Grawehr" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e3#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e3#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2023-02-07T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2023-02-07T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v5/i3/e3#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.7629861" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e3#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "2023_JGU_Kleinfunddokumentation_Thiery.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v5/i3/e3#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v5/i3/e3> ;
+    dcat:accessURL <https://zenodo.org/records/7629862> ;
+    dcat:byteSize "31963286"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/7629862/files/2023_JGU_Kleinfunddokumentation_Thiery.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e3#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "a8a6b76d397d56838384f4aa786fa8f8"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v5/i3/e3#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Kleinfund-Dokumentation mit der Hilfe von Semantik" .
+
+<https://w3id.org/squirrelpapers/place/johannes-gutenberg-universitat-mainz#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.241667 49.993056)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/johannes-gutenberg-universitat-mainz> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Johannes Gutenberg University Mainz" ;
+    crm:P168_place_is_defined_by "POINT(8.241667 49.993056)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/johannes-gutenberg-universitat-mainz#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/johannes-gutenberg-universitat-mainz#geometry> ;
+    owl:sameAs wd:Q161982 ;
+    dcat:centroid "POINT(8.241667 49.993056)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "Johannes Gutenberg Universität Mainz, Fachbereich 07, Klassische Archäologie" ;
+    schema:latitude 4.999306e+01 ;
+    schema:longitude 8.241667e+00 .
+
+<https://w3id.org/squirrelpapers/v5/i3/e3> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "5" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description "Vorlesungsfolien im Zusammenhang mit einer Gastvorlesung in 07.012.897 P Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen von PD Dr. Matthias Grawehr im Wintersemester 2022/2023, Johannes Gutenberg Universität Mainz Fachbereich 07 | Klassische Archäologie."@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.7629861" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v5/i3> ;
+    dct:issued "2023-02-07"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Kleinfund-Dokumentation mit der Hilfe von Semantik"@de ;
+    dct:type sqpt:presentation ;
+    bibo:abstract "Vorlesungsfolien im Zusammenhang mit einer Gastvorlesung in 07.012.897 P Kleinfunddokumentation und computergestützte Fotografie am Beispiel römischer Tonlampen von PD Dr. Matthias Grawehr im Wintersemester 2022/2023, Johannes Gutenberg Universität Mainz Fachbereich 07 | Klassische Archäologie."@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v5/i3/e3#authors> ;
+    bibo:doi "10.5281/zenodo.7629861" ;
+    bibo:locator "#3" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/praxisubung-praktikum-zu-kleinfunddokumentation-und-computergestutzte> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v5/i3/e3#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v5/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v5/i3/e3#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.7629861> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v5/i3/e3#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v5/i3> ;
+    dcat:keyword "Archäologie",
+        "Dokumentation",
+        "FAIR" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v5/i3/e3/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/7629862> ;
+    sqp:citationLabel "5(3), #3" ;
+    sqp:entryNumber "3"^^xsd:positiveInteger .
+

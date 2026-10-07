@@ -1,0 +1,303 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e4#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i5/e4> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-5844-3021>,
+        <https://w3id.org/squirrelpapers/person/0000-0001-9523-7227>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-2344-0426>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-2831-8868>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5793-4563>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3986-0510> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i5/e4#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i5/e4> .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "2nd Conference on Research Data Infrastructure (CoRDI) 2025" ;
+    event:place <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i5/e1>,
+        <https://w3id.org/squirrelpapers/v7/i5/e10>,
+        <https://w3id.org/squirrelpapers/v7/i5/e2>,
+        <https://w3id.org/squirrelpapers/v7/i5/e3>,
+        <https://w3id.org/squirrelpapers/v7/i5/e4>,
+        <https://w3id.org/squirrelpapers/v7/i5/e5>,
+        <https://w3id.org/squirrelpapers/v7/i5/e6>,
+        <https://w3id.org/squirrelpapers/v7/i5/e7>,
+        <https://w3id.org/squirrelpapers/v7/i5/e8>,
+        <https://w3id.org/squirrelpapers/v7/i5/e9> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    schema:endDate "2025-08-28"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    schema:name "2nd Conference on Research Data Infrastructure (CoRDI) 2025" ;
+    schema:startDate "2025-08-26"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "2nd Conference on Research Data Infrastructure (CoRDI) 2025" .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-08-26T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-08-28T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-5844-3021#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-5844-3021" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-9523-7227#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-9523-7227" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-2344-0426#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-2344-0426" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-2831-8868#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-2831-8868" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-4522-1099> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "York Sure-Vetter" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-4522-1099> ;
+    foaf:familyName "Sure-Vetter" ;
+    foaf:givenName "York" ;
+    foaf:name "York Sure-Vetter" ;
+    schema:identifier <https://orcid.org/0000-0002-4522-1099> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-4522-1099" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5793-4563#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-5793-4563" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-0183-6910> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Paul Groth" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-0183-6910> ;
+    foaf:familyName "Groth" ;
+    foaf:givenName "Paul" ;
+    foaf:name "Paul Groth" ;
+    schema:identifier <https://orcid.org/0000-0003-0183-6910> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-0183-6910" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3986-0510#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3986-0510" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e4#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0001-9523-7227> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-3986-0510> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0002-5793-4563> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/0000-0002-2344-0426> ;
+    rdf:_5 <https://w3id.org/squirrelpapers/person/0000-0002-2831-8868> ;
+    rdf:_6 <https://w3id.org/squirrelpapers/person/0000-0001-5844-3021> ;
+    rdf:_7 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e4#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-08-26T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-08-26T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i5/e4#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.16735847" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e4#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CoRDI_2025_paper_92.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i5/e4#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i5/e4> ;
+    dcat:accessURL <https://zenodo.org/records/16735848> ;
+    dcat:byteSize "104468"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/16735848/files/CoRDI_2025_paper_92.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e4#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "2dbd9f35ccc4750c36d2932d9630192e"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i5/e4#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Towards Common Metadata For Research Software in the NFDI" .
+
+<https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(6.078056 50.777778)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-5844-3021> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Lu Gan" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-5844-3021#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-5844-3021> ;
+    foaf:familyName "Gan" ;
+    foaf:givenName "Lu" ;
+    foaf:name "Lu Gan" ;
+    schema:identifier <https://orcid.org/0000-0001-5844-3021> .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-9523-7227> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Stephan Ferenz" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-9523-7227#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-9523-7227> ;
+    foaf:familyName "Ferenz" ;
+    foaf:givenName "Stephan" ;
+    foaf:name "Stephan Ferenz" ;
+    schema:identifier <https://orcid.org/0000-0001-9523-7227> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-2344-0426> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Matthias Löbe" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-2344-0426#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-2344-0426> ;
+    foaf:familyName "Löbe" ;
+    foaf:givenName "Matthias" ;
+    foaf:name "Matthias Löbe" ;
+    schema:identifier <https://orcid.org/0000-0002-2344-0426> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-2831-8868> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Ulrik Stervbo" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-2831-8868#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-2831-8868> ;
+    foaf:familyName "Stervbo" ;
+    foaf:givenName "Ulrik" ;
+    foaf:name "Ulrik Stervbo" ;
+    schema:identifier <https://orcid.org/0000-0002-2831-8868> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5793-4563> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Hamideh Hajiabadi" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-5793-4563#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-5793-4563> ;
+    foaf:familyName "Hajiabadi" ;
+    foaf:givenName "Hamideh" ;
+    foaf:name "Hamideh Hajiabadi" ;
+    schema:identifier <https://orcid.org/0000-0002-5793-4563> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3986-0510> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Leyla Jael Castro" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3986-0510#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3986-0510> ;
+    foaf:familyName "Castro" ;
+    foaf:givenName "Leyla Jael" ;
+    foaf:name "Leyla Jael Castro" ;
+    schema:identifier <https://orcid.org/0000-0003-3986-0510> .
+
+<https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "RWTH Aachen University" ;
+    crm:P168_place_is_defined_by "POINT(6.078056 50.777778)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> ;
+    owl:sameAs wd:Q273263 ;
+    dcat:centroid "POINT(6.078056 50.777778)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "RWTH Aachen, C.A.R.L., Aachen, Germany" ;
+    schema:latitude 5.077778e+01 ;
+    schema:longitude 6.078056e+00 .
+
+<https://w3id.org/squirrelpapers/v7/i5/e4> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ProceedingsPaper,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "5" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-5844-3021>,
+        <https://w3id.org/squirrelpapers/person/0000-0001-9523-7227>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-2344-0426>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-2831-8868>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5793-4563>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3986-0510> ;
+    dct:description "Most scientific disciplines use research software to address relevant research questions, and in many cases this research software is tailored to the specific research questions. Thus, research software is defined as software created during the research process or for a research purpose [1]. Within the German National Research Infrastructure (NFDI), research software plays two important roles. First, the services and tools developed by the consortia can be considered research software. These are mostly related to infrastructure software as defined by Hasselbring et al., but not exclusively [2]. Second, research software that supports a research project is considered an important research artifact itself. Several consortia of the NFDI are consequently working to provide infrastructure for these artifacts. Their significance is evident in their crucial function of research software, for example, in natural sciences for climate and meteorological modeling, in social sciences for network analysis and sentiment analysis, in digital humanities for text mining and computational linguistics, and in engineering sciences for simulating complex systems. Whether being a service/tool or a research artifact, provenance and rich descriptions of research software are essential to improve scientific transparency, findability, citability, reproducibility, software security, and reusability. Therefore, to improve the FAIRness of research software [3], software metadata plays an important role in the implementation of the FAIR4RS principles [4], [5]. To enable good software metadata, common metadata standards play an important role. Consequently, the working group \"Research Software Metadata\" of the Section Metadata, Terminology, and Provenance of the NFDI focuses on metadata for research software. The overall goal of this working group is to provide a common core metadata vocabulary for research software that can be used to describe research software created in the various research domains of the NFDI consortia. The work will create a unified framework that can be used across the different NFDI consortia generating research software artifacts. This effort also addresses key interoperability challenges, such as aligning different metadata schemas, ensuring consistency across disciplines, and integrating with existing standards such as CodeMeta [6], Citation File Format (CFF) [7] and schema.org. To gain an overview of research software metadata schemas already in use in the different consortia, we have conducted a survey on the implementation of research software metadata in the NFDI consortia [8]. We found that only a few domain-specific metadata schemas for research software were in use by different consortia. In contrast, generic metadata schemas such as CodeMeta, Bioschemas, schema.org, and the CFF were most frequently used to describe research software. Relevant metadata elements for research software include algorithms, methods, software/hardware requirements, and tasks performed by the software. We subsequently performed an in depth analysis of the alignment of the generic metadata schemas by creating crosswalks, i.e. mapping the schemas onto each other. This crosswalk analysis provides the basis for further discussions with the wider RDM community regarding strategies for provenance and rich descriptions of research software. [1] https://doi.org/10.5281/zenodo.5504016. [2] https://doi.org/10.1109/MCSE.2025.3555023. [3] https://doi.org/10.5281/zenodo.10816032. [4] https://doi.org/10.15497/RDA00068. [5] https://doi.org/10.5281/zenodo.10246218. [6] https://codemeta.github.io/terms/ [7] https://doi.org/10.5281/zenodo.5171937. [8] https://doi.org/10.5281/zenodo.12704414."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.16735847" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i5> ;
+    dct:issued "2025-08-26"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Towards Common Metadata For Research Software in the NFDI"@en ;
+    dct:type sqpt:conference-proceeding ;
+    bibo:abstract "Most scientific disciplines use research software to address relevant research questions, and in many cases this research software is tailored to the specific research questions. Thus, research software is defined as software created during the research process or for a research purpose [1]. Within the German National Research Infrastructure (NFDI), research software plays two important roles. First, the services and tools developed by the consortia can be considered research software. These are mostly related to infrastructure software as defined by Hasselbring et al., but not exclusively [2]. Second, research software that supports a research project is considered an important research artifact itself. Several consortia of the NFDI are consequently working to provide infrastructure for these artifacts. Their significance is evident in their crucial function of research software, for example, in natural sciences for climate and meteorological modeling, in social sciences for network analysis and sentiment analysis, in digital humanities for text mining and computational linguistics, and in engineering sciences for simulating complex systems. Whether being a service/tool or a research artifact, provenance and rich descriptions of research software are essential to improve scientific transparency, findability, citability, reproducibility, software security, and reusability. Therefore, to improve the FAIRness of research software [3], software metadata plays an important role in the implementation of the FAIR4RS principles [4], [5]. To enable good software metadata, common metadata standards play an important role. Consequently, the working group \"Research Software Metadata\" of the Section Metadata, Terminology, and Provenance of the NFDI focuses on metadata for research software. The overall goal of this working group is to provide a common core metadata vocabulary for research software that can be used to describe research software created in the various research domains of the NFDI consortia. The work will create a unified framework that can be used across the different NFDI consortia generating research software artifacts. This effort also addresses key interoperability challenges, such as aligning different metadata schemas, ensuring consistency across disciplines, and integrating with existing standards such as CodeMeta [6], Citation File Format (CFF) [7] and schema.org. To gain an overview of research software metadata schemas already in use in the different consortia, we have conducted a survey on the implementation of research software metadata in the NFDI consortia [8]. We found that only a few domain-specific metadata schemas for research software were in use by different consortia. In contrast, generic metadata schemas such as CodeMeta, Bioschemas, schema.org, and the CFF were most frequently used to describe research software. Relevant metadata elements for research software include algorithms, methods, software/hardware requirements, and tasks performed by the software. We subsequently performed an in depth analysis of the alignment of the generic metadata schemas by creating crosswalks, i.e. mapping the schemas onto each other. This crosswalk analysis provides the basis for further discussions with the wider RDM community regarding strategies for provenance and rich descriptions of research software. [1] https://doi.org/10.5281/zenodo.5504016. [2] https://doi.org/10.1109/MCSE.2025.3555023. [3] https://doi.org/10.5281/zenodo.10816032. [4] https://doi.org/10.15497/RDA00068. [5] https://doi.org/10.5281/zenodo.10246218. [6] https://codemeta.github.io/terms/ [7] https://doi.org/10.5281/zenodo.5171937. [8] https://doi.org/10.5281/zenodo.12704414."@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i5/e4#authors> ;
+    bibo:doi "10.5281/zenodo.16735847" ;
+    bibo:editor <https://w3id.org/squirrelpapers/person/0000-0002-4522-1099>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-0183-6910> ;
+    bibo:locator "𝒬4" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i5/e4#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i5/e4#doi> ;
+    crm:P2_has_type sqpt:conference-proceeding ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.16735847> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i5/e4#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i5> ;
+    dcat:keyword "Research Software",
+        "Research Software Metadata",
+        "Software Metadata" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i5/e4/> ;
+    dcat:theme sqpt:conference-proceeding ;
+    prov:wasDerivedFrom <https://zenodo.org/records/16735848> ;
+    sqp:citationLabel "7(5), 𝒬4" ;
+    sqp:entryNumber "4"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

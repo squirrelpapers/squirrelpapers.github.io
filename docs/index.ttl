@@ -1,0 +1,63 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix schema: <https://schema.org/> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/> a lrmoo:F18_Serial_Work,
+        bibo:Periodical,
+        fabio:Journal,
+        crm:E73_Information_Object,
+        dcat:Catalog,
+        schema:Periodical ;
+    prism:issn "2750-560X" ;
+    dct:description "Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften."@de,
+        "The Squirrel Papers by the Research Squirrel Engineers Network are a free Open Access journal hosting publications on Zenodo and the Open Science Framework (OSF), collecting Linked Open Data (LOD), Research Software Engineering (RSE), Cultural Heritage and Geo-Sciences related research papers, working papers, blog posts, posters, slides, research data and research software."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v1>,
+        <https://w3id.org/squirrelpapers/v2>,
+        <https://w3id.org/squirrelpapers/v3>,
+        <https://w3id.org/squirrelpapers/v4>,
+        <https://w3id.org/squirrelpapers/v5>,
+        <https://w3id.org/squirrelpapers/v6>,
+        <https://w3id.org/squirrelpapers/v7>,
+        <https://w3id.org/squirrelpapers/v8> ;
+    dct:identifier "ISSN 2750-560X" ;
+    dct:language eulang:DEU,
+        eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:modified "2026-10-06"^^xsd:date ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Squirrel Papers"@en ;
+    bibo:editor <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    bibo:issn "2750-560X" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/#issn> ;
+    owl:sameAs wd:Q89658875 ;
+    dcat:dataset <https://w3id.org/squirrelpapers/v1>,
+        <https://w3id.org/squirrelpapers/v2>,
+        <https://w3id.org/squirrelpapers/v3>,
+        <https://w3id.org/squirrelpapers/v4>,
+        <https://w3id.org/squirrelpapers/v5>,
+        <https://w3id.org/squirrelpapers/v6>,
+        <https://w3id.org/squirrelpapers/v7>,
+        <https://w3id.org/squirrelpapers/v8> ;
+    dcat:landingPage <https://squirrelpapers.github.io/> ;
+    dcat:themeTaxonomy sqpt: ;
+    foaf:homepage <https://squirrelpapers.github.io/> ;
+    schema:editor <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/#issn> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "2750-560X" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/issn> .
+
+<https://w3id.org/squirrelpapers/org/research-squirrel-engineers> a foaf:Organization ;
+    foaf:name "Research Squirrel Engineers Network"@en .
+

@@ -1,0 +1,450 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/derse26-2026",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v8/i3/e3"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v8/i3/e4"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v8/i3/e5"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v8/i3/e6"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/derse26-2026#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/derse26-2026#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart"
+      },
+      "rdfs:label": "deRSE26",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2026-03-05"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart"
+      },
+      "schema:name": "deRSE26",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2026-03-03"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/derse26-2026#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "deRSE26"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/derse26-2026#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-03T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-05T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid"
+      },
+      "foaf:familyName": "Schubert",
+      "foaf:givenName": "Lutz Krister",
+      "foaf:name": "Lutz Krister Schubert",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-4889-9353"
+      },
+      "rdfs:label": "Lutz Krister Schubert",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-4889-9353"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-4889-9353",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid"
+      },
+      "foaf:familyName": "Schenk",
+      "foaf:givenName": "Fiona",
+      "foaf:name": "Fiona Schenk",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0008-2877-3204"
+      },
+      "rdfs:label": "Fiona Schenk",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0008-2877-3204"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0008-2877-3204",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.1752 48.7817)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.1752 48.7817)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q122453"
+      },
+      "rdfs:label": "University of Stuttgart",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "University of Stuttgart, Stuttgart",
+      "schema:latitude": 48.7817,
+      "schema:longitude": 9.1752
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.1752 48.7817)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e4",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ConferencePoster",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "In geoscientific and geoarchaeological research, analytical workflows often remain locked in Excel-based environments. While such approaches are convenient, they limit reproducibility, transparency, and interoperability. This paper presents how Research Software Engineering (RSE) methodology can transform these “black box” workflows into reproducible, FAIR-compliant and semantically interoperable processes by reimplementing established analytical routines in open, script-based environments using Python and R.\nThe work builds on data from tephra and sediment analyses in the Eifel region, focusing on EPMA and LA-ICP-MS. Traditionally, these datasets were processed and visualised in Excel, making version control, reproducibility, and methodological transparency difficult.\nBuilding on methods from ELSAinteractive++ (PHd by B.W. Diensberg), a C++-based application for visualising sediment cores, the project replaces static, closed workflows with modular Python scripts based on pandas and matplotlib. Each processing step, from data import to statistical transformation and plotting, is now reproducible and extensible.\nFurther integration draws on an Eifel GDGT dataset and analytical workflow to demonstrate how existing R code for biomarker-based temperature reconstructions can be re-implemented in Python for enhanced cross-platform reproducibility. Together, these examples illustrate the practical implementation of the FAIR4RS principles, Findable, Accessible, Interoperable, and Reusable research software.\nBeyond reproducible computation, the project also explores semantic data publication. Laboratory results and analytical metadata are modelled as RDF triples to ensure machine-actionable interoperability with Cultural Heritage and Earth Science data. Python scripts assist in transforming tabular outputs into RDF using common vocabularies, while the SPARQLing Unicorn Toolkit enables the conversion of these RDF datasets into human-readable HTML pages automatically published on GitHub Pages. This dual approach, semantic and computational FAIRification, bridges the gap between traditional analytical workflows and Linked Open Data infrastructures.\nIn contrast to spreadsheet-based workflows, the RSE-driven approach offers:\nVersioned and transparent analysis pipelines via Git-based code;\nParameter reproducibility through explicit scripting;\nScalability and automation for high-volume datasets; and\nSemantic interoperability through FAIR metadata and RDF publication.\nBy showcasing examples from the Campanian Ignimbrite and Eifel tephra research, the paper highlights how RSE methodology enhances both reproducibility and semantic interoperability across disciplinary borders. It demonstrates that adopting RSE principles in geoscientific and archaeological workflows is not just a technical improvement but a cultural shift, from isolated Excel sheets to open, machine-actionable, and verifiable research."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.18803727",
+      "bibo:locator": "§4",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/derse26-2026"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:poster"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v8/i3/e4/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:poster"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "In geoscientific and geoarchaeological research, analytical workflows often remain locked in Excel-based environments. While such approaches are convenient, they limit reproducibility, transparency, and interoperability. This paper presents how Research Software Engineering (RSE) methodology can transform these “black box” workflows into reproducible, FAIR-compliant and semantically interoperable processes by reimplementing established analytical routines in open, script-based environments using Python and R.\nThe work builds on data from tephra and sediment analyses in the Eifel region, focusing on EPMA and LA-ICP-MS. Traditionally, these datasets were processed and visualised in Excel, making version control, reproducibility, and methodological transparency difficult.\nBuilding on methods from ELSAinteractive++ (PHd by B.W. Diensberg), a C++-based application for visualising sediment cores, the project replaces static, closed workflows with modular Python scripts based on pandas and matplotlib. Each processing step, from data import to statistical transformation and plotting, is now reproducible and extensible.\nFurther integration draws on an Eifel GDGT dataset and analytical workflow to demonstrate how existing R code for biomarker-based temperature reconstructions can be re-implemented in Python for enhanced cross-platform reproducibility. Together, these examples illustrate the practical implementation of the FAIR4RS principles, Findable, Accessible, Interoperable, and Reusable research software.\nBeyond reproducible computation, the project also explores semantic data publication. Laboratory results and analytical metadata are modelled as RDF triples to ensure machine-actionable interoperability with Cultural Heritage and Earth Science data. Python scripts assist in transforming tabular outputs into RDF using common vocabularies, while the SPARQLing Unicorn Toolkit enables the conversion of these RDF datasets into human-readable HTML pages automatically published on GitHub Pages. This dual approach, semantic and computational FAIRification, bridges the gap between traditional analytical workflows and Linked Open Data infrastructures.\nIn contrast to spreadsheet-based workflows, the RSE-driven approach offers:\nVersioned and transparent analysis pipelines via Git-based code;\nParameter reproducibility through explicit scripting;\nScalability and automation for high-volume datasets; and\nSemantic interoperability through FAIR metadata and RDF publication.\nBy showcasing examples from the Campanian Ignimbrite and Eifel tephra research, the paper highlights how RSE methodology enhances both reproducibility and semantic interoperability across disciplinary borders. It demonstrates that adopting RSE principles in geoscientific and archaeological workflows is not just a technical improvement but a cultural shift, from isolated Excel sheets to open, machine-actionable, and verifiable research."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.18803727",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2026-03-03"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:poster"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.18803727"
+      },
+      "prism:number": "3",
+      "prism:volume": "8",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/18803728"
+      },
+      "sqp:citationLabel": "8(3), §4",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "4"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4889-9353"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e4"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-03T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-03T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.18803727",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e4"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/18803728"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "2688144"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/18803728/files/deRSE26_Stuttgart_21313_GeoSciRSE.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "deRSE26_Stuttgart_21313_GeoSciRSE.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "cca9ca8159adc3a0c6f2d9a9fcaa3fc2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e4#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Two Sides of the RSE Coin: Reproducible and Semantically Interoperable Workflows in Climate and Geoarchaeological Research"
+    }
+  ]
+}

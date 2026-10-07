@@ -1,0 +1,392 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2018",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2018#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2018#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany"
+      },
+      "rdfs:label": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2018-03-22"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany"
+      },
+      "schema:name": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2018-03-22"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2018#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Computer Applications and Quantitative Methods in Archaeology (CAA)"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2018#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-03-22T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-03-22T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid"
+      },
+      "foaf:familyName": "Mees",
+      "foaf:givenName": "Allard W.",
+      "foaf:name": "Allard W. Mees",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      },
+      "rdfs:label": "Allard W. Mees",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7634-5342",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.055556 48.52)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.055556 48.52)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q3806"
+      },
+      "rdfs:label": "Tübingen",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "Tübingen, Germany",
+      "schema:latitude": 48.52,
+      "schema:longitude": 9.055556
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.055556 48.52)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e5",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "The Linked Data Cloud is full of controlled resources, which in fact quickly run out of control. Firstly, each resource collection, e.g. a thesaurus, is cooking its own soup related to its research context. Secondly, conceptualisation of LOD assumes standardised data, but in reality, only generic concepts or real instances exist. Thirdly, archaeological items are usually related to generic instances in the LOD cloud, based on their object orientated nature. Describing these relations by modelling archaeological assumptions causes ambiguities which have to be tamed to guarantee data quality for reuse, demonstrated in three examples:\n(1) Trying to link a triangular “lateen sail” into the LOD cloud, a problem known from the NAVIS II ancient ship depictions database, reveals that each repository has completely different “hidden assumptions” in its hierarchies with respect to their scientific domain. Are the usually SKOS based relations able to solve the challenge to model also the degree of doubt? Are different methods required?\n(2) Trying to map pot fragments of Gaulish Terra Sigillata to historically defined concepts of “types” and “service families”, or aligning these typologies, ends up in modelling doubtful assumptions. Can metrics be used to define “type” definitions? How can an already existing online research community help?\n(3) Setting up a meta-index for aligning various distributed databases at the RGZM by keywords and linking into the LOD Cloud is subject to uncertainties within the modelling of relations. As a result, this process includes dealing with the above mentioned ambiguity challenges."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.1200111",
+      "bibo:locator": "#5",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2018"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "dcat:keyword": [
+        "Linked Open Data",
+        "NAVIS ship database",
+        "Samian Research",
+        "controlled vocabulary",
+        "data quality"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i7/e5/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "The Linked Data Cloud is full of controlled resources, which in fact quickly run out of control. Firstly, each resource collection, e.g. a thesaurus, is cooking its own soup related to its research context. Secondly, conceptualisation of LOD assumes standardised data, but in reality, only generic concepts or real instances exist. Thirdly, archaeological items are usually related to generic instances in the LOD cloud, based on their object orientated nature. Describing these relations by modelling archaeological assumptions causes ambiguities which have to be tamed to guarantee data quality for reuse, demonstrated in three examples:\n(1) Trying to link a triangular “lateen sail” into the LOD cloud, a problem known from the NAVIS II ancient ship depictions database, reveals that each repository has completely different “hidden assumptions” in its hierarchies with respect to their scientific domain. Are the usually SKOS based relations able to solve the challenge to model also the degree of doubt? Are different methods required?\n(2) Trying to map pot fragments of Gaulish Terra Sigillata to historically defined concepts of “types” and “service families”, or aligning these typologies, ends up in modelling doubtful assumptions. Can metrics be used to define “type” definitions? How can an already existing online research community help?\n(3) Setting up a meta-index for aligning various distributed databases at the RGZM by keywords and linking into the LOD Cloud is subject to uncertainties within the modelling of relations. As a result, this process includes dealing with the above mentioned ambiguity challenges."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.1200111",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2018-03-22"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.1200111"
+      },
+      "prism:number": "7",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/1202168"
+      },
+      "sqp:citationLabel": "1(7), #5",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-03-22T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-03-22T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.1200111",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/1202168"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "4744499"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/1202168/files/2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2018_03_22_CAA_Tuebingen_TamingAmiguity.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "c758e8518e7b5a0ce1a872cc2500328c"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e5#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Taming Ambiguity - Dealing with doubts in archaeological datasets using LOD"
+    }
+  ]
+}

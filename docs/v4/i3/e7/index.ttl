@@ -1,0 +1,179 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e7#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v4/i3/e7> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-8604-544X> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v4/i3/e7#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v4/i3/e7> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7634-5342" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-8604-544X#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-8604-544X" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e7#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0002-8604-544X> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e7#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2022-08-09T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2022-08-09T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v4/i3/e7#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.6976136" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e7#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CAA2022Oxford_LODEcosystem.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v4/i3/e7#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v4/i3/e7> ;
+    dcat:accessURL <https://zenodo.org/records/6976137> ;
+    dcat:byteSize "5514554"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/6976137/files/CAA2022Oxford_LODEcosystem.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e7#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "7ef307b44fbdee0f9790c4f49b923bf9"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v4/i3/e7#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Challenges & Opportunities from real world archaeological datasets in the community-driven LOD ecosystem" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Allard W. Mees" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7634-5342> ;
+    foaf:familyName "Mees" ;
+    foaf:givenName "Allard W." ;
+    foaf:name "Allard W. Mees" ;
+    schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-8604-544X> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "David G. Wigg-Wolf" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-8604-544X#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-8604-544X> ;
+    foaf:familyName "Wigg-Wolf" ;
+    foaf:givenName "David G." ;
+    foaf:name "David G. Wigg-Wolf" ;
+    schema:identifier <https://orcid.org/0000-0002-8604-544X> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e7> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "4" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-8604-544X> ;
+    dct:description """Challenges and opportunities from real world archaeological datasets in the community-driven LOD ecosystem
+Florian Thiery, Dr. Allard W. Mees, Dr. David G. Wigg-Wolf
+Introduction
+Building sustainable research communities around archaeological research subjects requires domain-specific common standards. By linking data to other communities using Linked Open Data (LOD) and so-called Community Hubs, reciprocal community development can take place. In order to attain such research community dynamics, data must be semantically modelled following the FAIR principles (e.g. using CIDOC CRM) and be part of the LOD ecosystem. This leads to the research question as to which methods can be used to enrich and/or contextualise data with community work.
+Methods and Materials
+Real-world archaeological datasets are usually evolutionary projects. In the case of Samian Ware / Terra Sigillata, incorporating new (ceramic) material groups from other periods or regions requires adapting data schemes. The same is the case with coins: including new  (coin) material from other periods or regions requires adapting the ontology and community standards in agile processes. Methodologically, when extending the material scopes of these domain-specific projects, the participation of a much larger community is necessary in order to use LOD. An approach that is either Citizen Science driven or based on Community Hubs is able to enhance properties and classes.
+This paper is based on use cases comprising ceramics (ARS3D, Samian Research) and coins (AFE-RGK, NAVISone), as well as the iconographic / epigraphic elements involved (e.g. figure types, inscriptions), that demonstrate the challenges and opportunities of their semantic modelling. Within AFE-RGK, 16,957 coins are recorded, in ARS3D 325 African Red Slip Ware vessels describing 1173 man-made features (e.g. figure types). Samian Research comprises 252,342 (sic) recorded information carriers (potter’s stamps) and 8,425 actors as a concept (potters), NAVISOne contains 613 coins and 17 ARS objects.
+Results and Discussion
+Whereas enhancing the domain specific research aspects themselves is expected to remain largely within the specific research community, the results of these projects confirm that potentially the more general aspects of the data (geospatial information, chronology) can - on an LOD basis - indeed successfully be outsourced into a broader user community. Community standards for the semantic modelling of ceramics and coins, as well as iconographic / epigraphic elements such as LADO (Linked Archaeological Data Ontology as a common semantic data model for archaeological artefacts, e.g. ceramics) or NUDS (Numismatic Description Schema) can be a basis for publishing data in domain-specific hubs like DANTE, a data hub for authority data and terminologies, or archaeology.link.
+Using Wikidata as a Community Hub, as shown in the WikiProjects Archaeology, Linked Open Samian Ware [1], or African Red Slip Ware digital [2], in which Wikidata entries are enriched with backlinks to the specific research domain resources, leads to new opportunities, but also challenges: (i) new Wikidata properties have to be created in order to lock backlinks to the home repository. This is carried out in sometimes unpredictable active discussions within the Wikidata community, e.g. ToposText place ID (P8068), Arachne entity ID (P10510) or Nomisma ID (P2950); (ii) the often volatile discussion which data is considered relevant or not is entirely in the hands of the Wikidata community; (iii) creating an import / export strategy to identify own resources, e.g. by using the properties “part of” (P361) or “instance of” (P31) for updating the home repository with Citizen Science data; (iv) creating common data modelling schemes for entities, such as findspots, production centres or potters, e.g. using the Wikidata:Cradle tool, and (v) creating and applying strategies for modelling of different point of views, e.g. coordinates derived from Geonames or real excavations/ surveys.
+The domain-specific numismatic hub nomisma.org faces very different challenges, aiming as it does to extend its coverage to such a wide chronological, geographical and (inter)national range of sub-fields (Celtic, Mediaeval and Modern, Oriental, etc.)[3]. These sub-fields can have very different descriptive conventions and standards (e.g. NUDS), so that care must be taken to ensure that there is sufficient conformity across the broader discipline to achieve full interoperability, and contradictory solutions are not adopted. Overlap between sub-fields, particularly for periods and regions that underwent constant redefinition such as mediaeval and early modern Europe, can lead to conflicts of claims of (perceived) responsibility. Here the coordinating role of the steering committee is of paramount importance. On the other hand, the pre-existence of clearly defined semantic concepts in the form of nomisma PIDs greatly enhances the ability to incorporate citizen science driven data, as is demonstrated by the recent launch of the Celtic Coin Index Digital (CCID) which holds 72126 records.
+References
+[1] https://www.wikidata.org/wiki/Wikidata:WikiProject_Linked_Open_Samian_Ware
+[2] https://www.wikidata.org/wiki/Wikidata:WikiProject_African_Red_Slip_Ware_Digital
+[3] https://nomisma.hypotheses.org/nomisma-org"""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.6976136" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v4/i3> ;
+    dct:issued "2022-08-09"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Challenges & Opportunities from real world archaeological datasets in the community-driven LOD ecosystem"@en ;
+    dct:type sqpt:presentation ;
+    bibo:abstract """Challenges and opportunities from real world archaeological datasets in the community-driven LOD ecosystem
+Florian Thiery, Dr. Allard W. Mees, Dr. David G. Wigg-Wolf
+Introduction
+Building sustainable research communities around archaeological research subjects requires domain-specific common standards. By linking data to other communities using Linked Open Data (LOD) and so-called Community Hubs, reciprocal community development can take place. In order to attain such research community dynamics, data must be semantically modelled following the FAIR principles (e.g. using CIDOC CRM) and be part of the LOD ecosystem. This leads to the research question as to which methods can be used to enrich and/or contextualise data with community work.
+Methods and Materials
+Real-world archaeological datasets are usually evolutionary projects. In the case of Samian Ware / Terra Sigillata, incorporating new (ceramic) material groups from other periods or regions requires adapting data schemes. The same is the case with coins: including new  (coin) material from other periods or regions requires adapting the ontology and community standards in agile processes. Methodologically, when extending the material scopes of these domain-specific projects, the participation of a much larger community is necessary in order to use LOD. An approach that is either Citizen Science driven or based on Community Hubs is able to enhance properties and classes.
+This paper is based on use cases comprising ceramics (ARS3D, Samian Research) and coins (AFE-RGK, NAVISone), as well as the iconographic / epigraphic elements involved (e.g. figure types, inscriptions), that demonstrate the challenges and opportunities of their semantic modelling. Within AFE-RGK, 16,957 coins are recorded, in ARS3D 325 African Red Slip Ware vessels describing 1173 man-made features (e.g. figure types). Samian Research comprises 252,342 (sic) recorded information carriers (potter’s stamps) and 8,425 actors as a concept (potters), NAVISOne contains 613 coins and 17 ARS objects.
+Results and Discussion
+Whereas enhancing the domain specific research aspects themselves is expected to remain largely within the specific research community, the results of these projects confirm that potentially the more general aspects of the data (geospatial information, chronology) can - on an LOD basis - indeed successfully be outsourced into a broader user community. Community standards for the semantic modelling of ceramics and coins, as well as iconographic / epigraphic elements such as LADO (Linked Archaeological Data Ontology as a common semantic data model for archaeological artefacts, e.g. ceramics) or NUDS (Numismatic Description Schema) can be a basis for publishing data in domain-specific hubs like DANTE, a data hub for authority data and terminologies, or archaeology.link.
+Using Wikidata as a Community Hub, as shown in the WikiProjects Archaeology, Linked Open Samian Ware [1], or African Red Slip Ware digital [2], in which Wikidata entries are enriched with backlinks to the specific research domain resources, leads to new opportunities, but also challenges: (i) new Wikidata properties have to be created in order to lock backlinks to the home repository. This is carried out in sometimes unpredictable active discussions within the Wikidata community, e.g. ToposText place ID (P8068), Arachne entity ID (P10510) or Nomisma ID (P2950); (ii) the often volatile discussion which data is considered relevant or not is entirely in the hands of the Wikidata community; (iii) creating an import / export strategy to identify own resources, e.g. by using the properties “part of” (P361) or “instance of” (P31) for updating the home repository with Citizen Science data; (iv) creating common data modelling schemes for entities, such as findspots, production centres or potters, e.g. using the Wikidata:Cradle tool, and (v) creating and applying strategies for modelling of different point of views, e.g. coordinates derived from Geonames or real excavations/ surveys.
+The domain-specific numismatic hub nomisma.org faces very different challenges, aiming as it does to extend its coverage to such a wide chronological, geographical and (inter)national range of sub-fields (Celtic, Mediaeval and Modern, Oriental, etc.)[3]. These sub-fields can have very different descriptive conventions and standards (e.g. NUDS), so that care must be taken to ensure that there is sufficient conformity across the broader discipline to achieve full interoperability, and contradictory solutions are not adopted. Overlap between sub-fields, particularly for periods and regions that underwent constant redefinition such as mediaeval and early modern Europe, can lead to conflicts of claims of (perceived) responsibility. Here the coordinating role of the steering committee is of paramount importance. On the other hand, the pre-existence of clearly defined semantic concepts in the form of nomisma PIDs greatly enhances the ability to incorporate citizen science driven data, as is demonstrated by the recent launch of the Celtic Coin Index Digital (CCID) which holds 72126 records.
+References
+[1] https://www.wikidata.org/wiki/Wikidata:WikiProject_Linked_Open_Samian_Ware
+[2] https://www.wikidata.org/wiki/Wikidata:WikiProject_African_Red_Slip_Ware_Digital
+[3] https://nomisma.hypotheses.org/nomisma-org"""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v4/i3/e7#authors> ;
+    bibo:doi "10.5281/zenodo.6976136" ;
+    bibo:locator "#7" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v4/i3/e7#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v4/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v4/i3/e7#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.6976136> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v4/i3/e7#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v4/i3> ;
+    dcat:keyword "Archaeology",
+        "Digital Archaeology",
+        "Linked Open Data",
+        "Nomisma",
+        "Numismatics",
+        "Samian Ware",
+        "Terra Sigillata",
+        "Wikidata" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v4/i3/e7/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/6976137> ;
+    sqp:citationLabel "4(3), #7" ;
+    sqp:entryNumber "7"^^xsd:positiveInteger .
+

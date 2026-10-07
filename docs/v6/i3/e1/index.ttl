@@ -1,0 +1,199 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e1#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i3/e1> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-9043-3632>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i3/e1#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i3/e1> .
+
+<https://w3id.org/squirrelpapers/event/oldenburger-3d-tage-2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Oldenburger 3D-Tage" ;
+    event:place <https://w3id.org/squirrelpapers/place/jade-hoschschule-oldenburg> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i3/e1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/oldenburger-3d-tage-2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/oldenburger-3d-tage-2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/jade-hoschschule-oldenburg> ;
+    schema:endDate "2024-02-01"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/jade-hoschschule-oldenburg> ;
+    schema:name "Oldenburger 3D-Tage" ;
+    schema:startDate "2024-01-31"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/oldenburger-3d-tage-2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Oldenburger 3D-Tage" .
+
+<https://w3id.org/squirrelpapers/event/oldenburger-3d-tage-2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-01-31T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-02-01T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-9043-3632#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-9043-3632" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-5190-1867" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e1#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0001-9043-3632> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e1#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-01-31T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-01-31T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i3/e1#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.10580308" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e1#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "OL3DT _Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i3/e1#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i3/e1> ;
+    dcat:accessURL <https://zenodo.org/records/10580309> ;
+    dcat:byteSize "14427001"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/10580309/files/OL3DT%20_Oldenburg_2024_3DSemantics_Thiery-Rossenova-Schubert.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e1#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "72101e7dca3c7b8f3594ec85f14695b6"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i3/e1#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)" .
+
+<https://w3id.org/squirrelpapers/place/jade-hoschschule-oldenburg#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.213889 53.143889)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-9043-3632> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Zoe Schubert" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-9043-3632#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-9043-3632> ;
+    foaf:familyName "Schubert" ;
+    foaf:givenName "Zoe" ;
+    foaf:name "Zoe Schubert" ;
+    schema:identifier <https://orcid.org/0000-0001-9043-3632> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Lozana Rossenova" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-5190-1867> ;
+    foaf:familyName "Rossenova" ;
+    foaf:givenName "Lozana" ;
+    foaf:name "Lozana Rossenova" ;
+    schema:identifier <https://orcid.org/0000-0002-5190-1867> .
+
+<https://w3id.org/squirrelpapers/place/jade-hoschschule-oldenburg> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Oldenburg" ;
+    crm:P168_place_is_defined_by "POINT(8.213889 53.143889)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/jade-hoschschule-oldenburg#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/jade-hoschschule-oldenburg#geometry> ;
+    owl:sameAs wd:Q2936 ;
+    dcat:centroid "POINT(8.213889 53.143889)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "Jade-Hoschschule, Oldenburg" ;
+    schema:latitude 5.314389e+01 ;
+    schema:longitude 8.213889e+00 .
+
+<https://w3id.org/squirrelpapers/v6/i3/e1> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-9043-3632>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> ;
+    dct:description """Forschungsdatenmanagement (FDM) nimmt insbesondere auch in den Geistes- und Kulturwissenschaften eine immer größere Wichtigkeit ein. Insbesondere in diesen oft interdisziplinären Projekten spielen die Dokumentation, Verarbeitung und Annotation von 3D-Daten eine große Rolle. Ob in der Archäologie, Architektur und Bauforschung, Kunstgeschichte oder Denkmalpflege, überall müssen (3D-)Daten mit Metadaten versorgt und verknüpft werden, interoperable für Menschen sowie Maschinen verständliche community-basierte Standards geschaffen werden und Research Tools entwickelt werden um die FAIRifizierung dieser Daten gerecht zu werden. Innerhalb der deutschen Forschungslandschaft geschieht dieser Schritt über die von der DFG geförderte Nationale Forschungsdateninfrastruktur (NFDI). Innerhalb der NFDI haben sich einzelne Fachkonsortien gebildet die verschiedenste Themenfelder abdecken, so z.B. für das Ingenieurswesen und die Geodäsie NFDI4Earth und NFDI4Ing, sowie für die Humanities insbesonder NFDI4Objects (N4O) und NFDI4Culture (N4C). Beide Konsortien beschäftigen sich mit Objekten (materielle Hinterlassenschaften) zu Kulturgütern der Menschheitsgeschichte. In einzelnen Arbeitsbereichen (Task Areas) spielen insbesondere die 3D-Dokumentation (jeweils TA1), die qualifizierte Verarbeitung mit Hilfe von Standards (jeweils TA2) und die Bereitstellung von FAIRification Tools (N4C: TA3; N4O: TA5) eine entscheidende Rolle.
+In diesem Vortrag werden zwei unterschiedliche Tools zur Annotation von 3D-Daten mit Hilfe von Linked Open Data (LOD) und des Semantic Webs vorgestellt. Das aus N4O stammende Beispiel entstammt dem BMBF-gefördereten Africian Red Slip Ware digital Projekt, kurz ARS3D (DOI: 10.52825/cordi.v1i.326) das auf offenen Standards (CIDOC CRM) und Open Source Tools (z.B. RDF4J und 3DHOP) aufsetzt. Beispiele aus N4C werden mit Hilfe des Open Source Tools “Semantic Kompakkt” (https://semantic-kompakkt.de; z.B. https://semantic-kompakkt.de/entity/6548f15d004b905661dc013b) vorgestellt, welches auf der Software “Kompakkt” (https://kompakkt.de; https://kompakkt.de/entity/5d6435522e8bee556eedf0c0) und einer Wikibase-Instanz (https://wikiba.se) besteht, vgl. SemanticKompakkt_CoRDI_slides2023."""@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.10580308" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i3> ;
+    dct:issued "2024-01-31"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "3D and Research Data Management (RDM): Examples for semantic 3D annotation/modelling in the data qualification process in the NFDI consortia NFDI4Objects (N4O) and NFDI4Culture (N4C)"@de ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract """Forschungsdatenmanagement (FDM) nimmt insbesondere auch in den Geistes- und Kulturwissenschaften eine immer größere Wichtigkeit ein. Insbesondere in diesen oft interdisziplinären Projekten spielen die Dokumentation, Verarbeitung und Annotation von 3D-Daten eine große Rolle. Ob in der Archäologie, Architektur und Bauforschung, Kunstgeschichte oder Denkmalpflege, überall müssen (3D-)Daten mit Metadaten versorgt und verknüpft werden, interoperable für Menschen sowie Maschinen verständliche community-basierte Standards geschaffen werden und Research Tools entwickelt werden um die FAIRifizierung dieser Daten gerecht zu werden. Innerhalb der deutschen Forschungslandschaft geschieht dieser Schritt über die von der DFG geförderte Nationale Forschungsdateninfrastruktur (NFDI). Innerhalb der NFDI haben sich einzelne Fachkonsortien gebildet die verschiedenste Themenfelder abdecken, so z.B. für das Ingenieurswesen und die Geodäsie NFDI4Earth und NFDI4Ing, sowie für die Humanities insbesonder NFDI4Objects (N4O) und NFDI4Culture (N4C). Beide Konsortien beschäftigen sich mit Objekten (materielle Hinterlassenschaften) zu Kulturgütern der Menschheitsgeschichte. In einzelnen Arbeitsbereichen (Task Areas) spielen insbesondere die 3D-Dokumentation (jeweils TA1), die qualifizierte Verarbeitung mit Hilfe von Standards (jeweils TA2) und die Bereitstellung von FAIRification Tools (N4C: TA3; N4O: TA5) eine entscheidende Rolle.
+In diesem Vortrag werden zwei unterschiedliche Tools zur Annotation von 3D-Daten mit Hilfe von Linked Open Data (LOD) und des Semantic Webs vorgestellt. Das aus N4O stammende Beispiel entstammt dem BMBF-gefördereten Africian Red Slip Ware digital Projekt, kurz ARS3D (DOI: 10.52825/cordi.v1i.326) das auf offenen Standards (CIDOC CRM) und Open Source Tools (z.B. RDF4J und 3DHOP) aufsetzt. Beispiele aus N4C werden mit Hilfe des Open Source Tools “Semantic Kompakkt” (https://semantic-kompakkt.de; z.B. https://semantic-kompakkt.de/entity/6548f15d004b905661dc013b) vorgestellt, welches auf der Software “Kompakkt” (https://kompakkt.de; https://kompakkt.de/entity/5d6435522e8bee556eedf0c0) und einer Wikibase-Instanz (https://wikiba.se) besteht, vgl. SemanticKompakkt_CoRDI_slides2023."""@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i3/e1#authors> ;
+    bibo:doi "10.5281/zenodo.10580308" ;
+    bibo:locator "#1" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/oldenburger-3d-tage-2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i3/e1#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i3/e1#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.10580308> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i3/e1#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i3> ;
+    dcat:keyword "3D",
+        "NFDI",
+        "NFDI4Culture",
+        "NFDI4Objects",
+        "Research Data Management",
+        "Semantic Modelling",
+        "Semantics",
+        "Wikibase" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i3/e1/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/10580309> ;
+    sqp:citationLabel "6(3), #1" ;
+    sqp:entryNumber "1"^^xsd:positiveInteger .
+

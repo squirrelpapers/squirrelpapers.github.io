@@ -1,0 +1,179 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e4#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i3/e4> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i3/e4#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i3/e4> .
+
+<https://w3id.org/squirrelpapers/event/derse2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "deRSE2024" ;
+    event:place <https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i3/e3>,
+        <https://w3id.org/squirrelpapers/v6/i3/e4>,
+        <https://w3id.org/squirrelpapers/v6/i3/e5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/derse2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/derse2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg> ;
+    schema:endDate "2024-03-07"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg> ;
+    schema:name "deRSE2024" ;
+    schema:startDate "2024-03-05"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/derse2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "deRSE2024" .
+
+<https://w3id.org/squirrelpapers/event/derse2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-03-05T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-03-07T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-8188-620X" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e4#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e4#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-03-05T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-03-05T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i3/e4#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.10805071" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e4#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "deRSE2024_No56_FlemischThiery.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i3/e4#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i3/e4> ;
+    dcat:accessURL <https://zenodo.org/records/10805072> ;
+    dcat:byteSize "784436"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/10805072/files/deRSE2024_No56_FlemischThiery.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e4#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "8dda34922afdb8385000097152a3f6f4"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i3/e4#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Research Software Engineering within the NFDI (INFRA-WG-RSE)" .
+
+<https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(9.935278 49.788056)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8188-620X> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Bernd Flemisch" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-8188-620X> ;
+    foaf:familyName "Flemisch" ;
+    foaf:givenName "Bernd" ;
+    foaf:name "Bernd Flemisch" ;
+    schema:identifier <https://orcid.org/0000-0001-8188-620X> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "University of Würzburg" ;
+    crm:P168_place_is_defined_by "POINT(9.935278 49.788056)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/julius-maximilians-universitat-wurzburg#geometry> ;
+    owl:sameAs wd:Q161976 ;
+    dcat:centroid "POINT(9.935278 49.788056)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "Julius-Maximilians-Universität Würzburg" ;
+    schema:latitude 4.978806e+01 ;
+    schema:longitude 9.935278e+00 .
+
+<https://w3id.org/squirrelpapers/v6/i3/e4> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePoster,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """Research Software Engineering is a fundamental part of the German National Research Data Infrastructure (NFDI). In accordance with that, a "deRSE Arbeitskreis NFDI" will serve as a connection point for RSEs in the NFDI inside deRSE e.V.
+Within the NFDI e.V., several "sections" are dealing with overarching topics, e.g., the "Sektion Common Infrastructures" with its working groups on "Data Integration (DI)", "Data Management Planning (DMP)", "Data Science and Artificial Intelligence (DSAI)", "Electronic Lab Notebooks (ELN)", "Persistent Identifiers (PID)" and "Research Software Engineering (RSE)".
+The RSE working group connects the NFDI consortia in software-related aspects. It focuses on three areas: Research software, software communities and software infrastructure at NFDI. In an advisory and supportive capacity, the working group operates a central forum and establishes the necessary software ecosystem within NFDI for the professional development of software infrastructure components, which in their entirety represent an integral part of the NFDI. In addition, the working group serves as an interface for the NFDI to comparable European and international initiatives in order to promote the connectivity of the NFDI with other infrastructures.
+This meet-up would like to bring RSEs already working or interested in the NFDI together to create an active network and encourage RSEs to be part of the RSE working group in the NFDI Section Infra."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.10805071" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i3> ;
+    dct:issued "2024-03-05"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Research Software Engineering within the NFDI (INFRA-WG-RSE)"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:poster ;
+    bibo:abstract """Research Software Engineering is a fundamental part of the German National Research Data Infrastructure (NFDI). In accordance with that, a "deRSE Arbeitskreis NFDI" will serve as a connection point for RSEs in the NFDI inside deRSE e.V.
+Within the NFDI e.V., several "sections" are dealing with overarching topics, e.g., the "Sektion Common Infrastructures" with its working groups on "Data Integration (DI)", "Data Management Planning (DMP)", "Data Science and Artificial Intelligence (DSAI)", "Electronic Lab Notebooks (ELN)", "Persistent Identifiers (PID)" and "Research Software Engineering (RSE)".
+The RSE working group connects the NFDI consortia in software-related aspects. It focuses on three areas: Research software, software communities and software infrastructure at NFDI. In an advisory and supportive capacity, the working group operates a central forum and establishes the necessary software ecosystem within NFDI for the professional development of software infrastructure components, which in their entirety represent an integral part of the NFDI. In addition, the working group serves as an interface for the NFDI to comparable European and international initiatives in order to promote the connectivity of the NFDI with other infrastructures.
+This meet-up would like to bring RSEs already working or interested in the NFDI together to create an active network and encourage RSEs to be part of the RSE working group in the NFDI Section Infra."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i3/e4#authors> ;
+    bibo:doi "10.5281/zenodo.10805071" ;
+    bibo:locator "#4" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/derse2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i3/e4#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i3/e4#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:poster ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.10805071> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i3/e4#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i3> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i3/e4/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:poster ;
+    prov:wasDerivedFrom <https://zenodo.org/records/10805072> ;
+    sqp:citationLabel "6(3), #4" ;
+    sqp:entryNumber "4"^^xsd:positiveInteger .
+

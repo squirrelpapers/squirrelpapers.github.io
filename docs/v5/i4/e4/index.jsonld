@@ -1,0 +1,279 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Peter",
+      "foaf:name": "Peter Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      },
+      "rdfs:label": "Peter Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3270-2659",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e4",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ConferencePoster",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Background\nᚑᚌᚆᚐᚋ (Ogham) stones, e.g. the Ogham stone CIIC 178, are monoliths with the early medieval Primitive Irish Ogham script, mostly erected on the island of Ireland and in the western part of Britain between the 4th and 9th centuries. They are an important source for Archaic or Proto-Irish language and society. Names on the stones seem to be dedicated to a person. It remains unclear, however, whether the stones were grave markers, for example, or designated land ownership [1;2;3;4]. The inscriptions consist of names and relations (formula words) such as MAQI (ᚋᚐᚊᚔ; engl. son) to feature kinship or tribal relations [2].\nOgham stones have been part of research for decades. Over time, several books, online databases and repositories comprising different numbering systems and readings of ogham inscriptions were produced. So the critical question is, “How to model research on Ogham (e.g. the readings of inscriptions) over time and different media using different sources and platforms with the help of graphs and Semantic Web technologies?”.\nMethods and data\nThis paper describes a use case from the “Linked Open Ogham Data Project” [5;6], which was set up in 2019 by the Research Squirrel Engineers Network and supported by the Wikimedia Germany Open Science Fellows Program. It uses “analogue” publications/catalogues on Ogham [1;2;7;8;9], online databases/repositories such as “Ogham in 3D” or “Celtic Inscribed Stones Project” (CISP) to transform and model the data with the help of Semantic Web and graph technologies within a hybrid Ogham LOD workflow [10], based on the idea of Open Science and the FAIR Principles as Linked Open Data (LOD) [11], in Wikidata and Open Street Map (OSM). Semantic modelling and LOD techniques such as RDF and Wikidata are used to describe, e.g. the different readings of inscriptions over time [12].\nDiscussion\nThis paper shows that using semantic modelling and LOD techniques to create a network of stones, data and individual views, e.g. readings of inscriptions, helps to model temporalities in research. For this purpose, digitalisation and LODification of books, LODification of “old fashioned” 1990s databases such as “CISP” or “TITUS ogam” as well as import data in community hubs like Wikidata or OSM is needed. Volunteers and Citizen Scientits can also help improve the data within this system.\nAs an example: other identifiers of CIIC 178 [1,p.170]: CISP~COUME/1, Cuppage 268 [7], Wikidata Q106680850, OSM node 5145413640 and as LOD http://lod.ogham.link/data/Y50000178. Macalister [1] read “ERC MAQI MAQI-ERCIAS MU DOVINIA”, Cuppage et al. [7] “ERC MAQI MAQI-ERCIAS [MU] DOVINI[A]” and McManus [2] “ERC MAQI MAQI-ERCIA[S MU] DOVI[N]IA”. The readings are slightly similar but contain a lot of uncertainties over time. Still, nevertheless, the mentioned names (Goidelic/male) “ERC”, “MAQI-ERCIAS”, and “DOVINIA” and relations like “MAQI” (engl. son of) are still the same. LOD and Wikidata help to model and visualise these opinions and relations as temporalities in research.\nReferences\n[1] Macalister, RAS. 1945. Corpus inscriptionum insularum Celticarum. Vol. I. Dublin: Stationery Office.\n[2] MacManus, D. 1997. A guide to Ogam. Maynooth monographs 4. Maynooth: An Sagart.\n[3] Schmidt, SC and Thiery, F. 2022 SPARQLing Ogham Stones: New Options for Analyzing Analog Editions by Digitization in Wikidata. CEUR Workshop Proceedings 3110(Graph Technologies in the Humanities 2020): 211–244. DOI: 10.5281/zenodo.6380914.\n[4] Bogdani, J, Montalbano, R and Rosati, P. 2021. ArcheoFOSS XIV 2020: Open Software, Hardware, Processes, Data and Formats in Archaeological Research. Oxford: Archaeopress Publishing Ltd, pp.119-127.\n[5] https://t1p.de/wd-ogham\n[6] https://t1p.de/wd-looi\n[7] Cuppage, J and Bennett, I. 1986. Archaeological survey of the Dingle Peninsula: a description of the field antiquities of the Barony of Corca Dhuibhne from the Mesolithic period to the 17th century A.D. = Suirbhé seandálaíochta Chorca Dhuibhne. Ballyferriter: Oidhreacht Chorca Dhuibhne.\n[8] O’Sullivan, A and Sheehan, J. 1996. The Iveragh Peninsula. An Archaeological Survey of South Kerry. Cork: Cork University Press.\n[9] Ziegler, S. 1994. Die Sprache der altirischen Ogam-Inschriften. Göttingen: Vandenhoeck and Ruprecht.\n[10] Thiery, F, Homburg, T, Schmidt, SC, Voß, J and Trognitz, M. 2021 SPARQLing Geodesy for Cultural Heritage – New Opportunities for Publishing and Analysing Volunteered Linked (geo-)data. In:. FIG Peer Review Journal. 21 June 2021. Kopenhagen: FIG. DOI: 10.5281/zenodo.5639381.\n[11] Thiery, F. 2022. SPARQLing ᚑᚌᚆᚐᚋ – Irische Ogham Steine als Linked Open Data. Zeitschrift für Digitale Geisteswissenschaften Fabrikation von Erkenntnis. Experimente in den Digital Humanities (5): 11. DOI: 10.17175/sb005_010\n[12] Schmidt, SC, Thiery, F and Trognitz, M. 2022 Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata. Digital 2(3): 333–364. DOI: 10.3390/digital2030019."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.8154844",
+      "bibo:locator": "#4",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:poster"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v5/i4/e4/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:poster"
+      },
+      "dct:contributor": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+      },
+      "dct:creator": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "dct:description": {
+        "@language": "en",
+        "@value": "Background\nᚑᚌᚆᚐᚋ (Ogham) stones, e.g. the Ogham stone CIIC 178, are monoliths with the early medieval Primitive Irish Ogham script, mostly erected on the island of Ireland and in the western part of Britain between the 4th and 9th centuries. They are an important source for Archaic or Proto-Irish language and society. Names on the stones seem to be dedicated to a person. It remains unclear, however, whether the stones were grave markers, for example, or designated land ownership [1;2;3;4]. The inscriptions consist of names and relations (formula words) such as MAQI (ᚋᚐᚊᚔ; engl. son) to feature kinship or tribal relations [2].\nOgham stones have been part of research for decades. Over time, several books, online databases and repositories comprising different numbering systems and readings of ogham inscriptions were produced. So the critical question is, “How to model research on Ogham (e.g. the readings of inscriptions) over time and different media using different sources and platforms with the help of graphs and Semantic Web technologies?”.\nMethods and data\nThis paper describes a use case from the “Linked Open Ogham Data Project” [5;6], which was set up in 2019 by the Research Squirrel Engineers Network and supported by the Wikimedia Germany Open Science Fellows Program. It uses “analogue” publications/catalogues on Ogham [1;2;7;8;9], online databases/repositories such as “Ogham in 3D” or “Celtic Inscribed Stones Project” (CISP) to transform and model the data with the help of Semantic Web and graph technologies within a hybrid Ogham LOD workflow [10], based on the idea of Open Science and the FAIR Principles as Linked Open Data (LOD) [11], in Wikidata and Open Street Map (OSM). Semantic modelling and LOD techniques such as RDF and Wikidata are used to describe, e.g. the different readings of inscriptions over time [12].\nDiscussion\nThis paper shows that using semantic modelling and LOD techniques to create a network of stones, data and individual views, e.g. readings of inscriptions, helps to model temporalities in research. For this purpose, digitalisation and LODification of books, LODification of “old fashioned” 1990s databases such as “CISP” or “TITUS ogam” as well as import data in community hubs like Wikidata or OSM is needed. Volunteers and Citizen Scientits can also help improve the data within this system.\nAs an example: other identifiers of CIIC 178 [1,p.170]: CISP~COUME/1, Cuppage 268 [7], Wikidata Q106680850, OSM node 5145413640 and as LOD http://lod.ogham.link/data/Y50000178. Macalister [1] read “ERC MAQI MAQI-ERCIAS MU DOVINIA”, Cuppage et al. [7] “ERC MAQI MAQI-ERCIAS [MU] DOVINI[A]” and McManus [2] “ERC MAQI MAQI-ERCIA[S MU] DOVI[N]IA”. The readings are slightly similar but contain a lot of uncertainties over time. Still, nevertheless, the mentioned names (Goidelic/male) “ERC”, “MAQI-ERCIAS”, and “DOVINIA” and relations like “MAQI” (engl. son of) are still the same. LOD and Wikidata help to model and visualise these opinions and relations as temporalities in research.\nReferences\n[1] Macalister, RAS. 1945. Corpus inscriptionum insularum Celticarum. Vol. I. Dublin: Stationery Office.\n[2] MacManus, D. 1997. A guide to Ogam. Maynooth monographs 4. Maynooth: An Sagart.\n[3] Schmidt, SC and Thiery, F. 2022 SPARQLing Ogham Stones: New Options for Analyzing Analog Editions by Digitization in Wikidata. CEUR Workshop Proceedings 3110(Graph Technologies in the Humanities 2020): 211–244. DOI: 10.5281/zenodo.6380914.\n[4] Bogdani, J, Montalbano, R and Rosati, P. 2021. ArcheoFOSS XIV 2020: Open Software, Hardware, Processes, Data and Formats in Archaeological Research. Oxford: Archaeopress Publishing Ltd, pp.119-127.\n[5] https://t1p.de/wd-ogham\n[6] https://t1p.de/wd-looi\n[7] Cuppage, J and Bennett, I. 1986. Archaeological survey of the Dingle Peninsula: a description of the field antiquities of the Barony of Corca Dhuibhne from the Mesolithic period to the 17th century A.D. = Suirbhé seandálaíochta Chorca Dhuibhne. Ballyferriter: Oidhreacht Chorca Dhuibhne.\n[8] O’Sullivan, A and Sheehan, J. 1996. The Iveragh Peninsula. An Archaeological Survey of South Kerry. Cork: Cork University Press.\n[9] Ziegler, S. 1994. Die Sprache der altirischen Ogam-Inschriften. Göttingen: Vandenhoeck and Ruprecht.\n[10] Thiery, F, Homburg, T, Schmidt, SC, Voß, J and Trognitz, M. 2021 SPARQLing Geodesy for Cultural Heritage – New Opportunities for Publishing and Analysing Volunteered Linked (geo-)data. In:. FIG Peer Review Journal. 21 June 2021. Kopenhagen: FIG. DOI: 10.5281/zenodo.5639381.\n[11] Thiery, F. 2022. SPARQLing ᚑᚌᚆᚐᚋ – Irische Ogham Steine als Linked Open Data. Zeitschrift für Digitale Geisteswissenschaften Fabrikation von Erkenntnis. Experimente in den Digital Humanities (5): 11. DOI: 10.17175/sb005_010\n[12] Schmidt, SC, Thiery, F and Trognitz, M. 2022 Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata. Digital 2(3): 333–364. DOI: 10.3390/digital2030019."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.8154844",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2023-07-17"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?"
+      },
+      "dct:type": {
+        "@id": "sqpt:poster"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.8154844"
+      },
+      "prism:number": "4",
+      "prism:volume": "5",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/8154845"
+      },
+      "sqp:citationLabel": "5(4), #4",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "4"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e4"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-07-17T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-07-17T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.8154844",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e4"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/8154845"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "3071706"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/8154845/files/GrapHNR2023_%20Poster_Ogham.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "GrapHNR2023_ Poster_Ogham.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "4fcf2b9c76d2508315429e8bed02c113"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i4/e4#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?"
+    }
+  ]
+}

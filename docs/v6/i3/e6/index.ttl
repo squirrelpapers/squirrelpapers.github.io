@@ -1,0 +1,227 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e6#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i3/e6> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-1100-6494>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3270-2659>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i3/e6#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i3/e6> .
+
+<https://w3id.org/squirrelpapers/event/fossgis-2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "FOSSGIS 2024" ;
+    event:place <https://w3id.org/squirrelpapers/place/technische-universitat-hamburg-tuhh> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i3/e6>,
+        <https://w3id.org/squirrelpapers/v6/i3/e7> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/fossgis-2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/fossgis-2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/technische-universitat-hamburg-tuhh> ;
+    schema:endDate "2024-03-23"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/technische-universitat-hamburg-tuhh> ;
+    schema:name "FOSSGIS 2024" ;
+    schema:startDate "2024-03-20"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/fossgis-2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "FOSSGIS 2024" .
+
+<https://w3id.org/squirrelpapers/event/fossgis-2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-03-20T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-03-23T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9953-7638" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-1100-6494#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-1100-6494" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3270-2659" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0008-2877-3204" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e6#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0003-1100-6494> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> ;
+    rdf:_5 <https://w3id.org/squirrelpapers/person/0000-0003-3270-2659> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e6#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-03-20T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-03-20T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i3/e6#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.10840999" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e6#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "FOSSGIS_Hamburg_2024_ThieryEtAl_VTYCM7 .pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i3/e6#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i3/e6> ;
+    dcat:accessURL <https://zenodo.org/records/10841000> ;
+    dcat:byteSize "23297487"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/10841000/files/FOSSGIS_Hamburg_2024_ThieryEtAl_VTYCM7%20.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e6#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "071bd51fe40c1735c3937ddbff17dc3d"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i3/e6#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Modellierung von Fuzzyness & Wobbliness in Geodaten am Beispiel archäologischer und geowissenschaftlicher Fundorte" .
+
+<https://w3id.org/squirrelpapers/place/technische-universitat-hamburg-tuhh#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(9.969506 53.460958)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Karsten Tolle" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9953-7638> ;
+    foaf:familyName "Tolle" ;
+    foaf:givenName "Karsten" ;
+    foaf:name "Karsten Tolle" ;
+    schema:identifier <https://orcid.org/0000-0002-9953-7638> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-1100-6494> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Stefanie Baars" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-1100-6494#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-1100-6494> ;
+    foaf:familyName "Baars" ;
+    foaf:givenName "Stefanie" ;
+    foaf:name "Stefanie Baars" ;
+    schema:identifier <https://orcid.org/0000-0003-1100-6494> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3270-2659> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Peter Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3270-2659> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Peter" ;
+    foaf:name "Peter Thiery" ;
+    schema:identifier <https://orcid.org/0000-0003-3270-2659> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fiona Schenk" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0008-2877-3204> ;
+    foaf:familyName "Schenk" ;
+    foaf:givenName "Fiona" ;
+    foaf:name "Fiona Schenk" ;
+    schema:identifier <https://orcid.org/0009-0008-2877-3204> .
+
+<https://w3id.org/squirrelpapers/place/technische-universitat-hamburg-tuhh> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Hamburg University of Technology" ;
+    crm:P168_place_is_defined_by "POINT(9.969506 53.460958)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/technische-universitat-hamburg-tuhh#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/technische-universitat-hamburg-tuhh#geometry> ;
+    owl:sameAs wd:Q1060 ;
+    dcat:centroid "POINT(9.969506 53.460958)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "Technische Universität Hamburg (TUHH)" ;
+    schema:latitude 5.346096e+01 ;
+    schema:longitude 9.969506e+00 .
+
+<https://w3id.org/squirrelpapers/v6/i3/e6> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-1100-6494>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3270-2659>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> ;
+    dct:description "Insbesondere bei der Bereitstellung von Open Data nach den FAIR-Prinzipien zur bestmöglichen Offenheit und Transparenz ist die Angabe von Unsicherheiten und Zweifeln für den Nachnutzenden von enormer Bedeutung. Bei interdisziplinärer Zusammenarbeit ist dieser Aspekt umso wichtiger. In diesem Paper werden fünf data-driven interdisziplinäre Use-Cases für den Umgang mit und die Modellierung von vagen und unsicheren Georeferenzen aus dem Bereich der Archäologie und Geowissenschaften vorgestellt."@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.10840999" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i3> ;
+    dct:issued "2024-03-20"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Modellierung von Fuzzyness & Wobbliness in Geodaten am Beispiel archäologischer und geowissenschaftlicher Fundorte"@de ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract "Insbesondere bei der Bereitstellung von Open Data nach den FAIR-Prinzipien zur bestmöglichen Offenheit und Transparenz ist die Angabe von Unsicherheiten und Zweifeln für den Nachnutzenden von enormer Bedeutung. Bei interdisziplinärer Zusammenarbeit ist dieser Aspekt umso wichtiger. In diesem Paper werden fünf data-driven interdisziplinäre Use-Cases für den Umgang mit und die Modellierung von vagen und unsicheren Georeferenzen aus dem Bereich der Archäologie und Geowissenschaften vorgestellt."@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i3/e6#authors> ;
+    bibo:doi "10.5281/zenodo.10840999" ;
+    bibo:locator "#6" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/fossgis-2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i3/e6#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i3/e6#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    rdfs:seeAlso <https://media.ccc.de/v/fossgis2024-38914-modellierung-von-fuzzyness-wobbliness-in-geodaten> ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.10840999> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i3/e6#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i3> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i3/e6/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/10841000> ;
+    sqp:citationLabel "6(3), #6" ;
+    sqp:entryNumber "6"^^xsd:positiveInteger .
+

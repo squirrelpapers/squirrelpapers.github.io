@@ -1,0 +1,379 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/graphentechnologien-2018",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v1/i7/e3"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v1/i7/e4"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/graphentechnologien-2018#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/graphentechnologien-2018#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/mainz-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/mainz-germany"
+      },
+      "rdfs:label": "Graphentechnologien 2018",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2018-01-19"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/mainz-germany"
+      },
+      "schema:name": "Graphentechnologien 2018",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2018-01-19"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/graphentechnologien-2018#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Graphentechnologien 2018"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/graphentechnologien-2018#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-01-19T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-01-19T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/unold-martin",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Unold",
+      "foaf:givenName": "Martin",
+      "foaf:name": "Martin Unold",
+      "rdfs:label": "Martin Unold"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/mainz-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.273611 49.999444)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.273611 49.999444)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/mainz-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/mainz-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1720"
+      },
+      "rdfs:label": "Mainz",
+      "schema:addressCountry": {
+        "@id": "wd:Q12548"
+      },
+      "schema:description": "Mainz, Germany",
+      "schema:latitude": 49.999444,
+      "schema:longitude": 8.273611
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/mainz-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.273611 49.999444)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e3",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Graphdatenbanken und Triple Stores stellen bei der Modellierung von Forschungsdaten eine Alternative zu relationalen Datenbanken dar. Eine Modellierung der Daten in einem Netzwerk, anstatt in Tabellenstrukturen, eignet sie sich hervorragend um Daten interoperabel zur Verfügung zu stellen, indem man zwei Knoten aus verschiedenen Datenbanken miteinander über eine Kante verbindet. Dieser Technik bedienen sich viele Forschungsprojekte durch die Verwendung von Linked Open Data (LOD).\nSowohl gängige Graphdatenbanken als auch gebräuchliche Triple Stores bieten jedoch keine Möglichkeit Unsicherheiten oder Vagheiten zu modellieren. Um dieser Unzulänglichkeit Rechnung zu tragen, haben wir das Academic Meta Tool (AMT) entwickelt. AMT bietet die Möglichkeit sämtlichen Kanten eine Gewichtung hinzuzufügen, um dadurch die Vagheit dieser Kante auszudrücken. Eine Beziehung zwischen zwei Knoten besteht also nur zu einem gewissen Grad. Dieser Grad, d.h. das Kantengewicht, wird üblicherweise in Prozent angegeben. AMT beinhaltet zusätzlich ein Verfahren, mit dem - unter Zuhilfenahme einer vordefinierten Ontologie - aus vorhandenen graphbasierten Daten automatisch Schlussfolgerungen gezogen werden können (Reasoning).\nEin Prototyp des AMTs steht als Web-Anwendung zur Verfügung. In einer entwickelten Test-Ontologie können Personen und Interessen und deren Beziehungen in einem gewissen Grad zueinander modelliert werden. Diese Ontologie beinhaltet neben den genannten beiden Klassen fünf weitere Relationen, so dass Personen und Interessen miteinander in Beziehung gesetzt werden können. Außerdem enthält die Ontologie 11 Axiome, um automatisiert aus bestehenden Beziehungen neue Beziehungen generieren zu können.\nEin Testfall, basierend auf der zuvor beschriebenen Ontologie, bildet die Beziehungen innerhalb des mainzed (Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften) Netzwerks ab. Die Mitglieder des Netzwerks stehen in fachlichen bzw. hierarchischen Beziehungen zueinander. Zudem haben die Mitglieder des heterogenen Netzwerks viele unterschiedliche Interessen, die wiederum in einer SKOS-ähnlichen Taxonomie modellierbar sind. In einer Community Aktion haben die Mitglieder jeweils ihre Sicht auf das Netzwerk dargestellt, das heißt Beziehungen und Interessen, sowie deren Vagheitsgrad angegeben. AMT kann nun dieses Netz visualisieren und weitere Schlussfolgerungen ziehen, das heißt neue Beziehungen aufzeigen, welche bei der Eingabe nicht erkennbar waren, so dass dies einen Mehrwert für das Netzwerk bildet.\nDer beschriebene Testfall lässt sich auch auf andere Datengrundlagen, wie historische Personen-Netzwerke, etc. extrapolieren. Außerdem lassen sich statt der Personen-Interessen-Ontologie auch beliebige andere Ontologien verwenden, die in das AMT-Schema passen. Mit AMT präsentieren wir somit ein generisches Tool, das Unsicherheiten und Vagheiten in bestehenden Forschungsdaten darstellen und neue Folgerungen daraus schließen kann."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.1155727",
+      "bibo:locator": "#3",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/graphentechnologien-2018"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "dcat:keyword": [
+        "graph",
+        "ontologie",
+        "owl",
+        "rdf"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i7/e3/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/unold-martin"
+        }
+      ],
+      "dct:description": {
+        "@language": "de",
+        "@value": "Graphdatenbanken und Triple Stores stellen bei der Modellierung von Forschungsdaten eine Alternative zu relationalen Datenbanken dar. Eine Modellierung der Daten in einem Netzwerk, anstatt in Tabellenstrukturen, eignet sie sich hervorragend um Daten interoperabel zur Verfügung zu stellen, indem man zwei Knoten aus verschiedenen Datenbanken miteinander über eine Kante verbindet. Dieser Technik bedienen sich viele Forschungsprojekte durch die Verwendung von Linked Open Data (LOD).\nSowohl gängige Graphdatenbanken als auch gebräuchliche Triple Stores bieten jedoch keine Möglichkeit Unsicherheiten oder Vagheiten zu modellieren. Um dieser Unzulänglichkeit Rechnung zu tragen, haben wir das Academic Meta Tool (AMT) entwickelt. AMT bietet die Möglichkeit sämtlichen Kanten eine Gewichtung hinzuzufügen, um dadurch die Vagheit dieser Kante auszudrücken. Eine Beziehung zwischen zwei Knoten besteht also nur zu einem gewissen Grad. Dieser Grad, d.h. das Kantengewicht, wird üblicherweise in Prozent angegeben. AMT beinhaltet zusätzlich ein Verfahren, mit dem - unter Zuhilfenahme einer vordefinierten Ontologie - aus vorhandenen graphbasierten Daten automatisch Schlussfolgerungen gezogen werden können (Reasoning).\nEin Prototyp des AMTs steht als Web-Anwendung zur Verfügung. In einer entwickelten Test-Ontologie können Personen und Interessen und deren Beziehungen in einem gewissen Grad zueinander modelliert werden. Diese Ontologie beinhaltet neben den genannten beiden Klassen fünf weitere Relationen, so dass Personen und Interessen miteinander in Beziehung gesetzt werden können. Außerdem enthält die Ontologie 11 Axiome, um automatisiert aus bestehenden Beziehungen neue Beziehungen generieren zu können.\nEin Testfall, basierend auf der zuvor beschriebenen Ontologie, bildet die Beziehungen innerhalb des mainzed (Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften) Netzwerks ab. Die Mitglieder des Netzwerks stehen in fachlichen bzw. hierarchischen Beziehungen zueinander. Zudem haben die Mitglieder des heterogenen Netzwerks viele unterschiedliche Interessen, die wiederum in einer SKOS-ähnlichen Taxonomie modellierbar sind. In einer Community Aktion haben die Mitglieder jeweils ihre Sicht auf das Netzwerk dargestellt, das heißt Beziehungen und Interessen, sowie deren Vagheitsgrad angegeben. AMT kann nun dieses Netz visualisieren und weitere Schlussfolgerungen ziehen, das heißt neue Beziehungen aufzeigen, welche bei der Eingabe nicht erkennbar waren, so dass dies einen Mehrwert für das Netzwerk bildet.\nDer beschriebene Testfall lässt sich auch auf andere Datengrundlagen, wie historische Personen-Netzwerke, etc. extrapolieren. Außerdem lassen sich statt der Personen-Interessen-Ontologie auch beliebige andere Ontologien verwenden, die in das AMT-Schema passen. Mit AMT präsentieren wir somit ein generisches Tool, das Unsicherheiten und Vagheiten in bestehenden Forschungsdaten darstellen und neue Folgerungen daraus schließen kann."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.1155727",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2018-01-19"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.1155727"
+      },
+      "prism:number": "7",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/1155727"
+      },
+      "sqp:citationLabel": "1(7), #3",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "3"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/unold-martin"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/unold-martin"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e3"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e3"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-01-19T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-01-19T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.1155727",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e3"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/1155727"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "2814992"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/1155727/files/2018_01_19_Graphentechnologien2018_AMT.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2018_01_19_Graphentechnologien2018_AMT.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "e9d264514c468ba7b38f2f3d51e04d19"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e3#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels"
+    }
+  ]
+}

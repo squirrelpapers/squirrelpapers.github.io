@@ -1,0 +1,201 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e13#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i4/e13> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i4/e13#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i4/e13> .
+
+<https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "CAA Deutschland-Workshop 2024" ;
+    event:place <https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i3/e8>,
+        <https://w3id.org/squirrelpapers/v6/i4/e13> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster> ;
+    schema:endDate "2024-09-06"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster> ;
+    schema:name "CAA Deutschland-Workshop 2024" ;
+    schema:startDate "2024-09-05"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CAA Deutschland-Workshop 2024" .
+
+<https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-09-05T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-09-06T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-2576-1511#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-2576-1511" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3223-2079" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e13#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e13#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-09-05T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-09-05T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i4/e13#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.13364680" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e13#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i4/e13#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i4/e13> ;
+    dcat:accessURL <https://zenodo.org/records/13364681> ;
+    dcat:byteSize "32929884"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/13364681/files/CAADE_2024_Muenster_NFDI4Objects_KnowledgeGraph_ThieryGerberFricke.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e13#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "ea1325cc65e4a820abd457ead0da2551"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i4/e13#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken" .
+
+<https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(7.625556 51.9625)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-2576-1511> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Anja Gerber" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-2576-1511> ;
+    foaf:familyName "Gerber" ;
+    foaf:givenName "Anja" ;
+    foaf:name "Anja Gerber" ;
+    schema:identifier <https://orcid.org/0000-0003-2576-1511> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fabian Fricke" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3223-2079> ;
+    foaf:familyName "Fricke" ;
+    foaf:givenName "Fabian" ;
+    foaf:name "Fabian Fricke" ;
+    schema:identifier <https://orcid.org/0000-0003-3223-2079> .
+
+<https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Münster" ;
+    crm:P168_place_is_defined_by "POINT(7.625556 51.9625)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster#geometry> ;
+    owl:sameAs wd:Q2742 ;
+    dcat:centroid "POINT(7.625556 51.9625)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q142 ;
+    schema:description "Historisches Seminar der Universität Münster, Münster, Germany" ;
+    schema:latitude 5.19625e+01 ;
+    schema:longitude 7.625556e+00 .
+
+<https://w3id.org/squirrelpapers/v6/i4/e13> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> ;
+    dct:description """Forschungsdaten in der Archäologie sind sehr heterogen und immer im domänenbezogenen Kontext und interdisziplinär zu betrachten. Um diese Daten untereinander austauschbar, interoperabel und kompatibel zu machen, sind ein gemeinsames Verständnis und eine technische Implementierung nötig. Nur so kann eine übergreifende Abfrage des resultierenden interdisziplinären Knowledge Graphen erfolgen.
+Um diese Herausforderung anzunehmen, möchte die Nationale Forschungsdateninfrastruktur (NFDI) beitragen und hat sich in mehrere fachbezogene Konsortien strukturiert. Das der Archäologie nahe Konsortium NFDI4Objects (N4O) ist eine Forschungsdateninfrastruktur für die materiellen Hinterlassenschaften der Menschheitsgeschichte und richtet sich an Forscher*innen und Praktiker*innen, deren Arbeitsschwerpunkte auf dem materiellen Erbe von rund drei Millionen Jahren Menschheits- und Umweltgeschichte liegen.
+Eine Strategie, um eine Datenhomogenisierung und inhaltliche Vernetzung innerhalb von NFDI4Objects zu implementieren und eine Anschlussfähigkeit an die anderen konsortialen Knowledge Graphen zu gewährleisten, ist die Erstellung eines gemeinsamen Minimal-Objekt-Metadatensets (N4O MMDS) und einer dazugehörigen Objekt-Ontologie (N4O OO). Diese wird in NFDI4Objects in einer Temporary Working Group (TWG) erfolgen. In den Bereichen der Sammlungen sind Austauschformate wie LIDO und die Minimaldatensatz-Empfehlung für Museen und Sammlungen der DDB bereits implementiert und müssen für die heterogenen Kontexte und Daten von NFDI4Objects noch angepasst werden. Die N4O OO ist eine RDF-Repräsentation (Basis für Linked Open Data) des Metadatensets und basiert u.A. auf CIDOC-CRM,  schema.org, PROV-O. Hier kann die LADO-Ontologie des LEIZA eine Basis bieten. Der N4O MMDS und die N4O OO bilden den Objektzyklus, der sukzessive durch die NFDI4Objects Task Areas mit den Aufgaben documenting, collecting, analysing und protecting mit Informationen angereichert wird, ab. Diese Strukturen werden genutzt, da der Datenfluss in den Knowledge Graphen des Konsortiums LIDO/XML und RDF vorsieht (Abb. 1). Kleine FAIRification Tools wie das SPARQLing Unicorn Plugin, und das SPARQL Unicorn Ontology Documentation Tool können zudem dabei helfen, die für den Knowledge Graphen benötigten RDF-Daten zu visualisieren und für den Menschen lesbar bereitzustellen.
+Dieser Vortrag nimmt existierende Beispiele aus der Archäologie (z.B. Irish Ogham Stones, Samian Research, ARS3D, NAVISone, Brandenburg 5000 BC, …), den Geowissenschaften (z.B. Campanian Ignimbrite), sowie aus dem Sammlungskontext (z.B. Teilbestände aus Goethes heterogenen Sammlungen an der Klassik Stiftung Weimar).  Anhand dieser soll aufgezeigt werden, wo die Gemeinsamkeiten und Unterschiede der Daten, aber auch wo die Herausforderungen bei der Erstellung einer übergreifenden, generischen Struktur zum Datenaustausch und Aufbau eines Knowledge Graphen liegen.
+Die LOD der Irish Ogham Stones basieren auf der Ogham Ontology, die u.A. CIDOC-CRM, SKOS, FOAF, GeoSPARQL und PROV-O als Grundlage nimmt. Die RDF-Modellierungen von Samian Research, ARS3D, NAVISone und Brandenburg 5000 BC bilden eine Teilmenge der LADO Ontologie. Diese Ontologie entwickelte sich aus der “Ogham Ontology” und basiert daher auf den gleichen Grundsätzen und Basis-Ontologien. Die Campanian Ignimbrite Daten basieren auf der “Fuzzy Spatial Locations Ontology”, welche wiederum auf u.A. auf CIDOC-CRM und schema.org basiert. Die Daten der Klassik Stiftung Weimar werden hingegen in einer relationalen Museumsdatenbank erfasst, die beim Datenexport u. a. das Metadatenschema LIDO ausgibt.
+Zudem wird aufgezeigt, wie man sich aktiv an der TWG zur Entwicklung einer N4O Objects Ontology (N4O OO) und eines Minimal Metadaten-Set (N4O MMDS) beteiligen kann."""@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.13364680" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i4> ;
+    dct:issued "2024-09-05"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Interdisziplinäre Knowledge Graphen? Wieso man eine gemeinsame Object-Ontologie und ein Minimal-Metadatenset benötigt, um FDM in einem Knowledge Graphen zum Leben zu erwecken"@de ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract """Forschungsdaten in der Archäologie sind sehr heterogen und immer im domänenbezogenen Kontext und interdisziplinär zu betrachten. Um diese Daten untereinander austauschbar, interoperabel und kompatibel zu machen, sind ein gemeinsames Verständnis und eine technische Implementierung nötig. Nur so kann eine übergreifende Abfrage des resultierenden interdisziplinären Knowledge Graphen erfolgen.
+Um diese Herausforderung anzunehmen, möchte die Nationale Forschungsdateninfrastruktur (NFDI) beitragen und hat sich in mehrere fachbezogene Konsortien strukturiert. Das der Archäologie nahe Konsortium NFDI4Objects (N4O) ist eine Forschungsdateninfrastruktur für die materiellen Hinterlassenschaften der Menschheitsgeschichte und richtet sich an Forscher*innen und Praktiker*innen, deren Arbeitsschwerpunkte auf dem materiellen Erbe von rund drei Millionen Jahren Menschheits- und Umweltgeschichte liegen.
+Eine Strategie, um eine Datenhomogenisierung und inhaltliche Vernetzung innerhalb von NFDI4Objects zu implementieren und eine Anschlussfähigkeit an die anderen konsortialen Knowledge Graphen zu gewährleisten, ist die Erstellung eines gemeinsamen Minimal-Objekt-Metadatensets (N4O MMDS) und einer dazugehörigen Objekt-Ontologie (N4O OO). Diese wird in NFDI4Objects in einer Temporary Working Group (TWG) erfolgen. In den Bereichen der Sammlungen sind Austauschformate wie LIDO und die Minimaldatensatz-Empfehlung für Museen und Sammlungen der DDB bereits implementiert und müssen für die heterogenen Kontexte und Daten von NFDI4Objects noch angepasst werden. Die N4O OO ist eine RDF-Repräsentation (Basis für Linked Open Data) des Metadatensets und basiert u.A. auf CIDOC-CRM,  schema.org, PROV-O. Hier kann die LADO-Ontologie des LEIZA eine Basis bieten. Der N4O MMDS und die N4O OO bilden den Objektzyklus, der sukzessive durch die NFDI4Objects Task Areas mit den Aufgaben documenting, collecting, analysing und protecting mit Informationen angereichert wird, ab. Diese Strukturen werden genutzt, da der Datenfluss in den Knowledge Graphen des Konsortiums LIDO/XML und RDF vorsieht (Abb. 1). Kleine FAIRification Tools wie das SPARQLing Unicorn Plugin, und das SPARQL Unicorn Ontology Documentation Tool können zudem dabei helfen, die für den Knowledge Graphen benötigten RDF-Daten zu visualisieren und für den Menschen lesbar bereitzustellen.
+Dieser Vortrag nimmt existierende Beispiele aus der Archäologie (z.B. Irish Ogham Stones, Samian Research, ARS3D, NAVISone, Brandenburg 5000 BC, …), den Geowissenschaften (z.B. Campanian Ignimbrite), sowie aus dem Sammlungskontext (z.B. Teilbestände aus Goethes heterogenen Sammlungen an der Klassik Stiftung Weimar).  Anhand dieser soll aufgezeigt werden, wo die Gemeinsamkeiten und Unterschiede der Daten, aber auch wo die Herausforderungen bei der Erstellung einer übergreifenden, generischen Struktur zum Datenaustausch und Aufbau eines Knowledge Graphen liegen.
+Die LOD der Irish Ogham Stones basieren auf der Ogham Ontology, die u.A. CIDOC-CRM, SKOS, FOAF, GeoSPARQL und PROV-O als Grundlage nimmt. Die RDF-Modellierungen von Samian Research, ARS3D, NAVISone und Brandenburg 5000 BC bilden eine Teilmenge der LADO Ontologie. Diese Ontologie entwickelte sich aus der “Ogham Ontology” und basiert daher auf den gleichen Grundsätzen und Basis-Ontologien. Die Campanian Ignimbrite Daten basieren auf der “Fuzzy Spatial Locations Ontology”, welche wiederum auf u.A. auf CIDOC-CRM und schema.org basiert. Die Daten der Klassik Stiftung Weimar werden hingegen in einer relationalen Museumsdatenbank erfasst, die beim Datenexport u. a. das Metadatenschema LIDO ausgibt.
+Zudem wird aufgezeigt, wie man sich aktiv an der TWG zur Entwicklung einer N4O Objects Ontology (N4O OO) und eines Minimal Metadaten-Set (N4O MMDS) beteiligen kann."""@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i4/e13#authors> ;
+    bibo:doi "10.5281/zenodo.13364680" ;
+    bibo:locator "#13" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i4/e13#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i4/e13#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.13364680> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i4/e13#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i4/e13/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/13364681> ;
+    sqp:citationLabel "6(4), #13" ;
+    sqp:entryNumber "13"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

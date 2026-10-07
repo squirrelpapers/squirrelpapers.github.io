@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/5-workshop-der-ag-caa-2014",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/5-workshop-der-ag-caa-2014#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/5-workshop-der-ag-caa-2014#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany"
+      },
+      "rdfs:label": "5. Workshop der AG CAA",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2014-02-15"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany"
+      },
+      "schema:name": "5. Workshop der AG CAA",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2014-02-15"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/5-workshop-der-ag-caa-2014#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "5. Workshop der AG CAA"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/5-workshop-der-ag-caa-2014#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2014-02-15T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2014-02-15T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.055556 48.52)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.055556 48.52)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q3806"
+      },
+      "rdfs:label": "Tübingen",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "Tübingen, Germany",
+      "schema:latitude": 48.52,
+      "schema:longitude": 9.055556
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/tubingen-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.055556 48.52)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e2",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Die räumliche Verteilung und das zeitliche Muster, sowie die Identifizierung von Produktionszentren und die Rekonstruktion von Handelsnetzen der Töpfer, sind zentrale Fragen aktueller archäologischer Forschungen zur ‚Samian Ware‘. Die Studien basieren auf einem Datensatz einer internationalen Gruppe von Wissenschaftlern. Er umfasst detaillierte Daten zu Töpfern, Keramik-Fragmenten und deren Fundorten. Zudem sind Informationen zu Befunden, Töpfermatrizen, Gefäßformen, Produktionsstätten, Formschüsselherstellern und Angaben zur absoluten zeitlichen Datierung erfasst. Der Datensatz ist damit außerordentlich gut geeignet, aktuelle Technologien interoperabler Datenhaltung, insbesondere das Konzept der Linked Open Data (LOD) und der semantischen Modellierung archäologischer Informationen, exemplarisch zu verdeutlichen.  Eines der Prinzipien der Linked Open Data ist die Bereitstellung der Daten als Ressource. Diese ist sowohl menschenlesbar, steht jedoch auch zur computertechnische Verarbeitung zur Verfügung. Ein Gefäßfragment und dessen Fundort wären beispielsweise mit einem Browser im World Wide Web unter einer HTTP-Adresse frei abrufbar. Ein weiterer Informationsgewinn entsteht durch die Nutzung kontrollierter Vokabulare, nicht nur für die Beschreibung der Ressourcen, sondern auch für deren Beziehungen untereinander. In einer Reihe von Wissenschaftsfeldern werden diese Konzepte erfolgreich eingesetzt, so dass mit diesen Konzepten erstmals eine Technologie zur Verfügung steht, welche eine direkte Verknüpfung heterogener Informationen aus unterschiedlichen archäologischen Datenbanken gewährleistet. Der Vortrag führt in die Migration der Daten sowie die Möglichkeiten und die Problematik der Modellierung der Attribute und Beziehungen mit Hilfe bestehender LOD-Konzepte und kontrollierter Vokabularien ein und zeigt eigene Ansätze zur Lösung auf. Insbesondere wird die Verlinkung zu anderen bereits bestehenden Projekten diskutiert. So bietet das Pleiades-Projekt eine Plattform, die geographische Elemente z.B. in Texten mit existierenden Ressourcen verbindet. Die Fund- und Produktionsstätten sind mit den Pleiades Places verknüpft, wodurch eine Vielzahl weiterer archäologischer und historischer Informationen über das Pelagios Projekt eingebunden sind. Zudem wird das Potential der Verlinkung und Abfrage von heterogenen Informationen zwischen Töpfern, Fragmenten und Orten und deren relativ-chronologische Beziehungen über LOD mit einer webbasierten Schnittstelle aufgezeigt. Die Komplexität des Netzes sich bedingender Datierungen der Funde ist im Datenmodell direkt abgebildet. Entsprechend schnell reagiert das System auf Modifikationen und erlaubt so eine Echtzeitvisualisierung der Simulation von Änderungen in diesen Bezügen. Die Ergebnisse zeigen, dass Forschung im Bereich der römischen Keramik vom Konzept der Linked Open Data profitiert. Vielversprechende Perspektiven entstehen durch die Verknüpfung mit weiteren Ressourcen wie Matrizen, Formschlüsseln und Münzen. Die technologische Basis ist eine PostgreSQL/PostGIS Datenbank als Kommunikationsplattform für JAVA Servlets und dem GeoServer, der OGC konforme Webdienste (WMS/WFS) anbietet. Die Daten werden in einer Schnittstelle maschinenlesbar und REST-konform zur Verfügung gestellt, die mit Hilfe von JAVA und den Frameworks Jersey, JAX-B und Hibernate Spatial, sowie dem GeoServer verarbeitet werden. Die beschriebenen Strukturen erlauben somit eine webbasierte Kartenansicht auf dem Client mit der JavaScript Bibliothek Leaflet unter Einbeziehung der Abhängigkeiten zwischen Töpfern, Fragmenten und Fundorten. Darüber hinaus ergibt eine ontologische Modellierung der semantischen Bezüge Potentiale für die Extraktion des in den Daten implizit vorhandenen Wissens. Der Vortrag ist das Ergebnis einer Masterarbeit an der Fachhochschule Mainz und wird die Ergebnisse kritisch reflektieren und damit einen Einstieg in diese neue Technologie erleichtern."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.292971",
+      "bibo:locator": "#2",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/5-workshop-der-ag-caa-2014"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3"
+      },
+      "dcat:keyword": [
+        "archaeology",
+        "linked data",
+        "linked open data",
+        "roman",
+        "samian ware"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i3/e2/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "dct:description": {
+        "@language": "de",
+        "@value": "Die räumliche Verteilung und das zeitliche Muster, sowie die Identifizierung von Produktionszentren und die Rekonstruktion von Handelsnetzen der Töpfer, sind zentrale Fragen aktueller archäologischer Forschungen zur ‚Samian Ware‘. Die Studien basieren auf einem Datensatz einer internationalen Gruppe von Wissenschaftlern. Er umfasst detaillierte Daten zu Töpfern, Keramik-Fragmenten und deren Fundorten. Zudem sind Informationen zu Befunden, Töpfermatrizen, Gefäßformen, Produktionsstätten, Formschüsselherstellern und Angaben zur absoluten zeitlichen Datierung erfasst. Der Datensatz ist damit außerordentlich gut geeignet, aktuelle Technologien interoperabler Datenhaltung, insbesondere das Konzept der Linked Open Data (LOD) und der semantischen Modellierung archäologischer Informationen, exemplarisch zu verdeutlichen.  Eines der Prinzipien der Linked Open Data ist die Bereitstellung der Daten als Ressource. Diese ist sowohl menschenlesbar, steht jedoch auch zur computertechnische Verarbeitung zur Verfügung. Ein Gefäßfragment und dessen Fundort wären beispielsweise mit einem Browser im World Wide Web unter einer HTTP-Adresse frei abrufbar. Ein weiterer Informationsgewinn entsteht durch die Nutzung kontrollierter Vokabulare, nicht nur für die Beschreibung der Ressourcen, sondern auch für deren Beziehungen untereinander. In einer Reihe von Wissenschaftsfeldern werden diese Konzepte erfolgreich eingesetzt, so dass mit diesen Konzepten erstmals eine Technologie zur Verfügung steht, welche eine direkte Verknüpfung heterogener Informationen aus unterschiedlichen archäologischen Datenbanken gewährleistet. Der Vortrag führt in die Migration der Daten sowie die Möglichkeiten und die Problematik der Modellierung der Attribute und Beziehungen mit Hilfe bestehender LOD-Konzepte und kontrollierter Vokabularien ein und zeigt eigene Ansätze zur Lösung auf. Insbesondere wird die Verlinkung zu anderen bereits bestehenden Projekten diskutiert. So bietet das Pleiades-Projekt eine Plattform, die geographische Elemente z.B. in Texten mit existierenden Ressourcen verbindet. Die Fund- und Produktionsstätten sind mit den Pleiades Places verknüpft, wodurch eine Vielzahl weiterer archäologischer und historischer Informationen über das Pelagios Projekt eingebunden sind. Zudem wird das Potential der Verlinkung und Abfrage von heterogenen Informationen zwischen Töpfern, Fragmenten und Orten und deren relativ-chronologische Beziehungen über LOD mit einer webbasierten Schnittstelle aufgezeigt. Die Komplexität des Netzes sich bedingender Datierungen der Funde ist im Datenmodell direkt abgebildet. Entsprechend schnell reagiert das System auf Modifikationen und erlaubt so eine Echtzeitvisualisierung der Simulation von Änderungen in diesen Bezügen. Die Ergebnisse zeigen, dass Forschung im Bereich der römischen Keramik vom Konzept der Linked Open Data profitiert. Vielversprechende Perspektiven entstehen durch die Verknüpfung mit weiteren Ressourcen wie Matrizen, Formschlüsseln und Münzen. Die technologische Basis ist eine PostgreSQL/PostGIS Datenbank als Kommunikationsplattform für JAVA Servlets und dem GeoServer, der OGC konforme Webdienste (WMS/WFS) anbietet. Die Daten werden in einer Schnittstelle maschinenlesbar und REST-konform zur Verfügung gestellt, die mit Hilfe von JAVA und den Frameworks Jersey, JAX-B und Hibernate Spatial, sowie dem GeoServer verarbeitet werden. Die beschriebenen Strukturen erlauben somit eine webbasierte Kartenansicht auf dem Client mit der JavaScript Bibliothek Leaflet unter Einbeziehung der Abhängigkeiten zwischen Töpfern, Fragmenten und Fundorten. Darüber hinaus ergibt eine ontologische Modellierung der semantischen Bezüge Potentiale für die Extraktion des in den Daten implizit vorhandenen Wissens. Der Vortrag ist das Ergebnis einer Masterarbeit an der Fachhochschule Mainz und wird die Ergebnisse kritisch reflektieren und damit einen Einstieg in diese neue Technologie erleichtern."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.292971",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2014-02-15"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Linked Samian Ware: Potentiale von Linked Data in der Archäologie"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.292971"
+      },
+      "prism:number": "3",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/292971"
+      },
+      "sqp:citationLabel": "1(3), #2",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2014-02-15T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2014-02-15T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.292971",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/292971"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "5806751"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/292971/files/2014_05_02_AGCAA_Tuebingen_LOD.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2014_05_02_AGCAA_Tuebingen_LOD.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "ad6c28c676c4790ce2500784ed2775e4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e2#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Linked Samian Ware: Potentiale von Linked Data in der Archäologie"
+    }
+  ]
+}

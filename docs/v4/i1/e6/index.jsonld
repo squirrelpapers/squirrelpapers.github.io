@@ -1,0 +1,339 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5120-1548",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5120-1548#orcid"
+      },
+      "foaf:familyName": "Scholl",
+      "foaf:givenName": "Dominik",
+      "foaf:name": "Dominik Scholl",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0001-5120-1548"
+      },
+      "rdfs:label": "Dominik Scholl",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0001-5120-1548"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5120-1548#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0001-5120-1548",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/behrens-sarah",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Behrens",
+      "foaf:givenName": "Sarah",
+      "foaf:name": "Sarah Behrens",
+      "rdfs:label": "Sarah Behrens"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/godeke-anna-katharina",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Gödeke",
+      "foaf:givenName": "Anna-Katharina",
+      "foaf:name": "Anna-Katharina Gödeke",
+      "rdfs:label": "Anna-Katharina Gödeke"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/schneider-nico",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Schneider",
+      "foaf:givenName": "Nico",
+      "foaf:name": "Nico Schneider",
+      "rdfs:label": "Nico Schneider"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/schwarzkopf-christopher",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Schwarzkopf",
+      "foaf:givenName": "Christopher",
+      "foaf:name": "Christopher Schwarzkopf",
+      "rdfs:label": "Christopher Schwarzkopf"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e6",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ReportDocument",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Mit dem Fellow-Programm Freies  Wissen unterstützte Wikimedia Deutschland e.  V. – gemeinsam mit verschiedenen Partner*innen – Wissenschaftler*innen aus Deutschland, Österreich und der Schweiz über fünf Jahre dabei, ihre eigene Forschungsarbeit zu öffnen und damit zu Freiem Wissen beizutragen. Durch Qualifizierungsangebote, Mentoring, finanzielle Unterstützung und Vernetzung mit anderen Aktiven im Bereich Offene Wissenschaft konnten insgesamt 90 Fellows zu Praktiker*innen und Botschafter*innen für Freies Wissen ausgebildet werden. Die Fellows konnten durch die Teilnahme am Programm ihre Kenntnisse über Theorie und Praxis Offener Wissenschaft maßgeblich erweitern, ihr wissenschaftliches Umfeld dahingehend sensibilisieren und ihr  Wissen weitergeben. Aus der Praxis-Community, die sich aus und um das Programm herum gebildet hat, gingen zahlreiche Initiativen zur Förderung Freien  Wissens in der Wissenschaft hervor und es konnten einzelne Veränderungen zu Gunsten von Offener  Wissenschaft auf institutioneller Ebene erreicht werden."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.5788378",
+      "bibo:locator": "#6",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:report"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1"
+      },
+      "dcat:keyword": [
+        "Open Research",
+        "Open Scholarship",
+        "Open Science"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v4/i1/e6/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:report"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5120-1548"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/behrens-sarah"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/godeke-anna-katharina"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/schneider-nico"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/schwarzkopf-christopher"
+        }
+      ],
+      "dct:description": {
+        "@language": "de",
+        "@value": "Mit dem Fellow-Programm Freies  Wissen unterstützte Wikimedia Deutschland e.  V. – gemeinsam mit verschiedenen Partner*innen – Wissenschaftler*innen aus Deutschland, Österreich und der Schweiz über fünf Jahre dabei, ihre eigene Forschungsarbeit zu öffnen und damit zu Freiem Wissen beizutragen. Durch Qualifizierungsangebote, Mentoring, finanzielle Unterstützung und Vernetzung mit anderen Aktiven im Bereich Offene Wissenschaft konnten insgesamt 90 Fellows zu Praktiker*innen und Botschafter*innen für Freies Wissen ausgebildet werden. Die Fellows konnten durch die Teilnahme am Programm ihre Kenntnisse über Theorie und Praxis Offener Wissenschaft maßgeblich erweitern, ihr wissenschaftliches Umfeld dahingehend sensibilisieren und ihr  Wissen weitergeben. Aus der Praxis-Community, die sich aus und um das Programm herum gebildet hat, gingen zahlreiche Initiativen zur Förderung Freien  Wissens in der Wissenschaft hervor und es konnten einzelne Veränderungen zu Gunsten von Offener  Wissenschaft auf institutioneller Ebene erreicht werden."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.5788378",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2022-02-01"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Fellow-Programm Freies Wissen 2016 - 2021"
+      },
+      "dct:type": {
+        "@id": "sqpt:report"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.5788378"
+      },
+      "prism:number": "1",
+      "prism:volume": "4",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/5788379"
+      },
+      "sqp:citationLabel": "4(1), #6",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/behrens-sarah"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/schwarzkopf-christopher"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/godeke-anna-katharina"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5120-1548"
+      },
+      "rdf:_5": {
+        "@id": "https://w3id.org/squirrelpapers/person/schneider-nico"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-5120-1548"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/behrens-sarah"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/godeke-anna-katharina"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/schneider-nico"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/schwarzkopf-christopher"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e6"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-02-01T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-02-01T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.5788378",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e6"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/5788379"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "4079480"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/5788379/files/Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "Fellow-Programm Freies Wissen  Revisited_EZ_08_DE.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "1fdc8ee7800a30df10066c045b8c1852"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e6#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Fellow-Programm Freies Wissen 2016 - 2021"
+    }
+  ]
+}

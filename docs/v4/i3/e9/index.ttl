@@ -1,0 +1,153 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e9#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v4/i3/e9> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v4/i3/e9#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v4/i3/e9> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9499-5840" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e9#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e9#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2022-08-10T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2022-08-10T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v4/i3/e9#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.6976311" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e9#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CAA2022_Oxford_LinkedPipes_v2.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v4/i3/e9#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v4/i3/e9> ;
+    dcat:accessURL <https://zenodo.org/records/6979739> ;
+    dcat:byteSize "6004614"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/6979739/files/CAA2022_Oxford_LinkedPipes_v2.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e9#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "db85028d801e4b4d2ddb04bc4a9a6c60"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v4/i3/e9#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Linked Pipes: A Little Minion for reproducible research" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Timo Homburg" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9499-5840> ;
+    foaf:familyName "Homburg" ;
+    foaf:givenName "Timo" ;
+    foaf:name "Timo Homburg" ;
+    schema:identifier <https://orcid.org/0000-0002-9499-5840> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e9> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "4" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> ;
+    dct:description """Linked Pipes: A little minion for reproducible research
+Florian Thiery, RGZM; Timo Homburg, University of Applied Sciences Mainz
+At Linked Pasts IV in Mainz 2018, the Linked Pasts Network had a session on "Linked Data Tools and Pipelines": As a result, the Linked Pipes Working Group was born. The goal: creating so-called Linked Pipes as semantically modelled pipelines for (not only) LOD related workflows using the help of the WWW, and existing research software solutions such as JavaScript based little minions. Currently Linked Pipes are developed by the Research Squirrel Engineers Network (Timo Homburg and Florian Thiery), and is part of the Pelagios Network Annotation Activity as well as the Linked Pasts Network.
+Digital Workflows (as known as Linked Pipes) exist in mind, but researchers should visualise and semantically model them using well-known ontologies such as the Provenance Ontology (PROV-O) and the Dataflow Ontology (DFD) to create a part for reproducible research. Additionally, research workflows are usually not published in interoperable formats, such as RDF. It would be an improvement for archaeology if researchers could document Liked Pipes e.g. for a research publication and share the workflow with colleagues. Linked Pipes consists of tools, which can be easily part of the so-called Linked Open Data Cloud and therefore interlinked with other tools by using Wikidata [1] where you can create or edit existing items (research tools) with the property “used by” (P1535) “Linked Pipes” (Q73897190), e.g. SPARQLing Unicorn QGIS Plugin (Q74005133), Recogito (Q74692524), Annotoriuos (Q110585388). Linked Pipes should be reusable once defined in Linked Data. Creating a “Linked Pipe Registry” will help to share Linked Pipes in a central repository. But how? a) a registry file in a git repository which links to Pipe RDF files published elsewhere save, e.g. Zenodo -> DOI or Solid Pod -> access control, and b) visualisation of these pipes on demand in JavaScript in a Linked Pipe Viewer [2].
+This minion talk focuses on the Linked Pipe Viewer published on Github [3]. The viewer is based on JavScript and the flowchart.js library. Currently this framework does not support the “Yourdon / DeMarco” notation, as DFD visualising backbone. We currently adopted the syntax, to model digital data(-stores) (subroutine|data|blue), not digital resources (inputoutput|toolwd|purple), tool in Wikidata (subroutine|data|yellow) and local (maybe unpublished) tools (inputoutput|tool|yellow) and started to model use cases:
+• Digital Text -> Recogito Geo Annotation -> QGIS Map
+• Book Text -> Recogito Townland Annotation -> QGIS Map
+• Ogham CIIC Book -> R based Density Map
+• Samian Research Data -> Samian Ware in Wikidata
+• 3D Scan of clay tablet -> Machine Learning Data
+References
+[1] https://www.wikidata.org/wiki/Wikidata:WikiProject_LinkedPipes
+[2] http://viewer.linkedpipes.xyz
+[3] https://github.com/Research-Squirrel-Engineers/LinkedPipes"""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.6976311" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v4/i3> ;
+    dct:issued "2022-08-10"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Linked Pipes: A Little Minion for reproducible research"@en ;
+    dct:type sqpt:presentation ;
+    bibo:abstract """Linked Pipes: A little minion for reproducible research
+Florian Thiery, RGZM; Timo Homburg, University of Applied Sciences Mainz
+At Linked Pasts IV in Mainz 2018, the Linked Pasts Network had a session on "Linked Data Tools and Pipelines": As a result, the Linked Pipes Working Group was born. The goal: creating so-called Linked Pipes as semantically modelled pipelines for (not only) LOD related workflows using the help of the WWW, and existing research software solutions such as JavaScript based little minions. Currently Linked Pipes are developed by the Research Squirrel Engineers Network (Timo Homburg and Florian Thiery), and is part of the Pelagios Network Annotation Activity as well as the Linked Pasts Network.
+Digital Workflows (as known as Linked Pipes) exist in mind, but researchers should visualise and semantically model them using well-known ontologies such as the Provenance Ontology (PROV-O) and the Dataflow Ontology (DFD) to create a part for reproducible research. Additionally, research workflows are usually not published in interoperable formats, such as RDF. It would be an improvement for archaeology if researchers could document Liked Pipes e.g. for a research publication and share the workflow with colleagues. Linked Pipes consists of tools, which can be easily part of the so-called Linked Open Data Cloud and therefore interlinked with other tools by using Wikidata [1] where you can create or edit existing items (research tools) with the property “used by” (P1535) “Linked Pipes” (Q73897190), e.g. SPARQLing Unicorn QGIS Plugin (Q74005133), Recogito (Q74692524), Annotoriuos (Q110585388). Linked Pipes should be reusable once defined in Linked Data. Creating a “Linked Pipe Registry” will help to share Linked Pipes in a central repository. But how? a) a registry file in a git repository which links to Pipe RDF files published elsewhere save, e.g. Zenodo -> DOI or Solid Pod -> access control, and b) visualisation of these pipes on demand in JavaScript in a Linked Pipe Viewer [2].
+This minion talk focuses on the Linked Pipe Viewer published on Github [3]. The viewer is based on JavScript and the flowchart.js library. Currently this framework does not support the “Yourdon / DeMarco” notation, as DFD visualising backbone. We currently adopted the syntax, to model digital data(-stores) (subroutine|data|blue), not digital resources (inputoutput|toolwd|purple), tool in Wikidata (subroutine|data|yellow) and local (maybe unpublished) tools (inputoutput|tool|yellow) and started to model use cases:
+• Digital Text -> Recogito Geo Annotation -> QGIS Map
+• Book Text -> Recogito Townland Annotation -> QGIS Map
+• Ogham CIIC Book -> R based Density Map
+• Samian Research Data -> Samian Ware in Wikidata
+• 3D Scan of clay tablet -> Machine Learning Data
+References
+[1] https://www.wikidata.org/wiki/Wikidata:WikiProject_LinkedPipes
+[2] http://viewer.linkedpipes.xyz
+[3] https://github.com/Research-Squirrel-Engineers/LinkedPipes"""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v4/i3/e9#authors> ;
+    bibo:doi "10.5281/zenodo.6976311" ;
+    bibo:locator "#9" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v4/i3/e9#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v4/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v4/i3/e9#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.6976311> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v4/i3/e9#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v4/i3> ;
+    dcat:keyword "Linked Open Data",
+        "Linked Pipes" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v4/i3/e9/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/6979739> ;
+    sqp:citationLabel "4(3), #9" ;
+    sqp:entryNumber "9"^^xsd:positiveInteger .
+

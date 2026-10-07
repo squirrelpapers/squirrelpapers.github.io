@@ -1,0 +1,352 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/wintervortrage-2019",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/wintervortrage-2019#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/wintervortrage-2019#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/gesellschaft-der-freunde-des-romisch"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/gesellschaft-der-freunde-des-romisch"
+      },
+      "rdfs:label": "Wintervorträge 2019",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2019-04-02"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/gesellschaft-der-freunde-des-romisch"
+      },
+      "schema:name": "Wintervorträge 2019",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2019-04-02"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/wintervortrage-2019#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Wintervorträge 2019"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/wintervortrage-2019#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-04-02T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-04-02T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/gesellschaft-der-freunde-des-romisch",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.273611 49.999444)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.273611 49.999444)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/gesellschaft-der-freunde-des-romisch#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/gesellschaft-der-freunde-des-romisch#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1720"
+      },
+      "rdfs:label": "Mainz",
+      "schema:addressCountry": {
+        "@id": "wd:Q12548"
+      },
+      "schema:description": "Gesellschaft der Freunde des Römisch-Germanischen Zentralmuseums in Mainz e.V. Mainz, Germany",
+      "schema:latitude": 49.999444,
+      "schema:longitude": 8.273611
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/gesellschaft-der-freunde-des-romisch#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.273611 49.999444)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e6",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Seit Erfindung des WWW und des Internets entstanden immer mehr Online-Datenbanken in den Geistes- und Kulturwissenschaften, wie auch der Archäologie. Das RGZM war seit Mitte der 1990er Jahre mit den transnationalen und interdisziplinären NAVIS- und Samian-Datenbanken ein Vorreiter auf diesem Gebiet. Auch heute publizieren immer mehr Institutionen ihre archäologischen Daten als Open Data im Web. Durch Verknüpfung dieser Daten entsteht ein Wissensnetz, das auch für die Archäologie immer interessanter wird. Auf diesem Wege publiziert und verknüpft auch das RGZM seine Daten mit anderen Daten als sogenannte Linked Open Data z.B. in den Projekten zur afrikanischen Terra Sigillata 3D (ARS3D) oder dem RGZM Meta-Index als übergreifendes Suchportal und erforscht neue digitale Methodik in Forschungstools wie im Kompetenzbereich Wissenschaftliche IT das Dating Mechanisms Projekt. Der Vortrag zeigt aktuelle Beispiele und Ideen zum Internet als Daten-Netzwerk für die Zukunft auf. Kann dieser Schritt in die verlinkte Digitalität die Zukunft der Archäologie sein?"
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.2620929",
+      "bibo:locator": "#6",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/wintervortrage-2019"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2"
+      },
+      "dcat:keyword": [
+        "Archäologie 4.0",
+        "Data Mining",
+        "Digitale Transformation",
+        "Industrie 4.0",
+        "Linked Data",
+        "Semantic Web",
+        "Web 3.0"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i2/e6/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "dct:description": {
+        "@language": "de",
+        "@value": "Seit Erfindung des WWW und des Internets entstanden immer mehr Online-Datenbanken in den Geistes- und Kulturwissenschaften, wie auch der Archäologie. Das RGZM war seit Mitte der 1990er Jahre mit den transnationalen und interdisziplinären NAVIS- und Samian-Datenbanken ein Vorreiter auf diesem Gebiet. Auch heute publizieren immer mehr Institutionen ihre archäologischen Daten als Open Data im Web. Durch Verknüpfung dieser Daten entsteht ein Wissensnetz, das auch für die Archäologie immer interessanter wird. Auf diesem Wege publiziert und verknüpft auch das RGZM seine Daten mit anderen Daten als sogenannte Linked Open Data z.B. in den Projekten zur afrikanischen Terra Sigillata 3D (ARS3D) oder dem RGZM Meta-Index als übergreifendes Suchportal und erforscht neue digitale Methodik in Forschungstools wie im Kompetenzbereich Wissenschaftliche IT das Dating Mechanisms Projekt. Der Vortrag zeigt aktuelle Beispiele und Ideen zum Internet als Daten-Netzwerk für die Zukunft auf. Kann dieser Schritt in die verlinkte Digitalität die Zukunft der Archäologie sein?"
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.2620929",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2019-04-02"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Das Internet als Daten-Netzwerk: Die Zukunft der Archäologie?"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.2620929"
+      },
+      "prism:number": "2",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/2620930"
+      },
+      "sqp:citationLabel": "1(2), #6",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-04-02T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-04-02T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.2620929",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/2620930"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "21320204"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/2620930/files/2019_04_02_Wintervortraege_Archaelogie40.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2019_04_02_Wintervortraege_Archaelogie40.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "4312559ff3449911fec758a70c3f0a02"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i2/e6#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Das Internet als Daten-Netzwerk: Die Zukunft der Archäologie?"
+    }
+  ]
+}

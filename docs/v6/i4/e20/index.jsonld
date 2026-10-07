@@ -1,0 +1,386 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/open-science-festival-mainz-2024-mainz-germany-2024",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/open-science-festival-mainz-2024-mainz-germany-2024#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/open-science-festival-mainz-2024-mainz-germany-2024#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/jgu-mainz-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/jgu-mainz-germany"
+      },
+      "rdfs:label": "Open Science Festival Mainz 2024, Mainz, Germany",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2024-09-17"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/jgu-mainz-germany"
+      },
+      "schema:name": "Open Science Festival Mainz 2024, Mainz, Germany",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2024-09-17"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/open-science-festival-mainz-2024-mainz-germany-2024#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Open Science Festival Mainz 2024, Mainz, Germany"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/open-science-festival-mainz-2024-mainz-germany-2024#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-09-17T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-09-17T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid"
+      },
+      "foaf:familyName": "Homburg",
+      "foaf:givenName": "Timo",
+      "foaf:name": "Timo Homburg",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-9499-5840"
+      },
+      "rdfs:label": "Timo Homburg",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-9499-5840"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-9499-5840",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/jgu-mainz-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.273611 49.999444)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.273611 49.999444)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/jgu-mainz-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/jgu-mainz-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1720"
+      },
+      "rdfs:label": "Mainz",
+      "schema:addressCountry": {
+        "@id": "wd:Q12548"
+      },
+      "schema:description": "JGU, Mainz Germany",
+      "schema:latitude": 49.999444,
+      "schema:longitude": 8.273611
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/jgu-mainz-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.273611 49.999444)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e20",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Expression",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Linked Open Data (LOD) is an essential component of modern RDM initiatives for the FAIRification and comprehensible modelling of research data in the spirit of Open Science. Especially in the NFDI – and its various consortia – ontologies and the resulting LOD play a decisive role in linking heterogeneous and interdisciplinary research data. The W3C standard used for this purpose – the Resource Description Framework (RDF) – already offers a diverse toolkit to enable data to interact with each other in an interoperable manner. Geodata in particular is an entity that brings different data together.\nIn addition to its established standards from the OGC service family (WMS, WFS, OGC API features, ...), the Open Geospatial Consortium (OGC) has also implemented a standard for geodata in RDF: GeoSPARQL.\nHowever, the creation, publication and processing of (geo-)LOD in daily work, e.g., GIS, is not trivial and requires some expertise. In addition, community hubs such as Wikidata (Wikimedia) offer great opportunities for the participation of citizen scientists and the integration of data from Citizen Science. The SPARQL Unicorn was developed as a QGIS plugin [https://t1p.de/sparqlunicorn-qgis], which is capable of importing RDF data into the local GIS via SPARQL queries, to integrate this into daily working practice. It also offers options for transforming geodata into linked data and for generating HTML documentation of ontologies and research data [https://t1p.de/sparqlunicorn-ontdoc].\nThis workshop provides basic knowledge of geodata as Linked Open Data, the SPARQL query language and Wikidata. In addition, FAIRification tools such as SPARQL Unicorn will be introduced to integrate geodata modelled as LOD in daily work, e.g. with GIS. The workshop relies on data from the humanities and cultural sciences, in particular from archaeology."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.13980966",
+      "bibo:locator": "#20",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/open-science-festival-mainz-2024-mainz-germany-2024"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:workshop"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v6/i4/e20/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:workshop"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Linked Open Data (LOD) is an essential component of modern RDM initiatives for the FAIRification and comprehensible modelling of research data in the spirit of Open Science. Especially in the NFDI – and its various consortia – ontologies and the resulting LOD play a decisive role in linking heterogeneous and interdisciplinary research data. The W3C standard used for this purpose – the Resource Description Framework (RDF) – already offers a diverse toolkit to enable data to interact with each other in an interoperable manner. Geodata in particular is an entity that brings different data together.\nIn addition to its established standards from the OGC service family (WMS, WFS, OGC API features, ...), the Open Geospatial Consortium (OGC) has also implemented a standard for geodata in RDF: GeoSPARQL.\nHowever, the creation, publication and processing of (geo-)LOD in daily work, e.g., GIS, is not trivial and requires some expertise. In addition, community hubs such as Wikidata (Wikimedia) offer great opportunities for the participation of citizen scientists and the integration of data from Citizen Science. The SPARQL Unicorn was developed as a QGIS plugin [https://t1p.de/sparqlunicorn-qgis], which is capable of importing RDF data into the local GIS via SPARQL queries, to integrate this into daily working practice. It also offers options for transforming geodata into linked data and for generating HTML documentation of ontologies and research data [https://t1p.de/sparqlunicorn-ontdoc].\nThis workshop provides basic knowledge of geodata as Linked Open Data, the SPARQL query language and Wikidata. In addition, FAIRification tools such as SPARQL Unicorn will be introduced to integrate geodata modelled as LOD in daily work, e.g. with GIS. The workshop relies on data from the humanities and cultural sciences, in particular from archaeology."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.13980966",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2024-09-17"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Geodata in Linked Open Data and Wikidata in Practice"
+      },
+      "dct:type": {
+        "@id": "sqpt:workshop"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.13980966"
+      },
+      "prism:number": "4",
+      "prism:volume": "6",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/13980967"
+      },
+      "sqp:citationLabel": "6(4), #20",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "20"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-09-17T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-09-17T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.13980966",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/13980967"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "34499136"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/13980967/files/N4O_OSF24_Workshop_LOD.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "N4O_OSF24_Workshop_LOD.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "69464e89ec5cb6746a52fcfb1c2d507b"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e20#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Geodata in Linked Open Data and Wikidata in Practice"
+    }
+  ]
+}

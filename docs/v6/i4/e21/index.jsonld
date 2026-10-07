@@ -1,0 +1,406 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e21"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e26"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open"
+      },
+      "rdfs:label": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2024-11-20"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open"
+      },
+      "schema:name": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2024-11-20"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "1st Base4NFDI User Conference (UC4B2024), Berlin, Germany"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-20T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-20T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid"
+      },
+      "foaf:familyName": "Fricke",
+      "foaf:givenName": "Fabian",
+      "foaf:name": "Fabian Fricke",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3223-2079"
+      },
+      "rdfs:label": "Fabian Fricke",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3223-2079"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3223-2079",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(13.383333 52.516667)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(13.383333 52.516667)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q64"
+      },
+      "rdfs:label": "Berlin",
+      "schema:addressCountry": {
+        "@id": "wd:Q148499"
+      },
+      "schema:description": "Fraunhofer FOKUS – Fraunhofer Institute for Open Communication Systems, Berlin, Germany",
+      "schema:latitude": 52.516667,
+      "schema:longitude": 13.383333
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/fraunhofer-fokus-fraunhofer-institute-for-open#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(13.383333 52.516667)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e21",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ConferencePoster",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "NFDI4Objects (N4O) represents a broad community dealing with material remains of human history from around 3 million years and involves numerous disciplines from the humanities, cultural studies and natural sciences with an archaeological and historical focus [1]. The objects examined include serially produced objects such as coins and organic remains such as wood, bones, or pollen. The objects and their relations are constantly changing, causing individual biographies. Therefore, the N4O central tasks include (a) comprehending representations of physical objects as research data, (b) relating them to individual contexts, (c) transforming them adequately into the digital space, and (d) curating them according to domain-specific requirements. Consequently, the NFDI4Objects Research Data Lifecycle goes along with the Object Biography. This leads to a paradigm derived from the FAIRification workflow: (i) capturing, (ii) semantic (meta) data modelling and qualifying, (iii) applying (scientific) analysis, (iv) sharing the data by visualisation and FAIRified publication, (v) interlinking and integrating data into knowledge graphs [2].\nWithin the NFDI infrastructure and to apply the FAIR principles, research (meta)data must be shared, interlinked, and modelled in a common and community-accepted way. To implement this, N4O Fundamental Services (N4O FS) and N4O Community Services (N4O CS) will be provided. N4O FS are, e.g., DANTE, cocoda [3], BARTOC, the N4O Knowledge Graph [4], the FOSS N4O Management Hub [5], and the N4O Commons Inkubator [6]. N4O CS are FAIRification Tools and Services such as Alligator, Academic Meta Tool, re3dragon, SPARQLing Unicorn QGIS Plugin [7], archaeology.link, and Wikibase / Semantic Media Wiki / Triplestore infrastructures.\nN4O contains many terminologies [8], such as ontologies, authority files, and community-driven vocabularies, that must be published and indexed (via DANTE and BARTOC) and semantically aligned (via Cocoda [3]) to contribute to TS4NFDI. Building a Knowledge Graph Infrastructure within NFDI requires the establishment of consortia-driven Knowledge Graphs that make data interchangeable within the consortium itself. This is done in N4O by a N4O Minimal Metadata-Set (N4O MMDS) and its derived N4O Objects Ontology (N4O OO). The N4O MMDS comprises information that is absolutely necessary to describe object data on its way through the object life cycle (capture, qualify, analyse, share and interlink). Its content will be developed in close cooperation with the (humanities and cultural studies) MoU group in order to establish interoperability within these domains. The N4O minimal metadata set will be provided in a technical description (e.g. JSON). It will be transformed into various ‘dialects’, e.g. LIDO/XML, for the individual data exchange of heterogeneous systems. The N4O MMDS and the N4O OO as its RDF representation (based on CIDOC-CRM, schema.org, PROV-O, SKOS, BFO) map the object cycle, which is successively enriched with information through the task areas with the tasks of documenting, collecting, analysing and protecting. These structures are used because the data flow in the Knowledge Graph provides for LIDO/XML and RDF.\nThis paper will showcase a selection of N4O Fundamental Services and N4O Community Services and explain how NFDI4Objects can contribute to TS4NFDI and KGI4NFDI.\nReferences\n[1] https://zenodo.org/doi/10.5281/zenodo.10409227\n[2] https://doi.org/10.52825/cordi.v1i.326\n[3] https://zenodo.org/doi/10.5281/zenodo.10820783\n[4] https://nfdi4objects.github.io/n4o-property-graph/\n[5] https://zenodo.org/doi/10.5281/zenodo.10756823\n[6] https://zenodo.org/doi/10.5281/zenodo.10973050\n[7] https://zenodo.org/doi/10.5281/zenodo.10774878\n[8] https://zenodo.org/doi/10.5281/zenodo.10906911"
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.14017594",
+      "bibo:locator": "#21",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:poster"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v6/i4/e21/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:poster"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "NFDI4Objects (N4O) represents a broad community dealing with material remains of human history from around 3 million years and involves numerous disciplines from the humanities, cultural studies and natural sciences with an archaeological and historical focus [1]. The objects examined include serially produced objects such as coins and organic remains such as wood, bones, or pollen. The objects and their relations are constantly changing, causing individual biographies. Therefore, the N4O central tasks include (a) comprehending representations of physical objects as research data, (b) relating them to individual contexts, (c) transforming them adequately into the digital space, and (d) curating them according to domain-specific requirements. Consequently, the NFDI4Objects Research Data Lifecycle goes along with the Object Biography. This leads to a paradigm derived from the FAIRification workflow: (i) capturing, (ii) semantic (meta) data modelling and qualifying, (iii) applying (scientific) analysis, (iv) sharing the data by visualisation and FAIRified publication, (v) interlinking and integrating data into knowledge graphs [2].\nWithin the NFDI infrastructure and to apply the FAIR principles, research (meta)data must be shared, interlinked, and modelled in a common and community-accepted way. To implement this, N4O Fundamental Services (N4O FS) and N4O Community Services (N4O CS) will be provided. N4O FS are, e.g., DANTE, cocoda [3], BARTOC, the N4O Knowledge Graph [4], the FOSS N4O Management Hub [5], and the N4O Commons Inkubator [6]. N4O CS are FAIRification Tools and Services such as Alligator, Academic Meta Tool, re3dragon, SPARQLing Unicorn QGIS Plugin [7], archaeology.link, and Wikibase / Semantic Media Wiki / Triplestore infrastructures.\nN4O contains many terminologies [8], such as ontologies, authority files, and community-driven vocabularies, that must be published and indexed (via DANTE and BARTOC) and semantically aligned (via Cocoda [3]) to contribute to TS4NFDI. Building a Knowledge Graph Infrastructure within NFDI requires the establishment of consortia-driven Knowledge Graphs that make data interchangeable within the consortium itself. This is done in N4O by a N4O Minimal Metadata-Set (N4O MMDS) and its derived N4O Objects Ontology (N4O OO). The N4O MMDS comprises information that is absolutely necessary to describe object data on its way through the object life cycle (capture, qualify, analyse, share and interlink). Its content will be developed in close cooperation with the (humanities and cultural studies) MoU group in order to establish interoperability within these domains. The N4O minimal metadata set will be provided in a technical description (e.g. JSON). It will be transformed into various ‘dialects’, e.g. LIDO/XML, for the individual data exchange of heterogeneous systems. The N4O MMDS and the N4O OO as its RDF representation (based on CIDOC-CRM, schema.org, PROV-O, SKOS, BFO) map the object cycle, which is successively enriched with information through the task areas with the tasks of documenting, collecting, analysing and protecting. These structures are used because the data flow in the Knowledge Graph provides for LIDO/XML and RDF.\nThis paper will showcase a selection of N4O Fundamental Services and N4O Community Services and explain how NFDI4Objects can contribute to TS4NFDI and KGI4NFDI.\nReferences\n[1] https://zenodo.org/doi/10.5281/zenodo.10409227\n[2] https://doi.org/10.52825/cordi.v1i.326\n[3] https://zenodo.org/doi/10.5281/zenodo.10820783\n[4] https://nfdi4objects.github.io/n4o-property-graph/\n[5] https://zenodo.org/doi/10.5281/zenodo.10756823\n[6] https://zenodo.org/doi/10.5281/zenodo.10973050\n[7] https://zenodo.org/doi/10.5281/zenodo.10774878\n[8] https://zenodo.org/doi/10.5281/zenodo.10906911"
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.14017594",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2024-11-20"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "NFDI4Objects and the Base4NFDI Services: An Overview"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:poster"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.14017594"
+      },
+      "prism:number": "4",
+      "prism:volume": "6",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/14017595"
+      },
+      "sqp:citationLabel": "6(4), #21",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "21"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e21"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e21"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-20T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-11-20T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.14017594",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e21"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/14017595"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "2333188"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/14017595/files/12_UC4B2024_NFDI4Objects_Poster.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "12_UC4B2024_NFDI4Objects_Poster.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "fad44f8a504a65938373a741cf872d45"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e21#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "NFDI4Objects and the Base4NFDI Services: An Overview"
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4691-9747",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4691-9747#orcid"
+      },
+      "foaf:familyName": "Gruber",
+      "foaf:givenName": "Ethan",
+      "foaf:name": "Ethan Gruber",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-4691-9747"
+      },
+      "rdfs:label": "Ethan Gruber",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-4691-9747"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4691-9747#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-4691-9747",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-8604-544X",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-8604-544X#orcid"
+      },
+      "foaf:familyName": "Wigg-Wolf",
+      "foaf:givenName": "David G.",
+      "foaf:name": "David G. Wigg-Wolf",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-8604-544X"
+      },
+      "rdfs:label": "David G. Wigg-Wolf",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-8604-544X"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-8604-544X#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-8604-544X",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0485-6861",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0485-6861#orcid"
+      },
+      "foaf:familyName": "Trognitz",
+      "foaf:givenName": "Martina",
+      "foaf:name": "Martina Trognitz",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-0485-6861"
+      },
+      "rdfs:label": "Martina Trognitz",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-0485-6861"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0485-6861#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-0485-6861",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e1",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:WorkingPaper",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "The world of digital data is full of unknown data, with are not FAIR (Findable, Accessible, Interoperable and Reusable).\nThis modern species of dragons on a (digital) map of the internet as sign for unknown and dangerous areas, the unknown\ndigital data dragons, have to be resolved by digital techniques. We could use the Semantic Web and all of its ideas for this\nchallenge. This paper focuses on data dragons in the humanities domain, especially in archaeology and proposes ideas to\novercome the data dragons to achieve FAIR LOUD in archaeology!"
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.3345715",
+      "bibo:locator": "#1",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:working-paper"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1"
+      },
+      "dcat:keyword": [
+        "Archaeology",
+        "CAA",
+        "Data Dragon",
+        "FAIR Data",
+        "Five Star Data",
+        "Linked Data",
+        "Linked Open Data",
+        "Semantic Web"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i1/e1/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:working-paper"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4691-9747"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-8604-544X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0485-6861"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "The world of digital data is full of unknown data, with are not FAIR (Findable, Accessible, Interoperable and Reusable).\nThis modern species of dragons on a (digital) map of the internet as sign for unknown and dangerous areas, the unknown\ndigital data dragons, have to be resolved by digital techniques. We could use the Semantic Web and all of its ideas for this\nchallenge. This paper focuses on data dragons in the humanities domain, especially in archaeology and proposes ideas to\novercome the data dragons to achieve FAIR LOUD in archaeology!"
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.3345715",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2019-07-22"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Hic sunt dracones! The modern unknown data dragons"
+      },
+      "dct:type": {
+        "@id": "sqpt:working-paper"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.3345715"
+      },
+      "prism:number": "1",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/3345715"
+      },
+      "sqp:citationLabel": "1(1), #1",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0485-6861"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4691-9747"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-8604-544X"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4691-9747"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-8604-544X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0485-6861"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e1"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-07-22T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-07-22T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.3345715",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e1"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/3345715"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "2048710"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/3345715/files/datadragons.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "datadragons.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "3cb38dece98ef76e8534d9705814078a"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i1/e1#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Hic sunt dracones! The modern unknown data dragons"
+    }
+  ]
+}

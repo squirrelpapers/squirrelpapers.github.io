@@ -1,0 +1,438 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/fossgis-konferenz-2026",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/fossgis-konferenz-2026#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/fossgis-konferenz-2026#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/georg-august-universitat-gottingen-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/georg-august-universitat-gottingen-germany"
+      },
+      "rdfs:label": "FOSSGIS-Konferenz 2026",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2026-03-28"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/georg-august-universitat-gottingen-germany"
+      },
+      "schema:name": "FOSSGIS-Konferenz 2026",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2026-03-25"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/fossgis-konferenz-2026#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "FOSSGIS-Konferenz 2026"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/fossgis-konferenz-2026#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-25T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-28T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Peter",
+      "foaf:name": "Peter Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      },
+      "rdfs:label": "Peter Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3270-2659",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid"
+      },
+      "foaf:familyName": "Schenk",
+      "foaf:givenName": "Fiona",
+      "foaf:name": "Fiona Schenk",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0008-2877-3204"
+      },
+      "rdfs:label": "Fiona Schenk",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0008-2877-3204"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0008-2877-3204",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/georg-august-universitat-gottingen-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.93792 51.53398)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.93792 51.53398)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/georg-august-universitat-gottingen-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/georg-august-universitat-gottingen-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q152838"
+      },
+      "rdfs:label": "University of Göttingen",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "Georg-August-Universität Göttingen, Germany",
+      "schema:latitude": 51.53398,
+      "schema:longitude": 9.93792
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/georg-august-universitat-gottingen-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.93792 51.53398)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e9",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Abstract\nCommunity-basierte Geodatenplattformen wie OpenStreetMap (OSM), Wikidata (Schmidt, Thiery, und Trognitz 2022) und weitere Wikibase-Instanzen stellen eine der wertvollsten frei verfügbaren Quellen raumbezogener Informationen dar. In der wissenschaftlichen Nutzung, insbesondere im Bereich des Cultural Heritage und der Geowissenschaften, besteht jedoch weiterhin die Herausforderung, diese heterogenen Daten strukturiert, semantisch konsistent und maschinenlesbar in Forschungsinfrastrukturen zu integrieren. Der Beitrag zeigt, wie Community-Geodaten automatisiert extrahiert, transformiert und in das Federated Knowledge Graph Ecosystem (Fischer u. a. 2025; Rossenova u. a. 2025; Thiery u. a. 2025) wie die Knowledge Graph Infrastructure (KGI4NFDI) und den Terminology Service (TS4NFDI) eingebunden werden können.\nDie Datenextraktion erfolgt über Overpass Turbo (für OSM-Daten) sowie über SPARQL-Endpoints der Wikibase-Systeme (z. B. Wikidata, fuzzy-sl Wikibase, FactGrid). Anschließend werden die Datensätze mithilfe von Python-Skripten und der Bibliothek rdflib in RDF transformiert und innerhalb von Jupyter Notebooks dokumentiert, um eine reproduzierbare, FAIR4RS-konforme Prozesskette sicherzustellen. Die resultierenden RDF-Graphen werden gemäß CIDOC CRM und GeoSPARQL 1.1 modelliert und über die Material Cultural Heritage Crosswalk Ontology (MaCHeCO) mit dem NFDI4Objects Knowledge Graph interoperabel gemacht. Ergänzend erzeugt das SPARQLing Unicorn Toolkit (Homburg und Thiery 2024b; 2024a) eine HTML-Dokumentation der RDF-Ergebnisse, während das zugehörige SPARQLing Unicorn QGIS-Plugin die Re-Integration der Linked Data in QGIS ermöglicht. Anhand konkreter Use Cases wird das Vorgehen illustriert:\n(1) Cultural Heritage Irish Sites – etwa der Ogham Stone Coumeenole North (Q126503090; node:5145413640), cgl. Thiery und Thiery (2023), via https://overpass-turbo.eu/s/2eM0 oder St. Lachtain’s Well (Q121840779; way:935503837), via https://overpass-turbo.eu/s/2eM2 – werden aus OSM und Wikidata abgerufen, semantisch harmonisiert und mit dem NFDI4Objects-Graph verknüpft.\n(2) Geoscience Sites – beispielsweise die Franchthi Cave (node:1221172611; Q1441331) oder Crvena Stiljena Cave (node:10879170567; Q121418883), vgl. Thiery und Schenk (2023), sowie die Bohrkerne AU3, AU4 und DE3 (Schenk u. a. 2024) – werden als (duale) geologische und archäologische Entitäten modelliert.\n(3) Zur Rekonstruktion georegionaler Kontexte (z. B. der Eifel-Region) werden Fluss- und Grenzrelationen wie der Rhein (123924), die Mosel (390416) oder der Parc naturel des Hautes-Fagnes – Eifel (10601027) integriert, um „fuzzy boundaries“ semantisch zu repräsentieren.\nDer Beitrag zeigt, wie durch die Nutzung offener Standards, freier Software (Python, QGIS) und offener Schnittstellen (Overpass, SPARQL) eine durchgängige Pipeline von Community-Daten zu semantisch vernetzten, FAIRen Forschungsdaten entsteht. Damit wird eine Brücke zwischen der FOSSGIS-Community und den NFDI-Forschungsinfrastrukturen geschlagen – ein Beitrag zur nachhaltigen Nutzung, Verknüpfung und Langzeitverfügbarkeit offener Geodaten in Wissenschaft und Kulturerbe.\nReferenzen\nFischer, Kristina, Anja Gerber, Thomas Koprucki, Andreas Noback, Marco Reidelbach, Torsten Schrade, und Florian Thiery. 2025. „Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data“. In Proceedings of the Conference on Research Data Infrastructure 2025, herausgegeben von York Sure-Vetter und Paul Groth, 7(5), 𝒬3, 7(5), 𝒬3. Aachen: Squirrel Papers. https://doi.org/10.5281/zenodo.16736221.\nHomburg, Timo, und Florian Thiery. 2024a. „SPARQL Unicorn Ontology Documentation“. Squirrel Papers 6 (2): #2. https://doi.org/10.5281/zenodo.10780476.\n———. 2024b. „sparqlunicorn/sparqlunicornGoesGIS-ontdoc: Version 0.17“. Squirrel Papers 6 (2): #2. https://doi.org/10.5281/zenodo.8190763.\nRossenova, Lozana, Fidan Limani, Carsten Fortmann-Grote, Angelika Kaplan, Florian Thiery, Atif Latif, Renat Shigapov, u. a. 2025. „How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”“. In Proceedings of the Conference on Research Data Infrastructure 2025, herausgegeben von York Sure-Vetter und Groth Paul, 7(5), 𝒬5, 7(5), 𝒬5. Aachen: Squirrel Papers. https://doi.org/10.5281/zenodo.16736077.\nSchenk, Fiona, Ulrich Hambach, Sarah Britzius, Daniel Veres, und Frank Sirocko. 2024. „A Cryptotephra Layer in Sediments of an Infilled Maar Lake from the Eifel (Germany): First Evidence of Campanian Ignimbrite Ash Airfall in Central Europe“. Quaternary 7 (2): 17. https://doi.org/10.3390/quat7020017.\nSchmidt, Sophie C., Florian Thiery, und Martina Trognitz. 2022. „Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata“. Digital 2 (3): 333–64. https://doi.org/10.3390/digital2030019.\nThiery, Florian, Lozana Rossenova, Daniel Mietchen, Timo Homburg, und Peter Thiery. 2025. „Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem“. In Proceedings of the Conference on Research Data Infrastructure 2025, herausgegeben von York Sure-Vetter und Paul Groth, 7(5), 𝒬2, 7(5), 𝒬2. Aachen: Squirrel Papers. https://doi.org/10.5281/zenodo.16736047.\nThiery, Florian, und Fiona Schenk. 2023. „Modelling of Uncertainty in Geo Sciences Sites“. Squirrel Papers 5 (1): #4. https://doi.org/10.5281/zenodo.10255259.\nThiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish and interlink various Ogham Data?“ Archeologia e Calcolatori 34 (1): 105–14. https://doi.org/10.19282/ac.34.1.2023.12."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.19200628",
+      "bibo:locator": "§9",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/fossgis-konferenz-2026"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v8/i3/e9/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+        }
+      ],
+      "dct:description": {
+        "@language": "de",
+        "@value": "Abstract\nCommunity-basierte Geodatenplattformen wie OpenStreetMap (OSM), Wikidata (Schmidt, Thiery, und Trognitz 2022) und weitere Wikibase-Instanzen stellen eine der wertvollsten frei verfügbaren Quellen raumbezogener Informationen dar. In der wissenschaftlichen Nutzung, insbesondere im Bereich des Cultural Heritage und der Geowissenschaften, besteht jedoch weiterhin die Herausforderung, diese heterogenen Daten strukturiert, semantisch konsistent und maschinenlesbar in Forschungsinfrastrukturen zu integrieren. Der Beitrag zeigt, wie Community-Geodaten automatisiert extrahiert, transformiert und in das Federated Knowledge Graph Ecosystem (Fischer u. a. 2025; Rossenova u. a. 2025; Thiery u. a. 2025) wie die Knowledge Graph Infrastructure (KGI4NFDI) und den Terminology Service (TS4NFDI) eingebunden werden können.\nDie Datenextraktion erfolgt über Overpass Turbo (für OSM-Daten) sowie über SPARQL-Endpoints der Wikibase-Systeme (z. B. Wikidata, fuzzy-sl Wikibase, FactGrid). Anschließend werden die Datensätze mithilfe von Python-Skripten und der Bibliothek rdflib in RDF transformiert und innerhalb von Jupyter Notebooks dokumentiert, um eine reproduzierbare, FAIR4RS-konforme Prozesskette sicherzustellen. Die resultierenden RDF-Graphen werden gemäß CIDOC CRM und GeoSPARQL 1.1 modelliert und über die Material Cultural Heritage Crosswalk Ontology (MaCHeCO) mit dem NFDI4Objects Knowledge Graph interoperabel gemacht. Ergänzend erzeugt das SPARQLing Unicorn Toolkit (Homburg und Thiery 2024b; 2024a) eine HTML-Dokumentation der RDF-Ergebnisse, während das zugehörige SPARQLing Unicorn QGIS-Plugin die Re-Integration der Linked Data in QGIS ermöglicht. Anhand konkreter Use Cases wird das Vorgehen illustriert:\n(1) Cultural Heritage Irish Sites – etwa der Ogham Stone Coumeenole North (Q126503090; node:5145413640), cgl. Thiery und Thiery (2023), via https://overpass-turbo.eu/s/2eM0 oder St. Lachtain’s Well (Q121840779; way:935503837), via https://overpass-turbo.eu/s/2eM2 – werden aus OSM und Wikidata abgerufen, semantisch harmonisiert und mit dem NFDI4Objects-Graph verknüpft.\n(2) Geoscience Sites – beispielsweise die Franchthi Cave (node:1221172611; Q1441331) oder Crvena Stiljena Cave (node:10879170567; Q121418883), vgl. Thiery und Schenk (2023), sowie die Bohrkerne AU3, AU4 und DE3 (Schenk u. a. 2024) – werden als (duale) geologische und archäologische Entitäten modelliert.\n(3) Zur Rekonstruktion georegionaler Kontexte (z. B. der Eifel-Region) werden Fluss- und Grenzrelationen wie der Rhein (123924), die Mosel (390416) oder der Parc naturel des Hautes-Fagnes – Eifel (10601027) integriert, um „fuzzy boundaries“ semantisch zu repräsentieren.\nDer Beitrag zeigt, wie durch die Nutzung offener Standards, freier Software (Python, QGIS) und offener Schnittstellen (Overpass, SPARQL) eine durchgängige Pipeline von Community-Daten zu semantisch vernetzten, FAIRen Forschungsdaten entsteht. Damit wird eine Brücke zwischen der FOSSGIS-Community und den NFDI-Forschungsinfrastrukturen geschlagen – ein Beitrag zur nachhaltigen Nutzung, Verknüpfung und Langzeitverfügbarkeit offener Geodaten in Wissenschaft und Kulturerbe.\nReferenzen\nFischer, Kristina, Anja Gerber, Thomas Koprucki, Andreas Noback, Marco Reidelbach, Torsten Schrade, und Florian Thiery. 2025. „Windows on Data: Federating Research Data with FAIR Digital Objects and Linked Open Data“. In Proceedings of the Conference on Research Data Infrastructure 2025, herausgegeben von York Sure-Vetter und Paul Groth, 7(5), 𝒬3, 7(5), 𝒬3. Aachen: Squirrel Papers. https://doi.org/10.5281/zenodo.16736221.\nHomburg, Timo, und Florian Thiery. 2024a. „SPARQL Unicorn Ontology Documentation“. Squirrel Papers 6 (2): #2. https://doi.org/10.5281/zenodo.10780476.\n———. 2024b. „sparqlunicorn/sparqlunicornGoesGIS-ontdoc: Version 0.17“. Squirrel Papers 6 (2): #2. https://doi.org/10.5281/zenodo.8190763.\nRossenova, Lozana, Fidan Limani, Carsten Fortmann-Grote, Angelika Kaplan, Florian Thiery, Atif Latif, Renat Shigapov, u. a. 2025. „How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”“. In Proceedings of the Conference on Research Data Infrastructure 2025, herausgegeben von York Sure-Vetter und Groth Paul, 7(5), 𝒬5, 7(5), 𝒬5. Aachen: Squirrel Papers. https://doi.org/10.5281/zenodo.16736077.\nSchenk, Fiona, Ulrich Hambach, Sarah Britzius, Daniel Veres, und Frank Sirocko. 2024. „A Cryptotephra Layer in Sediments of an Infilled Maar Lake from the Eifel (Germany): First Evidence of Campanian Ignimbrite Ash Airfall in Central Europe“. Quaternary 7 (2): 17. https://doi.org/10.3390/quat7020017.\nSchmidt, Sophie C., Florian Thiery, und Martina Trognitz. 2022. „Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata“. Digital 2 (3): 333–64. https://doi.org/10.3390/digital2030019.\nThiery, Florian, Lozana Rossenova, Daniel Mietchen, Timo Homburg, und Peter Thiery. 2025. „Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem“. In Proceedings of the Conference on Research Data Infrastructure 2025, herausgegeben von York Sure-Vetter und Paul Groth, 7(5), 𝒬2, 7(5), 𝒬2. Aachen: Squirrel Papers. https://doi.org/10.5281/zenodo.16736047.\nThiery, Florian, und Fiona Schenk. 2023. „Modelling of Uncertainty in Geo Sciences Sites“. Squirrel Papers 5 (1): #4. https://doi.org/10.5281/zenodo.10255259.\nThiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish and interlink various Ogham Data?“ Archeologia e Calcolatori 34 (1): 105–14. https://doi.org/10.19282/ac.34.1.2023.12."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.19200628",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2026-03-25"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.19200628"
+      },
+      "prism:number": "3",
+      "prism:volume": "8",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/19200629"
+      },
+      "sqp:citationLabel": "8(3), §9",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-25T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-03-25T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.19200628",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/19200629"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "21491844"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/19200629/files/Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_G%C3%B6ttingen_OSM2LOD.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "Slides_JCER9E_ThieryEtAl_FOSSGIS_2026_Göttingen_OSM2LOD.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "faf3392efd4db484f36d00ce0994dd7e"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i3/e9#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Von OpenStreetMap zu semantisch vernetzten Wissensgraphen: Integration von Community-Geodaten in das Federated Knowledge Graph Ecosystem"
+    }
+  ]
+}

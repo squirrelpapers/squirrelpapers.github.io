@@ -1,0 +1,66 @@
+@prefix sqp:  <https://w3id.org/squirrelpapers/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+# The Squirrel Papers ontology - deliberately small. It holds only what DCAT,
+# Dublin Core, BIBO, FaBiO, PRISM and schema.org do not: the journal's own way
+# of numbering entries. Everything else in the graph uses those vocabularies.
+# Hand-written source; published by the rdf step (S7).
+
+<https://w3id.org/squirrelpapers/ontology>
+    a owl:Ontology ;
+    dct:title "Squirrel Papers ontology"@en ;
+    dct:description "Properties for the entry numbering of the Squirrel Papers journal (sigil, entry number, citation label) and for marking special issues."@en ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    owl:versionInfo "0.1" ;
+    vann:preferredNamespacePrefix "sqp" ;
+    vann:preferredNamespaceUri "https://w3id.org/squirrelpapers/ontology#" ;
+    rdfs:seeAlso <https://github.com/squirrelpapers/squirrelpapers.github.io> .
+
+sqp:sigil
+    a owl:DatatypeProperty ;
+    rdfs:label "sigil"@en , "Sigel"@de ;
+    rdfs:comment "The symbol that precedes entry numbers in an issue: '#', 'λ', '§' or '𝒬'. Part of the citation, never of an IRI."@en ;
+    rdfs:domain dcat:DatasetSeries ;
+    rdfs:range xsd:string ;
+    rdfs:isDefinedBy <https://w3id.org/squirrelpapers/ontology> .
+
+sqp:entryNumber
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "entry number"@en , "Beitragsnummer"@de ;
+    rdfs:comment "Position of an entry within its issue; the 5 in '7(4), λ5' and in the IRI .../v7/i4/e5."@en ;
+    rdfs:domain dcat:Dataset ;
+    rdfs:range xsd:positiveInteger ;
+    rdfs:isDefinedBy <https://w3id.org/squirrelpapers/ontology> .
+
+sqp:citationLabel
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:subPropertyOf bibo:locator ;
+    rdfs:label "citation label"@en , "Zitierlabel"@de ;
+    rdfs:comment "Volume, issue, sigil and entry number as cited: '7(4), λ5'."@en ;
+    rdfs:domain dcat:Dataset ;
+    rdfs:range xsd:string ;
+    rdfs:isDefinedBy <https://w3id.org/squirrelpapers/ontology> .
+
+sqp:specialIssue
+    a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "special issue"@en , "Sonderheft"@de ;
+    rdfs:comment "True for an issue with a theme of its own ('Special Issue on data and software')."@en ;
+    rdfs:domain dcat:DatasetSeries ;
+    rdfs:range xsd:boolean ;
+    rdfs:isDefinedBy <https://w3id.org/squirrelpapers/ontology> .
+
+sqp:languageGuessed
+    a owl:DatatypeProperty ;
+    rdfs:label "language guessed"@en , "Sprache geschätzt"@de ;
+    rdfs:comment "True when dct:language was inferred from the title's function words rather than stated in the source (PRIMER A4)."@en ;
+    rdfs:domain dcat:Dataset ;
+    rdfs:range xsd:boolean ;
+    rdfs:isDefinedBy <https://w3id.org/squirrelpapers/ontology> .

@@ -1,0 +1,140 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v3/i1/e7#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v3/i1/e7> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-1631-9115>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-1666-0348> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v3/i1/e7#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v3/i1/e7> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-1631-9115#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-1631-9115" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-1666-0348#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-1666-0348" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v3/i1/e7#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-1631-9115> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0003-1666-0348> .
+
+<https://w3id.org/squirrelpapers/v3/i1/e7#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2021-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2021-12-31T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v3/i1/e7#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.5647827" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v3/i1/e7#landing> a dcat:Distribution ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://zenodo.org/records/6372679> .
+
+<https://w3id.org/squirrelpapers/v3/i1/e7#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "African Red Slip Ware Digital (ARS3D) - Comparison-Data" .
+
+<https://w3id.org/squirrelpapers/v3/i1/e7> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Dataset,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "1" ;
+    prism:volume "3" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-1631-9115>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-1666-0348> ;
+    dct:description """Characteristic of the North African bowls, plates, and jugs are their pictorial decorations applied mainly by appliqués and stamps. As mass-produced image carriers and everyday objects, the ARS spread throughout the empire.
+The range of motifs includes mythological scenes as well as scenes from the Old and New Testament, circus, arena and hunting scenes as well as fish and plant motifs. The appliqués-decorated pottery thus provides insights into Late Antique imagination and its changes, as well as into the economic history of the period between the 3rd and 5th centuries AD in North Africa.
+Previous documentation methods were not able to capture the objects and their decoration in an adequate way. The digital recording of the RGZM's collections by 3D scans allows to compare potentially identical appliqués and to assign them to their negative forms and the corresponding stamps.
+Whereas vessel curvature previously falsified the assignment of appliqués and models, 3D analysis and visualisation tools now allow a comparison . Metadata created for each object increases the effectiveness and accuracy of determining image context and content. Issues related to the production of the ARS and the process flows within the workshops can be investigated through the analysis of the 3D data.
+The developed ontology uses CIDOC CRM and various extensions. The data mainly consists of objects (E24), on which e.g. applications (features, E25) can be found. These objects can be described semantically, e.g. by the shape or time epoch. Features are described with observations, e.g. a human type man standing and wearing a beard. These observations lead to interpretations whose arguments can be observations."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.5647827" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v3/i1> ;
+    dct:issued "2021"^^xsd:gYear ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "African Red Slip Ware Digital (ARS3D) - Comparison-Data"@en ;
+    dct:type sqpt:data ;
+    bibo:abstract """Characteristic of the North African bowls, plates, and jugs are their pictorial decorations applied mainly by appliqués and stamps. As mass-produced image carriers and everyday objects, the ARS spread throughout the empire.
+The range of motifs includes mythological scenes as well as scenes from the Old and New Testament, circus, arena and hunting scenes as well as fish and plant motifs. The appliqués-decorated pottery thus provides insights into Late Antique imagination and its changes, as well as into the economic history of the period between the 3rd and 5th centuries AD in North Africa.
+Previous documentation methods were not able to capture the objects and their decoration in an adequate way. The digital recording of the RGZM's collections by 3D scans allows to compare potentially identical appliqués and to assign them to their negative forms and the corresponding stamps.
+Whereas vessel curvature previously falsified the assignment of appliqués and models, 3D analysis and visualisation tools now allow a comparison . Metadata created for each object increases the effectiveness and accuracy of determining image context and content. Issues related to the production of the ARS and the process flows within the workshops can be investigated through the analysis of the 3D data.
+The developed ontology uses CIDOC CRM and various extensions. The data mainly consists of objects (E24), on which e.g. applications (features, E25) can be found. These objects can be described semantically, e.g. by the shape or time epoch. Features are described with observations, e.g. a human type man standing and wearing a beard. These observations lead to interpretations whose arguments can be observations."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v3/i1/e7#authors> ;
+    bibo:doi "10.5281/zenodo.5647827" ;
+    bibo:locator "#7" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v3/i1/e7#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v3/i1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v3/i1/e7#doi> ;
+    crm:P2_has_type sqpt:data ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.5647827> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v3/i1/e7#landing> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v3/i1> ;
+    dcat:keyword "African Red Slip Ware",
+        "Semantics" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v3/i1/e7/> ;
+    dcat:theme sqpt:data ;
+    prov:wasDerivedFrom <https://zenodo.org/records/6372679> ;
+    sqp:citationLabel "3(1), #7" ;
+    sqp:entryNumber "7"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-1631-9115> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Louise Rokohl" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-1631-9115#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-1631-9115> ;
+    foaf:familyName "Rokohl" ;
+    foaf:givenName "Louise" ;
+    foaf:name "Louise Rokohl" ;
+    schema:identifier <https://orcid.org/0000-0003-1631-9115> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-1666-0348> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Jonas Veller" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-1666-0348#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-1666-0348> ;
+    foaf:familyName "Veller" ;
+    foaf:givenName "Jonas" ;
+    foaf:name "Jonas Veller" ;
+    schema:identifier <https://orcid.org/0000-0003-1666-0348> .
+

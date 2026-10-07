@@ -1,0 +1,447 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i3/e9"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e7"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e8"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy"
+      },
+      "rdfs:label": "EAA 2024, Rome, Italy",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2024-08-31"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy"
+      },
+      "schema:name": "EAA 2024, Rome, Italy",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2024-08-31"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "EAA 2024, Rome, Italy"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-08-31T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-08-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Peter",
+      "foaf:name": "Peter Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      },
+      "rdfs:label": "Peter Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3270-2659",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid"
+      },
+      "foaf:familyName": "Schenk",
+      "foaf:givenName": "Fiona",
+      "foaf:name": "Fiona Schenk",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0008-2877-3204"
+      },
+      "rdfs:label": "Fiona Schenk",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0008-2877-3204"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0008-2877-3204",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(12.515833 41.903333)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(12.515833 41.903333)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q209344"
+      },
+      "rdfs:label": "Sapienza University of Rome",
+      "schema:addressCountry": {
+        "@id": "wd:Q38"
+      },
+      "schema:description": "Sapienza University of Rome, Italy",
+      "schema:latitude": 41.903333,
+      "schema:longitude": 12.515833
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(12.515833 41.903333)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e9",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ConferencePoster",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Data modelling in archaeological research must handle uncertainty and ambiguities, especially in georeferencing. This enables re-using research data using the FAIR principles (Findable, Accessible, Interoperable, Reusable) and Open Science while guaranteeing data quality. Furthermore, for linking data, modelling vagueness, georeferencing methods and events, and FAIRification, graph-based modelling as Linked Open Data (LOD) proposed by Berners-Lee is the method and technique of choice. However, due to the enormous variety of research domains, an interdisciplinary, commonly understandable modelling of uncertainties and vagueness in research data is highly challenging. We will present two data-driven interdisciplinary use cases for dealing with and modelling vague and uncertain georeferenced findspots as LOD from the archaeological and geosciences domains.\nGraph-based data modelling uses three technologies: (I) Wikidata, (II) ontologies and Linked Open data using the Fuzzy Spatial Locations Ontology (FSLO), and (III) Wikibase. The main modelling idea is to publish and model the following georeferencing information as Linked Open Data: (1) describe where the geoinformation comes from, (2) describe the method of how the coordinate was created, (3) describe the uncertainty issue(s), and (4) use references into the Semantic Web. Methods I-III can be applied to at least use cases from the archaeological and geosciences domain: Ogham Stones in Ireland and the Eruption of the Campanian Ignimbrite.\nThis poster presents exemplary modelling approaches for archaeology and geosciences, demonstrating the importance of dealing with doubts in the georeferencing process."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.13627274",
+      "bibo:locator": "#9",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:poster"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v6/i3/e9/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:poster"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Data modelling in archaeological research must handle uncertainty and ambiguities, especially in georeferencing. This enables re-using research data using the FAIR principles (Findable, Accessible, Interoperable, Reusable) and Open Science while guaranteeing data quality. Furthermore, for linking data, modelling vagueness, georeferencing methods and events, and FAIRification, graph-based modelling as Linked Open Data (LOD) proposed by Berners-Lee is the method and technique of choice. However, due to the enormous variety of research domains, an interdisciplinary, commonly understandable modelling of uncertainties and vagueness in research data is highly challenging. We will present two data-driven interdisciplinary use cases for dealing with and modelling vague and uncertain georeferenced findspots as LOD from the archaeological and geosciences domains.\nGraph-based data modelling uses three technologies: (I) Wikidata, (II) ontologies and Linked Open data using the Fuzzy Spatial Locations Ontology (FSLO), and (III) Wikibase. The main modelling idea is to publish and model the following georeferencing information as Linked Open Data: (1) describe where the geoinformation comes from, (2) describe the method of how the coordinate was created, (3) describe the uncertainty issue(s), and (4) use references into the Semantic Web. Methods I-III can be applied to at least use cases from the archaeological and geosciences domain: Ogham Stones in Ireland and the Eruption of the Campanian Ignimbrite.\nThis poster presents exemplary modelling approaches for archaeology and geosciences, demonstrating the importance of dealing with doubts in the georeferencing process."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.13627274",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2024-08-31"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Taming Doubts - How to semantically model fuzzy and wobbly georeferences in archaeology and in the geosciences"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:poster"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.13627274"
+      },
+      "prism:number": "3",
+      "prism:volume": "6",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/13627275"
+      },
+      "sqp:citationLabel": "6(3), #9",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "9"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3270-2659"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-2877-3204"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e9"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-08-31T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-08-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.13627274",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e9"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/13627275"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "547558"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/13627275/files/42_ThieryetAl.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "42_ThieryetAl.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "67e67222f4267c6c98e7ab00ff063c12"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e9#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Taming Doubts - How to semantically model fuzzy and wobbly georeferences in archaeology and in the geosciences"
+    }
+  ]
+}

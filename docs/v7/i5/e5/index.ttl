@@ -1,0 +1,377 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e5#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i5/e5> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-7141-4997>,
+        <https://w3id.org/squirrelpapers/person/0000-0001-9495-040X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-0331-2558>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-1648-1684>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-2579-5546>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5835-2784>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7541-115X>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3085-3031>,
+        <https://w3id.org/squirrelpapers/person/0009-0009-9101-5833> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i5/e5#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i5/e5> .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "2nd Conference on Research Data Infrastructure (CoRDI) 2025" ;
+    event:place <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i5/e1>,
+        <https://w3id.org/squirrelpapers/v7/i5/e10>,
+        <https://w3id.org/squirrelpapers/v7/i5/e2>,
+        <https://w3id.org/squirrelpapers/v7/i5/e3>,
+        <https://w3id.org/squirrelpapers/v7/i5/e4>,
+        <https://w3id.org/squirrelpapers/v7/i5/e5>,
+        <https://w3id.org/squirrelpapers/v7/i5/e6>,
+        <https://w3id.org/squirrelpapers/v7/i5/e7>,
+        <https://w3id.org/squirrelpapers/v7/i5/e8>,
+        <https://w3id.org/squirrelpapers/v7/i5/e9> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    schema:endDate "2025-08-28"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    schema:name "2nd Conference on Research Data Infrastructure (CoRDI) 2025" ;
+    schema:startDate "2025-08-26"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "2nd Conference on Research Data Infrastructure (CoRDI) 2025" .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-08-26T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-08-28T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-7141-4997#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-7141-4997" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-9495-040X#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-9495-040X" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-0331-2558#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-0331-2558" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-1648-1684#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-1648-1684" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-2579-5546#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-2579-5546" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-4522-1099> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "York Sure-Vetter" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-4522-1099> ;
+    foaf:familyName "Sure-Vetter" ;
+    foaf:givenName "York" ;
+    foaf:name "York Sure-Vetter" ;
+    schema:identifier <https://orcid.org/0000-0002-4522-1099> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-4522-1099" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-5190-1867" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5835-2784#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-5835-2784" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7541-115X#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7541-115X" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-0183-6910> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Paul Groth" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-0183-6910> ;
+    foaf:familyName "Groth" ;
+    foaf:givenName "Paul" ;
+    foaf:name "Paul Groth" ;
+    schema:identifier <https://orcid.org/0000-0003-0183-6910> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-0183-6910" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3085-3031#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3085-3031" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0009-9101-5833#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0009-9101-5833" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e5#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> ;
+    rdf:_10 <https://w3id.org/squirrelpapers/person/0000-0002-7541-115X> ;
+    rdf:_11 <https://w3id.org/squirrelpapers/person/0000-0002-1648-1684> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-5835-2784> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0002-2579-5546> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/0009-0009-9101-5833> ;
+    rdf:_5 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_6 <https://w3id.org/squirrelpapers/person/0000-0003-3085-3031> ;
+    rdf:_7 <https://w3id.org/squirrelpapers/person/0000-0002-0331-2558> ;
+    rdf:_8 <https://w3id.org/squirrelpapers/person/0000-0001-9495-040X> ;
+    rdf:_9 <https://w3id.org/squirrelpapers/person/0000-0001-7141-4997> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e5#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-08-26T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-08-26T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i5/e5#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.16736077" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e5#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CoRDI_2025_paper_215.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i5/e5#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i5/e5> ;
+    dcat:accessURL <https://zenodo.org/records/16736078> ;
+    dcat:byteSize "160936"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/16736078/files/CoRDI_2025_paper_215.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e5#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "475f0ce63542d5d49b3cf651fca609fe"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i5/e5#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”" .
+
+<https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(6.078056 50.777778)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-7141-4997> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Moritz Schubotz" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-7141-4997#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-7141-4997> ;
+    foaf:familyName "Schubotz" ;
+    foaf:givenName "Moritz" ;
+    foaf:name "Moritz Schubotz" ;
+    schema:identifier <https://orcid.org/0000-0001-7141-4997> .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-9495-040X> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Benjamin Zapilko" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-9495-040X#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-9495-040X> ;
+    foaf:familyName "Zapilko" ;
+    foaf:givenName "Benjamin" ;
+    foaf:name "Benjamin Zapilko" ;
+    schema:identifier <https://orcid.org/0000-0001-9495-040X> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-0331-2558> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Renat Shigapov" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-0331-2558#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-0331-2558> ;
+    foaf:familyName "Shigapov" ;
+    foaf:givenName "Renat" ;
+    foaf:name "Renat Shigapov" ;
+    schema:identifier <https://orcid.org/0000-0002-0331-2558> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-1648-1684> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Tabea Tietz" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-1648-1684#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-1648-1684> ;
+    foaf:familyName "Tietz" ;
+    foaf:givenName "Tabea" ;
+    foaf:name "Tabea Tietz" ;
+    schema:identifier <https://orcid.org/0000-0002-1648-1684> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-2579-5546> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Carsten Fortmann-Grote" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-2579-5546#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-2579-5546> ;
+    foaf:familyName "Fortmann-Grote" ;
+    foaf:givenName "Carsten" ;
+    foaf:name "Carsten Fortmann-Grote" ;
+    schema:identifier <https://orcid.org/0000-0002-2579-5546> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Lozana Rossenova" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-5190-1867> ;
+    foaf:familyName "Rossenova" ;
+    foaf:givenName "Lozana" ;
+    foaf:name "Lozana Rossenova" ;
+    schema:identifier <https://orcid.org/0000-0002-5190-1867> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5835-2784> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fidan Limani" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-5835-2784#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-5835-2784> ;
+    foaf:familyName "Limani" ;
+    foaf:givenName "Fidan" ;
+    foaf:name "Fidan Limani" ;
+    schema:identifier <https://orcid.org/0000-0002-5835-2784> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7541-115X> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Heike Fliegl" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7541-115X#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7541-115X> ;
+    foaf:familyName "Fliegl" ;
+    foaf:givenName "Heike" ;
+    foaf:name "Heike Fliegl" ;
+    schema:identifier <https://orcid.org/0000-0002-7541-115X> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3085-3031> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Atif Latif" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3085-3031#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3085-3031> ;
+    foaf:familyName "Latif" ;
+    foaf:givenName "Atif" ;
+    foaf:name "Atif Latif" ;
+    schema:identifier <https://orcid.org/0000-0003-3085-3031> .
+
+<https://w3id.org/squirrelpapers/person/0009-0009-9101-5833> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Angelika Kaplan" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0009-9101-5833#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0009-9101-5833> ;
+    foaf:familyName "Kaplan" ;
+    foaf:givenName "Angelika" ;
+    foaf:name "Angelika Kaplan" ;
+    schema:identifier <https://orcid.org/0009-0009-9101-5833> .
+
+<https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "RWTH Aachen University" ;
+    crm:P168_place_is_defined_by "POINT(6.078056 50.777778)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> ;
+    owl:sameAs wd:Q273263 ;
+    dcat:centroid "POINT(6.078056 50.777778)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "RWTH Aachen, C.A.R.L., Aachen, Germany" ;
+    schema:latitude 5.077778e+01 ;
+    schema:longitude 6.078056e+00 .
+
+<https://w3id.org/squirrelpapers/v7/i5/e5> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ProceedingsPaper,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "5" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-7141-4997>,
+        <https://w3id.org/squirrelpapers/person/0000-0001-9495-040X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-0331-2558>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-1648-1684>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-2579-5546>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5835-2784>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7541-115X>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3085-3031>,
+        <https://w3id.org/squirrelpapers/person/0009-0009-9101-5833> ;
+    dct:description "The NFDI Working Group \"Knowledge Graphs\" (WG KGs) operates within the cross-cutting Section Metadata to coordinate and facilitate exchange on best practices, use cases, and challenges in the creation and use of knowledge graphs (KGs) across different disciplines. In this poster, we follow up on previously published findings, such as the dataset of KGs and related metadata developed and used by different consortia [1]. Besides the successful proposal and initiation of a basic service for a KG infrastructure (KGI4NFDI) [2], members of the WG have continued to meet regularly to discuss the ways the basic service can best meet the requirements of individual disciplines, and the NFDI as a whole. Furthermore, the WG discusses concerns beyond the scope of the basic service, such as efforts within individual consortia focused on disciplinary tasks, or ongoing developments within related basic services, such as TS4NFDI [3] or PID4NFDI [4]. Based on agile requirements gathering, feedback, and practical exchange, the WG has coordinated the collection of functional use cases and ongoing challenges different consortia face, with the aim to identify commonalities and/or distinctions that can inform the development of current and future basic services. The core premise of KGs is to represent (meta)data and their relations in a machine-understandable format, which improves semantic interoperability and data integration by adopting standard ontologies and Linked Data principles (e.g., RDF, OWL). This drives the functional use cases observed in NFDI consortia. Following a literature review, the following core KG functionalities were categorised by members of the WG: a) Data integration; b) Data FAIRification; c) Metadata cataloguing; d) Data verification, enrichment and extension; e) Machine actionability and AI-readiness [5–9]. These core categories were specified further through an open call among the consortia represented in the WG KG. The call collected an extended dataset of use case examples from their KG projects, grouped according to functionality categories, and linked to the previously published KG overview dataset [10]. Examples include KGs established by individual consortia functioning as data and metadata catalogues for discipline-specific repositories and research data portals, while using dedicated semantic ontologies as in the case of NFDI4Culture, NFDI-MatWerk, NFDI4DataScience, MaRDI, and NFDI4Objects, among others. A more specific example of data integration is the capacity of the Semantic Kompakkt KG (NFDI4Culture) and the NFDI4Bioimage KG to semantically express the annotation of 3D models and Bioimaging file formats, respectively. Alongside the use cases that illustrate why different consortia adopt specific KG functionalities, common challenges were also identified and documented. These challenges include harmonizing diverse ontologies within or across consortia, ensuring data verification and quality, optimizing AI-ready tools to support KG (and data) (re)usage, as well as socio-technical challenges, such as data privacy, or managing access restrictions. By collecting concrete use case examples and identifying specific challenges, the WG KGs supports its mission to encourage broader adoption of KGs across the NFDI. This effort also contributes to building a \"one-stop-shop\" catalog of KG example implementations that the NFDI community can turn to when starting KG-driven projects."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.16736077" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i5> ;
+    dct:issued "2025-08-26"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”"@en ;
+    dct:type sqpt:conference-proceeding ;
+    bibo:abstract "The NFDI Working Group \"Knowledge Graphs\" (WG KGs) operates within the cross-cutting Section Metadata to coordinate and facilitate exchange on best practices, use cases, and challenges in the creation and use of knowledge graphs (KGs) across different disciplines. In this poster, we follow up on previously published findings, such as the dataset of KGs and related metadata developed and used by different consortia [1]. Besides the successful proposal and initiation of a basic service for a KG infrastructure (KGI4NFDI) [2], members of the WG have continued to meet regularly to discuss the ways the basic service can best meet the requirements of individual disciplines, and the NFDI as a whole. Furthermore, the WG discusses concerns beyond the scope of the basic service, such as efforts within individual consortia focused on disciplinary tasks, or ongoing developments within related basic services, such as TS4NFDI [3] or PID4NFDI [4]. Based on agile requirements gathering, feedback, and practical exchange, the WG has coordinated the collection of functional use cases and ongoing challenges different consortia face, with the aim to identify commonalities and/or distinctions that can inform the development of current and future basic services. The core premise of KGs is to represent (meta)data and their relations in a machine-understandable format, which improves semantic interoperability and data integration by adopting standard ontologies and Linked Data principles (e.g., RDF, OWL). This drives the functional use cases observed in NFDI consortia. Following a literature review, the following core KG functionalities were categorised by members of the WG: a) Data integration; b) Data FAIRification; c) Metadata cataloguing; d) Data verification, enrichment and extension; e) Machine actionability and AI-readiness [5–9]. These core categories were specified further through an open call among the consortia represented in the WG KG. The call collected an extended dataset of use case examples from their KG projects, grouped according to functionality categories, and linked to the previously published KG overview dataset [10]. Examples include KGs established by individual consortia functioning as data and metadata catalogues for discipline-specific repositories and research data portals, while using dedicated semantic ontologies as in the case of NFDI4Culture, NFDI-MatWerk, NFDI4DataScience, MaRDI, and NFDI4Objects, among others. A more specific example of data integration is the capacity of the Semantic Kompakkt KG (NFDI4Culture) and the NFDI4Bioimage KG to semantically express the annotation of 3D models and Bioimaging file formats, respectively. Alongside the use cases that illustrate why different consortia adopt specific KG functionalities, common challenges were also identified and documented. These challenges include harmonizing diverse ontologies within or across consortia, ensuring data verification and quality, optimizing AI-ready tools to support KG (and data) (re)usage, as well as socio-technical challenges, such as data privacy, or managing access restrictions. By collecting concrete use case examples and identifying specific challenges, the WG KGs supports its mission to encourage broader adoption of KGs across the NFDI. This effort also contributes to building a \"one-stop-shop\" catalog of KG example implementations that the NFDI community can turn to when starting KG-driven projects."@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i5/e5#authors> ;
+    bibo:doi "10.5281/zenodo.16736077" ;
+    bibo:editor <https://w3id.org/squirrelpapers/person/0000-0002-4522-1099>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-0183-6910> ;
+    bibo:locator "𝒬5" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i5/e5#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i5/e5#doi> ;
+    crm:P2_has_type sqpt:conference-proceeding ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.16736077> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i5/e5#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i5> ;
+    dcat:keyword "FAIR data",
+        "Knowledge Graphs",
+        "NFDI",
+        "data integration",
+        "semantic interoperability" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i5/e5/> ;
+    dcat:theme sqpt:conference-proceeding ;
+    prov:wasDerivedFrom <https://zenodo.org/records/16736078> ;
+    sqp:citationLabel "7(5), 𝒬5" ;
+    sqp:entryNumber "5"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

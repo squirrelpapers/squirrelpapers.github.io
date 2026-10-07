@@ -1,0 +1,353 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2014",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2014#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2014#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/paris-france"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/paris-france"
+      },
+      "rdfs:label": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2014-04-24"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/paris-france"
+      },
+      "schema:name": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2014-04-24"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2014#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Computer Applications and Quantitative Methods in Archaeology (CAA)"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2014#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2014-04-24T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2014-04-24T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/paris-france",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(2.352222 48.856667)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(2.352222 48.856667)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/paris-france#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/paris-france#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q90"
+      },
+      "rdfs:label": "Paris",
+      "schema:addressCountry": {
+        "@id": "wd:Q142"
+      },
+      "schema:description": "Paris, France",
+      "schema:latitude": 48.856667,
+      "schema:longitude": 2.352222
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/paris-france#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(2.352222 48.856667)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e1",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ConferencePoster",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "The Roman imperial period is known for the introduction of a red glossy pottery, the so called samian ware. It is crucial for archaeologists to date Roman sites in the Northern provinces. The research in samian ware pottery advanced in recent years. The spatial distribution and chronological pattern as well as the identification of kilnsites of individual potters are key research questions. Most recent studies are based on a dataset collected by several scholars in the past decades. It comprises detailed and reviewed data of potters, pots and related places. The character of the data makes it reasonable to approach it utilizing the concept of the Linked Open Data (LOD) in order to increase its potential for research. The goal of the study presented in this poster is to migrate a subset of these data into an appropriate structure and to make it accessible through URIs. Furthermore the place resources should be linked to existing LOD projects. Finally the query of the links between potters, pots and places was to render possible through a web based interface. The interoperability and possibility for data sharing is achieved by implementing suitable XML schemes (e.g. GML, MIDAS). Findspots and kilnsites are mapped to Pleiades places to benefit from the Pelagios project. Typically Pleiades places are designed to support geographical annotation of textual sources or archaeological objects. A major challenge of the study was to link the ‘samian places' to Pleiades places, because each follow their own spatial concept.  Another aspect was the chronological information entailed in the dataset. Simulations of changes in the relative chronology of the material revealed the potential of the linked data approach by providing immediate access to all implications on related datasets.  The results yield that research on samian ware can benefit from implementing the concept of LOD. Enhanced perspectives arise when extending the linked data to other resources like dies and coins. When the data is published it could contribute to the international crosslinking of archaeological information. Moreover, the data is ready for semantically modelling the relations in an ontology to foster the disclosure of knowledge hidden in the data. The poster presents the results of a M.Sc. Thesis delivered at the University of Applied Sciences Mainz."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.775019",
+      "bibo:locator": "#1",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2014"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:poster"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3"
+      },
+      "dcat:keyword": [
+        "archaeology",
+        "linked data",
+        "linked open data",
+        "samian ware",
+        "semantic modelling"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i3/e1/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:poster"
+      },
+      "dct:creator": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "dct:description": {
+        "@language": "en",
+        "@value": "The Roman imperial period is known for the introduction of a red glossy pottery, the so called samian ware. It is crucial for archaeologists to date Roman sites in the Northern provinces. The research in samian ware pottery advanced in recent years. The spatial distribution and chronological pattern as well as the identification of kilnsites of individual potters are key research questions. Most recent studies are based on a dataset collected by several scholars in the past decades. It comprises detailed and reviewed data of potters, pots and related places. The character of the data makes it reasonable to approach it utilizing the concept of the Linked Open Data (LOD) in order to increase its potential for research. The goal of the study presented in this poster is to migrate a subset of these data into an appropriate structure and to make it accessible through URIs. Furthermore the place resources should be linked to existing LOD projects. Finally the query of the links between potters, pots and places was to render possible through a web based interface. The interoperability and possibility for data sharing is achieved by implementing suitable XML schemes (e.g. GML, MIDAS). Findspots and kilnsites are mapped to Pleiades places to benefit from the Pelagios project. Typically Pleiades places are designed to support geographical annotation of textual sources or archaeological objects. A major challenge of the study was to link the ‘samian places' to Pleiades places, because each follow their own spatial concept.  Another aspect was the chronological information entailed in the dataset. Simulations of changes in the relative chronology of the material revealed the potential of the linked data approach by providing immediate access to all implications on related datasets.  The results yield that research on samian ware can benefit from implementing the concept of LOD. Enhanced perspectives arise when extending the linked data to other resources like dies and coins. When the data is published it could contribute to the international crosslinking of archaeological information. Moreover, the data is ready for semantically modelling the relations in an ontology to foster the disclosure of knowledge hidden in the data. The poster presents the results of a M.Sc. Thesis delivered at the University of Applied Sciences Mainz."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.775019",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2014-04-24"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:relation": {
+        "@id": "https://doi.org/10.5281/zenodo.292975"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Linking potter, pots and places: a LOD approach to samian ware"
+      },
+      "dct:type": {
+        "@id": "sqpt:poster"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.775019"
+      },
+      "prism:number": "3",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/292975"
+      },
+      "sqp:citationLabel": "1(3), #1",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2014-04-24T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2014-04-24T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.775019",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/292975"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "1138144"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/292975/files/2014_CAA_Poster.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2014_CAA_Poster.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "a696ceed8be1bb02b101093a3b172222"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i3/e1#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Linking potter, pots and places: a LOD approach to samian ware"
+    }
+  ]
+}

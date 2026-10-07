@@ -1,0 +1,112 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e1#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v8/i1/e1> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v8/i1/e1#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v8/i1/e1> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e1#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e1#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2026-01-31T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2026-01-31T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v8/i1/e1#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.18441772" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e1#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "SqP_8_1__4_FDO_Reference_Implementation.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v8/i1/e1#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v8/i1/e1> ;
+    dcat:accessURL <https://zenodo.org/records/18441773> ;
+    dcat:byteSize "1206591"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/18441773/files/SqP_8_1__4_FDO_Reference_Implementation.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e1#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "4860fbe6ef0fec79c481066715709fa9"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v8/i1/e1#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "From Tables to Gazetteers: Reproducible Place Alignment for Archaeological Data with STL-PA" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e1> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:WorkingPaper,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "1" ;
+    prism:volume "8" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """The Federated Knowledge Graph Ecosystem enables interoperable, distributed access to research knowledge by connecting RDF triplestores, community-curated knowledge bases, and shared semantic standards. However, many research outputs of high practical relevance—such as software, analytical workflows, images, or 3D data—remain difficult to integrate into such ecosystems, as they are typically distributed as binary artefacts outside the RDF world.
+FAIR Digital Objects (FDOs) address this gap by encapsulating digital artefacts together with metadata and identifiers in a machine-actionable form, but concrete, executable reference implementations remain scarce. This paper presents a minimal, standards-based method and software reference implementation that operationalises core FDO concepts using lightweight metadata packaging and semantic crosswalks. Starting from a self-contained ZIP archive containing binary content together with CITATION.cff and MD.cff metadata, the approach generates an RDF representation that exposes object structure, file-level distributions, and provenance information.
+The resulting RDF output can be ingested into triplestores and queried via SPARQL, enabling binary research artefacts to participate as first-class entities in Federated Knowledge Graph Ecosystems. The implementation is intentionally scoped as a pragmatic entry point, demonstrating how FAIR Digital Objects can be made actionable using existing standards and tooling."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.18441772" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v8/i1> ;
+    dct:issued "2026-01-31"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "From Tables to Gazetteers: Reproducible Place Alignment for Archaeological Data with STL-PA"@en ;
+    dct:type sqpt:methodological-working-paper ;
+    bibo:abstract """The Federated Knowledge Graph Ecosystem enables interoperable, distributed access to research knowledge by connecting RDF triplestores, community-curated knowledge bases, and shared semantic standards. However, many research outputs of high practical relevance—such as software, analytical workflows, images, or 3D data—remain difficult to integrate into such ecosystems, as they are typically distributed as binary artefacts outside the RDF world.
+FAIR Digital Objects (FDOs) address this gap by encapsulating digital artefacts together with metadata and identifiers in a machine-actionable form, but concrete, executable reference implementations remain scarce. This paper presents a minimal, standards-based method and software reference implementation that operationalises core FDO concepts using lightweight metadata packaging and semantic crosswalks. Starting from a self-contained ZIP archive containing binary content together with CITATION.cff and MD.cff metadata, the approach generates an RDF representation that exposes object structure, file-level distributions, and provenance information.
+The resulting RDF output can be ingested into triplestores and queried via SPARQL, enabling binary research artefacts to participate as first-class entities in Federated Knowledge Graph Ecosystems. The implementation is intentionally scoped as a pragmatic entry point, demonstrating how FAIR Digital Objects can be made actionable using existing standards and tooling."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v8/i1/e1#authors> ;
+    bibo:doi "10.5281/zenodo.18441772" ;
+    bibo:locator "§1" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v8/i1/e1#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v8/i1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v8/i1/e1#doi> ;
+    crm:P2_has_type sqpt:methodological-working-paper ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.18441772> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v8/i1/e1#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v8/i1> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v8/i1/e1/> ;
+    dcat:theme sqpt:methodological-working-paper ;
+    prov:wasDerivedFrom <https://zenodo.org/records/18441773> ;
+    sqp:citationLabel "8(1), §1" ;
+    sqp:entryNumber "1"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

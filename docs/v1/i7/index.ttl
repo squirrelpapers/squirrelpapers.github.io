@@ -1,0 +1,33 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i7> a fabio:JournalIssue,
+        crm:E73_Information_Object,
+        dcat:DatasetSeries ;
+    prism:number "7" ;
+    prism:volume "1" ;
+    dct:description "Special Issue on Conferences 2018"@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v1/i7/e1>,
+        <https://w3id.org/squirrelpapers/v1/i7/e10>,
+        <https://w3id.org/squirrelpapers/v1/i7/e2>,
+        <https://w3id.org/squirrelpapers/v1/i7/e3>,
+        <https://w3id.org/squirrelpapers/v1/i7/e4>,
+        <https://w3id.org/squirrelpapers/v1/i7/e5>,
+        <https://w3id.org/squirrelpapers/v1/i7/e6>,
+        <https://w3id.org/squirrelpapers/v1/i7/e7>,
+        <https://w3id.org/squirrelpapers/v1/i7/e8>,
+        <https://w3id.org/squirrelpapers/v1/i7/e9> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1> ;
+    dct:title "Squirrel Papers, Band 1, Heft 7: Sonderheft Konferenzen 2018"@de,
+        "Squirrel Papers, Volume 1, Issue 7: Special Issue on Conferences 2018"@en ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i7/> ;
+    sqp:sigil "#" ;
+    sqp:specialIssue true .
+

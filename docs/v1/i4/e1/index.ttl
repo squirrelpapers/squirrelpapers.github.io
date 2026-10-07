@@ -1,0 +1,186 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e1#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v1/i4/e1> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-8322-1260>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3307-5386> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v1/i4/e1#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v1/i4/e1> .
+
+<https://w3id.org/squirrelpapers/event/jahrestagung-digital-humanities-im-deutschsprachigen-raum-2015> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Jahrestagung Digital Humanities im deutschsprachigen Raum" ;
+    event:place <https://w3id.org/squirrelpapers/place/graz-austria> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i4/e1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/jahrestagung-digital-humanities-im-deutschsprachigen-raum-2015#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/jahrestagung-digital-humanities-im-deutschsprachigen-raum-2015#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/graz-austria> ;
+    schema:endDate "2015-02-25"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/graz-austria> ;
+    schema:name "Jahrestagung Digital Humanities im deutschsprachigen Raum" ;
+    schema:startDate "2015-02-25"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/jahrestagung-digital-humanities-im-deutschsprachigen-raum-2015#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Jahrestagung Digital Humanities im deutschsprachigen Raum" .
+
+<https://w3id.org/squirrelpapers/event/jahrestagung-digital-humanities-im-deutschsprachigen-raum-2015#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2015-02-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2015-02-25T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8322-1260#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-8322-1260" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3307-5386#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3307-5386" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e1#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0003-3307-5386> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0001-8322-1260> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e1#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2015-02-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2015-02-25T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v1/i4/e1#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.2540530" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e1#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "2015_DHd_Poster.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v1/i4/e1#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v1/i4/e1> ;
+    dcat:accessURL <https://zenodo.org/records/2540531> ;
+    dcat:byteSize "106707"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/2540531/files/2015_DHd_Poster.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v1/i4/e1#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "adde8f90fc1339fe06ed383d742f6192"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v1/i4/e1#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Das Labeling System – ein freier Baukasten für kontrollierte Vokabulare" .
+
+<https://w3id.org/squirrelpapers/place/graz-austria#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(15.438611 47.070833)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8322-1260> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Kai-Christian Bruhn" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-8322-1260#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-8322-1260> ;
+    foaf:familyName "Bruhn" ;
+    foaf:givenName "Kai-Christian" ;
+    foaf:name "Kai-Christian Bruhn" ;
+    schema:identifier <https://orcid.org/0000-0001-8322-1260> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3307-5386> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Michael Piotrowski" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3307-5386#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3307-5386> ;
+    foaf:familyName "Piotrowski" ;
+    foaf:givenName "Michael" ;
+    foaf:name "Michael Piotrowski" ;
+    schema:identifier <https://orcid.org/0000-0003-3307-5386> .
+
+<https://w3id.org/squirrelpapers/place/graz-austria> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Graz" ;
+    crm:P168_place_is_defined_by "POINT(15.438611 47.070833)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/graz-austria#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/graz-austria#geometry> ;
+    owl:sameAs wd:Q13298 ;
+    dcat:centroid "POINT(15.438611 47.070833)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q131964 ;
+    schema:description "Graz, Austria" ;
+    schema:latitude 4.707083e+01 ;
+    schema:longitude 1.543861e+01 .
+
+<https://w3id.org/squirrelpapers/v1/i4/e1> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePoster,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "1" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-8322-1260>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3307-5386> ;
+    dct:description "Maschinenlesbare Annotationen sind die Voraussetzung für die semantische Verarbeitung von Daten. Diese Aussage gilt unabhängig davon, ob es sich bei den Daten um natürlichsprachigen Text oder um strukturierte Datensätze in einer Datenbank handelt, und unabhängig davon, ob es um einfaches Sortieren und Filtern geht oder um komplexes automatisches Schließen. Kontrollierte Vokabulare (ob in einer einfachen Terminolgieliste oder als Taxonomien, Thesauri oder Ontologien strukturiert) sind dabei unbedingt notwendig, um Annotationen maschinell verarbeitbar zu machen; ohne terminologische Kontrolle sind Annotationen für die maschinelle Verarbeitung kaum nützlicher als an den Rand eines Buches gekrizelte Notizen. Kontrollierte Vokabulare abstrahieren von natürlichsprachlichen Ambiguitäten und Konnotationen; sie sind daher entscheidend für die semantische Verarbeitung von Forschungsdaten. Um projektübergreifende Zusammenarbeit und den semantischen Austausch von Daten zu ermöglichen, müssen Vokabulare nicht nur kontrolliert, sondern auch formell oder informell standardisiert sein. Standardisierte kontrollierte Vokabulare ermöglichen den Austausch, die Kombination und die gemeinsame Analyse annotierter Daten aus verschiedenen Quellen sowie die Implementierung generischer Werkzeuge für die semantische Verarbeitung. Erstellung und Wartung standardisierter kontrollierter Vokabulare sind jedoch zeitaufwändig und damit teuer. Zu den größten Herausforderungen zählen, dass alle beteiligten Parteien zu einem gemeinsamen Verständnis der Begriffe kommen, und dass die richtige Balance zwischen möglichst breiter Anwendbarkeit einerseits und möglichst präziser Analyse andereseits gefunden werden. Diese Ziele sind insbesondere in den Geisteswissenschaften schwierig zu erreichen: nicht nur sind die Forschungsfragen, die potentiell an einen gegebenen Datensatz gerichtet werden können, extrem weit gefächert, sondern die Kategorisierung der Daten ist häufig ein essenzieller Teil des Forschungsprozesses selbst. Es gibt daher einen eklatanten Mangel an standardisierten kontrollierten Vokabularen in den Geisteswissenschaften, der Digital-Humanities-Projekte letztlich dazu zwingt, eigene, projektspezifische Vokabulare zu definieren. Projektspezifische Vokabulare lösen können den internen Bedarf zwar kurzfristig befriedigen, sind aber nicht interoperabel und verhindern den zukünftigen Austausch und die Nachnutzung der annotierten Daten. Unser Poster stellt einen neuen konzeptuellen Ansatz zur Lösung dieser Probleme vor und beschreibt die Implementierung dieses Ansatzes in einem Softwarewerkzeug, dem Labeling System. Da es in der geisteswissenschaftlichen Forschung praktisch unmöglich ist, kontrollierte Vokabulare zu definieren, die alle denkbaren Anwendungen abdecken und generell akzeptiert sind, schlagen wir ein anderes Vorgehen vor. Bei unserem Ansatz definieren Projekte ihre eigenen Vokabulare, aber anstelle natürlichsprachlicher Definitionen werden die Terme mit einem oder mehreren Konzepten in einem Referenzthesaurus verknüpft. Der projektspezifische Term dient also quasi als »Label« für eine Menge gemeinsamer Konzepte. Dieser Ansatz ermöglicht es Projekten Vokabulare entsprechend ihrer Bedürfnisse und unter Verwendung im jeweiligen Forschungsgebiet üblichen Bezeichnungen benutzen, während gleichzeitig die Interoperabilität mit anderen Projekten über den Referenzthesaurus gewährleistet ist. Das Labeling System ist eine Webanwendung, die es Benutzern ermöglicht, SKOSVokabulare zu erstellen und auf einfache Weise deren Terme mit einem oder mehreren Konzepten in einem oder mehreren Referenzthesauri zu verknüpfen. Die Benutzeroberfläche ermöglicht die Visualisierung der definierten Vokabulare in einer hierarchischen Baumstruktur und ermöglicht den Zugriff auf Vokabulare über eine SPARQL-Schnittstelle. Das Labeling System basiert auf ausgereiften Open-SourceKomponenten und ist selbst ebenfalls frei verfügbar."@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.2540530" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1/i4> ;
+    dct:issued "2015-02-25"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Das Labeling System – ein freier Baukasten für kontrollierte Vokabulare"@de ;
+    dct:type sqpt:poster ;
+    bibo:abstract "Maschinenlesbare Annotationen sind die Voraussetzung für die semantische Verarbeitung von Daten. Diese Aussage gilt unabhängig davon, ob es sich bei den Daten um natürlichsprachigen Text oder um strukturierte Datensätze in einer Datenbank handelt, und unabhängig davon, ob es um einfaches Sortieren und Filtern geht oder um komplexes automatisches Schließen. Kontrollierte Vokabulare (ob in einer einfachen Terminolgieliste oder als Taxonomien, Thesauri oder Ontologien strukturiert) sind dabei unbedingt notwendig, um Annotationen maschinell verarbeitbar zu machen; ohne terminologische Kontrolle sind Annotationen für die maschinelle Verarbeitung kaum nützlicher als an den Rand eines Buches gekrizelte Notizen. Kontrollierte Vokabulare abstrahieren von natürlichsprachlichen Ambiguitäten und Konnotationen; sie sind daher entscheidend für die semantische Verarbeitung von Forschungsdaten. Um projektübergreifende Zusammenarbeit und den semantischen Austausch von Daten zu ermöglichen, müssen Vokabulare nicht nur kontrolliert, sondern auch formell oder informell standardisiert sein. Standardisierte kontrollierte Vokabulare ermöglichen den Austausch, die Kombination und die gemeinsame Analyse annotierter Daten aus verschiedenen Quellen sowie die Implementierung generischer Werkzeuge für die semantische Verarbeitung. Erstellung und Wartung standardisierter kontrollierter Vokabulare sind jedoch zeitaufwändig und damit teuer. Zu den größten Herausforderungen zählen, dass alle beteiligten Parteien zu einem gemeinsamen Verständnis der Begriffe kommen, und dass die richtige Balance zwischen möglichst breiter Anwendbarkeit einerseits und möglichst präziser Analyse andereseits gefunden werden. Diese Ziele sind insbesondere in den Geisteswissenschaften schwierig zu erreichen: nicht nur sind die Forschungsfragen, die potentiell an einen gegebenen Datensatz gerichtet werden können, extrem weit gefächert, sondern die Kategorisierung der Daten ist häufig ein essenzieller Teil des Forschungsprozesses selbst. Es gibt daher einen eklatanten Mangel an standardisierten kontrollierten Vokabularen in den Geisteswissenschaften, der Digital-Humanities-Projekte letztlich dazu zwingt, eigene, projektspezifische Vokabulare zu definieren. Projektspezifische Vokabulare lösen können den internen Bedarf zwar kurzfristig befriedigen, sind aber nicht interoperabel und verhindern den zukünftigen Austausch und die Nachnutzung der annotierten Daten. Unser Poster stellt einen neuen konzeptuellen Ansatz zur Lösung dieser Probleme vor und beschreibt die Implementierung dieses Ansatzes in einem Softwarewerkzeug, dem Labeling System. Da es in der geisteswissenschaftlichen Forschung praktisch unmöglich ist, kontrollierte Vokabulare zu definieren, die alle denkbaren Anwendungen abdecken und generell akzeptiert sind, schlagen wir ein anderes Vorgehen vor. Bei unserem Ansatz definieren Projekte ihre eigenen Vokabulare, aber anstelle natürlichsprachlicher Definitionen werden die Terme mit einem oder mehreren Konzepten in einem Referenzthesaurus verknüpft. Der projektspezifische Term dient also quasi als »Label« für eine Menge gemeinsamer Konzepte. Dieser Ansatz ermöglicht es Projekten Vokabulare entsprechend ihrer Bedürfnisse und unter Verwendung im jeweiligen Forschungsgebiet üblichen Bezeichnungen benutzen, während gleichzeitig die Interoperabilität mit anderen Projekten über den Referenzthesaurus gewährleistet ist. Das Labeling System ist eine Webanwendung, die es Benutzern ermöglicht, SKOSVokabulare zu erstellen und auf einfache Weise deren Terme mit einem oder mehreren Konzepten in einem oder mehreren Referenzthesauri zu verknüpfen. Die Benutzeroberfläche ermöglicht die Visualisierung der definierten Vokabulare in einer hierarchischen Baumstruktur und ermöglicht den Zugriff auf Vokabulare über eine SPARQL-Schnittstelle. Das Labeling System basiert auf ausgereiften Open-SourceKomponenten und ist selbst ebenfalls frei verfügbar."@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v1/i4/e1#authors> ;
+    bibo:doi "10.5281/zenodo.2540530" ;
+    bibo:locator "#1" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/jahrestagung-digital-humanities-im-deutschsprachigen-raum-2015> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v1/i4/e1#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v1/i4/e1#doi> ;
+    crm:P2_has_type sqpt:poster ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.2540530> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v1/i4/e1#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i4/e1/> ;
+    dcat:theme sqpt:poster ;
+    prov:wasDerivedFrom <https://zenodo.org/records/2540531> ;
+    sqp:citationLabel "1(4), #1" ;
+    sqp:entryNumber "1"^^xsd:positiveInteger .
+

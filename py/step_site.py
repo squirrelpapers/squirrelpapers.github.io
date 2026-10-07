@@ -44,7 +44,7 @@ PAGES_DIR = CONTENT / "pages"
 ASSET_FILES = ["css/sqp.css", "img/sqp-logo.png", "img/network.svg", "js/sqp-cite.js"]
 WEB = Path(__file__).resolve().parent.parent / "data" / "derived" / "web"   # S6/S7/S10 products
 DOWNLOAD_FORMATS = (("bib", "BibTeX"), ("ris", "RIS"), ("csl.json", "CSL-JSON"),
-                    ("ttl", "Turtle"), ("jsonld", "JSON-LD"))
+                    ("ttl", "Turtle"), ("jsonld", "JSON-LD"), ("crm.ttl", "CIDOC CRM (Turtle)"))
 
 SCHEMA_TYPES = {
     "journal-article": "ScholarlyArticle", "conference-paper": "ScholarlyArticle",
@@ -277,6 +277,12 @@ def main(strict: bool = False) -> None:
         t = ui[lang]
         fmt_date, fmt_range = make_formatters(t, lang)
         prefix = "" if lang == "en" else f"{lang}/"
+        # Machine-readable twins of the page (S7), announced in the <head>.
+        folder = DOCS / path if path else DOCS
+        context.setdefault("data_links", [
+            {"type": mime, "href": root + (f"{path}/" if path else "") + f"index.{suffix}"}
+            for suffix, mime in (("ttl", "text/turtle"), ("jsonld", "application/ld+json"))
+            if (folder / f"index.{suffix}").exists()])
         html = env.get_template(template).render(
             lang=lang, t=t, root=root, home=home, journal=journal, types=types,
             editor_name=editor_name, other_lang=other,
@@ -285,7 +291,7 @@ def main(strict: bool = False) -> None:
             alternates=[{"lang": lg, "url": SITE + ("" if lg == "en" else f"{lg}/")
                          + (f"{path}/" if path else "")} for lg in LANGUAGES],
             fmt_date=fmt_date, fmt_range=fmt_range,
-            **{"data_links": [], "jsonld": None, "description": None, **context})
+            **{"jsonld": None, "description": None, **context})
         target = DOCS / prefix / path / "index.html" if path else DOCS / prefix / "index.html"
         write_text(target, html)
         pages_written += 1

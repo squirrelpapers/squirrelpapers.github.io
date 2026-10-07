@@ -1,0 +1,174 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e3#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v1/i7/e3> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/unold-martin> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v1/i7/e3#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v1/i7/e3> .
+
+<https://w3id.org/squirrelpapers/event/graphentechnologien-2018> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Graphentechnologien 2018" ;
+    event:place <https://w3id.org/squirrelpapers/place/mainz-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i7/e3>,
+        <https://w3id.org/squirrelpapers/v1/i7/e4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/graphentechnologien-2018#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/graphentechnologien-2018#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/mainz-germany> ;
+    schema:endDate "2018-01-19"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/mainz-germany> ;
+    schema:name "Graphentechnologien 2018" ;
+    schema:startDate "2018-01-19"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/graphentechnologien-2018#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Graphentechnologien 2018" .
+
+<https://w3id.org/squirrelpapers/event/graphentechnologien-2018#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-01-19T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-01-19T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e3#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/unold-martin> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e3#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2018-01-19T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-01-19T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v1/i7/e3#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.1155727" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e3#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "2018_01_19_Graphentechnologien2018_AMT.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v1/i7/e3#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v1/i7/e3> ;
+    dcat:accessURL <https://zenodo.org/records/1155727> ;
+    dcat:byteSize "2814992"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/1155727/files/2018_01_19_Graphentechnologien2018_AMT.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v1/i7/e3#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "e9d264514c468ba7b38f2f3d51e04d19"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v1/i7/e3#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels" .
+
+<https://w3id.org/squirrelpapers/place/mainz-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.273611 49.999444)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/unold-martin> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Martin Unold" ;
+    foaf:familyName "Unold" ;
+    foaf:givenName "Martin" ;
+    foaf:name "Martin Unold" .
+
+<https://w3id.org/squirrelpapers/place/mainz-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Mainz" ;
+    crm:P168_place_is_defined_by "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/mainz-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/mainz-germany#geometry> ;
+    owl:sameAs wd:Q1720 ;
+    dcat:centroid "POINT(8.273611 49.999444)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q12548 ;
+    schema:description "Mainz, Germany" ;
+    schema:latitude 4.999944e+01 ;
+    schema:longitude 8.273611e+00 .
+
+<https://w3id.org/squirrelpapers/v1/i7/e3> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "7" ;
+    prism:volume "1" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/unold-martin> ;
+    dct:description """Graphdatenbanken und Triple Stores stellen bei der Modellierung von Forschungsdaten eine Alternative zu relationalen Datenbanken dar. Eine Modellierung der Daten in einem Netzwerk, anstatt in Tabellenstrukturen, eignet sie sich hervorragend um Daten interoperabel zur Verfügung zu stellen, indem man zwei Knoten aus verschiedenen Datenbanken miteinander über eine Kante verbindet. Dieser Technik bedienen sich viele Forschungsprojekte durch die Verwendung von Linked Open Data (LOD).
+Sowohl gängige Graphdatenbanken als auch gebräuchliche Triple Stores bieten jedoch keine Möglichkeit Unsicherheiten oder Vagheiten zu modellieren. Um dieser Unzulänglichkeit Rechnung zu tragen, haben wir das Academic Meta Tool (AMT) entwickelt. AMT bietet die Möglichkeit sämtlichen Kanten eine Gewichtung hinzuzufügen, um dadurch die Vagheit dieser Kante auszudrücken. Eine Beziehung zwischen zwei Knoten besteht also nur zu einem gewissen Grad. Dieser Grad, d.h. das Kantengewicht, wird üblicherweise in Prozent angegeben. AMT beinhaltet zusätzlich ein Verfahren, mit dem - unter Zuhilfenahme einer vordefinierten Ontologie - aus vorhandenen graphbasierten Daten automatisch Schlussfolgerungen gezogen werden können (Reasoning).
+Ein Prototyp des AMTs steht als Web-Anwendung zur Verfügung. In einer entwickelten Test-Ontologie können Personen und Interessen und deren Beziehungen in einem gewissen Grad zueinander modelliert werden. Diese Ontologie beinhaltet neben den genannten beiden Klassen fünf weitere Relationen, so dass Personen und Interessen miteinander in Beziehung gesetzt werden können. Außerdem enthält die Ontologie 11 Axiome, um automatisiert aus bestehenden Beziehungen neue Beziehungen generieren zu können.
+Ein Testfall, basierend auf der zuvor beschriebenen Ontologie, bildet die Beziehungen innerhalb des mainzed (Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften) Netzwerks ab. Die Mitglieder des Netzwerks stehen in fachlichen bzw. hierarchischen Beziehungen zueinander. Zudem haben die Mitglieder des heterogenen Netzwerks viele unterschiedliche Interessen, die wiederum in einer SKOS-ähnlichen Taxonomie modellierbar sind. In einer Community Aktion haben die Mitglieder jeweils ihre Sicht auf das Netzwerk dargestellt, das heißt Beziehungen und Interessen, sowie deren Vagheitsgrad angegeben. AMT kann nun dieses Netz visualisieren und weitere Schlussfolgerungen ziehen, das heißt neue Beziehungen aufzeigen, welche bei der Eingabe nicht erkennbar waren, so dass dies einen Mehrwert für das Netzwerk bildet.
+Der beschriebene Testfall lässt sich auch auf andere Datengrundlagen, wie historische Personen-Netzwerke, etc. extrapolieren. Außerdem lassen sich statt der Personen-Interessen-Ontologie auch beliebige andere Ontologien verwenden, die in das AMT-Schema passen. Mit AMT präsentieren wir somit ein generisches Tool, das Unsicherheiten und Vagheiten in bestehenden Forschungsdaten darstellen und neue Folgerungen daraus schließen kann."""@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.1155727" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1/i7> ;
+    dct:issued "2018-01-19"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Academic Meta Tool – Ein Web-Tool zur Modellierung des Zweifels"@de ;
+    dct:type sqpt:presentation ;
+    bibo:abstract """Graphdatenbanken und Triple Stores stellen bei der Modellierung von Forschungsdaten eine Alternative zu relationalen Datenbanken dar. Eine Modellierung der Daten in einem Netzwerk, anstatt in Tabellenstrukturen, eignet sie sich hervorragend um Daten interoperabel zur Verfügung zu stellen, indem man zwei Knoten aus verschiedenen Datenbanken miteinander über eine Kante verbindet. Dieser Technik bedienen sich viele Forschungsprojekte durch die Verwendung von Linked Open Data (LOD).
+Sowohl gängige Graphdatenbanken als auch gebräuchliche Triple Stores bieten jedoch keine Möglichkeit Unsicherheiten oder Vagheiten zu modellieren. Um dieser Unzulänglichkeit Rechnung zu tragen, haben wir das Academic Meta Tool (AMT) entwickelt. AMT bietet die Möglichkeit sämtlichen Kanten eine Gewichtung hinzuzufügen, um dadurch die Vagheit dieser Kante auszudrücken. Eine Beziehung zwischen zwei Knoten besteht also nur zu einem gewissen Grad. Dieser Grad, d.h. das Kantengewicht, wird üblicherweise in Prozent angegeben. AMT beinhaltet zusätzlich ein Verfahren, mit dem - unter Zuhilfenahme einer vordefinierten Ontologie - aus vorhandenen graphbasierten Daten automatisch Schlussfolgerungen gezogen werden können (Reasoning).
+Ein Prototyp des AMTs steht als Web-Anwendung zur Verfügung. In einer entwickelten Test-Ontologie können Personen und Interessen und deren Beziehungen in einem gewissen Grad zueinander modelliert werden. Diese Ontologie beinhaltet neben den genannten beiden Klassen fünf weitere Relationen, so dass Personen und Interessen miteinander in Beziehung gesetzt werden können. Außerdem enthält die Ontologie 11 Axiome, um automatisiert aus bestehenden Beziehungen neue Beziehungen generieren zu können.
+Ein Testfall, basierend auf der zuvor beschriebenen Ontologie, bildet die Beziehungen innerhalb des mainzed (Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften) Netzwerks ab. Die Mitglieder des Netzwerks stehen in fachlichen bzw. hierarchischen Beziehungen zueinander. Zudem haben die Mitglieder des heterogenen Netzwerks viele unterschiedliche Interessen, die wiederum in einer SKOS-ähnlichen Taxonomie modellierbar sind. In einer Community Aktion haben die Mitglieder jeweils ihre Sicht auf das Netzwerk dargestellt, das heißt Beziehungen und Interessen, sowie deren Vagheitsgrad angegeben. AMT kann nun dieses Netz visualisieren und weitere Schlussfolgerungen ziehen, das heißt neue Beziehungen aufzeigen, welche bei der Eingabe nicht erkennbar waren, so dass dies einen Mehrwert für das Netzwerk bildet.
+Der beschriebene Testfall lässt sich auch auf andere Datengrundlagen, wie historische Personen-Netzwerke, etc. extrapolieren. Außerdem lassen sich statt der Personen-Interessen-Ontologie auch beliebige andere Ontologien verwenden, die in das AMT-Schema passen. Mit AMT präsentieren wir somit ein generisches Tool, das Unsicherheiten und Vagheiten in bestehenden Forschungsdaten darstellen und neue Folgerungen daraus schließen kann."""@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v1/i7/e3#authors> ;
+    bibo:doi "10.5281/zenodo.1155727" ;
+    bibo:locator "#3" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/graphentechnologien-2018> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v1/i7/e3#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1/i7> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v1/i7/e3#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.1155727> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v1/i7/e3#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1/i7> ;
+    dcat:keyword "graph",
+        "ontologie",
+        "owl",
+        "rdf" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i7/e3/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/1155727> ;
+    sqp:citationLabel "1(7), #3" ;
+    sqp:entryNumber "3"^^xsd:positiveInteger .
+

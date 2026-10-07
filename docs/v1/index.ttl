@@ -1,0 +1,27 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://w3id.org/squirrelpapers/v1> a fabio:JournalVolume,
+        crm:E73_Information_Object,
+        dcat:DatasetSeries ;
+    prism:volume "1" ;
+    dct:description "Volume 1 of the Squirrel Papers, covering 2014–2019."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v1/i1>,
+        <https://w3id.org/squirrelpapers/v1/i2>,
+        <https://w3id.org/squirrelpapers/v1/i3>,
+        <https://w3id.org/squirrelpapers/v1/i4>,
+        <https://w3id.org/squirrelpapers/v1/i5>,
+        <https://w3id.org/squirrelpapers/v1/i6>,
+        <https://w3id.org/squirrelpapers/v1/i7> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 1 (2014–2019)"@de,
+        "Squirrel Papers, Volume 1 (2014–2019)"@en ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/> ;
+    owl:sameAs wd:Q116235709 ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/> .
+

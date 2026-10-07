@@ -1,0 +1,166 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e2#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i4/e2> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i4/e2#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i4/e2> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-2576-1511#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-2576-1511" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3223-2079" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e2#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e2#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-09-19T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-09-19T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i4/e2#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.14893860" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e2#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i4/e2#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i4/e2> ;
+    dcat:accessURL <https://zenodo.org/records/17159183> ;
+    dcat:byteSize "722314"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/17159183/files/NFDI4Objects_TWG_OCMDP_MaCHeCO_v3.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e2#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "291ab0aaa3de68fce9fa234e078f3f5b"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i4/e2#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "NFDI4Objects TWG - N4O ObjectMetaDataSet (N4O OMDS) & N4O ObjectOntology (N4O OO)" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-2576-1511> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Anja Gerber" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-2576-1511> ;
+    foaf:familyName "Gerber" ;
+    foaf:givenName "Anja" ;
+    foaf:name "Anja Gerber" ;
+    schema:identifier <https://orcid.org/0000-0003-2576-1511> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fabian Fricke" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3223-2079> ;
+    foaf:familyName "Fricke" ;
+    foaf:givenName "Fabian" ;
+    foaf:name "Fabian Fricke" ;
+    schema:identifier <https://orcid.org/0000-0003-3223-2079> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e2> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Expression,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-2576-1511>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> ;
+    dct:description """Die TWG N4O ObjectMetaDataSet and ObjectOntology wird in dieser Iteration den aktuellen Bedürfnissen (NFDI Core Metadata Profile, etc.) inhaltlich agil angepasst. Diese TWG entwickelt kein Datenmodell für die Erstellung von Objektbiografien und definiert ebenfalls keine Anwendungsontologie für CIDOC CRM. Zudem werden keine LIDO-Anwendungsprofile entwickelt. Sie dient vor allem zur Entwicklung von technischen Referenzmodellen für Metadaten und publizierten Forschungsdaten. Die Themengebiete erzeugen fachliche Profile als Module der OCMDP sowie fachspezifische Profil-Ontologien, die jeweils auf CIDOC CRM Klassen referenzieren, um die Kompatibilität mit dem N4O KG herzustellen und die Validierung positiv zu gestalten; die TWG entwickelt ein abgeglichenes gemeinsames harmonisiertes Metadaten- und Ontologieprofil, keine fachspezifischen Lösungen.
+Primäres Ziel ist der Aufbau eines von der NFDI4Objects-Community getragenes Object Core Metadata Profile (OCMDP). Dieses Kerndatenschema stellt die Kompatibilität mit dem sich in Aufbau befindlichen NFDI Core Meta Data Profile (NFDI Sektionen) und dem NFDI Core (FIZ Karlsruhe) sicher, so dass Metadaten in NFDI4Objects innerhalb der NFDI-Konsortien interoperabel zur Verfügung stehen. Dazu müssen abgestimmte N4O eigene Elemente/Terms (properties) und Entitäten (classes) erzeugt und durch einen Cross-Walk mit anderen Schemata (u. a. schema.org, DCAT, DataCite, DublinCore) verknüpft werden. Der OCMDP ist die Basis für ein RDF-basiertes Austauschformat (Objects Metadata Junction Ontology - OMJO), welche Daten in einen N4O Metadata Knowledge Graph (N4O MKG) einspielt und diese FAIR zur Verfügung stellt. Zur FAIRifizierung von Forschungsdaten und Herstellung der Kompatibilität mit internationalen Cultural Heritage Daten auf Basis des CIDOC CRM und seiner Extensions wird eine Material Cultural Heritage Crosswalk Ontology (MaCHeCO) entwickelt, um hier gemeinsam mit der N4O Community Basis-Entitäten (classes)  in individuellen Ontologien durch einen hierarchischen CrossWalk zu CIDOC CRM als Crosswalk-Ontology im N4O Knowledge Graph (N4O KG) festzulegen. Zur Interaktion zwischen MaCHeCO und OMJO werden Anknüpfungsklassen zur föderierten Abfrage der beiden Knowledge Graphen (KG und MKG) definiert.
+Das OCMDP und die MaCHeCO werden vor allem durch das fachliche Arbeitsprogramm - und damit dem Objektzyklus - der Task Areas 1-4 “Documentation”, “Collecting”, “Analysis & Experiments” sowie “Protecting” bestimmt und berühren dabei die Themengebiete Ausgrabung, (digitale) Rekonstruktion und Annotation, Sammlung, Kunstgeschichte, Restaurierung/Konservierung, naturwissenschaftliche Analysen, Denkmalpflege, Provenienzforschung, etc. Die Themengebiete erzeugen dabei fachliche Profile als Module der OCMDP, sowie fachspezifische Profil-Ontologien, die jeweils auf CIDOC CRM Klassen referenzieren (per cross-walk) um die Kompatibilität mit dem N4O KG herzustellen und die Validierung positiv zu gestalten.
+Daraus ergeben sich als Aufgaben für die TWG u. a.:
+Definition der Begrifflichkeiten zu einem Objects Core (N4O Proposal G6.5, p. 93; M6.3, p.95)
+Festlegung von gemeinsamen Basis-Entitäten (classes) in individuellen Ontologien und hierarchischer CrossWalk u.A. auf CIDOC CRM 7.1.3 für MaCHeCO als Crosswalk-Ontologie im N4O Knowledge Graph
+Entwicklung eines Object Core Metadata Profile (OCMDP) und Verknüpfung zu MaCHeCO und dem Knowledge Graph
+Aufbau eines gemeinsamen Thesaurus zur Definition der Elemente (properties) und Entitäten (classes, zum Ontologieaustausch) im Object Core Metadata Profile (OCMDP)
+OCMDP-Super-Element-CrossWalk zu NFDI Core Metadata Profile (schema.org / DataCite / DCAT / NFDI Core / CodeMeta) sowie DublinCore und Wikidata
+Definition eines Austauschformats (CSV; XML; JSON)
+Definition einer OCMDP Ontology (RDF Repräsentation des OCMDP) und der Object Metadata Junction Ontology (OMJO)
+Elemente (properties) im Object Core Metadata Profile (OCMDP)
+Gemeinsame Anknüpfungsentitäten (classes) zwischen OMJO und MaCHeO zur föderierten Abfrage der beiden Knowledge Graphen""" ;
+    dct:identifier "https://doi.org/10.5281/zenodo.14893860" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i4> ;
+    dct:issued "2025-09-19"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "NFDI4Objects TWG - N4O ObjectMetaDataSet (N4O OMDS) & N4O ObjectOntology (N4O OO)" ;
+    dct:type sqpt:proposal ;
+    bibo:abstract """Die TWG N4O ObjectMetaDataSet and ObjectOntology wird in dieser Iteration den aktuellen Bedürfnissen (NFDI Core Metadata Profile, etc.) inhaltlich agil angepasst. Diese TWG entwickelt kein Datenmodell für die Erstellung von Objektbiografien und definiert ebenfalls keine Anwendungsontologie für CIDOC CRM. Zudem werden keine LIDO-Anwendungsprofile entwickelt. Sie dient vor allem zur Entwicklung von technischen Referenzmodellen für Metadaten und publizierten Forschungsdaten. Die Themengebiete erzeugen fachliche Profile als Module der OCMDP sowie fachspezifische Profil-Ontologien, die jeweils auf CIDOC CRM Klassen referenzieren, um die Kompatibilität mit dem N4O KG herzustellen und die Validierung positiv zu gestalten; die TWG entwickelt ein abgeglichenes gemeinsames harmonisiertes Metadaten- und Ontologieprofil, keine fachspezifischen Lösungen.
+Primäres Ziel ist der Aufbau eines von der NFDI4Objects-Community getragenes Object Core Metadata Profile (OCMDP). Dieses Kerndatenschema stellt die Kompatibilität mit dem sich in Aufbau befindlichen NFDI Core Meta Data Profile (NFDI Sektionen) und dem NFDI Core (FIZ Karlsruhe) sicher, so dass Metadaten in NFDI4Objects innerhalb der NFDI-Konsortien interoperabel zur Verfügung stehen. Dazu müssen abgestimmte N4O eigene Elemente/Terms (properties) und Entitäten (classes) erzeugt und durch einen Cross-Walk mit anderen Schemata (u. a. schema.org, DCAT, DataCite, DublinCore) verknüpft werden. Der OCMDP ist die Basis für ein RDF-basiertes Austauschformat (Objects Metadata Junction Ontology - OMJO), welche Daten in einen N4O Metadata Knowledge Graph (N4O MKG) einspielt und diese FAIR zur Verfügung stellt. Zur FAIRifizierung von Forschungsdaten und Herstellung der Kompatibilität mit internationalen Cultural Heritage Daten auf Basis des CIDOC CRM und seiner Extensions wird eine Material Cultural Heritage Crosswalk Ontology (MaCHeCO) entwickelt, um hier gemeinsam mit der N4O Community Basis-Entitäten (classes)  in individuellen Ontologien durch einen hierarchischen CrossWalk zu CIDOC CRM als Crosswalk-Ontology im N4O Knowledge Graph (N4O KG) festzulegen. Zur Interaktion zwischen MaCHeCO und OMJO werden Anknüpfungsklassen zur föderierten Abfrage der beiden Knowledge Graphen (KG und MKG) definiert.
+Das OCMDP und die MaCHeCO werden vor allem durch das fachliche Arbeitsprogramm - und damit dem Objektzyklus - der Task Areas 1-4 “Documentation”, “Collecting”, “Analysis & Experiments” sowie “Protecting” bestimmt und berühren dabei die Themengebiete Ausgrabung, (digitale) Rekonstruktion und Annotation, Sammlung, Kunstgeschichte, Restaurierung/Konservierung, naturwissenschaftliche Analysen, Denkmalpflege, Provenienzforschung, etc. Die Themengebiete erzeugen dabei fachliche Profile als Module der OCMDP, sowie fachspezifische Profil-Ontologien, die jeweils auf CIDOC CRM Klassen referenzieren (per cross-walk) um die Kompatibilität mit dem N4O KG herzustellen und die Validierung positiv zu gestalten.
+Daraus ergeben sich als Aufgaben für die TWG u. a.:
+Definition der Begrifflichkeiten zu einem Objects Core (N4O Proposal G6.5, p. 93; M6.3, p.95)
+Festlegung von gemeinsamen Basis-Entitäten (classes) in individuellen Ontologien und hierarchischer CrossWalk u.A. auf CIDOC CRM 7.1.3 für MaCHeCO als Crosswalk-Ontologie im N4O Knowledge Graph
+Entwicklung eines Object Core Metadata Profile (OCMDP) und Verknüpfung zu MaCHeCO und dem Knowledge Graph
+Aufbau eines gemeinsamen Thesaurus zur Definition der Elemente (properties) und Entitäten (classes, zum Ontologieaustausch) im Object Core Metadata Profile (OCMDP)
+OCMDP-Super-Element-CrossWalk zu NFDI Core Metadata Profile (schema.org / DataCite / DCAT / NFDI Core / CodeMeta) sowie DublinCore und Wikidata
+Definition eines Austauschformats (CSV; XML; JSON)
+Definition einer OCMDP Ontology (RDF Repräsentation des OCMDP) und der Object Metadata Junction Ontology (OMJO)
+Elemente (properties) im Object Core Metadata Profile (OCMDP)
+Gemeinsame Anknüpfungsentitäten (classes) zwischen OMJO und MaCHeO zur föderierten Abfrage der beiden Knowledge Graphen""" ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i4/e2#authors> ;
+    bibo:doi "10.5281/zenodo.14893860" ;
+    bibo:locator "λ2" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i4/e2#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i4/e2#doi> ;
+    crm:P2_has_type sqpt:proposal ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.14893860> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i4/e2#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i4/e2/> ;
+    dcat:theme sqpt:proposal ;
+    dcat:version "v3" ;
+    prov:wasDerivedFrom <https://zenodo.org/records/17159183> ;
+    sqp:citationLabel "7(4), λ2" ;
+    sqp:entryNumber "2"^^xsd:positiveInteger .
+

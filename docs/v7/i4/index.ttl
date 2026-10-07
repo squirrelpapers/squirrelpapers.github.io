@@ -1,0 +1,28 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i4> a fabio:JournalIssue,
+        crm:E73_Information_Object,
+        dcat:DatasetSeries ;
+    prism:number "4" ;
+    prism:volume "7" ;
+    dct:description "Special Issue on NFDI related topics"@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v7/i4/e1>,
+        <https://w3id.org/squirrelpapers/v7/i4/e2>,
+        <https://w3id.org/squirrelpapers/v7/i4/e3>,
+        <https://w3id.org/squirrelpapers/v7/i4/e4>,
+        <https://w3id.org/squirrelpapers/v7/i4/e5> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7> ;
+    dct:title "Squirrel Papers, Band 7, Heft 4: Sonderheft zu NFDI-Themen"@de,
+        "Squirrel Papers, Volume 7, Issue 4: Special Issue on NFDI related topics"@en ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i4/> ;
+    sqp:sigil "λ" ;
+    sqp:specialIssue true .
+

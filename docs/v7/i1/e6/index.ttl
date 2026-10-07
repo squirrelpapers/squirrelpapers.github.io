@@ -1,0 +1,136 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i1/e6#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i1/e6> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i1/e6#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i1/e6> .
+
+<https://w3id.org/squirrelpapers/event/text-show-and-tell-tools-dienste-projekte-2025-07-23> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "Text+ Show and Tell: Tools, Dienste, Projekte" ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i1/e6> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/text-show-and-tell-tools-dienste-projekte-2025-07-23#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/text-show-and-tell-tools-dienste-projekte-2025-07-23#time-span> ;
+    schema:endDate "2025-07-23"^^xsd:date ;
+    schema:eventAttendanceMode schema:OnlineEventAttendanceMode ;
+    schema:name "Text+ Show and Tell: Tools, Dienste, Projekte" ;
+    schema:startDate "2025-07-23"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/text-show-and-tell-tools-dienste-projekte-2025-07-23#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Text+ Show and Tell: Tools, Dienste, Projekte" .
+
+<https://w3id.org/squirrelpapers/event/text-show-and-tell-tools-dienste-projekte-2025-07-23#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-07-23T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-07-23T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i1/e6#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v7/i1/e6#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-07-23T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-07-23T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i1/e6#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.16353592" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i1/e6#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Text+ShowAndTell_2025_#12_TEIEpiDoc_OghamData_20250724.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i1/e6#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i1/e6> ;
+    dcat:accessURL <https://zenodo.org/records/16353593> ;
+    dcat:byteSize "16622022"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/16353593/files/Text%2BShowAndTell_2025_%2312_TEIEpiDoc_OghamData_20250724.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i1/e6#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "c1712dab8ff931f01d196b8d651e6119"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i1/e6#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "LOD Objects in Action III: TEI/EpiDoc Ogham Data - How to integrate TEI data into the NFDI Knowledge Graph Ecosystem" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v7/i1/e6> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "1" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """Presentation in the format "Text+ Show and Tell: Tools, Dienste, Projekte"
+https://events.gwdg.de/event/1192/"""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.16353592" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i1> ;
+    dct:issued "2025-07-23"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "LOD Objects in Action III: TEI/EpiDoc Ogham Data - How to integrate TEI data into the NFDI Knowledge Graph Ecosystem"@en ;
+    dct:type sqpt:presentation ;
+    bibo:abstract """Presentation in the format "Text+ Show and Tell: Tools, Dienste, Projekte"
+https://events.gwdg.de/event/1192/"""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i1/e6#authors> ;
+    bibo:doi "10.5281/zenodo.16353592" ;
+    bibo:locator "λ6" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/text-show-and-tell-tools-dienste-projekte-2025-07-23> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i1/e6#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i1/e6#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.16353592> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i1/e6#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i1> ;
+    dcat:keyword "LOD",
+        "Linked Data",
+        "NFDI",
+        "NFDI4Objects",
+        "TEI/EpiDoc",
+        "Text+" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i1/e6/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/16353593> ;
+    sqp:citationLabel "7(1), λ6" ;
+    sqp:entryNumber "6"^^xsd:positiveInteger .
+

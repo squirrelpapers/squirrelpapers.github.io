@@ -1,0 +1,394 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-2023",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v5/i3/e5"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v5/i5/e1"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v5/i5/e2"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-2023#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-2023#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg"
+      },
+      "rdfs:label": "CAA-DE Workshop",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2023-09-15"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg"
+      },
+      "schema:name": "CAA-DE Workshop",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2023-09-14"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-2023#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "CAA-DE Workshop"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-2023#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-09-14T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-09-15T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-1100-6494",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-1100-6494#orcid"
+      },
+      "foaf:familyName": "Baars",
+      "foaf:givenName": "Stefanie",
+      "foaf:name": "Stefanie Baars",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-1100-6494"
+      },
+      "rdfs:label": "Stefanie Baars",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-1100-6494"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-1100-6494#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-1100-6494",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.929444 49.794444)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.929444 49.794444)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2999"
+      },
+      "rdfs:label": "Würzburg",
+      "schema:addressCountry": {
+        "@id": "wd:Q13427044"
+      },
+      "schema:description": "Toscana-Saal der Residenz Würzburg",
+      "schema:latitude": 49.794444,
+      "schema:longitude": 9.929444
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/toscana-saal-der-residenz-wurzburg#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.929444 49.794444)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i5/e2",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Zur FAIRifizierung von archäologischen Forschungsdaten dienen nicht nur semantisch modellierte Linked Open Data (LOD) und interoperable Austauschformate, die über machinenlesbare Schnittstellen (z. B. WFS) der wissenschaftlichen Fachwelt zur Verfügung gestellt werden. Als modernes strategisches Element können auch Citizen Scientists über Web-Plattformen wie das Wikiversum und Open Street Map (OSM) an den Forschungsdaten partizipieren. Auch das archäologisch-geprägte NFDI4Objects-Konsortium der Nationalen Forschungsdateninfrastruktur (NFDI) beteiligt sich an der Erstellung von Whitepapers zu Workflows zur Integration von Daten in diese Citizen Science Hubs.\nDieser Vortrag zeigt anhand von Fallbeispielen die Herausforderungen bei der Integration von archäologischen Daten in das Wikiversum und OSM auf: Welche Herausforderungen entstehen bei einer FAIRifizierung mit Citizen Science? Wie sehen konkrete Lösungswege und Hilfestellungen aus?"
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.8334735",
+      "bibo:locator": "#2",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-2023"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v5/i5/e2/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-1100-6494"
+        }
+      ],
+      "dct:description": {
+        "@language": "de",
+        "@value": "Zur FAIRifizierung von archäologischen Forschungsdaten dienen nicht nur semantisch modellierte Linked Open Data (LOD) und interoperable Austauschformate, die über machinenlesbare Schnittstellen (z. B. WFS) der wissenschaftlichen Fachwelt zur Verfügung gestellt werden. Als modernes strategisches Element können auch Citizen Scientists über Web-Plattformen wie das Wikiversum und Open Street Map (OSM) an den Forschungsdaten partizipieren. Auch das archäologisch-geprägte NFDI4Objects-Konsortium der Nationalen Forschungsdateninfrastruktur (NFDI) beteiligt sich an der Erstellung von Whitepapers zu Workflows zur Integration von Daten in diese Citizen Science Hubs.\nDieser Vortrag zeigt anhand von Fallbeispielen die Herausforderungen bei der Integration von archäologischen Daten in das Wikiversum und OSM auf: Welche Herausforderungen entstehen bei einer FAIRifizierung mit Citizen Science? Wie sehen konkrete Lösungswege und Hilfestellungen aus?"
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.8334735",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2023-09-14"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "FAIRifizierung mit Citizen Science? Herausforderungen bei der Integration von archäologischen Daten in das Wikiversum und Open Street Map"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.8334735"
+      },
+      "prism:number": "5",
+      "prism:volume": "5",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/8334736"
+      },
+      "sqp:citationLabel": "5(5), #2",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "2"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-1100-6494"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-1100-6494"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5/e2"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5/e2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-09-14T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2023-09-14T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.8334735",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5/e2"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/8334736"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "17082971"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/8334736/files/CAA-DE_W%C3%BCrzburg_2023_Wikiversum_ThieryEtAl.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "CAA-DE_Würzburg_2023_Wikiversum_ThieryEtAl.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "7231a0a083c7e56510d1d6941cf6c251"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i5/e2#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "FAIRifizierung mit Citizen Science? Herausforderungen bei der Integration von archäologischen Daten in das Wikiversum und Open Street Map"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/8-workshop-der-ag-caa-2017",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/8-workshop-der-ag-caa-2017#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/8-workshop-der-ag-caa-2017#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/heidelberg-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/heidelberg-germany"
+      },
+      "rdfs:label": "8. Workshop der AG CAA",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2017-02-11"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/heidelberg-germany"
+      },
+      "schema:name": "8. Workshop der AG CAA",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2017-02-11"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/8-workshop-der-ag-caa-2017#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "8. Workshop der AG CAA"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/8-workshop-der-ag-caa-2017#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-02-11T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-02-11T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid"
+      },
+      "foaf:familyName": "Mees",
+      "foaf:givenName": "Allard W.",
+      "foaf:name": "Allard W. Mees",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      },
+      "rdfs:label": "Allard W. Mees",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7634-5342",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/heidelberg-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.694724 49.409358)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.694724 49.409358)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/heidelberg-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/heidelberg-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2966"
+      },
+      "rdfs:label": "Heidelberg",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "Heidelberg, Germany",
+      "schema:latitude": 49.409358,
+      "schema:longitude": 8.694724
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/heidelberg-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(8.694724 49.409358)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e1",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "In vielen archäologischen Forschungsinstituten existiert üblicherweise eine zentrale Objektdatenbank (Diathek, Objektdatenbank, zentrale Fundverwaltung) und darüber hinaus ein Bündel an einzelnen Fachdatenbanken. Diese Fachdatenbanken entstanden in der Regel im Laufe von einzelnen (oft auch aus Drittmittel finanzierten) Projekten. Charakterisiert werden sie oft durch Spezialtabellen bzw. Fachspalten, die für die jeweilige Forschungscommunity und Forschungsfrage relevant sind. Für zentrale Repositorien sind diese fachbezogenen Attribute in der Regel nicht besonders relevant, da sie sich auf nur eine ganz kleine Untergruppe von Daten bezieht. Die fachspezifischen Attribute müssen außerhalb der zentralen Repositorien von der spezifischen Forschungsgruppe gepflegt werden, da archäologische Fachtermini oft sehr detailliert sind und von globalen autoritativen Thesauri wie Heritage Data oder Getty nicht exakt erfasst werden können. Oft wissen diese verteilten Systeme auch nichts über den Inhalt eines Anderen. Dabei könnten sich nachhaltige Synergieeffekte ergeben, indem man z.B. die Grunddaten miteinander verknüpft. Linked Open Data ermöglicht es diese Datenbanken zu verknüpfen. Voraussetzung hierzu ist eine eindeutige Referenz innerhalb der Datenbank auf eine persistente externe Quelle, worauf andere Datenbanken verweisen können. Im Semantic Web wird dies durch das W3C-standardisierte Resource Description Framework (RDF) und im Web adressierbare Unique Ressource Identifier (URI) umgesetzt. Die Referenzierung kann räumlich, zeitlich oder auch über Schlagworte erfolgen. Als Beispiele solcher Referenzen können GeoNames, Pleiades oder ChronOntology gelten. Das vom Institut für Raumbezogene Informations- und Messtechnik (i3mainz) und Römisch Germanischen Zentralmuseum (RGZM) in Kooperation mit dem Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften (mainzed) implementierte Labeling System ermöglicht es webbasiert über ein benutzerfreundliches GUI eigene kontrollierte Vokabulare zu erzeugen, deren Begriffe über eine Suche mit Referenzkonzepten im Web zu verlinken und Begriffe als URI zu publizieren. Für die Anfangs skizierte, in vielen Institutionen vorhandene problematische IT-Situation der nicht vernetzten lokalen Datenbanken bietet die neue Architektur des RGZM einen Lösungsansatz, welcher zurzeit implementiert wird. Die digitale Verknüpfung der verteilten Fachdatenbanken (z.B. NAVIS und Samian Research) mit der Museums-Objektdatenbank (easyDB), mit Hilfe von kontrollierten Vokabularen, wird einen neuen Zugang zu den vorhandenen digitalen Daten ermöglichen, welcher zuvor nicht erreichbar war. Mit dem Labeling System können dabei in jahrelanger europäischer Abstimmung erstellte mehrsprachige fachspezifische kontrollierte Vokabulare (z.B. Schiffsvokabulare aus den RGZM-eigenen NAVIS-Datenbanken) standardisiert als Simple Knowledge Organization System (SKOS) der Forschungscommunity zur Verfügung gestellt werden. Dabei können die Begriffe zu autoritativen Thesauri verlinkt werden, sodass sie in der Linked Data Cloud verortet sind und deren Bedeutung näher spezifiziert wird. Der Vortrag präsentiert die Grundprinzipien des Erstellungsprozesses eines kontrollierten Vokabulars mit dem Labeling System. Was ist ein kontrolliertes Vokabular? Was ist ein Begriff? Wie kann ein Begriff näher beschrieben werden? Wie stehen publizierte kontrollierte Vokabulare und deren Begriffe externen Nutzern zur Verfügung? Welche Möglichkeiten bietet die Labeling System API zur Einbindung in die eigenen Fachdatenbanken? Am Beispiel verschieden definierter Formtypen römischer Keramik wird erläutert, inwiefern ein Mapping dieser Begriffe im Labeling System erstellt und in einem zweiten Schritt in einer Fachdatenbank eingebunden werden kann. Abschließend wird diskutiert inwiefern Begriffe des Labeling System in eine Systemarchitektur, wie die des RGZM eingebunden werden können und welche Möglichkeiten dadurch generiert werden."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.292554",
+      "bibo:locator": "#1",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/8-workshop-der-ag-caa-2017"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6"
+      },
+      "dcat:keyword": [
+        "archaeology",
+        "linked data",
+        "linked open data",
+        "semantic web",
+        "skos"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i6/e1/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "dct:description": {
+        "@language": "de",
+        "@value": "In vielen archäologischen Forschungsinstituten existiert üblicherweise eine zentrale Objektdatenbank (Diathek, Objektdatenbank, zentrale Fundverwaltung) und darüber hinaus ein Bündel an einzelnen Fachdatenbanken. Diese Fachdatenbanken entstanden in der Regel im Laufe von einzelnen (oft auch aus Drittmittel finanzierten) Projekten. Charakterisiert werden sie oft durch Spezialtabellen bzw. Fachspalten, die für die jeweilige Forschungscommunity und Forschungsfrage relevant sind. Für zentrale Repositorien sind diese fachbezogenen Attribute in der Regel nicht besonders relevant, da sie sich auf nur eine ganz kleine Untergruppe von Daten bezieht. Die fachspezifischen Attribute müssen außerhalb der zentralen Repositorien von der spezifischen Forschungsgruppe gepflegt werden, da archäologische Fachtermini oft sehr detailliert sind und von globalen autoritativen Thesauri wie Heritage Data oder Getty nicht exakt erfasst werden können. Oft wissen diese verteilten Systeme auch nichts über den Inhalt eines Anderen. Dabei könnten sich nachhaltige Synergieeffekte ergeben, indem man z.B. die Grunddaten miteinander verknüpft. Linked Open Data ermöglicht es diese Datenbanken zu verknüpfen. Voraussetzung hierzu ist eine eindeutige Referenz innerhalb der Datenbank auf eine persistente externe Quelle, worauf andere Datenbanken verweisen können. Im Semantic Web wird dies durch das W3C-standardisierte Resource Description Framework (RDF) und im Web adressierbare Unique Ressource Identifier (URI) umgesetzt. Die Referenzierung kann räumlich, zeitlich oder auch über Schlagworte erfolgen. Als Beispiele solcher Referenzen können GeoNames, Pleiades oder ChronOntology gelten. Das vom Institut für Raumbezogene Informations- und Messtechnik (i3mainz) und Römisch Germanischen Zentralmuseum (RGZM) in Kooperation mit dem Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften (mainzed) implementierte Labeling System ermöglicht es webbasiert über ein benutzerfreundliches GUI eigene kontrollierte Vokabulare zu erzeugen, deren Begriffe über eine Suche mit Referenzkonzepten im Web zu verlinken und Begriffe als URI zu publizieren. Für die Anfangs skizierte, in vielen Institutionen vorhandene problematische IT-Situation der nicht vernetzten lokalen Datenbanken bietet die neue Architektur des RGZM einen Lösungsansatz, welcher zurzeit implementiert wird. Die digitale Verknüpfung der verteilten Fachdatenbanken (z.B. NAVIS und Samian Research) mit der Museums-Objektdatenbank (easyDB), mit Hilfe von kontrollierten Vokabularen, wird einen neuen Zugang zu den vorhandenen digitalen Daten ermöglichen, welcher zuvor nicht erreichbar war. Mit dem Labeling System können dabei in jahrelanger europäischer Abstimmung erstellte mehrsprachige fachspezifische kontrollierte Vokabulare (z.B. Schiffsvokabulare aus den RGZM-eigenen NAVIS-Datenbanken) standardisiert als Simple Knowledge Organization System (SKOS) der Forschungscommunity zur Verfügung gestellt werden. Dabei können die Begriffe zu autoritativen Thesauri verlinkt werden, sodass sie in der Linked Data Cloud verortet sind und deren Bedeutung näher spezifiziert wird. Der Vortrag präsentiert die Grundprinzipien des Erstellungsprozesses eines kontrollierten Vokabulars mit dem Labeling System. Was ist ein kontrolliertes Vokabular? Was ist ein Begriff? Wie kann ein Begriff näher beschrieben werden? Wie stehen publizierte kontrollierte Vokabulare und deren Begriffe externen Nutzern zur Verfügung? Welche Möglichkeiten bietet die Labeling System API zur Einbindung in die eigenen Fachdatenbanken? Am Beispiel verschieden definierter Formtypen römischer Keramik wird erläutert, inwiefern ein Mapping dieser Begriffe im Labeling System erstellt und in einem zweiten Schritt in einer Fachdatenbank eingebunden werden kann. Abschließend wird diskutiert inwiefern Begriffe des Labeling System in eine Systemarchitektur, wie die des RGZM eingebunden werden können und welche Möglichkeiten dadurch generiert werden."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.292554",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2017-02-11"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Das Labeling System: Erstellung kontrollierter Linked Open Data Vokabulare als Metadaten-Hub für archäologische Fachdatenbanken"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.292554"
+      },
+      "prism:number": "6",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/292554"
+      },
+      "sqp:citationLabel": "1(6), #1",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-02-11T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-02-11T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.292554",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/292554"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "4227557"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/292554/files/2017_02_11_AGCAA_Heidelberg_LabelingSystem.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2017_02_11_AGCAA_Heidelberg_LabelingSystem.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "3761973c701b25188068f366cb18937e"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e1#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Das Labeling System: Erstellung kontrollierter Linked Open Data Vokabulare als Metadaten-Hub für archäologische Fachdatenbanken"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v5/i5/e4#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v5/i5/e4> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v5/i5/e4#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v5/i5/e4> .
+
+<https://w3id.org/squirrelpapers/event/archaeo-foss-xvii-2023> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "ARCHAEO.FOSS XVII 2023" ;
+    event:place <https://w3id.org/squirrelpapers/place/universita-di-torino-italy> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v5/i3/e6>,
+        <https://w3id.org/squirrelpapers/v5/i5/e4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/archaeo-foss-xvii-2023#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/archaeo-foss-xvii-2023#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/universita-di-torino-italy> ;
+    schema:endDate "2023-12-13"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/universita-di-torino-italy> ;
+    schema:name "ARCHAEO.FOSS XVII 2023" ;
+    schema:startDate "2023-12-12"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/archaeo-foss-xvii-2023#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "ARCHAEO.FOSS XVII 2023" .
+
+<https://w3id.org/squirrelpapers/event/archaeo-foss-xvii-2023#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2023-12-12T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2023-12-13T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7634-5342" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v5/i5/e4#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/v5/i5/e4#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2023-12-12T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2023-12-12T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v5/i5/e4#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.10260778" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v5/i5/e4#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "ArcheoFOSS _Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v5/i5/e4#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v5/i5/e4> ;
+    dcat:accessURL <https://zenodo.org/records/10260779> ;
+    dcat:byteSize "11183079"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/10260779/files/ArcheoFOSS%20_Torino_2023_archaeologyDOTlink_Thiery-Mees.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v5/i5/e4#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "61fb4fd09337e5ec371b19109ad96aa1"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v5/i5/e4#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain" .
+
+<https://w3id.org/squirrelpapers/place/universita-di-torino-italy#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(7.688889 45.069444)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Allard W. Mees" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7634-5342> ;
+    foaf:familyName "Mees" ;
+    foaf:givenName "Allard W." ;
+    foaf:name "Allard W. Mees" ;
+    schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/place/universita-di-torino-italy> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "University of Turin" ;
+    crm:P168_place_is_defined_by "POINT(7.688889 45.069444)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/universita-di-torino-italy#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/universita-di-torino-italy#geometry> ;
+    owl:sameAs wd:Q499911 ;
+    dcat:centroid "POINT(7.688889 45.069444)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q38 ;
+    schema:description "Università di Torino, Italy" ;
+    schema:latitude 4.506944e+01 ;
+    schema:longitude 7.688889e+00 .
+
+<https://w3id.org/squirrelpapers/v5/i5/e4> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "5" ;
+    prism:volume "5" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    dct:description "Talk at the ARCHAEO.FOSS XVII | 2023, Panel 1."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.10260778" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v5/i5> ;
+    dct:issued "2023-12-12"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Semantic Modelling using LOD techniques of Uncertainty, Vagueness and Ambiguities in the Archaeological Domain"@en ;
+    dct:type sqpt:presentation ;
+    bibo:abstract "Talk at the ARCHAEO.FOSS XVII | 2023, Panel 1."@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v5/i5/e4#authors> ;
+    bibo:doi "10.5281/zenodo.10260778" ;
+    bibo:locator "#4" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/archaeo-foss-xvii-2023> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v5/i5/e4#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v5/i5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v5/i5/e4#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.10260778> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v5/i5/e4#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v5/i5> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v5/i5/e4/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/10260779> ;
+    sqp:citationLabel "5(5), #4" ;
+    sqp:entryNumber "4"^^xsd:positiveInteger .
+

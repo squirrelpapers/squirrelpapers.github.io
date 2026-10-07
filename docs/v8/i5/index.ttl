@@ -1,0 +1,23 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v8/i5> a fabio:JournalIssue,
+        crm:E73_Information_Object,
+        dcat:DatasetSeries ;
+    prism:number "5" ;
+    prism:volume "8" ;
+    dct:description "Special Issue on FAIR Digital Objects"@en ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v8> ;
+    dct:title "Squirrel Papers, Band 8, Heft 5: Sonderheft FAIR Digital Objects"@de,
+        "Squirrel Papers, Volume 8, Issue 5: Special Issue on FAIR Digital Objects"@en ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v8> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v8> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v8/i5/> ;
+    sqp:sigil "§" ;
+    sqp:specialIssue true .
+

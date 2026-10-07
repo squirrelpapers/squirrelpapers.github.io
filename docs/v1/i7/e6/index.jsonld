@@ -1,0 +1,390 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/31-international-geodetic-students-meeting-2018",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/31-international-geodetic-students-meeting-2018#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/31-international-geodetic-students-meeting-2018#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/valencia-spain"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/valencia-spain"
+      },
+      "rdfs:label": "31. International Geodetic Students Meeting",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2018-06-27"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/valencia-spain"
+      },
+      "schema:name": "31. International Geodetic Students Meeting",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2018-06-27"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/31-international-geodetic-students-meeting-2018#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "31. International Geodetic Students Meeting"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/31-international-geodetic-students-meeting-2018#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-06-27T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-06-27T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3448-5715",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3448-5715#orcid"
+      },
+      "foaf:familyName": "Schmid",
+      "foaf:givenName": "Clemens",
+      "foaf:name": "Clemens Schmid",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3448-5715"
+      },
+      "rdfs:label": "Clemens Schmid",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3448-5715"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3448-5715#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3448-5715",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/valencia-spain",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(-0.376389 39.47)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(-0.376389 39.47)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/valencia-spain#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/valencia-spain#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q8818"
+      },
+      "rdfs:label": "Valencia",
+      "schema:addressCountry": {
+        "@id": "wd:Q204920"
+      },
+      "schema:description": "Valencia, Spain",
+      "schema:latitude": 39.47,
+      "schema:longitude": -0.376389
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/valencia-spain#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(-0.376389 39.47)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e6",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Working in research institutes as geodesist and working in geodesy companies produces always the same question: Is there the “right” decision? Do we have to choose always the way right or left or is there some kind of “grey value”, changing from right to left and from the left to the right? In geodesy there are a lot of examples where the “right” decision is not objectively given - it always depends on the usage. Examples in geodesy (research) like QGIS vs. ArcGIS or Open Street Map vs. Google Maps show how difficult decisions are and that we are always looking for the “grey value” to switch from the left to the right side. In geodesy research and research in general we have to consider that it is always political. The “right” objective decision of a developer is often not concordant with the “right” political statement. For example open software and source code is better than close blackboxes to allow reproducibility and transparency, but proprietary software might be faster or more convinient to use. This paper will focus on searching the “grey value” and “right” decision in version control software in software development, here especially Git, because between GitHub and GitLab you always have to make two main decisions: visibility vs. open source and community vs. ethics of science."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.1293990",
+      "bibo:locator": "#6",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/31-international-geodetic-students-meeting-2018"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "dcat:keyword": [
+        "Git",
+        "IGSM",
+        "Software Development"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i7/e6/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3448-5715"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Working in research institutes as geodesist and working in geodesy companies produces always the same question: Is there the “right” decision? Do we have to choose always the way right or left or is there some kind of “grey value”, changing from right to left and from the left to the right? In geodesy there are a lot of examples where the “right” decision is not objectively given - it always depends on the usage. Examples in geodesy (research) like QGIS vs. ArcGIS or Open Street Map vs. Google Maps show how difficult decisions are and that we are always looking for the “grey value” to switch from the left to the right side. In geodesy research and research in general we have to consider that it is always political. The “right” objective decision of a developer is often not concordant with the “right” political statement. For example open software and source code is better than close blackboxes to allow reproducibility and transparency, but proprietary software might be faster or more convinient to use. This paper will focus on searching the “grey value” and “right” decision in version control software in software development, here especially Git, because between GitHub and GitLab you always have to make two main decisions: visibility vs. open source and community vs. ethics of science."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.1293990",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2018-06-27"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Looking for the \"grey value\" in research and geodesy: Is there right or wrong in software framework decisions?"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.1293990"
+      },
+      "prism:number": "7",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/1293991"
+      },
+      "sqp:citationLabel": "1(7), #6",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3448-5715"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3448-5715"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-06-27T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-06-27T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.1293990",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/1293991"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "35677109"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/1293991/files/2018_06_27_IGSM_Valencia_GreyValue.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2018_06_27_IGSM_Valencia_GreyValue.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "21925e4b3a3029307cd12b948f18d94c"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i7/e6#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Looking for the \"grey value\" in research and geodesy: Is there right or wrong in software framework decisions?"
+    }
+  ]
+}

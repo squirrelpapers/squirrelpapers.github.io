@@ -1,0 +1,410 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2016",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2016#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2016#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/oslo-norway"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/oslo-norway"
+      },
+      "rdfs:label": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2016-04-30"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/oslo-norway"
+      },
+      "schema:name": "Computer Applications and Quantitative Methods in Archaeology (CAA)",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2016-04-30"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2016#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Computer Applications and Quantitative Methods in Archaeology (CAA)"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2016#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-04-30T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-04-30T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/cuy-sebastian",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Cuy",
+      "foaf:givenName": "Sebastian",
+      "foaf:name": "Sebastian Cuy",
+      "rdfs:label": "Sebastian Cuy"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/kallas-nathalie",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Kallas",
+      "foaf:givenName": "Nathalie",
+      "foaf:name": "Nathalie Kallas",
+      "rdfs:label": "Nathalie Kallas"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/schmidle-wolfgang",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Schmidle",
+      "foaf:givenName": "Wolfgang",
+      "foaf:name": "Wolfgang Schmidle",
+      "rdfs:label": "Wolfgang Schmidle"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/oslo-norway",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(10.738889 59.913333)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(10.738889 59.913333)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/oslo-norway#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/oslo-norway#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q585"
+      },
+      "rdfs:label": "Oslo",
+      "schema:addressCountry": {
+        "@id": "wd:Q20"
+      },
+      "schema:description": "Oslo, Norway",
+      "schema:latitude": 59.913333,
+      "schema:longitude": 10.738889
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/oslo-norway#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(10.738889 59.913333)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e2",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "In the last years several web services emerged that manage and make accessible place thesauri for the archaeologies and historical sciences. By making use of semantic technologies these applications are able to act as linked data hubs thereby making possibe the linkage of multiple datasets of varying thematic focus and of different structural properties. Another common denominator of archaeological data resources, besides geo-spatial properties, is the temporal classification of research objects. One of the applications that try to assume a role similar to that of gazetteers but for temporal concepts and cultural periods is developed in the chronOntology project. In this project, funded by the German Research Foundation, the German Archaeologial Institute (DAI) together with the i3mainz are developing a system for storing, managing, mapping and making accessible descriptions of temporal concepts. The core of this endeavor is a rich semantic modeling of various existing terminological systems for cultural periods using a data model based on the CIDOC-CRM and its extensions. The use of the rich ontological model provided by the CRM on the one hand permits representing the measurable temporal extent (with the possibility for fuzzy edges) while also making it possible to embed temporal concepts in a network of semantic relationships to other temporal concepts, connected historical regions and thematic contexts. Besides documenting the general architecture and data model of the project the paper will present possibilities of querying different heterogeneous data resources collected throughout various digitization and digging activities inside the DAI with the help of concepts defined in chronOntology. We will also point out the potential and problems of reasoning over geographically and temporally connected datasets."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.2540522",
+      "bibo:locator": "#2",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/computer-applications-and-quantitative-methods-in-archaeology-caa-2016"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i5/e2/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/cuy-sebastian"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/kallas-nathalie"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/schmidle-wolfgang"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "In the last years several web services emerged that manage and make accessible place thesauri for the archaeologies and historical sciences. By making use of semantic technologies these applications are able to act as linked data hubs thereby making possibe the linkage of multiple datasets of varying thematic focus and of different structural properties. Another common denominator of archaeological data resources, besides geo-spatial properties, is the temporal classification of research objects. One of the applications that try to assume a role similar to that of gazetteers but for temporal concepts and cultural periods is developed in the chronOntology project. In this project, funded by the German Research Foundation, the German Archaeologial Institute (DAI) together with the i3mainz are developing a system for storing, managing, mapping and making accessible descriptions of temporal concepts. The core of this endeavor is a rich semantic modeling of various existing terminological systems for cultural periods using a data model based on the CIDOC-CRM and its extensions. The use of the rich ontological model provided by the CRM on the one hand permits representing the measurable temporal extent (with the possibility for fuzzy edges) while also making it possible to embed temporal concepts in a network of semantic relationships to other temporal concepts, connected historical regions and thematic contexts. Besides documenting the general architecture and data model of the project the paper will present possibilities of querying different heterogeneous data resources collected throughout various digitization and digging activities inside the DAI with the help of concepts defined in chronOntology. We will also point out the potential and problems of reasoning over geographically and temporally connected datasets."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.2540522",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2016-04-30"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Linking periods: Modeling and utilizing spatio-temporal concepts in the chronOntology project"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.2540522"
+      },
+      "prism:number": "5",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/2540523"
+      },
+      "sqp:citationLabel": "1(5), #2",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/schmidle-wolfgang"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/cuy-sebastian"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/kallas-nathalie"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/cuy-sebastian"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/kallas-nathalie"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/schmidle-wolfgang"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-04-30T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-04-30T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.2540522",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/2540523"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "2442394"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/2540523/files/2016_03_30_CAA_Oslo_ChronOntology.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2016_03_30_CAA_Oslo_ChronOntology.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "cef6a24a29b444b8ae34a55fd81f2eeb"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e2#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Linking periods: Modeling and utilizing spatio-temporal concepts in the chronOntology project"
+    }
+  ]
+}

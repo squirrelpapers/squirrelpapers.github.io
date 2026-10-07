@@ -1,0 +1,158 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e5#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i4/e5> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0009-0005-1140-3352>,
+        <https://w3id.org/squirrelpapers/person/alpino-nadine> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i4/e5#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i4/e5> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0005-1140-3352#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0005-1140-3352" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e5#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0009-0005-1140-3352> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/alpino-nadine> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e5#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-04-15T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-04-15T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i4/e5#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.10992401" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e5#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CHNT29_2024_Vienna_Session_06.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i4/e5#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i4/e5> ;
+    dcat:accessURL <https://zenodo.org/records/10992402> ;
+    dcat:byteSize "34485"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/10992402/files/CHNT29_2024_Vienna_Session_06.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e5#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "2302d2773f18c8bfe6aadfe6cfcbaa94"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i4/e5#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Research Data Management in Cultural Heritage goes Digital – New Technologies along the object biography\"" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0009-0005-1140-3352> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Mattis thor Straten" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0005-1140-3352#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0005-1140-3352> ;
+    foaf:familyName "thor Straten" ;
+    foaf:givenName "Mattis" ;
+    foaf:name "Mattis thor Straten" ;
+    schema:identifier <https://orcid.org/0009-0005-1140-3352> .
+
+<https://w3id.org/squirrelpapers/person/alpino-nadine> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Nadine Alpino" ;
+    foaf:familyName "Alpino" ;
+    foaf:givenName "Nadine" ;
+    foaf:name "Nadine Alpino" .
+
+<https://w3id.org/squirrelpapers/v6/i4/e5> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Expression,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0009-0005-1140-3352>,
+        <https://w3id.org/squirrelpapers/person/alpino-nadine> ;
+    dct:description """Infrastructures for Research Data Management (RDM) and applying the FAIR (Findable, Accessible, Interoperable, Re-usable) and Open Science Principles are key features in modern (digital) Cultural Heritage. Nowadays, computer applications, as well as statistical and computational approaches, constitute a big part of the toolbox of every CH researcher, as they open tremendous possibilities for all research. Several initiatives, such as the German National Research Data Infrastructure (NFDI) – especially NFDI4Objects – or the European Open Science Cloud (EOSC), use this topic to strengthen new technologies along the individual object biography. This includes (a) comprehending representations of physical objects as research data, (b) relating them to individual contexts, (c) transforming them adequately into the digital space, and (d) curating them according to domain-specific requirements. This leads to a paradigm derived from the FAIRification workflow: (i) capturing, (ii) semantic (meta) data modelling and qualifying, (iii) applying (scientific) analysis, (iv) sharing the data by visualisation and FAIRified publication, (v) interlinking and integrating data into knowledge graphs.
+To support the activities within the before mentioned paradigm, this session invites contributions dealing with various aspects of RDM, FAIR and Open Science, but not limited to:
+applying new documentation methods for data capturing in the CH domain
+applying (semantic) data modelling (e.g. CIDOC CRM) for data qualification (e.g. RDF, LPG, etc.)
+applying new scientific analysis in Cultural Heritage, not limited to natural sciences, geosciences, geodesy, conservation sciences
+FAIRification Tools and Research Software (incl., e.g. small R/Python scripts, “CAA Little Minions”) and statistical/computational approaches
+concepts to share research (meta) data in free and open available comprehensible FAIRified representations
+methods and concepts for integrating and interlinking research data into domain-focused and overarching knowledge graphs
+working together with Citizen Science and their knowledge bases/repositories (e.g. Wikiverse, Open Street Map, Portable Antiquities Scheme, …)
+dealing with legacy data, data sustainability and long-term archiving
+presenting experiences as DOs (Good Practices) and DON’Ts (Worst Practices)
+applying AI methods and tools for CH"""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.10992401" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i4> ;
+    dct:issued "2024-04-15"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Research Data Management in Cultural Heritage goes Digital – New Technologies along the object biography\""@en ;
+    dct:type sqpt:conference-session ;
+    bibo:abstract """Infrastructures for Research Data Management (RDM) and applying the FAIR (Findable, Accessible, Interoperable, Re-usable) and Open Science Principles are key features in modern (digital) Cultural Heritage. Nowadays, computer applications, as well as statistical and computational approaches, constitute a big part of the toolbox of every CH researcher, as they open tremendous possibilities for all research. Several initiatives, such as the German National Research Data Infrastructure (NFDI) – especially NFDI4Objects – or the European Open Science Cloud (EOSC), use this topic to strengthen new technologies along the individual object biography. This includes (a) comprehending representations of physical objects as research data, (b) relating them to individual contexts, (c) transforming them adequately into the digital space, and (d) curating them according to domain-specific requirements. This leads to a paradigm derived from the FAIRification workflow: (i) capturing, (ii) semantic (meta) data modelling and qualifying, (iii) applying (scientific) analysis, (iv) sharing the data by visualisation and FAIRified publication, (v) interlinking and integrating data into knowledge graphs.
+To support the activities within the before mentioned paradigm, this session invites contributions dealing with various aspects of RDM, FAIR and Open Science, but not limited to:
+applying new documentation methods for data capturing in the CH domain
+applying (semantic) data modelling (e.g. CIDOC CRM) for data qualification (e.g. RDF, LPG, etc.)
+applying new scientific analysis in Cultural Heritage, not limited to natural sciences, geosciences, geodesy, conservation sciences
+FAIRification Tools and Research Software (incl., e.g. small R/Python scripts, “CAA Little Minions”) and statistical/computational approaches
+concepts to share research (meta) data in free and open available comprehensible FAIRified representations
+methods and concepts for integrating and interlinking research data into domain-focused and overarching knowledge graphs
+working together with Citizen Science and their knowledge bases/repositories (e.g. Wikiverse, Open Street Map, Portable Antiquities Scheme, …)
+dealing with legacy data, data sustainability and long-term archiving
+presenting experiences as DOs (Good Practices) and DON’Ts (Worst Practices)
+applying AI methods and tools for CH"""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i4/e5#authors> ;
+    bibo:doi "10.5281/zenodo.10992401" ;
+    bibo:locator "#5" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i4/e5#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i4/e5#doi> ;
+    crm:P2_has_type sqpt:conference-session ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.10992401> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i4/e5#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i4/e5/> ;
+    dcat:theme sqpt:conference-session ;
+    prov:wasDerivedFrom <https://zenodo.org/records/10992402> ;
+    sqp:citationLabel "6(4), #5" ;
+    sqp:entryNumber "5"^^xsd:positiveInteger .
+

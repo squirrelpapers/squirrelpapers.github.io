@@ -1,0 +1,154 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e3#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v8/i1/e3> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-8214-0952>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204>,
+        <https://w3id.org/squirrelpapers/person/kasten-megan-nichole> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v8/i1/e3#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v8/i1/e3> .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8214-0952#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-8214-0952" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0008-2877-3204" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e3#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0001-8214-0952> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/kasten-megan-nichole> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e3#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2026-01-31T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2026-01-31T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v8/i1/e3#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.18441544" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e3#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "SqP_8_1__3_FDO_PositionPaper.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v8/i1/e3#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v8/i1/e3> ;
+    dcat:accessURL <https://zenodo.org/records/18441545> ;
+    dcat:byteSize "14295297"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/18441545/files/SqP_8_1__3_FDO_PositionPaper.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v8/i1/e3#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "14ec118744e5ba7fc6f8d6b7ca594de7"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v8/i1/e3#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Bridging FDOs and Knowledge Graphs | Position Paper" .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8214-0952> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Andreas Noback" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-8214-0952#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-8214-0952> ;
+    foaf:familyName "Noback" ;
+    foaf:givenName "Andreas" ;
+    foaf:name "Andreas Noback" ;
+    schema:identifier <https://orcid.org/0000-0001-8214-0952> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fiona Schenk" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0008-2877-3204> ;
+    foaf:familyName "Schenk" ;
+    foaf:givenName "Fiona" ;
+    foaf:name "Fiona Schenk" ;
+    schema:identifier <https://orcid.org/0009-0008-2877-3204> .
+
+<https://w3id.org/squirrelpapers/person/kasten-megan-nichole> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Megan Nichole Kasten" ;
+    foaf:familyName "Kasten" ;
+    foaf:givenName "Megan Nichole" ;
+    foaf:name "Megan Nichole Kasten" .
+
+<https://w3id.org/squirrelpapers/v8/i1/e3> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:WorkingPaper,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "1" ;
+    prism:volume "8" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-8214-0952>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204>,
+        <https://w3id.org/squirrelpapers/person/kasten-megan-nichole> ;
+    dct:description "Position paper published in the Squirrel Papers 8(1), §3."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.18441544" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v8/i1> ;
+    dct:issued "2026-01-31"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Bridging FDOs and Knowledge Graphs | Position Paper"@en ;
+    dct:type sqpt:position-paper ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v8/i1/e3#authors> ;
+    bibo:doi "10.5281/zenodo.18441544" ;
+    bibo:locator "§3" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v8/i1/e3#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v8/i1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v8/i1/e3#doi> ;
+    crm:P2_has_type sqpt:position-paper ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.18441544> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v8/i1/e3#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v8/i1> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v8/i1/e3/> ;
+    dcat:theme sqpt:position-paper ;
+    prov:wasDerivedFrom <https://zenodo.org/records/18441545> ;
+    sqp:citationLabel "8(1), §3" ;
+    sqp:entryNumber "3"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

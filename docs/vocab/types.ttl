@@ -1,0 +1,265 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+
+sqpt:abstract a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Abstract ;
+    skos:closeMatch <http://purl.org/coar/resource_type/c_c94f> ;
+    skos:inScheme sqpt: ;
+    skos:notation "abstract" ;
+    skos:prefLabel "Abstract"@de,
+        "Abstract"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:book a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Book ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_2f33> ;
+    skos:inScheme sqpt: ;
+    skos:notation "book" ;
+    skos:prefLabel "Buch"@de,
+        "Book"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:book-section a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:BookChapter ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_3248> ;
+    skos:inScheme sqpt: ;
+    skos:notation "book-section" ;
+    skos:prefLabel "Buchkapitel"@de,
+        "Book section"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:conference-paper a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:ConferencePaper ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_5794> ;
+    skos:inScheme sqpt: ;
+    skos:notation "conference-paper" ;
+    skos:prefLabel "Konferenzbeitrag"@de,
+        "Conference paper"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:conference-proceeding a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:ProceedingsPaper ;
+    skos:closeMatch <http://purl.org/coar/resource_type/c_5794> ;
+    skos:inScheme sqpt: ;
+    skos:notation "conference-proceeding" ;
+    skos:prefLabel "Beitrag in Tagungsband"@de,
+        "Proceedings paper"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:conference-session a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Expression ;
+    skos:closeMatch <http://purl.org/coar/resource_type/c_baaf> ;
+    skos:inScheme sqpt: ;
+    skos:notation "conference-session" ;
+    skos:prefLabel "Session-Vorschlag"@de,
+        "Conference session proposal"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:fdo a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Expression ;
+    skos:closeMatch <http://purl.org/coar/resource_type/c_1843> ;
+    skos:inScheme sqpt: ;
+    skos:notation "fdo" ;
+    skos:prefLabel "FAIR Digital Object"@de,
+        "FAIR Digital Object"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:image a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:StillImage ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_c513> ;
+    skos:inScheme sqpt: ;
+    skos:notation "image" ;
+    skos:prefLabel "Bild"@de,
+        "Image"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:journal-article a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:JournalArticle ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_6501> ;
+    skos:inScheme sqpt: ;
+    skos:notation "journal-article" ;
+    skos:prefLabel "Zeitschriftenartikel"@de,
+        "Journal article"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:methodological-working-paper a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:WorkingPaper ;
+    skos:broader sqpt:working-paper ;
+    skos:closeMatch <http://purl.org/coar/resource_type/c_8042> ;
+    skos:inScheme sqpt: ;
+    skos:notation "methodological-working-paper" ;
+    skos:prefLabel "Methodisches Working Paper"@de,
+        "Methodological working paper"@en .
+
+sqpt:ontology a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Dataset ;
+    skos:broader sqpt:data ;
+    skos:closeMatch <http://purl.org/coar/resource_type/c_ddb1> ;
+    skos:inScheme sqpt: ;
+    skos:notation "ontology" ;
+    skos:prefLabel "Ontologie"@de,
+        "Ontology"@en .
+
+sqpt:other a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Expression ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_1843> ;
+    skos:inScheme sqpt: ;
+    skos:notation "other" ;
+    skos:prefLabel "Sonstiges"@de,
+        "Other"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:position-paper a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:WorkingPaper ;
+    skos:broader sqpt:working-paper ;
+    skos:closeMatch <http://purl.org/coar/resource_type/c_8042> ;
+    skos:inScheme sqpt: ;
+    skos:notation "position-paper" ;
+    skos:prefLabel "Positionspapier"@de,
+        "Position paper"@en .
+
+sqpt:poster a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:ConferencePoster ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_6670> ;
+    skos:inScheme sqpt: ;
+    skos:notation "poster" ;
+    skos:prefLabel "Poster"@de,
+        "Poster"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:preprint a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Preprint ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_816b> ;
+    skos:inScheme sqpt: ;
+    skos:notation "preprint" ;
+    skos:prefLabel "Preprint"@de,
+        "Preprint"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:presentation a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Presentation ;
+    skos:exactMatch <http://purl.org/coar/resource_type/R60J-J5BD> ;
+    skos:inScheme sqpt: ;
+    skos:notation "presentation" ;
+    skos:prefLabel "Vortrag"@de,
+        "Presentation"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:proposal a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Expression ;
+    skos:closeMatch <http://purl.org/coar/resource_type/c_baaf> ;
+    skos:inScheme sqpt: ;
+    skos:notation "proposal" ;
+    skos:prefLabel "Antrag"@de,
+        "Proposal"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:report a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:ReportDocument ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_93fc> ;
+    skos:inScheme sqpt: ;
+    skos:notation "report" ;
+    skos:prefLabel "Bericht"@de,
+        "Report"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:software a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:ComputerProgram ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_5ce6> ;
+    skos:inScheme sqpt: ;
+    skos:notation "software" ;
+    skos:prefLabel "Software"@de,
+        "Software"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:video a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:MovingImage ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_12ce> ;
+    skos:inScheme sqpt: ;
+    skos:notation "video" ;
+    skos:prefLabel "Video"@de,
+        "Video"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:workshop a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Expression ;
+    skos:closeMatch <http://purl.org/coar/resource_type/c_c94f> ;
+    skos:inScheme sqpt: ;
+    skos:notation "workshop" ;
+    skos:prefLabel "Workshop"@de,
+        "Workshop"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:data a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:Dataset ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_ddb1> ;
+    skos:inScheme sqpt: ;
+    skos:narrower sqpt:ontology ;
+    skos:notation "data" ;
+    skos:prefLabel "Datensatz"@de,
+        "Dataset"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt:working-paper a crm:E55_Type,
+        skos:Concept ;
+    rdfs:seeAlso fabio:WorkingPaper ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_8042> ;
+    skos:inScheme sqpt: ;
+    skos:narrower sqpt:methodological-working-paper,
+        sqpt:position-paper ;
+    skos:notation "working-paper" ;
+    skos:prefLabel "Working Paper"@de,
+        "Working paper"@en ;
+    skos:topConceptOf sqpt: .
+
+sqpt: a skos:ConceptScheme ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Eintragstypen der Squirrel Papers"@de,
+        "Squirrel Papers entry types"@en ;
+    skos:hasTopConcept sqpt:abstract,
+        sqpt:book,
+        sqpt:book-section,
+        sqpt:conference-paper,
+        sqpt:conference-proceeding,
+        sqpt:conference-session,
+        sqpt:data,
+        sqpt:fdo,
+        sqpt:image,
+        sqpt:journal-article,
+        sqpt:other,
+        sqpt:poster,
+        sqpt:preprint,
+        sqpt:presentation,
+        sqpt:proposal,
+        sqpt:report,
+        sqpt:software,
+        sqpt:video,
+        sqpt:working-paper,
+        sqpt:workshop .
+

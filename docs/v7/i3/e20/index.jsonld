@@ -1,0 +1,359 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/4-mediawiki-users-developer-conference-2025",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/4-mediawiki-users-developer-conference-2025#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/4-mediawiki-users-developer-conference-2025#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/leibnizhaus-hannover-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/leibnizhaus-hannover-germany"
+      },
+      "rdfs:label": "4. MediaWiki Users & Developer Conference",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2025-10-30"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/leibnizhaus-hannover-germany"
+      },
+      "schema:name": "4. MediaWiki Users & Developer Conference",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2025-10-28"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/4-mediawiki-users-developer-conference-2025#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "4. MediaWiki Users & Developer Conference"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/4-mediawiki-users-developer-conference-2025#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-10-28T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-10-30T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/leibnizhaus-hannover-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.732194 52.371417)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.732194 52.371417)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/leibnizhaus-hannover-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/leibnizhaus-hannover-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1813804"
+      },
+      "rdfs:label": "Leibnizhaus",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "Leibnizhaus, Hannover, Germany",
+      "schema:latitude": 52.371417,
+      "schema:longitude": 9.732194
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/leibnizhaus-hannover-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(9.732194 52.371417)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e20",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "This talk explores how Wikibase functions as a Semantic Knowledge Base within GLAM and computational archaeology, embedded in a broader interdisciplinary knowledge ecosystem. Three illustrative clusters are presented:\n(a) Community‑based Wikibase Instances – using community-driven platforms such as Wikidata, FactGrid, and Semantic Kompakkt to engage Citizen Scientists through federated queries. We will share a case study involving Irish Ogham inscriptions and Irish Holy Wells, enriched with SfM 3D models.\n(b) Research‑focused instances on wikibase.cloud – demonstrating the modelling of uncertainty using the fuzzy‑sl Wikibase, and the integration of 3D object Wikibases, e.g. via SquirrelBase.\n(c) Community‑driven reference hubs for FAIRification tools and software catalogues – showcasing the implementation of FAIRification tools like re3dragon (the “dragon lair”) and upcoming software registries such as chublets.software – based on open‑archaeo – contributing to NFDI4Objects and the NFDI software ecosystem via nfdi.software.\nTogether, these examples illustrate how Wikibase supports interoperability, citizen science, and the FAIR (and FAIR4RS) principles, forming a sustainable ecosystem of knowledge bases across domains. The talk will share insights on data modelling, tool integration, federated access, and sustainability challenges of interdisciplinary infrastructures."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.17475014",
+      "bibo:locator": "λ20",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/4-mediawiki-users-developer-conference-2025"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v7/i3/e20/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dct:creator": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "dct:description": {
+        "@language": "en",
+        "@value": "This talk explores how Wikibase functions as a Semantic Knowledge Base within GLAM and computational archaeology, embedded in a broader interdisciplinary knowledge ecosystem. Three illustrative clusters are presented:\n(a) Community‑based Wikibase Instances – using community-driven platforms such as Wikidata, FactGrid, and Semantic Kompakkt to engage Citizen Scientists through federated queries. We will share a case study involving Irish Ogham inscriptions and Irish Holy Wells, enriched with SfM 3D models.\n(b) Research‑focused instances on wikibase.cloud – demonstrating the modelling of uncertainty using the fuzzy‑sl Wikibase, and the integration of 3D object Wikibases, e.g. via SquirrelBase.\n(c) Community‑driven reference hubs for FAIRification tools and software catalogues – showcasing the implementation of FAIRification tools like re3dragon (the “dragon lair”) and upcoming software registries such as chublets.software – based on open‑archaeo – contributing to NFDI4Objects and the NFDI software ecosystem via nfdi.software.\nTogether, these examples illustrate how Wikibase supports interoperability, citizen science, and the FAIR (and FAIR4RS) principles, forming a sustainable ecosystem of knowledge bases across domains. The talk will share insights on data modelling, tool integration, federated access, and sustainability challenges of interdisciplinary infrastructures."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.17475014",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2025-10-28"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "How to FAIRify Citizen Science? Using the Wikibase Ecosystem for Volunteered Cultural Heritage Information Systems"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.17475014"
+      },
+      "prism:number": "3",
+      "prism:volume": "7",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/17475015"
+      },
+      "sqp:citationLabel": "7(3), λ20",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "20"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-10-28T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-10-28T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.17475014",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/17475015"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "23218535"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/17475015/files/MediaWikiCon2025%20Wikibase%20Ecosystem%20Thiery.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "MediaWikiCon2025 Wikibase Ecosystem Thiery.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "9244d0927fe6520ef68ae26b0ec6f9a6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e20#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "How to FAIRify Citizen Science? Using the Wikibase Ecosystem for Volunteered Cultural Heritage Information Systems"
+    }
+  ]
+}

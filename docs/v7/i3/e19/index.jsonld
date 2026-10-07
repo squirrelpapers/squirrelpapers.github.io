@@ -1,0 +1,359 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-koln-2025",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-koln-2025#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-koln-2025#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/universitat-zu-koln-koln-deutschland"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/universitat-zu-koln-koln-deutschland"
+      },
+      "rdfs:label": "CAA DE Workshop Köln 2025",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2025-09-18"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/universitat-zu-koln-koln-deutschland"
+      },
+      "schema:name": "CAA DE Workshop Köln 2025",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2025-09-17"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-koln-2025#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "CAA DE Workshop Köln 2025"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-koln-2025#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-09-17T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-09-18T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/universitat-zu-koln-koln-deutschland",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.928611 50.928056)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.928611 50.928056)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/universitat-zu-koln-koln-deutschland#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/universitat-zu-koln-koln-deutschland#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q54096"
+      },
+      "rdfs:label": "University of Cologne",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "Universität zu Köln, Köln, Deutschland",
+      "schema:latitude": 50.928056,
+      "schema:longitude": 6.928611
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/universitat-zu-koln-koln-deutschland#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.928611 50.928056)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e19",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Die digitale Transformation archäologischer Kulturgüter ermöglicht neue Formen der wissenschaftlichen Vernetzung – und zeigt zugleich, wie historische Artefakte Einfluss auf heutige Gemeinschaften nehmen. Der Ogham-Stein CIIC 5061 (GIGHA/1) auf der Isle of Gigha steht exemplarisch dafür: Seine frühmittelalterliche Inschrift “VICULA MAQ COMGINI” – ein klassisches Beispiel der sogenannten MUCOI-Formeln (Abstammungsformeln, die die Zugehörigkeit zu Clans ausdrücken) – wurde nicht nur wissenschaftlich dokumentiert, sondern prägt heute sichtbar die lokale Identität. Die Mikrobrauerei Gigha Brewing nutzt Ogham-Symbole kreativ in ihrem Branding – zum Beispiel bei einem Bier nach Kölsch’scher Brauart – und verbindet damit kulturelles Erbe mit zeitgenössischem Leben. Im OG(H)AM-Projekt werden Daten zu solchen Inschriften im TEI/EpiDoc-Format kodiert und nun im Rahmen von NFDI4Objects vom Research Squirrel Engineers in Linked Open Data (LOD) und FAIR Digital Objects (FDOs) transformiert. Dabei entstehen Entitäten, die mittels Ontologien (z. B. CIDOC CRM) referenziert und z.B. in den N$O Knowledge Graph integriert werden. Anhand der “Ogham of the Month”-Initiativen (z.B. Januar 2025 – Gigha Brewing) und speziell der MUCOI-Inschriften wird gezeigt, wie sich semantische Muster wie Personennetzwerke und regionale Verteilungen modellieren lassen. Der Workflow umfasst die Extraktion von Entitäten aus TEI-Daten, deren Transformation in RDF-basierte Wissensstrukturen sowie die Anreicherung mit externen offenen community-driven Ressourcen (u.a. Wikidata, OpenStreetMap, Wikimedia Commons). Im Mittelpunkt steht die Frage, wie digitale Infrastrukturen wie das federated NFDI Knowledge Graph Ecosystem dazu beitragen, historische Zeugnisse wie den Ogham-Stein von Gigha nachhaltig sichtbar, interoperabel und nachnutzbar zu machen – und wie Geschichte, offene Daten und moderne Communitys sich auf kreative Weise gegenseitig bereichern."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.17150583",
+      "bibo:locator": "λ19",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/caa-de-workshop-koln-2025"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v7/i3/e19/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dct:creator": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "dct:description": {
+        "@language": "de",
+        "@value": "Die digitale Transformation archäologischer Kulturgüter ermöglicht neue Formen der wissenschaftlichen Vernetzung – und zeigt zugleich, wie historische Artefakte Einfluss auf heutige Gemeinschaften nehmen. Der Ogham-Stein CIIC 5061 (GIGHA/1) auf der Isle of Gigha steht exemplarisch dafür: Seine frühmittelalterliche Inschrift “VICULA MAQ COMGINI” – ein klassisches Beispiel der sogenannten MUCOI-Formeln (Abstammungsformeln, die die Zugehörigkeit zu Clans ausdrücken) – wurde nicht nur wissenschaftlich dokumentiert, sondern prägt heute sichtbar die lokale Identität. Die Mikrobrauerei Gigha Brewing nutzt Ogham-Symbole kreativ in ihrem Branding – zum Beispiel bei einem Bier nach Kölsch’scher Brauart – und verbindet damit kulturelles Erbe mit zeitgenössischem Leben. Im OG(H)AM-Projekt werden Daten zu solchen Inschriften im TEI/EpiDoc-Format kodiert und nun im Rahmen von NFDI4Objects vom Research Squirrel Engineers in Linked Open Data (LOD) und FAIR Digital Objects (FDOs) transformiert. Dabei entstehen Entitäten, die mittels Ontologien (z. B. CIDOC CRM) referenziert und z.B. in den N$O Knowledge Graph integriert werden. Anhand der “Ogham of the Month”-Initiativen (z.B. Januar 2025 – Gigha Brewing) und speziell der MUCOI-Inschriften wird gezeigt, wie sich semantische Muster wie Personennetzwerke und regionale Verteilungen modellieren lassen. Der Workflow umfasst die Extraktion von Entitäten aus TEI-Daten, deren Transformation in RDF-basierte Wissensstrukturen sowie die Anreicherung mit externen offenen community-driven Ressourcen (u.a. Wikidata, OpenStreetMap, Wikimedia Commons). Im Mittelpunkt steht die Frage, wie digitale Infrastrukturen wie das federated NFDI Knowledge Graph Ecosystem dazu beitragen, historische Zeugnisse wie den Ogham-Stein von Gigha nachhaltig sichtbar, interoperabel und nachnutzbar zu machen – und wie Geschichte, offene Daten und moderne Communitys sich auf kreative Weise gegenseitig bereichern."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.17150583",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2025-09-17"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Vom Ogham-Stein zum FAIR/LO(U)D Digital Object Wie Gigha Brewing und der federated Knowledge Graph historische Artefakte lebendig machen"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.17150583"
+      },
+      "prism:number": "3",
+      "prism:volume": "7",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/17150584"
+      },
+      "sqp:citationLabel": "7(3), λ19",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "19"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-09-17T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-09-17T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.17150583",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/17150584"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "15464258"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/17150584/files/CAA-DE%202025%20K%C3%B6ln%20Ogham.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "CAA-DE 2025 Köln Ogham.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "df99741600c1dc5c9bd4f26fa78adb32"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i3/e19#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Vom Ogham-Stein zum FAIR/LO(U)D Digital Object Wie Gigha Brewing und der federated Knowledge Graph historische Artefakte lebendig machen"
+    }
+  ]
+}

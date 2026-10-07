@@ -1,0 +1,183 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e5#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i3/e5> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i3/e5#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i3/e5> .
+
+<https://w3id.org/squirrelpapers/event/derse25-2025> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "deRSE25" ;
+    event:place <https://w3id.org/squirrelpapers/place/kit-karlsruhe> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i3/e3>,
+        <https://w3id.org/squirrelpapers/v7/i3/e4>,
+        <https://w3id.org/squirrelpapers/v7/i3/e5>,
+        <https://w3id.org/squirrelpapers/v7/i3/e6>,
+        <https://w3id.org/squirrelpapers/v7/i3/e7>,
+        <https://w3id.org/squirrelpapers/v7/i3/e8>,
+        <https://w3id.org/squirrelpapers/v7/i3/e9> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/derse25-2025#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/derse25-2025#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/kit-karlsruhe> ;
+    schema:endDate "2025-02-27"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/kit-karlsruhe> ;
+    schema:name "deRSE25" ;
+    schema:startDate "2025-02-25"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/derse25-2025#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "deRSE25" .
+
+<https://w3id.org/squirrelpapers/event/derse25-2025#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-02-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-02-27T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-8188-620X" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e5#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e5#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-02-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-02-25T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i3/e5#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.14898391" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e5#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i3/e5#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i3/e5> ;
+    dcat:accessURL <https://zenodo.org/records/14898392> ;
+    dcat:byteSize "1872015"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/14898392/files/deRSE25_Karlsruhe_81_INFRA-WG-RSE.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e5#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "182f7b39223656ab8e0e004f6c5003d5"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i3/e5#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Research Software Engineering in the NFDI (INFRA-WG-RSE)" .
+
+<https://w3id.org/squirrelpapers/place/kit-karlsruhe#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.4 49.016667)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8188-620X> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Bernd Flemisch" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-8188-620X> ;
+    foaf:familyName "Flemisch" ;
+    foaf:givenName "Bernd" ;
+    foaf:name "Bernd Flemisch" ;
+    schema:identifier <https://orcid.org/0000-0001-8188-620X> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/kit-karlsruhe> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Karlsruhe" ;
+    crm:P168_place_is_defined_by "POINT(8.4 49.016667)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/kit-karlsruhe#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/kit-karlsruhe#geometry> ;
+    owl:sameAs wd:Q1040 ;
+    dcat:centroid "POINT(8.4 49.016667)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "KIT, Karlsruhe" ;
+    schema:latitude 4.901667e+01 ;
+    schema:longitude 8.4e+00 .
+
+<https://w3id.org/squirrelpapers/v7/i3/e5> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePoster,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """Research Software Engineering is fundamental to the German National Research Data Infrastructure (NFDI). Following that, a "deRSE Arbeitskreis NFDI" serves as a connection point for RSEs in the NFDI inside deRSE e.V.
+Within the NFDI e.V., several "sections" are dealing with overarching topics, e.g., the "Sektion Common Infrastructures" with its working groups on "Data Integration (DI)", "Data Management Planning (DMP)", "Data Science and Artificial Intelligence (DSAI)", "Electronic Lab Notebooks (ELN)", "Persistent Identifiers (PID)" and "Research Software Engineering (RSE)".
+The RSE working group connects the NFDI consortia in software-related aspects. It focuses on three areas: Research software, software communities and software infrastructure at NFDI. The working group operates a central forum in an advisory and supportive capacity. It establishes the necessary software ecosystem within NFDI for the professional development of software infrastructure components, which represent an integral part of the NFDI. In addition, the working group serves as an interface for the NFDI to compare European and international initiatives to promote the connectivity of the NFDI with other infrastructures.
+This poster, as a meet-up place, would like to bring RSEs already working or interested in the NFDI together to create an active network and encourage them to join the RSE working group in the NFDI Section Infra."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.14898391" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i3> ;
+    dct:issued "2025-02-25"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Research Software Engineering in the NFDI (INFRA-WG-RSE)"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:poster ;
+    bibo:abstract """Research Software Engineering is fundamental to the German National Research Data Infrastructure (NFDI). Following that, a "deRSE Arbeitskreis NFDI" serves as a connection point for RSEs in the NFDI inside deRSE e.V.
+Within the NFDI e.V., several "sections" are dealing with overarching topics, e.g., the "Sektion Common Infrastructures" with its working groups on "Data Integration (DI)", "Data Management Planning (DMP)", "Data Science and Artificial Intelligence (DSAI)", "Electronic Lab Notebooks (ELN)", "Persistent Identifiers (PID)" and "Research Software Engineering (RSE)".
+The RSE working group connects the NFDI consortia in software-related aspects. It focuses on three areas: Research software, software communities and software infrastructure at NFDI. The working group operates a central forum in an advisory and supportive capacity. It establishes the necessary software ecosystem within NFDI for the professional development of software infrastructure components, which represent an integral part of the NFDI. In addition, the working group serves as an interface for the NFDI to compare European and international initiatives to promote the connectivity of the NFDI with other infrastructures.
+This poster, as a meet-up place, would like to bring RSEs already working or interested in the NFDI together to create an active network and encourage them to join the RSE working group in the NFDI Section Infra."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i3/e5#authors> ;
+    bibo:doi "10.5281/zenodo.14898391" ;
+    bibo:locator "λ5" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/derse25-2025> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i3/e5#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i3/e5#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:poster ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.14898391> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i3/e5#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i3> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i3/e5/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:poster ;
+    prov:wasDerivedFrom <https://zenodo.org/records/14898392> ;
+    sqp:citationLabel "7(3), λ5" ;
+    sqp:entryNumber "5"^^xsd:positiveInteger .
+

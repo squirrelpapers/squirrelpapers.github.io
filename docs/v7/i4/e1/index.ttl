@@ -1,0 +1,126 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e1#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i4/e1> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i4/e1#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i4/e1> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9953-7638" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e1#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e1#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-02-14T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-02-14T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i4/e1#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.14893826" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e1#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "NFDI4Objects_TWG_FuzzyWobblySW_de.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i4/e1#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i4/e1> ;
+    dcat:accessURL <https://zenodo.org/records/14893827> ;
+    dcat:byteSize "700930"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/14893827/files/NFDI4Objects_TWG_FuzzyWobblySW_de.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e1#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "02c02e76a9f71611a7e97a63f50a1dac"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i4/e1#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "NFDI4Objects TWG - Community-Standards for modelling fuzziness & wobbliness in research data using Semantic Web technologies and formalisms (FuzzyWobblySW)\"" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Karsten Tolle" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9953-7638> ;
+    foaf:familyName "Tolle" ;
+    foaf:givenName "Karsten" ;
+    foaf:name "Karsten Tolle" ;
+    schema:identifier <https://orcid.org/0000-0002-9953-7638> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e1> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Expression,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> ;
+    dct:description "Bei der Erforschung von Objekten spielen sowohl exakte als auch interpretierende Aussagen eine zentrale Rolle. Letztere können durch “hidden assumptions” der Autor*innen, unvollständige Objekterhaltung oder ungenaue technische Konzepte stark beeinflusst werden. Die einheitliche Modellierung der damit verbundenen “fuzziness and wobbliness” (z. B. uncertainty, vagueness, accuracy and precision) in Forschungsdaten ist eine Herausforderung, da in den Forschungsdomänen unterschiedliche Ansätze entwickelt oder implementiert werden. Wichtig dabei ist zuerst die Definition von “fuzziness and wobbliness” (Whitepaper #1). Ziel der TWG ist es, bestehende graphbasierte (RDF-)Modellierungsansätze (Whitepaper #2), Software und Skripte (Whitepaper #3) für “fuzziness and wobbliness” in Forschungsdaten zu sammeln, zu bewerten und zu erweitern. Auf diese Weise sollen gemeinsame Schnittstellen identifiziert werden, die den Übergang von einem domainspezischen/forschungsdisziplinspezifischen Modellierungsansatz zu einem anderen ermöglichen. Neben der Sammlung mathematischer, informationstechnischer und anderer relevanter Implikationen bestehender Modellierungsansätze wird diese TWG prototypische Modellierungsansätze in Use Cases implementieren, um Wissenschaftler*innen und Studierenden die Möglichkeit zu geben, die Vor- und Nachteile nachprüfbar zu bewerten."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.14893826" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i4> ;
+    dct:issued "2025-02-14"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "NFDI4Objects TWG - Community-Standards for modelling fuzziness & wobbliness in research data using Semantic Web technologies and formalisms (FuzzyWobblySW)\""@en ;
+    dct:type sqpt:proposal ;
+    bibo:abstract "Bei der Erforschung von Objekten spielen sowohl exakte als auch interpretierende Aussagen eine zentrale Rolle. Letztere können durch “hidden assumptions” der Autor*innen, unvollständige Objekterhaltung oder ungenaue technische Konzepte stark beeinflusst werden. Die einheitliche Modellierung der damit verbundenen “fuzziness and wobbliness” (z. B. uncertainty, vagueness, accuracy and precision) in Forschungsdaten ist eine Herausforderung, da in den Forschungsdomänen unterschiedliche Ansätze entwickelt oder implementiert werden. Wichtig dabei ist zuerst die Definition von “fuzziness and wobbliness” (Whitepaper #1). Ziel der TWG ist es, bestehende graphbasierte (RDF-)Modellierungsansätze (Whitepaper #2), Software und Skripte (Whitepaper #3) für “fuzziness and wobbliness” in Forschungsdaten zu sammeln, zu bewerten und zu erweitern. Auf diese Weise sollen gemeinsame Schnittstellen identifiziert werden, die den Übergang von einem domainspezischen/forschungsdisziplinspezifischen Modellierungsansatz zu einem anderen ermöglichen. Neben der Sammlung mathematischer, informationstechnischer und anderer relevanter Implikationen bestehender Modellierungsansätze wird diese TWG prototypische Modellierungsansätze in Use Cases implementieren, um Wissenschaftler*innen und Studierenden die Möglichkeit zu geben, die Vor- und Nachteile nachprüfbar zu bewerten."@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i4/e1#authors> ;
+    bibo:doi "10.5281/zenodo.14893826" ;
+    bibo:locator "λ1" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i4/e1#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i4/e1#doi> ;
+    crm:P2_has_type sqpt:proposal ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.14893826> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i4/e1#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i4/e1/> ;
+    dcat:theme sqpt:proposal ;
+    prov:wasDerivedFrom <https://zenodo.org/records/14893827> ;
+    sqp:citationLabel "7(4), λ1" ;
+    sqp:entryNumber "1"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

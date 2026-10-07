@@ -1,0 +1,167 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v1/i5/e1#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v1/i5/e1> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/engel-thomas> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v1/i5/e1#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v1/i5/e1> .
+
+<https://w3id.org/squirrelpapers/event/7-workshop-der-ag-caa-2016> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "7. Workshop der AG CAA" ;
+    event:place <https://w3id.org/squirrelpapers/place/hamburg-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v1/i5/e1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/7-workshop-der-ag-caa-2016#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/7-workshop-der-ag-caa-2016#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/hamburg-germany> ;
+    schema:endDate "2016-02-05"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/hamburg-germany> ;
+    schema:name "7. Workshop der AG CAA" ;
+    schema:startDate "2016-02-05"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/7-workshop-der-ag-caa-2016#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "7. Workshop der AG CAA" .
+
+<https://w3id.org/squirrelpapers/event/7-workshop-der-ag-caa-2016#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2016-02-05T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2016-02-05T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v1/i5/e1#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/engel-thomas> .
+
+<https://w3id.org/squirrelpapers/v1/i5/e1#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2016-02-05T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2016-02-05T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v1/i5/e1#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.292967" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v1/i5/e1#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:title "2016_02_05_AGCAA_Hamburg_Arches.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v1/i5/e1#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v1/i5/e1> ;
+    dcat:accessURL <https://zenodo.org/records/292967> ;
+    dcat:byteSize "3620484"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/292967/files/2016_02_05_AGCAA_Hamburg_Arches.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v1/i5/e1#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "af17873a4ee0ec5c3785038b96a661e7"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v1/i5/e1#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten with dem Arches Framework" .
+
+<https://w3id.org/squirrelpapers/place/hamburg-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(10.0 53.55)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/engel-thomas> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Thomas Engel" ;
+    foaf:familyName "Engel" ;
+    foaf:givenName "Thomas" ;
+    foaf:name "Thomas Engel" .
+
+<https://w3id.org/squirrelpapers/place/hamburg-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Hamburg" ;
+    crm:P168_place_is_defined_by "POINT(10.0 53.55)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/hamburg-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/hamburg-germany#geometry> ;
+    owl:sameAs wd:Q1055 ;
+    dcat:centroid "POINT(10.0 53.55)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q1055 ;
+    schema:description "Hamburg, Germany" ;
+    schema:latitude 5.355e+01 ;
+    schema:longitude 1e+01 .
+
+<https://w3id.org/squirrelpapers/v1/i5/e1> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "5" ;
+    prism:volume "1" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/engel-thomas> ;
+    dct:description "Die heterogene Natur archäologischer Daten wird bis heute meist in relationalen Datenbanken abgebildet. Datenmodellierungen mit NoSQL-Datenbanken oder in Graphen, fristen auch im Jahr 2015 noch ein Nischendasein, obwohl die konzeptionellen wie auch die technischen Grundlagen seit langem zur Verfügung stehen und einen Zugang in das Web 3.0 und in die Linked Data Cloud ermöglichen. Das i3mainz (Institut für Raumbezogene Informations- und Messtechnik) arbeitet in verschiedenen Projekten mit interdisziplinären Kontexten an  Graphenstrukturen, insbesondere auch an der Modellierung jener mit Hilfe des W3C-standardisierten Resource Description Framework (RDF). Ein besonderes Augenmerk liegt dabei  bei der Evaluation von Methoden zur standardisierten und interoperablen Vorhaltung komplexer archäologischer Fundstellendaten. Die technische Basis bildet dabei das auf dem CIDOC Conceptual Reference Model (CIDOC CRM) und Simple Knowledge Organization System (SKOS) basierende ARCHES Heritage & Management System. Die von Kooperationspartnern innerhalb des Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften»mainzed« in unterschiedlicher Form zur Verfügung gestellten archäologischen Fachdatenkönnen für eine Vielzahl von Szenarien als exemplarisch angesehen werden. Ziele der Initiative sind die standardisierte und interoperable Vorhaltung strukturiert modellierter archäologischer Datensätze. Dabei steht die Abbildung möglichst vieler Prozesse wie etwa Abfrage, Pflege, Erweiterung und Analyse im Mittelpunkt, welche auch von nicht direkt im Projekt involvierten Wissenschaftlern erbracht werden sollen. Das Paper präsentiert technische Grundlagen semantischer Datenmodellierung unter Verwendung von CIDOC CRM. Weiterhin werden prototypische Fragestellungen behandelt: Welche Voraussetzungen sollten Daten hinsichtlich Aufbau und Struktur erfüllen? Welche Schritte sind zur Datenintegration in vorhandene Graphenstrukturen nötig? Wie können diese Strukturen erweitert und auf individuelle Bedürfnisse angepasst werden? Welche prototypischen Probleme wurden dabei identifiziert? Welchen Vorteil bieten interaktive Web-Tools zur Erstellung von Thesauri (Authority Files) als Linked Open Data wie z.B. der Reference Data Manager oder das Labeling Systemgegenüber herkömmlich verwendeter, nicht HTTP-adressierbarer und nicht zitierbarer kontrollierter Vokabulare? Abschließend wird diskutiert, inwiefern CIDOC CRM modellierte Daten überhaupt geeignet sein können, eine Basis für interoperable Systeme darzustellen. Ist die CIDOC CRM inhärente Komplexität  nicht gerade deswegen als problematisch zu bezeichnen? Können auf Triple basierende Modellierungen ein gleichwertiger Ersatz für auf Tupel (relationale Datenbanken) basierende Datenstrukturen darstellen oder sogar einen Mehrwert bezüglich bislang unbeantworteter Fragestellungen bilden? Welche Vorteile für den wissenschaftlichen Diskurs sind kurz- und langfristig zu erwarten?"@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.292967" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v1/i5> ;
+    dct:issued "2016-02-05"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "E1-P1-Arches! Aspekte interoperabler Modellierung and Bereitstellung archäologischer Fachdaten with dem Arches Framework"@de ;
+    dct:type sqpt:presentation ;
+    bibo:abstract "Die heterogene Natur archäologischer Daten wird bis heute meist in relationalen Datenbanken abgebildet. Datenmodellierungen mit NoSQL-Datenbanken oder in Graphen, fristen auch im Jahr 2015 noch ein Nischendasein, obwohl die konzeptionellen wie auch die technischen Grundlagen seit langem zur Verfügung stehen und einen Zugang in das Web 3.0 und in die Linked Data Cloud ermöglichen. Das i3mainz (Institut für Raumbezogene Informations- und Messtechnik) arbeitet in verschiedenen Projekten mit interdisziplinären Kontexten an  Graphenstrukturen, insbesondere auch an der Modellierung jener mit Hilfe des W3C-standardisierten Resource Description Framework (RDF). Ein besonderes Augenmerk liegt dabei  bei der Evaluation von Methoden zur standardisierten und interoperablen Vorhaltung komplexer archäologischer Fundstellendaten. Die technische Basis bildet dabei das auf dem CIDOC Conceptual Reference Model (CIDOC CRM) und Simple Knowledge Organization System (SKOS) basierende ARCHES Heritage & Management System. Die von Kooperationspartnern innerhalb des Mainzer Zentrum für Digitalität in den Geistes- und Kulturwissenschaften»mainzed« in unterschiedlicher Form zur Verfügung gestellten archäologischen Fachdatenkönnen für eine Vielzahl von Szenarien als exemplarisch angesehen werden. Ziele der Initiative sind die standardisierte und interoperable Vorhaltung strukturiert modellierter archäologischer Datensätze. Dabei steht die Abbildung möglichst vieler Prozesse wie etwa Abfrage, Pflege, Erweiterung und Analyse im Mittelpunkt, welche auch von nicht direkt im Projekt involvierten Wissenschaftlern erbracht werden sollen. Das Paper präsentiert technische Grundlagen semantischer Datenmodellierung unter Verwendung von CIDOC CRM. Weiterhin werden prototypische Fragestellungen behandelt: Welche Voraussetzungen sollten Daten hinsichtlich Aufbau und Struktur erfüllen? Welche Schritte sind zur Datenintegration in vorhandene Graphenstrukturen nötig? Wie können diese Strukturen erweitert und auf individuelle Bedürfnisse angepasst werden? Welche prototypischen Probleme wurden dabei identifiziert? Welchen Vorteil bieten interaktive Web-Tools zur Erstellung von Thesauri (Authority Files) als Linked Open Data wie z.B. der Reference Data Manager oder das Labeling Systemgegenüber herkömmlich verwendeter, nicht HTTP-adressierbarer und nicht zitierbarer kontrollierter Vokabulare? Abschließend wird diskutiert, inwiefern CIDOC CRM modellierte Daten überhaupt geeignet sein können, eine Basis für interoperable Systeme darzustellen. Ist die CIDOC CRM inhärente Komplexität  nicht gerade deswegen als problematisch zu bezeichnen? Können auf Triple basierende Modellierungen ein gleichwertiger Ersatz für auf Tupel (relationale Datenbanken) basierende Datenstrukturen darstellen oder sogar einen Mehrwert bezüglich bislang unbeantworteter Fragestellungen bilden? Welche Vorteile für den wissenschaftlichen Diskurs sind kurz- und langfristig zu erwarten?"@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v1/i5/e1#authors> ;
+    bibo:doi "10.5281/zenodo.292967" ;
+    bibo:locator "#1" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/7-workshop-der-ag-caa-2016> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v1/i5/e1#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v1/i5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v1/i5/e1#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.292967> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v1/i5/e1#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v1/i5> ;
+    dcat:keyword "CIDOC-CRM",
+        "archaeology",
+        "arches",
+        "graph",
+        "ontology",
+        "semantic web" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/i5/e1/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/292967> ;
+    sqp:citationLabel "1(5), #1" ;
+    sqp:entryNumber "1"^^xsd:positiveInteger .
+

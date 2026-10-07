@@ -1,0 +1,313 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid"
+      },
+      "foaf:familyName": "Mees",
+      "foaf:givenName": "Allard W.",
+      "foaf:name": "Allard W. Mees",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      },
+      "rdfs:label": "Allard W. Mees",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7634-5342",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/kiesling-j-b",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Kiesling",
+      "foaf:givenName": "J.B.",
+      "foaf:name": "J.B. Kiesling",
+      "rdfs:label": "J.B. Kiesling"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e14",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Panel: From wiki projects to OpenStreetMap, collaborative approaches to open data creation: problems, case studies, territorial and cultural impact.\nThe RGZM curates the Samian Research database, a treasure-house of economic data on Roman trade and Terra Sigillata industry. Over six decades, a broad European user community of established research institutions, citizen scientists and domain-specific scientists has assembled a dataset of ~250’000 potter’s stamps from the Samian Research Database, accessible with findspots and relevant bibliography as Linked Open Samian Ware (LOSW) via a collaborative LOD hub, archaeology.link.\nIn 2020-2021, Samian Research began a process of integrating its data with Wikidata through the creation of a set of Samian Ware Wikidata items, including 3875 Samian Ware Discovery Sites, 103 Samian Ware Kiln Sites and 13 Kiln Regions, with accurate or approximate geospatial information and a backlink to archaeology.link.\nThis approach, of creating special-purpose Wikidata items, is an efficient way to map the huge geographic reach of our subject, and to call attention to many European archaeological sites and excavations that hitherto lacked a Wikidata identifier. It fell short of truly Linked Data in not offering direct access to the database API or to the bibliographic data that would allow Samian Ware sites to be merged or associated with existing Wikidata items for archaeological sites and excavations.\nThe site of Corinth illustrates one obvious issue to be solved. Was it correct to merge our Corinth as Samian Ware discovery site with Archaeological Site of Ancient Corinth? An API call on the database reveals 690 potters’ stamps reported from Corinth and now in the Ancient Corinth Museum, most with no specific find spot, a number from the Sanctuary of Demeter and Kore or the South Stoa. To solve the issue, the broader Wikidata community must be enlisted.\nWikidata properties and items suffice for almost the full range of Roman ceramics data, reflecting a diverse and active community of users but also diverse implementations of data models. We would like to discuss the benefits and challenges of integrating communities. Knowledge exchange must be enabled, e.g. by bidirectional links in and to LOSW / Wikidata, using properties in Wikidata (currently P2888, exact match, which causes problems with multiple assignments); a solution to this can be the creation of an archaeology.link property with the help of the Wikidata community.\nSamian Research is, compared to other domain-specific database projects, very open concerning data curating possibilities. But in a specialised domain, can community-validated data entries safely generate new knowledge? We note Wikidata Community projects such as Archaeology as an umbrella for communities and initiatives, e.g. Linked Open Samian Ware, African Red Slip Ware Digital and archaeology.link to address issues of sustainability and data consistency. A common understanding of data models and the data itself can be achieved via a WikiProject Page, where essential properties and vocabularies are described."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.7105005",
+      "bibo:locator": "#14",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3"
+      },
+      "dcat:keyword": [
+        "Archaeology",
+        "Wikidata"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v4/i3/e14/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/kiesling-j-b"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Panel: From wiki projects to OpenStreetMap, collaborative approaches to open data creation: problems, case studies, territorial and cultural impact.\nThe RGZM curates the Samian Research database, a treasure-house of economic data on Roman trade and Terra Sigillata industry. Over six decades, a broad European user community of established research institutions, citizen scientists and domain-specific scientists has assembled a dataset of ~250’000 potter’s stamps from the Samian Research Database, accessible with findspots and relevant bibliography as Linked Open Samian Ware (LOSW) via a collaborative LOD hub, archaeology.link.\nIn 2020-2021, Samian Research began a process of integrating its data with Wikidata through the creation of a set of Samian Ware Wikidata items, including 3875 Samian Ware Discovery Sites, 103 Samian Ware Kiln Sites and 13 Kiln Regions, with accurate or approximate geospatial information and a backlink to archaeology.link.\nThis approach, of creating special-purpose Wikidata items, is an efficient way to map the huge geographic reach of our subject, and to call attention to many European archaeological sites and excavations that hitherto lacked a Wikidata identifier. It fell short of truly Linked Data in not offering direct access to the database API or to the bibliographic data that would allow Samian Ware sites to be merged or associated with existing Wikidata items for archaeological sites and excavations.\nThe site of Corinth illustrates one obvious issue to be solved. Was it correct to merge our Corinth as Samian Ware discovery site with Archaeological Site of Ancient Corinth? An API call on the database reveals 690 potters’ stamps reported from Corinth and now in the Ancient Corinth Museum, most with no specific find spot, a number from the Sanctuary of Demeter and Kore or the South Stoa. To solve the issue, the broader Wikidata community must be enlisted.\nWikidata properties and items suffice for almost the full range of Roman ceramics data, reflecting a diverse and active community of users but also diverse implementations of data models. We would like to discuss the benefits and challenges of integrating communities. Knowledge exchange must be enabled, e.g. by bidirectional links in and to LOSW / Wikidata, using properties in Wikidata (currently P2888, exact match, which causes problems with multiple assignments); a solution to this can be the creation of an archaeology.link property with the help of the Wikidata community.\nSamian Research is, compared to other domain-specific database projects, very open concerning data curating possibilities. But in a specialised domain, can community-validated data entries safely generate new knowledge? We note Wikidata Community projects such as Archaeology as an umbrella for communities and initiatives, e.g. Linked Open Samian Ware, African Red Slip Ware Digital and archaeology.link to address issues of sustainability and data consistency. A common understanding of data models and the data itself can be achieved via a WikiProject Page, where essential properties and vocabularies are described."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.7105005",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2022-09-23"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Challenges in research community building: integrating Terra Sigillata (Samian) Research into the Wikidata community"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.7105005"
+      },
+      "prism:number": "3",
+      "prism:volume": "4",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/7105006"
+      },
+      "sqp:citationLabel": "4(3), #14",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "14"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/kiesling-j-b"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/kiesling-j-b"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e14"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e14"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-09-23T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-09-23T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.7105005",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e14"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/7105006"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "2813351"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/7105006/files/ARCHEOFOSS_XVI_2022_WikidataSamian.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "ARCHEOFOSS_XVI_2022_WikidataSamian.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "a667ca6b2fe9623ec623804ced2e6cf9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i3/e14#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Challenges in research community building: integrating Terra Sigillata (Samian) Research into the Wikidata community"
+    }
+  ]
+}

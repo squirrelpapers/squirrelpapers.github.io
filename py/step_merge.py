@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import difflib
 import html
+from urllib.parse import quote
 import re
 import sys
 from collections import Counter, defaultdict
@@ -310,7 +311,9 @@ def files_of(record: dict) -> list[dict]:
         key = str(f.get("key", ""))
         out.append({"key": key, "size": f.get("size"),
                     "checksum": f.get("checksum"),
-                    "url": f"https://zenodo.org/records/{record['id']}/files/{key}?download=1"})
+                    # File names on Zenodo may contain spaces; the URL must not
+                    # (rdflib refused one in S7, browsers repair it silently).
+                    "url": f"https://zenodo.org/records/{record['id']}/files/{quote(key)}?download=1"})
     return out
 
 
@@ -466,7 +469,7 @@ def main(strict: bool = False) -> None:
                         if pdf:
                             out["pdf"] = {
                                 "key": pdf["key"],
-                                "preview": f"https://zenodo.org/records/{record['id']}/preview/{pdf['key']}",
+                                "preview": f"https://zenodo.org/records/{record['id']}/preview/{quote(pdf['key'])}",
                                 "download": pdf["url"],
                             }
                     if meta.get("version") and "version" not in out:

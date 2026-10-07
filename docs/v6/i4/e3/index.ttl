@@ -1,0 +1,194 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e3#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i4/e3> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-1854-6760>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-0586-9350>,
+        <https://w3id.org/squirrelpapers/person/allison-jim> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i4/e3#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i4/e3> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-1854-6760#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-1854-6760" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3223-2079" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-0586-9350#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0008-0586-9350" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e3#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-1854-6760> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/allison-jim> ;
+    rdf:_5 <https://w3id.org/squirrelpapers/person/0009-0008-0586-9350> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e3#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-01-01T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i4/e3#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.10515269" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e3#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "EAA_2024_Rome_Session_514.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i4/e3#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i4/e3> ;
+    dcat:accessURL <https://zenodo.org/records/10515270> ;
+    dcat:byteSize "1021221"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/10515270/files/EAA_2024_Rome_Session_514.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i4/e3#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "65db8a57e6d11c3570f7b5da4c8bc778"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i4/e3#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks\"" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-1854-6760> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Agnes Schneider" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-1854-6760#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-1854-6760> ;
+    foaf:familyName "Schneider" ;
+    foaf:givenName "Agnes" ;
+    foaf:name "Agnes Schneider" ;
+    schema:identifier <https://orcid.org/0000-0002-1854-6760> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3223-2079> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fabian Fricke" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3223-2079> ;
+    foaf:familyName "Fricke" ;
+    foaf:givenName "Fabian" ;
+    foaf:name "Fabian Fricke" ;
+    schema:identifier <https://orcid.org/0000-0003-3223-2079> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-0586-9350> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Daria Stefan" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0008-0586-9350#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0008-0586-9350> ;
+    foaf:familyName "Stefan" ;
+    foaf:givenName "Daria" ;
+    foaf:name "Daria Stefan" ;
+    schema:identifier <https://orcid.org/0009-0008-0586-9350> .
+
+<https://w3id.org/squirrelpapers/person/allison-jim> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Jim Allison" ;
+    foaf:familyName "Allison" ;
+    foaf:givenName "Jim" ;
+    foaf:name "Jim Allison" .
+
+<https://w3id.org/squirrelpapers/v6/i4/e3> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Expression,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-1854-6760>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3223-2079>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-0586-9350>,
+        <https://w3id.org/squirrelpapers/person/allison-jim> ;
+    dct:description """Nowadays computer applications as well as statistical and computational approaches constitute a big part of the toolbox of every archaeologist, as they open tremendous possibilities for all research. These can be ready-to-use (proprietary) software applications but also “Little Minions” (self-scripted tools) or research software (e.g. implementation of statistic algorithms in R, Python), which are written by researchers. Both, research software and research data are part of Computational Archaeology and play an important role in up-to-date archaeological research. Optimally research data (and software) is FAIR(4RS) – Findable, Accessible, Interoperable, Re-usable (for Research Software) – and reproducible of which other users can benefit from or even develop further. The increasing number of topics and papers at the international and national chapters of the CAA show manifold applications but also implications. Working Groups like the SIG SSLA (https://sslarch.github.io) or the “Little Minions” (https://littleminions.link) also deal with Computational Archaeology and are building a community.
+Several initiatives, such as the German National Research Data Infrastructure (NFDI) – especially NFDI4Objects – or the European Open Science Cloud (EOSC), engage with this topic to strengthen the position of Computational Archaeologists and Research Software Engineers, highlight the scientific merit of their work, and ensure researchers receive credit for computational approaches, software development, as well as for writing papers.
+To support this, this session invites contributions dealing with various aspects of Computational Archaeology, but not limited to:
+- treating source code/software as research data
+- presenting a “Little Minion”
+- discussing challenges in Computational Archaeology
+- advancing new algorithms and statistical/computational analysis methods
+- (critical) use of AI, discussing pitfalls and complications
+- addressing the divide between FAIR(4RS) principles and practices
+- incorporating FAIR(4RS) principles into the teaching curriculum
+- discussing approaches concerning problems and solutions to legacy data and software
+- making complex statistical and computational methods accessible to main-stream archaeology"""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.10515269" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i4> ;
+    dct:issued "2024-01-01"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks\""@en ;
+    dct:type sqpt:conference-session ;
+    bibo:abstract """Nowadays computer applications as well as statistical and computational approaches constitute a big part of the toolbox of every archaeologist, as they open tremendous possibilities for all research. These can be ready-to-use (proprietary) software applications but also “Little Minions” (self-scripted tools) or research software (e.g. implementation of statistic algorithms in R, Python), which are written by researchers. Both, research software and research data are part of Computational Archaeology and play an important role in up-to-date archaeological research. Optimally research data (and software) is FAIR(4RS) – Findable, Accessible, Interoperable, Re-usable (for Research Software) – and reproducible of which other users can benefit from or even develop further. The increasing number of topics and papers at the international and national chapters of the CAA show manifold applications but also implications. Working Groups like the SIG SSLA (https://sslarch.github.io) or the “Little Minions” (https://littleminions.link) also deal with Computational Archaeology and are building a community.
+Several initiatives, such as the German National Research Data Infrastructure (NFDI) – especially NFDI4Objects – or the European Open Science Cloud (EOSC), engage with this topic to strengthen the position of Computational Archaeologists and Research Software Engineers, highlight the scientific merit of their work, and ensure researchers receive credit for computational approaches, software development, as well as for writing papers.
+To support this, this session invites contributions dealing with various aspects of Computational Archaeology, but not limited to:
+- treating source code/software as research data
+- presenting a “Little Minion”
+- discussing challenges in Computational Archaeology
+- advancing new algorithms and statistical/computational analysis methods
+- (critical) use of AI, discussing pitfalls and complications
+- addressing the divide between FAIR(4RS) principles and practices
+- incorporating FAIR(4RS) principles into the teaching curriculum
+- discussing approaches concerning problems and solutions to legacy data and software
+- making complex statistical and computational methods accessible to main-stream archaeology"""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i4/e3#authors> ;
+    bibo:doi "10.5281/zenodo.10515269" ;
+    bibo:locator "#3" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i4/e3#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i4/e3#doi> ;
+    crm:P2_has_type sqpt:conference-session ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.10515269> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i4/e3#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i4/e3/> ;
+    dcat:theme sqpt:conference-session ;
+    prov:wasDerivedFrom <https://zenodo.org/records/10515270> ;
+    sqp:citationLabel "6(4), #3" ;
+    sqp:entryNumber "3"^^xsd:positiveInteger .
+

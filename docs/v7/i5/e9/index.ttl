@@ -1,0 +1,199 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e9#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i5/e9> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-9488-1870>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i5/e9#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i5/e9> .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "2nd Conference on Research Data Infrastructure (CoRDI) 2025" ;
+    event:place <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i5/e1>,
+        <https://w3id.org/squirrelpapers/v7/i5/e10>,
+        <https://w3id.org/squirrelpapers/v7/i5/e2>,
+        <https://w3id.org/squirrelpapers/v7/i5/e3>,
+        <https://w3id.org/squirrelpapers/v7/i5/e4>,
+        <https://w3id.org/squirrelpapers/v7/i5/e5>,
+        <https://w3id.org/squirrelpapers/v7/i5/e6>,
+        <https://w3id.org/squirrelpapers/v7/i5/e7>,
+        <https://w3id.org/squirrelpapers/v7/i5/e8>,
+        <https://w3id.org/squirrelpapers/v7/i5/e9> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    schema:endDate "2025-08-28"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    schema:name "2nd Conference on Research Data Infrastructure (CoRDI) 2025" ;
+    schema:startDate "2025-08-26"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "2nd Conference on Research Data Infrastructure (CoRDI) 2025" .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-08-26T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-08-28T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-9488-1870#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-9488-1870" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-5190-1867" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e9#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0001-9488-1870> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e9#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-08-26T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-08-26T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i5/e9#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.16931907" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e9#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i5/e9#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i5/e9> ;
+    dcat:accessURL <https://zenodo.org/records/16931908> ;
+    dcat:byteSize "9835941"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/16931908/files/CoRDI_2025_Aachen_DistributedKnowledgeGraphs.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e9#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "a24171466e6bcafcbb4d7aa1db120d6f"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i5/e9#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem" .
+
+<https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(6.078056 50.777778)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-9488-1870> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Daniel Mietchen" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-9488-1870#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-9488-1870> ;
+    foaf:familyName "Mietchen" ;
+    foaf:givenName "Daniel" ;
+    foaf:name "Daniel Mietchen" ;
+    schema:identifier <https://orcid.org/0000-0001-9488-1870> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Lozana Rossenova" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-5190-1867> ;
+    foaf:familyName "Rossenova" ;
+    foaf:givenName "Lozana" ;
+    foaf:name "Lozana Rossenova" ;
+    schema:identifier <https://orcid.org/0000-0002-5190-1867> .
+
+<https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "RWTH Aachen University" ;
+    crm:P168_place_is_defined_by "POINT(6.078056 50.777778)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> ;
+    owl:sameAs wd:Q273263 ;
+    dcat:centroid "POINT(6.078056 50.777778)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "RWTH Aachen, C.A.R.L., Aachen, Germany" ;
+    schema:latitude 5.077778e+01 ;
+    schema:longitude 6.078056e+00 .
+
+<https://w3id.org/squirrelpapers/v7/i5/e9> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePaper,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "5" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-9488-1870>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5190-1867> ;
+    dct:description "The emerging ecosystem of distributed research data knowledge graphs (KGs) within the NFDI presents new opportunities—but also profound challenges—for semantic interoperability and federated querying. This contribution explores these challenges through the lens of the Wikiverse (Wikibase, Wikidata) and OpenStreetMap (OSM) as community-driven infrastructures for managing Linked Open Data (LOD), with a focus on their potential as hubs for semantic integration across heterogeneous data domains. NFDI consortia representing diverse research fields, e.g. NFDI4Objects, NFDI4Culture, BERD@NFDI, NFDI4Society, MaRDI, and the cross-cutting Base4NFDI—are increasingly investing in distributed KG solutions tailored to their respective research communities. However, diverse modelling paradigms (e.g. RDF vs. LPG), ontological frameworks (e.g. CIDOC CRM vs. BFO or schema.org), and terminological conventions remain significant barriers to integration. The Basic Services TS4NFDI and KGI4NFDI address these gaps by offering infrastructure components for terminology alignment and KG federation. This paper contributes to this discourse by evaluating how community-maintained infrastructures—especially Wikibase instances and Wikidata—can support harmonisation efforts and serve as semantic reference points across consortia while raising new issues and challenges in federating the queries. Drawing on current collaborative experiences from the Knowledge Graph Ecosystem within the NFDI, we examine how federated SPARQL queries can be (and cannot be) executed across distributed instances. Federated querying remains technically complex due to inconsistent endpoint configurations, naming conventions, and ontology alignments. These issues are especially pressing in projects using custom Wikibase installations, such as FactGrid, fuzzy-sl, and Semantic Kompakkt. Wikidata is an important semantic hub for external identifiers, cross-linking with OSM, terminologies, and LOD cloud resources. Its SPARQL endpoint, collaborative curation model, and breadth of scope make it an invaluable resource for interoperable queries across domains. The contribution highlights how these concepts apply in real-world settings through use cases from NFDI4Objects, NFDI4Culture and MaRDI: (1) Linked Open Ogham, cf. CIIC 81; (2) Linked Open Samian Ware integrating findspots across LOD repositories; (3) Babylonian mathematics on archaeological objects, e.g., Si.427, K08538 or MS 3042; (4) the Stolpersteine Project explores crowd-sourced volunteered geographic information (VGI) integration; (5) cuneiform tablets made available as 3D scan, LOD in Wikidata and FactGrid. Each example illustrates technical and conceptual hurdles for data federation, such as property mappings, namespace collisions, and endpoint restrictions. The contribution reflects the sustainability and scalability of current approaches, outlining key lessons learned from recent federation workshops and NFDI-wide coordination efforts. The most promising developments are infrastructure synergies, including services from Base4NFDI, improved query tooling using FAIRification Tools—e.g., SPARQLing Unicorn— and emerging AI-supported ontology alignment and SPARQL query generation methods. By examining the structural complexities and design patterns of distributed semantic infrastructures, we argue that Wikidata and the broader Wikibase ecosystem can play a vital role in bridging disciplinary silos—if adequately supported through community-driven service development and harmonisation efforts."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.16931907" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i5> ;
+    dct:issued "2025-08-26"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Distributed Research Data Knowledge Graphs - Challenges of federated queries using the Wikiverse and OpenStreetMap within the NFDI Knowledge Graph Ecosystem"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract "The emerging ecosystem of distributed research data knowledge graphs (KGs) within the NFDI presents new opportunities—but also profound challenges—for semantic interoperability and federated querying. This contribution explores these challenges through the lens of the Wikiverse (Wikibase, Wikidata) and OpenStreetMap (OSM) as community-driven infrastructures for managing Linked Open Data (LOD), with a focus on their potential as hubs for semantic integration across heterogeneous data domains. NFDI consortia representing diverse research fields, e.g. NFDI4Objects, NFDI4Culture, BERD@NFDI, NFDI4Society, MaRDI, and the cross-cutting Base4NFDI—are increasingly investing in distributed KG solutions tailored to their respective research communities. However, diverse modelling paradigms (e.g. RDF vs. LPG), ontological frameworks (e.g. CIDOC CRM vs. BFO or schema.org), and terminological conventions remain significant barriers to integration. The Basic Services TS4NFDI and KGI4NFDI address these gaps by offering infrastructure components for terminology alignment and KG federation. This paper contributes to this discourse by evaluating how community-maintained infrastructures—especially Wikibase instances and Wikidata—can support harmonisation efforts and serve as semantic reference points across consortia while raising new issues and challenges in federating the queries. Drawing on current collaborative experiences from the Knowledge Graph Ecosystem within the NFDI, we examine how federated SPARQL queries can be (and cannot be) executed across distributed instances. Federated querying remains technically complex due to inconsistent endpoint configurations, naming conventions, and ontology alignments. These issues are especially pressing in projects using custom Wikibase installations, such as FactGrid, fuzzy-sl, and Semantic Kompakkt. Wikidata is an important semantic hub for external identifiers, cross-linking with OSM, terminologies, and LOD cloud resources. Its SPARQL endpoint, collaborative curation model, and breadth of scope make it an invaluable resource for interoperable queries across domains. The contribution highlights how these concepts apply in real-world settings through use cases from NFDI4Objects, NFDI4Culture and MaRDI: (1) Linked Open Ogham, cf. CIIC 81; (2) Linked Open Samian Ware integrating findspots across LOD repositories; (3) Babylonian mathematics on archaeological objects, e.g., Si.427, K08538 or MS 3042; (4) the Stolpersteine Project explores crowd-sourced volunteered geographic information (VGI) integration; (5) cuneiform tablets made available as 3D scan, LOD in Wikidata and FactGrid. Each example illustrates technical and conceptual hurdles for data federation, such as property mappings, namespace collisions, and endpoint restrictions. The contribution reflects the sustainability and scalability of current approaches, outlining key lessons learned from recent federation workshops and NFDI-wide coordination efforts. The most promising developments are infrastructure synergies, including services from Base4NFDI, improved query tooling using FAIRification Tools—e.g., SPARQLing Unicorn— and emerging AI-supported ontology alignment and SPARQL query generation methods. By examining the structural complexities and design patterns of distributed semantic infrastructures, we argue that Wikidata and the broader Wikibase ecosystem can play a vital role in bridging disciplinary silos—if adequately supported through community-driven service development and harmonisation efforts."@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i5/e9#authors> ;
+    bibo:doi "10.5281/zenodo.16931907" ;
+    bibo:locator "𝒬9" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i5/e9#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i5/e9#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.16931907> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i5/e9#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i5> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i5/e9/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/16931908> ;
+    sqp:citationLabel "7(5), 𝒬9" ;
+    sqp:entryNumber "9"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

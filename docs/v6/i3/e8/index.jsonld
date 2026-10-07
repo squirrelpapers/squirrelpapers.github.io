@@ -1,0 +1,431 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i3/e8"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e13"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster"
+      },
+      "rdfs:label": "CAA Deutschland-Workshop 2024",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2024-09-06"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster"
+      },
+      "schema:name": "CAA Deutschland-Workshop 2024",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2024-09-05"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "CAA Deutschland-Workshop 2024"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-09-05T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-09-06T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/distel-anne-karoline",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Distel",
+      "foaf:givenName": "Anne-Karoline",
+      "foaf:name": "Anne-Karoline Distel",
+      "rdfs:label": "Anne-Karoline Distel"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/kasten-megan-nichole",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Kasten",
+      "foaf:givenName": "Megan Nichole",
+      "foaf:name": "Megan Nichole Kasten",
+      "rdfs:label": "Megan Nichole Kasten"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/white-nora",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "White",
+      "foaf:givenName": "Nora",
+      "foaf:name": "Nora White",
+      "rdfs:label": "Nora White"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(7.625556 51.9625)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(7.625556 51.9625)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q2742"
+      },
+      "rdfs:label": "Münster",
+      "schema:addressCountry": {
+        "@id": "wd:Q142"
+      },
+      "schema:description": "Historisches Seminar der Universität Münster, Münster, Germany",
+      "schema:latitude": 51.9625,
+      "schema:longitude": 7.625556
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/historisches-seminar-der-universitat-munster#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(7.625556 51.9625)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e8",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Nachhaltige, nachvollziehbare, kolloberative Erfassung und FAIRifizierung wird in der Citizen Science Community immer wichtiger. Nur so können diese Daten mit anderen Daten vernetzt und in internationale Initiativen (z.B. NFDI4Objects) und Community-Hubs (z.B. Wikidata, OpenStreetMap, Portable Antiquities Scheme) aktiv eingebunden werden.  Das WWW stellt dazu kolloberative Plattformen wie das Wikiversum, Open Street Map (OSM), Sketchfab zur Verfügung. Diese können von Initiativen wie z.B. dem Research Squirrel Engineers Network oder einer Wikimedia Community of Practive zu “Offenen KulturDaten”, genutzt werden um so Teil eines archäologischen Wissensgraphen zu werden und den bereits bestehenden durch qualifizierte Daten anzureichern.\nZur Erfassung und Bereitstellung von Medien, gibt es z.B. Wikimedia Commons. Auch die digitale low-cost Erfassung mit Structure form Motion (SfM) Technologien ist mittlerweile mit dem Smartphone (z.B. KIRIengine) auch für nicht Geodäten möglich. Das Teilen der Daten kann über z.B  Sketchfab bzw. Open Source 3DHOP-Instanzen (z.B. archaeosquirrels.cloud), inkl. Dokumentation über z.B. GitHub mit dem SPARQL Unicorn Ontology Documentation Tool erfolgen. Die (semantische) Bereitstellung von ist auch für die Citizen Science Community in Wikidata oder in Wikibase-Instanzen, z.B. auf wikibase.cloud, oder OSM möglich.\nDieser Vortrag zeigt die Anwendung, Chancen und Herausforderungen dieser Technologien und Plattformen für Citizen Scientists anhand von vier Use Cases zu Ogham Steinen und Holy Wells in Irland und UK.\nUse Cases\nIm Rahmen eines Events am University College Cork (UCC) wurde ein Vorhaben des Research Squirrel Engineers Networks zur Dokumentation und FAIRen Bereitstellung irischer Ogham Steinen in Cork (Cork Public Museum, UCC) umgesetzt (Abb. 1): Ogham Steine CHUIS/1, GAERS/1 und UCC 4/CIIC 81. Diese wurden mit Fotos dokumentiert und in Wikimedia Commons integriert. Mit Hilfe von KIRIengine konnten 3D-Meshes erzeugt (Abb. 2) und über Sketchfab und 3DHOP zur Verfügung gestellt werden. Eine einheitliche Wikidata- und OSM-Modellierung von Ogham Steinen hilft zudem dabei die Daten in die Linked Open Data Cloud zu integrieren.\nDas Ogham in 3D und das OG(H)AM Projekt digitalisiert u.A. irische und britische Ogham Steine mit photogrammetrischen Methoden (Abb. 3) und stellt diese Modelle und TEI EPIDOC unter freien Lizenzen zur Verfügung. Beispiele sind die Ogham Steine Ballinrannig V/VI.\nCitizen Scientits im Vereinigten Königreich (UK), wie Douglas Ledingham erzeugen 3D-Meshes ehrenamtlich und teilen diese über Plattformen wie Sketchfab oder archaeosquirrels.cloud. Ein weiteres Beispiel ist der Fund eines Ogham Stones durch Citizen Scientist Graham Senior in Coventry (England). Dieser Fund ist nach fachwissenschaftler Begutachtung auf den Websiten des Portable Antiquities Scheme (PAS) veröffentlicht worden und wird mit freien Bildern (Abb. 4), 3D-Modellen (z.B. zur Nachnutzung als 3D-Print, vgl. Abb. 4) flankiert und ist in Wikidata und OSM integriert.\nIm Citizen Science Projekt HolyWells werden Heilige Quellen im irischen County Kilkenny in Open Street Map gemappt, in Wikidata integriert, mit Wikimedia Commons angereichert und mit Hilfe von KIRIengine 3D meshes erzeugt und auf Sketchfab veröffentlicht. Ein Beispiel hierfür ist die “Freshford: St Lachtain's Well” (Abb. 5), beschrieben mit Q121840779, publiziert in Sketchfab und mit 3DHOP. Ein weiteres Beispiel “Callan St Augustine's Well”, beschrieben mit Q122189562, in Wikipedia, publiziert in Sketchfab und mit 3DHOP."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.13364535",
+      "bibo:locator": "#8",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/caa-deutschland-workshop-2024"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v6/i3/e8/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/distel-anne-karoline"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/kasten-megan-nichole"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/white-nora"
+        }
+      ],
+      "dct:description": {
+        "@language": "de",
+        "@value": "Nachhaltige, nachvollziehbare, kolloberative Erfassung und FAIRifizierung wird in der Citizen Science Community immer wichtiger. Nur so können diese Daten mit anderen Daten vernetzt und in internationale Initiativen (z.B. NFDI4Objects) und Community-Hubs (z.B. Wikidata, OpenStreetMap, Portable Antiquities Scheme) aktiv eingebunden werden.  Das WWW stellt dazu kolloberative Plattformen wie das Wikiversum, Open Street Map (OSM), Sketchfab zur Verfügung. Diese können von Initiativen wie z.B. dem Research Squirrel Engineers Network oder einer Wikimedia Community of Practive zu “Offenen KulturDaten”, genutzt werden um so Teil eines archäologischen Wissensgraphen zu werden und den bereits bestehenden durch qualifizierte Daten anzureichern.\nZur Erfassung und Bereitstellung von Medien, gibt es z.B. Wikimedia Commons. Auch die digitale low-cost Erfassung mit Structure form Motion (SfM) Technologien ist mittlerweile mit dem Smartphone (z.B. KIRIengine) auch für nicht Geodäten möglich. Das Teilen der Daten kann über z.B  Sketchfab bzw. Open Source 3DHOP-Instanzen (z.B. archaeosquirrels.cloud), inkl. Dokumentation über z.B. GitHub mit dem SPARQL Unicorn Ontology Documentation Tool erfolgen. Die (semantische) Bereitstellung von ist auch für die Citizen Science Community in Wikidata oder in Wikibase-Instanzen, z.B. auf wikibase.cloud, oder OSM möglich.\nDieser Vortrag zeigt die Anwendung, Chancen und Herausforderungen dieser Technologien und Plattformen für Citizen Scientists anhand von vier Use Cases zu Ogham Steinen und Holy Wells in Irland und UK.\nUse Cases\nIm Rahmen eines Events am University College Cork (UCC) wurde ein Vorhaben des Research Squirrel Engineers Networks zur Dokumentation und FAIRen Bereitstellung irischer Ogham Steinen in Cork (Cork Public Museum, UCC) umgesetzt (Abb. 1): Ogham Steine CHUIS/1, GAERS/1 und UCC 4/CIIC 81. Diese wurden mit Fotos dokumentiert und in Wikimedia Commons integriert. Mit Hilfe von KIRIengine konnten 3D-Meshes erzeugt (Abb. 2) und über Sketchfab und 3DHOP zur Verfügung gestellt werden. Eine einheitliche Wikidata- und OSM-Modellierung von Ogham Steinen hilft zudem dabei die Daten in die Linked Open Data Cloud zu integrieren.\nDas Ogham in 3D und das OG(H)AM Projekt digitalisiert u.A. irische und britische Ogham Steine mit photogrammetrischen Methoden (Abb. 3) und stellt diese Modelle und TEI EPIDOC unter freien Lizenzen zur Verfügung. Beispiele sind die Ogham Steine Ballinrannig V/VI.\nCitizen Scientits im Vereinigten Königreich (UK), wie Douglas Ledingham erzeugen 3D-Meshes ehrenamtlich und teilen diese über Plattformen wie Sketchfab oder archaeosquirrels.cloud. Ein weiteres Beispiel ist der Fund eines Ogham Stones durch Citizen Scientist Graham Senior in Coventry (England). Dieser Fund ist nach fachwissenschaftler Begutachtung auf den Websiten des Portable Antiquities Scheme (PAS) veröffentlicht worden und wird mit freien Bildern (Abb. 4), 3D-Modellen (z.B. zur Nachnutzung als 3D-Print, vgl. Abb. 4) flankiert und ist in Wikidata und OSM integriert.\nIm Citizen Science Projekt HolyWells werden Heilige Quellen im irischen County Kilkenny in Open Street Map gemappt, in Wikidata integriert, mit Wikimedia Commons angereichert und mit Hilfe von KIRIengine 3D meshes erzeugt und auf Sketchfab veröffentlicht. Ein Beispiel hierfür ist die “Freshford: St Lachtain's Well” (Abb. 5), beschrieben mit Q121840779, publiziert in Sketchfab und mit 3DHOP. Ein weiteres Beispiel “Callan St Augustine's Well”, beschrieben mit Q122189562, in Wikipedia, publiziert in Sketchfab und mit 3DHOP."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.13364535",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2024-09-05"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "3D-Erfassung und FAIRe Publikation von Cultural Heritage Artefakten, insbesondere Ogham Steine und Holy Wells in Zusammenarbeit mit Citizen Scientists"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.13364535"
+      },
+      "prism:number": "3",
+      "prism:volume": "6",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/13364536"
+      },
+      "sqp:citationLabel": "6(3), #8",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "8"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/distel-anne-karoline"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/white-nora"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/kasten-megan-nichole"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/distel-anne-karoline"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/kasten-megan-nichole"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/white-nora"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e8"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e8"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-09-05T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-09-05T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.13364535",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e8"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/13364536"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "51431504"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/13364536/files/CAADE_2024_Muenster_Citizen%20Science_3DWikidataOSM_Thiery.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "CAADE_2024_Muenster_Citizen Science_3DWikidataOSM_Thiery.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "64e2f9e86cbc4f2dd9aa67946ae4b786"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i3/e8#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "3D-Erfassung und FAIRe Publikation von Cultural Heritage Artefakten, insbesondere Ogham Steine und Holy Wells in Zusammenarbeit mit Citizen Scientists"
+    }
+  ]
+}

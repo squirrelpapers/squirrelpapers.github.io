@@ -1,0 +1,115 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v3/i3/e2#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v3/i3/e2> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v3/i3/e2#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v3/i3/e2> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-7634-5342" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v3/i3/e2#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/v3/i3/e2#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2021-12-08T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2021-12-08T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v3/i3/e2#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.5767083" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v3/i3/e2#landing> a dcat:Distribution ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://zenodo.org/records/5767083> .
+
+<https://w3id.org/squirrelpapers/v3/i3/e2#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Ceramic Typologies Ontology (CeraTyOnt) - Version v0.1" .
+
+<https://w3id.org/squirrelpapers/v3/i3/e2> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Dataset,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "3" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> ;
+    dct:description """first release
+fix licence in CFF file""" ;
+    dct:identifier "https://doi.org/10.5281/zenodo.5767083" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v3/i3> ;
+    dct:issued "2021-12-08"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Ceramic Typologies Ontology (CeraTyOnt) - Version v0.1" ;
+    dct:type sqpt:data ;
+    bibo:abstract """first release
+fix licence in CFF file""" ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v3/i3/e2#authors> ;
+    bibo:doi "10.5281/zenodo.5767083" ;
+    bibo:locator "#2" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v3/i3/e2#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v3/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v3/i3/e2#doi> ;
+    crm:P2_has_type sqpt:data ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.5767083> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v3/i3/e2#landing> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v3/i3> ;
+    dcat:keyword "Ceramics",
+        "Linked Open Data",
+        "Samian Ware" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v3/i3/e2/> ;
+    dcat:theme sqpt:data ;
+    dcat:version "v0.1" ;
+    prov:wasDerivedFrom <https://zenodo.org/records/5767083> ;
+    sqp:citationLabel "3(3), #2" ;
+    sqp:entryNumber "2"^^xsd:positiveInteger .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Allard W. Mees" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-7634-5342> ;
+    foaf:familyName "Mees" ;
+    foaf:givenName "Allard W." ;
+    foaf:name "Allard W. Mees" ;
+    schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+

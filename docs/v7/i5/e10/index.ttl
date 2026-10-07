@@ -1,0 +1,183 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e10#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i5/e10> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i5/e10#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i5/e10> .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "2nd Conference on Research Data Infrastructure (CoRDI) 2025" ;
+    event:place <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i5/e1>,
+        <https://w3id.org/squirrelpapers/v7/i5/e10>,
+        <https://w3id.org/squirrelpapers/v7/i5/e2>,
+        <https://w3id.org/squirrelpapers/v7/i5/e3>,
+        <https://w3id.org/squirrelpapers/v7/i5/e4>,
+        <https://w3id.org/squirrelpapers/v7/i5/e5>,
+        <https://w3id.org/squirrelpapers/v7/i5/e6>,
+        <https://w3id.org/squirrelpapers/v7/i5/e7>,
+        <https://w3id.org/squirrelpapers/v7/i5/e8>,
+        <https://w3id.org/squirrelpapers/v7/i5/e9> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    schema:endDate "2025-08-28"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> ;
+    schema:name "2nd Conference on Research Data Infrastructure (CoRDI) 2025" ;
+    schema:startDate "2025-08-26"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "2nd Conference on Research Data Infrastructure (CoRDI) 2025" .
+
+<https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-08-26T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-08-28T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-8188-620X" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e10#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e10#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-08-28T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-08-28T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i5/e10#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.16931909" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e10#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "CoRDI_2025_Aachen_WGRSE.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i5/e10#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i5/e10> ;
+    dcat:accessURL <https://zenodo.org/records/16931910> ;
+    dcat:byteSize "6066001"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/16931910/files/CoRDI_2025_Aachen_WGRSE.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i5/e10#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "12aae139fa02ba6b82b67cb906b8ffd7"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i5/e10#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code" .
+
+<https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(6.078056 50.777778)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-8188-620X> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Bernd Flemisch" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-8188-620X> ;
+    foaf:familyName "Flemisch" ;
+    foaf:givenName "Bernd" ;
+    foaf:name "Bernd Flemisch" ;
+    schema:identifier <https://orcid.org/0000-0001-8188-620X> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "RWTH Aachen University" ;
+    crm:P168_place_is_defined_by "POINT(6.078056 50.777778)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry> ;
+    owl:sameAs wd:Q273263 ;
+    dcat:centroid "POINT(6.078056 50.777778)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "RWTH Aachen, C.A.R.L., Aachen, Germany" ;
+    schema:latitude 5.077778e+01 ;
+    schema:longitude 6.078056e+00 .
+
+<https://w3id.org/squirrelpapers/v7/i5/e10> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePaper,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "5" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """In the context of the German National Research Data Infrastructure (NFDI), Research Software Engineers (RSEs) and research software play crucial and increasingly formalised roles in enabling the creation, management, and sustainable reuse of research artefacts such as data and software. This contribution introduces a layered model of roles and responsibilities developed by the Working Group Research Software Engineering of the NFDI section Common Infrastructures (INFRA-WG-RSE). The model reflects its implications for Research Data Management (RDM) and Research Data Infrastructures (RDI). It works with other sections and working groups, e.g. WG RSM within NFDI. The core of this model is the recognition that RSE in RDI consists of three foundational pillars: P-I) Research Software as Research Artifact P-II) Research Software as FAIRification Service P-III) Research Software as Infrastructure Service for FAIRification (e.g., Basic Services of Base4NFDI). These three pillars illustrate how research software acts as a tool and an integral and multifaceted component of digital research workflows. It may be a research output or contribute to generating it. In more mature cases, it can evolve into a reusable, community-maintained service within a portfolio of infrastructure services like NFDI. To support these roles, the RSE community engages in five cross-cutting tasks (CCT): A) Create Research Software Metadata to apply FAIR4RS B) Implement Research Software (Quality) Criteria C) Contribute to the Research Software Infrastructure and Archiving D) Make Tools FAIR within a Research Software Marketplace E) Create Guidelines and give Training This structured approach forms the conceptual and operational foundation of the INFRA-WG-RSE. The group serves as a hub for coordination and networking across NFDI consortia, contributing to Base4NFDI services and fostering the adoption of FAIR4RS principles through shared practices, policies, and tooling. Precisely, CCT-C aligns with the Basic Service Jupyter4NFDI, supporting federated infrastructures for computational workflows. Contributions like the Jupyter Python Minions from computational archaeology—as a use case from the humanities—offer reusable, modular FAIRification helpers in Jupyter-based environments. Similarly, CCT-D contributes to nfdi.software, a central Basic Service to interlink and sustain domain-specific software registries, such as those from NFDI4Objects, NFDI4Energy, and NFDI4ING (Betty's Research Engine), among others. The Basic Service TS4NFDI develops, e.g., widgets within the Terminology Service Suite (P-III). Tools from the NFDI4Objects domain, e.g., the SPARQLing Unicorn QGIS Plugin and the AMT, enable domain researchers to integrate data from the NFDI Knowledge Graph Ecosystem into established Open Source environments (P-II). Furthermore, the Alligator method illustrates "Research Software as Research Artifact" (P-1). The WG RSM within the NFDI section (Meta)data, Terminologies, Provenance complements these efforts by developing standardised metadata models to support interoperability and discoverability of research software also using nfdi.software, contributing directly to the realisation of FAIR4RS. We conclude with recommendations for more strongly integrating RSE roles into the strategic development of the NFDI, highlighting that software is more than a technical asset: it is a cultural, infrastructural, and epistemic cornerstone of modern research.
+Files"""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.16931909" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i5> ;
+    dct:issued "2025-08-28"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "RSE 4 Research Data Infrastructures The Role of Research Software Engineers in creating FAIR Data with FAIR4RS Code"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract """In the context of the German National Research Data Infrastructure (NFDI), Research Software Engineers (RSEs) and research software play crucial and increasingly formalised roles in enabling the creation, management, and sustainable reuse of research artefacts such as data and software. This contribution introduces a layered model of roles and responsibilities developed by the Working Group Research Software Engineering of the NFDI section Common Infrastructures (INFRA-WG-RSE). The model reflects its implications for Research Data Management (RDM) and Research Data Infrastructures (RDI). It works with other sections and working groups, e.g. WG RSM within NFDI. The core of this model is the recognition that RSE in RDI consists of three foundational pillars: P-I) Research Software as Research Artifact P-II) Research Software as FAIRification Service P-III) Research Software as Infrastructure Service for FAIRification (e.g., Basic Services of Base4NFDI). These three pillars illustrate how research software acts as a tool and an integral and multifaceted component of digital research workflows. It may be a research output or contribute to generating it. In more mature cases, it can evolve into a reusable, community-maintained service within a portfolio of infrastructure services like NFDI. To support these roles, the RSE community engages in five cross-cutting tasks (CCT): A) Create Research Software Metadata to apply FAIR4RS B) Implement Research Software (Quality) Criteria C) Contribute to the Research Software Infrastructure and Archiving D) Make Tools FAIR within a Research Software Marketplace E) Create Guidelines and give Training This structured approach forms the conceptual and operational foundation of the INFRA-WG-RSE. The group serves as a hub for coordination and networking across NFDI consortia, contributing to Base4NFDI services and fostering the adoption of FAIR4RS principles through shared practices, policies, and tooling. Precisely, CCT-C aligns with the Basic Service Jupyter4NFDI, supporting federated infrastructures for computational workflows. Contributions like the Jupyter Python Minions from computational archaeology—as a use case from the humanities—offer reusable, modular FAIRification helpers in Jupyter-based environments. Similarly, CCT-D contributes to nfdi.software, a central Basic Service to interlink and sustain domain-specific software registries, such as those from NFDI4Objects, NFDI4Energy, and NFDI4ING (Betty's Research Engine), among others. The Basic Service TS4NFDI develops, e.g., widgets within the Terminology Service Suite (P-III). Tools from the NFDI4Objects domain, e.g., the SPARQLing Unicorn QGIS Plugin and the AMT, enable domain researchers to integrate data from the NFDI Knowledge Graph Ecosystem into established Open Source environments (P-II). Furthermore, the Alligator method illustrates "Research Software as Research Artifact" (P-1). The WG RSM within the NFDI section (Meta)data, Terminologies, Provenance complements these efforts by developing standardised metadata models to support interoperability and discoverability of research software also using nfdi.software, contributing directly to the realisation of FAIR4RS. We conclude with recommendations for more strongly integrating RSE roles into the strategic development of the NFDI, highlighting that software is more than a technical asset: it is a cultural, infrastructural, and epistemic cornerstone of modern research.
+Files"""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i5/e10#authors> ;
+    bibo:doi "10.5281/zenodo.16931909" ;
+    bibo:locator "𝒬10" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i5/e10#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i5/e10#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.16931909> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i5/e10#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i5> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i5/e10/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/16931910> ;
+    sqp:citationLabel "7(5), 𝒬10" ;
+    sqp:entryNumber "10"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

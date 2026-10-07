@@ -1,0 +1,216 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e18#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i3/e18> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/distel-anne-karoline>,
+        <https://w3id.org/squirrelpapers/person/kasten-megan-nichole>,
+        <https://w3id.org/squirrelpapers/person/white-nora> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i3/e18#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i3/e18> .
+
+<https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2025> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "UK-Ireland DH Association Annual Event 2025" ;
+    event:place <https://w3id.org/squirrelpapers/place/university-of-glasgow-glasgow-united-kingdom> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i3/e16>,
+        <https://w3id.org/squirrelpapers/v7/i3/e17>,
+        <https://w3id.org/squirrelpapers/v7/i3/e18> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2025#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2025#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/university-of-glasgow-glasgow-united-kingdom> ;
+    schema:endDate "2025-06-18"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/university-of-glasgow-glasgow-united-kingdom> ;
+    schema:name "UK-Ireland DH Association Annual Event 2025" ;
+    schema:startDate "2025-06-17"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2025#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "UK-Ireland DH Association Annual Event 2025" .
+
+<https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2025#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-06-17T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-06-18T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e18#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/white-nora> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/kasten-megan-nichole> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/distel-anne-karoline> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e18#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-06-17T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-06-17T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i3/e18#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.15721553" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e18#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "DHUKIE2025_BeyondDigitalBoundaries_Session5B.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i3/e18#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i3/e18> ;
+    dcat:accessURL <https://zenodo.org/records/15721554> ;
+    dcat:byteSize "2531624"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/15721554/files/DHUKIE2025_BeyondDigitalBoundaries_Session5B.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e18#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "8fdba4516fb35b4847629accfb9895e8"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i3/e18#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Cultural Heritage beyond boundaries - Open Science and FAIR methods for Ogham and Holy Wells in Ireland and the UK" .
+
+<https://w3id.org/squirrelpapers/place/university-of-glasgow-glasgow-united-kingdom#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(-4.288056 55.872222)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/distel-anne-karoline> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Anne-Karoline Distel" ;
+    foaf:familyName "Distel" ;
+    foaf:givenName "Anne-Karoline" ;
+    foaf:name "Anne-Karoline Distel" .
+
+<https://w3id.org/squirrelpapers/person/kasten-megan-nichole> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Megan Nichole Kasten" ;
+    foaf:familyName "Kasten" ;
+    foaf:givenName "Megan Nichole" ;
+    foaf:name "Megan Nichole Kasten" .
+
+<https://w3id.org/squirrelpapers/person/white-nora> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Nora White" ;
+    foaf:familyName "White" ;
+    foaf:givenName "Nora" ;
+    foaf:name "Nora White" .
+
+<https://w3id.org/squirrelpapers/place/university-of-glasgow-glasgow-united-kingdom> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "University of Glasgow" ;
+    crm:P168_place_is_defined_by "POINT(-4.288056 55.872222)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/university-of-glasgow-glasgow-united-kingdom#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/university-of-glasgow-glasgow-united-kingdom#geometry> ;
+    owl:sameAs wd:Q192775 ;
+    dcat:centroid "POINT(-4.288056 55.872222)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q145 ;
+    schema:description "University of Glasgow, Glasgow, United Kingdom (Scotland)" ;
+    schema:latitude 5.587222e+01 ;
+    schema:longitude -4.288056e+00 .
+
+<https://w3id.org/squirrelpapers/v7/i3/e18> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/distel-anne-karoline>,
+        <https://w3id.org/squirrelpapers/person/kasten-megan-nichole>,
+        <https://w3id.org/squirrelpapers/person/white-nora> ;
+    dct:description """Open Science principles provide a framework to ensure cultural heritage data is Findable, Accessible, Interoperable, and Reusable (FAIR). This panel, showing collaboration across disciplines and regions, demonstrates how FAIR methods advance the understanding and dissemination of Irish and UK cultural heritage through three key approaches:
+3D/2D Capturing and Publication: High-resolution 3D and 2D capturing techniques document and preserve cultural artefacts like Ogham stones and Holy Wells, enabling detailed analysis and online global access. Projects like Ogham in 3D and OG(H)AM exemplify this by offering rich, multi-dimensional datasets for researchers and public engagement.
+Linked Open Data (LOD): Encoding heritage data in formats like TEI EPIDOC and integrating it into LOD networks ensures interoperability and connects distributed datasets. Initiatives such as ogham.link demonstrate how LOD fosters collaboration, enriches cultural narratives, and enhances accessibility.
+Volunteered Knowledge Hubs: Platforms like Wikidata and OpenStreetMap (OSM) facilitate community-driven heritage preservation and knowledge sharing. These hubs expand beyond academic contributions to include diverse perspectives, as seen in projects focusing on Ogham inscriptions and Holy Wells.
+This panel, which focuses on Ogham and Holy Wells, draws on active projects in which the panel chairs are directly involved. These elements provide a robust foundation for discussing how Open Science and FAIR methodologies intersect with digital humanities, archaeology, and community engagement.
+Ogham (ᚑᚌᚆᚐᚋ) - a unique writing system across space and time - is a distinctive writing system created for an early form of the Irish language, primarily used during the 1st Millennium AD on stone pillars to inscribe personal and kin-group names. These inscriptions, found mainly in Ireland and parts of Britain, hold immense value for linguistic, archaeological, and historical studies. Since the 1990s, projects like the Celtic Inscribed Stones Project (CISP) and Ogham in 3D have applied Digital Humanities tools to document and analyse these inscriptions. By employing 3D models, TEI XML encodings, and citizen science contributions via platforms like Wikidata and OSM, FAIR methodologies have transformed the accessibility and study of this unique script.
+Holy Wells - sites of spiritual and community significance - located throughout Ireland, the UK and elsewhere, embody a rich cultural, historical, and spiritual heritage that is in danger of getting lost due to a shift in spiritual and amenity needs as well as farming practices. As a water source linked to early Christian and pre-Christian traditions, they are often associated with saints, healing practices, possibly baptisms and local folklore. Documenting these sacred sites poses challenges, as their histories blend oral traditions with physical features in remote locations. FAIR methods have enabled systematic cataloguing through geospatial mapping, photogrammetry, community-driven data collection, and digital storytelling. Platforms like OpenStreetMap and the Wikiverse integrate localised knowledge into broader datasets, ensuring the digital preservation of Holy Wells for future generations of pilgrims and researchers alike.
+This panel highlights how Ogham and Holy Wells exemplify the potential of Open Science to bridge local heritage and global scholarship through FAIR principles, advancing collaborative and inclusive cultural preservation practices.
+A. Beyond Digital Boundaries -  Interaction between dimensions (2/2.5/3D)
+This presentation will discuss the boundaries imposed on visualisations of ogham-inscribed objects by the dimensionality of the data, and how the OG(H)AM and OPal+ (Ogham Palaeography+) initiatives aim to cross these boundaries using different imaging methods and software packages. Specifically, this will discuss the different processes available to use 3D models to generate 2D images, and how the images generated can be used for other types of research, including palaeography. The ogham script is unusual in the way it wraps around the edges of inscribed objects (mainly stone pillars) rather than being laid out on a flat surface. Of course, this makes 3d visualisation especially useful for ogham-inscribed objects generally. However, this script aspect can be challenging for the palaeographic study of ogham. Therefore, unwrapping 3d models for 2D visualisation is a method being utilised in the OPal+ and EMISoS (Early Medieval Irish Scripts on Stone) projects.
+B. Beyond Digital Boundaries - Collaboration across (Linked) Open Data formats
+This presentation will highlight different approaches to transforming multidisciplinary Ogham Data into Linked Open Data (LOD). LOD helps to make these different Ogham Stone Concepts, with several provenances, modifications, corrections, etc. citable (via a URI) and create a network of improving information over time. The ogham data has been encoded by the OG(H)AM project in EpiDoc format. EpiDoc is an international, collaborative effort that provides guidelines and tools for encoding scholarly and educational editions of ancient documents. It uses a subset of the TEI (Text Encoding Initiative) standard for the representation of texts in digital form and was developed initially for the publication of digital editions of ancient inscriptions. Crucially, EpiDoc addresses not only the transcription and editorial treatment of texts themselves, but also the history, provenance and materiality of the objects on which the texts appear. This xml data now serves as a basis for transforming via semi-automatic scripts into LOD to make it even FAIRer.
+C. Beyond Digital Boundaries - Working with Wikidata and OpenStreetMap
+This presentation explores the integration of Og(h)am and Holy Wells data within community-driven initiatives and citizen science platforms, such as OpenStreetMap (OSM), the Wikiverse, and 3D modelling using photogrammetric methods via Structure from Motion (SfM). In OSM, the tag historic=ogham_stone allows citizen scientists to document attributes of Og(h)am stones, including inscriptions, material, dimensions, accessibility, and links to Wikidata and Wikimedia Commons. Additionally, OSM provides geospatial data on townlands and baronies (primarily via townlands.ie), aiding in the geolocation of findspots referenced in literature and excavation reports. Related initiatives, such as documenting holy wells using the OSM tag place_of_worship=holy_well and Wikidata’s WikiProject Holy Wells, offer valuable frameworks for structuring cultural heritage data. The Wikiverse, comprising Wikidata, Wikimedia Commons, and Wikipedia, is a collaborative hub for sharing Og(h)am data through structured entries, visual media, and descriptive text. Additionally, user-friendly smartphone applications facilitate the creation of 3D models via photogrammetric techniques, which can be linked to OSM and Wikidata, enhancing accessibility and preservation efforts."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.15721553" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i3> ;
+    dct:issued "2025-06-17"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Cultural Heritage beyond boundaries - Open Science and FAIR methods for Ogham and Holy Wells in Ireland and the UK"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract """Open Science principles provide a framework to ensure cultural heritage data is Findable, Accessible, Interoperable, and Reusable (FAIR). This panel, showing collaboration across disciplines and regions, demonstrates how FAIR methods advance the understanding and dissemination of Irish and UK cultural heritage through three key approaches:
+3D/2D Capturing and Publication: High-resolution 3D and 2D capturing techniques document and preserve cultural artefacts like Ogham stones and Holy Wells, enabling detailed analysis and online global access. Projects like Ogham in 3D and OG(H)AM exemplify this by offering rich, multi-dimensional datasets for researchers and public engagement.
+Linked Open Data (LOD): Encoding heritage data in formats like TEI EPIDOC and integrating it into LOD networks ensures interoperability and connects distributed datasets. Initiatives such as ogham.link demonstrate how LOD fosters collaboration, enriches cultural narratives, and enhances accessibility.
+Volunteered Knowledge Hubs: Platforms like Wikidata and OpenStreetMap (OSM) facilitate community-driven heritage preservation and knowledge sharing. These hubs expand beyond academic contributions to include diverse perspectives, as seen in projects focusing on Ogham inscriptions and Holy Wells.
+This panel, which focuses on Ogham and Holy Wells, draws on active projects in which the panel chairs are directly involved. These elements provide a robust foundation for discussing how Open Science and FAIR methodologies intersect with digital humanities, archaeology, and community engagement.
+Ogham (ᚑᚌᚆᚐᚋ) - a unique writing system across space and time - is a distinctive writing system created for an early form of the Irish language, primarily used during the 1st Millennium AD on stone pillars to inscribe personal and kin-group names. These inscriptions, found mainly in Ireland and parts of Britain, hold immense value for linguistic, archaeological, and historical studies. Since the 1990s, projects like the Celtic Inscribed Stones Project (CISP) and Ogham in 3D have applied Digital Humanities tools to document and analyse these inscriptions. By employing 3D models, TEI XML encodings, and citizen science contributions via platforms like Wikidata and OSM, FAIR methodologies have transformed the accessibility and study of this unique script.
+Holy Wells - sites of spiritual and community significance - located throughout Ireland, the UK and elsewhere, embody a rich cultural, historical, and spiritual heritage that is in danger of getting lost due to a shift in spiritual and amenity needs as well as farming practices. As a water source linked to early Christian and pre-Christian traditions, they are often associated with saints, healing practices, possibly baptisms and local folklore. Documenting these sacred sites poses challenges, as their histories blend oral traditions with physical features in remote locations. FAIR methods have enabled systematic cataloguing through geospatial mapping, photogrammetry, community-driven data collection, and digital storytelling. Platforms like OpenStreetMap and the Wikiverse integrate localised knowledge into broader datasets, ensuring the digital preservation of Holy Wells for future generations of pilgrims and researchers alike.
+This panel highlights how Ogham and Holy Wells exemplify the potential of Open Science to bridge local heritage and global scholarship through FAIR principles, advancing collaborative and inclusive cultural preservation practices.
+A. Beyond Digital Boundaries -  Interaction between dimensions (2/2.5/3D)
+This presentation will discuss the boundaries imposed on visualisations of ogham-inscribed objects by the dimensionality of the data, and how the OG(H)AM and OPal+ (Ogham Palaeography+) initiatives aim to cross these boundaries using different imaging methods and software packages. Specifically, this will discuss the different processes available to use 3D models to generate 2D images, and how the images generated can be used for other types of research, including palaeography. The ogham script is unusual in the way it wraps around the edges of inscribed objects (mainly stone pillars) rather than being laid out on a flat surface. Of course, this makes 3d visualisation especially useful for ogham-inscribed objects generally. However, this script aspect can be challenging for the palaeographic study of ogham. Therefore, unwrapping 3d models for 2D visualisation is a method being utilised in the OPal+ and EMISoS (Early Medieval Irish Scripts on Stone) projects.
+B. Beyond Digital Boundaries - Collaboration across (Linked) Open Data formats
+This presentation will highlight different approaches to transforming multidisciplinary Ogham Data into Linked Open Data (LOD). LOD helps to make these different Ogham Stone Concepts, with several provenances, modifications, corrections, etc. citable (via a URI) and create a network of improving information over time. The ogham data has been encoded by the OG(H)AM project in EpiDoc format. EpiDoc is an international, collaborative effort that provides guidelines and tools for encoding scholarly and educational editions of ancient documents. It uses a subset of the TEI (Text Encoding Initiative) standard for the representation of texts in digital form and was developed initially for the publication of digital editions of ancient inscriptions. Crucially, EpiDoc addresses not only the transcription and editorial treatment of texts themselves, but also the history, provenance and materiality of the objects on which the texts appear. This xml data now serves as a basis for transforming via semi-automatic scripts into LOD to make it even FAIRer.
+C. Beyond Digital Boundaries - Working with Wikidata and OpenStreetMap
+This presentation explores the integration of Og(h)am and Holy Wells data within community-driven initiatives and citizen science platforms, such as OpenStreetMap (OSM), the Wikiverse, and 3D modelling using photogrammetric methods via Structure from Motion (SfM). In OSM, the tag historic=ogham_stone allows citizen scientists to document attributes of Og(h)am stones, including inscriptions, material, dimensions, accessibility, and links to Wikidata and Wikimedia Commons. Additionally, OSM provides geospatial data on townlands and baronies (primarily via townlands.ie), aiding in the geolocation of findspots referenced in literature and excavation reports. Related initiatives, such as documenting holy wells using the OSM tag place_of_worship=holy_well and Wikidata’s WikiProject Holy Wells, offer valuable frameworks for structuring cultural heritage data. The Wikiverse, comprising Wikidata, Wikimedia Commons, and Wikipedia, is a collaborative hub for sharing Og(h)am data through structured entries, visual media, and descriptive text. Additionally, user-friendly smartphone applications facilitate the creation of 3D models via photogrammetric techniques, which can be linked to OSM and Wikidata, enhancing accessibility and preservation efforts."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i3/e18#authors> ;
+    bibo:doi "10.5281/zenodo.15721553" ;
+    bibo:locator "λ18" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/uk-ireland-dh-association-annual-event-2025> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i3/e18#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i3/e18#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    rdfs:seeAlso <https://youtu.be/j8hxYuqCVm4?si=BO5tWUY2rX2K5PJ2> ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.15721553> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i3/e18#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i3> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i3/e18/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/15721554> ;
+    sqp:citationLabel "7(3), λ18" ;
+    sqp:entryNumber "18"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

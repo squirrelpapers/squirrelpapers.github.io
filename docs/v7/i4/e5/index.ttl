@@ -1,0 +1,233 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e5#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i4/e5> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i4/e5#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i4/e5> .
+
+<https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2025> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "NFDI4Objects Community Meeting 2025" ;
+    event:place <https://w3id.org/squirrelpapers/place/deutsches-bergbau-museum-bochum-germany> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i4/e5> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2025#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2025#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/deutsches-bergbau-museum-bochum-germany> ;
+    schema:endDate "2025-10-01"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/deutsches-bergbau-museum-bochum-germany> ;
+    schema:name "NFDI4Objects Community Meeting 2025" ;
+    schema:startDate "2025-09-30"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2025#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "NFDI4Objects Community Meeting 2025" .
+
+<https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2025#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-09-30T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-10-01T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Karsten Tolle" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9953-7638> ;
+    foaf:familyName "Tolle" ;
+    foaf:givenName "Karsten" ;
+    foaf:name "Karsten Tolle" ;
+    schema:identifier <https://orcid.org/0000-0002-9953-7638> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9953-7638#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9953-7638" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3270-2659> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Peter Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-3270-2659> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Peter" ;
+    foaf:name "Peter Thiery" ;
+    schema:identifier <https://orcid.org/0000-0003-3270-2659> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-3270-2659#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-3270-2659" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Lutz Krister Schubert" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-4889-9353> ;
+    foaf:familyName "Schubert" ;
+    foaf:givenName "Lutz Krister" ;
+    foaf:name "Lutz Krister Schubert" ;
+    schema:identifier <https://orcid.org/0000-0003-4889-9353> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-4889-9353" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Fiona Schenk" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0008-2877-3204> ;
+    foaf:familyName "Schenk" ;
+    foaf:givenName "Fiona" ;
+    foaf:name "Fiona Schenk" ;
+    schema:identifier <https://orcid.org/0009-0008-2877-3204> .
+
+<https://w3id.org/squirrelpapers/person/0009-0008-2877-3204#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0008-2877-3204" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e5#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e5#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-09-30T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-09-30T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i4/e5#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.16875678" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e5#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Poster_N4O_CM_Bochum_2025_LODmeetsRSE.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i4/e5#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i4/e5> ;
+    dcat:accessURL <https://zenodo.org/records/16875679> ;
+    dcat:byteSize "3050344"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/16875679/files/Poster_N4O_CM_Bochum_2025_LODmeetsRSE.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i4/e5#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "5650139c6020371665f8c7c21cc11c40"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i4/e5#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI - Ein interdisziplinäres federated Knowledge Graph Ecosystem" .
+
+<https://w3id.org/squirrelpapers/place/deutsches-bergbau-museum-bochum-germany#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(7.21722 51.4892)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/deutsches-bergbau-museum-bochum-germany> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "German Mining Museum" ;
+    crm:P168_place_is_defined_by "POINT(7.21722 51.4892)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/deutsches-bergbau-museum-bochum-germany#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/deutsches-bergbau-museum-bochum-germany#geometry> ;
+    owl:sameAs wd:Q896952 ;
+    dcat:centroid "POINT(7.21722 51.4892)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "Deutsches Bergbau-Museum, Bochum, Germany" ;
+    schema:latitude 5.14892e+01 ;
+    schema:longitude 7.21722e+00 .
+
+<https://w3id.org/squirrelpapers/v7/i4/e5> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePaper,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "7" ;
+    dct:contributor <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-3270-2659>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353>,
+        <https://w3id.org/squirrelpapers/person/0009-0008-2877-3204> ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """Die digitale Transformation in den objektbezogenen Wissenschaften erfordert eine enge Verzahnung zwischen semantischer Modellierung und nachhaltiger Forschungssoftware-Entwicklung. Dieses Poster zeigt, wie die Community Cluster "Semantic Modelling & Linked Open Data" und "Research Software Engineering" des NFDI4Objects-Konsortiums gemeinsam ein interdisziplinäres federated Knowledge Graph Ecosystem schaffen.
+Semantic Web als Fundament: Basierend auf CIDOC CRM und dem Wikiversum (Wikidata, Wikibases) werden heterogene objektbezogene Daten in interoperable Knowledge Graphs transformiert. Diese semantische Grundlage ermöglicht die Föderation von Forschungsdaten aus Archäologie, Cultural Heritage und Geowissenschaften in einem kohärenten NFDI4Objects Knowledge Graph.
+FAIR4RS und TADA als Qualitätsframework: Die Anwendung der FAIR4RS-Prinzipien (Findable, Accessible, Interoperable, Reusable for Research Software) und TADA-Prinzipien (Transparent, Accessible, Documented, Auditable) auf FAIRification Tools gewährleistet nachhaltige Softwareentwicklung. Exemplarisch werden Tools wie das SPARQLing Unicorn QGIS Plugin und die Jupyter Python Minions vorgestellt, die als Brücke zwischen semantischen Datenstrukturen und praktischen Forschungsworkflows fungieren.
+Jupyter-basierte Infrastrukturdienste: Durch die Integration in Base4NFDI Basic Services, wie Jupyter4NFDI, entstehen reproduzierbare Notebooks zur Abfrage von Triplestores (Wikidata, NFDI4Objects Knowledge Graph) und zur Datenanalyse. Diese ermöglichen es Forschenden, komplexe SPARQL-Queries in benutzerfreundlichen Python-Umgebungen auszuführen und zu visualisieren.
+Cultural Heritage Software Catalog: In Kooperation mit der NFDI Section Metadata (WG Software Metadata) und der NFDI Section Common-Infrasstructures (WG RSE) wird ein Cultural Heritage Software Catalog entwickelt. Basierend auf open-archaeo.info werden Softwaremetadaten strukturiert erfasst und in den Basic Service nfdi.software integriert, wodurch die Auffindbarkeit und Nachnutzung domänenspezifischer Tools erheblich verbessert wird.
+Community-Vernetzung: Das Projekt ist eingebettet in ein internationales Netzwerk der Computer Applications and Quantitative Methods in Archaeology (CAA), einschließlich der Special Interest Groups SSLA (Scientific Scripting Languages in Archaeology) und Data Dragons (Linked Open Data). Diese Community-getriebene Entwicklung gewährleistet praxisnahe und bedarfsorientierte Lösungen.
+Technische Innovation: Tools wie das SPARQLing Unicorn QGIS Plugin zeigen die nahtlose Integration von Semantic Web-Technologien in etablierte GIS-Workflows. Das Plugin ermöglicht (Geo)SPARQL-Abfragen direkt aus QGIS heraus und transformiert Vektordaten in RDF-konforme Linked Open Data.
+Nachhaltigkeit und Reproduzierbarkeit: Durch konsequente Anwendung der REAL-Prinzipien (Reproducible, Executable, Attributable, Literal) in Kombination mit community-driven Research Software Engineering entstehen lightweight, modulare FAIRification Tools, die sowohl wissenschaftliche Exzellenz als auch langfristige Nachhaltigkeit gewährleisten.
+Dieses Poster zeigt, wie durch die synergetische Verbindung von Semantik und RSE ein robustes, interdisziplinäres Knowledge Graph Ecosystem entsteht, das als Modell für andere NFDI-Konsortien dienen kann.
+Keywords: FAIR4RS, CIDOC CRM, Knowledge Graphs, Jupyter4NFDI, SPARQL, Cultural Heritage Software, Community-driven RSE"""@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.16875678" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i4> ;
+    dct:issued "2025-09-30"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Brückenbau zwischen LOD und RSE: Von CIDOC CRM bis Jupyter4NFDI - Ein interdisziplinäres federated Knowledge Graph Ecosystem"@de ;
+    dct:type sqpt:conference-paper ;
+    bibo:abstract """Die digitale Transformation in den objektbezogenen Wissenschaften erfordert eine enge Verzahnung zwischen semantischer Modellierung und nachhaltiger Forschungssoftware-Entwicklung. Dieses Poster zeigt, wie die Community Cluster "Semantic Modelling & Linked Open Data" und "Research Software Engineering" des NFDI4Objects-Konsortiums gemeinsam ein interdisziplinäres federated Knowledge Graph Ecosystem schaffen.
+Semantic Web als Fundament: Basierend auf CIDOC CRM und dem Wikiversum (Wikidata, Wikibases) werden heterogene objektbezogene Daten in interoperable Knowledge Graphs transformiert. Diese semantische Grundlage ermöglicht die Föderation von Forschungsdaten aus Archäologie, Cultural Heritage und Geowissenschaften in einem kohärenten NFDI4Objects Knowledge Graph.
+FAIR4RS und TADA als Qualitätsframework: Die Anwendung der FAIR4RS-Prinzipien (Findable, Accessible, Interoperable, Reusable for Research Software) und TADA-Prinzipien (Transparent, Accessible, Documented, Auditable) auf FAIRification Tools gewährleistet nachhaltige Softwareentwicklung. Exemplarisch werden Tools wie das SPARQLing Unicorn QGIS Plugin und die Jupyter Python Minions vorgestellt, die als Brücke zwischen semantischen Datenstrukturen und praktischen Forschungsworkflows fungieren.
+Jupyter-basierte Infrastrukturdienste: Durch die Integration in Base4NFDI Basic Services, wie Jupyter4NFDI, entstehen reproduzierbare Notebooks zur Abfrage von Triplestores (Wikidata, NFDI4Objects Knowledge Graph) und zur Datenanalyse. Diese ermöglichen es Forschenden, komplexe SPARQL-Queries in benutzerfreundlichen Python-Umgebungen auszuführen und zu visualisieren.
+Cultural Heritage Software Catalog: In Kooperation mit der NFDI Section Metadata (WG Software Metadata) und der NFDI Section Common-Infrasstructures (WG RSE) wird ein Cultural Heritage Software Catalog entwickelt. Basierend auf open-archaeo.info werden Softwaremetadaten strukturiert erfasst und in den Basic Service nfdi.software integriert, wodurch die Auffindbarkeit und Nachnutzung domänenspezifischer Tools erheblich verbessert wird.
+Community-Vernetzung: Das Projekt ist eingebettet in ein internationales Netzwerk der Computer Applications and Quantitative Methods in Archaeology (CAA), einschließlich der Special Interest Groups SSLA (Scientific Scripting Languages in Archaeology) und Data Dragons (Linked Open Data). Diese Community-getriebene Entwicklung gewährleistet praxisnahe und bedarfsorientierte Lösungen.
+Technische Innovation: Tools wie das SPARQLing Unicorn QGIS Plugin zeigen die nahtlose Integration von Semantic Web-Technologien in etablierte GIS-Workflows. Das Plugin ermöglicht (Geo)SPARQL-Abfragen direkt aus QGIS heraus und transformiert Vektordaten in RDF-konforme Linked Open Data.
+Nachhaltigkeit und Reproduzierbarkeit: Durch konsequente Anwendung der REAL-Prinzipien (Reproducible, Executable, Attributable, Literal) in Kombination mit community-driven Research Software Engineering entstehen lightweight, modulare FAIRification Tools, die sowohl wissenschaftliche Exzellenz als auch langfristige Nachhaltigkeit gewährleisten.
+Dieses Poster zeigt, wie durch die synergetische Verbindung von Semantik und RSE ein robustes, interdisziplinäres Knowledge Graph Ecosystem entsteht, das als Modell für andere NFDI-Konsortien dienen kann.
+Keywords: FAIR4RS, CIDOC CRM, Knowledge Graphs, Jupyter4NFDI, SPARQL, Cultural Heritage Software, Community-driven RSE"""@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i4/e5#authors> ;
+    bibo:doi "10.5281/zenodo.16875678" ;
+    bibo:locator "λ5" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/nfdi4objects-community-meeting-2025> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i4/e5#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i4/e5#doi> ;
+    crm:P2_has_type sqpt:conference-paper ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.16875678> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i4/e5#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i4/e5/> ;
+    dcat:theme sqpt:conference-paper ;
+    prov:wasDerivedFrom <https://zenodo.org/records/16875679> ;
+    sqp:citationLabel "7(4), λ5" ;
+    sqp:entryNumber "5"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

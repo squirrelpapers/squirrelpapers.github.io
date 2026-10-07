@@ -1,0 +1,164 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e4#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v5/i3/e4> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v5/i3/e4#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v5/i3/e4> .
+
+<https://w3id.org/squirrelpapers/event/35th-international-geodetic-student-meeting-2023> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "35th International Geodetic Student Meeting" ;
+    event:place <https://w3id.org/squirrelpapers/place/polytechnic-university-of-valencia-universitat> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v5/i3/e4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/35th-international-geodetic-student-meeting-2023#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/35th-international-geodetic-student-meeting-2023#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/polytechnic-university-of-valencia-universitat> ;
+    schema:endDate "2023-07-08"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/polytechnic-university-of-valencia-universitat> ;
+    schema:name "35th International Geodetic Student Meeting" ;
+    schema:startDate "2023-07-02"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/35th-international-geodetic-student-meeting-2023#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "35th International Geodetic Student Meeting" .
+
+<https://w3id.org/squirrelpapers/event/35th-international-geodetic-student-meeting-2023#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2023-07-02T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2023-07-08T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e4#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e4#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2023-07-02T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2023-07-02T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v5/i3/e4#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.8089448" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e4#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "IGSM-2023-Ogham-ThieryEtAl.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v5/i3/e4#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v5/i3/e4> ;
+    dcat:accessURL <https://zenodo.org/records/8104046> ;
+    dcat:byteSize "17294278"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/8104046/files/IGSM-2023-Ogham-ThieryEtAl.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v5/i3/e4#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "34feb0cef5a9890c638dac71c7c7116d"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v5/i3/e4#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata" .
+
+<https://w3id.org/squirrelpapers/place/polytechnic-university-of-valencia-universitat#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(-0.34111 39.48089)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/polytechnic-university-of-valencia-universitat> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Technical University of Valencia" ;
+    crm:P168_place_is_defined_by "POINT(-0.34111 39.48089)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/polytechnic-university-of-valencia-universitat#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/polytechnic-university-of-valencia-universitat#geometry> ;
+    owl:sameAs wd:Q2003976 ;
+    dcat:centroid "POINT(-0.34111 39.48089)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q29 ;
+    schema:description "Polytechnic University of Valencia (Universitat Politècnica de València, UPV)" ;
+    schema:latitude 3.948089e+01 ;
+    schema:longitude -3.4111e-01 .
+
+<https://w3id.org/squirrelpapers/v5/i3/e4> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "5" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """Iᚑᚌᚆᚐᚋ (Ogham) stones are monoliths with the early medieval Primitive Irish Ogham script, placed on the island of Ireland and in the western part of Britain between the 4th and 9th centuries. They are an essential source for Archaic or Proto-Irish language and society. The letters of the Ogham alphabet consist of strokes written at different lengths and angles along (often natural) edges of the stones from the bottom left to the top and back down to the right. Names on the stones appear to be dedicated to a person. It remains unclear, however, whether the stones were grave markers, for example, or denoted land ownership. The stones are mostly no longer at the original site, which is, on the one hand, essential for cartographic recording (do you link the original site if known?) and, on the other hand, makes it more difficult to deduce their original function.
+Documentation on Ogham stones is available in many analogue sources and partly open online databases or repositories. However, as there is no common identification standard (e.g. stones, sites), these data cannot be analysed together; they need to be interoperable. The ogham.link project of the Research Squirrel Engineers Network creates a semantically modelled data basis as Linked Open Data (LOD) using community hubs such as Open Street Map and Wikidata. A Fellowship from Wikimedia Deutschland has already funded it in the Free Knowledge Fellow Programme as 'Irish ᚑᚌᚆᚐᚋ Stones in the Wikimedia Universe'. The data and geodata are extracted through a workflow, modelled and made available via various hubs. In the Fellow project, this was done primarily as native RDF data and as Quick Statements for integration into Wikidata. In Wikidata, sites can be linked to Irish townlands, for which there is a platform townlands.ie based on OSM data if these cannot be determined more precisely on site.
+Various archaeological items have been tagged in OpenStreetMap by "b-unicycling", including historic=ogham_stone. This makes Ogham data available in OSM with the tag ogham_stone and lends itself to linking the data mentioned in Wikidata, along with images on Wikimedia Commons and Flickr, to create an Ogham Knowledge Graph.
+This talk gives insights into the documentation, modelling and publication of selected Ogham stones from Ireland in OSM (user: b-unicycling, fthierygeo) and Wikidata (user: fthierygeo, Sophie_C._Schmidt). It shows how to create a Knowledge Graph with meta- and paradata and images. On top of that, the talks show how to integrate OSM data and Wikidata in QGIS using several Plugins, such as the "SPARQLing Unicon QGIS Plugin" or "QuickOSM" to perform further analysis. It also gives an overview of townland modelling and the publication of heritage sites using Web GIS systems and open geodata.
+Version 2023/07/01: modified slide 19"""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.8089448" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v5/i3> ;
+    dct:issued "2023-07-02"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Irish ᚑᚌᚆᚐᚋ Stones in OSM and Wikidata"@en ;
+    dct:type sqpt:presentation ;
+    bibo:abstract """Iᚑᚌᚆᚐᚋ (Ogham) stones are monoliths with the early medieval Primitive Irish Ogham script, placed on the island of Ireland and in the western part of Britain between the 4th and 9th centuries. They are an essential source for Archaic or Proto-Irish language and society. The letters of the Ogham alphabet consist of strokes written at different lengths and angles along (often natural) edges of the stones from the bottom left to the top and back down to the right. Names on the stones appear to be dedicated to a person. It remains unclear, however, whether the stones were grave markers, for example, or denoted land ownership. The stones are mostly no longer at the original site, which is, on the one hand, essential for cartographic recording (do you link the original site if known?) and, on the other hand, makes it more difficult to deduce their original function.
+Documentation on Ogham stones is available in many analogue sources and partly open online databases or repositories. However, as there is no common identification standard (e.g. stones, sites), these data cannot be analysed together; they need to be interoperable. The ogham.link project of the Research Squirrel Engineers Network creates a semantically modelled data basis as Linked Open Data (LOD) using community hubs such as Open Street Map and Wikidata. A Fellowship from Wikimedia Deutschland has already funded it in the Free Knowledge Fellow Programme as 'Irish ᚑᚌᚆᚐᚋ Stones in the Wikimedia Universe'. The data and geodata are extracted through a workflow, modelled and made available via various hubs. In the Fellow project, this was done primarily as native RDF data and as Quick Statements for integration into Wikidata. In Wikidata, sites can be linked to Irish townlands, for which there is a platform townlands.ie based on OSM data if these cannot be determined more precisely on site.
+Various archaeological items have been tagged in OpenStreetMap by "b-unicycling", including historic=ogham_stone. This makes Ogham data available in OSM with the tag ogham_stone and lends itself to linking the data mentioned in Wikidata, along with images on Wikimedia Commons and Flickr, to create an Ogham Knowledge Graph.
+This talk gives insights into the documentation, modelling and publication of selected Ogham stones from Ireland in OSM (user: b-unicycling, fthierygeo) and Wikidata (user: fthierygeo, Sophie_C._Schmidt). It shows how to create a Knowledge Graph with meta- and paradata and images. On top of that, the talks show how to integrate OSM data and Wikidata in QGIS using several Plugins, such as the "SPARQLing Unicon QGIS Plugin" or "QuickOSM" to perform further analysis. It also gives an overview of townland modelling and the publication of heritage sites using Web GIS systems and open geodata.
+Version 2023/07/01: modified slide 19"""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v5/i3/e4#authors> ;
+    bibo:doi "10.5281/zenodo.8089448" ;
+    bibo:locator "#4" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/35th-international-geodetic-student-meeting-2023> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v5/i3/e4#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v5/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v5/i3/e4#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.8089448> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v5/i3/e4#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v5/i3> ;
+    dcat:keyword "GIS",
+        "IGSM",
+        "Linked Data",
+        "Ogham",
+        "Open Street Map",
+        "Wikidata" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v5/i3/e4/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/8104046> ;
+    sqp:citationLabel "5(3), #4" ;
+    sqp:entryNumber "4"^^xsd:positiveInteger .
+

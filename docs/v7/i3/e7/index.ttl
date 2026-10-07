@@ -1,0 +1,202 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e7#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v7/i3/e7> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v7/i3/e7#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v7/i3/e7> .
+
+<https://w3id.org/squirrelpapers/event/derse25-2025> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "deRSE25" ;
+    event:place <https://w3id.org/squirrelpapers/place/kit-karlsruhe> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v7/i3/e3>,
+        <https://w3id.org/squirrelpapers/v7/i3/e4>,
+        <https://w3id.org/squirrelpapers/v7/i3/e5>,
+        <https://w3id.org/squirrelpapers/v7/i3/e6>,
+        <https://w3id.org/squirrelpapers/v7/i3/e7>,
+        <https://w3id.org/squirrelpapers/v7/i3/e8>,
+        <https://w3id.org/squirrelpapers/v7/i3/e9> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/derse25-2025#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/derse25-2025#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/kit-karlsruhe> ;
+    schema:endDate "2025-02-27"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/kit-karlsruhe> ;
+    schema:name "deRSE25" ;
+    schema:startDate "2025-02-25"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/derse25-2025#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "deRSE25" .
+
+<https://w3id.org/squirrelpapers/event/derse25-2025#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-02-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-02-27T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-4889-9353" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e7#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e7#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2025-02-25T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2025-02-25T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v7/i3/e7#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.14914309" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e7#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "deRSE25_108_JupyterPythonMinion.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v7/i3/e7#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v7/i3/e7> ;
+    dcat:accessURL <https://zenodo.org/records/14914310> ;
+    dcat:byteSize "11011977"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/14914310/files/deRSE25_108_JupyterPythonMinion.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v7/i3/e7#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "eb3fc79a1e36a96abdd89531d823a355"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v7/i3/e7#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data" .
+
+<https://w3id.org/squirrelpapers/place/kit-karlsruhe#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(8.4 49.016667)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Lutz Krister Schubert" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0003-4889-9353> ;
+    foaf:familyName "Schubert" ;
+    foaf:givenName "Lutz Krister" ;
+    foaf:name "Lutz Krister Schubert" ;
+    schema:identifier <https://orcid.org/0000-0003-4889-9353> .
+
+<https://w3id.org/squirrelpapers/place/kit-karlsruhe> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Karlsruhe" ;
+    crm:P168_place_is_defined_by "POINT(8.4 49.016667)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/kit-karlsruhe#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/kit-karlsruhe#geometry> ;
+    owl:sameAs wd:Q1040 ;
+    dcat:centroid "POINT(8.4 49.016667)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "KIT, Karlsruhe" ;
+    schema:latitude 4.901667e+01 ;
+    schema:longitude 8.4e+00 .
+
+<https://w3id.org/squirrelpapers/v7/i3/e7> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "7" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> ;
+    dct:description """This conferene paper was funded by the Forschungszentrum Jülich (FZJ) and JuRSE with a Travel Grant
+The Semantic Web is a treasure trove of interconnected knowledge graphs, providing access to datasets that are invaluable for research in cultural heritage and archaeology. Resources such as triplestores (e.g., the NFDI4Objects Knowledge Graph), Wikibase instances (e.g., Wikidata and FactGrid), and Solid Pods housing geoscientific data open new avenues for interdisciplinary exploration. However, researchers face significant challenges in utilising these resources effectively. Writing SPARQL queries requires a steep learning curve, and the data often returns in formats like sparql-results+xml or sparql-results+json, which are not user-friendly for immediate analysis or visualisation.
+Python has become a critical tool in addressing these challenges. As a versatile scripting language, Python enables researchers to automate workflows, ensure reproducibility, and integrate datasets seamlessly. However, many researchers lack the technical skills or frameworks needed to implement Python solutions in their work. This is where Jupyter Notebooks provide a critical advantage. Combining an intuitive, shareable environment with the computational power of Python, Jupyter Notebooks make it easy to share not just results but the entire workflow. This transparency enhances reproducibility, facilitates collaboration, and aligns with FAIR principles.
+The Jupyter Python Minion builds on this framework, offering an open-source solution to simplify SPARQL querying and data visualisation. By integrating widely used Python libraries such as pyplot, wordcloud, geopandas, and contextily, it transforms raw Linked Open Data (LOD) into actionable insights. Researchers can produce bar charts, pie charts, maps, and word clouds with minimal effort, bridging the gap between technical expertise and domain-specific knowledge. Importantly, the tool enables researchers to document their computational workflows within Jupyter Notebooks, creating reusable resources for the broader research community.
+The need for such tools in archaeological research software engineering is pressing. Computational archaeology increasingly relies on integrating diverse datasets—geospatial, semantic, and cultural—but the technical barriers often hinder broader adoption. By lowering these barriers, the Jupyter Python Minion empowers researchers to harness the power of Python scripts for reproducible and shareable analysis.
+In this talk, I will demonstrate the utility of the Jupyter Python Minion through five use cases:
+1. Playful exploration of Pokémon properties, demonstrating SPARQL queries and visualisation techniques like scatterplots and bar charts.
+2. Mapping the distribution of Samian ware kiln sites, showcasing the regional breakdown of archaeological production centres.
+3. Exploring Irish Holy Wells, revealing etymological patterns through word clouds and pie charts.
+4. Geospatial analysis of Irish Ogham Stones, including density maps and OpenStreetMap-based visualisations to highlight regional clusters.
+5. Integration of geoscientific findspots from Solid Pods, using SPARQL queries to categorise archaeological and geological locations affected by the Campanian Ignimbrite eruption.
+These examples highlight the transformative potential of integrating Python scripting with Jupyter Notebooks for reproducible research. The tool’s shareability fosters collaboration across disciplines, from archaeology to geosciences, and promotes a culture of openness and accessibility in research software engineering.
+This talk will contribute to key themes in RSE, including computational workflows, open-source tools, and software usability, while providing attendees with actionable insights to adopt and adapt these methods in their own research."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.14914309" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v7/i3> ;
+    dct:issued "2025-02-25"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Jupyter Python Minions - Simplifying SPARQL Queries and Visualisations for Archaeological Data"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract """This conferene paper was funded by the Forschungszentrum Jülich (FZJ) and JuRSE with a Travel Grant
+The Semantic Web is a treasure trove of interconnected knowledge graphs, providing access to datasets that are invaluable for research in cultural heritage and archaeology. Resources such as triplestores (e.g., the NFDI4Objects Knowledge Graph), Wikibase instances (e.g., Wikidata and FactGrid), and Solid Pods housing geoscientific data open new avenues for interdisciplinary exploration. However, researchers face significant challenges in utilising these resources effectively. Writing SPARQL queries requires a steep learning curve, and the data often returns in formats like sparql-results+xml or sparql-results+json, which are not user-friendly for immediate analysis or visualisation.
+Python has become a critical tool in addressing these challenges. As a versatile scripting language, Python enables researchers to automate workflows, ensure reproducibility, and integrate datasets seamlessly. However, many researchers lack the technical skills or frameworks needed to implement Python solutions in their work. This is where Jupyter Notebooks provide a critical advantage. Combining an intuitive, shareable environment with the computational power of Python, Jupyter Notebooks make it easy to share not just results but the entire workflow. This transparency enhances reproducibility, facilitates collaboration, and aligns with FAIR principles.
+The Jupyter Python Minion builds on this framework, offering an open-source solution to simplify SPARQL querying and data visualisation. By integrating widely used Python libraries such as pyplot, wordcloud, geopandas, and contextily, it transforms raw Linked Open Data (LOD) into actionable insights. Researchers can produce bar charts, pie charts, maps, and word clouds with minimal effort, bridging the gap between technical expertise and domain-specific knowledge. Importantly, the tool enables researchers to document their computational workflows within Jupyter Notebooks, creating reusable resources for the broader research community.
+The need for such tools in archaeological research software engineering is pressing. Computational archaeology increasingly relies on integrating diverse datasets—geospatial, semantic, and cultural—but the technical barriers often hinder broader adoption. By lowering these barriers, the Jupyter Python Minion empowers researchers to harness the power of Python scripts for reproducible and shareable analysis.
+In this talk, I will demonstrate the utility of the Jupyter Python Minion through five use cases:
+1. Playful exploration of Pokémon properties, demonstrating SPARQL queries and visualisation techniques like scatterplots and bar charts.
+2. Mapping the distribution of Samian ware kiln sites, showcasing the regional breakdown of archaeological production centres.
+3. Exploring Irish Holy Wells, revealing etymological patterns through word clouds and pie charts.
+4. Geospatial analysis of Irish Ogham Stones, including density maps and OpenStreetMap-based visualisations to highlight regional clusters.
+5. Integration of geoscientific findspots from Solid Pods, using SPARQL queries to categorise archaeological and geological locations affected by the Campanian Ignimbrite eruption.
+These examples highlight the transformative potential of integrating Python scripting with Jupyter Notebooks for reproducible research. The tool’s shareability fosters collaboration across disciplines, from archaeology to geosciences, and promotes a culture of openness and accessibility in research software engineering.
+This talk will contribute to key themes in RSE, including computational workflows, open-source tools, and software usability, while providing attendees with actionable insights to adopt and adapt these methods in their own research."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v7/i3/e7#authors> ;
+    bibo:doi "10.5281/zenodo.14914309" ;
+    bibo:locator "λ7" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/derse25-2025> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i3/e7#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v7/i3/e7#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.14914309> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i3/e7#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i3> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/i3/e7/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/14914310> ;
+    sqp:citationLabel "7(3), λ7" ;
+    sqp:entryNumber "7"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

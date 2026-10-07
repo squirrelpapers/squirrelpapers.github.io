@@ -1,0 +1,130 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v2/i1/e2#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v2/i1/e2> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v2/i1/e2#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v2/i1/e2> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-9499-5840" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v2/i1/e2#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> .
+
+<https://w3id.org/squirrelpapers/v2/i1/e2#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2020-03-20T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2020-03-20T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v2/i1/e2#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.3719127" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v2/i1/e2#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "FOSSGIS_Tagungsband_2020_pp_68_72.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v2/i1/e2#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v2/i1/e2> ;
+    dcat:accessURL <https://zenodo.org/records/3719128> ;
+    dcat:byteSize "29339299"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/3719128/files/FOSSGIS_Tagungsband_2020_pp_68_72.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v2/i1/e2#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "c470f4be56409e1066742143c8c584c0"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v2/i1/e2#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Timo Homburg" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-9499-5840> ;
+    foaf:familyName "Homburg" ;
+    foaf:givenName "Timo" ;
+    foaf:name "Timo Homburg" ;
+    schema:identifier <https://orcid.org/0000-0002-9499-5840> .
+
+<https://w3id.org/squirrelpapers/v2/i1/e2> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:BookChapter,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "1" ;
+    prism:volume "2" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-9499-5840> ;
+    dct:description "Die Linked Open Data Cloud bietet seit vielen Jahren große Datenrepositorien im WWW an, die für verschiedene Zwecke von unterschiedlichen Communities genutzt werden können. Die Stärke von Linked Open Data (LOD) ist hierbei die Verknüpfung von Informationen aus unterschiedlichsten dezentral gehosteten Wissensdomänen. Für die Geoinformatik haben sich beispielsweise community-basierende Datenrepositorien wie Wikidata, LinkedGeoData oder DBpedia gebildet. Zudem bieten Gazetteer-Repositorien wie Geonames oder Pleiades für den zeitgeschichtlichen Raum, aber auch administrative Provider wie der Ordnance Survey UK und Ordnance Survey Ireland, ihre Geodaten als LOD an. Leider haben all diese Ressourcen in der Geo-Community bisher leider nur niederrangige Bedeutung erlangt. Den Grund dafür sehen wir in einem nicht vorhandenen Support von GIS Applikationen für die Verarbeitung von LOD. Triplestores und SPARQL werden zur Zeit weder von GIS Software, GeoServer Implementierungen oder OGC-Services unterstützt. Die Linked Data Serialisierung GeoJSON-LD birgt zwar aufgrund einiger noch offener Issues Herausforderungen, wird allerdings nicht oft wie seine ‘unsemantische Schwester’ GeoJSON, in Applikationen genutzt. Genau hier setzt das SPARQLing Unicorn QGIS Plugin an, welches die Ausführung von Linked Data Anfragen in (Geo)SPARQL an ausgewählte Triplestores und geofähigen SPARQL Endpoints ermöglicht. Die Ergebnisse werden in GeoJSON Layer konvertiert, sodass sie direkt in QGIS nutzbar sind. Für die Zukunft soll das SPARQLing Unicorn Plugin mit extrahierten Konzepten ausgewählter Ontologien Benutzern die Möglichkeit bieten, einfache Abfragen wie “Gib mir alle Flughäfen in BOUNDINGBOX mit direkt verbundenen Relationen” oder “Gib mir alle Flughäfen in LAND_X” automatisch zu generieren und somit das Laden dynamischer Inhalte der Datenrepositorien erleichtern. Es ist erwünscht, dass die Geocommunity aktiv an der (Weiter-)Entwicklung des Plugins teilnimmt und so die Welt der LOD im Geokontext weiter bekannt macht. Dazu steht der Quellcode frei auf Github zur Erweiterung zur Verfügung. Der Vortrag gibt einen Einstieg in die Modellierung von Linked Open (Geo-)Data, in die Abfragesprache SPARQL, deren Erweiterung GeoSPARQL, bestehende (Geo-)Ressourcen in der Linked Open Data Cloud, sowie die Funktionsweise des SPARQLing Unicorn QGIS Plugins, dessen zukünftige Erweiterungen und aktuelle Entwicklungen in der Erweiterung der jeweiligen Standards. Das Unicorn freut sich auf Mithilfe aus der Geo-Community!"@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.3719127" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v2/i1> ;
+    dct:issued "2020-03-20"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "QGIS - A SPARQLing Unicorn? Eine Einführung in Linked Open Geodata zur Integration von RDF in QGIS Plugins"@de ;
+    dct:type sqpt:book-section ;
+    bibo:abstract "Die Linked Open Data Cloud bietet seit vielen Jahren große Datenrepositorien im WWW an, die für verschiedene Zwecke von unterschiedlichen Communities genutzt werden können. Die Stärke von Linked Open Data (LOD) ist hierbei die Verknüpfung von Informationen aus unterschiedlichsten dezentral gehosteten Wissensdomänen. Für die Geoinformatik haben sich beispielsweise community-basierende Datenrepositorien wie Wikidata, LinkedGeoData oder DBpedia gebildet. Zudem bieten Gazetteer-Repositorien wie Geonames oder Pleiades für den zeitgeschichtlichen Raum, aber auch administrative Provider wie der Ordnance Survey UK und Ordnance Survey Ireland, ihre Geodaten als LOD an. Leider haben all diese Ressourcen in der Geo-Community bisher leider nur niederrangige Bedeutung erlangt. Den Grund dafür sehen wir in einem nicht vorhandenen Support von GIS Applikationen für die Verarbeitung von LOD. Triplestores und SPARQL werden zur Zeit weder von GIS Software, GeoServer Implementierungen oder OGC-Services unterstützt. Die Linked Data Serialisierung GeoJSON-LD birgt zwar aufgrund einiger noch offener Issues Herausforderungen, wird allerdings nicht oft wie seine ‘unsemantische Schwester’ GeoJSON, in Applikationen genutzt. Genau hier setzt das SPARQLing Unicorn QGIS Plugin an, welches die Ausführung von Linked Data Anfragen in (Geo)SPARQL an ausgewählte Triplestores und geofähigen SPARQL Endpoints ermöglicht. Die Ergebnisse werden in GeoJSON Layer konvertiert, sodass sie direkt in QGIS nutzbar sind. Für die Zukunft soll das SPARQLing Unicorn Plugin mit extrahierten Konzepten ausgewählter Ontologien Benutzern die Möglichkeit bieten, einfache Abfragen wie “Gib mir alle Flughäfen in BOUNDINGBOX mit direkt verbundenen Relationen” oder “Gib mir alle Flughäfen in LAND_X” automatisch zu generieren und somit das Laden dynamischer Inhalte der Datenrepositorien erleichtern. Es ist erwünscht, dass die Geocommunity aktiv an der (Weiter-)Entwicklung des Plugins teilnimmt und so die Welt der LOD im Geokontext weiter bekannt macht. Dazu steht der Quellcode frei auf Github zur Erweiterung zur Verfügung. Der Vortrag gibt einen Einstieg in die Modellierung von Linked Open (Geo-)Data, in die Abfragesprache SPARQL, deren Erweiterung GeoSPARQL, bestehende (Geo-)Ressourcen in der Linked Open Data Cloud, sowie die Funktionsweise des SPARQLing Unicorn QGIS Plugins, dessen zukünftige Erweiterungen und aktuelle Entwicklungen in der Erweiterung der jeweiligen Standards. Das Unicorn freut sich auf Mithilfe aus der Geo-Community!"@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v2/i1/e2#authors> ;
+    bibo:doi "10.5281/zenodo.3719127" ;
+    bibo:locator "#2" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v2/i1/e2#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v2/i1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v2/i1/e2#doi> ;
+    crm:P2_has_type sqpt:book-section ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.3719127> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v2/i1/e2#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v2/i1> ;
+    dcat:keyword "FOSSGIS",
+        "Linked Data",
+        "QGIS",
+        "SPARQL Unicorn",
+        "Wikidata" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v2/i1/e2/> ;
+    dcat:theme sqpt:book-section ;
+    prov:wasDerivedFrom <https://zenodo.org/records/3719128> ;
+    sqp:citationLabel "2(1), #2" ;
+    sqp:entryNumber "2"^^xsd:positiveInteger .
+

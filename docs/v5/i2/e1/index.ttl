@@ -1,0 +1,111 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v5/i2/e1#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v5/i2/e1> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v5/i2/e1#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v5/i2/e1> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v5/i2/e1#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v5/i2/e1#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2023-01-17T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2023-01-17T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v5/i2/e1#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.7544117" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v5/i2/e1#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Ogham_Stones_Squirrel_Ireland_Barony.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v5/i2/e1#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v5/i2/e1> ;
+    dcat:accessURL <https://zenodo.org/records/7544118> ;
+    dcat:byteSize "1282204"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/7544118/files/Ogham_Stones_Squirrel_Ireland_Barony.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v5/i2/e1#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "c8aad7d28c32506c926055e64280f854"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v5/i2/e1#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Ogham Stone Maps: Squirrel Stones in Ireland" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v5/i2/e1> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Dataset,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "2" ;
+    prism:volume "5" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """Ogham Stone Maps: Squirrel Stones in Ireland
+Mapping of Squirrel Stones (Q106602643) aggregated to the administrative level of counties and baronies, created with QGIS from the attached GeoJSON files and the baselayer Esri.WorldShadedRelief (Tiles © Esri - Source: Esri), EPSG:3857 (as of 01/17/2023).""" ;
+    dct:identifier "https://doi.org/10.5281/zenodo.7544117" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v5/i2> ;
+    dct:issued "2023-01-17"^^xsd:date ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Ogham Stone Maps: Squirrel Stones in Ireland" ;
+    dct:type sqpt:data ;
+    bibo:abstract """Ogham Stone Maps: Squirrel Stones in Ireland
+Mapping of Squirrel Stones (Q106602643) aggregated to the administrative level of counties and baronies, created with QGIS from the attached GeoJSON files and the baselayer Esri.WorldShadedRelief (Tiles © Esri - Source: Esri), EPSG:3857 (as of 01/17/2023).""" ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v5/i2/e1#authors> ;
+    bibo:doi "10.5281/zenodo.7544117" ;
+    bibo:locator "#1" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v5/i2/e1#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v5/i2> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v5/i2/e1#doi> ;
+    crm:P2_has_type sqpt:data ;
+    owl:sameAs wd:Q116235655,
+        <https://doi.org/10.5281/zenodo.7544117> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v5/i2/e1#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v5/i2> ;
+    dcat:keyword "Ireland",
+        "Ogham" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v5/i2/e1/> ;
+    dcat:theme sqpt:data ;
+    prov:wasDerivedFrom <https://zenodo.org/records/7544118> ;
+    sqp:citationLabel "5(2), #1" ;
+    sqp:entryNumber "1"^^xsd:positiveInteger .
+

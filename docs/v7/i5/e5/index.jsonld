@@ -1,0 +1,830 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e1"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e10"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e2"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e3"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e4"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e5"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e6"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e7"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e8"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v7/i5/e9"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "rdfs:label": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2025-08-28"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany"
+      },
+      "schema:name": "2nd Conference on Research Data Infrastructure (CoRDI) 2025",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2025-08-26"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "2nd Conference on Research Data Infrastructure (CoRDI) 2025"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-28T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7141-4997",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7141-4997#orcid"
+      },
+      "foaf:familyName": "Schubotz",
+      "foaf:givenName": "Moritz",
+      "foaf:name": "Moritz Schubotz",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0001-7141-4997"
+      },
+      "rdfs:label": "Moritz Schubotz",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0001-7141-4997"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7141-4997#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0001-7141-4997",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9495-040X",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9495-040X#orcid"
+      },
+      "foaf:familyName": "Zapilko",
+      "foaf:givenName": "Benjamin",
+      "foaf:name": "Benjamin Zapilko",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0001-9495-040X"
+      },
+      "rdfs:label": "Benjamin Zapilko",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0001-9495-040X"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9495-040X#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0001-9495-040X",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-0331-2558",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-0331-2558#orcid"
+      },
+      "foaf:familyName": "Shigapov",
+      "foaf:givenName": "Renat",
+      "foaf:name": "Renat Shigapov",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-0331-2558"
+      },
+      "rdfs:label": "Renat Shigapov",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-0331-2558"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-0331-2558#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-0331-2558",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1648-1684",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1648-1684#orcid"
+      },
+      "foaf:familyName": "Tietz",
+      "foaf:givenName": "Tabea",
+      "foaf:name": "Tabea Tietz",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-1648-1684"
+      },
+      "rdfs:label": "Tabea Tietz",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-1648-1684"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1648-1684#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-1648-1684",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2579-5546",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2579-5546#orcid"
+      },
+      "foaf:familyName": "Fortmann-Grote",
+      "foaf:givenName": "Carsten",
+      "foaf:name": "Carsten Fortmann-Grote",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-2579-5546"
+      },
+      "rdfs:label": "Carsten Fortmann-Grote",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-2579-5546"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2579-5546#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-2579-5546",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid"
+      },
+      "foaf:familyName": "Sure-Vetter",
+      "foaf:givenName": "York",
+      "foaf:name": "York Sure-Vetter",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-4522-1099"
+      },
+      "rdfs:label": "York Sure-Vetter",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-4522-1099"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-4522-1099",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid"
+      },
+      "foaf:familyName": "Rossenova",
+      "foaf:givenName": "Lozana",
+      "foaf:name": "Lozana Rossenova",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-5190-1867"
+      },
+      "rdfs:label": "Lozana Rossenova",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-5190-1867"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-5190-1867",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5835-2784",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5835-2784#orcid"
+      },
+      "foaf:familyName": "Limani",
+      "foaf:givenName": "Fidan",
+      "foaf:name": "Fidan Limani",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-5835-2784"
+      },
+      "rdfs:label": "Fidan Limani",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-5835-2784"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5835-2784#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-5835-2784",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7541-115X",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7541-115X#orcid"
+      },
+      "foaf:familyName": "Fliegl",
+      "foaf:givenName": "Heike",
+      "foaf:name": "Heike Fliegl",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7541-115X"
+      },
+      "rdfs:label": "Heike Fliegl",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7541-115X"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7541-115X#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7541-115X",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid"
+      },
+      "foaf:familyName": "Groth",
+      "foaf:givenName": "Paul",
+      "foaf:name": "Paul Groth",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-0183-6910"
+      },
+      "rdfs:label": "Paul Groth",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-0183-6910"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-0183-6910",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3085-3031",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3085-3031#orcid"
+      },
+      "foaf:familyName": "Latif",
+      "foaf:givenName": "Atif",
+      "foaf:name": "Atif Latif",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3085-3031"
+      },
+      "rdfs:label": "Atif Latif",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3085-3031"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3085-3031#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3085-3031",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0009-9101-5833",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0009-9101-5833#orcid"
+      },
+      "foaf:familyName": "Kaplan",
+      "foaf:givenName": "Angelika",
+      "foaf:name": "Angelika Kaplan",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0009-9101-5833"
+      },
+      "rdfs:label": "Angelika Kaplan",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0009-9101-5833"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0009-9101-5833#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0009-9101-5833",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q273263"
+      },
+      "rdfs:label": "RWTH Aachen University",
+      "schema:addressCountry": {
+        "@id": "wd:Q183"
+      },
+      "schema:description": "RWTH Aachen, C.A.R.L., Aachen, Germany",
+      "schema:latitude": 50.777778,
+      "schema:longitude": 6.078056
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/rwth-aachen-c-a-r-l-aachen-germany#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(6.078056 50.777778)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e5",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:ProceedingsPaper",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "The NFDI Working Group \"Knowledge Graphs\" (WG KGs) operates within the cross-cutting Section Metadata to coordinate and facilitate exchange on best practices, use cases, and challenges in the creation and use of knowledge graphs (KGs) across different disciplines. In this poster, we follow up on previously published findings, such as the dataset of KGs and related metadata developed and used by different consortia [1]. Besides the successful proposal and initiation of a basic service for a KG infrastructure (KGI4NFDI) [2], members of the WG have continued to meet regularly to discuss the ways the basic service can best meet the requirements of individual disciplines, and the NFDI as a whole. Furthermore, the WG discusses concerns beyond the scope of the basic service, such as efforts within individual consortia focused on disciplinary tasks, or ongoing developments within related basic services, such as TS4NFDI [3] or PID4NFDI [4]. Based on agile requirements gathering, feedback, and practical exchange, the WG has coordinated the collection of functional use cases and ongoing challenges different consortia face, with the aim to identify commonalities and/or distinctions that can inform the development of current and future basic services. The core premise of KGs is to represent (meta)data and their relations in a machine-understandable format, which improves semantic interoperability and data integration by adopting standard ontologies and Linked Data principles (e.g., RDF, OWL). This drives the functional use cases observed in NFDI consortia. Following a literature review, the following core KG functionalities were categorised by members of the WG: a) Data integration; b) Data FAIRification; c) Metadata cataloguing; d) Data verification, enrichment and extension; e) Machine actionability and AI-readiness [5–9]. These core categories were specified further through an open call among the consortia represented in the WG KG. The call collected an extended dataset of use case examples from their KG projects, grouped according to functionality categories, and linked to the previously published KG overview dataset [10]. Examples include KGs established by individual consortia functioning as data and metadata catalogues for discipline-specific repositories and research data portals, while using dedicated semantic ontologies as in the case of NFDI4Culture, NFDI-MatWerk, NFDI4DataScience, MaRDI, and NFDI4Objects, among others. A more specific example of data integration is the capacity of the Semantic Kompakkt KG (NFDI4Culture) and the NFDI4Bioimage KG to semantically express the annotation of 3D models and Bioimaging file formats, respectively. Alongside the use cases that illustrate why different consortia adopt specific KG functionalities, common challenges were also identified and documented. These challenges include harmonizing diverse ontologies within or across consortia, ensuring data verification and quality, optimizing AI-ready tools to support KG (and data) (re)usage, as well as socio-technical challenges, such as data privacy, or managing access restrictions. By collecting concrete use case examples and identifying specific challenges, the WG KGs supports its mission to encourage broader adoption of KGs across the NFDI. This effort also contributes to building a \"one-stop-shop\" catalog of KG example implementations that the NFDI community can turn to when starting KG-driven projects."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.16736077",
+      "bibo:editor": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-4522-1099"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-0183-6910"
+        }
+      ],
+      "bibo:locator": "𝒬5",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/2nd-conference-on-research-data-infrastructure-cordi-2025"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "dcat:keyword": [
+        "FAIR data",
+        "Knowledge Graphs",
+        "NFDI",
+        "data integration",
+        "semantic interoperability"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v7/i5/e5/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7141-4997"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9495-040X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-0331-2558"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1648-1684"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2579-5546"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5835-2784"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7541-115X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3085-3031"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0009-9101-5833"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "The NFDI Working Group \"Knowledge Graphs\" (WG KGs) operates within the cross-cutting Section Metadata to coordinate and facilitate exchange on best practices, use cases, and challenges in the creation and use of knowledge graphs (KGs) across different disciplines. In this poster, we follow up on previously published findings, such as the dataset of KGs and related metadata developed and used by different consortia [1]. Besides the successful proposal and initiation of a basic service for a KG infrastructure (KGI4NFDI) [2], members of the WG have continued to meet regularly to discuss the ways the basic service can best meet the requirements of individual disciplines, and the NFDI as a whole. Furthermore, the WG discusses concerns beyond the scope of the basic service, such as efforts within individual consortia focused on disciplinary tasks, or ongoing developments within related basic services, such as TS4NFDI [3] or PID4NFDI [4]. Based on agile requirements gathering, feedback, and practical exchange, the WG has coordinated the collection of functional use cases and ongoing challenges different consortia face, with the aim to identify commonalities and/or distinctions that can inform the development of current and future basic services. The core premise of KGs is to represent (meta)data and their relations in a machine-understandable format, which improves semantic interoperability and data integration by adopting standard ontologies and Linked Data principles (e.g., RDF, OWL). This drives the functional use cases observed in NFDI consortia. Following a literature review, the following core KG functionalities were categorised by members of the WG: a) Data integration; b) Data FAIRification; c) Metadata cataloguing; d) Data verification, enrichment and extension; e) Machine actionability and AI-readiness [5–9]. These core categories were specified further through an open call among the consortia represented in the WG KG. The call collected an extended dataset of use case examples from their KG projects, grouped according to functionality categories, and linked to the previously published KG overview dataset [10]. Examples include KGs established by individual consortia functioning as data and metadata catalogues for discipline-specific repositories and research data portals, while using dedicated semantic ontologies as in the case of NFDI4Culture, NFDI-MatWerk, NFDI4DataScience, MaRDI, and NFDI4Objects, among others. A more specific example of data integration is the capacity of the Semantic Kompakkt KG (NFDI4Culture) and the NFDI4Bioimage KG to semantically express the annotation of 3D models and Bioimaging file formats, respectively. Alongside the use cases that illustrate why different consortia adopt specific KG functionalities, common challenges were also identified and documented. These challenges include harmonizing diverse ontologies within or across consortia, ensuring data verification and quality, optimizing AI-ready tools to support KG (and data) (re)usage, as well as socio-technical challenges, such as data privacy, or managing access restrictions. By collecting concrete use case examples and identifying specific challenges, the WG KGs supports its mission to encourage broader adoption of KGs across the NFDI. This effort also contributes to building a \"one-stop-shop\" catalog of KG example implementations that the NFDI community can turn to when starting KG-driven projects."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.16736077",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2025-08-26"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”"
+      },
+      "dct:type": {
+        "@id": "sqpt:conference-proceeding"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.16736077"
+      },
+      "prism:number": "5",
+      "prism:volume": "7",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/16736078"
+      },
+      "sqp:citationLabel": "7(5), 𝒬5",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "5"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867"
+      },
+      "rdf:_10": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7541-115X"
+      },
+      "rdf:_11": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1648-1684"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5835-2784"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2579-5546"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0009-9101-5833"
+      },
+      "rdf:_5": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_6": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3085-3031"
+      },
+      "rdf:_7": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-0331-2558"
+      },
+      "rdf:_8": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9495-040X"
+      },
+      "rdf:_9": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7141-4997"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-7141-4997"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0001-9495-040X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-0331-2558"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1648-1684"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-2579-5546"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5190-1867"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-5835-2784"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7541-115X"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3085-3031"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0009-9101-5833"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e5"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-08-26T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.16736077",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e5"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/16736078"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "160936"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/16736078/files/CoRDI_2025_paper_215.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "CoRDI_2025_paper_215.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "475f0ce63542d5d49b3cf651fca609fe"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i5/e5#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "How are NFDI consortia using Knowledge Graphs? An overview of common functions and challenges by the Working Group “Knowledge Graphs”"
+    }
+  ]
+}

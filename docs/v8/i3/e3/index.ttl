@@ -1,0 +1,219 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v8/i3/e3#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v8/i3/e3> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-2024-7700>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5788-4041>,
+        <https://w3id.org/squirrelpapers/person/0009-0005-1140-3352> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v8/i3/e3#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v8/i3/e3> .
+
+<https://w3id.org/squirrelpapers/event/derse26-2026> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "deRSE26" ;
+    event:place <https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v8/i3/e3>,
+        <https://w3id.org/squirrelpapers/v8/i3/e4>,
+        <https://w3id.org/squirrelpapers/v8/i3/e5>,
+        <https://w3id.org/squirrelpapers/v8/i3/e6> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/derse26-2026#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/derse26-2026#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart> ;
+    schema:endDate "2026-03-05"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart> ;
+    schema:name "deRSE26" ;
+    schema:startDate "2026-03-03"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/derse26-2026#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "deRSE26" .
+
+<https://w3id.org/squirrelpapers/event/derse26-2026#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2026-03-03T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2026-03-05T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-2024-7700#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-2024-7700" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5788-4041#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-5788-4041" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0009-0005-1140-3352#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0009-0005-1140-3352" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v8/i3/e3#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0009-0005-1140-3352> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/0000-0002-5788-4041> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/0000-0002-2024-7700> .
+
+<https://w3id.org/squirrelpapers/v8/i3/e3#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2026-03-03T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2026-03-03T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v8/i3/e3#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.18803485" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v8/i3/e3#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "deRSE26_Stuttgart_21314_GeoGraphs.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v8/i3/e3#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v8/i3/e3> ;
+    dcat:accessURL <https://zenodo.org/records/18803486> ;
+    dcat:byteSize "1716613"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/18803486/files/deRSE26_Stuttgart_21314_GeoGraphs.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v8/i3/e3#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "b7efaed17fb2b9d8c835e302d6bc376e"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v8/i3/e3#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks" .
+
+<https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(9.1752 48.7817)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-2024-7700> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Matthias Renz" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-2024-7700#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-2024-7700> ;
+    foaf:familyName "Renz" ;
+    foaf:givenName "Matthias" ;
+    foaf:name "Matthias Renz" ;
+    schema:identifier <https://orcid.org/0000-0002-2024-7700> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-5788-4041> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Steffen Strohm" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-5788-4041#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-5788-4041> ;
+    foaf:familyName "Strohm" ;
+    foaf:givenName "Steffen" ;
+    foaf:name "Steffen Strohm" ;
+    schema:identifier <https://orcid.org/0000-0002-5788-4041> .
+
+<https://w3id.org/squirrelpapers/person/0009-0005-1140-3352> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Mattis thor Straten" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0009-0005-1140-3352#orcid> ;
+    owl:sameAs <https://orcid.org/0009-0005-1140-3352> ;
+    foaf:familyName "thor Straten" ;
+    foaf:givenName "Mattis" ;
+    foaf:name "Mattis thor Straten" ;
+    schema:identifier <https://orcid.org/0009-0005-1140-3352> .
+
+<https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "University of Stuttgart" ;
+    crm:P168_place_is_defined_by "POINT(9.1752 48.7817)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/university-of-stuttgart-stuttgart#geometry> ;
+    owl:sameAs wd:Q122453 ;
+    dcat:centroid "POINT(9.1752 48.7817)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q183 ;
+    schema:description "University of Stuttgart, Stuttgart" ;
+    schema:latitude 4.87817e+01 ;
+    schema:longitude 9.1752e+00 .
+
+<https://w3id.org/squirrelpapers/v8/i3/e3> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ConferencePoster,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "8" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-2024-7700>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-5788-4041>,
+        <https://w3id.org/squirrelpapers/person/0009-0005-1140-3352> ;
+    dct:description """This poster presents an ongoing comparative study on the semantic modelling and utility of (geo-)spatial information across three key graph-based paradigms — Resource Description Framework (RDF), Labelled Property Graphs (LPGs), and Attributed Heterogeneous Information Networks (AHINs) — and explores their integration within the NFDI federated Knowledge Graph (KG) ecosystem. The work examines spatial data within these graph-based data models regarding semantic expressiveness, practical interoperability, integration in research workflows and computational performance. This excludes FAIR Digital Objects, which are used for, e.g., binary data of geophysical prospection or 3D documentation, and do not provide geo-spatial information at graph level.
+Use cases reveal how RDF shows a tendency to excel in semantic richness and machine interpretability, whereas HINs and LPGs may handle high-volume or computationally demanding workflows more efficiently, albeit at the cost of standardisation and interoperability. Bridging these paradigms thus becomes crucial for a sustainable, federated research data infrastructure.
+Within the NFDI federated KG ecosystem, we aim to combine the analytical power of AHINs with the semantic richness and flexibility of LPGs as well as the high standardisation of RDF-based KGs. We discuss schema-mapping strategies, identifier management (URIs vs. node IDs), and transformation workflows that connect semantically rich but slower RDF environments with performant HIN-based analytical pipelines. The goal is to survey the bi-directional interoperability between all three paradigms, exploring existing mappings between RDF, LPG and AHINs and open challenges, focusing on geo-spatial information.
+From a research software engineering (RSE) perspective, this work contributes to RSE research, discussing Open Science, Research Data Management, Research Software usability and sustainability, Infrastructures for Scientific Computing within the Digital Humanities. It highlights design patterns and approaches for interlinking the three graph-based paradigms within the NFDI research data infrastructure, supporting scalable data exploration while maintaining FAIR principles. Spatial data serves as a cross-domain connector, linking research outputs from the humanities, natural sciences, geo-sciences and engineering through similarity of aligned spatial semantic concepts.
+By aligning semantic interoperability with analytical performance, this poster demonstrates how graph architectures can unlock the full potential of RDF-based KGs, LPGs and AHINs for practical research applications. We outline next steps towards interfaces and interoperability, fostering a more robust, FAIR-compliant, and computationally efficient research-software ecosystem within the NFDI and beyond."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.18803485" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v8/i3> ;
+    dct:issued "2026-03-03"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Semantic Modelling and Performance of (Geo-)Spatial Information in Knowledge Graphs and Heterogeneous Information Networks"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:poster ;
+    bibo:abstract """This poster presents an ongoing comparative study on the semantic modelling and utility of (geo-)spatial information across three key graph-based paradigms — Resource Description Framework (RDF), Labelled Property Graphs (LPGs), and Attributed Heterogeneous Information Networks (AHINs) — and explores their integration within the NFDI federated Knowledge Graph (KG) ecosystem. The work examines spatial data within these graph-based data models regarding semantic expressiveness, practical interoperability, integration in research workflows and computational performance. This excludes FAIR Digital Objects, which are used for, e.g., binary data of geophysical prospection or 3D documentation, and do not provide geo-spatial information at graph level.
+Use cases reveal how RDF shows a tendency to excel in semantic richness and machine interpretability, whereas HINs and LPGs may handle high-volume or computationally demanding workflows more efficiently, albeit at the cost of standardisation and interoperability. Bridging these paradigms thus becomes crucial for a sustainable, federated research data infrastructure.
+Within the NFDI federated KG ecosystem, we aim to combine the analytical power of AHINs with the semantic richness and flexibility of LPGs as well as the high standardisation of RDF-based KGs. We discuss schema-mapping strategies, identifier management (URIs vs. node IDs), and transformation workflows that connect semantically rich but slower RDF environments with performant HIN-based analytical pipelines. The goal is to survey the bi-directional interoperability between all three paradigms, exploring existing mappings between RDF, LPG and AHINs and open challenges, focusing on geo-spatial information.
+From a research software engineering (RSE) perspective, this work contributes to RSE research, discussing Open Science, Research Data Management, Research Software usability and sustainability, Infrastructures for Scientific Computing within the Digital Humanities. It highlights design patterns and approaches for interlinking the three graph-based paradigms within the NFDI research data infrastructure, supporting scalable data exploration while maintaining FAIR principles. Spatial data serves as a cross-domain connector, linking research outputs from the humanities, natural sciences, geo-sciences and engineering through similarity of aligned spatial semantic concepts.
+By aligning semantic interoperability with analytical performance, this poster demonstrates how graph architectures can unlock the full potential of RDF-based KGs, LPGs and AHINs for practical research applications. We outline next steps towards interfaces and interoperability, fostering a more robust, FAIR-compliant, and computationally efficient research-software ecosystem within the NFDI and beyond."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v8/i3/e3#authors> ;
+    bibo:doi "10.5281/zenodo.18803485" ;
+    bibo:locator "§3" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/derse26-2026> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v8/i3/e3#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v8/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v8/i3/e3#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:poster ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.18803485> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v8/i3/e3#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v8/i3> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v8/i3/e3/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:poster ;
+    prov:wasDerivedFrom <https://zenodo.org/records/18803486> ;
+    sqp:citationLabel "8(3), §3" ;
+    sqp:entryNumber "3"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

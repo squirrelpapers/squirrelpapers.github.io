@@ -1,0 +1,162 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e4#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v4/i3/e4> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-7640-1247>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/boochs-frank> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v4/i3/e4#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v4/i3/e4> .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-7640-1247#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-7640-1247" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e4#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0001-7640-1247> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/boochs-frank> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e4#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2022-02-02T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2022-02-02T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v4/i3/e4#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.5942833" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e4#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "O3DT_2022_ARS3D.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v4/i3/e4#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v4/i3/e4> ;
+    dcat:accessURL <https://zenodo.org/records/5942834> ;
+    dcat:byteSize "7392017"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/5942834/files/O3DT_2022_ARS3D.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v4/i3/e4#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "c6863d30b2cb48ba2e3e6f750257d4cf"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v4/i3/e4#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "ARS3D: Close to the Original-Erfassung archäologischer Objekte und ihre webbasierte semantisch modellierte Bereitstellung zur fachwissenschaftlichen Analyse" .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-7640-1247> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Laura Raddatz" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-7640-1247#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-7640-1247> ;
+    foaf:familyName "Raddatz" ;
+    foaf:givenName "Laura" ;
+    foaf:name "Laura Raddatz" ;
+    schema:identifier <https://orcid.org/0000-0001-7640-1247> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/boochs-frank> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Frank Boochs" ;
+    foaf:familyName "Boochs" ;
+    foaf:givenName "Frank" ;
+    foaf:name "Frank Boochs" .
+
+<https://w3id.org/squirrelpapers/v4/i3/e4> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "4" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-7640-1247>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/boochs-frank> ;
+    dct:description """Das Potential und der Nutzen moderner 3D Messverfahren zur Digitalisierung archäologischer Objekte sind unbestritten. Entsprechend werden sie inzwischen aktiv in vielfältiger Weise zur Dokumentation eingesetzt. Infolge des breiten Merkmalsspektrums von Messverfahren gibt es dabei fallbezogen einen engen Zusammenhang zwischen Methodik und Eignung zur Bedienung bestimmter fachwissenschaftlicher Fragestellungen. Geht es um eine dem Original möglichst nahe kommende Digitalisierung sind entsprechend hohe Anforderungen der Methodik zur Erfassung von Geometrie und Erscheinungsbild zu erfüllen. Derart hochwertig erfasste Objekte haben das Potential, das Original in der digitalen archäologischen Forschung inhaltlich und geometrisch zu ergänzen und durch den digitalen Charakter in unbegrenzter und offenzugänglicher Form Fachanwendern im Web zur Verfügung zu stellen. Hierzu werden webbasierte Werkzeuge zur Interaktion und Visualisierung benötigt, die Anwender*innen bei Interpretationsarbeit unterstützen. Archäologische Forschung benötigt jedoch auch fachliche Informationen (z.B. Material, Fundort, Zeitperiode, Typologie- und Ikonografieverweise), die in den Interpretationsprozess einfließen. Entsprechend sollten diese nach aktuellen Standards in den Cultural Heritage (z.B. CIDOC CRM, Thesauri und Normdaten wie Getty AAT, IconClass, Wikidata, ChronOntology) erfasst und möglichst nach FAIR[1]- und Linked Open Data Prinzipien[2] verfügbar gemacht werden. Somit beinhaltet eine offene, nachvollziehbare und transparente Bereitstellung der Daten semantische Strukturierung archäologischer Fachinformationen, sowie die Verknüpfung und Modellierung von Beobachtungen und Interpretationen. Im Sinne einer nachhaltigen und übertragbaren Vorgehensweise sind dabei existierende Standards in der Cultural Heritage- und Semantic Web Domain, wie CIDOC-CRM[3] oder PROV-O[4], und neue community-driven Vorschläge (z.B. Ontologie zu 3D Metadaten) zu berücksichtigen.
+All diese Aspekte waren Gegenstand des vom BMBF geförderten Forschungsprojektes "African Red Slip Ware digital", das sich mit einer speziellen Gattung römischer Keramik - African Red Slip Ware - befasste. Dieses Paper zeigt Ergebnisse und Best-Practices aus dem ASR3D-Projekt bezüglich der 3D-Messverfahren und Metadatenmodellierung[5], sowie der semantischen Fachdatenmodellierung[6], fachlichen Analyse[7] und Datenvisualisierung[8] und Datenbereitstellung[9].
+Referenzen
+[1] https://doi.org/10.1038/sdata.2016.18
+[2] https://www.w3.org/DesignIssues/LinkedData.html
+[3] https://cidoc-crm.org
+[4] https://www.w3.org/TR/prov-o/
+[5] https://doi.org/10.1186/s40494-021-00561-w
+[6] https://doi.org/10.5281/zenodo.5642891
+[7] https://doi.org/10.5281/zenodo.5646897
+[8] http://ars3d.rgzm.de
+[9] https://doi.org/10.5281/zenodo.5722941"""@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.5942833" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v4/i3> ;
+    dct:issued "2022-02-02"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "ARS3D: Close to the Original-Erfassung archäologischer Objekte und ihre webbasierte semantisch modellierte Bereitstellung zur fachwissenschaftlichen Analyse"@de ;
+    dct:type sqpt:presentation ;
+    bibo:abstract """Das Potential und der Nutzen moderner 3D Messverfahren zur Digitalisierung archäologischer Objekte sind unbestritten. Entsprechend werden sie inzwischen aktiv in vielfältiger Weise zur Dokumentation eingesetzt. Infolge des breiten Merkmalsspektrums von Messverfahren gibt es dabei fallbezogen einen engen Zusammenhang zwischen Methodik und Eignung zur Bedienung bestimmter fachwissenschaftlicher Fragestellungen. Geht es um eine dem Original möglichst nahe kommende Digitalisierung sind entsprechend hohe Anforderungen der Methodik zur Erfassung von Geometrie und Erscheinungsbild zu erfüllen. Derart hochwertig erfasste Objekte haben das Potential, das Original in der digitalen archäologischen Forschung inhaltlich und geometrisch zu ergänzen und durch den digitalen Charakter in unbegrenzter und offenzugänglicher Form Fachanwendern im Web zur Verfügung zu stellen. Hierzu werden webbasierte Werkzeuge zur Interaktion und Visualisierung benötigt, die Anwender*innen bei Interpretationsarbeit unterstützen. Archäologische Forschung benötigt jedoch auch fachliche Informationen (z.B. Material, Fundort, Zeitperiode, Typologie- und Ikonografieverweise), die in den Interpretationsprozess einfließen. Entsprechend sollten diese nach aktuellen Standards in den Cultural Heritage (z.B. CIDOC CRM, Thesauri und Normdaten wie Getty AAT, IconClass, Wikidata, ChronOntology) erfasst und möglichst nach FAIR[1]- und Linked Open Data Prinzipien[2] verfügbar gemacht werden. Somit beinhaltet eine offene, nachvollziehbare und transparente Bereitstellung der Daten semantische Strukturierung archäologischer Fachinformationen, sowie die Verknüpfung und Modellierung von Beobachtungen und Interpretationen. Im Sinne einer nachhaltigen und übertragbaren Vorgehensweise sind dabei existierende Standards in der Cultural Heritage- und Semantic Web Domain, wie CIDOC-CRM[3] oder PROV-O[4], und neue community-driven Vorschläge (z.B. Ontologie zu 3D Metadaten) zu berücksichtigen.
+All diese Aspekte waren Gegenstand des vom BMBF geförderten Forschungsprojektes "African Red Slip Ware digital", das sich mit einer speziellen Gattung römischer Keramik - African Red Slip Ware - befasste. Dieses Paper zeigt Ergebnisse und Best-Practices aus dem ASR3D-Projekt bezüglich der 3D-Messverfahren und Metadatenmodellierung[5], sowie der semantischen Fachdatenmodellierung[6], fachlichen Analyse[7] und Datenvisualisierung[8] und Datenbereitstellung[9].
+Referenzen
+[1] https://doi.org/10.1038/sdata.2016.18
+[2] https://www.w3.org/DesignIssues/LinkedData.html
+[3] https://cidoc-crm.org
+[4] https://www.w3.org/TR/prov-o/
+[5] https://doi.org/10.1186/s40494-021-00561-w
+[6] https://doi.org/10.5281/zenodo.5642891
+[7] https://doi.org/10.5281/zenodo.5646897
+[8] http://ars3d.rgzm.de
+[9] https://doi.org/10.5281/zenodo.5722941"""@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v4/i3/e4#authors> ;
+    bibo:doi "10.5281/zenodo.5942833" ;
+    bibo:locator "#4" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v4/i3/e4#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v4/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v4/i3/e4#doi> ;
+    crm:P2_has_type sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.5942833> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v4/i3/e4#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v4/i3> ;
+    dcat:keyword "3D",
+        "African Red Slip Ware",
+        "Kulturerbe",
+        "Linked Open Data" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v4/i3/e4/> ;
+    dcat:theme sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/5942834> ;
+    sqp:citationLabel "4(3), #4" ;
+    sqp:entryNumber "4"^^xsd:positiveInteger .
+

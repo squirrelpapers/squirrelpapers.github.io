@@ -1,0 +1,506 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i3/e9"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e7"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/v6/i4/e8"
+        }
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy"
+      },
+      "rdfs:label": "EAA 2024, Rome, Italy",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2024-08-31"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy"
+      },
+      "schema:name": "EAA 2024, Rome, Italy",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2024-08-31"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "EAA 2024, Rome, Italy"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-08-31T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-08-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760#orcid"
+      },
+      "foaf:familyName": "Schneider",
+      "foaf:givenName": "Agnes",
+      "foaf:name": "Agnes Schneider",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-1854-6760"
+      },
+      "rdfs:label": "Agnes Schneider",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-1854-6760"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-1854-6760",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid"
+      },
+      "foaf:familyName": "Fricke",
+      "foaf:givenName": "Fabian",
+      "foaf:name": "Fabian Fricke",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-3223-2079"
+      },
+      "rdfs:label": "Fabian Fricke",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-3223-2079"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-3223-2079",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-0586-9350",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-0586-9350#orcid"
+      },
+      "foaf:familyName": "Stefan",
+      "foaf:givenName": "Daria",
+      "foaf:name": "Daria Stefan",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0009-0008-0586-9350"
+      },
+      "rdfs:label": "Daria Stefan",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0009-0008-0586-9350"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0009-0008-0586-9350#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0009-0008-0586-9350",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/allison-jim",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Allison",
+      "foaf:givenName": "Jim",
+      "foaf:name": "Jim Allison",
+      "rdfs:label": "Jim Allison"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(12.515833 41.903333)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(12.515833 41.903333)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q209344"
+      },
+      "rdfs:label": "Sapienza University of Rome",
+      "schema:addressCountry": {
+        "@id": "wd:Q38"
+      },
+      "schema:description": "Sapienza University of Rome, Italy",
+      "schema:latitude": 41.903333,
+      "schema:longitude": 12.515833
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/sapienza-university-of-rome-italy#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(12.515833 41.903333)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e7",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "Nowadays computer applications as well as statistical and computational approaches constitute a big part of the toolbox of every archaeologist, as they open tremendous possibilities for all research. These can be ready-to-use (proprietary) software applications but also “Little Minions” (self-scripted tools) or research software (e.g. implementation of statistic algorithms in R, Python), which are written by researchers. Both, research software and research data are part of Computational Archaeology and play an important role in up-to-date archaeological research. Optimally research data (and software) is FAIR(4RS) – Findable, Accessible, Interoperable, Re-usable (for Research Software) – and reproducible of which other users can benefit from or even develop further. The increasing number of topics and papers at the international and national chapters of the CAA show manifold applications but also implications. Working Groups like the SIG SSLA (https://sslarch.github.io) or the “Little Minions” (https://littleminions.link) also deal with Computational Archaeology and are building a community.\nSeveral initiatives, such as the German National Research Data Infrastructure (NFDI) – especially NFDI4Objects – or the European Open Science Cloud (EOSC), engage with this topic to strengthen the position of Computational Archaeologists and Research Software Engineers, highlight the scientific merit of their work, and ensure researchers receive credit for computational approaches, software development, as well as for writing papers."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.13373890",
+      "bibo:locator": "#7",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/eaa-2024-rome-italy-2024"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#doi"
+      },
+      "crm:P2_has_type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v6/i4/e7/"
+      },
+      "dcat:theme": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-0586-9350"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/allison-jim"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "Nowadays computer applications as well as statistical and computational approaches constitute a big part of the toolbox of every archaeologist, as they open tremendous possibilities for all research. These can be ready-to-use (proprietary) software applications but also “Little Minions” (self-scripted tools) or research software (e.g. implementation of statistic algorithms in R, Python), which are written by researchers. Both, research software and research data are part of Computational Archaeology and play an important role in up-to-date archaeological research. Optimally research data (and software) is FAIR(4RS) – Findable, Accessible, Interoperable, Re-usable (for Research Software) – and reproducible of which other users can benefit from or even develop further. The increasing number of topics and papers at the international and national chapters of the CAA show manifold applications but also implications. Working Groups like the SIG SSLA (https://sslarch.github.io) or the “Little Minions” (https://littleminions.link) also deal with Computational Archaeology and are building a community.\nSeveral initiatives, such as the German National Research Data Infrastructure (NFDI) – especially NFDI4Objects – or the European Open Science Cloud (EOSC), engage with this topic to strengthen the position of Computational Archaeologists and Research Software Engineers, highlight the scientific merit of their work, and ensure researchers receive credit for computational approaches, software development, as well as for writing papers."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.13373890",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2024-08-31"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks"
+      },
+      "dct:type": [
+        {
+          "@id": "sqpt:conference-paper"
+        },
+        {
+          "@id": "sqpt:presentation"
+        }
+      ],
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.13373890"
+      },
+      "prism:number": "4",
+      "prism:volume": "6",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/13373891"
+      },
+      "sqp:citationLabel": "6(4), #7",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "7"
+      },
+      "sqp:languageGuessed": true
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/allison-jim"
+      },
+      "rdf:_5": {
+        "@id": "https://w3id.org/squirrelpapers/person/0009-0008-0586-9350"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-1854-6760"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-3223-2079"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0009-0008-0586-9350"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/allison-jim"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e7"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e7"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-08-31T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-08-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.13373890",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e7"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/13373891"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "2837938"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/13373891/files/EAA_2024_SID_514_Introduction_ThieryEtAl.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "EAA_2024_SID_514_Introduction_ThieryEtAl.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "d6c5901c3f87f4adb3a92d27b0738f16"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i4/e7#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Applying Archaeological Research Software Engineering as Little Minions: Statistical & Computational Approaches to Daily Archaeological Tasks"
+    }
+  ]
+}

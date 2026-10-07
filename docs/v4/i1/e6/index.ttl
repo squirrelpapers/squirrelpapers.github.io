@@ -1,0 +1,154 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v4/i1/e6#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v4/i1/e6> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0001-5120-1548>,
+        <https://w3id.org/squirrelpapers/person/behrens-sarah>,
+        <https://w3id.org/squirrelpapers/person/godeke-anna-katharina>,
+        <https://w3id.org/squirrelpapers/person/schneider-nico>,
+        <https://w3id.org/squirrelpapers/person/schwarzkopf-christopher> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v4/i1/e6#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v4/i1/e6> .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-5120-1548#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-5120-1548" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v4/i1/e6#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/behrens-sarah> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/schwarzkopf-christopher> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/godeke-anna-katharina> ;
+    rdf:_4 <https://w3id.org/squirrelpapers/person/0000-0001-5120-1548> ;
+    rdf:_5 <https://w3id.org/squirrelpapers/person/schneider-nico> .
+
+<https://w3id.org/squirrelpapers/v4/i1/e6#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2022-02-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2022-02-01T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v4/i1/e6#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.5788378" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v4/i1/e6#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Fellow-Programm Freies Wissen  Revisited_EZ_08_DE.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v4/i1/e6#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v4/i1/e6> ;
+    dcat:accessURL <https://zenodo.org/records/5788379> ;
+    dcat:byteSize "4079480"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/5788379/files/Fellow-Programm%20Freies%20Wissen%20%20Revisited_EZ_08_DE.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v4/i1/e6#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "1fdc8ee7800a30df10066c045b8c1852"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v4/i1/e6#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Fellow-Programm Freies Wissen 2016 - 2021" .
+
+<https://w3id.org/squirrelpapers/person/0000-0001-5120-1548> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Dominik Scholl" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0001-5120-1548#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0001-5120-1548> ;
+    foaf:familyName "Scholl" ;
+    foaf:givenName "Dominik" ;
+    foaf:name "Dominik Scholl" ;
+    schema:identifier <https://orcid.org/0000-0001-5120-1548> .
+
+<https://w3id.org/squirrelpapers/person/behrens-sarah> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Sarah Behrens" ;
+    foaf:familyName "Behrens" ;
+    foaf:givenName "Sarah" ;
+    foaf:name "Sarah Behrens" .
+
+<https://w3id.org/squirrelpapers/person/godeke-anna-katharina> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Anna-Katharina Gödeke" ;
+    foaf:familyName "Gödeke" ;
+    foaf:givenName "Anna-Katharina" ;
+    foaf:name "Anna-Katharina Gödeke" .
+
+<https://w3id.org/squirrelpapers/person/schneider-nico> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Nico Schneider" ;
+    foaf:familyName "Schneider" ;
+    foaf:givenName "Nico" ;
+    foaf:name "Nico Schneider" .
+
+<https://w3id.org/squirrelpapers/person/schwarzkopf-christopher> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Christopher Schwarzkopf" ;
+    foaf:familyName "Schwarzkopf" ;
+    foaf:givenName "Christopher" ;
+    foaf:name "Christopher Schwarzkopf" .
+
+<https://w3id.org/squirrelpapers/v4/i1/e6> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:ReportDocument,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "1" ;
+    prism:volume "4" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0001-5120-1548>,
+        <https://w3id.org/squirrelpapers/person/behrens-sarah>,
+        <https://w3id.org/squirrelpapers/person/godeke-anna-katharina>,
+        <https://w3id.org/squirrelpapers/person/schneider-nico>,
+        <https://w3id.org/squirrelpapers/person/schwarzkopf-christopher> ;
+    dct:description "Mit dem Fellow-Programm Freies  Wissen unterstützte Wikimedia Deutschland e.  V. – gemeinsam mit verschiedenen Partner*innen – Wissenschaftler*innen aus Deutschland, Österreich und der Schweiz über fünf Jahre dabei, ihre eigene Forschungsarbeit zu öffnen und damit zu Freiem Wissen beizutragen. Durch Qualifizierungsangebote, Mentoring, finanzielle Unterstützung und Vernetzung mit anderen Aktiven im Bereich Offene Wissenschaft konnten insgesamt 90 Fellows zu Praktiker*innen und Botschafter*innen für Freies Wissen ausgebildet werden. Die Fellows konnten durch die Teilnahme am Programm ihre Kenntnisse über Theorie und Praxis Offener Wissenschaft maßgeblich erweitern, ihr wissenschaftliches Umfeld dahingehend sensibilisieren und ihr  Wissen weitergeben. Aus der Praxis-Community, die sich aus und um das Programm herum gebildet hat, gingen zahlreiche Initiativen zur Förderung Freien  Wissens in der Wissenschaft hervor und es konnten einzelne Veränderungen zu Gunsten von Offener  Wissenschaft auf institutioneller Ebene erreicht werden."@de ;
+    dct:identifier "https://doi.org/10.5281/zenodo.5788378" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v4/i1> ;
+    dct:issued "2022-02-01"^^xsd:date ;
+    dct:language eulang:DEU ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Fellow-Programm Freies Wissen 2016 - 2021"@de ;
+    dct:type sqpt:report ;
+    bibo:abstract "Mit dem Fellow-Programm Freies  Wissen unterstützte Wikimedia Deutschland e.  V. – gemeinsam mit verschiedenen Partner*innen – Wissenschaftler*innen aus Deutschland, Österreich und der Schweiz über fünf Jahre dabei, ihre eigene Forschungsarbeit zu öffnen und damit zu Freiem Wissen beizutragen. Durch Qualifizierungsangebote, Mentoring, finanzielle Unterstützung und Vernetzung mit anderen Aktiven im Bereich Offene Wissenschaft konnten insgesamt 90 Fellows zu Praktiker*innen und Botschafter*innen für Freies Wissen ausgebildet werden. Die Fellows konnten durch die Teilnahme am Programm ihre Kenntnisse über Theorie und Praxis Offener Wissenschaft maßgeblich erweitern, ihr wissenschaftliches Umfeld dahingehend sensibilisieren und ihr  Wissen weitergeben. Aus der Praxis-Community, die sich aus und um das Programm herum gebildet hat, gingen zahlreiche Initiativen zur Förderung Freien  Wissens in der Wissenschaft hervor und es konnten einzelne Veränderungen zu Gunsten von Offener  Wissenschaft auf institutioneller Ebene erreicht werden."@de ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v4/i1/e6#authors> ;
+    bibo:doi "10.5281/zenodo.5788378" ;
+    bibo:locator "#6" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v4/i1/e6#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v4/i1> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v4/i1/e6#doi> ;
+    crm:P2_has_type sqpt:report ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.5788378> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v4/i1/e6#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v4/i1> ;
+    dcat:keyword "Open Research",
+        "Open Scholarship",
+        "Open Science" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v4/i1/e6/> ;
+    dcat:theme sqpt:report ;
+    prov:wasDerivedFrom <https://zenodo.org/records/5788379> ;
+    sqp:citationLabel "4(1), #6" ;
+    sqp:entryNumber "6"^^xsd:positiveInteger .
+

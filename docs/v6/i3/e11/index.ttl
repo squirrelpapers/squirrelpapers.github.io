@@ -1,0 +1,178 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e11#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v6/i3/e11> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v6/i3/e11#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v6/i3/e11> .
+
+<https://w3id.org/squirrelpapers/event/archeo-foss-18-2024> a event:Event,
+        crm:E7_Activity,
+        schema:Event ;
+    rdfs:label "ARCHEO.FOSS 18" ;
+    event:place <https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies> ;
+    crm:P16_used_specific_object <https://w3id.org/squirrelpapers/v6/i3/e11>,
+        <https://w3id.org/squirrelpapers/v6/i3/e12> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/event/archeo-foss-18-2024#name> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/event/archeo-foss-18-2024#time-span> ;
+    crm:P7_took_place_at <https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies> ;
+    schema:endDate "2024-12-20"^^xsd:date ;
+    schema:location <https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies> ;
+    schema:name "ARCHEO.FOSS 18" ;
+    schema:startDate "2024-12-19"^^xsd:date .
+
+<https://w3id.org/squirrelpapers/event/archeo-foss-18-2024#name> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "ARCHEO.FOSS 18" .
+
+<https://w3id.org/squirrelpapers/event/archeo-foss-18-2024#time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-12-19T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-12-20T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e11#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e11#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2024-12-19T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-12-19T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v6/i3/e11#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.14524577" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e11#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v6/i3/e11#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v6/i3/e11> ;
+    dcat:accessURL <https://zenodo.org/records/14524578> ;
+    dcat:byteSize "22087577"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/14524578/files/ARCHEO.FOSS_2024_Panel1_InfrastructuralFrameworks.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v6/i3/e11#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "5b44ef0b4ec03e744ff6e8fb618dc12a"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v6/i3/e11#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Infrastructural Frameworks: Managing and publishing distributed Archaeological Research Data through the Wikibase" .
+
+<https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies#geometry> a geo:Geometry ;
+    geo:asWKT "POINT(14.167428 42.351114)"^^geo:wktLiteral .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies> a dct:Location,
+        crm:E53_Place,
+        geo:Feature,
+        schema:Place ;
+    rdfs:label "Chieti" ;
+    crm:P168_place_is_defined_by "POINT(14.167428 42.351114)"^^geo:wktLiteral ;
+    geo:hasDefaultGeometry <https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies#geometry> ;
+    geo:hasGeometry <https://w3id.org/squirrelpapers/place/aula-convegni-cast-center-for-advanced-studies#geometry> ;
+    owl:sameAs wd:Q13138 ;
+    dcat:centroid "POINT(14.167428 42.351114)"^^geo:wktLiteral ;
+    schema:addressCountry wd:Q38 ;
+    schema:description "Aula Convegni CAST - Center for Advanced Studies and Technology Campus Universitario Chieti Scalo, Chieti, Italy" ;
+    schema:latitude 4.235111e+01 ;
+    schema:longitude 1.416743e+01 .
+
+<https://w3id.org/squirrelpapers/v6/i3/e11> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Presentation,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "3" ;
+    prism:volume "6" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description """Paper for Panel 1: Towards a Common Infrastructural Framework: Managing and Exploiting Big Data in Archaeological Research through Open Data Systems - Remote Talk
+Title: Infrastructural Frameworks: Managing and publishing distributed Archaeological Research Data through the Wikibase Ecosystem
+Author: Florian Thiery
+Affiliation: Research Squrrel Engineers Network (Mainz, Germany)
+Keywords: Wikibase, Wikidata, Linked Open Data, Research Data Management, Archaeological Infrastructure, distributed systems
+Author Biography: Florian Thiery is a Research Software Engineer (RSE), Ontology Engineer and Data Scientist trained in geodesy and geoinformatics. He has been working for more than 10 years in LOD-related DH projects such as iDAI.chronontology and African Red Slip Ware digital (ARS3D). Currently, Florian is part of the staff at NFDI4Objects, which develops a Research Data Management Structure for (among other things) archaeological data together with German institutions and international partners. He is also founder of the Research Squirrel Engineers Network, wich codes the SPARQLing Unicorn QGIS Plugin and is responsible for the Linked Open Ogham Data, as well as the fuzzy-sl Wikibase.
+Author Bibliography
+Schmidt, Sophie C., Florian Thiery, and Martina Trognitz. ‘Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata’. Digital 2, no. 3 (22 June 2022): 333–64. https://doi.org/10.3390/digital2030019.
+Thiery, Florian, Fiona Schenk, Stefanie Baars, Karsten Tolle, and Peter Thiery. ‘Modellierung von Fuzzyness / Wobbliness in Geodaten - Am Beispiel Archäologischer Und Geowissenschaftlicher Fundortreferenzen’. Tagungsband FOSSGIS-Konferenz 2024 2024 (18 March 2024): 64–73. https://doi.org/10.5281/zenodo.10571858.
+Thiery, Florian, and Peter Thiery. ‘Linked Open Ogham. How to Publish and Interlink Various Ogham Data?’ Archeologia e Calcolatori 34, no. 1 (2023): 105–14. https://doi.org/10.19282/ac.34.1.2023.12.
+Abstract
+The creation of Linked Open Data (LOD) within frameworks like Wikibase has led to an increasing volume of "archaeological big data" stored in distributed systems across the LOD Cloud. This growth necessitates strategies to enable federated SPARQL queries, facilitating the realisation of Linked Open Usable Data. While the Arches Management System offers a robust platform for organising and visualising archaeological data, the Wikibase Ecosystem, with its integrated LOD Knowledge Graph infrastructures, presents an alternative.
+This paper explores the role of Wikibase within broader Knowledge Graph frameworks, such as the NFDI4Objects Knowledge Graph, in the context of archaeological big data. Case studies will highlight successful applications, challenges in integrating diverse open data sources, and the use of LOD technologies for data analysis and visualisation. Focusing on the Wikibase data model and its relation to the CIDOC CRM, the paper will examine strategies for interconnecting multiple Wikibase instances with distinct classes and properties. The example of Irish Ogham Stones will illustrate this approach, exploring instances such as FactGrid, fuzzy-sl, Semantic Kompakkt, and Wikidata, alongside external resources like CISP and Ogham in 3D in the Linked Open Ogham resource. The paper will demonstrate how federated queries can be performed, addressing the ongoing challenges in this field."""@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.14524577" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v6/i3> ;
+    dct:issued "2024-12-19"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Infrastructural Frameworks: Managing and publishing distributed Archaeological Research Data through the Wikibase"@en ;
+    dct:type sqpt:conference-paper,
+        sqpt:presentation ;
+    bibo:abstract """Paper for Panel 1: Towards a Common Infrastructural Framework: Managing and Exploiting Big Data in Archaeological Research through Open Data Systems - Remote Talk
+Title: Infrastructural Frameworks: Managing and publishing distributed Archaeological Research Data through the Wikibase Ecosystem
+Author: Florian Thiery
+Affiliation: Research Squrrel Engineers Network (Mainz, Germany)
+Keywords: Wikibase, Wikidata, Linked Open Data, Research Data Management, Archaeological Infrastructure, distributed systems
+Author Biography: Florian Thiery is a Research Software Engineer (RSE), Ontology Engineer and Data Scientist trained in geodesy and geoinformatics. He has been working for more than 10 years in LOD-related DH projects such as iDAI.chronontology and African Red Slip Ware digital (ARS3D). Currently, Florian is part of the staff at NFDI4Objects, which develops a Research Data Management Structure for (among other things) archaeological data together with German institutions and international partners. He is also founder of the Research Squirrel Engineers Network, wich codes the SPARQLing Unicorn QGIS Plugin and is responsible for the Linked Open Ogham Data, as well as the fuzzy-sl Wikibase.
+Author Bibliography
+Schmidt, Sophie C., Florian Thiery, and Martina Trognitz. ‘Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata’. Digital 2, no. 3 (22 June 2022): 333–64. https://doi.org/10.3390/digital2030019.
+Thiery, Florian, Fiona Schenk, Stefanie Baars, Karsten Tolle, and Peter Thiery. ‘Modellierung von Fuzzyness / Wobbliness in Geodaten - Am Beispiel Archäologischer Und Geowissenschaftlicher Fundortreferenzen’. Tagungsband FOSSGIS-Konferenz 2024 2024 (18 March 2024): 64–73. https://doi.org/10.5281/zenodo.10571858.
+Thiery, Florian, and Peter Thiery. ‘Linked Open Ogham. How to Publish and Interlink Various Ogham Data?’ Archeologia e Calcolatori 34, no. 1 (2023): 105–14. https://doi.org/10.19282/ac.34.1.2023.12.
+Abstract
+The creation of Linked Open Data (LOD) within frameworks like Wikibase has led to an increasing volume of "archaeological big data" stored in distributed systems across the LOD Cloud. This growth necessitates strategies to enable federated SPARQL queries, facilitating the realisation of Linked Open Usable Data. While the Arches Management System offers a robust platform for organising and visualising archaeological data, the Wikibase Ecosystem, with its integrated LOD Knowledge Graph infrastructures, presents an alternative.
+This paper explores the role of Wikibase within broader Knowledge Graph frameworks, such as the NFDI4Objects Knowledge Graph, in the context of archaeological big data. Case studies will highlight successful applications, challenges in integrating diverse open data sources, and the use of LOD technologies for data analysis and visualisation. Focusing on the Wikibase data model and its relation to the CIDOC CRM, the paper will examine strategies for interconnecting multiple Wikibase instances with distinct classes and properties. The example of Irish Ogham Stones will illustrate this approach, exploring instances such as FactGrid, fuzzy-sl, Semantic Kompakkt, and Wikidata, alongside external resources like CISP and Ogham in 3D in the Linked Open Ogham resource. The paper will demonstrate how federated queries can be performed, addressing the ongoing challenges in this field."""@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v6/i3/e11#authors> ;
+    bibo:doi "10.5281/zenodo.14524577" ;
+    bibo:locator "#11" ;
+    bibo:presentedAt <https://w3id.org/squirrelpapers/event/archeo-foss-18-2024> ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v6/i3/e11#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v6/i3> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v6/i3/e11#doi> ;
+    crm:P2_has_type sqpt:conference-paper,
+        sqpt:presentation ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.14524577> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i3/e11#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v6/i3> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/i3/e11/> ;
+    dcat:theme sqpt:conference-paper,
+        sqpt:presentation ;
+    prov:wasDerivedFrom <https://zenodo.org/records/14524578> ;
+    sqp:citationLabel "6(3), #11" ;
+    sqp:entryNumber "11"^^xsd:positiveInteger .
+

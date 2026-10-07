@@ -1,0 +1,391 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/internationale-tagung-der-osterreichischen-gesellschaft-fur-2016",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/internationale-tagung-der-osterreichischen-gesellschaft-fur-2016#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/internationale-tagung-der-osterreichischen-gesellschaft-fur-2016#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/graz-austria"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/graz-austria"
+      },
+      "rdfs:label": "Internationale Tagung der Österreichischen Gesellschaft für Mittelalterarchäologie",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2016-09-20"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/graz-austria"
+      },
+      "schema:name": "Internationale Tagung der Österreichischen Gesellschaft für Mittelalterarchäologie",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2016-09-20"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/internationale-tagung-der-osterreichischen-gesellschaft-fur-2016#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "Internationale Tagung der Österreichischen Gesellschaft für Mittelalterarchäologie"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/internationale-tagung-der-osterreichischen-gesellschaft-fur-2016#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-09-20T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-09-20T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid"
+      },
+      "foaf:familyName": "Mees",
+      "foaf:givenName": "Allard W.",
+      "foaf:name": "Allard W. Mees",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      },
+      "rdfs:label": "Allard W. Mees",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-7634-5342",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/graz-austria",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(15.438611 47.070833)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(15.438611 47.070833)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/graz-austria#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/graz-austria#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q13298"
+      },
+      "rdfs:label": "Graz",
+      "schema:addressCountry": {
+        "@id": "wd:Q131964"
+      },
+      "schema:description": "Graz, Austria",
+      "schema:latitude": 47.070833,
+      "schema:longitude": 15.438611
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/graz-austria#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(15.438611 47.070833)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e4",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "de",
+        "@value": "Aktuelle Entwicklungen in den digitalen Methoden der Archäologie suchen nach Lösungen für eine fachspezifisch adäquate Repräsentation chronologischer Konzepte, sowie deren persistente Adressierbarkeit. In diesem Paper wird ein konzeptioneller Vorschlag zur Lösung des archäologisch-relativchronologischen Problems mittels digitaler Methoden vorgestellt. Einerseits werden Zeitkonzepte und ihr relativchronologisches Verhältnis zueinander digital aufgearbeitet und im Semantic Web zur Verfügung gestellt. Neben Geodia, ein online-Portal für die Visualisierung von zeitlichen, geographischen und materiellen Aspekten antiker Kulturen im Mittelmeerraum und PeriodO, das als online-Gazetteer Zeitbegriffe als Linked Open Data anbietet, entwickeln das i3mainz und das DAI im Rahmen des Projekts ChronOntology eine regelbasierte Software-Architektur, die auch komplexe Zeitbegriffe in ihren Abhängigkeiten und räumlichem Kontext repräsentiert. Andererseits entstehen relativchronologische Materialzeitstufen aus einem bottom-up-Verfahren anhand datierter Fundkomplexe. Diese vom Fundmaterial heraus erarbeiteten Zeitkonzepte lassen sich in ihren relativen Bezügen quantifizieren, adressieren und digital verarbeiten. Konkret können relativchronologische Zeitangaben als Intervalle verstanden werden, die in 13 unterschiedlichen Arten semantisch verarbeitet werden können (Allen 1983; Freksa 1992). Das herausfordernde ist, dass Beschreibungen von z.B. Gefäßformen als Typologien zum Aufbau relativer Chronologien verwandt wurden, an denen wiederum Zeitkonzepte gekoppelt wurden. Dies kann mit der Keramik-Forschungsdatenbank \"Samian\" des RGZM sichtbar gemacht werden. Der digitale Umgang mit chronologischen Kreisargumentationen bildet ein methodisches Gerüst, das auch für die Mittelalterarchäologie weiterentwickelt werden kann, wenn feingranulierte digitale Datensätze mittelalterlicher Großmanufakturen von z.B. Siegburger Schnellen oder Goudaer Tonpfeifen vorliegen."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.292957",
+      "bibo:locator": "#4",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/internationale-tagung-der-osterreichischen-gesellschaft-fur-2016"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5"
+      },
+      "dcat:keyword": [
+        "archaeology",
+        "chronology",
+        "linked data",
+        "linked open data"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i5/e4/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "dct:description": {
+        "@language": "de",
+        "@value": "Aktuelle Entwicklungen in den digitalen Methoden der Archäologie suchen nach Lösungen für eine fachspezifisch adäquate Repräsentation chronologischer Konzepte, sowie deren persistente Adressierbarkeit. In diesem Paper wird ein konzeptioneller Vorschlag zur Lösung des archäologisch-relativchronologischen Problems mittels digitaler Methoden vorgestellt. Einerseits werden Zeitkonzepte und ihr relativchronologisches Verhältnis zueinander digital aufgearbeitet und im Semantic Web zur Verfügung gestellt. Neben Geodia, ein online-Portal für die Visualisierung von zeitlichen, geographischen und materiellen Aspekten antiker Kulturen im Mittelmeerraum und PeriodO, das als online-Gazetteer Zeitbegriffe als Linked Open Data anbietet, entwickeln das i3mainz und das DAI im Rahmen des Projekts ChronOntology eine regelbasierte Software-Architektur, die auch komplexe Zeitbegriffe in ihren Abhängigkeiten und räumlichem Kontext repräsentiert. Andererseits entstehen relativchronologische Materialzeitstufen aus einem bottom-up-Verfahren anhand datierter Fundkomplexe. Diese vom Fundmaterial heraus erarbeiteten Zeitkonzepte lassen sich in ihren relativen Bezügen quantifizieren, adressieren und digital verarbeiten. Konkret können relativchronologische Zeitangaben als Intervalle verstanden werden, die in 13 unterschiedlichen Arten semantisch verarbeitet werden können (Allen 1983; Freksa 1992). Das herausfordernde ist, dass Beschreibungen von z.B. Gefäßformen als Typologien zum Aufbau relativer Chronologien verwandt wurden, an denen wiederum Zeitkonzepte gekoppelt wurden. Dies kann mit der Keramik-Forschungsdatenbank \"Samian\" des RGZM sichtbar gemacht werden. Der digitale Umgang mit chronologischen Kreisargumentationen bildet ein methodisches Gerüst, das auch für die Mittelalterarchäologie weiterentwickelt werden kann, wenn feingranulierte digitale Datensätze mittelalterlicher Großmanufakturen von z.B. Siegburger Schnellen oder Goudaer Tonpfeifen vorliegen."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.292957",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2016-09-20"
+      },
+      "dct:language": {
+        "@id": "eulang:DEU"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "de",
+        "@value": "Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.292957"
+      },
+      "prism:number": "5",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/292957"
+      },
+      "sqp:citationLabel": "1(5), #4",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-7634-5342"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-09-20T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-09-20T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.292957",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/292957"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "2069913"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/292957/files/2016_09_20_OEGM_Graz_Chronologie.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2016_09_20_OEGM_Graz_Chronologie.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "7476f78d5679e606c7066b999151b369"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i5/e4#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Digitale Methoden zur Erarbeitung von archäologisch-relativ-chronologischen Zeitintervallen"
+    }
+  ]
+}

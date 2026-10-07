@@ -1,0 +1,372 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/30-international-geodetic-students-meeting-2017",
+      "@type": [
+        "crm:E7_Activity",
+        "event:Event",
+        "schema:Event"
+      ],
+      "crm:P16_used_specific_object": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/event/30-international-geodetic-students-meeting-2017#name"
+      },
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/event/30-international-geodetic-students-meeting-2017#time-span"
+      },
+      "crm:P7_took_place_at": {
+        "@id": "https://w3id.org/squirrelpapers/place/zagreb-croatia"
+      },
+      "event:place": {
+        "@id": "https://w3id.org/squirrelpapers/place/zagreb-croatia"
+      },
+      "rdfs:label": "30. International Geodetic Students Meeting",
+      "schema:endDate": {
+        "@type": "xsd:date",
+        "@value": "2017-06-27"
+      },
+      "schema:location": {
+        "@id": "https://w3id.org/squirrelpapers/place/zagreb-croatia"
+      },
+      "schema:name": "30. International Geodetic Students Meeting",
+      "schema:startDate": {
+        "@type": "xsd:date",
+        "@value": "2017-06-27"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/30-international-geodetic-students-meeting-2017#name",
+      "@type": "crm:E41_Appellation",
+      "crm:P190_has_symbolic_content": "30. International Geodetic Students Meeting"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/event/30-international-geodetic-students-meeting-2017#time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-06-27T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-06-27T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/taani-rania",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Taani",
+      "foaf:givenName": "Rania",
+      "foaf:name": "Rania Taani",
+      "rdfs:label": "Rania Taani"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/zagreb-croatia",
+      "@type": [
+        "crm:E53_Place",
+        "dct:Location",
+        "geo:Feature",
+        "schema:Place"
+      ],
+      "crm:P168_place_is_defined_by": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(15.977222 45.813056)"
+      },
+      "dcat:centroid": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(15.977222 45.813056)"
+      },
+      "geo:hasDefaultGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/zagreb-croatia#geometry"
+      },
+      "geo:hasGeometry": {
+        "@id": "https://w3id.org/squirrelpapers/place/zagreb-croatia#geometry"
+      },
+      "owl:sameAs": {
+        "@id": "wd:Q1435"
+      },
+      "rdfs:label": "Zagreb",
+      "schema:addressCountry": {
+        "@id": "wd:Q153128"
+      },
+      "schema:description": "Zagreb, Croatia",
+      "schema:latitude": 45.813056,
+      "schema:longitude": 15.977222
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/place/zagreb-croatia#geometry",
+      "@type": "geo:Geometry",
+      "geo:asWKT": {
+        "@type": "geo:wktLiteral",
+        "@value": "POINT(15.977222 45.813056)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e2",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Presentation",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": {
+        "@language": "en",
+        "@value": "The mythical island Atlantis was an empire assigned to the sea god Poseidon. It was firstly elaborately described in the Critias and Timaios dialogues written by the ancient Greek philosopher Plato. Egyptians described Atlantis consisting mostly of mountains in the northern part. Poseidon fell in love with Cleito. who bore him five pairs of male twins. The forst-born, Atlas, was established as rightful king of the entire island and the ocean. One Day, there is a great concern on Atlantis. Atlas and his twin brothers gathered for the annual island party at the king's palace as they hear a sound comming from the surrounding mighty mountains. It was a avalanche! Nothing happend, puh! Since they are responsible for the well-being of their countrymen and more recently saw snowfall, they are forced to deal with the subject of \"avalanches\". Areas where avalanches occur have to be recorded, for performing arrangements to protect the population and the environment. To make this possible a GIS was established. As a result the demolition sites of avalaches will be calculated and presented to the public. This presentation focuses on faked GIS datasets and their potentatial to show exemplary methods that could be processed on any other real dataset. The main topic here, is the caculation of demolition sites of avalaches on Atlantis. In this case, the free CC BY-SA 4.0 AtlantGIS dataset by Kai-Christian Bruhn (i3mainz, Hochschule Mainz) is used. We believe that simple datasets with a narrative are most qualified to impart knowledge and skills to students. This presentation is based on a students project by Rania Taani as part of the Geoinformatics and Surveying master modul \"Interdiciplinary Applications of Spatial Information Techniques\", which focuses on applications in the Digital Humanities."
+      },
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.817496",
+      "bibo:locator": "#2",
+      "bibo:presentedAt": {
+        "@id": "https://w3id.org/squirrelpapers/event/30-international-geodetic-students-meeting-2017"
+      },
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:presentation"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6"
+      },
+      "dcat:keyword": [
+        "atlantis",
+        "gis"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v1/i6/e2/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:presentation"
+      },
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/taani-rania"
+        }
+      ],
+      "dct:description": {
+        "@language": "en",
+        "@value": "The mythical island Atlantis was an empire assigned to the sea god Poseidon. It was firstly elaborately described in the Critias and Timaios dialogues written by the ancient Greek philosopher Plato. Egyptians described Atlantis consisting mostly of mountains in the northern part. Poseidon fell in love with Cleito. who bore him five pairs of male twins. The forst-born, Atlas, was established as rightful king of the entire island and the ocean. One Day, there is a great concern on Atlantis. Atlas and his twin brothers gathered for the annual island party at the king's palace as they hear a sound comming from the surrounding mighty mountains. It was a avalanche! Nothing happend, puh! Since they are responsible for the well-being of their countrymen and more recently saw snowfall, they are forced to deal with the subject of \"avalanches\". Areas where avalanches occur have to be recorded, for performing arrangements to protect the population and the environment. To make this possible a GIS was established. As a result the demolition sites of avalaches will be calculated and presented to the public. This presentation focuses on faked GIS datasets and their potentatial to show exemplary methods that could be processed on any other real dataset. The main topic here, is the caculation of demolition sites of avalaches on Atlantis. In this case, the free CC BY-SA 4.0 AtlantGIS dataset by Kai-Christian Bruhn (i3mainz, Hochschule Mainz) is used. We believe that simple datasets with a narrative are most qualified to impart knowledge and skills to students. This presentation is based on a students project by Rania Taani as part of the Geoinformatics and Surveying master modul \"Interdiciplinary Applications of Spatial Information Techniques\", which focuses on applications in the Digital Humanities."
+      },
+      "dct:identifier": "https://doi.org/10.5281/zenodo.817496",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2017-06-27"
+      },
+      "dct:language": {
+        "@id": "eulang:ENG"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Avalanches on Atlantis - Real or Fake? The \"true\" story!"
+      },
+      "dct:type": {
+        "@id": "sqpt:presentation"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.817496"
+      },
+      "prism:number": "6",
+      "prism:volume": "1",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/817496"
+      },
+      "sqp:citationLabel": "1(6), #2",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/taani-rania"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/taani-rania"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-06-27T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-06-27T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.817496",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/817496"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "6314759"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/817496/files/2017_06_27_IGSM_Zagreb_AtlantGIS.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "2017_06_27_IGSM_Zagreb_AtlantGIS.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "0694eef231d16d45a28daf785bcaaea5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v1/i6/e2#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Avalanches on Atlantis - Real or Fake? The \"true\" story!"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eufiletype: <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v5/i4/e2#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v5/i4/e2> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v5/i4/e2#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v5/i4/e2> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v5/i4/e2#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v5/i4/e2#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2023-05-09T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2023-05-09T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v5/i4/e2#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.7915364" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v5/i4/e2#pdf> a crmdig:D1_Digital_Object,
+        dcat:Distribution ;
+    dct:format eufiletype:PDF ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "GrapHNR_2023_Ogham.pdf" ;
+    spdx:checksum <https://w3id.org/squirrelpapers/v5/i4/e2#pdf-checksum> ;
+    crm:P165_incorporates <https://w3id.org/squirrelpapers/v5/i4/e2> ;
+    dcat:accessURL <https://zenodo.org/records/7915365> ;
+    dcat:byteSize "5265505"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://zenodo.org/records/7915365/files/GrapHNR_2023_Ogham.pdf?download=1> ;
+    dcat:mediaType <http://www.iana.org/assignments/media-types/application/pdf> .
+
+<https://w3id.org/squirrelpapers/v5/i4/e2#pdf-checksum> a spdx:Checksum ;
+    spdx:algorithm spdx:checksumAlgorithm_md5 ;
+    spdx:checksumValue "1474b3100b7e2ac92835e7c8eea14514"^^xsd:hexBinary .
+
+<https://w3id.org/squirrelpapers/v5/i4/e2#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?" .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v5/i4/e2> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Abstract,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "4" ;
+    prism:volume "5" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    dct:description "Abstract of GrapHNR 2023"@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.7915364" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v5/i4> ;
+    dct:issued "2023-05-09"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "Temporalities in research: How to deal with ᚑᚌᚆᚐᚋ publishing methods over time?"@en ;
+    dct:type sqpt:abstract ;
+    bibo:abstract "Abstract of GrapHNR 2023"@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v5/i4/e2#authors> ;
+    bibo:doi "10.5281/zenodo.7915364" ;
+    bibo:locator "#2" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v5/i4/e2#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v5/i4> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v5/i4/e2#doi> ;
+    crm:P2_has_type sqpt:abstract ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.7915364> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v5/i4/e2#pdf> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v5/i4> ;
+    dcat:landingPage <https://squirrelpapers.github.io/v5/i4/e2/> ;
+    dcat:theme sqpt:abstract ;
+    prov:wasDerivedFrom <https://zenodo.org/records/7915365> ;
+    sqp:citationLabel "5(4), #2" ;
+    sqp:entryNumber "2"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+

@@ -1,0 +1,342 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dct": "http://purl.org/dc/terms/",
+    "eufiletype": "http://publications.europa.eu/resource/authority/file-type/",
+    "eulang": "http://publications.europa.eu/resource/authority/language/",
+    "event": "http://purl.org/NET/c4dm/event.owl#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "iana": "http://www.iana.org/assignments/media-types/",
+    "lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "sqp": "https://w3id.org/squirrelpapers/ontology#",
+    "sqpt": "https://w3id.org/squirrelpapers/type/",
+    "vann": "http://purl.org/vocab/vann/",
+    "wd": "http://www.wikidata.org/entity/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid"
+      },
+      "foaf:familyName": "Thiery",
+      "foaf:givenName": "Florian",
+      "foaf:name": "Florian Thiery",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      },
+      "rdfs:label": "Florian Thiery",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-3246-3531"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-3246-3531",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid"
+      },
+      "foaf:familyName": "Homburg",
+      "foaf:givenName": "Timo",
+      "foaf:name": "Timo Homburg",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0002-9499-5840"
+      },
+      "rdfs:label": "Timo Homburg",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0002-9499-5840"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0002-9499-5840",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid"
+      },
+      "foaf:familyName": "Schmidt",
+      "foaf:givenName": "Sophie Charlotte",
+      "foaf:name": "Sophie Charlotte Schmidt",
+      "owl:sameAs": {
+        "@id": "https://orcid.org/0000-0003-4696-2101"
+      },
+      "rdfs:label": "Sophie Charlotte Schmidt",
+      "schema:identifier": {
+        "@id": "https://orcid.org/0000-0003-4696-2101"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101#orcid",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "0000-0003-4696-2101",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/orcid"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/person/klammt-anne",
+      "@type": [
+        "crm:E21_Person",
+        "foaf:Person",
+        "schema:Person"
+      ],
+      "foaf:familyName": "Klammt",
+      "foaf:givenName": "Anne",
+      "foaf:name": "Anne Klammt",
+      "rdfs:label": "Anne Klammt"
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e5",
+      "@type": [
+        "bibo:Document",
+        "crm:E73_Information_Object",
+        "dcat:Dataset",
+        "fabio:Preprint",
+        "lrmoo:F2_Expression"
+      ],
+      "bibo:abstract": "Die Early Views der Archäologischen Informationen: Rezensionen Archäoinformatik\nThiery, F., Homburg, T., Klammt, A. & Schmidt, S. C. (2022). Software Review for the Software PointSamplingTool. Archäologische Informationen 44, Early View, published online 18 Nov 2022. [PDF]",
+      "bibo:authorList": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#authors"
+      },
+      "bibo:doi": "10.5281/zenodo.7337817",
+      "bibo:locator": "#5",
+      "crm:P102_has_title": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#title"
+      },
+      "crm:P106i_forms_part_of": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1"
+      },
+      "crm:P1_is_identified_by": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#doi"
+      },
+      "crm:P2_has_type": {
+        "@id": "sqpt:preprint"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#pdf"
+      },
+      "dcat:inSeries": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1"
+      },
+      "dcat:keyword": [
+        "Archäoinformatik",
+        "DGUF",
+        "QGIS",
+        "Softwarerezension"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://squirrelpapers.github.io/v4/i1/e5/"
+      },
+      "dcat:theme": {
+        "@id": "sqpt:preprint"
+      },
+      "dcat:version": "Early View",
+      "dct:creator": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/klammt-anne"
+        }
+      ],
+      "dct:description": "Die Early Views der Archäologischen Informationen: Rezensionen Archäoinformatik\nThiery, F., Homburg, T., Klammt, A. & Schmidt, S. C. (2022). Software Review for the Software PointSamplingTool. Archäologische Informationen 44, Early View, published online 18 Nov 2022. [PDF]",
+      "dct:identifier": "https://doi.org/10.5281/zenodo.7337817",
+      "dct:isPartOf": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1"
+      },
+      "dct:issued": {
+        "@type": "xsd:date",
+        "@value": "2022-11-18"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:publisher": {
+        "@id": "https://w3id.org/squirrelpapers/org/research-squirrel-engineers"
+      },
+      "dct:title": "Software Review for the Software PointSamplingTool (Archäologische Informationen 44, Early View, published online 18 Nov 2022)",
+      "dct:type": {
+        "@id": "sqpt:preprint"
+      },
+      "owl:sameAs": {
+        "@id": "https://doi.org/10.5281/zenodo.7337817"
+      },
+      "prism:number": "1",
+      "prism:volume": "4",
+      "prov:wasDerivedFrom": {
+        "@id": "https://zenodo.org/records/7337818"
+      },
+      "sqp:citationLabel": "4(1), #5",
+      "sqp:entryNumber": {
+        "@type": "xsd:positiveInteger",
+        "@value": "5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#authors",
+      "@type": "rdf:Seq",
+      "rdf:_1": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+      },
+      "rdf:_2": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+      },
+      "rdf:_3": {
+        "@id": "https://w3id.org/squirrelpapers/person/klammt-anne"
+      },
+      "rdf:_4": {
+        "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#creation",
+      "@type": [
+        "crm:E65_Creation",
+        "lrmoo:F28_Expression_Creation"
+      ],
+      "crm:P14_carried_out_by": [
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-3246-3531"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0002-9499-5840"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/0000-0003-4696-2101"
+        },
+        {
+          "@id": "https://w3id.org/squirrelpapers/person/klammt-anne"
+        }
+      ],
+      "crm:P4_has_time-span": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#creation-time-span"
+      },
+      "crm:P94_has_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e5"
+      },
+      "lrmoo:R17_created": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#creation-time-span",
+      "@type": "crm:E52_Time-Span",
+      "crm:P82a_begin_of_the_begin": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-11-18T00:00:00"
+      },
+      "crm:P82b_end_of_the_end": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-11-18T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#doi",
+      "@type": "crm:E42_Identifier",
+      "crm:P190_has_symbolic_content": "10.5281/zenodo.7337817",
+      "crm:P2_has_type": {
+        "@id": "https://w3id.org/squirrelpapers/identifier-type/doi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#pdf",
+      "@type": [
+        "crmdig:D1_Digital_Object",
+        "dcat:Distribution"
+      ],
+      "crm:P165_incorporates": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e5"
+      },
+      "dcat:accessURL": {
+        "@id": "https://zenodo.org/records/7337818"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:nonNegativeInteger",
+        "@value": "1224205"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://zenodo.org/records/7337818/files/ArchInf-EV_Thiery-etal.pdf?download=1"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/pdf"
+      },
+      "dct:format": {
+        "@id": "eufiletype:PDF"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dct:title": "ArchInf-EV_Thiery-etal.pdf",
+      "spdx:checksum": {
+        "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#pdf-checksum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#pdf-checksum",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "spdx:checksumAlgorithm_md5"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "b95d208adf6baed9a78f0bd6118ec795"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v4/i1/e5#title",
+      "@type": "crm:E35_Title",
+      "crm:P190_has_symbolic_content": "Software Review for the Software PointSamplingTool (Archäologische Informationen 44, Early View, published online 18 Nov 2022)"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eulang: <http://publications.europa.eu/resource/authority/language/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sqp: <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqpt: <https://w3id.org/squirrelpapers/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/squirrelpapers/v8/i2/e5#creation> a lrmoo:F28_Expression_Creation,
+        crm:E65_Creation ;
+    lrmoo:R17_created <https://w3id.org/squirrelpapers/v8/i2/e5> ;
+    crm:P14_carried_out_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-4088-255X>,
+        <https://w3id.org/squirrelpapers/person/alpino-nadine> ;
+    crm:P4_has_time-span <https://w3id.org/squirrelpapers/v8/i2/e5#creation-time-span> ;
+    crm:P94_has_created <https://w3id.org/squirrelpapers/v8/i2/e5> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-3246-3531" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-4088-255X#orcid> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0002-4088-255X" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/orcid> .
+
+<https://w3id.org/squirrelpapers/v8/i2/e5#authors> a rdf:Seq ;
+    rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
+    rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-4088-255X> ;
+    rdf:_3 <https://w3id.org/squirrelpapers/person/alpino-nadine> .
+
+<https://w3id.org/squirrelpapers/v8/i2/e5#creation-time-span> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2026-03-07T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2026-03-07T23:59:59"^^xsd:dateTime .
+
+<https://w3id.org/squirrelpapers/v8/i2/e5#doi> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "10.5281/zenodo.18901448" ;
+    crm:P2_has_type <https://w3id.org/squirrelpapers/identifier-type/doi> .
+
+<https://w3id.org/squirrelpapers/v8/i2/e5#landing> a dcat:Distribution ;
+    dct:license <https://spdx.org/licenses/MIT.html> ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://zenodo.org/records/18901448> .
+
+<https://w3id.org/squirrelpapers/v8/i2/e5#title> a crm:E35_Title ;
+    crm:P190_has_symbolic_content "FAIRyland: A playful dataset for teaching Linked Open Data in archaeology" .
+
+<https://w3id.org/squirrelpapers/v8/i2/e5> a lrmoo:F2_Expression,
+        bibo:Document,
+        fabio:Dataset,
+        crm:E73_Information_Object,
+        dcat:Dataset ;
+    prism:number "2" ;
+    prism:volume "8" ;
+    dct:creator <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531>,
+        <https://w3id.org/squirrelpapers/person/0000-0002-4088-255X>,
+        <https://w3id.org/squirrelpapers/person/alpino-nadine> ;
+    dct:description "FAIRyland is an open educational resource (OER) combining fictional archaeology with real research software engineering methods. The dataset simulates a Minion Period archaeological site in northern Sweden, featuring craters, streets, petrified kangaroo droppings (Kötbullar), and other playful features. It demonstrates the complete workflow from QGIS vector data to RDF/Linked Open Data using the SPARQLing Unicorn plugin, followed by SPARQL querying and Python-based visualisation. The repository includes geospatial data (GeoJSON, GeoPackage), RDF triples in Turtle format with CIDOC-CRM and GeoSPARQL vocabularies, seven interactive SPARQL queries, Python scripts for data analysis and visualisation (rdflib, pandas, matplotlib, GeoPandas), and Jupyter Notebooks for hands-on learning. FAIRyland serves as a practical sandbox for students and researchers to learn semantic web technologies, geospatial analysis, and FAIR data principles through an accessible, playful framework."@en ;
+    dct:identifier "https://doi.org/10.5281/zenodo.18901448" ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/v8/i2> ;
+    dct:issued "2026-03-07"^^xsd:date ;
+    dct:language eulang:ENG ;
+    dct:license <https://spdx.org/licenses/MIT.html> ;
+    dct:publisher <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> ;
+    dct:title "FAIRyland: A playful dataset for teaching Linked Open Data in archaeology"@en ;
+    dct:type sqpt:data ;
+    bibo:abstract "FAIRyland is an open educational resource (OER) combining fictional archaeology with real research software engineering methods. The dataset simulates a Minion Period archaeological site in northern Sweden, featuring craters, streets, petrified kangaroo droppings (Kötbullar), and other playful features. It demonstrates the complete workflow from QGIS vector data to RDF/Linked Open Data using the SPARQLing Unicorn plugin, followed by SPARQL querying and Python-based visualisation. The repository includes geospatial data (GeoJSON, GeoPackage), RDF triples in Turtle format with CIDOC-CRM and GeoSPARQL vocabularies, seven interactive SPARQL queries, Python scripts for data analysis and visualisation (rdflib, pandas, matplotlib, GeoPandas), and Jupyter Notebooks for hands-on learning. FAIRyland serves as a practical sandbox for students and researchers to learn semantic web technologies, geospatial analysis, and FAIR data principles through an accessible, playful framework."@en ;
+    bibo:authorList <https://w3id.org/squirrelpapers/v8/i2/e5#authors> ;
+    bibo:doi "10.5281/zenodo.18901448" ;
+    bibo:locator "§5" ;
+    crm:P102_has_title <https://w3id.org/squirrelpapers/v8/i2/e5#title> ;
+    crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v8/i2> ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/v8/i2/e5#doi> ;
+    crm:P2_has_type sqpt:data ;
+    rdfs:seeAlso <https://github.com/Research-Squirrel-Engineers/FAIRyland/releases/tag/v0.2> ;
+    owl:sameAs <https://doi.org/10.5281/zenodo.18901448> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v8/i2/e5#landing> ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v8/i2> ;
+    dcat:keyword "FAIR",
+        "Jupyter",
+        "Linked Open Data",
+        "OER",
+        "Python",
+        "archaeology" ;
+    dcat:landingPage <https://squirrelpapers.github.io/v8/i2/e5/> ;
+    dcat:theme sqpt:data ;
+    dcat:version "0.2" ;
+    prov:wasDerivedFrom <https://zenodo.org/records/18901448> ;
+    schema:codeRepository <https://github.com/Research-Squirrel-Engineers/FAIRyland> ;
+    sqp:citationLabel "8(2), §5" ;
+    sqp:entryNumber "5"^^xsd:positiveInteger ;
+    sqp:languageGuessed true .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Florian Thiery" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-3246-3531> ;
+    foaf:familyName "Thiery" ;
+    foaf:givenName "Florian" ;
+    foaf:name "Florian Thiery" ;
+    schema:identifier <https://orcid.org/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/person/0000-0002-4088-255X> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Brigit Danthine" ;
+    crm:P1_is_identified_by <https://w3id.org/squirrelpapers/person/0000-0002-4088-255X#orcid> ;
+    owl:sameAs <https://orcid.org/0000-0002-4088-255X> ;
+    foaf:familyName "Danthine" ;
+    foaf:givenName "Brigit" ;
+    foaf:name "Brigit Danthine" ;
+    schema:identifier <https://orcid.org/0000-0002-4088-255X> .
+
+<https://w3id.org/squirrelpapers/person/alpino-nadine> a crm:E21_Person,
+        foaf:Person,
+        schema:Person ;
+    rdfs:label "Nadine Alpino" ;
+    foaf:familyName "Alpino" ;
+    foaf:givenName "Nadine" ;
+    foaf:name "Nadine Alpino" .
+
