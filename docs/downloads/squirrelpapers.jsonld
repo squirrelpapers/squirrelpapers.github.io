@@ -32,6 +32,22 @@
   },
   "@graph": [
     {
+      "@id": "eufiletype:PDF",
+      "@type": "dct:MediaTypeOrExtent"
+    },
+    {
+      "@id": "eulang:DEU",
+      "@type": "dct:LinguisticSystem"
+    },
+    {
+      "@id": "eulang:ENG",
+      "@type": "dct:LinguisticSystem"
+    },
+    {
+      "@id": "http://www.iana.org/assignments/media-types/application/pdf",
+      "@type": "dct:MediaType"
+    },
+    {
       "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
       "@type": "dct:LicenseDocument"
     },
@@ -46,6 +62,1042 @@
     {
       "@id": "https://spdx.org/licenses/MIT.html",
       "@type": "dct:LicenseDocument"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i1/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i1/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i1/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i1/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i1/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e10/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e11/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e12/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e13/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e8/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i2/e9/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i3/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i3/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i3/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i3/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i4/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i4/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i4/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i5/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i5/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i5/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i5/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i6/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i6/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i6/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e10/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e8/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v1/i7/e9/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v2/i1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v2/i1/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v2/i1/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v2/i2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v2/i2/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v2/i2/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v2/i2/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v2/i3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e10/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e11/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e12/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e13/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e8/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i1/e9/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i3/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i3/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i3/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i3/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i3/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v3/i4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i1/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i1/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i1/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i2/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i2/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i2/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i2/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i2/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i2/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e11/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e14/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e15/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e16/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e8/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i3/e9/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i4/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v4/i4/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i1/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i1/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i1/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i1/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i1/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i1/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i2/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i2/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i2/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i2/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i2/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i3/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i3/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i3/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i3/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i3/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i3/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i4/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i4/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i4/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i4/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i5/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i5/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i5/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i5/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v5/i6/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i1/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i1/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i2/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i2/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i2/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i2/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i2/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i2/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e10/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e11/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e12/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e8/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i3/e9/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e12/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e13/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e14/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e17/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e18/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e19/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e20/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e21/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e22/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e23/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e24/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e25/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e26/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i4/e8/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v6/i5/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i1/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i1/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i1/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i1/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i1/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i2/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i2/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i2/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i2/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i2/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i2/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e10/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e16/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e17/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e18/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e19/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e20/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e8/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i3/e9/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i4/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i4/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i4/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i4/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i4/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e10/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e7/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e8/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v7/i5/e9/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i1/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i1/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i1/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i1/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i2/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i2/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i2/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i2/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i2/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i3/e1/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i3/e2/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i3/e3/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i3/e4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i3/e5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i3/e6/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i3/e9/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i4/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i5/",
+      "@type": "foaf:Document"
+    },
+    {
+      "@id": "https://squirrelpapers.github.io/v8/i6/",
+      "@type": "foaf:Document"
     },
     {
       "@id": "https://w3id.org/squirrelpapers/",
@@ -104,32 +1156,6 @@
         {
           "@language": "en",
           "@value": "The Squirrel Papers by the Research Squirrel Engineers Network are a free Open Access journal hosting publications on Zenodo and the Open Science Framework (OSF), collecting Linked Open Data (LOD), Research Software Engineering (RSE), Cultural Heritage and Geo-Sciences related research papers, working papers, blog posts, posters, slides, research data and research software."
-        }
-      ],
-      "dct:hasPart": [
-        {
-          "@id": "https://w3id.org/squirrelpapers/v1"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v2"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v3"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v4"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v5"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v6"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v7"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v8"
         }
       ],
       "dct:identifier": "ISSN 2750-560X",
@@ -31455,6 +32481,9 @@
       "crm:P2_has_type": {
         "@id": "sqpt:data"
       },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i6/e1#landing"
+      },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v5/i6"
       },
@@ -31535,6 +32564,17 @@
       "crm:P82b_end_of_the_end": {
         "@type": "xsd:dateTime",
         "@value": "2023-12-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i6/e1#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/archaeolink-lod/ars/releases/tag/v0.1"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
       }
     },
     {
@@ -32853,6 +33893,9 @@
       "crm:P2_has_type": {
         "@id": "sqpt:software"
       },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v6/i2/e6#landing"
+      },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v6/i2"
       },
@@ -32937,6 +33980,17 @@
       "crm:P82b_end_of_the_end": {
         "@type": "xsd:dateTime",
         "@value": "2024-12-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v6/i2/e6#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/Research-Squirrel-Engineers/jupyter-nb-lod"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
       }
     },
     {
@@ -42111,6 +43165,9 @@
       "crm:P2_has_type": {
         "@id": "sqpt:data"
       },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i2/e5#landing"
+      },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v7/i2"
       },
@@ -42214,6 +43271,17 @@
       }
     },
     {
+      "@id": "https://w3id.org/squirrelpapers/v7/i2/e5#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/Research-Squirrel-Engineers/FAIRyland"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
+      }
+    },
+    {
       "@id": "https://w3id.org/squirrelpapers/v7/i2/e5#title",
       "@type": "crm:E35_Title",
       "crm:P190_has_symbolic_content": "FAIRyland"
@@ -42239,6 +43307,9 @@
       },
       "crm:P2_has_type": {
         "@id": "sqpt:software"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i2/e6#landing"
       },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v7/i2"
@@ -42318,6 +43389,17 @@
       "crm:P82b_end_of_the_end": {
         "@type": "xsd:dateTime",
         "@value": "2025-12-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i2/e6#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/Research-Squirrel-Engineers/osm2lod/"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
       }
     },
     {
@@ -50145,6 +51227,9 @@
       "crm:P2_has_type": {
         "@id": "sqpt:software"
       },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e1#landing"
+      },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v8/i2"
       },
@@ -50229,6 +51314,17 @@
       }
     },
     {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e1#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/Research-Squirrel-Engineers/samianresearch-stlpa/releases/tag/v0.1"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
+      }
+    },
+    {
       "@id": "https://w3id.org/squirrelpapers/v8/i2/e1#title",
       "@type": "crm:E35_Title",
       "crm:P190_has_symbolic_content": "Samian Research STL-PA"
@@ -50254,6 +51350,9 @@
       },
       "crm:P2_has_type": {
         "@id": "sqpt:software"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e2#landing"
       },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v8/i2"
@@ -50352,6 +51451,17 @@
       }
     },
     {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e2#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/leiza-rse/site-dating/releases/tag/v0.1"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
+      }
+    },
+    {
       "@id": "https://w3id.org/squirrelpapers/v8/i2/e2#title",
       "@type": "crm:E35_Title",
       "crm:P190_has_symbolic_content": "Samian Site Dating"
@@ -50377,6 +51487,9 @@
       },
       "crm:P2_has_type": {
         "@id": "sqpt:software"
+      },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e3#landing"
       },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v8/i2"
@@ -50466,6 +51579,17 @@
       "crm:P82b_end_of_the_end": {
         "@type": "xsd:dateTime",
         "@value": "2026-12-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e3#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/Research-Squirrel-Engineers/GSAS/releases/tag/v0.1"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
       }
     },
     {
@@ -52527,6 +53651,10 @@
       "prism:volume": "8",
       "sqp:sigil": "§",
       "sqp:specialIssue": true
+    },
+    {
+      "@id": "spdx:checksumAlgorithm_md5",
+      "@type": "spdx:ChecksumAlgorithm"
     }
   ]
 }

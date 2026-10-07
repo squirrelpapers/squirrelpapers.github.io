@@ -1,6 +1,6 @@
 # RDF report (S7)
 
-- `dist/squirrelpapers.ttl`: 12374 triples
+- `dist/squirrelpapers.ttl`: 12658 triples
 - `dist/squirrelpapers-crm.ttl`: 6185 triples
 - `dist/vocab/types.ttl`: 234 triples
 - `dist/ontology/sqp.ttl`: 48 triples
@@ -10,10 +10,11 @@
 
 | Class | Instances |
 |---|---|
+| `foaf:Document` | 259 |
 | `bibo:Document` | 210 |
 | `rdf:Seq` | 210 |
 | `dcat:Dataset` | 210 |
-| `dcat:Distribution` | 203 |
+| `dcat:Distribution` | 210 |
 | `spdx:Checksum` | 162 |
 | `foaf:Person` | 106 |
 | `schema:Person` | 106 |
@@ -37,12 +38,16 @@
 | `dct:LicenseDocument` | 4 |
 | `fabio:ConferencePaper` | 4 |
 | `fabio:Preprint` | 3 |
+| `dct:LinguisticSystem` | 2 |
 | `fabio:Abstract` | 2 |
 | `fabio:BookChapter` | 2 |
 | `fabio:ReportDocument` | 2 |
+| `dct:MediaType` | 1 |
+| `dct:MediaTypeOrExtent` | 1 |
 | `bibo:Periodical` | 1 |
 | `fabio:Book` | 1 |
 | `fabio:Journal` | 1 |
+| `spdx:ChecksumAlgorithm` | 1 |
 | `dcat:Catalog` | 1 |
 | `foaf:Organization` | 1 |
 | `schema:Periodical` | 1 |
@@ -69,12 +74,12 @@
 
 | Property | Triples |
 |---|---|
-| `rdf:type` | 3982 |
+| `rdf:type` | 4253 |
 | `crm:P190_has_symbolic_content` | 558 |
 | `crm:P2_has_type` | 538 |
+| `dct:title` | 517 |
 | `dct:creator` | 512 |
 | `crm:P14_carried_out_by` | 512 |
-| `dct:title` | 510 |
 | `dcat:keyword` | 407 |
 | `dct:license` | 395 |
 | `crm:P1_is_identified_by` | 348 |
@@ -87,10 +92,10 @@
 | `dcat:theme` | 260 |
 | `dcat:landingPage` | 259 |
 | `prism:volume` | 258 |
-| `dct:hasPart` | 258 |
 | `dct:isPartOf` | 258 |
 | `crm:P106i_forms_part_of` | 258 |
 | `prism:number` | 250 |
+| `dct:hasPart` | 250 |
 | `dcat:inSeries` | 250 |
 | `rdfs:label` | 227 |
 | `dct:publisher` | 211 |
@@ -101,10 +106,10 @@
 | `crm:P102_has_title` | 210 |
 | `crm:P94_has_created` | 210 |
 | `rdf:_1` | 210 |
+| `dcat:accessURL` | 210 |
+| `dcat:distribution` | 210 |
 | `sqp:citationLabel` | 210 |
 | `sqp:entryNumber` | 210 |
-| `dcat:accessURL` | 203 |
-| `dcat:distribution` | 203 |
 | `dct:identifier` | 202 |
 | `bibo:doi` | 201 |
 | `prov:wasDerivedFrom` | 201 |

@@ -1,0 +1,191 @@
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix dcat:   <http://www.w3.org/ns/dcat#> .
+@prefix bibo:   <http://purl.org/ontology/bibo/> .
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix prism:  <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo:    <http://www.opengis.net/ont/geosparql#> .
+@prefix event:  <http://purl.org/NET/c4dm/event.owl#> .
+@prefix sqp:    <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqps:   <https://w3id.org/squirrelpapers/shapes#> .
+
+# The journal's own rules for the DCAT graph (S8). DCAT-AP checks the
+# catalogue as a catalogue; these shapes check it as a journal: numbering,
+# IRI patterns, the chain entry -> issue -> volume -> journal, and that every
+# entry can be cited.
+
+sqps:EntryShape
+    a sh:NodeShape ;
+    sh:targetClass bibo:Document ;
+    rdfs:comment "A published entry of the Squirrel Papers." ;
+    sh:pattern "^https://w3id\\.org/squirrelpapers/v[0-9]+/i[0-9]+/e[0-9]+$" ;
+    sh:property [
+        sh:path dct:title ; sh:minCount 1 ; sh:maxCount 1 ; sh:minLength 3 ;
+        sh:or ( [ sh:datatype rdf:langString ] [ sh:datatype xsd:string ] ) ;
+        sh:message "An entry has exactly one title." ] ;
+    sh:property [
+        sh:path dct:creator ; sh:minCount 1 ; sh:class foaf:Person ;
+        sh:message "An entry has at least one creator, a foaf:Person." ] ;
+    sh:property [
+        sh:path bibo:authorList ; sh:minCount 1 ; sh:maxCount 1 ; sh:class rdf:Seq ;
+        sh:message "An entry keeps the order of its authors in one rdf:Seq." ] ;
+    sh:property [
+        sh:path dct:issued ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:or ( [ sh:datatype xsd:date ] [ sh:datatype xsd:gYear ] ) ;
+        sh:message "An entry has one issue date, a full date or a year." ] ;
+    sh:property [
+        sh:path dcat:inSeries ; sh:minCount 1 ; sh:maxCount 1 ; sh:class fabio:JournalIssue ;
+        sh:message "An entry belongs to exactly one issue." ] ;
+    sh:property [
+        sh:path sqp:entryNumber ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:positiveInteger ;
+        sh:message "An entry has one entry number." ] ;
+    sh:property [
+        sh:path sqp:citationLabel ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:pattern "^[0-9]+\\([0-9]+\\), (#|λ|§|𝒬)[0-9]+$" ;
+        sh:message "The citation label reads like '7(4), λ5'." ] ;
+    sh:property [
+        sh:path dct:type ; sh:minCount 1 ;
+        sh:node sqps:TypeConceptShape ;
+        sh:message "Every type of an entry is a concept of the Squirrel Papers type scheme." ] ;
+    sh:property [
+        sh:path dcat:landingPage ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:pattern "^https://squirrelpapers\\.github\\.io/v[0-9]+/i[0-9]+/e[0-9]+/$" ;
+        sh:message "The landing page is the entry's page on the site." ] ;
+    sh:property [
+        sh:path bibo:doi ; sh:maxCount 1 ;
+        sh:pattern "^10\\.[0-9]{4,9}/\\S+$" ;
+        sh:message "A DOI is written without resolver, '10.5281/zenodo.123'." ] ;
+    sh:property [
+        sh:path dcat:distribution ; sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "An entry without distribution cannot be reached from the catalogue." ] .
+
+sqps:TypeConceptShape
+    a sh:NodeShape ;
+    sh:property [
+        sh:path skos:inScheme ; sh:hasValue <https://w3id.org/squirrelpapers/type/> ] .
+
+sqps:IssueShape
+    a sh:NodeShape ;
+    sh:targetClass fabio:JournalIssue ;
+    sh:pattern "^https://w3id\\.org/squirrelpapers/v[0-9]+/i[0-9]+$" ;
+    sh:property [
+        sh:path dcat:inSeries ; sh:minCount 1 ; sh:maxCount 1 ; sh:class fabio:JournalVolume ;
+        sh:message "An issue belongs to exactly one volume." ] ;
+    sh:property [
+        sh:path sqp:sigil ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "#" "λ" "§" "𝒬" ) ;
+        sh:message "An issue has one sigil out of #, λ, §, 𝒬." ] ;
+    sh:property [
+        sh:path prism:number ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [
+        sh:path dct:title ; sh:minCount 2 ;
+        sh:languageIn ( "en" "de" ) ; sh:uniqueLang true ;
+        sh:message "An issue has a title in English and in German." ] .
+
+sqps:VolumeShape
+    a sh:NodeShape ;
+    sh:targetClass fabio:JournalVolume ;
+    sh:pattern "^https://w3id\\.org/squirrelpapers/v[0-9]+$" ;
+    sh:property [
+        sh:path dct:isPartOf ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:hasValue <https://w3id.org/squirrelpapers/> ;
+        sh:message "A volume is part of the journal." ] ;
+    sh:property [
+        sh:path prism:volume ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+sqps:JournalShape
+    a sh:NodeShape ;
+    sh:targetNode <https://w3id.org/squirrelpapers/> ;
+    rdfs:comment """Consistency rules over all entries. Each runs once with the journal
+        as focus node and reports the offending entry as sh:value; as per-entry SPARQL
+        constraints they cost 630 queries and 9 seconds (S8)."""@en ;
+    sh:property [
+        sh:path bibo:issn ; sh:minCount 1 ; sh:hasValue "2750-560X" ] ;
+    sh:property [
+        sh:path dcat:dataset ; sh:minCount 1 ; sh:class fabio:JournalVolume ] ;
+    sh:sparql [
+        sh:message "Entry {?value}: the citation label must agree with volume, issue and entry number." ;
+        sh:prefixes sqps:prefixes ;
+        sh:select """
+            SELECT $this ?value WHERE {
+                ?value a bibo:Document ; sqp:citationLabel ?label ; prism:volume ?v ;
+                       prism:number ?i ; sqp:entryNumber ?n .
+                FILTER (!STRSTARTS(?label, CONCAT(STR(?v), "(", STR(?i), "), "))
+                        || !STRENDS(?label, STR(?n)))
+            }""" ] ;
+    sh:sparql [
+        sh:message "Entry {?value}: when its language is known, the title carries the matching language tag." ;
+        sh:prefixes sqps:prefixes ;
+        sh:select """
+            SELECT $this ?value WHERE {
+                ?value a bibo:Document ; dct:language ?lang ; dct:title ?title .
+                FILTER (LANG(?title) = "" ||
+                        (?lang = <http://publications.europa.eu/resource/authority/language/ENG> && LANG(?title) != "en") ||
+                        (?lang = <http://publications.europa.eu/resource/authority/language/DEU> && LANG(?title) != "de"))
+            }""" ] ;
+    sh:sparql [
+        sh:message "Entry {?value}: the IRI must agree with its issue's IRI and its entry number." ;
+        sh:prefixes sqps:prefixes ;
+        sh:select """
+            SELECT $this ?value WHERE {
+                ?value a bibo:Document ; dcat:inSeries ?issue ; sqp:entryNumber ?n .
+                FILTER (STR(?value) != CONCAT(STR(?issue), "/e", STR(?n)))
+            }""" ] .
+
+sqps:PersonShape
+    a sh:NodeShape ;
+    sh:targetClass foaf:Person ;
+    sh:pattern "^https://w3id\\.org/squirrelpapers/person/[a-z0-9X-]+$" ;
+    sh:property [
+        sh:path foaf:name ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [
+        sh:path foaf:familyName ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [
+        sh:path owl:sameAs ; sh:maxCount 1 ;
+        sh:pattern "^https://orcid\\.org/[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]$" ;
+        sh:message "A person is linked to at most one ORCID." ] .
+
+sqps:EventShape
+    a sh:NodeShape ;
+    sh:targetClass event:Event ;
+    sh:pattern "^https://w3id\\.org/squirrelpapers/event/[a-z0-9-]+$" ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path schema:startDate ; sh:maxCount 1 ] ;
+    sh:property [ sh:path schema:endDate ; sh:maxCount 1 ] ;
+    sh:property [ sh:path schema:location ; sh:maxCount 1 ; sh:class schema:Place ] ;
+    sh:sparql [
+        sh:message "An event cannot end before it starts." ;
+        sh:prefixes sqps:prefixes ;
+        sh:select """
+            SELECT $this WHERE { $this schema:startDate ?s ; schema:endDate ?e . FILTER (STR(?e) < STR(?s)) }""" ] .
+
+sqps:PlaceShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Place ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [
+        sh:path geo:hasGeometry ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:node sqps:PointShape ;
+        sh:message "A place has one point geometry." ] .
+
+sqps:PointShape
+    a sh:NodeShape ;
+    sh:property [
+        sh:path geo:asWKT ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype geo:wktLiteral ;
+        sh:pattern "^POINT\\(-?[0-9.]+ -?[0-9.]+\\)$" ] .
+
+sqps:prefixes
+    sh:declare
+        [ sh:prefix "bibo" ; sh:namespace "http://purl.org/ontology/bibo/"^^xsd:anyURI ] ,
+        [ sh:prefix "dct" ; sh:namespace "http://purl.org/dc/terms/"^^xsd:anyURI ] ,
+        [ sh:prefix "sqp" ; sh:namespace "https://w3id.org/squirrelpapers/ontology#"^^xsd:anyURI ] ,
+        [ sh:prefix "prism" ; sh:namespace "http://prismstandard.org/namespaces/basic/2.0/"^^xsd:anyURI ] ,
+        [ sh:prefix "dcat" ; sh:namespace "http://www.w3.org/ns/dcat#"^^xsd:anyURI ] ,
+        [ sh:prefix "schema" ; sh:namespace "https://schema.org/"^^xsd:anyURI ] .

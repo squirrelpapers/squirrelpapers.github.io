@@ -32,6 +32,10 @@
     crm:P82a_begin_of_the_begin "2025-01-01T00:00:00"^^xsd:dateTime ;
     crm:P82b_end_of_the_end "2025-12-31T23:59:59"^^xsd:dateTime .
 
+<https://w3id.org/squirrelpapers/v7/i2/e6#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/Research-Squirrel-Engineers/osm2lod/> .
+
 <https://w3id.org/squirrelpapers/v7/i2/e6#title> a crm:E35_Title ;
     crm:P190_has_symbolic_content "osm2lod" .
 
@@ -54,6 +58,7 @@
     crm:P102_has_title <https://w3id.org/squirrelpapers/v7/i2/e6#title> ;
     crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v7/i2> ;
     crm:P2_has_type sqpt:software ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i2/e6#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v7/i2> ;
     dcat:landingPage <https://squirrelpapers.github.io/v7/i2/e6/> ;
     dcat:theme sqpt:software ;

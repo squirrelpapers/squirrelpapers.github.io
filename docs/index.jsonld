@@ -90,32 +90,6 @@
           "@value": "The Squirrel Papers by the Research Squirrel Engineers Network are a free Open Access journal hosting publications on Zenodo and the Open Science Framework (OSF), collecting Linked Open Data (LOD), Research Software Engineering (RSE), Cultural Heritage and Geo-Sciences related research papers, working papers, blog posts, posters, slides, research data and research software."
         }
       ],
-      "dct:hasPart": [
-        {
-          "@id": "https://w3id.org/squirrelpapers/v1"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v2"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v3"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v4"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v5"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v6"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v7"
-        },
-        {
-          "@id": "https://w3id.org/squirrelpapers/v8"
-        }
-      ],
       "dct:identifier": "ISSN 2750-560X",
       "dct:language": [
         {

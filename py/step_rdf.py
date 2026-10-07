@@ -149,6 +149,13 @@ class Builder:
     def add(self, s, p, o, graph=None):
         (graph if graph is not None else self.g).add((s, p, o))
 
+    def typed(self, node, cls):
+        """Type a node we only point to (a landing page, a language, a media
+        type). DCAT-AP checks the class of these objects with sh:class (S8),
+        and the authority files that define them are not loaded here."""
+        self.g.add((node, self.N["rdf"]["type"], cls))
+        return node
+
     # -- journal, volumes, issues ---------------------------------------------
 
     def journal_node(self):
@@ -165,12 +172,12 @@ class Builder:
         A(J, N["prism"]["issn"], self.L(j["issn"]))
         A(J, N["dct"]["identifier"], self.L(f"ISSN {j['issn']}"))
         A(J, N["owl"]["sameAs"], N["wd"][j["wikidata"]])
-        A(J, N["dcat"]["landingPage"], self.U(SITE))
-        A(J, N["foaf"]["homepage"], self.U(SITE))
+        A(J, N["dcat"]["landingPage"], self.typed(self.U(SITE), N["foaf"]["Document"]))
+        A(J, N["foaf"]["homepage"], self.typed(self.U(SITE), N["foaf"]["Document"]))
         A(J, N["dct"]["license"], self.U(j["licence"]["content"]))
         A(J, N["dct"]["modified"], self.L(RELEASE, dtype=str(N["xsd"]["date"])))
         for lang in j.get("languages", []):
-            A(J, N["dct"]["language"], N["eulang"][LANG_EU[lang]])
+            A(J, N["dct"]["language"], self.typed(N["eulang"][LANG_EU[lang]], N["dct"]["LinguisticSystem"]))
         A(J, N["dcat"]["themeTaxonomy"], self.U(TYPE_NS))
         # publisher and editor
         P = self.U(PUBLISHER)
@@ -204,8 +211,8 @@ class Builder:
         A(V, N["prism"]["volume"], self.L(str(v["volume"])))
         A(V, N["dct"]["isPartOf"], J)
         A(J, N["dcat"]["dataset"], V)
-        A(J, N["dct"]["hasPart"], V)
-        A(V, N["dcat"]["landingPage"], self.U(SITE + v["path"] + "/"))
+        # not dct:hasPart: DCAT-AP reserves it on a catalogue for sub-catalogues (S8)
+        A(V, N["dcat"]["landingPage"], self.typed(self.U(SITE + v["path"] + "/"), N["foaf"]["Document"]))
         if v.get("wikidata"):
             A(V, N["owl"]["sameAs"], N["wd"][v["wikidata"]])
         A(V, N["rdf"]["type"], N["crm"]["E73_Information_Object"], self.crm)
@@ -232,7 +239,7 @@ class Builder:
         A(V, N["dct"]["hasPart"], I)
         A(I, N["sqp"]["sigil"], self.L(issue["sigil"]))
         A(I, N["sqp"]["specialIssue"], self.L(bool(issue.get("special"))))
-        A(I, N["dcat"]["landingPage"], self.U(SITE + issue["path"] + "/"))
+        A(I, N["dcat"]["landingPage"], self.typed(self.U(SITE + issue["path"] + "/"), N["foaf"]["Document"]))
         if issue.get("wikidata"):
             A(I, N["owl"]["sameAs"], N["wd"][issue["wikidata"]])
         A(I, N["rdf"]["type"], N["crm"]["E73_Information_Object"], self.crm)
@@ -384,14 +391,14 @@ class Builder:
         A(E, N["bibo"]["locator"], self.L(f"{e['sigil']}{e['n']}"))
         A(E, N["prism"]["volume"], self.L(str(e["volume"])))
         A(E, N["prism"]["number"], self.L(str(e["issue"])))
-        A(E, N["dcat"]["landingPage"], self.U(SITE + e["path"] + "/"))
+        A(E, N["dcat"]["landingPage"], self.typed(self.U(SITE + e["path"] + "/"), N["foaf"]["Document"]))
         A(E, N["dct"]["publisher"], self.U(PUBLISHER))
         if e.get("date"):
             A(E, N["dct"]["issued"], self.date(e["date"]))
         elif e.get("year"):
             A(E, N["dct"]["issued"], self.date(str(e["year"])))
         if lang:
-            A(E, N["dct"]["language"], N["eulang"][LANG_EU.get(lang, lang.upper())])
+            A(E, N["dct"]["language"], self.typed(N["eulang"][LANG_EU.get(lang, lang.upper())], N["dct"]["LinguisticSystem"]))
             if e.get("language_guessed"):
                 A(E, N["sqp"]["languageGuessed"], self.L(True))
         if e.get("doi"):
@@ -449,8 +456,8 @@ class Builder:
             A(D, N["dct"]["title"], self.L(e["pdf"]["key"]))
             A(D, N["dcat"]["accessURL"], self.U(e["zenodo"]["url"]))
             A(D, N["dcat"]["downloadURL"], self.U(e["pdf"]["download"]))
-            A(D, N["dcat"]["mediaType"], N["iana"]["application/pdf"])
-            A(D, N["dct"]["format"], N["eufiletype"]["PDF"])
+            A(D, N["dcat"]["mediaType"], self.typed(N["iana"]["application/pdf"], N["dct"]["MediaType"]))
+            A(D, N["dct"]["format"], self.typed(N["eufiletype"]["PDF"], N["dct"]["MediaTypeOrExtent"]))
             pdf_file = next((f for f in e.get("files", []) if f["key"] == e["pdf"]["key"]), {})
             if pdf_file.get("size"):
                 A(D, N["dcat"]["byteSize"], self.L(pdf_file["size"], dtype=str(N["xsd"]["nonNegativeInteger"])))
@@ -458,7 +465,7 @@ class Builder:
                 K = self.U(e["iri"] + "#pdf-checksum")
                 A(D, N["spdx"]["checksum"], K)
                 A(K, N["rdf"]["type"], N["spdx"]["Checksum"])
-                A(K, N["spdx"]["algorithm"], N["spdx"]["checksumAlgorithm_md5"])
+                A(K, N["spdx"]["algorithm"], self.typed(N["spdx"]["checksumAlgorithm_md5"], N["spdx"]["ChecksumAlgorithm"]))
                 A(K, N["spdx"]["checksumValue"], self.L(pdf_file["checksum"][4:], dtype=str(N["xsd"]["hexBinary"])))
             if e.get("licence", {}).get("url"):
                 A(D, N["dct"]["license"], self.U(e["licence"]["url"]))
@@ -466,9 +473,11 @@ class Builder:
             A(D, N["rdf"]["type"], N["crmdig"]["D1_Digital_Object"], C)
             A(D, N["crm"]["P165_incorporates"], E, C)
         else:
-            # DCAT-AP: every dataset needs a way to it; for records without a
-            # PDF (software, data) that is the Zenodo record or the link.
-            target = (e.get("zenodo") or {}).get("url") or e.get("doi_url") or links.get("link")
+            # A way to the work for records without a PDF: the Zenodo record,
+            # the DOI, a link, or - for software releases without a DOI (7 of
+            # them, S8) - the release or repository on GitHub.
+            target = ((e.get("zenodo") or {}).get("url") or e.get("doi_url") or links.get("link")
+                      or links.get("release") or links.get("repository"))
             if target:
                 D = self.U(e["iri"] + "#landing")
                 A(E, N["dcat"]["distribution"], D)

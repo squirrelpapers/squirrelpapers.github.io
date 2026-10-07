@@ -19,6 +19,522 @@
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://squirrelpapers.github.io/v1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i1/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i1/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i1/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i1/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i1/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e10/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e11/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e12/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e13/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e8/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i2/e9/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i3/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i3/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i3/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i3/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i4/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i4/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i4/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i5/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i5/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i5/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i5/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i6/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i6/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i6/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e10/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e8/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v1/i7/e9/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v2/i1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v2/i1/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v2/i1/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v2/i2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v2/i2/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v2/i2/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v2/i2/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v2/i3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e10/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e11/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e12/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e13/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e8/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i1/e9/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i3/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i3/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i3/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i3/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i3/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v3/i4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i1/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i1/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i1/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i2/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i2/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i2/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i2/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i2/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i2/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e11/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e14/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e15/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e16/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e8/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i3/e9/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i4/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v4/i4/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i1/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i1/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i1/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i1/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i1/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i1/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i2/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i2/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i2/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i2/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i2/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i3/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i3/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i3/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i3/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i3/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i3/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i4/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i4/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i4/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i4/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i5/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i5/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i5/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i5/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v5/i6/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i1/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i1/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i2/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i2/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i2/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i2/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i2/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i2/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e10/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e11/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e12/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e8/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i3/e9/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e12/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e13/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e14/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e17/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e18/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e19/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e20/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e21/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e22/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e23/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e24/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e25/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e26/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i4/e8/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v6/i5/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i1/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i1/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i1/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i1/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i1/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i2/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i2/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i2/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i2/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i2/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i2/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e10/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e16/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e17/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e18/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e19/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e20/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e8/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i3/e9/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i4/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i4/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i4/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i4/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i4/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e10/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e7/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e8/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v7/i5/e9/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i1/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i1/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i1/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i1/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i2/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i2/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i2/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i2/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i2/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i3/e1/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i3/e2/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i3/e3/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i3/e4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i3/e5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i3/e6/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i3/e9/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i4/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i5/> a foaf:Document .
+
+<https://squirrelpapers.github.io/v8/i6/> a foaf:Document .
+
 <https://w3id.org/squirrelpapers/event/13-konferenz-der-geodasiestudierenden-2018> a event:Event,
         schema:Event ;
     rdfs:label "13. Konferenz der GeodäsieStudierenden" ;
@@ -6495,6 +7011,7 @@ Dieser Vortrag zeigt anhand von Fallbeispielen die Herausforderungen bei der Int
     bibo:authorList <https://w3id.org/squirrelpapers/v5/i6/e1#authors> ;
     bibo:locator "#1" ;
     rdfs:seeAlso <https://github.com/archaeolink-lod/ars/releases/tag/v0.1> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v5/i6/e1#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v5/i6> ;
     dcat:landingPage <https://squirrelpapers.github.io/v5/i6/e1/> ;
     dcat:theme sqpt:data ;
@@ -6504,6 +7021,10 @@ Dieser Vortrag zeigt anhand von Fallbeispielen die Herausforderungen bei der Int
 
 <https://w3id.org/squirrelpapers/v5/i6/e1#authors> a rdf:Seq ;
     rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v5/i6/e1#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/archaeolink-lod/ars/releases/tag/v0.1> .
 
 <https://w3id.org/squirrelpapers/v6/i1/e1> a bibo:Document,
         fabio:Presentation,
@@ -6825,6 +7346,7 @@ Rewrite of export code""" ;
     dct:type sqpt:software ;
     bibo:authorList <https://w3id.org/squirrelpapers/v6/i2/e6#authors> ;
     bibo:locator "#6" ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v6/i2/e6#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v6/i2> ;
     dcat:landingPage <https://squirrelpapers.github.io/v6/i2/e6/> ;
     dcat:theme sqpt:software ;
@@ -6835,6 +7357,10 @@ Rewrite of export code""" ;
 
 <https://w3id.org/squirrelpapers/v6/i2/e6#authors> a rdf:Seq ;
     rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v6/i2/e6#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/Research-Squirrel-Engineers/jupyter-nb-lod> .
 
 <https://w3id.org/squirrelpapers/v6/i3/e1> a bibo:Document,
         fabio:Presentation,
@@ -9521,6 +10047,7 @@ This article discusses digital methods to model and handle the ordering of so-ca
     dct:type sqpt:data ;
     bibo:authorList <https://w3id.org/squirrelpapers/v7/i2/e5#authors> ;
     bibo:locator "λ5" ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i2/e5#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v7/i2> ;
     dcat:landingPage <https://squirrelpapers.github.io/v7/i2/e5/> ;
     dcat:theme sqpt:data ;
@@ -9533,6 +10060,10 @@ This article discusses digital methods to model and handle the ordering of so-ca
     rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
     rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-4088-255X> ;
     rdf:_3 <https://w3id.org/squirrelpapers/person/alpino-nadine> .
+
+<https://w3id.org/squirrelpapers/v7/i2/e5#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/Research-Squirrel-Engineers/FAIRyland> .
 
 <https://w3id.org/squirrelpapers/v7/i2/e6> a bibo:Document,
         fabio:ComputerProgram,
@@ -9548,6 +10079,7 @@ This article discusses digital methods to model and handle the ordering of so-ca
     dct:type sqpt:software ;
     bibo:authorList <https://w3id.org/squirrelpapers/v7/i2/e6#authors> ;
     bibo:locator "λ6" ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v7/i2/e6#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v7/i2> ;
     dcat:landingPage <https://squirrelpapers.github.io/v7/i2/e6/> ;
     dcat:theme sqpt:software ;
@@ -9558,6 +10090,10 @@ This article discusses digital methods to model and handle the ordering of so-ca
 
 <https://w3id.org/squirrelpapers/v7/i2/e6#authors> a rdf:Seq ;
     rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v7/i2/e6#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/Research-Squirrel-Engineers/osm2lod/> .
 
 <https://w3id.org/squirrelpapers/v7/i3/e1> a bibo:Document,
         fabio:Presentation,
@@ -11640,6 +12176,7 @@ The resulting RDF output can be ingested into triplestores and queried via SPARQ
     bibo:authorList <https://w3id.org/squirrelpapers/v8/i2/e1#authors> ;
     bibo:locator "§1" ;
     rdfs:seeAlso <https://github.com/Research-Squirrel-Engineers/samianresearch-stlpa/releases/tag/v0.1> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v8/i2/e1#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v8/i2> ;
     dcat:landingPage <https://squirrelpapers.github.io/v8/i2/e1/> ;
     dcat:theme sqpt:software ;
@@ -11650,6 +12187,10 @@ The resulting RDF output can be ingested into triplestores and queried via SPARQ
 
 <https://w3id.org/squirrelpapers/v8/i2/e1#authors> a rdf:Seq ;
     rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v8/i2/e1#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/Research-Squirrel-Engineers/samianresearch-stlpa/releases/tag/v0.1> .
 
 <https://w3id.org/squirrelpapers/v8/i2/e2> a bibo:Document,
         fabio:ComputerProgram,
@@ -11667,6 +12208,7 @@ The resulting RDF output can be ingested into triplestores and queried via SPARQ
     bibo:authorList <https://w3id.org/squirrelpapers/v8/i2/e2#authors> ;
     bibo:locator "§2" ;
     rdfs:seeAlso <https://github.com/leiza-rse/site-dating/releases/tag/v0.1> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v8/i2/e2#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v8/i2> ;
     dcat:landingPage <https://squirrelpapers.github.io/v8/i2/e2/> ;
     dcat:theme sqpt:software ;
@@ -11678,6 +12220,10 @@ The resulting RDF output can be ingested into triplestores and queried via SPARQ
 <https://w3id.org/squirrelpapers/v8/i2/e2#authors> a rdf:Seq ;
     rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> ;
     rdf:_2 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> .
+
+<https://w3id.org/squirrelpapers/v8/i2/e2#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/leiza-rse/site-dating/releases/tag/v0.1> .
 
 <https://w3id.org/squirrelpapers/v8/i2/e3> a bibo:Document,
         fabio:ComputerProgram,
@@ -11695,6 +12241,7 @@ The resulting RDF output can be ingested into triplestores and queried via SPARQ
     bibo:authorList <https://w3id.org/squirrelpapers/v8/i2/e3#authors> ;
     bibo:locator "§3" ;
     rdfs:seeAlso <https://github.com/Research-Squirrel-Engineers/GSAS/releases/tag/v0.1> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v8/i2/e3#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v8/i2> ;
     dcat:landingPage <https://squirrelpapers.github.io/v8/i2/e3/> ;
     dcat:theme sqpt:software ;
@@ -11706,6 +12253,10 @@ The resulting RDF output can be ingested into triplestores and queried via SPARQ
 
 <https://w3id.org/squirrelpapers/v8/i2/e3#authors> a rdf:Seq ;
     rdf:_1 <https://w3id.org/squirrelpapers/person/0000-0002-3246-3531> .
+
+<https://w3id.org/squirrelpapers/v8/i2/e3#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/Research-Squirrel-Engineers/GSAS/releases/tag/v0.1> .
 
 <https://w3id.org/squirrelpapers/v8/i2/e4> a bibo:Document,
         fabio:ComputerProgram,
@@ -12314,6 +12865,8 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     dcat:landingPage <https://squirrelpapers.github.io/v8/i6/> ;
     sqp:sigil "§" ;
     sqp:specialIssue true .
+
+<https://squirrelpapers.github.io/> a foaf:Document .
 
 <https://w3id.org/squirrelpapers/event/1st-base4nfdi-user-conference-uc4b2024-berlin-germany-2024> a event:Event,
         schema:Event ;
@@ -14115,6 +14668,19 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     sqp:sigil "#" ;
     sqp:specialIssue true .
 
+<https://w3id.org/squirrelpapers/v2> a fabio:JournalVolume,
+        dcat:DatasetSeries ;
+    prism:volume "2" ;
+    dct:description "Volume 2 of the Squirrel Papers, covering 2020."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v2/i1>,
+        <https://w3id.org/squirrelpapers/v2/i2>,
+        <https://w3id.org/squirrelpapers/v2/i3> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 2 (2020)"@de,
+        "Squirrel Papers, Volume 2 (2020)"@en ;
+    owl:sameAs wd:Q116235706 ;
+    dcat:landingPage <https://squirrelpapers.github.io/v2/> .
+
 <https://w3id.org/squirrelpapers/v2/i2> a fabio:JournalIssue,
         dcat:DatasetSeries ;
     prism:number "2" ;
@@ -14155,14 +14721,6 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     prism:issn "2750-560X" ;
     dct:description "Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften."@de,
         "The Squirrel Papers by the Research Squirrel Engineers Network are a free Open Access journal hosting publications on Zenodo and the Open Science Framework (OSF), collecting Linked Open Data (LOD), Research Software Engineering (RSE), Cultural Heritage and Geo-Sciences related research papers, working papers, blog posts, posters, slides, research data and research software."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v1>,
-        <https://w3id.org/squirrelpapers/v2>,
-        <https://w3id.org/squirrelpapers/v3>,
-        <https://w3id.org/squirrelpapers/v4>,
-        <https://w3id.org/squirrelpapers/v5>,
-        <https://w3id.org/squirrelpapers/v6>,
-        <https://w3id.org/squirrelpapers/v7>,
-        <https://w3id.org/squirrelpapers/v8> ;
     dct:identifier "ISSN 2750-560X" ;
     dct:language eulang:DEU,
         eulang:ENG ;
@@ -14229,19 +14787,6 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     foaf:givenName "Megan Nichole" ;
     foaf:name "Megan Nichole Kasten" .
 
-<https://w3id.org/squirrelpapers/v2> a fabio:JournalVolume,
-        dcat:DatasetSeries ;
-    prism:volume "2" ;
-    dct:description "Volume 2 of the Squirrel Papers, covering 2020."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v2/i1>,
-        <https://w3id.org/squirrelpapers/v2/i2>,
-        <https://w3id.org/squirrelpapers/v2/i3> ;
-    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
-    dct:title "Squirrel Papers, Band 2 (2020)"@de,
-        "Squirrel Papers, Volume 2 (2020)"@en ;
-    owl:sameAs wd:Q116235706 ;
-    dcat:landingPage <https://squirrelpapers.github.io/v2/> .
-
 <https://w3id.org/squirrelpapers/v1/i3> a fabio:JournalIssue,
         dcat:DatasetSeries ;
     prism:number "3" ;
@@ -14275,6 +14820,34 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     dcat:landingPage <https://squirrelpapers.github.io/v1/i5/> ;
     sqp:sigil "#" ;
     sqp:specialIssue true .
+
+<https://w3id.org/squirrelpapers/v3> a fabio:JournalVolume,
+        dcat:DatasetSeries ;
+    prism:volume "3" ;
+    dct:description "Volume 3 of the Squirrel Papers, covering 2021."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v3/i1>,
+        <https://w3id.org/squirrelpapers/v3/i2>,
+        <https://w3id.org/squirrelpapers/v3/i3>,
+        <https://w3id.org/squirrelpapers/v3/i4> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 3 (2021)"@de,
+        "Squirrel Papers, Volume 3 (2021)"@en ;
+    owl:sameAs wd:Q116235711 ;
+    dcat:landingPage <https://squirrelpapers.github.io/v3/> .
+
+<https://w3id.org/squirrelpapers/v4> a fabio:JournalVolume,
+        dcat:DatasetSeries ;
+    prism:volume "4" ;
+    dct:description "Volume 4 of the Squirrel Papers, covering 2022."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v4/i1>,
+        <https://w3id.org/squirrelpapers/v4/i2>,
+        <https://w3id.org/squirrelpapers/v4/i3>,
+        <https://w3id.org/squirrelpapers/v4/i4> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 4 (2022)"@de,
+        "Squirrel Papers, Volume 4 (2022)"@en ;
+    owl:sameAs wd:Q114568632 ;
+    dcat:landingPage <https://squirrelpapers.github.io/v4/> .
 
 <https://w3id.org/squirrelpapers/v5/i4> a fabio:JournalIssue,
         dcat:DatasetSeries ;
@@ -14365,34 +14938,6 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     foaf:name "Jonas Veller" ;
     schema:identifier <https://orcid.org/0000-0003-1666-0348> .
 
-<https://w3id.org/squirrelpapers/v3> a fabio:JournalVolume,
-        dcat:DatasetSeries ;
-    prism:volume "3" ;
-    dct:description "Volume 3 of the Squirrel Papers, covering 2021."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v3/i1>,
-        <https://w3id.org/squirrelpapers/v3/i2>,
-        <https://w3id.org/squirrelpapers/v3/i3>,
-        <https://w3id.org/squirrelpapers/v3/i4> ;
-    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
-    dct:title "Squirrel Papers, Band 3 (2021)"@de,
-        "Squirrel Papers, Volume 3 (2021)"@en ;
-    owl:sameAs wd:Q116235711 ;
-    dcat:landingPage <https://squirrelpapers.github.io/v3/> .
-
-<https://w3id.org/squirrelpapers/v4> a fabio:JournalVolume,
-        dcat:DatasetSeries ;
-    prism:volume "4" ;
-    dct:description "Volume 4 of the Squirrel Papers, covering 2022."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v4/i1>,
-        <https://w3id.org/squirrelpapers/v4/i2>,
-        <https://w3id.org/squirrelpapers/v4/i3>,
-        <https://w3id.org/squirrelpapers/v4/i4> ;
-    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
-    dct:title "Squirrel Papers, Band 4 (2022)"@de,
-        "Squirrel Papers, Volume 4 (2022)"@en ;
-    owl:sameAs wd:Q114568632 ;
-    dcat:landingPage <https://squirrelpapers.github.io/v4/> .
-
 <https://w3id.org/squirrelpapers/v1/i1> a fabio:JournalIssue,
         dcat:DatasetSeries ;
     prism:number "1" ;
@@ -14447,6 +14992,34 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     dcat:landingPage <https://squirrelpapers.github.io/v5/i2/> ;
     sqp:sigil "#" ;
     sqp:specialIssue true .
+
+<https://w3id.org/squirrelpapers/v6> a fabio:JournalVolume,
+        dcat:DatasetSeries ;
+    prism:volume "6" ;
+    dct:description "Volume 6 of the Squirrel Papers, covering 2024."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v6/i1>,
+        <https://w3id.org/squirrelpapers/v6/i2>,
+        <https://w3id.org/squirrelpapers/v6/i3>,
+        <https://w3id.org/squirrelpapers/v6/i4>,
+        <https://w3id.org/squirrelpapers/v6/i5> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 6 (2024)"@de,
+        "Squirrel Papers, Volume 6 (2024)"@en ;
+    dcat:landingPage <https://squirrelpapers.github.io/v6/> .
+
+<https://w3id.org/squirrelpapers/v7> a fabio:JournalVolume,
+        dcat:DatasetSeries ;
+    prism:volume "7" ;
+    dct:description "Volume 7 of the Squirrel Papers, covering 2025."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v7/i1>,
+        <https://w3id.org/squirrelpapers/v7/i2>,
+        <https://w3id.org/squirrelpapers/v7/i3>,
+        <https://w3id.org/squirrelpapers/v7/i4>,
+        <https://w3id.org/squirrelpapers/v7/i5> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 7 (2025)"@de,
+        "Squirrel Papers, Volume 7 (2025)"@en ;
+    dcat:landingPage <https://squirrelpapers.github.io/v7/> .
 
 <https://w3id.org/squirrelpapers/v7/i1> a fabio:JournalIssue,
         dcat:DatasetSeries ;
@@ -14522,34 +15095,6 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     schema:latitude 4.999944e+01 ;
     schema:longitude 8.273611e+00 .
 
-<https://w3id.org/squirrelpapers/v6> a fabio:JournalVolume,
-        dcat:DatasetSeries ;
-    prism:volume "6" ;
-    dct:description "Volume 6 of the Squirrel Papers, covering 2024."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v6/i1>,
-        <https://w3id.org/squirrelpapers/v6/i2>,
-        <https://w3id.org/squirrelpapers/v6/i3>,
-        <https://w3id.org/squirrelpapers/v6/i4>,
-        <https://w3id.org/squirrelpapers/v6/i5> ;
-    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
-    dct:title "Squirrel Papers, Band 6 (2024)"@de,
-        "Squirrel Papers, Volume 6 (2024)"@en ;
-    dcat:landingPage <https://squirrelpapers.github.io/v6/> .
-
-<https://w3id.org/squirrelpapers/v7> a fabio:JournalVolume,
-        dcat:DatasetSeries ;
-    prism:volume "7" ;
-    dct:description "Volume 7 of the Squirrel Papers, covering 2025."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v7/i1>,
-        <https://w3id.org/squirrelpapers/v7/i2>,
-        <https://w3id.org/squirrelpapers/v7/i3>,
-        <https://w3id.org/squirrelpapers/v7/i4>,
-        <https://w3id.org/squirrelpapers/v7/i5> ;
-    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
-    dct:title "Squirrel Papers, Band 7 (2025)"@de,
-        "Squirrel Papers, Volume 7 (2025)"@en ;
-    dcat:landingPage <https://squirrelpapers.github.io/v7/> .
-
 <https://w3id.org/squirrelpapers/v4/i2> a fabio:JournalIssue,
         dcat:DatasetSeries ;
     prism:number "2" ;
@@ -14569,6 +15114,22 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     dcat:landingPage <https://squirrelpapers.github.io/v4/i2/> ;
     sqp:sigil "#" ;
     sqp:specialIssue true .
+
+<https://w3id.org/squirrelpapers/v5> a fabio:JournalVolume,
+        dcat:DatasetSeries ;
+    prism:volume "5" ;
+    dct:description "Volume 5 of the Squirrel Papers, covering 2023."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v5/i1>,
+        <https://w3id.org/squirrelpapers/v5/i2>,
+        <https://w3id.org/squirrelpapers/v5/i3>,
+        <https://w3id.org/squirrelpapers/v5/i4>,
+        <https://w3id.org/squirrelpapers/v5/i5>,
+        <https://w3id.org/squirrelpapers/v5/i6> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 5 (2023)"@de,
+        "Squirrel Papers, Volume 5 (2023)"@en ;
+    owl:sameAs wd:Q116234611 ;
+    dcat:landingPage <https://squirrelpapers.github.io/v5/> .
 
 <https://w3id.org/squirrelpapers/v5/i1> a fabio:JournalIssue,
         dcat:DatasetSeries ;
@@ -14648,6 +15209,21 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     sqp:sigil "λ" ;
     sqp:specialIssue true .
 
+<https://w3id.org/squirrelpapers/v8> a fabio:JournalVolume,
+        dcat:DatasetSeries ;
+    prism:volume "8" ;
+    dct:description "Volume 8 of the Squirrel Papers, covering 2026."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v8/i1>,
+        <https://w3id.org/squirrelpapers/v8/i2>,
+        <https://w3id.org/squirrelpapers/v8/i3>,
+        <https://w3id.org/squirrelpapers/v8/i4>,
+        <https://w3id.org/squirrelpapers/v8/i5>,
+        <https://w3id.org/squirrelpapers/v8/i6> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 8 (2026)"@de,
+        "Squirrel Papers, Volume 8 (2026)"@en ;
+    dcat:landingPage <https://squirrelpapers.github.io/v8/> .
+
 <https://spdx.org/licenses/MIT.html> a dct:LicenseDocument .
 
 <https://w3id.org/squirrelpapers/person/0000-0001-8188-620X> a foaf:Person,
@@ -14677,37 +15253,6 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     foaf:name "Sophie Charlotte Schmidt" ;
     schema:identifier <https://orcid.org/0000-0003-4696-2101> .
 
-<https://w3id.org/squirrelpapers/v5> a fabio:JournalVolume,
-        dcat:DatasetSeries ;
-    prism:volume "5" ;
-    dct:description "Volume 5 of the Squirrel Papers, covering 2023."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v5/i1>,
-        <https://w3id.org/squirrelpapers/v5/i2>,
-        <https://w3id.org/squirrelpapers/v5/i3>,
-        <https://w3id.org/squirrelpapers/v5/i4>,
-        <https://w3id.org/squirrelpapers/v5/i5>,
-        <https://w3id.org/squirrelpapers/v5/i6> ;
-    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
-    dct:title "Squirrel Papers, Band 5 (2023)"@de,
-        "Squirrel Papers, Volume 5 (2023)"@en ;
-    owl:sameAs wd:Q116234611 ;
-    dcat:landingPage <https://squirrelpapers.github.io/v5/> .
-
-<https://w3id.org/squirrelpapers/v8> a fabio:JournalVolume,
-        dcat:DatasetSeries ;
-    prism:volume "8" ;
-    dct:description "Volume 8 of the Squirrel Papers, covering 2026."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v8/i1>,
-        <https://w3id.org/squirrelpapers/v8/i2>,
-        <https://w3id.org/squirrelpapers/v8/i3>,
-        <https://w3id.org/squirrelpapers/v8/i4>,
-        <https://w3id.org/squirrelpapers/v8/i5>,
-        <https://w3id.org/squirrelpapers/v8/i6> ;
-    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
-    dct:title "Squirrel Papers, Band 8 (2026)"@de,
-        "Squirrel Papers, Volume 8 (2026)"@en ;
-    dcat:landingPage <https://squirrelpapers.github.io/v8/> .
-
 <https://w3id.org/squirrelpapers/person/0000-0002-9953-7638> a foaf:Person,
         schema:Person ;
     rdfs:label "Karsten Tolle" ;
@@ -14716,6 +15261,23 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     foaf:givenName "Karsten" ;
     foaf:name "Karsten Tolle" ;
     schema:identifier <https://orcid.org/0000-0002-9953-7638> .
+
+<https://w3id.org/squirrelpapers/v1> a fabio:JournalVolume,
+        dcat:DatasetSeries ;
+    prism:volume "1" ;
+    dct:description "Volume 1 of the Squirrel Papers, covering 2014–2019."@en ;
+    dct:hasPart <https://w3id.org/squirrelpapers/v1/i1>,
+        <https://w3id.org/squirrelpapers/v1/i2>,
+        <https://w3id.org/squirrelpapers/v1/i3>,
+        <https://w3id.org/squirrelpapers/v1/i4>,
+        <https://w3id.org/squirrelpapers/v1/i5>,
+        <https://w3id.org/squirrelpapers/v1/i6>,
+        <https://w3id.org/squirrelpapers/v1/i7> ;
+    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
+    dct:title "Squirrel Papers, Band 1 (2014–2019)"@de,
+        "Squirrel Papers, Volume 1 (2014–2019)"@en ;
+    owl:sameAs wd:Q116235709 ;
+    dcat:landingPage <https://squirrelpapers.github.io/v1/> .
 
 <https://w3id.org/squirrelpapers/v8/i3> a fabio:JournalIssue,
         dcat:DatasetSeries ;
@@ -14754,23 +15316,6 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     foaf:givenName "Fabian" ;
     foaf:name "Fabian Fricke" ;
     schema:identifier <https://orcid.org/0000-0003-3223-2079> .
-
-<https://w3id.org/squirrelpapers/v1> a fabio:JournalVolume,
-        dcat:DatasetSeries ;
-    prism:volume "1" ;
-    dct:description "Volume 1 of the Squirrel Papers, covering 2014–2019."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v1/i1>,
-        <https://w3id.org/squirrelpapers/v1/i2>,
-        <https://w3id.org/squirrelpapers/v1/i3>,
-        <https://w3id.org/squirrelpapers/v1/i4>,
-        <https://w3id.org/squirrelpapers/v1/i5>,
-        <https://w3id.org/squirrelpapers/v1/i6>,
-        <https://w3id.org/squirrelpapers/v1/i7> ;
-    dct:isPartOf <https://w3id.org/squirrelpapers/> ;
-    dct:title "Squirrel Papers, Band 1 (2014–2019)"@de,
-        "Squirrel Papers, Volume 1 (2014–2019)"@en ;
-    owl:sameAs wd:Q116235709 ;
-    dcat:landingPage <https://squirrelpapers.github.io/v1/> .
 
 <https://w3id.org/squirrelpapers/person/0000-0003-4889-9353> a foaf:Person,
         schema:Person ;
@@ -15025,6 +15570,8 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     sqp:sigil "#" ;
     sqp:specialIssue true .
 
+eulang:DEU a dct:LinguisticSystem .
+
 <https://w3id.org/squirrelpapers/person/0000-0002-7634-5342> a foaf:Person,
         schema:Person ;
     rdfs:label "Allard W. Mees" ;
@@ -15033,6 +15580,14 @@ Thiery, Florian, und Peter Thiery. 2023. „Linked Open Ogham. How to publish an
     foaf:givenName "Allard W." ;
     foaf:name "Allard W. Mees" ;
     schema:identifier <https://orcid.org/0000-0002-7634-5342> .
+
+eulang:ENG a dct:LinguisticSystem .
+
+eufiletype:PDF a dct:MediaTypeOrExtent .
+
+spdx:checksumAlgorithm_md5 a spdx:ChecksumAlgorithm .
+
+<http://www.iana.org/assignments/media-types/application/pdf> a dct:MediaType .
 
 <https://w3id.org/squirrelpapers/org/research-squirrel-engineers> a foaf:Organization ;
     foaf:name "Research Squirrel Engineers Network"@en .

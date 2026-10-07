@@ -22,14 +22,6 @@
     prism:issn "2750-560X" ;
     dct:description "Die Squirrel Papers des Research Squirrel Engineers Network sind ein kostenfreies Open-Access-Journal mit Publikationen auf Zenodo und dem Open Science Framework (OSF). Sie sammeln Forschungsarbeiten, Working Papers, Blogbeiträge, Poster, Folien, Forschungsdaten und Forschungssoftware aus den Bereichen Linked Open Data (LOD), Research Software Engineering (RSE), Kulturerbe und Geowissenschaften."@de,
         "The Squirrel Papers by the Research Squirrel Engineers Network are a free Open Access journal hosting publications on Zenodo and the Open Science Framework (OSF), collecting Linked Open Data (LOD), Research Software Engineering (RSE), Cultural Heritage and Geo-Sciences related research papers, working papers, blog posts, posters, slides, research data and research software."@en ;
-    dct:hasPart <https://w3id.org/squirrelpapers/v1>,
-        <https://w3id.org/squirrelpapers/v2>,
-        <https://w3id.org/squirrelpapers/v3>,
-        <https://w3id.org/squirrelpapers/v4>,
-        <https://w3id.org/squirrelpapers/v5>,
-        <https://w3id.org/squirrelpapers/v6>,
-        <https://w3id.org/squirrelpapers/v7>,
-        <https://w3id.org/squirrelpapers/v8> ;
     dct:identifier "ISSN 2750-560X" ;
     dct:language eulang:DEU,
         eulang:ENG ;

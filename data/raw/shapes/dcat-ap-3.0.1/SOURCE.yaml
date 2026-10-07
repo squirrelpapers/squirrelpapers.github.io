@@ -1,0 +1,9 @@
+# DCAT-AP 3.0.1 SHACL shapes, copied unchanged (PRIMER A3). Used by the
+# validate step (S8). Load both files together: ranges.ttl refers to property
+# shapes defined in dcat-ap-SHACL.ttl.
+repository: https://github.com/SEMICeu/DCAT-AP
+commit: 4470b8ea907b7eb9ec55ab22befd1ecd2210ff32
+path: releases/3.0.1/shacl/
+files: [dcat-ap-SHACL.ttl, ranges.ttl]
+licence: CC BY 4.0 (see LICENSE)
+taken: 2026-10-07

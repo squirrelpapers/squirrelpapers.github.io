@@ -207,6 +207,15 @@ Eigenschaften, an denen das Ergebnis gemessen wird:
 | Keine Blank Nodes | Autorenreihenfolge als `rdf:Seq` mit eigener IRI (`#authors`), Distribution, Prüfsumme, Zeitspannen als Hash-IRIs; der Build bricht bei einem Blank Node ab | 2026-10-07 |
 | DCAT-AP-Pflichtfelder | Fehlt ein Abstract, bekommt der Eintrag eine erzeugte `dct:description` („Presentation published in the Squirrel Papers 7(4), λ5."); ohne PDF eine Distribution `#landing` auf Zenodo/DOI/Link; Sprachen als EU-Authority-IRIs | 2026-10-07 |
 | Turtle-Präfixe | Feste Präfixe nur für Prädikate und Klassen; Subjekt- und Objekt-IRIs werden ausgeschrieben (vorher ein `nsNN`-Präfix pro Eintrag) | 2026-10-07 |
+| SHACL-Gate | Drei Prüfungen: DCAT-AP 3.0.1 (offizielle Shapes, unverändert unter `data/raw/shapes/dcat-ap-3.0.1/`) und Journal-Regeln (`shapes/sqp-shapes.ttl`) auf dem DCAT-Graphen + Typenvokabular + `shapes/axioms.ttl`; CRM-Regeln (`shapes/crm-shapes.ttl`) auf dem CRM-Graphen. Verstöße = Fehler unter `--strict`, sonst Warnung | 2026-10-07 |
+| Selbsttest | Vor jeder Prüfung muss ein absichtlich kaputter Eintrag (`shapes/selftest.ttl`) von jeder dort genannten Regel gemeldet werden, sonst bricht der Schritt ab — ein Gate, das nie anschlägt, schützt nichts | 2026-10-07 |
+| Unterklassen-Axiome | Nur zur Validierung: `dcat:DatasetSeries ⊑ dcat:Dataset`, `foaf:Person`/`Organization ⊑ foaf:Agent` (aus den Spezifikationen); pyshacl folgt `rdfs:subClassOf` bei `sh:class`, der veröffentlichte Graph bleibt ohne Doppeltypisierung | 2026-10-07 |
+| Typisierung verwiesener Knoten | Landing Pages `foaf:Document`, EU-Sprach-IRIs `dct:LinguisticSystem`, IANA-Medientyp `dct:MediaType`, EU-Dateityp `dct:MediaTypeOrExtent`, SPDX-Algorithmus `spdx:ChecksumAlgorithm` — im veröffentlichten Graphen, weil DCAT-AP sie per `sh:class` verlangt und die Normdateien nicht mitgeladen werden | 2026-10-07 |
+| Konsistenzregeln über alle Einträge | Als SPARQL-Constraints am Journal-Knoten (eine Abfrage je Regel, fehlerhafter Eintrag als `sh:value`), nicht je Eintrag — 9 s → 0,1 s | 2026-10-07 |
+| COAR-Codes | Gegen COAR Resource Types 3.2 (Stand 2024-12-03) geprüft: alle Codes in `types.yaml` existieren; `c_c94f` = „conference output" für Workshop/Abstract/Session (`closeMatch`) | 2026-10-07 |
+| S14: Einreichen | `python main.py add` (CLI, prüft und sortiert ein) als Kern, Issue-Formular + Action, die daraus einen Pull Request macht, obendrauf | 2026-10-07 |
+| S14: Bearbeiten | Der Editor kann auch bestehende Einträge laden und ändern (Ergebnis wieder als Schnipsel / Änderung über denselben Weg) | 2026-10-07 |
+| S14: Zenodo | Nur optionale Anreicherung; jedes Feld lässt sich von Hand füllen, der Editor funktioniert vollständig ohne DOI und ohne Netz zu Zenodo | 2026-10-07 |
 | Lizenzdatei für Inhalte | `LICENSE-CONTENT` verweist auf CC BY 4.0 (Link auf den Legal Code), kein Volltext im Repo | 2026-10-06 |
 
 ## A5. Was in welchem Chat hochgeladen wird
@@ -240,6 +249,7 @@ Basis: `https://w3id.org/squirrelpapers/`
 | `/event/<slug>-<jahr>` | Veranstaltungen (`event:Event`, `crm:E7_Activity`) | noch keine Seite | aktiv im Graph (S7), Seite offen |
 | `/place/<key>` | Orte (`dct:Location`, `geo:Feature`, `crm:E53_Place`) | Karte (S10) | aktiv im Graph (S7) |
 | `/org/research-squirrel-engineers` | Herausgeber (`foaf:Organization`) | Startseite | aktiv im Graph (S7) |
+| `/shapes/` | SHACL-Regeln des Journals (`sqp-shapes.ttl`, `crm-shapes.ttl`) | `…/shapes/` | aktiv (S8) |
 | `/dump.ttl` | Gesamtgraph | `…/downloads/squirrelpapers.ttl` (CRM-Sicht: `squirrelpapers.crm.ttl`) | beschlossen, Redirect in S12 |
 
 Content Negotiation (S12): `Accept: text/turtle` → `index.ttl`,
@@ -260,7 +270,7 @@ sonst HTML. Jede Entry-Seite liegt als Ordner mit diesen Dateien.
 | S5 | Seiten EN/DE: Journal, Volume, Issue, Entry, About, Impressum, Datenschutz; PDF-iframe | dieses | S4 | erledigt 2026-10-07 |
 | S6 | Zitation: CSL-JSON, citeproc-js + Stilwahl, BibTeX/RIS je Ebene | dieses | S4 | erledigt 2026-10-07 |
 | S7 | RDF: Ontologie, DCAT 3/DCAT-AP 3, BIBO/FaBiO, CRM/CRMdig/LRMoo, JSON-LD | dieses | S4 | erledigt 2026-10-07 |
-| S8 | SHACL-Gate (eigene + DCAT-AP-3-Shapes), `--strict` | dieses | S7 | offen |
+| S8 | SHACL-Gate (eigene + DCAT-AP-3-Shapes), `--strict` | dieses | S7 | erledigt 2026-10-07 |
 | S9 | Filter (JSON-Index) + SPARQL-Seite (rdflib/Pyodide) | dieses | S7 | offen |
 | S10 | Karte der Konferenzorte + GeoJSON | dieses | S3, S4 | offen |
 | S11 | GitHub Action: Build + Pages-Deploy, optional Harvest | dieses | S5–S10 | offen |
@@ -685,6 +695,37 @@ Negotiation in S12. Keine Blank Nodes, zwei Läufe byte-gleich, Laufzeit ≈ 6 s
 **Abnahme:** `python main.py --strict` scheitert bei einer absichtlich
 kaputten Entry und läuft ohne sie durch.
 
+### Erledigt 2026-10-07
+
+`py/step_validate.py`, `shapes/{sqp-shapes,crm-shapes,axioms,selftest}.ttl`,
+DCAT-AP 3.0.1 unter `data/raw/shapes/dcat-ap-3.0.1/` (Commit `4470b8e`,
+CC BY 4.0). Anpassungen in `step_rdf.py` (Typisierungen, kein `dct:hasPart`
+am Katalog, Repository-Link als Distribution).
+
+**Ergebnis:** DCAT-AP 3.0.1, Journal-Regeln und CRM-Regeln je **0 Verstöße,
+0 Warnungen**. Selbsttest grün. Laufzeit ≈ 6 s. Bericht
+`dist/reports/validation.md`. Abnahme geprüft: ein zusätzlich eingefügtes
+Zitierlabel liefert 2 Verstöße und `--strict` bricht ab; eine entschärfte Regel
+(Muster des Zitierlabels entfernt) lässt den Selbsttest scheitern.
+
+**Befunde:**
+- **DCAT-AP 3.0.1 ist so nicht ladbar:** `ranges.ttl` verweist auf
+  Property-Shapes aus `dcat-ap-SHACL.ttl` (beide müssen zusammen geladen werden),
+  und 5 `sh:property`-Verweise zeigen auf Shapes, die es in keiner der Dateien
+  gibt. pyshacl bricht daran ab. Die Dateien bleiben unverändert; die 5
+  Verweise werden beim Laden übersprungen und im Bericht aufgeführt. Wäre ein
+  Issue bei SEMICeu/DCAT-AP wert.
+- **Erster Lauf: ≈ 1 300 DCAT-AP-Verstöße**, alle `sh:class` auf Objekten
+  (Personen nicht als `foaf:Agent`, Typen nicht als `skos:Concept`, Sprachen,
+  Medientypen, Landing Pages). Gelöst über Axiome und Typisierung (A4).
+- **Echter Modellierungsfehler:** `dct:hasPart` vom Journal zu den Bänden —
+  DCAT-AP reserviert das am Katalog für Unterkataloge. Entfernt; die Bände
+  hängen über `dcat:dataset` und `dct:isPartOf` am Journal.
+- 7 Software-Releases ohne DOI hatten keine Distribution; jetzt der
+  Release-/Repository-Link als `#landing`.
+- 43 Titel ohne bekannte Sprache tragen kein Sprach-Tag — erlaubt; die Regel
+  verlangt das Tag nur, wenn `dct:language` bekannt ist.
+
 ## S9 — Filter und SPARQL
 
 **Ziel:** Facettenfilter (Jahr, Typ, Volume, Event, Person, Sprache) auf der
@@ -749,8 +790,18 @@ Einreichen (S14b, siehe Teil D 7): Issue-Formular, Pull Request oder CLI
   `content/schema/entry.schema.json` aus dem tatsächlichen YAML-Format, plus
   `python main.py check`, das alle `content/vol*.yaml` dagegen prüft. Der
   Editor und dieses Repo validieren gegen dieselbe Datei.
-- **S14b — Einreichen:** das Werkzeug, das den Schnipsel ins offizielle
-  Verzeichnis bringt (Optionen in Teil D 7).
+- **S14b — Einreichen (beschlossen 2026-10-07):** Kern ist
+  `python main.py add <schnipsel.yaml>` in diesem Repo — prüft gegen das Schema,
+  vergibt bei Bedarf die nächste freie Nummer, sortiert in
+  `content/vol<N>.yaml` ein, lässt `--strict` laufen. Obendrauf ein
+  Issue-Formular; eine Action ruft dasselbe `add` auf und öffnet einen Pull
+  Request. Der Editor öffnet das vorausgefüllte Issue (kein Token im Browser).
+- **Bearbeiten:** Der Editor lädt einen bestehenden Eintrag (aus
+  `entries.json` bzw. dem YAML) und erzeugt die Änderung auf demselben Weg;
+  `add` kennt dafür einen Modus, der einen vorhandenen Eintrag ersetzt.
+- **Zenodo nur als Anreicherung:** Alle Felder sind von Hand ausfüllbar; die
+  DOI-Abfrage füllt nur leere Felder vor und ist abschaltbar. Ohne Netz zu
+  Zenodo funktioniert alles.
 - Typen aus `content/vocab/types.yaml`, UI zweisprachig wie die Seite, Look
   der Squirrel Papers.
 
@@ -820,7 +871,9 @@ Eintragsseite; keine toten Links.
 6. **DOI für Volumes/Issues** (Zenodo-Communities oder eigene Records)? Würde
    die Zitierfähigkeit der Issues verbessern.
 
-7. **S14b — wie kommt ein Schnipsel ins Verzeichnis?** Optionen:
+7. ~~S14b — wie kommt ein Schnipsel ins Verzeichnis?~~ → entschieden
+   2026-10-07: (b) als Kern, (a) obendrauf, dazu Bearbeiten (A4, Teil C S14).
+   Ursprüngliche Optionen:
    (a) GitHub-Issue-Formular in diesem Repo, eine Action macht daraus einen
    Pull Request auf `content/vol<N>.yaml` (Editor öffnet das vorausgefüllte
    Issue; kein Token im Browser); (b) `python main.py add schnipsel.yaml` als

@@ -1,0 +1,12 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# Subclass axioms from the DCAT 3 and FOAF specifications, added to the data
+# graph for validation only (S8). pyshacl follows rdfs:subClassOf for
+# sh:class, so a volume (dcat:DatasetSeries) counts as a dcat:Dataset and a
+# person as a foaf:Agent without stating it twice in the published graph.
+
+dcat:DatasetSeries rdfs:subClassOf dcat:Dataset .
+foaf:Person rdfs:subClassOf foaf:Agent .
+foaf:Organization rdfs:subClassOf foaf:Agent .

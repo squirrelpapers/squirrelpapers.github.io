@@ -1,0 +1,29 @@
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix dcat:   <http://www.w3.org/ns/dcat#> .
+@prefix bibo:   <http://purl.org/ontology/bibo/> .
+@prefix fabio:  <http://purl.org/spar/fabio/> .
+@prefix prism:  <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sqp:    <https://w3id.org/squirrelpapers/ontology#> .
+@prefix sqps:   <https://w3id.org/squirrelpapers/shapes#> .
+
+# A deliberately broken entry (S8). The validate step adds it to a copy of the
+# graph and fails unless every rule listed in `sqps:expects` reports it: a gate
+# that never fires guards nothing. Never part of a published graph.
+
+<https://w3id.org/squirrelpapers/v7/i4/e99>
+    a dcat:Dataset , bibo:Document , fabio:Presentation ;
+    dct:title "Title without the tag its language demands" ;
+    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:issued "last spring" ;
+    dcat:inSeries <https://w3id.org/squirrelpapers/v7/i4> ;
+    sqp:entryNumber "98"^^xsd:positiveInteger ;
+    sqp:citationLabel "7(5) λ99" ;
+    prism:volume "7" ; prism:number "4" ;
+    dct:type <https://w3id.org/squirrelpapers/type/no-such-type> ;
+    bibo:doi "https://doi.org/10.5281/zenodo.1" .
+
+sqps:selftest sqps:expects
+    dct:creator , bibo:authorList , dct:issued , sqp:citationLabel ,
+    dct:type , dcat:landingPage , bibo:doi , dct:description .

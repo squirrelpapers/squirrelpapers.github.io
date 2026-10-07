@@ -123,6 +123,9 @@
       "crm:P2_has_type": {
         "@id": "sqpt:data"
       },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v7/i2/e5#landing"
+      },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v7/i2"
       },
@@ -223,6 +226,17 @@
       "crm:P82b_end_of_the_end": {
         "@type": "xsd:dateTime",
         "@value": "2025-12-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v7/i2/e5#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/Research-Squirrel-Engineers/FAIRyland"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
       }
     },
     {

@@ -32,6 +32,10 @@
     crm:P82a_begin_of_the_begin "2026-01-01T00:00:00"^^xsd:dateTime ;
     crm:P82b_end_of_the_end "2026-12-31T23:59:59"^^xsd:dateTime .
 
+<https://w3id.org/squirrelpapers/v8/i2/e1#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/Research-Squirrel-Engineers/samianresearch-stlpa/releases/tag/v0.1> .
+
 <https://w3id.org/squirrelpapers/v8/i2/e1#title> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Samian Research STL-PA" .
 
@@ -55,6 +59,7 @@
     crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v8/i2> ;
     crm:P2_has_type sqpt:software ;
     rdfs:seeAlso <https://github.com/Research-Squirrel-Engineers/samianresearch-stlpa/releases/tag/v0.1> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v8/i2/e1#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v8/i2> ;
     dcat:landingPage <https://squirrelpapers.github.io/v8/i2/e1/> ;
     dcat:theme sqpt:software ;

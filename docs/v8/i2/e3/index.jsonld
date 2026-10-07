@@ -82,6 +82,9 @@
       "crm:P2_has_type": {
         "@id": "sqpt:software"
       },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v8/i2/e3#landing"
+      },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v8/i2"
       },
@@ -170,6 +173,17 @@
       "crm:P82b_end_of_the_end": {
         "@type": "xsd:dateTime",
         "@value": "2026-12-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v8/i2/e3#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/Research-Squirrel-Engineers/GSAS/releases/tag/v0.1"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
       }
     },
     {

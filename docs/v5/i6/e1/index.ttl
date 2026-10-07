@@ -32,6 +32,10 @@
     crm:P82a_begin_of_the_begin "2023-01-01T00:00:00"^^xsd:dateTime ;
     crm:P82b_end_of_the_end "2023-12-31T23:59:59"^^xsd:dateTime .
 
+<https://w3id.org/squirrelpapers/v5/i6/e1#landing> a dcat:Distribution ;
+    dct:title "Landing page of the record"@en ;
+    dcat:accessURL <https://github.com/archaeolink-lod/ars/releases/tag/v0.1> .
+
 <https://w3id.org/squirrelpapers/v5/i6/e1#title> a crm:E35_Title ;
     crm:P190_has_symbolic_content "archaeolink-lod / ars" .
 
@@ -55,6 +59,7 @@
     crm:P106i_forms_part_of <https://w3id.org/squirrelpapers/v5/i6> ;
     crm:P2_has_type sqpt:data ;
     rdfs:seeAlso <https://github.com/archaeolink-lod/ars/releases/tag/v0.1> ;
+    dcat:distribution <https://w3id.org/squirrelpapers/v5/i6/e1#landing> ;
     dcat:inSeries <https://w3id.org/squirrelpapers/v5/i6> ;
     dcat:landingPage <https://squirrelpapers.github.io/v5/i6/e1/> ;
     dcat:theme sqpt:data ;

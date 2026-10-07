@@ -1,0 +1,68 @@
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:    <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo:  <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix geo:    <http://www.opengis.net/ont/geosparql#> .
+@prefix sqps:   <https://w3id.org/squirrelpapers/shapes#> .
+
+# Rules for the CIDOC CRM view (dist/squirrelpapers-crm.ttl, S8). They follow
+# the domains and ranges of CIDOC CRM 7.1 for the properties used in S7.
+
+sqps:CrmExpressionShape
+    a sh:NodeShape ;
+    sh:targetClass lrmoo:F2_Expression ;
+    sh:property [
+        sh:path crm:P102_has_title ; sh:minCount 1 ; sh:maxCount 1 ; sh:class crm:E35_Title ] ;
+    sh:property [
+        sh:path crm:P106i_forms_part_of ; sh:minCount 1 ; sh:maxCount 1 ; sh:class crm:E73_Information_Object ] ;
+    sh:property [
+        sh:path crm:P2_has_type ; sh:minCount 1 ] ;
+    sh:property [
+        sh:path [ sh:inversePath crm:P94_has_created ] ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:class crm:E65_Creation ;
+        sh:message "Every expression has exactly one creation event." ] .
+
+sqps:CrmCreationShape
+    a sh:NodeShape ;
+    sh:targetClass crm:E65_Creation ;
+    sh:property [ sh:path crm:P94_has_created ; sh:minCount 1 ; sh:maxCount 1 ; sh:class crm:E73_Information_Object ] ;
+    sh:property [ sh:path crm:P14_carried_out_by ; sh:minCount 1 ; sh:class crm:E21_Person ] ;
+    sh:property [ sh:path crm:P4_has_time-span ; sh:maxCount 1 ; sh:class crm:E52_Time-Span ] .
+
+sqps:CrmTimeSpanShape
+    a sh:NodeShape ;
+    sh:targetClass crm:E52_Time-Span ;
+    sh:property [ sh:path crm:P82a_begin_of_the_begin ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:dateTime ] ;
+    sh:property [ sh:path crm:P82b_end_of_the_end ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:dateTime ] ;
+    sh:sparql [
+        sh:message "A time-span cannot end before it begins." ;
+        sh:prefixes sqps:crmPrefixes ;
+        sh:select """SELECT $this WHERE { $this crm:P82a_begin_of_the_begin ?a ; crm:P82b_end_of_the_end ?b . FILTER (?b < ?a) }""" ] .
+
+sqps:CrmActivityShape
+    a sh:NodeShape ;
+    sh:targetClass crm:E7_Activity ;
+    sh:property [ sh:path crm:P1_is_identified_by ; sh:minCount 1 ; sh:class crm:E41_Appellation ] ;
+    sh:property [ sh:path crm:P7_took_place_at ; sh:maxCount 1 ; sh:class crm:E53_Place ] ;
+    sh:property [ sh:path crm:P16_used_specific_object ; sh:minCount 1 ; sh:class crm:E73_Information_Object ] .
+
+sqps:CrmPlaceShape
+    a sh:NodeShape ;
+    sh:targetClass crm:E53_Place ;
+    sh:property [ sh:path crm:P168_place_is_defined_by ; sh:maxCount 1 ; sh:datatype geo:wktLiteral ] .
+
+sqps:CrmDigitalObjectShape
+    a sh:NodeShape ;
+    sh:targetClass crmdig:D1_Digital_Object ;
+    sh:property [ sh:path crm:P165_incorporates ; sh:minCount 1 ; sh:class crm:E73_Information_Object ] .
+
+sqps:CrmIdentifierShape
+    a sh:NodeShape ;
+    sh:targetClass crm:E42_Identifier ;
+    sh:property [ sh:path crm:P190_has_symbolic_content ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+    sh:property [ sh:path crm:P2_has_type ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+sqps:crmPrefixes
+    sh:declare [ sh:prefix "crm" ; sh:namespace "http://www.cidoc-crm.org/cidoc-crm/"^^xsd:anyURI ] .

@@ -82,6 +82,9 @@
       "crm:P2_has_type": {
         "@id": "sqpt:data"
       },
+      "dcat:distribution": {
+        "@id": "https://w3id.org/squirrelpapers/v5/i6/e1#landing"
+      },
       "dcat:inSeries": {
         "@id": "https://w3id.org/squirrelpapers/v5/i6"
       },
@@ -162,6 +165,17 @@
       "crm:P82b_end_of_the_end": {
         "@type": "xsd:dateTime",
         "@value": "2023-12-31T23:59:59"
+      }
+    },
+    {
+      "@id": "https://w3id.org/squirrelpapers/v5/i6/e1#landing",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://github.com/archaeolink-lod/ars/releases/tag/v0.1"
+      },
+      "dct:title": {
+        "@language": "en",
+        "@value": "Landing page of the record"
       }
     },
     {
